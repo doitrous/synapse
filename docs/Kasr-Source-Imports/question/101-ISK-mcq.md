@@ -2,6 +2,10 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Haemopoiesis — 6 questions, 4 concepts
+    Joints of Upper Limb — 23 questions, 5 concepts
+    Non granular leukocytes — 14 questions, 5 concepts
+    Types of Connective Tissue Proper — 19 questions, 6 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -13,7 +17,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  3 questions were excluded and 0 held back for having no
+  18 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1342,6 +1346,3911 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q48. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7F60FB78CD75
+## title
+Bone marrow component which can be transplanted into Patients suffering from leukemia i…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Bone marrow component which can be transplanted into Patients suffering from leukemia is ………..:
+## answer_a
+Reticular cells
+## explanation_a
+Reticular cells and their fibres are the marrow's scaffolding. They support haemopoiesis but make no blood cell, so transplanting them would rebuild the shelving and leave it empty.
+## answer_b
+Blood sinusoids
+## explanation_b
+Blood sinusoids are the route out of the marrow, not the source. They are vessels of the recipient's own bone and are not transferred.
+## answer_c
+Fat cells
+## explanation_c
+Fat cells are what fills marrow as it becomes inactive — the opposite of what a leukaemic patient needs restored.
+## answer_d
+Haemopoietic stem cells
+## explanation_d
+Correct. The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.
+## correct_answer
+D
+## main_concept
+CON-HEM-5E6C1744F798E1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## topic
+Blood
+## subtopic
+Haemopoiesis
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the component of bone marrow that a transplant actually delivers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q21. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2068DD2D50D5
+## title
+Fibroblast in the histology is a good example for:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fibroblast in the histology is a good example for:
+## answer_a
+Active cells
+## explanation_a
+Correct. The active fibroblast is the department's type example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.
+## answer_b
+Free C.T cells
+## explanation_b
+The fibroblast is a resident — fixed — connective tissue cell, long-lived and staying where it is. The free, transient cells of connective tissue are the plasma cells and the leukocytes that arrive from the blood.
+## answer_c
+Steroid secreting cells
+## explanation_c
+A steroid-secreting cell is recognised by abundant smooth endoplasmic reticulum, tubular mitochondria and lipid droplets. The fibroblast secretes protein — collagen and ground substance — and has rough ER instead.
+## answer_d
+Undifferentiated stem cells
+## explanation_d
+Tempting because the fibroblast comes from an undifferentiated mesenchymal cell, but it is the differentiated product, not the stem cell. The undifferentiated stem cells of connective tissue are the mesenchymal cells and the pericytes.
+## correct_answer
+A
+## main_concept
+CON-FND-E15318FC4CE3A1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## topic
+Connective Tissue
+## subtopic
+Haemopoiesis
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the fibroblast as the standard example of an actively synthesising cell rather than a free or a stem cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q9. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9A4E0493E686
+## title
+Which bone marrow component increases markedly as hematopoietic activity decreases?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which bone marrow component increases markedly as hematopoietic activity decreases?
+## answer_a
+Fat cells
+## explanation_a
+Correct. Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.
+## answer_b
+Erythrocyte
+## explanation_b
+Erythrocytes are a product of haemopoiesis, so they fall with it, not rise. They are also finished cells that leave the marrow through the sinusoids rather than accumulating in it.
+## answer_c
+Hematopoietic cords
+## explanation_c
+The haemopoietic cords are the haemopoietic tissue itself. Saying they increase as haemopoiesis decreases contradicts the stem — a trap for a student reading only the words "bone marrow component".
+## answer_d
+stem cells
+## explanation_d
+Stem cells are the source of haemopoiesis. Their numbers do not swell to fill an inactive marrow; the space is taken by fat.
+## correct_answer
+A
+## main_concept
+CON-HEM-AEB2E6C6E8A423
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## topic
+Blood
+## subtopic
+Haemopoiesis
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Predict what replaces haemopoietic tissue in the marrow as its activity falls.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p4 q20. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-CBBE021ADCBF
+## title
+The radial collateral ligament, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial collateral ligament, choose the correct answer:
+## answer_a
+Attached to the neck of the radius
+## explanation_a
+Picked by students who assume a collateral ligament must reach the bone below it. It deliberately does not: an attachment to the neck of the radius would tether the radial head and abolish pronation and supination.
+## answer_b
+Attached to the annular ligament
+## explanation_b
+Correct. The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.
+## answer_c
+It is continuous with the capsule of the superior radioulnar joint
+## explanation_c
+Tempting because the superior radio-ulnar joint does share the elbow capsule, so the two seem continuous. The ligament is described as ending in the anular ligament, and that is the attachment the question wants.
+## answer_d
+Prevents abduction of the elbow joint
+## explanation_d
+The wrong side of the joint. It is the ulnar collateral ligament, on the medial side, that resists abduction — a valgus force; the radial collateral resists adduction.
+## correct_answer
+B
+## main_concept
+CON-MSK-782A87EC05EF74
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the distal attachment of the radial collateral ligament and say which stress it resists.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p25 q43; Upper MCQ Dr.jalal (1).pdf p37 q43; Anatomy Question [Upper Limb] (1).pdf p29 q168; Anatomy MCQ Book [2025] [first priority].pdf p49 q168. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial collateral ligament runs from the lateral epicondyle to the anular ligament, and it is the only one of the four statements that is true; A and C are the classic misreadings of that attachment and D swaps it with the ulnar collateral.
+
+
+---
+
+# Item
+## id
+QM-101-52747ADD32F6
+## title
+The radial collateral ligament, choose the correct answer: (DEP BOOK) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial collateral ligament, choose the correct answer: (DEP BOOK) y y
+## answer_a
+Attached to the neck of the radius.
+## explanation_a
+The margin of this copy of the page marks A, which is how the wrong answer reached the bank. Attaching the ligament to the neck of the radius would tether the radial head and abolish pronation and supination.
+## answer_b
+Attached to the annular ligament.
+## explanation_b
+Correct. From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.
+## answer_c
+It is continuous with the capsule of the superior radioulnar joint.
+## explanation_c
+Tempting because the superior radio-ulnar joint shares the elbow capsule. The described attachment is nevertheless to the anular ligament.
+## answer_d
+Prevents abduction of the elbow joint.
+## explanation_d
+The wrong side. Abduction — valgus — is resisted by the ulnar collateral ligament on the medial side.
+## correct_answer
+B
+## main_concept
+CON-MSK-782A87EC05EF74
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the distal attachment of the radial collateral ligament and say which stress it resists.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p100 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A from a margin mark rather than a key, and A is wrong: the radial collateral ligament is attached to the anular ligament and to no part of the radius. The identical row `the-radial-collateral-ligament-choose-the-correct-answer-39257210`, asked four times, printed no key at all.
+
+
+---
+
+# Item
+## id
+QM-101-F6B815B802DA
+## title
+Annular ligament, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Annular ligament, choose the correct answer:
+## answer_a
+Forms about 3/4 of the osseofibrous ring around neck of radius
+## explanation_a
+Half right, which is what makes it dangerous. The ligament does form most of an osseofibrous ring, but that ring encircles the head of the radius, not the neck, and the ligament makes up about four fifths of it, the radial notch of the ulna the rest.
+## answer_b
+Attached to the posterior margin of the radial tuberosity
+## explanation_b
+Picked by students who remember an attachment near the upper radius and reach for the tuberosity. The attachments are to the anterior and posterior margins of the radial notch of the ulna.
+## answer_c
+Attached to the head of the radius
+## explanation_c
+The attachment the ligament cannot have. It surrounds the head of the radius without being fixed to it, and that freedom is exactly what allows the head to rotate during pronation and supination.
+## answer_d
+Its upper border blends with the capsule and ligaments of the elbow joint
+## explanation_d
+Correct. The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.
+## correct_answer
+D
+## main_concept
+CON-MSK-879B4239272078
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the attachments and the borders of the anular ligament.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p30 q169; Anatomy MCQ Book [2025] [first priority].pdf p50 q169. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the one statement that is true as written; A misplaces the ring on the neck rather than the head and understates it, and B and C attach the ligament to bone it never touches.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6BBA748478F0
+## title
+Annular ligament, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Annular ligament, choose the correct answer: (DEP BOOK)
+## answer_a
+Forms about 3/4 of the osseoﬁbrous ring around neck of radius
+## explanation_a
+The answer the extractor read off this page, and the reason this row is overridden. The ring is around the head of the radius; a ring around the neck would slip off under traction, which is the mechanism of a pulled elbow in a child.
+## answer_b
+Attached to the posterior margin of the radial tuberosity
+## explanation_b
+A reach for the nearest named landmark on the upper radius. The ligament is attached to the margins of the radial notch of the ulna instead.
+## answer_c
+Attached to the head of the radius
+## explanation_c
+The attachment the ligament must not have, since the radial head has to spin freely inside it during pronation and supination.
+## answer_d
+Its upper border blends with capsule and ligaments of elbow joint
+## explanation_d
+Correct. The upper border blends with the capsule and ligaments of the elbow; the lower border is free around the neck.
+## correct_answer
+D
+## main_concept
+CON-MSK-879B4239272078
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the attachments and the borders of the anular ligament.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which cannot stand: the ring the ligament forms is around the head of the radius, not the neck. D is true as written, and the duplicate row `annular-ligament-choose-the-correct-answer-f4e27611`, asked twice, printed no key to contradict it.
+
+
+---
+
+# Item
+## id
+QM-101-5B46D6F7A907
+## title
+One of the following is not a ligament of wrist joint: (DEP BOOK – 2021 - 2021) Vi ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a ligament of wrist joint: (DEP BOOK – 2021 - 2021) Vi ad
+## answer_a
+Medial collateral ligament.
+## explanation_a
+A real wrist ligament — the medial or ulnar collateral, from the styloid process of the ulna to the triquetral and pisiform. The bank marks it, and that is the error this override corrects.
+## answer_b
+Lateral collateral ligament.
+## explanation_b
+A real wrist ligament — the lateral or radial collateral, from the styloid process of the radius to the scaphoid.
+## answer_c
+Palmar radiocarpal ligament.
+## explanation_c
+A real wrist ligament — the palmar radiocarpal, one of the anterior and posterior ligaments that bind the radius to the carpus.
+## answer_d
+Annular ligament.
+## explanation_d
+The one that is not, and the answer. The anular ligament is at the elbow, holding the head of the radius against the ulna; students place it at the wrist because it sounds like a retinaculum and because the wrist is where they last met a ring of fibrous tissue.
+## correct_answer
+D
+## main_concept
+CON-MSK-879B4239272078
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute the anular ligament to the superior radio-ulnar joint and not to the wrist.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the medial (ulnar) collateral ligament is a genuine ligament of the wrist. The anular ligament belongs to the superior radio-ulnar joint at the other end of the forearm, so D is the one that is not a wrist ligament.
+
+
+---
+
+# Item
+## id
+QM-101-73838471BA7C
+## title
+Regarding movements of joints:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding movements of joints:
+## answer_a
+Circumduction can occur at the shoulder girdle
+## explanation_a
+The examiner’s answer. The shoulder girdle moves at the sternoclavicular and acromioclavicular joints in elevation, depression, protraction and retraction, and the sum of those around the sternoclavicular saddle is circumduction of the lateral end of the clavicle.
+## answer_b
+Pronation can occur at the wrist joints
+## explanation_b
+The commonest error in this leaf. Pronation happens at the superior and inferior radio-ulnar joints; because the hand is carried on the radius, the movement looks as if it happened at the wrist.
+## answer_c
+Adduction and abduction can occur at the elbow joint
+## explanation_c
+Forbidden by the shape of the joint. The elbow is a uniaxial hinge, so it flexes and extends and does nothing else; what feels like side-to-side play at the elbow is rotation of the shoulder.
+## answer_d
+Flexion and extension can occur at the metacarpophalangeal joints
+## explanation_d
+True as printed — the metacarpophalangeal joints are condyloid and do flex and extend — so it fails to discriminate, and the key nonetheless rests on A. A student who chose this has the anatomy right, and the item needs a faculty eye rather than the student’s.
+## correct_answer
+A
+## main_concept
+CON-MSK-B88F413E4536F9
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q61; Upper MCQ Dr.jalal (1).pdf p40 q61; Anatomy Question [Upper Limb] (1).pdf p12 q70. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7F5E1FE989CB
+## title
+Regarding movements of joints: (DEP BOOK) Vi P y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding movements of joints: (DEP BOOK) Vi P y
+## answer_a
+Circumduction can occur at the shoulder girdle
+## explanation_a
+Correct, and the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.
+## answer_b
+Pronation can occur at the wrist joints
+## explanation_b
+Pronation belongs to the two radio-ulnar joints, not the wrist. The hand follows the radius, which is what makes the movement seem to be at the wrist.
+## answer_c
+Adduction and abduction can occur at the elbow joint
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. A hinge has one axis; abduction and adduction at the elbow are anatomically impossible.
+## answer_d
+Flexion and extension can occur at the metacarpophalangeal joints
+## explanation_d
+True as printed, since the metacarpophalangeal joints are condyloid and flex and extend. It does not discriminate, and the examiner’s key rests on A.
+## correct_answer
+A
+## main_concept
+CON-MSK-B88F413E4536F9
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p104 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, which is impossible: the elbow is a uniaxial hinge and cannot abduct or adduct. The identical row `regarding-movements-of-joints-39f1039b`, asked three times, is keyed A, and A is the option this override restores.
+
+
+---
+
+# Item
+## id
+QM-101-6874B889DAC1
+## title
+Movements of abduction and adduction are possible at the following joint: (2017) Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Movements of abduction and adduction are possible at the following joint: (2017) Vi
+## answer_a
+Elbow joint.y Ac
+## explanation_a
+A uniaxial hinge. Flexion and extension are all the elbow has; any apparent side-to-side movement comes from the shoulder.
+## answer_b
+Wrist joint
+## explanation_b
+Correct. The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.
+## answer_c
+Superior radio-ulnar
+## explanation_c
+The answer the extractor took from the page, and the reason for the override. The superior radio-ulnar joint is a pivot: the radial head spins within the anular ligament on one axis, producing pronation and supination and nothing else.
+## answer_d
+Inferior radio-ulnar
+## explanation_d
+The inferior radio-ulnar joint is the other pivot of the same pair, moving with the superior one in pronation and supination only.
+## correct_answer
+B
+## main_concept
+CON-MSK-B88F413E4536F9
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Identify the one joint in the forearm and wrist with two axes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but a pivot joint has a single axis and permits rotation only. The wrist is the sole biaxial joint among the four offered, so B is the only possible answer.
+
+
+---
+
+# Item
+## id
+QM-101-18D2DC4D10B5
+## title
+Which is correct about lumbrical muscles? (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which is correct about lumbrical muscles? (2021)
+## answer_a
+Lumbricals are each attached to a tendon of ﬂexor digitorum superﬁcial is
+## explanation_a
+The wrong flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deep tendons that pass on through to the distal phalanges; superficialis splits and never reaches them.
+## answer_b
+They are all supplied by the median nerve
+## explanation_b
+True of the lateral two only. The medial two lumbricals are supplied by the deep branch of the ulnar nerve, which is why an ulnar lesion, not a median one, produces the clawed ring and little fingers.
+## answer_c
+They produce ﬂexion at the metacarpophalangeal joints of the ﬁnger
+## explanation_c
+Correct. Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.
+## answer_d
+They produce ﬂexion at the interphalangeal joint. y ad
+## explanation_d
+The exact reverse of what the extensor expansion insertion produces. Lumbricals extend the interphalangeal joints; losing that action is what lets the profundus claw the fingers.
+## correct_answer
+C
+## main_concept
+CON-MSK-B88F413E4536F9
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Movements
+## learning_objective
+State what the lumbricals do at the metacarpophalangeal and interphalangeal joints, and separate the two.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q31. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The lumbricals arise from flexor digitorum profundus and insert into the dorsal extensor expansion, so they flex the metacarpophalangeal joints and extend the interphalangeal joints; C is the only option that states either correctly.
+
+
+---
+
+# Item
+## id
+QM-101-0C2185D68E06
+## title
+The elbow joint is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The elbow joint is:
+## answer_a
+Hinge
+## explanation_a
+Correct. The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.
+## answer_b
+Ellipsoid
+## explanation_b
+Ellipsoid is the wrist. Students swap the two because both joints bend in the same direction, but the wrist adds a second axis the elbow has not.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar is the knee and the temporomandibular joint. The elbow has a capitulum as well as a trochlea, which makes it look like two condyles until you notice the radius, not the ulna, meets the capitulum.
+## answer_d
+Ball and socket
+## explanation_d
+Ball and socket is the shoulder, and the shoulder is the joint most students name first when they are thinking about the upper limb rather than the elbow.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Basis
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the elbow joint by the shape of its articular surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q34. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FEBEF679B833
+## title
+The elbow joint is: (DEP BOOK). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The elbow joint is: (DEP BOOK). em em em em em
+## answer_a
+Hinge
+## explanation_a
+Correct. Trochlea in trochlear notch is a hinge, and it moves on one axis only.
+## answer_b
+Ellipsoid
+## explanation_b
+Ellipsoid is the wrist. The two are swapped because both bend the same way; only the wrist has a second axis.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar belongs to the knee. The elbow’s capitulum makes it look like a second condyle until you notice it takes the radius rather than the ulna.
+## answer_d
+Ball and socket
+## explanation_d
+The answer printed on this page, and the reason for the override. Ball and socket is the shoulder — the joint students name when they are thinking of the upper limb in general rather than of the elbow.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the elbow joint by the shape of its articular surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p10 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D — ball and socket — which is the shoulder, not the elbow. The identical row `the-elbow-joint-is-b2ab4933` is keyed A, and the elbow is a hinge on every account this module teaches.
+
+
+---
+
+# Item
+## id
+QM-101-BA6544F0AF5F
+## title
+The wrist joint is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The wrist joint is:
+## answer_a
+Hinge
+## explanation_a
+Hinge is the elbow. It is the wrist’s second axis — the abduction and adduction of radial and ulnar deviation — that rules a hinge out.
+## answer_b
+Ellipsoid
+## explanation_b
+Correct. The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar belongs to the knee, where two separate condyles articulate side by side. The wrist has one continuous oval surface.
+## answer_d
+Ball and socket
+## explanation_d
+Ball and socket is the shoulder. It would give the wrist rotation, and the wrist has none of its own — what looks like rotation there is pronation and supination of the forearm.
+## correct_answer
+B
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Basis
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the wrist joint by the shape of its articular surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q35; Anatomy MCQ Book [2025] [first priority].pdf p7 q35. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-092147CE60E5
+## title
+The wrist joint is: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The wrist joint is: (DEP BOOK)
+## answer_a
+Hinge.
+## explanation_a
+Hinge is the elbow. The wrist has a second axis the elbow lacks.
+## answer_b
+Ellipsoid.
+## explanation_b
+Correct. An oval radial surface in an oval carpal one is an ellipsoid joint, biaxial and therefore capable of circumduction.
+## answer_c
+Bicondylar.
+## explanation_c
+Bicondylar belongs to the knee, which has two separate condyles rather than one continuous oval.
+## answer_d
+Ball and socket.
+## explanation_d
+Ball and socket is the shoulder, and would wrongly give the wrist a rotation of its own; the rotation felt there comes from the radio-ulnar joints.
+## correct_answer
+B
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the wrist joint by the shape of its articular surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p10 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E08204F7553E
+## title
+One of the following joints of the upper limb is synovial biaxial ellipsoid: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following joints of the upper limb is synovial biaxial ellipsoid: (2019)
+## answer_a
+Elbow joint.y Vi
+## explanation_a
+The answer this page carries, and the reason for the override. The elbow is a uniaxial synovial hinge; the same question book keys it as a hinge elsewhere in this leaf.
+## answer_b
+Wrist joint
+## explanation_b
+Correct. The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.
+## answer_c
+Acromioclavicular joint
+## explanation_c
+The acromioclavicular joint is a plane joint, where two flat surfaces glide. It is small and easy to leave unclassified, which is what makes it a usable distractor.
+## answer_d
+Carpometacarpal joint of thumb. P
+## explanation_d
+The carpometacarpal joint of the thumb is a saddle joint, and it is biaxial — which is exactly why it is offered here. Saddle and ellipsoid share the axis count but not the surface shape.
+## correct_answer
+B
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Match the description "synovial biaxial ellipsoid" to the one upper limb joint it fits.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the elbow is a uniaxial hinge and cannot be a biaxial ellipsoid. The wrist is the module’s worked example of an ellipsoid joint, so B is the answer; the elbow rows in this same leaf are keyed to hinge, which makes A self-contradictory.
+
+
+---
+
+# Item
+## id
+QM-101-84CE4987B229
+## title
+Regarding types of the joints of upper limb, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding types of the joints of upper limb, choose correct answer:
+## answer_a
+The elbow joint is synovial hinge joint
+## explanation_a
+Correct. Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.
+## answer_b
+The carpometacarpal joint of the thumb is synovial pivot
+## explanation_b
+The right joint and the wrong type. The carpometacarpal joint of the thumb is a saddle, and it is that saddle shape that gives the thumb its opposition; a pivot would give it rotation about a single axis instead.
+## answer_c
+The radioulnar joints are ball and socket
+## explanation_c
+The radio-ulnar joints are pivots. Ball and socket is offered because both permit rotation, but a pivot rotates about one axis and a ball and socket about three.
+## answer_d
+The wrist joint is synovial saddle
+## explanation_d
+The right joint and the wrong type again. The wrist is ellipsoid; the saddle in the upper limb is the thumb’s carpometacarpal joint, one option above.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q60; Upper MCQ Dr.jalal (1).pdf p39 q60. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only A classifies its joint correctly: the elbow is a synovial hinge. The other three each name a real joint and give it the wrong type.
+
+
+---
+
+# Item
+## id
+QM-101-5D0D63CDA4A8
+## title
+Regarding the types of the joints of the upper limb, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the types of the joints of the upper limb, choose the correct answer:
+## answer_a
+The elbow joint is synovial hinge joint
+## explanation_a
+Correct. The elbow is a synovial hinge, uniaxial, flexing and extending only.
+## answer_b
+The carpometacarpal joint of the thumb is synovial pivot
+## explanation_b
+The thumb’s carpometacarpal joint is a saddle, not a pivot. The saddle is what allows opposition, which no pivot could produce.
+## answer_c
+The radioulnar joints are ball and socket
+## explanation_c
+The radio-ulnar joints are pivots. Both a pivot and a ball and socket rotate, which is the resemblance the option trades on, but a pivot has one axis and a ball and socket three.
+## answer_d
+The wrist joint is synovial saddle
+## explanation_d
+The wrist is ellipsoid. Saddle belongs to the thumb, one option above, and swapping the two is the trap this question is built around.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p27 q50. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The elbow is a synovial hinge, and it is the only one of the four statements whose type matches its joint.
+
+
+---
+
+# Item
+## id
+QM-101-5CBD5DCB2F38
+## title
+Regarding the types of joints of the upper limb, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the types of joints of the upper limb, mark one correct statement:
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot. Ball and socket is offered because the radial head is round, but it spins on one axis inside the anular ligament rather than moving on three.
+## answer_b
+The acromioclavicular joint is of saddle variety
+## explanation_b
+The acromioclavicular joint is a plane joint of two flat gliding surfaces. The saddle of the upper limb is the thumb’s carpometacarpal joint.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. Pivot is the type of the two radio-ulnar joints, and the superior one shares the elbow capsule — which is precisely why students hand the elbow its type.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.
+## correct_answer
+D
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p17 q97. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F363D66F2E60
+## title
+Regarding types of joints of upper limb, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding types of joints of upper limb, mark one correct statement:
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot. The round radial head suggests a ball, but it turns on one axis inside the anular ligament.
+## answer_b
+The acromioclavicular joint is of saddle variety
+## explanation_b
+The acromioclavicular joint is a plane joint. The saddle joint of the upper limb is the thumb’s carpometacarpal.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. Pivot is borrowed from the superior radio-ulnar joint, which shares the elbow’s capsule and so is easily read as part of it.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.
+## correct_answer
+D
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q59. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The identical question at `regarding-the-types-of-joints-of-the-upper-limb-mark-one-cor-2a45433e` is keyed D, and the wrist is indeed the ellipsoid joint of the limb; the other three statements each give a real joint the wrong type.
+
+
+---
+
+# Item
+## id
+QM-101-4F0A2F24048D
+## title
+Regarding types of foints of upper limb, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding types of foints of upper limb, mark one correct statement:
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot: one axis, giving pronation and supination.
+## answer_b
+The acromioclavicular joint is of saddle variety. 1
+## explanation_b
+The acromioclavicular joint is plane. Saddle is the thumb’s carpometacarpal joint.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. The pivot in that neighbourhood is the superior radio-ulnar joint, which shares the capsule.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is a biaxial ellipsoid joint.
+## correct_answer
+D
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p39 q59. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and OCR has turned "joints" into "foints" in the stem without touching the options. The keyed copy of this question, `regarding-the-types-of-joints-of-the-upper-limb-mark-one-cor-2a45433e`, gives D, and the wrist is the ellipsoid joint of the upper limb.
+
+
+---
+
+# Item
+## id
+QM-101-7DD2E457E053
+## title
+Sternoclavicular joint, choose the. correct answer: (DEP BOOK) Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Sternoclavicular joint, choose the. correct answer: (DEP BOOK) Ac em
+## answer_a
+Is a synovial hinge joint
+## explanation_a
+The answer printed on this page, and the reason for the override. The sternoclavicular joint is a synovial saddle joint; calling it a hinge would confine the clavicle to one axis when in fact it elevates, depresses, protracts, retracts and circumducts.
+## answer_b
+Contains a ﬁbrocartilaginous disc
+## explanation_b
+Correct. A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.
+## answer_c
+Between clavicle and sternum at the angle of Lewis
+## explanation_c
+Off by one level. The angle of Lewis — the sternal angle — is where the second costal cartilage meets the sternum, below this joint; the sternoclavicular joint is on the manubrium with the first costal cartilage.
+## answer_d
+Supported by coracoclavicular ligament. y
+## explanation_d
+The other end of the clavicle. The coracoclavicular ligament supports the acromioclavicular joint; the ligament that anchors the clavicle down here is the costoclavicular, and the two names differ by a syllable.
+## correct_answer
+B
+## main_concept
+CON-MSK-5079195BC42B5E
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the type, the disc and the supports of the sternoclavicular joint, and distinguish them from the acromioclavicular joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p96 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-2242384CA11C
+## title
+Cells are required for Initiation of cellular & humoral immunity:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Cells are required for Initiation of cellular & humoral immunity:
+## answer_a
+T Helper & Macrophage
+## explanation_a
+Correct. The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.
+## answer_b
+T suppressor & Monocyte
+## explanation_b
+The suppressor (regulatory) T cell damps a response down and maintains tolerance to self. Pairing the brake with the response it is supposed to start is the trap here.
+## answer_c
+B lymphocyte & Macrophage
+## explanation_c
+Half right, which is what makes it attractive: the macrophage is one of the pair, but the B lymphocyte is the effector of the humoral response only, and it acts after the helper T cell, not before it.
+## answer_d
+Plasmablast & Monocyte
+## explanation_d
+The plasmablast is already a committed antibody-producing cell — the end of the humoral response, not its beginning — and it has no part in the cell-mediated arm.
+## correct_answer
+A
+## main_concept
+CON-HEM-681584C9DC1F94
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Histology-general
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name the two cells whose interaction opens both arms of the immune response.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p24 q11. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`, and A is also what the department teaches: the macrophage presents the antigen and the helper T cell is activated by it.
+
+
+---
+
+# Item
+## id
+QM-101-FE9111EB2AD1
+## title
+………….. is Antigen presenting cell, precursor of All phagocytic cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+………….. is Antigen presenting cell, precursor of All phagocytic cell
+## answer_a
+lymphocyte
+## explanation_a
+A lymphocyte is immune-competent but not phagocytic, and it gives rise to plasma cells rather than to macrophages.
+## answer_b
+monocyte
+## explanation_b
+Correct. The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.
+## answer_c
+Nertrophil
+## explanation_c
+The neutrophil is highly phagocytic, which is exactly what makes it tempting, but it is an end cell: it phagocytoses and dies as a pus cell, and nothing descends from it.
+## answer_d
+megakaryocyte
+## explanation_d
+The megakaryocyte belongs to the marrow and sheds platelets. It leaves nothing behind in the tissues.
+## correct_answer
+B
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the monocyte as the source of every phagocytic cell of the tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q28. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-136337E3F13A
+## title
+………….. is Antigen presenting cell, precursor of phagocytic cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+………….. is Antigen presenting cell, precursor of phagocytic cell
+## answer_a
+lymphocyte
+## explanation_a
+A lymphocyte carries antigen receptors but does not phagocytose or present antigen to others; that is the macrophage's and the monocyte's role.
+## answer_b
+monocyte
+## explanation_b
+Correct. The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.
+## answer_c
+Nertrophil
+## explanation_c
+The neutrophil phagocytoses vigorously but presents no antigen and is a terminal cell — it dies at the site as a pus cell.
+## answer_d
+megakaryocyte
+## explanation_d
+The megakaryocyte is a marrow cell that produces platelets; it is neither phagocytic nor antigen-presenting.
+## correct_answer
+B
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the monocyte as both an antigen-presenting cell and the precursor of the tissue phagocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p6 q43. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6C4C95DBBA08
+## title
+The largest leucocytes is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The largest leucocytes is:
+## answer_a
+Monocyte
+## explanation_a
+Correct. The monocyte is 13–20 µm, larger than any other white cell on the film.
+## answer_b
+Large lymphocyte
+## explanation_b
+The commonest wrong answer, and an understandable one: the large lymphocyte is big at 10–15 µm, but it stops short of the monocyte. Its round nucleus, against the monocyte's kidney-shaped one, tells them apart.
+## answer_c
+Neutrophil
+## explanation_c
+The neutrophil is 10–12 µm. It looks busy because of its lobes, not because it is large.
+## answer_d
+Natural killer
+## explanation_d
+The natural killer cell is a large lymphocyte and shares its size range, so it cannot be larger than the large lymphocyte, let alone the monocyte.
+## correct_answer
+A
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Rank the leukocytes by diameter and name the largest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p5 q25. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6C92B334633A
+## title
+The origin of macrophages is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The origin of macrophages is:
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is the resting fibroblast. It makes fibres and ground substance and has no phagocytic role.
+## answer_b
+Pericytes
+## explanation_b
+The pericyte is an adult mesenchymal stem cell around capillaries and can become endothelium, fibroblast or smooth muscle — but not a macrophage.
+## answer_c
+Monocytes
+## explanation_c
+Correct. The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.
+## answer_d
+B lymphocytes
+## explanation_d
+The B lymphocyte becomes the plasma cell. Confusing the two lines is the trap: one produces antibody, the other phagocytoses.
+## correct_answer
+C
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Connective Tissue
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the blood cell the tissue macrophage comes from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q141. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4321FDCE489A
+## title
+The origin of plasma cells is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The origin of plasma cells is:
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is a resting fibroblast. Both it and the plasma cell are connective tissue cells, but they are unrelated lines.
+## answer_b
+Pericytes
+## explanation_b
+The pericyte gives endothelium, fibroblasts and smooth muscle. It makes no immune cell.
+## answer_c
+Monocytes
+## explanation_c
+The monocyte becomes the macrophage. Picking it here is the mirror image of the commonest error on the macrophage question — the two answers get swapped as a pair.
+## answer_d
+B lymphocytes
+## explanation_d
+Correct. The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.
+## correct_answer
+D
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Connective Tissue
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell the plasma cell descends from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q142. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2C1B6DC0085D
+## title
+Two cells are required for the initiation of the cellular and humoral immune responses:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Two cells are required for the initiation of the cellular and humoral immune responses:
+## answer_a
+T helper & Macrophage
+## explanation_a
+Correct. The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.
+## answer_b
+T suppressor & Monocyte
+## explanation_b
+The suppressor T cell exists to limit a response and to hold tolerance to self antigens. It ends responses rather than starting them.
+## answer_c
+B lymphocyte & Macrophage
+## explanation_c
+The macrophage is right and the B lymphocyte is wrong: the B cell is the effector of the humoral arm and has no part in starting the cell-mediated one, and it needs the helper T cell before it does anything at all.
+## answer_d
+Plasmablast & Monocyte
+## explanation_d
+The plasmablast is the B lymphocyte already committed to making antibody, so it belongs at the end of the humoral response, not the start of both.
+## correct_answer
+A
+## main_concept
+CON-HEM-681584C9DC1F94
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name the two cells whose interaction initiates both the cell-mediated and the humoral response.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p2 q7. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BBF9DD9BA1C3
+## title
+Which cell can divide
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which cell can divide
+## answer_a
+Erythrocytes
+## explanation_a
+The erythrocyte has no nucleus and no organelles — the space is given over to haemoglobin — so it cannot divide at all.
+## answer_b
+Thrombocyte
+## explanation_b
+The thrombocyte is a shed fragment of megakaryocyte cytoplasm with no nucleus, so division is impossible.
+## answer_c
+Lymphocyte
+## explanation_c
+Correct. The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.
+## answer_d
+Monocyte
+## explanation_d
+The tempting one: the monocyte has a large nucleus and clearly changes into a macrophage. But that is differentiation, not division — it is already an end cell when it leaves the marrow.
+## correct_answer
+C
+## main_concept
+CON-HEM-667148E42AB738
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the one circulating blood cell that retains the power to divide.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q17. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-052D7D39FBE9
+## title
+Which of the following is a granulocyte?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is a granulocyte?
+## answer_a
+Thrombocyte
+## explanation_a
+A thrombocyte is a platelet, not a leukocyte at all — it is a non-nucleated fragment, and the granular/non-granular split applies only to white cells.
+## answer_b
+Monocyte
+## explanation_b
+The monocyte is a non-granular leukocyte. Its cytoplasm holds azurophil granules, which are lysosomes, but no specific granules.
+## answer_c
+Lymphocyte
+## explanation_c
+The lymphocyte is the other non-granular leukocyte, with only a thin rim of cytoplasm and a few azurophil granules in it.
+## answer_d
+Polymorphonuclear leukocyte
+## explanation_d
+Correct. Polymorphonuclear leukocyte is the neutrophil's other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.
+## correct_answer
+D
+## main_concept
+CON-HEM-785718A47454E8
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the polymorphonuclear leukocyte as a granulocyte under its other name.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q16. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-C19F812D66BC
+## title
+Which of these blood elements can differentiate into plasma cells?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of these blood elements can differentiate into plasma cells?
+## answer_a
+Monocytes
+## explanation_a
+The monocyte differentiates in the tissues, but into the macrophage. Antibody production is not in its line.
+## answer_b
+Megakaryocytes
+## explanation_b
+The megakaryocyte sheds platelets in the marrow. It has nothing to do with immunity.
+## answer_c
+B Lymphocytes
+## explanation_c
+Correct. The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.
+## answer_d
+T Lymphocytes
+## explanation_d
+The near miss, and the reason this is asked: T lymphocytes are essential to the humoral response — the helper T cell is what licenses the B cell — but they mediate cell-mediated immunity and never become plasma cells themselves.
+## correct_answer
+C
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the blood element that becomes the antibody-secreting plasma cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q63; Blood | Module 101 questions.pdf.pdf p2 q11; Dpt Book HISTO MCQ [Blood] (1).pdf p3 q20. Manifest src_2944234d11e92ac4bbc8, src_34c967631e388497dc35, src_995e491b2e22cc96d8ef.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B50755646E3D
+## title
+Loose areolar C.T is abundant in all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Loose areolar C.T is abundant in all of the following except:
+## answer_a
+Dermis of the skin
+## explanation_a
+True, so not the exception. The papillary layer of the dermis is loose areolar connective tissue.
+## answer_b
+Around blood vessels
+## explanation_b
+True, so not the exception. Loose areolar tissue sheathes the vessels and nerves running through the body.
+## answer_c
+Submucosa & muous membranes
+## explanation_c
+True, so not the exception. The lamina propria and submucosa of mucous membranes are loose areolar tissue, which is what lets them swell.
+## answer_d
+brain
+## explanation_d
+The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, and the department names it as the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".
+## correct_answer
+D
+## main_concept
+CON-FND-B784BE0F18B493
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the one organ that loose areolar connective tissue does not occupy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q18. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-76BF3162A4FA
+## title
+Protects newborn infants by heat production:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Protects newborn infants by heat production:
+## answer_a
+White fat. (adipose tissue)
+## explanation_a
+White fat insulates against heat loss, which sounds close enough to be tempting, but insulation is passive. It generates no heat of its own.
+## answer_b
+Mucoid C.T
+## explanation_b
+Mucoid connective tissue is the jelly of the umbilical cord and the dental pulp. It supports and nothing more.
+## answer_c
+Brown fat. (adipose tissue)
+## explanation_c
+Correct. Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.
+## answer_d
+Reticular C.T
+## explanation_d
+Reticular connective tissue forms the stroma of lymph node, spleen and liver. It has no thermal role.
+## correct_answer
+C
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attribute newborn thermogenesis to brown adipose tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q132. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-008B1B1EE2C6
+## title
+Regarding loose areolar connective tissue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding loose areolar connective tissue:
+## answer_a
+It is found below epithelium
+## explanation_a
+Correct. Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.
+## answer_b
+Condensed with fibers
+## explanation_b
+Being condensed with fibres describes dense connective tissue: white fibrous and yellow elastic. Loose areolar tissue has scattered fibres in abundant matrix.
+## answer_c
+It is avascular
+## explanation_c
+Backwards, and worth getting right: loose areolar tissue is well vascularised, which is exactly why the avascular epithelium above it can be fed at all.
+## answer_d
+It has little ground substance
+## explanation_d
+Also backwards. Loose areolar tissue has the most abundant ground substance of any connective tissue proper — that abundance is what makes it loose.
+## correct_answer
+A
+## main_concept
+CON-FND-B784BE0F18B493
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the position of loose areolar connective tissue beneath epithelium and reject the properties of dense tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-296CBDC29E44
+## title
+The followings are functions for adipose C.T EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The followings are functions for adipose C.T EXCEPT:
+## answer_a
+Act as thermal insulator against heat loss
+## explanation_a
+True, so not the exception. Subcutaneous fat is the body's thermal insulation.
+## answer_b
+Antibody secretion
+## explanation_b
+The exception, and the answer. Antibody is secreted by the plasma cell. Adipose tissue is connective tissue and connective tissue does contain defence cells, which is what makes this misfire — but the fat cell itself secretes leptin, not immunoglobulin.
+## answer_c
+Keep some organs (like kidney) in position
+## explanation_c
+True, so not the exception. Perirenal fat holds the kidney in position, and losing it lets the kidney drop.
+## answer_d
+Fill the spaces between the tissues
+## explanation_d
+True, so not the exception. Fat fills the spaces between tissues and gives the skin its contour.
+## correct_answer
+B
+## main_concept
+CON-FND-37C773B1F99BE3
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the functions of adipose tissue from those of the immune cells that live in connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q64. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CC861AC1CF5F
+## title
+The followings are functions for white adipose C.T EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The followings are functions for white adipose C.T EXCEPT:
+## answer_a
+Act as thermal insulator against heat loss
+## explanation_a
+True, so not the exception. White fat is the body's insulation against heat loss.
+## answer_b
+Act as thermal generator(thermogenesis)
+## explanation_b
+The exception, and the answer. Thermogenesis belongs to brown, multilocular fat, whose mitochondria carry thermogenin. The pair of words is the trap: insulating against heat loss and generating heat sound like one function and are two, in two different tissues.
+## answer_c
+Keep some organs (like kidney) in position
+## explanation_c
+True, so not the exception. White fat around the kidney keeps it in position.
+## answer_d
+Fill the spaces between the tissues
+## explanation_d
+True, so not the exception. White fat fills the spaces between tissues.
+## correct_answer
+B
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign thermogenesis to brown fat and insulation to white.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q14. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E9C3DAFD8FA9
+## title
+The most common type of connective tissue is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of connective tissue is:
+## answer_a
+Reticular connective tissue
+## explanation_a
+Reticular connective tissue is restricted to the stroma of lymph node, spleen and liver. It is delicate and specialised, not general-purpose.
+## answer_b
+Adipose connective tissue
+## explanation_b
+Adipose tissue is bulky and conspicuous, which is why it draws the eye, but it is confined to fat depots. Bulk is not the same as being widespread.
+## answer_c
+Loose areolar connective tissue
+## explanation_c
+Correct. Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.
+## answer_d
+White fibrous connective tissue
+## explanation_d
+White fibrous connective tissue is dense and specialised for strength — tendon, ligament, organ capsule, reticular dermis — so it appears wherever pull must be resisted and nowhere else.
+## correct_answer
+C
+## main_concept
+CON-FND-5DCA7C68C51E38
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the commonest type of connective tissue proper.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p3 q21. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department states outright that loose areolar connective tissue is the most common type, and the leaf's other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.
+
+
+---
+
+# Item
+## id
+QM-101-E6EE35800F41
+## title
+The most widespread C.T is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most widespread C.T is:
+## answer_a
+Loose areolar C.T
+## explanation_a
+Correct. Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.
+## answer_b
+Reticular C.T
+## explanation_b
+Reticular connective tissue lies only in the stroma of the lymphoid organs and the liver.
+## answer_c
+Mucous C.T
+## explanation_c
+Mucous (mucoid) connective tissue is confined to the umbilical cord, the vitreous humour and the dental pulp — three places, and two of them only before birth.
+## answer_d
+Adipose C.T
+## explanation_d
+Adipose tissue is widely distributed but is present only where fat is stored, and its amount varies with diet and hormones rather than being a constant feature of every space.
+## correct_answer
+A
+## main_concept
+CON-FND-5DCA7C68C51E38
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the most widely distributed connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q57. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-512A9BB0B003
+## title
+The Pulp of teeth is formed from which type of connective tissue ?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The Pulp of teeth is formed from which type of connective tissue ?
+## answer_a
+Mesenchymal
+## explanation_a
+Mesenchymal tissue is the embryonic connective tissue from which all the rest arise. The dental pulp develops from it but is not still it.
+## answer_b
+Loose areolar
+## explanation_b
+Loose areolar tissue also has abundant ground substance, which is the pull here, but its matrix is not jelly and it holds every cell type rather than mainly fibroblasts.
+## answer_c
+Mucoid
+## explanation_c
+Correct. The pulp of the teeth is mucoid connective tissue, along with the umbilical cord — Wharton's jelly — and the vitreous humour.
+## answer_d
+Adipose
+## explanation_d
+Adipose tissue is fat cells predominating. There is no fat depot inside a tooth.
+## answer_e
+Elastic
+## explanation_e
+Yellow elastic tissue is dense parallel elastic fibres, built for recoil, and sits in the aorta, the airways and the elastic ligaments.
+## correct_answer
+C
+## main_concept
+CON-FND-EA4034F1E87235
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise dental pulp as one of the three sites of mucoid connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p1 q2. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EF818275318C
+## title
+The Type of C.T. contains all types of C.T. cells & fibers is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The Type of C.T. contains all types of C.T. cells & fibers is called:
+## answer_a
+Loose areolar C.T
+## explanation_a
+Correct. Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.
+## answer_b
+Adipose C.T
+## explanation_b
+Adipose tissue is defined by one cell predominating — the fat cell — which is the opposite of containing all of them.
+## answer_c
+White fibrous C.T
+## explanation_c
+White fibrous tissue is packed collagen bundles with fibroblasts and almost no other cell, and it carries no elastic or reticular fibres to speak of.
+## answer_d
+Mucoid C.T
+## explanation_d
+Mucoid tissue contains mainly fibroblasts, with only fine collagen and reticular fibres. Its abundant matrix makes it a plausible guess, but its cell population is narrow.
+## correct_answer
+A
+## main_concept
+CON-FND-5DCA7C68C51E38
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the one connective tissue that contains every cell type and every fibre type.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q32. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CF1E90E5DF9
+## title
+What type of adipose tissue tends to decrease as humans age?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of adipose tissue tends to decrease as humans age?
+## answer_a
+Both white & brown adipose tissue
+## explanation_a
+Both cannot fall, because the tissue that is lost is replaced by the other. White fat increases as brown fat disappears.
+## answer_b
+White adipose tissue
+## explanation_b
+White adipose tissue increases with age rather than decreasing — it is what replaces the brown fat of infancy.
+## answer_c
+Unilocular adipose tissue
+## explanation_c
+Unilocular is the fat cell of white adipose tissue, so this is the same wrong answer as B under its cellular name.
+## answer_d
+Multilocular adipose tissue
+## explanation_d
+Correct. Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.
+## correct_answer
+D
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State which adipose tissue is lost after infancy and give it under both its names.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q44. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-4418C14CC9D8
+## title
+What type of adipose tissue tends to increase as humans age?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of adipose tissue tends to increase as humans age?
+## answer_a
+Brown adipose tissue
+## explanation_a
+Brown adipose tissue is the one that goes: plentiful in the newborn, largely lost during childhood as white fat replaces it.
+## answer_b
+White adipose tissue
+## explanation_b
+True as far as it goes, and this is where a student stops too early. White adipose tissue does increase — but so does unilocular adipose tissue, because they are the same thing.
+## answer_c
+Unilocular adipose tissue
+## explanation_c
+Also true, and for the same reason: the unilocular fat cell is the cell of white adipose tissue.
+## answer_d
+Both b and c
+## explanation_d
+Correct. B and C are two names for one tissue, so both are right and the combined option is the only complete answer.
+## correct_answer
+D
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that white and unilocular name the same tissue, so an option offering both must be the answer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q5. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-3DB071E9CA5C
+## title
+Which of the following can be classified as "specialized connective tissue"?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following can be classified as "specialized connective tissue"?
+## answer_a
+Mesenchyme
+## explanation_a
+Mesenchyme is the embryonic connective tissue every other type arises from. It is a precursor, not a specialisation.
+## answer_b
+Mucoid connective tissue
+## explanation_b
+Mucoid connective tissue is one of the four loose types of connective tissue proper — its matrix is soft, which is what keeps it in that group.
+## answer_c
+Dense connective tissue
+## explanation_c
+Dense connective tissue is also connective tissue proper, just with fibres predominating over matrix. Being firm is not the same as being specialised.
+## answer_d
+Blood
+## explanation_d
+Correct. The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.
+## correct_answer
+D
+## main_concept
+CON-FND-FE298AB3CE47E9
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Distinguish the specialised connective tissues from connective tissue proper and from embryonic connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q2. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-513A55975B7B
+## title
+Which of the following is NOT primarily composed of connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT primarily composed of connective tissue?
+## answer_a
+Brain
+## explanation_a
+Correct. The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place the department says loose areolar tissue is absent.
+## answer_b
+Organ capsule
+## explanation_b
+An organ capsule is irregular white fibrous connective tissue — dense collagen bundles running in several directions.
+## answer_c
+Ligament
+## explanation_c
+A ligament is connective tissue too: irregular white fibrous tissue, or in a few named cases yellow elastic tissue.
+## answer_d
+Areolar tissue
+## explanation_d
+Areolar tissue is the commonest connective tissue proper, so it is the most connective tissue of all four — picked only by a student reading the "NOT" too quickly.
+## correct_answer
+A
+## main_concept
+CON-FND-FE298AB3CE47E9
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise which named structures are built of connective tissue and which is not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q15. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6EADF7624B15
+## title
+Which types of adipose cells is a characteristic for newborns:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which types of adipose cells is a characteristic for newborns:
+## answer_a
+white
+## explanation_a
+White fat is present in the newborn but is not characteristic of it — it is the adult's fat, and it increases as brown fat is lost.
+## answer_b
+yellow
+## explanation_b
+Yellow describes bone marrow and elastic connective tissue, not a type of fat cell.
+## answer_c
+grey
+## explanation_c
+Grey is not one of the department's two types of adipose tissue.
+## answer_d
+brown
+## explanation_d
+Correct. Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.
+## correct_answer
+D
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the adipose tissue characteristic of the newborn.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q99. Manifest src_4e481d399b2ffd65b97a.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.

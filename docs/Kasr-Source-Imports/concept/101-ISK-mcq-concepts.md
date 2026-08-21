@@ -2,6 +2,10 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Haemopoiesis — 6 questions, 4 concepts
+    Joints of Upper Limb — 23 questions, 5 concepts
+    Non granular leukocytes — 14 questions, 5 concepts
+    Types of Connective Tissue Proper — 19 questions, 6 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -13,7 +17,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  3 questions were excluded and 0 held back for having no
+  18 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -261,6 +265,1020 @@ kau
 ## exam_signal
 src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Red bone marrow is active haemopoietic tissue; yellow bone marrow is its inactive fatty replacement
+## id
+CON-HEM-AEB2E6C6E8A423
+## canonical_key
+bone-marrow-red-and-yellow
+## definition
+Bone marrow is myeloid tissue and is of two kinds. Red marrow is active and forms blood cells; it fills most bones in children and, in the adult, the flat, short and irregular bones. Yellow marrow is inactive and consists largely of fat cells; it occupies the shafts of the adult long bones. The two are interconvertible: yellow marrow is a fat store that changes back into active red marrow when the body needs blood cells, and red marrow fills with fat as haemopoietic activity falls.
+## explicit_objective
+Distinguish red from yellow bone marrow by activity, fat content and site, and state that the change between them runs in both directions.
+## pitfalls
+Reading yellow marrow as dead or scarred tissue. It is a reserve, and its fat is what recedes when demand for blood cells rises.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The haemopoietic stem cell is the marrow component transplanted to treat leukaemia, because it alone repopulates every blood cell line
+## id
+CON-HEM-5E6C1744F798E1
+## canonical_key
+haemopoietic-stem-cell-is-the-transplanted-component
+## definition
+Bone marrow transplantation infuses stem cells taken from a donor, or from the patient's own marrow, into a patient with a marrow disease such as leukaemia. What is being given is the haemopoietic stem cell: it is the free cell of the marrow from which every blood cell line descends, so it alone can restore all of them. The reticular cells, fat cells and blood sinusoids of the stroma are the tissue the stem cells then grow in, not the graft.
+## explicit_objective
+Identify the haemopoietic stem cell as the transplanted component of bone marrow and explain why the stromal components are not.
+## pitfalls
+Picking whichever component looks most like the marrow — the sinusoids or the reticular network. A transplant has to restore every blood cell line, and only the stem cell can do that.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S02-M03 | SYS-HEM-T04-S02-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
+## id
+CON-HEM-E27E5F8544640A
+## canonical_key
+red-bone-marrow-stroma-and-free-cells
+## definition
+Red bone marrow has a stroma and free cells. The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood. The free cells are the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived.
+## explicit_objective
+Name the fixed cells, the sinusoids and the free cells of red bone marrow and say what each contributes.
+## pitfalls
+Expecting the sinusoid to have a continuous basement membrane like an ordinary capillary. It is the gaps in it that let a finished blood cell leave the marrow at all.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The fibroblast is the active, protein-synthesising state of a fixed connective tissue cell, and the fibrocyte is its resting state
+## id
+CON-FND-E15318FC4CE3A1
+## canonical_key
+fibroblast-active-and-fibrocyte-inactive
+## definition
+The fibroblast is the commonest cell of connective tissue proper, arising from undifferentiated mesenchymal cells and pericytes, and it exists in two states. The active fibroblast is branched with long thin processes, deeply basophilic cytoplasm and a large pale oval nucleus with a prominent nucleolus; on electron microscopy it is a protein-synthesising cell, with well developed rough endoplasmic reticulum and Golgi, many mitochondria and a euchromatic nucleus. The inactive form, the fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, a small darker heterochromatic nucleus and much less rER, Golgi and mitochondria. It becomes active again for wound healing.
+## explicit_objective
+Recognise the active fibroblast as the type example of a protein-synthesising cell and contrast it with the resting fibrocyte.
+## pitfalls
+Treating fibroblast and fibrocyte as two different cells. They are one cell in two states, and the suffix is the whole distinction: -blast is building, -cyte is resting.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The elbow is a synovial hinge between humerus, ulna and radius, held by collateral ligaments
+## id
+CON-MSK-782A87EC05EF74
+## canonical_key
+elbow-joint-type-bones-ligaments
+## definition
+The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below. The radial collateral ligament runs from the lateral epicondyle to the anular ligament; the ulnar collateral ligament is triangular, running from the medial epicondyle in anterior, posterior and oblique bands to the coronoid process and olecranon.
+## explicit_objective
+Classify the elbow joint, name its articulating bony parts, and describe its collateral ligaments.
+## pitfalls
+Including the superior radio-ulnar joint in the elbow. It shares the capsule but is a separate pivot joint, and the anular ligament belongs to it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p25 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p37 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p29 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p49 | 101 ISK
+src_08bc782553366518791e | question_book | | p100 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Each joint of the upper limb is classified by the shape of its articular surfaces, and no two neighbouring joints share a type
+## id
+CON-MSK-4D7492BC85C03D
+## canonical_key
+upper-limb-joint-types-by-articular-surfaces
+## definition
+The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint. The metacarpophalangeal joints are condyloid and the interphalangeal joints are hinges.
+## explicit_objective
+Classify each joint of the upper limb by type, and name a joint that exemplifies each type.
+## pitfalls
+Grouping the wrist with the elbow because both bend. The elbow is a uniaxial hinge and does nothing else; the wrist is a biaxial ellipsoid and adds abduction and adduction.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p6 | 101 ISK
+src_08bc782553366518791e | question_book | | p10 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p7 | 101 ISK
+src_08bc782553366518791e | question_book | | p103 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p28 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p39 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p27 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The movements possible at an upper limb joint follow from its type and the number of its axes
+## id
+CON-MSK-B88F413E4536F9
+## canonical_key
+upper-limb-joint-movements-follow-from-type
+## definition
+A hinge joint — the elbow, the interphalangeal joints — is uniaxial and permits flexion and extension only, never abduction or adduction. A pivot joint is uniaxial for rotation: at the superior and inferior radio-ulnar joints that rotation is pronation and supination. An ellipsoid joint such as the wrist is biaxial and permits flexion, extension, abduction and adduction, and therefore circumduction. The condyloid metacarpophalangeal joints permit the same four. The shoulder girdle moves at the sternoclavicular and acromioclavicular joints in elevation, depression, protraction, retraction and circumduction.
+## explicit_objective
+Say which movements are possible at a given upper limb joint, and which the shape of that joint forbids.
+## pitfalls
+Placing pronation at the wrist. Pronation and supination happen at the two radio-ulnar joints; the hand follows the radius, which is what makes the movement look as though it were at the wrist.
+## concept_type
+functional_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p28 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p40 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p12 | 101 ISK
+src_08bc782553366518791e | question_book | | p104 | 101 ISK
+src_08bc782553366518791e | question_book | | p102 | 101 ISK
+src_08bc782553366518791e | question_book | | p61 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The anular ligament rings the head of the radius but is attached only to the ulna, which is what lets the head spin
+## id
+CON-MSK-879B4239272078
+## canonical_key
+anular-ligament-attachments-and-radial-head
+## definition
+The anular ligament is attached to the anterior and posterior margins of the radial notch of the ulna, and with that notch forms an osseofibrous ring — about four fifths of it ligament — that encircles the head of the radius and holds it against the ulna. It is attached to no part of the radius. Its upper border blends with the capsule and the ligaments of the elbow joint, and its lower border is free and embraces the neck. It belongs to the superior radio-ulnar joint, not to the elbow and not to the wrist.
+## explicit_objective
+Give the attachments and relations of the anular ligament, and explain why it may not be attached to the radius.
+## pitfalls
+Attaching it to the head or the neck of the radius. Any attachment to the radius would stop the head rotating inside the ring, and pronation and supination would be lost.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_69103a53ec28a93958d5 | question_book | | p30 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p50 | 101 ISK
+src_08bc782553366518791e | question_book | | p102 | 101 ISK
+src_08bc782553366518791e | question_book | | p103 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The sternoclavicular joint is a saddle joint with a complete fibrocartilaginous disc, held down by the costoclavicular ligament
+## id
+CON-MSK-5079195BC42B5E
+## canonical_key
+sternoclavicular-joint-disc-and-supports
+## definition
+The sternoclavicular joint is a synovial saddle joint between the medial end of the clavicle and the manubrium sterni with the first costal cartilage — above the sternal angle, not at it. A complete fibrocartilaginous articular disc divides its cavity into two compartments and is the chief factor preventing medial displacement of the clavicle. Its supports are the anterior and posterior sternoclavicular, the interclavicular and the costoclavicular ligaments. The acromioclavicular joint is the plane joint at the other end of the clavicle, and it is that joint the coracoclavicular ligament supports.
+## explicit_objective
+Give the type, the articular disc and the supporting ligaments of the sternoclavicular joint, and separate them from those of the acromioclavicular joint.
+## pitfalls
+Giving the coracoclavicular ligament as its support. The two names differ by one syllable and belong to opposite ends of the clavicle: coraco- to the acromioclavicular joint, costo- to the sternoclavicular.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p96 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
+## id
+CON-HEM-719FA556594454
+## canonical_key
+monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage
+## definition
+The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look. It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months. It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.
+## explicit_objective
+Identify the monocyte by size and nuclear shape and name the tissue cells it gives rise to.
+## pitfalls
+Calling the large lymphocyte the largest leukocyte. It reaches 10–15 µm; the monocyte reaches 20 µm, and it is the nuclear shape — kidney, not round — that settles it on a film.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+## id
+CON-HEM-A8DC563DBFFDF6
+## canonical_key
+b-lymphocyte-becomes-the-plasma-cell
+## definition
+The B lymphocyte matures in the bone marrow in mammals and carries surface receptors for IgM and IgD. When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response. Some of its progeny become B memory cells, which give the rapid second response. The plasma cell itself is a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus.
+## explicit_objective
+Trace the plasma cell back to the B lymphocyte and name what activates the change.
+## pitfalls
+Deriving the plasma cell from the T lymphocyte or the monocyte because both are involved in the response. The T helper cell only permits the change; the cell that becomes a plasma cell is the B lymphocyte.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
+src_995e491b2e22cc96d8ef | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Both immune responses start with a macrophage presenting antigen to a helper T cell
+## id
+CON-HEM-681584C9DC1F94
+## canonical_key
+macrophage-and-t-helper-start-both-immune-responses
+## definition
+The cell-mediated and the humoral responses share their opening step. The macrophage phagocytoses the antigen and presents it, and the helper (CD4+) T cell recognises what it presents and is activated. The activated helper T cell then drives the cell-mediated arm and also activates the B lymphocyte that becomes the antibody-producing plasma cell of the humoral arm. So the pair of cells needed to begin both responses is the macrophage and the helper T cell.
+## explicit_objective
+Name the two cells whose interaction initiates both the cell-mediated and the humoral immune response.
+## pitfalls
+Choosing the B lymphocyte as one of the pair because it makes the antibody. It is the effector of the humoral arm, not the initiator, and it does nothing until the helper T cell has already been activated.
+## concept_type
+mechanism
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p24 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The lymphocyte is the blood cell that can still divide and the only one that returns from the tissues to the blood
+## id
+CON-HEM-667148E42AB738
+## canonical_key
+lymphocyte-alone-among-blood-cells-still-divides
+## definition
+Mature blood cells are, with one exception, end cells. The erythrocyte and the platelet have no nucleus at all; the granulocyte and the monocyte leave the blood, do their work and die there. The lymphocyte keeps a full nucleus, proliferates when it meets its antigen to give a clone of effector and memory cells, and is actively motile, circulating continuously between the blood and the lymphoid organs — the department states it is the only cell that can return to the blood.
+## explicit_objective
+Explain why the lymphocyte, alone among the circulating blood cells, can still divide.
+## pitfalls
+Assuming any nucleated white cell can divide. A neutrophil and a monocyte have nuclei but are already differentiated end cells; division stopped in the marrow.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+## id
+CON-HEM-785718A47454E8
+## canonical_key
+leukocytes-are-granular-or-non-granular
+## definition
+White blood cells are classified by whether their cytoplasm carries specific granules. The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte. The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules. Platelets are not leukocytes at all.
+## explicit_objective
+Sort the five leukocytes into granular and non-granular and recognise the synonyms each carries.
+## pitfalls
+Treating "non-granular" as meaning no granules whatsoever. Monocytes and lymphocytes both carry azurophil granules; what they lack are the specific granules that name the granulocytes.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Loose areolar connective tissue is the commonest type and the only one containing every connective tissue cell and every fibre
+## id
+CON-FND-5DCA7C68C51E38
+## canonical_key
+loose-areolar-ct-is-the-commonest-and-holds-every-cell-and-fibre
+## definition
+Loose areolar connective tissue is the most common and most widespread type of connective tissue proper. It contains all the types of connective tissue cell and all three types of fibre — mainly collagen bundles — with the most abundant ground substance of any type. It is called loose because of the areolae, potential cavities in it that can hold large amounts of fluid or gas, and it is flexible and well vascularised.
+## explicit_objective
+Identify loose areolar connective tissue as the commonest type and name what makes it loose and complete.
+## pitfalls
+Assuming a tissue full of fibres must be the commonest. Density is the opposite of what defines this one: it is loose precisely because ground substance and areolae, not fibres, dominate it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p7 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Loose areolar connective tissue lies under every epithelium and in every space except the brain
+## id
+CON-FND-B784BE0F18B493
+## canonical_key
+loose-areolar-ct-sites-and-functions
+## definition
+Loose areolar connective tissue is found everywhere in the body except the brain: filling the spaces between organs, in the papillary layer of the dermis, in the lamina propria and submucosa of mucous membranes, in serous membranes, and around blood vessels and nerves. Because it is well vascularised and full of ground substance it is where nutrients and wastes are exchanged with the blood; it also binds structures together and limits the spread of infection.
+## explicit_objective
+Name the sites of loose areolar connective tissue and its three functions, and state the one place it is absent.
+## pitfalls
+Assuming the brain, being soft, is full of loose connective tissue. It is nervous tissue with neuroglia as its support, and the department names it as the exception.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p9 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+## id
+CON-FND-86543DB2855310
+## canonical_key
+white-versus-brown-adipose-connective-tissue
+## definition
+White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
+## explicit_objective
+Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.
+## pitfalls
+Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+## weight_confidence
+0.8
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+## id
+CON-FND-37C773B1F99BE3
+## canonical_key
+adipose-ct-stores-insulates-supports-and-secretes-leptin
+## definition
+Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules. It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and gives the skin its contour. It also has an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate. It has no role in immunity.
+## explicit_objective
+List the functions of adipose connective tissue, including its endocrine one.
+## pitfalls
+Forgetting that fat is an endocrine organ, and equally, crediting it with defence functions. Antibody comes from the plasma cell, and no fat cell makes any.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
+## id
+CON-FND-EA4034F1E87235
+## canonical_key
+mucoid-ct-is-jelly-rich-in-hyaluronic-acid
+## definition
+Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth. Its role is supportive.
+## explicit_objective
+Recognise mucoid connective tissue by its ground substance and name its three sites.
+## pitfalls
+Reaching for loose areolar connective tissue because it too has abundant ground substance. What marks mucoid tissue out is that the matrix is jelly and the cells are almost only fibroblasts.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Connective tissue is graded by the consistency of its matrix: soft is connective tissue proper, and cartilage, bone and blood are the specialised types
+## id
+CON-FND-FE298AB3CE47E9
+## canonical_key
+connective-tissue-proper-versus-specialised-connective-tissue
+## definition
+All connective tissue is cells plus an intercellular matrix, and the matrix's consistency divides it. Where the matrix is soft the tissue is connective tissue proper, which is loose — areolar, adipose, reticular, mucoid — or dense — white fibrous and yellow elastic. Where the matrix is rubbery the tissue is cartilage, where solid it is bone, and where fluid it is blood; these three are the specialised connective tissues. Mesenchyme is the embryonic connective tissue from which all of them arise.
+## explicit_objective
+Classify a named tissue as connective tissue proper, specialised connective tissue, embryonic connective tissue or not connective tissue at all.
+## pitfalls
+Refusing to count blood as connective tissue because it is liquid and circulates. The matrix is the plasma, and being fluid is exactly what places it among the specialised types.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
 ## support_mode
