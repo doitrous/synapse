@@ -5,7 +5,7 @@ One request per **distinct slide subject**, not per plate. The catalogue at
 27 radiology plates, but they resolve to **85 distinct subjects** —
 six plates of simple columnar epithelium need one image, not six.
 
-**Why this file exists.** `docs/Kasr-Source-Imports/media/media-audit.md` establishes
+**Why this file exists.** `docs/Kasr-Source-Imports/media-requests/media-audit.md` establishes
 that the repository holds zero medical images: no micrograph, no anatomy plate, no
 radiograph. Every slide catalogued for this module therefore needs an image that does
 not exist yet, and the practical cannot run until a human sources them. Nothing here

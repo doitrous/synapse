@@ -134,10 +134,10 @@ def load():
             return json.load(fh)
     return {
         "file": PDF,
-        "sourceId": "src_5c8bb4bf7f1b32c9f3a1",
+        "sourceId": "src_b1e6dc481eaf337268d0",
         "manifestSourceId": "src_b1e6dc481eaf337268d0",
         "sourceIdNote": ("The subject-tree note and the extraction request both cite "
-                         "src_5c8bb4bf7f1b32c9f3a1, but kasr-y1-sources.json records this "
+                         "src_b1e6dc481eaf337268d0, but kasr-y1-sources.json records this "
                          "PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0. "
                          "Both are recorded here; the manifest one is authoritative."),
         "pages": 291,

@@ -3,12 +3,12 @@
  "distinctQuestions": 2704,
  "fromRows": 3590,
  "duplicateRowsCollapsed": 886,
- "answerConflicts": 4,
- "withAnswer": 1845,
+ "answerConflicts": 0,
+ "withAnswer": 1716,
  "excludedNoOptionRows": {
-  "total": 1699,
+  "total": 1702,
   "short-answer-or-unparsed": 500,
-  "ocr-failure": 828,
+  "ocr-failure": 831,
   "fill-in-the-blank": 371
  },
  "questions": [
@@ -759,8 +759,8 @@
     "C": "Extensor pollicis longus",
     "D": "Extensor carpi radialis longus"
    },
-   "answer": null,
-   "answerConfidence": "conflicting",
+   "answer": "D",
+   "answerConfidence": "same-file",
    "occurrences": [
     {
      "sourceId": "src_0f1171705349e98b44e6",
@@ -796,25 +796,7 @@
    ],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Forearm",
-   "conflictingAnswers": [
-    {
-     "answer": "D",
-     "answerText": "Extensor carpi radialis longus",
-     "file": "Anatomy Question [Upper Limb] (1).pdf",
-     "page": 1,
-     "number": 1,
-     "answerSource": "same-file"
-    },
-    {
-     "answer": "E",
-     "answerText": "",
-     "file": "Anatomy MCQ Book [2025] [first priority].pdf",
-     "page": 19,
-     "number": 1,
-     "answerSource": "same-file"
-    }
-   ]
+   "leaf": "Forearm"
   },
   {
    "key": "the-following-muscles-abducts-the-arm-from-0-15-758da45b",
@@ -3977,8 +3959,8 @@
     "C": "The position in which the body is erect, facing front with feet parallel and",
     "D": "The position in which the body is erect, facing forward with feet parallel and"
    },
-   "answer": null,
-   "answerConfidence": "conflicting",
+   "answer": "C",
+   "answerConfidence": "same-file",
    "occurrences": [
     {
      "sourceId": "src_51fef9b6234c5d381f59",
@@ -3999,25 +3981,7 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Introduction",
-   "conflictingAnswers": [
-    {
-     "answer": "C",
-     "answerText": "The position in which the body is erect, facing front with feet parallel and",
-     "file": "Anatomy Question [Basis] (1).pdf",
-     "page": 1,
-     "number": 2,
-     "answerSource": "same-file"
-    },
-    {
-     "answer": "A",
-     "answerText": "A term used referring to the body facing forwards and sitting down",
-     "file": "Anatomy MCQ Book [2025] [first priority].pdf",
-     "page": 2,
-     "number": 2,
-     "answerSource": "same-file"
-    }
-   ]
+   "leaf": "Introduction"
   },
   {
    "key": "annular-ligament-choose-the-correct-answer-f4e27611",
@@ -8343,8 +8307,8 @@
     "C": "Distal",
     "D": "Proximal"
    },
-   "answer": null,
-   "answerConfidence": "conflicting",
+   "answer": "A",
+   "answerConfidence": "same-file",
    "occurrences": [
     {
      "sourceId": "src_51fef9b6234c5d381f59",
@@ -8365,25 +8329,7 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Introduction",
-   "conflictingAnswers": [
-    {
-     "answer": "A",
-     "answerText": "Lateral",
-     "file": "Anatomy Question [Basis] (1).pdf",
-     "page": 1,
-     "number": 5,
-     "answerSource": "same-file"
-    },
-    {
-     "answer": "B",
-     "answerText": "Medial",
-     "file": "Anatomy MCQ Book [2025] [first priority].pdf",
-     "page": 2,
-     "number": 5,
-     "answerSource": "same-file"
-    }
-   ]
+   "leaf": "Introduction"
   },
   {
    "key": "the-brachial-artery-choose-the-correct-answer-1a1e624d",
@@ -9078,8 +9024,8 @@
     "C": "The palms are facing backwards",
     "D": "The thumbs are directed medially"
    },
-   "answer": null,
-   "answerConfidence": "conflicting",
+   "answer": "B",
+   "answerConfidence": "same-file",
    "occurrences": [
     {
      "sourceId": "src_51fef9b6234c5d381f59",
@@ -9100,25 +9046,7 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Introduction",
-   "conflictingAnswers": [
-    {
-     "answer": "B",
-     "answerText": "The upper limbs are hanging by the sides",
-     "file": "Anatomy Question [Basis] (1).pdf",
-     "page": 1,
-     "number": 1,
-     "answerSource": "same-file"
-    },
-    {
-     "answer": "E",
-     "answerText": "",
-     "file": "Anatomy MCQ Book [2025] [first priority].pdf",
-     "page": 2,
-     "number": 1,
-     "answerSource": "same-file"
-    }
-   ]
+   "leaf": "Introduction"
   },
   {
    "key": "the-following-structure-passes-superficial-to-flexor-reticul-35bcc2e5",
@@ -9969,8 +9897,8 @@
     "C": "Palmaris longus tendon",
     "D": "Flexor carpi radialis tendon"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_0f1171705349e98b44e6",
@@ -10804,8 +10732,8 @@
     "C": "Radial. y ad Vi",
     "D": "Deep branch of ulnar. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -11281,8 +11209,8 @@
     "C": "Cephalic vein",
     "D": "Lateral thoracic"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -11388,8 +11316,8 @@
     "B": "Axillary. Vi P ad",
     "D": "Spinal accessory"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12331,8 +12259,8 @@
     "B": "Extension",
     "D": "Abduction. Ac"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12356,8 +12284,8 @@
     "B": "Median nerve",
     "D": "Musculocutaneous nerve"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12407,8 +12335,8 @@
     "A": "Palmar interossei. y",
     "C": "Flexor digitorum profundus. em Ac"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12805,8 +12733,8 @@
     "C": "Horizontal plane",
     "D": "Coronal plane. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12830,8 +12758,8 @@
     "B": "Rhomboideus major",
     "D": "Subscapularis. ad Vi P"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -12990,8 +12918,8 @@
     "A": "Palmar branches of median and ulnar nerves. y ad",
     "C": "Median nerve"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -13875,8 +13803,8 @@
     "B": "Coracoacromial ligament",
     "D": "Supraspinatus tendon"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -14682,8 +14610,8 @@
     "A": "Internal os of the uterus",
     "D": "Uterine tube"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -14872,8 +14800,8 @@
     "B": "Tendons that fuse with the capsule of the joint",
     "C": "Presence of glenohumeral and coracohumeral ligaments"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -16085,8 +16013,8 @@
     "B": "Wrist joint",
     "C": "Inferior tibioﬁbular joint. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -16400,8 +16328,8 @@
     "A": "First part of the axillary artery. y ad",
     "C": "Third part of the axillary artery"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -17211,8 +17139,8 @@
     "B": "Six",
     "C": "Three"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -17640,8 +17568,8 @@
     "B": "Centrosome",
     "C": "Axoneme"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -18093,8 +18021,8 @@
     "C": "rosette shaped granules",
     "D": "single granule"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -18874,8 +18802,8 @@
     "B": "They are small branched cells cells",
     "C": "They can differentiate into other types of C.T cells"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_4e481d399b2ffd65b97a",
@@ -19439,8 +19367,8 @@
     "B": "Basophils",
     "C": "Eosinophils"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c6ab1b49dc16762227e1",
@@ -19465,8 +19393,8 @@
     "B": "Monocytes",
     "C": "Lymphocytes"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c6ab1b49dc16762227e1",
@@ -19491,8 +19419,8 @@
     "B": "Antrum",
     "C": "Blastocele"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -19895,8 +19823,8 @@
     "B": "Scaphoid and lunate",
     "C": "Lunate and trapezium"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -19980,8 +19908,8 @@
     "B": "brown fat cells are affected by drugs & hormones",
     "C": "both white & brown fat cells are affected by drugs & hormones"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c30d9391aa0861f41e44",
@@ -20113,8 +20041,8 @@
     "B": "11th day of pregnancy",
     "C": "8th day of pregnancy. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -20410,8 +20338,8 @@
     "C": "Abduction",
     "D": "Adduction"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -22136,8 +22064,8 @@
     "B": "Subunit α and subunit β tubulin form the protofilaments",
     "C": "None of the above"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -22843,8 +22771,8 @@
     "B": "Its medial part is drained by the subscapular lymph nodes",
     "D": "It is formed of 10 lobes. Vi P"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -23089,8 +23017,8 @@
     "B": "Partial deletion of long arm of chromosome 5",
     "C": "Partial deletion of short arm of chromosome 15"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -25658,8 +25586,8 @@
     "B": "Simple cuboidal",
     "C": "Simple squamous"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_25ac512fb1cb23a6f696",
@@ -26007,8 +25935,8 @@
     "A": "Formation of secondary yolk sac",
     "C": "Formation of amniochorionic membrane"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -26385,8 +26313,8 @@
     "C": "The 7th month",
     "D": "The 8th month"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -26467,8 +26395,8 @@
     "C": "4th month",
     "D": "5th month"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -26762,8 +26690,8 @@
     "B": "the branche of the artery in column",
     "A": "1"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_764a2521809818b8abdc",
@@ -28003,8 +27931,8 @@
     "B": "The formation of bilaminar embryonic disc",
     "D": "The start of the process of folding"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -28298,8 +28226,8 @@
     "D": "Lesser tuberosity",
     "E": "Medial lip of bicipital groove"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_764a2521809818b8abdc",
@@ -28434,8 +28362,8 @@
     "B": "Exogenous pigments",
     "C": "Endogenous pigments"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -30648,8 +30576,8 @@
     "B": "Na ion distribution",
     "C": "K ion distribution"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -32665,8 +32593,8 @@
     "B": "Syncytiotrophoblast and endothelium of fetal blood vessels",
     "D": "Cytotrophoblast and endothelium of blood vessels"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -32772,8 +32700,8 @@
     "B": "Subscapularis",
     "D": "Supraspinatus"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -33364,8 +33292,8 @@
     "B": "Diaphysis",
     "D": "Epiphyseal line"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -33628,8 +33556,8 @@
     "C": "Transmits radial nerve and profound brachii artery",
     "D": "Transmits median nerve and radial recurrent artery. y ad"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -35228,8 +35156,8 @@
     "B": "Pronator quadratus",
     "D": "Biceps brachii"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -36229,8 +36157,8 @@
     "D": "Lower lip of crest of spine",
     "E": "Tip of the coracoid process"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -36334,8 +36262,8 @@
     "D": "Radial",
     "E": "Musculocutaneous"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -38571,8 +38499,8 @@
     "C": "Humerus",
     "D": "Scaphoid"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -38704,8 +38632,8 @@
     "B": "Common interosseous artery",
     "C": "Inferior ulnar collateral artery"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -38994,8 +38922,8 @@
     "B": "The pituitary gland",
     "C": "The adrenal medulla"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -39180,8 +39108,8 @@
     "C": "Formation of extraembryonic mesoderm",
     "D": "Formation of primary chorionic villi"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -39368,8 +39296,8 @@
     "D": "Runs parallel but deep to the profunda brachii artery",
     "E": "Is the continuation of the subclavian artery"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -39745,8 +39673,8 @@
     "B": "It starts implantation by its abembryonic pole",
     "C": "It is formed 3 days after formation of the zygote. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -40144,8 +40072,8 @@
     "C": "Teres minor",
     "D": "Anconeus"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -40490,8 +40418,8 @@
     "B": "Trophoblast differentiates into 2 layers",
     "D": "Amniotic cavity is formed"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -41536,8 +41464,8 @@
     "C": "Loss of abduction of the arm from zero to 90",
     "E": "None of the above"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -42991,8 +42919,8 @@
     "C": "Three",
     "D": "Four"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_12d639a625d8305c4454",
@@ -43017,8 +42945,8 @@
     "B": "Two",
     "C": "Three"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -43312,8 +43240,8 @@
     "C": "Latissimus dorsi",
     "D": "serratus anterior. Ac"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -43477,8 +43405,8 @@
     "B": "Middle ﬁbers of deltoid",
     "C": "Coracobrachialis. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -45478,8 +45406,8 @@
     "A": "Is the commonest type",
     "C": "Are non-identical in shape. em Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -45639,8 +45567,8 @@
     "C": "The brachioradialis is innervated by the median nerve",
     "D": "The supinator is innervated by the posterior interosseous nerve"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -45770,8 +45698,8 @@
     "C": "Starts at birth and continues till puberty",
     "D": "Starts in the intra-uterine life, then arrested to be continued at puberty"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -46063,8 +45991,8 @@
     "B": "Injury of the posterior interosseous nerve causes wrist drop",
     "D": "Injury of posterior interosseous nerve is accompanied by loss of sensations. Vi P"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -46655,8 +46583,8 @@
     "B": "Has short head attached to the tip of the coracoid process",
     "C": "It ﬂexes the elbow joint"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -46987,8 +46915,8 @@
     "B": "It is the last bone to ossify in the fetal life",
     "C": "It ossiﬁes in cartilage"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47013,8 +46941,8 @@
     "C": "The medial end articulates with the body of the sternum by saddle synovial joint",
     "D": "The lateral end articulates with the acromion by ﬁbrous articulation"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47038,8 +46966,8 @@
     "A": "It is an example of the short bones",
     "B": "It is the last bone to ossify in the fetal life"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47179,8 +47107,8 @@
     "D": "Median nerve lies in the fossa on the lateral side of brachial artery",
     "E": "b and c. P"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47316,8 +47244,8 @@
     "A": "It fuses with the decidua capsularis obliterating the uterine cavity",
     "D": "It degenerates at last"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47369,8 +47297,8 @@
     "B": "It forms the retinaculae",
     "C": "It contains blood vessels and nerves. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -47802,8 +47730,8 @@
     "B": "It does not give branches in the arm",
     "C": "In the cubital fossa, it lies lateral to the brachial artery"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -48021,8 +47949,8 @@
     "C": "During these movements the head of the ulna rotates around the lower end of the radius",
     "D": "The brachialis puts the forearm in the mid prone position"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -48263,8 +48191,8 @@
     "B": "Inserts into the medial lip of the intertubercular groove",
     "C": "Can act as an accessory muscle of deep expiration"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -48589,8 +48517,8 @@
     "A": "Passes between the two heads of the 1st dorsal interosseous muscle",
     "B": "Passes between the 1st and 2nd lumbrical muscles"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -48852,8 +48780,8 @@
     "B": "The nucleus carries 22 autosomes and either X- or Y-chromosome",
     "D": "Acrosomal cap covers most of the middle piece"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -48983,8 +48911,8 @@
     "B": "Medial cutaneous nerve of forearm",
     "D": "Ulnar nerve"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -49192,8 +49120,8 @@
     "A": "It has a lateral, a medial and a short head",
     "D": "It is inserted into the olecranon process"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -49220,8 +49148,8 @@
     "C": "Radioulnar uniaxial hinge",
     "D": "Wrist biaxial condylar"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -49626,8 +49554,8 @@
     "C": "The radioulnar joints are ball and socket",
     "D": "The wrist joint is synovial saddle"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -49896,8 +49824,8 @@
     "B": "The cephalic vein starts at lateral end of dorsal venous arch of the hand",
     "C": "The basilic vein pierces the clavipectoral fascia"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -50193,8 +50121,8 @@
     "B": "plasma cells",
     "C": "fibroblasts"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c30d9391aa0861f41e44",
@@ -52070,8 +51998,8 @@
     "A": "150nm,4nm",
     "B": "150micro,4 micro"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_d1414701d8fcb55932b6",
@@ -52503,8 +52431,8 @@
     "C": "Lines Cytotrophoblast",
     "D": "Lines syncytiotrophoblast. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -53221,8 +53149,8 @@
     "C": "The action of brachioradialis only",
     "D": "The action of brachialis. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -53352,8 +53280,8 @@
     "B": "Flexor digitorum profundus",
     "C": "Flexor pollicis brevis"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -53539,8 +53467,8 @@
     "B": "EM",
     "D": "especial stains"
    },
-   "answer": "C",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c6ab1b49dc16762227e1",
@@ -53839,8 +53767,8 @@
     "C": "25 days. y ad Vi",
     "D": "26 days. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -54433,8 +54361,8 @@
     "B": "Formed of nine pairs of microtubules and two central singlets",
     "C": "Formed of nine triplets of microtubules"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -54996,8 +54924,8 @@
     "C": "Is supplied by posterior interosseous nerve",
     "D": "Put the forearm in mid-prone position"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -55321,8 +55249,8 @@
     "B": "rER",
     "C": "Golgi apparatus d.Mitochondria"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_d1414701d8fcb55932b6",
@@ -55537,8 +55465,8 @@
     "B": "Medial. Vi P ad",
     "D": "Posterior"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -55590,8 +55518,8 @@
     "C": "The roots of brachial plexus pass through It",
     "D": "Transmits subclavian vessels"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -56107,8 +56035,8 @@
     "B": "Third week",
     "C": "Fourth week"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -56398,8 +56326,8 @@
     "A": "Posterior cord of brachial plexus. y ad",
     "C": "Roots of brachial plexus"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -57183,8 +57111,8 @@
     "C": "Flexes the medial four ﬁngers",
     "D": "Arises from radius, ulna and interosseous membrane"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -57208,8 +57136,8 @@
     "A": "Arises from anterior surface of the ulna and interosseous membrane",
     "C": "Is innervated by branch from posterior interosseous nerve"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -57476,8 +57404,8 @@
     "B": "Pronator teres",
     "C": "Pronator quadrates"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -58312,8 +58240,8 @@
     "B": "Adductor pollicis",
     "C": "Abductor pollicis brevis"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -58363,8 +58291,8 @@
     "C": "Brachialis",
     "D": "Coracobrachialis"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -58442,8 +58370,8 @@
     "B": "Ulnar nerve. Vi P ad",
     "D": "Musculocutaneous nerve. em"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -58468,8 +58396,8 @@
     "B": "Musculocutaneous nerve",
     "C": "Median nerve"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -58522,8 +58450,8 @@
     "C": "Axillary nerve",
     "D": "Musculocutaneous nerve"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_764a2521809818b8abdc",
@@ -58548,8 +58476,8 @@
     "B": "Ribosome",
     "C": "RER"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -58574,8 +58502,8 @@
     "B": "Microtubules",
     "C": "Centrosome"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_6846577508f49244d715",
@@ -58818,8 +58746,8 @@
     "A": "Ulnar nerve",
     "D": "Palmar cutaneous branch of median nerve. em Ac"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -59925,8 +59853,8 @@
     "B": "Axillary nerve",
     "C": "Musculocutaneous nerve"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -60244,8 +60172,8 @@
     "B": "Extracapsular ligaments",
     "C": "Bursa"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -60858,8 +60786,8 @@
     "C": "It contains deep palmar arch",
     "D": "It contains tendons of the long ﬂexors of medial 3 ﬁngers"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -61178,8 +61106,8 @@
     "B": "Flexor carpi radialis",
     "D": "Flexor carpi ulnaris"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -61286,8 +61214,8 @@
     "B": "Prime mover",
     "C": "Antagonist"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -61339,8 +61267,8 @@
     "C": "Lateral two lumbricals",
     "D": "All interossei. Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -62182,8 +62110,8 @@
     "C": "Gives insertion to the adductor pollicis muscle",
     "D": "Gives origin to the opponens pollicis muscle"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -62237,8 +62165,8 @@
     "C": "The superﬁcial palmar arch passes between the tendons ﬂexor digitorum",
     "D": "The deep palmar arch passes between tendons of ﬂexor digitorum profundus and bases"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -62508,8 +62436,8 @@
     "B": "Long bone",
     "C": "Flat bone. y"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -65795,8 +65723,8 @@
     "B": "Flexor digitorum profundus",
     "D": "Flexor carpi radialis"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -65984,8 +65912,8 @@
     "D": "Median nerve",
     "E": "Mendon of ﬂexor carpi ulnaris. P"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -66065,8 +65993,8 @@
     "B": "First part of the axillary artery. em Ac",
     "E": "Brachial artery"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -66144,8 +66072,8 @@
     "B": "Auscultation triangle. y",
     "D": "Lower triangular space. em Ac"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -67707,8 +67635,8 @@
     "D": "Trapezius",
     "E": "Medial border of the scapula. P"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -67785,8 +67713,8 @@
     "B": "Blastocyst",
     "C": "Chorionic vesicle"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -68887,8 +68815,8 @@
     "B": "Reticular cell",
     "D": "Mast cells"
    },
-   "answer": "C",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c30d9391aa0861f41e44",
@@ -68912,8 +68840,8 @@
     "A": "Yellow elastic CT",
     "B": "Reticular CT"
    },
-   "answer": "C",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c30d9391aa0861f41e44",
@@ -70432,8 +70360,8 @@
     "B": "Found in monocytes",
     "E": "May contain collagenase, histaminase, or histamine"
    },
-   "answer": "C",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c6ab1b49dc16762227e1",
@@ -70458,8 +70386,8 @@
     "B": "Lateral pectoral nerve",
     "D": "Axillary nerve"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -70804,8 +70732,8 @@
     "A": "Supraspinatus and infraspinatus muscles. y",
     "C": "Pectoralis major and pectoralis minor muscles. em Ac"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -70911,8 +70839,8 @@
     "B": "Nerve to subclavius",
     "C": "Suprascapular nerve"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -71045,8 +70973,8 @@
     "C": "Teres major muscle",
     "D": "Latissimus dorsi muscle Ac"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -71123,8 +71051,8 @@
     "B": "Scapula",
     "D": "Clavicle. y"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -71527,8 +71455,8 @@
     "C": "Suture",
     "D": "Inferior tibioﬁbular"
    },
-   "answer": "B",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -71608,8 +71536,8 @@
     "C": "Line connections the two humeral epicondyles",
     "E": "Ulnar nerve"
    },
-   "answer": "D",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -72474,8 +72402,8 @@
     "C": "It cuts the body into upper and lower halves",
     "D": "It is a vertical plane that divides the body into 2 equal right and left halves"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_764a2521809818b8abdc",
@@ -73174,8 +73102,8 @@
     "B": "Desmin",
     "C": "Lamins"
    },
-   "answer": "D",
-   "answerConfidence": "keyed",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_c6ab1b49dc16762227e1",
@@ -73499,8 +73427,8 @@
     "B": "Axillary nerve",
     "D": "Profunda brachii"
    },
-   "answer": "C",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",
@@ -73905,8 +73833,8 @@
     "D": "Thoracodorsal nerve",
     "E": "Suprascapular nerve. P"
    },
-   "answer": "A",
-   "answerConfidence": "same-file",
+   "answer": null,
+   "answerConfidence": "none",
    "occurrences": [
     {
      "sourceId": "src_08bc782553366518791e",

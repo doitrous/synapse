@@ -244,7 +244,12 @@ def find_key_blocks(lines):
             else:
                 break
             j += 1
-        if key_rows >= 3 or (heading and key_rows >= 1):
+        # A real answer grid is substantial and densely numbered. A handful of
+        # number/letter pairs scraped out of OCR noise is not a key.
+        nums = sorted(mapping)
+        dense = bool(nums) and (nums[-1] - nums[0] + 1) <= 3 * len(nums)
+        big = len(mapping) >= 5 and dense
+        if big and (key_rows >= 3 or (heading and key_rows >= 1)):
             while run_idx and not key_line_pairs(lines[run_idx[-1]][1]):
                 run_idx.pop()
             if heading:
@@ -370,6 +375,14 @@ def apply_inline_keys(questions, blocks):
     prev_end = -1
     for end_idx, mapping in blocks:
         seg = [q for q in questions if prev_end < q["idx"] < end_idx]
+        # A key answers its own chapter: nearly every number it lists should be a
+        # question in that segment. If most of its numbers match nothing, it is not
+        # this segment's key and applying it would invent answers.
+        segnums = {q["number"] for q in seg}
+        matched = sum(1 for n in mapping if n in segnums)
+        if not seg or not mapping or matched < 0.7 * len(mapping):
+            prev_end = end_idx
+            continue
         for q in seg:
             if q["answer"] is None:
                 letter = mapping.get(q["number"])
@@ -490,6 +503,11 @@ def finalise(info, questions, key, key_from):
         qtype = "mcq" if len(opts) >= 2 else "no-options"
         if info["file"] in POOR_OCR:
             conf = "low"
+        # An answer naming an option the question does not have cannot be trusted to
+        # mark anything. Keep the raw letter so it stays fixable, but do not assert it.
+        unresolved = None
+        if answer and opts and answer not in opts:
+            unresolved, answer, asrc = answer, None, "none"
         row = {
             "sourceId": info["sourceId"], "file": info["file"], "page": q["page"],
             "number": q["number"], "questionType": qtype,
@@ -497,6 +515,8 @@ def finalise(info, questions, key, key_from):
             "answer": answer, "answerSource": asrc, "topic": topic,
             "confidence": conf, "ocrNoise": bool(ocr_noise),
         }
+        if unresolved:
+            row["unresolvedAnswerLetter"] = unresolved
         if info["file"] in POOR_OCR:
             row["needsManualTranscription"] = True
         if asrc == "answer-key":

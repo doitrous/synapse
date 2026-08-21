@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate docs/Kasr-Source-Imports/media/practical-media-requests.md.
+"""Generate docs/Kasr-Source-Imports/media-requests/practical-media-requests.md.
 
 One request per distinct slide subject, in the `media_needed` /
 `media_recommendations` grammar documented in media-audit.md and implemented by
@@ -498,7 +498,7 @@ One request per **distinct slide subject**, not per plate. The catalogue at
 {len(CAT['radiology'])} radiology plates, but they resolve to **{len(REQ)} distinct subjects** —
 six plates of simple columnar epithelium need one image, not six.
 
-**Why this file exists.** `docs/Kasr-Source-Imports/media/media-audit.md` establishes
+**Why this file exists.** `docs/Kasr-Source-Imports/media-requests/media-audit.md` establishes
 that the repository holds zero medical images: no micrograph, no anatomy plate, no
 radiograph. Every slide catalogued for this module therefore needs an image that does
 not exist yet, and the practical cannot run until a human sources them. Nothing here

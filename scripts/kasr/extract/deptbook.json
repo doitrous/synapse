@@ -1,8 +1,8 @@
 {
  "file": "/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/Department Book/Department Book Module 101.pdf",
- "sourceId": "src_5c8bb4bf7f1b32c9f3a1",
+ "sourceId": "src_b1e6dc481eaf337268d0",
  "manifestSourceId": "src_b1e6dc481eaf337268d0",
- "sourceIdNote": "The subject-tree note and the extraction request both cite src_5c8bb4bf7f1b32c9f3a1, but kasr-y1-sources.json records this PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0. Both are recorded here; the manifest one is authoritative.",
+ "sourceIdNote": "The subject-tree note originally cited src_5c8bb4bf7f1b32c9f3a1, which is in no manifest row at all. kasr-y1-sources.json records this PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0, and that is what is used here and in the subject tree now.",
  "pages": 291,
  "pageNumbering": "All startPage/endPage/figure page values are PHYSICAL PDF pages (1-based). The book's printed numbers differ: Part I printed = physical - 1; Part II restarts its own numbering.",
  "chapters": [
@@ -4897,6 +4897,539 @@
     "Book states: extensive destruction of lymph vessels in surgery, or obstruction in filariasis, leads to oedema of the drained part.",
     "The ILO list is partly duplicated ('Identify the characters of the lymphatic vessels' and 'Describe the types and characters of lymph vessels'; 'Recognize the site of the lymph nodes' and 'Discuss the shape, structure, sites and functions of lymph nodes').",
     "The ILO asks for the structure of the lymph node, but no histological structure of the node is given in this chapter."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Pectoral Region",
+   "bookTitle": "THE PECTORAL REGION (Chapter 1)",
+   "startPage": 153,
+   "endPage": 162,
+   "found": true,
+   "keyPoints": [
+    "The pectoral region is the region on the upper part of the front of the chest wall down to the 6th rib, comprising skin, superficial fascia containing the mammary gland, deep (pectoral) fascia and muscles.",
+    "Cutaneous nerves: the supraclavicular nerves (C3,4) - medial, intermediate and lateral - are branches of the cervical plexus supplying the skin between clavicle and 2nd rib including the skin over the upper half of deltoid; the anterior and lateral cutaneous branches of intercostal nerves supply the skin below the 2nd rib.",
+    "The mammary gland is a modified sweat gland, rudimentary in the male, hemispherical, with a circular base and an axillary tail, and its covering skin carries the nipple and areola.",
+    "It lies in the superficial fascia of the pectoral region; its base extends from the 2nd rib above to the 6th costal cartilage below and from the lateral border of the sternum to the mid-axillary line.",
+    "The base lies on the deep fascia covering pectoralis major (pectoral fascia) and serratus anterior and on the aponeurosis of the external oblique.",
+    "The axillary tail is a tongue-like prolongation from the superolateral quadrant that curves around the lower border of pectoralis major, pierces the deep axillary fascia and extends upwards into the axilla.",
+    "Internally the gland consists of lobes embedded in the fat of the superficial fascia arranged radially converging towards the nipple.",
+    "Lobes are supported and separated into fascial compartments by fibrous septa called Cooper's ligaments extending from the skin to the deep fascia on the chest wall and suspending the breast to the skin.",
+    "Each lobe collects its secretion into a lactiferous duct; all lactiferous ducts converge on the nipple, each widening deep to the areola into a lactiferous sinus then narrowing again to open on the summit of the nipple.",
+    "The nipple is a conical projection traversed by the lactiferous ducts; its position changes after the first childbirth and lactation, lying at a variable lower level.",
+    "The areola is a circular area of pigmented skin surrounding the base of the nipple; it is pinkish in virgins, becomes darker during the first pregnancy and never returns pinkish again, and contains sebaceous (areolar) glands - Montgomery's tubercles.",
+    "Arterial supply of the breast: lateral thoracic artery from the 2nd part of the axillary artery supplying mainly the lateral half; perforating branches of the internal mammary artery supplying mainly the medial half; the pectoral branch of the acromio-thoracic artery from the 2nd part of the axillary artery; and lateral branches of the posterior intercostal arteries as a minimal source.",
+    "Breast lymphatics form two plexuses: a superficial (subareolar) plexus under the skin of the areola receiving afferents from the gland and draining through interlobular lymph vessels to the deep plexus, and a deep lymphatic plexus on the deep fascia receiving from the four quadrants and from the superficial plexus and draining along the blood supply.",
+    "Lateral quadrants drain mainly to the pectoral group of axillary nodes, the tail to the subscapular group, and the upper lateral part to the infraclavicular nodes (a superficial group lying outside the axilla), whose efferents pierce the anterior wall of the axilla to reach the apical group.",
+    "Medial quadrants drain mainly to the parasternal nodes along the internal mammary artery inside the thorax; some lymphatics cross the midline to the deep plexus of the opposite side and some from the lower medial part pierce the abdominal wall to reach the subdiaphragmatic plexus.",
+    "The pectoral fascia is the deep fascia of the region covering pectoralis major beneath the breast, with two extensions - the axillary fascia forming the floor of the axilla, and the clavipectoral fascia.",
+    "The clavipectoral fascia is a strong fibrous sheet occupying the interval between subclavius above and pectoralis minor below, lying deep to the upper part of pectoralis major and covering the axillary vessels and nerves.",
+    "Its attachments: above it splits to enclose subclavius and attaches to the margins of the subclavian groove on the lower surface of the clavicle; medially it is thickened and extends to the 1st and 2nd costal cartilages; laterally it reaches the coracoid process and blends with the coraco-clavicular ligament; below it splits to enclose pectoralis minor, continuing from that muscle's lower border as the suspensory ligament of the axilla to join the axillary fascia.",
+    "The fascia from the clavicle to the floor of the axilla is called the axillary septum.",
+    "Four structures pierce the clavipectoral fascia: the cephalic vein, the lateral pectoral nerve, the acromio-thoracic artery, and lymph vessels from the infraclavicular nodes draining into the apical group.",
+    "Pectoralis major arises by a clavicular head from the anterior surface of the medial half of the clavicle and a sternocostal head from the anterior surface of the sternum, upper costal cartilages and aponeurosis of external abdominal oblique, and inserts by a bilaminar tendon into the lateral lip of the intertubercular (bicipital) groove; it is supplied by the lateral and medial pectoral nerves and adducts and medially rotates the arm, the clavicular head flexing and the sternocostal head extending the flexed arm.",
+    "Pectoralis minor arises from the outer surfaces of the 3rd, 4th and 5th ribs near their costal cartilages and inserts into the medial border and upper surface of the coracoid process; supplied by the medial pectoral nerve, it protracts and depresses the shoulder girdle and raises the ribs in forced inspiration when the scapula is fixed.",
+    "Subclavius arises from the upper surface of the 1st costo-chondral junction and inserts into a groove on the lower surface of the middle third of the clavicle; supplied by the nerve to subclavius (C5), it steadies the clavicle and prevents excessive shoulder girdle movement."
+   ],
+   "definitions": [
+    {
+     "term": "Pectoral region",
+     "text": "The region on the upper part of the front of the chest wall down to the 6th rib."
+    },
+    {
+     "term": "Axillary tail (of Spence)",
+     "text": "Tongue-like prolongation from the superolateral quadrant of the breast that curves round the lower border of pectoralis major, pierces the deep axillary fascia and extends into the axilla."
+    },
+    {
+     "term": "Cooper's ligaments",
+     "text": "Fibrous septa supporting and separating the breast lobes into fascial compartments, extending from the skin to the deep fascia and suspending the breast to the skin."
+    },
+    {
+     "term": "Lactiferous sinus",
+     "text": "The widening of a lactiferous duct deep to the areola before it narrows again to traverse the nipple."
+    },
+    {
+     "term": "Montgomery's tubercles",
+     "text": "Sebaceous (areolar) glands in the areola."
+    },
+    {
+     "term": "Clavipectoral fascia",
+     "text": "Strong fibrous sheet of deep fascia occupying the interval between subclavius above and pectoralis minor below."
+    },
+    {
+     "term": "Axillary septum",
+     "text": "The fascia from the clavicle to the floor of the axilla."
+    },
+    {
+     "term": "Mid-axillary line",
+     "text": "A vertical line passing in the midline of the axilla midway between its anterior and posterior folds."
+    },
+    {
+     "term": "Peau d'orange",
+     "text": "Orange-peel skin appearance from oedema pitted by hair follicle attachments, due to obstruction of superficial lymphatics."
+    }
+   ],
+   "numbers": [
+    "Pectoral region extends down to the 6th rib",
+    "Supraclavicular nerves C3,4; lateral supraclavicular nerve C4",
+    "Intercostal cutaneous branches from T2 to T6",
+    "Breast base from the 2nd rib to the 6th costal cartilage",
+    "Mammary gland consists of 16-20 lobes",
+    "Nipple usually over the 4th intercostal space",
+    "Internal mammary perforating branches especially in the 2nd, 3rd and 4th intercostal spaces",
+    "Latissimus-related: 4 structures pierce the clavipectoral fascia",
+    "Nerve to subclavius C5",
+    "Pectoralis minor from the 3rd, 4th and 5th ribs",
+    "Pectoralis major from the upper 6 costal cartilages"
+   ],
+   "classifications": [
+    {
+     "of": "Contents of the pectoral region",
+     "items": [
+      "Skin",
+      "Superficial fascia containing the mammary gland",
+      "Deep (pectoral) fascia",
+      "Muscles"
+     ]
+    },
+    {
+     "of": "Cutaneous nerves of the pectoral region",
+     "items": [
+      "Supraclavicular nerves (C3,4) - medial, intermediate, lateral",
+      "Anterior and lateral cutaneous branches of intercostal nerves (T2-T6)"
+     ]
+    },
+    {
+     "of": "Arterial supply of the mammary gland",
+     "items": [
+      "Lateral thoracic artery",
+      "Perforating branches of the internal mammary artery",
+      "Pectoral branch of the acromio-thoracic artery",
+      "Lateral branches of the posterior intercostal arteries"
+     ]
+    },
+    {
+     "of": "Lymphatic plexuses of the breast",
+     "items": [
+      "Superficial (subareolar) plexus",
+      "Deep lymphatic plexus"
+     ]
+    },
+    {
+     "of": "Lymphatic drainage of the lateral quadrants",
+     "items": [
+      "Pectoral group of axillary lymph nodes (mainly)",
+      "Subscapular group (from the tail)",
+      "Infraclavicular nodes (upper lateral part)",
+      "Para-aortic nodes via posterior intercostal arteries (few)"
+     ]
+    },
+    {
+     "of": "Lymphatic drainage of the medial quadrants",
+     "items": [
+      "Parasternal lymph nodes (mainly)",
+      "Deep plexus of the opposite side",
+      "Subdiaphragmatic plexus (lower medial part)"
+     ]
+    },
+    {
+     "of": "Extensions of the pectoral fascia",
+     "items": [
+      "Axillary fascia (floor of the axilla)",
+      "Clavipectoral fascia"
+     ]
+    },
+    {
+     "of": "Structures piercing the clavipectoral fascia",
+     "items": [
+      "Cephalic vein",
+      "Lateral pectoral nerve",
+      "Acromio-thoracic artery",
+      "Lymph vessels from infraclavicular lymph nodes"
+     ]
+    },
+    {
+     "of": "Muscles of the pectoral region",
+     "items": [
+      "Pectoralis major",
+      "Pectoralis minor",
+      "Subclavius"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 154,
+     "caption": "Fig. 1: Mammary gland: extent & underlying structures (2nd rib, 6th costal cartilage, breast tail labelled)",
+     "kind": "diagram"
+    },
+    {
+     "page": 154,
+     "caption": "Fig. 2: Sagittal section of the mammary gland",
+     "kind": "diagram"
+    },
+    {
+     "page": 155,
+     "caption": "Fig. 3: Structure of the mammary gland",
+     "kind": "diagram"
+    },
+    {
+     "page": 156,
+     "caption": "Fig. 4: Arterial supply of the mammary gland (pectoral branch of acromio-thoracic, perforating branches of internal thoracic, lateral thoracic labelled)",
+     "kind": "diagram"
+    },
+    {
+     "page": 157,
+     "caption": "Fig. 5: Quadrants of the breast and the tail",
+     "kind": "diagram"
+    },
+    {
+     "page": 157,
+     "caption": "Fig. 6: Lymphatic plexuses of the breast",
+     "kind": "diagram"
+    },
+    {
+     "page": 159,
+     "caption": "Fig. 7: Lymphatic drainage of the breast, with a key to node groups S, I, C, L, A, P, PS, R and the cephalic and axillary veins labelled",
+     "kind": "diagram"
+    },
+    {
+     "page": 160,
+     "caption": "Fig. 8: A diagram showing the extent of the clavipectoral fascia",
+     "kind": "diagram"
+    },
+    {
+     "page": 160,
+     "caption": "Fig. 9: A diagram of a sagittal section in the pectoral region showing parts of clavipectoral fascia",
+     "kind": "diagram"
+    },
+    {
+     "page": 161,
+     "caption": "Fig. 10: clavi-pectoral fascia with the structures passing through, labelling subclavius, deltoid, cephalic vein, acromiothoracic artery, lateral pectoral nerve, pectoralis minor, pectoralis major (cut) and the attachment of fascia to floor of axilla",
+     "kind": "diagram"
+    },
+    {
+     "page": 162,
+     "caption": "Fig. (11): Muscles of pectoral region",
+     "kind": "diagram"
+    },
+    {
+     "page": 162,
+     "caption": "MUSCLES OF PECTORAL REGION - table of muscle, origin, insertion, nerve supply and action",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: in cancer breast, if the malignant tumour invades the fibrous septa it may pull on the overlying skin leading to retraction of the nipple.",
+    "Book states: obstruction of the superficial lymphatics causes oedema of the skin which is pitted by the attachments of the hair follicles so the skin appears as an orange peel - peau d'orange.",
+    "Book states: a breast abscess should be drained by a radial incision to avoid spread of infection to neighbouring lobes and to minimise damage to the radially arranged ducts.",
+    "Book states the breast is small in children, enlarges at puberty in young females due to increase in superficial fascia and fat (stroma), enlarges again during the first pregnancy from proliferation of glandular tissue, and reaches maximum size during lactation.",
+    "The Upper Limb part restarts chapter numbering at Chapter 1 again, and its pages carry no printed page numbers in the running heads."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Muscles of the Back",
+   "bookTitle": "MUSCLES CONNECTING THE UPPER LIMB WITH VERTEBRAL COLUMN (Muscles of the Back) (Chapter 2)",
+   "startPage": 163,
+   "endPage": 168,
+   "found": true,
+   "keyPoints": [
+    "The muscles of the back are upper limb muscles situated in the back connecting the limb to the vertebral column; the book states they are supplied by the anterior primary rami of the spinal nerves.",
+    "They are arranged in two layers: a superficial layer of trapezius and latissimus dorsi, and a deep layer of levator scapulae, rhomboideus major and rhomboideus minor.",
+    "Trapezius arises from the external occipital protuberance and medial third of the superior nuchal line, from the ligamentum nuchae and spine of C7, and from the spines of all thoracic vertebrae and their supraspinous ligaments.",
+    "Trapezius has a U-shaped insertion: upper fibres into the posterior border of the lateral third of the clavicle, middle fibres into the medial border of the acromion and the upper lip of the crest of the scapular spine, and lower fibres into a rough tubercle on the crest of the scapular spine near its root.",
+    "Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by cervical nerves C3 and C4.",
+    "Trapezius actions: upper fibres elevate the shoulder girdle; middle fibres (with the rhomboids) retract the scapula and brace back the shoulder; upper and lower fibres together rotate the scapula so the glenoid cavity faces upward, allowing the arm to be raised overhead.",
+    "Latissimus dorsi is a large triangular flat muscle covering the lower half of the back down to the iliac crest, with a wide origin and a narrow tendon of insertion.",
+    "It arises by fleshy fibres from the spines of the lower 6 thoracic vertebrae under cover of trapezius, the thoracolumbar fascia, the posterior third of the outer lip of the iliac crest, the outer surface of the lower 4 ribs, and a few fibres from the dorsal aspect of the inferior angle of the scapula.",
+    "Latissimus dorsi inserts into the floor of the bicipital groove and is supplied by the thoraco-dorsal nerve (nerve to latissimus dorsi).",
+    "Its actions are extension, medial rotation and adduction of the arm; acting with the sternocostal part of pectoralis major it pulls the trunk upwards as in climbing; and through its rib attachment it assists in violent expiration as in coughing.",
+    "The upper border of latissimus dorsi crosses over the inferior angle of the scapula and has a triple relation to teres major - first behind it, then curving below it, and at its insertion in front of it.",
+    "At its insertion latissimus dorsi usually fuses with teres major forming the posterior axillary fold.",
+    "The triangle of auscultation lies medial to the lower part of the scapula, bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi and laterally by the lower part of the medial border of the scapula; its floor is rhomboideus major and the sixth and seventh ribs with the space between them. Breath sounds are clearly heard over it, hence its name.",
+    "The lumbar triangle lies just above the iliac crest, bounded below by the iliac crest, medially by the lateral border of latissimus dorsi and laterally by the posterior border of external abdominal oblique; its floor is internal abdominal oblique and transversus abdominis.",
+    "Levator scapulae arises by four slips from the transverse processes of the upper 4 cervical vertebrae and inserts into the dorsal surface of the medial border of the scapula above the root of the spine; it is supplied by the dorsal scapular nerve (C5) plus fibres from C3 and C4, and elevates the shoulder girdle with the upper fibres of trapezius, rotates the scapula so the glenoid cavity faces downward, and retracts the scapula.",
+    "Rhomboideus minor arises from the lower part of the ligamentum nuchae and the spines of C7 and T1 and inserts into the dorsal surface of the medial border of the scapula opposite the root of the spine; supplied by the dorsal scapular nerve (C5), it rotates the scapula so the glenoid faces downward (with levator scapulae) and retracts the scapula (with the middle fibres of trapezius).",
+    "Rhomboideus major arises from the spines of T2-T5 and their supraspinous ligaments and inserts into the dorsal surface of the medial border of the scapula from the root of the spine to the inferior angle; it is supplied by the dorsal scapular nerve (C5) and has the same actions as rhomboideus minor."
+   ],
+   "definitions": [
+    {
+     "term": "Triangle of auscultation",
+     "text": "Triangle medial to the lower part of the scapula, bounded by trapezius, latissimus dorsi and the medial border of the scapula, over which breath sounds are clearly heard."
+    },
+    {
+     "term": "Lumbar triangle",
+     "text": "Triangle just above the iliac crest bounded by the iliac crest, latissimus dorsi and external abdominal oblique; a possible site of lumbar hernia."
+    },
+    {
+     "term": "Posterior axillary fold",
+     "text": "Formed by the fusion of latissimus dorsi with teres major at its insertion."
+    }
+   ],
+   "numbers": [
+    "2 layers of back muscles: 2 superficial and 3 deep",
+    "Latissimus dorsi from the spines of the lower 6 thoracic vertebrae and the outer surface of the lower 4 ribs",
+    "Levator scapulae by 4 slips from the upper 4 cervical transverse processes",
+    "Rhomboideus major from spines of T2-T5",
+    "Dorsal scapular nerve C5, plus C3 and C4 fibres to levator scapulae",
+    "Trapezius sensory supply C3 and C4",
+    "Triangle of auscultation floor includes the 6th and 7th ribs"
+   ],
+   "classifications": [
+    {
+     "of": "Muscles of the back - superficial layer",
+     "items": [
+      "Trapezius",
+      "Latissimus dorsi"
+     ]
+    },
+    {
+     "of": "Muscles of the back - deep layer",
+     "items": [
+      "Levator scapulae",
+      "Rhomboideus major",
+      "Rhomboideus minor"
+     ]
+    },
+    {
+     "of": "Boundaries of the triangle of auscultation",
+     "items": [
+      "Above: lateral border of trapezius",
+      "Below: upper border of latissimus dorsi",
+      "Laterally: lower part of the medial border of the scapula",
+      "Floor: rhomboideus major, 6th and 7th ribs and the space between"
+     ]
+    },
+    {
+     "of": "Boundaries of the lumbar triangle",
+     "items": [
+      "Below: iliac crest",
+      "Medially: lateral border of latissimus dorsi",
+      "Laterally: posterior border of external abdominal oblique",
+      "Floor: internal abdominal oblique and transversus abdominis"
+     ]
+    },
+    {
+     "of": "Origins of latissimus dorsi",
+     "items": [
+      "Spines of the lower 6 thoracic vertebrae",
+      "Thoracolumbar fascia",
+      "Posterior third of the outer lip of the iliac crest",
+      "Outer surface of the lower 4 ribs",
+      "Dorsal aspect of the inferior angle of the scapula"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 163,
+     "caption": "Fig. 12: Muscles of the back",
+     "kind": "diagram"
+    },
+    {
+     "page": 164,
+     "caption": "Fig. 13: Back view showing attachments of trapezius muscle",
+     "kind": "diagram"
+    },
+    {
+     "page": 164,
+     "caption": "Trapezius - table of origin, insertion, nerve supply and action",
+     "kind": "table"
+    },
+    {
+     "page": 165,
+     "caption": "Fig. 14: Back view showing attachments of latissimus dorsi",
+     "kind": "diagram"
+    },
+    {
+     "page": 166,
+     "caption": "Fig. 15: Triple relation between latissimus dorsi and teres major (anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 167,
+     "caption": "Fig. 16: Triangles related to latissimus dorsi",
+     "kind": "diagram"
+    },
+    {
+     "page": 168,
+     "caption": "Fig. 17: Muscles of the back (Deep layer)",
+     "kind": "diagram"
+    },
+    {
+     "page": 168,
+     "caption": "Deep layer muscles - table of levator scapulae, rhomboideus minor and rhomboideus major with origin, insertion, nerve supply and action",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: paralysis of the trapezius leads to shoulder drop.",
+    "Book states the lumbar triangle might be a site of hernia (lumbar hernia).",
+    "Book states these muscles 'are supplied by the anterior primary rami of the spinal nerves', while the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve - recorded as the book states it.",
+    "The book's tree order places Shoulder Region before Muscles of the Back, but the book itself places Muscles of the Back second, immediately after the Pectoral Region."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Shoulder Region",
+   "bookTitle": "MUSCLES OF THE SHOULDER REGION (Scapular Muscles) (Chapter 3)",
+   "startPage": 169,
+   "endPage": 177,
+   "found": true,
+   "keyPoints": [
+    "The scapular muscles are a group surrounding the shoulder joint and extending from scapula to humerus: deltoid, supraspinatus, infraspinatus, teres major, teres minor and subscapularis.",
+    "Deltoid is a triangular thick muscle forming the rounded contour of the shoulder, with a V-shaped origin from the anterior border of the lateral third of the clavicle (anterior fibres), the lateral border of the acromion (middle fibres) and the lower lip of the crest of the spine of the scapula (posterior fibres).",
+    "Deltoid inserts into the deltoid tuberosity at the middle of the lateral surface of the shaft of the humerus and is supplied by the circumflex (axillary) nerve.",
+    "Deltoid actions: anterior fibres flex and medially rotate the arm; posterior fibres extend and laterally rotate the arm; middle fibres abduct the arm through the middle range of abduction.",
+    "The deltopectoral groove lies between the contiguous borders of pectoralis major and deltoid and ends above, just below the clavicle, in the infraclavicular fossa; it lodges the uppermost part of the cephalic vein, the deltoid branch of the thoraco-acromial artery and the deltopectoral lymph nodes.",
+    "Supraspinatus arises from the medial two-thirds of the supraspinous fossa, inserts into the highest impression on the greater tuberosity, is supplied by the suprascapular nerve, helps steady the head of the humerus in the glenoid cavity and initiates abduction of the arm.",
+    "Infraspinatus arises from the medial two-thirds of the infraspinous fossa, inserts into the middle impression on the back of the greater tuberosity, is supplied by the suprascapular nerve, steadies the head of the humerus and laterally rotates the arm.",
+    "Teres minor arises from the upper two-thirds of the dorsal surface of the lateral border of the scapula, inserts into the lowest impression on the back of the greater tuberosity, is supplied by the axillary (circumflex) nerve, steadies the head of the humerus and adducts and laterally rotates the arm.",
+    "Teres major arises from the lower third of the dorsal surface of the lateral border of the scapula, inserts into the medial lip of the bicipital groove, is supplied by the lower subscapular nerve, and produces adduction, medial rotation and extension of the arm.",
+    "Subscapularis fits the subscapular fossa on the front of the scapula, arising from its medial two-thirds and inserting into the lesser tuberosity of the humerus; it is supplied by the upper and lower subscapular nerves, stabilises the anterior aspect of the shoulder joint and medially rotates and adducts the arm.",
+    "Subscapularis together with supraspinatus, infraspinatus and teres minor steady the head of the humerus in the glenoid cavity during arm movements; the tendons of these four muscles blend with the capsule of the shoulder joint and are called the rotator muscle cuff.",
+    "The muscles connecting the upper limb with the thoracic wall are pectoralis major, pectoralis minor, subclavius and serratus anterior.",
+    "Serratus anterior is a large flat muscle covering the upper part of the side of the chest, arising by digitations from the outer surfaces of the upper ribs midway between their angles and their costal cartilages, the first digitation being the largest and arising from the 1st and 2nd ribs.",
+    "Serratus anterior inserts into the ventral surface of the medial border of the scapula: the first digitation into the superior angle, the 2nd and 3rd fanning out into the whole length of the medial border, and the lower five converging into the inferior angle.",
+    "Serratus anterior is supplied by the nerve to serratus anterior (long thoracic nerve), which arises from the roots of the brachial plexus and descends vertically on the outer surface of the muscle in the mid-axillary line.",
+    "Serratus anterior is the main and powerful protractor of the shoulder, assisted by pectoralis minor; acting with the upper and lower fibres of trapezius its lower five digitations rotate the scapula so the glenoid cavity looks upwards; it helps fix the scapula to the chest wall; and when the scapula is fixed it pulls on the ribs in forced inspiration.",
+    "The quadrangular and triangular spaces are intermuscular spaces lying just below the shoulder joint.",
+    "The quadrangular space (laterally) is bounded above by teres minor (from behind), subscapularis (from in front) and the capsule of the shoulder joint, below by teres major, medially by the long head of triceps and laterally by the surgical neck of the humerus; it contains the posterior circumflex humeral vessels and the axillary (circumflex) nerve.",
+    "The upper triangular space (medially) is bounded above by teres minor (from behind) and subscapularis (from in front), below by teres major and laterally by the long head of triceps; it transmits only the circumflex scapular artery.",
+    "The lower triangular space (triangular interval) lies just lateral to the long head of triceps, separated from the quadrangular space by teres major; it is bounded above by teres major, medially by the long head of triceps and laterally by the lateral head of triceps and the shaft of the humerus, and contains the radial nerve and profunda brachii vessels."
+   ],
+   "definitions": [
+    {
+     "term": "Deltopectoral groove",
+     "text": "Groove between the contiguous borders of pectoralis major and deltoid, ending above in the infraclavicular fossa."
+    },
+    {
+     "term": "Rotator (muscle) cuff",
+     "text": "The blended tendons of subscapularis, supraspinatus, infraspinatus and teres minor with the capsule of the shoulder joint, steadying the head of the humerus in the glenoid cavity."
+    },
+    {
+     "term": "Winging of the scapula",
+     "text": "Projection of the inferior angle and medial border of the scapula backwards when pushing against resistance, following paralysis of serratus anterior."
+    },
+    {
+     "term": "Quadrangular space",
+     "text": "Intermuscular space below the shoulder joint bounded by teres minor/subscapularis, teres major, long head of triceps and surgical neck of humerus."
+    },
+    {
+     "term": "Triangular interval (lower triangular space)",
+     "text": "Space lateral to the long head of triceps bounded by teres major, long head of triceps and the lateral head of triceps with the shaft of humerus."
+    }
+   ],
+   "numbers": [
+    "6 scapular muscles",
+    "Deltoid middle fibres abduct the arm from 15 to 90 degrees",
+    "Supraspinatus abducts the arm from 0 to 15 degrees, initiating abduction",
+    "Circumflex (axillary) nerve C5,6",
+    "Suprascapular nerve C5,6",
+    "Lower subscapular nerve C5,6",
+    "Upper and lower subscapular nerves C5,6",
+    "Long thoracic nerve C5,6,7",
+    "Serratus anterior arises by 8 digitations from the upper 8 ribs",
+    "Lower 5 digitations insert into the inferior angle",
+    "4 rotator cuff muscles",
+    "3 intermuscular spaces below the shoulder joint"
+   ],
+   "classifications": [
+    {
+     "of": "Muscles of the shoulder region (scapular muscles)",
+     "items": [
+      "Deltoid",
+      "Supraspinatus",
+      "Infraspinatus",
+      "Teres major",
+      "Teres minor",
+      "Subscapularis"
+     ]
+    },
+    {
+     "of": "Rotator cuff muscles",
+     "items": [
+      "Subscapularis",
+      "Supraspinatus",
+      "Infraspinatus",
+      "Teres minor"
+     ]
+    },
+    {
+     "of": "Muscles connecting the upper limb with the thoracic wall",
+     "items": [
+      "Pectoralis major",
+      "Pectoralis minor",
+      "Subclavius",
+      "Serratus anterior"
+     ]
+    },
+    {
+     "of": "Contents of the deltopectoral groove",
+     "items": [
+      "Uppermost part of the cephalic vein",
+      "Deltoid branch of the thoraco-acromial artery",
+      "Deltopectoral lymph nodes"
+     ]
+    },
+    {
+     "of": "Quadrangular and triangular spaces",
+     "items": [
+      "Quadrangular space - posterior circumflex humeral vessels and axillary nerve",
+      "Upper triangular space - circumflex scapular artery only",
+      "Lower triangular space (triangular interval) - radial nerve and profunda brachii vessels"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 169,
+     "caption": "Fig. 18: Scapular muscles, keyed a-e",
+     "kind": "diagram"
+    },
+    {
+     "page": 170,
+     "caption": "Fig. 19: Attachments of deltoid muscle",
+     "kind": "diagram"
+    },
+    {
+     "page": 171,
+     "caption": "Fig. 20: Delto-pectoral groove",
+     "kind": "diagram"
+    },
+    {
+     "page": 172,
+     "caption": "Fig. 21: Scapular muscles & their attachments",
+     "kind": "diagram"
+    },
+    {
+     "page": 174,
+     "caption": "Fig. 22: Rotator cuff muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 175,
+     "caption": "Fig. 23: Attachments of Serratus Anterior muscle",
+     "kind": "diagram"
+    },
+    {
+     "page": 176,
+     "caption": "Fig. 24: Winging of the scapula",
+     "kind": "diagram"
+    },
+    {
+     "page": 177,
+     "caption": "Fig. 25: Quadrangular & triangular spaces (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 177,
+     "caption": "Fig. 26: Quadrangular & triangular spaces & the structures passing through",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: paralysis of the deltoid muscle results in flattening of the shoulder and loss of abduction of the shoulder joint from 15 to 90 degrees.",
+    "Book states: because serratus anterior fixes the scapula against the chest wall, its paralysis results in projection of the inferior angle and medial border of the scapula backwards when pushing against resistance - winging of the scapula.",
+    "Serratus anterior is described in this chapter, not in the pectoral region chapter, although it is grouped with the muscles connecting the upper limb with the thoracic wall."
    ]
   }
  ]

@@ -4,7 +4,7 @@
   Source: `Department Book Module 101.pdf` (291 pages), "Normal Structure of the
   Human Body (ISK – 101)", by staff of the Histology and Anatomy Departments,
   Faculty of Medicine, Cairo University. Manifest source ID
-  src_5c8bb4bf7f1b32c9f3a1 — see ../manifest/kasr-y1-sources.json.
+  src_b1e6dc481eaf337268d0 — see ../manifest/kasr-y1-sources.json.
 
   The two subjects are not a guess. `101 ISK/NOTE 2 SUBJECTS ARE ANATOMY AND
   HISTOLOGY NOTE/` states them, and the book is in two parts under exactly those
