@@ -1,7 +1,0 @@
-1 = EOM ISK 101 - 2023.pdf
-2 = EOM ISK 101 195 Answers.pdf
-3 = EOM ISK EOM exam 2024.pdf
-4 = EOM ISK End 101 — 2022.pdf
-5 = EOM ISK End 101– 2021 (answers).pdf
-6 = EOM first 2021 101 INT end of module.pdf
-DONE

@@ -37,8 +37,35 @@ if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with
  * `--with` names those siblings explicitly. It widens what counts as existing;
  * it never suppresses an error, and a file not named here still has to be real.
  */
-const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
-  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+const rest = process.argv.slice(3)
+
+// A `--with` list built in a shell variable arrives as ONE argument, not many:
+// zsh does not word-split an unquoted expansion, and `npm run … -- $vars` has
+// the same effect. The old parser matched `arg === '--with'`, found nothing,
+// and validated against an empty sibling set — reporting hundreds of errors on
+// a batch that is clean, or none on one that is not, with nothing said either
+// way. It has now cost three sessions a wrong measurement, including mine.
+//
+// So this errors on anything it cannot read rather than skipping it. A parser
+// that silently ignores what it does not recognise loses the thing it was given.
+for (const arg of rest) {
+  if (arg === '--with' || rest[rest.indexOf(arg) - 1] === '--with') continue
+  if (arg.includes('--with')) {
+    throw new Error(
+      `Sibling list arrived as one argument:\n  ${arg.slice(0, 120)}${arg.length > 120 ? '…' : ''}\n\n`
+      + 'The shell did not split it. In zsh an unquoted `$vars` is a single word — build an array instead:\n'
+      + '  args=(); for f in docs/.../concept/*.md; do args+=(--with "$f"); done\n'
+      + '  node --experimental-strip-types scripts/validate-content-batch.mjs <batch> "${args[@]}"\n'
+      + 'and check the output says "N rows treated as pending import" before trusting an error count.')
+  }
+  throw new Error(`Unrecognised argument "${arg}". Only --with <file> is accepted after the batch path.`)
+}
+
+const alongside = rest.reduce((files, arg, index, argv) => {
+  if (arg === '--with') {
+    if (!argv[index + 1]) throw new Error('--with was given with no file after it')
+    files.push(argv[index + 1])
+  }
   return files
 }, [])
 
