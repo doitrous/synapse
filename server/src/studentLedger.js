@@ -112,6 +112,10 @@ export const PUBLIC_FIELDS = new Set([
   // there, exactly as a single-best-answer question's correct letter already
   // is — the bank marks in the browser, so it cannot work otherwise.
   'matching',
+  // A multiple-response question's answer set, and a labelling plate with its
+  // points. Both hold the answers, exactly as `correctAnswer` and `matching`
+  // already do — the browser marks, so it cannot work otherwise.
+  'multiResponse', 'labeling',
   // Question tags. Curriculum placement, blueprint weighting and the difficulty
   // signals the adaptive engine runs on — all of which run on the student's own
   // screen, so withholding them would break the feature rather than protect

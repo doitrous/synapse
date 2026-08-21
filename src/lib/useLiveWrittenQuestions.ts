@@ -8,6 +8,8 @@ import {
   managedMatchingToStudentMatching, managedWrittenToStudentWritten, type WrittenQuestion,
 } from '@/data/writtenQuestion'
 import type { MatchingQuestionView } from '@/data/matchingQuestion'
+import { managedMultiToStudentMulti, type MultiResponseQuestionView } from '@/data/multiResponseQuestion'
+import { managedLabelingToStudentLabeling, type LabelingQuestionView } from '@/data/labelingQuestion'
 import { usePersistentState } from './usePersistentState'
 
 export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): WrittenQuestion[] {
@@ -39,4 +41,24 @@ export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]):
 export function useLiveMatchingQuestions() {
   const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   return useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue])
+}
+
+/** Every published multiple-response question. */
+export function useLiveMultiResponseQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(
+    () => catalogue.map(managedMultiToStudentMulti)
+      .filter((q): q is MultiResponseQuestionView => q !== null),
+    [catalogue],
+  )
+}
+
+/** Every published labelling question. */
+export function useLiveLabelingQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(
+    () => catalogue.map(managedLabelingToStudentLabeling)
+      .filter((q): q is LabelingQuestionView => q !== null),
+    [catalogue],
+  )
 }

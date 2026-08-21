@@ -160,18 +160,20 @@ export function writtenTotalMarks(parts: readonly WrittenPart[]): number {
  * before then is what this list prevents, and the reason is that the failures
  * are silent rather than loud:
  *
- *  - `mcq_multi` renders through the single-best-answer path, where
- *    `correctAnswer` holds one letter. A question with three correct options
- *    would be marked as though only the first were right, and the student would
- *    be told they were wrong when they were not.
- *  - `completion` and `labeling` have no payload and no runner, so they would
- *    reach a student as an empty question or not at all.
+ * `completion` is the one still out. It has no payload and no runner, so it
+ * would reach a student as an empty question or not at all.
+ *
+ * `mcq_multi` was here for a while and is the reason the list exists: it used to
+ * render through the single-best-answer path, where `correctAnswer` holds one
+ * letter, so a question with three correct options was marked as though only
+ * the first counted and a student who answered it perfectly was told they were
+ * wrong. It now carries its own answer set and its own runner.
  *
  * Being refused at import is the loud failure. Add a format here only when
  * something can genuinely render and mark it.
  */
 export const RUNNABLE_FORMATS = [
-  'mcq_single_best', 'true_false', 'image_based', 'matching',
+  'mcq_single_best', 'true_false', 'image_based', 'matching', 'mcq_multi', 'labeling',
   'short_answer', 'structured_written', 'essay', 'comparison_table', 'multipart_written',
 ] as const
 

@@ -947,3 +947,64 @@ test('a question with no format still reads as single best answer', () => {
     'everything authored before formats existed keeps its meaning')
   assert.equal(data.writtenParts, undefined)
 })
+
+test('a multiple response question imports its several correct answers', () => {
+  const row = {
+    id: 'Q-MR-1', title: 'Which arteries supply the interventricular septum?',
+    subject: 'cvs', format: 'multiple response', question: 'Select all that apply.',
+    answer_a: 'Left anterior descending', answer_b: 'Left circumflex',
+    answer_c: 'Posterior interventricular', answer_d: 'Right marginal',
+    correct_answers: 'A | C', main_concept: 'CON-CVS-1',
+  }
+  assert.deepEqual(validateImportRow('question', row), [],
+    'and it needs no correct_answer, which it has no way to express')
+
+  const data = importRowToContent('question', row, 'row-mr').questionData!
+  assert.equal(data.format, 'mcq_multi')
+  assert.deepEqual(data.multiResponse?.correctAnswers, ['A', 'C'])
+})
+
+test('a multiple response question with one correct answer is refused', () => {
+  const errors = validateImportRow('question', {
+    id: 'Q-MR-2', title: 'One answer', subject: 'cvs', format: 'mcq_multi',
+    question: 'Pick.', answer_a: 'One', answer_b: 'Two',
+    correct_answers: 'A', main_concept: 'CON-CVS-1',
+  })
+  assert.ok(errors.some((error) => /at least two correct answers/.test(error)))
+})
+
+test('a labelling question imports its image and points', () => {
+  const row = {
+    id: 'Q-LB-1', title: 'Identify the structures in the anterior arm',
+    subject: 'msk', format: 'labelling', question: 'Name each numbered structure.',
+    labeling_image: 'https://example.test/arm.png',
+    labeling_alt: 'Anterior compartment of the arm, three structures arrowed',
+    labeling_points: '1 @ 34,58 = Biceps brachii | Biceps\n2 @ 61,42 = Brachialis',
+    main_concept: 'CON-MSK-1',
+  }
+  assert.deepEqual(validateImportRow('question', row), [])
+
+  const data = importRowToContent('question', row, 'row-lb').questionData!
+  assert.equal(data.format, 'labeling')
+  assert.equal(data.labeling?.points.length, 2)
+  assert.deepEqual(data.labeling?.points[0].accepts, ['Biceps'])
+  assert.equal(data.labeling?.points[0].x, 34)
+})
+
+test('a labelling question with no alt text is refused', () => {
+  // The image is the question; without alt text a student using a screen
+  // reader is told nothing at all.
+  const errors = validateImportRow('question', {
+    id: 'Q-LB-2', title: 'No alt', subject: 'msk', format: 'labeling',
+    question: 'Name it.', labeling_image: 'https://example.test/a.png',
+    labeling_points: '1 @ 10,10 = Something', main_concept: 'CON-MSK-1',
+  })
+  assert.ok(errors.some((error) => /needs alt text/.test(error)))
+})
+
+test('a labelling payload on a non-labelling format is refused', () => {
+  const errors = validateImportRow('question', {
+    ...FULL_QUESTION, labeling_image: 'https://example.test/a.png',
+  })
+  assert.ok(errors.some((error) => /only a labelling question carries them/.test(error)))
+})

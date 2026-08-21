@@ -137,6 +137,10 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `written_parts` | Written parts | The marked subparts of a written question. **Required on a written format, refused on any other.** | `[]` |
 | `matching_options` | Matching options | The option bank, one per line as `A \| text`. **Required on `matching`, refused on any other.** | `[]` |
 | `matching_prompts` | Matching prompts | The prompts, one per line as `prompt = A`. | `[]` |
+| `correct_answers` | Correct answers | For `mcq_multi`: every correct option, as `A \| C`. Two or more. | `[]` |
+| `labeling_image` | Labelling image | Image URL. **Required on `labeling`.** | — |
+| `labeling_alt` | Labelling alt text | What the image shows. **Required on `labeling`.** | — |
+| `labeling_points` | Labelling points | One per line as `1 @ 34,58 = Answer \| Also accepted`. | `[]` |
 | `derived_from` | Derived from | What this was derived from, when it was derived rather than transcribed. | — |
 | `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
@@ -652,8 +656,63 @@ as an empty question or not at all.
 | `mcq_single_best` · `true_false` · `image_based` | Question Bank |
 | `matching` | Essay questions → Matching questions |
 | `short_answer` · `structured_written` · `essay` · `comparison_table` · `multipart_written` | Essay questions → Exam questions |
-| `mcq_multi` · `completion` · `labeling` | **Nowhere yet — refused at import** |
+| `mcq_multi` | Essay questions → Select all that apply |
+| `labeling` | Essay questions → Labelling |
+| `completion` | **Nowhere yet — refused at import** |
 
 Capture a source question in a refused format in the source record and wait for
 the runner. Do not rewrite it as an MCQ to get it in; that changes what it
 tests, which is the whole thing this is here to prevent.
+
+### Select all that apply
+
+`correct_answers` holds every correct option, and `correct_answer` is not used —
+it is one letter and cannot say that three options are right. Two or more, or it
+is a single best answer question. Marking every option correct is refused: there
+is nothing left to tell apart.
+
+```
+## correct_answers
+A | C
+```
+
+A student's result is reported as **what they chose wrongly** and **what they
+left out**, kept apart. Those are different mistakes — one is a misconception
+about an option, the other is not knowing it belonged — and a single fraction
+hides which was made.
+
+### Labelling
+
+How anatomy and histology are actually examined here: identify the structure at
+the arrow.
+
+```
+## labeling_image
+https://…/anterior-arm.png
+
+## labeling_alt
+Anterior compartment of the arm, three structures arrowed
+
+## labeling_points
+1 @ 34,58 = Biceps brachii | Biceps | Biceps m.
+2 @ 61,42 = Brachialis
+3 @ 22,77 = Median nerve | Median n. | N. medianus
+```
+
+Coordinates are **percentages** of the image, so a pin holds wherever the image
+is rendered. Everything after the first `|` is another wording that counts as
+right.
+
+**Alt text is required**, not encouraged: the image *is* the question, so
+without it a student using a screen reader is told nothing at all.
+
+Answers are typed, not chosen from a list — recognising a name among four
+options is a different and much easier task than producing it, and producing it
+is what the paper asks.
+
+Marking is lenient about wording and strict about structure. Case, punctuation,
+articles and the abbreviations a student writes are all ignored, so "the biceps
+brachii muscle" and "Biceps brachii" are one answer, and so are "median n." and
+"Median nerve". But the class word is never discarded: **"median nerve" and
+"median artery" are not the same answer**, and treating them as one would credit
+a student for naming a different structure.

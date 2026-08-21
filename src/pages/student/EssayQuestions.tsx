@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { BookOpen, ChevronRight, FileText, PenLine, Shuffle } from 'lucide-react'
+import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuffle } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 import { WRITTEN_GUIDE } from '@/data/writtenGuide'
 import { coveredCount, type EssayQuestion as EssayQuestionData } from '@/data/essay'
 import { useLiveEssays } from '@/lib/useLiveEssays'
@@ -17,7 +18,14 @@ import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { EssayRunner } from '@/components/essay/EssayRunner'
 import { WrittenRunner } from '@/components/written/WrittenRunner'
-import { useLiveMatchingQuestions, useLiveWrittenQuestions } from '@/lib/useLiveWrittenQuestions'
+import {
+  useLiveLabelingQuestions, useLiveMatchingQuestions, useLiveMultiResponseQuestions,
+  useLiveWrittenQuestions,
+} from '@/lib/useLiveWrittenQuestions'
+import { MultiResponseRunner } from '@/components/written/MultiResponseRunner'
+import { LabelingRunner } from '@/components/written/LabelingRunner'
+import type { MultiResponseQuestionView } from '@/data/multiResponseQuestion'
+import type { LabelingQuestionView } from '@/data/labelingQuestion'
 import { MatchingRunner } from '@/components/written/MatchingRunner'
 import type { MatchingQuestionView } from '@/data/matchingQuestion'
 import { useWrittenAnswers } from '@/lib/useWrittenAnswers'
@@ -157,6 +165,59 @@ function WrittenRow({ question, onOpen }: { question: WrittenQuestion; onOpen: (
   )
 }
 
+
+/**
+ * One format's list of questions.
+ *
+ * Written out five times over as five formats arrived, which is four times too
+ * many for markup that only differs by an icon and a subtitle.
+ */
+function FormatSection<T extends { id: string; title: string }>({
+  title, blurb, icon, items, subtitle, onOpen,
+}: {
+  title: string
+  blurb: string
+  icon: LucideIcon
+  items: T[]
+  subtitle: (item: T) => string
+  onOpen: (item: T) => void
+}) {
+  const t = useT()
+  if (!items.length) return null
+  return (
+    <section>
+      <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{title}</h2>
+      <p className="mb-3 text-[12.5px] leading-relaxed text-ink-2">{blurb}</p>
+      <Panel className="overflow-hidden">
+        <ul className="divide-y divide-line">
+          {items.map((item) => (
+            <li key={item.id}>
+              <div
+                role="button"
+                tabIndex={0}
+                onClick={() => onOpen(item)}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(item) } }}
+                className="flex cursor-pointer flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3.5 transition-colors hover:bg-inset/60 focus-visible:bg-inset focus-visible:outline-none"
+              >
+                <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
+                  <Icon icon={icon} size={18} />
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="text-[14px] font-medium text-ink">{item.title}</p>
+                  <p className="mt-0.5 tnum text-[12px] text-ink-3">{subtitle(item)}</p>
+                </div>
+                <Button variant="primary" size="sm" onClick={(e) => { e.stopPropagation(); onOpen(item) }}>
+                  {t('Start')}
+                </Button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </Panel>
+    </section>
+  )
+}
+
 /** Published essays, divided by system — the same shape every practical tab groups by. */
 function EssayList({ essays, onOpen }: { essays: EssayQuestionData[]; onOpen: (essay: EssayQuestionData) => void }) {
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
@@ -211,10 +272,16 @@ export function EssayQuestions() {
   const essays = useLiveEssays()
   const written = useLiveWrittenQuestions()
   const matching = useLiveMatchingQuestions()
-  const availability = useCatalogueAvailability(essays.length + written.length + matching.length)
+  const multi = useLiveMultiResponseQuestions()
+  const labeling = useLiveLabelingQuestions()
+  const availability = useCatalogueAvailability(
+    essays.length + written.length + matching.length + multi.length + labeling.length,
+  )
   const [active, setActive] = useState<EssayQuestionData | null>(null)
   const [activeWritten, setActiveWritten] = useState<WrittenQuestion | null>(null)
   const [activeMatching, setActiveMatching] = useState<MatchingQuestionView | null>(null)
+  const [activeMulti, setActiveMulti] = useState<MultiResponseQuestionView | null>(null)
+  const [activeLabeling, setActiveLabeling] = useState<LabelingQuestionView | null>(null)
 
   if (active) {
     // Keyed by question: without it, a future "next question" control would
@@ -229,6 +296,14 @@ export function EssayQuestions() {
 
   if (activeMatching) {
     return <MatchingRunner key={activeMatching.id} question={activeMatching} onExit={() => setActiveMatching(null)} />
+  }
+
+  if (activeMulti) {
+    return <MultiResponseRunner key={activeMulti.id} question={activeMulti} onExit={() => setActiveMulti(null)} />
+  }
+
+  if (activeLabeling) {
+    return <LabelingRunner key={activeLabeling.id} question={activeLabeling} onExit={() => setActiveLabeling(null)} />
   }
 
   return (
@@ -270,48 +345,41 @@ export function EssayQuestions() {
             </section>
           )}
 
-          {matching.length > 0 && (
-            <section>
-              <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Matching questions')}</h2>
-              <p className="mb-3 text-[12.5px] leading-relaxed text-ink-2">
-                {t('Match every prompt to an option, then check the block as a whole.')}
-              </p>
-              <Panel className="overflow-hidden">
-                <ul className="divide-y divide-line">
-                  {matching.map((question) => (
-                    <li key={question.id}>
-                      <div
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => setActiveMatching(question)}
-                        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setActiveMatching(question) } }}
-                        className="flex cursor-pointer flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3.5 transition-colors hover:bg-inset/60 focus-visible:bg-inset focus-visible:outline-none"
-                      >
-                        <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
-                          <Icon icon={Shuffle} size={18} />
-                        </span>
-                        <div className="min-w-0 flex-1">
-                          <p className="text-[14px] font-medium text-ink">{question.title}</p>
-                          <p className="mt-0.5 tnum text-[12px] text-ink-3">
-                            {t('{prompts} prompts · {options} options')
-                              .replace('{prompts}', String(question.matching.prompts.length))
-                              .replace('{options}', String(question.matching.options.length))}
-                          </p>
-                        </div>
-                        <Button variant="primary" size="sm" onClick={(e) => { e.stopPropagation(); setActiveMatching(question) }}>
-                          {t('Start')}
-                        </Button>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </Panel>
-            </section>
-          )}
+          <FormatSection
+            title={t('Matching questions')}
+            blurb={t('Match every prompt to an option, then check the block as a whole.')}
+            icon={Shuffle}
+            items={matching}
+            subtitle={(question) => t('{prompts} prompts · {options} options')
+              .replace('{prompts}', String(question.matching.prompts.length))
+              .replace('{options}', String(question.matching.options.length))}
+            onOpen={setActiveMatching}
+          />
+
+          <FormatSection
+            title={t('Select all that apply')}
+            blurb={t('More than one option is correct. Choosing wrongly and leaving something out are reported apart.')}
+            icon={ListChecks}
+            items={multi}
+            subtitle={(question) => t('{n} of {total} options are correct')
+              .replace('{n}', String(question.correctAnswers.length))
+              .replace('{total}', String(question.options.length))}
+            onOpen={setActiveMulti}
+          />
+
+          <FormatSection
+            title={t('Labelling')}
+            blurb={t('Name the structure at each pointer, as a practical paper asks.')}
+            icon={Crosshair}
+            items={labeling}
+            subtitle={(question) => t('{n} structures to name')
+              .replace('{n}', String(question.labeling.points.length))}
+            onOpen={setActiveLabeling}
+          />
 
           {essays.length > 0 && (
             <section>
-              {(written.length > 0 || matching.length > 0) && (
+              {(written.length + matching.length + multi.length + labeling.length > 0) && (
                 <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Practice essays')}</h2>
               )}
               <EssayList essays={essays} onOpen={setActive} />

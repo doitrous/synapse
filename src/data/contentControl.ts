@@ -13,6 +13,8 @@ export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'd
 
 import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
 import type { MatchingPayload } from './matchingQuestion.ts'
+import type { MultiResponsePayload } from './multiResponseQuestion.ts'
+import type { LabelingPayload } from './labelingQuestion.ts'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -235,6 +237,13 @@ export interface QuestionAuthoringData {
    * `format: 'matching'`.
    */
   matching?: MatchingPayload
+  /**
+   * Which options are correct on a multiple-response question. Present only on
+   * `format: 'mcq_multi'`, because `correctAnswer` holds one letter and cannot.
+   */
+  multiResponse?: MultiResponsePayload
+  /** The image and its labelled points. Present only on `format: 'labeling'`. */
+  labeling?: LabelingPayload
   /**
    * What this was derived from, when it was derived rather than transcribed.
    * A written question may only be derived from another written question; the

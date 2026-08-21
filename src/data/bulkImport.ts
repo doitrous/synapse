@@ -15,6 +15,8 @@ import {
   isRunnableFormat, isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
 } from './questionFormat.ts'
 import { matchingErrors, parseMatching } from './matchingQuestion.ts'
+import { multiResponseErrors, parseCorrectAnswers } from './multiResponseQuestion.ts'
+import { labelingErrors, parseLabeling } from './labelingQuestion.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
@@ -55,6 +57,10 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'written_parts', label: 'Written parts', help: 'The marked subparts of a written question. One "### (a) 5 marks" heading per part, then the prompt, then "Expects:" lines for the mark scheme and an optional "Concept:" line.' },
       { key: 'matching_options', label: 'Matching options', help: 'The option bank of a matching question, one per line as "A | text".' },
       { key: 'matching_prompts', label: 'Matching prompts', help: 'The prompts of a matching question, one per line as "prompt = A". An option may answer several prompts, and some may answer none.' },
+      { key: 'correct_answers', label: 'Correct answers', help: 'For a multiple response question: every correct option, as "A | C". Two or more.' },
+      { key: 'labeling_image', label: 'Labelling image', help: 'The image URL of a labelling question.' },
+      { key: 'labeling_alt', label: 'Labelling image alt text', help: 'What the image shows, for a student who cannot see it. Required on a labelling question.' },
+      { key: 'labeling_points', label: 'Labelling points', help: 'One per line as "1 @ 34,58 = Answer | Also accepted". Coordinates are percentages of the image.' },
       { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
@@ -785,7 +791,7 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
 
   const errors = IMPORT_SCHEMAS[kind].fields
     .filter((field) => field.required && !values[field.key]?.trim())
-    .filter((field) => !(written && field.key === 'correct_answer'))
+    .filter((field) => !((written || format === 'mcq_multi' || format === 'labeling') && field.key === 'correct_answer'))
     .map((field) => `${field.label} is required`)
 
   if (kind === 'question') {
@@ -793,7 +799,7 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push(`Question format "${values.format.trim()}" is not one of ${QUESTION_FORMATS.join(', ')}`)
     }
 
-    if (isChoiceFormat(format)) {
+    if (isChoiceFormat(format) && format !== 'mcq_multi') {
       const answer = values.correct_answer?.trim().toUpperCase()
       if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
       if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
@@ -803,6 +809,25 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     // invisible or, worse, render as something it is not.
     if (!isRunnableFormat(format)) {
       errors.push(`Nothing can show a ${format} question to a student yet, so importing one would either hide it or mark it wrongly. Capture the source question and wait for the runner.`)
+    }
+
+    if (format === 'mcq_multi') {
+      const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
+      errors.push(...multiResponseErrors(
+        parseCorrectAnswers(values.correct_answers),
+        labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`] ?? '' })),
+      ))
+    } else if (values.correct_answers?.trim()) {
+      errors.push(`Several correct answers were given, but the format is ${format} — only a multiple response question has more than one`)
+    }
+
+    if (format === 'labeling') {
+      errors.push(...labelingErrors(
+        parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points),
+        values.labeling_points,
+      ))
+    } else if (values.labeling_image?.trim() || values.labeling_points?.trim()) {
+      errors.push(`A labelling image or points were given, but the format is ${format} — only a labelling question carries them`)
     }
 
     if (format === 'matching') {
@@ -1046,6 +1071,8 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const format = parseQuestionFormat(values.format) ?? DEFAULT_QUESTION_FORMAT
     const writtenParts = parseWrittenParts(values.written_parts)
     const matching = parseMatching(values.matching_options, values.matching_prompts)
+    const correctAnswers = parseCorrectAnswers(values.correct_answers)
+    const labeling = parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points)
     const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
@@ -1066,6 +1093,8 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         format,
         writtenParts: writtenParts.length ? writtenParts : undefined,
         matching: format === 'matching' ? matching : undefined,
+        multiResponse: format === 'mcq_multi' ? { correctAnswers } : undefined,
+        labeling: format === 'labeling' ? labeling : undefined,
         derivedFromFormat: derivedFrom.format,
         derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,

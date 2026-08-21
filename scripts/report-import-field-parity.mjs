@@ -74,6 +74,7 @@ const ARTICLE_MAP = {
 
 const QUESTION_MAP = {
   format: 'format', writtenParts: 'written_parts', matching: 'matching_options',
+  multiResponse: 'correct_answers', labeling: 'labeling_points',
   derivedFromFormat: 'derived_from', derivedFromId: 'derived_from',
   attachments: 'attachments', correctAnswer: 'correct_answer', answers: 'answer_a', attachedImage: 'attached_image',
   libraryIds: 'library_ids', resourceIds: 'resource_ids', tags: 'topic', learningObjective: 'learning_objective',
