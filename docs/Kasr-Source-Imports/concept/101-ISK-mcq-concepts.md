@@ -4,7 +4,7 @@
     Arm — 64 questions, 13 concepts
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
-    Blood Platelets — 19 questions, 5 concepts
+    Blood Platelets — 20 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
     Connective Tissue Cells — 98 questions, 23 concepts
     Connective Tissue Fibres — 55 questions, 11 concepts
@@ -17,32 +17,32 @@
     Forearm — 175 questions, 28 concepts
     Gametes — 33 questions, 4 concepts
     Glandular Epithelium — 73 questions, 6 concepts
-    Granular leukocytes — 13 questions, 3 concepts
-    Haemopoiesis — 6 questions, 4 concepts
+    Granular leukocytes — 16 questions, 4 concepts
+    Haemopoiesis — 7 questions, 5 concepts
     Hand — 71 questions, 13 concepts
     Introduction — 18 questions, 3 concepts
     Joints of Upper Limb — 26 questions, 6 concepts
     Lymphatic system — 4 questions, 2 concepts
-    Microscopes — 7 questions, 2 concepts
-    Microtechniques — 87 questions, 24 concepts
+    Microscopes — 9 questions, 3 concepts
+    Microtechniques — 98 questions, 28 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Muscular system — 12 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
-    Non granular leukocytes — 14 questions, 5 concepts
+    Non granular leukocytes — 17 questions, 6 concepts
     Nucleus — 80 questions, 10 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 90 questions, 10 concepts
-    Red Blood Corpuscles — 61 questions, 15 concepts
+    Red Blood Corpuscles — 63 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 50 questions, 20 concepts
     Skeletal system — 46 questions, 8 concepts
     Surface Epithelium — 135 questions, 10 concepts
-    The cell — 41 questions, 4 concepts
+    The cell — 44 questions, 6 concepts
     Third Week of Development — 35 questions, 7 concepts
-    Types of Connective Tissue Proper — 19 questions, 6 concepts
+    Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
 
   Extracted from 2867 distinct questions across thirty question books and
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  536 questions were excluded and 0 held back for having no
+  549 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -6168,9 +6168,11 @@ src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
 src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -6190,7 +6192,7 @@ Blood
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -6212,7 +6214,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6306,13 +6308,14 @@ src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6332,7 +6335,7 @@ direct_statement
 ## original_wording
 [asked 2x across the question books] basophil membrane contain receptor for
 ## conflicts
-[clear]
+The recovered key for the 2022 end-of-module paper resolves its question 40 — which white blood cells contain histamine and heparin — to Eosinophils, while the department book gives histamine and heparin to the basophil and the mast cell and gives the eosinophil histaminase and sulphatase, which destroy them. The disagreement is recorded rather than resolved. The evidence in `eom-answers.json` points at the extraction rather than at either source: only three of the four option boxes were found on that page, the option that was lost is Basophils, and the candidate's highlight overlaps the box the key names by 13% of its area. The row is excluded in `microtechniques.ts` with the same note.
 ## uncertainty
 [clear]
 ## evidence_gaps
@@ -6853,12 +6856,13 @@ src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p6 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
 src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6872,7 +6876,7 @@ Connective Tissue
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-ANA-PECTORALIS-MAJOR
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
@@ -6894,7 +6898,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-MICROTECHNIQUES | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-MICROTECHNIQUES | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9879,6 +9883,7 @@ src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
 src_9487fd713153c573087f | question_book | | p3 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
+src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -9898,7 +9903,7 @@ Cytology
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROSCOPES
 ## support_mode
 direct_statement
 ## original_wording
@@ -9920,7 +9925,7 @@ Several cells used in these rows have concepts of their own that already belong 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12003,6 +12008,7 @@ src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -12022,7 +12028,7 @@ Epithelial Tissues
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-GAMETES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-GAMETES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
@@ -12044,7 +12050,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20302,12 +20308,14 @@ src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p4 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -20321,7 +20329,7 @@ Blood
 ## aliases
 Polymorphonuclear leucocyte | Neutrophil granules | Microphage
 ## article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -20343,7 +20351,7 @@ The department book states dead neutrophils form pus cells and that pus raises b
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20492,6 +20500,137 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-447653911E11 | CLM-1B954A9A8FC9 | CLM-CD7A4D3664BA | CLM-48F9C28A2E16
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+## id
+CON-HEM-FDAC2D5F64032E
+## canonical_key
+lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates
+## definition
+By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.
+## explicit_objective
+Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.
+## pitfalls
+Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+T lymphocyte | B lymphocyte | Natural killer cell | CD4 | CD8 | Cell mediated immunity | Humoral immunity
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which leucocyte is responsible for Cell mediated immunity?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -20754,6 +20893,137 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-DD9C8C4DEB99 | CLM-16BB75DF671D | CLM-167A3A134E0B
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
+## id
+CON-HEM-25C4304A1DB441
+## canonical_key
+cell-renewal-populations-static-renewing-and-potentially-renewable
+## definition
+Tissues are grouped by how their cells replace themselves. A static population is made of end cells that have left the cell cycle permanently and are never replaced — the neuron and the cardiac muscle cell. A renewing population is losing cells continuously and replacing them continuously from stem cells, as the blood, the epidermis and the lining of the gut do. A potentially renewable population sits between the two: its cells have left the cycle into a resting phase and are not dividing, but they retain the ability to re-enter the cycle and divide when replacement is needed — the liver cell and the fibroblast after injury. What separates the third group from the first is reversibility, and what separates it from the second is that the division happens on demand rather than continuously.
+## explicit_objective
+Distinguish static, renewing and potentially renewable cell populations by whether their cells can re-enter the cell cycle and whether replacement is continuous or on demand.
+## pitfalls
+Reading "potentially renewable" as another name for a renewing population fed from stem cells. The renewing population replaces losses continuously from a stem cell; the potentially renewable one has ordinary differentiated cells that come back into the cycle themselves, and only when something calls for them.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Static cell population | Renewing cell population | End cell | Stable cell population
+## article_ids
+ART-101-HIS-HAEMOPOIESIS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Potentially renewable cells:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book teaches no classification of cell populations anywhere: the words renewable, labile and end cell do not appear in it, and its haemopoiesis chapter covers only bone marrow structure, the reticulocyte and the megakaryocyte. The 2020 end-of-module paper set the question regardless, and a sat paper outranks the question books, so the concept is minted from the paper alone. Nothing in the faculty's own text supports the answer, and the row that tests it says so.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -23042,6 +23312,8 @@ src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
 src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
@@ -24164,6 +24436,281 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-CC9470AE7C9A | CLM-3CC1741CE53B | CLM-62C427013E01
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+## id
+CON-HEM-785718A47454E8
+## canonical_key
+leukocytes-are-granular-or-non-granular
+## definition
+White blood cells are classified by whether their cytoplasm carries specific granules. The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte. The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules. Platelets are not leukocytes at all.
+## explicit_objective
+Sort the five leukocytes into granular and non-granular and recognise the synonyms each carries.
+## pitfalls
+Treating "non-granular" as meaning no granules whatsoever. Monocytes and lymphocytes both carry azurophil granules; what they lack are the specific granules that name the granulocytes.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is a non-granu ¢. Neutrophil. d. Eosinop
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-1BF486DEB5CD | CLM-3DE92F5DF477 | CLM-397234147568 | CLM-496C21F2E7EC
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A cell is named from the number, position, shape and staining of its nucleus
+## id
+CON-FND-AEAB45FAA2C33D
+## canonical_key
+nucleus-shape-position-and-number-identify-the-cell
+## definition
+Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
+## explicit_objective
+Name a cell from the number, position and shape of its nucleus, and use nuclear level to tell pseudostratified from stratified epithelium.
+## pitfalls
+Reading "segmented" and "lobed" as interchangeable across the granulocytes. Two to five joined segments is the neutrophil, two lobes in a horse-shoe is the eosinophil, and an irregular S obscured by granules is the basophil — the books ask all three from the same option list.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p8 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Nuclear shape | Nuclear position | Multinucleated cell
+## article_ids
+ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-NUCLEUS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] The megakaryocyte is characterized by the following
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+Four adipocyte rows were filed under this leaf and are authored against this concept because the flattened peripheral nucleus of the unilocular cell is one of the options in each. Their fuller concept, `white-versus-brown-adipose-connective-tissue`, is already minted in `types-of-connective-tissue-proper.ts`; it could not be reused here without emitting a duplicate concept id, so the adipose facts are taught in the option explanations instead. The same applies to two granulocyte rows whose concepts live in `granular-leukocytes.ts`.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-THE-CELL | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-25DD8FC36FFE | CLM-93513F308B21 | CLM-68231F3E682E | CLM-DF36D12A7C98
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -27430,137 +27977,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
-## id
-CON-HEM-785718A47454E8
-## canonical_key
-leukocytes-are-granular-or-non-granular
-## definition
-White blood cells are classified by whether their cytoplasm carries specific granules. The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte. The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules. Platelets are not leukocytes at all.
-## explicit_objective
-Sort the five leukocytes into granular and non-granular and recognise the synonyms each carries.
-## pitfalls
-Treating "non-granular" as meaning no granules whatsoever. Monocytes and lymphocytes both carry azurophil granules; what they lack are the specific granules that name the granulocytes.
-## concept_type
-classification
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Non granular leukocytes
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-[clear]
-## article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Which feature is true for specific granules?
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-1BF486DEB5CD | CLM-3DE92F5DF477 | CLM-397234147568 | CLM-496C21F2E7EC
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
 The nuclear envelope is two membranes with a perinuclear space, pierced by pore complexes of nucleoporin
 ## id
 CON-FND-C5C16B3F123155
@@ -28068,149 +28484,6 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-2AF87F455B2E | CLM-AB9E9BBF304F | CLM-E4F95AEAA2D5
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-A cell is named from the number, position, shape and staining of its nucleus
-## id
-CON-FND-AEAB45FAA2C33D
-## canonical_key
-nucleus-shape-position-and-number-identify-the-cell
-## definition
-Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
-## explicit_objective
-Name a cell from the number, position and shape of its nucleus, and use nuclear level to tell pseudostratified from stratified epithelium.
-## pitfalls
-Reading "segmented" and "lobed" as interchangeable across the granulocytes. Two to five joined segments is the neutrophil, two lobes in a horse-shoe is the eosinophil, and an irregular S obscured by granules is the basophil — the books ask all three from the same option list.
-## concept_type
-classification
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > Nucleus
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p8 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
-src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Nuclear shape | Nuclear position | Multinucleated cell
-## article_ids
-ART-101-HIS-NUCLEUS
-## support_mode
-direct_statement
-## original_wording
-[asked 2x across the question books] The megakaryocyte is characterized by the following
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-Four adipocyte rows were filed under this leaf and are authored against this concept because the flattened peripheral nucleus of the unilocular cell is one of the options in each. Their fuller concept, `white-versus-brown-adipose-connective-tissue`, is already minted in `types-of-connective-tissue-proper.ts`; it could not be reused here without emitting a duplicate concept id, so the adipose facts are taught in the option explanations instead. The same applies to two granulocyte rows whose concepts live in `granular-leukocytes.ts`.
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-25DD8FC36FFE | CLM-93513F308B21 | CLM-68231F3E682E | CLM-DF36D12A7C98
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -29793,7 +30066,7 @@ Blood
 ## aliases
 Spectrin | Glycocalyx | Hereditary spherocytosis | ABO antigens
 ## article_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
+ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
@@ -29815,7 +30088,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -34907,12 +35180,13 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p9 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance

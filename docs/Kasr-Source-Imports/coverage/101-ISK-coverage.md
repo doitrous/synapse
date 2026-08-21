@@ -22,14 +22,14 @@ looks exactly like a file with nothing in it.
 | Batch | Items |
 | --- | --- |
 | `concept/101-ISK-concepts.md` | 71 |
-| `concept/101-ISK-mcq-concepts.md` | 257 |
+| `concept/101-ISK-mcq-concepts.md` | 259 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
 | `concept/104-CPS-concepts.md` | 22 |
 | `concept/104-CPS-practical-concepts.md` | 17 |
 | `concept/108-INT-concepts-pathology.md` | 49 |
 | `concept/108-INT-concepts-pharmacology-updates.md` | 9 |
 | `concept/108-INT-concepts-pharmacology.md` | 40 |
-| `question/101-ISK-mcq.md` | 1644 |
+| `question/101-ISK-mcq.md` | 1659 |
 | `question/104-CPS-mcq.md` | 40 |
 | `question/108-INT-EOY-mcq.md` | 47 |
 | `article/101-ISK-anatomy-2.md` | 11 |

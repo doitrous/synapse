@@ -4,7 +4,7 @@
     Arm — 64 questions, 13 concepts
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
-    Blood Platelets — 19 questions, 5 concepts
+    Blood Platelets — 20 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
     Connective Tissue Cells — 98 questions, 23 concepts
     Connective Tissue Fibres — 55 questions, 11 concepts
@@ -17,32 +17,32 @@
     Forearm — 175 questions, 28 concepts
     Gametes — 33 questions, 4 concepts
     Glandular Epithelium — 73 questions, 6 concepts
-    Granular leukocytes — 13 questions, 3 concepts
-    Haemopoiesis — 6 questions, 4 concepts
+    Granular leukocytes — 16 questions, 4 concepts
+    Haemopoiesis — 7 questions, 5 concepts
     Hand — 71 questions, 13 concepts
     Introduction — 18 questions, 3 concepts
     Joints of Upper Limb — 26 questions, 6 concepts
     Lymphatic system — 4 questions, 2 concepts
-    Microscopes — 7 questions, 2 concepts
-    Microtechniques — 87 questions, 24 concepts
+    Microscopes — 9 questions, 3 concepts
+    Microtechniques — 98 questions, 28 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Muscular system — 12 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
-    Non granular leukocytes — 14 questions, 5 concepts
+    Non granular leukocytes — 17 questions, 6 concepts
     Nucleus — 80 questions, 10 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 90 questions, 10 concepts
-    Red Blood Corpuscles — 61 questions, 15 concepts
+    Red Blood Corpuscles — 63 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 50 questions, 20 concepts
     Skeletal system — 46 questions, 8 concepts
     Surface Epithelium — 135 questions, 10 concepts
-    The cell — 41 questions, 4 concepts
+    The cell — 44 questions, 6 concepts
     Third Week of Development — 35 questions, 7 concepts
-    Types of Connective Tissue Proper — 19 questions, 6 concepts
+    Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
 
   Extracted from 2867 distinct questions across thirty question books and
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  536 questions were excluded and 0 held back for having no
+  549 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -67377,6 +67377,247 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-15A810AD8D41
+## title
+Regarding basophils, they:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding basophils, they:
+## answer_a
+Constitute 3-8% of circulating leucocytes.
+## explanation_a
+Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell in the book, and basophilia begins above 2%.
+## answer_b
+Increase in acute pyogenic infection.
+## explanation_b
+Acute pyogenic infection raises the neutrophils, the first line of non-specific defence. The basophil rises in allergy, and its own products — histamine, heparin, leukotrienes — are what an allergic reaction is made of.
+## answer_c
+Have kidney shaped nuclei.
+## explanation_c
+A kidney-shaped nucleus is the monocyte's. The basophil's is irregular, segmented and S-shaped, and it is usually hidden altogether by the granules lying over it.
+## answer_d
+Are rich in metachromatically stained granules.
+## explanation_d
+Correct. The basophil's coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.
+## correct_answer
+d
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the basophil from a set of counts, nuclear shapes and staining claims.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q41. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer is worked from the department book. Three of the four options contradict its own numbers and descriptions — basophils are 0–1% of the count, they rise in allergy rather than in pyogenic infection, and their nucleus is irregular and S-shaped — while the fourth restates its sentence that their coarse granules stain metachromatically purple with toluidine blue because of their heparin.
+
+
+---
+
+# Item
+## id
+QM-101-46CF1CD96629
+## title
+Which leucocyte is responsible for Cell mediated immunity?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which leucocyte is responsible for Cell mediated immunity?
+## answer_a
+B- lymphocyte.
+## explanation_a
+The B lymphocyte mediates humoral immunity: activated by antigen and by a helper T cell it becomes a plasma cell and secretes antibody. Antibody is a molecule in the plasma, which is what "humoral" means, and it is the opposite arm from the one asked for.
+## answer_b
+T- lymphocytes.
+## explanation_b
+Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.
+## answer_c
+Basophils.
+## explanation_c
+Basophils belong to the allergic response, not to either immune arm. They secrete histamine, heparin and leukotrienes and have only limited phagocytic power.
+## answer_d
+Monocyte.
+## explanation_d
+The monocyte becomes the macrophage, which presents antigen and so starts both responses — but presenting is not mediating, and the cell that carries the cell-mediated response out is the T lymphocyte.
+## correct_answer
+b
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the lymphocyte that mediates cell-mediated immunity and the one that mediates humoral immunity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q44. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book, which says in as many words that T lymphocytes mediate cell-mediated immunity and B lymphocytes mediate humoral immunity.
+
+
+---
+
+# Item
+## id
+QM-101-9F7F780823F4
+## title
+Neutrophils are characterized by: 6 Have non segmented nuclel.
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Neutrophils are characterized by: 6 Have non segmented nuclel.
+## answer_a
+Secrete bactericidal phagocytin. i cutteond
+## explanation_a
+Correct. Phagocytin is one of the four contents of the neutrophil's specific granules and is bactericidal — released first, with lactoferrin, lysozyme and collagenase, before the azurophil granules add myeloperoxidase.
+## answer_d
+They have azurophil granules only.
+## explanation_d
+The word doing the damage is "only". The neutrophil has both kinds of granule: few large dark azurophil granules, which are primary lysosomes carrying myeloperoxidase, and numerous fine pale specific granules. Having only azurophil granules would make it a non-granular leukocyte.
+## correct_answer
+a
+## main_concept
+CON-HEM-3899015C5024C0
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a secretion of the neutrophil's specific granules and separate the specific granules from the azurophil ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p4 q39. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key for this row and the highlight recovery returned nothing for it, so the answer comes from the department book: the neutrophil's specific granules contain collagenase, phagocytin, lysozyme and lactoferrin, and it releases phagocytin as a bactericide when it phagocytoses bacteria. The candidate's pen crossed the letters of options b and c, so "Have non segmented nuclei" was read into the tail of the stem and one option was lost altogether; only a and d survived, and the answer is one of them. Option a also carries scanner noise ("i cutteond") after its text.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-7F60FB78CD75
 ## title
 Bone marrow component which can be transplanted into Patients suffering from leukemia i…
@@ -67620,6 +67861,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
+
+
+---
+
+# Item
+## id
+QM-101-50D3BDB5C3F9
+## title
+Potentially renewable cells:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Potentially renewable cells:
+## answer_a
+Continuously replaced from stem cells.
+## explanation_a
+Continuous replacement from stem cells is a renewing population — blood, epidermis, the lining of the gut. The word the stem turns on is "potentially": these cells are not being replaced continuously, they are held in reserve.
+## answer_b
+Are end cells
+## explanation_b
+End cells are a static population: neurons and cardiac muscle, which have left the cycle for good and are never replaced. That is the opposite of potentially renewable, and it is the option for a student reading "potentially" as "not actually".
+## answer_c
+Have a transient exit from cell cycle in G2 phase.
+## explanation_c
+The right idea with the wrong phase. A cell that leaves the cycle transiently leaves it in the resting phase after mitosis, not in G2 — G2 is the gap between DNA replication and mitosis, and a cell that has already copied its DNA is committed to dividing rather than resting.
+## answer_d
+Return to continue cell cycle on need for replacement
+## explanation_d
+Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.
+## correct_answer
+d
+## main_concept
+CON-HEM-25C4304A1DB441
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## topic
+null
+## subtopic
+Haemopoiesis
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Define a potentially renewable cell population and separate it from a renewing one and from end cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q31. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither a printed key nor a recovered highlight covers this row, and the department book does not settle it either: it teaches no classification of cell populations at all — the chapter covers bone marrow structure, the reticulocyte and the megakaryocyte and nothing else. The answer is therefore not from a key and not from the book, but from the standard three-way grouping the item is built on, in which the potentially renewable cell is the one that has left the cycle reversibly and returns to it when replacement is needed. Option c is the same statement with G2 substituted for the resting phase, which is what marks it as the examiner's intended trap. The concept carries a `gaps` note recording that no source this faculty would accept supports the answer.
 
 
 ---
@@ -75511,6 +75835,172 @@ Extraction confidence medium; the answer came from a separate answer key, joined
 
 # Item
 ## id
+QM-101-6CB1BE86B999
+## title
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## answer_a
+Numerous proteasomes
+## explanation_a
+Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not even mentioned in the department book's cytology chapter, and nothing about them is secretory.
+## answer_b
+Numerous ribosomes.
+## explanation_b
+Numerous free ribosomes mark a cell making protein for its own use. A steroid is a lipid, and no ribosome makes one.
+## answer_c
+Well - developed sER.
+## explanation_c
+Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.
+## answer_d
+Well - developed rER.
+## explanation_d
+Well-developed rough endoplasmic reticulum is the protein-forming cell, and it is the answer to the sister question on this same paper. Swapping the two is the single mistake both items are built to catch.
+## correct_answer
+c
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+null
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that identifies a steroid-secreting cell on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q4. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.
+
+
+---
+
+# Item
+## id
+QM-101-A71B773FCA77
+## title
+Electron microscopic feature of protein forming cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscopic feature of protein forming cells is:
+## answer_a
+Numerous lysosomes.
+## explanation_a
+Numerous lysosomes mark a phagocyte: the macrophage, the neutrophil, the monocyte. A cell that digests is not a cell that builds.
+## answer_b
+Numerous peroxisomes.
+## explanation_b
+Numerous peroxisomes mark the liver and kidney cell, where they oxidise long-chain fatty acids. Their own enzymes are made on free ribosomes elsewhere in the cytoplasm.
+## answer_c
+Well - developed sER.
+## explanation_c
+Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cell, and it is the answer to the sister question on the same paper. It has no ribosomes at all, so it cannot make protein.
+## answer_d
+Well - developed rER.
+## explanation_d
+Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.
+## correct_answer
+d
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+null
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that identifies a protein-secreting cell on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q7. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book, which sites rough endoplasmic reticulum in protein-forming cells — its example is the plasma cell — and gives it protein synthesis, segregation, glycosylation and packing into transfer vesicles.
+
+
+---
+
+# Item
+## id
 QM-101-F0463982B17C
 ## title
 Freezing technique has the following advantage:
@@ -81067,6 +81557,413 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-101-DA9C8E2E3B20
+## title
+Cell membrane can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane can be stained by:
+## answer_a
+AG.
+## explanation_a
+Correct. Silver is one of the two stains the book gives for the plasma membrane, and it works on the carbohydrate of the cell coat rather than on the lipid bilayer.
+## answer_b
+Tryban blue.
+## explanation_b
+Trypan blue, misprinted here as "Tryban", is a vital stain that the macrophage phagocytoses. It marks a whole cell by being eaten, not a membrane.
+## answer_c
+I|ron haematoxylin.
+## explanation_c
+Iron haematoxylin stains mitochondria dark blue, and centrioles. It is a stain for organelles inside the cell.
+## answer_d
+Saudan Iii.
+## explanation_d
+Sudan III stains fat orange on a frozen section. The membrane is largely lipid, which is what makes this option tempting — but Sudan shows stored neutral fat in droplets, not the phospholipid of a bilayer.
+## correct_answer
+a
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the light-microscopic stain that shows the plasma membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q4. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it says the plasma membrane is hard to see by light microscopy and needs silver or PAS. Silver — printed here as "AG.", the chemical symbol — is the only one of the four options the book names.
+
+
+---
+
+# Item
+## id
+QM-101-1E69CB60987C
+## title
+Cell membrane can be stained by th : i ; Fo! g histochemical stain:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane can be stained by th : i ; Fo! g histochemical stain:
+## answer_a
+Sudan Ill,
+## explanation_a
+Sudan III is a fat stain and needs a frozen section, since the alcohols of ordinary processing dissolve the fat away. It is a lipid stain rather than a histochemical reaction.
+## answer_b
+Trypa Blues
+## explanation_b
+Trypan blue is a vital stain for the macrophage, given to the living animal. Nothing about it is histochemical, and it demonstrates a cell rather than a membrane.
+## answer_c
+Brilliant cresyl blue.
+## explanation_c
+Brilliant cresyl blue is the supravital stain of the reticulocyte, showing the residual ribosomal RNA in an immature red cell. Wrong cell, wrong component, wrong class of stain.
+## answer_d
+Periodic acid Schiff reaction (PAS
+## explanation_d
+Correct. The periodic acid–Schiff reaction is a histochemical test for carbohydrate, and the cell coat on the outer surface of the membrane is glycoprotein and glycolipid — which is why PAS reddens it.
+## correct_answer
+d
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain identification
+## learning_objective
+Name the histochemical stain that demonstrates the plasma membrane, and say what in the membrane it reacts with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p1 q2. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The highlight recovery reached this row on the 2022 script but could not resolve it — the record is ambiguous and low confidence, with no answer — so the answer comes from the department book instead: it names silver and PAS as the two ways of showing the plasma membrane, and PAS is the histochemical one, reacting with the carbohydrate of the glycocalyx. Silver is not among these four options, which leaves PAS as the only candidate. The stem is peppered with scanner noise ("th : i ; Fo! g") but its sense — "by the following histochemical stain" — is intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4D0826977D0B
+## title
+The blood count of a patient suffering from acute tonsillitis shows increase in the per…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The blood count of a patient suffering from acute tonsillitis shows increase in the percentage of:
+## answer_a
+Lymphocytes.
+## explanation_a
+Lymphocytes are the second line of defence and rise in chronic and in viral infection. The word in the stem doing the work is "acute".
+## answer_b
+Basophils.
+## explanation_b
+Basophils are 0–1% of the count at the best of times, and they rise in allergy, not in infection. A cell that scarce cannot produce a noticeable rise in a differential count.
+## answer_c
+Eosinophils.
+## explanation_c
+Eosinophils rise in allergy and in parasitic infestation — eosinophilia is above 5%. They terminate an allergic reaction rather than fighting bacteria.
+## answer_d
+Neutrophils.
+## explanation_d
+Correct. Neutrophils are drawn to bacterial toxins, leave the blood by diapedesis and phagocytose the bacteria, so an acute pyogenic infection raises their percentage above 75%.
+## correct_answer
+d
+## main_concept
+CON-HEM-3899015C5024C0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Predict which leukocyte rises in an acute bacterial infection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q38. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is worked from the department book: neutrophils are the first line of non-specific defence, bacterial toxins attract them, and neutrophilia is defined as a count above 75%. Acute tonsillitis is an acute bacterial infection.
+
+
+---
+
+# Item
+## id
+QM-101-96A7BF73921A
+## title
+Cytoplasm with frosted glass appearance is a feature of:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytoplasm with frosted glass appearance is a feature of:
+## answer_a
+Eosinophils.
+## explanation_a
+The eosinophil's cytoplasm is crowded with large acidophilic specific granules — the opposite of frosted glass, which is a haze without visible granules.
+## answer_b
+Neutrophils.
+## explanation_b
+The neutrophil has numerous fine pale specific granules and is the closest wrong answer, since fine and pale is halfway to frosted. But the book reserves the phrase for the monocyte, and the neutrophil's granules are specific granules rather than lysosomes.
+## answer_c
+Monocytes.
+## explanation_c
+Correct. The monocyte has no specific granules at all; its pale basophilic cytoplasm is hazed by azurophil granules, which are lysosomes, and that haze is the frosted-glass appearance.
+## answer_d
+Basophils.
+## explanation_d
+The basophil's coarse granules are so dense that they obscure the nucleus itself. Nothing about it is faint.
+## correct_answer
+c
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the leukocyte whose cytoplasm is described as frosted glass, and say what gives it that look.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q39. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer comes from the department book, which uses the phrase only once: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell in the book is described this way.
+
+
+---
+
+# Item
+## id
+QM-101-2666AA17E601
+## title
+Which of the following is a non-granu ¢. Neutrophil. d. Eosinop
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is a non-granu ¢. Neutrophil. d. Eosinop
+## answer_a
+Lymphocyte.
+## explanation_a
+Correct. The lymphocyte is one of the two non-granular leukocytes, together with the monocyte — it carries azurophil granules, which are lysosomes, but no specific granules, and specific granules are what define a granulocyte.
+## answer_b
+Basophil.
+## explanation_b
+The basophil is a granulocyte, and the one whose granules are so coarse they hide the nucleus. Its granules are specific granules holding histamine and heparin.
+## correct_answer
+a
+## main_concept
+CON-HEM-785718A47454E8
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Sort a named leukocyte into the granular or the non-granular class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p4 q38. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with medium confidence, and the department book agrees — the non-granular leukocytes are the monocyte and the lymphocyte. The candidate's pen crossed the letters of options c and d, so "c. Neutrophil. d. Eosinop[hil]" was read into the tail of the stem and only two of the four options survived as options. The answer is one of the two that did, so the row still stands, but it is a two-option item rather than the four the examiner set.
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
@@ -97295,6 +98192,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-D32820C68456
+## title
+Histiocytes originate from:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Histiocytes originate from:
+## answer_a
+Pericyte.
+## explanation_a
+The pericyte is the connective tissue stem cell around a capillary and gives rise to fibroblasts, smooth muscle and endothelium. It is a resident cell, and the histiocyte comes from the blood.
+## answer_b
+B-lymphocyte.
+## explanation_b
+The B lymphocyte becomes the plasma cell. Both answers are "a blood cell that settles in connective tissue and changes", which is what makes this the strongest distractor — but the product is an antibody factory, not a phagocyte.
+## answer_c
+Adipocyte.
+## explanation_c
+The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. It gives rise to nothing.
+## answer_d
+Monocyte.
+## explanation_d
+Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.
+## correct_answer
+d
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the blood cell the tissue macrophage comes from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q25. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
 
 
 ---
@@ -133418,6 +134398,89 @@ Answer changed from the source's: The book keys C, phospholipids. Phospholipids 
 
 # Item
 ## id
+QM-101-63F3131DB852
+## title
+The axoneme of a cilium is composed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The axoneme of a cilium is composed of:
+## answer_a
+27 microtubules covered by cell membrane.
+## explanation_a
+Twenty-seven is the basal body, and the centriole it comes from: nine triplets. The covering is right and the number is wrong, which is the harder half of the item to see.
+## answer_b
+27 microtubules not covered by cell membrane.
+## explanation_b
+Both halves wrong. Twenty-seven belongs to the basal body, and the basal body is the part that sits inside the apical cytoplasm — but that makes it the structure the option is describing, not the axoneme.
+## answer_c
+20 microtubules not covered by cell membrane.
+## explanation_c
+The right count with the wrong covering. The axoneme projects above the cell surface, and everything that projects from a cell is covered by its plasma membrane; a bare bundle of microtubules in the extracellular space would not be part of a cell at all.
+## answer_d
+20 microtubules covered by cell membrane.
+## explanation_d
+Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.
+## correct_answer
+d
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+null
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural detail
+## learning_objective
+Give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q12. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
+
+
+---
+
+# Item
+## id
 QM-101-1F081C17FA22
 ## title
 Before folding, the most caudal structure in the tail fold is
@@ -136073,6 +137136,172 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-101-35EE92B23D64
+## title
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## answer_a
+Irregular white fibrous C.T.
+## explanation_a
+Irregular white fibrous connective tissue is a dense type, sited in the reticular layer of the dermis, in ligaments, in the sclera and in organ capsules. It is widespread but it is not everywhere, and it is dense rather than loose.
+## answer_b
+Loose areolar C.T.
+## explanation_b
+Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and the book says it is found everywhere in the body except the brain.
+## answer_c
+Yellow elastic C.T.
+## explanation_c
+Yellow elastic connective tissue is confined to places that must recoil: the aorta, the trachea and bronchi, the vocal cords and three named ligaments.
+## answer_d
+Regular white fibrous C.T.
+## explanation_d
+Regular white fibrous connective tissue is tendon and cornea — collagen bundles laid parallel to withstand pull in one direction. Its whole point is that it is specialised to a site.
+## correct_answer
+b
+## main_concept
+CON-FND-B784BE0F18B493
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+null
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the type of connective tissue proper found everywhere in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p2 q13. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.
+
+
+---
+
+# Item
+## id
+QM-101-C6E322951464
+## title
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## answer_a
+White fibrous,
+## explanation_a
+Correct, and confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.
+## answer_b
+Elastic,
+## explanation_b
+Yellow elastic connective tissue recoils after stretching and is found in the aorta, the trachea and the ligamentum flavum. A tendon that stretched and recoiled would waste the muscle's pull.
+## answer_c
+Mucoid.
+## explanation_c
+Mucoid connective tissue is the soft jelly of the umbilical cord, the vitreous and the dental pulp. It is the least resistant tissue in the chapter.
+## answer_d
+Adipose.
+## explanation_d
+Adipose connective tissue stores fat, insulates and supports organs. It is a packing tissue and carries no load.
+## correct_answer
+a
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+null
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the connective tissue of a tendon and say how its fibres are arranged.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p2 q25. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
