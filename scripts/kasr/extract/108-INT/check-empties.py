@@ -4,14 +4,28 @@
     python3 scripts/kasr/extract/108-INT/check-empties.py
     python3 scripts/kasr/extract/108-INT/check-empties.py --self-test
 
-`[clear]` is a sentinel to `optionalList()` and four literal characters to
-`text()`. So the same intent — "considered, and there is nothing here" — has two
-different correct spellings, and each is silently wrong in the other's column:
+"Considered, and there is nothing here" has **three** correct spellings, one
+per parser, and each is silently wrong in the others' columns:
 
-    text() column, empty body     -> undefined -> null   correct
-    text() column, `[clear]`      -> the string "[clear]" stored
-    optionalList(), `[clear]`     -> []                  correct
-    optionalList(), empty body    -> null
+    text() column, empty body       -> undefined -> null   correct
+    text() column, `[clear]`        -> the string "[clear]" stored
+    optionalList(), `[clear]`       -> []                  correct
+    optionalList(), empty body      -> null
+    parseSections(), empty body     -> []                  correct
+    parseSections(), `[clear]`      -> one section, no heading, body "[clear]"
+
+The third one is the one this script missed. It sorted every column into text or
+list, so `sections`, `published_sections`, `annotations`, `media` and
+`media_recommendations` fell between its two buckets and it reported **zero**
+faults on seventeen articles that each carried one. `published_sections` is the
+evidence-gated student projection, so what it stored was a section a student can
+read whose entire body is the word "[clear]".
+
+Its two-bucket classification was never wrong. It was **incomplete**, and
+incompleteness read as a pass — which is the same failure as the empty
+classification it already guards against, one level further out. A checker
+verified against the parsers it knows is a claim about those parsers and nothing
+more.
 
 Both wrong forms pass `medical:batch`, pass `medical:simulate`, and satisfy the
 field audit, because a field holding `"[clear]"` *has a value* and `hasValue` is
@@ -67,14 +81,16 @@ def parsers(path):
     lists |= set(re.findall(r"optionalList\(\s*['\"](\w+)['\"]\s*\)", src))
     texts = {col for _, col in re.findall(r"(\w+):\s*text\(values\.(\w+)\)", src)}
     texts |= set(re.findall(r"\btext\(\s*['\"](\w+)['\"]\s*\)", src))
+    sections = set(re.findall(r"parseSections\(\s*values\.(\w+)", src))
+    sections |= set(re.findall(r"parseSections\(\s*['\"](\w+)['\"]", src))
     # A column read by both in different branches is ambiguous, and guessing
     # which branch a given batch takes is exactly the reasoning this script
     # exists to replace. Report it rather than pick.
-    return lists, texts, lists & texts
+    return lists, texts, sections, lists & texts
 
 
-CONCEPT_LISTS, CONCEPT_TEXTS, CONCEPT_BOTH = parsers("src/data/conceptImport.ts")
-OTHER_LISTS, OTHER_TEXTS, OTHER_BOTH = parsers("src/data/bulkImport.ts")
+CONCEPT_LISTS, CONCEPT_TEXTS, CONCEPT_SECTIONS, CONCEPT_BOTH = parsers("src/data/conceptImport.ts")
+OTHER_LISTS, OTHER_TEXTS, OTHER_SECTIONS, OTHER_BOTH = parsers("src/data/bulkImport.ts")
 
 
 def records(text):
@@ -89,17 +105,25 @@ def columns(record):
 
 
 def scan(text, kind):
-    lists, texts = ((CONCEPT_LISTS, CONCEPT_TEXTS) if kind in CONCEPT_KINDS
-                    else (OTHER_LISTS, OTHER_TEXTS))
-    sentinel_in_text, blank_in_list = [], []
+    lists, texts, sections = ((CONCEPT_LISTS, CONCEPT_TEXTS, CONCEPT_SECTIONS)
+                              if kind in CONCEPT_KINDS
+                              else (OTHER_LISTS, OTHER_TEXTS, OTHER_SECTIONS))
+    sentinel_in_text, blank_in_list, sentinel_in_section = [], [], []
     for record in records(text):
         rid = next((v for c, v in columns(record) if c == "id"), "?")
         for col, value in columns(record):
-            if col in texts and value == "[clear]":
+            if col in sections and value == "[clear]":
+                # A third parser with a third convention. `parseSections` has no
+                # `###` to split on here, so it returns ONE section with an empty
+                # heading whose body is the literal string "[clear]" — and on
+                # `published_sections`, the student projection, that is a section
+                # a reader can see. An empty body is the correct spelling.
+                sentinel_in_section.append((rid, col))
+            elif col in texts and value == "[clear]":
                 sentinel_in_text.append((rid, col))
             elif col in lists and value == "":
                 blank_in_list.append((rid, col))
-    return sentinel_in_text, blank_in_list
+    return sentinel_in_text, blank_in_list, sentinel_in_section
 
 
 def batches():
@@ -114,32 +138,63 @@ def batches():
 
 PROBE = """# Item
 ## id
+ART-PROBE-000000000000
+## title
+A probe record, not content
+## author_notes
+[clear]
+## concept_ids
+
+## sections
+[clear]
+## summary
+Built to contain exactly one fault per parser.
+
+---
+
+# Item
+## id
 CON-PROBE-000000000000
 ## label
-A probe record, not content
+A probe concept, not content
 ## pitfalls
 [clear]
 ## aliases
 
 ## definition
-Built to contain exactly one fault of each kind.
+The concept half, whose columns come from a different file.
 """
 
 
 def self_test():
-    """The negative control: prove the checker can fail before trusting a zero."""
-    sentinel, blank = scan(PROBE, "concept")
+    """The negative control: prove the checker can fail before trusting a zero.
+
+    One fault per parser, because the bug this script last missed was a whole
+    parser it did not know about rather than a case it judged wrongly.
+    """
+    art_text, art_list, art_section = scan(PROBE, "article")
+    con_text, con_list, _ = scan(PROBE, "concept")
+    # `pitfalls` is text() only for a concept and `author_notes` only elsewhere,
+    # so one probe run cannot exercise both classifications. Running it as each
+    # kind is what proves the right table was consulted, not merely that some
+    # table was.
+    sentinel = [x for x in art_text if x[1] == "author_notes"] + \
+               [x for x in con_text if x[1] == "pitfalls"]
+    blank = [x for x in art_list if x[1] == "concept_ids"] + \
+            [x for x in con_list if x[1] == "aliases"]
+    in_section = art_section
     ok = True
-    if len(sentinel) != 1:
-        print("FAIL  expected 1 sentinel-in-text-column, got %d" % len(sentinel))
-        ok = False
-    if len(blank) != 1:
-        print("FAIL  expected 1 blank-in-list-column, got %d" % len(blank))
-        ok = False
+    for label, found, want in (("sentinel-in-text", sentinel, 2),
+                               ("blank-in-list", blank, 2),
+                               ("sentinel-in-section", in_section, 1)):
+        if len(found) != want:
+            print("FAIL  expected %d %s, got %d" % (want, label, len(found)))
+            ok = False
     if ok:
-        print("PASS  probe: sentinel-in-text 1, blank-in-list 1 — the checker can fail")
-        print("      `pitfalls` is read by text() and `aliases` by optionalList(),")
-        print("      which is the pair a hand-written list gets wrong most often.")
+        print("PASS  probe: the checker fails on all three parsers")
+        print("      text():         `author_notes` (article) and `pitfalls` (concept)")
+        print("      optionalList(): `concept_ids` (article) and `aliases` (concept)")
+        print("      parseSections():`sections` — the parser this script was blind to")
     return 0 if ok else 1
 
 
@@ -160,26 +215,35 @@ def main(argv):
                   "parser call shape has changed and this check is blind"
                   % (label, len(lists), len(texts)))
             return 2
+    if not OTHER_SECTIONS:
+        print("no parseSections columns classified — this check was blind to that "
+              "parser once already and must not report clean while it is again")
+        return 2
 
-    total_sentinel = total_blank = 0
+    total_sentinel = total_blank = total_section = 0
     for kind, path in batches():
         with open(path, encoding="utf-8") as fh:
-            sentinel, blank = scan(fh.read(), kind)
+            sentinel, blank, in_section = scan(fh.read(), kind)
         total_sentinel += len(sentinel)
         total_blank += len(blank)
-        if sentinel or blank:
+        total_section += len(in_section)
+        if sentinel or blank or in_section:
             print("%s" % os.path.relpath(path, REPO))
             for rid, col in sentinel:
-                print("   sentinel in a text column   %-34s %s" % (col, rid))
+                print("   sentinel in a text column     %-32s %s" % (col, rid))
             for rid, col in blank:
-                print("   blank in a list column      %-34s %s" % (col, rid))
+                print("   blank in a list column        %-32s %s" % (col, rid))
+            for rid, col in in_section:
+                print("   sentinel in a section column  %-32s %s" % (col, rid))
 
-    print("%d sentinel-in-text, %d blank-in-list across %d batches"
-          % (total_sentinel, total_blank, len(list(batches()))))
-    print("classified from the parsers: %d list / %d text columns for concepts, "
-          "%d / %d elsewhere"
-          % (len(CONCEPT_LISTS), len(CONCEPT_TEXTS), len(OTHER_LISTS), len(OTHER_TEXTS)))
-    return 1 if (total_sentinel or total_blank) else 0
+    print("%d sentinel-in-text, %d blank-in-list, %d sentinel-in-section across "
+          "%d batches" % (total_sentinel, total_blank, total_section,
+                          len(list(batches()))))
+    print("classified from the parsers: %d list / %d text / %d section columns for "
+          "concepts, %d / %d / %d elsewhere"
+          % (len(CONCEPT_LISTS), len(CONCEPT_TEXTS), len(CONCEPT_SECTIONS),
+             len(OTHER_LISTS), len(OTHER_TEXTS), len(OTHER_SECTIONS)))
+    return 1 if (total_sentinel or total_blank or total_section) else 0
 
 
 if __name__ == "__main__":

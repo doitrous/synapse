@@ -1,0 +1,16 @@
+# 102 INT — claims the evidence pass could not support, and which must not be
+# pointed at by a concept. Read by unsupportedClaims() in scripts/kasr/seeds/links.ts.
+#
+# This file is EMPTY of IDs on purpose. Both evidence passes over this module
+# authored a claim for every entry of claim-plan.json — 21 in round 1 and 17 in
+# round 2, 38 in all — and every one of the 38 rests on a verbatim quotation from
+# the department book. Nothing was dropped for want of a supportable quotation.
+#
+# One claim has a citation but no article span:
+#   CLM-FND-MEMBRANE-FLUIDITY-DETERMINANTS-01
+# It is NOT listed here, and must not be. The department book supports it (physical
+# p34, printed p30), the claim is written and the citation quotes the page; what is
+# missing is a sentence in ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE that teaches
+# it, so there is nothing for a span to attach to. Listing it would tell the
+# generator the claim does not exist and would strip a real, cited claim off
+# CON-FND-D1FDD52629718C. See evidence-round-2-report.md.

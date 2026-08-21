@@ -10,9 +10,28 @@
  * occurrences; a question is an occurrence, and the blueprint counts
  * occurrences. Getting this backwards splits a student's mastery across four
  * copies of the same idea.
+ *
+ * The module is a parameter, taken off the paper's own `SourceRef`. It used to
+ * be the literal `101 ISK` in six places here; each one now reads the module,
+ * and `moduleOf` defaults a source that names none to `101 ISK`, so every batch
+ * already generated for that module regenerates byte for byte.
+ *
+ * **The field set is main's, deliberately.** A version of `conceptBlock`
+ * written for 102 derives seven columns this one already emits —
+ * `blueprint_weight`, `exam_weight_by_year`, `clinical_relevance`,
+ * `confidence`, `topic`, `subtopic`, `evidence_gaps` — differently, and
+ * `secondary_node_ids` too. Adopting it would not *add* to 101's committed,
+ * already-imported concept batch, it would **rewrite** it. That is a content
+ * decision and not a merge one, so this file keeps main's derivations and
+ * threads the module through them. The same applies to three `writtenBlock`
+ * columns: see `scripts/kasr/extract/102-INT/retrofit-port-report.md`.
  */
 import { createHash } from 'node:crypto'
-import { mintConceptId, mintQuestionId, partsKey, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
+import {
+  mintConceptId, mintQuestionId, moduleOf, partsKey,
+  type ModuleRef, type Paper, type Seed, type SourceRef,
+} from './seeds/types.ts'
+import type { ConceptLinks } from './seeds/links.ts'
 import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
 import { readFileSync } from 'node:fs'
 
@@ -45,9 +64,15 @@ const CLAIMS_FOR_CONCEPT: Record<string, string[]> = (() => {
  */
 const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
 
-/** Where a concept was examined, in the `exam_signal` column's own grammar. */
+/**
+ * Where a concept was examined, in the `exam_signal` column's own grammar.
+ *
+ * The module comes off the source rather than being spelled in. A source with
+ * no `module` is `101 ISK`, so this line is unchanged for every paper seeded
+ * before the module was a parameter.
+ */
 const occurrence = (source: SourceRef, seed: Seed) =>
-  `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | 101 ISK`
+  `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | ${moduleOf(source).id}`
 
 /**
  * How much of the paper this concept is worth, as a 0–1 weight.
@@ -62,8 +87,21 @@ const blueprintWeight = (seed: Seed, paperMarks: number, sittings: number) =>
 
 export function conceptBlock(
   source: SourceRef, seed: Seed, alsoSeenOn: string[] = [],
-  context: { paperMarks?: number; articleId?: string; relatedArticleIds?: string[] } = {},
+  context: {
+    paperMarks?: number; articleId?: string; relatedArticleIds?: string[]
+    /**
+     * What this concept is taught by and supported by, where the module has had
+     * its evidence pass. Absent for a module that has not — which is the honest
+     * state for a first pass, and is why the columns below still emit `[clear]`
+     * rather than going missing.
+     */
+    links?: ConceptLinks
+  } = {},
 ): string {
+  const module = moduleOf(source)
+  // The plan wins where a module has one; `articles.ts` is 101's hand-written
+  // fallback, whose articles predate the plan files.
+  const articleId = context.links?.articleId ?? context.articleId
   const signals = [occurrence(source, seed), ...alsoSeenOn].join('\n')
   const weight = blueprintWeight(seed, context.paperMarks ?? 81, alsoSeenOn.length)
   const clinical = seed.type === 'clinical_correlation'
@@ -72,7 +110,7 @@ export function conceptBlock(
 ## label
 ${seed.label}
 ## id
-${mintConceptId(seed.subject, seed.key)}
+${mintConceptId(module.id, seed.subject, seed.key, seed.system)}
 ## canonical_key
 ${seed.key}
 ## definition
@@ -92,7 +130,7 @@ ${seed.primary}
 ## secondary_node_ids
 ${seed.secondary.join(' | ') || '[clear]'}
 ## modules
-101 ISK
+${module.id}
 ## module_subject
 ${seed.modulePath}
 ## universities
@@ -119,7 +157,7 @@ ${path[1] ?? seed.section}
 ${path[2] ?? path.at(-1) ?? ''}
 ## aliases
 ${(seed.aliases ?? []).join(' | ') || '[clear]'}
-${context.articleId ? `## article_ids\n${context.articleId}\n` : ''}## support_mode
+${articleId ? `## article_ids\n${articleId}\n` : ''}## support_mode
 direct_statement
 ## original_wording
 [${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
@@ -129,7 +167,11 @@ ${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ${seed.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail(context.relatedArticleIds ?? [], mintConceptId(seed.subject, seed.key))}`
+${conceptTail(
+  context.relatedArticleIds ?? [],
+  mintConceptId(module.id, seed.subject, seed.key, seed.system),
+  context.links, seed,
+)}`
 }
 
 /**
@@ -178,52 +220,95 @@ ${conceptTail(context.relatedArticleIds ?? [], mintConceptId(seed.subject, seed.
  * parses as untouched, so it does not help either. `[clear]` is the only thing
  * that says "present, and empty on purpose".
  *
- * `reviewer`, `final_publisher` and `last_reviewed` are `[clear]` and not a
- * name. A parallel lane's version of this fills them with "Medical team, Admin
- * team" and "Admin team", which would have every one of these concepts assert a
- * review and a publication that have not happened. An empty field that says so
- * is worth more than a filled one that lies, and this content is going to a
- * faculty reviewer precisely because nobody has reviewed it.
+ * The nineteen columns below are exactly the ones `conceptPresence` was written
+ * for in the 102 lane: `conceptPopulated` asks whether a field carries a value,
+ * `conceptPresent` asks whether the **key exists at all** and reports `X absent
+ * for <id>` when it does not. This is why a batch can validate clean at
+ * `medical:batch` and still fail `medical:audit` on nineteen fields — only the
+ * audit looks for the key.
+ *
+ * The last paragraph of this comment used to say `reviewer`, `final_publisher`
+ * and `last_reviewed` were `[clear]` rather than a name. They are not, and were
+ * not when it said so: the code above them writes the manual's defaults. The
+ * paragraph is removed rather than left standing, because a comment that
+ * contradicts the line beneath it is worse than none.
  */
-function conceptTail(relatedArticleIds: string[] = [], conceptId?: string): string {
-  return `## arabic_label
+function conceptTail(
+  relatedArticleIds: string[] = [], conceptId?: string,
+  links?: ConceptLinks, seed?: Seed,
+): string {
+  /**
+   * A list column. `[clear]` when empty, and only ever here.
+   *
+   * `optionalList` reads `[clear]` and returns `[]`, which is what says
+   * "present and deliberately empty". `text()` — `conceptImport.ts:89`,
+   * `value?.trim() || undefined` — has never looked for it, so on a text column
+   * it stores the literal four characters and then *passes* the audit, because
+   * the field is non-empty. `batchFile` refuses a batch that does that.
+   */
+  const list = (key: string, values: string[] | undefined) =>
+    `## ${key}\n${values?.length ? values.join(' | ') : '[clear]'}`
 
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-${relatedArticleIds.join(' | ') || '[clear]'}
-## resource_ids
-${DEPARTMENT_BOOK}
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-${(conceptId ? CLAIMS_FOR_CONCEPT[conceptId] ?? [] : []).join(' | ') || '[clear]'}
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
+  /**
+   * A text column, emitted as the key with **nothing under it** when it has no
+   * value.
+   *
+   * Not `[clear]`, per the above, and not omitted either. `parseMarkdown`
+   * captures the key with an empty value, so it counts toward `fieldsUsed`;
+   * `text('')` then yields `undefined` and `materialiseNewConcept` writes the
+   * null that `conceptPresent`'s `Object.hasOwn` is satisfied by. Omitting the
+   * key reaches the same stored state but drops the column from the file, which
+   * is how a batch that has considered a field looks identical to one that
+   * forgot it.
+   *
+   * `reviewer` and `final_publisher` are the exceptions that must genuinely
+   * carry a value — they are on `conceptPopulated`, which takes no `field_notes`
+   * excuse — and they carry the manual's documented defaults.
+   */
+  const scalar = (key: string, value: string | undefined) =>
+    `## ${key}\n${value?.trim() ?? ''}`
 
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
+  // Where a module has had its evidence pass, `links` carries the real values;
+  // a seed may also name them itself. Neither exists for a module on its first
+  // pass, and the column is emitted `[clear]` rather than going missing.
+  const presence = [
+    scalar('arabic_label', seed?.arabicLabel),
+    list('arabic_aliases', seed?.arabicAliases),
+    // `microtopic` and `nanotopic` are neither: they are **resolvers**, looked
+    // up against the catalogue's MIC_/NAN_ nodes (`conceptImport.ts:125-127`).
+    // `[clear]` there is a lookup that finds nothing and leaves the key unset,
+    // not a literal stored in a text field — so `batchFile`'s guard does not
+    // cover them, and this is the value already committed for 101.
+    `## microtopic\n${seed?.microtopic ?? '[clear]'}`,
+    '## nanotopic\n[clear]',
+    list('related_concept_ids', seed?.relatedConceptIds),
+    list('related_article_ids',
+      links?.relatedArticleIds?.length ? links.relatedArticleIds
+        : relatedArticleIds.length ? relatedArticleIds : seed?.relatedArticleIds),
+    // The department's own textbook is the fallback, not a default anyone chose
+    // for every module: a module whose article plan names its sources supplies
+    // them, and 101's plan predates the plan files.
+    list('resource_ids',
+      links?.resourceIds?.length ? links.resourceIds
+        : seed?.resourceIds?.length ? seed.resourceIds : [DEPARTMENT_BOOK]),
+    list('approved_file_resource_ids', undefined),
+    list('approved_video_resource_ids', undefined),
+    list('atomic_claim_ids',
+      links?.claimIds?.length ? links.claimIds
+        : seed?.claimIds?.length ? seed.claimIds
+          : conceptId ? CLAIMS_FOR_CONCEPT[conceptId] : undefined),
+    list('resource_occurrence_ids', undefined),
+    list('source_candidate_ids', undefined),
+    list('merge_ids', undefined),
+    list('rejected_merge_candidate_ids', seed?.rejectedMergeCandidateIds),
+    scalar('exclusion_reason', undefined),
+    scalar('reviewer', 'Medical team, Admin team'),
+    scalar('final_publisher', 'Admin team'),
+    scalar('last_reviewed', undefined),
+    scalar('review_due', undefined),
+  ].join('\n')
 
-## review_due
-
+  return `${presence}
 ## owner
 Claude
 ## publication_status
@@ -261,13 +346,28 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
  * the operation. A student can know one and not the other, so the question is
  * co-primary on both and mastery is credited to whichever the subpart tested.
  */
-export function writtenBlock(paper: Paper, seeds: Seed[], articleFor: (conceptId: string) => string | undefined): string {
+export function writtenBlock(
+  paper: Paper,
+  seeds: Seed[],
+  articleFor: (conceptId: string) => string | undefined,
+  /**
+   * The media requests a question carries, by scheme key.
+   *
+   * Defaults to none, so a paper that asks for no figure emits no
+   * `media_recommendations` column and is byte-for-byte what it was before this
+   * existed. Importing is the only way a media request comes into being — there
+   * is no create form in the admin UI — so a question needing a figure has to
+   * carry it here.
+   */
+  mediaFor: (schemeKey: string) => string[] = () => [],
+): string {
   const { source } = paper
   const [seed] = seeds
   const scheme = paper.schemes[partsKey(seed)]
   if (!scheme) throw new Error(`${source.file}: no mark scheme for ${partsKey(seed)}`)
 
-  const byKey = new Map(seeds.map((one) => [one.key, mintConceptId(one.subject, one.key)]))
+  const module = moduleOf(source)
+  const byKey = new Map(seeds.map((one) => [one.key, mintConceptId(module.id, one.subject, one.key, one.system)]))
   const conceptId = byKey.get(seed.key)!
   const total = paper.seeds.reduce((sum, other) => sum + other.marks, 0)
 
@@ -295,6 +395,31 @@ export function writtenBlock(paper: Paper, seeds: Seed[], articleFor: (conceptId
   const clinical = seeds.some((one) => one.type === 'clinical_correlation')
   const articles = [...new Set([...byKey.values()].map(articleFor).filter(Boolean))]
   const askedAll = seeds.map((one) => one.asked).join(' ')
+  const requests = mediaFor(partsKey(seed))
+
+  /**
+   * The two columns that restate the authored difficulty band, emitted only
+   * where a seed carries one.
+   *
+   * `inferred_difficulty` is a facility percentage and `cognitive_effort_score`
+   * a 0–1 load; both are readings of `seed.difficulty`. 101's seeds carry no
+   * band — the papers were transcribed before the field existed — so writing
+   * the "Moderate" fallback for them would put a statistic on seven committed
+   * batches that nobody authored, and rewrite them. A question nobody banded
+   * gets no band.
+   */
+  const banded = seed.difficulty
+    ? `## inferred_difficulty\n${
+      seed.difficulty === 'Easy' ? 75
+        : seed.difficulty === 'Hard' ? 30
+          : seed.difficulty === 'Challenging' ? 15
+            : 55}\n`
+      + `## cognitive_effort_score\n${
+        seed.difficulty === 'Easy' ? '0.3'
+          : seed.difficulty === 'Hard' ? '0.75'
+            : seed.difficulty === 'Challenging' ? '0.9'
+              : '0.5'}\n`
+    : ''
 
   return `# Item
 ## id
@@ -312,7 +437,9 @@ ${scheme.prompt}
 ${scheme.format === 'matching'
   ? `## matching_options\n${(scheme.options ?? []).map((one) => `${one.letter} | ${one.text}`).join('\n')}\n`
     + `## matching_prompts\n${(scheme.matches ?? []).map((one) => `${one.prompt} = ${one.letter}`).join('\n')}`
-  : `## written_parts\n${parts}`}
+  : scheme.format === 'completion'
+    ? `## completion_text\n${scheme.completionText ?? ''}`
+    : `## written_parts\n${parts}`}
 ## main_concept
 ${[...byKey.values()].join(' | ')}
 ## topic
@@ -320,7 +447,7 @@ ${seed.section}
 ## subtopic
 ${seed.modulePath.split(' > ').slice(-1)[0]}
 ## module
-101 ISK
+${module.id}
 ## module_subject
 ${[...new Set(seeds.map((one) => one.modulePath))].join('\n')}
 ## universities
@@ -330,7 +457,7 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-${seed.marks >= 6 ? 'Hard' : 'Moderate'}
+${seed.difficulty ?? (seed.marks >= 6 ? 'Hard' : 'Moderate')}
 ## question_type
 ${clinical ? 'Clinical application' : 'Structure and function'}
 ## learning_objective
@@ -343,8 +470,11 @@ Academic
 ${clinical ? '0.8' : '0.3'}
 ## exam_relevance
 ${relevance}
-## cognitive_effort
-${seed.marks >= 6 ? 'High' : 'Medium'}
+${banded}## cognitive_effort
+${seed.difficulty === 'Challenging' || seed.difficulty === 'Hard' ? 'High'
+    : seed.difficulty === 'Easy' ? 'Low'
+      : seed.difficulty === 'Moderate' ? 'Medium'
+        : seed.marks >= 6 ? 'High' : 'Medium'}
 ## reasoning_level
 ${clinical ? '3' : '1'}
 ## estimated_seconds
@@ -353,7 +483,7 @@ ${articles.length ? `## library_ids\n${articles.join('\n')}\n` : ''}## owner
 Claude
 ## source_citation
 ${source.file} — Kasr Al Ainy ${source.tier.replace(/_/g, ' ')} ${source.sittingYear}, ${seed.section} Q${seed.q}, p${seed.page}. Manifest ${source.id}.
-## author_notes
+${requests.length ? `## media_recommendations\n${requests.join('\n')}\n` : ''}## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “${askedAll}”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
 ${scheme.parts?.length
@@ -363,10 +493,66 @@ ${byKey.size > 1 ? `This question is co-primary on ${byKey.size} concepts: its s
 No derived_from: transcribed rather than derived, so there is nothing to name.`
 }
 
-/** A batch file: a comment explaining itself, then the items. */
-export const batchFile = (header: string, blocks: string[]) =>
-  `<!--\n${header.trim().split('\n').map((line) => `  ${line}`.trimEnd()).join('\n')}\n-->\n\n`
-  + blocks.join('\n\n---\n\n') + '\n'
+/**
+ * Columns where `[clear]` is stored as the literal four characters.
+ *
+ * `[clear]` is a **list** sentinel: `optionalList` reads it and stores `[]`,
+ * while `text()` (`conceptImport.ts:89`, `value?.trim() || undefined`) has never
+ * looked for it. So on a text column it stores the string — and then *passes*
+ * the audit, because the field is non-empty.
+ *
+ * `exclusionReason` is the one that shows why this matters. A non-null
+ * exclusion reason **says the concept was excluded**, and the reason given was
+ * "[clear]". Records carrying that went through validation, simulation and the
+ * field audit green, each one asserting it should not be used.
+ *
+ * Measured with a probe rather than read off the source — send a value
+ * containing a `|` through `conceptFromRow` for every column and see whether it
+ * comes back split. `scripts/kasr/check-column-parsers.ts` is that probe, and
+ * this is the eighteen columns it classifies as text today.
+ *
+ * `subtopic`, `microtopic` and `nanotopic` are deliberately **not** here. The
+ * probe puts them in neither set: they are catalogue resolvers
+ * (`conceptImport.ts:125-127`), so `[clear]` on one is a lookup that finds
+ * nothing and leaves the ID unset, not a literal stored in a text field. Listing
+ * them anyway would make this guard refuse the concept batch 101 has already
+ * imported, which is a different bug wearing this one's clothes.
+ *
+ * Listed here because a generator should not be able to emit the bug at all: a
+ * fixed *batch* is not a fixed *module*, and every lane that regenerates from a
+ * stale copy of this file reintroduces it.
+ */
+const TEXT_COLUMNS = [
+  'arabic_label', 'canonical_key', 'concept_type', 'definition',
+  'editorial_review_status', 'exclusion_reason', 'explicit_objective',
+  'final_publisher', 'id', 'label', 'last_reviewed', 'owner', 'pitfalls',
+  'primary_node_id', 'publication_status', 'review_due', 'reviewer',
+  'support_mode',
+]
+
+/**
+ * A batch file: a comment explaining itself, then the items.
+ *
+ * Refuses to produce a batch that puts a list sentinel in a text column. This
+ * is the one place every generated batch passes through, which is what makes it
+ * the right place for the check — a rule written in a comment is followed by
+ * whoever read the comment, and this is followed by everyone.
+ */
+export const batchFile = (header: string, blocks: string[]) => {
+  const text = `<!--\n${header.trim().split('\n').map((line) => `  ${line}`.trimEnd()).join('\n')}\n-->\n\n`
+    + blocks.join('\n\n---\n\n') + '\n'
+
+  const offenders = TEXT_COLUMNS
+    .filter((column) => new RegExp(`^## ${column}\\n\\[clear\\]$`, 'm').test(text))
+  if (offenders.length) {
+    throw new Error(
+      `refusing to write a batch: ${offenders.join(', ')} carr${offenders.length === 1 ? 'ies' : 'y'} `
+      + '"[clear]", which is a LIST sentinel. `text()` does not read it, so it would be stored as '
+      + 'the literal four characters and pass every validator. Emit the key with nothing under it '
+      + 'instead — the parser still counts the column, and `materialiseNewConcept` writes the null.')
+  }
+  return text
+}
 
 /**
  * A concept an author minted while reading a leaf's multiple-choice questions.
@@ -377,6 +563,7 @@ export const batchFile = (header: string, blocks: string[]) =>
  * single paper says.
  */
 export function mcqConceptBlock(
+  module: ModuleRef,
   concept: McqConcept, signals: string[], articleId?: string, asked?: string,
   relatedArticleIds: string[] = [],
 ): string {
@@ -388,7 +575,7 @@ export function mcqConceptBlock(
 ## label
 ${concept.label}
 ## id
-${mintConceptId(concept.subject, concept.key)}
+${mintConceptId(module.id, concept.subject, concept.key)}
 ## canonical_key
 ${concept.key}
 ## definition
@@ -408,7 +595,7 @@ ${concept.primary}
 ## secondary_node_ids
 ${concept.secondary.join(' | ') || '[clear]'}
 ## modules
-101 ISK
+${module.id}
 ## module_subject
 ${concept.modulePath}
 ## universities
@@ -445,21 +632,25 @@ ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail(relatedArticleIds, mintConceptId(concept.subject, concept.key))}
+${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, concept.key))}
 `
 }
 
 /**
  * One multiple-choice question, from a bank row plus what an author added.
  *
- * `QM-101-<12 hex>` from the bank's own key, so re-running the extraction
- * cannot re-mint an item a student already has history against.
+ * `QM-<code>-<12 hex>` from the module and the bank's own key, so re-running the
+ * extraction cannot re-mint an item a student already has history against. The
+ * module sits where it sat when it was hardcoded, so 101's MCQ IDs are
+ * unchanged.
  *
  * The answer is the source's unless the author overrode it, and an override
  * without a reason throws rather than importing: an answer changed silently is
  * indistinguishable from an answer changed wrongly.
  */
-export function mcqBlock(row: BankRow, authored: McqAuthored, leaf: McqLeafSeed): string {
+export function mcqBlock(
+  row: BankRow, authored: McqAuthored, leaf: McqLeafSeed, module: ModuleRef,
+): string {
   if (authored.answerOverride && !authored.answerOverrideReason?.trim()) {
     throw new Error(`${authored.key}: answerOverride without answerOverrideReason`)
   }
@@ -471,7 +662,7 @@ export function mcqBlock(row: BankRow, authored: McqAuthored, leaf: McqLeafSeed)
   if (missing.length) throw new Error(`${authored.key}: no explanation for option ${missing.join(', ')}`)
   if (!letters.includes(answer)) throw new Error(`${authored.key}: answer ${answer} is not a filled option`)
 
-  const id = `QM-101-${createHash('sha256').update(`kau:101 ISK:mcq:${row.key}`).digest('hex').toUpperCase().slice(0, 12)}`
+  const id = `QM-${module.code}-${createHash('sha256').update(`kau:${module.id}:mcq:${row.key}`).digest('hex').toUpperCase().slice(0, 12)}`
   const concept = leaf.concepts.find((one) => one.key === authored.conceptKey)
   if (!concept) throw new Error(`${authored.key}: conceptKey ${authored.conceptKey} is not in this leaf`)
 
@@ -496,7 +687,7 @@ ${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[lett
 ## correct_answer
 ${answer}
 ## main_concept
-${mintConceptId(concept.subject, concept.key)}
+${mintConceptId(module.id, concept.subject, concept.key)}
 ## library_ids
 ${leaf.articleId}
 ## topic
@@ -511,7 +702,7 @@ ${/* The bank's topic where it has one, and the leaf otherwise.
 ## subtopic
 ${leaf.leaf}
 ## module
-101 ISK
+${module.id}
 ## module_subject
 ${leaf.modulePath}
 ## universities
@@ -545,7 +736,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. ${seen}. Manifest ${[...new Set(row.occurrences.map((where) => where.sourceId))].join(', ')}.
+Kasr Al Ainy departmental question books, module ${module.id}. ${seen}. Manifest ${[...new Set(row.occurrences.map((where) => where.sourceId))].join(', ')}.
 ## author_notes
 Asked ${row.timesAsked} time${row.timesAsked === 1 ? '' : 's'} across the question books.
 Extraction confidence ${row.confidence}; the answer came from ${row.answerConfidence === 'keyed' ? 'a separate answer key, joined by question number' : row.answerConfidence === 'same-file' ? 'the question book itself' : 'no source and was supplied by the author'}.
