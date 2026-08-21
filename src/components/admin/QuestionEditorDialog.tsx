@@ -18,7 +18,10 @@ import { Icon } from '@/components/ui/Icon'
 import { Toggle } from '@/components/ui/Toggle'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
-import { removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
+import { isStoredMediaReference, removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
+import { MediaPlacementEditor } from '@/components/admin/MediaPlacementEditor'
+import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
+import type { Question } from '@/data/qbank'
 import { EntityPicker } from '@/components/admin/EntityPicker'
 import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
 import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
@@ -179,6 +182,29 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
   const valid = draft.title.trim() && nonEmptyAnswers.length >= 2 && correctIsFilled
   const inferredLabel = data.tags.inferredDifficulty >= 70 ? 'Easy' : data.tags.inferredDifficulty < 45 ? 'Hard' : 'Moderate'
 
+  /**
+   * The draft as a student would receive it.
+   *
+   * Built here so the proof below renders the real component against the real
+   * question rather than a stand-in, which is the whole point of it.
+   */
+  const previewQuestion = useMemo<Question>(() => ({
+    id: draft.id || 'preview',
+    subjectId: draft.subjectId,
+    topic: draft.fields.Topic ?? '',
+    difficulty: data.tags.intendedDifficulty,
+    vignette: draft.fields.Vignette ?? '',
+    stem: draft.title,
+    options: data.answers
+      .filter((answer) => answer.text.trim())
+      .map((answer) => ({ text: answer.text, correct: answer.label === data.correctAnswer, rationale: answer.explanation })),
+    explanation: draft.fields.Explanation ?? '',
+    libraryRefs: [],
+    resourceRefs: [],
+    attachedImage: isStoredMediaReference(data.attachedImage ?? '') ? '' : data.attachedImage,
+    media: data.media ?? [],
+  }), [draft, data])
+
   const conceptPicks = useMemo(() => conceptOptions({ graph: concepts, taxonomy, medicalTaxonomy }), [concepts, taxonomy, medicalTaxonomy])
   const articlePicks = useMemo(() => contentOptions(contentItems, 'article'), [contentItems])
   const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
@@ -262,7 +288,29 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
             </div>
 
             <div className="space-y-4">
+              {/* Images that reach a student. The attachments section below
+                  predates the media library and still holds live content, so it
+                  stays until that content has moved across. */}
+              <Section title="Placed images" hint="Images on the stem, on an answer, or on the explanation. Each one is checked by rendering the question as the student receives it." icon={Image}>
+                <MediaPlacementEditor
+                  placements={data.media ?? []}
+                  onChange={(media) => updateData((current) => ({ ...current, media }))}
+                  previewQuestion={previewQuestion}
+                />
+              </Section>
+
               <Section title="Question attachments" hint="Upload media for reliable playback, or use a direct media-file URL. Uploaded files are stored outside the question record so audio and video are not truncated." icon={Paperclip}>
+                {isStoredMediaReference(data.attachedImage ?? '') && (
+                  <StrandedMediaNotice
+                    reference={data.attachedImage}
+                    title={draft.title}
+                    onRecovered={(mediaId) => updateData((current) => ({
+                      ...current,
+                      attachedImage: '',
+                      media: [...(current.media ?? []), { id: `plc-${mediaId}`, mediaId, slot: 'stem' as const }],
+                    }))}
+                  />
+                )}
                 <label className="mb-3 flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line-2 bg-surface-2 px-3 text-[12.5px] font-semibold text-ink-2 hover:border-primary-line hover:bg-primary-tint/35"><Icon icon={Paperclip} size={15} />Choose image, audio, or video<input type="file" multiple accept="image/*,audio/*,video/*,.mp3,.m4a,.aac,.wav,.mp4,.m4v,.mov,.webm" className="sr-only" onChange={(event) => { void attachFiles(event.currentTarget.files); event.currentTarget.value = '' }} /></label>
                 <div className="flex flex-wrap gap-2"><Select value={mediaType} onChange={(event) => setMediaType(event.target.value as MediaAttachment['type'])} className="w-28"><option>image</option><option>audio</option><option>video</option></Select><TextInput aria-label="Attachment URL" className="min-w-0 flex-1" value={mediaUrl} onChange={(event) => setMediaUrl(event.target.value)} placeholder="Media URL" /><Button type="button" size="sm" iconLeft={Plus} onClick={addMedia}>Attach</Button></div>
                 {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
