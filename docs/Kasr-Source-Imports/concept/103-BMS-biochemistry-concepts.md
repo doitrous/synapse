@@ -2295,3 +2295,1129 @@ reviewDue: Set when the first review completes.
 exclusionReason: Not excluded. The cancelled-items table cancels the hyperammonaemia table on page 90 except type 1, but nothing on pages 81 to 82 where this sits.
 rejectedMergeCandidateIds: Nothing in live state states nitrogen balance; both "nitrogen balance" and "protein balance" return no existing record.
 relationships: Walked the 13 concepts under DIS-BIO-T05. They are the protein-digestion set — pepsin, enteropeptidase, aminopeptidases — extracted from a gastrointestinal source, and none is about balance. Three loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Phenylketonuria is deficiency of phenylalanine hydroxylase, and the mousy odour comes from the metabolites phenylalanine is diverted into
+
+## id
+CON-FND-D7BB8C3AFB54CC
+
+## canonical_key
+phenylalanine.phenylketonuria.enzyme-defect
+
+## aliases
+Phenylketonuria
+PKU
+Phenylalanine hydroxylase deficiency
+PAH deficiency
+Mousy urine odour
+Musty urine odor
+
+## arabic_label
+بيلة الفينيل كيتون
+
+## arabic_aliases
+نقص إنزيم هيدروكسيلاز الفينيل ألانين
+رائحة البول الفأرية
+
+## definition
+Phenylalanine is an essential amino acid converted to tyrosine by phenylalanine hydroxylase (PAH), which needs tetrahydrobiopterin (BH4) as its hydrogen donor. Most cases of phenylketonuria are a deficiency of PAH itself; about 1–2 per cent are a deficiency of BH4. Phenylalanine that cannot become tyrosine is metabolised instead to phenylpyruvate, phenyl-lactate and phenylacetate, and these rise in tissues, plasma and urine. They are what give the urine its characteristic musty, mousy odour.
+
+## explicit_objective
+Given an infant with a mousy urine odour and raised phenylpyruvate, name the diagnosis and the deficient enzyme, and say what the raised metabolites are made from.
+
+## pitfalls
+Naming tyrosinase as the deficient enzyme because the child is pale. Tyrosinase deficiency is albinism, a different disease in the same chapter; in PKU tyrosinase is present and merely inhibited. The other error is forgetting the BH4 minority, which matters because those 1–2 per cent do not respond to diet alone.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T02 | SYS-NEU-T02
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## article_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## related_article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_concept_ids
+CON-FND-587B0A39D3C0BD | CON-FND-1DF6B985CB77A1 | CON-FND-81A4F3A9C51B7B | CON-DER-6665EA8EA687C3
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-PKU-ENZYME-DEFECT-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (1) a, 1 mark] Diagnosis:
+[Biochemistry III, Case (1) b, 1 mark] Name of the deficient enzyme:
+"An infant presents with hypopigmented skin compared to siblings, with a mousy urine odor, elevated phenylpyruvate and phenylacetate and mental retardation."
+"Most of the cases of PKU are due to the deficiency of the enzyme phenylalanine hydroxylase (PAH)."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-DER-6665EA8EA687C3
+
+## conflicts
+
+## uncertainty
+The exam stem names phenylacetate among the raised metabolites while the book's list of what phenylalanine is diverted into is phenylpyruvate and phenyl-lactate, with phenylacetate shown only on the pathway diagram. The two agree in substance; the difference is which metabolites each chooses to name in prose.
+
+## evidence_gaps
+Supported by the department book only. The book gives no incidence for PKU and no statement about newborn screening in Egypt, and neither is supplied.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's section, "Metabolic Disorder of Phenylalanine and Tyrosine Metabolism", sits below the subject tree's leaf for Aromatic Amino Acids, which module_subject already names.
+nanotopicId: No nanotopic exists below the microtopic level for individual amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "phenylalan", "phenylketon", "PKU" and "tyrosine" — the first three return no existing record and the tyrosine hit is an insulin-receptor kinase record.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+authorNotes: The paper letters this case a, b, b, c, d — the letter "b" appears twice, on the deficient enzyme and again on the neurological manifestations, and there is no "e". Recorded here because it is a question-file concern: whoever writes the written question for Case (1) must decide whether to reproduce the mislettering or renumber, and must not silently assume five clean subparts.
+exclusionReason: Not excluded. The cancelled-items table cancels Alanine, Serine, Threonine, Aspartic acid, Arginine, Lysine, Histidine and Proline from the individual amino acid chapter, but not the aromatic amino acids.
+rejectedMergeCandidateIds: CON-DER-6665EA8EA687C3 states that albinism is absent melanin production from a genetic defect in tyrosinase synthesis. Not merged — it is the disease PKU is confused with, not the same disease, and the pair is exactly the often_confused_with edge worth writing later.
+relationships: Walked the 13 concepts under DIS-BIO-T05 and the seven records returned for "melanin". Nothing states PKU. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and an often_confused_with edge to CON-DER-6665EA8EA687C3 plus causes edges to the two manifestation concepts are owed.
+
+---
+
+# Item
+
+## label
+The mental retardation of PKU comes from what phenylalanine keeps out of the brain, not from phenylalanine itself
+
+## id
+CON-FND-587B0A39D3C0BD
+
+## canonical_key
+phenylalanine.phenylketonuria.neurological-mechanism
+
+## aliases
+Causes for neurological manifestation in PKU
+CNS manifestations of phenylketonuria
+Mental retardation in PKU
+Neurotransmitter deficiency in PKU
+Amino acid transport competition at the blood-brain barrier
+
+## arabic_label
+سبب المظاهر العصبية في بيلة الفينيل كيتون
+
+## arabic_aliases
+التخلف العقلي في بيلة الفينيل كيتون
+نقص النواقل العصبية
+
+## definition
+Two things happen at once. Raised phenylalanine and its metabolites interfere with the transport of tyrosine and tryptophan into the brain, so the brain is short of both. And because phenylalanine cannot be hydroxylated, tyrosine is low to begin with, which impairs synthesis of the neurotransmitters derived from it — DOPA and the catecholamines dopamine, noradrenaline and adrenaline. The book gives this as the explanation for why an untreated patient shows mental retardation, manifest by the age of one year.
+
+## explicit_objective
+Explain the cause of the neurological manifestations of PKU in two steps, naming the amino acids kept out of the brain and the neurotransmitters that are consequently not made.
+
+## pitfalls
+Saying phenylalanine is directly toxic to neurones. The book's mechanism is competition and deprivation: phenylalanine blocks tyrosine and tryptophan from entering the brain, and the missing tyrosine means missing neurotransmitters. Answering "high phenylalanine damages the brain" restates the finding instead of explaining it and earns nothing.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-NEU-T02 | SYS-FND-T02
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## article_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## related_article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_concept_ids
+CON-FND-D7BB8C3AFB54CC | CON-FND-1DF6B985CB77A1 | CON-FND-81A4F3A9C51B7B
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-PKU-NEUROLOGICAL-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (1) b (second occurrence of the letter b), 1 mark] Causes for neurological manifestation:
+"The elevated phenylalanine and its metabolites will interfere with the transport of tyrosine and tryptophan to the brain leading to their deficiency. Also decreased tyrosine leads to impaired neurotransmitters synthesis in the brain; and this may explain why untreated patient shows mental retardation that manifest by the age of one year."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The book itself hedges — "this may explain why untreated patient shows mental retardation" — so the mechanism is offered as an explanation rather than as an established one, and it is written here with the same hedge. What tryptophan deficiency contributes, as against tyrosine deficiency, is not separated in the source.
+
+## evidence_gaps
+Supported by the department book only, and the book states the mechanism tentatively. Nothing here should be published as settled without a second source.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's section title is finer than any node in the canonical tree; module_subject carries the curriculum position instead.
+nanotopicId: No nanotopic exists below the microtopic level for individual amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "phenylalan", "mental retardation", "neurotransmitter" and "tryptophan" — no candidate record exists for this idea.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+authorNotes: This is the second subpart the paper letters "b". See CON-FND-D7BB8C3AFB54CC for the note on the mislettering; the question file must handle it.
+exclusionReason: Not excluded; the aromatic amino acids are not in the cancelled-items table.
+rejectedMergeCandidateIds: Nothing in live state states this mechanism; "phenylalan" returns no existing record at all.
+relationships: Walked the 13 concepts under DIS-BIO-T05 and the SYS-NEU-T02 set. Nothing there concerns inborn errors. Three loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and a causes edge from CON-FND-D7BB8C3AFB54CC to this concept is owed.
+
+---
+
+# Item
+
+## label
+PKU pale skin has two causes at once: there is too little tyrosine to make melanin from, and too much phenylalanine inhibiting the enzyme that would
+
+## id
+CON-FND-1DF6B985CB77A1
+
+## canonical_key
+phenylalanine.phenylketonuria.hypopigmentation-mechanism
+
+## aliases
+Causes for hypopigmentation in PKU
+Hypopigmentation in phenylketonuria
+Pale skin and hair in PKU
+Tyrosinase inhibition by phenylalanine
+Melanin deficiency in PKU
+
+## arabic_label
+سبب نقص التصبغ في بيلة الفينيل كيتون
+
+## arabic_aliases
+شحوب الجلد والشعر في بيلة الفينيل كيتون
+تثبيط إنزيم التيروزيناز
+
+## definition
+Melanin is made from DOPA in melanocytes by tyrosinase, and DOPA is made from tyrosine. In PKU tyrosine is deficient because phenylalanine cannot be hydroxylated to it, so the substrate for melanin is short. On top of that, the high level of phenylalanine competitively inhibits tyrosinase itself. Hair, skin and the iris of the eye are therefore hypopigmented — which is why the infant in the case is paler than the siblings.
+
+## explicit_objective
+Give both mechanisms behind the hypopigmentation of PKU — substrate deficiency and competitive enzyme inhibition — and name the enzyme and the pigment involved.
+
+## pitfalls
+Giving only the tyrosine-deficiency half. The book gives two mechanisms and the mark is written for both. Calling the condition albinism is the other error: albinism is absence of tyrosinase, PKU is inhibition of it, and the child in PKU is hypopigmented rather than devoid of pigment.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-DER-T01 | SYS-FND-T02
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## article_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## related_article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_concept_ids
+CON-FND-D7BB8C3AFB54CC | CON-FND-587B0A39D3C0BD | CON-DER-6665EA8EA687C3
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-PKU-HYPOPIGMENTATION-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (1) c, 1 mark] Causes for hypopigmentation:
+"Hypopigmentation of hair, skin, and iris of the eye due to deficiency of tyrosine. High levels of phenylalanine also competitively inhibit tyrosinase enzyme."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-DER-6665EA8EA687C3
+
+## conflicts
+
+## uncertainty
+The book does not say which of the two mechanisms contributes more, and it gives no account of how far pigmentation recovers on treatment.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against a dermatology or biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's section title is finer than any node in the canonical tree; module_subject carries the curriculum position instead.
+nanotopicId: No nanotopic exists below the microtopic level for individual amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "hypopigment", "melanin", "tyrosinase" and "phenylalan" — "hypopigment" and "phenylalan" return nothing, and the melanin hits are dermatology records.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded; the aromatic amino acids are not in the cancelled-items table.
+rejectedMergeCandidateIds: CON-DER-6665EA8EA687C3 is albinism — absent melanin from a tyrosinase defect. Not merged, and deliberately linked: this concept exists partly to keep the two apart, since the mechanisms differ and the book prints them a page apart.
+relationships: Walked the 13 concepts under DIS-BIO-T05 and the seven melanin records under SYS-DER. Three loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and an often_confused_with edge to CON-DER-6665EA8EA687C3 is owed.
+
+---
+
+# Item
+
+## label
+PKU is treated by removing phenylalanine from the diet and putting tyrosine back, and it must start before the damage is done
+
+## id
+CON-FND-81A4F3A9C51B7B
+
+## canonical_key
+phenylalanine.phenylketonuria.dietary-treatment
+
+## aliases
+Treatment of phenylketonuria
+Dietary restriction of phenylalanine
+Phenylalanine-free milk formula
+Tyrosine supplementation
+BH4 supplementation in PKU
+
+## arabic_label
+علاج بيلة الفينيل كيتون
+
+## arabic_aliases
+الحمية الخالية من الفينيل ألانين
+تعويض التيروزين
+
+## definition
+The book states that PKU is treatable by dietary means and that early diagnosis is what avoids the mental retardation. Treatment of classic PKU is dietary restriction of phenylalanine, using a phenylalanine-free milk formula, together with tyrosine supplementation — tyrosine has become an essential amino acid for this patient because they cannot make it. In the rare cases caused by BH4 deficiency rather than by PAH deficiency, the treatment is both dietary and supplementation of BH4.
+
+## explicit_objective
+State the treatment of classic PKU and of the BH4-deficient variant, and explain why tyrosine has to be supplied rather than merely allowed.
+
+## pitfalls
+Writing "a protein-free diet". Phenylalanine is restricted, not eliminated and not extended to all protein — it is an essential amino acid and a growing infant still needs some. Forgetting the tyrosine supplement is the other half-answer, and it is the half that explains why the treatment works.
+
+## concept_type
+management
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+DIS-BIO-T08 | SYS-FND-T02
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## article_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## related_article_ids
+ART-103-BIO-NITROGEN-BALANCE
+
+## related_concept_ids
+CON-FND-D7BB8C3AFB54CC | CON-FND-587B0A39D3C0BD | CON-FND-1DF6B985CB77A1
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-PKU-DIETARY-TREATMENT-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (1) d, 1 mark] Treatment:
+"The treatment of classic PKU consists of dietary restriction of phenylalanine (phenylalanine-free milk formula) with tyrosine supplementation."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The book gives no target blood phenylalanine, no age at which the diet may be relaxed, and no statement about diet in pregnancy. None of that is supplied here, and none should be added from a foreign source without a local review.
+
+## evidence_gaps
+This record states a treatment and must not auto-publish. Its claim is to be written with risk_class treatment_or_action. It rests on the department book alone, quantifies nothing, and names no proprietary product; the availability and cost of a phenylalanine-free formula in Egypt is not stated in any source in this corpus and is deliberately left unwritten.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+treatment_content_awaiting_faculty_review
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's section title is finer than any node in the canonical tree; module_subject carries the curriculum position instead.
+nanotopicId: No nanotopic exists below the microtopic level for individual amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "phenylalan", "PKU", "formula" and "tyrosine" — no candidate record exists for this idea.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded; the aromatic amino acids are not in the cancelled-items table.
+rejectedMergeCandidateIds: Nothing in live state states the treatment of PKU.
+relationships: Walked the 13 concepts under DIS-BIO-T05. Three loose neighbours are in related_concept_ids, all of them the other PKU records in this batch. No typed edges are written — this batch authors no relations file, and a treated_by edge from CON-FND-D7BB8C3AFB54CC to this concept is owed.
+
+---
+
+# Item
+
+## label
+In obstructive jaundice the stool is clay coloured because no stercobilin reaches it, and the urine is dark because conjugated bilirubin does
+
+## id
+CON-GIT-A265DD7A7CC8EF
+
+## canonical_key
+bilirubin.obstructive-jaundice.clay-stool-dark-urine
+
+## aliases
+Obstructive jaundice
+Conjugated hyperbilirubinaemia
+Clay coloured stool
+Dark urine in jaundice
+Cholestatic jaundice
+Post-hepatic jaundice
+
+## arabic_label
+اليرقان الانسدادي
+
+## arabic_aliases
+البراز الفاتح اللون والبول الداكن
+فرط البيليروبين المقترن
+
+## definition
+Obstruction of the biliary passages — by gallstones, by cancer of the head of the pancreas, or by inflammation of the pancreas or of the passages themselves — stops conjugated bilirubin reaching the intestine and forces it back into the blood. Two consequences follow directly. Stercobilin, which is what makes stool brown, disappears from the faeces, so the stool is clay coloured. Conjugated bilirubin is water-soluble and not bound to albumin, so the kidney excretes it and the urine becomes dark brown. The urine also contains bile salts, and serum alkaline phosphatase is raised.
+
+## explicit_objective
+Explain, from what happens to bilirubin, why the stool is pale and the urine is dark in obstructive jaundice, naming the pigment missing from each.
+
+## pitfalls
+Saying the urine is dark because of unconjugated bilirubin. Unconjugated bilirubin is bound to albumin and cannot be filtered — that is why haemolytic jaundice is called acholuric. Only conjugated bilirubin appears in urine, and it is the one that rises when the duct is blocked.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gi
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-GIT-T07 | SYS-GIT-T06
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## article_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## related_article_ids
+ART-HEM-TOP-B697DE3AAD
+
+## related_concept_ids
+CON-GIT-4A2A86832F1FF2 | CON-HEM-F2B664C215C912 | CON-HEM-881E8EA781D8E2
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
+
+## atomic_claim_ids
+CLM-GIT-OBSTRUCTIVE-JAUNDICE-STOOL-URINE-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (3) a, 1 mark] Diagnosis:
+[Biochemistry III, Case (3) b, 1 mark] Explain why stool is clay colored and the urine is dark:
+"Stercobilin disappears from the feces leading to clay colored stool. Conjugated bilirubin becomes excreted in the urine, which becomes dark brown in color."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-HEM-881E8EA781D8E2
+
+## conflicts
+
+## uncertainty
+The book defines jaundice as visible yellowing above a serum bilirubin of 2 mg/dL but does not say how quickly stool colour changes after an obstruction, or whether a partial obstruction pales the stool at all.
+
+## evidence_gaps
+Supported by the department book only. Gallstone disease is the commonest cause in the case as written, but the book gives no Egyptian epidemiology for biliary obstruction and none is imported.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's own section, "Jaundice (Icterus or Hyperbilirubinemia)", is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T07.
+nanotopicId: No nanotopic exists below the microtopic level for clinical biochemistry.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "bilirubin", "jaundice", "stercobilin" and "gallstone" — "bilirubin" returns no existing record, and the jaundice hits are the haemolytic-anaemia and blackwater-fever records, neither of which is about obstruction.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded. The cancelled-items table cancels "Biosynthesis of heme & Porphyria" on pages 115 to 118, which is the first half of the Heme Metabolism chapter; heme catabolism, blood bilirubin and jaundice on pages 119 to 123 are not cancelled, and "Different stages of heme catabolism (120)" is named among the examinable diagrams.
+rejectedMergeCandidateIds: CON-HEM-881E8EA781D8E2 says erythrocyte breakdown yields excreted bile pigments while iron is reused. Not merged — it is a histology-level statement of normal turnover and does not distinguish conjugated from unconjugated bilirubin, which is the whole of this concept.
+relationships: Walked the CON-HEM- namespace for bile and bilirubin records and the DIS-BIO-T07 set. Three loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and a part_of edge from this concept to CON-GIT-4A2A86832F1FF2 is owed.
+
+---
+
+# Item
+
+## label
+The three jaundices are told apart by which bilirubin rises and which enzyme rises with it
+
+## id
+CON-GIT-4A2A86832F1FF2
+
+## canonical_key
+bilirubin.jaundice.classification-by-bilirubin-and-enzymes
+
+## aliases
+Classification of jaundice
+Types of jaundice
+Haemolytic obstructive and hepatocellular jaundice
+Direct and indirect bilirubin
+Van den Bergh reaction
+Enzymatic changes in jaundice
+
+## arabic_label
+تصنيف اليرقان حسب نوع البيليروبين وتغيرات الإنزيمات
+
+## arabic_aliases
+أنواع اليرقان
+البيليروبين المباشر وغير المباشر
+
+## definition
+Jaundice is classified by which form of bilirubin predominates in serum. In haemolytic jaundice bilirubin production outruns the liver's capacity to excrete it, so unconjugated (indirect) bilirubin rises while the conjugated fraction stays normal; the book records no enzyme change for it. In obstructive jaundice conjugated (direct) bilirubin regurgitates into blood and alkaline phosphatase is raised. In hepatocellular jaundice both fractions rise — the damaged liver conjugates less, and swollen cells block the canaliculi — and ALT and AST are raised because liver cells are being destroyed.
+
+## explicit_objective
+Complete a three-by-three table of haemolytic, obstructive and hepatocellular jaundice against the bilirubin fraction elevated and the serum enzyme change in each.
+
+## pitfalls
+Filling the enzyme column for haemolytic jaundice with something. The book gives no enzyme change there, because nothing is obstructed and no hepatocyte is damaged — the abnormality is upstream of the liver. Writing "ALP" in every row that involves the biliary tree is the other error; ALP marks obstruction, and ALT and AST mark hepatocyte damage.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+gi
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-GIT-T06 | SYS-HEM-T02
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Blood Bilirubin
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Blood Bilirubin
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## article_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## related_article_ids
+ART-HEM-TOP-B697DE3AAD
+
+## related_concept_ids
+CON-GIT-A265DD7A7CC8EF | CON-HEM-F2B664C215C912 | CON-HEM-4F64967BBFBB6F | CON-HEM-CDF561308A4D25
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
+
+## atomic_claim_ids
+CLM-GIT-JAUNDICE-CLASSIFICATION-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (3) c, 3 marks] Complete the table: rows "Hemolytic jaundice", "Obstructive juandice", "Hepatocelluler juandice"; columns "Type of bilirubin elevated", "Enzymatic changes in blood".
+"Due to biliary obstruction, the serum level of the enzyme alkaline phosphatase (ALP) is elevated."
+"Due to liver cell damage, the serum levels of the enzymes ALT and AST are elevated."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-HEM-CDF561308A4D25
+
+## conflicts
+The book's summary table on page 123 labels the third row "Hepatotoxic Jaundice" while its prose on page 122 calls the same thing "hepatocellular jaundice" and "toxic hyperbilirubinemia", and the exam paper prints "Hepatocelluler juandice". All three name one entity; the difference is wording, and the exam's spelling is what a student will meet.
+
+## uncertainty
+The book leaves the enzyme cell for haemolytic jaundice empty rather than writing "no change", so whether a marker wants a blank, "normal", or a raised LDH is not settled by this source. Nothing is invented to fill it.
+
+## evidence_gaps
+Supported by the department book only. The book gives serum bilirubin reference ranges but no reference range for ALP, ALT or AST, so no numeric threshold is asserted.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's two sections, "Blood Bilirubin" and "Jaundice", are both named in module_subject, which is finer than any node the canonical tree offers below DIS-BIO-T07.
+nanotopicId: No nanotopic exists below the microtopic level for clinical biochemistry.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "bilirubin", "jaundice", "alkaline phosphatase" and "conjugated" — "bilirubin" returns no existing record, so no candidate exists for the classification itself.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded; only the heme biosynthesis and porphyria half of the chapter is cancelled.
+rejectedMergeCandidateIds: CON-HEM-CDF561308A4D25 says haemolytic anaemia may result from intrinsic or extrinsic disorders. Not merged — it classifies the anaemia by cause, while this concept classifies the jaundice by laboratory pattern; the two answer different questions.
+relationships: Walked the 13 records returned for "hemolysis" and the DIS-BIO-T07 set. The haematology side of live state is well populated and the biochemistry side is empty. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and diagnosed_by edges from each jaundice type to its enzyme pattern are the ones worth writing.
+
+---
+
+<!--
+  UPDATE. Live record, id copied verbatim from find-existing.mjs. This is the first
+  row of the Case (3) table: haemolytic jaundice and the bilirubin fraction it raises.
+-->
+
+# Item
+
+## id
+CON-HEM-F2B664C215C912
+
+## label
+Hemolytic anemia is excessive RBC hemolysis and often has jaundice
+
+## definition
+Haemolytic anaemia is anaemia from excessive destruction of red cells, and it is often accompanied by jaundice. The jaundice is unconjugated: haemolysis produces bilirubin faster than the liver can excrete it, so serum unconjugated bilirubin rises while the conjugated fraction stays normal. Because unconjugated bilirubin is bound to plasma albumin it cannot be excreted in urine, which is why the book calls this "acholuric jaundice". Stercobilin increases in the faeces, so the stool is dark brown rather than pale.
+
+## explicit_objective
+State which bilirubin fraction rises in haemolytic jaundice, and explain why the urine stays clear while the stool darkens.
+
+## aliases
+Haemolytic anaemia
+Haemolytic jaundice
+Acholuric jaundice
+Unconjugated hyperbilirubinaemia
+Prehepatic jaundice
+
+## arabic_label
+فقر الدم الانحلالي واليرقان الانحلالي
+
+## arabic_aliases
+اليرقان غير المصحوب ببيلة صفراوية
+فرط البيليروبين غير المقترن
+
+## pitfalls
+Expecting dark urine because the patient is jaundiced. In haemolytic jaundice the urine is normal — the raised bilirubin is albumin-bound and unfilterable. Dark urine points to the conjugated fraction and therefore to obstruction or to liver-cell damage.
+
+## concept_type
+mechanism
+
+## subject
+haem
+
+## secondary_node_ids
+DIS-BIO-T07 | SYS-GIT-T06
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## article_ids
+ART-HEM-TOP-B697DE3AAD | ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## related_concept_ids
+CON-GIT-4A2A86832F1FF2 | CON-GIT-A265DD7A7CC8EF | CON-HEM-4F64967BBFBB6F | CON-HEM-CDF561308A4D25
+
+## resource_ids
+src_f92622aebf5fd2f72b11 | src_300847a5fa64809d6c07
+
+## atomic_claim_ids
+CLM-HEM-F2B664C215C912 | CLM-HEM-HAEMOLYTIC-JAUNDICE-BILIRUBIN-01
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## weight_confidence
+0.35
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
+
+## original_wording
+[Biochemistry III, Case (3) c, 3 marks — first row of the table] Hemolytic jaundice · Type of bilirubin elevated · Enzymatic changes in blood.
+"Serum bilirubin increases, mainly unconjugated bilirubin."
+"Since unconjugated bilirubin is bound to the plasma albumin, it cannot be excreted in the urine, and hence the name 'acholuric jaundice'."
+
+## field_notes
+relationships: Updated rather than duplicated after "jaundice", "hemolysis" and "haemolytic" all returned this record. The Biochemistry book's own list of causes of haemolytic jaundice includes G6PD deficiency, which is CON-HEM-4F64967BBFBB6F in this same batch, so the causes edge between them is now writable and is owed to a relations file this batch does not author.
