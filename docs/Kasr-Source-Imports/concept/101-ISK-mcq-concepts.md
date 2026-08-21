@@ -1,49 +1,49 @@
 <!--
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
-    Arm — 63 questions, 13 concepts
+    Arm — 64 questions, 13 concepts
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
-    Connective Tissue Cells — 89 questions, 21 concepts
-    Connective Tissue Fibres — 51 questions, 11 concepts
-    Cytoplasm — 286 questions, 23 concepts
+    Connective Tissue Cells — 98 questions, 23 concepts
+    Connective Tissue Fibres — 55 questions, 11 concepts
+    Cytoplasm — 311 questions, 29 concepts
     Embryonic Period — 9 questions, 2 concepts
-    Fascia — 14 questions, 2 concepts
-    Fetal Membranes — 69 questions, 16 concepts
+    Fascia — 15 questions, 2 concepts
+    Fetal Membranes — 77 questions, 16 concepts
     Fetal Period — 6 questions, 3 concepts
-    First Week of Development — 24 questions, 6 concepts
-    Forearm — 171 questions, 28 concepts
-    Gametes — 31 questions, 4 concepts
-    Glandular Epithelium — 68 questions, 6 concepts
+    First Week of Development — 31 questions, 6 concepts
+    Forearm — 175 questions, 28 concepts
+    Gametes — 33 questions, 4 concepts
+    Glandular Epithelium — 73 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
-    Hand — 68 questions, 13 concepts
-    Introduction — 16 questions, 3 concepts
-    Joints of Upper Limb — 23 questions, 5 concepts
+    Hand — 71 questions, 13 concepts
+    Introduction — 18 questions, 3 concepts
+    Joints of Upper Limb — 26 questions, 6 concepts
     Lymphatic system — 4 questions, 2 concepts
     Microscopes — 7 questions, 2 concepts
     Microtechniques — 87 questions, 24 concepts
     Muscles of the Back — 29 questions, 9 concepts
-    Muscular system — 11 questions, 4 concepts
+    Muscular system — 12 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
-    Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
+    Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
-    Nucleus — 70 questions, 7 concepts
+    Nucleus — 80 questions, 10 concepts
     Pectoral Region — 34 questions, 12 concepts
-    Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Polarity and Membranous Specializations — 90 questions, 10 concepts
     Red Blood Corpuscles — 61 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
-    Shoulder Region — 40 questions, 19 concepts
-    Skeletal system — 43 questions, 7 concepts
-    Surface Epithelium — 129 questions, 10 concepts
+    Shoulder Region — 50 questions, 20 concepts
+    Skeletal system — 46 questions, 8 concepts
+    Surface Epithelium — 135 questions, 10 concepts
     The cell — 41 questions, 4 concepts
-    Third Week of Development — 33 questions, 6 concepts
+    Third Week of Development — 35 questions, 7 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
-    Veins of the Upper Limb — 9 questions, 3 concepts
+    Veins of the Upper Limb — 10 questions, 3 concepts
 
   Extracted from 2867 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  477 questions were excluded and 0 held back for having no
+  536 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -108,6 +108,7 @@ src_08bc782553366518791e | question_book | | p42 | 101 ISK
 src_16f747e1171423933757 | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p19 | 101 ISK
 src_a38c7a9672971718ccdb | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p11 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p27 | 101 ISK
 ## weight_confidence
@@ -129,7 +130,7 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-ARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
@@ -246,12 +247,13 @@ src_08bc782553366518791e | question_book | | p44 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
 src_08bc782553366518791e | question_book | | p45 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -265,7 +267,7 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -287,7 +289,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3708,6 +3710,7 @@ src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -4676,12 +4679,13 @@ kau
 src_c6ab1b49dc16762227e1 | question_book | | p7 | 101 ISK
 src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4695,7 +4699,7 @@ Blood
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-BLOOD-PLATELETS
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -4717,7 +4721,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5751,12 +5755,13 @@ src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -5770,7 +5775,7 @@ Connective Tissue
 ## aliases
 Plasmacyte | Cart-wheel nucleus | Clock-face nucleus
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5792,7 +5797,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5883,6 +5888,7 @@ kau
 ## exam_signal
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p9 | 101 ISK
@@ -5890,9 +5896,9 @@ src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6437,12 +6443,13 @@ src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
 src_7449943b97c0e18d37b0 | question_book | | p1 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p8 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7397,6 +7404,7 @@ src_6846577508f49244d715 | question_book | | p26 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -7541,6 +7549,7 @@ src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -7950,13 +7959,13 @@ kau
 ## learner_years
 1
 ## exam_signal
-
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.15
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.15
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8084,12 +8093,13 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p4 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8134,6 +8144,280 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-65BC8A0E5971 | CLM-9216BAC14B43 | CLM-9CC360EBF45F
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+## id
+CON-FND-CE178A6B5707B1
+## canonical_key
+connective-tissue-fibre-stains-by-fibre-type
+## definition
+The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
+## explicit_objective
+Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.
+## pitfalls
+Answering "brown" without asking which brown. Orcein browns elastic fibres and silver browns reticular fibres; naming the colour is not naming the stain, and the two fibres look nothing alike once shown.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+DIS-HIS-T02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.95
+## exam_weight_by_year
+KAU_Y1=0.95
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Mallory trichrome | Van Gieson | Orcein | Silver impregnation
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Mallory trichrome stain can be used for demonstration of:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-0302C7B78015 | CLM-B64A39EE51C8 | CLM-B72363DEF178 | CLM-38E6D2F301D7 | CLM-BF194D2E11A9
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
+## id
+CON-FND-EA4034F1E87235
+## canonical_key
+mucoid-ct-is-jelly-rich-in-hyaluronic-acid
+## definition
+Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth. Its role is supportive.
+## explicit_objective
+Recognise mucoid connective tissue by its ground substance and name its three sites.
+## pitfalls
+Reaching for loose areolar connective tissue because it too has abundant ground substance. What marks mucoid tissue out is that the matrix is jelly and the cells are almost only fibroblasts.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The mucoid C.T. is Characterized by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-ANA-DECIDUA | ART-101-ANA-FERTILIZATION | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-BCA15D0A6628 | CLM-EDB12D72B6A4
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -8408,144 +8692,6 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-073310CA54A9 | CLM-78C99C71D6F5 | CLM-7BF739AF77E0
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
-## id
-CON-FND-CE178A6B5707B1
-## canonical_key
-connective-tissue-fibre-stains-by-fibre-type
-## definition
-The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
-## explicit_objective
-Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.
-## pitfalls
-Answering "brown" without asking which brown. Orcein browns elastic fibres and silver browns reticular fibres; naming the colour is not naming the stain, and the two fibres look nothing alike once shown.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T04
-## secondary_node_ids
-DIS-HIS-T02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.79
-## exam_weight_by_year
-KAU_Y1=0.79
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-Mallory trichrome | Van Gieson | Orcein | Silver impregnation
-## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Regarding the staining, the following are true EXCEPT:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-0302C7B78015 | CLM-B64A39EE51C8 | CLM-B72363DEF178 | CLM-38E6D2F301D7 | CLM-BF194D2E11A9
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -9038,6 +9184,7 @@ src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p4 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
 src_510c935c09a7e7cbff32 | question_book | | p6 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p3 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
@@ -9730,6 +9877,8 @@ src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
+src_9487fd713153c573087f | question_book | | p3 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -10167,6 +10316,7 @@ src_6846577508f49244d715 | question_book | | p6 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p13 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -10305,13 +10455,14 @@ src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p22 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p2 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10579,12 +10730,14 @@ src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p14 | 101 ISK
 src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_9487fd713153c573087f | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10722,6 +10875,7 @@ src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -10741,7 +10895,7 @@ Cytology
 ## aliases
 Microbody | Catalase | Beta oxidation
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION | ART-101-HIS-MICROTECHNIQUES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
@@ -10763,7 +10917,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-THE-CELL | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10861,12 +11015,13 @@ src_6846577508f49244d715 | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p1 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10880,7 +11035,7 @@ Cytology
 ## aliases
 Polyribosome | Polysome | Ribosomal subunits
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
@@ -10902,7 +11057,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11007,6 +11162,7 @@ src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p12 | 101 ISK
 src_6846577508f49244d715 | question_book | | p24 | 101 ISK
 src_6846577508f49244d715 | question_book | | p9 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -11287,6 +11443,7 @@ src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -11423,12 +11580,13 @@ src_6846577508f49244d715 | question_book | | p15 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p7 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p13 | 101 ISK
+src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11556,15 +11714,17 @@ kau
 src_6846577508f49244d715 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p5 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p28 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11578,7 +11738,7 @@ Cytology
 ## aliases
 Cytokeratin | Vimentin | Desmin | Neurofilament | GFAP | Lamins
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-NERVOUS-SYSTEM
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-NERVOUS-SYSTEM | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
@@ -11600,7 +11760,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11837,6 +11997,7 @@ src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p27 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p2 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
@@ -12302,6 +12463,547 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-A0C7380933B9 | CLM-6086987CA32D | CLM-854DD1C6CD0A
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Necrosis is passive death by swelling and bursting; apoptosis is the programmed death that packages the cell up tidily
+## id
+CON-FND-25C25E4FA62811
+## canonical_key
+necrosis-versus-apoptosis-cell-death
+## definition
+A cell can die two ways. Necrosis is always pathological and always passive: injury lets water in, the cell and its organelles swell, the membranes rupture and the contents spill into the tissue, which is why necrosis provokes inflammation in the surrounding tissue. Apoptosis is an active, energy-requiring, genetically programmed process that can be physiological — it is how unwanted cells are removed during development and turnover — as well as pathological; the cell shrinks, its chromatin condenses, and it breaks up into membrane-bound apoptotic bodies that neighbouring cells phagocytose without any spill and without inflammation. Every feature of one is the opposite of the corresponding feature of the other, which is how the examiners set it.
+## explicit_objective
+Separate necrosis from apoptosis on whether the process is passive or programmed and on whether the cell swells and bursts or shrinks and fragments.
+## pitfalls
+Reading "programmed" or "physiological" as a description of necrosis because both words sound orderly and clinical. Both belong to apoptosis; necrosis is the accident, and swelling is its signature.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Apoptosis | Programmed cell death | Apoptotic bodies
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Necrosis:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book teaches no cell death anywhere in its histology chapters — the word "necrosis" appears once in the whole text, in the anatomy chapter on end arteries, and "apoptosis" not at all. The 2020 end-of-module paper nevertheless set a four-option necrosis question whose three distractors are each a property of apoptosis, so the concept is minted because a sat paper examined it. Nothing in the faculty's own text supports the answer; it rests on the standard necrosis-apoptosis contrast, and the row records that.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-F2BB15C7F947 | CLM-97E5D05DF514 | CLM-DDB25FAB1ECD
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+## id
+CON-HEM-2C81CE9CF9F3D8
+## canonical_key
+red-corpuscle-adaptation-to-gas-transport
+## definition
+The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
+## explicit_objective
+Give the three adaptations of the red corpuscle to gas transport and say what each one buys and what it costs.
+## pitfalls
+Answering that a small nucleus leaves room for haemoglobin. There is no nucleus at all in the mature cell, and every "except" question in this leaf uses a small or a heterochromatic nucleus as its false option.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p1 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Biconcave disc | Haemoglobin reductase | Carbonic anhydrase
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding RBCs adaptation to perform their function, They are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-1261F5201E63 | CLM-21D786E5AF22 | CLM-5643630A381F | CLM-50A24C222011 | CLM-508AD1221482
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
+## id
+CON-FND-05C930A781CE55
+## canonical_key
+pas-and-best-carmine-demonstrate-carbohydrate
+## definition
+Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best's carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
+## explicit_objective
+Name the two stains that demonstrate carbohydrate and list the structures they redden.
+## pitfalls
+Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p19 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+PAS | Periodic acid-Schiff | Best's carmine
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] PAS stain is used to demonstrate all of the following except: a-Cell membrane
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-D6D04B0382F8 | CLM-D9E7996367EC | CLM-934A18DC3EC7
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
+## id
+CON-FND-ACB35745EC9A5D
+## canonical_key
+gap-junction-lets-ions-and-small-molecules-through
+## definition
+The gap junction, or nexus, is a communicating junction. The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next. Between muscle cells the same channels carry impulses. It is the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex.
+## explicit_objective
+State what a gap junction lets through, how many subunits form one channel, and why it is classed as communicating rather than occluding or adhering.
+## pitfalls
+Treating it as a hole in the membrane. The channel is narrow and selective — ions and small molecules only — and large proteins do not cross it.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p9 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p4 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Nexus | Communicating junction | Gap junction
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] which of the following is involved in cell to cell communication??
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book does not use the word connexin or connexon, describing the channel only as six symmetrical transmembrane protein molecules. Question books that ask for connexin are asking beyond this faculty's stated source.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-ECA53193F12A | CLM-91CA1DC13180 | CLM-D8AC2D81AC01 | CLM-5D7FB72A566E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -12911,12 +13613,13 @@ kau
 1
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p10 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12936,7 +13639,7 @@ direct_statement
 ## original_wording
 [asked 2x across the question books] One of the following is not true, regarding the placenta: (2023 - 2022) ad Ac a- Its fetal part develops from chorion frondosum. y Ac em
 ## conflicts
-[clear]
+The 2020-12-24 end-of-module paper asks which statement about the full-term placenta is not true and offers, among its options, a thickness of one cm and a diameter of 25–30 cm. The department book gives thickness 3 cm and diameter 15–25 cm, so both of those options are false against the book, as is the paper’s fourth option putting the umbilical cord on the maternal surface. The paper printed no key. Three false options in a single-best-answer question is why `regarding-full-term-placenta-one-of-the-following-is-not-tru-ae89b3ce` is excluded rather than answered.
 ## uncertainty
 [clear]
 ## evidence_gaps
@@ -13173,18 +13876,20 @@ kau
 1
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p11 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p5 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -14101,12 +14806,13 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p130 | 101 ISK
+src_9487fd713153c573087f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -14734,139 +15440,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
-## id
-CON-FND-EA4034F1E87235
-## canonical_key
-mucoid-ct-is-jelly-rich-in-hyaluronic-acid
-## definition
-Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth. Its role is supportive.
-## explicit_objective
-Recognise mucoid connective tissue by its ground substance and name its three sites.
-## pitfalls
-Reaching for loose areolar connective tissue because it too has abundant ground substance. What marks mucoid tissue out is that the matrix is jelly and the cells are almost only fibroblasts.
-## concept_type
-structural_description
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Concerning to the mucous CT, the followings are true EXCEPT:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-ANA-DECIDUA | ART-101-ANA-FERTILIZATION | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-BCA15D0A6628 | CLM-EDB12D72B6A4
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
 The fetal period runs from the beginning of the 9th week — the start of the 3rd month — until birth, and is maturation and growth rather than organ formation
 ## id
 CON-DEV-E273F775E9CB77
@@ -15297,12 +15870,13 @@ src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 src_08bc782553366518791e | question_book | | p114 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
 src_08bc782553366518791e | question_book | | p115 | 101 ISK
+src_9487fd713153c573087f | question_book | | p6 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -15429,18 +16003,19 @@ kau
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
 src_08bc782553366518791e | question_book | | p116 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -15693,12 +16268,13 @@ kau
 1
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -15848,6 +16424,7 @@ src_08bc782553366518791e | question_book | | p50 | 101 ISK
 src_08bc782553366518791e | question_book | | p68 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p2 | 101 ISK
 src_a2bf7a9dca4e7cf4015d | question_book | | p1 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -18094,6 +18671,8 @@ src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p100 | 101 ISK
 src_08bc782553366518791e | question_book | | p76 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -18636,13 +19215,14 @@ kau
 src_12d639a625d8305c4454 | question_book | | p1 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p87 | 101 ISK
 src_f32859b80fb79d668010 | question_book | | p2 | 101 ISK
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
 src_08bc782553366518791e | question_book | | p114 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -18666,7 +19246,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-[clear]
+The department book teaches no meiosis. Its Gametes chapter describes the morphology of the sperm and the ovum and the chromosome content of each nucleus, and stops there: the words meiosis, prophase, crossing-over, non-disjunction, aneuploidy and euploidy appear nowhere in the whole book except one sentence in the First Week chapter about the oocyte completing its second meiotic division. Two sat end-of-module questions examine exactly that material — `during-which-stage-of-first-meiotic-division-does-crossing-o-b01c5d2d` and `numerical-aberrations-of-chromosomes-occur-due-to-fc449570` — so the papers test what the book this faculty teaches from does not state. The first is answered here from general cytogenetics because only one of its four options is defensible; the second is excluded because more than one is.
 ## arabic_label
 
 ## arabic_aliases
@@ -19052,6 +19632,8 @@ src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p1 | 101 ISK
+src_9487fd713153c573087f | question_book | | p3 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -19188,12 +19770,13 @@ src_d184b8378f4d66d285e0 | question_book | | p15 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p7 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -21246,12 +21829,13 @@ kau
 src_08bc782553366518791e | question_book | | p2 | 101 ISK
 src_08bc782553366518791e | question_book | | p3 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
+src_9487fd713153c573087f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -21835,6 +22419,150 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-15042BB090C5 | CLM-A7742F207A47 | CLM-1E311C6951C0 | CLM-BA1EC14E2665
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+## id
+CON-MSK-171B2F8B24F6E7
+## canonical_key
+shoulder-joint-movements-and-their-muscles
+## definition
+Flexion of the arm is by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps. Extension is by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid. Adduction is by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove. Medial rotation is by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid. Lateral rotation is by infraspinatus, teres minor and the posterior fibres of deltoid. Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
+## explicit_objective
+Name the principal muscle of each movement of the shoulder joint and say which movement a named muscle produces.
+## pitfalls
+Treating deltoid as one muscle. Its anterior fibres flex and medially rotate and its posterior fibres extend and laterally rotate, so deltoid is a correct answer for four opposite movements and a wrong one for each of the other four.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p24 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p35 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p18 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p36 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p4 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p17 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p35 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p23 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p29 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p49 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-REGION
+## support_mode
+direct_statement
+## original_wording
+[asked 4x across the question books] Lateral rotation at the shoulder; is done by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-A86E5FDB078D | CLM-5DC13CD1C64F | CLM-B837E5005EF1 | CLM-1FABE4C4253E | CLM-A45433BDC48F | CLM-5CA4773FE797
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -22770,142 +23498,6 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-22B79B9C3751 | CLM-A43FBC420A80 | CLM-9D96C51E350B | CLM-3FFB27EEE86A | CLM-2190BE4E46E5
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
-## id
-CON-FND-05C930A781CE55
-## canonical_key
-pas-and-best-carmine-demonstrate-carbohydrate
-## definition
-Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best's carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
-## explicit_objective
-Name the two stains that demonstrate carbohydrate and list the structures they redden.
-## pitfalls
-Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T04
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Introduction > Microtechniques
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_6846577508f49244d715 | question_book | | p8 | 101 ISK
-src_6846577508f49244d715 | question_book | | p25 | 101 ISK
-src_9487fd713153c573087f | question_book | | p2 | 101 ISK
-src_6846577508f49244d715 | question_book | | p11 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p19 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.63
-## exam_weight_by_year
-KAU_Y1=0.63
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Introduction
-## aliases
-PAS | Periodic acid-Schiff | Best's carmine
-## article_ids
-ART-101-HIS-MICROTECHNIQUES
-## support_mode
-direct_statement
-## original_wording
-[asked 3x across the question books] PAS stain is used to demonstrate all of the following except: a-Cell membrane
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-MICROSCOPES | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-D6D04B0382F8 | CLM-D9E7996367EC | CLM-934A18DC3EC7
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -24212,7 +24804,7 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
@@ -24234,7 +24826,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24329,12 +24921,13 @@ src_69103a53ec28a93958d5 | question_book | | p25 | 101 ISK
 src_08bc782553366518791e | question_book | | p23 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p11 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -24861,12 +25454,13 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p14 | 101 ISK
+src_9487fd713153c573087f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -27151,6 +27745,7 @@ src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -27290,12 +27885,14 @@ src_d1414701d8fcb55932b6 | question_book | | p17 | 101 ISK
 src_6846577508f49244d715 | question_book | | p18 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p23 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -27747,6 +28344,137 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-33CBE1C1B614 | CLM-D67F123CC05E | CLM-0A5160EEE235 | CLM-3DB01E93DF75 | CLM-4F763AF50E59
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes
+## id
+CON-FND-69671A492023B8
+## canonical_key
+sex-chromatin-barr-body-is-an-inactivated-x-chromosome
+## definition
+Sex chromatin, or the Barr body, is an X chromosome that has been inactivated and condensed into a mass of heterochromatin — a dark plaque against the inner nuclear membrane in most cells, and the drumstick appendage on the segmented nucleus in a proportion of female neutrophils. Because exactly one X stays active in every cell, the count is always the number of X chromosomes minus one: a normal male, XY, has none; a normal female, XX, has one; Turner syndrome, XO, has a single X and therefore none at all; Klinefelter syndrome, XXY, has two X chromosomes and therefore one. It is the inactive extra X that is seen, never the active one.
+## explicit_objective
+Define the Barr body as an inactivated X chromosome and use the "number of X chromosomes minus one" rule to say which sex-chromosome constitutions show one.
+## pitfalls
+Expecting Turner syndrome to show a Barr body because it is the sex-chromosome disorder students meet first. Turner is a chromosome short, not one over — with only one X there is nothing to inactivate, and it is Klinefelter's extra X that becomes the Barr body.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p5 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Sex chromatin | Barr body | Drumstick
+## article_ids
+ART-101-HIS-NUCLEUS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Sex chromatin (Barr body):
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book names the Barr body once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. It nowhere states that the Barr body is an inactivated X chromosome, and it gives no sex-chromosome constitution for Turner or Klinefelter beyond XO and XXY in the nucleus chapter's clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the faculty's text.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-60FDC4CAF401 | CLM-3F0EC08A7716 | CLM-8C1461A69ACE
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -28477,141 +29205,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
-## id
-CON-FND-ACB35745EC9A5D
-## canonical_key
-gap-junction-lets-ions-and-small-molecules-through
-## definition
-The gap junction, or nexus, is a communicating junction. The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next. Between muscle cells the same channels carry impulses. It is the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex.
-## explicit_objective
-State what a gap junction lets through, how many subunits form one channel, and why it is classed as communicating rather than occluding or adhering.
-## pitfalls
-Treating it as a hole in the membrane. The channel is narrow and selective — ions and small molecules only — and large proteins do not cross it.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p9 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p4 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.55
-## exam_weight_by_year
-KAU_Y1=0.55
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Epithelial Tissues
-## aliases
-Nexus | Communicating junction | Gap junction
-## article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-## support_mode
-direct_statement
-## original_wording
-[asked 2x across the question books] which of the following is involved in cell to cell communication??
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-The department book does not use the word connexin or connexon, describing the channel only as six symmetrical transmembrane protein molecules. Question books that ask for connexin are asking beyond this faculty's stated source.
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-ECA53193F12A | CLM-91CA1DC13180 | CLM-D8AC2D81AC01 | CLM-5D7FB72A566E
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
 The junctional complex is the zonula occludens, the zonula adherens and the macula adherens together — the gap junction is not part of it
 ## id
 CON-FND-993662DC8318E5
@@ -28910,12 +29503,13 @@ kau
 src_bb081b0479f7a33666cd | question_book | | p7 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p7 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p14 | 101 ISK
+src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -29096,143 +29690,6 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-6D4132EF5D0C | CLM-ABA30AE81078 | CLM-7D9D1C3B2DEA | CLM-AD576F3D3694 | CLM-71FB6E6BC692
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
-## id
-CON-HEM-2C81CE9CF9F3D8
-## canonical_key
-red-corpuscle-adaptation-to-gas-transport
-## definition
-The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
-## explicit_objective
-Give the three adaptations of the red corpuscle to gas transport and say what each one buys and what it costs.
-## pitfalls
-Answering that a small nucleus leaves room for haemoglobin. There is no nucleus at all in the mature cell, and every "except" question in this leaf uses a small or a heterochromatic nucleus as its false option.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M01
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_34c967631e388497dc35 | question_book | | p1 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
-src_c6ab1b49dc16762227e1 | question_book | | p2 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-Biconcave disc | Haemoglobin reductase | Carbonic anhydrase
-## article_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] characteristic ultrastructural feature of RBCs includes:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-1261F5201E63 | CLM-21D786E5AF22 | CLM-5643630A381F | CLM-50A24C222011 | CLM-508AD1221482
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -30515,18 +30972,19 @@ kau
 ## exam_signal
 src_08bc782553366518791e | question_book | | p122 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
+src_9487fd713153c573087f | question_book | | p6 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -30534,7 +30992,7 @@ General Embryology
 ## aliases
 Sclerotome | Dermomyotome | Myotome | Paraxial mesoderm
 ## article_ids
-ART-101-ANA-IMPLANTATION
+ART-101-ANA-IMPLANTATION | ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
@@ -30967,148 +31425,6 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-A1AAF5D9AAC5 | CLM-F2767D1850BE | CLM-FD32748F5C9C | CLM-74787EB4082C
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-## id
-CON-MSK-171B2F8B24F6E7
-## canonical_key
-shoulder-joint-movements-and-their-muscles
-## definition
-Flexion of the arm is by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps. Extension is by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid. Adduction is by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove. Medial rotation is by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid. Lateral rotation is by infraspinatus, teres minor and the posterior fibres of deltoid. Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
-## explicit_objective
-Name the principal muscle of each movement of the shoulder joint and say which movement a named muscle produces.
-## pitfalls
-Treating deltoid as one muscle. Its anterior fibres flex and medially rotate and its posterior fibres extend and laterally rotate, so deltoid is a correct answer for four opposite movements and a wrong one for each of the other four.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T03-S02-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Shoulder Region
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_0f1171705349e98b44e6 | question_book | | p24 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p35 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p18 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p36 | 101 ISK
-src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p4 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p17 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p35 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
-src_0f1171705349e98b44e6 | question_book | | p23 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p29 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p49 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[asked 4x across the question books] Lateral rotation at the shoulder; is done by:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-CLM-A86E5FDB078D | CLM-5DC13CD1C64F | CLM-B837E5005EF1 | CLM-1FABE4C4253E | CLM-A45433BDC48F | CLM-5CA4773FE797
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -32091,6 +32407,137 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
+## id
+CON-MSK-40012FE18569EC
+## canonical_key
+long-bone-arterial-supply-nutrient-metaphyseal-epiphyseal-periosteal
+## definition
+A long bone is supplied by four sets of arteries. The nutrient (diaphyseal) artery enters the middle of the shaft through an oblique nutrient foramen, runs away from the growing end, and supplies the inner two-thirds of the shaft. The periosteal arteries enter from the periosteum and supply the outer third of the shaft. The metaphyseal arteries enter through minute foramina and supply the metaphyses. The epiphyseal arteries supply the epiphyses, and after the epiphyseal plate ossifies they anastomose with the metaphyseal arteries — which is why the growing bone and the adult bone have different patterns of blood supply across the growth plate.
+## explicit_objective
+Name the four arterial sources of a long bone, say what fraction of the shaft each of the two shaft arteries supplies, and state the direction the nutrient artery takes.
+## pitfalls
+Reading "nutrient" as supplying the whole shaft. It supplies the inner two-thirds; the outer third comes from the periosteum, which is why stripping the periosteum during surgery devascularises the surface of the bone even though the nutrient artery is intact.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p5 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Nutrient artery | Diaphyseal artery | Periosteal arteries | Metaphyseal arteries | Epiphyseal arteries | Blood supply of bone
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The following artery supplies the inner part of the shaft of long bone:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-INTRODUCTION
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-31EAA7FE9922 | CLM-7F9FD4284ED7 | CLM-97FE8E2BB5C6 | CLM-B8CDA0F73421 | CLM-FAC93DF8E421
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
 Epithelial tissue is avascular, crowded, rests on a basement membrane and regenerates well, and falls into four classes by what its cells are modified to do
 ## id
 CON-FND-49350AB867CB5A
@@ -32406,6 +32853,7 @@ src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p11 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+src_9487fd713153c573087f | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -32690,6 +33138,7 @@ src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -34059,18 +34508,19 @@ kau
 ## exam_signal
 src_764a2521809818b8abdc | question_book | | p92 | 101 ISK
 src_08bc782553366518791e | question_book | | p125 | 101 ISK
+src_9487fd713153c573087f | question_book | | p6 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
