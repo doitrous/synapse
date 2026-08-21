@@ -569,7 +569,14 @@ if (kind !== 'concept') {
   // tried and broke the moment a span batch and its claims lived in files with
   // different stems.
   const dir = dirname(file)
-  const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  // Its own directory, plus whatever `--with` named. A claim points at a
+  // concept and a span at an article, and neither lives in `evidence/` — so
+  // reading only this directory refused every row of a claim batch authored
+  // alongside its concepts, while the question and practical branches accepted
+  // exactly that. `--with` was parsed, then ignored here, which is worse than
+  // unsupported: the flag looked honoured and the errors looked real.
+  const own = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  const siblings = [...new Set([...own, ...alongside])]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))
