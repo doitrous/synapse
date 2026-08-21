@@ -95,10 +95,12 @@ for (const [id, r] of Object.entries(j.sources))
 > Live but unindexed is fine. Neither live nor indexed is the failure the guard is for.
 
 > **The index must sit beside your batch.** The validator looks for
-> `corpus-source-index.json` in the folder it is validating, and **silently skips the check
-> when it is missing** — so an invented ID would pass. `docs/import-ready/evidence/` carries
-> a symlink to the generated index for exactly this reason. If you author evidence anywhere
-> else, put the index there too, or you lose the guard without being told.
+> `corpus-source-index.json` in the folder it is validating. It used to skip the check
+> silently when the index was missing, so an invented ID passed; it now says the index is
+> missing in `notes`, and **errors on any row that names a `src_…` it could not check**. A
+> batch that names no source at all still passes, because it never needed the index.
+> `docs/import-ready/evidence/` carries a symlink to the generated index for exactly this
+> reason. If you author evidence anywhere else, put the index there too.
 
 Regenerate it with:
 
@@ -138,11 +140,11 @@ What a student opens. Imports at **Bulk import → resource**.
 carries a `field_notes` line saying no resource has cleared rights for it. Naming the
 concept here is what removes that.
 
-> **Do not run `npm run medical:batch` on a catalogue-resource file.** `detectKind` has no
-> branch for it, so it falls through to `unknown` and crashes with
-> `TypeError: Cannot read properties of undefined (reading 'map')`. That means "wrong tool",
-> not "bad file" — the same trap as subjects and glossary. Use `medical:simulate`, and the
-> import wizard's own preview.
+> **`npm run medical:batch` does not validate a catalogue-resource file.** `detectKind` has
+> no branch for it. It used to crash with a `TypeError`; it now refuses clearly, naming the
+> file and listing the kinds it does recognise. That means "wrong tool", not "bad file" —
+> the same as subjects and glossary. Use `medical:simulate`, and the import wizard's own
+> preview.
 
 ---
 
@@ -344,6 +346,6 @@ npm run medical:audit -- --source /tmp/synapse-sim.json
 | `X is not a source the corpus contains — do not invent a source ID` | The `src_` ID is not in the index. Use a real one, or a `RES-WEB-` web source. |
 | `X is "…" in the corpus, not "…"` | `source_relative_path` disagrees with the corpus record. Leave it empty. |
 | `cites X, which is not a source the corpus contains` | A citation's `resource_id` names a source that does not exist. |
-| `TypeError: Cannot read properties of undefined (reading 'map')` | You ran `medical:batch` on a **catalogue** resource file. |
+| `… matches no contract this validator knows` | You ran `medical:batch` on a **catalogue** resource file. Wrong tool, not a bad file. |
 | An invented ID passes | `corpus-source-index.json` is missing from the folder, so the check was skipped. |
 | A concept still says no resource has cleared rights | Name the concept in the catalogue record's `included_concepts`. |

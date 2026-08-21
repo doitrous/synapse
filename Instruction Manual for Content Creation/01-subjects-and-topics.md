@@ -311,17 +311,17 @@ npm run medical:audit
 ```
 
 **Do not run `npm run medical:batch` on a subjects file.** It has no branch for this kind,
-falls through to `unknown`, and crashes:
+falls through to `unknown` and refuses the file:
 
 ```
-scripts/validate-content-batch.mjs:438
-  const known = new Set(EVIDENCE_IMPORT_FIELDS[kind].map((field) => field.key))
-                                                     ^
-TypeError: Cannot read properties of undefined (reading 'map')
+… matches no contract this validator knows.
+Recognised kinds: article, question, practical, concept, relation, claim, citation, span, resource.
 ```
 
-That stack trace means "wrong tool", not "bad file". The two `validate:` commands above are
-your check, and the import wizard's own preview and impact report are the real gate.
+That refusal means "wrong tool", not "bad file". (It used to be a `TypeError` from inside
+the validator, which said the same thing without saying it.) The two `validate:` commands
+above are your check, and the import wizard's own preview and impact report are the real
+gate.
 
 - [ ] I did not add, move or delete a canonical `SYS-`/`DIS-`/`SKL-`/`KNW-` node
 - [ ] Every rename supplies the existing `*_id`
@@ -342,4 +342,4 @@ your check, and the import wizard's own preview and impact report are the real g
 | `System colour must be a hex value such as #b4442f` | Malformed `system_color` |
 | `A topic ID with no topic name and no child does nothing` | A row that neither renames nor hangs anything beneath |
 | A duplicate shelf appears | You wrote a new name without its `*_id` — that is a create, not a rename |
-| `TypeError: Cannot read properties of undefined (reading 'map')` | You ran `medical:batch` on a subjects file. It has no branch for this kind. Use the `validate:` commands. |
+| `… matches no contract this validator knows` | You ran `medical:batch` on a subjects file. It has no branch for this kind. Use the `validate:` commands. |

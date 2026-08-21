@@ -37,8 +37,9 @@ wizard also accepts `.csv` and `.xlsx` if that is what you have.
 ### 2 · None of the four validators cover it
 
 `medical:batch`, `medical:simulate`, `medical:audit` and `medical:validate:authoring` all
-have no branch for the glossary. Running `medical:batch` on a glossary file will crash with
-a `TypeError`, the same way a subjects file does.
+have no branch for the glossary. `medical:batch` used to crash on a glossary file with a
+`TypeError`; it now refuses it clearly, naming the kinds it does recognise — the same way it
+handles a subjects file.
 
 Your check is the one in this manual, plus the wizard's own preview.
 
@@ -260,7 +261,7 @@ import('./src/data/glossary.ts').then(({ MED_CATEGORIES }) => {
 |---|---|
 | `Row N: "X" is not a glossary category` | Category not in the seven, or `and` written for `&` |
 | `Row N: term is required` | Empty `term` cell |
-| `TypeError: Cannot read properties of undefined (reading 'map')` | You ran `medical:batch` on a glossary file. It has no branch for this kind. |
+| `… matches no contract this validator knows` | You ran `medical:batch` on a glossary file. It has no branch for this kind. |
 | Cells land in the wrong columns | A `\|` inside a definition, or a row with the wrong cell count |
 | A term shows **Incomplete** in admin | Missing `term`, `ar` or `def` |
 | Two rows for one term | Different `term` spellings producing different derived IDs — check with `find-existing.mjs` first |
