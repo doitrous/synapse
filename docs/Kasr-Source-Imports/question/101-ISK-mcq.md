@@ -5,6 +5,8 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Myo Epithelium — 1 questions, 1 concepts
+    Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
@@ -4173,6 +4175,338 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-15D54BF1523A
+## title
+myoepithelial cells are characterized by the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+myoepithelial cells are characterized by the following EXCEPT:
+## answer_a
+are contractile cells
+## explanation_a
+True, so not the exception. Contraction is what the "myo-" in myo-epithelium names, and it is the whole of what the cell does: it squeezes the secretory cells so their secretion is driven into the duct.
+## answer_b
+present between base of cells & their basement membrane
+## explanation_b
+True, so not the exception. This is the book's own wording — the cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.
+## answer_c
+present between apex of cells & their basement membrane
+## explanation_c
+The exception, and the answer. Picked by students who remember only that the cell lies against the basement membrane and do not check which surface that membrane is on. The basement membrane is by definition at the basal surface, so there is no space between it and the apex for anything to occupy.
+## answer_d
+None of the above
+## explanation_d
+A "none of the above" cannot be the exception when a genuinely false statement is on the list. It attracts students who could not separate B from C and hedged rather than choosing between them.
+## correct_answer
+C
+## main_concept
+CON-FND-38ABCC4E4E4E68
+## library_ids
+ART-101-HIS-MYO-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Myo Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Myo Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the myo-epithelial cell at the base of the secretory cell, against the basement membrane, and not at its apex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p9 q72. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B5E049CA0A3
+## title
+One statement is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement is true:
+## answer_a
+Neuroepithelium is a special type of nerve cells modified to epithelium
+## explanation_a
+The modification runs the other way. This option makes the cell a nerve cell first, which would put the tissue in the nervous system; the book classes neuro-epithelium among the four types of *epithelial* tissue.
+## answer_b
+Neuroepithelium is a special type of epithelium modified to sensory function
+## explanation_b
+Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors and receive the stimulus of a sensation — the book's own definition, and the taste bud is its example.
+## answer_c
+Neuroepithelium means that nerve and epithelium are of the same origin
+## explanation_c
+A statement about embryology rather than about structure. Some epithelia are ectodermal, as the nervous system is, but shared origin is not what the term neuro-epithelium asserts, and the book makes no such claim.
+## answer_d
+Neuroepithelium means that epithelium develop from the nerve
+## explanation_d
+The most tempting wrong answer, because it sounds like a mechanism. Nothing develops from the nerve here; the epithelium is already epithelium and acquires a receptor function without changing what it is.
+## correct_answer
+B
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Get the direction of the modification right: an epithelial cell takes on a sensory function, rather than a nerve cell becoming epithelial.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q75. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1649D2281CD4
+## title
+The epithelium forming the taste buds is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium forming the taste buds is:
+## answer_a
+Neuroepithelium
+## explanation_a
+Correct. The taste bud is the book's single example of neuro-epithelium: epithelial cells modified as receptors for the sensation of taste.
+## answer_b
+Glandular epithelium
+## explanation_b
+Glandular epithelium secretes. Chosen because the tongue does carry glands — the serous glands of von Ebner empty into the trough around the taste bud — but the bud itself receives, it does not secrete.
+## answer_c
+simple epithelium
+## explanation_c
+Simple epithelium is a classification by layer count within *surface* epithelium, so this answers a different question entirely. It also cannot be right on its own terms: the taste bud sits within a stratified squamous covering.
+## answer_d
+stratified epithelium
+## explanation_d
+The epithelium around the taste bud is indeed stratified squamous, which is what makes this attractive. The question asks what forms the bud, not what surrounds it.
+## correct_answer
+A
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the taste bud as neuro-epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q76. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5046734CD031
+## title
+the taste bud is an example of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the taste bud is an example of:
+## answer_a
+glandular epithelium
+## explanation_a
+Glandular epithelium is modified to secrete. The taste bud is modified to receive, which is the other of the four classes.
+## answer_b
+absorptive epithelium
+## explanation_b
+Absorptive epithelium is not one of the book's four classes at all. It is a description of what simple columnar epithelium does in the gut, borrowed here as a plausible-sounding category.
+## answer_c
+neuro epithelium
+## explanation_c
+Correct. Neuro-epithelium is epithelium modified as a receptor, and the taste bud is the example the book gives.
+## answer_d
+endothelium
+## explanation_d
+Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart. It has nothing to do with sensation, and is picked when "endo-" and "neuro-" are treated as interchangeable prefixes rather than read.
+## correct_answer
+C
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the taste bud as neuro-epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q14. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---

@@ -45,6 +45,15 @@ jobs:
       - name: Manifest citations
         run: npm run medical:citations
 
+      # Two ids that mean one concept. The mint hashes the canonical key alone
+      # and the subject only picks the `CON-<SYS>-` prefix, so one key filed
+      # under two subjects gives two ids that differ in three characters and
+      # nothing at import time notices — a student's mastery of one idea splits
+      # across both. Two sessions author this module, and their seeds are not
+      # always in one checkout; the committed batches always are.
+      - name: One idea, one concept
+        run: npm run medical:concept-ids
+
       # Every batch is checked against every concept and article batch as a
       # sibling. A question and a practical both resolve their concepts against
       # live state, deliberately — an item pointing at a concept nobody authored

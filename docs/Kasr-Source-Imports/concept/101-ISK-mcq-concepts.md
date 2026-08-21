@@ -5,6 +5,8 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Myo Epithelium — 1 questions, 1 concepts
+    Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
@@ -1581,6 +1583,189 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Myo-epithelial cells lie between the base of the secretory cells and the basement membrane, and contract to squeeze secretion into the duct
+## id
+CON-FND-38ABCC4E4E4E68
+## canonical_key
+myoepithelial-cell-basal-position-and-secretion-squeeze
+## definition
+Myo-epithelium is a special type of epithelium modified to contract. Its cells lie between the base of the secretory cells and their basement membrane — basally, never apically — and when they contract they squeeze the secretory cells so that the secretion is discharged into the ducts. They are found around the acini of the salivary glands, the mammary glands and the sweat glands.
+## explicit_objective
+State where a myo-epithelial cell sits relative to the secretory cell and its basement membrane, and explain what its contraction achieves.
+## pitfalls
+Putting the myo-epithelial cell at the apex of the secretory cell. The basement membrane is basal by definition, so nothing can lie between it and the apex; the option that says so is the standard distractor and it is self-contradictory once the geometry is drawn.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Myo Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p9 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Myoepithelial cell | Basket cell | Myo-epithelium
+## article_ids
+ART-101-HIS-MYO-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book does not say whether myo-epithelial cells are ectodermal in origin, nor whether they contain smooth-muscle actin. Both are standard in general histology and neither is stated by this faculty's own source, so neither is taught here.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Neuro-epithelium is epithelium whose cells are modified to act as sensory receptors, as in the taste buds
+## id
+CON-FND-B6BD265FBD8B5F
+## canonical_key
+neuro-epithelium-is-epithelium-modified-as-receptor
+## definition
+Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation. It is one of the four classes of epithelial tissue the book recognises, alongside surface, glandular and myo-epithelium. The example the book gives is the taste buds of the tongue, which receive the sensation of taste.
+## explicit_objective
+Define neuro-epithelium as epithelium modified for a sensory function, and name the taste bud as its example.
+## pitfalls
+Reading the name as nerve tissue that has turned into epithelium, or as a claim that nerve and epithelium share an origin. Neither is what the term means: the cell is an epithelial cell that has taken on a receptor function, and the "neuro-" describes the job, not the ancestry.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Neuroepithelium | Sensory epithelium | Sensory cells | Taste bud
+## article_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book names only the taste bud. It does not extend neuro-epithelium to the olfactory mucosa, the retina or the hair cells of the inner ear, all of which general histology includes. Only the taste bud is taught here, because only the taste bud is this faculty's stated example.
 ## owner
 Claude
 ## publication_status

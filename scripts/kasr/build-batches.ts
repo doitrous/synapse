@@ -7,7 +7,7 @@
  *   node --experimental-strip-types scripts/kasr/build-batches.ts
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { mintConceptId, partsKey, type Paper, type Seed } from './seeds/types.ts'
+import { mintConceptId, partsKey, subjectCollisions, type KasrSubject, type Paper, type Seed } from './seeds/types.ts'
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
@@ -136,6 +136,46 @@ for (const paper of PAPERS) {
     }
   }
 }
+
+/**
+ * Refuse to build if one canonical key has been given two subjects.
+ *
+ * The subject picks only the `CON-<SYS>-` prefix, so the same key under two
+ * subjects mints two IDs with the same hash behind different prefixes. Nothing
+ * at import time notices, and a student's mastery of one idea splits across
+ * both. Two lanes author into `seeds/mcq/` and the papers are seeded
+ * separately, which is exactly the arrangement that produces it.
+ *
+ * Checked across every seed the build can see — papers and question-book leaves
+ * together — because the two halves are where the disagreement would arise.
+ */
+async function assertOneSubjectPerKey() {
+  const entries: { key: string; subject: KasrSubject; where: string }[] = []
+  for (const paper of PAPERS) {
+    for (const seed of paper.seeds) {
+      entries.push({ key: seed.key, subject: seed.subject, where: paper.source.file })
+    }
+  }
+  const dir = 'scripts/kasr/seeds/mcq'
+  if (existsSync(dir)) {
+    for (const name of readdirSync(dir).filter((one) => one.endsWith('.ts')).sort()) {
+      const leaf = (await import(`./seeds/mcq/${name}`)).LEAF as McqLeafSeed
+      for (const concept of leaf.concepts) {
+        entries.push({ key: concept.key, subject: concept.subject, where: `seeds/mcq/${name}` })
+      }
+    }
+  }
+
+  const clashes = subjectCollisions(entries)
+  if (!clashes.length) return
+  throw new Error(
+    `${clashes.length} canonical key(s) given more than one subject, which mints a rival ID for one idea:\n`
+    + clashes.map((clash) =>
+      `  ${clash.key}: ${clash.subjects.join(' vs ')}  (${clash.where.join(', ')})`).join('\n')
+    + '\nAgree one subject per key and rerun. The key decides the concept; the subject only picks its prefix.')
+}
+
+await assertOneSubjectPerKey()
 
 /**
  * The multiple-choice bank, one batch per subject-tree leaf.
