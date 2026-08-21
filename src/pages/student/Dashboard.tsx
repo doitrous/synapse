@@ -16,6 +16,7 @@ import { useIdentity } from '@/lib/useIdentity'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useStudentSchedule } from '@/lib/useStudentSchedule'
 import { nextExam } from '@/lib/studentSchedule'
+import { ExamCountdown } from '@/components/dashboard/ExamCountdown'
 
 function greetingKey(): string {
   const h = new Date().getHours()
@@ -67,6 +68,11 @@ export function Dashboard() {
           <Link to="/app/account" className="font-semibold text-primary-strong hover:text-primary">{t('Add it in your account')}</Link>
         </div>
       )}
+
+      {/* Above the four blocks, because an exam with a date on it outranks
+          everything else a student could do today. Renders nothing when there
+          is no exam ahead. */}
+      <div className="mb-4"><ExamCountdown /></div>
 
       {/* Four blocks, in the order the questions are asked: what now, what is
           slipping, what today holds, and where I stand. Everything that
