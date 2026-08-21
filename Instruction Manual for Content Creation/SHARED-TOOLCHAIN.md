@@ -1019,6 +1019,19 @@ EOM 196 104 - 2023          28218 vs 26991   x1.05   ** SUSPECT **
 answers are not in the text layer.** Two seconds, works on any pair, and it would have caught
 the highlight case too.
 
+**Run it per page, not per file.** A whole-file ratio hides the answer:
+
+```
+pages 1-4, 7     ratio 1.7-1.9    answers in the text layer
+pages 5, 6, 8    ratio 1.02-1.06  NOT in the text layer
+pages 9-19, 21   ratio 1.00       NOT in the text layer
+whole file       ratio 1.118      looks "mostly solved"
+```
+
+**Fourteen of twenty-one pages of a paper labelled "[Solved]" carry no answers in their text
+layer at all**, while four clean pages carry the entire difference. A file-level check passes
+it. Per page tells you exactly which pages need the render.
+
 **It does not apply to a paper with no text layer at all.** The 101 EOM set yields **0
 characters** from `pdftotext`, so the ratio is `0/0`, not `1.0` — the test is undefined rather
 than negative. Worse for the recovery step: `pdftotext -bbox-layout` yields **no word boxes
@@ -1120,3 +1133,35 @@ All from `scripts/corpus-intake/manifest.py:287`, all found by reading cover pag
 That is now **four defect families** across `textLayer`, `subject`, `sourceCategory`,
 `examSittingYear`, `solvedStatus` and `moduleId`. Every one was found by looking at the
 document; none by any check the pipeline runs.
+
+### `--with` is now wired on every branch — and the bar it was proved against
+
+`question`, `evidence` and `relation` all honour it; `concept` and `article` fold siblings
+through `foldInSiblings`, which already took `alongside`. Closed, not closed-so-far.
+
+**`relation` was the worst case.** A relation names **two concepts, a claim and a citation** —
+four references, each kind in its own folder (`concept/`, `evidence/`, `relations/`) — and the
+branch read only its own directory, so it found **none** of the four.
+
+**The standard every future `--with` wiring should meet**, because it proves the flag widens
+what counts as existing rather than letting a batch pass by naming its dependencies:
+
+```
+without --with   6 errors — source concept, target concept and claim "does not exist", for records that do
+with --with      3 errors — those three gone; a deliberately wrong citation ID still refused
+```
+
+The **surviving refusal** is the point. An invented `CIT-ANA-SCIATIC-BRANCHES-01` stayed
+refused while the real `CIT-KA-ANAT-SCIATIC-BRANCHES-01` beside it resolved. Prove both
+directions or the flag is indistinguishable from a suppression.
+
+### If the page is blank, say so — do not reconstruct the mark scheme
+
+When a solved copy turns out to have no answer written on a page, the honest record is **"the
+mark scheme was never printed"**. Do not rebuild one from the department book and present it
+as the examiner's: it reads identically to a real key and no later reviewer can tell the
+difference.
+
+This is the same refusal as not rewriting a diagram question into prose, and not filling
+`atomic_claim_ids` to clear an audit. The pattern in all three: **a plausible reconstruction is
+worse than an admitted gap, because the gap is visible and the reconstruction is not.**
