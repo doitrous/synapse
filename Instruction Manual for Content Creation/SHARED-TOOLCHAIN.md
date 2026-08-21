@@ -1671,3 +1671,35 @@ beats a hand-typed parallel table — a mapping typed in two places drifts, and 
 
 Accept the list, then read. Under time pressure this is the corner that will be cut, and it is
 the one that produces content that looks right and is wrong.
+
+### A buggy check that reports a content gap will always be believed
+
+> **A check that reports a content gap while having a bug of its own will always be believed,
+> because the reported cause is plausible.**
+
+Both coverage bugs — counting one direction of a bidirectional link, and overwriting rather
+than merging sibling concepts — presented as *"your questions have no article"*. That is
+exactly what a genuine content gap looks like, so nobody questions it; they go and write
+articles. 247 phantom errors survived on that plausibility alone.
+
+**The tell was order-dependence.** Reordering the `--with` arguments changed the result.
+
+> **Anything order-dependent in a set operation is a bug in the check, not in the content.**
+
+That is a cheap thing to try whenever a batch reports gaps you did not expect: shuffle the
+sibling list. A real gap does not move.
+
+### Deriving the article map: two conditions before wiring it
+
+Both come from the lane whose hand-written table it replaces, and both are load-bearing:
+
+1. **Derive from both directions.** `conceptImport.ts:166` reads `article_ids` on the concept
+   as well as `related_concepts` on the article. **A generator reading only `related_concepts`
+   rebuilds the exact bug that produced 247 phantom errors.**
+2. **Diff against the current file, do not overwrite it.** The hand-written
+   `ARTICLE_FOR_CONCEPT` moved from 17 entries to **71** while the handover was being
+   discussed. Any disagreement should be **shown**, not resolved silently — a generator that
+   overwrites a hand-maintained table is indistinguishable from one that is wrong.
+
+And the 47 concepts no article teaches **belongs in the repo as a file, beside the coverage
+ledger** — not in a message. It is the definition of what is left to write.
