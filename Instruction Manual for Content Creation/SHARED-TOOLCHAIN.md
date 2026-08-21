@@ -1836,7 +1836,7 @@ A registry listing fewer papers does not error. Depending on the generator it bu
 **or removes what it no longer knows about**. Re-read the registry at merge time; a list quoted
 from a message is stale the moment it is sent.
 
-### `reviewer` / `final_publisher`: a named absence, not `[clear]` — settled
+### `reviewer` / `final_publisher` — REVERSED, see below. Follow the manual's default.
 
 Two lanes diverged and one convention has to win, because **two conventions in one library is
 worse than either.**
@@ -1976,3 +1976,48 @@ stores `[]`.**
 
 Note the two facts about an empty block are both true at different layers: on an **update** row
 it means *untouched*, and on a **new** record `materialiseNewConcept` supplies the null anyway.
+
+---
+
+## REVERSAL: `reviewer` / `final_publisher` follow the manual, not a lane convention
+
+**I arbitrated this between two lanes and settled on a string the manual does not document.
+That was wrong in method, not just in detail, and a lane declined it on exactly those grounds.**
+
+The manual already governs the field. `02-concepts.md:214-216`:
+
+```
+| `owner`            | Owner     | Defaults to `Admin team`.                 |
+| `reviewer`         | Reviewer  | Defaults to `Medical team, Admin team`.   |
+| `final_publisher`  | Publisher | Defaults to `Admin team`.                 |
+```
+
+and its own worked example at `:538-544` writes those three values verbatim.
+
+**So: write `Medical team, Admin team` and `Admin team`.**
+
+**The original objection was that naming a team asserts a review that did not happen. It is
+answered by three other fields, which are the ones designed to carry it:**
+
+```
+status                    under review
+publication_status        needs_evidence
+editorial_review_status   drafted_not_reviewed / authored_needs_independent_evidence
+```
+
+`publication_status` gates what reaches a student — **only `published` does**. So a record can
+name its owning teams without claiming anyone has reviewed it, because three fields say
+plainly that nobody has. The honesty belongs in the status fields, not in a sentinel smuggled
+into a name field.
+
+**And the method point, which is the part worth keeping.** A convention agreed *between lanes*
+that contradicts the manual produces a **half-migrated library** — worse than either state,
+because a later reader cannot tell which records followed which rule or when. If a documented
+default is wrong:
+
+> **Change the manual first, then move every lane together — including the records already
+> written.** A coordinator can settle what the manual leaves open. It cannot settle what the
+> manual has already decided.
+
+The lane that declined flagged it rather than diverging quietly, which is the behaviour that
+made this recoverable.
