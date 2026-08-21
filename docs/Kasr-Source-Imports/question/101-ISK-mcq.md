@@ -22,6 +22,7 @@
     Joints of Upper Limb — 23 questions, 5 concepts
     Lymphatic system — 4 questions, 2 concepts
     Microscopes — 7 questions, 2 concepts
+    Microtechniques — 87 questions, 24 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Muscular system — 11 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
@@ -51,7 +52,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  411 questions were excluded and 0 held back for having no
+  431 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -53267,6 +53268,5567 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F0463982B17C
+## title
+Freezing technique has the following advantage:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Freezing technique has the following advantage:
+## answer_a
+It takes a short time
+## explanation_a
+Correct. Freezing is the most rapid method, which is why a frozen section is what a surgeon waits for while a tumour is diagnosed mid-operation.
+## answer_b
+It gives serial sections
+## explanation_b
+Serial sections are a paraffin advantage; the book lists "no serial sections" among the disadvantages of freezing.
+## answer_c
+It gives thin sections
+## explanation_c
+Thin sections are paraffin too. Frozen sections are thick and hard to cut.
+## answer_d
+Sections are easy to stain
+## explanation_d
+Frozen sections are explicitly "not easily stained" in the book's table — which is a separate matter from their being the only sections that keep enzymes to stain for.
+## correct_answer
+A
+## main_concept
+CON-FND-9F0CCA2BFB5C7B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Give the advantage the freezing technique is chosen for.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q3. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book calls the freezing technique "the most rapid" and lists the other three options — serial sections, thin sections, easy staining — as advantages of the paraffin technique and disadvantages of freezing.
+
+
+---
+
+# Item
+## id
+QM-101-9E4176D0151E
+## title
+The suitable technique to stain the glycogen inside the cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The suitable technique to stain the glycogen inside the cells is:
+## answer_a
+Paraffin technique
+## explanation_a
+Paraffin is the routine technique and the wrong one here for the reason the book gives: its xylol and heat destroy the cell's chemical components, which is exactly what a histochemical stain is looking for.
+## answer_b
+Celloidin technique
+## explanation_b
+Celloidin avoids heat and preserves fine structure, but it is the slowest technique and is used for large organs and soft tissue, not for histochemistry.
+## answer_c
+Freezing technique
+## explanation_c
+Correct. Histochemical stains are done on frozen sections, because freezing preserves the chemistry the stain reacts with.
+## answer_d
+Scanning EM
+## explanation_d
+Scanning electron microscopy shows surfaces in three dimensions. It is not a way of staining anything, and it is not a light-microscopic technique at all.
+## correct_answer
+C
+## main_concept
+CON-FND-9F0CCA2BFB5C7B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Technique choice
+## learning_objective
+Choose the processing technique that permits a histochemical stain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q4. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that histochemical stains — PAS for glycogen among them — need the frozen technique, because the heat and solvents of paraffin processing destroy the chemical components of the cell.
+
+
+---
+
+# Item
+## id
+QM-101-7C7CED02D7F3
+## title
+The most common staining system In the histology is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common staining system In the histology is:
+## answer_a
+Silver stain
+## explanation_a
+Silver is a special stain, used for the Golgi apparatus, nerve cells and fibres, and reticular fibres. It is slow and selective, not routine.
+## answer_b
+Orcein stain
+## explanation_b
+Orcein is a special stain with one job: browning elastic fibres.
+## answer_c
+Hematoxylin and eosin system (H & E)
+## explanation_c
+Correct. H&E is the routine system, and every slide a student is shown is H&E unless told otherwise.
+## answer_d
+Periodic acid-Schiff reaction (PAS)
+## explanation_d
+PAS is a histochemical reaction for carbohydrate. It is common, but it demonstrates one class of molecule rather than showing a section as a whole.
+## correct_answer
+C
+## main_concept
+CON-FND-22D6FA8D15AA45
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the routine staining system of histology.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q5. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that haematoxylin and eosin is the most commonly used stain in routine histological slides; the other three are special stains used for one target each.
+
+
+---
+
+# Item
+## id
+QM-101-B296E8028009
+## title
+cytoplasm of ribosome is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cytoplasm of ribosome is:
+## answer_a
+acidophilic
+## explanation_a
+Acidophilic is what cytoplasm poor in RNA looks like — smooth endoplasmic reticulum, or the haemoglobin of a red cell. Ribosomes push the staining the other way.
+## answer_b
+basophilic
+## explanation_b
+Correct. Ribosomal RNA carries acidic phosphate groups, which bind the basic dye haematoxylin, so ribosome-rich cytoplasm is basophilic.
+## answer_c
+need special stain
+## explanation_c
+Ribosomes need no special stain to make their presence felt: their effect on ordinary H&E is exactly the basophilia this question is about. Seeing an individual ribosome does need electron microscopy, which is a different claim.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" cannot stand while B is the department book's own account of cytoplasmic basophilia.
+## correct_answer
+B
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Staining
+## learning_objective
+Say how ribosomes make the cytoplasm stain, and why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q4. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DA669921E2E3
+## title
+Lishman stain is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lishman stain is:
+## answer_a
+neutral stain
+## explanation_a
+Correct, and keyed. Leishman's stain is a neutral stain: a mixture of the acidic dye eosin and the basic dye methylene blue, which is what lets one preparation show both the acidophilic and the basophilic cells of a blood film.
+## answer_b
+vital stain
+## explanation_b
+A vital stain is taken up by living cells inside the living animal. Leishman's is applied to a dried film of dead cells on a slide.
+## answer_c
+supravital stain
+## explanation_c
+Supravital staining is of living cells outside the body — brilliant cresyl blue on reticulocytes. Leishman's film is fixed with methyl alcohol first, so its cells are not alive.
+## answer_d
+metachromatic stain
+## explanation_d
+A metachromatic stain gives a colour different from its own. Leishman's components each give their own colour, which is the opposite property.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify Leishman's stain among the classes of special stain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p11 q65. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-679C96AA50C6
+## title
+Stain used for blood film:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stain used for blood film:
+## answer_a
+eosin only
+## explanation_a
+Eosin alone is acidic and would show the acidophilic structures — red cells and eosinophil granules — and leave the nuclei and basophilic granules unstained.
+## answer_b
+Leishman
+## explanation_b
+Correct. Leishman's stain is the neutral stain for blood films, and being a mixture is the whole point of it.
+## answer_c
+methylene blue only
+## explanation_c
+Methylene blue alone is basic and would stain nuclei and basophilic granules while leaving the red cells almost colourless.
+## answer_d
+Hematoxylin
+## explanation_d
+Haematoxylin is the basic dye of the routine tissue stain; it is not used on blood films, where Leishman's combined dyes in methyl alcohol both fix and stain in one step.
+## correct_answer
+B
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain used for a blood film and say why a mixture is needed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q22. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-66871650AE20
+## title
+staining of blood film is done by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+staining of blood film is done by:
+## answer_a
+orecin stain
+## explanation_a
+Orcein browns elastic fibres and has no role in blood.
+## answer_b
+silver stain
+## explanation_b
+Silver browns the Golgi and nerve fibres and blackens reticular fibres; it demonstrates none of the blood cells.
+## answer_c
+H & E stain
+## explanation_c
+H&E is the routine stain for a tissue section, not for a blood film — a film is air-dried and needs a stain that carries its own alcohol fixative.
+## answer_d
+leishman's stain
+## explanation_d
+Correct. Leishman's stain is the blood film stain.
+## correct_answer
+D
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain used for a blood film against a set of special stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q5. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7BF30A69E897
+## title
+Fixative material that used in blood film:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fixative material that used in blood film:
+## answer_a
+methyl alcohol
+## explanation_a
+Correct. Leishman's dyes are dissolved in methyl alcohol, which fixes the air-dried film as the stain is applied — one solution doing both jobs.
+## answer_b
+eosin
+## explanation_b
+Eosin is one of the two dyes in the mixture, not the fixative that carries them.
+## answer_c
+ethylene glycol
+## explanation_c
+Ethylene glycol is an antifreeze and has no place in this preparation.
+## answer_d
+glycerin
+## explanation_d
+Glycerin is a mounting and clearing agent, not a fixative.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the fixative in which a blood film stain is dissolved.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q23. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B39E076B8D4E
+## title
+Staining of the macrophage with trypan blue is an example of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Staining of the macrophage with trypan blue is an example of:
+## answer_a
+Vital stain
+## explanation_a
+Correct. A vital stain is one taken up by living cells inside the living animal — the dye is injected and the macrophage phagocytoses it, which is why this method identifies that cell and no other.
+## answer_b
+Supravital stain
+## explanation_b
+Supravital staining is of living cells outside the body. The reticulocyte with brilliant cresyl blue is the example the book gives.
+## answer_c
+Flurescent stain
+## explanation_c
+A fluorescent stain is read under ultraviolet light; trypan blue is seen in an ordinary microscope as blue granules inside the cell.
+## answer_d
+Histochemical stain
+## explanation_d
+A histochemical stain demonstrates a chemical or an enzyme. Trypan blue demonstrates a behaviour — phagocytosis — which is a different kind of evidence.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the demonstration of a macrophage with trypan blue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q123. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C6A962598508
+## title
+Reticulocytes could be demonstrated by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticulocytes could be demonstrated by:
+## answer_a
+Vital stain
+## explanation_a
+A vital stain works inside the living animal. The reticulocyte is stained on a slide, after the blood has been drawn.
+## answer_b
+Supra vital stain
+## explanation_b
+Correct, and keyed. Brilliant cresyl blue on living cells outside the body is supravital staining, and it precipitates the residual RNA of the young red cell into the visible reticulum that names it.
+## answer_c
+Toluidine blue
+## explanation_c
+Toluidine blue is the metachromatic stain for mast cell and basophil granules; it says nothing about a reticulocyte.
+## answer_d
+Metachromatic stain
+## explanation_d
+Metachromasia is a property of a dye on a particular substrate. The reticulum of the reticulocyte is shown in the dye's own colour, which is the opposite.
+## correct_answer
+B
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the stain that demonstrates a reticulocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p6 q31. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-09633B9DAE8D
+## title
+Macrophages can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Macrophages can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain demonstrates the mast cell and the basophil, whose granules hold heparin.
+## answer_b
+Histochemical stain
+## explanation_b
+A histochemical stain does mark the macrophage indirectly, through the acid phosphatase of its many lysosomes — but the specific demonstration named in the book is the vital stain, and the option offered here is unqualified.
+## answer_c
+Trypan blue stain
+## explanation_c
+Correct. Trypan blue is the vital stain the macrophage phagocytoses, and finding blue granules inside a connective tissue cell is how the cell is identified.
+## answer_d
+Sudan III stain
+## explanation_d
+Sudan III demonstrates fat, which identifies the adipocyte.
+## correct_answer
+C
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the class of stain that demonstrates the macrophage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q137. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0215E1F24615
+## title
+Mast cells can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+Correct. Toluidine blue is a metachromatic stain, and the heparin of the mast cell granule turns it purple — a colour the dye itself does not have.
+## answer_b
+Histochemical stain
+## explanation_b
+Histochemical stains demonstrate a named chemical or enzyme; the mast cell is not identified that way in this course.
+## answer_c
+Trypan blue stain
+## explanation_c
+Trypan blue identifies the macrophage, by being eaten. Mast cells are not phagocytic, which is one of the differences the book draws between them and the basophil.
+## answer_d
+Sudan III stain
+## explanation_d
+Sudan III identifies the fat cell.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the class of stain that demonstrates the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q136. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF4733F354AC
+## title
+basophils stained by toluidine blue (metachromatic. due to
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+basophils stained by toluidine blue (metachromatic. due to
+## answer_a
+histamine
+## explanation_a
+Histamine is in the same granule and is what causes the vasodilatation of anaphylaxis, but it is not what turns the dye purple.
+## answer_b
+heparin
+## explanation_b
+Correct. Heparin is the sulphated glycosaminoglycan of the granule, and metachromasia is what a dye does on a densely charged polyanion like it.
+## answer_c
+sulfate
+## explanation_c
+"Sulfate" names the chemical group that carries the charge rather than the molecule that carries the group — a half-answer that only looks right because heparin is sulphated.
+## answer_d
+Collagenase
+## explanation_d
+Collagenase is not a basophil product at all.
+## correct_answer
+B
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the granule constituent that makes a basophil metachromatic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q38. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AFC70CA5CFF0
+## title
+Glycogen can be stained by the following:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycogen can be stained by the following:
+## answer_a
+H&E
+## explanation_a
+H&E does not show glycogen: the routine technique dissolves and washes much of it out, and what remains takes neither dye distinctively.
+## answer_b
+Best’s carmine
+## explanation_b
+True on its own — Best's carmine is the classical glycogen stain — but the stem allows a combined option.
+## answer_c
+PAS
+## explanation_c
+True on its own. PAS reacts with the sugar of glycogen and gives magenta red.
+## answer_d
+b & c
+## explanation_d
+Correct. Both B and C demonstrate glycogen, and they do so for the same reason: glycogen is a carbohydrate.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stains that demonstrate glycogen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q57. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED4C0867E307
+## title
+Glycogen granules are stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycogen granules are stained with:
+## answer_a
+Best's carmine
+## explanation_a
+True, and the answer the page carries. Best's carmine is the classical glycogen stain — but it is not the only one offered here.
+## answer_b
+PAS
+## explanation_b
+Also true. PAS reddens glycogen because glycogen is a carbohydrate, which is exactly what PAS reacts with.
+## answer_c
+Sudan III
+## explanation_c
+Sudan III is the fat stain. Fat and glycogen are the two cytoplasmic inclusions students most often swap, because both are storage products and both vanish in routine processing.
+## answer_d
+Both a & b
+## explanation_d
+Correct. A and B are both true, so the combined option is the one that stands.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stains that demonstrate glycogen when a combined option is offered.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q32. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A. Best's carmine does stain glycogen, so A is a true statement — but so is B, since the department book states that PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D1888FD2F372
+## title
+Carbohydrates are stained red with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Carbohydrates are stained red with:
+## answer_a
+Silver stain
+## explanation_a
+Silver browns the Golgi and nerve fibres and blackens reticular fibres. It does redden nothing, and its reticular target is chosen for its sugar only indirectly.
+## answer_b
+Green Janus B
+## explanation_b
+Janus green is the vital stain for mitochondria and gives green, as its name says.
+## answer_c
+Iron hematoxylin
+## explanation_c
+Iron haematoxylin is the stain for centrioles and gives dark blue.
+## answer_d
+Best’s carmine
+## explanation_d
+Correct. Best's carmine reddens carbohydrate — glycogen above all — and PAS does the same in magenta.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that reddens carbohydrate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q16. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F0C8B88F3944
+## title
+The following inclusion can be stained with Best's carmine:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following inclusion can be stained with Best's carmine:
+## answer_a
+Hemoglobin (Hb)
+## explanation_a
+Haemoglobin is a protein and is acidophilic; it takes eosin in an ordinary film and needs no special stain.
+## answer_b
+Glycogen
+## explanation_b
+Correct. Best's carmine demonstrates glycogen, and glycogen is the carbohydrate inclusion of the liver and muscle cell.
+## answer_c
+Fats
+## explanation_c
+Fat needs a fat-soluble dye — Sudan III — on a frozen section, because a carbohydrate stain has nothing to react with in a lipid droplet.
+## answer_d
+Carotene pigment
+## explanation_d
+Carotene is the pigment dissolved in the fat droplet and is seen with the fat, not with a carbohydrate stain.
+## correct_answer
+B
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the cytoplasmic inclusion that Best's carmine demonstrates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q1; Cytology | Module 101 questions.pdf.pdf p19 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B27AA9B77C5F
+## title
+In light microscopy, the basement membrane is stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In light microscopy, the basement membrane is stained with:
+## answer_a
+Sudan III
+## explanation_a
+Sudan III shows fat. There is no fat in a basement membrane.
+## answer_b
+Hematoxylin
+## explanation_b
+Haematoxylin stains the acidic components of the cell; the basement membrane is not resolved as a distinct layer by it.
+## answer_c
+Eosin
+## explanation_c
+Eosin makes it, at best, part of the general pink of the connective tissue below.
+## answer_d
+PAS
+## explanation_d
+Correct, and keyed. PAS reddens the basement membrane because its glycoproteins are carbohydrate — the same reason it reddens glycogen and mucus.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Epithelium
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows the basement membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p3 q14. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5500B3FF4C3B
+## title
+The basement membrane can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The basement membrane can be stained by:
+## answer_a
+trypan blue
+## explanation_a
+Trypan blue is the vital stain for the macrophage; it is taken up by a living phagocyte and stains no extracellular sheet.
+## answer_b
+silver
+## explanation_b
+True on its own — silver browns the basement membrane, as it browns the reticular fibres of the reticular lamina.
+## answer_c
+PAS
+## explanation_c
+True on its own — PAS reddens it, through its glycoprotein.
+## answer_d
+Both b and c are correct
+## explanation_d
+Correct. Both B and C work, and they work on the same layer from its two sides: silver on the reticular fibres of the connective tissue half, PAS on the sugar of the whole.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Epithelium
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name both stains that demonstrate the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q102. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DB469A9046EF
+## title
+Fat cells can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fat cells can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain marks the mast cell and the basophil, through their heparin.
+## answer_b
+Histochemical stain
+## explanation_b
+A histochemical stain is the right family — Sudan III is one — but the option is unqualified, and the specific member is offered in D.
+## answer_c
+Trypan blue stain
+## explanation_c
+Trypan blue is the vital stain for the macrophage.
+## answer_d
+Sudan III stain
+## explanation_d
+Correct. Sudan III dissolves into the fat droplet and colours it orange, and it is the stain that identifies the adipocyte.
+## correct_answer
+D
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the stain that demonstrates the fat cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q138. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-43E35932C1F9
+## title
+Fat cells are stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fat cells are stained with:
+## answer_a
+Best's carmine
+## explanation_a
+Best's carmine demonstrates glycogen, which is a carbohydrate.
+## answer_b
+PAS
+## explanation_b
+The answer the page carries, and the reason for this override. PAS reacts with sugar; a fat droplet has none, which is why PAS shows nothing where the fat was.
+## answer_c
+Sudan III
+## explanation_c
+Correct. Sudan III is a fat-soluble dye and stains the droplet orange, on a frozen section.
+## answer_d
+Both a & b
+## explanation_d
+"Both a & b" pairs the two carbohydrate stains, so it is wrong twice over.
+## correct_answer
+C
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain that demonstrates fat, against a set that also offers the glycogen stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q31. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. The department book gives Sudan III as the fat stain and PAS as the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best's carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-248800AAEFEC
+## title
+Which of the following would be best suited to visualize lipid?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to visualize lipid?
+## answer_a
+Orcein stain
+## explanation_a
+Orcein browns elastic fibres and does nothing to lipid.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E dissolves the lipid out during processing and leaves an empty space — the opposite of visualising it.
+## answer_c
+Sudan ‏الا‎ stain
+## explanation_c
+Correct, and keyed. Sudan III is the fat-soluble dye that colours the droplet orange. The option is printed with the Roman numeral mangled by the scan, but the stain named is unambiguous.
+## answer_d
+Silver stain
+## explanation_d
+Silver browns the Golgi and nerve fibres and blackens reticular fibres; none of those is lipid.
+## correct_answer
+C
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Choose the stain best suited to showing lipid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q24. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF12549D970D
+## title
+lipids:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+lipids:
+## answer_a
+Stored mainly in the muscle cells
+## explanation_a
+Muscle stores glycogen as its ready fuel, not fat as a depot. The fat depot is adipose tissue.
+## answer_b
+Can be stained with PAS
+## explanation_b
+PAS is the carbohydrate reaction. It reddens glycogen, mucus and basement membrane; a lipid droplet has no sugar for it to react with.
+## answer_c
+Mainly stored in the liver cells
+## explanation_c
+The liver stores glycogen. Fat accumulates in it only in disease, which is a pathological finding rather than the normal store this option claims.
+## answer_d
+None of the above
+## explanation_d
+Correct by elimination: no option offered is true, because fat is stored in the unilocular adipocyte and is demonstrated by Sudan III on a frozen section.
+## correct_answer
+D
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative reasoning
+## learning_objective
+Reject three false statements about where lipid is stored and what stains it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q71. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and each of the three substantive options fails against the department book: fat is stored in the adipocyte of adipose connective tissue rather than mainly in muscle or in liver cells, and PAS is a carbohydrate reaction that gives nothing on lipid. That leaves "none of the above", which is the only option this row can carry.
+
+
+---
+
+# Item
+## id
+QM-101-EAB3A85C7ED7
+## title
+(Signet ring appearance) is a descriptive term for the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+(Signet ring appearance) is a descriptive term for the:
+## answer_a
+Fat cells stained with sudan III
+## explanation_a
+Sudan III fills the droplet with orange, so the cell looks full rather than empty. That is the opposite of a signet ring.
+## answer_b
+Fat cells stained with sudan black
+## explanation_b
+Sudan black does the same in black; again the space is occupied.
+## answer_c
+Fat cells stained with H&E
+## explanation_c
+Correct. H&E dissolves the fat away, leaving a large empty space with the nucleus and a rim of cytoplasm flattened against one side — the stone and the band of a signet ring.
+## answer_d
+Fat cells stained with toludin blue
+## explanation_d
+Toluidine blue is the mast cell stain and does nothing to a fat cell.
+## correct_answer
+C
+## main_concept
+CON-FND-97930723FE0D94
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Say which preparation of a fat cell gives the signet ring appearance and why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q28. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6E066AD0AF9B
+## title
+Concerning unilocular adipocytes, they:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning unilocular adipocytes, they:
+## answer_a
+Are stained by Sudan Ill
+## explanation_a
+Correct. The single large droplet of the unilocular cell is fat, and Sudan III is what makes it visible.
+## answer_b
+Are concerned with heat generation
+## explanation_b
+Heat generation is the multilocular, brown fat cell's work, through the thermogenin of its many mitochondria. White fat insulates against heat loss, which is a different job.
+## answer_c
+They possess small fat droplets
+## explanation_c
+One large droplet is what unilocular means. Many small droplets is the multilocular cell.
+## answer_d
+They can divide
+## explanation_d
+A fat cell filled with its droplet does not divide; new fat cells come from the undifferentiated mesenchymal cell.
+## correct_answer
+A
+## main_concept
+CON-FND-97930723FE0D94
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the unilocular fat cell against the characters of the multilocular one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p16 q8. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A is true of the unilocular cell — Sudan III is the department book's stain for its fat — and the other three are each a character of the multilocular cell or of no cell: thermogenesis and multiple small droplets belong to the brown, multilocular adipocyte, and a mature fat cell does not divide.
+
+
+---
+
+# Item
+## id
+QM-101-CE103EC088BB
+## title
+Lysosomes are stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lysosomes are stained by:
+## answer_a
+H&E
+## explanation_a
+A lysosome cannot be seen in a routine H&E section at all; it is below the useful limit and takes no distinctive colour.
+## answer_b
+Metachromatic stain
+## explanation_b
+Metachromatic staining marks the heparin of mast cell and basophil granules, not a lysosome.
+## answer_c
+Histochemical stain detecting acid phosphatase
+## explanation_c
+Correct. Acid phosphatase is the lysosomal marker enzyme, and the histochemical reaction for it is how the organelle is identified by light microscopy.
+## answer_d
+Histochemical stain detecting alkaline phosphatase
+## explanation_d
+Alkaline phosphatase is the trap this pair of options exists for. It is not the lysosomal enzyme; acid is.
+## correct_answer
+C
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the histochemical reaction that identifies a lysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q35. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-21CB26C1E062
+## title
+peroxisomes are stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+peroxisomes are stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain marks heparin-rich granules; a peroxisome has none.
+## answer_b
+Histochemical stain for catalase
+## explanation_b
+Correct. Catalase is the peroxisome's defining enzyme — it destroys the hydrogen peroxide the organelle's own oxidases produce — and the histochemical reaction for it is what identifies the organelle.
+## answer_c
+Histochemical stain as acid phosphatase
+## explanation_c
+Acid phosphatase is the lysosomal marker. Substituting one single-membrane vesicle for the other is the standard error here.
+## answer_d
+Histochemical stain as alkaline phosphatase
+## explanation_d
+The answer the page carries, and the reason for this override. Alkaline phosphatase is a membrane enzyme of absorptive and osteogenic cells; it belongs to neither organelle in this pair.
+## correct_answer
+B
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the enzyme whose histochemical demonstration identifies a peroxisome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p21 q7. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, alkaline phosphatase, which is neither a lysosomal nor a peroxisomal enzyme. The department book gives the peroxisome two enzyme groups, the oxidases and catalase, and option B names catalase specifically. This row sits on the same book's page 21 among the same block of shifted keys as the fat cell and mitochondrion rows.
+
+
+---
+
+# Item
+## id
+QM-101-7DAF84C052F8
+## title
+mitochondria can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mitochondria can be stained by:
+## answer_a
+janus green
+## explanation_a
+Correct. Janus green is the vital stain for mitochondria, and it colours them green.
+## answer_b
+van Gieson
+## explanation_b
+Van Gieson is a fibre stain: red for collagen, yellow for elastic fibres.
+## answer_c
+hematoxylin & eosin
+## explanation_c
+H&E makes mitochondria part of the general acidophilia of the cytoplasm; it does not distinguish them.
+## answer_d
+orcein
+## explanation_d
+Orcein browns elastic fibres.
+## correct_answer
+A
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the vital stain for mitochondria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q8. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7D12F3573FB2
+## title
+Mitochondria can be stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitochondria can be stained with:
+## answer_a
+Best's carmine
+## explanation_a
+Best's carmine demonstrates glycogen.
+## answer_b
+Janus green
+## explanation_b
+Correct. Janus green is the vital stain for mitochondria; iron haematoxylin is the other stain the book names for them.
+## answer_c
+Sudan III
+## explanation_c
+The answer the page carries, and the reason for this override. Sudan III shows fat, which is a cytoplasmic inclusion rather than an organelle.
+## answer_d
+Leishman stain
+## explanation_d
+Leishman's stain is the neutral stain for a blood film and demonstrates whole cells, not organelles.
+## correct_answer
+B
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain for mitochondria against a set of other special stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q33. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, Sudan III, which is the fat stain. The department book gives Janus green and iron haematoxylin as the mitochondrial stains, and Janus green is option B. This is the third row of the shifted block on the same printed page as `fat-cells-are-stained-with-8f1f1a6a` and `glycogen-granules-are-stained-with-760dabb7`.
+
+
+---
+
+# Item
+## id
+QM-101-DBC109501639
+## title
+stain used for centriole:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+stain used for centriole:
+## answer_a
+iron hematoxylin
+## explanation_a
+Correct. Iron haematoxylin is the stain for centrioles, which are otherwise below the useful resolution of the light microscope in a routine section.
+## answer_b
+janus green
+## explanation_b
+Janus green shows mitochondria.
+## answer_c
+silver
+## explanation_c
+Silver browns the Golgi and nerve fibres and blackens reticular fibres.
+## answer_d
+PA
+## explanation_d
+PAS is the carbohydrate reaction; a centriole is protein — tubulin — and holds no sugar.
+## correct_answer
+A
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows centrioles by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p14 q36. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D56712C6FAED
+## title
+Golgi complex could be stained as brown granules & Fibrils by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi complex could be stained as brown granules & Fibrils by:
+## answer_a
+H & E
+## explanation_a
+H&E shows the Golgi only as a negative image — a pale gap in otherwise basophilic cytoplasm — not as brown granules.
+## answer_b
+PAS
+## explanation_b
+PAS reddens carbohydrate. The Golgi does add sugar to proteins, but the reaction does not outline the organelle.
+## answer_c
+silver
+## explanation_c
+Correct. Silver impregnation shows the Golgi as a network of brown granules and fibrils beside the nucleus.
+## answer_d
+Integral membrane proteins
+## explanation_d
+Integral membrane proteins are a component of a membrane, not a stain — the option is not the same kind of thing as the other three.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows the Golgi apparatus positively.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p4 q29. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-756C85F0AD9B
+## title
+Golgi apparatus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi apparatus:
+## answer_a
+Appears as negative Golgi image when cells stained with silver
+## explanation_a
+The two halves are swapped. Silver gives the positive image, brown granules and fibrils; it is H&E that gives the negative image.
+## answer_b
+Appears as granular network when the cells stained with H/E
+## explanation_b
+Also swapped. H&E gives no granular network — that is silver's picture — and what H&E gives is a pale unstained area.
+## answer_c
+Variable in size, shape and position
+## explanation_c
+Correct. The Golgi varies in size, shape and position with the cell: apical in a secretory cell discharging at a surface, perinuclear in a nerve cell.
+## answer_d
+Easy to see in routine histological sections
+## explanation_d
+The opposite of the fact. It is hard to see in a routine section, which is why the negative image and the silver stain both had to be learned.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the light-microscopic Golgi apparatus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p13 q35. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-65B8A55485FD
+## title
+Concerning the Golgi complex, all the statements are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the Golgi complex, all the statements are true EXCEPT:
+## answer_a
+Stained with silver
+## explanation_a
+True, and the answer the page carries. Silver shows the Golgi as brown granules and fibrils; this is the reason the override was needed.
+## answer_b
+Appears as Golgi image in H/E sections
+## explanation_b
+True, with the book's own wording behind it: in an H&E section the Golgi appears as an image — the negative Golgi image, a pale area where the basophilic cytoplasm is interrupted.
+## answer_c
+Variable in size, shape and position
+## explanation_c
+True. Size, shape and position all vary with the cell and with what it is secreting.
+## answer_d
+Not present in protein synthesizing cells
+## explanation_d
+Correct, and the exception. A protein-synthesising cell has a well developed Golgi — that is what packages the protein for export — and the plasma cell shows it as a clear negative image.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Identify the false statement about the Golgi apparatus in a set of three true ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q36. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, "stained with silver", but that is the department book's own positive demonstration of the Golgi and cannot be the false statement. D is false on the book's account and on this leaf's own evidence: the Golgi is best developed in protein-synthesising cells, and the plasma cell — the type example of one — is the cell in which the negative Golgi image is asked about three separate times in this same bank.
+
+
+---
+
+# Item
+## id
+QM-101-4924E5E77EAF
+## title
+In H&E stained sections of plasma cell, Golgi apparatus appears:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In H&E stained sections of plasma cell, Golgi apparatus appears:
+## answer_a
+Perinuclear
+## explanation_a
+Perinuclear is the Golgi's position in a nerve cell. The question asks how it appears, not where it lies, and in the plasma cell it is beside the nucleus rather than around it.
+## answer_b
+Apical
+## explanation_b
+Apical describes the position in a secretory epithelial cell discharging at a free surface. A plasma cell has no free surface.
+## answer_c
+Unstained
+## explanation_c
+Correct. It appears unstained — the negative Golgi image, a pale gap in the plasma cell's otherwise deeply basophilic cytoplasm. Asked three times across three books, which makes it the most repeated question in this leaf.
+## answer_d
+Basal
+## explanation_d
+Basal is where the rough endoplasmic reticulum of a secretory cell lies, below the nucleus, and it is basophilic rather than pale.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Say how the Golgi apparatus of a plasma cell appears in an H&E section.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p1 q6; Dpt Book MCQ histo 101 .NEW (1).pdf p2 q6; Cytology | Module 101 questions.pdf.pdf p24 q6. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BD88701B2C5C
+## title
+in H&E-stained sections of protein forming cell, Golgi appears as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in H&E-stained sections of protein forming cell, Golgi appears as:
+## answer_a
+deeply basophilia area near the nucleus
+## explanation_a
+Basophilic near the nucleus describes the rough endoplasmic reticulum that surrounds the Golgi, not the Golgi itself. Its basophilia is what makes the Golgi's pallor visible.
+## answer_b
+deeply acidophilic area near the nucleus
+## explanation_b
+Acidophilic describes cytoplasm poor in RNA — the opposite of a protein-forming cell's.
+## answer_c
+brown fibrils and granules near the nucleus
+## explanation_c
+Brown fibrils and granules is the silver picture, not the H&E one. The question names the stain, and that is the discriminator.
+## answer_d
+unstained area near the nucleus
+## explanation_d
+Correct. The negative Golgi image: an unstained area beside the nucleus, where the Golgi takes neither dye.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Say how the Golgi of any protein-forming cell appears in H&E.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p11 q63. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the H&E appearance of the Golgi as the negative Golgi image — an unstained area beside the nucleus — and the identical question asked of the plasma cell, `in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf`, is keyed to "unstained" in three separate books.
+
+
+---
+
+# Item
+## id
+QM-101-3ADDFCADDA64
+## title
+negative Golgi image appears:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+negative Golgi image appears:
+## answer_a
+in plasma cells & osteoblasts
+## explanation_a
+True on its own. The plasma cell and the osteoblast are the two cells the books name for the negative Golgi image, because both have deeply basophilic cytoplasm for the pale area to stand out against.
+## answer_b
+when stained by H&E
+## explanation_b
+True on its own. The negative image is what H&E gives; silver gives the positive one.
+## answer_c
+when Golgi is small
+## explanation_c
+The reverse of the mechanism. A small Golgi gives a small pale area or none; the image is most obvious where the Golgi is large.
+## answer_d
+both a & b
+## explanation_d
+Correct. Both A and B hold, and together they state the whole finding: which cells, and in which stain.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+State both the cells in which a negative Golgi image is seen and the stain that produces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q84. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A and B are each true — the negative image is the classical finding in the plasma cell and the osteoblast, both protein-forming cells, and it is an H&E finding — and the row offers their conjunction as option D.
+
+
+---
+
+# Item
+## id
+QM-101-A126CDD35B3B
+## title
+Regarding the cell membrane, the following is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cell membrane, the following is true:
+## answer_a
+Non.membranous organelle
+## explanation_a
+The plasma membrane is the first item on the department book's list of membranous organelles — being a membrane is what puts it there.
+## answer_b
+Its function is cell respiration
+## explanation_b
+Cell respiration is the mitochondrion's work. The membrane's functions are protection, selective permeability, absorption, secretion and reception.
+## answer_c
+Stained by H&E
+## explanation_c
+H&E does not resolve it. Silver or PAS is needed, and both act on the carbohydrate of its outer coat.
+## answer_d
+Appear by EM as 3 layers
+## explanation_d
+Correct. On electron microscopy it is trilaminar: two dark layers with a light one between them.
+## correct_answer
+D
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the plasma membrane from a set of classification and staining claims.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-BF2FCD5307CC
+## title
+The following stains can be used to stain the cell membrane
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following stains can be used to stain the cell membrane
+## answer_a
+Silver stain
+## explanation_a
+Correct. Silver demonstrates the membrane, acting on the carbohydrate of its cell coat rather than on the lipid bilayer itself.
+## answer_b
+Trichrome stains
+## explanation_b
+Trichrome stains — Mallory among them — are fibre stains for connective tissue.
+## answer_c
+Orcein stain
+## explanation_c
+Orcein browns elastic fibres.
+## answer_d
+Indian ink
+## explanation_d
+India ink is a vital stain: it is injected and phagocytosed by macrophages, and it demonstrates a cell rather than a membrane.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain that demonstrates the plasma membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q5. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book names silver and PAS as the two ways of showing the plasma membrane by light microscopy, and silver is the only one of the four options offered.
+
+
+---
+
+# Item
+## id
+QM-101-7280A6CA52C3
+## title
+By Mallory stain, Collagen fibers are stained:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+By Mallory stain, Collagen fibers are stained:
+## answer_a
+Pink
+## explanation_a
+Pink is collagen in eosin. Every fibre stain question turns on which stain is named, because collagen has a different colour in each.
+## answer_b
+blue
+## explanation_b
+Correct. Mallory's trichrome stains collagen blue.
+## answer_c
+brown
+## explanation_c
+Brown is orcein on elastic fibres, or silver on reticular ones.
+## answer_d
+red
+## explanation_d
+Red is collagen with van Gieson, not with Mallory — the two trichrome-family stains give opposite ends of the spectrum on the same fibre.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Give the colour collagen takes with Mallory's trichrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q40. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CAECA4AA509
+## title
+Which of the following would be best suited to differentiate collagen fibers from other…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to differentiate collagen fibers from other fibers?
+## answer_a
+Mallory trichrome stain
+## explanation_a
+Correct, and keyed. Mallory's trichrome turns collagen blue and leaves the other fibres a different colour, which is what "differentiate" asks for.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E makes collagen and elastic fibres both pink, so it is the one stain that cannot separate them by colour.
+## answer_c
+Sudan stain
+## explanation_c
+Sudan shows fat and nothing else.
+## answer_d
+Silver stain
+## explanation_d
+Silver shows reticular fibres. It would identify those, but the question asks for collagen.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Choose the stain that best separates collagen from the other fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q6. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-89C6D7691810
+## title
+A young boy with unhealed leg wound was diagnosed as vitamin C deficiency which could b…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A young boy with unhealed leg wound was diagnosed as vitamin C deficiency which could be attributed to defective collagen synthesis. The best stain to differentiate collagen fibers from other fibers Is:
+## answer_a
+H&E
+## explanation_a
+H&E leaves collagen and elastic fibres both pink, so it differentiates nothing here — which is precisely why a special stain was invented.
+## answer_b
+Mallory's trichrome stain
+## explanation_b
+Correct. Mallory's trichrome stains collagen blue against the other fibres.
+## answer_c
+Sudan stain
+## explanation_c
+Sudan is the fat stain. The vitamin C vignette is about collagen, and collagen is protein.
+## answer_d
+Silver stain
+## explanation_d
+Silver demonstrates reticular fibres, which are type III collagen and are not the fibre failing in scurvy.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Choose the stain that best demonstrates collagen when a vignette points at collagen synthesis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q11. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The stem asks for the best stain to differentiate collagen from other fibres, and the department book gives Mallory's trichrome as the stain that turns collagen blue. The identically worded row `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed A for the same option in a different letter order, which corroborates it.
+
+
+---
+
+# Item
+## id
+QM-101-3595130DE3F5
+## title
+Elastic fibers can be stained brown by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic fibers can be stained brown by:
+## answer_a
+Orecin
+## explanation_a
+Correct. Orcein browns elastic fibres, and it leaves collagen unstained beside them.
+## answer_b
+Van Gieson
+## explanation_b
+Van Gieson does stain elastic fibres, but yellow, and collagen red — that is its whole use.
+## answer_c
+Mallory
+## explanation_c
+Mallory's trichrome turns collagen blue.
+## answer_d
+Eosin
+## explanation_d
+Eosin makes both collagen and elastic fibres pink, which is why neither can be identified in a routine section by colour.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that browns elastic fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q140. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E1F7D04CB32B
+## title
+What color do elastic fibers stain with Van gieson stain?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What color do elastic fibers stain with Van gieson stain?
+## answer_a
+Red/Orange
+## explanation_a
+Red or orange is close to what collagen does in van Gieson, which is the swap this question is built on.
+## answer_b
+Pink/red
+## explanation_b
+Pink or red is collagen — in eosin and in van Gieson alike.
+## answer_c
+Purple/Red
+## explanation_c
+Purple and red is what a metachromatic dye does to a mast cell granule, not what van Gieson does to any fibre.
+## answer_d
+Yellow
+## explanation_d
+Correct, and keyed. Van Gieson stains elastic fibres yellow and collagen red, which is why it is the one stain that separates the two in a single field.
+## correct_answer
+D
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Give the colour elastic fibres take with van Gieson.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q14. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-15F1810ECECC
+## title
+Yellow elastic fibers are stained:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Yellow elastic fibers are stained:
+## answer_a
+brown by orecin
+## explanation_a
+True on its own. Orcein browns them.
+## answer_b
+yellow by van gieson
+## explanation_b
+True on its own. Van Gieson yellows them.
+## answer_c
+magenta red by PAS
+## explanation_c
+PAS gives magenta red on carbohydrate. Elastin is protein, and elastic fibres are not PAS-positive; reticular fibres are, which is where the confusion starts.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Both A and B hold, and the pair is the whole of what the book's table says about staining elastic fibres apart from eosin.
+## correct_answer
+D
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Give both colours elastic fibres take, in orcein and in van Gieson.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q94. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A7862D691599
+## title
+Which of the following would be best suited to visualize reticular fibers?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to visualize reticular fibers?
+## answer_a
+Mallory trichrome stain
+## explanation_a
+Mallory's trichrome is a collagen stain. Reticular fibres are collagen too — type III — but the trichrome does not resolve them.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E does not show reticular fibres at all, which is the fact this whole question rests on.
+## answer_c
+Sudan ‏الا‎ stain
+## explanation_c
+Sudan shows fat.
+## answer_d
+Silver stain
+## explanation_d
+Correct, and keyed. Silver impregnation is the only way to see a reticular fibre, and it shows them as a fine brown branching network.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Choose the stain that demonstrates reticular fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q28. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2FE2718245CD
+## title
+Reticular fibers can be stained by the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers can be stained by the following EXCEPT:
+## answer_a
+silver
+## explanation_a
+Silver does show them, brown, and gives them the name argyrophilic.
+## answer_b
+H&E
+## explanation_b
+Correct, and the exception. Reticular fibres are not visible in H&E — the single most examined negative fact about them.
+## answer_c
+PAS
+## explanation_c
+PAS does show them, red, because of the high sugar content of type III collagen.
+## answer_d
+both b & c are correct
+## explanation_d
+"Both b & c" cannot be the exception when C is a stain that works; pairing a true with a false makes the option false as a whole.
+## correct_answer
+B
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the stain that does not show reticular fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q109. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F93436337623
+## title
+Reticular fibers have the following characters EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers have the following characters EXCEPT:
+## answer_a
+Stained black with silver (argyrophilic)
+## explanation_a
+True. Silver blackens or browns them, and argyrophilic is the word for it.
+## answer_b
+Positive for PAS
+## explanation_b
+True. PAS is positive on them, because of their sugar.
+## answer_c
+From the stroma of various organs
+## explanation_c
+True. They form the stroma of spleen, lymph node and liver.
+## answer_d
+They are unbranched fibers
+## explanation_d
+Correct, and the exception. Reticular fibres branch and anastomose — that is what makes them a network, and unbranched is the one thing they are not.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of a reticular fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q51. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A3E12BDF9D80
+## title
+Concerning the reticular connective tissue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular connective tissue:
+## answer_a
+Reticular fibers form branching bundles
+## explanation_a
+Bundles are collagen type I. Reticular fibres anastomose into a network instead.
+## answer_b
+Its fibres are demonstrated by silver stain
+## explanation_b
+Correct. Silver impregnation is what demonstrates them, and nothing else in a light microscope will.
+## answer_c
+Binds structures together
+## explanation_c
+Binding structures together is the function of loose areolar connective tissue. Reticular tissue supports the cells of an organ — stroma, not packing.
+## answer_d
+Is visible by H&E
+## explanation_d
+The opposite of the defining fact. H&E shows nothing of them.
+## correct_answer
+B
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p18 q25. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the department book's own statement — reticular fibres are demonstrated by silver — and the other three contradict it: the fibres form a network rather than bundles, binding structures together is the job of loose areolar tissue, and reticular fibres are explicitly not visible in H&E.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B08B30C6DD55
+## title
+Collagen fibers have the following characters EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen fibers have the following characters EXCEPT:
+## answer_a
+White in unstained preparation (when present in great number)
+## explanation_a
+True. Collagen is white in the fresh state when it is present in quantity — a tendon is the everyday example.
+## answer_b
+Acidophilic
+## explanation_b
+True. Collagen is acidophilic, which is why eosin colours it.
+## answer_c
+Stain pink with H/E
+## explanation_c
+True, and the same fact restated: acidophilic means it takes eosin pink.
+## answer_d
+Branched fibers
+## explanation_d
+Correct, and the exception. Collagen forms branching bundles of non-branching fibres; the individual fibre does not branch, and elastic fibres are the ones that do.
+## correct_answer
+D
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of a collagen fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q42. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-0BB26A538BF1
+## title
+Concerning collagen fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning collagen fibers:
+## answer_a
+Wavy branching bundles formed of non-branching fibers.
+## explanation_a
+Correct, and the book's own sentence. The bundle branches; the fibre within it does not.
+## answer_b
+Basophilic.
+## explanation_b
+Collagen is acidophilic — it takes the acidic dye eosin and turns pink. Basophilic is the nucleus, and the cytoplasm of a protein-forming cell.
+## answer_c
+Elastic
+## explanation_c
+Elastic is exactly what collagen is not. It is flexible, which is a different property: it bends but does not lengthen and recoil.
+## answer_d
+Stained yellow with Van Gieson stain.
+## explanation_d
+Yellow with van Gieson is the elastic fibre. Collagen with van Gieson is red, and this option swaps the two.
+## correct_answer
+A
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about collagen fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q16. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Option A is the department book's wording almost verbatim — collagen fibres are "wavy branching bundles formed of non-branching fibres" — and the other three contradict the book: collagen is acidophilic not basophilic, it is flexible but inelastic, and van Gieson stains it red while yellow is what van Gieson does to elastic fibres.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-581EE08A49CF
+## title
+All of the following are true about yellow elastic fibers EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are true about yellow elastic fibers EXCEPT:
+## answer_a
+Thin stretchable fibers
+## explanation_a
+True. Elastic fibres are thin and stretch, which is the property that names them.
+## answer_b
+Branching fibers
+## explanation_b
+True. They branch and run singly, unlike the bundled collagen beside them.
+## answer_c
+Stained by orcein stain
+## explanation_c
+True. Orcein is the elastic fibre stain and browns them.
+## answer_d
+They are deep basophilic
+## explanation_d
+Correct, and the exception. Elastic fibres are acidophilic and take eosin pink; deep basophilia belongs to nuclei and to ribosome-rich cytoplasm.
+## correct_answer
+D
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of an elastic fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q72. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1E589E39D960
+## title
+Elastic fibers are characterized by being:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic fibers are characterized by being:
+## answer_a
+Arranged into bundles
+## explanation_a
+Bundles are collagen. Elastic fibres run singly and branch.
+## answer_b
+Stained brown with orcein stain
+## explanation_b
+Correct, and keyed. Orcein is the elastic fibre stain and gives brown.
+## answer_c
+Not demonstrated with H&E
+## explanation_c
+They are demonstrated with H&E — pink, like collagen. It is the reticular fibre that H&E misses entirely.
+## answer_d
+Show transverse striations
+## explanation_d
+Transverse striations belong to skeletal and cardiac muscle fibres. The word "fibre" again names two different things in one option list.
+## correct_answer
+B
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about elastic fibres against three collagen characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q41. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-0E5368F72366
+## title
+After staining the C.T with toludin blue the cells which have magenta granules are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+After staining the C.T with toludin blue the cells which have magenta granules are:
+## answer_a
+Plasma cells
+## explanation_a
+The plasma cell is basophilic but diffusely, from its rough endoplasmic reticulum, and it is not metachromatic — it stays the colour of the dye.
+## answer_b
+Mast cells
+## explanation_b
+Correct. Metachromatic magenta granules in a connective tissue cell are the mast cell, and the heparin in the granule is why.
+## answer_c
+Phagocytic cells
+## explanation_c
+"Phagocytic cells" means the macrophage, demonstrated by trypan blue it has eaten, not by a change in a dye's colour.
+## answer_d
+Endothelial cells
+## explanation_d
+Endothelial cells line vessels and have no granules of this kind.
+## correct_answer
+B
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Name the connective tissue cell whose granules go magenta with toluidine blue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q37. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B256E2B2D2F
+## title
+About mast cell all are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About mast cell all are true EXCEPT:
+## answer_a
+Its granules are stained basophilic with H& E
+## explanation_a
+True. The granules are basophilic in H&E, which is what makes the cell recognisable before any special stain.
+## answer_b
+Its surface has receptors for IgE
+## explanation_b
+True. IgE receptors on the mast cell surface are what allergen binds to, and their binding is what discharges the granules.
+## answer_c
+Its surface has receptors for IgA
+## explanation_c
+Correct, and the exception. IgA is the antibody of secretions — saliva, tears, gut mucus — and the mast cell has no receptor for it.
+## answer_d
+Its granules are stained metachromatically with toluidine blue
+## explanation_d
+True. Toluidine blue on mast cell granules is the department book's own example of metachromasia.
+## correct_answer
+C
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Name the immunoglobulin the mast cell has receptors for, and reject the wrong one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q128. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F64073216E03
+## title
+both mast cells & basophilis share all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+both mast cells & basophilis share all of the following except:
+## answer_a
+Ig E surface receptors
+## explanation_a
+Shared. Both carry IgE receptors on the surface, and both discharge on allergen binding.
+## answer_b
+phagocytic activity
+## explanation_b
+Correct, and the exception, and keyed. Neither cell is the phagocyte of this pair — the department book's comparison lists phagocytic ability among the points on which the two differ, and it is the basophil that has a limited capacity the mast cell lacks.
+## answer_c
+metachromatic stained granules
+## explanation_c
+Shared. Both have metachromatic granules with toluidine blue, for the same reason: heparin.
+## answer_d
+secretion of eosinophils chemotactic factor
+## explanation_d
+Shared. Both secrete eosinophil chemotactic factor, which is how eosinophils arrive at an allergic site.
+## correct_answer
+B
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Name what the mast cell and the basophil do not share.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p9 q52. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2FBF2B1E175E
+## title
+Concerning mast cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning mast cells:
+## answer_a
+They are antibody forming cells.
+## explanation_a
+Antibodies come from the plasma cell. The mast cell binds antibody — IgE, on its surface — which is a different relation and the source of the confusion.
+## answer_b
+They secrete histaminase enzyme.
+## explanation_b
+Histaminase is the eosinophil's enzyme, and it exists to destroy the histamine the mast cell released. The two cells are on opposite sides of the same reaction.
+## answer_c
+Their granules are metachromatically stained.
+## explanation_c
+Correct. Mast cell granules stain metachromatically with toluidine blue.
+## answer_d
+They can be demonstrated with trypan blue stain.
+## explanation_d
+Trypan blue demonstrates the macrophage, which phagocytoses it. The mast cell is not phagocytic.
+## correct_answer
+C
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the mast cell against the characters of its neighbours.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q14. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the department book's own statement about mast cell granules, and each of the other three belongs to a different cell: antibody formation to the plasma cell, histaminase secretion to the eosinophil, and trypan blue demonstration to the macrophage.
+
+
+---
+
+# Item
+## id
+QM-101-A27F4E1F21B5
+## title
+About macrophages all are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About macrophages all are true EXCEPT:
+## answer_a
+They are antigen presenting cells
+## explanation_a
+True. Presenting antigen to lymphocytes is one of the macrophage's four listed functions.
+## answer_b
+It originate from B lymphocytes
+## explanation_b
+Correct, and the exception. The macrophage comes from the blood monocyte. What comes from the B lymphocyte is the plasma cell, and the two derivations are the pair this question exists to separate.
+## answer_c
+Stained with vital staining using trypan blue
+## explanation_c
+True. Trypan blue is the vital stain the macrophage phagocytoses, and it is the cell's specific demonstration.
+## answer_d
+Stained histochemically using acid phosphatase technique
+## explanation_d
+True. Acid phosphatase histochemistry marks it, because it is rich in lysosomes.
+## correct_answer
+B
+## main_concept
+CON-FND-90E8073879B42A
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Give the origin of the macrophage and reject the lymphocytic one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q135. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-95DF5EC3E974
+## title
+nucleus of eosinophils is
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleus of eosinophils is
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil, two to five lobes; the eosinophil stops at two.
+## answer_b
+bilobed horse show
+## explanation_b
+Correct. Bilobed, the two lobes joined by a thick chromatin thread so that the whole looks like a horse-shoe or a pair of spectacles.
+## answer_c
+S shaped
+## explanation_c
+The S-shaped nucleus is the basophil's, and it is usually hidden by the coarse granules over it.
+## answer_d
+large kidney shaped
+## explanation_d
+A large kidney-shaped nucleus is the monocyte.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Give the nuclear shape of the eosinophil.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q10. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F88BB0701D42
+## title
+All functions of eosinophils except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All functions of eosinophils except
+## answer_a
+secrete histaminase, sulfatase to end allergy
+## explanation_a
+True. Histaminase and sulphatase destroy histamine and heparin, which is how the eosinophil ends an allergic reaction.
+## answer_b
+Phagocytosis Ag-Ab Complex
+## explanation_b
+True. Phagocytosing antigen–antibody complexes is one of its listed functions.
+## answer_c
+Nervous dysfunction of Parasite
+## explanation_c
+True. Its granule protein is cytotoxic to parasites.
+## answer_d
+vasodilatation, anaphylaxis by histamine secretion
+## explanation_d
+Correct, and the exception. Releasing histamine to cause vasodilatation and anaphylaxis is the basophil and the mast cell. The eosinophil is the cell that stops it.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Separate what the eosinophil does in allergy from what the basophil does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q23. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-154A8B0268A7
+## title
+Functions of eosinophils include all except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Functions of eosinophils include all except:
+## answer_a
+destroy histamine by histaminase enzyme
+## explanation_a
+True. Histaminase destroys histamine.
+## answer_b
+engulf antigen - antibody complex
+## explanation_b
+True. It engulfs antigen–antibody complexes.
+## answer_c
+kill parasites
+## explanation_c
+True. Its granule protein kills parasites.
+## answer_d
+produce trephone substance
+## explanation_d
+Correct, and the exception, and keyed. Trephone substances are attributed to the lymphocyte, said to promote tissue growth and repair — not to the eosinophil.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the function that belongs to no leukocyte in this list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p1 q2. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-58837F01A5D9
+## title
+Eosinophils granules include all of the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils granules include all of the following except:
+## answer_a
+neurotoxins to parasites
+## explanation_a
+True. The granule protein is cytotoxic to parasites, and the books also call it a neurotoxin for that effect.
+## answer_b
+histaminase
+## explanation_b
+True. Histaminase destroys the histamine released by the basophil and mast cell.
+## answer_c
+sulfatase
+## explanation_c
+True. Sulphatase destroys heparin, the other main product of those cells.
+## answer_d
+leukotrienes
+## explanation_d
+Correct, and the exception. Leukotrienes are a basophil and mast cell product and cause bronchospasm; the eosinophil opposes their effects rather than releasing them.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Name the granule contents of the eosinophil and reject the basophil's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q58. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the eosinophil granule a basic protein cytotoxic to parasites, together with histaminase and sulphatase. Leukotrienes are listed among the basophil and mast cell secretions, not the eosinophil's, so D is the one item on this list that belongs to another cell.
+
+
+---
+
+# Item
+## id
+QM-101-132AD9EA8D50
+## title
+Eosinophils increase in number in case of :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils increase in number in case of :
+## answer_a
+Bacterial infection
+## explanation_a
+A bacterial infection raises the neutrophil count. The neutrophil is the first-line phagocyte against bacteria.
+## answer_b
+Parasitic infection
+## explanation_b
+True on its own — a parasitic infection raises eosinophils, and the granule protein is why.
+## answer_c
+Allergy
+## explanation_c
+True on its own — allergy raises them, because the eosinophil is drawn in to end the reaction.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Both B and C raise the eosinophil count, and both for reasons the cell's two functions explain.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the two conditions that raise the eosinophil count.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q17. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-741A75241B15
+## title
+Eosinophils are lowered 1% in the following
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils are lowered 1% in the following
+## answer_a
+typhoid fever
+## explanation_a
+Typhoid fever is the classical cause of a low count in older texts, but the option this question is keyed against is the pharmacological one, and typhoid is not what the books teach here.
+## answer_b
+tuberculosis
+## explanation_b
+Tuberculosis is a chronic infection and does not characteristically drop the eosinophil count.
+## answer_c
+influenza virus
+## explanation_c
+A viral infection such as influenza raises lymphocytes; it does not define an eosinopenia.
+## answer_d
+treat with cortisone
+## explanation_d
+Correct. Corticosteroid treatment drops the eosinophil count below one per cent, which is the definition of eosinopenia, and it is the reason a steroid works in allergy.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name a cause of eosinopenia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q37; Blood | Module 101 questions.pdf.pdf p9 q18. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1C4AE156F76A
+## title
+One of the following is true about eosinophils:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true about eosinophils:
+## answer_a
+Secrete eosinophil chemotactic factor
+## explanation_a
+The direction of the arrow is reversed. Eosinophil chemotactic factor is what the mast cell and basophil release to summon eosinophils; the eosinophil receives the signal.
+## answer_b
+Have horse-shoe shaped nuclei
+## explanation_b
+Correct. The eosinophil nucleus is bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.
+## answer_c
+Represent about 60-70 % of circulating leucocytes
+## explanation_c
+60–70% is the neutrophil. The eosinophil is 1–4%.
+## answer_d
+Secrete histamine and heparin
+## explanation_d
+Histamine and heparin are basophil and mast cell secretions. The eosinophil secretes the two enzymes that destroy them.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about the eosinophil from a set built out of its neighbours' characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p6 q35. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the department book's own description of the eosinophil nucleus — bilobed, horse-shoe shaped — and each of the other three belongs to another cell: eosinophil chemotactic factor is secreted by the mast cell and the basophil to attract eosinophils rather than by eosinophils themselves, 60–70% is the neutrophil's share of the count, and histamine and heparin are basophil products.
+
+
+---
+
+# Item
+## id
+QM-101-C869B0771F72
+## title
+A7 year-old-school boy has a blood report with an eosinophil count | 6%. He is not suff…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A7 year-old-school boy has a blood report with an eosinophil count | 6%. He is not suffering from allergic problems. What would the | doctor probably advise his parents to perform: |
+## answer_a
+Urine analysis
+## explanation_a
+Urine analysis would be the answer for a urinary schistosomiasis, but the routine first test for the intestinal parasites that raise eosinophils in a schoolchild is the stool.
+## answer_b
+Stool analysis. 0
+## explanation_b
+Correct. Eosinophilia with allergy excluded means a parasite, and stool analysis is how a parasite is looked for.
+## answer_c
+Estimation of his bleeding time.
+## explanation_c
+Bleeding time tests platelet function. Eosinophils have no part in haemostasis.
+## answer_d
+Sensitivity tests to different allergens
+## explanation_d
+Allergy testing is what the stem has already excluded by saying the boy has no allergic problems.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Choose the investigation a raised eosinophil count without allergy points to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Blood] (1).pdf p2 q14. Manifest src_995e491b2e22cc96d8ef.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The eosinophil has two causes of rise in this course, allergy and parasitic infection, and the stem removes the first by saying the child has no allergic problems. A stool analysis is the investigation for an intestinal parasite, so B is the only option the stem leaves open.
+
+
+---
+
+# Item
+## id
+QM-101-96648B52AA5A
+## title
+Which of the following is described as having a "central pallor"?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is described as having a "central pallor"?
+## answer_a
+Erythrocytes
+## explanation_a
+Correct, and keyed. The erythrocyte is biconcave, so its centre is thinner and holds less haemoglobin — a pale disc about a third of the diameter across.
+## answer_b
+Monocytes
+## explanation_b
+A monocyte is a large nucleated cell with a kidney-shaped nucleus and frosted-glass cytoplasm; nothing about it is centrally pale.
+## answer_c
+Eosinophils
+## explanation_c
+An eosinophil is packed edge to edge with coarse acidophilic granules.
+## answer_d
+Platelets
+## explanation_d
+A platelet is a small cell fragment with a pale hyalomere at the periphery and a granular chromomere in the centre — which is the exact reverse of a central pallor, and the reason it is offered here.
+## correct_answer
+A
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Name the blood cell that shows a central pallor and say what causes it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q13. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-1225BE8C12AE
+## title
+Concerning the reticular cells, the followings are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular cells, the followings are true EXCEPT:
+## answer_a
+Present mainly in the stroma of the organs
+## explanation_a
+True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.
+## answer_b
+Considered as fibroblast
+## explanation_b
+True in the sense the books mean it: the reticular cell is a fibre-forming cell of the same family as the fibroblast, and both are grouped as connective-tissue-forming cells.
+## answer_c
+It is stained with iron HX
+## explanation_c
+Correct, and the exception. Iron haematoxylin is the stain for centrioles. What silver demonstrates around the reticular cell is its fibres, not the cell.
+## answer_d
+Has a phagocytic function
+## explanation_d
+True. The reticular cell turns phagocytic when antigen stimulates it, and it presents antigen as well.
+## correct_answer
+C
+## main_concept
+CON-FND-C75600D3D3B546
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Identify the false statement about the reticular cell, including which stain does not apply to it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q29. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
 

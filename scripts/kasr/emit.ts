@@ -110,7 +110,7 @@ ${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ${seed.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}`
+${conceptTail(context.articleId)}`
 }
 
 /**
@@ -166,7 +166,7 @@ ${conceptTail()}`
  * is worth more than a filled one that lies, and this content is going to a
  * faculty reviewer precisely because nobody has reviewed it.
  */
-function conceptTail(): string {
+function conceptTail(articleId?: string): string {
   return `## arabic_label
 
 ## arabic_aliases
@@ -178,7 +178,7 @@ function conceptTail(): string {
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+${articleId ?? '[clear]'}
 ## resource_ids
 ${DEPARTMENT_BOOK}
 ## approved_file_resource_ids
@@ -223,7 +223,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -425,7 +425,7 @@ ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}
+${conceptTail(articleId)}
 `
 }
 

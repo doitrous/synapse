@@ -22,6 +22,7 @@
     Joints of Upper Limb — 23 questions, 5 concepts
     Lymphatic system — 4 questions, 2 concepts
     Microscopes — 7 questions, 2 concepts
+    Microtechniques — 87 questions, 24 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Muscular system — 11 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
@@ -51,7 +52,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  411 questions were excluded and 0 held back for having no
+  431 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -145,7 +146,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -190,7 +191,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -280,7 +281,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -325,7 +326,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -411,7 +412,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -456,7 +457,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -549,7 +550,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -594,7 +595,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -683,7 +684,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -728,7 +729,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -816,7 +817,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -861,7 +862,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -949,7 +950,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -994,7 +995,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1090,7 +1091,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1135,7 +1136,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1224,7 +1225,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1269,7 +1270,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1363,7 +1364,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1408,7 +1409,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1506,7 +1507,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1551,7 +1552,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1645,7 +1646,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM | ART-101-ANA-SYNOVIAL-JOINTS | ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1690,7 +1691,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1778,7 +1779,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ARM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1823,7 +1824,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -1909,7 +1910,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SYNOVIAL-JOINTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1954,7 +1955,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2041,7 +2042,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SYNOVIAL-JOINTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2086,7 +2087,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2173,7 +2174,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SYNOVIAL-JOINTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2218,7 +2219,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2314,7 +2315,7 @@ The books ask "the superior thoracic artery … arises behind the pectoralis min
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2359,7 +2360,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2447,7 +2448,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2492,7 +2493,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2581,7 +2582,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2626,7 +2627,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2714,7 +2715,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2759,7 +2760,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2855,7 +2856,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2900,7 +2901,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -2989,7 +2990,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3034,7 +3035,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3123,7 +3124,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3168,7 +3169,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3259,7 +3260,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3304,7 +3305,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3411,7 +3412,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3456,7 +3457,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3545,7 +3546,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3590,7 +3591,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3687,7 +3688,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3732,7 +3733,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3840,7 +3841,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3885,7 +3886,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -3975,7 +3976,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4020,7 +4021,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4111,7 +4112,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4156,7 +4157,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4248,7 +4249,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4293,7 +4294,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4380,7 +4381,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4425,7 +4426,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4514,7 +4515,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4559,7 +4560,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4646,7 +4647,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4691,7 +4692,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4781,7 +4782,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4826,7 +4827,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -4913,7 +4914,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4958,7 +4959,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5045,7 +5046,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5090,7 +5091,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5178,7 +5179,7 @@ The chapter also teaches arterial anastomosis in three named types, the five end
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5223,7 +5224,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5268,18 +5269,22 @@ kau
 1
 ## exam_signal
 src_4e481d399b2ffd65b97a | question_book | | p7 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -5287,7 +5292,7 @@ Connective Tissue
 ## aliases
 White fibres | Yellow fibres | Elastin
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5309,7 +5314,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5354,7 +5359,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5402,12 +5407,16 @@ src_c30d9391aa0861f41e44 | question_book | | p11 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -5421,7 +5430,7 @@ Connective Tissue
 ## aliases
 Argyrophilic fibres | Reticulin
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5443,7 +5452,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5488,7 +5497,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5534,18 +5543,24 @@ kau
 ## exam_signal
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -5553,7 +5568,7 @@ Connective Tissue
 ## aliases
 Mallory trichrome | Van Gieson | Orcein | Silver impregnation
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5575,7 +5590,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5620,7 +5635,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5712,7 +5727,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5757,7 +5772,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5847,7 +5862,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5892,7 +5907,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -5979,7 +5994,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6024,7 +6039,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6075,6 +6090,8 @@ src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p4 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
 src_510c935c09a7e7cbff32 | question_book | | p6 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p3 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
@@ -6101,7 +6118,7 @@ Epithelial Tissues
 ## aliases
 Basal lamina | Reticular lamina | Lamina densa | Lamina lucida | Hemidesmosome
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
@@ -6123,7 +6140,7 @@ The lamina lucida and lamina densa subdivision of the basal lamina is asked by t
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6168,7 +6185,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6257,7 +6274,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6302,7 +6319,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6389,7 +6406,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6434,7 +6451,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6498,7 +6515,7 @@ Connective Tissue
 ## aliases
 UMC | Pericyte | Perivascular cell
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -6520,7 +6537,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6565,7 +6582,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6651,7 +6668,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6696,7 +6713,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6791,7 +6808,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6836,7 +6853,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -6936,7 +6953,7 @@ Several cells used in these rows have concepts of their own that already belong 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6981,7 +6998,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7037,6 +7054,8 @@ src_620516ae7327c0f4fc2f | question_book | | p6 | 101 ISK
 src_6846577508f49244d715 | question_book | | p4 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 src_6846577508f49244d715 | question_book | | p21 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -7056,7 +7075,7 @@ Cytology
 ## aliases
 Cristae | Elementary particles | Mitochondrial matrix | Janus green
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -7078,7 +7097,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7123,7 +7142,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7224,7 +7243,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7269,7 +7288,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7368,7 +7387,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7413,7 +7432,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7511,7 +7530,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7556,7 +7575,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7607,12 +7626,20 @@ src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
 src_6846577508f49244d715 | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p13 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7626,11 +7653,11 @@ Cytology
 ## aliases
 Negative Golgi image | Golgi hof | Silver impregnation
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] A brown fibrillar network in the cytoplasm represents:
+[asked 3x across the question books] In H&E stained sections of plasma cell, Golgi apparatus appears:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7648,7 +7675,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7693,7 +7720,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7794,7 +7821,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7839,7 +7866,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -7891,12 +7918,13 @@ src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p22 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7910,7 +7938,7 @@ Cytology
 ## aliases
 Acid phosphatase | Hydrolytic enzymes | Intracytoplasmic digestion
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -7932,7 +7960,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7977,7 +8005,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8065,7 +8093,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8110,7 +8138,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8204,7 +8232,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8249,7 +8277,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8325,7 +8353,7 @@ Cytology
 ## aliases
 Microbody | Catalase | Beta oxidation
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -8347,7 +8375,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8392,7 +8420,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8486,7 +8514,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8531,7 +8559,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8610,7 +8638,7 @@ Cytology
 ## aliases
 Free ribosomes | Attached ribosomes | Cytoplasmic basophilia
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -8632,7 +8660,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8677,7 +8705,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8770,7 +8798,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8815,7 +8843,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -8912,7 +8940,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8957,7 +8985,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9048,7 +9076,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9093,7 +9121,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9184,7 +9212,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-NERVOUS-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9229,7 +9257,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9302,7 +9330,7 @@ Cytology
 ## aliases
 Centrosome | Diplosome | Basal body
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -9324,7 +9352,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9369,7 +9397,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9467,7 +9495,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-GAMETES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9512,7 +9540,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9600,7 +9628,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9645,7 +9673,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9745,7 +9773,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9790,7 +9818,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -9877,7 +9905,7 @@ The department book's cytology chapter does not mention proteasomes at all — i
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9922,7 +9950,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10009,7 +10037,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10054,7 +10082,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10140,7 +10168,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10185,7 +10213,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10272,7 +10300,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FASCIA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10317,7 +10345,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10403,7 +10431,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FASCIA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10448,7 +10476,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10535,7 +10563,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10580,7 +10608,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10666,7 +10694,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10711,7 +10739,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10797,7 +10825,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10842,7 +10870,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -10929,7 +10957,7 @@ The department book prints "placenta accreta: placenta infiltrates till the myom
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10974,7 +11002,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11062,7 +11090,7 @@ The paper prints its mark marker twice on this question — "{5 Marks}. {5 Marks
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11107,7 +11135,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11193,7 +11221,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11238,7 +11266,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11328,7 +11356,7 @@ The department book states that the definitive (secondary) yolk sac forms on the
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11373,7 +11401,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11459,7 +11487,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11504,7 +11532,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11591,7 +11619,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-FERTILIZATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11636,7 +11664,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11723,7 +11751,7 @@ The department book's extracted text mentions twin placenta only under the anoma
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11768,7 +11796,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11855,7 +11883,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11900,7 +11928,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -11987,7 +12015,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12032,7 +12060,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12119,7 +12147,7 @@ The department book states that the cytotrophoblastic shell originates from the 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12164,7 +12192,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12254,7 +12282,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION | ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12299,7 +12327,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12385,7 +12413,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FETAL-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12430,7 +12458,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12516,7 +12544,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FETAL-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12561,7 +12589,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12648,7 +12676,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FETAL-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12693,7 +12721,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12783,7 +12811,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION | ART-101-ANA-GAMETES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12828,7 +12856,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -12915,7 +12943,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12960,7 +12988,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13048,7 +13076,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13093,7 +13121,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13179,7 +13207,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13224,7 +13252,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13313,7 +13341,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-GAMETES | ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13358,7 +13386,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13445,7 +13473,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-GAMETES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13490,7 +13518,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13586,7 +13614,7 @@ The department book names no example of a mixed gland. The question books answer
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13631,7 +13659,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13728,7 +13756,7 @@ The department book describes the three mechanisms and states explicitly that no
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13773,7 +13801,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13864,7 +13892,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13909,7 +13937,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -13997,7 +14025,7 @@ The department book prints the nine-way classification as diagrams with no organ
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14042,7 +14070,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14129,7 +14157,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14174,7 +14202,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14260,7 +14288,7 @@ The department book names no gland against watery, serous or mucous. That the pa
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14305,7 +14333,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14395,7 +14423,7 @@ The department book states dead neutrophils form pus cells and that pus raises b
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14440,7 +14468,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14486,18 +14514,26 @@ kau
 ## exam_signal
 src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p1 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p10 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p6 | 101 ISK
+src_995e491b2e22cc96d8ef | question_book | | p2 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -14505,11 +14541,11 @@ Blood
 ## aliases
 Eosinophil granules | Acidophil | Eosinophilia
 ## article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] ……………. contain histaminase, sulfatase, Neurotoxin
+[asked 2x across the question books] Eosinophils are lowered 1% in the following
 ## conflicts
 The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
 ## uncertainty
@@ -14527,7 +14563,7 @@ The department book puts eosinophils at 1–4% of the differential count. Severa
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14572,7 +14608,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14639,7 +14675,7 @@ Blood
 ## aliases
 Basophil granules | Anaphylaxis | Basophilia
 ## article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
@@ -14661,7 +14697,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14706,7 +14742,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14792,7 +14828,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14837,7 +14873,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -14923,7 +14959,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14968,7 +15004,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15054,7 +15090,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15099,7 +15135,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15196,7 +15232,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15241,7 +15277,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15349,7 +15385,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15394,7 +15430,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15504,7 +15540,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15549,7 +15585,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15639,7 +15675,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15684,7 +15720,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15777,7 +15813,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15822,7 +15858,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -15914,7 +15950,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15959,7 +15995,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16057,7 +16093,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16102,7 +16138,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16194,7 +16230,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16239,7 +16275,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16327,7 +16363,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16372,7 +16408,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16467,7 +16503,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16512,7 +16548,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16605,7 +16641,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16650,7 +16686,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16738,7 +16774,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-INTRODUCTION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16783,7 +16819,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -16871,7 +16907,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-INTRODUCTION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16916,7 +16952,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17005,7 +17041,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-INTRODUCTION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17050,7 +17086,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17144,7 +17180,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17189,7 +17225,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17278,7 +17314,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17323,7 +17359,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17409,7 +17445,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17454,7 +17490,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17540,7 +17576,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-LYMPHATIC-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17585,7 +17621,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17672,7 +17708,7 @@ The chapter's ILO list asks for the structure of the lymph node, and the chapter
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-LYMPHATIC-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17717,7 +17753,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17803,7 +17839,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MICROSCOPES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17848,7 +17884,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -17894,19 +17930,20 @@ kau
 ## exam_signal
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
 src_6846577508f49244d715 | question_book | | p10 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -17920,7 +17957,7 @@ Cytology
 ## aliases
 Plasmalemma | Unit membrane | Trilaminar membrane
 ## article_ids
-ART-101-HIS-MICROSCOPES | ART-101-HIS-THE-CELL
+ART-101-HIS-MICROSCOPES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
@@ -17942,7 +17979,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MICROSCOPES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17987,7 +18024,1334 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Paraffin is the most common processing technique, celloidin the most perfect and freezing the most rapid, and each buys its advantage at a stated cost
+## id
+CON-FND-9F0CCA2BFB5C7B
+## canonical_key
+three-tissue-processing-techniques-compared
+## definition
+The department book teaches three ways of turning a piece of tissue into a section, and prints them as a table of advantages against disadvantages. The paraffin technique is the most common: short preparation time, serial sections for research, very thin sections and easy staining — but xylol dissolves the fat out of the tissue and the heat destroys its enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissues such as brain — but it takes a long time, gives thick sections, gives no serial sections and stains poorly. The freezing technique is the most rapid, which is why it is used to diagnose a tumour while the surgeon waits, and it preserves enzymes, which is why every histochemical stain is done on a frozen section — but its sections are thick, hard to cut, not serial and not easily stained.
+## explicit_objective
+Name the three tissue-processing techniques, give the one advantage each is chosen for, and say which technique a named requirement — a serial section, a frozen enzyme, a rapid diagnosis — forces.
+## pitfalls
+Choosing paraffin because it is the routine one. Paraffin is the default and it is the wrong answer whenever the question involves fat or an enzyme, because the xylol and the heat destroy exactly those.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Paraffin technique | Celloidin technique | Freezing technique | Frozen section
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Freezing technique has the following advantage:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Haematoxylin is a basic blue dye that binds acidic structures, eosin an acidic pink dye that binds basic ones, and the two together are the routine section
+## id
+CON-FND-22D6FA8D15AA45
+## canonical_key
+haematoxylin-and-eosin-basophilia-and-acidophilia
+## definition
+Haematoxylin and eosin is the commonest staining system in histology and the one every routine slide is made with. Haematoxylin is a basic blue dye, so it binds the acidic components of the cell, which are therefore called basophilic — the nucleus above all, rich in DNA and RNA, and the cytoplasm of a protein-forming cell, whose ribosomes are RNA. Eosin is an acidic pink or red dye and binds the basic structures of the cell, which are called acidophilic — most cytoplasm, and haemoglobin. The rule that follows is the one the books ask over and over: the nucleus is always basophilic, while the cytoplasm may be either, and which it is depends on how much RNA the cell is carrying.
+## explicit_objective
+Say which dye of H&E is basic and which acidic, and predict from a structure's chemistry whether it will be basophilic or acidophilic.
+## pitfalls
+Reasoning from the name of the dye to the colour of the structure. An acidic structure binds the basic dye and is called basophilic — the term names what the structure loves, not what it is, and every step of that has to be run in the right direction.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+H&E | Haematoxylin | Eosin | Basophilia | Acidophilia
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The most common staining system In the histology is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A stain is classified by how it is applied and what it does, and neutral, vital, supravital and metachromatic each mean one particular thing
+## id
+CON-FND-5F15B250FC19EC
+## canonical_key
+stain-classes-neutral-vital-supravital-and-metachromatic
+## definition
+Beyond H&E the department book names classes of stain, and the class is what the books examine. A neutral stain is a mixture of an acidic and a basic dye — Leishman's stain, eosin and methylene blue dissolved in methyl alcohol, which is also its fixative — and it is used for blood films, because a blood film holds both acidophilic and basophilic cells. A vital stain stains living cells inside the living animal, which the cell must take up itself: trypan blue and India ink demonstrate the macrophage because the macrophage phagocytoses them. A supravital stain stains living cells outside the body, and the standard example is brilliant cresyl blue on the reticulocyte. A metachromatic stain gives a colour different from the colour of the dye itself: toluidine blue, which is blue, stains the mucopolysaccharide granules of the mast cell and the blood basophil violet or purple.
+## explicit_objective
+Define neutral, vital, supravital and metachromatic staining, and name the cell or preparation that is the standard example of each.
+## pitfalls
+Reading "vital" and "supravital" as strong and stronger. The whole difference is where the cell was when it took up the dye — inside the living animal, or alive on a slide outside it — and nothing else.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p11 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p6 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Leishman stain | Trypan blue | Brilliant cresyl blue | Toluidine blue | Metachromasia
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Lishman stain is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
+## id
+CON-FND-05C930A781CE55
+## canonical_key
+pas-and-best-carmine-demonstrate-carbohydrate
+## definition
+Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best's carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
+## explicit_objective
+Name the two stains that demonstrate carbohydrate and list the structures they redden.
+## pitfalls
+Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p19 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+PAS | Periodic acid-Schiff | Best's carmine
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] The following inclusion can be stained with Best's carmine:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Fat has to be stained with a fat-soluble dye on a frozen section, because routine processing dissolves it away
+## id
+CON-FND-03C08D6EA7C7BE
+## canonical_key
+fat-is-shown-by-sudan-and-only-on-a-frozen-section
+## definition
+Sudan III is the histochemical stain for fat and colours it orange; Sudan black does the same in black. Both are fat-soluble dyes that dissolve into the lipid droplet, and both need a frozen section, because the xylol of the paraffin technique dissolves the fat out of the tissue first. That is why an ordinary H&E section of adipose tissue shows an empty space with a rim of cytoplasm and a flattened nucleus — the signet ring appearance — rather than a droplet: the fat has gone, and the space is where it was.
+## explicit_objective
+Name the stains that demonstrate fat, say which processing technique they require, and explain what H&E does to fat instead.
+## pitfalls
+Reading the empty vacuole of an H&E adipocyte as an artefact hole. It is the fat droplet, dissolved; the signet ring is the evidence that the cell held one large droplet rather than many small ones.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p18 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Sudan III | Sudan black | Fat stain
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Fat cells can be stained by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The reticular cell is a stellate cell of an organ's stroma that secretes the reticular fibres it lies on and becomes phagocytic when antigen arrives
+## id
+CON-FND-C75600D3D3B546
+## canonical_key
+reticular-cell-forms-the-stroma-and-turns-phagocytic
+## definition
+The reticular cell arises from the undifferentiated mesenchymal cell and lies in the stroma of glands and organs — spleen, lymph node, endocrine glands. It is a small stellate cell with many long thin processes joined to its neighbours by cell junctions, and with the reticular fibres it secretes it forms the supporting network of the organ. It secretes those fibres, which are type III collagen; it turns phagocytic when stimulated by antigen; and it acts as an antigen-presenting cell. It is a resident, long-lived cell of connective tissue, and it is not demonstrated by any special stain of its own — it is the fibres around it that silver blackens.
+## explicit_objective
+Give the site, shape and three functions of the reticular cell, and name the fibre it secretes.
+## pitfalls
+Treating "reticular cell" and "reticular fibre" as the same demonstration. Silver shows the fibre; the cell is seen in an ordinary section by its stellate shape and its position in the stroma.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Reticular cell | Stroma
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the reticular cells, the followings are true EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The mast cell and the plasma cell are both basophilic and share nothing else
+## id
+CON-FND-0BB73C5CC1821B
+## canonical_key
+mast-cell-lm-em-metachromasia
+## definition
+The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube. It is a large oval cell, twenty to thirty micrometres, with a central spherical pale nucleus and cytoplasm full of basophilic granules that toluidine blue stains metachromatically purple or red. By electron microscopy it has a well developed Golgi, many mitochondria, few rough endoplasmic reticulum profiles and electron-dense membrane-bound granules. It carries surface receptors for IgE, and it secretes heparin, histamine, leukotrienes and eosinophil chemotactic factor.
+## explicit_objective
+Give the origin, site and light-microscopic picture of the mast cell, and distinguish it from the plasma cell.
+## pitfalls
+Reading basophilia as one finding. The mast cell's basophilia is granular and metachromatic; the plasma cell's is diffuse cytoplasmic basophilia from rough endoplasmic reticulum and is not metachromatic at all.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p9 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Mast cell granules | Metachromasia | Toluidine blue
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] After staining the C.T with toludin blue the cells which have magenta granules are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A macrophage is identified by an irregular outline, a dark kidney-shaped nucleus and ingested vital dye
+## id
+CON-FND-90E8073879B42A
+## canonical_key
+macrophage-identification-vital-stain
+## definition
+The macrophage is a large irregular connective-tissue cell with pale basophilic cytoplasm and a dark kidney-shaped nucleus. It arises from the blood monocyte. Its specific demonstration is a vital stain — trypan blue or India ink — which the cell phagocytoses, so the granules of dye inside it are the identification. By electron microscopy it has pseudopodia and is rich in lysosomes, phagocytosed particles and residual bodies, which is why the acid phosphatase reaction also marks it. It phagocytoses foreign particles, microorganisms and dead cells, fuses into foreign body giant cells, presents antigen to lymphocytes and destroys old red cells in liver and spleen.
+## explicit_objective
+Identify a macrophage on a section, name the vital stain that demonstrates it, and give its origin.
+## pitfalls
+Confusing it with a monocyte. They are the same lineage, but the monocyte is the circulating form named on a blood film; a phagocytic cell sitting in connective tissue full of dye is a macrophage.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Histiocyte | Trypan blue | India ink
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] About macrophages all are true EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+An erythrocyte is identified by being non-nucleated, acidophilic and centrally pale
+## id
+CON-HEM-4F5347CC3664E0
+## canonical_key
+erythrocyte-identification-blood-film
+## definition
+On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity. A crenated cell is the same cell shrunken in a hypertonic medium and shows notches at its edge.
+## explicit_objective
+Identify an erythrocyte in a blood film, give the character the answer page asks for, and tell a normal cell from a crenated one on the same plate.
+## pitfalls
+Calling the central pallor a nucleus or a vacuole. It is thinning, not a hole; the mature red cell has no nucleus at all, which is the character the examiner is asking for.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04 | SYS-HEM-T01-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Central pallor | Crenation
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is described as having a "central pallor"?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+White and brown fat are told apart by whether the cell holds one fat droplet or many
+## id
+CON-FND-97930723FE0D94
+## canonical_key
+unilocular-versus-multilocular-adipocyte
+## definition
+The unilocular (white) fat cell is large and oval and holds a single fat droplet that pushes nucleus and cytoplasm into a thin peripheral rim, the signet-ring appearance. The multilocular (brown) fat cell is smaller and rounded and holds many small droplets, so it has no signet ring and its rounded nucleus stays eccentric rather than flattened; brown fat is also the more vascular tissue, and it is the multilocular cell that generates heat.
+## explicit_objective
+Identify white and brown adipose tissue on section, name the cell type each is built from, give two visible characters, and name the stains that demonstrate the fat.
+## pitfalls
+Reading the empty spaces as artefact holes. The fat dissolves in routine processing and the space is the droplet; Sudan III on the paired plate fills the same space with orange.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Signet ring appearance | Unilocular adipocyte | Multilocular adipocyte
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] (Signet ring appearance) is a descriptive term for the:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18075,7 +19439,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18120,7 +19484,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18208,7 +19572,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18253,7 +19617,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18345,7 +19709,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18390,7 +19754,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18477,7 +19841,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18522,7 +19886,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18611,7 +19975,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18656,7 +20020,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18747,7 +20111,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18792,7 +20156,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -18880,7 +20244,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18925,7 +20289,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19012,7 +20376,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19057,7 +20421,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19148,7 +20512,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19193,7 +20557,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19279,7 +20643,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19324,7 +20688,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19410,7 +20774,7 @@ The chapter's ILO list asks the student to "define tendon, aponeurosis and synov
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19455,7 +20819,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19541,7 +20905,7 @@ The department book does not say whether myo-epithelial cells are ectodermal in 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19586,7 +20950,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19675,7 +21039,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19720,7 +21084,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19812,7 +21176,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19857,7 +21221,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -19949,7 +21313,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19994,7 +21358,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20091,7 +21455,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20136,7 +21500,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20223,7 +21587,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20268,7 +21632,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20363,7 +21727,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20408,7 +21772,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20501,7 +21865,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20546,7 +21910,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20635,7 +21999,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20680,7 +22044,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20768,7 +22132,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20813,7 +22177,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -20903,7 +22267,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20948,7 +22312,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21034,7 +22398,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-NERVOUS-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21079,7 +22443,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21168,7 +22532,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-NERVOUS-SYSTEM | ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21213,7 +22577,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21302,7 +22666,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-NERVOUS-SYSTEM | ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21347,7 +22711,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21434,7 +22798,7 @@ The department book names only the taste bud. It does not extend neuro-epitheliu
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NEURO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21479,7 +22843,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21568,7 +22932,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21613,7 +22977,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21702,7 +23066,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21747,7 +23111,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21834,7 +23198,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21879,7 +23243,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -21965,7 +23329,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22010,7 +23374,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22096,7 +23460,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22141,7 +23505,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22232,7 +23596,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22277,7 +23641,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22380,7 +23744,7 @@ One book asks which granulocyte shows most euchromatin and which most heterochro
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22425,7 +23789,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22518,7 +23882,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22563,7 +23927,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22649,7 +24013,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22694,7 +24058,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22791,7 +24155,7 @@ Four adipocyte rows were filed under this leaf and are authored against this con
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22836,7 +24200,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -22924,7 +24288,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22969,7 +24333,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23055,7 +24419,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23100,7 +24464,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23186,7 +24550,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23231,7 +24595,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23323,7 +24687,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23368,7 +24732,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23468,7 +24832,7 @@ The department book gives no length or diameter for a microvillus, a stereociliu
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23513,7 +24877,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23604,7 +24968,7 @@ The department book names no transmembrane protein family for any junction — n
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23649,7 +25013,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23741,7 +25105,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23786,7 +25150,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -23876,7 +25240,7 @@ The department book does not use the word connexin or connexon, describing the c
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23921,7 +25285,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24010,7 +25374,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24055,7 +25419,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24141,7 +25505,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24186,7 +25550,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24274,7 +25638,7 @@ The department book describes the consequences without naming the disease. "Immo
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24319,7 +25683,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24408,7 +25772,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24453,7 +25817,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24540,7 +25904,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24585,7 +25949,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24673,7 +26037,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-IMPLANTATION | ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24718,7 +26082,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24804,7 +26168,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24849,7 +26213,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -24935,7 +26299,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-IMPLANTATION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -24980,7 +26344,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25069,7 +26433,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25114,7 +26478,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25204,7 +26568,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25249,7 +26613,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25346,7 +26710,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SHOULDER-REGION
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25391,7 +26755,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25478,7 +26842,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25523,7 +26887,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25614,7 +26978,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25659,7 +27023,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25745,7 +27109,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25790,7 +27154,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -25878,7 +27242,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -25923,7 +27287,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26010,7 +27374,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26055,7 +27419,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26143,7 +27507,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26188,7 +27552,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26276,7 +27640,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-SKELETAL-SYSTEM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26321,7 +27685,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26410,7 +27774,7 @@ The question books extend neuro-epithelium to the organ of Corti. The department
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26455,7 +27819,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26543,7 +27907,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26588,7 +27952,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26689,7 +28053,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26734,7 +28098,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26831,7 +28195,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -26876,7 +28240,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -26972,7 +28336,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27017,7 +28381,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27116,7 +28480,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27161,7 +28525,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27258,7 +28622,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27303,7 +28667,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27392,7 +28756,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27437,7 +28801,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27527,7 +28891,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27572,7 +28936,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27660,7 +29024,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27705,7 +29069,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27799,7 +29163,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27844,7 +29208,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -27942,7 +29306,7 @@ Two rows filed under this leaf name the immunoglobulin the basophil and the mast
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -27987,7 +29351,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28075,7 +29439,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28120,7 +29484,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28209,7 +29573,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28254,7 +29618,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28341,7 +29705,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-NOTOCHORD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28386,7 +29750,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28474,7 +29838,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28519,7 +29883,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28606,7 +29970,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28651,7 +30015,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28737,7 +30101,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28782,7 +30146,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -28868,7 +30232,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -28913,7 +30277,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -29000,7 +30364,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -29045,7 +30409,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -29131,7 +30495,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -29176,7 +30540,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
@@ -29264,7 +30628,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -29309,7 +30673,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+relatedArticleIds: The article that teaches this concept, which is certainly related to it. Further reading beyond that is chosen when the library for this module is complete, and adding a neighbour now would be a guess at what a student should read next.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
