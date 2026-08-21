@@ -3,10 +3,24 @@
 Batches extracted from Cairo University's Kasr Al Ainy corpus, on their way into
 the canonical library. University `kau`; Year 1 is `KAU_Y1`.
 
-Extraction has started, on module **101 ISK** first. The
-[coverage ledger](coverage/101-ISK-coverage.md) says exactly which of its source
-files have been read and which have not; rerun
-`scripts/kasr/build-coverage.ts` and its numbers are today's.
+Extraction has started. Each module has a coverage ledger saying exactly which
+of its source files have been read and which have not — rerun
+`scripts/kasr/build-coverage.ts --module "<id>"` and the numbers are today's.
+
+| Module | Sources | Ledger |
+|---|--:|---|
+| `101 ISK` | 76 | [101-ISK-coverage.md](coverage/101-ISK-coverage.md) |
+| `103 BMS` | 51 | [103-BMS-coverage.md](coverage/103-BMS-coverage.md) |
+
+`101 ISK` has two subjects and one department book; `103 BMS` has **four** of
+each, so its batches are split per subject — one file per `(subject, kind)`
+rather than one per kind. A module with four departments cannot have one
+concept file without four agents writing to it at once.
+
+> **`build-coverage.ts` defaults to `101 ISK`**, so the bare command still
+> produces exactly what it always did. Two things it will not do any more: read
+> another module's extraction results through the unprefixed fallback paths,
+> which are 101's; or count another module's batch files as this module's work.
 
 ## Import order
 
@@ -40,7 +54,7 @@ names a real file. Both run on every pull request that touches this folder.
 | Folder | Holds |
 |---|---|
 | [`manifest/`](manifest/) | **Done** — every source file, its module, exam type, priority and year signals. [Readable index](manifest/README.md). |
-| [`coverage/`](coverage/101-ISK-coverage.md) | Per-source coverage ledgers: what each file yielded, and which have not been read |
+| [`coverage/`](coverage/) | Per-source coverage ledgers, one per module: what each file yielded, what text was extracted, and which files nobody has read |
 | `academic/` | Year, term, module and module-subject structure |
 | `subjects/` | Module-subject trees mirroring each department book's chapters |
 | `taxonomy/` | Canonical taxonomy placements |
@@ -74,11 +88,19 @@ node --experimental-strip-types scripts/kasr/build-source-index.ts
 ```
 
 One entry per **file**, keyed by source ID. The manifest holds one row per
-*path* and IDs are content-addressed, so the same bytes filed under two names
-give two manifest rows and one index entry — which is what lets the validator
-compare a batch's `source_relative_path` against a single authoritative path.
-Fourteen source IDs in this corpus are indexed twice; take the path from here
-rather than from a manifest row, or you will pick one of the two at random.
+*path* and IDs are content-addressed, so the same bytes filed under two names —
+or under two modules — give two manifest rows and one index entry.
+
+**Fourteen source IDs are in that position, and for them the index reports no
+single path.** `sourceRelativePath` is `null` and `sourceRelativePaths` carries
+all of them; the validator accepts any path the corpus genuinely holds for that
+ID and still refuses one it does not. Earlier advice here said to take the path
+from the index rather than a manifest row — that was wrong, because the index
+was picking whichever row was written last, and nothing about manifest order
+survives a regeneration. A lane corrected a record to match the index,
+regenerated, and the same record failed again with the error reversed: same
+file, same ID, same bytes. An arbitrary answer is worse than none, and a
+*stable* arbitrary answer only hides that it was arbitrary.
 
 An excluded file stays in the index. Leaving it out would make a batch naming
 it fail as "not a source the corpus contains", which is a different and false
