@@ -1,49 +1,46 @@
 /**
- * Build every Kasr batch from the papers registered below.
+ * Build every 101 ISK batch from the papers registered below.
  *
- * One command for the whole corpus, so adding a paper is adding a seed file and
- * a line in `PAPERS` — never a new script with its own idea of what a field
- * means. Papers are grouped by their module: a concept batch is per module,
- * because a concept belongs to what teaches it, and a written batch is per
- * paper, because a question belongs to its sitting.
+ * One command for the whole module, so adding a paper is adding a seed file and
+ * a line here — never a new script with its own idea of what a field means.
  *
  *   node --experimental-strip-types scripts/kasr/build-batches.ts
- *   node --experimental-strip-types scripts/kasr/build-batches.ts "102 INT"
- *
- * With no argument it builds every registered module; with one, only that
- * module — so a lane can regenerate its own batches without rewriting a
- * neighbour's file underneath them.
  */
-import { mkdirSync, writeFileSync } from 'node:fs'
-import { mintConceptId, moduleOf, partsKey, type Paper, type Seed } from './seeds/types.ts'
-import { batchFile, conceptBlock, writtenBlock } from './emit.ts'
-import { PAPER as ISK_101_EOY_2025 } from './seeds/101-eoy-2025.ts'
-import { paperFromJson } from './seeds/from-json.ts'
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { mintConceptId, partsKey, subjectCollisions, subjectForPath, type KasrSubject, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
+import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
+import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
+import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
+import { PAPER as EOY_2024 } from './seeds/101-eoy-2024.ts'
+import { PAPER as CASES_2025 } from './seeds/101-eoy-2025-cases.ts'
+import { PAPER as BAQOON_2024 } from './seeds/101-baqoon-2024.ts'
 import { ARTICLE_FOR_CONCEPT } from './seeds/articles.ts'
+import { SITTING_SIGNALS } from './seeds/sittings.ts'
 
-/**
- * Every paper that has been read. Order is priority order, highest first.
- *
- * 101's paper is a hand-written TypeScript literal, which is the right shape
- * for one paper. The rest arrive as JSON, because a paper is read by something
- * that produces data and hand-transcribing that into a `.ts` literal is a step
- * that can only lose fidelity. `paperFromJson` validates on the way in — every
- * `modulePath` against the module's own subject tree, every scheme against its
- * seeds — so a chapter renamed underneath a paper fails here rather than
- * resolving to nothing at import.
- */
-const PAPERS: Paper[] = [
-  ISK_101_EOY_2025,
-  paperFromJson('scripts/kasr/extract/102-INT/eoy-2025-199.json'),
-]
+/** Every paper that has been read. Order is priority order, highest first. */
+const PAPERS: Paper[] = [EOY_2025, EOY_2024, BAQOON_2024, CASES_2025]
 
 const OUT = 'docs/Kasr-Source-Imports'
+/**
+ * The batch filename for a paper.
+ *
+ * One prefix per tier. This used to be a two-way branch — end of year, or else
+ * "EOM" — over four tiers, so the Baqoon third-sitting resit and a formative
+ * assessment were both filed as end-of-module papers. That was wrong when it
+ * was written and is about to become destructive: the real end-of-module papers
+ * are entirely multiple choice and are now being seeded, and a genuine
+ * `EOM-2024` would have overwritten the resit sitting under the same name with
+ * nothing reporting it.
+ */
+const TIER_PREFIX: Record<SourceRef['tier'], string> = {
+  end_of_year: 'EOY',
+  end_of_module: 'EOM',
+  resit: 'BAQOON',
+  formative: 'FORMATIVE',
+}
+
 const slug = (paper: Paper) =>
-  `${moduleOf(paper.source).id.replace(/\s+/g, '-')}-${
-    paper.source.tier === 'end_of_year' ? 'EOY'
-      : paper.source.tier === 'end_of_module' ? 'EOM'
-        : paper.source.tier === 'resit' ? 'RESIT' : 'FORMATIVE'
-  }-${paper.source.sittingYear}`
+  `101-ISK-${TIER_PREFIX[paper.source.tier]}-${paper.source.sittingYear}`
 
 /**
  * Concepts, deduplicated by canonical key across every paper.
@@ -52,29 +49,40 @@ const slug = (paper: Paper) =>
  * two concepts. The alternative splits a student's mastery across duplicates
  * and inflates the blueprint weight of whatever happens to be asked often.
  */
-function concepts(module: string, papers: Paper[]) {
+function concepts() {
   const byKey = new Map<string, { paper: Paper, seed: Seed, repeats: string[] }>()
 
-  for (const paper of papers) {
+  for (const paper of PAPERS) {
     for (const seed of paper.seeds) {
       const found = byKey.get(seed.key)
       if (!found) { byKey.set(seed.key, { paper, seed, repeats: [] }); continue }
       // The first paper's reading wins — papers are registered in priority
       // order — and the later one is recorded as another occurrence.
       found.repeats.push(
-        `${paper.source.id} | ${paper.source.tier} | ${paper.source.sittingYear} | p${seed.page} | ${module}`)
+        `${paper.source.id} | ${paper.source.tier} | ${paper.source.sittingYear} | p${seed.page} | 101 ISK`)
     }
   }
 
+  // Sittings known from an index rather than from a paper. They carry no
+  // wording and no marks, so they can never be a question — but they are
+  // evidence the thing was asked, which is what the blueprint weight is for.
+  for (const [key, signals] of Object.entries(SITTING_SIGNALS)) {
+    const found = byKey.get(key)
+    if (found) found.repeats.push(...signals)
+  }
+
   const blocks = [...byKey.values()].map(({ paper, seed, repeats }) =>
-    conceptBlock(paper.source, seed, repeats))
+    conceptBlock(paper.source, seed, repeats, {
+      paperMarks: paper.seeds.reduce((sum, one) => sum + one.marks, 0),
+      articleId: ARTICLE_FOR_CONCEPT[mintConceptId(seed.subject, seed.key)],
+    }))
 
   const repeated = [...byKey.values()].filter((entry) => entry.repeats.length).length
-  const header = `Concepts for ${module}, from every paper read so far.
+  const header = `Concepts for 101 ISK, from every paper read so far.
 
-${papers.map((paper) => `  ${paper.source.file} — ${paper.source.tier.replace(/_/g, ' ')} ${paper.source.sittingYear}, ${paper.seeds.length} questions`).join('\n')}
+${PAPERS.map((paper) => `  ${paper.source.file} — ${paper.source.tier.replace(/_/g, ' ')} ${paper.source.sittingYear}, ${paper.seeds.length} questions`).join('\n')}
 
-${byKey.size} concepts from ${papers.reduce((sum, paper) => sum + paper.seeds.length, 0)} questions.
+${byKey.size} concepts from ${PAPERS.reduce((sum, paper) => sum + paper.seeds.length, 0)} questions.
 ${repeated} of them were asked on more than one paper, and carry an exam_signal
 line per sitting: repetition is the strongest blueprint evidence this corpus
 holds, and it only exists once the papers are read together.
@@ -87,7 +95,7 @@ which does not belong in the canonical tree.
 Generated by scripts/kasr/build-batches.ts — edit the seeds in scripts/kasr/seeds/.`
 
   mkdirSync(`${OUT}/concept`, { recursive: true })
-  const file = `${OUT}/concept/${module.replace(/\s+/g, '-')}-concepts.md`
+  const file = `${OUT}/concept/101-ISK-concepts.md`
   writeFileSync(file, batchFile(header, blocks))
   return { file, count: byKey.size, repeated }
 }
@@ -104,7 +112,6 @@ function written(paper: Paper) {
 
   const blocks = [...byNumber.values()].map((seeds) =>
     writtenBlock(paper, seeds, (conceptId) => ARTICLE_FOR_CONCEPT[conceptId]))
-
   const total = paper.seeds.reduce((sum, seed) => sum + seed.marks, 0)
   const bySection = paper.source.sections
     .map((section) => `${[...byNumber.keys()].filter((key) => key.startsWith(`${section}-`)).length} in ${section}`)
@@ -112,10 +119,10 @@ function written(paper: Paper) {
 
   const header = `${paper.source.file} as sittable written questions.
 
-Kasr Al Ainy, module ${moduleOf(paper.source).id}, ${paper.source.tier.replace(/_/g, ' ')} ${paper.source.sittingYear}.
+Kasr Al Ainy, module 101 ISK, ${paper.source.tier.replace(/_/g, ' ')} ${paper.source.sittingYear}.
 Manifest ID ${paper.source.id}. ${byNumber.size} questions, ${total} marks: ${bySection}.
 
-Transcribed, not derived — \`derived_from\` is blank throughout. The rule that a
+${paper.source.incomplete ? `NOT the whole paper: ${paper.source.incomplete}\n\n` : ''}Transcribed, not derived — \`derived_from\` is blank throughout. The rule that a
 written question may only be derived from another written question governs the
 practice variants that come later, not these.
 
@@ -150,22 +157,180 @@ for (const paper of PAPERS) {
   }
 }
 
-// Grouped by module, in the order the modules were first registered, so the
-// output reads the way `PAPERS` does.
-const only = process.argv[2]
-const byModule = new Map<string, Paper[]>()
-for (const paper of PAPERS) {
-  const id = moduleOf(paper.source).id
-  if (only && id !== only) continue
-  byModule.set(id, [...(byModule.get(id) ?? []), paper])
-}
-if (only && !byModule.size) throw new Error(`no registered paper belongs to "${only}"`)
-
-for (const [module, papers] of byModule) {
-  const c = concepts(module, papers)
-  console.log(`${c.count} concepts (${c.repeated} repeated across papers) -> ${c.file}`)
-  for (const paper of papers) {
-    const w = written(paper)
-    console.log(`${w.count} written questions, ${w.marks} marks -> ${w.file}`)
+/**
+ * Refuse to build if one canonical key has been given two subjects.
+ *
+ * The subject picks only the `CON-<SYS>-` prefix, so the same key under two
+ * subjects mints two IDs with the same hash behind different prefixes. Nothing
+ * at import time notices, and a student's mastery of one idea splits across
+ * both. Two lanes author into `seeds/mcq/` and the papers are seeded
+ * separately, which is exactly the arrangement that produces it.
+ *
+ * Checked across every seed the build can see — papers and question-book leaves
+ * together — because the two halves are where the disagreement would arise.
+ */
+async function assertOneSubjectPerKey() {
+  const entries: { key: string; subject: KasrSubject; where: string }[] = []
+  const byPath = new Map<string, KasrSubject>()
+  for (const paper of PAPERS) {
+    for (const seed of paper.seeds) {
+      entries.push({ key: seed.key, subject: seed.subject, where: paper.source.file })
+      const expected = subjectForPath(seed.modulePath)
+      if (expected) byPath.set(seed.key, expected)
+    }
   }
+  const dir = 'scripts/kasr/seeds/mcq'
+  if (existsSync(dir)) {
+    for (const name of readdirSync(dir).filter((one) => one.endsWith('.ts')).sort()) {
+      const leaf = (await import(`./seeds/mcq/${name}`)).LEAF as McqLeafSeed
+      for (const concept of leaf.concepts) {
+        entries.push({ key: concept.key, subject: concept.subject, where: `seeds/mcq/${name}` })
+        const expected = subjectForPath(concept.modulePath)
+        if (expected) byPath.set(concept.key, expected)
+      }
+    }
+  }
+
+  // The agreed rule, checked rather than remembered. A key whose subject
+  // disagrees with where it sits in the curriculum is the disagreement that
+  // becomes a rival id the moment a second author files the same key correctly.
+  const offRule = entries
+    .map((entry) => ({ entry, expected: byPath.get(entry.key) }))
+    .filter(({ entry, expected }) => expected && expected !== entry.subject)
+  if (offRule.length) {
+    throw new Error(
+      `${offRule.length} concept(s) take a subject the curriculum path does not give:\n`
+      + offRule.map(({ entry, expected }) =>
+        `  ${entry.key}: ${entry.subject}, expected ${expected}  (${entry.where})`).join('\n')
+      + '\nSee subjectForPath in seeds/types.ts. Change the subject, or the rule, not one file.')
+  }
+
+  const clashes = subjectCollisions(entries)
+  if (!clashes.length) return
+  throw new Error(
+    `${clashes.length} canonical key(s) given more than one subject, which mints a rival ID for one idea:\n`
+    + clashes.map((clash) =>
+      `  ${clash.key}: ${clash.subjects.join(' vs ')}  (${clash.where.join(', ')})`).join('\n')
+    + '\nAgree one subject per key and rerun. The key decides the concept; the subject only picks its prefix.')
+}
+
+/**
+ * Refuse two papers that would write to the same batch file.
+ *
+ * The filename carries only tier and year, so two sittings of one tier in one
+ * year — a first and second sitting, or a paper filed under the wrong tier —
+ * silently overwrite each other, and the survivor looks complete.
+ */
+function assertNoSlugCollision() {
+  const byFile = new Map<string, string[]>()
+  for (const paper of PAPERS) {
+    const file = slug(paper)
+    byFile.set(file, [...(byFile.get(file) ?? []), paper.source.file])
+  }
+  const clashes = [...byFile.entries()].filter(([, papers]) => papers.length > 1)
+  if (!clashes.length) return
+  throw new Error(
+    `${clashes.length} batch filename(s) claimed by more than one paper — one would overwrite the other:\n`
+    + clashes.map(([file, papers]) => `  ${file}: ${papers.join(' and ')}`).join('\n'))
+}
+
+assertNoSlugCollision()
+await assertOneSubjectPerKey()
+
+/**
+ * The multiple-choice bank, one batch per subject-tree leaf.
+ *
+ * Machine extraction supplies stems, options and most answers; the leaf seeds
+ * under `seeds/mcq/` supply what an author has to decide — which concept a
+ * question tests and why each option is right or wrong. A question with no
+ * per-option explanation teaches a student nothing beyond "not that one", so
+ * the emitter refuses to write one.
+ */
+async function mcq() {
+  const dir = 'scripts/kasr/seeds/mcq'
+  if (!existsSync(dir)) return null
+
+  const bankPath = 'scripts/kasr/extract/mcq-bank.json'
+  if (!existsSync(bankPath)) return null
+  const bank = new Map<string, BankRow>(
+    JSON.parse(readFileSync(bankPath, 'utf8')).questions.map((row: BankRow) => [row.key, row]))
+
+  const leaves: McqLeafSeed[] = []
+  for (const name of readdirSync(dir).filter((name) => name.endsWith('.ts')).sort()) {
+    const module = await import(`./seeds/mcq/${name}`)
+    leaves.push(module.LEAF as McqLeafSeed)
+  }
+  if (!leaves.length) return null
+
+  // Concepts first: their exam signal is every occurrence of every question
+  // that tests them, which is the whole reason a question book is worth
+  // reading at all — one book asking a thing five times is blueprint evidence
+  // no single paper can give.
+  const conceptBlocks: string[] = []
+  const questionBlocks: string[] = []
+  let excluded = 0
+  let unanswered = 0
+
+  for (const leaf of leaves) {
+    const live = leaf.questions.filter((one) => !one.exclude)
+    excluded += leaf.questions.length - live.length
+
+    for (const concept of leaf.concepts) {
+      const signals = live
+        .filter((one) => one.conceptKey === concept.key)
+        .flatMap((one) => bank.get(one.key)?.occurrences ?? [])
+        .map((where) => `${where.sourceId} | question_book | | p${where.page} | 101 ISK`)
+      conceptBlocks.push(mcqConceptBlock(concept, [...new Set(signals)], leaf.articleId))
+    }
+
+    for (const authored of live) {
+      const row = bank.get(authored.key)
+      if (!row) throw new Error(`${leaf.leaf}: ${authored.key} is not in the bank`)
+      if (!authored.answerOverride && !row.answer) { unanswered += 1; continue }
+      questionBlocks.push(mcqBlock(row, authored, leaf))
+    }
+  }
+
+  const header = `Multiple-choice questions for 101 ISK, from the departmental question books.
+
+${leaves.map((leaf) => `  ${leaf.leaf} — ${leaf.questions.length} questions, ${leaf.concepts.length} concepts`).join('\n')}
+
+Extracted from ${bank.size} distinct questions across thirty question books and
+deduplicated: the same question appears in as many as five of them, and the books
+copy each other freely. Every item carries how many times it was asked, which is
+blueprint evidence no single sat paper can give.
+
+Stems, options and answers are the books'. Every per-option explanation is
+authored: a student who picks a wrong option and is told only that it was wrong
+has learnt nothing, so a distractor's explanation says what would make someone
+pick it.
+
+${excluded} question${excluded === 1 ? ' was' : 's were'} excluded and ${unanswered} held back for having no
+establishable answer. Both stay in the seeds with their reasons rather than being
+deleted — a question dropped silently is one nobody can reconsider.
+
+Status is Draft throughout: these need a faculty reviewer before students sit them.
+
+Generated by scripts/kasr/build-batches.ts.`
+
+  mkdirSync(`${OUT}/concept`, { recursive: true })
+  mkdirSync(`${OUT}/question`, { recursive: true })
+  const conceptFile = `${OUT}/concept/101-ISK-mcq-concepts.md`
+  const questionFile = `${OUT}/question/101-ISK-mcq.md`
+  writeFileSync(conceptFile, batchFile(header, conceptBlocks))
+  writeFileSync(questionFile, batchFile(header, questionBlocks))
+  return { conceptFile, questionFile, concepts: conceptBlocks.length, questions: questionBlocks.length, excluded, unanswered }
+}
+
+const c = concepts()
+console.log(`${c.count} concepts (${c.repeated} repeated across papers) -> ${c.file}`)
+for (const paper of PAPERS) {
+  const w = written(paper)
+  console.log(`${w.count} written questions, ${w.marks} marks -> ${w.file}`)
+}
+
+const m = await mcq()
+if (m) {
+  console.log(`${m.concepts} MCQ concepts -> ${m.conceptFile}`)
+  console.log(`${m.questions} MCQ questions (${m.excluded} excluded, ${m.unanswered} unanswered) -> ${m.questionFile}`)
 }

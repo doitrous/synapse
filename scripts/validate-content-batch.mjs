@@ -15,7 +15,7 @@ import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '..
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
-import { isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
+import { isChoiceFormat, isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
@@ -86,6 +86,56 @@ if (!VALIDATED_KINDS.includes(kind)) {
   process.exit(1)
 }
 
+/**
+ * Fold `--with` siblings in as though already imported.
+ *
+ * Both the question branch and the practical branch resolve concepts against
+ * live state, deliberately — an item pointing at a concept nobody authored is
+ * the failure those checks exist to catch. But a programme authoring concepts,
+ * articles, questions and practicals in one pass has none of them imported yet.
+ *
+ * This started life inside the question branch only, which meant a practical
+ * batch could not be checked against its own sibling concepts at all: 91 errors
+ * on a file whose concepts were sitting in the next directory. One function,
+ * called by both.
+ */
+async function foldInSiblings(concepts, articles, resources) {
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    const kind = detectKind(rows[0] ?? {})
+    for (const row of rows) {
+      const id = row.id?.trim()
+      if (!id) continue
+      if (kind === 'concept') {
+        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
+      }
+      if (kind === 'article' && articles) {
+        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
+      }
+      if (kind === 'resource' && resources) resources.add(id)
+    }
+    notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
+  }
+
+  // An article's `related_concepts` is what puts its ID on the concept record
+  // at import. A concept and an article both waiting to be imported would
+  // otherwise look, to the coverage check, like a concept nothing teaches — so
+  // the same link is made here, from the article side, exactly as the importer
+  // makes it.
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    if (detectKind(rows[0] ?? {}) !== 'article') continue
+    for (const row of rows) {
+      const articleId = row.id?.trim()
+      if (!articleId) continue
+      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean)) {
+        const concept = concepts.get(conceptId)
+        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
+      }
+    }
+  }
+}
+
 if (kind === 'relation') {
   const dir = dirname(file)
   const concepts = []
@@ -141,44 +191,8 @@ if (kind === 'question') {
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
-  // Siblings named with `--with`, folded in as though already imported. Each is
-  // parsed with the same parser and classified by the same detector, so a file
-  // that is not what it claims to be contributes nothing and the question that
-  // depended on it still fails.
-  for (const sibling of alongside) {
-    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
-    const siblingKind = detectKind(siblingRows[0] ?? {})
-    for (const row of siblingRows) {
-      const id = row.id?.trim()
-      if (!id) continue
-      if (siblingKind === 'concept') {
-        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
-      }
-      if (siblingKind === 'article') {
-        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
-      }
-      if (siblingKind === 'resource') resources.add(id)
-    }
-    notes.push(`${sibling}: ${siblingRows.length} ${siblingKind} rows treated as pending import`)
-  }
+  await foldInSiblings(concepts, articles, resources)
 
-  // An article's `related_concepts` is what puts its ID on the concept record
-  // at import. A concept and an article both waiting to be imported would
-  // otherwise look, to the coverage check, like a concept nothing teaches — so
-  // the same link is made here, from the article side, exactly as the importer
-  // makes it.
-  for (const sibling of alongside) {
-    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
-    if (detectKind(siblingRows[0] ?? {}) !== 'article') continue
-    for (const row of siblingRows) {
-      const articleId = row.id?.trim()
-      if (!articleId) continue
-      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((id) => id.trim()).filter(Boolean)) {
-        const concept = concepts.get(conceptId)
-        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
-      }
-    }
-  }
 
 
   const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
@@ -199,7 +213,19 @@ if (kind === 'question') {
     // What a well-formed item looks like depends on its format. A written
     // question has no lettered options at all, and checking it for four of them
     // reported an entire end-of-year paper as sixteen broken questions.
-    if (isWrittenFormat(parseQuestionFormat(values.format))) {
+    //
+    // That fix was half a fix. `matching`, `completion` and `labeling` are not
+    // written formats either, and they have no lettered options and no single
+    // correct letter — so they fell through to the `else` and came back as
+    // "0 options — the contract is 4 to 5" for questions that were entirely
+    // well formed. Fixing one half of a format-aware check and not auditing the
+    // others is how this recurs.
+    //
+    // Their contracts are real and are already checked, by `matchingErrors`,
+    // `completionErrors` and `labelingErrors` through `validateImportRow`
+    // above. What is needed here is only that the option checks do not run.
+    const format = parseQuestionFormat(values.format) ?? 'mcq_single_best'
+    if (isWrittenFormat(format)) {
       // The mark scheme is to a written question what the options are to a
       // single-best-answer one: without it there is nothing to practise
       // against, and `markWritten` scores a part with no points as zero.
@@ -214,7 +240,7 @@ if (kind === 'question') {
         if (!part.prompt.trim()) errors.push(`${where}: part (${part.label}) has no prompt`)
         if (!(part.marks > 0)) errors.push(`${where}: part (${part.label}) is worth no marks`)
       }
-    } else {
+    } else if (isChoiceFormat(format)) {
       // Options and their explanations. An option without an explanation teaches
       // nothing, which is the one thing this content type exists to do.
       const answered = data.answers.filter((answer) => answer.text.trim())
@@ -309,6 +335,7 @@ if (kind === 'practical') {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
   const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  await foldInSiblings(concepts)
 
   const known = new Set(IMPORT_SCHEMAS.practical.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']

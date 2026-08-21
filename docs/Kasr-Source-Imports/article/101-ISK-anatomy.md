@@ -1226,7 +1226,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-0F4A85CDF62557 | CON-MSK-0DC3FA5C012B3D
+CON-MSK-BC95DAE3531583 | CON-MSK-1424177E093253
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: The superficial radial nerve crosses the roof of the snuff box on its way to the dorsum of the hand, beside the beginning of the cephalic vein.
 ART-101-ANA-ELBOW-JOINT: The radial and ulnar arteries begin as the terminal branches of the brachial artery in the cubital fossa, just below the elbow joint.
@@ -1347,7 +1347,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 93 and 94
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-0F4A85CDF62557, exam question "Describe site, formation and branches of the Deep Palmer Arch", 7 marks.
+Notes: Serves concept CON-MSK-BC95DAE3531583, exam question "Describe site, formation and branches of the Deep Palmer Arch", 7 marks.
 ### diagram · Palm outline with both arch surface markings drawn on it, the superficial arch springing from the distal border of the root of the extended thumb and the 4 cm deep arch from the proximal border, with the hook of hamate marked
 Purpose: The two markings differ by one word, distal against proximal, and students transpose them. Drawing both on one palm makes the difference a visible gap rather than a word to remember.
 Priority: strongly helpful
@@ -1364,7 +1364,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas, or purpose-drawn following the department book Fig. 64
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-0DC3FA5C012B3D, exam question "a) boundaries b) contents c) floor d) roof of the anatomical snuff box", 3 marks across four subparts.
+Notes: Serves concept CON-MSK-1424177E093253, exam question "a) boundaries b) contents c) floor d) roof of the anatomical snuff box", 3 marks across four subparts.
 ### diagram · The scaphoid drawn alone with its blood supply entering distally, and a waist fracture drawn across it so the proximal fragment is left without a vessel
 Purpose: The reason snuff-box tenderness matters is a vascular argument about one small bone, and the direction of supply is the whole of it. A single bone with one arrow makes it obvious; the sentence has to be re-derived every time.
 Priority: strongly helpful
@@ -1383,7 +1383,7 @@ Source direction: purpose-drawn, following the department book Fig. 95
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 The interval between the two palmar arches. The department book states it twice and does not agree with itself: describing the superficial arch it says the arch lies 1 cm distal to the deep arch, and describing the deep arch it says the deep arch lies half an inch proximal to the superficial one. Dr. Galal's revision and the VIP Upper Limb book both say half an inch, and half an inch is used here. Both figures are recorded because the department book prints both.
-Contents of the snuff box. Concept CON-MSK-0DC3FA5C012B3D names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
+Contents of the snuff box. Concept CON-MSK-1424177E093253 names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
 Where the snuff box's boundaries are said to lie. The concept describes an anterior and a posterior boundary with the radial styloid as a base. All three Kasr sources describe a lateral and a medial boundary, the radial styloid being part of the floor. The Kasr wording is used.
 ## evidence_gaps
 No Kasr source in this corpus describes the development of the arteries or arches of the hand, or of the carpal bones, so the Development section states nothing.
@@ -1823,3 +1823,753 @@ publishedSections: As above.
 reviewer: No faculty reviewer has seen this yet.
 lastReviewed: Never reviewed.
 questionIds: The questions that test this article are authored in the same pass and are wired from the question side, which is where the importer maintains the link.
+
+---
+
+# Item
+## id
+ART-101-ANA-DEEP-FASCIA
+## title
+Deep fascia
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## primary_node_id
+DIS-ANA-T01
+## related_concepts
+CON-MSK-6CD9FFF51AE9CD
+## related_articles
+ART-101-ANA-MUSCLE-ATTACHMENTS: Deep fascia gives attachment to muscles and forms the intermuscular septa and interosseous membranes they arise from, which is one of the four ways a muscle is anchored.
+ART-101-ANA-AXILLA-BREAST: The clavipectoral fascia is a named sheet of deep fascia with four structures piercing it, and it is the worked example of the first item on this list.
+## aliases
+Fascia | Superficial and deep fascia | Fascia profunda | Functions of deep fascia
+## reading_time
+8
+## summary
+Deep fascia has no function of its own. It has five functions because it makes five things — broad sheets, septa and interosseous membranes, retinacula, the palmar and plantar aponeuroses, and sheaths round big vessels — and the exam question is the list of those five with what each achieves. The trap is the layer above it: superficial fascia has its own six-item list, and answering with insulation and body contour answers the wrong question.
+## sections
+### Definition
+Fascia is a collection of connective tissue under the skin covering the body wall and the limbs. It is of three kinds: superficial, deep and internal.
+
+Superficial fascia is a layer of loose connective tissue lying just deep to the skin, and it is what allows the skin to move more or less freely over the structures beneath. It contains a variable quantity of fat, more in females — abundant in the gluteal region, the anterior abdominal wall and the breast, less in the limbs, and absent in the eyelid, the penis and the scrotum.
+
+Deep fascia is a different tissue answering a different job. It is a non-elastic membrane formed of compact, regular collagen fibres. Its distribution is uneven and the sources state the unevenness as fact to be learnt: it is well defined in the limbs, very strong and thick in the palm and the sole, and absent in the face and in the anterior wall of the abdomen.
+
+Internal fascia is named as the third kind and then never described. That is the source's own silence and it is recorded here rather than filled in.
+
+### Mechanism
+The two layers differ in tissue, and everything else follows from that.
+
+Superficial fascia is loose and fatty. Loose tissue permits movement, so the skin slides. Fat is a poor conductor, so the layer insulates and smooths the contour. A loose fatty layer is also the easiest medium for small vessels and nerves to travel through on their way to the skin, and it is roomy enough to carry structures of its own — the muscles of facial expression, and the mammary gland.
+
+Deep fascia is compact, regular and inelastic. A sheet that will not stretch can only work by being anchored at both ends, and everything deep fascia does is a consequence of that. It holds things where they are put. So the question the department asks is not "what does deep fascia do" in the abstract; it is "what does deep fascia form", because each thing it forms is a differently anchored inelastic sheet doing a differently shaped version of the same job.
+
+That gives the five items, and it is worth reading them as one idea rather than five. A sheet wrapped round a group of muscles fixes the structures inside it and, by tightening when those muscles contract, squeezes the deep veins and helps venous return. The same sheet sent inwards from its deep surface to bone becomes an intermuscular septum, which walls one functional group of muscles off from another and adds a new surface for them to arise from. Thickened locally into a transverse band at a wrist or an ankle it becomes a retinaculum, and the tendons crossing under it cannot bowstring away from the bone. Thickened over a whole palm or sole it becomes an aponeurosis protecting what lies beneath it. Wrapped round a vessel rather than a muscle it becomes a sheath.
+
+### Key determinants
+The answer to the question the paper asks is a list of five, each named by what the fascia forms and completed by what that achieves. This is the department book's own order.
+
+Broad sheets around groups of body muscles. These fix the underlying structures in position, give attachment to muscles, and help venous return.
+
+Intermuscular septa and interosseous membranes. These separate muscle groups that differ in action and in nerve supply, and they increase the surface area available for muscle attachment.
+
+Retinacula — localised transverse thickened bands of deep fascia around the wrist and the ankle joints, which keep the tendons in position.
+
+The palmar aponeurosis in the palm and the plantar aponeurosis in the sole. These are very thick, strong layers, and they protect the vessels, nerves and tendons lying underneath.
+
+Fibrous sheaths around big vessels. The named example is the carotid sheath in the neck, which contains the common carotid artery, the internal jugular vein and the vagus nerve.
+
+Beside it sits the other layer's list, which the same examiner can ask in the same question, and which is six items long rather than five. Superficial fascia prevents heat loss, acting as a thermal insulator; softens and smooths the body surface; facilitates movement of the skin over underlying structures; acts as the medium conducting nerves, blood vessels and lymphatics to the skin; contains skin muscles, as in the face; and contains special glands, such as the mammary gland.
+
+Two closed lists, five and six, on two layers named in one sentence. Which layer the question names is the whole of the reading comprehension.
+
+### Clinical significance
+The department book gives deep fascia one clinical consequence and it is the important one: the arrangement of the deep fascia often explains the path an infection takes when it spreads from its primary site. The book's own example is the neck, where infection can spread from the floor of the mouth to the larynx. An inelastic sheet that will not let pus out sideways directs it along the plane instead, so knowing where the sheets run is knowing where an abscess will appear.
+
+The other three clinical statements in the chapter belong to the superficial layer, and they are worth holding because they are what a surgeon uses. Accumulation of fluid in the superficial fascia is oedema. Good mobilisation of the skin after a skin incision happens at the plane of the superficial fascia, which is the plane a surgeon lifts in. And a surgical incision made along a skin crease heals with minimal scar.
+
+### Common misconceptions
+Answering with the functions of superficial fascia is the single commonest way this question is lost. Insulation, smoothing the body contour and conducting vessels to the skin are true, examinable and belong to the other layer. Deep fascia is the layer the paper asked about.
+
+Deep fascia is not everywhere. It is well defined in the limbs, strong and thick in the palm and sole, and absent in the face and in the anterior abdominal wall — which is exactly why the muscles of facial expression can insert into skin and why the anterior abdominal wall can distend.
+
+A retinaculum is not a separate structure that happens to lie on fascia. It is deep fascia, thickened locally into a transverse band. The same is true of the palmar aponeurosis and of the carotid sheath: the list is five products of one membrane, not five different tissues.
+
+The list is a list of things formed, not a list of abstract functions. An answer that says deep fascia "supports", "protects" and "separates" without naming the sheet, the septum, the retinaculum, the aponeurosis and the sheath has given the adjectives and left the marks on the page.
+## hold_these
+Fascia is a collection of connective tissue under the skin covering the body wall and limbs, and it is of three kinds: superficial, deep and internal.
+Deep fascia is a non-elastic membrane of compact, regular collagen fibres, well defined in the limbs, very strong and thick in palm and sole, and absent in the face and the anterior abdominal wall.
+Deep fascia forms broad sheets around muscle groups, which fix underlying structures, give muscle attachment and help venous return.
+Deep fascia forms intermuscular septa and interosseous membranes, separating muscle groups of different action and nerve supply and increasing the area for attachment.
+Deep fascia forms retinacula, localised transverse thickened bands at wrist and ankle that keep the tendons in position.
+Deep fascia forms the palmar and plantar aponeuroses, thick strong layers protecting the vessels, nerves and tendons beneath.
+Deep fascia forms fibrous sheaths around big vessels — the carotid sheath holds the common carotid artery, the internal jugular vein and the vagus nerve.
+Superficial fascia is loose connective tissue with a variable quantity of fat, abundant in gluteal region, anterior abdominal wall and breast, and absent in eyelid, penis and scrotum.
+The six functions of superficial fascia are thermal insulation, smoothing the body surface, allowing skin movement, conducting nerves and vessels to the skin, containing the facial muscles, and containing glands such as the mammary gland.
+Knowledge of the deep fascial planes explains how infection spreads — the book's example is from the floor of the mouth to the larynx.
+## lose_the_mark
+Giving the functions of superficial fascia when the question names deep fascia. Insulation, body contour and conduction of vessels to the skin are the other layer's six-item list.
+Naming abstract functions — support, protection, separation — instead of the five structures the fascia forms. The mark is on sheet, septum, retinaculum, aponeurosis and sheath.
+Dropping venous return from the first item. It is the least obvious of the three things a broad sheet achieves and the one most often left out.
+Listing the carotid sheath without its three contents. The common carotid artery, internal jugular vein and vagus nerve are what makes it an answer.
+Calling deep fascia elastic. Both Kasr sources say non-elastic, and the inelasticity is why it can hold anything in place.
+Forgetting that deep fascia is absent in the face and the anterior abdominal wall. Those two absences are stated in the same sentence as the distribution and are examinable.
+Treating a retinaculum or an aponeurosis as a structure separate from deep fascia. Each is deep fascia locally thickened.
+## image_recommendations
+### diagram · The five products of deep fascia on one plate, panel per item — a limb cross-section showing the encircling sheet with its intermuscular septa reaching bone, a wrist with the retinaculum holding tendons down, a palm with the palmar aponeurosis, and a neck cross-section with the carotid sheath and its three contents labelled
+Purpose: The answer is a five-item list whose items are five differently shaped versions of one membrane. Five panels make the count reproducible and make visible that each is the same tissue in a different arrangement, which is the point prose has to argue for.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's own unlabelled figures on Anatomy page 113, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-6CD9FFF51AE9CD, whose exam question asked for the functions of deep fascia.
+### diagram · Transverse section through a limb with skin, superficial fascia carrying fat and a cutaneous nerve and vein, deep fascia as a distinct encircling line, intermuscular septa running from its deep surface to bone, and the muscle compartments each septum creates tinted separately
+Purpose: The two layers are told apart by position and tissue, and a student who has only read the definitions cannot say which line on a cross-section is which. One section labelled through its whole depth settles it and also shows why a septum divides a compartment.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### comparison table · Superficial fascia against deep fascia in two columns — tissue, distribution, fat content, what it forms, functions — with the six-item and five-item lists set side by side
+Purpose: The commonest error is answering the wrong column. Setting the two lists beside each other converts a memory failure into a reading decision, which is the form the examiner's question actually takes.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Common misconceptions
+Source direction: purpose-drawn from the department book Anatomy pages 112-114 and the Kasr past-question summary page 28
+Rights: newly drawn for this product
+## conflicts
+Where the palmar and plantar aponeuroses sit in the list. The department book and the VIP Academy revision both give them as a separate fourth item. The Kasr past-question summary gives the same five items in the same order, so all three agree; nothing here is contested. Recorded because the item is sometimes folded into "broad sheets" in other textbooks, which would give a four-item answer against this faculty's five.
+## evidence_gaps
+Internal fascia is named as the third kind of fascia by both the department book and the VIP Academy revision, and neither describes it. Nothing is said about it here beyond that it is named.
+No source states the thickness, tensile strength or fibre orientation of deep fascia in any region, so the account of why an inelastic sheet holds structures in place is reasoning from the stated tissue rather than a quoted mechanism. It is named in field_notes.
+Neither source explains the mechanism by which a fascial sheet aids venous return. The statement that it does is quoted; the muscle-pump account of how is not in either source and is not given here.
+No source names a compartment syndrome, or any consequence of an inelastic sheet enclosing a swelling limb, although the septa and compartments are described. It is a genuine gap in the chapter rather than an omission here.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, chapter 2 "Fascia", PDF pages 112-114 — the three kinds of fascia, superficial fascia with its fat distribution and six functions, deep fascia with its five parts and functions, and the four applied statements. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy revision book "Module 101 - Basis of Human Anatomy" (src_8054875331d47d3f225a), page 8, topic "Superficial and deep fascia" — the same three kinds, the same six and five item lists, and the same three clinical notes. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 28, "Model answer: superficial and deep fascia compared" — the two lists set out as the model answer to a past paper, with the same five deep-fascia items in the same order.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Fascia" is one of the named basis topics, and the basis short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-MSK-6CD9FFF51AE9CD carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The argument that each of the five products is one inelastic membrane anchored differently is this article's own organising claim, written to make a five-item list derivable rather than memorised. The five items and their stated effects are the sources'; the connective reasoning between them is not, and neither source offers a mechanism.
+sections.Common misconceptions: The link drawn between the absence of deep fascia in the face and the insertion of facial muscles into skin is reasoning across two chapters of the same book — the fascia chapter states the absence, the muscular chapter states the skin insertion — and neither states the connection.
+## notes
+The examinable core of this leaf is two closed lists that a student can reproduce onto the wrong layer. The article is built around that failure: the two lists are given in full in Key determinants, and the misconception section names the confusion outright rather than trusting the reader to notice it.
+
+---
+
+# Item
+## id
+ART-101-ANA-FERTILIZATION
+## title
+Fertilization
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-F33BB68138377B
+## related_articles
+ART-101-ANA-EMBRYONIC-FOLDING: Folding is the event of the fourth week; fertilization is where the same embryo's first week starts, and the zygote formed here is what cleaves, migrates and implants.
+ART-101-ANA-DECIDUA: The endometrium the migrating embryo implants into becomes the decidua, and its three parts are named from the position of the conceptus this article ends with.
+## aliases
+Fertilisation | Capacitation | Acrosomal reaction | Formation of the zygote
+## reading_time
+9
+## summary
+Fertilization is asked as three things — where, how, and what results — and the "how" is a fixed sequence of four named steps, capacitation followed by three numbered phases. Each phase is a barrier crossed: the corona radiata, then the zona pellucida, then the oocyte's own cell membrane. What happens after the last barrier is a separate list, and the block to polyspermy in it is chemical, not mechanical.
+## sections
+### Definition
+Fertilization is the process by which the sperm and the ovum unite to form a zygote.
+
+The site is the ampullary part of the uterine tube, its lateral third. That is one word in an answer and it is asked by name, because the site explains everything that follows: an embryo fertilised in the lateral third of the tube has to travel the length of the tube before it can implant, and it spends the rest of the first week doing so.
+
+The process has four named steps, and they are numbered in every Kasr source in the same order. Capacitation comes first and is not one of the three phases. Then phase I, dispersion of the corona radiata. Then phase II, penetration of the zona pellucida, which is the acrosomal reaction. Then phase III, opening of the cell membrane of the oocyte.
+
+### Mechanism
+Capacitation is the removal, in the female genital system, of the glycoprotein coat covering the acrosomal region of the sperms. It takes about seven hours. Nothing about the sperm's own equipment changes; what changes is that the equipment is uncovered, and a sperm that has not been capacitated cannot fertilise.
+
+Phase I is dispersion of the corona radiata. Of the two to three hundred million sperms in an ejaculate, only three to five hundred reach the ovum. Those release hyaluronidase, which opens passages between the corona cells, and the sperms pass between them.
+
+Phase II is penetration of the zona pellucida, and it is where the sperm becomes selective. Sperms are drawn to the zona by specific receptors — binding sites on the zona for the sperm head. Binding triggers the acrosomal reaction: the acrosomal cap releases acrosin and trypsin-like material, which dissolve a path through the zona, and the tail propels the one sperm along it until its head reaches the cell membrane of the secondary oocyte.
+
+Phase III is opening of the cell membrane of the oocyte. The cell membranes of the fertilising sperm head and of the oocyte fuse and then open. The sperm's contents pass into the oocyte cytoplasm — the nucleus, the mitochondrial sheath of the middle piece, and the axial filament. The sperm's own cell membrane is left behind on the outer surface of the oocyte, which is a detail the sources state explicitly and examiners like, because it is the answer to how a sperm gets in without bringing its membrane with it.
+
+Three events follow, and they follow in order.
+
+The cortical and zona reaction prevents polyspermy. Cortical granules lying just inside the oocyte's cell membrane release lysosomal enzymes. Those enzymes change the structure of the sperm receptors in the zona pellucida so that it stops attracting more sperms, and they make the cell membrane and the zona impenetrable to any other sperm. The block is a chemical alteration of receptors, not a thickening or a hardening.
+
+The secondary oocyte then completes the second meiotic division, which it had been arrested in. That gives the nucleus of the ootid — the mature ovum — and the second polar body, each with twenty-three chromosomes. The ootid nucleus matures into the female pronucleus.
+
+The sperm nucleus enlarges to become the male pronucleus, the two pronuclei come into contact, and their nuclear membranes fuse to form the nucleus of the zygote.
+
+### Key determinants
+Two closed lists carry the marks, and both are four items long.
+
+The steps, in order: capacitation of sperms; phase I, dispersion of the corona radiata cells; phase II, penetration of the zona pellucida, the acrosomal reaction; phase III, opening of the cell membrane of the oocyte.
+
+The results, in order: formation of the zygote; determination of the sex of the zygote, male XY or female XX according to the type of the fertilising sperm; restoration of the diploid number of chromosomes, forty-six from two haploid sets of twenty-three; and the start of cleavage and migration from the site of fertilization to the site of implantation in the uterine cavity.
+
+The department's own numbers are worth holding with them. Capacitation takes about seven hours. Three to five hundred sperms out of two to three hundred million reach the ovum. The diploid number is forty-six and the haploid twenty-three.
+
+What the last result opens onto is the rest of the week, and it is the same list continued. The zygote divides mitotically inside the zona pellucida into smaller blastomeres — two on day one, four on day two, eight on day three, then sixteen as the morula, then thirty-two and sixty-four. It is carried to the uterine cavity by three things: muscular peristalsis of the tube, moving cilia, and mucus secretion which both facilitates migration and provides nutrition. It reaches the cavity on the fourth day. The zona begins to degenerate at the end of the fifth, uterine fluid passes in and the spaces between the cells fuse into one cavity, the blastocele, and the blastocyst completes its development at the end of the sixth day.
+
+### Clinical significance
+The department book's own applied notes for this chapter are the chapter ILOs rather than clinical statements, and the clinical material that would normally attach here — abnormal sites of implantation, ectopic pregnancy — is carried in the following chapter and in the past-question summary, not in this one. The site of fertilization is nevertheless the anatomical reason ectopic implantation is a tubal problem: the embryo is made in the lateral third of the tube and must complete four days of transit before it reaches a place where implantation is normal.
+
+The one clinical fact this chapter does carry is the seven-hour requirement for capacitation, which is why a sperm cannot fertilise an ovum in vitro without being capacitated first.
+
+### Common misconceptions
+Capacitation is not a phase. The sources give capacitation and then three numbered phases, and a student who counts three steps has lost the first one. Where the question asks for the mechanism, the answer starts before phase I.
+
+The block to polyspermy is not mechanical. It is the cortical and zona reaction: lysosomal enzymes from the cortical granules alter the sperm receptors of the zona and make the membrane and zona impenetrable. Writing that the zona simply becomes too thick or too hard misses the whole of the mechanism the examiner asked for.
+
+The sperm does not bring its cell membrane in. In phase III the two membranes fuse and open, the contents pass in, and the sperm's membrane stays on the outer surface of the oocyte.
+
+The second meiotic division is not completed before fertilization. The oocyte fertilised is a secondary oocyte, and it completes the second meiotic division only after the sperm contents are inside, producing the mature ovum and the second polar body.
+
+Fertilization does not by itself produce an embryo with a determined sex "later". Sex is determined at fertilization, by which sperm arrives, and it is one of the four stated results.
+## hold_these
+Fertilization is the union of sperm and ovum to form a zygote, and its site is the ampullary part of the uterine tube, its lateral third.
+Capacitation is removal of the glycoprotein coat from the acrosomal region of the sperm in the female genital tract, and it takes about seven hours.
+Phase I is dispersion of the corona radiata by hyaluronidase, by the 300-500 sperms that reach the ovum out of 200-300 million.
+Phase II is penetration of the zona pellucida — binding at zona sperm receptors, then release of acrosin and trypsin-like enzymes from the acrosomal cap.
+Phase III is fusion and opening of the cell membranes of sperm and oocyte, the sperm contents passing in and the sperm membrane staying outside.
+The cortical and zona reaction prevents polyspermy by lysosomal enzymes from cortical granules altering the zona's sperm receptors.
+After sperm entry the secondary oocyte completes the second meiotic division, forming the mature ovum and the second polar body.
+The male and female pronuclei fuse to form the nucleus of the zygote.
+The four results of fertilization are formation of the zygote, determination of sex, restoration of the diploid number of 46 chromosomes, and the start of cleavage and migration.
+The embryo reaches the uterine cavity on the fourth day and the blastocyst is complete at the end of the sixth.
+## lose_the_mark
+Counting three steps instead of four. Capacitation comes before phase I and is a step in its own right.
+Explaining the block to polyspermy as the zona thickening or hardening. It is the cortical and zona reaction, altering the sperm receptors chemically.
+Writing that the whole sperm enters the oocyte. The nucleus, mitochondrial sheath and axial filament enter; the cell membrane is left outside.
+Saying the ovum completes meiosis before the sperm arrives. It is a secondary oocyte at fertilization and completes the second meiotic division afterwards.
+Giving the site as the uterine tube without saying which part. The answer is the ampulla, the lateral third.
+Listing the mechanism and stopping. The question asks site, mechanism and results, and the results are their own four-item list.
+Naming hyaluronidase as the enzyme of phase II. Hyaluronidase disperses the corona radiata in phase I; acrosin and the trypsin-like enzymes cross the zona in phase II.
+## image_recommendations
+### diagram · The three phases of fertilization as three panels through the same ovum, each panel showing one barrier being crossed — sperms dispersing corona radiata cells in the first, a single sperm cutting a path through the zona pellucida with the acrosomal cap opening in the second, and the two plasma membranes fusing with the sperm membrane left outside in the third
+Purpose: The mechanism is a sequence of three barriers at three depths, and the examinable detail in phase III — that the sperm membrane stays outside — is a spatial fact that a sentence states and a drawing proves. Three panels also make the step count visible, which is where the marks are lost.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 2.2 on Anatomy page 68, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-F33BB68138377B, whose exam question asked for the site, mechanism and results of fertilization.
+### diagram · The cortical and zona reaction — cortical granules lying inside the oocyte membrane discharging their lysosomal enzymes into the perivitelline space, with the zona's sperm receptors drawn altered and a second sperm turned away
+Purpose: The pitfall this article exists to correct is that students imagine a mechanical barrier. A figure that shows granules discharging and receptors changing states the chemistry in the one form that displaces the wrong mental picture.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 2.3 on Anatomy page 69
+Rights: newly drawn for this product, or CC-BY
+### diagram · Sagittal outline of uterus and uterine tube with the site of fertilization marked in the ampulla, and the day-by-day journey drawn along the tube — 2 cells, 4 cells, 8 cells, morula at the uterotubal junction, entry to the cavity on day 4, blastocyst on day 6
+Purpose: Site and timetable are one fact, not two: the cell counts are dated because the embryo is travelling while it cleaves. A single figure carrying both makes the fourth result of fertilization — the start of cleavage and migration — read as one event.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figures 2.1 and 2.4, Anatomy pages 68 and 70
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the sperm's middle piece is described as a mitochondrial sheath or as the middle piece. The department book says the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte; the VIP Academy embryology revision says the nucleus, middle piece and axial filament. These name the same structure and both are given, the department book's wording first.
+## evidence_gaps
+No Kasr source states how long fertilization itself takes, nor how long the ovum remains fertilisable after ovulation, although both are standard figures elsewhere. No number is given here.
+No Kasr source names the zona protein the sperm binds to, nor the receptor on the sperm head. The sources say "specific receptors" and "binding sites", and this article says no more than that.
+No Kasr source explains why the sperm's mitochondria, having entered the oocyte, do not contribute to the embryo. The entry of the mitochondrial sheath is stated; its fate is not.
+The department book's chapter carries no applied or clinical note of its own beyond the chapter ILOs, so the clinical section of this article is thin by the source's own measure and says so.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 2 "First Week of Development", PDF pages 68-71 — the definition and site of fertilization, capacitation, the three phases, the cortical and zona reaction, the pronuclei, the four results, cleavage, migration and formation of the blastocyst, with Figures 2.1 to 2.5. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 8, topic "Fertilization" — the same four steps with the same numbers, the same three post-entry events and the same four results. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 21, "Model answer: fertilization and chorion" — the model answer to a past paper, giving definition, site, the four steps, the events after sperm entrance and the results.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-F33BB68138377B carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Definition: The observation that the site of fertilization explains the length of the first week's journey is this article's own reading of two facts the sources state separately — the ampullary site, and the arrival in the uterine cavity on day four.
+sections.Clinical significance: The connection drawn between the tubal site of fertilization and ectopic implantation is general embryological knowledge. The department book's first-week chapter carries no clinical statement; abnormal sites of implantation are covered in its next chapter and in the past-question summary, and neither makes this connection in these words.
+sections.Clinical significance: The remark that a sperm must be capacitated before it can fertilise in vitro is general knowledge, added to give the seven-hour figure a use. No Kasr source mentions in-vitro fertilisation.
+## notes
+The three Kasr sources agree in wording as well as in content on this chapter, to the point of using the same phase numbering and the same two counts. The article follows the department book's order throughout and records the single wording difference in conflicts.
+
+---
+
+# Item
+## id
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## title
+Chorionic villi and the anomalies of the placenta
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## primary_node_id
+DIS-EMB-T02
+## related_concepts
+CON-DEV-E099FAA01BEAEB | CON-DEV-723B31B1B9ED2E
+## related_articles
+ART-101-ANA-DECIDUA: The two parts of the chorion are named against the two parts of the decidua they face — frondosum against basalis, laeve against capsularis — so the two articles are two halves of the same section.
+ART-101-ANA-FERTILIZATION: The chorion carrying these villi is the wall of the vesicle the fertilised ovum has become by the end of the second week.
+## aliases
+Chorionic villi | Primary secondary and tertiary villi | Chorion frondosum and chorion laeve | Placental anomalies | Placenta praevia
+## reading_time
+12
+## summary
+One leaf carries two questions the department asks separately. The first is developmental: a villus passes through three stages, and each stage is named for one thing added to its core — cytotrophoblast, then mesoderm, then vessels. The second is a classification: placental anomalies grouped by position, shape, number, cord attachment, diameter and infiltration. Both are lists, and both are lost by dropping an item rather than by getting one wrong.
+## sections
+### Definition
+Chorionic villi are projections of the chorion. The chorion itself is the wall of the chorionic vesicle, formed of three layers named from inside outwards: somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast.
+
+The villi begin to form at the end of the second week and are complete at the end of the third, and they pass through three named types: primary, secondary and tertiary.
+
+The placenta is the temporary organ that the villi and the uterine wall between them build. It is formed by the union of a maternal part, the decidual plate, which is the decidua basalis, and a fetal part, the chorionic plate, which is the chorion frondosum.
+
+An anomaly of the placenta is a departure from that plan, and the department book groups the departures by what has gone wrong: its position, its shape, its number, the attachment of the umbilical cord to it, its diameter, and how deeply it has infiltrated the uterine wall.
+
+### Mechanism
+Take the villus first, because the three stages are one process seen at three moments and the names describe what has just been added.
+
+A primary villus is a core of cytotrophoblast pushing outwards into the overlying syncytiotrophoblast. Nothing but trophoblast is in it. At this stage the villi are separated from one another by lacunar spaces filled with maternal blood. Primary villi begin at the end of the second week.
+
+A secondary villus is a primary villus that somatic extra-embryonic mesoderm has grown into. The core is now mesoderm, surrounded by cytotrophoblast, surrounded by syncytiotrophoblast. This happens at the middle of the third week, and by now the spaces between the villi are called intervillous spaces.
+
+A tertiary villus is a secondary villus in which fetal blood vessels have developed inside the mesodermal core. That happens by the end of the third week, and it is the moment the villus becomes useful: only now is there fetal blood on one side of the barrier and maternal blood in the intervillous space on the other. From inside out a tertiary villus is a core of somatic mesoderm carrying fetal blood vessels, then cytotrophoblast, then syncytiotrophoblast — and the endothelium of those fetal vessels is the innermost of the four layers of the early placental barrier.
+
+Cytotrophoblast cells then penetrate the syncytiotrophoblast and spread out to surround the tertiary villi and the intervillous spaces as the cytotrophoblastic shell.
+
+A tertiary villus has two parts, and they do two different jobs. The stem, or anchoring, villus is the middle part running between the chorion and the decidua basalis; it holds the fetal side to the maternal side. The free, floating or absorbing villi are the side branches given off from the stem, which hang in maternal blood in the intervillous spaces, and they are where the exchange of nutrients and gases happens. Anchoring and absorbing are two names for two structures, not two names for one.
+
+The chorion that carries the villi then divides in two, and it divides according to what each part is pressed against. The part facing the decidua basalis keeps a rich blood supply and its villi thrive: that is the chorion frondosum, the chorionic plate, and it persists as the fetal part of the placenta. The rest of the chorion is covered by the decidua capsularis, its villi degenerate, and it becomes the smooth chorion laeve, which fuses with the deciduae capsularis and parietalis and degenerates.
+
+Now the placenta, and its anomalies. Every group in the classification is a failure of one of the things the normal placenta gets right. Normally it implants in the upper segment of the posterior wall near the fundus — so an anomaly of position is implantation in the lower uterine segment. Normally it is one disc — so anomalies of shape and of number are a disc divided or a disc duplicated. Normally the cord joins it near the centre of the fetal surface — so anomalies of cord attachment are a cord that joins it at the edge, or that does not reach it at all. Normally it is fifteen to twenty-five centimetres across and three centimetres thick — so an anomaly of diameter is a placenta that is thinner and wider. And normally it stops at the decidua basalis — so anomalies of infiltration are a placenta that has grown past it.
+
+### Key determinants
+Two lists carry this leaf, and both are asked as lists.
+
+The chorionic villi. Primary: a core of proliferating cytotrophoblast pushing the syncytiotrophoblast, separated by lacunar spaces, at the end of the second week. Secondary: somatic extra-embryonic mesoderm enters the core, at the middle of the third week. Tertiary: fetal blood vessels appear in that mesoderm, by the end of the third week. Parts of a tertiary villus: the stem or anchoring villus between chorion and decidua basalis, and the free, floating or absorbing villi that branch from it into the intervillous spaces and carry out exchange. Parts of the chorion: chorion frondosum, carrying well developed tertiary villi, facing the decidua basalis, persisting as the fetal part of the placenta; and chorion laeve, smooth, carrying degenerated villi, covered by the decidua capsularis, and degenerating.
+
+The anomalies of the placenta, in the department book's own six groups.
+
+In position. Implantation in the lower uterine segment, which is placenta praevia. The Kasr past-question summary grades it as complete, partial and marginal, and adds a low-lying placenta whose lower edge is within two centimetres of the margin of the internal os. The department book names the group without grading it, and the grading in the concept record differs again — the disagreement is set out in `conflicts`.
+
+In shape. The placenta may be bilobed or trilobed.
+
+In number. A twin placenta, which is two identical placentae with two cords; or an accessory placenta, a smaller separate placenta accompanying the main one.
+
+In attachment of the umbilical cord. Velamentous, where the cord is attached to the placenta through the amniotic membrane; and battledore, where the cord is attached to the margin of the placenta.
+
+In diameter. Placenta membranacea, which is thinner and wider than normal.
+
+In infiltration. Placenta accreta, increta and percreta, in that order of depth, the last infiltrating as far as the covering peritoneum.
+
+### Normal values
+The department's own figures for the normal placenta, which are what the anomalies are departures from. The placenta weighs 500 to 600 grams, is 15 to 25 centimetres in diameter and 3 centimetres thick, and its maternal surface carries 15 to 20 cotyledons. The intervillous spaces hold 150 millilitres of blood, changed three to four times a minute, supplied by 80 to 100 decidual arterioles. Placental septa appear during the fourth and fifth gestational months. The placental barrier thins from four layers to two from the fourth month. Maternal antibodies cross from the fourteenth week, and human chorionic gonadotropin maintains the corpus luteum until the fourth month.
+
+For the villi: they form from the end of the second week to the end of the third, secondary villi appearing at the middle of the third week and tertiary by its end. Three types of villus, three layers in the tertiary villus, two parts of the chorion.
+
+### Clinical significance
+The two anomalies of cord attachment are the ones with a stated consequence, and the department book carries them twice — once under the placenta and once under the umbilical cord. In a velamentous placenta the umbilical vessels run through the amniotic membrane before they reach the placenta, so they are unprotected over that stretch; in a battledore placenta the cord reaches the placenta but joins it at the margin.
+
+Placenta praevia is an anomaly of position and its importance is where it sits: a placenta in the lower uterine segment lies between the fetus and the way out.
+
+Placenta accreta, increta and percreta are a graded problem of separation. A placenta that has infiltrated into or through the myometrium cannot detach cleanly after delivery.
+
+The chorionic villi have their own clinical weight through the tertiary villus, because the tertiary villus is one half of the placental barrier: the barrier is syncytiotrophoblast, cytotrophoblast, somatic mesoderm and fetal vessel endothelium in early pregnancy, and from the fourth month only syncytiotrophoblast and fetal vessel endothelium, thinning as the fetus grows and needs faster exchange. Everything that crosses to the fetus, wanted or unwanted, crosses there.
+
+### Common misconceptions
+A villus with a mesodermal core is not yet tertiary. Mesoderm in the core makes it secondary; it is tertiary only once blood vessels have formed inside that mesoderm. That is the single most reliable way to lose this question, because the two stages differ by one added component and the names do not say which.
+
+Velamentous and battledore are not the same anomaly. Velamentous means the cord runs in through the membranes before reaching the placenta. Battledore means it reaches the placenta but at its edge.
+
+Chorion frondosum and chorion laeve are not two organs. They are the two fates of one chorion, decided by which part of the decidua each faces. Frondosum faces the basalis and lives; laeve is under the capsularis and its villi degenerate.
+
+The anchoring villus is not the exchanging villus. Exchange happens in the free, floating branches that hang in maternal blood; the stem villus is structural.
+
+The book's list of placental anomalies is six groups, not four. Diameter and infiltration are the two most often dropped, and the department book states both.
+## hold_these
+Chorionic villi are projections of the chorion, beginning at the end of the second week and complete at the end of the third.
+A primary villus is a core of cytotrophoblast pushing the syncytiotrophoblast, separated from its fellows by lacunar spaces.
+A secondary villus has somatic extra-embryonic mesoderm in its core, and forms at the middle of the third week.
+A tertiary villus has fetal blood vessels in that mesodermal core, and forms by the end of the third week.
+A tertiary villus from inside out is somatic mesoderm with fetal vessels, cytotrophoblast, then syncytiotrophoblast.
+The stem or anchoring villus runs between chorion and decidua basalis; the free, floating villi branch from it into the intervillous spaces and are where exchange happens.
+Chorion frondosum carries well developed villi, faces the decidua basalis and persists as the fetal part of the placenta.
+Chorion laeve is smooth, carries degenerated villi, is covered by decidua capsularis, and degenerates.
+Placental anomalies are grouped by position, shape, number, cord attachment, diameter and infiltration.
+Velamentous means the cord is attached through the amniotic membrane; battledore means it is attached at the margin of the placenta.
+Placenta accreta, increta and percreta are graded by depth of infiltration, percreta reaching the covering peritoneum.
+The placenta is formed by union of the decidual plate, which is decidua basalis, with the chorionic plate, which is chorion frondosum.
+## lose_the_mark
+Calling a villus tertiary as soon as it has a mesodermal core. Mesoderm alone makes it secondary; vessels in the mesoderm make it tertiary.
+Confusing velamentous with battledore. Velamentous runs in through the membranes; battledore reaches the placenta at its edge.
+Giving four groups of placental anomaly instead of six. Diameter, giving placenta membranacea, and infiltration, giving accreta, increta and percreta, are the two dropped.
+Naming the anchoring villus as the site of exchange. Exchange is in the free, floating villi.
+Writing that chorion laeve carries no villi. It carries degenerated villi, which is why it is smooth.
+Giving the layers of the tertiary villus in the wrong direction without saying which direction. State the order and state whether it is from the core outwards or from the maternal blood inwards.
+Dating secondary villi to the second week. They appear at the middle of the third; only the primary villi begin at the end of the second.
+## image_recommendations
+### diagram · Three chorionic villi side by side in section at the same magnification — primary with a cytotrophoblast core, secondary with mesoderm added, tertiary with vessels in the mesoderm — each layer tinted the same colour across all three panels so the single added component in each step stands out
+Purpose: The examinable distinction is that each stage adds exactly one component to the previous one, and the pitfall is missing which one. Three panels with a consistent colour key make the added element the only thing that changes, which is the argument the prose has to make in words.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figures 4.1 to 4.3 on Anatomy pages 80-86, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-E099FAA01BEAEB.
+### diagram · Coronal section of the pregnant uterus at about eight weeks with the chorion drawn all the way round the vesicle, the part against the decidua basalis labelled chorion frondosum with well developed stem and floating villi, and the rest labelled chorion laeve with degenerating villi under the decidua capsularis
+Purpose: The two parts of the chorion are defined by which part of the decidua each faces, which is a relation in one drawing and a pair of assertions in a sentence. Seeing the whole vesicle at once also shows that they are one membrane with two fates.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figures 4.2 and 4.3
+Rights: newly drawn for this product, or CC-BY
+Notes: The same plate serves ART-101-ANA-DECIDUA, where the three parts of the decidua are the subject and the chorion is the context.
+### diagram · One stem villus drawn whole, running from the chorionic plate to the decidua basalis, with its free floating side branches hanging into an intervillous space filled with maternal blood, the cytotrophoblastic shell drawn where the stem meets the decidua, and the four layers of the early placental barrier called out on one branch
+Purpose: Anchoring and absorbing are two parts of one villus doing two jobs, and the placental barrier is a wall seen in cross-section through one of those parts. A single figure carrying both makes the barrier's four layers a property of the villus rather than a separate list.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figure 6.2 on Anatomy page 95 and Figure 6.4 on page 97
+Rights: newly drawn for this product, or CC-BY
+### diagram · The placental anomalies as a grid, one row per group — position, shape, number, cord attachment, diameter, infiltration — with a small drawing for each named member, so bilobed sits beside trilobed and velamentous beside battledore
+Purpose: The answer is a six-row classification with named members, and the two anomalies students confuse are told apart by where a single line joins a disc. A grid is the shape of the answer and shows the difference in one glance.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figures 6.5 to 6.7 on Anatomy page 98
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-723B31B1B9ED2E.
+## conflicts
+The grading of placenta praevia. Concept CON-DEV-723B31B1B9ED2E, drafted from the exam paper's wording, grades it as parietalis, where the margin lies above the internal os, marginalis, where the margin covers it, and centralis, where the central part covers it. The Kasr past-question summary (src_647a13d829db0d2a6584, page 19) grades it as complete, partial and marginal, and adds a low-lying placenta with its lower edge within two centimetres of the internal os. The department book names the group "in position" and gives no grading at all. This article states all three positions rather than choosing, because the department book — which is the faculty's own source and would normally settle it — is silent, and a student may meet either vocabulary. The concept should be reconciled at the evidence pass with a faculty reviewer.
+Number of anomaly groups. The concept record gives four groups: position, shape, number and cord attachment. The department book gives six, adding diameter and infiltration, and the past-question summary gives the same six. This article teaches six and the concept should be extended to match.
+Spelling of chorion laeve. The department book prints "chorion leave" throughout; the VIP Academy revision and the past-question summary print "chorion laeve". The latter is used here as the standard spelling, and the book's spelling is recorded so a student reading the book is not confused.
+## evidence_gaps
+No Kasr source states the incidence of any placental anomaly, nor the management of any of them. They are taught as a named classification only.
+The department book prints "placenta accreta: placenta infiltrates till the myometrium" and "placenta increta: placenta infiltrates the myometrium", and as printed the two definitions are nearly identical, so the accreta-versus-increta distinction is not clearly drawn by this source. The past-question summary gives the same two phrasings. This article states the three in order of depth and does not invent a sharper distinction than the sources make.
+No Kasr source describes the fate of the villi of the chorion laeve beyond saying they degenerate — no timing, no mechanism.
+No Kasr source states why the villi facing the decidua basalis thrive while those under the capsularis degenerate. The blood-supply account given in Mechanism is reasoning, not a quotation, and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the three types of chorionic villus with their dates, the layers of the tertiary villus, the cytotrophoblastic shell, the stem and free villi, and the two parts of the chorion with the fate of each, with Figures 4.1 to 4.3. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 6 "Fetal Membranes", PDF pages 94-105 — the structure of the placenta, the chorionic and decidual plates, the intervillous spaces, the placental barrier and its thinning, the normal dimensions, and the six groups of congenital anomaly of the placenta, with Figures 6.1 to 6.7.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 3 "Second Week of Development", PDF pages 72-79 — the three layers of the chorion and the three parts of the decidua the chorion is named against.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 20, topic "Chorion and chorionic villi" — the same three villus types with the same dates, the same parts of the tertiary villus and the same two parts of the chorion. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), pages 19 and 21 — "Model answer: amniotic fluid, umbilical cord anomalies and placental abnormalities", which gives the six anomaly groups with the praevia grading recorded in conflicts, and "Model answer: fertilization and chorion", which gives the villi.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: fetal membranes are within the General Embryology scope, whose short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Neither concept on this leaf carries a secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unresolved praevia grading in conflicts is a second reason.
+sections.Mechanism: The explanation that the chorion frondosum thrives because it faces the well vascularised decidua basalis while the laeve degenerates under the capsularis is general embryological reasoning. Every Kasr source states which part faces which decidua and which fate each meets, and none states the causal link between them.
+sections.Mechanism: The paragraph deriving each anomaly group from the corresponding feature of the normal placenta is this article's own organising device. The six groups and the normal figures are both the department book's; pairing them is not.
+## notes
+One article for two concepts, because the department teaches them on one leaf and the second is unintelligible without the first: the anomalies of the placenta are anomalies of an organ whose fetal half is the chorion frondosum this article has just built. The unresolved grading of placenta praevia is the most consequential open question on the leaf and is recorded in conflicts rather than settled here.
+
+---
+
+# Item
+## id
+ART-101-ANA-SHOULDER-SPACES-ROTATION
+## title
+The intermuscular spaces and the rotation of the scapula
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03 | SYS-MSK-T03-S02-M03
+## related_concepts
+CON-MSK-8533FCB18D819B | CON-MSK-04D3ACA71DC025
+## related_articles
+ART-101-ANA-AXILLARY-NERVE: The axillary nerve is what the quadrangular space transmits, and the space is the reason a dislocated shoulder injures that nerve and no other.
+ART-101-ANA-RADIAL-NERVE: The radial nerve leaves the axilla through the lower triangular space, which is where its course as taught in the arm begins.
+ART-101-ANA-AXILLA-BREAST: Serratus anterior forms the medial wall of the axilla, and the long thoracic nerve that supplies it runs on that wall — which is where a radical mastectomy can reach it.
+## aliases
+Quadrangular space | Triangular interval | Upper and lower triangular spaces | Abduction beyond 90 degrees | Scapular rotation
+## reading_time
+11
+## summary
+Two questions from one leaf, and both are answered by naming muscles. The three intermuscular spaces below the shoulder are told apart by which side of the long head of triceps a structure lies on — that one muscle is the medial wall of one space and the lateral wall of another. And abduction beyond ninety degrees is no longer a shoulder-joint question at all: the greater tuberosity has hit the coraco-acromial ligament, and the rest of the movement is the scapula turning, by trapezius and serratus anterior.
+## sections
+### Definition
+Three intermuscular spaces lie just below the shoulder joint, between the muscles that run from the scapula to the humerus. They are named by their shape as seen from behind: one quadrangular space laterally, and two triangular spaces, an upper one medial to it and a lower one — the triangular interval — below and lateral to it. Each has fixed boundaries and its own contents, and the whole of the examinable content is those boundaries and those contents.
+
+Abduction of the arm is a separate question on the same leaf, and it is a question about a range. It is produced by three mechanisms in three ranges: supraspinatus initiates it, the middle or acromial fibres of deltoid continue it to about a right angle, and beyond that the arm is raised by the scapula rotating on the chest wall so that the glenoid cavity comes to face upwards. That third range is the one the paper asks about, and its muscles are trapezius and serratus anterior.
+
+### Mechanism
+The spaces first. Four muscles and one bone make all three, and they are the same four throughout: subscapularis in front and teres minor behind above, teres major below, the long head of triceps running down between them, and the surgical neck of the humerus laterally. Sort them by the long head of triceps and the three fall out at once.
+
+Medial to the long head of triceps is the upper triangular space. Lateral to it, and bounded laterally by bone, is the quadrangular space. Below teres major and lateral to the long head is the lower triangular space. Teres major is what separates the quadrangular space from the lower triangular space, which is why the axillary nerve and the radial nerve — two branches of the same posterior cord, leaving the axilla within a few centimetres of each other — end up in completely different places.
+
+That is the whole logic of the answer, and it also explains the contents. The upper triangular space is small and transmits one vessel only, the circumflex scapular artery, which is on its way round the lateral border of the scapula to the anastomosis on the back of the bone. The quadrangular space transmits the posterior circumflex humeral vessels and the axillary nerve, both heading for the back of the surgical neck of the humerus, which is the space's own lateral boundary. The lower triangular space transmits the radial nerve and the profunda brachii vessels, which are heading down and back into the spiral groove.
+
+Now abduction. The shoulder joint is a ball and socket with a shallow socket, and the department book states what stops it: above the joint, the coraco-acromial ligament stretches between the coracoid process and the acromion to form the coraco-acromial arch, a secondary socket for the head of the humerus. As the arm abducts, the greater tuberosity rises towards that arch. At about a right angle it meets the coraco-acromial ligament and the head can go no further.
+
+Raising the arm above the head therefore has to come from somewhere else, and it comes from the shoulder girdle. The scapula rotates over the chest wall, turning its glenoid cavity to face upwards, and the humerus — still at ninety degrees to the glenoid — is carried up with it.
+
+Two muscles do that rotation, working as a pair on opposite corners of the bone. The upper and lower fibres of trapezius pull on the acromion and the root of the spine; the lower five digitations of serratus anterior pull the inferior angle forwards round the chest wall. The result is a turn, not a slide. Serratus anterior is also the powerful protractor of the scapula and the muscle that fixes it against the chest wall, which is why a scapula whose serratus anterior is paralysed does not merely fail to rotate — it stands away from the chest.
+
+The department book adds a proportion: during abduction of the arm the shoulder joint and the shoulder girdle move simultaneously, in a fixed ratio, every ten degrees of shoulder abduction adding five degrees of upward rotation of the scapula, until ninety degrees, after which the whole remaining movement is scapular rotation. So the scapula is not idle for the first ninety degrees; it is only after ninety that it is doing all of it.
+
+### Key determinants
+The three spaces, each as boundaries then contents. This is the department book's own order and its own wording.
+
+The quadrangular space, laterally. Above: teres minor from behind, subscapularis from in front, and the capsule of the shoulder joint. Below: teres major. Medially: the long head of triceps. Laterally: the surgical neck of the humerus. Contents: the posterior circumflex humeral vessels and the axillary (circumflex) nerve.
+
+The upper triangular space, medially. Above: teres minor from behind and subscapularis from in front. Below: teres major. Laterally: the long head of triceps. Contents: the circumflex scapular artery, and nothing else.
+
+The lower triangular space, the triangular interval, lying just lateral to the long head of triceps and separated from the quadrangular space by teres major. Above: teres major. Medially: the long head of triceps. Laterally: the lateral head of triceps and the shaft of the humerus. Contents: the radial nerve and the profunda brachii vessels.
+
+The muscles of abduction, by range. Supraspinatus initiates abduction, from zero to fifteen degrees; it arises from the medial two-thirds of the supraspinous fossa, inserts into the highest impression on the greater tuberosity, and is supplied by the suprascapular nerve. The middle or acromial fibres of deltoid carry it from fifteen to ninety degrees; deltoid arises by a V-shaped origin from the anterior border of the lateral third of the clavicle, the lateral border of the acromion and the lower lip of the crest of the spine of the scapula, inserts into the deltoid tuberosity, and is supplied by the axillary nerve. From ninety to a hundred and eighty degrees the scapula rotates.
+
+The two rotators, with the attachments and nerve supply the question asks for.
+
+Trapezius arises from the external occipital protuberance and the medial third of the superior nuchal line, from the ligamentum nuchae and the spine of C7, and from the spines of all the thoracic vertebrae and their supraspinous ligaments. It has a U-shaped insertion: upper fibres into the posterior border of the lateral third of the clavicle, middle fibres into the medial border of the acromion and the upper lip of the crest of the spine of the scapula, lower fibres into a rough tubercle on the crest of the spine near its root. It is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4. Its upper fibres elevate the shoulder girdle, its middle fibres retract the scapula, and its upper and lower fibres together rotate the scapula so the glenoid cavity faces upward.
+
+Serratus anterior arises by eight digitations from the outer surfaces of the upper eight ribs, midway between their angles and their costal cartilages, the first digitation being the largest and arising from the first and second ribs. It inserts into the ventral surface of the medial border of the scapula: the first digitation into the superior angle, the second and third fanning out along the whole length of the medial border, and the lower five converging into the inferior angle. It is supplied by the nerve to serratus anterior, the long thoracic nerve, the nerve of Bell, from the roots of the brachial plexus, C5, C6 and C7, which descends vertically on the outer surface of the muscle in the mid-axillary line. It is the main and powerful protractor of the shoulder; its lower five digitations, acting with the upper and lower fibres of trapezius, rotate the scapula so the glenoid cavity looks upwards; it fixes the scapula to the chest wall; and with the scapula fixed it pulls on the ribs in forced inspiration.
+
+### Clinical significance
+Each space is a place where one named structure can be reached, and the clinical consequence of each is the loss of what it transmits. The quadrangular space carries the axillary nerve round the surgical neck of the humerus with the posterior circumflex humeral vessels; that route is why dislocation of the shoulder and fracture of the surgical neck both injure the axillary nerve, and the department book states that the lax lower fold of the shoulder joint capsule bulges into the upper axilla directly related to the axillary nerve and the posterior circumflex humeral artery, and is stretched when the arm is fully abducted. The lower triangular space carries the radial nerve out of the axilla towards the spiral groove.
+
+Paralysis of the two rotators has two named pictures. Paralysis of serratus anterior, which the book states may follow injury of the long thoracic nerve during radical mastectomy, gives winging of the scapula: because the muscle normally fixes the scapula against the chest wall, its inferior angle and medial border project backwards when the patient pushes against resistance. It also gives difficulty in protracting the shoulder girdle and difficulty in raising the arm above the head — the second of those being the failure of rotation this article is about. Paralysis of trapezius leads to shoulder drop.
+
+Paralysis of deltoid, for contrast, gives flattening of the shoulder and loss of abduction from fifteen to ninety degrees — the middle range only, because supraspinatus still starts the movement and the scapular rotators still finish it.
+
+### Common misconceptions
+The long head of triceps is not one boundary in all three spaces. It is the medial boundary of the quadrangular space and the lateral boundary of the upper triangular space. Which side of it a structure lies on is the whole difference between the axillary nerve and the circumflex scapular artery, and an answer that names the muscle without naming the side has said nothing.
+
+Answering "deltoid and supraspinatus" to a question about abduction beyond ninety degrees answers the wrong range. Those two carry the arm to ninety. Beyond it the question is about the shoulder girdle, and the answer is trapezius and serratus anterior.
+
+The arm is not stopped at ninety degrees by muscle weakness or by the capsule. It is stopped by bone against ligament: the greater tuberosity impinges on the coraco-acromial ligament.
+
+The scapula does not start rotating only at ninety degrees. It rotates throughout, five degrees for every ten of shoulder abduction; what changes at ninety is that it becomes the only thing still moving.
+
+The upper triangular space transmits one structure, not two. It is the circumflex scapular artery alone, and adding a nerve to it is a way of turning a correct list into a wrong one.
+## hold_these
+The quadrangular space is bounded above by teres minor behind and subscapularis in front, below by teres major, medially by the long head of triceps and laterally by the surgical neck of the humerus.
+The quadrangular space transmits the posterior circumflex humeral vessels and the axillary (circumflex) nerve.
+The upper triangular space has the same upper and lower boundaries with the long head of triceps laterally, and transmits only the circumflex scapular artery.
+The lower triangular space, the triangular interval, is bounded above by teres major, medially by the long head of triceps and laterally by the lateral head of triceps and the shaft of the humerus, and transmits the radial nerve and profunda brachii vessels.
+The long head of triceps is the medial boundary of the quadrangular space and the lateral boundary of the upper triangular space.
+Teres major separates the quadrangular space from the lower triangular space.
+Supraspinatus abducts 0 to 15 degrees, deltoid's middle fibres 15 to 90, and scapular rotation carries the arm from 90 to 180.
+Abduction is arrested at the shoulder joint because the greater tuberosity impinges on the coraco-acromial ligament.
+Scapular rotation is by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior.
+Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4; serratus anterior by the long thoracic nerve, C5, C6 and C7.
+Serratus anterior is the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
+Every ten degrees of shoulder abduction adds five degrees of upward rotation of the scapula, up to ninety degrees.
+## lose_the_mark
+Naming the long head of triceps as a boundary without saying which side. It is medial in the quadrangular space and lateral in the upper triangular space, and the side is the answer.
+Answering deltoid and supraspinatus for abduction beyond ninety degrees. They act up to ninety; past it the answer is trapezius and serratus anterior.
+Putting a nerve in the upper triangular space. It transmits the circumflex scapular artery only.
+Giving the boundaries of the spaces without the contents, or the contents without the boundaries. The question asks for both, and each space carries marks for each.
+Saying the arm stops at ninety degrees because of the capsule or because deltoid tires. It stops because the greater tuberosity meets the coraco-acromial ligament.
+Naming trapezius without its nerve supply. The motor supply is the spinal root of the accessory nerve, and C3 and C4 are sensory only.
+Attributing scapular rotation to the whole of serratus anterior. It is the lower five digitations that rotate; the muscle as a whole protracts and fixes.
+Forgetting that teres major, not the long head of triceps, separates the quadrangular space from the lower triangular one.
+## image_recommendations
+### anatomy plate · Posterior view of the shoulder region with teres minor, teres major, the long head of triceps and the lateral head of triceps in place and separately tinted, the three spaces outlined and labelled, and the structures passing through each drawn in — circumflex scapular artery in the upper triangular, axillary nerve and posterior circumflex humeral vessels in the quadrangular, radial nerve and profunda brachii in the lower triangular
+Purpose: The three spaces are three windows between the same four muscles, and the answer depends on which side of one muscle each window lies. One plate showing all three at once is the only form in which "medial to the long head" and "lateral to the long head" stop being interchangeable words.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Key determinants
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Figs. 25 and 26 on Anatomy page 177
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-8533FCB18D819B, whose exam question asked for boundaries and contents of the intermuscular spaces.
+### diagram · Four-panel sequence of abduction of the arm from the front — 0, 15, 90 and 180 degrees — with the scapula outlined in each, the glenoid direction arrowed, the muscle acting in that range named on the panel, and the greater tuberosity shown meeting the coraco-acromial ligament in the third
+Purpose: The whole answer is a division of one movement into ranges with a different mechanism in each, and the reason for the division is a bony impingement that happens at one instant. A sequence makes the ranges countable and shows the impingement rather than asserting it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's account of the mechanism of abduction in the Joints chapter, Anatomy pages 270-287
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-04D3ACA71DC025.
+### diagram · The scapula seen from behind with the force couple drawn on it — upper and lower fibres of trapezius pulling at the acromion and the root of the spine, the lower five digitations of serratus anterior pulling the inferior angle forwards — and the resulting rotation of the glenoid arrowed
+Purpose: Two muscles rotating one bone is a mechanical relation between two lines of pull and a centre of turn. Drawing the two pulls on the bone shows why these two muscles and not others, which the list of attachments alone does not.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Fig. 23 on Anatomy page 175 and Fig. 13 in the Muscles of the Back chapter
+Rights: newly drawn for this product, or CC-BY
+### photograph · A patient pushing against a wall with the medial border and inferior angle of one scapula standing away from the chest wall, shown beside the normal side
+Purpose: Winging is a posture produced by a manoeuvre, and both the manoeuvre and the result have to be seen to be recognised in a clinical examination.
+Priority: strongly helpful
+Status: needed
+Kind: photograph
+Section: Clinical significance
+Source direction: openly licensed clinical teaching set, with consent recorded
+Rights: must be CC-BY or public domain, with patient consent recorded
+Notes: The same plate is requested by ART-101-ANA-AXILLA-BREAST for the long thoracic nerve. One sourcing effort serves both.
+## conflicts
+Whether the capsule of the shoulder joint is a boundary of the quadrangular space. The department book includes "and the capsule of the shoulder joint" in the upper boundary; the VIP Academy Upper Limb revision and the Kasr past-question summary give only teres minor behind and subscapularis in front. The department book's fuller wording is used here and the shorter one is recorded, because either would be marked correct and a student may have learnt only three boundaries for that wall.
+The upper limit of deltoid's range. The Shoulder Region chapter of the department book states that deltoid's middle fibres abduct from 15 to 90 degrees; the Joints chapter of the same book states that supraspinatus initiates abduction from 0 to 15 or 18 degrees and that deltoid continues to 90 or 100 degrees. The article gives 15 to 90, which both chapters support, and records that the same book states the wider figures elsewhere.
+## evidence_gaps
+No Kasr source gives a dimension for any of the three spaces, nor a surface marking by which one could be found on a living shoulder.
+The department book does not state what the upper triangular space's small size is due to, nor why it transmits only one vessel. The article states the fact and does not explain it.
+No Kasr source states the nerve supply of trapezius as a root value in the way it does for the limb nerves; the accessory nerve's spinal root is named, and C3 and C4 are given as sensory. Nothing more precise is available and nothing is invented.
+The department book's Muscles of the Back chapter states that the muscles connecting the upper limb with the vertebral column "are supplied by the anterior primary rami of the spinal nerves", while the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve. The book's own inconsistency is recorded here; this article states the accessory nerve, which is what every other source gives.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the six scapular muscles with attachments, nerve supply and actions, serratus anterior in full, winging of the scapula, and the boundaries and contents of the three intermuscular spaces, with Figs. 18 to 26. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 2 "Muscles of the Back", PDF pages 163-168 — trapezius in full, its accessory nerve supply and its three actions including upward rotation of the scapula.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the coraco-acromial arch, the mechanism of abduction, the impingement of the greater tuberosity on the coraco-acromial ligament, the ten-to-five ratio, and the relation of the lax inferior capsule to the axillary nerve.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — long thoracic nerve injury during radical mastectomy and its three consequences.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 30, topic "Triangles related to latissimus dorsi; rotator cuff; quadrangular and triangular spaces" — the same three spaces with the same boundaries and contents. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), pages 3 and 17 — "Model answer: muscles producing abduction of the shoulder girdle beyond 90 degrees", giving trapezius and serratus anterior with attachments, nerve supply and action, and "Model answer: anatomical snuff box, carpal tunnel, cubital fossa, intermuscular spaces and axilla", giving the three spaces as a model answer.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, with four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The device of sorting the three spaces by which side of the long head of triceps each lies on is this article's own, written to make the boundaries derivable rather than memorised. The boundaries themselves are the department book's.
+sections.Mechanism: The remark that the axillary and radial nerves are two branches of the same posterior cord that separate at teres major draws together the Axilla chapter and the Shoulder Region chapter of the same book. Neither chapter makes the point.
+sections.Clinical significance: Grouping deltoid paralysis beside the two rotator paralyses for contrast is this article's arrangement; the three statements are separately the book's own.
+## notes
+Two concepts on one leaf, written as one article because they share the same six muscles and the same figure. A student who has learnt the boundaries of the three spaces has already learnt teres major, teres minor, subscapularis and the two heads of triceps, and the abduction question then adds only trapezius and serratus anterior.

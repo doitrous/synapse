@@ -1,10 +1,19 @@
 /**
  * The 2025 end-of-year paper for 101 ISK, as data.
  *
- * `EOY (ISK - 101) 199` — sixteen questions, eighty-one marks: six in Histology
- * and ten in Anatomy, of which the last two are cases. Written questions
- * throughout; not one multiple-choice item on it, which is what the module's
- * orientation says the paper is.
+ * `EOY (ISK - 101) 199` — sixteen written questions, eighty-one marks: six in
+ * Histology and ten in Anatomy, of which the last two are cases.
+ *
+ * It is NOT the whole paper. At the foot of the Histology section it prints
+ * `+26 MCQ {½ Mark each}` and then not a single one of them, in this copy or
+ * the solved one. So the real paper is 94 marks and this corpus holds 81 of
+ * them; the other thirteen are twenty-six questions nobody here has seen.
+ *
+ * I originally recorded this paper as having no multiple-choice items at all,
+ * in three commit messages and two batch headers, on the strength of the
+ * printed questions all being written ones. The line saying otherwise is one
+ * line, in the middle of a table, five pages in. It was a parallel session
+ * reading the same PDF that caught it.
  */
 import type { Paper, Scheme, Seed, SourceRef } from './types.ts'
 
@@ -15,6 +24,7 @@ export const SOURCE: SourceRef = {
   sittingYear: 2025,
   tier: 'end_of_year',
   sections: ['Histology', 'Anatomy'],
+  incomplete: '26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.',
 }
 
 
@@ -59,10 +69,14 @@ export const SEEDS: Seed[] = [
     q: 4, section: 'Histology', page: 3, marks: 4,
     asked: 'Mention EM of types of Lysosomes.',
     label: 'Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate',
-    key: 'lysosome-types-electron-microscopy',
-    definition: 'A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.',
-    objective: 'Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.',
-    pitfall: 'Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.',
+    // The cluster key. This paper asks the electron-microscopic picture; five
+    // other papers ask the three secondary subtypes by what the primary
+    // lysosome fused with, and the department's own July 2023 model answer
+    // marks exactly that. One objective, asked from either end.
+    key: 'lysosome-types-secondary-fates',
+    definition: 'A primary lysosome is a newly released homogeneous, moderately electron-dense vesicle budded from the Golgi, whose acid hydrolases have not yet acted. Secondary lysosomes are heterogeneous and of three types, named by what the primary lysosome fused with: the heterolysosome, from a phagosome, digesting solid particles, viruses and bacteria; the multivesicular body, from a pinocytic vesicle, with fluid content; and the autolysosome, from an autophagic vesicle, holding a destroyed endogenous substance or a damaged organelle. A residual body is the end state, holding indigestible material.',
+    objective: 'Distinguish primary from secondary lysosomes on electron microscopy, and name the three secondary types by what the primary lysosome fused with.',
+    pitfall: 'Naming the three secondary types and stopping. The department’s own model answer gives half a mark for the name and half for the mechanism of formation, so a list of three names scores half of what it could.',
     subject: 'fnd', primary: 'DIS-HIS-T01', secondary: [],
     modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
     type: 'structural_description',
@@ -167,10 +181,14 @@ export const SEEDS: Seed[] = [
     q: 7, section: 'Anatomy', page: 13, marks: 7,
     asked: 'Describe site, formation and branches of the Deep Palmer Arch.',
     label: 'The deep palmar arch is the radial artery’s termination, lying a finger’s breadth proximal to the superficial arch',
-    key: 'deep-palmar-arch-site-formation-branches',
-    definition: 'The deep palmar arch lies on the bases of the metacarpals deep to the long flexor tendons, about a finger’s breadth proximal to the superficial arch, at the level of the proximal border of the extended thumb. It is formed mainly by the terminal part of the radial artery, completed medially by the deep branch of the ulnar artery. It gives three palmar metacarpal arteries, perforating branches to the dorsal metacarpal arteries, and recurrent branches to the carpal arch.',
-    objective: 'Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.',
-    pitfall: 'Swapping the two arches. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal.',
+    // The cluster key, not a deep-arch-only one: this paper asks the deep arch,
+    // but the 2024 end-of-module and two other papers ask the two arches
+    // together and one asks them as a comparison. A student who knows the deep
+    // arch alone fails those, so it is one objective with two halves.
+    key: 'palmar-arterial-arches-site-formation-branches',
+    definition: 'The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries. The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.',
+    objective: 'Give the site, formation and branches of each palmar arch, and say how the two differ in level, in the artery that mainly forms them, and in what they supply.',
+    pitfall: 'Swapping the two. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal. The faculty asks them as a comparison as often as singly, so knowing one is half an answer.',
     subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-CVS-T01-S01'],
     modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
     type: 'structural_description',
@@ -203,7 +221,9 @@ export const SEEDS: Seed[] = [
     q: 10, section: 'Anatomy', page: 15, marks: 3,
     asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?',
     label: 'The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery',
-    key: 'anatomical-snuff-box-boundaries-contents-floor-roof',
+    // The cluster key. The 2024 paper asks "site and boundaries" and this one
+    // asks boundaries, contents, floor and roof; nine askings, one objective.
+    key: 'anatomical-snuff-box-site-boundaries-contents',
     definition: 'The anatomical snuff box is a triangular hollow on the lateral wrist. Its anterior boundary is the tendons of abductor pollicis longus and extensor pollicis brevis; its posterior boundary is the tendon of extensor pollicis longus; its base is the styloid process of the radius. Its floor is the scaphoid and trapezium with the base of the first metacarpal and the styloid process of the radius, and its roof is skin and fascia crossed by the cephalic vein and the superficial branch of the radial nerve. Its contents are the radial artery and the beginning of the cephalic vein.',
     objective: 'Give the boundaries, contents, floor and roof of the anatomical snuff box.',
     pitfall: 'Giving abductor pollicis longus and extensor pollicis brevis as two separate boundaries. They form the anterior boundary together, and the posterior boundary is extensor pollicis longus alone.',

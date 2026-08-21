@@ -26,53 +26,57 @@ not just the last, and the answer distribution among intact questions is even
 That matters because it means these are recoverable by re-reading the cached page
 text rather than by re-running OCR: no page is re-rendered here.
 
-That is 101 ISK's cause. 104 CPS loses options for a different reason, and the
-same resolver covers both — see MODULE_WATERMARK and MANGLED below.
-
-    python3 scripts/kasr/extract/repair-options.py [--module "104 CPS"]
-                                                   [--dry-run | --self-test]
+    python3 scripts/kasr/extract/repair-options.py [--dry-run | --self-test]
 """
 import json
 import os
 import re
 import sys
 
-from kasr_module import DEFAULT_MODULE, out_path, parse_module
+HERE = os.path.dirname(os.path.abspath(__file__))
+BANK = os.path.join(HERE, "mcq-bank.json")
+PAGETEXT = os.path.join(HERE, "pagetext")
 
-MODULE = DEFAULT_MODULE
-BANK = out_path(MODULE, "mcq-bank.json")
-PAGETEXT = out_path(MODULE, "pagetext")
-
-# The watermark, per module, because it is a property of a publisher and not of
-# the format.
+# Watermarks are a property of a PUBLISHER, not of the format.
 #
-# 101's is "ViP Academy" set rotated across the page, and pdftotext lays its
-# glyphs down wherever they fall — so it arrives not as one token but as
-# fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`, sometimes split across two lines
-# mid-word. Matched only as whole tokens, so a real word ending in "ad" survives.
+# 101's question books are watermarked "ViP Academy", set rotated across the
+# page, and `pdftotext` lays its glyphs down wherever they fall — so it arrives
+# not as one token but as fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`,
+# sometimes split across two lines mid-word. Stripping those recovers 505
+# options here.
 #
-# 104 has no watermark: `ViP`, `VIP` and `Vi` appear zero times in all 46 of its
-# cached sources. Running 101's pattern over it anyway is not harmless — it
-# matches 167 real tokens, and in a cardiopulmonary corpus the two commonest are
-# exactly the ones that matter: `P` is the P wave and `y` is the y descent.
-# `a- P-wave.` would be stripped to `a- -wave.` and `d- The normal P50 for human
-# is 27mmHg` to `d- The normal 50 …`. So 104's watermark is None, and None means
-# the line is passed through untouched.
-MODULE_WATERMARK = {
+# Applied to a corpus that is NOT watermarked, the same list is destructive and
+# silent:
+#
+#   "It is initiated by the P wave of the ECG"  ->  "the  wave of the ECG"
+#   "The normal P50 for human is 27 mmHg"       ->  "The normal 50 for human"
+#   "The y descent follows the v wave"          ->  "The  descent follows"
+#
+# Each still parses, still reads as English, and is now wrong — and the damage
+# is indistinguishable from a source that never said it. A parallel module
+# measured 146 fragment matches across 46 sources and not one real watermark
+# token: `P` was the P wave, P50 and PaO2; `y` was the y descent.
+#
+# So it is a per-corpus table, and `None` is a real value meaning "this corpus
+# has no watermark; pass every line through untouched". A corpus not listed
+# here gets `None`, because assuming a watermark that is not there deletes
+# content while assuming none that is there merely fails to recover it. The
+# first is silent and the second is visible in the option counts.
+WATERMARKS: dict[str, "re.Pattern[str] | None"] = {
+    # Kasr Al Ainy 101 ISK: ViP Academy, rotated overlay.
     "101 ISK": re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])"),
+    # Kasr Al Ainy 104 CPS: checked, and deliberately None rather than absent —
+    # a corpus someone has looked at is a different fact from one nobody has.
+    # `ViP`/`VIP`/`Vi` appear zero times in all 46 of its sources. Its EOM scans
+    # do carry a `DOCTOR HOUSE` overlay, 15 tokens in one file, and it is left
+    # alone on purpose: it never lands on an option label, and stripping
+    # `DOCTOR` or `HOUSE` as whole tokens would delete the words themselves
+    # wherever a paper uses them. An overlay is only worth removing where it
+    # breaks a parse.
     "104 CPS": None,
 }
-WATERMARK = MODULE_WATERMARK[DEFAULT_MODULE]
 
-# The glyphs tesseract puts where an option label should be. Measured across
-# 104's eighteen OCR'd sources rather than guessed.
-#
-# They are only ever read as "a label is here". Which letter it is comes from
-# `resolve`, from the label's place in the sequence, because these glyphs are
-# ambiguous by shape — `0` stands in for `d` in the histology papers and `6` for
-# `b`, and mapping either by its shape would file an option under the wrong
-# letter. The answer key is by letter, so wrong-letter is worse than missing.
-MANGLED = "06¢©®€@"
+DEFAULT_MODULE = "101 ISK"
 
 # `a- text`, `a. text`, `a) text`, with any indent.
 #
@@ -81,14 +85,17 @@ MANGLED = "06¢©®€@"
 # `Vi    a- Subclavian vein.` — and an anchored parse skips the option
 # entirely rather than erroring. Which is why options went missing from every
 # letter position and not just the last.
-OPTION = re.compile(r"^[^A-Za-z]*(?:[A-Za-z]{1,3}\s+)?\(?([a-eA-E]|[" + MANGLED +
-                    r"])\s*[-.,)]\s+(\S.*)$")
-# A stem ends on a colon or a question mark; an option does not. The one place
-# that distinction is load-bearing is a mangled label at the head of a block:
-# `@) Regarding the heart; mark the correct statement:` is a question whose
-# NUMBER the scan destroyed, and reading it as this block's option A would put
-# the next question's stem inside the previous question.
-STEM_TAIL = re.compile(r"[:?]\s*$")
+# The glyphs a scan puts where an option label should be, measured across one
+# module's eighteen OCR'd sources rather than guessed: `6`x29, `0`x25, `©`x8,
+# `¢`x3, `@`x1. They are only ever read as "a label is here" — which letter it
+# is still comes from position, never from the shape.
+MANGLED = "06¢©®€@"
+
+# The comma is a separator too — `a, It has low electric resistance…` runs to
+# 78 lines in one physiology book alone, and without it every one of those
+# options is invisible rather than merely mislabelled.
+OPTION = re.compile(r"^[^A-Za-z]*(?:[A-Za-z]{1,3}\s+)?\(?([a-eA-E]|[" + MANGLED
+                    + r"])\s*[-.,)]\s+(\S.*)$")
 # `23-`, `23.`, `23)`, `Q23.` — where the next question starts.
 NUMBER = re.compile(r"^\s*(?:Q(?:uestion)?\s*)?(\d{1,3})\s*[-.)]\s*\S")
 
@@ -100,7 +107,13 @@ NUMBER = re.compile(r"^\s*(?:Q(?:uestion)?\s*)?(\d{1,3})\s*[-.)]\s*\S")
 # label is, they are resolved by position: labels run in order, so a mangled one
 # following `c` is `d`. Guessing by shape would put an option under the wrong
 # letter, which is worse than dropping it, because the answer key is by letter.
+# A comma is a separator here too — `a, It has low electric resistance…` runs to
+# 78 lines in one physiology book alone.
 INLINE = re.compile(r"(?<=\s)([a-e" + MANGLED + r"])\s*[-.,]\s+(?=[A-Z(])")
+
+# How a question's stem ends: the punctuation that introduces its options. A
+# mangled label carrying this is a lost question number, not an option.
+STEM_TAIL = re.compile(r"[:?]\s*$")
 
 # A lone digit or symbol left at the end of an option by the watermark.
 TRAILING_JUNK = re.compile(r"[\s.]+[0-9¢|_]{1,2}\s*$")
@@ -142,19 +155,19 @@ def resolve(found):
     return out
 
 
-def clean(line):
+def clean(line, watermark=None):
     """A line with the watermark taken out, or None if that is all it was.
 
-    A module with no watermark gets its line back untouched: there is nothing to
-    remove, and removing something anyway costs real words.
+    With no watermark for this corpus the line is returned untouched, which is
+    the whole point of the table above: the default must be to change nothing.
     """
-    if WATERMARK is None:
+    if watermark is None:
         return line if line.strip() else None
-    stripped = WATERMARK.sub(" ", line)
+    stripped = watermark.sub(" ", line)
     return stripped if stripped.strip() else None
 
 
-def options_after(lines, start, stop_number):
+def options_after(lines, start, stop_number, watermark=None):
     """Read the options following a stem, tolerating watermark gaps.
 
     Stops at the next question number rather than at the first blank line, which
@@ -164,7 +177,7 @@ def options_after(lines, start, stop_number):
     found = []
     for raw in lines[start:]:
         for piece in split_inline(raw).split("\n"):
-            line = clean(piece)
+            line = clean(piece, watermark)
             if line is None:
                 continue
 
@@ -176,10 +189,13 @@ def options_after(lines, start, stop_number):
             if match:
                 text = match.group(2).strip()
                 if match.group(1) in MANGLED:
-                    # A mangled label at the head of the block, or one carrying a
-                    # stem's punctuation, is a question number the scan lost —
-                    # not this question's option A. Decided by position and by
-                    # the line's own shape, never by which glyph it is.
+                    # A mangled glyph at the head of the block, or one carrying
+                    # a stem's punctuation, is a question number the scan lost —
+                    # not this question's option A. Reading it as an option
+                    # files the next question's stem inside this one, which is
+                    # a wrong answer rather than a missing one. Decided by
+                    # position and by the line's own shape, never by which
+                    # glyph it happens to be.
                     if not found:
                         continue
                     if STEM_TAIL.search(text) and len(text) > 40:
@@ -205,51 +221,6 @@ def tidy(found):
     return [(label, text) for label, text in cleaned if text]
 
 
-def self_test():
-    """Prove position-resolution survives a run of corrupted labels.
-
-    The case that matters is two mangled labels in a row: if the resolver
-    anchored on "the letter after the last one I recognised", a run would
-    resolve everything after it one place short. It does not — `expected`
-    advances per label, recognised or not — but a parallel corpus read entirely
-    by OCR has runs of three and four, so this is worth a test rather than a
-    reading of the code.
-
-    Wrong-letter is worse than absent here, because the answer key is by letter.
-    """
-    cases = {
-        "clean": [("a", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
-        "single corruption": [("a", "A1"), ("b", "B1"), ("0", "C1"), ("d", "D1")],
-        "double, c and d": [("a", "A1"), ("b", "B1"), ("6", "C1"), ("0", "D1")],
-        "first label mangled": [("6", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
-        "triple run": [("a", "A1"), ("0", "B1"), ("6", "C1"), ("\u00a2", "D1")],
-        "every label mangled": [("0", "A1"), ("6", "B1"), ("\u00a2", "C1"), ("0", "D1")],
-    }
-    failed = 0
-    for name, found in cases.items():
-        out = resolve(found)
-        ok = len(out) == 4 and all(out.get(letter) == f"{letter}1" for letter in "ABCD")
-        print(f"{'PASS' if ok else 'FAIL'}  {name:<22} {dict(sorted(out.items()))}")
-        failed += 0 if ok else 1
-
-    # A label out of order is the watermark faking one and must not overwrite.
-    out = resolve([("a", "A1"), ("b", "B1"), ("a", "JUNK"), ("c", "C1")])
-    ok = out.get("A") == "A1"
-    print(f"{'PASS' if ok else 'FAIL'}  a repeated letter does not overwrite the first")
-    failed += 0 if ok else 1
-
-    return failed + line_self_test()
-
-
-# ---------------------------------------------------------------------------
-# The cases below are lines, not label lists, because that is where 104 CPS
-# defeated this file. `resolve` already handled everything 104 throws at it —
-# runs of mangled labels included — but nothing ever reached it: OPTION only
-# accepted `[a-eA-E]`, so a line whose label the scan had replaced was not
-# recognised as an option at all, and INLINE knew three of the seven glyphs the
-# corpus actually produces. The corruption is different in kind from 101's:
-# 101's books are native text and lose options to a watermark falling between
-# intact labels; 104's are scans and lose the labels themselves.
 LINE_CASES = [
     (
         "two options on one line, second label mangled",
@@ -308,9 +279,44 @@ LINE_CASES = [
 ]
 
 
-def line_self_test():
-    """Prove the *lines* 104's scans print reach `resolve` at all."""
+def self_test():
+    """Prove position-resolution survives a run of corrupted labels.
+
+    The case that matters is two mangled labels in a row: if the resolver
+    anchored on "the letter after the last one I recognised", a run would
+    resolve everything after it one place short. It does not — `expected`
+    advances per label, recognised or not — but a parallel corpus read entirely
+    by OCR has runs of three and four, so this is worth a test rather than a
+    reading of the code.
+
+    Wrong-letter is worse than absent here, because the answer key is by letter.
+    """
+    cases = {
+        "clean": [("a", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
+        "single corruption": [("a", "A1"), ("b", "B1"), ("0", "C1"), ("d", "D1")],
+        "double, c and d": [("a", "A1"), ("b", "B1"), ("6", "C1"), ("0", "D1")],
+        "first label mangled": [("6", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
+        "triple run": [("a", "A1"), ("0", "B1"), ("6", "C1"), ("\u00a2", "D1")],
+        "every label mangled": [("0", "A1"), ("6", "B1"), ("\u00a2", "C1"), ("0", "D1")],
+    }
     failed = 0
+    for name, found in cases.items():
+        out = resolve(found)
+        ok = len(out) == 4 and all(out.get(letter) == f"{letter}1" for letter in "ABCD")
+        print(f"{'PASS' if ok else 'FAIL'}  {name:<22} {dict(sorted(out.items()))}")
+        failed += 0 if ok else 1
+
+    # A label out of order is the watermark faking one and must not overwrite.
+    out = resolve([("a", "A1"), ("b", "B1"), ("a", "JUNK"), ("c", "C1")])
+    ok = out.get("A") == "A1"
+    print(f"{'PASS' if ok else 'FAIL'}  a repeated letter does not overwrite the first")
+    failed += 0 if ok else 1
+
+    # The cases above exercise `resolve`. These exercise the step before it —
+    # whether a mangled label is recognised as a label at all. `resolve` was
+    # always correct for these; nothing reached it, because an anchored
+    # `[a-eA-E]` never saw the line. Every one is a real line from a scanned
+    # paper, cited where it came from.
     for name, lines, stop, expected in LINE_CASES:
         out = options_after(lines, 0, stop)
         ok = out == expected
@@ -319,30 +325,45 @@ def line_self_test():
             print(f"        wanted {expected}")
             print(f"        got    {out}")
         failed += 0 if ok else 1
+    failed += 0 if ok else 1
 
-    # 104 has no watermark, and 101's pattern would eat the P wave out of it.
-    saved = globals()["WATERMARK"]
-    try:
-        globals()["WATERMARK"] = MODULE_WATERMARK["104 CPS"]
-        out = options_after(["a- P-wave.", "b- QRS complex.", "d- P-R segment."], 0, 99)
-        ok = out.get("A") == "P-wave." and out.get("D") == "P-R segment."
-        print(f"{'PASS' if ok else 'FAIL'}  no watermark means the P wave survives  {out}")
+    # A corpus with no watermark profile must come through untouched. This is
+    # the destructive case: `P` and `y` are the P wave and the y descent, and
+    # stripping them leaves a sentence that still parses, still reads as
+    # English, and is now wrong — with nothing to distinguish the damage from a
+    # source that never said it.
+    medical = [
+        "It is initiated by the P wave of the ECG",
+        "d- The normal P50 for human is 27 mmHg",
+        "The y descent follows the v wave",
+        "a- P-wave.",
+        "PaO2 and PaCO2 are measured on the same sample",
+    ]
+    for line in medical:
+        got = clean(line, WATERMARKS.get("no-such-module"))
+        ok = got == line
+        print(f"{'PASS' if ok else 'FAIL'}  untouched with no profile: {line[:44]!r}")
         failed += 0 if ok else 1
-    finally:
-        globals()["WATERMARK"] = saved
+
+    # And with 101's profile it still does its job on 101's own text.
+    got = clean("Vi    a- Subclavian vein.", WATERMARKS["101 ISK"])
+    ok = got is not None and got.strip().startswith("a- Subclavian")
+    print(f"{'PASS' if ok else 'FAIL'}  101's profile still strips its own watermark")
+    failed += 0 if ok else 1
 
     return failed
 
 
-def main(argv):
-    global MODULE, BANK, PAGETEXT, WATERMARK
-    MODULE, argv = parse_module(list(argv))
-    WATERMARK = MODULE_WATERMARK.get(MODULE, MODULE_WATERMARK[DEFAULT_MODULE])
-    BANK = out_path(MODULE, "mcq-bank.json")
-    PAGETEXT = out_path(MODULE, "pagetext")
-    if "--self-test" in argv:
+def main():
+    if "--self-test" in sys.argv:
         sys.exit(1 if self_test() else 0)
-    dry = "--dry-run" in argv
+    dry = "--dry-run" in sys.argv
+    module = DEFAULT_MODULE
+    if "--module" in sys.argv:
+        module = sys.argv[sys.argv.index("--module") + 1]
+    if module not in WATERMARKS:
+        print(f"no watermark profile for {module!r}; lines pass through untouched", file=sys.stderr)
+    watermark = WATERMARKS.get(module)
     bank = json.load(open(BANK))
     cache = {}
 
@@ -376,12 +397,12 @@ def main(argv):
 
             # Find this question's number on the page, then read past it.
             for position, raw in enumerate(lines):
-                line = clean(raw)
+                line = clean(raw, watermark)
                 if not line:
                     continue
                 number = NUMBER.match(line)
                 if number and int(number.group(1)) == where["number"]:
-                    found = options_after(lines, position + 1, where["number"] + 1)
+                    found = options_after(lines, position + 1, where["number"] + 1, watermark)
                     if len([v for v in found.values() if v.strip()]) > len([v for v in best.values() if v and v.strip()]):
                         best = found
                     break
@@ -401,13 +422,8 @@ def main(argv):
                 still_short += 1
 
     bank["optionRepair"] = {
-        "module": MODULE,
-        "cause": ("publisher watermark ('ViP', 'Ac', 'ad') interleaved with the options, "
-                  "leaving blank lines that ended a parse assuming options are contiguous"
-                  if WATERMARK is not None else
-                  "OCR replacing option labels with look-alike glyphs (%s); the letter is "
-                  "recovered from the label's position in the sequence, never from its shape"
-                  % ", ".join(repr(g) for g in MANGLED)),
+        "cause": "publisher watermark ('ViP', 'Ac', 'ad') interleaved with the options, "
+                 "leaving blank lines that ended a parse assuming options are contiguous",
         "rowsRepaired": repaired,
         "optionsRecovered": gained,
         "stillUnderFour": still_short,
@@ -422,4 +438,4 @@ def main(argv):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    main()
