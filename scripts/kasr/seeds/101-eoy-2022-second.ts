@@ -62,7 +62,7 @@ export const SOURCE: SourceRef = {
   id: 'src_1641d3629225bb111726',
   file: 'EOY 195 first 2022  101 ISK  final module (1).pdf',
   sittingYear: 2022,
-  tier: 'resit',
+  tier: 'baqoon',
   sections: ['Section A'],
   incomplete:
     'Section A only. The paper also prints Section B — 29 multiple-choice questions at half a mark each, '

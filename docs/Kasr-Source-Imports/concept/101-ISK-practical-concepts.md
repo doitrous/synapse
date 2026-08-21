@@ -103,6 +103,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -113,8 +151,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -199,6 +237,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -209,8 +285,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -296,6 +372,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -306,8 +420,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -393,6 +507,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -403,8 +555,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -492,6 +644,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -502,8 +692,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -590,6 +780,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -600,8 +828,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -689,6 +917,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -699,8 +965,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -786,6 +1052,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -796,8 +1100,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -883,6 +1187,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -893,8 +1235,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -978,6 +1320,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -988,8 +1368,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1073,6 +1453,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1083,8 +1501,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1171,6 +1589,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1181,8 +1637,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1269,6 +1725,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1279,8 +1773,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1367,6 +1861,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1377,8 +1909,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1466,6 +1998,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1476,8 +2046,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1561,6 +2131,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1571,8 +2179,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1580,6 +2188,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1660,6 +2269,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1670,8 +2317,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1679,6 +2326,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1760,6 +2408,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1770,8 +2456,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1779,6 +2465,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1860,6 +2547,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1870,8 +2595,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1879,6 +2604,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1957,6 +2683,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1967,8 +2731,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2055,6 +2819,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2065,8 +2867,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2154,6 +2956,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2164,8 +3004,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2173,6 +3013,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2252,6 +3093,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2262,8 +3141,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2350,6 +3229,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2360,8 +3277,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2369,6 +3286,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2447,6 +3365,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2457,8 +3413,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2466,6 +3422,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2546,6 +3503,44 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2556,8 +3551,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2565,6 +3560,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 uncertainty: Nothing about this identification is unclear in the source.
@@ -2643,6 +3639,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2653,8 +3687,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2738,6 +3772,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2748,8 +3820,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2836,6 +3908,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2846,8 +3956,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2936,6 +4046,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2946,8 +4094,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3035,6 +4183,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3045,8 +4231,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3054,6 +4240,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3133,6 +4320,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3143,8 +4368,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3152,6 +4377,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3231,6 +4457,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3241,8 +4505,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3250,6 +4514,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3329,6 +4594,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3339,8 +4642,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3348,6 +4651,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3427,6 +4731,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3437,8 +4779,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3446,6 +4788,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3527,6 +4870,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3537,8 +4918,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3546,6 +4927,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3622,6 +5004,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3632,8 +5052,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3641,6 +5061,7 @@ approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3722,6 +5143,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3732,8 +5191,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3823,6 +5282,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3833,8 +5330,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3921,6 +5418,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3931,8 +5466,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4020,6 +5555,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4030,8 +5603,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4115,6 +5688,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4125,8 +5736,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4215,6 +5826,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4225,8 +5874,8 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.

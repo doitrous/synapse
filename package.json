@@ -17,6 +17,7 @@
     "medical:parity": "node --experimental-strip-types scripts/report-import-field-parity.mjs",
     "medical:inventory": "node --experimental-strip-types scripts/build-system-inventory.mjs",
     "medical:sources": "node --experimental-strip-types scripts/build-system-source-plan.mjs",
+    "medical:presence": "node --experimental-strip-types scripts/kasr/check-concept-presence.mjs docs/Kasr-Source-Imports/concept/*.md",
     "medical:citations": "node --experimental-strip-types scripts/kasr/check-citations.ts",
     "medical:concept-ids": "node --experimental-strip-types scripts/kasr/check-concept-ids.ts",
     "medical:batch": "node --experimental-strip-types scripts/validate-content-batch.mjs",

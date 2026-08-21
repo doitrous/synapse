@@ -103,17 +103,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -121,10 +161,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -198,17 +239,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -216,10 +297,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -289,17 +371,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -307,10 +429,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -385,17 +508,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -403,10 +566,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -479,17 +643,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -497,10 +701,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -572,17 +777,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -590,10 +835,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -665,17 +911,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -683,10 +969,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -758,17 +1045,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -776,10 +1103,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -852,17 +1180,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -870,10 +1238,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -950,17 +1319,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -968,10 +1377,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1044,17 +1454,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1062,10 +1512,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1140,17 +1591,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM | ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1158,10 +1649,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1233,17 +1725,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ARM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1251,10 +1783,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1334,17 +1867,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
 The books ask "the superior thoracic artery … arises behind the pectoralis minor" and key it as correct. Strictly it is not: the artery arises from the first part of the axillary artery, which lies above the upper border of pectoralis minor, and only then passes behind the muscle. The option is the examiner's answer by elimination — the other three name the thoraco-acromial and the lateral thoracic — but the wording needs a faculty eye before students sit it.
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1352,10 +1925,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1427,17 +2001,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1445,10 +2059,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1521,17 +2136,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1539,10 +2194,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1614,17 +2270,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1632,10 +2328,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1707,17 +2404,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1725,10 +2462,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1801,17 +2539,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1819,10 +2597,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1895,17 +2674,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1913,10 +2732,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -1991,17 +2811,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2009,10 +2869,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2099,17 +2960,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2117,10 +3018,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2193,17 +3095,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2211,10 +3153,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2290,17 +3233,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2308,10 +3291,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2393,17 +3377,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2411,10 +3435,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2488,17 +3513,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2506,10 +3571,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2584,17 +3650,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2602,10 +3708,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2681,17 +3788,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2699,10 +3846,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2773,17 +3921,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2791,10 +3979,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2867,17 +4056,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2885,10 +4114,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -2959,17 +4189,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2977,10 +4247,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3054,17 +4325,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3072,10 +4383,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3146,17 +4458,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3164,10 +4516,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3251,12 +4604,52 @@ Cytoplasmic inclusions | Membranous organelles | Non-membranous organelles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3264,10 +4657,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3351,17 +4745,57 @@ Histology
 ## subtopic
 Cytology
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 Several cells used in these rows have concepts of their own that already belong to sibling leaves of this batch — `fibroblast-active-and-fibrocyte-inactive` in `haemopoiesis.ts`, the macrophage and plasma cell in the connective-tissue leaves, and the erythrocyte in a leaf not yet seeded. None of them could be declared again here without emitting a duplicate concept id, so the cell-specific facts are carried in the option explanations. When those leaves are authored, these rows should be re-homed to them.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3369,10 +4803,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3458,12 +4893,52 @@ Cristae | Elementary particles | Mitochondrial matrix | Janus green
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3471,10 +4946,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3564,12 +5040,52 @@ Oxidative phosphorylation | ATP synthase | Thermogenin | Brown fat
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3577,10 +5093,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3668,12 +5185,52 @@ Granular endoplasmic reticulum | Ribophorin | Cisternae | Protein segregation
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3681,10 +5238,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3771,12 +5329,52 @@ Agranular endoplasmic reticulum
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3784,10 +5382,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3868,12 +5467,52 @@ Negative Golgi image | Golgi hof | Silver impregnation
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3881,10 +5520,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -3974,12 +5614,52 @@ Cis face | Trans face | Saccules | Transfer vesicle | Secretory vesicle
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3987,10 +5667,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4072,12 +5753,52 @@ Acid phosphatase | Hydrolytic enzymes | Intracytoplasmic digestion
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4085,10 +5806,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4160,17 +5882,57 @@ Histology
 ## subtopic
 Cytology
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4178,10 +5940,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4264,12 +6027,52 @@ Heterolysosome | Autolysosome | Multivesicular body | Residual body
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4277,10 +6080,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4367,12 +6171,52 @@ Microbody | Catalase | Beta oxidation
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4380,10 +6224,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4466,12 +6311,52 @@ Polyribosome | Polysome | Ribosomal subunits
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4479,10 +6364,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4572,12 +6458,52 @@ Free ribosomes | Attached ribosomes | Cytoplasmic basophilia
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4585,10 +6511,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4670,12 +6597,52 @@ Microtrabecular lattice | Thin filaments
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4683,10 +6650,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4772,12 +6740,52 @@ Tubulin | Protofilament | Microtubule organizing centre | MTOC | Mitotic spindle
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4785,10 +6793,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4868,12 +6877,52 @@ Actin filament | Thin filament | G actin | F actin
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4881,10 +6930,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -4961,12 +7011,52 @@ Cytokeratin | Vimentin | Desmin | Neurofilament | GFAP | Lamins
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4974,10 +7064,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5061,12 +7152,52 @@ Centrosome | Diplosome | Basal body
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5074,10 +7205,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5159,17 +7291,57 @@ Histology
 ## subtopic
 Epithelial Tissues
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5177,10 +7349,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5257,12 +7430,52 @@ Brush border | Striated border | Terminal web | Stereocilia
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5270,10 +7483,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5362,12 +7576,52 @@ Phagocytosis | Pinocytosis | Receptor mediated endocytosis | Coated pit | Clathr
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5375,10 +7629,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5454,12 +7709,52 @@ Proteosome | Ubiquitin
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book's cytology chapter does not mention proteasomes at all — it names ribosomes and the cytoskeleton as the only non-membranous organelles. The question books nevertheless examine the proteasome as a distractor and, in two rows, as the answer. The concept is minted because it is examined, and this note records that no statement in the faculty's own text supports it.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5467,10 +7762,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5555,12 +7851,52 @@ Exocrine gland | Endocrine gland | Ductless gland | Mixed gland
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book names no example of a mixed gland. The question books answer "pancreas" consistently, and the pancreas does have both exocrine acini with a duct system and the islets of Langerhans without, so the example is taught here; it is not this faculty's stated wording.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5568,10 +7904,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5657,12 +7994,52 @@ Merocrine | Apocrine | Holocrine | Mode of secretion
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
 Some question books offer "eccrine" as a fourth mode alongside merocrine. The department book recognises three modes only, and eccrine is not one of them; where a book uses it, it means merocrine.
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book describes the three mechanisms and states explicitly that no named gland is given for any of them. Sebaceous for holocrine, lactating mammary for apocrine and salivary for merocrine come from the question books, are consistent across them and agree with general histology, but are not sourced to this faculty's own text.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5670,10 +8047,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5753,12 +8131,52 @@ Simple gland | Compound gland | Branched gland | Tubular gland | Alveolar gland 
 ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5766,10 +8184,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5846,12 +8265,52 @@ Combined classification of exocrine glands | Simple coiled tubular | Compound tu
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book prints the nine-way classification as diagrams with no organ named against any of them. Every organ example here comes from the question books, which are consistent with each other on all six.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5859,10 +8318,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -5938,12 +8398,52 @@ Goblet cell | Unicellular gland | Mucous cell
 ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -5951,10 +8451,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6029,12 +8530,52 @@ Serous gland | Mucous gland | Mucoserous gland
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book names no gland against watery, serous or mucous. That the parotid is serous comes from the question books.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6042,10 +8583,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6124,12 +8666,52 @@ Polymorphonuclear leucocyte | Neutrophil granules | Microphage
 ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book states dead neutrophils form pus cells and that pus raises body temperature by stimulating the heat-regulating centre. No physiology source in this corpus supports the mechanism as stated; it is recorded because the book states it and it is examinable, not because it is verified.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6137,10 +8719,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6216,12 +8799,52 @@ Eosinophil granules | Acidophil | Eosinophilia
 ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
 The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6229,10 +8852,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6310,12 +8934,52 @@ Basophil granules | Anaphylaxis | Basophilia
 ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6323,10 +8987,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6396,17 +9061,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6414,10 +9119,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6487,17 +9193,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6505,10 +9251,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6578,17 +9325,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6596,10 +9383,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6669,17 +9457,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6687,10 +9515,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6771,17 +9600,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6789,10 +9658,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6874,17 +9744,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6892,10 +9802,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -6979,17 +9890,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -6997,10 +9948,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7071,17 +10023,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7089,10 +10081,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7169,17 +10162,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7187,10 +10220,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7266,17 +10300,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7284,10 +10358,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7357,17 +10432,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7375,10 +10490,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7453,17 +10569,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7471,10 +10627,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7546,17 +10703,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7564,10 +10761,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7638,17 +10836,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7656,10 +10894,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7738,17 +10977,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES | ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7756,10 +11035,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7836,17 +11116,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-HAND-ARTERIES | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7854,10 +11174,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -7935,17 +11256,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -7953,10 +11314,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8029,17 +11391,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8047,10 +11449,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8120,17 +11523,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8138,10 +11581,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8213,17 +11657,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8231,10 +11715,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8306,17 +11791,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8324,10 +11849,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8403,17 +11929,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8421,10 +11987,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8495,17 +12062,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8513,10 +12120,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8588,17 +12196,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8606,10 +12254,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8684,17 +12333,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8702,10 +12391,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8777,17 +12467,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8795,10 +12525,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8873,12 +12604,52 @@ Myoepithelial cell | Basket cell | Myo-epithelium
 ART-101-HIS-MYO-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book does not say whether myo-epithelial cells are ectodermal in origin, nor whether they contain smooth-muscle actin. Both are standard in general histology and neither is stated by this faculty's own source, so neither is taught here.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8886,10 +12657,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -8965,12 +12737,52 @@ Neuroepithelium | Sensory epithelium | Sensory cells | Taste bud
 ART-101-HIS-NEURO-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book names only the taste bud. It does not extend neuro-epithelium to the olfactory mucosa, the retina or the hair cells of the inner ear, all of which general histology includes. Only the taste bud is taught here, because only the taste bud is this faculty's stated example.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -8978,10 +12790,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9054,17 +12867,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9072,10 +12925,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9148,17 +13002,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9166,10 +13060,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9240,17 +13135,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9258,10 +13193,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9331,17 +13267,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9349,10 +13325,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9422,17 +13399,57 @@ Histology
 ## subtopic
 Blood
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9440,10 +13457,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9523,12 +13541,52 @@ Nuclear membrane | Nucleoporin | Perinuclear space | Nuclear lamina
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9536,10 +13594,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9631,12 +13690,52 @@ Vesicular nucleus | Condensed nucleus | Peripheral chromatin | Chromatin islands
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
 One book asks which granulocyte shows most euchromatin and which most heterochromatin, keying the eosinophil and basophil for the first and the neutrophil for the second. All three granulocyte nuclei are substantially condensed, and no statement in the department book ranks them. The pair is authored to the book's own keys and this note records that the ranking is the book's, not the chapter's.
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9644,10 +13743,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9729,12 +13829,52 @@ Pars amorpha | Pars fibrosa | Pars granulosa | Nucleolonema | Nucleolar organize
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9742,10 +13882,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9820,12 +13961,52 @@ Nuclear sap | Karyoplasm
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9833,10 +14014,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -9922,12 +14104,52 @@ Nuclear shape | Nuclear position | Multinucleated cell
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 Four adipocyte rows were filed under this leaf and are authored against this concept because the flattened peripheral nucleus of the unilocular cell is one of the options in each. Their fuller concept, `white-versus-brown-adipose-connective-tissue`, is already minted in `types-of-connective-tissue-proper.ts`; it could not be reused here without emitting a duplicate concept id, so the adipose facts are taught in the option explanations instead. The same applies to two granulocyte rows whose concepts live in `granular-leukocytes.ts`.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -9935,10 +14157,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10015,12 +14238,52 @@ Down syndrome | Turner syndrome | Klinefelter syndrome | Cri-du-chat syndrome | 
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10028,10 +14291,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10106,12 +14370,52 @@ Sperm | Ovum | Corona radiata | Zona pellucida
 ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10119,10 +14423,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10192,17 +14497,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10210,10 +14555,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10283,17 +14629,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10301,10 +14687,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10380,17 +14767,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10398,10 +14825,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10471,17 +14899,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10489,10 +14957,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10581,12 +15050,52 @@ Microvilli | Brush border | Striated border | Stereocilia | Terminal web
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10594,10 +15103,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10677,12 +15187,52 @@ Tight junction | Occluding junction | Zonula occludens
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book names no transmembrane protein family for any junction — no occludin or claudin appears — and describes them only as transmembrane protein molecules.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10690,10 +15240,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10774,12 +15325,52 @@ Desmosome | Macula adherens | Zonula adherens | Tonofilaments | Adhering junctio
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10787,10 +15378,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10869,12 +15461,52 @@ Nexus | Communicating junction | Gap junction
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book does not use the word connexin or connexon, describing the channel only as six symmetrical transmembrane protein molecules. Question books that ask for connexin are asking beyond this faculty's stated source.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10882,10 +15514,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -10963,12 +15596,52 @@ Junctional complex | Terminal bar
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -10976,10 +15649,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11061,12 +15735,52 @@ Basal lamina | Reticular lamina | Lamina densa | Lamina lucida | Hemidesmosome
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The lamina lucida and lamina densa subdivision of the basal lamina is asked by the question books but is not stated in the department book, which resolves the basement membrane into basal lamina and reticular lamina and stops there.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11074,10 +15788,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11152,12 +15867,52 @@ Basal infoldings | Basal striations | Ion-transporting cell
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11165,10 +15920,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11245,12 +16001,52 @@ Immotile cilia syndrome | Ciliary dyskinesia
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty's text does.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11258,10 +16054,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11334,17 +16131,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11352,10 +16189,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11429,17 +16267,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11447,10 +16325,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11523,17 +16402,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11541,10 +16460,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11625,17 +16545,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11643,10 +16603,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11719,17 +16680,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11737,10 +16738,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11812,17 +16814,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11830,10 +16872,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11904,17 +16947,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -11922,10 +17005,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -11995,17 +17079,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12013,10 +17137,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12086,17 +17211,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12104,10 +17269,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12185,12 +17351,52 @@ Covering epithelium | Classes of epithelium | General characters of epithelium
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 The question books extend neuro-epithelium to the organ of Corti. The department book names only the taste bud, so the organ of Corti is taught here because a keyed question uses it and not because this faculty's text supports it.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12198,10 +17404,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12278,12 +17485,52 @@ Simple epithelium | Stratified epithelium | Nuclear shape
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12291,10 +17538,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12384,12 +17632,52 @@ Endothelium | Mesothelium | Pneumocytes | Simple squamous
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12397,10 +17685,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12486,12 +17775,52 @@ Simple cubical | Simple cuboidal | Simple columnar | Simple columnar ciliated
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12499,10 +17828,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12587,12 +17917,52 @@ Pseudostratified epithelium | Respiratory epithelium | Goblet cell
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12600,10 +17970,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12691,12 +18062,52 @@ Stratified squamous | Keratinised epithelium | Non-keratinised epithelium | Epid
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12704,10 +18115,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12793,12 +18205,52 @@ Urothelium | Uro-epithelium | Transitional epithelium | Dome cells
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12806,10 +18258,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12882,17 +18335,57 @@ Histology
 ## subtopic
 Epithelial Tissues
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12900,10 +18393,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -12982,12 +18476,52 @@ Stratified cubical | Stratified cuboidal | Stratified columnar
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -12995,10 +18529,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13075,12 +18610,52 @@ Metaplasia | Squamous metaplasia | Bilharziasis
 ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13088,10 +18663,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13172,12 +18748,52 @@ Plasmalemma | Unit membrane | Trilaminar membrane
 ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13185,10 +18801,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13271,12 +18888,52 @@ Fluid mosaic model | Integral protein | Peripheral protein | Membrane cholestero
 ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13284,10 +18941,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13374,12 +19032,52 @@ Glycocalyx | Cell coat | Membrane receptors
 ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 Two rows filed under this leaf name the immunoglobulin the basophil and the mast cell have membrane receptors for. The cell-specific facts belong to `basophil-granule-contents-and-anaphylaxis` and `mast-cell-identification`, both already minted in other batches; they are taught in the option explanations here rather than duplicated as a concept, because a concept already declared by a sibling leaf of this batch cannot be declared again without emitting a duplicate id.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13387,10 +19085,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13467,12 +19166,52 @@ Zonula occludens | Zonula adherens | Macula adherens | Desmosome | Gap junction 
 ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13480,10 +19219,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13555,17 +19295,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13573,10 +19353,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13647,17 +19428,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13665,10 +19486,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13738,17 +19560,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13756,10 +19618,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13829,17 +19692,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13847,10 +19750,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -13921,17 +19825,57 @@ Histology
 ## subtopic
 Connective Tissue
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -13939,10 +19883,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -14012,17 +19957,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -14030,10 +20015,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -14105,17 +20091,57 @@ Anatomy
 ## subtopic
 Upper Limb
 ## aliases
-
+[clear]
 ## article_ids
 ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-
+[clear]
 ## uncertainty
-
+[clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Unassigned — no faculty reviewer has seen this yet
+## final_publisher
+Unassigned — not published; it has not passed the evidence gate
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -14123,10 +20149,11 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.

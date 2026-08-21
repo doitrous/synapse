@@ -66,7 +66,7 @@ export const SOURCE: SourceRef = {
   id: 'src_4ad2587114e7f1ba4811',
   file: 'EOY Anatomy cases 1st year 2025-1 (2).pdf',
   sittingYear: 2025,
-  tier: 'formative',
+  tier: 'other',
   sections: ['Upper Limb'],
   incomplete:
     'Upper-limb cases only. The document continues past this module into "Lower Limb (103)" with six cases '

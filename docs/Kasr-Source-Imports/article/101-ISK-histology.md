@@ -696,7 +696,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-73F10C624D4BE1
+CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-73F10C624D4BE1 | CON-FND-8BD70C3ED36B79 | CON-FND-ED156BF8FBFD46 | CON-FND-E0B130AC5EC939 | CON-FND-89F4A730D095B7 | CON-FND-F4DF782C697CCF | CON-FND-0492C40A7F76E7 | CON-FND-08378767774524 | CON-FND-369A1D27DFE0DD | CON-FND-82768007A697F1 | CON-FND-4AE74C678A6F64 | CON-FND-ACF503263BA7D7 | CON-FND-759499A4A27938 | CON-FND-7650D31963FEBD | CON-FND-53E16F5D4E3538
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.
@@ -717,6 +717,12 @@ The second division sorts the organelles by whether they have a limiting membran
 A lysosome is a membranous organelle containing hydrolytic enzymes — proteases, sulfatases — responsible for intracytoplasmic digestion. It is abundant in phagocytic cells such as macrophages and neutrophils, and because it is small and unstained in routine preparations it requires histochemical stains to demonstrate.
 
 ### Mechanism
+**The plasma membrane.** The plasmalemma is the limiting membrane that envelopes every cell, 7.5–10 nm thick, of which protein is about 50% of the mass. It is too thin to be seen as a line by light microscopy and is demonstrated there by silver or by PAS.
+
+By electron microscopy it resolves into three layers: two electron-dense (dark) layers separated by one electron-lucent (pale) layer. That appearance is the unit, or trilaminar, membrane, and it is the whole of the visible answer. On its outer surface only, a fuzzy coat is the glycocalyx.
+
+Where two cells lie against each other, the plate carries two such membranes running parallel, and three things are then separately nameable: the membrane itself, the intercellular space between the two membranes, and the cytoplasm of each cell lying outside them. The pale middle layer is inside one membrane; the intercellular space is between two.
+
 **The endoplasmic reticulum.** The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs, the cisternae, extending from the nucleus to the cell membrane. It is of two types, and the two are distinguished by one thing: whether ribosomes are bound to the membrane.
 
 Rough endoplasmic reticulum sits in protein-forming cells, of which the plasma cell is the type example. By light microscopy it shows as basophilia — a diffuse cytoplasmic basophilia where it is abundant. By electron microscopy it is parallel flattened cisternae, continuous with the outer nuclear envelope, studded with ribosomes bound to ribophorins. Its functions are protein synthesis; segregation of the protein made; initial glycosylation; packing into transfer vesicles for the Golgi; protection of the cytoplasm from the hydrolytic enzymes it makes; and service as an intracellular pathway.
@@ -729,6 +735,8 @@ So the two are one organelle in two states, continuous with each other, and the 
 
 By light microscopy it is invisible in haematoxylin and eosin. What is seen is a pale unstained area beside the nucleus — the negative Golgi image — and the organelle is demonstrated instead by silver impregnation, which shows it as a network of brown granules and fibrils. The negative image is therefore not an absent Golgi; it is the organelle, unstained.
 
+The cell the department marks it on is the plasma cell, and the reason is that the plasma cell's remaining cytoplasm is strongly basophilic, so an unstained juxtanuclear area shows against it. On the department's connective-tissue plate the black arrow on the plasma cell is the negative Golgi image, in the same field as the cart-wheel eccentric nucleus that identifies the cell. Two features hold the identification: it is always beside the nucleus, and it is always in a cell whose other cytoplasm is deeply basophilic.
+
 By electron microscopy it is a stack of three to ten interconnected parallel flat curved saccules, stacked above each other. Each stack has an entry, or cis, face, which receives transfer vesicles from the rough endoplasmic reticulum, and an exit, or trans, face, which buds secretory vesicles and lysosomes.
 
 **Ribosomes.** Ribosomes are non-membranous particles of ribosomal RNA and protein. The rRNA forms in the nucleolus and the proteins in the cytoplasm; both unite in the nucleolus into a small and a large subunit, which return to the cytoplasm and join each other only during protein synthesis.
@@ -737,9 +745,15 @@ They are of two types, and the type is a position rather than a different partic
 
 Ribosomes are also what makes cytoplasm basophilic, because of the acidity of the phosphate group in RNA, and the basophilia may be focal, diffuse or localised.
 
+Nissl's granules are that localised basophilia in a nerve cell. On a stained section of a nerve cell body the cytoplasm carries coarse basophilic clumps, and they are not an organelle of their own: they are aggregates of rough endoplasmic reticulum together with free ribosomes, and the ribosomal RNA in them is what takes the basic dye. Naming the appearance is half an answer; naming the structure is the other half.
+
+The department's own labelled ribosome plate names eight parts: the large ribosomal subunit, the small ribosomal subunit, the P site, the A site, the tRNA, the mRNA, the codon on it, and the growing amino-acid chain. The two subunits are the pair most often swapped — the large subunit is the one that binds the rough reticulum at the ribophorins.
+
 **Mitochondria.** Mitochondria are the power-house of the cell and are sited in its most active areas. Each is bounded by two unit membranes. The outer membrane is smooth, carries porins, and is permeable to small molecules. The inner membrane is selectively permeable and folds into cristae, and the cristae bear elementary particles with ATP synthase activity — which is what the folding is for.
 
 The matrix inside holds the oxidative enzymes of the citric acid cycle, mitochondrial DNA with mRNA, tRNA and rRNA, and dense calcium-rich granules acting as catalysts. Mitochondria increase in number by simple division. They stain dark blue with iron haematoxylin and green with Janus green.
+
+Routine haematoxylin and eosin does not resolve them. Where they are abundant they contribute to the acidophilia of the cytoplasm, and that acidophilia is all H&E gives. In an iron-haematoxylin or Janus-green preparation they appear as granules and short rods scattered through the cytoplasm and crowded into the most active part of the cell, which is what siting them "in the most active areas" looks like on a slide.
 
 **The cytoskeleton.** The cytoskeleton is a network of microtubules, microfilaments and intermediate filaments with linking proteins, forming a microtrabecular lattice. All three are difficult to see by light microscopy except by immunofluorescence, which is the honest answer to any question about their light-microscopic appearance.
 
@@ -748,6 +762,10 @@ Microtubules are hollow cylinders 24 nm across, their wall thirteen parallel pro
 Microfilaments are fine strands 5 to 7 nm across, two chains of globular G actin coiled into filamentous F actin, lying beneath the plasmalemma and in the microvilli. They change cell shape in endocytosis, exocytosis and amoeboid movement, transport organelles, cleave the cell in division, form the core of the microvillus, and act in muscle contraction.
 
 Intermediate filaments are 8 to 10 nm across, formed by polymerisation of chemically differing tetrameric subunits, and their role is supportive. Each tissue has its own: cytokeratin in epithelium, vimentin in connective and muscular tissue, desmin in muscular tissue, neurofilaments in neurons, glial fibrillar acidic protein in glial cells, and lamins in the nuclear envelope.
+
+**The centriole, and the three microtubule counts.** A centriole is a cylindrical structure built of microtubules. In a non-dividing cell two of them lie perpendicular to each other, surrounded by a tubulin matrix, and the pair with its matrix is the centrosome. The wall of each cylinder is nine bundles of three microtubules — nine triplets, twenty-seven microtubules — and there is nothing in the centre. The centrosome duplicates in S phase and moves to the poles as the microtubule organising centre of the mitotic spindle, and centrioles also share in forming cilia and flagella.
+
+Three counts come out of the same chapter and the department sets them against each other. The centriole wall, and the basal body of a cilium, are 9 x 3 = 27 microtubules. The shaft, or axoneme, of a cilium is nine peripheral doublets plus two central singlets, 9 x 2 + 2 = 20. The ciliary rootlets are nine, one from the C microtubule of each triplet growing back into the cytoplasm. A single centriole embedded in the apical cytoplasm is a basal body, which is why the triplet count belongs to it and not to the shaft above it.
 
 **The lysosome and its pathway.** The lysosomal enzymes are made where every exported protein is made, and travel a fixed route. They are synthesised in the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus, and released from the Golgi inside lysosomes.
 
@@ -758,6 +776,16 @@ A secondary lysosome is a primary lysosome that has fused with something. Becaus
 A heterolysosome is a primary lysosome plus a phagosome, and it digests solid particles taken in from outside the cell. A multivesicular body is a primary lysosome plus a pinocytic vesicle, and it digests fluid. An autolysosome is a primary lysosome plus an autophagic vesicle containing an endogenous substrate the cell has itself condemned, such as a worn-out mitochondrion.
 
 Whatever cannot be digested is retained in a residual body. A residual body has two fates. It may be discharged from the cell by exocytosis, which the book calls cytostool. Or, in long-lived cells that do not divide — cardiac muscle and nerve cells — it accumulates over years as lipofuscin, the age pigment, which is then counted among the cell's inclusions rather than its organelles.
+
+**The inclusions.** The book sorts the inclusions into stored food — carbohydrate and fat — and pigments.
+
+Glycogen is stored in liver and in muscle cells. It dissolves away during routine processing, so in haematoxylin and eosin the cell shows vacuoles where the glycogen was. It is demonstrated instead by Best's carmine, which gives red granules, or by PAS, which gives magenta red. By electron microscopy it is single granules or rosette-shaped aggregations, concentrated in cytoplasm rich in smooth endoplasmic reticulum, which is the organelle that breaks it down to glucose.
+
+Fat behaves the same way and is stained by a different dye. It lies in fat cells as large globules and in liver cells as small droplets; it too dissolves in the solvents of routine processing, so in H&E it leaves a vacuole with the nucleus and the remaining cytoplasm pressed to the rim of the cell. Sudan III preserves and stains it, giving orange globules. Like glycogen, it concentrates in areas of cytoplasm rich in smooth endoplasmic reticulum.
+
+So the vacuole in an H&E section is not an absence of the inclusion. It is the inclusion, dissolved out, and the stain is what decides which of the two the vacuole held: Best's carmine or PAS for glycogen, Sudan III for fat.
+
+Pigments are coloured particles the cell either makes or takes in. The endogenous ones are haemoglobin in the red cell, carrying oxygen and carbon dioxide; melanin in the skin, giving colour and protecting against ultraviolet; and lipofuscin in cardiac muscle and nerve cells, the age-accumulating waste product this chapter has already arrived at from the residual body. The exogenous ones are carbon and dust particles taken up by the dust cells of the lung, carotene, and tattoo dyes taken up by phagocytic cells.
 
 ### Key determinants
 Two features separate a primary from a secondary lysosome on electron microscopy, and both follow from the same fact: whether digestion has begun.
@@ -773,6 +801,22 @@ Site: protein-forming cells, the plasma cell, against lipid-forming cells, the l
 **Microtubules against microfilaments**, which the book sets out as a table of structure, diameter, protein subunit, location, light microscopy and function.
 
 Structure: a hollow cylinder whose wall is thirteen parallel protofilaments, against a fine strand of two coiled chains. Diameter: 24 nm against 5 to 7 nm. Protein subunit: alpha and beta tubulin, with gamma tubulin in the organising centre, against globular G actin coiled into filamentous F actin. Location: throughout the cell, in the spindle, in centrioles, cilia and flagella, against beneath the plasmalemma and in the microvilli. Light microscopy: neither is resolvable — both are seen only by immunofluorescence. Function: cell shape and elongation, transport, the mitotic spindle, and the formation of centrioles, cilia and flagella, against change of cell shape in endocytosis, exocytosis and amoeboid movement, transport, cleavage in cell division, the microvillus core, and muscle contraction. The intermediate filament, 8 to 10 nm, sits between them in diameter and is supportive, its protein naming the tissue.
+
+**What the department's plates mark, and what the answer page accepts.** The practical book sets a marked plate for each organelle and prints the model answer on the facing page. Two things are consistent across all of them: the examiner arrows two or three structures on one picture and expects each named separately, and where a stain is involved the name of the stain is part of the answer, not context for it.
+
+Plasma membrane, electron micrograph of two adjacent cells. The visible character asked for is two dark and one pale layer — trilaminar. The blue star is the cytoplasm; the green arrow is the intercellular space. A second plate arrows the two cell membranes together and the intercellular space separately, so the pair have to be told apart rather than merged.
+
+Mitochondrion, electron micrograph. The organelle is named, then the cristae and the matrix are arrowed separately on the same organelle: the cristae are the folds of the inner membrane, the matrix is the material they project into. Mitochondrion by light microscopy is a different question with a different answer: the stain is iron haematoxylin or Janus green, and the visible character is the cristae.
+
+Rough endoplasmic reticulum. Where the arrow is on the cisternae, the answer is rough endoplasmic reticulum and the visible characters are parallel tubules covered by ribosomes; where the arrow is on the granules, the answer is ribosomes and the function asked for is protein synthesis. The two are marked as separate answers on the same field.
+
+Smooth endoplasmic reticulum. The answer page lists three characters — smooth surface, no ribosomes, and vesicles of different size and shape — so a student who holds only "smooth" cannot give a second feature when asked. On a plate carrying both systems the discriminator is the surface and not the outline, because a tangentially cut rough cisterna looks vesicular and a distended smooth tubule looks flattened, and the two are continuous with each other in any case.
+
+Golgi apparatus. Three different plates, three different answers. In silver, in a nerve cell: fine fibrils or granules, brown, perinuclear, the nucleus itself central and rounded. In silver, in secretory cells: the same fibrils or granules, but apical. By electron microscopy: the nickname is the secretory apparatus of the cell, the visible character is parallel stacked saccules, the red arrow is the transfer vesicles arriving at the cis face and the green arrow the secretory vesicles budding from the trans face. Position is the part of the answer that changes between the nerve cell and the secretory cell, which is why the department prints the two plates as a pair.
+
+Centriole, electron micrograph in transverse section. The organelle is named, the arrows are on microtubules, and the arrangement is nine triplets. Nine doublets and two singlets is the answer to the facing plate, the shaft of the cilium, and giving it here loses the mark.
+
+Inclusions. The department prints glycogen and fat as figures a and b of one question, and asks four things of each: the inclusion, the stain, the visible character, and the cell. Figure a is glycogen, Best's carmine or PAS, red granules, liver cells. Figure b is fat, Sudan III, a large orange droplet, fat cells. Naming Sudan for the glycogen plate is the failure the paired figures are designed to catch.
 
 The trap this sets is that electron density on its own does not identify a lysosome. Many granules are dense. The neutrophil's azurophil granule is dense and is a primary lysosome; the basophil's specific granule is dense and is not. Density says nothing about enzyme content, and what a body contains and what it has fused with are what the answer must name.
 
@@ -801,6 +845,16 @@ Free and attached ribosomes are not two organelles. They are the same particle i
 
 Cristae are not just folds. The elementary particles on them carry the ATP synthase activity, which is what the increase in surface area is for.
 
+The pale middle layer of the unit membrane is not the intercellular space. The pale layer lies inside one membrane, between that membrane's own two dark layers; the intercellular space is the gap between the membranes of two different cells, and the department's plate arrows the two separately.
+
+Mitochondria are not seen in routine H&E. What abundant mitochondria give H&E is an acidophilia of the cytoplasm, and answering "H&E" to a question that asks for a stain that demonstrates them is not an answer — the plate is an iron-haematoxylin or a Janus-green preparation.
+
+Nissl's granules are not an organelle in their own right. They are rough endoplasmic reticulum with free ribosomes, seen as localised basophilia, and the name describes the appearance rather than the structure.
+
+A centriole is not built of doublets. Its wall is nine triplets, twenty-seven microtubules, and the nine doublets plus two central singlets belong to the shaft of the cilium above the basal body, not to the centriole or the basal body itself.
+
+An empty vacuole in an H&E section is not an absence of an inclusion. Glycogen and fat both dissolve in routine processing and both leave a vacuole; the vacuole is the inclusion, and only a stain that preserves it — Best's carmine or PAS for glycogen, Sudan III for fat — shows which one it was.
+
 Neither microtubules nor microfilaments have a light-microscopic appearance to describe. The whole cytoskeleton is seen only by immunofluorescence, and writing a description of what they look like in an ordinary section answers a question the microscope cannot ask.
 ## hold_these
 A primary lysosome is small, homogeneous and moderately electron dense, and its enzymes have not yet acted.
@@ -824,6 +878,18 @@ The mitochondrial matrix holds the oxidative enzymes of the citric acid cycle, D
 Microtubules are 24 nm hollow cylinders of 13 protofilaments of alpha and beta tubulin, directed by the MTOC which contains gamma tubulin.
 Microfilaments are 5 to 7 nm strands of two chains of G actin coiled into F actin, under the plasmalemma and in microvilli; intermediate filaments are 8 to 10 nm and supportive.
 The whole cytoskeleton is difficult to see by light microscopy except by immunofluorescence.
+By EM the plasma membrane is two dark layers separated by one pale layer — the trilaminar or unit membrane — 7.5 to 10 nm thick, with the fuzzy glycocalyx on its outer surface only; by LM it needs silver or PAS.
+Between two cells a plate carries two unit membranes, the intercellular space between them and the cytoplasm of each cell outside them, and the examiner marks the three separately.
+Mitochondria are not resolved by H&E; on an iron-haematoxylin or Janus-green preparation they are granules and short rods crowded into the most active part of the cell.
+A centriole wall is nine triplets, 9 x 3 = 27 microtubules, with nothing in the centre; two lie perpendicular in a tubulin matrix as the centrosome.
+The basal body of a cilium is 27 microtubules in nine triplets, the shaft is 9 doublets + 2 singlets = 20, and the rootlets are the nine C microtubules growing back into the cytoplasm.
+Nissl's granules are localised cytoplasmic basophilia in a nerve cell and are aggregates of rough endoplasmic reticulum with free ribosomes.
+The department's labelled ribosome plate names the large and small subunits, the P and A sites, the tRNA, the mRNA with its codon, and the growing amino-acid chain.
+Glycogen is stored in liver and muscle, dissolves in H&E leaving vacuoles, stains red granules with Best's carmine and magenta red with PAS, and by EM is single granules or rosettes.
+Fat is large globules in fat cells and small droplets in liver cells, dissolves in H&E leaving a vacuole with the nucleus at the rim, and stains orange with Sudan III.
+Both glycogen and fat concentrate in cytoplasm rich in smooth endoplasmic reticulum.
+Endogenous pigments are haemoglobin, melanin and lipofuscin; exogenous pigments are carbon and dust, carotene and tattoo dyes.
+The negative Golgi image is marked by the department on the plasma cell, beside the cart-wheel eccentric nucleus, because the rest of that cell's cytoplasm is strongly basophilic.
 ## lose_the_mark
 Calling every dense body a lysosome. Density alone does not identify one, and what it has fused with is what the answer must name.
 Listing the residual body as a type of secondary lysosome. It is the end state of all three.
@@ -832,6 +898,13 @@ Confusing peroxisomes with lysosomes. Peroxisomes bud from rER, hold oxidases an
 Saying the autolysosome digests material from outside the cell. Its substrate is endogenous, condemned by the cell itself.
 Writing that lysosomes are visible in routine H&E. The book says they require histochemical stains.
 Reporting the negative Golgi image as an absent Golgi. The pale area beside the nucleus is the organelle, unstained, and silver shows it is there.
+Calling the negative Golgi image a vacuole or a fat droplet. Those are sharply circumscribed and may sit anywhere in the cell; the negative image is juxtanuclear and sits in a cell whose remaining cytoplasm is strongly basophilic.
+Answering "H&E" when asked to name a stain that demonstrates mitochondria. H&E shows only the acidophilia; the plate is iron haematoxylin or Janus green.
+Calling the pale middle layer of the unit membrane the intercellular space. The pale layer is inside one membrane; the space is between the membranes of two cells.
+Answering nine doublets and two singlets for a centriole. That is the ciliary shaft. The centriole and the basal body are nine triplets, twenty-seven microtubules.
+Naming Sudan III for the glycogen plate. Sudan stains fat, and the department prints the two inclusions as figures a and b of one question so that the two stains have to be told apart.
+Reading the H&E fat plate as "no fat". The empty vacuole is the fat, dissolved out by the solvents of routine processing.
+Naming Nissl's granules as an organelle. The answer the examiner wants is rough endoplasmic reticulum with ribosomes.
 Expecting to see smooth endoplasmic reticulum under the light microscope. What is seen is the acidophilia it gives the cytoplasm where it is abundant.
 Attributing cytoplasmic basophilia to the endoplasmic reticulum's membranes. It is the ribosomes on them, through the acidity of the phosphate group in RNA.
 Treating free and attached ribosomes as different organelles. They are the same particle in two places, and the place decides the protein's destination.
@@ -933,6 +1006,51 @@ Kind: comparison table
 Section: Definition
 Source direction: purpose-drawn from the department book's page 7 tables
 Rights: newly drawn for this product
+### histology · Transmission electron micrograph of the apposed cell membranes of two adjacent cells at a magnification where each membrane resolves into two dark layers and one pale layer, with the intercellular space between the two membranes visible
+Purpose: The examinable discrimination is between a pale layer inside one membrane and a space between two membranes, which is a spatial relation at one magnification. No sentence separates them for a student who has not seen both in the same picture.
+Priority: required
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed cell biology EM atlas or an institutional EM teaching set
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: Serves concept CON-FND-8BD70C3ED36B79. An unlabelled version is preferred so the same plate can carry the department's three-marker question later.
+### histology · Transverse section of a centriole by electron microscopy, the nine triplets of microtubules resolvable and the centre empty, ideally beside a transverse section of a ciliary shaft showing nine doublets and two central singlets
+Purpose: 9 x 3 = 27 against 9 x 2 + 2 = 20 is a counting task, and the department teaches the two on facing plates precisely because students give one answer for the other. Two transverse sections side by side is the only form in which the count is checkable.
+Priority: required
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed cell biology EM atlas, or purpose-drawn following the department book's page 19 centriole and microtubule figures
+Rights: must be CC-BY or public domain, or newly drawn for this product
+Notes: Serves concept CON-FND-759499A4A27938.
+### histology · Four light micrographs as one plate — liver in Best's carmine and in PAS showing glycogen granules, and adipose tissue in H&E showing empty vacuoles and in Sudan III showing orange droplets
+Purpose: The department asks these as figures a and b of one question, and the whole point is that two different inclusions leave the same empty vacuole in H&E and are separated only by the stain. Four panels make the stain the variable, which is what the answer page marks.
+Priority: required
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed histology teaching set, or an institutional slide scan
+Rights: must be CC-BY or public domain
+Notes: Serves concepts CON-FND-7650D31963FEBD and CON-FND-53E16F5D4E3538.
+### histology · Nerve cell body in a routine or basic-dye stained section showing coarse basophilic Nissl granules in the cytoplasm around a central rounded nucleus
+Purpose: Localised basophilia is a pattern, not a fact, and the identification depends on seeing clumps rather than a diffuse blue. The plate also carries the nerve cell's central rounded nucleus, which is the other half of the department's nerve-cell question.
+Priority: strongly helpful
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed histology teaching set
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-4AE74C678A6F64. The department book does not print this plate; the revision deck does, as a captioned teaching slide.
+### histology · Mitochondria demonstrated by iron haematoxylin or Janus green in a light micrograph, granules and short rods concentrated in one part of the cytoplasm
+Purpose: The stain is part of the answer, and a student who has only met mitochondria as an EM profile does not recognise them as light-microscopic granules at all.
+Priority: strongly helpful
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed histology teaching set
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-ED156BF8FBFD46.
 ## conflicts
 [clear]
 ## evidence_gaps
