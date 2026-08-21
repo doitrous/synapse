@@ -189,7 +189,7 @@ export const SEEDS: Seed[] = [
   },
   {
     q: 9, section: 'Anatomy', page: 15, marks: 3,
-    asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.',
+    asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
     label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
     key: 'breast-lymphatic-drainage-axillary',
     definition: 'About three quarters of the lymph of the breast drains laterally to the axillary nodes, chiefly the anterior (pectoral) group, then to central and apical nodes. The medial quadrants drain to the internal thoracic (parasternal) nodes, and some drains to the opposite breast and to the abdomen. This is why carcinoma spreads first to the axilla and why the axillary nodes are sampled or cleared at operation.',
@@ -201,14 +201,30 @@ export const SEEDS: Seed[] = [
   },
   {
     q: 10, section: 'Anatomy', page: 15, marks: 3,
-    asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.',
-    label: 'Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise',
-    key: 'scaphoid-fracture-snuff-box-tenderness',
-    definition: 'The floor of the anatomical snuff box is the scaphoid, so tenderness there after a fall on the outstretched hand indicates scaphoid fracture. The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally, so a fracture across the waist may deprive the proximal fragment of its supply and cause avascular necrosis.',
-    objective: 'Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.',
-    pitfall: 'Excluding it on a normal first radiograph. A scaphoid fracture is often invisible for ten to fourteen days, and a normal early film does not clear it.',
+    asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?',
+    label: 'The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery',
+    key: 'anatomical-snuff-box-boundaries-contents-floor-roof',
+    definition: 'The anatomical snuff box is a triangular hollow on the lateral wrist. Its anterior boundary is the tendons of abductor pollicis longus and extensor pollicis brevis; its posterior boundary is the tendon of extensor pollicis longus; its base is the styloid process of the radius. Its floor is the scaphoid and trapezium with the base of the first metacarpal and the styloid process of the radius, and its roof is skin and fascia crossed by the cephalic vein and the superficial branch of the radial nerve. Its contents are the radial artery and the beginning of the cephalic vein.',
+    objective: 'Give the boundaries, contents, floor and roof of the anatomical snuff box.',
+    pitfall: 'Giving abductor pollicis longus and extensor pollicis brevis as two separate boundaries. They form the anterior boundary together, and the posterior boundary is extensor pollicis longus alone.',
     subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
     modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
+    type: 'structural_description',
+  },
+  {
+    // The same question number as the seed above. Case 1 asks four lettered
+    // things and the last two are a different idea entirely — a student can
+    // know where the breast drains and still not know why she cannot lift her
+    // arm afterwards. Two concepts, one question, co-primary on both.
+    q: 9, section: 'Anatomy', page: 15, marks: 0,
+    asked: 'Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
+    label: 'Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula',
+    key: 'long-thoracic-nerve-injury-winged-scapula',
+    definition: 'The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.',
+    objective: 'Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.',
+    pitfall: 'Blaming the axillary nerve. That would weaken abduction to ninety degrees and numb the regimental badge area; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Axilla',
     type: 'clinical_correlation',
   },
 ]
@@ -377,23 +393,86 @@ export const SCHEMES: Record<string, Scheme> = {
     ],
   },
   A9: {
-    format: 'structured_written',
-    prompt: 'A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.',
-    expects: [
-      'About three quarters of the lymph of the breast drains to the axillary nodes',
-      'Chiefly the anterior (pectoral) group, then the central and apical nodes',
-      'The medial quadrants drain to the internal thoracic (parasternal) nodes',
-      'Carcinoma therefore spreads first to the axilla, which is why the axilla is sampled or cleared at operation',
+    format: 'multipart_written',
+    prompt: 'A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed.',
+    expects: [],
+    parts: [
+      {
+        letter: 'a',
+        prompt: 'What lymph nodes should be removed during the mastectomy operation?',
+        expects: [
+          'The axillary nodes, which receive about three quarters of the lymph of the breast',
+          'Chiefly the anterior (pectoral) group, then the central and apical nodes',
+        ],
+      },
+      {
+        letter: 'b',
+        prompt: 'Should the physician examine the other breast? Why?',
+        expects: [
+          'Yes',
+          'Lymphatics cross the midline, so carcinoma can reach the opposite breast',
+          'The medial quadrants also drain to the internal thoracic (parasternal) nodes, so a clear axilla is not a clear chest',
+        ],
+      },
+      {
+        letter: 'c',
+        prompt: 'After the operation the patient was unable to abduct her arm above the shoulder. Account for this.',
+        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        expects: [
+          'The long thoracic nerve (C5, C6, C7) was injured during axillary clearance',
+          'It lies on the surface of serratus anterior on the medial wall of the axilla',
+          'Serratus anterior rotates the scapula upward, which abduction above the shoulder requires',
+        ],
+      },
+      {
+        letter: 'd',
+        prompt: 'What other deformity can be noticed?',
+        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        expects: [
+          'Winging of the scapula — its medial border stands off the chest wall',
+        ],
+      },
     ],
   },
   A10: {
-    format: 'structured_written',
-    prompt: 'A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.',
-    expects: [
-      'The floor of the anatomical snuff box is the scaphoid',
-      'Tenderness there after a fall on the outstretched hand indicates a scaphoid fracture',
-      'The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally',
-      'A fracture across the waist may cut off the proximal fragment’s supply and cause avascular necrosis',
+    format: 'multipart_written',
+    prompt: 'A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box.',
+    expects: [],
+    parts: [
+      {
+        letter: 'a',
+        prompt: 'What are the boundaries of the anatomical snuff box?',
+        expects: [
+          'Anteriorly, the tendons of abductor pollicis longus and extensor pollicis brevis together',
+          'Posteriorly, the tendon of extensor pollicis longus',
+          'Its base is the styloid process of the radius',
+        ],
+      },
+      {
+        letter: 'b',
+        prompt: 'What are the contents of the anatomical snuff box?',
+        expects: [
+          'The radial artery, crossing the floor',
+          'The beginning of the cephalic vein',
+        ],
+      },
+      {
+        letter: 'c',
+        prompt: 'What makes the floor of the anatomical snuff box?',
+        expects: [
+          'The scaphoid and the trapezium',
+          'With the styloid process of the radius and the base of the first metacarpal',
+          'Which is why tenderness here after a fall on the outstretched hand means a scaphoid fracture',
+        ],
+      },
+      {
+        letter: 'd',
+        prompt: 'What makes the roof of the anatomical snuff box?',
+        expects: [
+          'Skin and fascia',
+          'Crossed by the cephalic vein and the superficial branch of the radial nerve',
+        ],
+      },
     ],
   },
 }
