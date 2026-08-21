@@ -711,7 +711,7 @@ five papers and the department's own model answer ask for them where an EM-only 
 omitted them. So an MCQ about heterolysosomes or multivesicular bodies belongs to **that**
 concept rather than a new one.
 
-### Three format bugs in shared code — one landed, two outstanding
+### Three format bugs in shared code — ALL THREE NOW LANDED
 
 All three are the same bug in different files: a format-aware check that only ever learned
 about one family of formats.
@@ -722,8 +722,9 @@ failed to match and the part vanished**, and the question came back "no written_
 nothing saying a mark scheme had been dropped on the floor. Now `(\d+(?:\.\d+)?)`. Found
 independently by two lanes, which suggests more of it in the corpus than either saw.
 
-**`bulkImport.ts:797-798` — `matching` is missing from the `correct_answer` exemption. NOT
-landed.** A matching batch is refused with "Correct answer is required" for a column matching
+**`bulkImport.ts` — `matching` missing from the `correct_answer` exemption. LANDED.**
+(Historic. `:795-802` is now a **comment describing the past failure**, and `:854` branches on
+`format === 'matching'`.) A matching batch is refused with "Correct answer is required" for a column matching
 questions do not have. `main` still reads:
 
 ```js
@@ -738,8 +739,9 @@ range check. The fix expresses the exemption as *what needs the column* —
 `isChoiceFormat(format) && format !== 'mcq_multi'` — rather than a list, so it cannot go
 stale when a thirteenth format arrives.
 
-**`validate-content-batch.mjs:216` — `matching`, `completion` and `labeling` fall through to
-the lettered-options branch. NOT yet landed.** They come back "0 options — the contract is 4
+**`validate-content-batch.mjs` — matching/completion/labeling falling through to the
+lettered-options branch. LANDED.** (`:238-246` is the comment recording it; the contracts are
+checked by `matchingErrors`/`completionErrors`/`labelingErrors` through `validateImportRow`.) They come back "0 options — the contract is 4
 to 5" and "correct answer A is not one of the filled options", for questions that are
 entirely well formed. **Before this is fixed a matching question cannot be validated at
 all.** The fix branches three ways — written → parts, choice → options, everything else →
@@ -1355,3 +1357,53 @@ illegible note is `null`, not transcribed.
 Result on the hardest variant: **120 questions, 120 answers, zero unreadable** — 119 high
 confidence, 1 medium — verified 8/8 against answers a human had read off a page independently
 beforehand.
+
+---
+
+## Retraction: matching questions are NOT blocked. Author them.
+
+**I told lanes both matching fixes were outstanding and that matching items should be left
+unauthored. That was wrong, and it is the most costly kind of wrong** — a "this format is
+broken, skip it" instruction quietly costs a module its content, and no later reader can see
+what was never written.
+
+Both fixes are on `main`. A probe batch settles it — two `matching_options`, two
+`matching_prompts`, a real concept, a real article:
+
+```
+kind question  items 1  errors 0
+```
+
+**How I got it wrong: I read a comment describing the past failure as live code.**
+`bulkImport.ts:795-802` narrates the bug in the past tense and `:854` branches on
+`format === 'matching'`. `validate-content-batch.mjs:238-246` likewise *records* that the
+earlier fix was "half a fix" and that the contracts are now checked through
+`validateImportRow`. Both files document their own history at the site of the fix — which is
+good practice and reads exactly like an open bug to a grep.
+
+**Two rules from this:**
+
+1. **A probe batch beats reading the source.** Every mistaken claim in this file came from
+   reading code; every correction came from running something. Where a claim is "format X
+   cannot validate", the cost of checking is one file and one command.
+2. **Never relay "skip this" without a reproduction.** A false *blocker* is worse than a false
+   *bug report*: a bug report gets checked by whoever tries to fix it, while a blocker is
+   obeyed and leaves no trace. The lane that caught this did so because **its own subagent
+   read `05-questions.md`, found the manual says every format has a runner and "nothing is
+   currently refused", and challenged its instructions.**
+
+### `--with` on a practical needs `e595b33` — a branch behind fails confusingly
+
+Before that commit siblings were folded in **inside the question branch only**, so a practical
+validated with `--with` produced phantom `is not a concept that exists` errors and **no**
+`N concept rows treated as pending import` note. One lane saw **31 invented errors on a clean
+batch**; after rebasing, **10 items, 0 errors**, note present.
+
+That is a **third** cause the sibling-note check distinguishes, alongside shell quoting and
+argument passing: **being behind on the validator itself.** The note's absence means the
+sibling never loaded, whatever the reason — which is why a positive check beats comparing
+error counts.
+
+The right response to it was the one taken: diagnose the cause, prove the batch is fine by
+running `main`'s validator from a scratchpad shim, confirm the merge is clean with
+`git merge-tree` — and **change nothing**, rather than "fixing" work that was already correct.
