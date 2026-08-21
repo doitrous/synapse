@@ -790,12 +790,23 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
   // rewritten as MCQs or dropped.
   const declaredFormat = kind === 'question' ? parseQuestionFormat(values.format) : null
   const format = declaredFormat ?? DEFAULT_QUESTION_FORMAT
+  /**
+   * Only three formats answer with a single lettered choice.
+   *
+   * Written as what *needs* the column rather than as a list of what is excused
+   * from it. The excusing list had grown to `written || mcq_multi || labeling ||
+   * completion` and had already gone stale: `matching` was missing, so a
+   * matching batch was refused with "Correct answer is required" for a column
+   * matching questions do not have — the same class of failure that once made
+   * every written question unimportable. Stated positively it cannot go stale,
+   * because a thirteenth format is not a lettered choice until somebody says so.
+   */
+  const needsLetteredAnswer = kind === 'question' && isChoiceFormat(format) && format !== 'mcq_multi'
   const written = kind === 'question' && isWrittenFormat(format)
 
   const errors = IMPORT_SCHEMAS[kind].fields
     .filter((field) => field.required && !values[field.key]?.trim())
-    .filter((field) => !((written || format === 'mcq_multi' || format === 'labeling'
-      || format === 'completion') && field.key === 'correct_answer'))
+    .filter((field) => !(field.key === 'correct_answer' && !needsLetteredAnswer))
     .map((field) => `${field.label} is required`)
 
   if (kind === 'question') {

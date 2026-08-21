@@ -4,7 +4,7 @@
  "universityId": "kau",
  "yearId": "KAU_Y1",
  "corpusRoot": "/Users/doitrous/Desktop/Kasr Alainy",
- "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.",
+ "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.\n\nThree 101 ISK rows were corrected by reading the paper rather than the filename: two exam years (src_ce4292e31edea7517e7b 2023->2022, src_9487fd713153c573087f 2021->2020) and one solved flag (src_9e6aad6c6af097e473d6). Each carries a `correction` field saying what was read and where. A regeneration that derives the year from the filename will silently undo these, so it must preserve any row carrying `correction`.",
  "moduleSubjectDeclarations": [
   {
    "moduleId": "101 ISK",
@@ -1191,8 +1191,8 @@
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": 2023,
    "yearConflict": null,
-   "examSittingYear": 2023,
-   "examSittingYearSource": "calendar label on the file",
+   "examSittingYear": 2022,
+   "examSittingYearSource": "printed on the paper: \"Date: 10/12/2022\"",
    "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
@@ -1201,7 +1201,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "The filename says 2023 and the cover says 10/12/2022. The year was taken from the calendar label on the file, which is the collector's name for it, not the examiner's date. Read from the rendered cover — the file has no text layer."
   },
   {
    "sourceId": "src_9e6aad6c6af097e473d6",
@@ -1230,7 +1231,7 @@
    "yearConflict": null,
    "examSittingYear": 2021,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -1238,7 +1239,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Filename says \"Answers\" and the manifest recorded it solved; the paper carries no answers. It is the unsolved copy of the same 18/12/2021 sitting as src_17bf088a37f1ab6540a3, which is the solved one. Answer keys on these papers are pink highlights and hand-circles, never text, so a text-layer test cannot see them either way."
   },
   {
    "sourceId": "src_16f747e1171423933757",
@@ -1376,8 +1378,8 @@
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": 2021,
    "yearConflict": null,
-   "examSittingYear": 2021,
-   "examSittingYearSource": "calendar label on the file",
+   "examSittingYear": 2020,
+   "examSittingYearSource": "printed on the paper: \"Date: 24/12/2020\"",
    "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
@@ -1386,7 +1388,8 @@
    "pageCount": 6,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "The filename says 2021 and the cover says 24/12/2020, Module INT-101, Total Marks 24, 48 MCQs. Read from the rendered cover — the file has no text layer."
   },
   {
    "sourceId": "src_e2593cfba37af83a33ad",

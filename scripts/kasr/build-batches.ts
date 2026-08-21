@@ -11,12 +11,14 @@ import { mintConceptId, partsKey, subjectCollisions, type KasrSubject, type Pape
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
+import { PAPER as EOY_2024 } from './seeds/101-eoy-2024.ts'
+import { PAPER as CASES_2025 } from './seeds/101-eoy-2025-cases.ts'
 import { PAPER as BAQOON_2024 } from './seeds/101-baqoon-2024.ts'
 import { ARTICLE_FOR_CONCEPT } from './seeds/articles.ts'
 import { SITTING_SIGNALS } from './seeds/sittings.ts'
 
 /** Every paper that has been read. Order is priority order, highest first. */
-const PAPERS: Paper[] = [EOY_2025, BAQOON_2024]
+const PAPERS: Paper[] = [EOY_2025, EOY_2024, BAQOON_2024, CASES_2025]
 
 const OUT = 'docs/Kasr-Source-Imports'
 const slug = (paper: Paper) =>

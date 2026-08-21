@@ -15,7 +15,7 @@ import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '..
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
-import { isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
+import { isChoiceFormat, isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
@@ -213,7 +213,19 @@ if (kind === 'question') {
     // What a well-formed item looks like depends on its format. A written
     // question has no lettered options at all, and checking it for four of them
     // reported an entire end-of-year paper as sixteen broken questions.
-    if (isWrittenFormat(parseQuestionFormat(values.format))) {
+    //
+    // That fix was half a fix. `matching`, `completion` and `labeling` are not
+    // written formats either, and they have no lettered options and no single
+    // correct letter — so they fell through to the `else` and came back as
+    // "0 options — the contract is 4 to 5" for questions that were entirely
+    // well formed. Fixing one half of a format-aware check and not auditing the
+    // others is how this recurs.
+    //
+    // Their contracts are real and are already checked, by `matchingErrors`,
+    // `completionErrors` and `labelingErrors` through `validateImportRow`
+    // above. What is needed here is only that the option checks do not run.
+    const format = parseQuestionFormat(values.format) ?? 'mcq_single_best'
+    if (isWrittenFormat(format)) {
       // The mark scheme is to a written question what the options are to a
       // single-best-answer one: without it there is nothing to practise
       // against, and `markWritten` scores a part with no points as zero.
@@ -228,7 +240,7 @@ if (kind === 'question') {
         if (!part.prompt.trim()) errors.push(`${where}: part (${part.label}) has no prompt`)
         if (!(part.marks > 0)) errors.push(`${where}: part (${part.label}) is worth no marks`)
       }
-    } else {
+    } else if (isChoiceFormat(format)) {
       // Options and their explanations. An option without an explanation teaches
       // nothing, which is the one thing this content type exists to do.
       const answered = data.answers.filter((answer) => answer.text.trim())

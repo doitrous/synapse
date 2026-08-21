@@ -1823,3 +1823,348 @@ publishedSections: As above.
 reviewer: No faculty reviewer has seen this yet.
 lastReviewed: Never reviewed.
 questionIds: The questions that test this article are authored in the same pass and are wired from the question side, which is where the importer maintains the link.
+
+---
+
+# Item
+## id
+ART-101-ANA-DEEP-FASCIA
+## title
+Deep fascia
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## primary_node_id
+DIS-ANA-T01
+## related_concepts
+CON-MSK-6CD9FFF51AE9CD
+## related_articles
+ART-101-ANA-MUSCLE-ATTACHMENTS: Deep fascia gives attachment to muscles and forms the intermuscular septa and interosseous membranes they arise from, which is one of the four ways a muscle is anchored.
+ART-101-ANA-AXILLA-BREAST: The clavipectoral fascia is a named sheet of deep fascia with four structures piercing it, and it is the worked example of the first item on this list.
+## aliases
+Fascia | Superficial and deep fascia | Fascia profunda | Functions of deep fascia
+## reading_time
+8
+## summary
+Deep fascia has no function of its own. It has five functions because it makes five things — broad sheets, septa and interosseous membranes, retinacula, the palmar and plantar aponeuroses, and sheaths round big vessels — and the exam question is the list of those five with what each achieves. The trap is the layer above it: superficial fascia has its own six-item list, and answering with insulation and body contour answers the wrong question.
+## sections
+### Definition
+Fascia is a collection of connective tissue under the skin covering the body wall and the limbs. It is of three kinds: superficial, deep and internal.
+
+Superficial fascia is a layer of loose connective tissue lying just deep to the skin, and it is what allows the skin to move more or less freely over the structures beneath. It contains a variable quantity of fat, more in females — abundant in the gluteal region, the anterior abdominal wall and the breast, less in the limbs, and absent in the eyelid, the penis and the scrotum.
+
+Deep fascia is a different tissue answering a different job. It is a non-elastic membrane formed of compact, regular collagen fibres. Its distribution is uneven and the sources state the unevenness as fact to be learnt: it is well defined in the limbs, very strong and thick in the palm and the sole, and absent in the face and in the anterior wall of the abdomen.
+
+Internal fascia is named as the third kind and then never described. That is the source's own silence and it is recorded here rather than filled in.
+
+### Mechanism
+The two layers differ in tissue, and everything else follows from that.
+
+Superficial fascia is loose and fatty. Loose tissue permits movement, so the skin slides. Fat is a poor conductor, so the layer insulates and smooths the contour. A loose fatty layer is also the easiest medium for small vessels and nerves to travel through on their way to the skin, and it is roomy enough to carry structures of its own — the muscles of facial expression, and the mammary gland.
+
+Deep fascia is compact, regular and inelastic. A sheet that will not stretch can only work by being anchored at both ends, and everything deep fascia does is a consequence of that. It holds things where they are put. So the question the department asks is not "what does deep fascia do" in the abstract; it is "what does deep fascia form", because each thing it forms is a differently anchored inelastic sheet doing a differently shaped version of the same job.
+
+That gives the five items, and it is worth reading them as one idea rather than five. A sheet wrapped round a group of muscles fixes the structures inside it and, by tightening when those muscles contract, squeezes the deep veins and helps venous return. The same sheet sent inwards from its deep surface to bone becomes an intermuscular septum, which walls one functional group of muscles off from another and adds a new surface for them to arise from. Thickened locally into a transverse band at a wrist or an ankle it becomes a retinaculum, and the tendons crossing under it cannot bowstring away from the bone. Thickened over a whole palm or sole it becomes an aponeurosis protecting what lies beneath it. Wrapped round a vessel rather than a muscle it becomes a sheath.
+
+### Key determinants
+The answer to the question the paper asks is a list of five, each named by what the fascia forms and completed by what that achieves. This is the department book's own order.
+
+Broad sheets around groups of body muscles. These fix the underlying structures in position, give attachment to muscles, and help venous return.
+
+Intermuscular septa and interosseous membranes. These separate muscle groups that differ in action and in nerve supply, and they increase the surface area available for muscle attachment.
+
+Retinacula — localised transverse thickened bands of deep fascia around the wrist and the ankle joints, which keep the tendons in position.
+
+The palmar aponeurosis in the palm and the plantar aponeurosis in the sole. These are very thick, strong layers, and they protect the vessels, nerves and tendons lying underneath.
+
+Fibrous sheaths around big vessels. The named example is the carotid sheath in the neck, which contains the common carotid artery, the internal jugular vein and the vagus nerve.
+
+Beside it sits the other layer's list, which the same examiner can ask in the same question, and which is six items long rather than five. Superficial fascia prevents heat loss, acting as a thermal insulator; softens and smooths the body surface; facilitates movement of the skin over underlying structures; acts as the medium conducting nerves, blood vessels and lymphatics to the skin; contains skin muscles, as in the face; and contains special glands, such as the mammary gland.
+
+Two closed lists, five and six, on two layers named in one sentence. Which layer the question names is the whole of the reading comprehension.
+
+### Clinical significance
+The department book gives deep fascia one clinical consequence and it is the important one: the arrangement of the deep fascia often explains the path an infection takes when it spreads from its primary site. The book's own example is the neck, where infection can spread from the floor of the mouth to the larynx. An inelastic sheet that will not let pus out sideways directs it along the plane instead, so knowing where the sheets run is knowing where an abscess will appear.
+
+The other three clinical statements in the chapter belong to the superficial layer, and they are worth holding because they are what a surgeon uses. Accumulation of fluid in the superficial fascia is oedema. Good mobilisation of the skin after a skin incision happens at the plane of the superficial fascia, which is the plane a surgeon lifts in. And a surgical incision made along a skin crease heals with minimal scar.
+
+### Common misconceptions
+Answering with the functions of superficial fascia is the single commonest way this question is lost. Insulation, smoothing the body contour and conducting vessels to the skin are true, examinable and belong to the other layer. Deep fascia is the layer the paper asked about.
+
+Deep fascia is not everywhere. It is well defined in the limbs, strong and thick in the palm and sole, and absent in the face and in the anterior abdominal wall — which is exactly why the muscles of facial expression can insert into skin and why the anterior abdominal wall can distend.
+
+A retinaculum is not a separate structure that happens to lie on fascia. It is deep fascia, thickened locally into a transverse band. The same is true of the palmar aponeurosis and of the carotid sheath: the list is five products of one membrane, not five different tissues.
+
+The list is a list of things formed, not a list of abstract functions. An answer that says deep fascia "supports", "protects" and "separates" without naming the sheet, the septum, the retinaculum, the aponeurosis and the sheath has given the adjectives and left the marks on the page.
+## hold_these
+Fascia is a collection of connective tissue under the skin covering the body wall and limbs, and it is of three kinds: superficial, deep and internal.
+Deep fascia is a non-elastic membrane of compact, regular collagen fibres, well defined in the limbs, very strong and thick in palm and sole, and absent in the face and the anterior abdominal wall.
+Deep fascia forms broad sheets around muscle groups, which fix underlying structures, give muscle attachment and help venous return.
+Deep fascia forms intermuscular septa and interosseous membranes, separating muscle groups of different action and nerve supply and increasing the area for attachment.
+Deep fascia forms retinacula, localised transverse thickened bands at wrist and ankle that keep the tendons in position.
+Deep fascia forms the palmar and plantar aponeuroses, thick strong layers protecting the vessels, nerves and tendons beneath.
+Deep fascia forms fibrous sheaths around big vessels — the carotid sheath holds the common carotid artery, the internal jugular vein and the vagus nerve.
+Superficial fascia is loose connective tissue with a variable quantity of fat, abundant in gluteal region, anterior abdominal wall and breast, and absent in eyelid, penis and scrotum.
+The six functions of superficial fascia are thermal insulation, smoothing the body surface, allowing skin movement, conducting nerves and vessels to the skin, containing the facial muscles, and containing glands such as the mammary gland.
+Knowledge of the deep fascial planes explains how infection spreads — the book's example is from the floor of the mouth to the larynx.
+## lose_the_mark
+Giving the functions of superficial fascia when the question names deep fascia. Insulation, body contour and conduction of vessels to the skin are the other layer's six-item list.
+Naming abstract functions — support, protection, separation — instead of the five structures the fascia forms. The mark is on sheet, septum, retinaculum, aponeurosis and sheath.
+Dropping venous return from the first item. It is the least obvious of the three things a broad sheet achieves and the one most often left out.
+Listing the carotid sheath without its three contents. The common carotid artery, internal jugular vein and vagus nerve are what makes it an answer.
+Calling deep fascia elastic. Both Kasr sources say non-elastic, and the inelasticity is why it can hold anything in place.
+Forgetting that deep fascia is absent in the face and the anterior abdominal wall. Those two absences are stated in the same sentence as the distribution and are examinable.
+Treating a retinaculum or an aponeurosis as a structure separate from deep fascia. Each is deep fascia locally thickened.
+## image_recommendations
+### diagram · The five products of deep fascia on one plate, panel per item — a limb cross-section showing the encircling sheet with its intermuscular septa reaching bone, a wrist with the retinaculum holding tendons down, a palm with the palmar aponeurosis, and a neck cross-section with the carotid sheath and its three contents labelled
+Purpose: The answer is a five-item list whose items are five differently shaped versions of one membrane. Five panels make the count reproducible and make visible that each is the same tissue in a different arrangement, which is the point prose has to argue for.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's own unlabelled figures on Anatomy page 113, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-6CD9FFF51AE9CD, whose exam question asked for the functions of deep fascia.
+### diagram · Transverse section through a limb with skin, superficial fascia carrying fat and a cutaneous nerve and vein, deep fascia as a distinct encircling line, intermuscular septa running from its deep surface to bone, and the muscle compartments each septum creates tinted separately
+Purpose: The two layers are told apart by position and tissue, and a student who has only read the definitions cannot say which line on a cross-section is which. One section labelled through its whole depth settles it and also shows why a septum divides a compartment.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### comparison table · Superficial fascia against deep fascia in two columns — tissue, distribution, fat content, what it forms, functions — with the six-item and five-item lists set side by side
+Purpose: The commonest error is answering the wrong column. Setting the two lists beside each other converts a memory failure into a reading decision, which is the form the examiner's question actually takes.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Common misconceptions
+Source direction: purpose-drawn from the department book Anatomy pages 112-114 and the Kasr past-question summary page 28
+Rights: newly drawn for this product
+## conflicts
+Where the palmar and plantar aponeuroses sit in the list. The department book and the VIP Academy revision both give them as a separate fourth item. The Kasr past-question summary gives the same five items in the same order, so all three agree; nothing here is contested. Recorded because the item is sometimes folded into "broad sheets" in other textbooks, which would give a four-item answer against this faculty's five.
+## evidence_gaps
+Internal fascia is named as the third kind of fascia by both the department book and the VIP Academy revision, and neither describes it. Nothing is said about it here beyond that it is named.
+No source states the thickness, tensile strength or fibre orientation of deep fascia in any region, so the account of why an inelastic sheet holds structures in place is reasoning from the stated tissue rather than a quoted mechanism. It is named in field_notes.
+Neither source explains the mechanism by which a fascial sheet aids venous return. The statement that it does is quoted; the muscle-pump account of how is not in either source and is not given here.
+No source names a compartment syndrome, or any consequence of an inelastic sheet enclosing a swelling limb, although the septa and compartments are described. It is a genuine gap in the chapter rather than an omission here.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, chapter 2 "Fascia", PDF pages 112-114 — the three kinds of fascia, superficial fascia with its fat distribution and six functions, deep fascia with its five parts and functions, and the four applied statements. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy revision book "Module 101 - Basis of Human Anatomy" (src_8054875331d47d3f225a), page 8, topic "Superficial and deep fascia" — the same three kinds, the same six and five item lists, and the same three clinical notes. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 28, "Model answer: superficial and deep fascia compared" — the two lists set out as the model answer to a past paper, with the same five deep-fascia items in the same order.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Fascia" is one of the named basis topics, and the basis short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-MSK-6CD9FFF51AE9CD carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The argument that each of the five products is one inelastic membrane anchored differently is this article's own organising claim, written to make a five-item list derivable rather than memorised. The five items and their stated effects are the sources'; the connective reasoning between them is not, and neither source offers a mechanism.
+sections.Common misconceptions: The link drawn between the absence of deep fascia in the face and the insertion of facial muscles into skin is reasoning across two chapters of the same book — the fascia chapter states the absence, the muscular chapter states the skin insertion — and neither states the connection.
+## notes
+The examinable core of this leaf is two closed lists that a student can reproduce onto the wrong layer. The article is built around that failure: the two lists are given in full in Key determinants, and the misconception section names the confusion outright rather than trusting the reader to notice it.
+
+---
+
+# Item
+## id
+ART-101-ANA-FERTILIZATION
+## title
+Fertilization
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-F33BB68138377B
+## related_articles
+ART-101-ANA-EMBRYONIC-FOLDING: Folding is the event of the fourth week; fertilization is where the same embryo's first week starts, and the zygote formed here is what cleaves, migrates and implants.
+ART-101-ANA-DECIDUA: The endometrium the migrating embryo implants into becomes the decidua, and its three parts are named from the position of the conceptus this article ends with.
+## aliases
+Fertilisation | Capacitation | Acrosomal reaction | Formation of the zygote
+## reading_time
+9
+## summary
+Fertilization is asked as three things — where, how, and what results — and the "how" is a fixed sequence of four named steps, capacitation followed by three numbered phases. Each phase is a barrier crossed: the corona radiata, then the zona pellucida, then the oocyte's own cell membrane. What happens after the last barrier is a separate list, and the block to polyspermy in it is chemical, not mechanical.
+## sections
+### Definition
+Fertilization is the process by which the sperm and the ovum unite to form a zygote.
+
+The site is the ampullary part of the uterine tube, its lateral third. That is one word in an answer and it is asked by name, because the site explains everything that follows: an embryo fertilised in the lateral third of the tube has to travel the length of the tube before it can implant, and it spends the rest of the first week doing so.
+
+The process has four named steps, and they are numbered in every Kasr source in the same order. Capacitation comes first and is not one of the three phases. Then phase I, dispersion of the corona radiata. Then phase II, penetration of the zona pellucida, which is the acrosomal reaction. Then phase III, opening of the cell membrane of the oocyte.
+
+### Mechanism
+Capacitation is the removal, in the female genital system, of the glycoprotein coat covering the acrosomal region of the sperms. It takes about seven hours. Nothing about the sperm's own equipment changes; what changes is that the equipment is uncovered, and a sperm that has not been capacitated cannot fertilise.
+
+Phase I is dispersion of the corona radiata. Of the two to three hundred million sperms in an ejaculate, only three to five hundred reach the ovum. Those release hyaluronidase, which opens passages between the corona cells, and the sperms pass between them.
+
+Phase II is penetration of the zona pellucida, and it is where the sperm becomes selective. Sperms are drawn to the zona by specific receptors — binding sites on the zona for the sperm head. Binding triggers the acrosomal reaction: the acrosomal cap releases acrosin and trypsin-like material, which dissolve a path through the zona, and the tail propels the one sperm along it until its head reaches the cell membrane of the secondary oocyte.
+
+Phase III is opening of the cell membrane of the oocyte. The cell membranes of the fertilising sperm head and of the oocyte fuse and then open. The sperm's contents pass into the oocyte cytoplasm — the nucleus, the mitochondrial sheath of the middle piece, and the axial filament. The sperm's own cell membrane is left behind on the outer surface of the oocyte, which is a detail the sources state explicitly and examiners like, because it is the answer to how a sperm gets in without bringing its membrane with it.
+
+Three events follow, and they follow in order.
+
+The cortical and zona reaction prevents polyspermy. Cortical granules lying just inside the oocyte's cell membrane release lysosomal enzymes. Those enzymes change the structure of the sperm receptors in the zona pellucida so that it stops attracting more sperms, and they make the cell membrane and the zona impenetrable to any other sperm. The block is a chemical alteration of receptors, not a thickening or a hardening.
+
+The secondary oocyte then completes the second meiotic division, which it had been arrested in. That gives the nucleus of the ootid — the mature ovum — and the second polar body, each with twenty-three chromosomes. The ootid nucleus matures into the female pronucleus.
+
+The sperm nucleus enlarges to become the male pronucleus, the two pronuclei come into contact, and their nuclear membranes fuse to form the nucleus of the zygote.
+
+### Key determinants
+Two closed lists carry the marks, and both are four items long.
+
+The steps, in order: capacitation of sperms; phase I, dispersion of the corona radiata cells; phase II, penetration of the zona pellucida, the acrosomal reaction; phase III, opening of the cell membrane of the oocyte.
+
+The results, in order: formation of the zygote; determination of the sex of the zygote, male XY or female XX according to the type of the fertilising sperm; restoration of the diploid number of chromosomes, forty-six from two haploid sets of twenty-three; and the start of cleavage and migration from the site of fertilization to the site of implantation in the uterine cavity.
+
+The department's own numbers are worth holding with them. Capacitation takes about seven hours. Three to five hundred sperms out of two to three hundred million reach the ovum. The diploid number is forty-six and the haploid twenty-three.
+
+What the last result opens onto is the rest of the week, and it is the same list continued. The zygote divides mitotically inside the zona pellucida into smaller blastomeres — two on day one, four on day two, eight on day three, then sixteen as the morula, then thirty-two and sixty-four. It is carried to the uterine cavity by three things: muscular peristalsis of the tube, moving cilia, and mucus secretion which both facilitates migration and provides nutrition. It reaches the cavity on the fourth day. The zona begins to degenerate at the end of the fifth, uterine fluid passes in and the spaces between the cells fuse into one cavity, the blastocele, and the blastocyst completes its development at the end of the sixth day.
+
+### Clinical significance
+The department book's own applied notes for this chapter are the chapter ILOs rather than clinical statements, and the clinical material that would normally attach here — abnormal sites of implantation, ectopic pregnancy — is carried in the following chapter and in the past-question summary, not in this one. The site of fertilization is nevertheless the anatomical reason ectopic implantation is a tubal problem: the embryo is made in the lateral third of the tube and must complete four days of transit before it reaches a place where implantation is normal.
+
+The one clinical fact this chapter does carry is the seven-hour requirement for capacitation, which is why a sperm cannot fertilise an ovum in vitro without being capacitated first.
+
+### Common misconceptions
+Capacitation is not a phase. The sources give capacitation and then three numbered phases, and a student who counts three steps has lost the first one. Where the question asks for the mechanism, the answer starts before phase I.
+
+The block to polyspermy is not mechanical. It is the cortical and zona reaction: lysosomal enzymes from the cortical granules alter the sperm receptors of the zona and make the membrane and zona impenetrable. Writing that the zona simply becomes too thick or too hard misses the whole of the mechanism the examiner asked for.
+
+The sperm does not bring its cell membrane in. In phase III the two membranes fuse and open, the contents pass in, and the sperm's membrane stays on the outer surface of the oocyte.
+
+The second meiotic division is not completed before fertilization. The oocyte fertilised is a secondary oocyte, and it completes the second meiotic division only after the sperm contents are inside, producing the mature ovum and the second polar body.
+
+Fertilization does not by itself produce an embryo with a determined sex "later". Sex is determined at fertilization, by which sperm arrives, and it is one of the four stated results.
+## hold_these
+Fertilization is the union of sperm and ovum to form a zygote, and its site is the ampullary part of the uterine tube, its lateral third.
+Capacitation is removal of the glycoprotein coat from the acrosomal region of the sperm in the female genital tract, and it takes about seven hours.
+Phase I is dispersion of the corona radiata by hyaluronidase, by the 300-500 sperms that reach the ovum out of 200-300 million.
+Phase II is penetration of the zona pellucida — binding at zona sperm receptors, then release of acrosin and trypsin-like enzymes from the acrosomal cap.
+Phase III is fusion and opening of the cell membranes of sperm and oocyte, the sperm contents passing in and the sperm membrane staying outside.
+The cortical and zona reaction prevents polyspermy by lysosomal enzymes from cortical granules altering the zona's sperm receptors.
+After sperm entry the secondary oocyte completes the second meiotic division, forming the mature ovum and the second polar body.
+The male and female pronuclei fuse to form the nucleus of the zygote.
+The four results of fertilization are formation of the zygote, determination of sex, restoration of the diploid number of 46 chromosomes, and the start of cleavage and migration.
+The embryo reaches the uterine cavity on the fourth day and the blastocyst is complete at the end of the sixth.
+## lose_the_mark
+Counting three steps instead of four. Capacitation comes before phase I and is a step in its own right.
+Explaining the block to polyspermy as the zona thickening or hardening. It is the cortical and zona reaction, altering the sperm receptors chemically.
+Writing that the whole sperm enters the oocyte. The nucleus, mitochondrial sheath and axial filament enter; the cell membrane is left outside.
+Saying the ovum completes meiosis before the sperm arrives. It is a secondary oocyte at fertilization and completes the second meiotic division afterwards.
+Giving the site as the uterine tube without saying which part. The answer is the ampulla, the lateral third.
+Listing the mechanism and stopping. The question asks site, mechanism and results, and the results are their own four-item list.
+Naming hyaluronidase as the enzyme of phase II. Hyaluronidase disperses the corona radiata in phase I; acrosin and the trypsin-like enzymes cross the zona in phase II.
+## image_recommendations
+### diagram · The three phases of fertilization as three panels through the same ovum, each panel showing one barrier being crossed — sperms dispersing corona radiata cells in the first, a single sperm cutting a path through the zona pellucida with the acrosomal cap opening in the second, and the two plasma membranes fusing with the sperm membrane left outside in the third
+Purpose: The mechanism is a sequence of three barriers at three depths, and the examinable detail in phase III — that the sperm membrane stays outside — is a spatial fact that a sentence states and a drawing proves. Three panels also make the step count visible, which is where the marks are lost.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 2.2 on Anatomy page 68, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-F33BB68138377B, whose exam question asked for the site, mechanism and results of fertilization.
+### diagram · The cortical and zona reaction — cortical granules lying inside the oocyte membrane discharging their lysosomal enzymes into the perivitelline space, with the zona's sperm receptors drawn altered and a second sperm turned away
+Purpose: The pitfall this article exists to correct is that students imagine a mechanical barrier. A figure that shows granules discharging and receptors changing states the chemistry in the one form that displaces the wrong mental picture.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 2.3 on Anatomy page 69
+Rights: newly drawn for this product, or CC-BY
+### diagram · Sagittal outline of uterus and uterine tube with the site of fertilization marked in the ampulla, and the day-by-day journey drawn along the tube — 2 cells, 4 cells, 8 cells, morula at the uterotubal junction, entry to the cavity on day 4, blastocyst on day 6
+Purpose: Site and timetable are one fact, not two: the cell counts are dated because the embryo is travelling while it cleaves. A single figure carrying both makes the fourth result of fertilization — the start of cleavage and migration — read as one event.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figures 2.1 and 2.4, Anatomy pages 68 and 70
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the sperm's middle piece is described as a mitochondrial sheath or as the middle piece. The department book says the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte; the VIP Academy embryology revision says the nucleus, middle piece and axial filament. These name the same structure and both are given, the department book's wording first.
+## evidence_gaps
+No Kasr source states how long fertilization itself takes, nor how long the ovum remains fertilisable after ovulation, although both are standard figures elsewhere. No number is given here.
+No Kasr source names the zona protein the sperm binds to, nor the receptor on the sperm head. The sources say "specific receptors" and "binding sites", and this article says no more than that.
+No Kasr source explains why the sperm's mitochondria, having entered the oocyte, do not contribute to the embryo. The entry of the mitochondrial sheath is stated; its fate is not.
+The department book's chapter carries no applied or clinical note of its own beyond the chapter ILOs, so the clinical section of this article is thin by the source's own measure and says so.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 2 "First Week of Development", PDF pages 68-71 — the definition and site of fertilization, capacitation, the three phases, the cortical and zona reaction, the pronuclei, the four results, cleavage, migration and formation of the blastocyst, with Figures 2.1 to 2.5. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 8, topic "Fertilization" — the same four steps with the same numbers, the same three post-entry events and the same four results. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 21, "Model answer: fertilization and chorion" — the model answer to a past paper, giving definition, site, the four steps, the events after sperm entrance and the results.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-F33BB68138377B carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Definition: The observation that the site of fertilization explains the length of the first week's journey is this article's own reading of two facts the sources state separately — the ampullary site, and the arrival in the uterine cavity on day four.
+sections.Clinical significance: The connection drawn between the tubal site of fertilization and ectopic implantation is general embryological knowledge. The department book's first-week chapter carries no clinical statement; abnormal sites of implantation are covered in its next chapter and in the past-question summary, and neither makes this connection in these words.
+sections.Clinical significance: The remark that a sperm must be capacitated before it can fertilise in vitro is general knowledge, added to give the seven-hour figure a use. No Kasr source mentions in-vitro fertilisation.
+## notes
+The three Kasr sources agree in wording as well as in content on this chapter, to the point of using the same phase numbering and the same two counts. The article follows the department book's order throughout and records the single wording difference in conflicts.
