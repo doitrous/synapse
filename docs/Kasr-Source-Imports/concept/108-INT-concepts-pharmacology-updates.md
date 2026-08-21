@@ -90,8 +90,6 @@ Faculty review and current authoritative evidence are required before publicatio
 faculty_signoff_required
 ## atomic_claim_ids
 CLM-FND-1CD6611D37BC37 | CLM-FND-3CC86CC26BF549
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -189,8 +187,6 @@ Faculty review and current authoritative evidence are required before publicatio
 faculty_signoff_required
 ## atomic_claim_ids
 CLM-FND-7F59EAD61B05E0
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -292,8 +288,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-44EB37CE98DCB4 | CLM-FND-CBA2A73AE9A6D8
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -392,8 +386,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-0D3254CF812B1A
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -489,8 +481,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-FD53CFAE6AAC72
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -590,8 +580,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-43BED56FA9D1E9
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -690,8 +678,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-87C323BB0CE321
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -788,8 +774,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-01E59D0FD26046
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode
@@ -892,8 +876,6 @@ The editorially revised wording requires independent claim-level evidence before
 editorially_revised_needs_independent_evidence
 ## atomic_claim_ids
 CLM-FND-9D89A82094F8AA
-## resource_ids
-src_d98abbe78377e7262afc
 ## confidence
 0.96
 ## support_mode

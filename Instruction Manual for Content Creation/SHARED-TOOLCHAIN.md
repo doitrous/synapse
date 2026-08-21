@@ -860,8 +860,9 @@ otherwise. That is why one lane measured 156-against-67 and two others measured 
 and 0-against-0.
 
 **Do not detect it by comparing error counts.** A count that matches another count proves
-nothing about either. **Check positively:** grep the output for `is not a concept that exists`
-and expect **0** — a direct observation that the sibling batch was folded in.
+nothing about either. **Check positively** — and see the correction below: the sibling note is
+the right signal, but until recently it was **absent on evidence batches whether or not `--with`
+was honoured**, so a lane following this advice on a claim batch saw nothing on a good run.
 
 **The real fix belongs in the script, not in how people call it.** An argument the parser does
 not recognise should be an **error**, not a silent no-op — today, `--with` taking a value that
@@ -2733,3 +2734,65 @@ four different answers: **identical** (took main's), **main's is a rewrite** (to
 dropped mine), **generated** (took main's), and **main's is missing a fix** (kept mine) — twice.
 
 **"It is already on main" is not a verdict.** It is the start of a diff.
+
+---
+
+## CORRECTION: the sibling-note check did not work on the batch kind it mattered most for
+
+**I fanned out "confirm the output says *N rows treated as pending import* before trusting an
+error count". It was good discipline and it did not work for evidence batches — the exact kind
+the `--with` fix was about.**
+
+That note comes from `foldInSiblings`, which **only the question and practical branches call.**
+The evidence branch built its own sibling union and reported nothing, so a **claim, citation or
+span** batch printed `"notes": []` **whether `--with` had been honoured or ignored.**
+
+> A lane following the advice would have seen no note on a perfectly good run and concluded the
+> validator was blind. **The check was itself a stand-in for a signal that was not being
+> emitted.**
+
+**Fixed — evidence batches now emit the same note, naming files as typed:**
+
+```
+→ errors: 0
+  note: docs/Kasr-Source-Imports/concept/104-CPS-concepts.md: 22 concept rows treated as pending import
+  note: docs/Kasr-Source-Imports/article/104-CPS-articles.md: 13 article rows treated as pending import
+```
+
+**And the check is now sharper than the original advice:**
+
+> **Count the notes against the number of `--with` flags you passed.** If one is missing, that
+> file **was not read as the kind you expected.**
+
+That catches a case the presence-of-any-note test never could — a file folded in under the wrong
+detected kind.
+
+### A `--with` file in the batch's own directory was read twice
+
+Fired on the **documented invocation** — naming the resources batch beside a claim batch. It
+only doubled an array nothing currently reads, so **no lane has a wrong result from it**. Fixed,
+with a test.
+
+*(Withdrawn: an earlier suggestion that the obsolete copy-into-evidence workaround might be
+documented in `KASR-SOURCE-EXTRACTION-PLAN.md` or `MASTER-PLAN.md`. All of `docs/` was grepped —
+it is documented nowhere. No stale passage, no doc owner to chase.)*
+
+Suite is now **1323 pass / 0 fail**, `tsc` clean.
+
+## One red file blocks every concept lane from proving its own work
+
+CI is red on:
+
+```
+docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology-updates.md
+   nine items with no canonical_key
+   49 concepts unpopulated on resourceIds and atomicClaimIds
+```
+
+**Why it is everyone's problem:** `check-concept-ids.ts` **scans the whole concept directory
+regardless of the paths it is given.** So **no concept lane can demonstrate its own files are
+clean while that file is red** — the same unscoped-gate shape as `content.yml`, one directory
+down.
+
+**It needs an owner.** It is a 108 file; nine missing `canonical_key` values is a small fix
+against a large blast radius.
