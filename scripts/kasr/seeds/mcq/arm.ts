@@ -1003,5 +1003,14 @@ export const LEAF: McqLeafSeed = {
         D: 'Teres minor blends with the outer surface of the capsule as part of the rotator cuff; it does not pass through it.',
       },
     },
+    {
+      key: 'the-posterior-wall-of-axilla-is-formed-by-j-see-minor-as-ter-605969da',
+      conceptKey: 'triceps-brachii-heads-insertion-and-radial-supply',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Two questions in one row, with `options` empty, from the ringed 2024 script. The stem is question 48, "The posterior wall of axilla is formed by", with its four options inside it \u2014 teres minor, teres major, supraspinatus, serratus anterior \u2014 and it then runs on into question 49, "Regarding the triceps brachii muscle", with four more. It is that second question that belongs to this leaf, and its options are the classic triceps errors: a short head instead of a medial one, the long head from the supraglenoid instead of the infraglenoid tubercle, and the ulnar nerve instead of the radial. Neither half can be sat while they share a stem; a rescan of an unringed copy recovers both. The three other rows the slice filed under Arm are questions about movements at the shoulder joint and are authored in `shoulder-region.ts`, whose concepts own them.',
+    },
   ],
 }

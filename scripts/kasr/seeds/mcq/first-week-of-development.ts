@@ -41,6 +41,29 @@
  * the surface of the ovary, which is an abnormal site of implantation and not a
  * site of fertilisation at all. The second is excluded rather than overridden
  * because a clean printing of it already sits in this file.
+ *
+ * A later pass added seven rows from the sat end-of-module papers: the six the
+ * slice filed here, and `morulla-is-2a0407f3`, which reached the leaf from the
+ * unassigned pile because the misspelling in its stem matched no leaf's
+ * vocabulary. Three are sittable and four are not.
+ *
+ * One of the three settles a question another leaf had to give up on.
+ * `all-of-the-following-are-abnormal-sites-of-implantation-exce-cafc7147`, in
+ * `second-week-of-development.ts`, is excluded because option C was lost and
+ * the three that survived — the internal os, the mesentery and the uterine
+ * tube — are all abnormal sites, so the exception the stem asks for had to be
+ * the missing option. The 2021 paper prints the same question whole, and the
+ * option that was lost is "Lungs". That row is live here, and it is worth
+ * noting that the sat paper did not merely repeat the question book: it
+ * recovered it.
+ *
+ * No concept is minted and none is reused from outside this file. No answer
+ * comes from a key: the recovered answer sheet covers neither the 2020 nor the
+ * 2021 source, and its one entry that touches this leaf keys
+ * `fertilizat-zation-occurs-j-7-e3a49f96` to C, on a row whose four options
+ * have been assembled by the extractor out of three different questions. That
+ * key is recorded in the exclusion rather than acted on, because there is no
+ * option C in that row for it to name.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -409,6 +432,88 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Option A has been copied into the stem, which then reads "Regarding monozygotic twin \'a- Is the commonest type" — and it points at a false statement, since dizygotic twinning is the commoner. The four options themselves are intact and the answer is B, that monozygotic twins are always of the same sex, since they come from one zygote. It is the only twinning question in this leaf, so excluding it leaves the topic untested here; a rescan of the stem alone recovers it, and the concept it needs would be a twinning concept this leaf has no other question for.',
+    },
+    {
+      key: 'the-process-of-fusion-between-sperm-and-ovum-is-called-368dc7c1',
+      conceptKey: 'fertilization-site-mechanism-results',
+      difficulty: 'Easy', questionType: 'Definition',
+      learningObjective: 'Name the process by which sperm and ovum unite, and separate it from the three first-week processes it is most often confused with.',
+      answerOverride: 'd',
+      answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book defines fertilization in exactly these words: "the process by which sperm and ovum unite to form a zygote".',
+      explanations: {
+        a: 'Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The book lists the start of cleavage as one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.',
+        b: 'Gastrulation belongs to the third week, not the first. It is the formation of the three germ layers from the bilaminar disc, and the only thing it has in common with fertilisation is that both are single named events a student is asked to define.',
+        c: 'Capacitation is a change in the sperm, not a fusion with the ovum \u2014 the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm\u2019s passage through the female tract, which is what makes it able to fertilise. The book lists it as the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.',
+        d: 'Correct. Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.',
+      },
+    },
+    {
+      key: 'all-of-the-followings-are-abnormal-site-of-implantation-exce-ebe2b995',
+      conceptKey: 'implantation-abnormal-sites',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'List the abnormal sites of implantation the department book names, and recognise a site the blastocyst can never reach.',
+      answerOverride: 'c',
+      answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book\u2019s abnormal sites are the lower uterine segment (placenta previa, at the internal os), and ectopic implantation \u2014 tubal, ovarian and omental, on the surface of the peritoneum. The internal os, the mesentery and the uterine tube are all on that list; the lung is not, and cannot be, because nothing carries a blastocyst there. This is also the option that was lost from the question-book printing of this question, `all-of-the-following-are-abnormal-sites-of-implantation-exce-cafc7147`, which is excluded there for exactly that reason.',
+      explanations: {
+        a: 'An abnormal site, and the commonest one that is still inside the uterus. Implantation at the internal os gives placenta previa, where the placenta lies over or beside the outlet the fetus has to come through.',
+        b: 'An abnormal site. The book\u2019s omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum \u2014 a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.',
+        c: 'Correct \u2014 this is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.',
+        d: 'An abnormal site, and the commonest ectopic pregnancy of all. The book divides tubal implantation into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.',
+      },
+    },
+    {
+      key: 'morulla-is-2a0407f3',
+      conceptKey: 'cleavage-morula-and-migration-to-the-uterine-cavity',
+      difficulty: 'Easy', questionType: 'Normal values',
+      learningObjective: 'Give the cell number at which the cleaving embryo is called a morula.',
+      answerOverride: 'd',
+      answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives the cleavage sequence as 8 blastomeres on the third day, then 16 \u2014 the morula \u2014 then 32 and 64. The question-book printing of the same question, `morula-is-2022-vi-y-ad-ac-a-2-cell-s-stage-c7ed442b`, lost an option and is excluded in this file; this sat printing has all four.',
+      explanations: {
+        a: 'The two-cell stage is the first day of cleavage and has no name of its own. It is offered first because a reader who has copied option a into the stem of the other printing of this question made exactly this mistake.',
+        b: 'Four blastomeres is the second day. Still a cleaving zygote, still inside an intact zona pellucida, and still not a morula.',
+        c: 'Eight blastomeres is the third day, and it is the number the book states most prominently, which is what makes this the strongest distractor \u2014 a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.',
+        d: 'Correct. At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.',
+      },
+    },
+    {
+      key: 'fertilizat-zation-occurs-j-7-e3a49f96',
+      conceptKey: 'fertilization-site-mechanism-results',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The row is four options assembled out of three different questions. The stem is broken mid-word ("Fertilizat; \u2014\u2014 Zation occurs j 7"); option a carries the rest of the stem and one of its own choices ("Intramural oa in the following site of the Fallopian tube: \u2018pulum."); option c reads "Inner cell mass b maces. i d"; option b is a fragment about the yolk sac cavity; and option d is about implantation in the posterior wall of the fundus. The recovered answer sheet keys this question C, which is worth recording and cannot be used: there is no coherent option C on the row for it to name. The question itself \u2014 where in the Fallopian tube does fertilisation occur \u2014 is sittable in this file from the question books, and the department book\u2019s answer is the ampullary part, the lateral third.',
+    },
+    {
+      key: 'th-b-isthmus-c-lateral-1-3-d-infundi-ne-common-site-of-j-6bfe428d',
+      conceptKey: 'blastocyst-structure-poles-and-the-start-of-implantation',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The row has no stem of its own. What was captured is the tail of the previous question\u2019s option list \u2014 "b. Isthmus. c. Lateral 1/3. d. Infundi" \u2014 followed by the heading of this one, "Common site of implantation", with its options then scattered across the option fields and mixed with a notochord option from a third question. The department book\u2019s answer to the question underneath is the posterior wall of the fundus of the uterus, and the same question is sittable elsewhere in this bank; this row is the wreckage of a column break and needs the page rescanned.',
+    },
+    {
+      key: 'which-of-the-following-does-not-take-place-during-fertilizat-ef214424',
+      conceptKey: 'fertilization-site-mechanism-results',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Two options have been merged into one field. Option a reads "Cleavage initiated Je. Endometrial implantation occurs", which is options a and b run together, so only three fields survive and the one that carries the answer is inside another. That answer is implantation, which happens at the end of the first week and not at fertilisation \u2014 but a student cannot choose it when it is printed as half of option a, and the other half of option a, the initiation of cleavage, is one of the four results of fertilisation the book lists. Selecting a would therefore be right and wrong at once. A rescan separates them and the item is worth having.',
+    },
+    {
+      key: 'placenta-previa-v9-os-the-implantation-of-blastocyst-in-the-77ca5fe1',
+      conceptKey: 'implantation-abnormal-sites',
+      difficulty: 'Easy', questionType: 'Definition',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'From the ringed 2024 script: the candidate\u2019s pen crossed the option letters, so the four definitions offered for placenta previa are inside the stem rather than in the option fields, and the stem then runs on into question 114 ("Regarding sclerotome of somite:"). The one recovered option field holds two options from that next question, not from this one. The recovered answer sheet has an entry for this question and it resolved to nothing \u2014 no stroke hull contained an option box \u2014 which is the same damage seen from the other side. A rescan of an unringed copy recovers both questions; the department book\u2019s answer to this one is implantation in the lower uterine segment, related to the internal os.',
     },
   ],
 }

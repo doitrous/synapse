@@ -47,6 +47,31 @@
  * peroxisome to alkaline phosphatase, each of which is the answer belonging to
  * the row above or below it. Every one of the five names the department book
  * statement it is being corrected against.
+ *
+ * The eleven rows this leaf takes from the sat end-of-module papers are added at the
+ * end, and they are the worst-damaged set in the batch: six of the eleven are
+ * excluded and four of those six fail the same way, with the candidate's pen
+ * crossing an option letter so that the correct option was read into the option
+ * above it as one compound entry. Iron haematoxylin and the centrioles are the
+ * pair to look at — they are the same fact asked from either end, on two different
+ * papers, and each row lost its answer into its neighbour.
+ *
+ * One row records a conflict. `the-white-blood-cells-with-histamine-heparin` has a
+ * recovered key pointing at Eosinophils where the department book gives histamine
+ * and heparin to the basophil; the conflict is written on
+ * `basophil-granule-contents-and-anaphylaxis` in all four leaves that declare it,
+ * together with the evidence — three option boxes found where the paper had four,
+ * and a 13% overlap — that says the key is an artefact of the lost box. It is
+ * recorded, not resolved. Two of the five live rows carry answers recovered from
+ * the 2022 script; the other three are worked from the department book and say so.
+ *
+ * `neutrophil-granules-and-first-line-defence`,
+ * `monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage`,
+ * `leukocytes-are-granular-or-non-granular` and
+ * `nucleus-shape-position-and-number-identify-the-cell` are copied verbatim from
+ * the leaves that mint them: three of the papers' rows here are cell-identification
+ * questions filed under microtechniques because they name a stain, and a rival key
+ * for any of those four would halve a student's mastery of it.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -369,6 +394,9 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
       type: 'structure_function_relationship',
       aliases: ['Basophil granules', 'Anaphylaxis', 'Basophilia'],
+      conflicts: [
+        'The recovered key for the 2022 end-of-module paper resolves its question 40 — which white blood cells contain histamine and heparin — to Eosinophils, while the department book gives histamine and heparin to the basophil and the mast cell and gives the eosinophil histaminase and sulphatase, which destroy them. The disagreement is recorded rather than resolved. The evidence in `eom-answers.json` points at the extraction rather than at either source: only three of the four option boxes were found on that page, the option that was lost is Basophils, and the candidate\'s highlight overlaps the box the key names by 13% of its area. The row is excluded in `microtechniques.ts` with the same note.',
+      ],
     },
     {
       key: 'erythrocyte-identification-blood-film',
@@ -411,6 +439,67 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
       type: 'structure_function_relationship',
       aliases: ['UMC', 'Pericyte', 'Perivascular cell'],
+    },
+    {
+      key: 'neutrophil-granules-and-first-line-defence',
+      label: 'The neutrophil carries two granule populations and is the first line of non-specific defence',
+      definition:
+        'Neutrophils are 60–70% of the white cell count, 10–12 µm, with a dark segmented nucleus of two to five lobes joined by thin chromatin threads. Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase. Their specific (secondary) granules are small, many and pale, holding collagenase, phagocytin, lysozyme and lactoferrin. Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.',
+      objective:
+        'Distinguish the neutrophil’s azurophil and specific granules by size, number, staining and contents, and say what each contributes to defence.',
+      pitfall:
+        'Treating the two granule populations as one. The exam asks which granule holds which enzyme, and myeloperoxidase is in the azurophil granule while lactoferrin, phagocytin, lysozyme and collagenase are in the specific one.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
+      type: 'structure_function_relationship',
+      aliases: ['Polymorphonuclear leucocyte', 'Neutrophil granules', 'Microphage'],
+      gaps: [
+        'The department book states dead neutrophils form pus cells and that pus raises body temperature by stimulating the heat-regulating centre. No physiology source in this corpus supports the mechanism as stated; it is recorded because the book states it and it is examinable, not because it is verified.',
+      ],
+    },
+    {
+      key: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
+      label: 'The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues',
+      definition:
+        'The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look. It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months. It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.',
+      objective: 'Identify the monocyte by size and nuclear shape and name the tissue cells it gives rise to.',
+      pitfall: 'Calling the large lymphocyte the largest leukocyte. It reaches 10–15 µm; the monocyte reaches 20 µm, and it is the nuclear shape — kidney, not round — that settles it on a film.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
+      type: 'structure_function_relationship',
+    },
+    {
+      key: 'leukocytes-are-granular-or-non-granular',
+      label: 'Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte',
+      definition: 'White blood cells are classified by whether their cytoplasm carries specific granules. The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte. The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules. Platelets are not leukocytes at all.',
+      objective: 'Sort the five leukocytes into granular and non-granular and recognise the synonyms each carries.',
+      pitfall: 'Treating "non-granular" as meaning no granules whatsoever. Monocytes and lymphocytes both carry azurophil granules; what they lack are the specific granules that name the granulocytes.',
+      subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
+      type: 'classification',
+    },
+    {
+      key: 'nucleus-shape-position-and-number-identify-the-cell',
+      label: 'A cell is named from the number, position, shape and staining of its nucleus',
+      definition:
+        'Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.',
+      objective:
+        'Name a cell from the number, position and shape of its nucleus, and use nuclear level to tell pseudostratified from stratified epithelium.',
+      pitfall:
+        'Reading "segmented" and "lobed" as interchangeable across the granulocytes. Two to five joined segments is the neutrophil, two lobes in a horse-shoe is the eosinophil, and an irregular S obscured by granules is the basophil — the books ask all three from the same option list.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Nucleus',
+      type: 'classification',
+      aliases: ['Nuclear shape', 'Nuclear position', 'Multinucleated cell'],
+      gaps: [
+        'Four adipocyte rows were filed under this leaf and are authored against this concept because the flattened peripheral nucleus of the unilocular cell is one of the options in each. Their fuller concept, `white-versus-brown-adipose-connective-tissue`, is already minted in `types-of-connective-tissue-proper.ts`; it could not be reused here without emitting a duplicate concept id, so the adipose facts are taught in the option explanations instead. The same applies to two granulocyte rows whose concepts live in `granular-leukocytes.ts`.',
+      ],
     },
   ],
 
@@ -1507,6 +1596,129 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'The same orphan follow-on as `the-stain-characteristic-for-the-cell-detected-in-the-previo-27435c6e`, printed in a second book, and worse: option B has fused with option A ("Trypan blue. ‏.مط‎ Toluidine blue."), leaving three.',
+    },
+    {
+      key: 'cell-membrane-can-be-stained-by-12e975bd',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Name the light-microscopic stain that shows the plasma membrane.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it says the plasma membrane is hard to see by light microscopy and needs silver or PAS. Silver — printed here as "AG.", the chemical symbol — is the only one of the four options the book names.',
+      explanations: {
+        a: 'Correct. Silver is one of the two stains the book gives for the plasma membrane, and it works on the carbohydrate of the cell coat rather than on the lipid bilayer.',
+        b: 'Trypan blue, misprinted here as "Tryban", is a vital stain that the macrophage phagocytoses. It marks a whole cell by being eaten, not a membrane.',
+        c: 'Iron haematoxylin stains mitochondria dark blue, and centrioles. It is a stain for organelles inside the cell.',
+        d: 'Sudan III stains fat orange on a frozen section. The membrane is largely lipid, which is what makes this option tempting — but Sudan shows stored neutral fat in droplets, not the phospholipid of a bilayer.',
+      },
+    },
+    {
+      key: 'cell-membrane-can-be-stained-by-th-i-fo-g-histochemical-stai-64c1bb0b',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Moderate', questionType: 'Stain identification',
+      learningObjective: 'Name the histochemical stain that demonstrates the plasma membrane, and say what in the membrane it reacts with.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The highlight recovery reached this row on the 2022 script but could not resolve it — the record is ambiguous and low confidence, with no answer — so the answer comes from the department book instead: it names silver and PAS as the two ways of showing the plasma membrane, and PAS is the histochemical one, reacting with the carbohydrate of the glycocalyx. Silver is not among these four options, which leaves PAS as the only candidate. The stem is peppered with scanner noise ("th : i ; Fo! g") but its sense — "by the following histochemical stain" — is intact.',
+      explanations: {
+        a: 'Sudan III is a fat stain and needs a frozen section, since the alcohols of ordinary processing dissolve the fat away. It is a lipid stain rather than a histochemical reaction.',
+        b: 'Trypan blue is a vital stain for the macrophage, given to the living animal. Nothing about it is histochemical, and it demonstrates a cell rather than a membrane.',
+        c: 'Brilliant cresyl blue is the supravital stain of the reticulocyte, showing the residual ribosomal RNA in an immature red cell. Wrong cell, wrong component, wrong class of stain.',
+        d: 'Correct. The periodic acid–Schiff reaction is a histochemical test for carbohydrate, and the cell coat on the outer surface of the membrane is glycoprotein and glycolipid — which is why PAS reddens it.',
+      },
+    },
+    {
+      key: 'the-blood-count-of-a-patient-suffering-from-acute-tonsilliti-c5b06255',
+      conceptKey: 'neutrophil-granules-and-first-line-defence',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Predict which leukocyte rises in an acute bacterial infection.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is worked from the department book: neutrophils are the first line of non-specific defence, bacterial toxins attract them, and neutrophilia is defined as a count above 75%. Acute tonsillitis is an acute bacterial infection.',
+      explanations: {
+        a: 'Lymphocytes are the second line of defence and rise in chronic and in viral infection. The word in the stem doing the work is "acute".',
+        b: 'Basophils are 0–1% of the count at the best of times, and they rise in allergy, not in infection. A cell that scarce cannot produce a noticeable rise in a differential count.',
+        c: 'Eosinophils rise in allergy and in parasitic infestation — eosinophilia is above 5%. They terminate an allergic reaction rather than fighting bacteria.',
+        d: 'Correct. Neutrophils are drawn to bacterial toxins, leave the blood by diapedesis and phagocytose the bacteria, so an acute pyogenic infection raises their percentage above 75%.',
+      },
+    },
+    {
+      key: 'cytoplasm-with-frosted-glass-appearance-is-a-feature-of-7b149473',
+      conceptKey: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Name the leukocyte whose cytoplasm is described as frosted glass, and say what gives it that look.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for it, so the answer comes from the department book, which uses the phrase only once: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell in the book is described this way.',
+      explanations: {
+        a: 'The eosinophil\'s cytoplasm is crowded with large acidophilic specific granules — the opposite of frosted glass, which is a haze without visible granules.',
+        b: 'The neutrophil has numerous fine pale specific granules and is the closest wrong answer, since fine and pale is halfway to frosted. But the book reserves the phrase for the monocyte, and the neutrophil\'s granules are specific granules rather than lysosomes.',
+        c: 'Correct. The monocyte has no specific granules at all; its pale basophilic cytoplasm is hazed by azurophil granules, which are lysosomes, and that haze is the frosted-glass appearance.',
+        d: 'The basophil\'s coarse granules are so dense that they obscure the nucleus itself. Nothing about it is faint.',
+      },
+    },
+    {
+      key: 'which-of-the-following-is-a-non-granu-neutrophil-d-eosinop-d961959a',
+      conceptKey: 'leukocytes-are-granular-or-non-granular',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The stem has been cut off mid-word and has swallowed two of the four options. The pen crossed the letters of options c and d on this 2022 script, so the row reads "Which of the following is a non-granu ¢. Neutrophil. d. Eosinop" — the word "non-granular" truncated, the question mark gone, and two options quoted inside the question — while the option list holds only a and b, against a contract of four to five. The recovered key resolves it to option a with medium confidence and the department book agrees that the lymphocyte and the monocyte are the non-granular leukocytes, but a stem that states two of its own choices and stops in the middle of the word the question turns on cannot be sat. A rescan of page 4 of the 2022 paper needs to recover the end of the stem and the letters and text of options c and d.',
+    },
+    {
+      key: 'iron-hematoxylin-stain-is-used-to-demonstrate-d3bc76f6',
+      conceptKey: 'mitochondrion-ultrastructure-and-staining',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option has been absorbed into the one above it. The candidate\'s pen crossed the letter of option b on this 2020 script, so the bank holds option a as "Mitochondria & cell membrane. b Mitochondria & centrioles." — two rival options in one entry, the first false and the second true. The department book stains mitochondria dark blue with iron haematoxylin and gives the cell membrane to silver and PAS instead, and the 2022 row `the-centrioles-can-be-stained-with` confirms that centrioles are the second structure. Choosing this entry would be choosing a right and a wrong answer at once. Recoverable by rescanning page 1 of the 2020 paper.',
+    },
+    {
+      key: 'the-centrioles-can-be-stained-with-geen-76b2d775',
+      conceptKey: 'centriole-structure-and-role-in-cell-division',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The same failure as `iron-hematoxylin-stain-is-used-to-demonstrate`, in the other direction: the pen crossed the letter of option c on this 2022 script and the bank holds option b as "PAS. | .&..Itof.hematoxylin.", which is the false option PAS run together with "Iron haematoxylin", the true one. Iron haematoxylin is the answer — the two rows are the same fact asked from either end — but it exists here only inside a compound option, so the row cannot be sat. Recoverable by rescanning page 2 of the 2022 paper.',
+    },
+    {
+      key: 'large-cell-with-singlemultilobed-dark-nucleus-basophilic-cyt-87930919',
+      conceptKey: 'nucleus-shape-position-and-number-identify-the-cell',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The answer is inside a compound option. The pen crossed the letter of option c on this 2022 script, so the bank holds option b as "Megakaryocyte. [ | Monocyte." The department book\'s description of the megakaryocyte is word for word the stem — a very large cell with a single multilobed dark nucleus and basophilic cytoplasm — so the answer is the first half of that entry and the monocyte the rival second half. Recoverable by rescanning page 3 of the 2022 paper.',
+    },
+    {
+      key: 'the-white-blood-cells-with-histamine-heparin-contating-gerd-1aa53f18',
+      conceptKey: 'basophil-granule-contents-and-anaphylaxis',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option is not in the option set, and the recovered key disagrees with the department book. The pen crossed the letter of option d on this 2022 script, so "Basophils" was read into the tail of the stem and only Neutrophils, Lymphocytes and Eosinophils survived as options. The book gives histamine and heparin to the basophil and to the mast cell, and gives the eosinophil histaminase and sulphatase to destroy them — the opposite role. The recovered key nevertheless resolves to option c, Eosinophils; the evidence in `eom-answers.json` says why, and says not to trust it: only three of the four option boxes were found on the page, and the highlight overlaps box c by 13% of its area, so the mark almost certainly sits on the option whose box was lost. The conflict is recorded on the concept rather than resolved here. Recoverable by rescanning page 4 of the 2022 paper.',
+    },
+    {
+      key: 'glycogen-in-the-liver-can-be-stained-by-3-i-i-6-it-btpas-je-3d38a0d9',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the pen on this 2024 script and the options were read into the stem, where they survive as "BTPAS Je Siver Iron hematoxylin d. Sudan" — PAS, silver, iron haematoxylin and Sudan. The department book stains glycogen magenta red with PAS and red with Best\'s carmine, so PAS is the answer, but a question with an empty option map cannot be emitted. Recoverable by rescanning page 2 of the 2024 paper.',
+    },
+    {
+      key: 'the-blood-cells-with-receptor-for-ise-are-i-basophits-pe-rbc-1882ece4',
+      conceptKey: 'basophil-granule-contents-and-anaphylaxis',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options, and three questions have run together in one stem. After the pen crossed the option letters of question 38 on this 2024 script, its four options — Basophils, RBCs, Lymphocytes, Eosinophils — went into the stem, and questions 39 and 40 followed with their own stems and options. The department book answers all three: basophils and mast cells carry the IgE receptor; the oval specific granule with an electron-dense core is the eosinophil\'s; and neutrophils increase, not decrease, in bacterial infection. None of them can be emitted from a row holding three questions and no options. Recoverable by rescanning page 4 of the 2024 paper, which would split it into three.',
     },
   ],
 }

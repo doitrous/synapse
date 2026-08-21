@@ -208,5 +208,19 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: 'Three faults at once. Option D is missing. The printed key is B, "between bone and skin", which describes a bursa rather than a synovial sheath. And the department chapter gives no definition of a synovial sheath at all to test that key against — its ILO list asks the student to define the term and its text never does. The surviving option C, "around the tendons of the muscles", is what a synovial sheath is in every other source, but resolving the key from outside the faculty\'s own book would be inventing the department\'s position rather than recording it. The gap is noted on the concept.',
     },
+    {
+      key: 'regarding-the-classification-of-the-muscles-according-to-the-bfa2875b',
+      conceptKey: 'muscle-action-roles-prime-mover-antagonist-fixator-synergist',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the four roles a muscle can play in a movement, and recognise a term that belongs to joints rather than to muscles.',
+      answerOverride: 'd',
+      answerOverrideReason: 'Filed here rather than in `articular-system.ts`, where the slice put it on the word "symphysis": the question classifies muscles by action, and this leaf owns that concept and the department chapter it comes from. The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives exactly four types of muscle action \u2014 prime mover (agonist), antagonist, fixator (stabiliser) and synergist. A symphysis is a secondary cartilaginous joint and is on no list of muscle actions.',
+      explanations: {
+        a: 'True as a type of muscle action: the prime mover, or agonist, is the muscle that initiates and maintains the movement.',
+        b: 'True: the antagonist is the muscle that opposes the action of the prime mover. Students hesitate here because "opposing" sounds like something outside a classification of how muscles produce a movement \u2014 but a movement needs its brake as much as its motor.',
+        c: 'True: the fixator, or stabiliser, fixes the origin of the prime mover or steadies the joint it acts on, so that the pull has something to work against.',
+        d: 'Correct \u2014 this is the one that is not true, and the answer. A symphysis is a secondary cartilaginous joint, such as the pubic symphysis or an intervertebral disc; it is a way of joining bones, not a role a muscle plays. The fourth muscle role the option displaces is the synergist, which cancels unwanted movement at the other joints the prime mover crosses.',
+      },
+    },
   ],
 }

@@ -61,6 +61,9 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > General Embryology > Gametes',
       type: 'structural_description',
       aliases: ['Sperm', 'Ovum', 'Corona radiata', 'Zona pellucida'],
+      gaps: [
+        'The department book teaches no meiosis. Its Gametes chapter describes the morphology of the sperm and the ovum and the chromosome content of each nucleus, and stops there: the words meiosis, prophase, crossing-over, non-disjunction, aneuploidy and euploidy appear nowhere in the whole book except one sentence in the First Week chapter about the oocyte completing its second meiotic division. Two sat end-of-module questions examine exactly that material \u2014 `during-which-stage-of-first-meiotic-division-does-crossing-o-b01c5d2d` and `numerical-aberrations-of-chromosomes-occur-due-to-fc449570` \u2014 so the papers test what the book this faculty teaches from does not state. The first is answered here from general cytogenetics because only one of its four options is defensible; the second is excluded because more than one is.',
+      ],
     },
     {
       key: 'gametogenesis-timing-in-male-and-female',
@@ -448,6 +451,29 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Two options survived, and neither is right for the ovum: the department book gives the mature ovum a diameter of about 120 µm, and both surviving options pair it with 4. The stem is corrupt as well — "Size of cerebellum" cannot be what a cytology question asked beside the size of an ovum. This row needs the page rescanned before anyone can say what it was asking, and it is the one exclusion in this leaf that is not simply a duplicate.',
+    },
+    {
+      key: 'during-which-stage-of-first-meiotic-division-does-crossing-o-b01c5d2d',
+      conceptKey: 'gamete-morphology-and-the-haploid-nucleus',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Name the stage of the first meiotic division at which homologous chromosomes exchange segments.',
+      answerOverride: 'a',
+      answerOverrideReason: 'Filed here from the unassigned pile: the stem names no structure any leaf\u2019s vocabulary matched, but crossing-over during the first meiotic division is gametogenesis and belongs to this leaf. The 2020 paper printed no key and the recovered answer sheet does not cover this source. The answer does not come from the department book either \u2014 the book teaches no meiosis at all, and that gap is recorded on this concept. It is set to prophase because crossing-over is by definition an event of prophase I, at the pachytene stage, when the homologous chromosomes are synapsed; the other three stages are each defined by an event that is not it, so only one option is defensible and a faculty reviewer is not needed to say which.',
+      explanations: {
+        a: 'Correct. Crossing-over happens in prophase of the first meiotic division \u2014 at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.',
+        b: 'Metaphase I is when the paired chromosomes line up on the equator of the spindle. The pairing that crossing-over needs has already happened by then, and this is the commonest wrong answer because students remember that meiosis pairs chromosomes and metaphase is where pairs are visible in a diagram.',
+        c: 'Anaphase I is when the homologous chromosomes are pulled apart to opposite poles \u2014 the separation, not the exchange. It is also the stage at which failure of that separation, non-disjunction, produces gametes with the wrong chromosome number.',
+        d: 'Telophase I is the reforming of the nuclei around the two separated sets. By then the chromosomes are no longer in contact at all, so no exchange between them is possible.',
+      },
+    },
+    {
+      key: 'numerical-aberrations-of-chromosomes-occur-due-to-fc449570',
+      conceptKey: 'gamete-morphology-and-the-haploid-nucleus',
+      difficulty: 'Hard', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No answer can be established from the source this faculty teaches from. The department book contains no cytogenetics whatever \u2014 not euploidy, not aneuploidy, not non-disjunction \u2014 and the four options are all non-standard pairings of a mechanism with a term: non-disjunction paired with euploidy, non-haploid gametes paired with aneuploidy, failure of chromatid duplication in S-phase paired with aneuploidy, and failure of metaphase alignment paired with euploidy. Read against ordinary cytogenetics, non-disjunction causes aneuploidy and a non-haploid gamete causes euploidy, so the first option has the two terms the wrong way round and at least two of the others are arguable depending on which half of the pairing the examiner meant to test. The options are cleanly extracted and a rescan would change nothing; this needs a faculty reviewer, and the underlying gap is recorded on the concept.',
     },
   ],
 }

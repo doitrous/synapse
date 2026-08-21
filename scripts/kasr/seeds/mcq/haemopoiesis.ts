@@ -19,6 +19,17 @@
  * a fibroblast question under bone marrow because the marrow stroma contains
  * fibroblasts, and a student's mastery of the fibroblast should not be split in
  * half by where a question book happened to print it.
+ *
+ * One row from the sat end-of-module papers is added at the end, and it enlarges
+ * this leaf rather than repeating it. `potentially-renewable-cells` asks the
+ * three-way classification of cell populations, which the department book teaches
+ * nowhere: the words renewable, labile and end cell are absent from the whole text,
+ * and this chapter covers only marrow structure, the reticulocyte and the
+ * megakaryocyte, as the leaf's own note already said. The 2020 paper set it anyway,
+ * and a sat paper outranks every question book, so
+ * `cell-renewal-populations-static-renewing-and-potentially-renewable` is minted
+ * with a `gaps` note saying that no source this faculty would accept supports it.
+ * The answer came neither from a key nor from the book, and the row says so.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -67,6 +78,25 @@ export const LEAF: McqLeafSeed = {
       subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
       modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
       type: 'structure_function_relationship',
+    },
+    {
+      key: 'cell-renewal-populations-static-renewing-and-potentially-renewable',
+      label: 'Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle',
+      definition:
+        'Tissues are grouped by how their cells replace themselves. A static population is made of end cells that have left the cell cycle permanently and are never replaced — the neuron and the cardiac muscle cell. A renewing population is losing cells continuously and replacing them continuously from stem cells, as the blood, the epidermis and the lining of the gut do. A potentially renewable population sits between the two: its cells have left the cycle into a resting phase and are not dividing, but they retain the ability to re-enter the cycle and divide when replacement is needed — the liver cell and the fibroblast after injury. What separates the third group from the first is reversibility, and what separates it from the second is that the division happens on demand rather than continuously.',
+      objective:
+        'Distinguish static, renewing and potentially renewable cell populations by whether their cells can re-enter the cell cycle and whether replacement is continuous or on demand.',
+      pitfall:
+        'Reading "potentially renewable" as another name for a renewing population fed from stem cells. The renewing population replaces losses continuously from a stem cell; the potentially renewable one has ordinary differentiated cells that come back into the cycle themselves, and only when something calls for them.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S02-M03'],
+      modulePath: '101 ISK > Histology > Blood > Haemopoiesis',
+      type: 'classification',
+      aliases: ['Static cell population', 'Renewing cell population', 'End cell', 'Stable cell population'],
+      gaps: [
+        'The department book teaches no classification of cell populations anywhere: the words renewable, labile and end cell do not appear in it, and its haemopoiesis chapter covers only bone marrow structure, the reticulocyte and the megakaryocyte. The 2020 end-of-module paper set the question regardless, and a sat paper outranks the question books, so the concept is minted from the paper alone. Nothing in the faculty\'s own text supports the answer, and the row that tests it says so.',
+      ],
     },
   ],
 
@@ -132,6 +162,21 @@ export const LEAF: McqLeafSeed = {
         B: 'Erythrocytes are a product of haemopoiesis, so they fall with it, not rise. They are also finished cells that leave the marrow through the sinusoids rather than accumulating in it.',
         C: 'The haemopoietic cords are the haemopoietic tissue itself. Saying they increase as haemopoiesis decreases contradicts the stem — a trap for a student reading only the words "bone marrow component".',
         D: 'Stem cells are the source of haemopoiesis. Their numbers do not swell to fill an inactive marrow; the space is taken by fat.',
+      },
+    },
+    {
+      key: 'potentially-renewable-cells-8bc8c426',
+      conceptKey: 'cell-renewal-populations-static-renewing-and-potentially-renewable',
+      difficulty: 'Hard', questionType: 'Classification',
+      learningObjective: 'Define a potentially renewable cell population and separate it from a renewing one and from end cells.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'Neither a printed key nor a recovered highlight covers this row, and the department book does not settle it either: it teaches no classification of cell populations at all — the chapter covers bone marrow structure, the reticulocyte and the megakaryocyte and nothing else. The answer is therefore not from a key and not from the book, but from the standard three-way grouping the item is built on, in which the potentially renewable cell is the one that has left the cycle reversibly and returns to it when replacement is needed. Option c is the same statement with G2 substituted for the resting phase, which is what marks it as the examiner\'s intended trap. The concept carries a `gaps` note recording that no source this faculty would accept supports the answer.',
+      explanations: {
+        a: 'Continuous replacement from stem cells is a renewing population — blood, epidermis, the lining of the gut. The word the stem turns on is "potentially": these cells are not being replaced continuously, they are held in reserve.',
+        b: 'End cells are a static population: neurons and cardiac muscle, which have left the cycle for good and are never replaced. That is the opposite of potentially renewable, and it is the option for a student reading "potentially" as "not actually".',
+        c: 'The right idea with the wrong phase. A cell that leaves the cycle transiently leaves it in the resting phase after mitosis, not in G2 — G2 is the gap between DNA replication and mitosis, and a cell that has already copied its DNA is committed to dividing rather than resting.',
+        d: 'Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.',
       },
     },
   ],

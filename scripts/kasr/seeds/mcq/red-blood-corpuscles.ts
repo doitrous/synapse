@@ -41,6 +41,13 @@
  * two copies, one with an option reading "PI 3" and one with the next question
  * printed inside its last option, so the reticulocyte question that vignette
  * asks survives only in the concept.
+ *
+ * Two rows from the sat end-of-module papers are added at the end and both are
+ * excluded, which makes this the only leaf in the batch where the papers yielded no
+ * sittable question at all. Both are ringed scripts: the brilliant cresyl blue row
+ * has "Reticulocytes" merged into the neutrophil option, and the leptin row has no
+ * options left. The department book answers both, and both name the page to
+ * rescan.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -199,6 +206,9 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
       type: 'structure_function_relationship',
       aliases: ['Basophil granules', 'Anaphylaxis', 'Basophilia'],
+      conflicts: [
+        'The recovered key for the 2022 end-of-module paper resolves its question 40 — which white blood cells contain histamine and heparin — to Eosinophils, while the department book gives histamine and heparin to the basophil and the mast cell and gives the eosinophil histaminase and sulphatase, which destroy them. The disagreement is recorded rather than resolved. The evidence in `eom-answers.json` points at the extraction rather than at either source: only three of the four option boxes were found on that page, the option that was lost is Basophils, and the candidate\'s highlight overlaps the box the key names by 13% of its area. The row is excluded in `microtechniques.ts` with the same note.',
+      ],
     },
     {
       key: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
@@ -993,6 +1003,39 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'The same fault. This row is printed immediately after `a-child-arrived-at-the-pediatric-outpatient-clinic-complaini-0be1f21a` in its book and its intended answer is vitamin C deficiency, but the bank stores rows independently and a student would be shown "the disease in the previous case" with no previous case attached. Importing an item that refers to text a student cannot see teaches them the paper is broken.',
+    },
+    {
+      key: 'the-can-be-stained-b-a-hiant-cresy-blue-stain-136d5ef5',
+      conceptKey: 'reticulocyte-supravital-identification',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option has been absorbed into another. The candidate\'s pen crossed the letter of option c on this 2022 script, so the bank holds option b as "Neutrophi oath Reticulocytes." — the false option run together with the true one. The department book gives brilliant cresyl blue as the supravital stain that shows the reticulum of ribosomal remnants in the reticulocyte, so the answer is the second half of that entry. The stem has also lost its blank to the scanner. Recoverable by rescanning page 4 of the 2022 paper.',
+    },
+    {
+      key: 'endocrine-secretion-of-leptin-is-a-function-of-fibroblast-un-474f4e7e',
+      conceptKey: 'white-versus-brown-adipose-connective-tissue',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the pen on this 2024 script and the options were read into the stem, where they are legible as Fibroblast, Unilocular fat cell, Reticulocyte and Pericytes. The department book answers it — the endocrine function of the unilocular fat cell is secretion of leptin, which inhibits food intake and raises metabolic rate — but a question with an empty option map cannot be emitted. Recoverable by rescanning page 2 of the 2024 paper.',
+    },
+    {
+      key: 'formation-of-an-abnormal-rigid-type-of-hb-hbs-results-in-e26b5958',
+      conceptKey: 'named-anaemias-aplastic-pernicious-and-sickle-cell',
+      difficulty: 'Easy', questionType: 'Clinical correlation',
+      learningObjective: 'Name the anaemia caused by an abnormal rigid haemoglobin.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which gives sickle cell anaemia as the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.',
+      explanations: {
+        a: 'Aplastic anaemia is a failure of the bone marrow to produce cells at all. The haemoglobin it does make is normal; there is simply not enough of it, and the white cells and platelets fall with the red.',
+        b: 'Correct. HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.',
+        c: 'Spherocytosis is a membrane defect: the cell loses its biconcave shape and becomes a sphere, which raises its osmotic fragility. The fault is in the membrane cytoskeleton, not in the haemoglobin.',
+        d: 'Favism is haemolysis brought on by eating broad beans in a person deficient in an enzyme of the red cell. Like spherocytosis it destroys normal haemoglobin rather than being caused by an abnormal one.',
+      },
     },
   ],
 }

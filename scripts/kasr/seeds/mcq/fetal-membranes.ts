@@ -45,6 +45,42 @@
  * the source this faculty teaches from. The row is excluded on other grounds as
  * well — the option it wants was lost — but the gap would remain after a
  * rescan.
+ *
+ * A later pass added the five rows this leaf takes from the sat end-of-module
+ * papers. They are the cleanest rows in the file — four options each, no
+ * collisions, no swallowed options — and they say something the question books
+ * do not: across four papers and five years the department has examined this
+ * leaf on two facts only, the vessel count of the cord and which decidua makes
+ * the maternal part of the placenta. The cord question is set twice in
+ * consecutive years with the false option changed from "2 veins and one
+ * artery" to "2 veins and 2 arteries", which is the same question testing the
+ * same single fact from two sides.
+ *
+ * None of the five printed a key, and the recovered answer sheet covers
+ * neither of the two sources they come from, so all four live answers are
+ * taken from the department book and each says so in its reason. No concept is
+ * minted: all four reuse concepts this file already carries.
+ *
+ * The fifth row is excluded and is the interesting one. "Regarding full term
+ * placenta, one of the following is not true" offers a weight of 500–600 gm, a
+ * thickness of one cm, a diameter of 25–30 cm, and the cord attached to the
+ * maternal surface. Against the department book three of those four are false:
+ * the book gives thickness 3 cm and diameter 15–25 cm, and the cord is on the
+ * fetal surface. Only the weight matches. A single-best-answer question with
+ * three defensible answers cannot be sat, and the disagreement is recorded on
+ * `placenta-structure-plates-septa-and-cotyledons` rather than resolved by
+ * picking the option that feels most wrong.
+ *
+ * Three further sat rows are filed here that the slice put in other leaves,
+ * because this file owns the concept each one tests. The chorionic-villi
+ * question reached `hand.json` on the words "finger-like"; the long-cord
+ * question reached `fetal-period.json`, though this file already carries the
+ * live copy of it; and the yolk-sac question reached
+ * `second-week-of-development.json`, though the department book teaches the
+ * yolk sac in this chapter. All three come from the ringed 2024 script and all
+ * three are excluded. Filing them here rather than adding this leaf\u2019s
+ * concepts to three other leaves keeps each concept\u2019s article list honest:
+ * a hand article does not teach chorionic villi.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -69,6 +105,9 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
       type: 'structural_description',
       aliases: ['Chorionic plate', 'Decidual plate', 'Cotyledon', 'Decidual septa', 'Intervillous space'],
+      conflicts: [
+        'The 2020-12-24 end-of-module paper asks which statement about the full-term placenta is not true and offers, among its options, a thickness of one cm and a diameter of 25\u201330 cm. The department book gives thickness 3 cm and diameter 15\u201325 cm, so both of those options are false against the book, as is the paper\u2019s fourth option putting the umbilical cord on the maternal surface. The paper printed no key. Three false options in a single-best-answer question is why `regarding-full-term-placenta-one-of-the-following-is-not-tru-ae89b3ce` is excluded rather than answered.',
+      ],
     },
     {
       key: 'placental-functions-and-hormones',
@@ -1078,6 +1117,99 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'The row has no stem of its own. What was captured is the tail of a hand question — "Scaphoid" — followed by the numbered heading of the next question, "19- Regarding the decidua parictalis, choose the correct statement:", and then four options from three different questions, one of which is "Scaphoid" again. The decidua parietalis question itself survives intact at `regarding-the-decidua-parietalis-choose-the-correct-statemen-61eab5d0`, which is live; this row is the wreckage of the page break.',
+    },
+    {
+      key: 'premature-separation-of-placenta-occurs-due-to-e8fde7ca',
+      conceptKey: 'umbilical-cord-anomalies',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Attach premature separation of the placenta to the short cord, and give what each of the other cord and placental anomalies causes instead.',
+      answerOverride: 'a',
+      answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book rather than from a key. The book lists among the congenital anomalies of the cord "short cord limiting fetal movement and causing premature separation of placenta during delivery", which is option a in the paper\u2019s own words.',
+      explanations: {
+        a: 'Correct. A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.',
+        b: 'The long cord is the dangerous one a student remembers, because the book calls neck encirclement and a true knot life-threatening \u2014 but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.',
+        c: 'An accessory placenta is an anomaly of number, a separate lobe joined to the main disc by vessels. It matters because the extra lobe may be retained after delivery, which is the opposite problem: placenta left behind rather than placenta detached early.',
+        d: 'Placenta accreta is abnormal infiltration of the placenta into the uterine wall, and it too is the opposite of this question \u2014 an accreta will not separate when it should, and is a cause of retained placenta and post-partum haemorrhage.',
+      },
+    },
+    {
+      key: 'regarding-full-term-placenta-one-of-the-following-is-not-tru-ae89b3ce',
+      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three of the four options are false against the department book, and the paper printed no key. The book gives the full-term placenta a weight of 500\u2013600 gm (option a, true), a thickness of 3 cm (against option b\u2019s one cm), and a diameter of 15\u201325 cm (against option c\u2019s 25\u201330 cm); and it puts the umbilical cord on the fetal surface, against option d\u2019s maternal surface. A "which is not true" question with three true answers has no single best answer, and this is not a scanning fault a rescan would fix \u2014 the options are cleanly extracted and the item needs a faculty reviewer. The disagreement is recorded on the concept rather than settled here by guessing which of the three the examiner meant.',
+    },
+    {
+      key: 'concerning-the-umbilical-cord-at-birth-select-the-incorrect-1f7b6b65',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Give the vessel count, the length and the placental attachment of the definitive umbilical cord.',
+      answerOverride: 'b',
+      answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives the definitive cord two umbilical arteries and one umbilical vein, a length of 50\u201360 cm, attachment near the centre of the fetal surface of the placenta, and a short cord as a cause of premature separation \u2014 so a, c and d are its own words and b is the one statement it contradicts.',
+      explanations: {
+        a: 'True, and the book\u2019s figure exactly: 50\u201360 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.',
+        b: 'Correct \u2014 this is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.',
+        c: 'True. The cord is attached near the centre of the smooth, amnion-covered fetal surface; attachment at the margin is battledore placenta and attachment through the amniotic membrane is velamentous, and both are named as anomalies precisely because the normal site is the fetal surface.',
+        d: 'True, and it is the book\u2019s first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.',
+      },
+    },
+    {
+      key: 'concerning-the-placenta-one-of-the-following-is-incorrect-35ecea57',
+      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the fetal and the maternal part of the placenta, and say which of the three deciduae each part comes from.',
+      answerOverride: 'b',
+      answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book states the placenta is formed by union of a maternal part \u2014 the decidual plate, which is decidua basalis \u2014 and a fetal part, the chorionic plate, which is chorion frondosum. Option b names decidua capsularis, which the book gives no part in the placenta at all.',
+      explanations: {
+        a: 'True. The fetal part is the chorionic plate, and the chorionic plate is chorion frondosum \u2014 the pole of the chorion facing decidua basalis, where the villi are kept and grow.',
+        b: 'Correct \u2014 this is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.',
+        c: 'True. The placental barrier separates maternal blood in the intervillous spaces from fetal blood in the tertiary villi, and it is the whole reason the two circulations never mix.',
+        d: 'True. The placenta is an endocrine gland as well as an exchange organ, secreting progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin.',
+      },
+    },
+    {
+      key: 'regarding-the-umbilical-cord-at-birth-select-the-incorrect-s-c6e1b0e6',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Give the vessel count, the length and the placental attachment of the definitive umbilical cord.',
+      answerOverride: 'b',
+      answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book: the definitive cord holds two umbilical arteries and one umbilical vein. This is the previous year\u2019s question reset with the false option changed from "2 veins and one artery" to "2 veins and 2 arteries"; the other three options are word for word the same and are all true.',
+      explanations: {
+        a: 'True, and the book\u2019s figure: the cord is 50\u201360 cm long and about 2 cm in diameter.',
+        b: 'Correct \u2014 this is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year\u2019s version is harder than the previous year\u2019s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.',
+        c: 'True. The cord is attached near the centre of the fetal surface of the placenta \u2014 the smooth surface covered by amnion, over which the umbilical vessels run to reach the villi.',
+        d: 'True, and the book\u2019s own account of the short cord: it limits fetal movement and separates the placenta prematurely during delivery.',
+      },
+    },
+    {
+      key: 'the-finger-like-projections-of-cytotrophoblast-into-syncytio-e1d795a7',
+      conceptKey: 'chorionic-villi-types-development',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Filed here rather than in `hand.ts`, where the slice put it because the stem says "finger-like": it is a chorionic villi question and this leaf owns the concept. From the ringed 2024 script, with `options` empty \u2014 the four names are inside the stem, "a\u00e9Somatic villi b. Splanchnic villi _& Primary chorionic vill d. Secondary chorionic vill", with the letters struck through and the word villi truncated twice. The department book\u2019s answer is the primary chorionic villi, the finger-like projections of cytotrophoblast into the syncytiotrophoblast; somatic and splanchnic are names of extra-embryonic mesoderm, not of villi. A rescan of an unringed copy recovers it.',
+    },
+    {
+      key: 'abnormally-long-umbilical-cord-may-lead-to-6-formation-of-fa-ccd8e6fc',
+      conceptKey: 'umbilical-cord-anomalies',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Filed here rather than in `fetal-period.ts`, where the slice put it: it is a cord-anomaly question, this leaf owns the concept, and the live copy of the same question is already here as `abnormally-long-umbilical-cord-may-lead-to-dep-book-2024-ac-59be1fce`. From the ringed 2024 script, with `options` empty \u2014 the choices are inside the stem, "Formation of false knots. - Early separation of placenta during delivery -& Strangulation of the baby during delivery", and the stem then runs on into the next question. The department book\u2019s answer is strangulation: a long cord may encircle the fetal neck or form a true knot, while the false knot is a wider curve of an umbilical artery that causes no fetal stress and early separation belongs to the short cord. The live copy carries all of that; this row adds only the sat paper\u2019s occurrence, and needs a rescan to do even that.',
+    },
+    {
+      key: 'yolk-sac-shares-in-the-formation-of-a-forebrain-midbrain-and-c18f545a',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Filed here rather than in `second-week-of-development.ts`, where the slice put it: the department book teaches the yolk sac in the Fetal Membranes chapter, this leaf owns the concept, and the question-book copy of the same question is already here as `yolk-sac-shares-in-the-formation-of-49e90126`. From the ringed 2024 script, with `options` empty \u2014 the four choices are inside the stem, "a Forebrain, midbrain and hind brain _*. Kidneys ec Foregut, midgut and hindgut AL Spleen", with the letters struck through and the printed number mangled to 419. The book\u2019s answer is the gut: the yolk sac shares with the endoderm in forming the foregut, midgut and hindgut. A rescan of an unringed copy recovers it.',
     },
   ],
 }
