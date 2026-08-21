@@ -15,6 +15,7 @@ import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
 import type { MatchingPayload } from './matchingQuestion.ts'
 import type { MultiResponsePayload } from './multiResponseQuestion.ts'
 import type { LabelingPayload } from './labelingQuestion.ts'
+import type { CompletionPayload } from './completionQuestion.ts'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -244,6 +245,8 @@ export interface QuestionAuthoringData {
   multiResponse?: MultiResponsePayload
   /** The image and its labelled points. Present only on `format: 'labeling'`. */
   labeling?: LabelingPayload
+  /** The sentence and its blanks. Present only on `format: 'completion'`. */
+  completion?: CompletionPayload
   /**
    * What this was derived from, when it was derived rather than transcribed.
    * A written question may only be derived from another written question; the

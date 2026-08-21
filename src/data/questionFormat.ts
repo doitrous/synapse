@@ -160,8 +160,9 @@ export function writtenTotalMarks(parts: readonly WrittenPart[]): number {
  * before then is what this list prevents, and the reason is that the failures
  * are silent rather than loud:
  *
- * `completion` is the one still out. It has no payload and no runner, so it
- * would reach a student as an empty question or not at all.
+ * Every format currently has one. The list stays because it is the thing that
+ * stops a format being imported ahead of the surface that shows it, which is
+ * the mistake it was written to prevent.
  *
  * `mcq_multi` was here for a while and is the reason the list exists: it used to
  * render through the single-best-answer path, where `correctAnswer` holds one
@@ -174,6 +175,7 @@ export function writtenTotalMarks(parts: readonly WrittenPart[]): number {
  */
 export const RUNNABLE_FORMATS = [
   'mcq_single_best', 'true_false', 'image_based', 'matching', 'mcq_multi', 'labeling',
+  'completion',
   'short_answer', 'structured_written', 'essay', 'comparison_table', 'multipart_written',
 ] as const
 

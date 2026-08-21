@@ -17,6 +17,7 @@ import {
 import { matchingErrors, parseMatching } from './matchingQuestion.ts'
 import { multiResponseErrors, parseCorrectAnswers } from './multiResponseQuestion.ts'
 import { labelingErrors, parseLabeling } from './labelingQuestion.ts'
+import { completionErrors, parseCompletion } from './completionQuestion.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
@@ -61,6 +62,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'labeling_image', label: 'Labelling image', help: 'The image URL of a labelling question.' },
       { key: 'labeling_alt', label: 'Labelling image alt text', help: 'What the image shows, for a student who cannot see it. Required on a labelling question.' },
       { key: 'labeling_points', label: 'Labelling points', help: 'One per line as "1 @ 34,58 = Answer | Also accepted". Coordinates are percentages of the image.' },
+      { key: 'completion_text', label: 'Completion sentence', help: 'The sentence with its blanks written inline as [[answer|also accepted]].' },
       { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
@@ -791,7 +793,8 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
 
   const errors = IMPORT_SCHEMAS[kind].fields
     .filter((field) => field.required && !values[field.key]?.trim())
-    .filter((field) => !((written || format === 'mcq_multi' || format === 'labeling') && field.key === 'correct_answer'))
+    .filter((field) => !((written || format === 'mcq_multi' || format === 'labeling'
+      || format === 'completion') && field.key === 'correct_answer'))
     .map((field) => `${field.label} is required`)
 
   if (kind === 'question') {
@@ -819,6 +822,12 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       ))
     } else if (values.correct_answers?.trim()) {
       errors.push(`Several correct answers were given, but the format is ${format} — only a multiple response question has more than one`)
+    }
+
+    if (format === 'completion') {
+      errors.push(...completionErrors(parseCompletion(values.completion_text), values.completion_text))
+    } else if (values.completion_text?.trim()) {
+      errors.push(`A completion sentence was given, but the format is ${format} — only a completion question carries one`)
     }
 
     if (format === 'labeling') {
@@ -1073,6 +1082,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const matching = parseMatching(values.matching_options, values.matching_prompts)
     const correctAnswers = parseCorrectAnswers(values.correct_answers)
     const labeling = parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points)
+    const completion = parseCompletion(values.completion_text)
     const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
@@ -1095,6 +1105,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         matching: format === 'matching' ? matching : undefined,
         multiResponse: format === 'mcq_multi' ? { correctAnswers } : undefined,
         labeling: format === 'labeling' ? labeling : undefined,
+        completion: format === 'completion' ? completion : undefined,
         derivedFromFormat: derivedFrom.format,
         derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,

@@ -141,6 +141,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `labeling_image` | Labelling image | Image URL. **Required on `labeling`.** | — |
 | `labeling_alt` | Labelling alt text | What the image shows. **Required on `labeling`.** | — |
 | `labeling_points` | Labelling points | One per line as `1 @ 34,58 = Answer \| Also accepted`. | `[]` |
+| `completion_text` | Completion sentence | The sentence with blanks inline as `[[answer\|also accepted]]`. | — |
 | `derived_from` | Derived from | What this was derived from, when it was derived rather than transcribed. | — |
 | `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
@@ -658,11 +659,15 @@ as an empty question or not at all.
 | `short_answer` · `structured_written` · `essay` · `comparison_table` · `multipart_written` | Essay questions → Exam questions |
 | `mcq_multi` | Essay questions → Select all that apply |
 | `labeling` | Essay questions → Labelling |
-| `completion` | **Nowhere yet — refused at import** |
+| `completion` | Essay questions → Completion |
 
-Capture a source question in a refused format in the source record and wait for
-the runner. Do not rewrite it as an MCQ to get it in; that changes what it
-tests, which is the whole thing this is here to prevent.
+Every format now has a runner, so nothing is currently refused. The check stays
+because it is what stops a format being imported ahead of the surface that shows
+it — if a new one is added tomorrow, it is refused until something can run it.
+
+Never rewrite a source question into a format it was not set in to get it
+imported. That changes what it tests, which is the whole thing this is here to
+prevent.
 
 ### Select all that apply
 
@@ -716,3 +721,27 @@ brachii muscle" and "Biceps brachii" are one answer, and so are "median n." and
 "Median nerve". But the class word is never discarded: **"median nerve" and
 "median artery" are not the same answer**, and treating them as one would credit
 a student for naming a different structure.
+
+### Completion
+
+The department books set these constantly. A blank asks a student to *produce*
+the term; the same item as four lettered options asks them to *recognise* it,
+which is a different and much easier thing — so do not convert one into the
+other.
+
+```
+## completion_text
+The sinoatrial node is supplied by the [[right coronary artery|RCA]] in about
+60% of hearts, and lies in the [[right atrium]].
+```
+
+Blanks are written **inline, in the sentence**, not as a numbered list beneath
+it. A separate list is one more thing to keep in step: renumber the sentence and
+the answers stop lining up, silently, and every blank after the mistake is
+marked against the wrong word.
+
+Everything after the first `|` is another wording that counts. An unclosed `[[`
+is an error rather than a blank that quietly swallows the rest of the sentence.
+
+Marked with the same rules as labelling — lenient about wording, strict about
+structure. "the Right Coronary A." is accepted; "right coronary vein" is not.

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuffle } from 'lucide-react'
+import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuffle, TextCursorInput } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { WRITTEN_GUIDE } from '@/data/writtenGuide'
 import { coveredCount, type EssayQuestion as EssayQuestionData } from '@/data/essay'
@@ -19,9 +19,11 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { EssayRunner } from '@/components/essay/EssayRunner'
 import { WrittenRunner } from '@/components/written/WrittenRunner'
 import {
-  useLiveLabelingQuestions, useLiveMatchingQuestions, useLiveMultiResponseQuestions,
-  useLiveWrittenQuestions,
+  useLiveCompletionQuestions, useLiveLabelingQuestions, useLiveMatchingQuestions,
+  useLiveMultiResponseQuestions, useLiveWrittenQuestions,
 } from '@/lib/useLiveWrittenQuestions'
+import { CompletionRunner } from '@/components/written/CompletionRunner'
+import type { CompletionQuestionView } from '@/data/completionQuestion'
 import { MultiResponseRunner } from '@/components/written/MultiResponseRunner'
 import { LabelingRunner } from '@/components/written/LabelingRunner'
 import type { MultiResponseQuestionView } from '@/data/multiResponseQuestion'
@@ -274,14 +276,17 @@ export function EssayQuestions() {
   const matching = useLiveMatchingQuestions()
   const multi = useLiveMultiResponseQuestions()
   const labeling = useLiveLabelingQuestions()
+  const completion = useLiveCompletionQuestions()
   const availability = useCatalogueAvailability(
-    essays.length + written.length + matching.length + multi.length + labeling.length,
+    essays.length + written.length + matching.length + multi.length
+    + labeling.length + completion.length,
   )
   const [active, setActive] = useState<EssayQuestionData | null>(null)
   const [activeWritten, setActiveWritten] = useState<WrittenQuestion | null>(null)
   const [activeMatching, setActiveMatching] = useState<MatchingQuestionView | null>(null)
   const [activeMulti, setActiveMulti] = useState<MultiResponseQuestionView | null>(null)
   const [activeLabeling, setActiveLabeling] = useState<LabelingQuestionView | null>(null)
+  const [activeCompletion, setActiveCompletion] = useState<CompletionQuestionView | null>(null)
 
   if (active) {
     // Keyed by question: without it, a future "next question" control would
@@ -304,6 +309,10 @@ export function EssayQuestions() {
 
   if (activeLabeling) {
     return <LabelingRunner key={activeLabeling.id} question={activeLabeling} onExit={() => setActiveLabeling(null)} />
+  }
+
+  if (activeCompletion) {
+    return <CompletionRunner key={activeCompletion.id} question={activeCompletion} onExit={() => setActiveCompletion(null)} />
   }
 
   return (
@@ -377,9 +386,19 @@ export function EssayQuestions() {
             onOpen={setActiveLabeling}
           />
 
+          <FormatSection
+            title={t('Completion')}
+            blurb={t('Fill the words back into the sentence, as the department books ask.')}
+            icon={TextCursorInput}
+            items={completion}
+            subtitle={(question) => t('{n} blanks to fill')
+              .replace('{n}', String(question.completion.blanks.length))}
+            onOpen={setActiveCompletion}
+          />
+
           {essays.length > 0 && (
             <section>
-              {(written.length + matching.length + multi.length + labeling.length > 0) && (
+              {(written.length + matching.length + multi.length + labeling.length + completion.length > 0) && (
                 <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Practice essays')}</h2>
               )}
               <EssayList essays={essays} onOpen={setActive} />

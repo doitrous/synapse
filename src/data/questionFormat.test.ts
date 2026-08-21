@@ -173,13 +173,15 @@ describe('Formats that cannot yet be shown are refused', () => {
     }
   })
 
-  test('completion is the one still without a runner', () => {
-    assert.equal(isRunnableFormat('completion'), false)
+  test('every format now has a runner', () => {
+    for (const format of QUESTION_FORMATS) {
+      assert.equal(isRunnableFormat(format), true, format)
+    }
   })
 
   test('everything with a runner is runnable', () => {
     for (const format of ['mcq_single_best', 'true_false', 'image_based', 'matching',
-      'mcq_multi', 'labeling',
+      'mcq_multi', 'labeling', 'completion',
       'short_answer', 'structured_written', 'essay', 'comparison_table', 'multipart_written'] as const) {
       assert.equal(isRunnableFormat(format), true, format)
     }

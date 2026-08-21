@@ -1,9 +1,10 @@
 import { test, describe } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  isLabelCorrect, labelingComplete, labelingErrors, markLabeling, normaliseLabel,
+  isLabelCorrect, labelingComplete, labelingErrors, markLabeling,
   parseLabeling, parseLabelingPoints,
 } from './labelingQuestion.ts'
+import { normaliseAnswer } from './answerMatching.ts'
 
 /** Shaped after a Kasr practical plate: identify the structure at each arrow. */
 const POINTS = `1 @ 34,58 = Biceps brachii | Biceps | Biceps m.
@@ -119,7 +120,7 @@ describe('Marking what a student wrote', () => {
     assert.equal(isLabelCorrect('median artery', medianNerve), false)
     assert.equal(isLabelCorrect('median vein', medianNerve), false)
     assert.equal(isLabelCorrect('median', medianNerve), true, 'naming no kind at all is accepted')
-    assert.notEqual(normaliseLabel('median nerve'), normaliseLabel('median artery'))
+    assert.notEqual(normaliseAnswer('median nerve'), normaliseAnswer('median artery'))
   })
 
   test('a plate is scored point by point', () => {

@@ -10,6 +10,7 @@ import {
 import type { MatchingQuestionView } from '@/data/matchingQuestion'
 import { managedMultiToStudentMulti, type MultiResponseQuestionView } from '@/data/multiResponseQuestion'
 import { managedLabelingToStudentLabeling, type LabelingQuestionView } from '@/data/labelingQuestion'
+import { managedCompletionToStudentCompletion, type CompletionQuestionView } from '@/data/completionQuestion'
 import { usePersistentState } from './usePersistentState'
 
 export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): WrittenQuestion[] {
@@ -59,6 +60,16 @@ export function useLiveLabelingQuestions() {
   return useMemo(
     () => catalogue.map(managedLabelingToStudentLabeling)
       .filter((q): q is LabelingQuestionView => q !== null),
+    [catalogue],
+  )
+}
+
+/** Every published completion question. */
+export function useLiveCompletionQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(
+    () => catalogue.map(managedCompletionToStudentCompletion)
+      .filter((q): q is CompletionQuestionView => q !== null),
     [catalogue],
   )
 }

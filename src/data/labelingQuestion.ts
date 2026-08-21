@@ -1,4 +1,5 @@
 import type { ManagedContentItem } from './contentControl.ts'
+import { matchesAnswer } from './answerMatching.ts'
 
 /**
  * A labelling question: an image, and points on it a student must name.
@@ -173,72 +174,9 @@ export function managedLabelingToStudentLabeling(item: ManagedContentItem): Labe
  * whole of the difference between two answers, and the point of the mark scheme
  * is to tell them apart.
  */
-/**
- * The class words an anatomical answer ends in, and every way they are written.
- *
- * A trailing single letter is the abbreviation; a leading one is an article, so
- * `a` is only read as artery when something comes before it.
- */
-const CLASS_WORDS: Record<string, string> = {
-  n: 'nerve', nn: 'nerve', nerve: 'nerve', nerves: 'nerve',
-  m: 'muscle', mm: 'muscle', muscle: 'muscle', muscles: 'muscle',
-  a: 'artery', aa: 'artery', artery: 'artery', arteries: 'artery',
-  v: 'vein', vv: 'vein', vein: 'vein', veins: 'vein',
-  lig: 'ligament', ligament: 'ligament', ligaments: 'ligament',
-}
-
-export function normaliseLabel(value: string): string {
-  return value
-    .toLowerCase()
-    .normalize('NFKD')
-    // Strip combining marks, so an accented form still matches its plain one.
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[.,;:'"()\[\]]/g, ' ')
-    // Only true articles. Class words stay — see `splitClassWord`.
-    .replace(/\b(the|of)\b/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-/**
- * An answer as its stem and the kind of structure it names.
- *
- * "median nerve" is `median` + `nerve`; "median artery" is `median` + `artery`;
- * "biceps brachii" is `biceps brachii` + nothing.
- */
-function splitClassWord(normalised: string): { stem: string; kind: string } {
-  const words = normalised.split(' ').filter(Boolean)
-  if (words.length < 2) return { stem: normalised, kind: '' }
-  const kind = CLASS_WORDS[words[words.length - 1]]
-  if (!kind) return { stem: normalised, kind: '' }
-  return { stem: words.slice(0, -1).join(' '), kind }
-}
-
-/**
- * Whether two answers name the same structure.
- *
- * The stems must be the same. The class word is optional only when **one side
- * leaves it out** — a student writing "biceps brachii" for "biceps brachii
- * muscle" is right, and so is one writing "median n." for "median nerve". When
- * both sides name a kind and the kinds differ, they are different structures:
- * "median nerve" and "median artery" share a stem and are not the same answer,
- * and marking them equal would credit a student for naming the wrong thing.
- */
-function sameStructure(a: string, b: string): boolean {
-  if (a === b) return true
-  const left = splitClassWord(a)
-  const right = splitClassWord(b)
-  if (left.stem !== right.stem) return false
-  if (!left.kind || !right.kind) return true
-  return left.kind === right.kind
-}
-
 /** Whether what a student wrote counts as this point's answer. */
 export function isLabelCorrect(written: string, point: LabelingPoint): boolean {
-  const given = normaliseLabel(written)
-  if (!given) return false
-  return [point.answer, ...point.accepts]
-    .some((accepted) => sameStructure(normaliseLabel(accepted), given))
+  return matchesAnswer(written, [point.answer, ...point.accepts])
 }
 
 export type LabelingResponse = Record<string, string>
