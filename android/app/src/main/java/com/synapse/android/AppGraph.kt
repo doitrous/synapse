@@ -5,7 +5,6 @@ import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.auth.AuthBackend
 import com.synapse.android.core.auth.AuthModel
 import com.synapse.android.core.auth.EncryptedSessionStore
-import com.synapse.android.core.auth.SessionStore
 import com.synapse.android.core.auth.SupabaseAuthBackend
 import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
@@ -45,14 +44,18 @@ class AppGraph(context: Context, val config: AppConfig) {
     // synced.
     val themePreference = ThemePreference(context.applicationContext)
 
-    private val sessionStore: SessionStore by lazy { EncryptedSessionStore(context.applicationContext) }
+    // Typed as the concrete class, not as SessionStore, because it backs two
+    // separate things out of the one encrypted file: the Supabase session
+    // (SessionStore, for the backend) and the last confirmed identity
+    // (SessionUserCache, for AuthModel).
+    private val sessionStore: EncryptedSessionStore by lazy { EncryptedSessionStore(context.applicationContext) }
 
     // The backend owns the token. Built first, its reader handed to the API,
     // so the apparent cycle (api needs a token, auth needs the api)
     // resolves without a lateinit or a holder object.
     val authBackend: AuthBackend by lazy { SupabaseAuthBackend(config, sessionStore, http) }
     val api: SynapseApi by lazy { SynapseApi(config.apiBaseUrl, http, authBackend::accessToken) }
-    val auth: AuthModel by lazy { AuthModel(config, api, authBackend) }
+    val auth: AuthModel by lazy { AuthModel(config, api, authBackend, sessionStore) }
 
     // The only correct way to open the file: it pins the name and forces
     // applicationContext, so the database cannot capture an Activity.

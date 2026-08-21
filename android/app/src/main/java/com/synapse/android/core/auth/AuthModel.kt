@@ -107,6 +107,7 @@ class AuthModel(
     private val config: AppConfig,
     private val api: SynapseApi,
     private val backend: AuthBackend,
+    private val userCache: SessionUserCache = SessionUserCache.Forgetful,
 ) {
     private val _state = MutableStateFlow<AuthState>(AuthState.Restoring)
     val state: StateFlow<AuthState> = _state.asStateFlow()
@@ -162,6 +163,12 @@ class AuthModel(
 
     suspend fun signOut() {
         perform {
+            // Forgotten before the sign-out is attempted, not after. If the
+            // call throws, the student stays on the signed-in screen and
+            // tries again -- but a cached identity left behind by a
+            // sign-out that half-worked could restore that screen on the
+            // next launch, offline, with no server left to say otherwise.
+            userCache.writeUser(null)
             backend.signOut()
             _state.value = AuthState.SignedOut
         }
@@ -191,11 +198,13 @@ class AuthModel(
         try {
             val user = api.session()
             if (user != null) {
+                userCache.writeUser(user)
                 _state.value = AuthState.SignedIn(user)
                 _message.value = null
             } else {
                 // Not an error: Supabase knows this address and Connect Cortex has
                 // no account for it yet.
+                userCache.writeUser(null)
                 _state.value = AuthState.SignedOut
                 if (explainFailure) {
                     _message.value =
@@ -203,6 +212,9 @@ class AuthModel(
                 }
             }
         } catch (e: ApiError.Unauthorized) {
+            // The server has spoken: this token is no good. Whatever the
+            // cache remembers about it is no good either.
+            userCache.writeUser(null)
             _state.value = AuthState.SignedOut
             if (explainFailure) {
                 // Deliberately not guessing at a cause. Two services have to
@@ -228,11 +240,53 @@ class AuthModel(
             // Covers ApiError.Transient among others. The token may well be
             // fine and the network not, so nothing here touches the stored
             // session -- only the network's fault is being reported.
+            if (restoreFromCache(explainFailure, e)) return
             _state.value = AuthState.SignedOut
             if (explainFailure) {
                 _message.value = AuthNotice.problem(describe(e))
             }
         }
+    }
+
+    /**
+     * Carry on as the student we last were, when the only thing that went
+     * wrong was the network.
+     *
+     * The app opens straight into [AuthState.Restoring] and asks the server
+     * who this is. Losing that answer used to mean the sign-in form -- on a
+     * train, in a basement, on a hospital ward -- with a perfectly good
+     * token in the encrypted store and a full local cache of the student's
+     * own work sitting one screen away, unreachable. Every screen reads
+     * [com.synapse.android.core.cache.LocalStore], never the API, so there
+     * is nothing about being offline that the app cannot do; the sign-in
+     * form was the only thing standing in the way.
+     *
+     * Three things all have to hold, and each is doing work:
+     *
+     * - [explainFailure] is false, so this is a restore and not the student
+     *   pressing Sign in. Someone who just typed a password is owed the
+     *   truth about what happened to it, not a screen that behaves as if it
+     *   worked.
+     * - The failure is [ApiError.isRetryable] -- a transport fault. A 401 is
+     *   handled above and never reaches here; anything else means the
+     *   server answered, and an answer is not something to paper over.
+     * - There is still a token to be signed in *with*. Without this, a
+     *   cleared session plus one unlucky request would show a signed-in
+     *   shell for an account that no longer has a way to talk to the
+     *   server.
+     *
+     * Nothing is faked: [AuthState.SignedIn] carries the identity the server
+     * itself confirmed last time, and the next reachable server call --
+     * `SyncEngine` refreshes on every foreground -- either renews it or
+     * fails loudly on Account.
+     */
+    private suspend fun restoreFromCache(explainFailure: Boolean, error: ApiError): Boolean {
+        if (explainFailure || !error.isRetryable) return false
+        if (backend.accessToken() == null) return false
+        val cached = userCache.readUser() ?: return false
+        _state.value = AuthState.SignedIn(cached)
+        _message.value = null
+        return true
     }
 
     private suspend fun perform(work: suspend () -> Unit) {

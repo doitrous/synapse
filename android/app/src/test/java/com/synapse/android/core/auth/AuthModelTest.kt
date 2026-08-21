@@ -1,5 +1,6 @@
 package com.synapse.android.core.auth
 
+import com.synapse.android.core.api.SessionUser
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.config.AppConfig
 import kotlinx.coroutines.CancellationException
@@ -22,11 +23,13 @@ class AuthModelTest {
     private lateinit var server: MockWebServer
     private lateinit var api: SynapseApi
     private lateinit var backend: FakeAuthBackend
+    private lateinit var cache: FakeSessionUserCache
     private lateinit var config: AppConfig
 
     @Before fun setUp() {
         server = MockWebServer().also { it.start() }
         backend = FakeAuthBackend()
+        cache = FakeSessionUserCache()
         config = AppConfig(
             rawSupabaseHost = "project.supabase.co",
             supabaseAnonKey = "anon-key",
@@ -41,7 +44,15 @@ class AuthModelTest {
 
     @After fun tearDown() = server.shutdown()
 
-    private fun model(cfg: AppConfig = config) = AuthModel(cfg, api, backend)
+    private fun model(cfg: AppConfig = config) = AuthModel(cfg, api, backend, cache)
+
+    private fun aUser(id: String = "u1") = SessionUser(
+        id = id,
+        email = "student@example.com",
+        role = "student",
+        aal = "aal1",
+        mfaRequired = false,
+    )
 
     private fun sessionBody(id: String, email: String) =
         """{"user":{"id":"$id","email":"$email","role":"student","aal":"aal1","mfaRequired":false}}"""
@@ -217,6 +228,109 @@ class AuthModelTest {
         assertNotNull("CancellationException should have propagated out of signIn", propagated)
         assertFalse(model.isWorking.value)
         assertNull(model.message.value)
+    }
+
+    @Test fun `a restore that cannot reach the server keeps the student signed in`() = runBlocking {
+        // The situation this exists for: a stored token, work already
+        // cached on the device, and no network on the way to the lecture.
+        backend.accessTokenValue = "existing-token"
+        cache.stored = aUser("u7")
+        server.enqueue(MockResponse().setSocketPolicy(SocketPolicy.DISCONNECT_AT_START))
+        val model = model()
+
+        model.start()
+
+        val state = model.state.value
+        assertTrue("expected SignedIn, was $state", state is AuthState.SignedIn)
+        assertEquals("u7", (state as AuthState.SignedIn).user.id)
+        assertNull(model.message.value)
+        assertFalse(backend.signOutCalled)
+        assertEquals("existing-token", backend.accessTokenValue)
+    }
+
+    @Test fun `a remembered identity is not enough on its own without a token`() = runBlocking {
+        // No token means no way to talk to the server at all, so a
+        // signed-in shell would be a lie the first time it tried.
+        backend.accessTokenValue = null
+        cache.stored = aUser("u7")
+        server.enqueue(MockResponse().setSocketPolicy(SocketPolicy.DISCONNECT_AT_START))
+        val model = model()
+
+        model.start()
+
+        assertEquals(AuthState.SignedOut, model.state.value)
+    }
+
+    @Test fun `a student who just typed a password is told the network failed`() = runBlocking {
+        // The restore path may carry on quietly; this one may not. Someone
+        // pressing Sign in is owed the truth about what happened to it.
+        backend.accessTokenValue = "session-token"
+        cache.stored = aUser("u7")
+        server.enqueue(MockResponse().setSocketPolicy(SocketPolicy.DISCONNECT_AT_START))
+        val model = model()
+
+        model.signIn("student@example.com", "pw")
+
+        assertEquals(AuthState.SignedOut, model.state.value)
+        assertNotNull(model.message.value)
+    }
+
+    @Test fun `a session the server rejects is forgotten rather than restored offline`() = runBlocking {
+        backend.accessTokenValue = "stale-token"
+        cache.stored = aUser("u7")
+        server.enqueue(MockResponse().setResponseCode(401))
+        val model = model()
+
+        model.start()
+
+        assertEquals(AuthState.SignedOut, model.state.value)
+        assertNull("a rejected session must not be restorable", cache.stored)
+
+        // And with nothing remembered, the next dropped connection has
+        // nothing to fall back on either.
+        server.enqueue(MockResponse().setSocketPolicy(SocketPolicy.DISCONNECT_AT_START))
+        model.start()
+        assertEquals(AuthState.SignedOut, model.state.value)
+    }
+
+    @Test fun `a confirmed session is what gets remembered`() = runBlocking {
+        backend.accessTokenValue = "session-token"
+        server.enqueue(MockResponse().setBody(sessionBody("u9", "student@example.com")))
+        val model = model()
+
+        model.start()
+
+        assertEquals("u9", cache.stored?.id)
+    }
+
+    @Test fun `signing out forgets who was signed in`() = runBlocking {
+        backend.accessTokenValue = "session-token"
+        cache.stored = aUser("u7")
+        val model = model()
+
+        model.signOut()
+
+        assertNull(cache.stored)
+    }
+
+    @Test fun `an address Connect Cortex has no account for is not remembered`() = runBlocking {
+        backend.accessTokenValue = "session-token"
+        cache.stored = aUser("u7")
+        server.enqueue(MockResponse().setBody("""{"user":null}"""))
+        val model = model()
+
+        model.start()
+
+        assertEquals(AuthState.SignedOut, model.state.value)
+        assertNull(cache.stored)
+    }
+
+    private class FakeSessionUserCache : SessionUserCache {
+        var stored: SessionUser? = null
+        override fun readUser(): SessionUser? = stored
+        override fun writeUser(user: SessionUser?) {
+            stored = user
+        }
     }
 
     private class FakeAuthBackend : AuthBackend {
