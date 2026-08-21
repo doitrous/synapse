@@ -1622,3 +1622,52 @@ generator that disagreed with the 17 would be proposing a rewrite, not an extens
 
 `articles.ts` is **deliberately not rewritten** — wiring it is a one-line change and the file
 belongs to another lane. The generator and its JSON stand alone until ownership is agreed.
+
+---
+
+## Two rules that sit above the specific fixes
+
+### A parser that skips what it does not recognise loses content quietly
+
+Three instances in one lane, all the same shape:
+
+- `PART_HEADING` matched integer marks only — `{0.5 Mark}` made the **whole heading** fail and
+  the part **vanish**.
+- `PART_HEADING` allowed only alphanumeric labels — a 2022 paper setting two cases and lettering
+  the parts within each prints `I-a`, `I-b`, `II-a`. Every part dropped; the question arrived
+  unmarkable.
+- The option checks ran on formats that have no options, reporting "0 options" for well-formed
+  matching questions.
+
+> **Anything that parses a heading, a label or a format must either error on what it cannot
+> read, or be paired with a check that counts what should have been there.**
+
+And the downstream check has to say the right thing. It fired here — but reported *"no
+written_parts"* about a column **containing four headings**, which sends an author to look at
+the content rather than the parser. It now distinguishes an empty column from one whose
+headings did not parse, and names how many it found.
+
+### The coverage check asks whether an article *claims* a concept, never whether it *teaches* it
+
+**No validator can catch a wrong wiring, and nothing later will surface it.**
+
+A lane nearly wired the notochord concept to the paraxial-mesoderm article: same subject-tree
+leaf, mentions the notochord twelve times. It never says the notochord becomes the nucleus
+pulposus — **which is the concept.** Coverage would have gone green and the student would have
+been sent to an article that does not answer the question. It wrote the article instead.
+
+> **Read the article before declaring the concept. Do not grep it.**
+
+**This qualifies `build-article-links.ts` rather than contradicting it.** Deriving the map
+beats a hand-typed parallel table — a mapping typed in two places drifts, and reproducing all
+17 hand-written entries exactly is what makes its 133 additions credible. But derivation reads
+`related_concepts`, and *a mention is not a teaching*. So:
+
+- the **17 it reproduces** are as sound as they were;
+- the **47 concepts no article teaches** are a real work list and safe to trust — an absence
+  cannot be a wrong wiring;
+- the **133 it adds** are *candidates*. Each was written by an author who thought the two were
+  related; that is good evidence and not the same as having read the article for the concept.
+
+Accept the list, then read. Under time pressure this is the corner that will be cut, and it is
+the one that produces content that looks right and is wrong.
