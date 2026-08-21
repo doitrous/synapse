@@ -17,8 +17,14 @@
   was swallowed into option D of printed 25 and never became an item, so the bank read key
   row 26 against printed 27 and recorded C. The printed key row for 27 is B, which is also
   the physiologically correct option. That item is authored here as printed question 27
-  with correct_answer B, and its ID is hashed from the corrected printed number. Printed 26
-  itself has no extraction ID and is not authored; it is reported as owed to a later pass.
+  with correct_answer B, and its ID is hashed from the corrected printed number.
+
+  Printed 26 itself is also authored, as its own record. It was recovered by opening PDF
+  page 39 with the Read tool, where it is printed in full with four options, and its key is
+  key row 26 (c) — which is what made the misalignment provable in the first place, since
+  that row matches the swallowed item and not the item the bank attached it to. Its ID is
+  minted from its own printed number and its own page. Reconciled: 55 bank items, 56
+  records, 0 bank items unauthored, 0 duplicate question IDs.
 
   PLACEMENT. Nerve and Muscle is a part of Physiology, not the whole subject — every page
   of the department book carries it as a running head — so every module_subject path here
@@ -8586,3 +8592,160 @@ correctSource, verbatim from the bank: "printed key (p44 of 2093c80b)".
 Read off the printed answer key on PDF page 44 (printed page 38) with the Read tool, and it agrees with the letter the 102 lane recorded.
 OCR repair: the extraction ran the whole printed answer key and the chapter’s short-answer question list into options D and E of this item, because they are printed on the same page. PDF page 44 was opened with the Read tool: option D is printed as "Decreased calcium concentration in synaptic cleft" and ends there, and there is no option E. Options trimmed to the four printed. The swallowed key table is what allowed a second, independent reading of every answer in this chapter, and it agrees with the key page in every row.
 resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_… there errors.
+
+---
+
+# Item
+
+## id
+QM-103-588A6DD62914
+
+## title
+Which statement concerning isometric and isotonic muscle contractions is correct?
+
+## question
+Which statement concerning isometric and isotonic muscle contractions is correct?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The same muscle is made to contract twice against different loads, and the energy each contraction consumes is measured.
+
+## format
+single best answer
+
+## derived_from
+Question 26 of the Nerve and Muscle chapter of the Kasr Al Ainy Physiology department question book, extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-2093c80b-p38-q25) and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Isometric contraction does not require sliding of actin filaments
+
+## explanation_a
+Incorrect, and it is the subtlest option here. The whole muscle does not shorten in an isometric contraction, but the sarcomeres within the myocytes do shorten, stretching the series elastic elements; the book says so explicitly. Cross-bridges cycle and filaments slide in both kinds of contraction — what differs is whether that internal shortening is spent on the elastic elements or on moving the load. The book records less sliding in isometric contraction, not none.
+
+## answer_b
+During isometric contraction a load is moved and work is done
+
+## explanation_b
+Incorrect, and it swaps the two definitions. No external work is done in an isometric contraction, precisely because the load is not moved; work needs a distance. Moving a load is what isotonic contraction does.
+
+## answer_c
+During isotonic contraction a greater amount of energy is needed
+
+## explanation_c
+Correct. The department book's comparison table gives the energy row as: isometric needs less energy since the load is not moved, isotonic needs greater energy since the load is moved a distance. The mechanical efficiency row follows from it — zero for isometric, 20 to 25 per cent for isotonic — because efficiency is the share of energy input converted into work, and isometric contraction converts none. Hold the pair together: isometric develops more tension, isotonic does more work and costs more energy.
+
+## answer_d
+During isotonic contraction the muscle length is not changed
+
+## explanation_d
+Incorrect, and it is the definition of isometric applied to isotonic. In an isotonic contraction tension stays constant while the muscle shortens; in an isometric one length stays constant while tension rises. The names record which quantity is held fixed — iso-metric, same length; iso-tonic, same tension.
+
+## topic
+Neurophysiology
+
+## subtopic
+Basic differences between isometric and isotonic contractions
+
+## main_concept
+CON-MSK-9EA962E7584693
+
+## concept_ids
+CON-MSK-44C3DFD7D9FA03
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Physiology > Nerve and Muscle > Physiology of the Muscle > Basic differences between isometric and isotonic contractions
+103 BMS > Physiology > Nerve and Muscle > Physiology of the Muscle > Types of Skeletal Muscle Contraction
+
+## question_only_for
+
+
+## library_ids
+ART-MSK-TOP-17872815ED
+
+## resource_ids
+
+
+## learning_objective
+Contrast isometric and isotonic contraction across tension, length, work, energy and mechanical efficiency.
+
+## source_citation
+Kasr Al Ainy, Physiology department question book (Physio MCQ First Year), Nerve and Muscle chapter, PDF page 39 (printed page 33), printed question 26; printed answer key on PDF page 44 (printed page 38). Manifest src_2093c80b1f9c25f9c0a4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-2093c80b-p38-q25) and tagged as taught by 103 BMS; this lane did not re-read the PDF to extract it.
+correctSource, verbatim from the bank: "printed key (p44 of 2093c80b), read visually".
+The printed key on PDF page 44 gives 26. c. Option C is "During Isotonic contraction a greater amount of energy is needed", which is also what the department book's own comparison table states. The answer was read, not inferred.
+RECOVERED QUESTION. This item was never extracted: the 102 lane's OCR ran it into option D of printed question 25, which sits on the preceding PDF page, so it has no ID in scripts/kasr/extract/103-BMS/mcq-bank.json. It was recovered by opening PDF page 39 with the Read tool, where it is printed in full as question 26 with four options. Its question ID is minted on the same deterministic scheme as every other item in this file, from its own real printed number and the page it is printed on, so a repaired upstream extraction will mint this same ID rather than a duplicate. Printed question 25 has had the run-on trimmed and is authored separately.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_… there errors.
+Excluded topic: the Physiology department excludes this section from the 2025-2026 final theoretical exam by its own announcement. The question book still asks it and a student may still meet it, so it is authored — but exam_relevance and exam_weight_by_year are set low deliberately and must not be read as evidence that it is examined.

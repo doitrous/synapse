@@ -8,11 +8,16 @@
   tagged as taught by 103 BMS; this lane did not re-read the book to extract, only to
   verify the answer key and to repair three run-on options.
 
-  Printed questions 13 and 22 are absent: the extraction swallowed them into the
-  option D of questions 12 and 21 respectively. Both were recovered visually from
-  PDF pages 147 and 148 and both are answerable (13 = Vitamin D, 22 = Vitamin C /
-  Iron), but neither has an extraction ID in the bank, so neither is authored here.
-  They are reported to the lead as two recoverable items owed to a later pass.
+  FORTY-SIX RECORDS FOR FORTY-FOUR BANK ITEMS. Printed questions 13 and 22 are
+  absent from the bank: the extraction ran each of them into the option D of the
+  question before it, so the OCR lost a whole printed question twice. Both were
+  recovered by opening PDF pages 147 and 148 with the Read tool, both are authored
+  here as their own records with their own printed numbers and their own keys
+  (13 = Vitamin D, 22 = Vitamin C / Iron), and the host items 12 and 21 have had
+  the run-on trimmed. Their IDs are minted on the same deterministic scheme as
+  every other item, from their own real printed numbers, so a repaired upstream
+  extraction mints the same ID rather than a duplicate. Reconciled: 44 bank items,
+  46 records, 0 bank items unauthored, 0 duplicate question IDs.
 
   Every answer is the book's own printed key on PDF page 152 (printed page 145),
   which was opened with the Read tool and read visually. It agrees with the letter
@@ -6816,3 +6821,315 @@ correctSource, verbatim from the bank: "printed key (p152)".
 Read off the printed answer key on PDF page 152 (printed page 145) with the Read tool, and it agrees with the letter the 102 lane recorded.
 OCR repair: option D was extracted as "Vitamin Bl" — a lowercase L for the numeral 1. Read as "Vitamin B1", the same substitution seen in printed question 26 on PDF page 149.
 resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_… there errors.
+
+---
+
+# Item
+
+## id
+QM-103-8C0F01D0E9CC
+
+## title
+………. is a steroid vitamin.
+
+## question
+………. is a steroid vitamin.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A student is asked which of the four fat-soluble vitamins is built on a steroid nucleus rather than on an isoprenoid or a quinone skeleton.
+
+## format
+single best answer
+
+## derived_from
+Question 13 of the Vitamins chapter of the Kasr Al Ainy Biochemistry department question book, extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-07f0a0ff-p147-q12) and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Vitamin C
+
+## explanation_a
+Incorrect. Vitamin C is L-ascorbic acid, a water-soluble sugar-derived lactone, and it is not even in the fat-soluble group. It is offered first because a student who reads no further than "vitamin" may answer from familiarity.
+
+## answer_b
+Vitamin D
+
+## explanation_b
+Correct. Vitamin D is the steroid vitamin. Both compounds with vitamin D activity are steroids: D2, ergocalciferol, from plants and yeast, and D3, cholecalciferol, found in animal tissues and formed from cholesterol. The steroid origin is visible in the pathway — cholesterol is dehydrogenated in the liver to 7-dehydrocholesterol, which lies beneath the skin and is converted to cholecalciferol by ultraviolet light. It is also why vitamin D behaves like a hormone rather than a coenzyme: calcitriol enters the cell, binds a receptor, and the complex acts on DNA to induce a specific protein, which is exactly how a steroid hormone works.
+
+## answer_c
+Vitamin A
+
+## explanation_c
+Incorrect. Vitamin A is a polyisoprenoid containing a β-ionone ring, and its three active forms are the alcohol retinol, the aldehyde retinal and the acid retinoic acid. Retinoic acid does act on nuclear receptors like a hormone, which makes this the strongest distractor — but acting like a steroid is not being one.
+
+## answer_d
+Vitamin K
+
+## explanation_d
+Incorrect. Vitamin K is a naphthoquinone: the parent structure is 1,4-naphthoquinone and the vitamin is 2-methyl-1,4-naphthoquinone with a side chain. Quinone, not steroid.
+
+## topic
+Vitamins
+
+## subtopic
+Chemistry of vitamin D
+
+## main_concept
+CON-FND-46B9F239340ED9
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Vitamin D (Calciferol, Antirachitic Vitamin)
+
+## question_only_for
+
+
+## library_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## resource_ids
+
+
+## learning_objective
+Identify vitamin D as the steroid vitamin, and relate its steroid structure to its hormone-like mechanism of action.
+
+## source_citation
+Kasr Al Ainy, Biochemistry department question book (DPT BOOK MCQ D book bio 102&103 mcq), Vitamins chapter, PDF page 147 (printed page 140), printed question 13; printed answer key on PDF page 152 (printed page 145). Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-07f0a0ff-p147-q12) and tagged as taught by 103 BMS; this lane did not re-read the PDF to extract it.
+correctSource, verbatim from the bank: "printed key (p152), read visually".
+The printed key on PDF page 152 gives 13. b. Option B is Vitamin D. The answer was read, not inferred.
+RECOVERED QUESTION. This item was never extracted: the 102 lane's OCR ran it into option D of the preceding printed question, so it has no ID in scripts/kasr/extract/103-BMS/mcq-bank.json. It was recovered by opening the page with the Read tool, and its stem, its four options and its printed number are read off that page. Its key is the book's own printed key on PDF page 152 (printed page 145), read visually. The question ID is minted on the same deterministic scheme as every other item in this file, from its own real printed number, so a repaired upstream extraction will mint this same ID rather than a duplicate.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_… there errors.
+Printed question 13 of the Vitamins chapter. Recovered from the run-on in printed question 12; both are now authored, and printed 12 has had the run-on trimmed.
+
+---
+
+# Item
+
+## id
+QM-103-37380CE2F42E
+
+## title
+…………… is a vitamin which is needed for absorption of …………:
+
+## question
+…………… is a vitamin which is needed for absorption of …………:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A patient with iron-deficiency anaemia is advised to take her iron tablets with orange juice rather than with tea.
+
+## format
+single best answer
+
+## derived_from
+Question 22 of the Vitamins chapter of the Kasr Al Ainy Biochemistry department question book, extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-07f0a0ff-p148-q21) and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Vitamin B, Calcium
+
+## explanation_a
+Incorrect on both halves, which is what makes it the easiest to eliminate. No B vitamin is required for calcium absorption; the vitamin that drives calcium absorption is D, through calbindin.
+
+## answer_b
+Vitamin C, Iron
+
+## explanation_b
+Correct. Vitamin C is an important reducing agent: it keeps iron in the ferrous state, which is what matters for the absorption and mobilisation of iron. This is the practical reason ascorbate is given with iron, and it also explains one of the three anaemias of scurvy — a microcytic anaemia from defective iron absorption, alongside the normocytic anaemia of haemorrhagic blood loss and the macrocytic anaemia from decreased dihydrofolate reductase activity, since ascorbate is essential for that enzyme too.
+
+## answer_c
+Vitamin A, Calcium
+
+## explanation_c
+Incorrect. Vitamin A maintains epithelium, supports vision and regulates gene expression; it has no role in mineral absorption. The pairing is offered because both halves are plausible-sounding on their own.
+
+## answer_d
+Vitamin A, Iron
+
+## explanation_d
+Incorrect, and it is the intended trap: it keeps the right mineral and changes the vitamin. A student who remembers "something helps iron absorption" but not which vitamin it is picks this. The discriminator is the mechanism — the vitamin needed is the one that acts as a reducing agent, and that is ascorbate.
+
+## topic
+Vitamins
+
+## subtopic
+Functions of vitamin C
+
+## main_concept
+CON-FND-C9E5128193029E
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+68
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Vitamin C (L-Ascorbic Acid, Anti-Scurvy Vitamin)
+
+## question_only_for
+
+
+## library_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## resource_ids
+
+
+## learning_objective
+State that vitamin C keeps iron ferrous for absorption, and connect that to the microcytic anaemia of scurvy.
+
+## source_citation
+Kasr Al Ainy, Biochemistry department question book (DPT BOOK MCQ D book bio 102&103 mcq), Vitamins chapter, PDF page 148 (printed page 141), printed question 22; printed answer key on PDF page 152 (printed page 145). Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Extracted by the 102 INT lane as (none — swallowed into option D of MCQ-102-07f0a0ff-p148-q21) and tagged as taught by 103 BMS; this lane did not re-read the PDF to extract it.
+correctSource, verbatim from the bank: "printed key (p152), read visually".
+The printed key on PDF page 152 gives 22. b. Option B is "Vitamin C, Iron". The answer was read, not inferred.
+RECOVERED QUESTION. This item was never extracted: the 102 lane's OCR ran it into option D of the preceding printed question, so it has no ID in scripts/kasr/extract/103-BMS/mcq-bank.json. It was recovered by opening the page with the Read tool, and its stem, its four options and its printed number are read off that page. Its key is the book's own printed key on PDF page 152 (printed page 145), read visually. The question ID is minted on the same deterministic scheme as every other item in this file, from its own real printed number, so a repaired upstream extraction will mint this same ID rather than a duplicate.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_… there errors.
+Printed question 22 of the Vitamins chapter. Recovered from the run-on in printed question 21; both are now authored, and printed 21 has had the run-on trimmed.
