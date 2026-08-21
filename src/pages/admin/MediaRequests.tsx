@@ -42,6 +42,7 @@ const OWNER_LABEL: Record<MediaRequest['ownerKind'], string> = {
   article: 'Article',
   question: 'Question',
   practical: 'Practical',
+  concept: 'Concept',
 }
 
 /**
@@ -55,6 +56,9 @@ const OWNER_CATALOGUE: Record<MediaRequest['ownerKind'], string> = {
   article: '/admin/library',
   question: '/admin/questions',
   practical: '/admin/practical',
+  // A concept's request is fulfilled from the concept, not from whichever
+  // article happens to mention it.
+  concept: '/admin/concepts',
 }
 
 /** The canonical root a request's owner sits under, for grouping. */

@@ -7,12 +7,10 @@ filename and quietly disagree with the last one.
 
 Deliberate choices worth knowing:
 
-  * Batch code and calendar year are both kept, always, and a disagreement
-    between them is recorded rather than resolved. Eight of the ten filenames
-    carrying both disagree by exactly one year, which is what you would see if
-    the batch code named the year a cohort entered while the calendar label
-    named the year they sat the paper. Until that is settled, collapsing them
-    would bake the wrong answer into every priority decision downstream.
+  * Batch code and calendar year are both kept, always, and the disagreement
+    between them is recorded rather than erased. `examSittingYear` says which
+    one recency should use, and `examSittingYearSource` says how it was decided,
+    so a later reader can disagree with the call without having to re-derive it.
   * `OLD SYSTEM` files are recorded as excluded with a reason, not dropped, so
     they are not rediscovered and reconsidered on every future pass.
   * A scanned file with no text layer is marked `ocr_required`, never "empty".
@@ -206,6 +204,22 @@ def main():
             "batchImpliesCalendarYear": implied,
             "calendarYearLabel": cal,
             "yearConflict": conflict,
+            # The year a paper was actually sat, which is what recency means.
+            #
+            # Settled by reading the papers rather than by rule. Twelve
+            # filenames carry both a batch code and a calendar year and disagree;
+            # five of those twelve print an exam date in their own header, and in
+            # all five the calendar label matches the document and the batch code
+            # does not — 197/"2024" is dated 14 July 2024, 196/"2021" is dated
+            # 26/12/2021, 195/"2022" is dated 22 and 24 September 2022.
+            #
+            # So the batch code names the cohort, not a year. It is kept, because
+            # "which cohort sat this" is a real question, but it is not a date and
+            # is only used to derive one when nothing better exists.
+            "examSittingYear": cal if cal else implied,
+            "examSittingYearSource": ("calendar label on the file" if cal
+                                      else "derived from batch code" if implied
+                                      else None),
             "solvedStatus": solved(rel),
             "oldSystemExcluded": old_system,
             "exclusionReason": ("superseded_curriculum_old_system" if old_system

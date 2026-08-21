@@ -170,6 +170,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
+      { key: 'station_image', label: 'Station image', help: 'An image the station is built around — a radiograph on the light box. Images only; the runner renders it as an image. (OSCE station)' },
       { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
@@ -681,7 +682,7 @@ export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
       const block = parseLabelledBlock(section.body)
-      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
+      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
     })
     .filter((decision) => decision.question && decision.answers.length)
 }

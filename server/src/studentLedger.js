@@ -97,6 +97,9 @@ export const PUBLIC_FIELDS = new Set([
   'references', 'conceptTags', 'format', 'candidateInstructions',
   'actorOpening', 'actorSections', 'actorFlags', 'markSections', 'difficulty',
   'decisions', 'debrief', 'subtype', 'questions',
+  // The image a station or a case decision turns on. A student cannot answer
+  // "what does this film show" without the film.
+  'mediaUrl',
   // Resource
   'icon', 'institution', 'storageKey', 'chapters', 'includedConceptIds',
   'includedArticleIds', 'conceptLocations',

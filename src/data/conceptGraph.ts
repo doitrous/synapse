@@ -1,3 +1,4 @@
+import type { ExamSignal } from './examSignal.ts'
 export const CONCEPT_RELATIONS = [
   'related_concepts',
   'prerequisite_of',
@@ -106,6 +107,17 @@ export interface Concept {
   editorialReviewStatus?: string
   exclusionReason?: string | null
   weightConfidence?: number
+  /**
+   * Why this concept is weighted the way it is: which papers it appeared on,
+   * at what tier, in which year, and how sure the extraction was.
+   *
+   * `blueprintWeight` is a number with no account of itself, which is fine
+   * while weights are set by hand and useless once they come from hundreds of
+   * past papers. When this is present the blueprint derives the weight from it
+   * instead — see `examSignal.ts` — so the inputs stay reviewable and a weight
+   * can be recomputed when the rules change rather than re-gathered.
+   */
+  examSignal?: ExamSignal
   /** Field-specific reasons for values intentionally left empty. */
   fieldNotes?: Record<string, string>
 }

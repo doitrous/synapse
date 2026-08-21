@@ -6,21 +6,21 @@ drift when a field is added.
 
 | Content type | Model | Model fields | Import columns | Importable | Gaps | Not applicable |
 |---|---|---:|---:|---:|---:|---:|
-| Library article | `ArticleAuthoringData` | 45 | 53 | 45 | 0 | 0 |
-| Library article · statement annotation | `ConceptAnnotation` | 5 | 53 | 5 | 0 | 0 |
-| Library article · media request | `MediaRequest` | 16 | 53 | 14 | 0 | 2 |
-| Concept | `Concept` | 54 | 52 | 54 | 0 | 0 |
+| Library article | `ArticleAuthoringData` | 46 | 54 | 46 | 0 | 0 |
+| Library article · statement annotation | `ConceptAnnotation` | 5 | 54 | 5 | 0 | 0 |
+| Library article · media request | `MediaRequest` | 16 | 54 | 14 | 0 | 2 |
+| Concept | `Concept` | 55 | 53 | 55 | 0 | 0 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
-| Question | `QuestionAuthoringData` | 13 | 50 | 13 | 0 | 0 |
-| Question · tags | `QuestionTags` | 21 | 50 | 21 | 0 | 0 |
-| Question · media request | `MediaRequest` | 16 | 50 | 14 | 0 | 2 |
-| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 25 | 11 | 0 | 0 |
-| Practical · clinical case | `CaseAuthoringData` | 7 | 25 | 7 | 0 | 0 |
-| Practical · case decision | `ClinicalDecisionDraft` | 9 | 25 | 9 | 0 | 0 |
-| Practical · interpretation set | `LabAuthoringData` | 7 | 25 | 7 | 0 | 0 |
-| Practical · interpretation question | `LabQuestionDraft` | 9 | 25 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 16 | 25 | 14 | 0 | 2 |
-| Resource | `ResourceAuthoringData` | 16 | 18 | 8 | 1 | 7 |
+| Question | `QuestionAuthoringData` | 21 | 61 | 21 | 0 | 0 |
+| Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
+| Question · media request | `MediaRequest` | 16 | 61 | 14 | 0 | 2 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 27 | 13 | 3 | 0 |
+| Practical · clinical case | `CaseAuthoringData` | 11 | 27 | 8 | 3 | 0 |
+| Practical · case decision | `ClinicalDecisionDraft` | 10 | 27 | 10 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 11 | 27 | 8 | 3 | 0 |
+| Practical · interpretation question | `LabQuestionDraft` | 9 | 27 | 9 | 0 | 0 |
+| Practical · media request | `MediaRequest` | 16 | 27 | 14 | 0 | 2 |
+| Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 1 | 7 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
 | Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
@@ -31,6 +31,15 @@ drift when a field is added.
 
 | Content type | Field | Why |
 |---|---|---|
+| Practical · OSCE and checklist | `universityIds` | No import column maps to this field. |
+| Practical · OSCE and checklist | `yearIds` | No import column maps to this field. |
+| Practical · OSCE and checklist | `moduleIds` | No import column maps to this field. |
+| Practical · clinical case | `universityIds` | No import column maps to this field. |
+| Practical · clinical case | `yearIds` | No import column maps to this field. |
+| Practical · clinical case | `moduleIds` | No import column maps to this field. |
+| Practical · interpretation set | `universityIds` | No import column maps to this field. |
+| Practical · interpretation set | `yearIds` | No import column maps to this field. |
+| Practical · interpretation set | `moduleIds` | No import column maps to this field. |
 | Resource | `icon` | No import column maps to this field. |
 
 ## Fields deliberately outside the import contract

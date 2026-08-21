@@ -7,6 +7,7 @@
  * under a new ID. This file is the whole contract, and it upserts.
  */
 
+import { parseExamAppearances } from './examSignal.ts'
 import type { Concept, ConceptGraph, ConceptRelation, ConceptRelationType, ConceptStatus } from './conceptGraph.ts'
 import { CONCEPT_RELATIONS } from './conceptGraph.ts'
 import { optionalList, importList, mapList } from './importSemantics.ts'
@@ -53,6 +54,7 @@ export const CONCEPT_IMPORT_FIELDS: ConceptImportField[] = [
   { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: '' },
   { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: '' },
   { key: 'weight_confidence', label: 'Weight confidence (0–1)', help: 'How sure the weights are. Be honest; a guess is not a 1.' },
+  { key: 'exam_signal', label: 'Exam appearances', help: 'Which papers this concept came up on, one per line as "src_… | tier | year | p14". The blueprint weight is derived from these.' },
   { key: 'confidence', label: 'Confidence (0–1)', help: 'Extraction or authoring confidence. Never a substitute for verification.' },
   { key: 'support_mode', label: 'Support mode', help: 'How the concept is evidenced, e.g. direct_statement, inferred.' },
   { key: 'atomic_claim_ids', label: 'Atomic claim IDs', help: 'Evidence claims supporting this concept.' },
@@ -175,6 +177,13 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
     clinicalRelevance: number01(values.clinical_relevance),
     academicRelevance: number01(values.academic_relevance),
     weightConfidence: number01(values.weight_confidence),
+    examSignal: (() => {
+      const appearances = parseExamAppearances(values.exam_signal)
+      // Absent rather than an empty signal, so a concept that has never been
+      // seen on a paper is not confused with one weighted at zero.
+      if (!appearances.length) return undefined
+      return { appearances, confidence: number01(values.weight_confidence) }
+    })(),
     confidence: number01(values.confidence),
     supportMode: text(values.support_mode),
     atomicClaimIds: optionalList(values.atomic_claim_ids),

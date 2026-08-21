@@ -41,6 +41,7 @@ can work from one file.
 | `duration` | Duration | no | Expected minutes. |
 | `marks` | Marks / decisions | no | Recomputed on save as the sum of your mark-section marks — write it anyway for the human reading the batch. |
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty. |
+| `station_image` | Station image | no | An image the station is built around — a radiograph on the light box. **Images only**: the runner renders it as an image, so audio or video shows a broken one. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `main_concept` | Main concept(s) | — | What this station is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also genuinely assesses. Awards mastery. |

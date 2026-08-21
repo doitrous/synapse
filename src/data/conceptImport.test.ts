@@ -40,6 +40,7 @@ const FULL_CONCEPT: Record<string, string> = {
   clinical_relevance: '0.7',
   academic_relevance: '0.8',
   weight_confidence: '0.5',
+  exam_signal: 'src_1a2b3c4d5e6f | end_of_year | 2025 | p14 | 101 ISK\nsrc_9f8e7d6c5b4a | orientation | 2024',
   confidence: '0.9',
   support_mode: 'direct_statement',
   atomic_claim_ids: 'claim-ag-1',
@@ -374,4 +375,25 @@ test('the same directed edge under a different id is a duplicate', () => {
   // The reverse direction is a different edge, not a duplicate.
   const reversed = relationFromRow({ ...FULL_RELATION, id: 'rel-rev', source: 'c-b', target: 'c-a' })
   assert.equal(isDuplicateRelation(reversed, [first]), false)
+})
+
+test('exam appearances survive the round trip and carry their locator', () => {
+  // The weight is derived from these, so losing one silently changes what a
+  // student is shown next without anything reporting it.
+  const concept = conceptFromRow(FULL_CONCEPT)
+  assert.equal(concept.examSignal?.appearances.length, 2)
+  assert.equal(concept.examSignal?.appearances[0].sourceId, 'src_1a2b3c4d5e6f')
+  assert.equal(concept.examSignal?.appearances[0].tier, 'end_of_year')
+  assert.equal(concept.examSignal?.appearances[0].sittingYear, 2025)
+  assert.equal(concept.examSignal?.appearances[0].page, 14, 'so a reviewer can go to the page')
+  assert.equal(concept.examSignal?.appearances[0].moduleId, '101 ISK')
+  assert.equal(concept.examSignal?.appearances[1].tier, 'orientation')
+  assert.equal(concept.examSignal?.confidence, 0.5)
+})
+
+test('a concept with no exam appearances has no signal at all', () => {
+  // Absent, not an empty signal: never seen on a paper is not the same as
+  // weighted at zero, and the blueprint treats them differently.
+  const { exam_signal: _omitted, ...withoutSignal } = FULL_CONCEPT
+  assert.equal(conceptFromRow(withoutSignal).examSignal, undefined)
 })

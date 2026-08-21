@@ -102,7 +102,7 @@ const CONCEPT_MAP = {
   subtopicId: 'subtopic', microtopicId: 'microtopic', nanotopicId: 'nanotopic', primaryNodeId: 'primary_node_id',
   secondaryNodeIds: 'secondary_node_ids', conceptType: 'concept_type', learnerYears: 'learner_years',
   universityIds: 'universities', moduleIds: 'modules', explicitObjective: 'explicit_objective',
-  blueprintWeight: 'blueprint_weight', examWeightByYear: 'exam_weight_by_year',
+  blueprintWeight: 'blueprint_weight', examSignal: 'exam_signal', examWeightByYear: 'exam_weight_by_year',
   clinicalRelevance: 'clinical_relevance', academicRelevance: 'academic_relevance',
   relatedConceptIds: 'related_concept_ids', relatedArticleIds: 'related_article_ids', resourceIds: 'resource_ids',
   approvedFileResourceIds: 'approved_file_resource_ids', approvedVideoResourceIds: 'approved_video_resource_ids',
@@ -135,7 +135,8 @@ const PRACTICAL_COMMON_MAP = {
 
 const OSCE_MAP = {
   ...PRACTICAL_COMMON_MAP,
-  format: 'type', candidateInstructions: 'candidate_instructions', actorOpening: 'actor_opening',
+  format: 'type', mediaUrl: 'station_image',
+  candidateInstructions: 'candidate_instructions', actorOpening: 'actor_opening',
   actorSections: 'actor_sections', actorFlags: 'actor_flags', markSections: 'mark_scheme',
   difficulty: 'difficulty',
 }
@@ -148,6 +149,7 @@ const LAB_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', subtype: 'lab_subtype
 const DECISION_MAP = {
   id: 'decisions', title: 'decisions', context: 'decisions', question: 'decisions', answers: 'decisions',
   rationale: 'decisions', conceptId: 'decisions', secondaryConceptIds: 'decisions', difficulty: 'decisions',
+  mediaUrl: 'decisions',
 }
 
 const LAB_QUESTION_MAP = {
