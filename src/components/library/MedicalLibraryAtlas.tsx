@@ -1,7 +1,8 @@
 import { useDeferredValue, useEffect, useMemo, useState } from 'react'
-import { BookOpen, ChevronRight, Database, GraduationCap, Home, Layers3, Microscope, Network, Stethoscope } from 'lucide-react'
+import { BookOpen, CalendarDays, ChevronRight, GraduationCap, Home, Layers3, Microscope, Network, Stethoscope } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { SearchInput } from '@/components/ui/Field'
+import { LibraryTreeBrowser } from '@/components/library/LibraryTreeBrowser'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import {
@@ -11,7 +12,10 @@ import {
   type MedicalTaxonomyNode,
 } from '@/data/medicalLibraryTaxonomy'
 
-export type MedicalLibraryView = 'home' | MedicalTaxonomyDivision | 'curriculum'
+export type MedicalLibraryView = 'home' | MedicalTaxonomyDivision | 'module' | 'year'
+
+/** The two views backed by a faculty's own trees rather than the taxonomy. */
+export const TREE_VIEWS: Array<Exclude<MedicalLibraryView, 'home'>> = ['module', 'year']
 
 export interface AtlasArticle {
   id: string
@@ -36,7 +40,8 @@ export const MEDICAL_LIBRARY_VIEWS: ViewDefinition[] = [
   { id: 'discipline', label: 'By Discipline', shortLabel: 'Disciplines', description: 'Basic sciences, clinical specialties, and the subjects used in university teaching.', icon: Microscope },
   { id: 'skills', label: 'Clinical Skills', shortLabel: 'Skills', description: 'History, examination, interpretation, procedures, prescribing, communication, and reasoning.', icon: GraduationCap },
   { id: 'knowledge', label: 'Clinical Knowledge', shortLabel: 'Knowledge', description: 'Presentations, diagnosis, management, therapeutics, emergencies, prevention, and evidence.', icon: Network },
-  { id: 'curriculum', label: 'My Curriculum', shortLabel: 'Curriculum', description: 'Find reviewed content assigned to your university, year, and module.', icon: Database },
+  { id: 'module', label: 'By Module', shortLabel: 'Modules', description: 'The modules you are studying, arranged the way your faculty teaches them.', icon: Layers3 },
+  { id: 'year', label: 'By Year', shortLabel: 'Years', description: 'Everything for your year of the degree, in the order it is taught.', icon: CalendarDays },
 ]
 
 function fallbackPlacement(article: AtlasArticle) {
@@ -254,7 +259,12 @@ export function AtlasNavigation({
     }
     return counts
   }, [articles, index])
-  const activeDivision = view === 'curriculum' ? undefined : view
+  // A tree view has no taxonomy division behind it — that is the whole point of
+  // it — so the generated rail sits out and the tree browser renders instead.
+  /** Published titles by id, so a tree filing that no longer resolves renders as nothing. */
+  const articleTitles = useMemo(() => new Map(articles.map((article) => [article.id, article.title])), [articles])
+  const activeDivision: MedicalTaxonomyDivision | undefined =
+    view === 'module' || view === 'year' ? undefined : view
   const roots = activeDivision ? index.roots(activeDivision) : []
   const nodeResults = useMemo(() => activeDivision ? searchMedicalTaxonomy(taxonomy, deferredQuery, activeDivision).slice(0, 60) : [], [activeDivision, deferredQuery, taxonomy])
   const articleResults = useMemo(() => {
@@ -282,7 +292,14 @@ export function AtlasNavigation({
       <div className="border-b border-line p-3"><SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this view…" /></div>
       <div className="border-b border-line px-3 py-2.5"><p className="truncate text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t(MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label ?? '')}</p></div>
       <div className="min-h-0 min-w-0 flex-1 overflow-y-auto p-2">
-          {view === 'curriculum' ? <div className="rounded-lg border border-line bg-surface-2/50 p-3"><p className="text-[12.5px] font-semibold text-ink">Curriculum mapping is ready</p><p className="mt-1.5 text-[11.5px] leading-relaxed text-ink-3">Published articles appear here only after a university, year, and module are explicitly assigned. No placement is guessed.</p></div> : deferredQuery.trim() ? (
+          {view === 'module' || view === 'year' ? (
+            <LibraryTreeBrowser
+              kind={view}
+              selectedArticleId={selectedArticleId}
+              onArticleSelect={onArticleSelect}
+              articleTitles={articleTitles}
+            />
+          ) : deferredQuery.trim() ? (
             <div className="space-y-3">
               {articleResults.length > 0 && <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">Articles</p>{articleResults.map((article) => <button key={article.id} type="button" onClick={() => onArticleSelect(article.id)} className={cn('block w-full truncate rounded-md px-2 py-2 text-start text-[12px] hover:bg-inset', selectedArticleId === article.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')}>{article.title}</button>)}</div>}
               <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Subjects & topics')}</p>{nodeResults.map((node) => <button key={node.id} type="button" onClick={() => selectNode(node.id)} className="block w-full rounded-md px-2 py-2 text-start hover:bg-inset"><span className="block truncate text-[12px] text-ink-2">{node.title}</span></button>)}</div>

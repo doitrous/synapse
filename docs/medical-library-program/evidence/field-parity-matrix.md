@@ -8,18 +8,18 @@ drift when a field is added.
 |---|---|---:|---:|---:|---:|---:|
 | Library article | `ArticleAuthoringData` | 46 | 54 | 46 | 0 | 0 |
 | Library article · statement annotation | `ConceptAnnotation` | 5 | 54 | 5 | 0 | 0 |
-| Library article · media request | `MediaRequest` | 16 | 54 | 14 | 0 | 2 |
-| Concept | `Concept` | 55 | 53 | 55 | 0 | 0 |
+| Library article · media request | `MediaRequest` | 18 | 54 | 14 | 2 | 2 |
+| Concept | `Concept` | 56 | 53 | 55 | 1 | 0 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
-| Question | `QuestionAuthoringData` | 21 | 61 | 21 | 0 | 0 |
+| Question | `QuestionAuthoringData` | 22 | 61 | 21 | 1 | 0 |
 | Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
-| Question · media request | `MediaRequest` | 16 | 61 | 14 | 0 | 2 |
+| Question · media request | `MediaRequest` | 18 | 61 | 14 | 2 | 2 |
 | Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 27 | 13 | 3 | 0 |
 | Practical · clinical case | `CaseAuthoringData` | 11 | 27 | 8 | 3 | 0 |
 | Practical · case decision | `ClinicalDecisionDraft` | 10 | 27 | 10 | 0 | 0 |
 | Practical · interpretation set | `LabAuthoringData` | 11 | 27 | 8 | 3 | 0 |
 | Practical · interpretation question | `LabQuestionDraft` | 9 | 27 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 16 | 27 | 14 | 0 | 2 |
+| Practical · media request | `MediaRequest` | 18 | 27 | 14 | 2 | 2 |
 | Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 1 | 7 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
@@ -31,6 +31,12 @@ drift when a field is added.
 
 | Content type | Field | Why |
 |---|---|---|
+| Library article · media request | `slot` | No import column maps to this field. |
+| Library article · media request | `answerLabel` | No import column maps to this field. |
+| Concept | `mediaIds` | No import column maps to this field. |
+| Question | `media` | No import column maps to this field. |
+| Question · media request | `slot` | No import column maps to this field. |
+| Question · media request | `answerLabel` | No import column maps to this field. |
 | Practical · OSCE and checklist | `universityIds` | No import column maps to this field. |
 | Practical · OSCE and checklist | `yearIds` | No import column maps to this field. |
 | Practical · OSCE and checklist | `moduleIds` | No import column maps to this field. |
@@ -40,6 +46,8 @@ drift when a field is added.
 | Practical · interpretation set | `universityIds` | No import column maps to this field. |
 | Practical · interpretation set | `yearIds` | No import column maps to this field. |
 | Practical · interpretation set | `moduleIds` | No import column maps to this field. |
+| Practical · media request | `slot` | No import column maps to this field. |
+| Practical · media request | `answerLabel` | No import column maps to this field. |
 | Resource | `icon` | No import column maps to this field. |
 
 ## Fields deliberately outside the import contract

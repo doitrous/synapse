@@ -967,7 +967,7 @@ export function Library() {
   const paramId = params.get('s')
   const paramView = params.get('view')
   const paramNode = params.get('node')
-  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'curriculum'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'home'
+  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'module', 'year'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'home'
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
   const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
@@ -1028,7 +1028,7 @@ export function Library() {
   const showArticle = (articleId: string) => {
     const article = allSubtopics.find((item) => item.id === articleId)
     const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
-    const nextView: MedicalLibraryView = node?.division ?? (view === 'home' || view === 'curriculum' ? 'system' : view)
+    const nextView: MedicalLibraryView = node?.division ?? (view === 'home' || view === 'module' || view === 'year' ? 'system' : view)
     setView(nextView)
     setSelectedNodeId(node?.id)
     setSelectedId(articleId)

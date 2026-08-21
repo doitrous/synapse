@@ -5,6 +5,7 @@ import { authoriseChanges, diffDocument, isMergeable, mergeDocument } from './st
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
+const TREES = 'synapse-library-trees-v1'
 
 const q = (id, title, moduleIds = ['MOD_CVS']) => ({
   id, kind: 'question', title, questionData: { tags: { moduleIds, years: [] } },
@@ -126,6 +127,48 @@ test('two people adding different items keep both', () => {
   const merged = mergeDocument(LEDGER, [], [q('theirs', 'Theirs')], [q('mine', 'Mine')])
   assert.equal(merged.ok, true)
   assert.deepEqual(merged.value.map((item) => item.id).sort(), ['mine', 'theirs'])
+})
+
+test('a reviewer may restructure their own year and not another', () => {
+  const scope = { moduleIds: [], yearIds: ['OMS_Y2'] }
+  const base = { trees: { 'year:OMS_Y2': [], 'year:OMS_Y4': [] } }
+  const mine = { trees: { 'year:OMS_Y2': [{ id: 'n1', title: 'Anatomy' }], 'year:OMS_Y4': [] } }
+  const theirs = { trees: { 'year:OMS_Y2': [], 'year:OMS_Y4': [{ id: 'n2', title: 'Anatomy' }] } }
+
+  assert.equal(
+    authoriseChanges(diffDocument(TREES, base, mine), { heldTabs: ['library'], contentScope: scope }).ok,
+    true,
+  )
+  const refused = authoriseChanges(diffDocument(TREES, base, theirs), { heldTabs: ['library'], contentScope: scope })
+  assert.equal(refused.ok, false)
+  assert.match(refused.refusals[0].reason, /outside the modules and years/)
+})
+
+test('restructuring a tree needs the library tab', () => {
+  const base = { trees: { 'year:OMS_Y2': [] } }
+  const next = { trees: { 'year:OMS_Y2': [{ id: 'n1', title: 'Anatomy' }] } }
+  const changes = diffDocument(TREES, base, next)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null }).ok, false)
+})
+
+test('two reviewers restructuring different years both keep their work', () => {
+  const base = { trees: { 'year:OMS_Y2': [], 'year:OMS_Y4': [] } }
+  const stored = { trees: { 'year:OMS_Y2': [], 'year:OMS_Y4': [{ id: 'n2', title: 'Theirs' }] } }
+  const incoming = { trees: { 'year:OMS_Y2': [{ id: 'n1', title: 'Mine' }], 'year:OMS_Y4': [] } }
+  const merged = mergeDocument(TREES, base, stored, incoming)
+  assert.equal(merged.ok, true)
+  assert.deepEqual(merged.value.trees['year:OMS_Y2'], [{ id: 'n1', title: 'Mine' }])
+  assert.deepEqual(merged.value.trees['year:OMS_Y4'], [{ id: 'n2', title: 'Theirs' }])
+})
+
+test('two reviewers restructuring the same year collide by name', () => {
+  const base = { trees: { 'year:OMS_Y2': [] } }
+  const stored = { trees: { 'year:OMS_Y2': [{ id: 'n2', title: 'Theirs' }] } }
+  const incoming = { trees: { 'year:OMS_Y2': [{ id: 'n1', title: 'Mine' }] } }
+  const merged = mergeDocument(TREES, base, stored, incoming)
+  assert.equal(merged.ok, false)
+  assert.deepEqual(merged.conflicts, ['year:OMS_Y2'])
 })
 
 test('an unmergeable document is returned as sent, for the caller to version-check', () => {

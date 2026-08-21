@@ -22,19 +22,19 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
+      "modelFields": 18,
       "importFields": 54,
       "ok": 14,
-      "missing": 0,
+      "missing": 2,
       "notApplicable": 2
     },
     {
       "contentType": "Concept",
       "model": "Concept",
-      "modelFields": 55,
+      "modelFields": 56,
       "importFields": 53,
       "ok": 55,
-      "missing": 0,
+      "missing": 1,
       "notApplicable": 0
     },
     {
@@ -49,10 +49,10 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "modelFields": 21,
+      "modelFields": 22,
       "importFields": 61,
       "ok": 21,
-      "missing": 0,
+      "missing": 1,
       "notApplicable": 0
     },
     {
@@ -67,10 +67,10 @@
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
+      "modelFields": 18,
       "importFields": 61,
       "ok": 14,
-      "missing": 0,
+      "missing": 2,
       "notApplicable": 2
     },
     {
@@ -121,10 +121,10 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
+      "modelFields": 18,
       "importFields": 27,
       "ok": 14,
-      "missing": 0,
+      "missing": 2,
       "notApplicable": 2
     },
     {
@@ -184,6 +184,48 @@
   ],
   "gaps": [
     {
+      "contentType": "Library article · media request",
+      "field": "slot",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Library article · media request",
+      "field": "answerLabel",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Concept",
+      "field": "mediaIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Question",
+      "field": "media",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Question · media request",
+      "field": "slot",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Question · media request",
+      "field": "answerLabel",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
       "contentType": "Practical · OSCE and checklist",
       "field": "universityIds",
       "column": null,
@@ -242,6 +284,20 @@
     {
       "contentType": "Practical · interpretation set",
       "field": "moduleIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · media request",
+      "field": "slot",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · media request",
+      "field": "answerLabel",
       "column": null,
       "state": "missing",
       "reason": "No import column maps to this field."
@@ -671,6 +727,18 @@
           "reason": ""
         },
         {
+          "field": "slot",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
           "field": "mediaId",
           "column": "media_recommendations",
           "state": "ok",
@@ -862,6 +930,12 @@
           "column": "related_article_ids",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "mediaIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         },
         {
           "field": "resourceIds",
@@ -1146,6 +1220,12 @@
           "column": "attachments",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "media",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         },
         {
           "field": "correctAnswer",
@@ -1454,6 +1534,18 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "slot",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         },
         {
           "field": "mediaId",
@@ -1934,6 +2026,18 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "slot",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         },
         {
           "field": "mediaId",

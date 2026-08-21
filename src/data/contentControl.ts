@@ -1,6 +1,7 @@
 import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
+import type { AnswerLetter, MediaPlacement, MediaSlot } from './mediaLibrary.ts'
 import type { ArticleSection } from './userLibrary.ts'
 import type { DeckAuthoringData } from './decks.ts'
 import type { EssayAuthoringData } from './essay.ts'
@@ -169,6 +170,16 @@ export interface MediaRequest {
   /** Where a fulfiller should look, e.g. "openly licensed anatomy atlas". */
   sourceDirection?: string
   rightsNotes?: string
+  /**
+   * Where in the owner this asset goes, when the requester knows.
+   *
+   * A request that names one saves the fulfiller a guess — "answer C needs a
+   * chest X-ray" rather than "this question needs a chest X-ray somewhere".
+   * Requests that name none still work; the slot is chosen at upload time.
+   */
+  slot?: MediaSlot
+  /** Only meaningful when slot is 'answer'. */
+  answerLabel?: AnswerLetter
   /** Set once a real media record fulfils this request. */
   mediaId?: string
 }
@@ -262,6 +273,19 @@ export interface QuestionAuthoringData {
   /** The question this was derived from, when there is one. */
   derivedFromId?: string
   attachments: MediaAttachment[]
+  /**
+   * Images placed in this question, by slot.
+   *
+   * Separate from `attachedImage` and `attachments`, which predate the media
+   * library and still render — live content is not broken to tidy a data model.
+   *
+   * Questions alone carry placements. An article already has
+   * `ArticleMediaRecord[]`, with anchors tying an image to the exact words it
+   * illustrates; a second list beside it would be two ways to put a picture in
+   * one article, free to disagree about which renders. Slots were only ever
+   * missing here, where an option can itself be a picture.
+   */
+  media?: MediaPlacement[]
   correctAnswer: AnswerLabel
   answers: QuestionAnswerDraft[]
   attachedImage: string

@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SearchInput, Select } from '@/components/ui/Field'
-import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useScopedItems } from '@/lib/useScopedContent'
@@ -18,6 +17,9 @@ import {
   type MediaRequest, type ManagedContentItem, type PracticalAuthoringData,
 } from '@/data/contentControl'
 import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
+import { MediaPicker } from '@/components/admin/MediaPicker'
+import { isStoredMediaReference } from '@/lib/mediaStorage'
+import type { MediaPlacement } from '@/data/mediaLibrary'
 
 interface Row extends MediaRequest {
   ownerId: string
@@ -161,6 +163,58 @@ export function MediaRequests() {
     }))
   }
 
+  /**
+   * The backlog, grouped under the item waiting on it.
+   *
+   * Three images wanted by one question is one job. As loose rows it read as
+   * three unrelated ones, scattered through a table sorted by something else.
+   */
+  const byOwner = useMemo(() => {
+    const groups = new Map<string, Row[]>()
+    visible.forEach((row) => {
+      const group = groups.get(row.ownerId)
+      if (group) group.push(row)
+      else groups.set(row.ownerId, [row])
+    })
+    return [...groups.entries()]
+  }, [visible])
+
+  /** Every image that still lives in one browser and reaches nobody. */
+  const stranded = useMemo(() => ledger.filter((item) => {
+    const data = item.questionData
+    if (isStoredMediaReference(data?.attachedImage ?? '')) return true
+    return (data?.attachments ?? []).some((attachment) => isStoredMediaReference(attachment.url))
+  }), [ledger])
+
+  /**
+   * Record that a request has been met.
+   *
+   * The placement and the request's status are written in one update, so a
+   * fulfilled request and the image it refers to can never disagree — and
+   * `supplied` becomes a fact set by the thing that made it true rather than a
+   * label somebody applied.
+   */
+  function fulfil(row: Row, mediaId: string) {
+    setLedger((items) => items.map((item) => {
+      if (item.id !== row.ownerId || item.kind !== 'question' || !item.questionData) return item
+      const placement: MediaPlacement = {
+        id: `plc-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+        mediaId,
+        slot: row.slot ?? 'stem',
+        ...(row.slot === 'answer' && row.answerLabel ? { answerLabel: row.answerLabel } : {}),
+      }
+      return {
+        ...item,
+        questionData: {
+          ...item.questionData,
+          media: [...(item.questionData.media ?? []), placement],
+          mediaRequests: item.questionData.mediaRequests?.map((request) =>
+            request.id === row.id ? { ...request, status: 'supplied' as const, mediaId } : request),
+        },
+      }
+    }))
+  }
+
   const outstanding = rows.filter((row) => row.status === 'needed' || row.status === 'planned')
   const requiredOutstanding = outstanding.filter((row) => row.priority === 'required')
 
@@ -173,6 +227,38 @@ export function MediaRequests() {
         title="Media requests"
         description="Images, recordings and clips that an article, question or practical needs but does not yet have. These are editorial instructions for a person — a separate record from student media, never appearing in a published article, its HTML, its search data, or any student API response."
       />
+
+      {/* A backlog nobody can see is a backlog nobody works. These images were
+          uploaded, confirmed, and reach no student — and until now nothing
+          anywhere said so. */}
+      {stranded.length > 0 && (
+        <Panel className="mb-4 p-4">
+          <div className="flex items-start gap-2.5">
+            <Icon icon={TriangleAlert} size={16} className="mt-0.5 shrink-0 text-warning" />
+            <div className="min-w-0">
+              <p className="text-[13px] font-semibold text-ink">
+                {stranded.length === 1
+                  ? '1 question holds an image that only exists in one browser'
+                  : `${stranded.length} questions hold an image that only exists in one browser`}
+              </p>
+              <p className="mt-0.5 text-[12px] leading-relaxed text-ink-2">
+                These were attached before images were stored on the server. They render for whoever uploaded them and for
+                nobody else. Open each one and use “Upload to the server” beside the image.
+              </p>
+              <ul className="mt-2 flex flex-wrap gap-1.5">
+                {stranded.slice(0, 12).map((item) => (
+                  <li key={item.id}>
+                    <Link to={`/admin/questions?item=${encodeURIComponent(item.id)}`} className="inline-block max-w-[18rem] truncate rounded border border-line bg-surface px-2 py-1 text-[11.5px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
+                      {item.title}
+                    </Link>
+                  </li>
+                ))}
+                {stranded.length > 12 && <li className="self-center text-[11.5px] text-ink-3">and {stranded.length - 12} more</li>}
+              </ul>
+            </div>
+          </div>
+        </Panel>
+      )}
 
       <div className="mb-4 grid gap-3 sm:grid-cols-3">
         <Panel className="p-4">
@@ -228,61 +314,23 @@ export function MediaRequests() {
               : 'Add them while authoring, or import them alongside the item. A request says what the asset must teach and why prose is not enough.'}
           />
         ) : (
-          <div className="overflow-x-auto">
-            <Table>
-              <thead>
-                <Tr>
-                  <Th>Asset</Th>
-                  <Th>Needed by</Th>
-                  <Th>System</Th>
-                  <Th>Priority</Th>
-                  <Th>Status</Th>
-                </Tr>
-              </thead>
-              <tbody>
-                {visible.map((row) => (
-                  <Tr key={row.id}>
-                    <Td>
-                      <span className="block text-[12.5px] font-medium text-ink">{row.brief}</span>
-                      <span className="mt-0.5 block text-[11.5px] leading-snug text-ink-3">
-                        {row.medium}{row.medium === 'image' && row.kind !== 'other' ? ` · ${row.kind}` : ''} · {row.teachingPurpose || <span className="text-warning">no teaching purpose recorded</span>}
-                      </span>
-                      {(row.sourceDirection || row.rightsNotes) && (
-                        <span className="mt-0.5 block text-[11px] text-ink-3">{[row.sourceDirection, row.rightsNotes].filter(Boolean).join(' · ')}</span>
-                      )}
-                    </Td>
-                    <Td>
-                      <span className="flex items-center gap-1.5">
-                        <Badge tone="outline">{OWNER_LABEL[row.ownerKind]}</Badge>
-                        {/* Straight to the item that is waiting, so sourcing an
-                            asset does not begin with hunting for its article. */}
-                        <Link to={`${OWNER_CATALOGUE[row.ownerKind]}?item=${encodeURIComponent(row.ownerId)}`} className="truncate text-[12.5px] text-ink-2 underline decoration-line-2 underline-offset-2 hover:text-ink">
-                          {row.ownerTitle}
-                        </Link>
-                      </span>
-                      {row.section && <span className="mt-0.5 block text-[11px] text-ink-3">{row.section}</span>}
-                    </Td>
-                    <Td><span className="text-[12px] text-ink-2">{row.systemTitle}</span></Td>
-                    <Td><Badge tone={PRIORITY_TONE[row.priority] ?? 'neutral'}>{row.priority}</Badge></Td>
-                    <Td>
-                      {/* Editable in place: the backlog is a worklist, and a
-                          status you can read but not change is a report. */}
-                      <span className="flex items-center gap-1.5">
-                        <span aria-hidden className={cn('size-1.5 shrink-0 rounded-full', STATUS_DOT[row.status] ?? 'bg-ink-3')} />
-                      <Select
-                        aria-label={`Status for ${row.brief}`}
-                        value={row.status}
-                        onChange={(event) => setRequestStatus(row, event.target.value as MediaRequest['status'])}
-                        className="h-8 min-w-[8.5rem] text-[12px]"
-                      >
-                        {MEDIA_REQUEST_STATUSES.map((value) => <option key={value} value={value}>{value}</option>)}
-                      </Select>
-                      </span>
-                    </Td>
-                  </Tr>
-                ))}
-              </tbody>
-            </Table>
+          <div className="divide-y divide-line">
+            {byOwner.map(([ownerId, ownerRows]) => (
+              <section key={ownerId} className="p-3">
+                <div className="mb-2 flex flex-wrap items-center gap-2">
+                  <Badge tone="outline">{OWNER_LABEL[ownerRows[0].ownerKind]}</Badge>
+                  <Link to={`${OWNER_CATALOGUE[ownerRows[0].ownerKind]}?item=${encodeURIComponent(ownerId)}`} className="text-[13px] font-semibold text-ink underline decoration-line-2 underline-offset-2 hover:text-primary-strong">
+                    {ownerRows[0].ownerTitle}
+                  </Link>
+                  <span className="text-[11.5px] text-ink-3">
+                    {ownerRows.length} asset{ownerRows.length === 1 ? '' : 's'} wanted · {ownerRows[0].systemTitle}
+                  </span>
+                </div>
+                <ul className="space-y-2">
+                  {ownerRows.map((row) => <RequestRow key={row.id} row={row} onStatus={setRequestStatus} onFulfil={fulfil} />)}
+                </ul>
+              </section>
+            ))}
           </div>
         )}
       </Panel>
@@ -302,5 +350,69 @@ export function MediaRequests() {
         </Panel>
       )}
     </PageContainer>
+  )
+}
+
+/**
+ * One wanted asset, and the means to supply it.
+ *
+ * The page could previously only re-label a status by hand, which is why
+ * "supplied" meant that somebody typed it. Here the upload happens where the
+ * request is, and the status follows from it.
+ */
+function RequestRow({ row, onStatus, onFulfil }: {
+  row: Row
+  onStatus: (row: Row, next: MediaRequest['status']) => void
+  onFulfil: (row: Row, mediaId: string) => void
+}) {
+  const [picking, setPicking] = useState(false)
+  const fulfillable = row.ownerKind === 'question' && row.medium === 'image'
+
+  return (
+    <li className="rounded-lg border border-line bg-surface-2/50 p-3">
+      <div className="flex flex-wrap items-start gap-2">
+        <span aria-hidden className={cn('mt-1.5 size-1.5 shrink-0 rounded-full', STATUS_DOT[row.status] ?? 'bg-ink-3')} />
+        <div className="min-w-0 flex-1">
+          <p className="text-[12.5px] font-medium text-ink">{row.brief}</p>
+          <p className="mt-0.5 text-[11.5px] leading-snug text-ink-3">
+            {row.medium}{row.medium === 'image' && row.kind !== 'other' ? ` · ${row.kind}` : ''}
+            {row.slot ? ` · ${row.slot === 'answer' ? `answer ${row.answerLabel ?? '?'}` : row.slot}` : ''}
+            {' · '}
+            {row.teachingPurpose || <span className="text-warning">no teaching purpose recorded</span>}
+          </p>
+          {(row.sourceDirection || row.rightsNotes) && (
+            <p className="mt-0.5 text-[11px] text-ink-3">{[row.sourceDirection, row.rightsNotes].filter(Boolean).join(' · ')}</p>
+          )}
+        </div>
+        <Badge tone={PRIORITY_TONE[row.priority] ?? 'neutral'}>{row.priority}</Badge>
+        <Select
+          aria-label={`Status for ${row.brief}`}
+          value={row.status}
+          onChange={(event) => onStatus(row, event.target.value as MediaRequest['status'])}
+          className="h-8 min-w-[8.5rem] text-[12px]"
+        >
+          {/* `supplied` is not offered: it is now a fact set by attaching an
+              image that came back and rendered, not a label anyone applies. */}
+          {MEDIA_REQUEST_STATUSES.map((value) => (
+            <option key={value} value={value} disabled={value === 'supplied' && row.status !== 'supplied'}>{value}</option>
+          ))}
+        </Select>
+        {fulfillable && row.status !== 'supplied' && !picking && (
+          <Button size="sm" variant="secondary" iconLeft={ImagePlus} onClick={() => setPicking(true)}>Supply it</Button>
+        )}
+      </div>
+      {picking && (
+        <div className="mt-2">
+          <MediaPicker onPick={(mediaId) => { setPicking(false); onFulfil(row, mediaId) }} onCancel={() => setPicking(false)} />
+        </div>
+      )}
+      {!fulfillable && row.status !== 'supplied' && (
+        <p className="mt-1.5 text-[11px] text-ink-3">
+          {row.medium === 'image'
+            ? 'Only questions can be supplied from here so far. Attach this one in its own editor.'
+            : `${row.medium} is not held in the media library yet. Attach it in the item's own editor.`}
+        </p>
+      )}
+    </li>
   )
 }

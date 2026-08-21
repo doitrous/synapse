@@ -4,6 +4,9 @@ import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ZoomableImage, MediaAttachmentView } from '@/components/ui/MediaAttachmentView'
+import { PlacedMedia } from '@/components/ui/PlacedMedia'
+import { placementsFor } from '@/data/mediaPlacement'
+import { useMediaRecords } from '@/lib/useMediaRecords'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
@@ -48,6 +51,7 @@ export function QuestionView({
   correctIndex?: number
   onChoose: (index: number) => void
 }) {
+  const mediaRecords = useMediaRecords()
   const answer = correctIndex ?? question.options.findIndex((option) => option.correct)
 
   function optionClasses(index: number): string {
@@ -90,6 +94,7 @@ export function QuestionView({
           {question.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
         </div>
       )}
+      <PlacedMedia placements={placementsFor(question.media, 'stem')} records={mediaRecords} className="mt-4" />
 
       {/* A revealed option is prose, not a control: a `<button disabled>` blocks
           pointer events for its whole subtree, so the concept links inside the
@@ -111,7 +116,12 @@ export function QuestionView({
                   : revealed && chosen === index ? <Icon icon={X} size={14} strokeWidth={2.6} />
                     : LETTERS[index]}
               </span>
-              <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={option.text} enabled={revealed} /></span>
+              <span className="flex-1 pt-0.5 text-[14px] text-ink">
+                <ConceptText text={option.text} enabled={revealed} />
+                {/* Inside the option, so "which of these four radiographs" reads
+                    as four options rather than four pictures and four labels. */}
+                <PlacedMedia placements={placementsFor(question.media, 'answer', LETTERS[index])} records={mediaRecords} />
+              </span>
             </>
           )
           const shape = cn('flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors', optionClasses(index))
@@ -122,6 +132,14 @@ export function QuestionView({
           )
         })}
       </div>
+
+      {/* Explanation media lives here rather than beside each caller's own
+          explanation text, because six surfaces render QuestionView and only
+          one of them renders an explanation. Held until revealed: a diagram
+          that explains the answer gives it away before it is asked for. */}
+      {revealed && (
+        <PlacedMedia placements={placementsFor(question.media, 'explanation')} records={mediaRecords} className="mt-5" />
+      )}
     </>
   )
 }
