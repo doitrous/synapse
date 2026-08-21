@@ -2991,3 +2991,72 @@ npm test                1324 pass     citations              7,146 resolving
 **Byte-identity alone would have passed while taking a module from 54 columns back to 35.** The
 gate had to name the property. And the pre-gate fetch was worthless: *fetch immediately before
 the push, not before you start verifying.*
+
+---
+
+## `scripts/` is in a program now — and what it cost to have been outside one
+
+`tsconfig.scripts.json`, referenced from the root alongside the app and node projects,
+`include: ["scripts/**/*.ts", "scripts/**/*.mjs"]`. **Verified on `main`; `npx tsc -b` exits 0
+with `scripts/` actually in it.**
+
+**What the three duplicated keys had cost**, once merged rather than deduplicated — both entries
+were true, so the fix was a union, not a choice:
+
+```
+elbow-joint-type-bones-ligaments     2 signals -> 5    weight 0.13 -> 0.26
+radial-nerve-origin-root-branches    3 -> 6            weight 0.17 -> 0.30
+lysosome-types-secondary-fates       4 -> 5            weight 0.12 -> 0.15
+```
+
+**One concept's blueprint weight had been halved by a silent overwrite in an object literal** —
+in the field the whole programme exists to compute.
+
+### Two choices in that config worth knowing, because it is shared
+
+**It borrows the app's bundler resolution, `@/` alias and DOM lib**, because these files import
+`src/data/*`. Under Node resolution the first run reported the **app** as broken — missing
+`@/lib/api`, extensionless relative imports, `window` undefined — **none of which is a fact
+about `scripts/`.** A program configured wrongly does not report *nothing*; it reports
+confidently about the wrong thing.
+
+**It is deliberately loose** — `strict: false`, `noImplicitAny: false`. These run under
+`--experimental-strip-types`, which erases types without checking them, and they are full of
+`readFileSync` JSON handled as `any`.
+
+> **Turning that into hundreds of errors is how a program gets switched back off.** Duplicate
+> keys, arity, misspelled properties and unreachable code are what it is for.
+
+It earned its place on the first run, finding a real error in `check-column-parsers.ts` — a
+`Concept` cast straight to `Record<string, unknown>` where `Concept` has no index signature.
+**The checker built to catch this class was itself in it.**
+
+### A probe written to the wrong shape reads exactly like a column that does not exist
+
+New instance of the stand-in, and the sharpest one for anybody writing probes. Measuring
+`exam_weight_by_year` through the importer, a first probe reported it as an **invisible column**
+— because the probe used the `A | B` list form and that column does not take it.
+
+> **A probe written to the wrong shape reads exactly like a column that does not exist.**
+
+Same family as a probe batch that comes back `kind: "unknown"` — the branch never runs, and
+every case "passes". **Print what the probe was recognised as, beside the result.**
+
+### `[clear]` as a claim rather than an omission
+
+Worth recording as the positive use of the sentinel, now that most of this file is about getting
+it wrong. `concept_ids` and `contextual_concept_ids` are `[clear]` on a grouped written batch —
+**deliberately, and it asserts something true**: the question already names every concept it
+tests on `main_concept`, and nothing in this corpus records which concepts a stem merely *needs*
+without assessing.
+
+**An empty list stating "considered, and there are none" is a finding. An omission is silence.**
+
+### Hand a lane a change in its own files, do not bury it in your commit
+
+One lane derived three question columns and **held them back** rather than applying them,
+because filling them would have rewritten all seven of another lane's committed written batches.
+The other lane's reaction is the reason to keep doing it:
+
+> **Arriving as a diff I did not write, in files I own, is precisely how the sweep incident
+> started.**
