@@ -153,14 +153,31 @@ Awaiting Omar's call.
 
 Each of these was found by one lane and costs another lane real work to rediscover.
 
-### OCR corrupts MCQ option labels, and it is not random
+### MCQ option labels go missing — two faults, one remedy
 
-`d.` reads as `0.`; `c.` reads as `¢.` or `6.`. A parser keyed on a clean `[a-d]\.`
-silently drops roughly the **last option of many questions** and never errors. Because it
-is specifically *d* that goes, the answer-key distribution **skews** rather than visibly
-breaking. Found in 104's run; it applies to any OCR'd bank, including 101's 2,704 MCQs and
-102's two shared department banks. Normalisation belongs in `mcq.py` — one shared parser,
-not five local fixes.
+**Native text (101's books): watermark bleed.** A rotated "ViP Academy" watermark lands
+glyphs on an option's own line, ahead of its label — `Vi    a- Subclavian vein.` An
+anchored `^\s*([a-e])[-.]` skips the line and never errors. Whichever option the watermark
+lands on vanishes, so options go missing from *every* position: 277 lack D, 128 C, 90 A,
+83 B. There is **no answer-key skew** (A 346, B 337, C 337, D 333 across 1,353 intact
+questions). **The text was never lost** — it is in the page cache, and repair needs no
+re-render and no re-OCR.
+
+**OCR'd text (104's books): tesseract misreads the glyph.** 66 corrupted labels across 18
+files, 6.7% of all option labels — `6`×29, `0`×25, `©`×8, `¢`×3, `@`×1. There is no text
+layer to bleed, so this is a different fault with a different cause.
+
+**The remedy is shared because both leave a label present-but-unmatchable at a known
+position: resolve the label from its position in the sequence, never from its shape.**
+Labels run in order, so a mangled label after `c` is `d`. A shape map (`0`→`d`) files an
+option under the **wrong letter**, and the answer key is by letter — wrong-letter is worse
+than absent.
+
+`scripts/kasr/extract/repair-options.py` is the one implementation. It advances its cursor
+per label whether or not it recognised one, so runs of corruption resolve correctly, and
+`--self-test` covers clean, single, double `c`+`d`, first-mangled, triple run, all-mangled
+and repeated letters. Four-option questions went 1,874 → 2,259; the usable bank ~1,200 →
+1,610. **Add a failing case to that file rather than patching locally.**
 
 ### The manifest's `textLayer` is wrong at least once
 
@@ -204,17 +221,124 @@ Copy the **field semantics** from `emit.ts` + `seeds/types.ts` — a field's mea
 exactly once, so `exam_relevance` means the same thing in every module. Do **not** copy
 101's current field coverage. Those are separable and only the first should propagate.
 
-### Pathology is a topic, not a subject
+### Pathology and pharmacology: subject and system code are decoupled
 
-`curriculumCatalog.ts` carries **20** subjects, not the manuals' eight. `pharm` is among
-them; pathology is not, and that is deliberate — pathology is modelled as a topic *within*
-each body system (`Cardiovascular pathology`, `Respiratory pathology`, `Renal pathology`,
-and so on already ship). A pathology concept files under the body system it affects. The
-body-system code list has no `PAT` either. **Do not mint a subject or a system code for
-it** — that would move the tree every lane places into.
+`curriculumCatalog.ts` carries **20** subjects, not the manuals' eight. There is no
+pathology subject and no `PAT` body-system code — that is deliberate, but the reason is
+not "pathology is a per-system topic". Both models exist and the year decides which:
+
+- **Clinical years** — `Cardiovascular pathology`, `Renal pathology` and so on are real
+  topics inside each body system.
+- **Year 1 introductory pathology** — cell injury, necrosis, apoptosis — belongs to
+  **`fnd` (Foundations)**. `fnd` carries `General pathology` (`SYS-FND-T03`) and `General
+  pharmacology` (`SYS-FND-T04`) as sibling topics, with real nodes to microtopic depth.
+  Filing "the earliest change in reversible cell injury" under `SYS-CVS-T03` would be
+  arbitrary — there is no system it affects.
+
+**Subject and body-system code are decoupled, and the live graph proves it.** Of 1,718
+concepts, **206 carry `subjectId: 'pharm'` — and their `CON-` codes are `FND` × 85 and
+`INF` × 121. `CON-MUL-*` concepts in existence: zero.**
+
+```
+CON-FND-3CC86CC26BF549  subjectId='pharm'  SYS-FND-T04-S01  secondary=['DIS-PHA-T01','DIS-PHA']
+```
+
+So the code follows where a concept is taught or what a drug acts on, **not** its subject.
+`seeds/types.ts` couples them through `SYSTEM[subject]`; that is a default needing an
+override, not a mapping to trust. Passing `pharm` through it mints `CON-MUL-…` — a second
+namespace for concepts that already exist under `CON-FND-…`, which is the mastery-splitting
+failure `mintConceptId` exists to prevent. Mint with `tools/mint-concept-id.mjs <CODE>
+<canonical_key>` and set `subject` separately.
+
+**Open:** `pharm › Pharmacokinetics` (`DIS-PHA-T01`) and `fnd › General pharmacology ›
+Pharmacokinetics` (`SYS-FND-T04-S01`) both describe ADME — a genuine *one label, one home*
+violation in the catalogue. Year 1 places primary on `SYS-FND-T04-*`, secondary on
+`DIS-PHA-*`. Whoever runs a clinical-years lane should settle it.
 
 ### Filter on university, not just module
 
 `108 II` and `108 III` are `PAT 108 I/II/III` from **MTI University**, sitting elsewhere in
 the corpus tree — they are not `kau` modules. Filter on `moduleId` **and**
 `universityId == "kau"`.
+
+### Concepts, articles and questions are one authoring set
+
+`validate-content-batch.mjs:260-267` checks article coverage **from the concept's side**:
+`library_ids` must be non-empty, every ID must be an existing article, and every
+`main_concept` must list that article in its own `articleIds`. An article that merely
+mentions the concept is not enough — the concept must link back.
+
+So "concepts now, questions next, articles later" is not a phasing choice; it is a plan for
+a batch that cannot validate. A `--with` sibling concept is a **stub with no `articleIds`**
+(`:153`), so the check fires unless the article batch is passed with `--with` *and* the
+concept carries the link. Both siblings, both directions.
+
+### Every live concept has an empty `moduleIds`
+
+All **1,718** of them, no exceptions. The canonical library does not know which university
+module teaches any of its concepts. So the most valuable thing a module lane produces may
+not be new concepts at all — it is the **module attachment** on concepts that already
+exist: `modules`, `module_subject`, `exam_signal`, `original_wording`, `learner_years`.
+
+A lane landing on a populated zone should be doing **update-plus-mint**, not mint-only.
+101's zone was genuinely empty so minting 16 risked nothing; a lane on `SYS-CVS-T01` /
+`SYS-RES-T01` meets 210 existing concepts and 19 live articles.
+
+**An update batch validates with `medical:simulate`, not `medical:batch`** — the latter
+judges every record as new and fails an update on every field you did not re-type.
+Expect `created: 0, updated: N, delta: 0`.
+
+### A `field_notes` line must use the camelCase property name
+
+`modules` → `moduleIds`, `nanotopic` → `nanotopicId`. A note written with the import
+column name is **invisible to the audit**, and you get "blank without an explicit reason"
+for a field you carefully explained. `conceptPopulated` is 28 fields, `conceptPresent`
+another 22 — that is the 50-of-52 floor.
+
+### Verifying an extractor by re-running it destroys what it verifies
+
+The committed extract JSON **cannot be rebuilt from this repository**: the page cache is
+gitignored and the source PDFs are not in the repo. `mcq.json` records `pagesRead: 79` on a
+79-page file while `ocrPageCap` is 40, so it came from an earlier uncapped pass. A lane
+regenerating it in default mode to prove byte-identity found no usable cache entry,
+re-extracted, hit the cap, and wrote the 40-page result back over the cache — output came
+back 3,204 against a committed 3,590.
+
+**Re-running an extractor to check a committed file replaces it rather than checking it,
+and can replace it with less.** Prove parameterisation statically: read the code, show the
+default resolves to `101 ISK` and to the pre-existing unprefixed path, and never invoke
+default mode. If you must diff, run old and new against the same inputs and diff the two
+outputs — never against the committed file.
+
+### Fixing the `pagetext.py` guard: a ratio test alone is wrong
+
+The bug is real — the guard tests `len(page1.strip()) < 20`, which is **length, not
+readability**. One source has a text layer of 6,075 non-whitespace characters that are
+**all `U+0001`**, 0% alphanumeric; page 1 measures 144 characters and sails through, and it
+caches as `native` with zero readable content and no empty pages. Silent, and worse than a
+loud failure: any lane reading the shared cache concludes the book is unusable and skips it.
+
+But **an alphanumeric-ratio test alone condemns every exam paper in the corpus.** Exam
+papers are mostly dotted answer space (`……………`), so the ratio measures leader dots.
+A lane's audit flagged five of its files — including the paper its module is authored from
+— all clean once `.…·_-` are stripped. Across two lanes' full caches there were **zero**
+control characters and **zero** sources below 35% alphanumeric, so the `U+0001` case is
+narrow.
+
+Test for **control characters** as the primary guard; if you also want a ratio, strip
+leaders first. And **record per source which mode was chosen and why** — the manifest's
+`textLayer` is wrong for 2 of one lane's 11 sources (18%), and an auditable fallback set is
+what turns that into a manifest patch list.
+
+### An unfinished batch must not sit in the import root
+
+`content.yml` validates **every** batch under the import root on **every** PR touching
+`docs/Kasr-Source-Imports/**` or `scripts/kasr/**` — it does not scope to changed files, and
+the loop sets `failed=1` regardless of which file failed. So one lane's broken batch turns
+every other lane's PR red.
+
+That scope is deliberate and stays: the alternative is a broken batch merging because
+nobody's PR happened to touch it, into a catalogue imported by hand for live students. The
+obligation it creates is the other way round — **main must never be red.** A file cut off
+mid-run with a header and no items cannot be classified by the kind detector, fails, and
+takes every lane down with it. Keep it out of the import root until it has items.
