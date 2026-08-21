@@ -22,14 +22,14 @@ looks exactly like a file with nothing in it.
 | Batch | Items |
 | --- | --- |
 | `concept/101-ISK-concepts.md` | 71 |
-| `concept/101-ISK-mcq-concepts.md` | 254 |
+| `concept/101-ISK-mcq-concepts.md` | 259 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
 | `concept/104-CPS-concepts.md` | 22 |
 | `concept/104-CPS-practical-concepts.md` | 17 |
 | `concept/108-INT-concepts-pathology.md` | 49 |
 | `concept/108-INT-concepts-pharmacology-updates.md` | 9 |
 | `concept/108-INT-concepts-pharmacology.md` | 40 |
-| `question/101-ISK-mcq.md` | 1580 |
+| `question/101-ISK-mcq.md` | 1659 |
 | `question/104-CPS-mcq.md` | 40 |
 | `question/108-INT-EOY-mcq.md` | 47 |
 | `article/101-ISK-anatomy-2.md` | 11 |
@@ -51,8 +51,8 @@ looks exactly like a file with nothing in it.
 | `written/101-ISK-EOY-2024-written.md` | 16 |
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 | `written/101-ISK-FORMATIVE-2025-written.md` | 10 |
-| `evidence/101-ISK-citations.md` | 329 |
-| `evidence/101-ISK-claims.md` | 1123 |
+| `evidence/101-ISK-citations.md` | 332 |
+| `evidence/101-ISK-claims.md` | 1134 |
 | `evidence/101-ISK-resources.md` | 75 |
 | `evidence/104-CPS-citations.md` | 62 |
 | `evidence/104-CPS-claims.md` | 52 |
