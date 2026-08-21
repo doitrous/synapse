@@ -293,3 +293,99 @@ The solved copy: the same paper carrying model answers as typed overlays, from w
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_07f0a0ff41addf826c7f
+
+## title
+Department question book — Biochemistry MCQs for modules 102 INT and 103 BMS
+
+## institution
+Kasr Alainy — Faculty of Medicine, Cairo University
+
+## processing_status
+ocr_required
+
+## collection_id
+kau-y1-department-question-books
+
+## source_relative_path
+y1/102 INT/Department Questions/DPT BOOK MCQ D book bio 102&103 mcq (1).pdf
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## page_count
+154
+
+## sha256
+07f0a0ff41addf826c7f8e1b553ce6ec5c00678d1629b99df914bc7123d92f0f
+
+## rights
+Department question book circulated among Kasr Al Ainy students. Used as curriculum signal; question wording is quoted, not redistributed.
+
+## qualification
+The Medical Biochemistry and Molecular Biology department's own question book, and the source of 103 BMS's multiple-choice bank. Its module divider pages assign each chapter to a module, which is how items taught by 103 were separated from 102's — the split is the book's own, read off the divider page as an image rather than through OCR. It carries a printed answer key per chapter, which is the authority for every `correct_answer` drawn from it.
+
+Filed under `102 INT` in the manifest because that is the folder it sits in; the items it teaches are tagged by module. It is **assessment material, not medical authority** — see `is_assessment`. The department textbook is what a claim cites; this book is evidence of what is asked.
+
+## confidence
+0.85
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_2093c80b1f9c25f9c0a4
+
+## title
+Department question book — Physiology MCQs, First Year
+
+## institution
+Kasr Alainy — Faculty of Medicine, Cairo University
+
+## processing_status
+ocr_required
+
+## collection_id
+kau-y1-department-question-books
+
+## source_relative_path
+y1/102 INT/Department Questions/Physio MCQ First Year.pdf
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## page_count
+72
+
+## sha256
+2093c80b1f9c25f9c0a4507fb4c2c5ddfae5e698364cfbdbcfbfb310a3dd6a77
+
+## rights
+Department question book circulated among Kasr Al Ainy students. Used as curriculum signal; question wording is quoted, not redistributed.
+
+## qualification
+The Physiology department's own question book, and the source of 103 BMS's multiple-choice bank. Its module divider pages assign each chapter to a module, which is how items taught by 103 were separated from 102's — the split is the book's own, read off the divider page as an image rather than through OCR. It carries a printed answer key per chapter, which is the authority for every `correct_answer` drawn from it.
+
+Filed under `102 INT` in the manifest because that is the folder it sits in; the items it teaches are tagged by module. It is **assessment material, not medical authority** — see `is_assessment`. The department textbook is what a claim cites; this book is evidence of what is asked.
+
+## confidence
+0.85
+
+## is_assessment
+yes

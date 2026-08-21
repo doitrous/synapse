@@ -230,6 +230,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T05, whose only children are Core principles, Applied / clinical correlations and Practical and assessment. The book's own chapter and section names are finer than anything the tree offers and are carried by module_subject instead.
 nanotopic: No nanotopic exists below the microtopic level in this branch, and inventing one would place this concept where nothing else lives.
@@ -414,6 +416,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T07 for clinical biochemistry, and the renal placement is carried as a secondary node. The book's section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -600,6 +604,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T07 for clinical biochemistry; the book's own section name is carried by module_subject, which is finer than any microtopic the tree offers.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -784,6 +790,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T05 and its three generic children; the book's section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -971,6 +979,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T05 and its three generic children; the book's own section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -1156,6 +1166,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T05 and its three generic children; the book's own section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -1341,6 +1353,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T07 for clinical biochemistry; the book's section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
@@ -1526,6 +1540,8 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
+nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopic: The canonical overlay stops at DIS-BIO-T07 for clinical biochemistry, and the renal placement is carried as a secondary node on SYS-REN-T06. The book's section name is carried by module_subject.
 nanotopic: No nanotopic exists below the microtopic level in this branch.
