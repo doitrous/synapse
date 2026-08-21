@@ -1703,3 +1703,59 @@ Both come from the lane whose hand-written table it replaces, and both are load-
 
 And the 47 concepts no article teaches **belongs in the repo as a file, beside the coverage
 ledger** — not in a message. It is the definition of what is left to write.
+
+### A hand-maintained table can be a record of decisions a generator cannot reproduce
+
+**This reverses the go-ahead I gave to wire `build-article-links.ts`, and the lane that had
+asked for the go-ahead is the one that reversed it.** Its reason is better than mine.
+
+Reading the current `ARTICLE_FOR_CONCEPT` changed what it is. It is no longer a mapping — it
+is a record of **decisions with reasons attached**:
+
+> *"The notochord goes to its own article and not to the paraxial-mesoderm one, which says a
+> great deal about where the notochord lies and nothing about the four steps or the nucleus
+> pulposus — declaring it there would have been a lie the validator cannot catch."*
+
+and a monocyte declared on the connective-tissue article with the reason recorded, because its
+leaf-correct home sat in a file that pass could not edit.
+
+**Deriving the table would keep the links and throw away the *why* — and the why is what stops
+the next author re-making the wrong call.** A generator reproduces the conclusion, never the
+judgement.
+
+So the generator stays **unwired, with `--diff`**. Current state: **71 of 71 agree, 0
+unmatched, 0 contradicted**, deriving 201 links in total. Those numbers are for the owning lane
+to act on, not for the generator to apply.
+
+**The half that needs no judgement did land:**
+`docs/Kasr-Source-Imports/coverage/101-ISK-untaught-concepts.md` — **15 concepts no article
+teaches**, grouped by curriculum position, regenerated on each run, down from 47 as articles
+land. An absence cannot be a wrong wiring, so that half is safe to automate. **Derive what
+cannot be wrong; leave what requires a reason to a person.**
+
+### Resolving a conflict: name the files, and run the thing you changed
+
+`scripts/kasr/seeds/articles.ts` reached `main` carrying `<<<<<<<` and `>>>>>>>`. It does not
+parse, so `build-batches.ts` failed on import **for every lane**. Fixed in `8779e9e`.
+
+Two causes, both avoidable:
+
+1. **`git add -A && git commit --no-edit` chained in one command stages the conflict.** A
+   commit resolving a conflict should **name its files**.
+2. **The changed file was never run.** `build-batches.ts` would have caught it in one second.
+   **Anything that has to parse should be run once before it is pushed.**
+
+The conflict itself was predictable: one lane rewrote that file to read from `article-links.json`
+while the owning lane was extending the hand table it replaces. **Same lines, by construction** —
+which is what a handover in progress looks like, and a reason to finish the ownership question
+before editing.
+
+### The `--with` trap is now refused rather than documented
+
+The validator **rejects a sibling list the shell handed over as one argument**, naming the
+cause. That is the fix that belonged in the parser rather than in a rule.
+
+It had given three lanes a wrong measurement — most recently **481 errors read on a batch that
+has none**, half an hour after that lane had warned two others about the same trap. zsh does
+not word-split an unquoted expansion; bash does. **CI was always right; the people checking it
+by hand were not.**
