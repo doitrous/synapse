@@ -9,7 +9,7 @@
  * import.
  */
 import { readFile, readdir } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
@@ -575,16 +575,38 @@ if (kind !== 'concept') {
   // concept, and concepts are authored in `concept/` because that is what they
   // are. Without this every claim in a 1,253-claim batch failed with "Concept …
   // does not exist" while the concept sat validated one directory away.
-  const siblings = [
-    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
-    ...alongside,
-  ]
+  //
+  // Deduplicated by resolved path, because a `--with` file may already be a
+  // sibling in this directory — naming the resources batch beside a claim batch
+  // is the documented way to run this, and it put that file in both lists. The
+  // ID sets are Sets and did not care, but `everything.citation` is an array and
+  // every citation in it counted twice. Nothing reads `evidenceCountByClaim`
+  // today, so this was latent rather than wrong; the day something does read it,
+  // one citation satisfying the two-source rule for `treatment_or_action` is the
+  // exact failure LD-08 exists to prevent.
+  const fromDirectory = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  // Resolved path back to the path the author typed, so the note names the file
+  // the way the command did rather than as an absolute path nobody wrote.
+  const named = new Map(alongside.map((path) => [resolve(path), path]))
+  const siblings = [...new Set([...fromDirectory, ...alongside].map((path) => resolve(path)))]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))
+    if (!parsed.length) continue
+    const parsedKind = detectKind(parsed[0])
     // `??=` rather than a fixed set of buckets: a new record kind should make
     // the validator report something useful, not throw while collecting context.
-    if (parsed.length) (everything[detectKind(parsed[0])] ??= []).push(...parsed)
+    ;(everything[parsedKind] ??= []).push(...parsed)
+    // Say out loud that a named sibling was read, and what it contributed.
+    //
+    // An error count of zero cannot distinguish a batch whose references all
+    // resolved from one whose siblings never loaded at all — the shell handed
+    // the list over as one argument, the flags never arrived, or the checkout
+    // predates the fold-in. Those look identical from the outside, and the
+    // difference is the whole question. The question and practical branches
+    // have always said this; this branch resolved its siblings in silence, so
+    // "0 errors" was the only signal and it meant two different things.
+    if (named.has(path)) notes.push(`${named.get(path)}: ${parsed.length} ${parsedKind} rows treated as pending import`)
   }
 
   const countingCitations = everything.citation.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)

@@ -8,16 +8,22 @@ anything), and writes `pagetext/<sourceId>.json`.
 
     python3 scripts/kasr/extract/pagetext.py <sourceId> [<sourceId> ...]
     python3 scripts/kasr/extract/pagetext.py --module "102 INT" [--tier-max 5]
+    python3 scripts/kasr/extract/pagetext.py --reprobe        # audit what is already cached
 
 A page that OCRs to nothing is written as an empty string and counted, because
 a paper that extracted to nothing is not a paper without questions — the count
 is what tells a later reader the difference.
+
+Each cache file records `mode` and `modeReason`, so which files fell back to OCR
+and why is auditable across lanes rather than re-derived by each of them.
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -29,6 +35,40 @@ CACHE = os.path.join(HERE, "pagetext")
 def sources():
     with open(MANIFEST, encoding="utf-8") as fh:
         return {s["sourceId"]: s for s in json.load(fh)["sources"]}
+
+
+# A word: three or more letters in a row. Counting these rather than counting
+# characters is the whole point — see `readability`.
+WORD = re.compile(r"[^\W\d_]{3,}", re.UNICODE)
+
+
+def readability(text):
+    """How much of this looks like language, rather than merely like bytes.
+
+    The first version of this guard asked whether page 1 held at least twenty
+    non-whitespace characters. That is a test of length, and a broken font
+    encoding passes it comfortably: a pathology practical book in this corpus
+    extracts 6,075 non-whitespace characters that are *every one* U+0001, so a
+    page measures 144 characters and reads as healthy native text. Nothing
+    downstream could tell that from a real page — `emptyPages` stays empty,
+    because no page is empty — and a lane reading the shared cache concludes
+    the book is 12 pages of unusable text and skips it. OCR of the same pages
+    returns the captions; the content was there all along.
+
+    So the question is the ratio, and whether there are words at all.
+    """
+    stripped = [c for c in text if not c.isspace()]
+    if not stripped:
+        return {"chars": 0, "wordChars": 0.0, "control": 0.0, "words": 0}
+    word_chars = sum(1 for c in stripped
+                     if not unicodedata.category(c).startswith(("C", "S")))
+    control = sum(1 for c in stripped if unicodedata.category(c) == "Cc")
+    return {
+        "chars": len(stripped),
+        "wordChars": round(word_chars / len(stripped), 3),
+        "control": round(control / len(stripped), 3),
+        "words": len(WORD.findall(text)),
+    }
 
 
 def native_page(pdf, page):
@@ -63,22 +103,50 @@ def extract(entry, force=False, workers=6):
     if not n or not os.path.exists(pdf):
         return None
 
-    # The manifest's textLayer is a claim about the file; a first page that
-    # comes back empty is the file disagreeing, and the file wins.
+    # The manifest's textLayer is a claim about the file, and the file wins.
+    #
+    # Probed on three pages rather than one, spread through the document: page 1
+    # is often a cover or a scanned title page even where the body is native,
+    # and judging a 167-page book on it gets the answer wrong in both
+    # directions.
     mode = "native" if entry.get("textLayer") == "native" else "ocr"
-    if mode == "native" and len(native_page(pdf, 1).strip()) < 20:
-        mode = "ocr"
+    reason = "manifest textLayer=%s" % entry.get("textLayer")
+    if mode == "native":
+        probes = sorted({1, max(1, n // 2), max(1, n - 1)})
+        best = max((readability(native_page(pdf, p)) for p in probes),
+                   key=lambda r: (r["words"], r["wordChars"]))
+        # Twelve words is deliberately low: a legitimately sparse page — a
+        # section divider, a full-page plate — should not condemn the file.
+        # What it catches is a page with no words at all, which is what a
+        # broken encoding produces and what a length test cannot see.
+        if best["words"] < 12 or best["wordChars"] < 0.5:
+            mode, reason = "ocr", (
+                "manifest said native, but the best of pages %s has %d words and "
+                "%.0f%% word-forming characters (%.0f%% control) — not readable text"
+                % (probes, best["words"], best["wordChars"] * 100, best["control"] * 100))
+        else:
+            reason = ("manifest textLayer=native, confirmed: %d words on the best of pages %s"
+                      % (best["words"], probes))
 
     fn = native_page if mode == "native" else ocr_page
     with ThreadPoolExecutor(max_workers=1 if mode == "native" else workers) as pool:
         pages = list(pool.map(lambda p: fn(pdf, p), range(1, n + 1)))
 
+    whole = readability("".join(pages))
     doc = {
         "sourceId": sid,
         "file": entry["corpusRelativePath"],
         "mode": mode,
+        "modeReason": reason,
+        "manifestTextLayer": entry.get("textLayer"),
+        "readability": whole,
         "pages": pages,
         "emptyPages": [i + 1 for i, t in enumerate(pages) if not t.strip()],
+        # A page holding characters but no words. Distinct from an empty page:
+        # empty means nothing extracted, this means something did and it is not
+        # language. Both are findings; conflating them hides the second one.
+        "unreadablePages": [i + 1 for i, t in enumerate(pages)
+                            if t.strip() and readability(t)["words"] < 3],
     }
     os.makedirs(CACHE, exist_ok=True)
     with open(out, "w", encoding="utf-8") as fh:
@@ -86,7 +154,26 @@ def extract(entry, force=False, workers=6):
     return doc
 
 
+def reprobe():
+    """Audit every cached file for the failure the length guard used to miss."""
+    names = [n for n in sorted(os.listdir(CACHE)) if n.endswith(".json")]
+    suspect = 0
+    for name in names:
+        doc = json.load(open(os.path.join(CACHE, name), encoding="utf-8"))
+        r = doc.get("readability") or readability("".join(doc["pages"]))
+        broken = r["words"] < 12 or r["control"] > 0.2
+        suspect += broken
+        print("%-8s %-6s words=%-7d word-chars=%-6s control=%-6s %s%s"
+              % ("SUSPECT" if broken else "ok", doc["mode"], r["words"], r["wordChars"],
+                 r["control"], doc["file"],
+                 "  <-- re-extract with --force" if broken else ""), flush=True)
+    print("\n%d suspect of %d cached." % (suspect, len(names)))
+    return suspect
+
+
 def main(argv):
+    if "--reprobe" in argv:
+        sys.exit(1 if reprobe() else 0)
     by_id = sources()
     force = "--force" in argv
     argv = [a for a in argv if a != "--force"]
@@ -110,9 +197,10 @@ def main(argv):
             print("SKIP  %s (no pages or missing file) %s" % (entry["sourceId"], entry["fileName"]),
                   flush=True)
             continue
-        print("%-6s %s %3dp %2d empty  %s"
+        print("%-6s %s %3dp %2d empty %2d unreadable  %s\n         %s"
               % (doc["mode"], doc["sourceId"], len(doc["pages"]), len(doc["emptyPages"]),
-                 entry["corpusRelativePath"]), flush=True)
+                 len(doc.get("unreadablePages", [])), entry["corpusRelativePath"],
+                 doc.get("modeReason", "")), flush=True)
 
 
 if __name__ == "__main__":
