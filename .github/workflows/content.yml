@@ -59,6 +59,13 @@ jobs:
       # live state, deliberately — an item pointing at a concept nobody authored
       # is the failure that check exists to catch — but a programme authoring
       # all four kinds in one pass has none of them imported yet.
+      # The audit asks two questions of a concept — is the field populated, and
+      # does the key exist at all — and it runs against the live ledger, so it
+      # cannot see a batch until someone has imported it. This asks the same two
+      # questions of the batch, which is when the answer is wanted.
+      - name: Concept field presence
+        run: npm run medical:presence
+
       - name: Validate every batch
         run: |
           set -e
