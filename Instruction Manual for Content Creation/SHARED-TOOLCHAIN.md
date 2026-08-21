@@ -882,3 +882,77 @@ the file.
 
 That is the pattern worth copying — an agreement that cannot be forgotten beats one written
 down, and a rule that already matches practice costs nothing to adopt.
+
+### `repair-options.py`'s watermark stripping does not travel — it deletes real content
+
+**Two halves, and only one is portable.** Label resolution by sequence position is format
+logic and is sound everywhere. **Watermark stripping is specific to one publisher and is
+destructive when misapplied.** `repair-options.py:45`:
+
+```python
+WATERMARK = re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])")
+```
+
+Correct for the 101 question books. Reproduced against a cardiopulmonary corpus:
+
+```
+"It is initiated by the P wave of the ECG"  ->  "It is initiated by the  wave of the ECG"
+"d- The normal P50 for human is 27 mmHg"    ->  "d- The normal 50 for human is 27 mmHg"
+"The y descent follows the v wave"          ->  "The  descent follows the v wave"
+"a- P-wave."                                ->  "a- -wave."
+```
+
+**Every result still parses and still reads as English.** No error, no warning, and the
+damage is indistinguishable from a source that never said it — so it defeats review as well
+as tooling. One lane measured its 46 sources: **0 real watermark tokens, 146 fragment
+matches** — `P`×89, `y`×41, `ad`×13, `em`×2, `Ac`×1, every one a false positive. `P` is the P
+wave, P50 and PaO2; `y` is the y descent and the y axis.
+
+**The fix: a watermark is a property of a publisher, not of a format.** Put it in a
+per-module table with **`None` as a real value** meaning *this corpus has no watermark, pass
+the line through untouched*. One implementation; the dangerous half opt-in per corpus.
+
+**Before running it on a new corpus**, check whether `P`, `y`, `ad`, `em`, `Ac` or `Vi` occur
+as standalone tokens in your subject matter, and whether a rendered page actually shows a
+watermark. Assume `None` until you have seen one.
+
+### Answer keys that exist only as highlights
+
+A solved paper can be **byte-identical to its unsolved twin** under `pdftotext` while carrying
+every correct option as a pink highlight. An OCR pass banks all of them as unanswered. Two
+mechanisms, needing different handling:
+
+- **Real `/Annot` `/Highlight` objects** — exact and cheap: read the quad geometry, no
+  rasterising. 31 recovered from one handout this way.
+- **Drawn or flattened overlays** — invisible to `qpdf`'s subtype listing; rasterise and
+  intersect highlight rectangles with text bounding boxes. One lane got **48 of 48, zero false
+  positives on two unsolved control copies, and 11/11 against hand-read ground truth**. The
+  end-of-module papers are this kind.
+
+**If a past-paper extraction reports "no answers marked", check the render before believing
+it.**
+
+### A year sourced from the filename is not the examiner's date
+
+Three manifest years were wrong, found by rendering the covers of files with no text layer:
+
+| File | Manifest | The document |
+|---|---|---|
+| `EOM ISK 101 - 2023.pdf` | 2023 | **10/12/2022** |
+| `EOM first 2021 101 INT end of module.pdf` | 2021 | **24/12/2020** |
+| `EOM ISK 101 195 Answers.pdf` | flagged solved | **carries no answers** — it is the unsolved copy |
+
+Anything whose `examSittingYearSource` is *"the calendar label on the file"* is a **filename**,
+not a date the examiner wrote. **A wrong year is not cosmetic — the blueprint weights
+recency.** Corrections carry a `correction` field saying what was read and where, and the
+manifest note warns that regenerating years from filenames silently undoes them.
+
+### The limit of taking a file by path
+
+The cross-worktree read works for a file **one** lane owns. It does **not** when two lanes
+have both edited it: a byte-identical copy regresses whichever change came later. One lane
+could not take another's validator wholesale — doing so would have reverted its own
+`foldInSiblings` fix — so it **ported the two hunks verbatim, comments included**. Behaviour
+identical, file not.
+
+**Diff before copying.** If both lanes have touched it, port the change, not the file.
