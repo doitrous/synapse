@@ -2021,3 +2021,56 @@ default is wrong:
 
 The lane that declined flagged it rather than diverging quietly, which is the behaviour that
 made this recoverable.
+
+### The complete rule: every column has a right way to be empty, and it depends on its parser
+
+The `[clear]` warning was only half. **An empty block on a *list* column is the mirror-image
+error** — it stores `null` where `[]` is the accurate statement.
+
+| Parser | Deliberately empty | Stores | Says |
+|---|---|---|---|
+| **`text()`** | `## key` with an **empty body** | `undefined` → null | considered, and there is nothing |
+| **`optionalList()`** | **`[clear]`** | `[]` | considered, and the list is empty |
+
+Getting either wrong is a silent wrong value, not an error:
+
+- `[clear]` on a **text** column → the literal four characters, **passing the audit by being
+  non-empty**
+- an empty block on a **list** column → `null`, which reads as **"not mentioned"** rather than
+  **"considered and empty"**
+
+**Map every column to its actual parser. Do not reason from what the name looks like.** One
+lane did this properly across the concept schema:
+
+- **16 columns go through `text()`** — including **`pitfalls`**, which reads like a list and is not.
+- **20 go through `optionalList()`** — including **`conflicts`**, **`uncertainty`** and
+  **`original_wording`**, which read like prose and are not.
+
+That lane's first fix was scoped to the four text columns it had caught holding `[clear]`. The
+full sweep found three more in the other direction — `conflicts`, `uncertainty` and
+`secondary_node_ids` emitted as empty blocks, storing `null` where `[]` was meant. Verified in
+stored state, which is the only place any of this is visible:
+
+```
+text columns holding a literal [clear]:  0
+conflicts         []  x 38   (was None)
+uncertainty       []  x 38   (was None)
+secondaryNodeIds  []  x 13   (was None)
+```
+
+### Satisfying every constraint is not the same as being entitled to invent one
+
+The lane that proposed the third shape put the lesson better than I did. It had tested its
+proposal against every constraint it could name — stored value, `fieldsUsed`, distinguishability,
+audit result — and all four came out right, which felt like proof.
+
+But the reviewer field was **not an open question**; the manual had answered it. Passing every
+test you can think of does not establish that the question was yours to answer.
+
+> **A coordinator can settle what the manual leaves open; it cannot settle what the manual has
+> already decided.** The same test applies to a lane, and to a proposal that satisfies every
+> constraint at once.
+
+Note the manual's worked example settles the substance too: it writes `Medical team, Admin team`
+on a record whose `publication_status` is `needs_evidence` and `editorial_review_status` is
+`drafted_not_reviewed`. **It pairs the named teams with the not-reviewed statuses itself.**
