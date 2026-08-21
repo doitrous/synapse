@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Extract text from Kasr 101 ISK practical-exam sources, one file at a time.
+"""Extract text from a Kasr module's practical-exam sources, one file at a time.
+
+    python3 scripts/kasr/extract/practical.py [--module "104 CPS"] [<slug> ...]
+
+Defaults to module 101 ISK and its named file list. Any other module resolves
+its practical sources from the manifest and writes under extract/<module-slug>/,
+so two lanes cannot overwrite each other's raw text or status records.
 
 Writes raw text per file to scripts/kasr/extract/raw/<slug>.txt and a status
 record to scripts/kasr/extract/status-<slug>.json after each file, so an
@@ -8,11 +14,15 @@ Native pdftotext -layout first; per-page OCR fallback when a page is empty.
 """
 import json, os, subprocess, sys, tempfile, time
 
-OUT = os.path.dirname(os.path.abspath(__file__))
-RAW = os.path.join(OUT, "raw")
-os.makedirs(RAW, exist_ok=True)
+from kasr_module import DEFAULT_MODULE, module_sources, out_dir, out_path, parse_module, \
+    report_textlayer_fallback
 
-FILES = [
+# Set from --module in main().
+MODULE = DEFAULT_MODULE
+OUT = out_dir(MODULE)
+RAW = out_path(MODULE, "raw")
+
+FILES_101 = [
     # slug, sourceId, absolutePath, pages, cap
     ("radiology", "src_177a341938732f599a47",
      "/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/Practical /Radiology (X-Ray) Orientation  (1).pdf", 30, None),
@@ -25,6 +35,23 @@ FILES = [
     ("dpt-practical-histo-101", "src_b4cb8bf9f0c7a6584b4b",
      "/Users/doitrous/Desktop/Kasr Alainy/y1/PRACTICAL FIRST YEAR/HISTOLOGY /DPT Practical Histo 101 (1).pdf", 210, 80),
 ]
+
+FILES_BY_MODULE = {DEFAULT_MODULE: FILES_101}
+FILES = FILES_101
+
+
+def files_for(module):
+    """101's list was named by hand. Another module takes its practical sources
+    from the manifest, keyed by sourceId so the slug cannot drift with a rename."""
+    if module in FILES_BY_MODULE:
+        return FILES_BY_MODULE[module]
+    return [(s["sourceId"], s["sourceId"], s["absolutePath"], s.get("pageCount") or 0, None)
+            for s in module_sources(module, category="Practical", file_type="pdf")]
+
+
+def textlayer_for(module):
+    return {s["sourceId"]: s for s in module_sources(module)}
+
 
 def log(msg):
     print("[%s] %s" % (time.strftime("%H:%M:%S"), msg), flush=True)
@@ -61,7 +88,7 @@ def ocr_page(path, p, tmpd):
             except OSError: pass
     return text
 
-def run_file(slug, sid, path, pages, cap):
+def run_file(slug, sid, path, pages, cap, manifest=None):
     log("START %s (%d pages, cap=%s)" % (slug, pages, cap))
     status = {"file": os.path.basename(path), "sourceId": sid, "pages": pages,
               "pagesRead": 0, "method": "native", "capped": False,
@@ -104,17 +131,31 @@ def run_file(slug, sid, path, pages, cap):
     json.dump(status, open(os.path.join(OUT, "status-%s.json" % slug), "w"), indent=1)
     log("DONE %s pagesRead=%d method=%s ocr=%d illegible=%d" %
         (slug, status["pagesRead"], status["method"], ocr_count, len(status["illegiblePages"])))
+    if manifest and sid in manifest:
+        report_textlayer_fallback(manifest[sid],
+                                  "native" if status["method"] == "native" else "ocr")
 
-def main():
-    only = sys.argv[1:] or None
+def main(argv):
+    global MODULE, OUT, RAW, FILES
+    if "--help" in argv or "-h" in argv:
+        print(__doc__)
+        return
+    MODULE, argv = parse_module(argv)
+    OUT = out_dir(MODULE)
+    RAW = out_path(MODULE, "raw")
+    os.makedirs(RAW, exist_ok=True)
+    FILES = files_for(MODULE)
+    manifest = textlayer_for(MODULE)
+    log("module %s -> %s" % (MODULE, OUT))
+    only = argv or None
     for slug, sid, path, pages, cap in FILES:
         if only and slug not in only:
             continue
         try:
-            run_file(slug, sid, path, pages, cap)
+            run_file(slug, sid, path, pages, cap, manifest)
         except Exception as e:
             log("FILE FAILED %s: %r" % (slug, e))
     log("ALL DONE")
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

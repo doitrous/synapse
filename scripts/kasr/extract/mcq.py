@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Extract MCQs from Kasr Al Ainy module 101 ISK instructor question books.
+"""Extract MCQs from a Kasr Al Ainy module's instructor question books.
+
+    python3 scripts/kasr/extract/mcq.py [--module "104 CPS"]
+
+Defaults to module 101 ISK, whose results are committed at the unprefixed
+paths; any other module writes into extract/<module-slug>/, caches included.
 
 Transcription only: text is copied out of the PDFs, never authored or completed.
 Resumable -- each file's result is written to parts/<sourceId>.json and mcq.json
@@ -8,15 +13,22 @@ is re-merged after every file, so a kill loses at most one file of work.
 import json, os, re, subprocess, sys, tempfile, unicodedata
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-MANIFEST = os.path.join(REPO, "docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json")
-PARTS = os.path.join(HERE, "parts")
-TEXTCACHE = os.path.join(HERE, "pagetext")
-OUT = os.path.join(HERE, "mcq.json")
+from kasr_module import DEFAULT_MODULE, module_sources, out_path, parse_module, \
+    report_textlayer_fallback
+
 OCR_PAGE_CAP = 40
 DPI = 120
 
+# Set from --module in main(). The page cache is this script's own, not the
+# shared pagetext/ written by pagetext.py: the two record different shapes, and
+# a run that read the other's records would mislabel every page it loaded.
+MODULE = DEFAULT_MODULE
+PARTS = out_path(MODULE, "parts")
+TEXTCACHE = out_path(MODULE, "pagetext")
+OUT = out_path(MODULE, "mcq.json")
+
+# The 101 pass named its question books one by one. A module without such a
+# list takes every instructor-material PDF the manifest gives it.
 TARGETS = [
     "101 mcq all after edit(3)-نسخ.pdf",
     "Anatomy MCQ Book [2025] [first priority].pdf",
@@ -403,13 +415,10 @@ def parse_answer_key(pages):
 
 
 # ---------------------------------------------------------------- per file
-def load_manifest():
-    with open(MANIFEST, encoding="utf-8") as fh:
-        data = json.load(fh)
+def load_manifest(module):
     by_name = {}
-    for s in data["sources"]:
-        if s.get("moduleId") == "101 ISK" and s.get("sourceCategory") == "Instructor material":
-            by_name[s["fileName"]] = s
+    for s in module_sources(module, category="Instructor material"):
+        by_name[s["fileName"]] = s
     return by_name
 
 
@@ -441,6 +450,7 @@ def get_pages(entry, info):
                 info["capped"] = True
                 info["pagesRemaining"] = npages - len(pages)
         info["pagesRead"] = len(pages)
+        report_textlayer_fallback(entry, "ocr" if info["method"] == "ocr" else "native")
 
     with open(cache, "w", encoding="utf-8") as fh:
         json.dump({"pages": pages, "method": info["method"],
@@ -539,7 +549,8 @@ def merge_and_write():
         files.append(part["info"])
         questions.extend(part["questions"])
     doc = {
-        "generatedFrom": "Kasr Al Ainy corpus, module 101 ISK, sourceCategory 'Instructor material' "
+        "generatedFrom": "Kasr Al Ainy corpus, module " + MODULE +
+                         ", sourceCategory 'Instructor material' "
                          "(paths resolved via docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json)",
         "ocrPageCap": OCR_PAGE_CAP,
         "totalQuestions": len(questions),
@@ -555,16 +566,35 @@ def merge_and_write():
     return len(questions)
 
 
-def main():
+USAGE = __doc__
+
+
+def main(argv):
+    global MODULE, PARTS, TEXTCACHE, OUT
+    if "--help" in argv or "-h" in argv:
+        print(USAGE)
+        return
+    MODULE, argv = parse_module(argv)
+    if argv:
+        raise SystemExit("unexpected arguments: %s\n%s" % (" ".join(argv), USAGE))
+    PARTS = out_path(MODULE, "parts")
+    TEXTCACHE = out_path(MODULE, "pagetext")
+    OUT = out_path(MODULE, "mcq.json")
+
     os.makedirs(PARTS, exist_ok=True)
     os.makedirs(TEXTCACHE, exist_ok=True)
-    by_name = load_manifest()
-    missing = [t for t in TARGETS if t not in by_name]
+    by_name = load_manifest(MODULE)
+    log("module %s -> %s" % (MODULE, os.path.relpath(OUT, os.getcwd())))
+    if MODULE == DEFAULT_MODULE:
+        targets = TARGETS
+    else:
+        targets = sorted(by_name)
+    missing = [t for t in targets if t not in by_name]
     for t in missing:
         log(f"MANIFEST-MISS {t}")
 
     # answer keys first so pairing has them available
-    order = [t for t in TARGETS if t in KEY_FILES] + [t for t in TARGETS if t not in KEY_FILES]
+    order = [t for t in targets if t in KEY_FILES] + [t for t in targets if t not in KEY_FILES]
     keys_by_file = {}
 
     for name in order:
@@ -612,4 +642,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

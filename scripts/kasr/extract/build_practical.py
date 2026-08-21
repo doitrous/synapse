@@ -1,14 +1,34 @@
 #!/usr/bin/env python3
-"""Build scripts/kasr/extract/practical.json from the transcribed raw text.
+"""Build a module's practical.json from the transcribed raw text.
+
+    python3 scripts/kasr/extract/build_practical.py [--module "104 CPS"]
 
 All titles, stains, features and prompts below are TRANSCRIBED from the raw
 dumps in scripts/kasr/extract/raw/ (see practical.py). Nothing is inferred:
 where the source states no stain / no magnification the field is null, and
 where a page carried no recoverable text it is listed in illegiblePages.
-"""
-import json, os
 
-OUT = os.path.dirname(os.path.abspath(__file__))
+Because every record below is a transcription of a 101 ISK page, this script
+only builds 101. `--module` is accepted so the whole extract/ chain takes the
+same argument, and refuses any other module rather than filing 101's slides
+under another module's name — the transcription tables have to be written
+first, per book, by whoever read that book.
+"""
+import json, os, sys
+
+from kasr_module import DEFAULT_MODULE, out_dir, out_path, parse_module
+
+MODULE, _ARGV = parse_module(sys.argv[1:])
+if "--help" in _ARGV or "-h" in _ARGV:
+    print(__doc__)
+    raise SystemExit(0)
+if MODULE != DEFAULT_MODULE:
+    raise SystemExit(
+        "build_practical.py holds transcribed %s pages only; module %r has no "
+        "transcription tables yet, so there is nothing to build for it."
+        % (DEFAULT_MODULE, MODULE))
+
+OUT = out_dir(MODULE)
 SRC_PRAC = "src_b4cb8bf9f0c7a6584b4b"   # DPT Practical Histo 101 (1).pdf
 SRC_DPT1 = "src_05a0b0c29acc94017b8f"   # DPT 1- ISK 101 - Final Revision (1).pdf
 SRC_RAD  = "src_177a341938732f599a47"   # Radiology (X-Ray) Orientation  (1).pdf
@@ -645,7 +665,7 @@ for slug, note in [
     files.append(rec)
 
 doc = {
- "moduleId": "101 ISK",
+ "moduleId": MODULE,
  "contentClass": "practical",
  "generatedBy": "scripts/kasr/extract/practical.py + build_practical.py",
  "examNotices": [
@@ -667,6 +687,6 @@ doc = {
  "radiology": radiology,
 }
 
-with open(os.path.join(OUT, "practical.json"), "w") as fh:
+with open(out_path(MODULE, "practical.json"), "w") as fh:
     json.dump(doc, fh, indent=1, ensure_ascii=False)
 print("slides", len(slides), "written", len(written), "radiology", len(radiology))

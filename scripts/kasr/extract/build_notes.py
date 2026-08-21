@@ -1,8 +1,29 @@
 #!/usr/bin/env python3
-"""Assembles notes.json for the 101 ISK Notes / Important & Summaries /
-Orientation batch. Content below is transcribed from the extracted page text
-(see notes.py for the extraction); nothing is added from outside the sources."""
-import json, os
+"""Transcribed 101 ISK Notes / Important & Summaries / Orientation content.
+
+    python3 scripts/kasr/extract/build_notes.py [--module "104 CPS"]
+
+Content below is transcribed from the extracted page text (see notes.py for the
+extraction); nothing is added from outside the sources.
+
+NOTE: despite the name, this script writes no file. It defines FILES, TOPICS and
+PQ and stops -- there is no `notes.json` and there never has been, so nothing
+downstream should plan around one. `--module` is accepted so the whole extract/
+chain takes the same argument, and refuses any module but 101 ISK rather than
+pretending another module's notes are in here.
+"""
+import json, os, sys
+
+from kasr_module import DEFAULT_MODULE, out_dir, parse_module
+
+MODULE, _ARGV = parse_module(sys.argv[1:])
+if "--help" in _ARGV or "-h" in _ARGV:
+    print(__doc__)
+    raise SystemExit(0)
+if MODULE != DEFAULT_MODULE:
+    raise SystemExit(
+        "build_notes.py holds transcribed %s notes only; module %r has no "
+        "transcription tables here." % (DEFAULT_MODULE, MODULE))
 
 SID = {
     "blood":  "src_450c71dc6273b2e64ca3",
@@ -1338,3 +1359,9 @@ PQ += [
  Q("embryo", 54, "The weight of fetus at full term ranges between (DEP BOOK) | a- 900 - 1300 grams. b- 1400 - 2100 grams. c- 3000 - 3400 grams. d- 4600 - 5300 grams. [stated answer: c]", None, "mcq", "Fetal period"),
  Q("embryo", 54, "Regarding monozygotic twin (DEP BOOK - 2024) | a- Is the commonest type. b- Twins are always of same sex. c- Are non-identical in shape. d- Are developed by fertilization of two ova [stated answer: b]", 2024, "mcq", "Fetal period — twins"),
 ]
+
+
+if __name__ == "__main__":
+    print("module %s -> %s" % (MODULE, out_dir(MODULE)))
+    print("%d files, %d topics, %d past questions" % (len(FILES), len(TOPICS), len(PQ)))
+    print("this script writes no file; its tables are read by whoever assembles the batch")
