@@ -7,8 +7,10 @@
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
     Embryonic Period — 9 questions, 2 concepts
+    Fetal Membranes — 69 questions, 16 concepts
     Fetal Period — 6 questions, 3 concepts
     First Week of Development — 24 questions, 6 concepts
+    Forearm — 171 questions, 28 concepts
     Gametes — 31 questions, 4 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
@@ -25,9 +27,12 @@
     Nucleus — 70 questions, 7 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Red Blood Corpuscles — 61 questions, 14 concepts
+    Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 40 questions, 19 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
+    Third Week of Development — 33 questions, 6 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
     Veins of the Upper Limb — 9 questions, 3 concepts
 
@@ -41,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  257 questions were excluded and 0 held back for having no
+  377 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -32672,6 +32677,2330 @@ Answer changed from the source's: None of the three printings of this question i
 
 # Item
 ## id
+QM-101-0B63A2F925D2
+## title
+Chorionic plate
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Chorionic plate
+## answer_a
+Is the chorion leave
+## explanation_a
+Chorion laeve is the smooth part of the chorion, whose villi degenerate; it forms no part of the placenta and is covered by the decidua capsularis.
+## answer_b
+Is the chorion frondosum
+## explanation_b
+Correct. The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.
+## answer_c
+Is the decidua basalis
+## explanation_c
+Decidua basalis is the *decidual* plate — the maternal half. The two plates face each other across the intervillous spaces, and one printing of this question is keyed to this option in error.
+## answer_d
+Is the decidua capsularis
+## explanation_d
+Decidua capsularis covers the conceptus on the side away from the placenta and is stretched away as the sac grows. It contributes to no plate.
+## correct_answer
+B
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the chorionic plate as the fetal half of the placenta.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p91 q29. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key, and the "(DEP BOOK)" printing of the same question is keyed to the decidua basalis, which is the *decidual* plate. The department book states that the placenta is formed by union of a maternal part, the decidual plate or decidua basalis, and a fetal part, the chorionic plate or chorion frondosum. Set to B, which is also what the third printing of this question is keyed to.
+
+
+---
+
+# Item
+## id
+QM-101-1B51B209B1B5
+## title
+Regarding the placental (decidual) septa
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the placental (decidual) septa
+## answer_a
+They are composed of chorion frondosum
+## explanation_a
+Chorion frondosum is the fetal plate. The septa grow from the opposite side, and their core is maternal decidua.
+## answer_b
+They are extensions from decidual plate
+## explanation_b
+Correct. Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.
+## answer_c
+They are fixed to the chorionic plate
+## explanation_c
+They are incomplete and do not reach the chorionic plate — if they did, the intervillous spaces would be sealed off from one another instead of intercommunicating.
+## answer_d
+They contain maternal blood vessels
+## explanation_d
+The maternal vessels are in the decidua basalis of the plate itself, not in the septa. A septum with vessels in it would bleed into the intervillous space at every groove.
+## correct_answer
+B
+## main_concept
+CON-DEV-D870770450E17D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Say where the placental septa come from and what they do not contain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q59. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-AB6D8D01EA41
+## title
+Placental barrier is the separation between (DEP BOOK) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Placental barrier is the separation between (DEP BOOK) em em em em em
+## answer_a
+Fetal and maternal surfaces of placenta
+## explanation_a
+The fetal and maternal surfaces are the two faces of the whole organ, centimetres apart. A barrier is a membrane of a few micrometres.
+## answer_b
+Chorionic and decidual plates of placenta
+## explanation_b
+The chorionic and decidual plates are again the two sides of the organ. Between them lie the intervillous spaces, which is where the barrier actually works — at the villus wall, not at the plates.
+## answer_c
+Cytotrophoblastic shell and intervillous spaces
+## explanation_c
+The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the option the books key this question to.
+## answer_d
+Fetal and maternal blood inside placenta. Ac ad
+## explanation_d
+Correct. The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.
+## correct_answer
+D
+## main_concept
+CON-DEV-2D15CFF44F825F
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define the placental barrier by the two bloods it keeps apart.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to C, the cytotrophoblastic shell and the intervillous spaces. The department book defines the placental barrier as the membrane separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi — option D. The shell is a structure the barrier passes near, not what it separates.
+
+
+---
+
+# Item
+## id
+QM-101-EF9A1E7914CB
+## title
+One of the following is correct regarding the functions of placenta (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is correct regarding the functions of placenta (DEP BOOK)
+## answer_a
+It allows the passage of maternal antibodies
+## explanation_a
+Correct. Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.
+## answer_b
+It prevents passage of gases. P
+## explanation_b
+Gas exchange is one of the placenta's principal functions — it is the fetal lung. Preventing the passage of gases would be fatal within minutes.
+## answer_c
+It doesn't produce progesterone hormone
+## explanation_c
+The placenta does produce progesterone, which maintains the endometrium of pregnancy, along with oestrogen, HCG and somatomammotropin.
+## answer_d
+It prevents the passage of all viruses y ad
+## explanation_d
+The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the option the books key the question to.
+## correct_answer
+A
+## main_concept
+CON-DEV-AB990D329EBEC2
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State the limits of the placenta's protective function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to D, that the placenta prevents the passage of all viruses. The department book says it prevents bacteria and *most* viruses, with named exceptions, so D is an overstatement. A is the book's own statement: transmission of maternal antibodies to fetal blood, giving the fetus immunity. Set to A.
+
+
+---
+
+# Item
+## id
+QM-101-4ADC5A61C607
+## title
+One of the following is not among the anomalies of placenta: (2023) y em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not among the anomalies of placenta: (2023) y em
+## answer_a
+Velamentous placenta
+## explanation_a
+An anomaly, so not the answer. Velamentous placenta is the cord-attachment group: the cord attached through the amniotic membrane.
+## answer_b
+Placenta accrete
+## explanation_b
+An anomaly, so not the answer, and the option the books key this question to. Placenta accreta is the infiltration group, in which the villi invade the myometrium.
+## answer_c
+Bipartate placenta. P
+## explanation_c
+An anomaly, so not the answer. A bipartite placenta is the shape group, with the bilobed and trilobed forms.
+## answer_d
+Polyhydramnios. Vi
+## explanation_d
+Correct — not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.
+## correct_answer
+D
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Separate an anomaly of the placenta from an anomaly of the amniotic fluid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to placenta accreta, which is one of the department book's own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.
+
+
+---
+
+# Item
+## id
+QM-101-FDA3CDBA4A03
+## title
+Thin and wide placenta is known as
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Thin and wide placenta is known as
+## answer_a
+Placenta membranacea
+## explanation_a
+Correct. Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.
+## answer_b
+Placenta increta
+## explanation_b
+Placenta increta is an infiltration anomaly: villi growing into the myometrium. Thickness of invasion, not of the disc.
+## answer_c
+Velamentous placenta
+## explanation_c
+Velamentous placenta is a cord-attachment anomaly, the cord inserting through the amniotic membrane.
+## answer_d
+Accessory placenta
+## explanation_d
+An accessory placenta is a number anomaly — a second, smaller lobe beside the main one, each of normal thickness.
+## correct_answer
+A
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the anomaly of placental diameter.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p96 q64. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. The department book groups placenta membranacea under anomalies of diameter, describing it as thinner and wider, which is the stem word for word; the third printing of this question is keyed to the same option.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3863AE82F40A
+## title
+Marginal attachment of umbilical cord to the placenta is known as
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Marginal attachment of umbilical cord to the placenta is known as
+## answer_a
+Battle-door placenta
+## explanation_a
+Correct. Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.
+## answer_b
+Velamentous placenta
+## explanation_b
+Velamentous placenta is the other cord-attachment anomaly, and the one it is confused with: there the cord inserts into the membranes and the vessels run through them, which is dangerous because they are unprotected. One printing of this question is keyed to it.
+## answer_c
+Placenta previa
+## explanation_c
+Placenta previa is a position anomaly — implantation in the lower uterine segment. Nothing to do with the cord.
+## answer_d
+Placenta accrete
+## explanation_d
+Placenta accreta is an infiltration anomaly, the villi invading the myometrium. Also nothing to do with the cord.
+## correct_answer
+A
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the marginal cord attachment and separate it from the membranous one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q63; Anatomy MCQ Book [2025] [first priority].pdf p96 q63. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-630192224FDA
+## title
+Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+## answer_a
+Formation of false knots.
+## explanation_a
+A false knot is a wider curve of an umbilical artery, and the book states that it causes the fetus no stress. It is a feature of the cord's tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.
+## answer_b
+Early separation of placenta during delivery.
+## explanation_b
+Early separation of the placenta belongs to the short cord, which is pulled taut as the fetus descends. This is the paired question with the answers exchanged.
+## answer_c
+Strangulation of the baby during delivery.
+## explanation_c
+Correct. A long cord may encircle the fetal neck and strangle the baby during delivery.
+## answer_d
+Adhesion between the fetus with the wall of uterus.
+## explanation_d
+Adhesion of the fetus to the uterine wall is prevented by amniotic fluid, and its failure is a fluid problem — oligohydramnios — not a cord problem.
+## correct_answer
+C
+## main_concept
+CON-DEV-3E918A4C74B56D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the consequence of a long cord and separate it from that of a short one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p130 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question carries a key. The department book gives the long cord two consequences — encircling the fetal neck, and a true knot — and gives premature separation of the placenta to the *short* cord. Encircling the neck is strangulation during delivery, option C.
+
+
+---
+
+# Item
+## id
+QM-101-5949EC91B867
+## title
+Physiological hernia occurs when a loop of intestine is present in
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Physiological hernia occurs when a loop of intestine is present in
+## answer_a
+Abdominal cavity
+## explanation_a
+An intestinal loop in the abdominal cavity is where it belongs and is not a hernia at all — that is the state before the herniation and again after the loop returns.
+## answer_b
+Primitive umbilical ring
+## explanation_b
+The primitive umbilical ring is the defect in the ventral abdominal wall that the loops pass through. It is the doorway, not the room, and it forms in the fourth week before the intestine grows out.
+## answer_c
+Primitive umbilical cord
+## explanation_c
+Correct. The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.
+## answer_d
+Definitive umbilical cord
+## explanation_d
+The definitive cord is what remains after the intestine has gone back into the abdomen and the yolk sac, vitelline duct and allantois have degenerated. An intestinal loop there is an omphalocele — a real anomaly, and one printing of this question is keyed to it.
+## correct_answer
+C
+## main_concept
+CON-DEV-134C8B5E98D759
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Place the physiological hernia in the primitive cord rather than the ring or the definitive cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q71. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EDB06AAA5B05
+## title
+Regarding the primitive umbilical ring
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the primitive umbilical ring
+## answer_a
+It is surrounded with amniochorionic membrane
+## explanation_a
+The amniochorionic membrane forms later, when the expanding amniotic cavity presses the amnion against the chorion. The ring is surrounded by the ventral body wall.
+## answer_b
+It contains definitive yolk sac
+## explanation_b
+The definitive yolk sac lies in the primitive umbilical *cord*, once the amnion has sheathed the structures passing through the ring — one step further on. It is the strongest distractor here, and one printing of this question is keyed to it.
+## answer_c
+It contains vitelline duct
+## explanation_c
+Correct. The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.
+## answer_d
+It contains loops of intestine
+## explanation_d
+The intestinal loops herniate later still, into the primitive cord. In the fourth week, when the ring forms, the midgut is still inside the abdomen.
+## correct_answer
+C
+## main_concept
+CON-DEV-134C8B5E98D759
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+List the contents of the primitive umbilical ring.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q70. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EDA5B8D640AB
+## title
+Definitive yolk sac is connected with midgut through
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Definitive yolk sac is connected with midgut through
+## answer_a
+Connecting stalk
+## explanation_a
+The connecting stalk joins the caudal end of the disc to the chorion and carries the allantois and the umbilical vessels. It reaches the placenta, not the gut.
+## answer_b
+Vitelline duct
+## explanation_b
+Correct. Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.
+## answer_c
+Allantois
+## explanation_c
+The allantois is a diverticulum from the caudal wall of the yolk sac into the connecting stalk, and its proximal part becomes the apex of the bladder. It runs the other way. One printing of this question is keyed to it.
+## answer_d
+Hindgut
+## explanation_d
+The hindgut is a division of the gut itself, formed in the tail fold. A duct cannot connect the yolk sac to the midgut by way of a different part of the gut.
+## correct_answer
+B
+## main_concept
+CON-DEV-1D10DF3B716A70
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the duct that joins yolk sac to midgut.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q57; Anatomy MCQ Book [2025] [first priority].pdf p95 q57. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-67C7596BC999
+## title
+Allantois is a dorsal extension from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Allantois is a dorsal extension from
+## answer_a
+Secondary yolk sac
+## explanation_a
+Correct. The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.
+## answer_b
+Amniotic cavity
+## explanation_b
+The amniotic cavity is on the other side of the embryonic disc and gives off no diverticulum at all.
+## answer_c
+Chorionic cavity
+## explanation_c
+The chorionic cavity is the extra-embryonic coelom, a space rather than a lined sac that could bud.
+## answer_d
+Primary yolk sac
+## explanation_d
+The primary yolk sac has already been replaced by the secondary one by the time the allantois appears, on the thirteenth day. One stage too early.
+## correct_answer
+A
+## main_concept
+CON-DEV-1D10DF3B716A70
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Give the origin of the allantois.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q75. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-83D832DCB9CA
+## title
+Heuser’s membrane lines the
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Heuser’s membrane lines the
+## answer_a
+Definitive yolk sac
+## explanation_a
+Definitive is another word for secondary, and the secondary sac is lined by a second wave of hypoblast cells laid down over Heuser's membrane. Offered first in every printing, and one stage too late.
+## answer_b
+Primary yolk sac
+## explanation_b
+Correct. Heuser's membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.
+## answer_c
+Secondary yolk sac
+## explanation_c
+The secondary yolk sac is the same structure as the definitive one under its other name — which is why the two appear as separate options and neither can be right.
+## answer_d
+Vitelline duct
+## explanation_d
+The vitelline duct is what is left of the sac after folding compresses it. It is a remnant, formed weeks later, and is not lined by Heuser's membrane.
+## correct_answer
+B
+## main_concept
+CON-DEV-1D10DF3B716A70
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attach Heuser's membrane to the primary yolk sac.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p98 q74. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Two of the four printings of this question carry no key and the third has its stem damaged; that third is keyed to B. The department book states that the primary yolk sac forms when flat hypoblast-derived cells form Heuser's membrane lining the blastocele, so B is right.
+
+
+---
+
+# Item
+## id
+QM-101-8ADB7E7D6EAA
+## title
+Which of the following Is responsible for bladder development? (2024)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following Is responsible for bladder development? (2024)
+## answer_a
+Allantois
+## explanation_a
+Correct. The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.
+## answer_b
+Yolk sac
+## explanation_b
+The yolk sac is the allantois's parent and shares in forming the gut, but the bladder comes specifically from the diverticulum it sends into the connecting stalk. The question is asking for the more precise structure.
+## answer_c
+Amniotic ﬂuid
+## explanation_c
+Amniotic fluid accumulates fetal urine once the bladder works. It is downstream of the organ, not its origin.
+## answer_d
+Primordial gut
+## explanation_d
+The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic, and that is the fact the book states.
+## correct_answer
+A
+## main_concept
+CON-DEV-1D10DF3B716A70
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Trace the apex of the bladder to the allantois.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.
+
+
+---
+
+# Item
+## id
+QM-101-B1B215F36F3D
+## title
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## answer_a
+Formation of secondary yolk sac
+## explanation_a
+The secondary yolk sac is formed by hypoblast cells re-lining the primary sac and by pinching off, on the thirteenth day. The amnion is not involved.
+## answer_b
+Formation of connecting stalk
+## explanation_b
+The connecting stalk is the surviving bridge of extra-embryonic mesoderm across the chorionic cavity. Expansion of the amnion narrows that cavity rather than creating the stalk.
+## answer_c
+Formation of amniochorionic membrane
+## explanation_c
+Correct. Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.
+## answer_d
+Formation of neural tube
+## explanation_d
+The neural tube forms from ectoderm induced by the notochord, inside the embryo. Expansion of the surrounding cavity has nothing to do with it.
+## correct_answer
+C
+## main_concept
+CON-DEV-AAC09F773BC45D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name what the expanding amniotic cavity forms when it meets the chorion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q66. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4A7D091D7A26
+## title
+Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP …
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP BOOK)
+## answer_a
+It fuses with the decidua capsularis obliterating the uterine cavity.
+## explanation_a
+Fusing and obliterating the uterine cavity is what capsularis and parietalis do to each other at about the fourth month. Basalis is on the other side of the conceptus altogether.
+## answer_b
+It forms the maternal part of the placenta
+## explanation_b
+Correct. Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.
+## answer_c
+It covers the embryo
+## explanation_c
+Covering the embryo and separating it from the uterine cavity is decidua capsularis — the classic swap, since basalis is beneath and capsularis above.
+## answer_d
+It degenerates at last.
+## explanation_d
+Degenerating at last is the fate of capsularis and parietalis. Basalis is the one part of the decidua that persists as an organ.
+## correct_answer
+B
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the fate of decidua basalis and separate it from the other two parts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book states that decidua basalis, the decidual plate, persists to form the maternal part of the placenta; the fusing, the covering and the final degeneration belong to capsularis and parietalis. Set to B.
+
+
+---
+
+# Item
+## id
+QM-101-DA1099913357
+## title
+Regarding the decidua parietalis, choose the correct statement: (2018 – DEP BOOK) em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the decidua parietalis, choose the correct statement: (2018 – DEP BOOK) em
+## answer_a
+It lies between the implanted embryo and myometrium
+## explanation_a
+Lying between the implanted embryo and the myometrium is decidua basalis, which becomes the placenta. Parietalis is the lining of the rest of the cavity.
+## answer_b
+It covers the embryo separating it from the uterine cavity
+## explanation_b
+Covering the embryo is decidua capsularis. Parietalis is what capsularis eventually fuses with, not the covering itself.
+## answer_c
+It persists as the maternal part of the placenta
+## explanation_c
+Persisting as the maternal part of the placenta is again basalis. This question and the decidua basalis question are printed with the same four statements and differ only in which part is named.
+## answer_d
+It degenerates at last y
+## explanation_d
+Correct. Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.
+## correct_answer
+D
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the fate of decidua parietalis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D1966340DFF
+## title
+Neurenteric canal is the communication between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neurenteric canal is the communication between
+## answer_a
+Amniotic and chorionic cavities
+## explanation_a
+The chorionic cavity is outside the embryonic disc entirely; the neurenteric canal is a passage through the disc, which is why it joins the two cavities on either side of it.
+## answer_b
+Amniotic and yolk sac cavities
+## explanation_b
+Correct. Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.
+## answer_c
+Amniotic and uterine cavities
+## explanation_c
+The uterine cavity is maternal and separated from everything embryonic by the decidua. No canal within the embryo could reach it.
+## answer_d
+Yolk sac and chorionic cavities
+## explanation_d
+The yolk sac is one of the two correct cavities and the chorionic cavity is not the other. Half right, which makes it the best of the three wrong answers.
+## correct_answer
+B
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the two cavities the neurenteric canal joins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F8E98415D92C
+## title
+One of the following is an event of the 8th day of pregnancy (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an event of the 8th day of pregnancy (DEP BOOK)
+## answer_a
+Formation of hypoblast
+## explanation_a
+Correct. The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.
+## answer_b
+Formation of primary yolk sac. P
+## explanation_b
+The primary yolk sac forms on the ninth day, when Heuser's membrane lines the blastocele. One day late, and it is the answer to the companion question on the same page.
+## answer_c
+Formation of extraembryonic mesoderm
+## explanation_c
+The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.
+## answer_d
+Formation of primary chorionic villi. y ad
+## explanation_d
+The primary chorionic villi begin after the thirteenth day, at the very end of the second week.
+## correct_answer
+A
+## main_concept
+CON-DEV-22C6EB6EB88448
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Assign four second-week events to their days and pick the eighth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-251CDA234AC1
+## title
+Chorionic vesicle is formed at the (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Chorionic vesicle is formed at the (DEP BOOK)
+## answer_a
+10th day of pregnancy.
+## explanation_a
+On the tenth day the blastocyst has only just been completely embedded; there is no extra-embryonic mesoderm yet and so no cavity to enclose.
+## answer_b
+11th day of pregnancy.
+## explanation_b
+The eleventh and twelfth days bring the extra-embryonic mesoderm and the first scattered spaces in it. Closer, but the spaces are still separate.
+## answer_c
+8th day of pregnancy.
+## explanation_c
+The eighth day is the amniotic cavity and the bilaminar disc — five days too early, and the earliest option offered.
+## answer_d
+13thday of the pregnancy.
+## explanation_d
+Correct. On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.
+## correct_answer
+D
+## main_concept
+CON-DEV-22C6EB6EB88448
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Date the chorionic vesicle from the day its cavity closes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question carries a key. The chorionic vesicle exists once the separate spaces in the extra-embryonic mesoderm have run together into a single chorionic cavity with a chorion around it, and the department book places that on the thirteenth day. Set to D.
+
+
+---
+
+# Item
+## id
+QM-101-02127BAD2F2E
+## title
+Regarding monozygotic twin (DEP BOOK - 2024)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding monozygotic twin (DEP BOOK - 2024)
+## answer_a
+Is the commonest type.
+## explanation_a
+Dizygotic twinning is the commoner kind by a wide margin. Identical twins are the more memorable, which is why this option is offered first.
+## answer_b
+Twins are always of same sex.
+## explanation_b
+Correct. One zygote means one set of chromosomes, so the two are necessarily of the same sex.
+## answer_c
+Are non-identical in shape.
+## explanation_c
+Monozygotic twins are identical — that is what the word means. Non-identical describes the dizygotic pair.
+## answer_d
+Are developed by fertilization of two ova Birth defects
+## explanation_d
+Development from two ova is the definition of dizygotic twinning, and it is the direct contradiction of "monozygotic" in the stem.
+## correct_answer
+B
+## main_concept
+CON-DEV-698CF33638D4D7
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+State what follows from two twins sharing one zygote.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p132 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key; the other printing of the same question, which lost an option, is keyed to B. Monozygotic twins come from one fertilised ovum and therefore share one genotype, so they must be of the same sex — the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-33DBAE30508C
+## title
+Regarding the dizygotic twin
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the dizygotic twin
+## answer_a
+Are non-identical in shape
+## explanation_a
+Correct. Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.
+## answer_b
+Always of same sex
+## explanation_b
+Always of the same sex is the monozygotic rule. Dizygotic twins may be a boy and a girl, which is in fact the only certain way to tell the two kinds apart at birth.
+## answer_c
+Has a common amnion
+## explanation_c
+Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in a monozygotic pair that split late.
+## answer_d
+Has a common chorion
+## explanation_d
+A common chorion likewise requires one conceptus. Two separate implantations give two chorions, and usually two placentae.
+## correct_answer
+A
+## main_concept
+CON-DEV-698CF33638D4D7
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+State what follows from two twins arising from two zygotes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p99 q82. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically ordinary siblings — non-identical, of either sex, and each with its own amnion and chorion. Only A is true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EE8B3B0630C0
+## title
+Concerning to the mucous CT, the followings are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning to the mucous CT, the followings are true EXCEPT:
+## answer_a
+It is jelly like
+## explanation_a
+True, so not the exception. The matrix is a soft jelly, which is where the name comes from.
+## answer_b
+It is rich in hyaluronic acid
+## explanation_b
+True, so not the exception. Hyaluronic acid is what makes the ground substance so abundant and so hydrated.
+## answer_c
+It has a abundant amount of collagen fibers type I
+## explanation_c
+The exception, and the answer. Mucoid tissue has only *fine* collagen and reticular fibres; abundant type I collagen belongs to dense white fibrous tissue, which is the opposite kind of connective tissue — strong rather than soft.
+## answer_d
+It is the main component of umbilical cord
+## explanation_d
+True, so not the exception. Wharton's jelly, the main component of the umbilical cord, is mucoid connective tissue.
+## correct_answer
+C
+## main_concept
+CON-FND-EA4034F1E87235
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that mucoid tissue is defined by its ground substance and not by its fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q60. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CE93615BC5A8
+## title
+Mucoid connective tissue is present in all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mucoid connective tissue is present in all of the following except:
+## answer_a
+mucous membranes
+## explanation_a
+The exception, and the answer. A mucous membrane is an epithelium with its underlying lamina propria — loose areolar tissue, not mucoid tissue. The two share a syllable and nothing else, which is exactly why the option works.
+## answer_b
+pulp of teeth
+## explanation_b
+True, so not the exception. The pulp of the teeth is one of the book's three sites.
+## answer_c
+umbilical cord
+## explanation_c
+True, so not the exception. In the umbilical cord it is called Wharton's jelly.
+## answer_d
+vitreous of the eye
+## explanation_d
+True, so not the exception. The vitreous humour of the eye is the third site.
+## correct_answer
+A
+## main_concept
+CON-FND-EA4034F1E87235
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the three sites of mucoid tissue and reject the one that only sounds like a fourth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q16. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-797DDDF4BA6E
+## title
+Collagen type 1 is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen type 1 is present in:
+## answer_a
+Capsule of organs
+## explanation_a
+Correct. The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.
+## answer_b
+Fetal connective tissue
+## explanation_b
+Fetal connective tissue is mesenchyme, cellular and with very fine fibres. It has not yet laid down the dense bundles type I forms.
+## answer_c
+Vascular connective tissue
+## explanation_c
+Vascular — mucoid — connective tissue holds only fine collagen and reticular fibres in a jelly matrix; its whole character is the absence of dense collagen.
+## answer_d
+Placenta
+## explanation_d
+The placenta's connective tissue is the loose mesodermal core of the villi and Wharton's jelly in the cord, neither of which is dense.
+## correct_answer
+A
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place type I collagen in the dense tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q126. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E1B74D787D23
+## title
+Collagen type III forms:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen type III forms:
+## answer_a
+White fibrous connective tissue
+## explanation_a
+White fibrous connective tissue — tendon, ligament, aponeurosis — is type I. It is the option a student picks who has learnt "collagen means strong" without the numbering.
+## answer_b
+Stroma of parenchymatous organs
+## explanation_b
+Correct. Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.
+## answer_c
+Basement membrane
+## explanation_c
+The basement membrane is type IV collagen, a network rather than a fibre.
+## answer_d
+Placental connective tissue
+## explanation_d
+Placental connective tissue is the loose core of the villus, and is not defined by a collagen type at all.
+## correct_answer
+B
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify type III collagen as the reticular fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q125. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-79F69FC2E74B
+## title
+Reticular connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular connective tissue is present in:
+## answer_a
+capsule of organs
+## explanation_a
+The capsule of an organ is dense irregular tissue of type I collagen. The reticular tissue is inside the capsule, holding the parenchyma.
+## answer_b
+Ligamentum nuchae
+## explanation_b
+Ligamentum nuchae is yellow elastic connective tissue — it has to stretch and recoil as the head nods.
+## answer_c
+umbilical cord
+## explanation_c
+The umbilical cord is mucoid connective tissue, Wharton's jelly.
+## answer_d
+stroma of organs
+## explanation_d
+Correct. Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.
+## correct_answer
+D
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of reticular connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q107. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BC57D2ED6181
+## title
+yellow elastic connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+yellow elastic connective tissue is present in:
+## answer_a
+capsule of organs
+## explanation_a
+The capsule of an organ resists stretch rather than performing it; it is dense collagen.
+## answer_b
+Ligamentum nuchae
+## explanation_b
+Correct. Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.
+## answer_c
+umbilical cord
+## explanation_c
+The umbilical cord is mucoid tissue. This question and the reticular-tissue question are printed with the same four options, so the four sites have to be held apart as a set.
+## answer_d
+stroma of organs
+## explanation_d
+The stroma of organs is reticular tissue, type III collagen.
+## correct_answer
+B
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of yellow elastic connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q106. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-2BAB71EC9F7F
 ## title
 Fetal period starts at the beginning of
@@ -33994,6 +36323,12287 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q15. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0A24EC14B446
+## title
+Branches of ulnar artery in the forearm, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Branches of ulnar artery in the forearm, choose the correct answer:
+## answer_a
+Anterior ulnar recurrent
+## explanation_a
+Correct. The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.
+## answer_b
+Ulnar collateral artery
+## explanation_b
+The superior and inferior ulnar collateral arteries are branches of the brachial artery in the arm. They meet the ulnar recurrents at the elbow, which is why the two names are so easily exchanged: collaterals come down from above, recurrents come up from below.
+## answer_c
+Superficial palmar branch
+## explanation_c
+The superficial palmar branch belongs to the radial artery. The ulnar artery does not branch into the superficial arch — it becomes it, and the radial branch completes it.
+## answer_d
+Nutrient branch to humerus
+## explanation_d
+The nutrient artery of the humerus comes from the brachial artery in the arm; the question asks about the forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q13; Upper MCQ Dr.jalal (1).pdf p57 q13; Anatomy Question [Upper Limb] (1).pdf p28 q159; Anatomy MCQ Book [2025] [first priority].pdf p48 q159. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling `branches-of-ulnar-artery-in-the-forearm-choose-the-correct-a-5bbc137c` gives C, the superficial palmar branch, which is a branch of the radial artery — the ulnar artery does not give it, it becomes the superficial arch that branch completes. The anterior ulnar recurrent is a genuine ulnar branch given just below the elbow.
+
+
+---
+
+# Item
+## id
+QM-101-4ECFCD549992
+## title
+Concerning with pronation and supination:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning with pronation and supination:
+## answer_a
+Pronation is more powerful than supination
+## explanation_a
+Backwards. Supination is the more powerful movement because biceps, a large muscle, is added to supinator; that is why a right-handed screw thread is cut to be driven by supination.
+## answer_b
+Biceps when the elbow is extended
+## explanation_b
+Biceps is the powerful supinator with the elbow flexed, not extended — flexion is what gives its tendon the leverage to unwind the radial tuberosity. The option is a fragment in this copy, but the error is in the word "extended".
+## answer_c
+Brachioradialis puts the forearm in mid-prone position
+## explanation_c
+Correct. Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.
+## answer_d
+The radius is fixed, the ulna is the movable bone
+## explanation_d
+The wrong way round. The ulna is fixed and the radius rotates about it, carrying the hand — which is exactly why the head of the radius has to be free to spin inside the anular ligament.
+## correct_answer
+C
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State which of the two bones moves in pronation, which movement is stronger, and what brachioradialis actually does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p27 q51; Upper MCQ Dr.jalal (1).pdf p38 q51; Anatomy Question [Upper Limb] (1).pdf p30 q172; Anatomy MCQ Book [2025] [first priority].pdf p50 q172. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the two keyed copies disagree with each other and with the anatomy — one gives A and one gives B. Supination is the stronger movement, because biceps is added to supinator; the ulna is the fixed bone and the radius the one that rotates; and biceps supinates best with the elbow flexed, not extended. Brachioradialis, which is neither a pronator nor a supinator in the full sense, brings the forearm to mid-prone from either extreme, which leaves C as the only true statement.
+
+
+---
+
+# Item
+## id
+QM-101-719EFD1FE403
+## title
+Pronator quadratus, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronator quadratus, choose the correct answer:
+## answer_a
+Arises from anterior surface of the distal fourth of the radius
+## explanation_a
+Reversed. It arises from the lower quarter of the anterior surface of the ulna; every pronator must pull the radius across the ulna, so the ulna is where a pronator takes hold.
+## answer_b
+Inserted into anterior surface of the distal fourth of the ulna
+## explanation_b
+Reversed in the same way. Its insertion is the lower quarter of the anterior surface of the radius.
+## answer_c
+Pronates the forearm at radioulnar joints
+## explanation_c
+Correct. Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.
+## answer_d
+Is innervated by posterior interosseous nerve
+## explanation_d
+The posterior interosseous nerve supplies the extensor compartment. Pronator quadratus is the deepest anterior muscle and takes the anterior interosseous branch of the median nerve.
+## correct_answer
+C
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachments, action and nerve of pronator quadratus in the right direction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q15; Upper MCQ Dr.jalal (1).pdf p15 q15; Anatomy Question [Upper Limb] (1).pdf p34 q196; Anatomy MCQ Book [2025] [first priority].pdf p54 q196. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Pronator quadratus arises from the ulna and inserts into the radius, so options A and B state the attachments the wrong way round, and its nerve is the anterior interosseous branch of the median, not the posterior interosseous — which leaves C.
+
+
+---
+
+# Item
+## id
+QM-101-F9F5DC2D0EDA
+## title
+The following muscle is innervated by the radial nerve:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is innervated by the radial nerve:
+## answer_a
+Supinator
+## explanation_a
+Supinator is supplied by the posterior interosseous nerve, which pierces it. It is radial at one remove, and the item is asking which muscle the radial nerve supplies directly.
+## answer_b
+Abductor pollicis longus
+## explanation_b
+Abductor pollicis longus is a deep extensor and therefore posterior interosseous.
+## answer_c
+Extensor pollicis longus
+## explanation_c
+Extensor pollicis longus is likewise deep and posterior interosseous.
+## answer_d
+Extensor carpi radialis longus
+## explanation_d
+Correct. Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.
+## correct_answer
+D
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p19 q10; Upper MCQ Dr.jalal (1).pdf p31 q10; Anatomy Question [Upper Limb] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p19 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1D7908281AF0
+## title
+The median nerve supplies, one of the following muscle:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve supplies, one of the following muscle:
+## answer_a
+Flexor carpi ulnaris muscle
+## explanation_a
+Flexor carpi ulnaris is one of the only two muscles in the anterior compartment of the forearm that are not median — the other being the medial half of flexor digitorum profundus.
+## answer_b
+Dorsal interossei
+## explanation_b
+The dorsal interossei are supplied by the deep branch of the ulnar nerve.
+## answer_c
+Opponens pollicis
+## explanation_c
+Correct. Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.
+## answer_d
+Adductor pollicis muscle
+## explanation_d
+Adductor pollicis is a thumb muscle and ulnar, which is exactly the pairing this item is testing — abductor and opponens are median, adductor is not.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the median muscle out of a list of ulnar ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p12 q22; Upper MCQ Dr.jalal (1).pdf p16 q22; Anatomy Question [Upper Limb] (1).pdf p10 q57; Anatomy MCQ Book [2025] [first priority].pdf p28 q57. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C4A1CB5CFC73
+## title
+The radius is fixed (tethered) to the ulna by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radius is fixed (tethered) to the ulna by:
+## answer_a
+Articular disc of the wrist joint
+## explanation_a
+The articular disc of the wrist joint binds the lower end of the ulna to the radius at one point, but it does not tether the shafts; it is part of the inferior radio-ulnar joint.
+## answer_b
+Interosseous membrane
+## explanation_b
+Correct. The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.
+## answer_c
+Radial collateral ligament
+## explanation_c
+The radial collateral ligament runs from the lateral epicondyle to the anular ligament and belongs to the elbow.
+## answer_d
+Ulnar collateral ligament
+## explanation_d
+The ulnar collateral ligament runs from the medial epicondyle to the ulna and never reaches the radius.
+## correct_answer
+B
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure that holds the two forearm bones at a fixed distance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q47; Upper MCQ Dr.jalal (1).pdf p37 q47; Anatomy Question [Upper Limb] (1).pdf p24 q136; Anatomy MCQ Book [2025] [first priority].pdf p42 q136. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed copy `the-radius-is-xed-tethered-to-the-ulna-by-dep-book-ac-p-a-ar-eb71997e` gives D, the ulnar collateral ligament, which belongs to the elbow joint and connects the humerus to the ulna — it touches the radius nowhere. The structure joining the two forearm bones along their length is the interosseous membrane.
+
+
+---
+
+# Item
+## id
+QM-101-83A8AEEB9086
+## title
+Which of the following muscle may be paralyzed as a result of fracture of the medial ep…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscle may be paralyzed as a result of fracture of the medial epicondyle of the humerus?
+## answer_a
+First lumbrical
+## explanation_a
+The first lumbrical is one of the lateral two, and those are median. It is the medial two that are ulnar.
+## answer_b
+Extensor digiti minimi
+## explanation_b
+Extensor digiti minimi is a posterior compartment muscle supplied by the posterior interosseous nerve; nothing at the medial epicondyle reaches it.
+## answer_c
+Adductor pollicis
+## explanation_c
+Correct. The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Flexor carpi radialis arises from the medial epicondyle but is supplied by the median nerve, which passes in front of the joint. Arising from the broken bone is not the same as being supplied by the nerve behind it — which is the whole point of the item.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Work from a fracture of the medial epicondyle to the nerve behind it and then to a muscle that nerve supplies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p14 q33; Upper MCQ Dr.jalal (1).pdf p18 q33; Anatomy Question [Upper Limb] (1).pdf p8 q43; Anatomy MCQ Book [2025] [first priority].pdf p26 q43. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E21D1951EBAA
+## title
+Flexion adduction of the wrist can be done by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Flexion adduction of the wrist can be done by:
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Flexor pollicis longus flexes the thumb; it crosses the wrist and can help flex it, but it lies laterally and cannot adduct.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus flexes the fingers and helps flex the wrist, but its four tendons straddle the midline and produce no deviation.
+## answer_c
+Flexor carpi radialis
+## explanation_c
+Flexor carpi radialis gives flexion with abduction — the mirror movement, and the one distractor that works by reversing a single word.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Correct. Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.
+## correct_answer
+D
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p27 q56; Upper MCQ Dr.jalal (1).pdf p39 q56; Anatomy MCQ Book [2025] [first priority].pdf p36 q100. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The keyed copies disagree — one gives D and one gives A, flexor pollicis longus, which acts on the thumb and produces no ulnar deviation. Flexion combined with adduction is by definition flexor carpi ulnaris.
+
+
+---
+
+# Item
+## id
+QM-101-0ECC00AA37DF
+## title
+Mid-prone position of the forearm is achieved by, mark the most appropriate answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Mid-prone position of the forearm is achieved by, mark the most appropriate answer:
+## answer_a
+Pronator teres
+## explanation_a
+Pronator teres pronates fully, and it is the quicker of the two pronators.
+## answer_b
+Pronator quadratus
+## explanation_b
+Pronator quadratus is the prime pronator and also carries the movement through its full range.
+## answer_c
+Brachioradialis
+## explanation_c
+Correct. Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.
+## answer_d
+Biceps brachii
+## explanation_d
+Biceps is the powerful supinator and takes the forearm to full supination.
+## correct_answer
+C
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscle that brings the forearm to mid-prone from either extreme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q2; Upper MCQ Dr.jalal (1).pdf p30 q2; Anatomy Question [Upper Limb] (1).pdf p24 q134. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. Pronator teres and pronator quadratus carry the forearm into full pronation and biceps into full supination; brachioradialis is the one muscle whose line of pull brings it to the mid-prone position from either end and no further.
+
+
+---
+
+# Item
+## id
+QM-101-9E37E81BC4BA
+## title
+Regarding muscle actions of the upper limb:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding muscle actions of the upper limb:
+## answer_a
+Flexor digitorum superficialis flexes distal phalanges
+## explanation_a
+Flexor digitorum superficialis inserts into the sides of the middle phalanges and so flexes the middle, not the distal, phalanges. The distal phalanges belong to flexor digitorum profundus, which is what "profundus" reaches past it to do.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.
+## answer_c
+Flexor carpi ulnaris is flexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris adducts the wrist. It is flexor and adductor, and the option has swapped in the opposite deviation.
+## answer_d
+Pronators muscles are supplied by ulnar nerve
+## explanation_d
+The pronators are median — pronator teres by a direct branch and pronator quadratus through the anterior interosseous nerve. The ulnar nerve has only two muscles in the whole forearm and neither pronates.
+## correct_answer
+B
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q9; Anatomy Question [Upper Limb] (1).pdf p12 q68; Anatomy MCQ Book [2025] [first priority].pdf p30 q68. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FAB5ED17FA98
+## title
+Regarding the ulnar artery, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar artery, choose the correct answer:
+## answer_a
+It begins opposite the head of radius
+## explanation_a
+The brachial artery divides at the level of the neck of the radius, not the head, and the ulnar artery therefore begins a little below the head. The distinction is small and the books ask it, which is why it is offered.
+## answer_b
+It ends by forming the deep palmar arch
+## explanation_b
+It ends as the superficial palmar arch. The deep arch is the radial artery’s termination, and swapping the two arches is the standard error of this pair of vessels.
+## answer_c
+Its pulsation can be felt lateral to the flexor carpi ulnaris
+## explanation_c
+The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, so the relation is right — but the pulse taken at the wrist is the radial, felt lateral to flexor carpi radialis, and it is that clinical fact the option is imitating. This option needs a faculty eye before students sit it.
+## answer_d
+It gives the common interosseous artery
+## explanation_d
+Correct. The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.
+## correct_answer
+D
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the beginning, ending and largest branch of the ulnar artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q2; Upper MCQ Dr.jalal (1).pdf p56 q2; Anatomy Question [Upper Limb] (1).pdf p3 q16. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EB51D71196BF
+## title
+Supination of the radioulnar joints is done mainly by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Supination of the radioulnar joints is done mainly by:
+## answer_a
+Pronator teres
+## explanation_a
+Pronator teres pronates. It is the printed answer on the other copy of this question and it names the antagonist.
+## answer_b
+Pronator quadratus
+## explanation_b
+Pronator quadratus is the prime pronator, the deepest muscle of the front of the forearm.
+## answer_c
+Brachioradialis
+## explanation_c
+Brachioradialis only brings the forearm to the mid-prone position and cannot carry supination beyond it.
+## answer_d
+Biceps brachii
+## explanation_d
+Correct. Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.
+## correct_answer
+D
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the chief supinator.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q50; Anatomy Question [Upper Limb] (1).pdf p30 q171; Anatomy MCQ Book [2025] [first priority].pdf p50 q171. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, pronator teres, which performs the opposite movement. Supination is by supinator and biceps, and biceps is the powerful one — the word "mainly" points to it.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DC2FC603840C
+## title
+Supinator muscle; choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Supinator muscle; choose the correct answer:
+## answer_a
+Inserted into the upper one third of ulna
+## explanation_a
+Supinator arises partly from the ulna and inserts into the radius. Every supinator and pronator must move the radius, so the radius is where they insert.
+## answer_b
+Surrounds the posterior interosseous artery
+## explanation_b
+What supinator surrounds is the upper third of the shaft of the radius, and what pierces it is the posterior interosseous nerve; the posterior interosseous artery reaches the back of the forearm above the upper border of the interosseous membrane, not through this muscle.
+## answer_c
+Is innervated by radial nerve itself
+## explanation_c
+The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the answer the books print.
+## answer_d
+Is innervated by posterior interosseous nerve
+## explanation_d
+Correct. The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.
+## correct_answer
+D
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the insertion and nerve of supinator precisely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q3; Upper MCQ Dr.jalal (1).pdf p30 q3; Anatomy MCQ Book [2025] [first priority].pdf p40 q125. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives C, "innervated by the radial nerve itself", which is the near miss the item exists to catch: supinator is supplied by the posterior interosseous nerve, the deep terminal branch, which pierces the muscle between its two layers.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-CF9094DE1059
+## title
+The flexor digitorum profundus, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The flexor digitorum profundus, choose correct answer:
+## answer_a
+Receives double nerve supply
+## explanation_a
+Correct. The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.
+## answer_b
+Inserted into the front of middle phalanx
+## explanation_b
+The middle phalanx is where flexor digitorum superficialis inserts. Profundus passes through the split superficialis tendon to reach the base of the distal phalanx, which is what lets it flex the terminal joint.
+## answer_c
+Flexes the lateral four fingers
+## explanation_c
+The four fingers it flexes are conventionally called the medial four, the thumb being excluded. The books use "medial four fingers" throughout, and "lateral" here is the error.
+## answer_d
+Arises from radius, ulna and interosseous membrane
+## explanation_d
+It arises from the ulna and the interosseous membrane only. Flexor pollicis longus is the deep flexor that takes origin from the radius, and confusing the two origins is the usual slip.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q11; Anatomy Question [Upper Limb] (1).pdf p20 q115; Anatomy MCQ Book [2025] [first priority].pdf p38 q115. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives B, insertion into the middle phalanx, which belongs to flexor digitorum superficialis — profundus reaches past it to the distal phalanx. Its lateral half is supplied by the anterior interosseous branch of the median nerve and its medial half by the ulnar, which is what makes A true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F9ECEA1177AB
+## title
+The interosseous membrane, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The interosseous membrane, choose the correct answer:
+## answer_a
+Is attached to the anterior borders of radius and ulna
+## explanation_a
+The interosseous borders, not the anterior borders. The interosseous borders face each other across the gap the membrane fills; the anterior borders face forwards.
+## answer_b
+Gives origin to abductor polices brevis
+## explanation_b
+Abductor pollicis brevis is a thenar muscle inside the hand. Abductor pollicis longus is the deep extensor that arises from the back of the membrane, and the two names differ by one word.
+## answer_c
+Gives origin to the deep flexors of the hand
+## explanation_c
+Correct. The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.
+## answer_d
+Pierced by posterior interosseous vessels
+## explanation_d
+The posterior interosseous vessels reach the back of the forearm by passing over the upper border of the membrane, between it and the oblique cord. It is the anterior interosseous artery that pierces the membrane, and low down.
+## correct_answer
+C
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q46; Anatomy Question [Upper Limb] (1).pdf p30 q170; Anatomy MCQ Book [2025] [first priority].pdf p50 q170. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the two keyed copies both give C, and C is correct. The membrane is attached to the interosseous borders rather than the anterior borders, it gives origin to abductor pollicis longus rather than abductor pollicis brevis, and it is the anterior interosseous artery that pierces it — the posterior interosseous vessels pass above its upper border.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-91C8848A575D
+## title
+Mark muscle which receives innervation from 2 different nerves:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Mark muscle which receives innervation from 2 different nerves:
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps brachii is wholly musculocutaneous, both heads.
+## answer_b
+Pronator teres
+## explanation_b
+Pronator teres is wholly median, although it has two heads of origin — which is what makes it a tempting answer to a question about "two".
+## answer_c
+Flexor digitorum profundus
+## explanation_c
+Correct. The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.
+## answer_d
+Flexor digitorum superficialis
+## explanation_d
+Flexor digitorum superficialis is wholly median, despite also having two heads. Two heads and two nerves are different things, and this item asks for the second.
+## correct_answer
+C
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the forearm muscle with a double nerve supply.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q12; Upper MCQ Dr.jalal (1).pdf p14 q12. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the intact keyed sibling `mark-the-muscle-which-receives-innervation-fron-two-differen-ba4b7297` gives C. Flexor digitorum profundus is split between the anterior interosseous branch of the median nerve laterally and the ulnar nerve medially.
+
+
+---
+
+# Item
+## id
+QM-101-05A811981C36
+## title
+Median vein of the forearm, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median vein of the forearm, choose the correct answer:
+## answer_a
+One of the deep veins of the upper limb
+## explanation_a
+It is a superficial vein. The deep veins of the forearm are the paired venae comitantes of the radial and ulnar arteries, which lie against the vessels.
+## answer_b
+Starts by union of small veins of the dorsum of the hand
+## explanation_b
+The dorsum of the hand drains into the dorsal venous arch, which gives the cephalic and basilic veins. This vein comes from the palmar side.
+## answer_c
+Continues with the lateral end of the dorsal venous arch
+## explanation_c
+The lateral end of the dorsal venous arch continues as the cephalic vein — that is the cephalic vein’s definition, not this one’s.
+## answer_d
+Gives the median basilic vein
+## explanation_d
+Correct. In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.
+## correct_answer
+D
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the median vein of the forearm on the front of the limb and name what it divides into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p31 q181; Anatomy MCQ Book [2025] [first priority].pdf p51 q181. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, "one of the deep veins", which is false — the median vein of the forearm is superficial, in the superficial fascia. It begins from the palmar venous network on the front of the wrist, not from the dorsal arch, and it ends by dividing into the median cephalic and median basilic veins.
+
+
+---
+
+# Item
+## id
+QM-101-EE0BEA4A6D81
+## title
+Regarding muscles of the forearm, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding muscles of the forearm, choose the correct answer:
+## answer_a
+The flexor digitorum profundus arises from three bones
+## explanation_a
+Flexor digitorum profundus arises from the ulna and the interosseous membrane — one bone and a membrane. Three bones would be flexor digitorum superficialis, which has humeral, ulnar and radial heads.
+## answer_b
+The flexor carpi ulnaris abducts the wrist
+## explanation_b
+Flexor carpi ulnaris adducts the wrist. The abductors are flexor carpi radialis and the two radial extensors, on the other side.
+## answer_c
+The brachioradialis is innervated by the median nerve
+## explanation_c
+Brachioradialis is in the extensor compartment and is supplied by the radial nerve. It flexes the elbow, which is what makes students file it with the median flexors.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve
+## explanation_d
+Correct. Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.
+## correct_answer
+D
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q1; Upper MCQ Dr.jalal (1).pdf p30 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `regarding-the-muscles-of-the-forearm-choose-the-correct-answ-b01b8b70` is keyed D and D is correct. Flexor digitorum profundus arises from two bones at most, flexor carpi ulnaris adducts, and brachioradialis is radial.
+
+
+---
+
+# Item
+## id
+QM-101-A1505C4B07DA
+## title
+Regarding the muscles of the forearm, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the muscles of the forearm, choose the correct answer:
+## answer_a
+The flexor digitorum profundus arises from three bones
+## explanation_a
+Two, not three: the ulna and the interosseous membrane. Three bones of origin belongs to flexor digitorum superficialis.
+## answer_b
+The flexor carpi ulnaris abducts the wrist
+## explanation_b
+It adducts. Its name gives the side and its group gives the movement.
+## answer_c
+The brachioradialis is innervated by the median nerve
+## explanation_c
+Brachioradialis is radial. It is a flexor of the elbow lying in the extensor compartment, and it is the standing exception to the rule that nerve follows compartment.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve
+## explanation_d
+Correct. Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.
+## correct_answer
+D
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q89; Anatomy MCQ Book [2025] [first priority].pdf p34 q89. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3DD0B461C058
+## title
+Regarding the radial artery, one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the radial artery, one is correct:
+## answer_a
+Its pulsations can be felt between the tendons of the flexor carpi radialis and
+## explanation_a
+Correct. In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.
+## answer_b
+It continues in the palm as the superficial palmar arch
+## explanation_b
+It continues as the deep palmar arch, not the superficial. The superficial arch is the ulnar artery’s termination.
+## answer_c
+It begins at the level of the head of the radius
+## explanation_c
+It begins at the level of the neck of the radius, where the brachial artery divides — a small distinction the books ask about repeatedly.
+## answer_d
+In the forearm, the superficial radial nerve lies medial to the artery
+## explanation_d
+The superficial branch of the radial nerve lies on the lateral side of the artery in the middle third of the forearm, not the medial. Reversing that relation is the whole of this distractor.
+## correct_answer
+A
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say exactly where the radial pulse is taken and what the artery becomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q37; Anatomy MCQ Book [2025] [first priority].pdf p25 q37. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-5C0609D0E1CE
+## title
+Regarding the ulnar artery, one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar artery, one is correct:
+## answer_a
+It descends vertically on the medial side of the forearm lateral to the ulnar
+## explanation_a
+The artery lies lateral to the ulnar nerve, so the option has the two the wrong way round: it is the nerve that is medial.
+## answer_b
+It enters the hand by passing deep to the flexor retinaculum
+## explanation_b
+It passes superficial to the flexor retinaculum, in the canal of Guyon, alongside the ulnar nerve. Only the median nerve and the long flexor tendons go under it.
+## answer_c
+It continues in the hand as the superficial palmar arch
+## explanation_c
+Correct. The ulnar artery becomes the superficial palmar arch as it enters the palm.
+## answer_d
+It supplies the thumb
+## explanation_d
+The thumb is supplied by the arteria princeps pollicis, a branch of the radial artery in the palm. Neither side of the thumb is ulnar.
+## correct_answer
+C
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the ulnar artery’s relation to the ulnar nerve, to the flexor retinaculum and to the thumb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q46; Anatomy MCQ Book [2025] [first priority].pdf p26 q46. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3487768634AE
+## title
+The following artery is a branch of radial artery:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following artery is a branch of radial artery:
+## answer_a
+Anterior ulnar recurrent artery
+## explanation_a
+The anterior ulnar recurrent artery is an ulnar branch, given just below the elbow.
+## answer_b
+Posterior ulnar recurrent artery
+## explanation_b
+The posterior ulnar recurrent artery is likewise ulnar. The recurrent arteries divide by name — radial recurrent from the radial, both ulnar recurrents from the ulnar.
+## answer_c
+Radialis indicis artery
+## explanation_c
+Correct. The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.
+## answer_d
+Common interosseous artery
+## explanation_d
+The common interosseous artery is the ulnar artery’s largest branch and the parent of both interosseous arteries.
+## correct_answer
+C
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort the named branches around the elbow and hand between the radial and ulnar arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p35 q7; Anatomy MCQ Book [2025] [first priority].pdf p26 q44. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives B, the posterior ulnar recurrent artery, which its own name assigns to the ulnar artery. The radialis indicis is a radial branch, given in the palm alongside the princeps pollicis.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9F4F31DF80F8
+## title
+The following structure passes superficial to flexor reticulum:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure passes superficial to flexor reticulum:
+## answer_a
+Flexor digitorum superficialis
+## explanation_a
+The tendons of flexor digitorum superficialis run in the carpal tunnel, deep to the retinaculum, in the common synovial sheath.
+## answer_b
+Palmar carpal vessels
+## explanation_b
+The palmar carpal vessels form an arch deep to the flexor tendons, on the front of the carpal bones — deeper still than the tunnel’s contents.
+## answer_c
+Flexor pollicis longus
+## explanation_c
+Flexor pollicis longus is in the tunnel too, in its own synovial sheath.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.
+## correct_answer
+D
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what crosses over the flexor retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q40; Anatomy Question [Upper Limb] (1).pdf p3 q12. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-54B1F6DB8C25
+## title
+The radial artery as it continues forming the deep palmar arch, it passes between the h…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery as it continues forming the deep palmar arch, it passes between the heads of, choose the correct statement:
+## answer_a
+Lumbrical muscle
+## explanation_a
+A lumbrical arises from a tendon by a single head and lies far in front of the artery’s route.
+## answer_b
+Adductor pollicis
+## explanation_b
+Correct. Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.
+## answer_c
+Second dorsal interosseous
+## explanation_c
+It is the first dorsal interosseous the artery pierces, not the second — and that is the earlier of the two passages, on the back of the hand.
+## answer_d
+Opponemic pollicis
+## explanation_d
+Opponens pollicis is a single-headed thenar muscle lying superficial to the artery’s course, not across it.
+## correct_answer
+B
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Trace the radial artery from the back of the hand into the palm through two muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p22 q123; Anatomy MCQ Book [2025] [first priority].pdf p40 q123. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `the-radial-artery-as-it-continues-forming-the-deep-palmar-ar-8b80998a` gives B. The artery enters the palm between the two heads of the first dorsal interosseous and then passes between the two heads of adductor pollicis to become the deep arch — and of the options offered, only adductor pollicis is a two-headed muscle on that route.
+
+
+---
+
+# Item
+## id
+QM-101-8EF49B2E1D18
+## title
+The synovial sheath of digital flexors encloses, mark the correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The synovial sheath of digital flexors encloses, mark the correct statement:
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+Flexor digitorum brevis is a muscle of the sole of the foot. It has no representation in the upper limb at all, and the option works only on the similarity of the name.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Correct. All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+Flexor pollicis brevis is a short thenar muscle within the hand; it never crosses the wrist and so has no sheath there. It is flexor pollicis longus, one word away, that has its own sheath.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Flexor carpi radialis has a small sheath of its own, in its own compartment within the lateral attachment of the retinaculum, and is not in the digital flexors’ sheath.
+## correct_answer
+B
+## main_concept
+CON-MSK-132E72A335B25F
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p21 q121; Anatomy MCQ Book [2025] [first priority].pdf p39 q121. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on any of the four copies of this question. The common synovial sheath under the flexor retinaculum encloses the tendons of flexor digitorum superficialis and flexor digitorum profundus; of the options offered only flexor digitorum profundus is one of them.
+
+
+---
+
+# Item
+## id
+QM-101-F0799DE5018F
+## title
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist:
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons are in the carpal tunnel.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons are in the carpal tunnel with them.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis is the exception to both categories: its tendon runs neither over nor under the retinaculum but through a split in its lateral attachment. Calling that "superficial" is the error, and it is the answer one copy prints.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q39; Anatomy MCQ Book [2025] [first priority].pdf p19 q2. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The keyed copies disagree: one gives C and one gives D, the flexor carpi radialis tendon, which passes through a compartment within the retinaculum’s lateral attachment rather than over it. Palmaris longus lies on the retinaculum and is partly inserted into it.
+
+
+---
+
+# Item
+## id
+QM-101-8B6E772DC989
+## title
+A 15-year-old girl was brought to the emergency department with a tear of the em tendon…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 15-year-old girl was brought to the emergency department with a tear of the em tendons in the ﬁrst dorsal compartment of the extensor retinaculum from a severe bite by a pit bulldog. The injured tendons would include which of the following ad muscles? (2018). Vi P ad Ac a- Extensor carpi radialis longus and brevis. y Ac em
+## answer_a
+Extensor carpi radialis longus and brevis.
+## explanation_a
+Extensor carpi radialis longus and brevis occupy the second compartment, immediately lateral to Lister’s tubercle.
+## answer_b
+Extensor digitorum and extensor digiti minimi.
+## explanation_b
+Extensor digitorum shares the fourth compartment with extensor indicis; extensor digiti minimi has the fifth to itself.
+## answer_c
+Abductor pollicis longus and extensor pollicis brevis.
+## explanation_c
+Correct. The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.
+## answer_d
+Extensor pollicis longus and brevis.
+## explanation_d
+Extensor pollicis longus runs alone in the third compartment, medial to Lister’s tubercle, and extensor pollicis brevis is in the first — so the pairing named here spans two compartments and exists in neither.
+## correct_answer
+C
+## main_concept
+CON-MSK-44234D1863CE8E
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the contents of the first compartment of the extensor retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F7C8328F7A4
+## title
+A 15-year-old girl was brought to the emergency department with a tear of the tendons i…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 15-year-old girl was brought to the emergency department with a tear of the tendons in the first dorsal compartment of the extensor retinaculum from a severe bite by a pit bulldog. The injured tendons would include which of the following muscles? (2018)
+## answer_a
+Extensor carpi radialis longus and brevis
+## explanation_a
+These two are the second compartment.
+## answer_b
+Extensor digitorum and extensor digiti minimi
+## explanation_b
+Extensor digitorum is the fourth compartment and extensor digiti minimi the fifth.
+## answer_c
+Abductor pollicis longus and extensor pollicis brevis
+## explanation_c
+Correct. Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.
+## answer_d
+Extensor pollicis longus and brevis
+## explanation_d
+Extensor pollicis longus is alone in the third compartment; the two thumb extensors are not in the same tunnel.
+## correct_answer
+C
+## main_concept
+CON-MSK-44234D1863CE8E
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the contents of the first compartment of the extensor retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p114 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded sibling is keyed C. The first, most lateral compartment holds abductor pollicis longus and extensor pollicis brevis.
+
+
+---
+
+# Item
+## id
+QM-101-81250238C25C
+## title
+A 21-year-old man is stabbed in the cubital fossa. At operation the surgeon dissects do…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 21-year-old man is stabbed in the cubital fossa. At operation the surgeon dissects down onto the brachial artery. A nerve is identified medially, which nerve is it likely to be? (2022)
+## answer_a
+Radial
+## explanation_a
+The radial nerve is the most lateral content, at the far side of the fossa.
+## answer_b
+Anterior interosseous
+## explanation_b
+The anterior interosseous nerve arises from the median nerve below the fossa, in the forearm, and lies deep on the interosseous membrane.
+## answer_c
+Ulnar
+## explanation_c
+The ulnar nerve is behind the medial epicondyle and never enters the fossa — which is exactly why it survives an anterior stab wound.
+## answer_d
+Median
+## explanation_d
+Correct. The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.
+## correct_answer
+D
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the structure immediately medial to the brachial artery in the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The contents of the fossa run, from medial to lateral, median nerve, brachial artery, biceps tendon, radial nerve — so the nerve found medial to the artery is the median.
+
+
+---
+
+# Item
+## id
+QM-101-A1F5133ECD1C
+## title
+A 30-year-old male was admitted to the hospital in an unconscious state. The P Vi ad nu…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 30-year-old male was admitted to the hospital in an unconscious state. The P Vi ad nurse took the radial pulse to determine the heart rate of the patient. This pulse is felt Vi P lateral to which tendon? (2016 – DEP BOOK) y em
+## answer_a
+Palmaris longus
+## explanation_a
+Palmaris longus lies in the midline of the front of the wrist and is the landmark for the median nerve, not for the radial artery.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus is deep, in the carpal tunnel, and cannot be felt.
+## answer_c
+Flexor digitorum profundus. P
+## explanation_c
+Flexor digitorum profundus is deeper still and has no surface tendon at the wrist to be lateral to.
+## answer_d
+Flexor carpi radialis. Vi Acad
+## explanation_d
+Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.
+## correct_answer
+D
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the tendon the radial pulse is taken lateral to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q31. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial artery at the wrist lies immediately lateral to the tendon of flexor carpi radialis, on the front of the lower end of the radius, and that is where the pulse is felt.
+
+
+---
+
+# Item
+## id
+QM-101-1E55A4696327
+## title
+A 45-year-old man arrived at the emergency department with injuries to his left Ac ad A…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 45-year-old man arrived at the emergency department with injuries to his left Ac ad Ac ad ad ad elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examination show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed? (2024) ad ad ViP a- Flexor digitorum superﬁcialis. ViP
+## answer_a
+Flexor digitorum superﬁcialis.
+## explanation_a
+Flexor digitorum superficialis is entirely median, despite arising alongside flexor carpi ulnaris from the same epicondyle.
+## answer_b
+Biceps brachii.
+## explanation_b
+Biceps is supplied by the musculocutaneous nerve in the arm. It is the printed key and it is impossible.
+## answer_c
+Brachioradialis.
+## explanation_c
+Brachioradialis is a radial muscle in the extensor compartment.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Correct. Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.
+## correct_answer
+D
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the forearm muscle paralysed by an ulnar nerve injury at the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, biceps brachii, which is musculocutaneous and lies in the arm — nothing at the medial epicondyle can reach it. The ulnar nerve supplies only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and only the first is offered.
+
+
+---
+
+# Item
+## id
+QM-101-376F3AA36643
+## title
+All the following are among the structures deep to the radial artery in forearm except:…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following are among the structures deep to the radial artery in forearm except: (2022) y y
+## answer_a
+Pronator teres.
+## explanation_a
+True, so not the exception. The artery crosses pronator teres in the upper part of its course.
+## answer_b
+Biceps.
+## explanation_b
+True, so not the exception. It begins on the tendon of biceps in the cubital fossa.
+## answer_c
+Lower end of ulna.
+## explanation_c
+The exception, and the answer. The artery lies on the lower end of the radius, not the ulna — it is on the radial side of the forearm throughout, which is what its name records.
+## answer_d
+Pronator quadratus.
+## explanation_d
+True, so not the exception. Pronator quadratus is the last muscle in its bed before the bone.
+## correct_answer
+C
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+List the bed the radial artery lies on from the elbow to the wrist.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-16A6C62A49AB
+## title
+All the following are contents of anterior compartment of forearm except: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following are contents of anterior compartment of forearm except: (IPKA)
+## answer_a
+Flexer digitorum superﬁcialis
+## explanation_a
+A content of the anterior compartment, so not the exception — it is the deepest of the superficial flexor group.
+## answer_b
+Pronator teres. P
+## explanation_b
+A content, so not the exception. Pronator teres is the most lateral of the superficial flexors.
+## answer_c
+Pronator quadratus
+## explanation_c
+A content, so not the exception. Pronator quadratus is the deepest anterior muscle of all.
+## answer_d
+Brachioradialis
+## explanation_d
+The exception, and the answer. Brachioradialis lies in the extensor compartment and takes the radial nerve, even though it flexes the elbow — the single muscle in the limb where action and compartment disagree.
+## correct_answer
+D
+## main_concept
+CON-MSK-44131E0EDEACA2
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place brachioradialis in the extensor compartment despite its action.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, flexor digitorum superficialis, which is the middle muscle of the superficial flexor group and plainly anterior. Brachioradialis is the exception: it flexes the elbow but lies in the posterior compartment and is supplied by the radial nerve.
+
+
+---
+
+# Item
+## id
+QM-101-D4A828D22276
+## title
+All the followings are contents of anterior compartment of forearm except:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the followings are contents of anterior compartment of forearm except:
+## answer_a
+Flexor digitorium superficialis
+## explanation_a
+Anterior, so not the exception.
+## answer_b
+Pronator teres
+## explanation_b
+Anterior, so not the exception.
+## answer_c
+Pronator quadratus
+## explanation_c
+Anterior, so not the exception — and the deepest of them.
+## answer_d
+Brachioradialis
+## explanation_d
+The exception, and the answer. Brachioradialis is an elbow flexor sitting in the extensor compartment on the radial nerve.
+## correct_answer
+D
+## main_concept
+CON-MSK-44131E0EDEACA2
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place brachioradialis in the extensor compartment despite its action.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p1 q5. Manifest src_a2bf7a9dca4e7cf4015d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, flexor digitorum superficialis, which is an anterior compartment muscle. The exception is brachioradialis, which lies posteriorly and is radial.
+
+
+---
+
+# Item
+## id
+QM-101-B1DFF60C96C9
+## title
+Anterior aspect of interosseous membrane gives attachment to:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anterior aspect of interosseous membrane gives attachment to:
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.
+## answer_b
+Flexor digitorum superficialis
+## explanation_b
+Flexor digitorum superficialis is a superficial muscle arising from the medial epicondyle, the ulna and the oblique line of the radius. It touches the membrane nowhere.
+## answer_c
+Pronator teres
+## explanation_c
+Pronator teres arises from the medial epicondyle and the coronoid process.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris arises from the medial epicondyle and the olecranon and posterior border of the ulna.
+## correct_answer
+A
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q13. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy or on its two siblings. The anterior surface of the membrane gives origin to the two deep flexors, flexor pollicis longus laterally and flexor digitorum profundus medially; the other three options are superficial muscles that arise from the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-EE54231D66F9
+## title
+Anterior aspect of interosseous membrane glves attachment to:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anterior aspect of interosseous membrane glves attachment to:
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.
+## answer_b
+Flexor digitorum superficlalls
+## explanation_b
+Flexor digitorum superficialis is a superficial flexor from the medial epicondyle and the radius.
+## answer_c
+Pronator teres
+## explanation_c
+Pronator teres is a superficial flexor from the medial epicondyle.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris is a superficial flexor from the medial epicondyle and the ulna.
+## correct_answer
+A
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p14 q13. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The front of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus, the two deep flexors.
+
+
+---
+
+# Item
+## id
+QM-101-1072C5457B5E
+## title
+Anterior interosseous nerve supplies the following muscle: (DEP BOOK - 2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anterior interosseous nerve supplies the following muscle: (DEP BOOK - 2021)
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is posterior and supplied by the radial nerve itself.
+## answer_b
+Extensor carpi radialis brevis. P
+## explanation_b
+Extensor carpi radialis brevis is posterior and supplied by the posterior interosseous nerve — the anterior interosseous nerve’s opposite number, and the source of the confusion this item exploits.
+## answer_c
+Brachioradialis
+## explanation_c
+Brachioradialis is posterior and radial.
+## answer_d
+Pronator quadratus
+## explanation_d
+Correct. Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.
+## correct_answer
+D
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a muscle of the anterior interosseous nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q68. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior interosseous nerve is a branch of the median in the anterior compartment and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus; the other three options are all posterior compartment muscles on the radial nerve.
+
+
+---
+
+# Item
+## id
+QM-101-03855CEE4FA7
+## title
+Branches of ulnar artery in the forearm, choose the correct answer: (DEP BOOK) Ac ad Ac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Branches of ulnar artery in the forearm, choose the correct answer: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Anterior ulnar recurrent.
+## explanation_a
+Correct. The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.
+## answer_b
+Ulnar collateral artery.
+## explanation_b
+The ulnar collateral arteries, superior and inferior, are brachial branches given in the arm.
+## answer_c
+Superﬁcial palmar branch.
+## explanation_c
+The superficial palmar branch is radial. It is the printed key here and it is wrong, and the error is easy to make because the branch and the arch share a name.
+## answer_d
+Nutrient branch to humerus.
+## explanation_d
+The nutrient artery of the humerus is a brachial branch, and the humerus is not in the forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the ulnar artery’s forearm branches from the brachial artery’s and the radial artery’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the superficial palmar branch, which is a branch of the radial artery. The ulnar artery does not give a superficial palmar branch — it becomes the superficial palmar arch, which that radial branch completes. The anterior ulnar recurrent artery is a true ulnar branch in the forearm.
+
+
+---
+
+# Item
+## id
+QM-101-8D818C20B7FB
+## title
+Concerning pronation and supination: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning pronation and supination: (DEP BOOK) em em em em em
+## answer_a
+Pronation is more powerful than supination
+## explanation_a
+Supination is the stronger movement. It is the printed key here and it is backwards — and the practical test of it is that screws and taps are cut to be tightened by supination of the right hand.
+## answer_b
+Biceps when the elbow Is extended
+## explanation_b
+Biceps supinates powerfully when the elbow is flexed, not extended.
+## answer_c
+Brachioradialis puts the forearm in mid-prone position
+## explanation_c
+Correct. Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.
+## answer_d
+The radius is ﬁxed; the ulna is the movable bone. Ac ad
+## explanation_d
+The ulna is the fixed bone and the radius the moving one; the option reverses them.
+## correct_answer
+C
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that pronation is more powerful than supination, and it is the reverse of the truth: supination adds biceps to supinator and is the stronger of the two. Brachioradialis bringing the forearm to mid-prone is the only true statement in the set.
+
+
+---
+
+# Item
+## id
+QM-101-4BC608990EB3
+## title
+Concerning the contents of cubital fossa, one is wrong: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the contents of cubital fossa, one is wrong: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Median nerve.
+## explanation_a
+A true content, so not the wrong one. The median nerve lies medial to the brachial artery in the fossa.
+## answer_b
+Termination of the radial artery.
+## explanation_b
+The wrong statement, and the answer. The fossa contains the termination of the brachial artery and the beginnings of the radial and ulnar arteries; the radial artery ends at the far end of the limb, in the palm.
+## answer_c
+Ulnar artery.
+## explanation_c
+A true content, so not the wrong one — its beginning, as the larger terminal branch of the brachial.
+## answer_d
+Radial nerve.
+## explanation_d
+A true content, so not the wrong one. The radial nerve is the most lateral structure in the fossa.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve, which is a genuine content — the most medial one. The wrong statement is B: the radial artery begins in the cubital fossa as a terminal branch of the brachial, it does not end there. What ends there is the brachial artery.
+
+
+---
+
+# Item
+## id
+QM-101-10E54F29E67C
+## title
+Concerning the contents of the cubital fossa, one is wrong:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the contents of the cubital fossa, one is wrong:
+## answer_a
+Median nerve
+## explanation_a
+A true content, so not the wrong one.
+## answer_b
+Termination of the radial artery
+## explanation_b
+The wrong statement, and the answer. The brachial artery terminates in the fossa; the radial artery starts there.
+## answer_c
+Ulnar artery. : :
+## explanation_c
+A true content, so not the wrong one.
+## answer_d
+Radial nerve. 9
+## explanation_d
+A true content, so not the wrong one.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the artery that ends in the cubital fossa from the ones that begin there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p54 q12. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The radial artery begins in the fossa rather than ending there, which makes B the wrong statement; the other three are all genuine contents.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4AE1D4F8B714
+## title
+Concerning with pronation and supination: (DEP BOOK) em Ac P Vi a- Pronation is more po…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning with pronation and supination: (DEP BOOK) em Ac P Vi a- Pronation is more powerful than supination
+## answer_a
+Pronation is more powerful than supination.
+## explanation_a
+Supination is the stronger movement, not pronation.
+## answer_b
+Biceps when the elbow Is extended.
+## explanation_b
+Biceps supinates best with the elbow flexed. It is the printed key here and the word "extended" is the error.
+## answer_c
+Brachioradialis puts the forearm in mid-prone position.
+## explanation_c
+Correct. Brachioradialis is the mid-prone muscle.
+## answer_d
+The radius is ﬁxed; the ulna is the movable bone.
+## explanation_d
+The ulna is fixed and the radius moves.
+## correct_answer
+C
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State which of the two bones moves, which movement is stronger, and what brachioradialis does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, "biceps when the elbow is extended", which reverses the condition — biceps is the powerful supinator with the elbow flexed. Only brachioradialis bringing the forearm to mid-prone is true.
+
+
+---
+
+# Item
+## id
+QM-101-B2B2E65E8D45
+## title
+Extensor pollicis brevis: (IPKA) ad P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Extensor pollicis brevis: (IPKA) ad P
+## answer_a
+Takes origin from radius and interosseous membrane
+## explanation_a
+Correct. Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.
+## answer_b
+Lies on ulnar side of snuffbox. y
+## explanation_b
+It lies on the radial side of the snuff box, forming its anterior border with abductor pollicis longus. The ulnar border of the box is extensor pollicis longus.
+## answer_c
+Extensor carpi ulnaris
+## explanation_c
+This option has been overwritten in extraction by the words "Extensor carpi ulnaris", carried over from elsewhere on the page; it is not a statement about extensor pollicis brevis and cannot be evaluated as one. It is recorded here rather than silently ignored, and a rescan would recover the option the page printed.
+## answer_d
+Nerve supply is from ulnar nerve. em Ac
+## explanation_d
+The nerve is the posterior interosseous branch of the radial nerve. Every extensor of the forearm is radial in origin, and the ulnar nerve supplies none of them.
+## correct_answer
+A
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, position at the snuff box and nerve of extensor pollicis brevis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-12080F45D111
+## title
+Fiexion adduction of the wrist can be done by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Fiexion adduction of the wrist can be done by:
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Flexor pollicis longus acts on the thumb and lies laterally; it cannot adduct the wrist.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus flexes the fingers and the wrist without deviating it.
+## answer_c
+Flexor carpi radialis
+## explanation_c
+Flexor carpi radialis flexes and abducts — the mirror image.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Correct. Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.
+## correct_answer
+D
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p18 q100. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1B092A666A72
+## title
+Flexion adduction of the wrist can be done by: (DEP BOOK) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Flexion adduction of the wrist can be done by: (DEP BOOK) y y
+## answer_a
+Flexor pollicis longus.
+## explanation_a
+A thumb flexor lying laterally. It is the printed key and it is wrong on both halves of the movement.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Flexes the fingers and helps flex the wrist, but deviates it neither way.
+## answer_c
+Flexor carpi radialis.
+## explanation_c
+Flexes and abducts — the opposite deviation.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Correct. Flexor carpi ulnaris is the flexor on the adducting side.
+## correct_answer
+D
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Read a compound wrist movement off the name of the muscle that produces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, flexor pollicis longus, which is a thumb muscle on the lateral side of the forearm and produces no adduction of the wrist. Flexion with adduction is flexor carpi ulnaris, which is what the clean copy of this question is keyed to.
+
+
+---
+
+# Item
+## id
+QM-101-81B84D82F2AC
+## title
+If the median nerve was injured above the elbow, which of the following muscles Ac ad A…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+If the median nerve was injured above the elbow, which of the following muscles Ac ad Ac ad ad ad would retain function? (2024)
+## answer_a
+Pronators.
+## explanation_a
+Both pronators are median, so pronation is lost. It is the printed key and it names the very muscles the lesion takes.
+## answer_b
+Opponens pollicis.
+## explanation_b
+Opponens pollicis is a thenar muscle on the recurrent branch of the median nerve — lost, and it is the loss that gives the ape hand.
+## answer_c
+Palmaris longus.
+## explanation_c
+Palmaris longus is median and lost.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Correct. Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.
+## correct_answer
+D
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the forearm muscle that survives a high median lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p65 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the pronators, which is exactly backwards: pronator teres and pronator quadratus are both median, and abolished pronation is the first sign of a high median lesion. Flexor carpi ulnaris is ulnar and is the only muscle in the list that keeps working.
+
+
+---
+
+# Item
+## id
+QM-101-90DF7840DDEA
+## title
+In the 4th compartment deep to extensor retinaculum one of the following structures is …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In the 4th compartment deep to extensor retinaculum one of the following structures is not passing: (2021)
+## answer_a
+Extensor digitorum
+## explanation_a
+Extensor digitorum is the main occupant of the fourth compartment. It is the printed key here and it is the one thing everybody knows is in it.
+## answer_b
+Anterior interosseous artery
+## explanation_b
+The anterior interosseous artery does reach the fourth compartment: it pierces the lower part of the interosseous membrane, passes to the back and continues under the retinaculum.
+## answer_c
+Anterior interosseous nerve
+## explanation_c
+Correct, and the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.
+## answer_d
+Posterior interosseous nerve
+## explanation_d
+The posterior interosseous nerve ends in the fourth compartment as a small swelling that supplies the wrist joint.
+## correct_answer
+C
+## main_concept
+CON-MSK-44234D1863CE8E
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the nerve and artery that share the fourth compartment with the extensor tendons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, extensor digitorum, which is the compartment’s principal content. The fourth compartment carries extensor digitorum and extensor indicis with the posterior interosseous nerve and the anterior interosseous artery — an odd pairing, and the one the item is built on. The structure that does not pass is the anterior interosseous nerve, which ends in the forearm on the front of the interosseous membrane at pronator quadratus.
+
+
+---
+
+# Item
+## id
+QM-101-51041FE997E6
+## title
+In the cubital fossa; select correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In the cubital fossa; select correct answer:
+## answer_a
+The median nerve lies lateral to the brachial artery
+## explanation_a
+The median nerve is medial to the brachial artery in the fossa. It starts lateral in the upper arm and crosses in front of the artery about the middle of the arm, which is the single relation these books ask about most.
+## answer_b
+The ulnar artery lies superficial to pronator teres
+## explanation_b
+The ulnar artery passes deep to the two heads of pronator teres as it leaves the fossa, not superficial to the muscle.
+## answer_c
+The radial artery originates from the brachial artery
+## explanation_c
+Correct. The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.
+## answer_d
+The radial nerve lies medial to the biceps tendon
+## explanation_d
+The radial nerve is lateral to the biceps tendon, at the outer edge of the fossa.
+## answer_e
+The nerve to pronator teres is derived from the radial nerve
+## explanation_e
+The nerve to pronator teres comes from the median nerve, which is the nerve of the whole flexor compartment bar two muscles.
+## correct_answer
+C
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the relations of the nerves and arteries within the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p2 q14. Manifest src_a38c7a9672971718ccdb.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, that the median nerve lies lateral to the brachial artery, which is the relation the books warn against — the nerve crosses to the medial side in the arm and is medial by the time it reaches the fossa. The radial artery arising from the brachial is the only statement in the set that is true.
+
+
+---
+
+# Item
+## id
+QM-101-70EE601C6543
+## title
+In the cubital fossa; select correct answer: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In the cubital fossa; select correct answer: (IPKA)
+## answer_a
+The median nerve lies lateral to the brachial artery
+## explanation_a
+Medial, not lateral. It is the printed key and it is the classic error of this region.
+## answer_b
+The ulnar artery lies superﬁcial to pronator teres
+## explanation_b
+The ulnar artery passes deep to pronator teres.
+## answer_c
+The radial artery originates from the brachial artery. Ac ad
+## explanation_c
+Correct. The radial artery is one of the two terminal branches of the brachial artery, given in the fossa.
+## answer_d
+The radial nerve lies medial to the biceps tendon
+## explanation_d
+The radial nerve is lateral to the biceps tendon.
+## answer_e
+The nerve to pronator teres is derived from the radial nerve
+## explanation_e
+Pronator teres is supplied by the median nerve.
+## correct_answer
+C
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the relations of the nerves and arteries within the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p55 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve lying lateral to the brachial artery, and it is wrong: by the cubital fossa the nerve is medial to the artery, having crossed in front of it in the arm. The only true option is C.
+
+
+---
+
+# Item
+## id
+QM-101-9F1C9B9FBBAF
+## title
+In the cubital fossa, select the true answer: em Ac P Vi a- Median nerve lies lateral t…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In the cubital fossa, select the true answer: em Ac P Vi a- Median nerve lies lateral to the biceps tendon. ad
+## answer_a
+Median nerve lies lateral to the biceps tendon.
+## explanation_a
+The median nerve is medial to the biceps tendon, with the brachial artery between them. The stem of this copy carries an echo of this option, which is an extraction artefact and not a key.
+## answer_b
+Radial nerve and interosseous branch lie deep to the brachialis muscle.
+## explanation_b
+The radial nerve and its deep branch lie between brachialis and brachioradialis, on the lateral side — in front of the lateral part of the floor rather than deep to brachialis.
+## answer_c
+Radial artery passes between the two heads of the pronator teres.
+## explanation_c
+It is the median nerve that leaves the fossa between the two heads of pronator teres; the radial artery runs down superficially beneath brachioradialis.
+## answer_d
+Radial nerve leaves the fossa between the heads of the supinator muscle.
+## explanation_d
+Correct. The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.
+## correct_answer
+D
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace each content out of the cubital fossa by the route it takes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-81D96F3D8410
+## title
+In the cubital fossa, select the true statement: (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In the cubital fossa, select the true statement: (2021)
+## answer_a
+The ﬂoor is formed only by the supinator.
+## explanation_a
+The floor is brachialis medially and supinator laterally — two muscles, not one.
+## answer_b
+The medial boundary is formed by pronator teres.
+## explanation_b
+Correct. Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.
+## answer_c
+The ulnar nerve lies lateral to the brachial artery.
+## explanation_c
+The ulnar nerve is not in the fossa at all; it lies behind the medial epicondyle.
+## answer_d
+The radial nerve lies medial to the biceps tendon.
+## explanation_d
+The radial nerve lies lateral to the biceps tendon, not medial. Every relation in this fossa is easier to keep if the contents are listed from medial to lateral: median nerve, artery, tendon, radial nerve.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the floor and the two boundaries of the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BA1C82FBE767
+## title
+Lateral intermuscular septum, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lateral intermuscular septum, choose the correct answer:
+## answer_a
+Extends between lesser tuberosity and lateral epicondyle
+## explanation_a
+The lesser tuberosity is on the front of the upper end of the humerus and takes subscapularis. The septum begins far lower, at the deltoid insertion, and runs along the lateral supracondylar ridge.
+## answer_b
+Gives origin to brachioradialis
+## explanation_b
+Correct. Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.
+## answer_c
+Gives origin to extensor carpi radialis brevis
+## explanation_c
+Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle. It is the longus, not the brevis, that arises from the ridge and the septum, and the two are one word apart.
+## answer_d
+Is pierced by radial nerve and branch of the posterior interosseous artery
+## explanation_d
+The radial nerve does pierce this septum, but with the radial collateral branch of the profunda brachii artery. The posterior interosseous artery is a branch of the common interosseous in the forearm and never reaches the arm.
+## correct_answer
+B
+## main_concept
+CON-MSK-BAB2A859A2575C
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the extent, attachments and piercing structures of the lateral intermuscular septum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p25 q140. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, which places the septum between the lesser tuberosity and the lateral epicondyle — the lesser tuberosity is at the top of the humerus on its front and belongs to subscapularis. The septum runs from the insertion of deltoid down the lateral supracondylar ridge to the lateral epicondyle, and it gives origin in front to brachioradialis and extensor carpi radialis longus. Option D is false as printed because the artery accompanying the radial nerve through this septum is the radial collateral branch of the profunda brachii, not the posterior interosseous, which is a forearm vessel.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9670B30DE286
+## title
+Lateral intermuscular septum, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lateral intermuscular septum, choose the correct answer: (DEP BOOK)
+## answer_a
+Extends between lesser tuberosity and lateral epicondyle.
+## explanation_a
+The lesser tuberosity is nowhere near it. It is the printed key and it is wrong.
+## answer_b
+Gives origin to brachioradialis.
+## explanation_b
+Correct. Brachioradialis takes origin from the front of the septum and the ridge above the lateral epicondyle.
+## answer_c
+Gives origin to extensor carpi radialis brevis.
+## explanation_c
+Extensor carpi radialis brevis comes from the common extensor origin; extensor carpi radialis longus is the one that comes from the ridge.
+## answer_d
+Is pierced by radial nerve & branch of posterior interosseous artery.
+## explanation_d
+The radial nerve pierces the septum with the radial collateral artery from the profunda brachii, not with a posterior interosseous branch.
+## correct_answer
+B
+## main_concept
+CON-MSK-BAB2A859A2575C
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the extent, attachments and piercing structures of the lateral intermuscular septum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, which gives the septum an upper attachment at the lesser tuberosity — a landmark on the front of the upper humerus belonging to subscapularis. The septum extends from the deltoid insertion along the lateral supracondylar ridge to the lateral epicondyle, and the true statement in the set is that it gives origin to brachioradialis.
+
+
+---
+
+# Item
+## id
+QM-101-48E06FA43954
+## title
+Mark the muscle which receives innervation fron two different nerves:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Mark the muscle which receives innervation fron two different nerves:
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps is wholly musculocutaneous.
+## answer_b
+Pronator teres
+## explanation_b
+Pronator teres is wholly median. Two heads of origin are not two nerves, and that is the substitution the option invites.
+## answer_c
+Flexor digitorum profundus
+## explanation_c
+Correct. Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.
+## answer_d
+Flexor digitorum superficialis
+## explanation_d
+Flexor digitorum superficialis is wholly median despite its two heads.
+## correct_answer
+C
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the forearm muscle with a double nerve supply.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p19 q104. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C2252DEF1434
+## title
+Median vein of the forearm, choose the correct answer: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median vein of the forearm, choose the correct answer: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+One of the deep veins of the upper limb.
+## explanation_a
+It is superficial. It is the printed key and it is wrong; a deep vein by definition accompanies an artery, and this one accompanies none.
+## answer_b
+Starts by union of small veins of the dorsum of the hand.
+## explanation_b
+It begins from the palmar venous network on the front of the wrist. The dorsum drains into the dorsal venous arch.
+## answer_c
+Continues with the lateral end of the dorsal venous arch.
+## explanation_c
+The lateral end of the dorsal venous arch becomes the cephalic vein.
+## answer_d
+Gives the median basilic vein.
+## explanation_d
+Correct. In front of the elbow it commonly divides into median cephalic and median basilic veins.
+## correct_answer
+D
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the median vein of the forearm on the front of the limb and name what it divides into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that it is one of the deep veins of the upper limb, which is false: it lies in the superficial fascia on the front of the forearm. The deep veins are the venae comitantes of the radial, ulnar and brachial arteries. The true statement is that it gives the median basilic vein.
+
+
+---
+
+# Item
+## id
+QM-101-F5D30FCC2984
+## title
+Median vein of the forearm: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median vein of the forearm: (DEP BOOK)
+## answer_a
+One of the deep veins of the upper limb
+## explanation_a
+It is superficial, in the superficial fascia. Being the vein a needle goes into is what makes students call it deep, and it is the opposite reason.
+## answer_b
+Starts by union of small veins of the back of the hand
+## explanation_b
+The back of the hand drains into the dorsal venous arch; this vein starts on the palmar side.
+## answer_c
+Continues with the lateral end of the dorsal venous arch
+## explanation_c
+The lateral end of the dorsal venous arch continues as the cephalic vein.
+## answer_e
+It is a common site for intravenous injections
+## explanation_e
+Correct. Its size, its superficial position and the bicipital aponeurosis lying between it and the brachial artery are exactly why it is the vein used.
+## correct_answer
+E
+## main_concept
+CON-MSK-1F14D98DCE111B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say why a superficial vein in front of the elbow is the one chosen for injection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p134 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, "one of the deep veins", which is false — it is a superficial vein. Of the four options printed here only E is true: this vein and its median cubital continuation are the standard site for venepuncture and intravenous injection, being large, superficial and separated from the brachial artery by the bicipital aponeurosis.
+
+
+---
+
+# Item
+## id
+QM-101-0688C17B503A
+## title
+Median vein of the forearm: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median vein of the forearm: (DEP BOOK) em em em em em
+## answer_a
+One of the deep veins of the upper limb
+## explanation_a
+A superficial vein, not a deep one. It is the printed key and it is wrong.
+## answer_b
+Starts by union of small veins of the back of the hand
+## explanation_b
+It begins on the front of the wrist, from the palmar venous network.
+## answer_c
+Continues with the lateral end of the dorsal venous arch
+## explanation_c
+That describes the cephalic vein.
+## answer_e
+It is a common site for intravenous injections
+## explanation_e
+Correct. It is large, superficial and protected from the brachial artery by the bicipital aponeurosis, which is what makes it the standard vein for injection.
+## correct_answer
+E
+## main_concept
+CON-MSK-1F14D98DCE111B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say why a superficial vein in front of the elbow is the one chosen for injection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, "one of the deep veins of the upper limb", which is false. The vein is superficial; the true statement in the set is that it is a common site for intravenous injection.
+
+
+---
+
+# Item
+## id
+QM-101-08FEAACB0587
+## title
+Mid-prone position of the forearm is achieved by……. mark the most appropriate Ac ad Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Mid-prone position of the forearm is achieved by……. mark the most appropriate Ac ad Ac ad ad ad answer: (DEP BOOK)
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres carries pronation through its full range.
+## answer_b
+Pronator quadratus.
+## explanation_b
+Pronator quadratus is the prime pronator.
+## answer_c
+Brachioradialis.
+## explanation_c
+Correct. Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.
+## answer_d
+Biceps brachii.
+## explanation_d
+Biceps carries supination through its full range.
+## correct_answer
+C
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscle that brings the forearm to mid-prone from either extreme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachioradialis is the mid-prone muscle: it supinates a pronated forearm and pronates a supinated one, each only as far as the mid position.
+
+
+---
+
+# Item
+## id
+QM-101-AABDFE08D9A6
+## title
+Name the nerve which innervates the ﬂexor pollicis longus: (IPKA - 2021) Ac P a- Anteri…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Name the nerve which innervates the ﬂexor pollicis longus: (IPKA - 2021) Ac P a- Anterior interosseous. P Vi b- Median
+## answer_a
+Anterior interosseous.
+## explanation_a
+Correct. The anterior interosseous nerve leaves the median nerve below the cubital fossa, descends on the interosseous membrane and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus and pronator quadratus.
+## answer_b
+Median.
+## explanation_b
+True at one remove, since the anterior interosseous nerve is a median branch — but the option that names the branch is on the paper, and it is the branch the item is asking for.
+## answer_c
+Ulnar.
+## explanation_c
+The ulnar nerve supplies only flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm.
+## answer_d
+Radial.
+## explanation_d
+The radial nerve supplies the extensor compartment and no flexor of the thumb.
+## answer_e
+Musculocutaneous.
+## explanation_e
+The musculocutaneous nerve ends in the arm and the skin of the lateral forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branch of the median nerve that actually enters flexor pollicis longus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. Flexor pollicis longus is supplied by the anterior interosseous nerve, and this leaf follows the faculty’s own convention throughout: where an item offers both a parent trunk and the branch that enters the muscle, the branch is the answer. That convention is what separates flexor pollicis longus and pronator quadratus from the rest of the median territory in the first place.
+
+
+---
+
+# Item
+## id
+QM-101-A422F3BF3799
+## title
+Name the nerve which innervates the flexor policis longus:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Name the nerve which innervates the flexor policis longus:
+## answer_a
+Anterior Interosseous
+## explanation_a
+Correct. Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.
+## answer_b
+Median
+## explanation_b
+The parent trunk. True at one remove, and not what the item is asking when the branch itself is offered.
+## answer_c
+Ulnar
+## explanation_c
+The ulnar nerve has two forearm muscles and neither is a thumb flexor.
+## answer_d
+Radial
+## explanation_d
+The radial nerve serves the extensor compartment.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branch of the median nerve that actually enters flexor pollicis longus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior interosseous nerve is the branch that supplies flexor pollicis longus, and where a branch and its parent trunk are both offered this faculty keys the branch.
+
+
+---
+
+# Item
+## id
+QM-101-1B51786A7FE7
+## title
+One of the following is a branch of the ulnar artery: (2017) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a branch of the ulnar artery: (2017) Ac ad Ac ad ad ad
+## answer_a
+Radial recurrent artery.
+## explanation_a
+The radial recurrent artery ascends from the radial artery to the elbow anastomosis.
+## answer_b
+Common interosseous artery.
+## explanation_b
+Correct. The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.
+## answer_c
+Inferior ulnar collateral artery.
+## explanation_c
+The inferior ulnar collateral artery comes off the brachial artery in the arm and descends to meet the ulnar recurrents. The word "ulnar" in its name refers to the side of the limb, not to the artery it comes from.
+## answer_d
+Radialis indicis artery.
+## explanation_d
+The radialis indicis is a radial branch in the palm.
+## correct_answer
+B
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the ulnar artery’s largest branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The common interosseous artery is the ulnar artery’s largest branch; the radial recurrent is radial, the inferior ulnar collateral is brachial and the radialis indicis is radial.
+
+
+---
+
+# Item
+## id
+QM-101-9FC227A77108
+## title
+One of the following is not a branch of the radial artery: (2022) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a branch of the radial artery: (2022) em em em em em
+## answer_a
+Radial recurrent artery
+## explanation_a
+A radial branch, so not the answer. The radial recurrent artery ascends in front of the lateral epicondyle to the elbow anastomosis.
+## answer_b
+Common interosseous artery
+## explanation_b
+Correct, and the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.
+## answer_c
+Palmar (anterior) carpal
+## explanation_c
+A radial branch, so not the answer. The palmar carpal branch joins its ulnar fellow to form the anterior carpal arch.
+## answer_d
+Dorsal (posterior) carpal
+## explanation_d
+A radial branch, so not the answer. The dorsal carpal branch forms the dorsal carpal arch in the snuff box.
+## correct_answer
+B
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the radial artery’s branches from the ulnar artery’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-02F74045FBD9
+## title
+One of the following is not a content of the cubital fossa: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a content of the cubital fossa: (DEP BOOK) em em em em em
+## answer_a
+Brachial artery
+## explanation_a
+A content. The brachial artery ends in the fossa by dividing, and it is the printed key here.
+## answer_b
+Radial artery
+## explanation_b
+A content. The radial artery begins in the fossa.
+## answer_c
+Ulnar nerve
+## explanation_c
+Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.
+## answer_d
+Median nerve
+## explanation_d
+A content, and the most medial of them.
+## correct_answer
+C
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve that passes behind the elbow rather than through the fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the brachial artery, which is a content — the fossa holds its termination. The structure that is not a content is the ulnar nerve, which passes behind the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-613669F359E2
+## title
+One of the following muscles cannot perform ﬂexion of the wrist (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following muscles cannot perform ﬂexion of the wrist (2022)
+## answer_a
+Pronator quadratus.
+## explanation_a
+Correct. Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Flexor pollicis longus crosses the front of the wrist to reach the thumb and assists flexion there. It is the printed key and it is wrong.
+## answer_c
+Flexor digitorum profundus.
+## explanation_c
+Flexor digitorum profundus crosses the wrist on its way to the distal phalanges and helps flex it.
+## answer_d
+Flexer carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris is a prime flexor of the wrist.
+## correct_answer
+A
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that a forearm muscle can only move a joint it crosses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p53 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, flexor pollicis longus, whose tendon crosses the front of the wrist in the carpal tunnel and does help flex it. Pronator quadratus runs between the lower ends of the ulna and the radius and crosses no joint but the inferior radio-ulnar, so it cannot flex the wrist at all.
+
+
+---
+
+# Item
+## id
+QM-101-1D704BCA21C8
+## title
+One of the following muscles is not innervated by median nerve or its branches: (2022) Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following muscles is not innervated by median nerve or its branches: (2022) Ac
+## answer_a
+Pronator teres.
+## explanation_a
+Median, so not the answer — pronator teres is supplied by a direct branch in the cubital fossa.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Median, so not the answer — through the anterior interosseous nerve.
+## answer_c
+Opponens pollicis.
+## explanation_c
+Median, so not the answer — through the recurrent branch to the thenar eminence.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Correct, and the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one thumb muscle that is ulnar out of a median list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pronator teres is median, flexor pollicis longus is median through the anterior interosseous nerve and opponens pollicis is median through the recurrent branch; adductor pollicis is supplied by the deep branch of the ulnar nerve.
+
+
+---
+
+# Item
+## id
+QM-101-DD2656469CDE
+## title
+Pronation and supination of the forearm occurs at: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronation and supination of the forearm occurs at: (DEP BOOK)
+## answer_a
+Elbow joint.
+## explanation_a
+The elbow is a hinge and cannot rotate. The superior radio-ulnar joint shares its capsule, which is why the two are so often merged in a student’s mind — but they are different joints of different types. It is the printed key and it is wrong.
+## answer_b
+Superior and inferior radio-ulnar joints.
+## explanation_b
+Correct. The head of the radius spins within the anular ligament above and the lower end of the radius swings round the head of the ulna below.
+## answer_c
+Shoulder joint.
+## explanation_c
+The shoulder rotates the whole limb, which can look like pronation if the elbow is extended; the test is to flex the elbow to a right angle, which locks the shoulder out.
+## answer_d
+Radio-carpal joint.
+## explanation_d
+The radio-carpal joint flexes, extends, abducts and adducts, and does not rotate.
+## correct_answer
+B
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the joints at which the forearm rotates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the elbow joint, which is a hinge and permits flexion and extension only. Rotation of the forearm takes place at the superior and inferior radio-ulnar joints, which are pivot joints, even though the superior one shares a capsule with the elbow.
+
+
+---
+
+# Item
+## id
+QM-101-D9B7CB7974A4
+## title
+Pronator quadrates muscle Is supplied by: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronator quadrates muscle Is supplied by: (IPKA)
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve has two forearm muscles and neither pronates. It is the printed key and it is wrong.
+## answer_b
+Posterior interosseous nerve. P
+## explanation_b
+The posterior interosseous nerve is the exact counterpart in the extensor compartment — the same word with the compartment reversed, which is what makes it the standing distractor here.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve supplies the extensor side.
+## answer_d
+Anterior interosseous nerve
+## explanation_d
+Correct. Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.
+## correct_answer
+D
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve of pronator quadratus precisely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which supplies only flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm. Pronator quadratus is the last muscle supplied by the anterior interosseous branch of the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-BE378045D544
+## title
+Pronator quadrates muscle Is supplied by: (IPKA) P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronator quadrates muscle Is supplied by: (IPKA) P
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve supplies no pronator.
+## answer_b
+Posterior interosseous nerve
+## explanation_b
+The posterior interosseous nerve serves the extensor compartment.
+## answer_c
+Ulnar
+## explanation_c
+The same distractor as A, printed a second time by the extraction as the single word "Ulnar". Two copies of one wrong answer are still one wrong answer.
+## answer_d
+Anterior interosseous nerve
+## explanation_d
+Correct. The anterior interosseous nerve ends in pronator quadratus.
+## correct_answer
+D
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve of pronator quadratus precisely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q35. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Pronator quadratus is supplied by the anterior interosseous branch of the median nerve. Note that options A and C both name the ulnar nerve in this copy — the extraction has duplicated a distractor — but the correct option is unique and the item remains answerable.
+
+
+---
+
+# Item
+## id
+QM-101-42DBAC695D73
+## title
+Regard to the biceps bacchii muscle, select the correct statement: (IPKA) Ac ad Ac ad a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regard to the biceps bacchii muscle, select the correct statement: (IPKA) Ac ad Ac ad ad ad
+## answer_a
+The long head arises from the greater tuberosity of the humerus
+## explanation_a
+The greater tuberosity is on the humerus and takes supraspinatus, infraspinatus and teres minor. The long head of biceps comes from the supraglenoid tubercle of the scapula, above the glenoid cavity. It is the printed key and it is wrong.
+## answer_b
+The short head arises from the acromion
+## explanation_b
+The short head arises from the tip of the coracoid process, not the acromion.
+## answer_c
+It is a supinator of the forearm
+## explanation_c
+Correct. Biceps is the powerful supinator of the flexed forearm, which is why the bicipital tendon winds round to the back of the radial tuberosity.
+## answer_e
+The two heads unite in the upper arm
+## explanation_e
+The two bellies join in the lower part of the arm, above the elbow, not in the upper arm.
+## correct_answer
+C
+## main_concept
+CON-MSK-875049D4420AA4
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the two origins and the action of biceps.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p43 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that the long head arises from the greater tuberosity — a landmark on the humerus that takes three of the rotator cuff muscles. The long head arises from the supraglenoid tubercle of the scapula, and the only true statement in the set is that biceps supinates the forearm.
+
+
+---
+
+# Item
+## id
+QM-101-9FA1E29B26C5
+## title
+Regard to the biceps brachii muscle, select the correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regard to the biceps brachii muscle, select the correct statement:
+## answer_a
+the long head arises from the greater tuberosity of the humerus
+## explanation_a
+The supraglenoid tubercle of the scapula, not the greater tuberosity of the humerus.
+## answer_b
+the short head arises from the acromion
+## explanation_b
+The tip of the coracoid process, not the acromion.
+## answer_c
+it is a supinator of the forearm
+## explanation_c
+Correct. Biceps flexes the elbow and supinates the forearm powerfully.
+## answer_d
+it is supplied by branches of the median nerve
+## explanation_d
+Biceps is musculocutaneous, from the lateral cord. The median nerve gives no branch in the arm at all.
+## answer_e
+the two heads unite in the upper arm
+## explanation_e
+The two heads unite in the lower part of the arm.
+## correct_answer
+C
+## main_concept
+CON-MSK-875049D4420AA4
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the two origins, the nerve and the action of biceps.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p1 q5. Manifest src_a38c7a9672971718ccdb.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling gives A, the greater tuberosity, which belongs to the rotator cuff. Biceps supinating the forearm is the only true statement offered.
+
+
+---
+
+# Item
+## id
+QM-101-624A06D1C52F
+## title
+Regarding ﬂexor Carpi radialis muscle, all of the following are true except: (IPKA) em …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding ﬂexor Carpi radialis muscle, all of the following are true except: (IPKA) em em em
+## answer_a
+Lateral muscle in the superﬁcial layer of ﬂexor compartment of forearm
+## explanation_a
+The exception, and the answer. The most lateral muscle of the superficial flexor group is pronator teres; flexor carpi radialis lies next to it, medially. The name makes it sound like the radial-most muscle, and it is second.
+## answer_b
+Take origin from the common ﬂexor origin
+## explanation_b
+True, so not the exception. It arises from the common flexor origin on the medial epicondyle.
+## answer_c
+Flexor and abductor of the wrist
+## explanation_c
+True, so not the exception. It flexes and abducts the wrist, and is the flexor half of the abducting pair.
+## answer_d
+Innervated by the median nerve. Ac ad
+## explanation_d
+True, so not the exception. Every superficial flexor except flexor carpi ulnaris is median.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Place flexor carpi radialis in the order of the superficial flexor group.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-378984B05FEA
+## title
+Regarding muscle actions of the upper limb: 1
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding muscle actions of the upper limb: 1
+## answer_a
+Flexor digitorum superficialis flexes distal phalanges
+## explanation_a
+Superficialis inserts into the middle phalanx; the distal phalanx belongs to profundus.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps is the powerful supinator, supinator itself being the weaker.
+## answer_c
+Flexor carpi ulnaris is flexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris adducts the wrist, not abducts it.
+## answer_d
+Pronators muscles are supplied by ulnar nerve. 7
+## explanation_d
+The pronators are median — teres directly and quadratus through the anterior interosseous nerve.
+## correct_answer
+B
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p14 q9. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `regarding-muscle-actions-of-the-upper-limb-dep-book-em-em-em-1ebde679` gives B and B is correct. Flexor digitorum superficialis reaches only the middle phalanx, flexor carpi ulnaris adducts, and the pronators are median.
+
+
+---
+
+# Item
+## id
+QM-101-A11DAF6C483C
+## title
+Regarding muscle actions of the upper limb: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding muscle actions of the upper limb: (DEP BOOK) em em em em em
+## answer_a
+Flexor digitorum superﬁcialis ﬂexes distal phalanges
+## explanation_a
+Superficialis flexes the middle phalanges; the distal ones are profundus.
+## answer_b
+Biceps brachii is a powerful supinator
+## explanation_b
+Correct. Biceps supinates powerfully with the elbow flexed.
+## answer_c
+Flexor carpi ulnaris is ﬂexor and abductor of the wrist
+## explanation_c
+Flexor carpi ulnaris flexes and adducts.
+## answer_d
+Pronators muscles are supplied by ulnar nerve. Ac ad
+## explanation_d
+The pronators are median. The ulnar nerve has only two muscles in the forearm and neither of them pronates.
+## correct_answer
+B
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four muscle statements against their attachments and nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-182B001AC4F3
+## title
+Regarding muscles of the forearm, choose the correct answer: (DEP BOOK) Ac P a- The ﬂex…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding muscles of the forearm, choose the correct answer: (DEP BOOK) Ac P a- The ﬂexor digitorum profundus arises from three bones. P Vi b- The ﬂexor carpi ulnaris abducts the wrist. y ad
+## answer_a
+The ﬂexor digitorum profundus arises from three bones.
+## explanation_a
+Flexor digitorum profundus arises from the ulna and the interosseous membrane, not from three bones.
+## answer_b
+The ﬂexor carpi ulnaris abducts the wrist.
+## explanation_b
+Flexor carpi ulnaris adducts.
+## answer_c
+The brachioradialis is innervated by the median nerve.
+## explanation_c
+Brachioradialis is radial, not median. It is a flexor of the elbow lying in the extensor compartment.
+## answer_d
+The supinator is innervated by the posterior interosseous nerve.
+## explanation_d
+Correct. Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.
+## correct_answer
+D
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Check four forearm muscle statements against origin, action and nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of options a and b in the stem, which is an extraction artefact. The keyed copy of this question gives D, and supinator being supplied by the posterior interosseous nerve is the only true statement in the set.
+
+
+---
+
+# Item
+## id
+QM-101-E9F5A509AFBC
+## title
+Regarding the carrying angle, choose the correct statement: (2017) P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the carrying angle, choose the correct statement: (2017) P
+## answer_a
+It disappears in supination of the extended forearm
+## explanation_a
+It is present in supination of the extended forearm — that is the position in which it is defined and measured. What abolishes it is flexion of the elbow, and pronation of the extended forearm.
+## answer_b
+It appears in pronation of the forearm. y ad
+## explanation_b
+It disappears in pronation, rather than appearing. The option reverses the behaviour it is describing.
+## answer_c
+It is due to downward projection of the medial end of trochlea more than its lateral end
+## explanation_c
+Correct. The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.
+## answer_d
+It is larger in males than in females
+## explanation_d
+It is larger in females. The conventional figure of about fifteen degrees is the male one, and the difference is attributed to the wider female pelvis.
+## correct_answer
+C
+## main_concept
+CON-MSK-BA4B2D326C9F8A
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the bony cause of the carrying angle and the positions in which it is present.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p99 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1533FF4A3CC0
+## title
+Regarding the course of the ulnar nerve; mark the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the course of the ulnar nerve; mark the correct answer:
+## answer_a
+Passes behind the lateral epicondyle of the humerus
+## explanation_a
+The lateral epicondyle is on the other side of the joint entirely; the ulnar nerve grooves the back of the medial one.
+## answer_b
+Passes between the humeral and ulnar attachment of flexor carpi ulnaris
+## explanation_b
+Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and from the olecranon, form the arch the nerve passes under to enter the forearm.
+## answer_c
+Passes between flexor digitorum profundus and Paimaris longus
+## explanation_c
+The nerve descends on flexor digitorum profundus, deep to flexor carpi ulnaris; palmaris longus is superficial and in the midline.
+## answer_d
+Passes between flexor digitorum superficialis and flexor digitorum
+## explanation_d
+That plane belongs to the median nerve, which descends between the two digital flexors through the length of the forearm. Swapping the two nerves’ planes is the point of this option.
+## correct_answer
+B
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace the ulnar nerve from behind the medial epicondyle into the forearm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p42 q135. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve enters the forearm between the humeral and ulnar heads of flexor carpi ulnaris; it passes behind the medial epicondyle rather than the lateral, and the plane between flexor digitorum superficialis and profundus carries the median nerve, not the ulnar.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2363EC4E074B
+## title
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022) ad Vi
+## answer_a
+The skin of the medial side of the forearm is supplied by a branch from the medial cord of the ad
+## explanation_a
+True, so not the incorrect statement. The medial cutaneous nerve of the forearm comes off the medial cord. This copy has cut the option short after "of the", but the cord named is right.
+## answer_b
+The skin of the lateral side of the arm is supplied by branches from the lateral cord of the
+## explanation_b
+The incorrect statement, and the answer. The lateral cord reaches skin only through the musculocutaneous nerve, and that nerve covers the lateral forearm; the lateral arm is axillary above and radial below.
+## answer_c
+The skin of the dorsum of hand is supplied by branches of radial. median and ulnar nerves
+## explanation_c
+True, so not the incorrect statement. The back of the hand takes the superficial radial nerve laterally, the dorsal branch of the ulnar medially, and the median over the terminal phalanges of the lateral fingers.
+## answer_d
+The skin of the dorsal surface of medial 1 ½ ﬁngers is supplied by branches of ulnar nerve
+## explanation_d
+True, so not the incorrect statement. The dorsal branch of the ulnar nerve supplies the backs of the medial one and a half fingers.
+## correct_answer
+B
+## main_concept
+CON-MSK-F4FC0C323C654E
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace each strip of skin on the limb back to the cord or nerve that supplies it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, which is true and therefore not the incorrect statement: the medial cutaneous nerve of the forearm is a branch of the medial cord. The incorrect statement is B — the skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and by the supraclavicular nerves above them, not by the lateral cord, whose only cutaneous territory is the lateral forearm.
+
+
+---
+
+# Item
+## id
+QM-101-5CCD78572E44
+## title
+Regarding the extensor digitorum muscle, choose the correct answer: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the extensor digitorum muscle, choose the correct answer: (2019)
+## answer_a
+Form expansion on the dorsal surface of the medial two ﬁngers
+## explanation_a
+The expansions are formed over all four medial fingers, not only two.
+## answer_b
+Form expansion that is formed of ﬁve slips around the ﬁnger
+## explanation_b
+The expansion has a central slip and two collateral slips — three, and they insert into the middle and distal phalanges.
+## answer_c
+Form expansion that receives insertion of opponens pollicis muscle
+## explanation_c
+Opponens pollicis rolls the first metacarpal and stops there. What the expansion receives is the lumbrical and the interossei of that finger. It is the printed key and it is anatomically impossible.
+## answer_d
+It is supplied by posterior interosseous nerve. Ac
+## explanation_d
+Correct. Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.
+## correct_answer
+D
+## main_concept
+CON-MSK-2AA14F317F45C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the extensor expansion receives and what supplies extensor digitorum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that the expansion receives the insertion of opponens pollicis — a thenar muscle that inserts into the first metacarpal and never approaches a finger. The true statement is D: extensor digitorum, like the whole superficial extensor group except the two named exceptions, is supplied by the posterior interosseous nerve.
+
+
+---
+
+# Item
+## id
+QM-101-45C5D474BED3
+## title
+Regarding the radial artery in the hand, choose the correct answer: (DEP BOOK) y Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the radial artery in the hand, choose the correct answer: (DEP BOOK) y Ac em
+## answer_a
+Passes between the two heads of the 1st dorsal interosseous muscle.
+## explanation_a
+Correct. The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.
+## answer_b
+Passes between the 1st and 2nd lumbrical muscles.
+## explanation_b
+The lumbricals lie well in front of the artery’s route, in the palm, and it does not pass among them.
+## answer_c
+Passes between the ﬂexor digitorum superﬁcialis and profundus.
+## explanation_c
+The plane between flexor digitorum superficialis and profundus is in the forearm and carries the median nerve.
+## answer_d
+Continues as the superﬁcial palmar arch.
+## explanation_d
+The radial artery ends as the deep palmar arch. The superficial arch is the ulnar artery’s, and this is the swap the books ask about most often.
+## correct_answer
+A
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Trace the radial artery from the back of the hand into the palm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial artery reaches the palm from the back of the hand by passing forwards between the two heads of the first dorsal interosseous muscle; it then crosses adductor pollicis to form the deep arch.
+
+
+---
+
+# Item
+## id
+QM-101-923AF09E5FDB
+## title
+Regarding the radial artery, one is correct: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the radial artery, one is correct: (DEP BOOK) em em em em em
+## answer_a
+Its pulsations can be felt between tendons of ﬂexor carpi radialis & brachioradialis
+## explanation_a
+Correct. In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.
+## answer_b
+It continues in the palm as the superﬁcial palmar arch
+## explanation_b
+It becomes the deep palmar arch, not the superficial.
+## answer_c
+It begins at the level of the head of the radius
+## explanation_c
+The neck of the radius, not the head. It is the printed key and it misses by one landmark.
+## answer_d
+In the forearm, the superﬁcial radial nerve lies medial to the artery. Ac ad
+## explanation_d
+The superficial branch of the radial nerve lies lateral to the artery in the middle third, not medial.
+## correct_answer
+A
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say exactly where the radial pulse is taken and what the artery becomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that the artery begins at the level of the head of the radius; the brachial artery divides at the level of the neck of the radius, one landmark lower, and this faculty asks that distinction on its own elsewhere in the leaf. The true statement is A, the position of the pulse between the tendons of flexor carpi radialis and brachioradialis.
+
+
+---
+
+# Item
+## id
+QM-101-8ED8AC416779
+## title
+Regarding the ulnar artery, choose the correct answer: (DEP BOOK) Vi em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar artery, choose the correct answer: (DEP BOOK) Vi em
+## answer_a
+It begins opposite the head of radius
+## explanation_a
+The neck of the radius, not the head. It is the printed key here and it misses by a landmark.
+## answer_b
+It ends by forming the deep palmar arch
+## explanation_b
+It ends as the superficial palmar arch; the deep arch is radial.
+## answer_c
+Its pulsation can be felt lateral to the ﬂexor carpi ulnaris
+## explanation_c
+The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, but the pulse taken there in practice is the radial, felt lateral to flexor carpi radialis, and it is that fact the option imitates. The option needs a faculty eye.
+## answer_d
+It gives the common interosseous artery. Acad
+## explanation_d
+Correct. The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.
+## correct_answer
+D
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the beginning, ending and largest branch of the ulnar artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, that the artery begins opposite the head of the radius; the brachial artery divides at the level of the neck of the radius, and the ulnar artery therefore begins below the head. The copy of this question asked three times is keyed D, and the common interosseous artery is unambiguously an ulnar branch.
+
+
+---
+
+# Item
+## id
+QM-101-9421A3ED27ED
+## title
+Regarding the ulnar artery, one is correct: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar artery, one is correct: (DEP BOOK)
+## answer_a
+It descends vertically on medial side of forearm lateral to the ulnar nerve
+## explanation_a
+The artery is lateral to the ulnar nerve, so the option has the two reversed.
+## answer_b
+It enters the hand by passing deep to the ﬂexor retinaculum
+## explanation_b
+It passes superficial to the flexor retinaculum, with the nerve.
+## answer_c
+It continues in the hand as the superﬁcial palmar arch
+## explanation_c
+Correct. The ulnar artery becomes the superficial palmar arch on entering the palm.
+## answer_d
+It supplies the thumb
+## explanation_d
+The thumb is supplied by the princeps pollicis from the radial artery. It is the printed key here and it gives one artery the other’s territory.
+## correct_answer
+C
+## main_concept
+CON-MSK-25C6698A72A982
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the ulnar artery’s relation to the ulnar nerve, to the flexor retinaculum and to the thumb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, that the ulnar artery supplies the thumb, which is the radial artery’s job through the arteria princeps pollicis. The identically worded copy asked twice is keyed C, and the ulnar artery does continue in the hand as the superficial palmar arch.
+
+
+---
+
+# Item
+## id
+QM-101-474E2E29CB50
+## title
+Regarding the ulnar nerve: - a- It is a branch of lateral cord of brachial plexus
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar nerve: - a- It is a branch of lateral cord of brachial plexus
+## answer_a
+It is a branch of lateral cord of brachial plexus.
+## explanation_a
+The medial cord, not the lateral. The lateral cord gives the musculocutaneous nerve and the lateral root of the median.
+## answer_b
+It gives no branches In forearm.
+## explanation_b
+It gives no branches in the arm, which is what the option is half-remembering. In the forearm it supplies two muscles and gives palmar and dorsal cutaneous branches.
+## answer_c
+It passes behind medial epicondyle of humerus. — -
+## explanation_c
+Correct. The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.
+## answer_d
+It supplies extensor carpi ulnaris.
+## explanation_d
+Extensor carpi ulnaris is named for the ulna but lies in the extensor compartment and is supplied by the posterior interosseous nerve. Every extensor in the forearm is radial.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the ulnar nerve’s cord of origin, its forearm branches and its relation to the medial epicondyle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p17 q30. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the largest branch of the medial cord, it does give branches in the forearm to flexor carpi ulnaris and the medial half of flexor digitorum profundus, and extensor carpi ulnaris is radial despite its name — leaving the relation to the medial epicondyle as the only true statement.
+
+
+---
+
+# Item
+## id
+QM-101-63243352B2C0
+## title
+Supination of the radioulnar joints is done mainly by: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Supination of the radioulnar joints is done mainly by: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres pronates. It is the printed key here and it names the antagonist.
+## answer_b
+Pronator quadratus.
+## explanation_b
+Pronator quadratus is the prime pronator.
+## answer_c
+Brachioradialis.
+## explanation_c
+Brachioradialis stops at the mid-prone position.
+## answer_d
+Biceps brachii.
+## explanation_d
+Correct. Biceps is the powerful supinator, which is why supination is stronger than pronation.
+## correct_answer
+D
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the chief supinator.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, pronator teres, which performs the opposite movement. Supination is by supinator and biceps, and biceps is the powerful one.
+
+
+---
+
+# Item
+## id
+QM-101-91C570702530
+## title
+Synovial sheath of digital ﬂexors encloses, mark correct statement: (DEP BOOK) Ac ad Ac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Synovial sheath of digital ﬂexors encloses, mark correct statement: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Flexor digitorum brevis.
+## explanation_a
+Flexor digitorum brevis is a muscle of the sole of the foot and has no counterpart here.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Correct. All four profundus tendons lie in the common sheath with the four superficialis tendons.
+## answer_c
+Flexor pollicis brevis.
+## explanation_c
+Flexor pollicis brevis is a short thenar muscle within the hand and crosses no retinaculum; it is flexor pollicis longus that has a sheath, and its own one.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis has a separate small sheath in its own compartment in the retinaculum.
+## correct_answer
+B
+## main_concept
+CON-MSK-132E72A335B25F
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The common synovial sheath beneath the flexor retinaculum encloses the eight tendons of flexor digitorum superficialis and profundus; only profundus is offered.
+
+
+---
+
+# Item
+## id
+QM-101-3E8F49A1772D
+## title
+Synovial sheath of digital fiexors encloses, mark correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Synovial sheath of digital fiexors encloses, mark correct statement:
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+A muscle of the foot, not the hand.
+## answer_b
+Flexor digitorum profundus. ;
+## explanation_b
+Correct. Flexor digitorum profundus lies in the common synovial sheath.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+A short thenar muscle with no sheath at the wrist.
+## answer_d
+Flexor carpi radialis. foe ae 7 3 7 1
+## explanation_d
+Has a sheath of its own within the retinaculum.
+## correct_answer
+B
+## main_concept
+CON-MSK-132E72A335B25F
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q46. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The digital flexors in the common sheath are flexor digitorum superficialis and flexor digitorum profundus.
+
+
+---
+
+# Item
+## id
+QM-101-B91E585AC42A
+## title
+Synovial sheath of digital flexors encloses, mark correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Synovial sheath of digital flexors encloses, mark correct statement:
+## answer_a
+Flexor digitorum brevis
+## explanation_a
+A muscle of the sole of the foot.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Correct. The eight digital flexor tendons share one sheath under the retinaculum.
+## answer_c
+Flexor pollicis brevis
+## explanation_c
+An intrinsic muscle of the hand; it never crosses the wrist.
+## answer_d
+Flexor carpi radialis
+## explanation_d
+Runs in its own compartment within the retinaculum, in a sheath of its own.
+## correct_answer
+B
+## main_concept
+CON-MSK-132E72A335B25F
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons wrapped in the common flexor synovial sheath.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p16 q46. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on any of the four copies of this question. The common sheath encloses the tendons of flexor digitorum superficialis and profundus, and of the options offered only profundus is one of them.
+
+
+---
+
+# Item
+## id
+QM-101-E75FC38E8C16
+## title
+The anterior aspect of the interosseous membrane gives attachment to, mark the suitable…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior aspect of the interosseous membrane gives attachment to, mark the suitable answer:
+## answer_a
+Flexor pollicis longus and flexor digitorum profundus
+## explanation_a
+Correct. The two deep flexors take the front of the membrane, which is why they have no humeral attachment.
+## answer_b
+Flexor digitorum superficialis
+## explanation_b
+A superficial flexor from the medial epicondyle, the ulna and the radius.
+## answer_c
+Pronator teres
+## explanation_c
+A superficial flexor from the medial epicondyle and the coronoid process.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+A superficial flexor from the medial epicondyle and the ulna.
+## correct_answer
+A
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what arises from the front of the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p40 q124. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior surface of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus; the other three options are superficial flexors arising from the medial epicondyle.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7EB622A66DF4
+## title
+The brachioradialis muscle receives its nerve supply from: (2018) Vi P y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The brachioradialis muscle receives its nerve supply from: (2018) Vi P y
+## answer_a
+The radial nerve
+## explanation_a
+Correct. The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.
+## answer_b
+The anterior interosseous nerve
+## explanation_b
+The anterior interosseous nerve is a median branch in the flexor compartment.
+## answer_c
+The posterior interosseous nerve
+## explanation_c
+The posterior interosseous nerve supplies everything else in the extensor compartment, which is what makes it the natural guess. It is the printed key here and it is wrong, and the distinction matters: it is why the wrist still extends after a posterior interosseous lesion.
+## answer_d
+The median nerve
+## explanation_d
+The median nerve supplies no muscle in the posterior compartment.
+## correct_answer
+A
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the posterior interosseous nerve, which supplies the rest of the extensor compartment but not this muscle. Brachioradialis is one of the three muscles the radial nerve supplies directly, before it divides — the others being extensor carpi radialis longus and anconeus — and the identically worded copy `the-brachioradialis-muscle-receives-its-nerve-supply-from-20-fde9f211` is keyed A.
+
+
+---
+
+# Item
+## id
+QM-101-783C47A2ACEE
+## title
+The brachioradialis muscle receives its nerve supply from: (2018) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The brachioradialis muscle receives its nerve supply from: (2018) Ac ad Ac ad ad ad
+## answer_a
+The radial nerve.
+## explanation_a
+Correct. Brachioradialis takes a branch from the radial nerve trunk in the lower arm.
+## answer_b
+The anterior interosseous nerve.
+## explanation_b
+A median branch in the flexor compartment.
+## answer_c
+The posterior interosseous nerve.
+## explanation_c
+The nerve of the rest of the extensor group, and the standing distractor here.
+## answer_d
+The median nerve.
+## explanation_d
+The median nerve reaches nothing in the extensor compartment.
+## correct_answer
+A
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign brachioradialis to the radial nerve itself rather than to its deep branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-837E2359CD80
+## title
+The brachioradialis muscle, select the true statement: (2021) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The brachioradialis muscle, select the true statement: (2021) y y
+## answer_a
+Is an extensor of the elbow joint.
+## explanation_a
+It flexes the elbow. Lying in the extensor compartment does not make it an extensor, which is the whole oddity of this muscle.
+## answer_b
+Present on the medial side of the forearm.
+## explanation_b
+It is on the lateral, radial side — the name says so, and it forms the lateral boundary of the cubital fossa.
+## answer_c
+Is supplied by posterior interosseous nerve.
+## explanation_c
+It is supplied by the radial nerve directly, not by the posterior interosseous nerve.
+## answer_d
+Put the forearm in mid-prone position.
+## explanation_d
+Correct. Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.
+## correct_answer
+D
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the side, action and nerve of brachioradialis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachioradialis flexes the elbow rather than extending it, lies on the lateral side of the forearm, and is supplied by the radial nerve itself rather than by the posterior interosseous branch — leaving the mid-prone action as the only true statement.
+
+
+---
+
+# Item
+## id
+QM-101-609665FF2175
+## title
+The continuation of musculocutaneous nerve is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The continuation of musculocutaneous nerve is:
+## answer_a
+Posterior cutaneous nerve of forearm
+## explanation_a
+The posterior cutaneous nerve of the forearm is a radial branch, given in the spiral groove.
+## answer_b
+Medial cutaneous nerve of forearm
+## explanation_b
+The medial cutaneous nerve of the forearm arises from the medial cord and is an independent nerve, not a continuation of anything.
+## answer_c
+Lateral cutaneous nerve of forearm
+## explanation_c
+Correct. The name records the change: the nerve is muscular in the arm and cutaneous below it.
+## answer_d
+Medial cutaneous nerve of arm
+## explanation_d
+The medial cutaneous nerve of the arm is another medial cord branch, and it supplies the arm rather than the forearm.
+## correct_answer
+C
+## main_concept
+CON-MSK-F125616F7ED37A
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what the musculocutaneous nerve becomes below the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q10. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The musculocutaneous nerve pierces the deep fascia about an inch above the elbow at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EFE08EB70939
+## title
+The deep muscles of back of forearm include: (2024) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The deep muscles of back of forearm include: (2024) em em em em em
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is superficial, from the lateral supracondylar ridge. It is the printed key and it is in the wrong group.
+## answer_b
+Extensor carpi radialis brevis
+## explanation_b
+Extensor carpi radialis brevis is superficial, from the common extensor origin.
+## answer_c
+Supinator
+## explanation_c
+Correct. Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.
+## answer_d
+Extensor carpi ulnaris
+## explanation_d
+Extensor carpi ulnaris is superficial, from the common extensor origin.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the deep extensor group from the superficial.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, extensor carpi radialis longus, which arises from the lateral supracondylar ridge and lies in the superficial group. The deep group of the back of the forearm is supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus and extensor indicis, and of the options only supinator is among them.
+
+
+---
+
+# Item
+## id
+QM-101-3669FA489135
+## title
+The ﬂexor digitorum profundus, choose correct answer: (DEP BOOK) P Vi a- Receives doubl…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ﬂexor digitorum profundus, choose correct answer: (DEP BOOK) P Vi a- Receives double nerve supply. Vi P
+## answer_a
+Receives double nerve supply.
+## explanation_a
+Correct. Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.
+## answer_b
+Inserted into the front of middle phalanx.
+## explanation_b
+The middle phalanx belongs to superficialis. It is the printed key here and it swaps the two digital flexors.
+## answer_c
+Flexes the lateral four ﬁngers.
+## explanation_c
+The four fingers it flexes are conventionally the medial four, the thumb excluded.
+## answer_d
+Arises from radius, ulna and interosseous membrane.
+## explanation_d
+It arises from the ulna and the interosseous membrane; flexor pollicis longus is the deep flexor with a radial origin.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise flexor digitorum profundus as the one muscle of the limb with two nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, insertion into the front of the middle phalanx, which is flexor digitorum superficialis — profundus passes through the split superficialis tendon to reach the distal phalanx. Its double nerve supply, anterior interosseous laterally and ulnar medially, is the true statement.
+
+
+---
+
+# Item
+## id
+QM-101-19D99CBA2326
+## title
+The extensor expansion of which of the following ﬁngers receives the tendon of the four…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The extensor expansion of which of the following ﬁngers receives the tendon of the fourth posterior interosseous muscle: (2018)
+## answer_a
+Index
+## explanation_a
+The index finger receives the first dorsal interosseous, on its radial side.
+## answer_b
+Middle
+## explanation_b
+The middle finger receives the second dorsal interosseous on its radial side and the third on its ulnar side — the axis of abduction runs through it, so it gets two.
+## answer_c
+Ring
+## explanation_c
+Correct. The fourth dorsal interosseous passes to the ulnar side of the ring finger, abducting it away from the middle finger.
+## answer_d
+Little. y
+## explanation_d
+The little finger has no dorsal interosseous; it is abducted by abductor digiti minimi, one of the hypothenar muscles, which is why there are four dorsal interossei and five digits.
+## answer_e
+Pronator teres
+## explanation_e
+This option is contamination: the words "Pronator teres" have been carried into the option set from elsewhere on the page, and a forearm muscle cannot be an answer to a question about which finger receives an interosseous tendon. It is recorded rather than ignored, and a rescan would show what the page printed.
+## correct_answer
+C
+## main_concept
+CON-MSK-2AA14F317F45C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Assign each dorsal interosseous to the finger whose expansion it joins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E26838CEE17
+## title
+The following artery is a branch of radial artery: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following artery is a branch of radial artery: (DEP BOOK)
+## answer_a
+Anterior ulnar recurrent artery.
+## explanation_a
+An ulnar branch given below the elbow.
+## answer_b
+Posterior ulnar recurrent artery.
+## explanation_b
+Also ulnar. It is the printed key here and its own name contradicts it.
+## answer_c
+Radialis indicis artery.
+## explanation_c
+Correct. The radialis indicis arises with the princeps pollicis from the radial artery in the palm.
+## answer_d
+Common interosseous artery.
+## explanation_d
+The common interosseous artery is the ulnar artery’s largest branch.
+## correct_answer
+C
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort the named branches around the elbow and hand between the radial and ulnar arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the posterior ulnar recurrent artery, whose name assigns it to the ulnar artery. The radialis indicis is the radial branch in the set.
+
+
+---
+
+# Item
+## id
+QM-101-A0A4766D16C4
+## title
+The following muscle is innervated by the posterior interosseous nerve: Ac P Vi (2017 -…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is innervated by the posterior interosseous nerve: Ac P Vi (2017 - 2021)
+## answer_a
+Extensor carpi radialis brevis. ad Vi P
+## explanation_a
+Correct. Extensor carpi radialis brevis takes the deep branch of the radial nerve — the posterior interosseous — while its longer neighbour takes the trunk.
+## answer_b
+Adductor pollicis
+## explanation_b
+Adductor pollicis is an intrinsic hand muscle supplied by the deep branch of the ulnar nerve.
+## answer_c
+Abductor pollicis brevis
+## explanation_c
+Abductor pollicis brevis is a thenar muscle on the median nerve.
+## answer_d
+Extensor carpi radial is longus
+## explanation_d
+Extensor carpi radialis longus is supplied by the radial nerve itself. It is the printed key and it names the one member of the pair the posterior interosseous nerve does not reach.
+## answer_e
+Anconeus
+## explanation_e
+Anconeus is supplied by the radial nerve in the arm, through the branch to the medial head of triceps.
+## correct_answer
+A
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate extensor carpi radialis brevis from longus by their nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, extensor carpi radialis longus, which is one of the three muscles the radial nerve supplies directly. Its neighbour extensor carpi radialis brevis is supplied by the posterior interosseous nerve, and the pair are offered side by side precisely because the supply changes between them.
+
+
+---
+
+# Item
+## id
+QM-101-498C377195DB
+## title
+The following muscle is innervated by the posterior interosseous nerve: (2017) Ac ad Ac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is innervated by the posterior interosseous nerve: (2017) Ac ad Ac ad ad ad
+## answer_a
+Extensor carpi radialis brevis.
+## explanation_a
+Correct. Extensor carpi radialis brevis is posterior interosseous.
+## answer_b
+Adductor pollicis.
+## explanation_b
+Adductor pollicis is ulnar.
+## answer_c
+Abductor pollicis brevis.
+## explanation_c
+Abductor pollicis brevis is median.
+## answer_d
+Extensor carpi radial is longus.
+## explanation_d
+Extensor carpi radialis longus is supplied by the radial nerve itself, which is why the wrist still extends after a posterior interosseous lesion.
+## correct_answer
+A
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate extensor carpi radialis brevis from longus by their nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives extensor carpi radialis longus, which the radial nerve supplies directly. The brevis is the one on the posterior interosseous nerve.
+
+
+---
+
+# Item
+## id
+QM-101-7A8199E65204
+## title
+The following muscle Is innervated by the radial nerve: (DEP BOOK) Vi ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle Is innervated by the radial nerve: (DEP BOOK) Vi ad
+## answer_a
+Supinator.
+## explanation_a
+Supinator is posterior interosseous. It is the printed key here and it names the muscle the branch passes through.
+## answer_b
+Abductor pollicis longus.
+## explanation_b
+Abductor pollicis longus is a deep extensor and posterior interosseous.
+## answer_c
+Extensor pollicis longus.
+## explanation_c
+Extensor pollicis longus is likewise deep and posterior interosseous.
+## answer_d
+Extensor carpi radialis longus.
+## explanation_d
+Correct. Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.
+## correct_answer
+D
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the three muscles the radial nerve supplies itself from the rest of the extensor compartment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, supinator, which is supplied by the posterior interosseous nerve that pierces it. The copy asked four times is keyed D, and extensor carpi radialis longus is one of only three muscles the radial nerve trunk supplies directly.
+
+
+---
+
+# Item
+## id
+QM-101-D139982B63C9
+## title
+The interosseous membrane, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The interosseous membrane, choose the correct answer: (DEP BOOK)
+## answer_a
+Is attached to the anterior borders of radius and ulna.
+## explanation_a
+The interosseous borders, which face each other, not the anterior borders, which face forwards.
+## answer_b
+Gives origin to abductor polices brevis.
+## explanation_b
+Abductor pollicis brevis is a thenar muscle in the hand; abductor pollicis longus is the one that arises from the back of the membrane.
+## answer_c
+Gives origin to the deep ﬂexors of the hand.
+## explanation_c
+Correct. The deep flexors — flexor pollicis longus and flexor digitorum profundus — arise from the front of the membrane.
+## answer_d
+Pierced by posterior interosseous vessels.
+## explanation_d
+The anterior interosseous artery pierces the membrane low down; the posterior interosseous vessels pass over its upper border.
+## correct_answer
+C
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-43BC54E5D13D
+## title
+The interosseous membrane, choose the correct answer: (DEP BOOK) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The interosseous membrane, choose the correct answer: (DEP BOOK) y
+## answer_a
+Is attached to the anterior borders of radius and ulna
+## explanation_a
+The membrane joins the interosseous borders of the two bones.
+## answer_b
+Gives origin to abductor polices brevis. Ac
+## explanation_b
+Abductor pollicis longus, not brevis, and from the posterior surface.
+## answer_c
+Gives origin to the deep ﬂexors of the hand
+## explanation_c
+Correct. Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.
+## answer_d
+Pierced by posterior interosseous vessels
+## explanation_d
+It is the anterior interosseous artery that pierces the membrane; the posterior interosseous vessels pass above it.
+## correct_answer
+C
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachments of the interosseous membrane and what arises from each of its surfaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-762858BB4C60
+## title
+The Lateral half of the ﬂexor digitorum profundus is supplied by: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The Lateral half of the ﬂexor digitorum profundus is supplied by: (IPKA)
+## answer_a
+Ulnar nerve.
+## explanation_a
+The ulnar nerve takes the medial half. It is the printed key here and it names the other side of the same muscle.
+## answer_b
+Anterior interosseus nerve.
+## explanation_b
+Correct. The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.
+## answer_c
+Both ulnar and median nerves.
+## explanation_c
+The muscle as a whole has both nerves, but each half has only one; the question asks about one half.
+## answer_d
+Posterior interosseous nerve.
+## explanation_d
+The posterior interosseous nerve is in the extensor compartment.
+## correct_answer
+B
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign each half of flexor digitorum profundus to its nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which supplies the medial half. The lateral half, to the index and middle fingers, is supplied by the anterior interosseous branch of the median nerve — which is why a high median lesion leaves the index unable to flex while the ring and little fingers still can.
+
+
+---
+
+# Item
+## id
+QM-101-FFC56928E110
+## title
+The median nerve innervates the following muscle: (2019) ad Ac a- Extensor carpi ulnari…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve innervates the following muscle: (2019) ad Ac a- Extensor carpi ulnaris. y Ac
+## answer_a
+Extensor carpi ulnaris.
+## explanation_a
+Extensor carpi ulnaris is a posterior compartment muscle on the posterior interosseous nerve.
+## answer_b
+Abductor pollicis brevis.
+## explanation_b
+Correct. Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.
+## answer_c
+Medial two lumbricals.
+## explanation_c
+The medial two lumbricals are ulnar; the lateral two are median. It is the printed key here and it takes the wrong half.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Adductor pollicis is ulnar.
+## correct_answer
+B
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the median muscle out of a list of ulnar and radial ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the medial two lumbricals, which are supplied by the deep branch of the ulnar nerve — it is the lateral two that are median. Abductor pollicis brevis is a thenar muscle and unambiguously median.
+
+
+---
+
+# Item
+## id
+QM-101-6D0969B2793F
+## title
+The median nerve supplies, one of the following muscles: (DEP BOOK) Vi ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve supplies, one of the following muscles: (DEP BOOK) Vi ad
+## answer_a
+Flexor carpi ulnaris muscle.
+## explanation_a
+Flexor carpi ulnaris is one of the two forearm flexors that are ulnar.
+## answer_b
+Dorsal interossei.
+## explanation_b
+The dorsal interossei are ulnar, through the deep branch.
+## answer_c
+Opponens pollicis.
+## explanation_c
+Correct. Opponens pollicis is median, and opposition is the movement a median lesion costs.
+## answer_d
+Adductor pollicis muscle.
+## explanation_d
+Adductor pollicis is ulnar — the one thumb muscle that is.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the median muscle out of a list of ulnar ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p68 q43. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded copy asked four times is keyed C. Opponens pollicis is a thenar muscle on the recurrent branch of the median nerve, while the other three options are all ulnar.
+
+
+---
+
+# Item
+## id
+QM-101-73064A42A399
+## title
+The muscle attached to the front of the interosseous membrane between radius Ac ad Ac a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The muscle attached to the front of the interosseous membrane between radius Ac ad Ac ad ad ad and ulna is: (2019)
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres arises from the medial epicondyle and the coronoid process of the ulna.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Flexor carpi radialis arises from the common flexor origin.
+## answer_c
+Flexor pollicis longus.
+## explanation_c
+Correct. Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris arises from the medial epicondyle and the ulna, behind the membrane’s plane rather than on it.
+## correct_answer
+C
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name a muscle arising from the front of the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p54 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The muscles attached to the front of the membrane are flexor pollicis longus and flexor digitorum profundus, and only the first is offered; the other three options are superficial flexors from the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-3AB692D8B353
+## title
+The Muscle takes origin from the radius is: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The Muscle takes origin from the radius is: (2022)
+## answer_a
+Biceps
+## explanation_a
+Biceps inserts into the radial tuberosity; it arises from the scapula.
+## answer_b
+Supinator
+## explanation_b
+Supinator arises from the ulna and the lateral epicondyle and inserts into the radius. Arising from a bone and wrapping round it are different things, and this is the option that trades on the difference.
+## answer_c
+Pronator quadratus
+## explanation_c
+Pronator quadratus arises from the ulna and inserts into the radius.
+## answer_d
+Flexor pollicis longus
+## explanation_d
+Correct. Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.
+## correct_answer
+D
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a muscle that arises from the radius from ones that insert into it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Flexor pollicis longus arises from the anterior surface of the radius and the interosseous membrane; the other three all act on the radius rather than arising from it.
+
+
+---
+
+# Item
+## id
+QM-101-AC2098A785CA
+## title
+The muscles supplied by posterior interosseous nerve in forearm include: (2016)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The muscles supplied by posterior interosseous nerve in forearm include: (2016)
+## answer_a
+Anconeus
+## explanation_a
+Anconeus is supplied by the radial nerve in the arm, by the branch that also serves the medial head of triceps.
+## answer_b
+Extensor carpi radialis longus
+## explanation_b
+Extensor carpi radialis longus is one of the three muscles the radial nerve supplies directly.
+## answer_c
+Extensor indicis
+## explanation_c
+Correct. Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.
+## answer_d
+Brachialis
+## explanation_d
+Brachialis is a flexor of the arm, supplied by the musculocutaneous nerve with a small radial twig.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a muscle of the posterior interosseous nerve and exclude the muscles of the radial trunk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Extensor indicis is a deep extensor and posterior interosseous; anconeus and extensor carpi radialis longus are supplied by the radial nerve itself, and brachialis is musculocutaneous.
+
+
+---
+
+# Item
+## id
+QM-101-CB5F4D4024A4
+## title
+The palmar arterial arches, choose the correct answer: (DEP BOOK) Ac P Vi a- The superﬁ…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmar arterial arches, choose the correct answer: (DEP BOOK) Ac P Vi a- The superﬁcial palmar arch is the continuation of radial artery. ad
+## answer_a
+The superﬁcial palmar arch is the continuation of radial artery.
+## explanation_a
+The superficial arch is mainly the ulnar artery, completed by the superficial palmar branch of the radial. This option gives it to the wrong parent.
+## answer_b
+The deep palmar arch is the continuation of ulnar artery.
+## explanation_b
+The deep arch is mainly the radial artery, completed by the deep branch of the ulnar — again reversed.
+## answer_c
+The superﬁcial palmar arch passes between the tendons ﬂexor digitorum.
+## explanation_c
+The superficial arch lies in front of the flexor tendons, immediately deep to the palmar aponeurosis, rather than passing between them.
+## answer_d
+The deep palmar arch passes between tendons of ﬂexor digitorum profundus and bases of the medial four metacarpal bones.
+## explanation_d
+Correct. The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.
+## correct_answer
+D
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the level and the plane of each palmar arch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q22. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem. The first two options reverse the two arches, and the third puts the superficial arch in the wrong plane; the deep arch does lie on the bases of the medial four metacarpals, deep to the long flexor tendons, which makes D the only true statement.
+
+
+---
+
+# Item
+## id
+QM-101-6E47F75BF036
+## title
+The posterior aspect of the interosseous membrane gives attachment to, mark Ac ad Ac ad…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The posterior aspect of the interosseous membrane gives attachment to, mark Ac ad Ac ad ad ad the suitable answer: (2022)
+## answer_a
+Flexer pollicis longus and ﬂexor digitorum profundus.
+## explanation_a
+These two are the deep flexors and arise from the front of the membrane. The option is the right answer to the mirror-image question, which is asked separately in this leaf.
+## answer_b
+Extensor indicis.
+## explanation_b
+Correct. Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.
+## answer_c
+Pronator quadratus.
+## explanation_c
+Pronator quadratus arises from the front of the ulna, not from the membrane at all.
+## answer_d
+Pronator teres.
+## explanation_d
+Pronator teres arises from the medial epicondyle and the coronoid process.
+## correct_answer
+B
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what arises from the back of the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-52A95963DD8E
+## title
+The radial artery as it continues forming the deep palmar arch, it passes between the h…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery as it continues forming the deep palmar arch, it passes between the heads of: (DEP BOOK)
+## answer_a
+Lumbrical muscle.
+## explanation_a
+A lumbrical arises by one head from a flexor tendon and lies in front of the artery’s route.
+## answer_b
+Adductor pollicis.
+## explanation_b
+Correct. Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.
+## answer_c
+Second dorsal interosseous.
+## explanation_c
+It is the first dorsal interosseous the artery passes through, and that is the earlier passage, from the dorsum into the palm.
+## answer_d
+Opponens pollicis.
+## explanation_d
+Opponens pollicis is single-headed and superficial to the artery.
+## correct_answer
+B
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Trace the radial artery from the back of the hand into the palm through two muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B846715335A8
+## title
+The radial artery lies Just lateral to the tendon of which muscle? (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery lies Just lateral to the tendon of which muscle? (IPKA)
+## answer_a
+Pronator tares
+## explanation_a
+Pronator teres ends halfway down the forearm and presents no tendon at the wrist. It is the printed key and it is wrong.
+## answer_b
+Flexor carpi radialis
+## explanation_b
+Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis lies laterally, and the artery runs in the groove between them.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris is on the opposite side of the wrist and is the landmark for the ulnar artery and nerve.
+## answer_e
+Flexor digitorum superﬁcialis. Ac
+## explanation_e
+The superficialis tendons lie deeper and more centrally, and they enter the carpal tunnel rather than lying beside the artery.
+## correct_answer
+B
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the tendon the radial pulse is taken lateral to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, pronator teres, which has no tendon at the wrist at all — it inserts into the middle of the lateral surface of the radius, well above it. The radial artery lies immediately lateral to the tendon of flexor carpi radialis, and that is where the pulse is felt.
+
+
+---
+
+# Item
+## id
+QM-101-826BE9EC39F0
+## title
+The radial artery lies just lateral to the tendon of which muscle?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery lies just lateral to the tendon of which muscle?
+## answer_a
+pronator teres
+## explanation_a
+Pronator teres has no tendon at the wrist.
+## answer_b
+flexor carpi radialis
+## explanation_b
+Correct. The pulse is felt lateral to flexor carpi radialis, on the front of the lower end of the radius.
+## answer_c
+palmaris longus
+## explanation_c
+Palmaris longus is in the midline and is the landmark for the median nerve.
+## answer_d
+flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris is the landmark on the ulnar side.
+## answer_e
+flexor digitorum superficialis
+## explanation_e
+The superficialis tendons run into the carpal tunnel rather than flanking the artery.
+## correct_answer
+B
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the tendon the radial pulse is taken lateral to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q11. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial artery at the wrist lies just lateral to the tendon of flexor carpi radialis, between it and brachioradialis.
+
+
+---
+
+# Item
+## id
+QM-101-3574B2AFA955
+## title
+The radial nerve, select the correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial nerve, select the correct statement:
+## answer_a
+supplies extensors to the elbow
+## explanation_a
+Correct. All three heads of triceps and anconeus take the radial nerve, which is why elbow extension is tested after a high radial lesion.
+## answer_b
+pierces the medial intermuscular septum of the mid arm
+## explanation_b
+The radial nerve pierces the lateral intermuscular septum. It is the ulnar nerve that pierces the medial one, and every distractor built on these two septa is that swap.
+## answer_c
+supplies extensor carpi ulnaris
+## explanation_c
+Extensor carpi ulnaris is supplied by the posterior interosseous nerve, a branch of the radial rather than the radial nerve itself — the distinction this faculty makes throughout the leaf.
+## answer_d
+runs on the lateral side of the radial artery in the forearm
+## explanation_d
+It is the superficial terminal branch, not the radial nerve, that lies lateral to the radial artery in the middle third of the forearm.
+## answer_e
+runs medially in the cubital fossa
+## explanation_e
+The radial nerve is the most lateral structure in the cubital fossa.
+## correct_answer
+A
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the radial nerve trunk from its branches in a list of statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p2 q12. Manifest src_a38c7a9672971718ccdb.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `the-radial-nerve-select-the-correct-statement-ipka-77370e8f` gives A, and A is correct — the radial nerve supplies triceps and anconeus, the extensors of the elbow. Each of the other options is true of a branch rather than of the trunk, or is a reversed relation: the nerve pierces the lateral septum, extensor carpi ulnaris is supplied by the posterior interosseous branch, it is the superficial branch that lies beside the radial artery in the forearm, and the nerve lies laterally in the cubital fossa.
+
+
+---
+
+# Item
+## id
+QM-101-36C9FCA7864C
+## title
+The radial nerve, select the correct statement: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial nerve, select the correct statement: (IPKA)
+## answer_a
+Supplies extensors to the elbow
+## explanation_a
+Correct. Triceps and anconeus are the extensors of the elbow and both are radial.
+## answer_b
+Pierces the medial intermuscular septum of the mid arm
+## explanation_b
+The lateral septum, not the medial. The medial belongs to the ulnar nerve.
+## answer_d
+Runs on the lateral side of the radial artery in the forearm
+## explanation_d
+That relation belongs to the superficial branch, in the middle third of the forearm.
+## answer_e
+Runs medially in the cubital fossa. Ac
+## explanation_e
+It lies laterally in the cubital fossa, beyond the biceps tendon.
+## correct_answer
+A
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the radial nerve trunk from its branches in a list of statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6BE99AA42E38
+## title
+The radius Is ﬁxed (tethered) to the ulna by: (DEP BOOK) Ac P a- Articular disc of the …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radius Is ﬁxed (tethered) to the ulna by: (DEP BOOK) Ac P a- Articular disc of the wrist joint. P Vi b- Interosseous membrane. y
+## answer_a
+Articular disc of the wrist joint.
+## explanation_a
+The articular disc binds the two bones at their lower ends only, as part of the inferior radio-ulnar joint.
+## answer_b
+Interosseous membrane.
+## explanation_b
+Correct. The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.
+## answer_c
+Radial collateral ligament.
+## explanation_c
+The radial collateral ligament is an elbow ligament, from the lateral epicondyle to the anular ligament.
+## answer_d
+Ulnar collateral ligament.
+## explanation_d
+The ulnar collateral ligament belongs to the elbow and connects humerus to ulna. It is the printed key here and it involves the wrong two bones.
+## correct_answer
+B
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure that holds the two forearm bones at a fixed distance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, the ulnar collateral ligament, which runs from the medial epicondyle of the humerus to the ulna and never touches the radius. The interosseous membrane is the structure that binds the two forearm bones together along their shafts.
+
+
+---
+
+# Item
+## id
+QM-101-03F3297B9ADF
+## title
+The structures passing deep to ﬂexor retinaculum include: (2024) Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The structures passing deep to ﬂexor retinaculum include: (2024) Ac em
+## answer_a
+Tendon of ﬂexor digitorum profundus
+## explanation_a
+Correct. The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.
+## answer_b
+Ulnar artery
+## explanation_b
+The ulnar artery crosses superficial to the retinaculum with the ulnar nerve.
+## answer_c
+Radial artery
+## explanation_c
+The radial artery leaves the front of the wrist laterally and crosses the anatomical snuff box on the back of the hand.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve passes superficial to the retinaculum in the canal of Guyon — the single most useful fact about this band, because it is why carpal tunnel syndrome spares the little finger.
+## correct_answer
+A
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what lies inside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-114A82614274
+## title
+The superﬁcial muscles of front of forearm include (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The superﬁcial muscles of front of forearm include (2024)
+## answer_a
+Pronator quadratus.
+## explanation_a
+Pronator quadratus is the deepest muscle of the front of the forearm.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Correct. Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.
+## answer_c
+Flexor pollicis longus.
+## explanation_c
+Flexor pollicis longus is deep, arising from the radius and the interosseous membrane. It is the printed key here and it is in the wrong group.
+## answer_d
+Supinator.
+## explanation_d
+Supinator is not in the anterior compartment at all — it is a deep extensor.
+## correct_answer
+B
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the superficial flexor group from the deep.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, flexor pollicis longus, which is one of the three deep flexors arising from the radius and the interosseous membrane. The superficial group is pronator teres, flexor carpi radialis, palmaris longus, flexor digitorum superficialis and flexor carpi ulnaris, and only flexor carpi radialis is offered.
+
+
+---
+
+# Item
+## id
+QM-101-52C36F22EF74
+## title
+The superﬁcial radial nerve, select the true statement: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The superﬁcial radial nerve, select the true statement: (2022)
+## answer_a
+Pierces the medial intermuscular septum of the arm.
+## explanation_a
+It is the radial nerve trunk, in the arm, that pierces the lateral intermuscular septum, and the septum is lateral rather than medial. The superficial branch begins below that, at the elbow.
+## answer_b
+Supplies the extensor carpi ulnaris muscle.
+## explanation_b
+The superficial branch carries no motor fibres. It is the printed key here and it is the whole point of the item: cutting this branch numbs the back of the hand and weakens nothing.
+## answer_c
+Lies on the lateral side of the radial artery in the forearm.
+## explanation_c
+Correct. In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.
+## answer_d
+Lies medially in the cubital fossa.
+## explanation_d
+It runs laterally, under brachioradialis; medial is the median nerve’s side of the fossa.
+## correct_answer
+C
+## main_concept
+CON-MSK-1FC89E36FFD98E
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State that the superficial branch of the radial nerve is purely sensory and give its relation to the radial artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, that the superficial radial nerve supplies extensor carpi ulnaris, which is false: the superficial branch is wholly cutaneous and supplies no muscle at all — extensor carpi ulnaris takes the deep branch, the posterior interosseous nerve. The true statement is C, its relation to the radial artery in the forearm.
+
+
+---
+
+# Item
+## id
+QM-101-055A9ADB80B0
+## title
+The tendon of the following muscle pass superﬁcial to the ﬂexor retinaculum at the wris…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendon of the following muscle pass superﬁcial to the ﬂexor retinaculum at the wrist: ad Ac (2017 – DEP BOOK) y Ac
+## answer_a
+Flexor digitorum superﬁcialis.
+## explanation_a
+The superficialis tendons are in the carpal tunnel.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+The profundus tendons are with them.
+## answer_c
+Palmaris longus.
+## explanation_c
+Correct. Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis passes through the retinaculum rather than over it — the one structure at the wrist that belongs to neither group. It is the printed key here and it is the near miss the item is built around.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, flexor carpi radialis, whose tendon runs through a compartment made by a split in the lateral attachment of the retinaculum rather than over the band. The tendon that lies superficial to it is palmaris longus, which is partly inserted into it, and the clean copy of this question is keyed C.
+
+
+---
+
+# Item
+## id
+QM-101-49CF36F2DD19
+## title
+The tendon of the following muscle passes superﬁcial to the ﬂexor retinaculum at the wr…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendon of the following muscle passes superﬁcial to the ﬂexor retinaculum at the wrist: (2017)
+## answer_a
+Flexor digitorum superﬁcialis.
+## explanation_a
+In the carpal tunnel.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+In the carpal tunnel.
+## answer_c
+Palmaris longus.
+## explanation_c
+Correct. Palmaris longus is the most superficial structure at the front of the wrist.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Within the retinaculum, not over it.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Palmaris longus is the tendon superficial to the retinaculum; flexor carpi radialis runs through a split in its lateral attachment, and the two digital flexors run under it in the carpal tunnel.
+
+
+---
+
+# Item
+## id
+QM-101-4456F092450D
+## title
+The tendon of the following muscle passes superficial to the flexor retinaculum at wris…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendon of the following muscle passes superficial to the flexor retinaculum at wrist: 0
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons are inside the tunnel.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons are inside the tunnel.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis runs in its own compartment within the retinaculum.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p19 q39. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling `the-tendon-of-the-following-muscle-passes-superlicial-to-the-bc8d97ab` gives C. Palmaris longus lies on the retinaculum and is partly inserted into it.
+
+
+---
+
+# Item
+## id
+QM-101-D3CF9B5A90EB
+## title
+The tendon of the following muscle passes superlicial to the flexor retinaculum at wrist:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendon of the following muscle passes superlicial to the flexor retinaculum at wrist:
+## answer_a
+Flexor digitorum superficialis tendons
+## explanation_a
+The superficialis tendons run in the carpal tunnel under the retinaculum.
+## answer_b
+Flexor digitorum profundus tendons
+## explanation_b
+The profundus tendons run with them.
+## answer_c
+Palmaris longus tendon
+## explanation_c
+Correct. Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.
+## answer_d
+Flexor carpi radialis tendon
+## explanation_d
+Flexor carpi radialis has its own compartment inside the lateral attachment of the retinaculum, so it passes through rather than over.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one tendon that lies on the flexor retinaculum rather than under or within it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p1 q2. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-784FD23A407B
+## title
+The ulnar nerve innervates the following muscle: (2017 - 2016) Ac P Vi a- Extensor carp…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ulnar nerve innervates the following muscle: (2017 - 2016) Ac P Vi a- Extensor carpi radialis
+## answer_b
+Adductor pollicis
+## explanation_b
+Correct. Adductor pollicis lies in the adductor compartment of the palm and is the muscle in which the deep branch of the ulnar nerve ends.
+## answer_c
+Extensor carpi ulnaris
+## explanation_c
+Named for the ulna, supplied by the radial. Every extensor of the forearm is radial, and this muscle is the reason the rule has to be stated. It is the printed key here and it is wrong.
+## answer_d
+Lateral two lumbricals
+## explanation_d
+The lateral two lumbricals are median; it is the medial two that are ulnar.
+## answer_e
+Pronator teres
+## explanation_e
+Pronator teres is median.
+## correct_answer
+B
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the ulnar muscle from a list whose names point elsewhere.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p63 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, extensor carpi ulnaris, which is named for the ulna but lies in the extensor compartment and is supplied by the posterior interosseous branch of the radial nerve. Adductor pollicis is the muscle in the list that the ulnar nerve genuinely supplies. Note that option A has been swallowed into the stem of this copy, leaving four options, which is still a sittable set.
+
+
+---
+
+# Item
+## id
+QM-101-87D33C70DACD
+## title
+The ulnar nerve Innervates which of the following muscles in the ﬂexor Ac ad Ac ad ad a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ulnar nerve Innervates which of the following muscles in the ﬂexor Ac ad Ac ad ad ad compartment? (IPKA)
+## answer_a
+The medial part of the ﬂexor digitorum superﬁcialis
+## explanation_a
+Flexor digitorum superficialis has no ulnar part at all. It is the profundus that is divided, and swapping the two digital flexors is the whole trap.
+## answer_b
+Flexor carpi radialis
+## explanation_b
+Flexor carpi radialis is median.
+## answer_d
+Pronator teres
+## explanation_d
+Pronator teres is median.
+## answer_e
+The medial part of ﬂexor digitorum profundus
+## explanation_e
+Correct. The medial half of flexor digitorum profundus, to the ring and little fingers, is supplied by the ulnar nerve; the lateral half is anterior interosseous.
+## correct_answer
+E
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the ulnar nerve’s two muscles in the flexor compartment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p68 q38. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling gives A, the medial part of flexor digitorum superficialis, which is wrong — superficialis is entirely median. The muscle split between the two nerves is profundus, and its medial part is the ulnar half.
+
+
+---
+
+# Item
+## id
+QM-101-7D7259E715BA
+## title
+The ulnar nerve Innervates which of the following muscles in the ﬂexor compartment. (IP…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ulnar nerve Innervates which of the following muscles in the ﬂexor compartment. (IPKA) Ac ad Ac
+## answer_a
+The medial part of the ﬂexor digitorum superﬁcialis
+## explanation_a
+Superficialis is entirely median. It is the printed key and it names the wrong one of the two digital flexors.
+## answer_b
+Flexor carpi radialis
+## explanation_b
+Flexor carpi radialis is median.
+## answer_c
+Pronator quadratus
+## explanation_c
+Pronator quadratus is median, through the anterior interosseous nerve.
+## answer_e
+The medial part of ﬂexor digitorum profundus
+## explanation_e
+Correct. The medial half of flexor digitorum profundus is ulnar.
+## correct_answer
+E
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the ulnar nerve’s two muscles in the flexor compartment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the medial part of flexor digitorum superficialis, and it is wrong: flexor digitorum superficialis is wholly median. The muscle with a medial ulnar half is flexor digitorum profundus.
+
+
+---
+
+# Item
+## id
+QM-101-5CF90D6A9D0D
+## title
+The ulnar nerve innervates which of the following muscles in the flexor compartment
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ulnar nerve innervates which of the following muscles in the flexor compartment
+## answer_a
+the medial part of the flexor digitorum superficialis
+## explanation_a
+Flexor digitorum superficialis is entirely median.
+## answer_b
+flexor carpi radialis
+## explanation_b
+Flexor carpi radialis is median.
+## answer_c
+pronator quadratus
+## explanation_c
+Pronator quadratus is median.
+## answer_d
+pronator teres
+## explanation_d
+Pronator teres is median.
+## answer_e
+the medial part of flexor digitorum profundus
+## explanation_e
+Correct. The medial half of flexor digitorum profundus is the ulnar nerve’s share of that muscle.
+## correct_answer
+E
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the ulnar nerve’s two muscles in the flexor compartment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q9. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve supplies flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm, and only the second is offered here.
+
+
+---
+
+# Item
+## id
+QM-101-D18A36516337
+## title
+Ulnar nerve enter the forearm between the two heads of the following muscle: (2022) Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Ulnar nerve enter the forearm between the two heads of the following muscle: (2022) Ac P Vi a- Flexor carpi ulnaris
+## answer_a
+Flexor carpi ulnaris.
+## explanation_a
+Correct. The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.
+## answer_b
+Flexor carpi radialis.
+## explanation_b
+Flexor carpi radialis has one head and lies on the other side of the forearm.
+## answer_c
+Pronator teres.
+## explanation_c
+The two heads of pronator teres are what the median nerve passes between — the same arrangement one nerve over, and the reason this distractor works.
+## answer_d
+Flexor digitorum superﬁcialis.
+## explanation_d
+The median nerve passes deep to the fibrous arch of flexor digitorum superficialis after leaving pronator teres.
+## correct_answer
+A
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the muscle whose two heads the ulnar nerve passes between.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem, which is an extraction artefact. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, an arch that lies just distal to the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-D4C4A12A9D5E
+## title
+Which muscle does NOT cross the elbow joint?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which muscle does NOT cross the elbow joint?
+## answer_a
+flexor pollicis longus
+## explanation_a
+Correct. Flexor pollicis longus arises from the shaft of the radius and the interosseous membrane and has no humeral attachment, so the elbow is above its origin.
+## answer_b
+pronator teres
+## explanation_b
+Pronator teres arises from the medial epicondyle and crosses the joint.
+## answer_c
+flexor carpi radialis
+## explanation_c
+Flexor carpi radialis arises from the common flexor origin on the medial epicondyle and crosses.
+## answer_d
+flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris arises from the medial epicondyle by one head and crosses.
+## answer_e
+flexor digitorum superficialis
+## explanation_e
+Flexor digitorum superficialis has a humeral head from the medial epicondyle and crosses.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the deep flexors, which arise below the elbow, from the superficial ones, which arise above it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q10. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives C, flexor carpi radialis, which arises from the medial epicondyle of the humerus and therefore crosses the joint. Flexor pollicis longus is a deep flexor arising from the radius and the interosseous membrane, entirely below the elbow.
+
+
+---
+
+# Item
+## id
+QM-101-9FD1AAC71015
+## title
+Which muscle does NOT cross the elbow joint? (IPKA) em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which muscle does NOT cross the elbow joint? (IPKA) em em
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Correct. Every muscle of the deep flexor group arises below the elbow, which is why they escape a common flexor origin injury.
+## answer_b
+Pronator teres
+## explanation_b
+Pronator teres crosses the joint from the medial epicondyle.
+## answer_c
+Flexor carpi radialis
+## explanation_c
+Flexor carpi radialis crosses. It is the printed key and it is one of the four muscles that do.
+## answer_d
+Flexor carpi ulnaris
+## explanation_d
+Flexor carpi ulnaris crosses.
+## answer_e
+Flexor digitorum superﬁcialis
+## explanation_e
+Flexor digitorum superficialis crosses by its humeral head.
+## correct_answer
+A
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the deep flexors, which arise below the elbow, from the superficial ones, which arise above it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p52 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, flexor carpi radialis, which arises from the medial epicondyle and so does cross the elbow. The muscle that does not is flexor pollicis longus, one of the deep group arising wholly from the bones of the forearm.
+
+
+---
+
+# Item
+## id
+QM-101-DB18E2E1A8A4
+## title
+Which of the following does NOT abduct the hand at the wrist joint? (IPKA – 2022 - 2021…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following does NOT abduct the hand at the wrist joint? (IPKA – 2022 - 2021) ad Ac a- Flexor carpi radialis
+## answer_a
+Flexor carpi radialis.
+## explanation_a
+Flexor carpi radialis abducts as well as flexing; it is the flexor half of the abducting pair.
+## answer_b
+Extensor carpi radialis longus.
+## explanation_b
+Extensor carpi radialis longus abducts as well as extending.
+## answer_c
+Extensor carpi radialis brevis.
+## explanation_c
+Extensor carpi radialis brevis does the same.
+## answer_d
+Abductor pollicis longus.
+## explanation_d
+Abductor pollicis longus crosses the radial side of the wrist on its way to the thumb and assists abduction there, which is what its name records. It is the printed key and it names a genuine abductor.
+## answer_e
+Palmaris longus.
+## explanation_e
+Correct, and the answer. Palmaris longus runs down the middle of the forearm to the palmar aponeurosis; a muscle in the midline can flex but cannot pull the hand to either side.
+## correct_answer
+E
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscles that abduct the wrist and the one that flexes it without deviating it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, abductor pollicis longus, which despite acting mainly on the thumb does abduct the wrist as it crosses the lateral side of the carpus. Palmaris longus lies exactly in the midline of the front of the wrist and produces pure flexion, so it is the one muscle in the list that cannot deviate the hand.
+
+
+---
+
+# Item
+## id
+QM-101-3DF8A56EFC60
+## title
+Which of the following does NOT abduct the hand at the wrist joint?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following does NOT abduct the hand at the wrist joint?
+## answer_a
+flexor carpi radialis
+## explanation_a
+Flexes and abducts.
+## answer_b
+extensor carpi radialis longus
+## explanation_b
+Extends and abducts.
+## answer_c
+extensor carpi radialis brevis
+## explanation_c
+Extends and abducts.
+## answer_d
+abductor pollicis longus
+## explanation_d
+Crosses the radial side of the wrist and assists abduction.
+## answer_e
+palmaris longus
+## explanation_e
+Correct. Palmaris longus lies in the midline and produces pure flexion.
+## correct_answer
+E
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscles that abduct the wrist and the one that flexes it without deviating it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q12. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives abductor pollicis longus, which does abduct the wrist. Palmaris longus is the midline muscle and the only one in the list that cannot deviate the hand.
+
+
+---
+
+# Item
+## id
+QM-101-CC23D17585DF
+## title
+Which of the following DOES NOT relate to the cubital fossa? (IPKA) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following DOES NOT relate to the cubital fossa? (IPKA) Ac ad Ac ad ad ad
+## answer_a
+Brachialis
+## explanation_a
+Brachialis forms the medial part of the floor.
+## answer_b
+Supinator
+## explanation_b
+Supinator forms the lateral part of the floor.
+## answer_c
+Line connections the two humeral epicondyles
+## explanation_c
+The line joining the two epicondyles is the base of the triangle, at the top.
+## answer_e
+Ulnar nerve
+## explanation_e
+Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back of the medial epicondyle, well outside the fossa.
+## correct_answer
+E
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the structures that bound or fill the cubital fossa from the one that passes behind the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p55 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. Brachialis and supinator form the floor of the fossa, and the line joining the two humeral epicondyles is its upper boundary; the ulnar nerve passes behind the medial epicondyle and has no relation to the fossa at all.
+
+
+---
+
+# Item
+## id
+QM-101-E146E135EAFF
+## title
+Which of the following DOES NOT related to the cubital fossa?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following DOES NOT related to the cubital fossa?
+## answer_a
+brachialis
+## explanation_a
+The medial part of the floor.
+## answer_b
+supinator
+## explanation_b
+The lateral part of the floor.
+## answer_c
+line connections the two humeral epicondyles
+## explanation_c
+The upper boundary of the triangle.
+## answer_d
+bicipital aponeurosis
+## explanation_d
+Part of the roof, reinforcing the deep fascia and separating the median cubital vein from the artery beneath.
+## answer_e
+ulnar nerve
+## explanation_e
+Correct. The ulnar nerve is behind the medial epicondyle.
+## correct_answer
+E
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the structures that bound or fill the cubital fossa from the one that passes behind the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p2 q13. Manifest src_a38c7a9672971718ccdb.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachialis and supinator make the floor, the interepicondylar line the base, and the bicipital aponeurosis part of the roof; the ulnar nerve alone lies outside the fossa.
+
+
+---
+
+# Item
+## id
+QM-101-1F93F30D1DCE
+## title
+Which of the following does NOT take an origin from the lateral epicondyle of the P Vi …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following does NOT take an origin from the lateral epicondyle of the P Vi humerus? (IPKA – 2022 - 2021) Vi P
+## answer_a
+Extensor carpi radialis brevis
+## explanation_a
+Extensor carpi radialis brevis arises from the common extensor origin.
+## answer_b
+Extensor carpi ulnaris
+## explanation_b
+Extensor carpi ulnaris arises from the common extensor origin too, by its humeral head. It is the printed key here and it is wrong.
+## answer_c
+Abductor pollicis longus
+## explanation_c
+Correct, and the answer. Abductor pollicis longus is deep and arises entirely from the bones of the forearm and the membrane between them.
+## answer_d
+Supinator. P
+## explanation_d
+Supinator is a deep muscle but does take an attachment from the lateral epicondyle, along with the radial collateral and anular ligaments and the supinator crest of the ulna.
+## answer_e
+Extensor digiti minimi. Vi y
+## explanation_e
+Extensor digiti minimi arises from the common extensor origin.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the muscles of the common extensor origin from the deep group that arises from the bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, extensor carpi ulnaris, which is one of the four muscles of the common extensor origin on the lateral epicondyle. Abductor pollicis longus is a deep extensor arising from the backs of the ulna, the radius and the interosseous membrane, and it is the one muscle in the list with no epicondylar attachment.
+
+
+---
+
+# Item
+## id
+QM-101-8DBA1BA930DD
+## title
+Which of the following does NOT take an origin from the lateral epicondyle of the humerus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following does NOT take an origin from the lateral epicondyle of the humerus?
+## answer_a
+extensor carpi radialis brevis
+## explanation_a
+From the common extensor origin.
+## answer_b
+extensor carpi ulnaris
+## explanation_b
+From the common extensor origin.
+## answer_c
+abductor pollicis longus
+## explanation_c
+Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane.
+## answer_d
+supinator
+## explanation_d
+Supinator does take a slip from the lateral epicondyle, even though it belongs to the deep group.
+## answer_e
+extensor digiti minimi
+## explanation_e
+From the common extensor origin.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the muscles of the common extensor origin from the deep group that arises from the bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q5. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives extensor carpi ulnaris, which does arise from the lateral epicondyle. Abductor pollicis longus is the deep extensor with no attachment to it.
+
+
+---
+
+# Item
+## id
+QM-101-DD4199EB46CB
+## title
+Which of the following is derived from the radial artery? (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is derived from the radial artery? (IPKA)
+## answer_a
+Dorsal and palmar carpal arteries. P
+## explanation_a
+Correct. The radial artery gives a palmar carpal branch on the front of the wrist and a dorsal carpal branch in the snuff box, each joining its ulnar fellow to make a carpal arch.
+## answer_b
+Common interosseous artery
+## explanation_b
+The common interosseous artery is the ulnar artery’s largest branch.
+## answer_c
+Anterior interosseous artery
+## explanation_c
+The anterior interosseous artery comes from the common interosseous and so is ulnar in origin.
+## answer_d
+Pronator quadratus
+## explanation_d
+This option is contamination: the words "Pronator quadratus" have been carried into the option set from elsewhere on the page. A muscle cannot be a derivative of an artery, and a rescan would show what the page printed.
+## answer_e
+Ulnar recurrent artery
+## explanation_e
+The ulnar recurrent arteries, anterior and posterior, are both ulnar branches.
+## correct_answer
+A
+## main_concept
+CON-MSK-9FF8A29E36480B
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the radial artery’s carpal branches and reject the ulnar ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6D0A2A60A51B
+## title
+Which of the following is NOT a branch of the radial nerve? (2022 - 2021) Ac ad Ac ad a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT a branch of the radial nerve? (2022 - 2021) Ac ad Ac ad ad ad
+## answer_a
+Posterior cutaneous nerve of the arm.
+## explanation_a
+A radial branch, given in the axilla, so not the answer.
+## answer_b
+Posterior cutaneous nerve of the forearm.
+## explanation_b
+A radial branch, given in the spiral groove. It is the printed key and it is one of the three the nerve does give.
+## answer_c
+Lower lateral cutaneous nerve of the arm.
+## explanation_c
+A radial branch, also given in the spiral groove, supplying the lower lateral part of the arm.
+## answer_d
+Upper lateral cutaneous nerve of the arm.
+## explanation_d
+Correct, and the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.
+## correct_answer
+D
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the radial nerve’s three cutaneous branches from the axillary nerve’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the posterior cutaneous nerve of the forearm, which is a genuine radial branch given in the spiral groove. The one in the list that is not radial is the upper lateral cutaneous nerve of the arm, which comes from the posterior branch of the axillary nerve and supplies the skin over the lower half of deltoid.
+
+
+---
+
+# Item
+## id
+QM-101-3108BF9844E5
+## title
+Which of the following IS NOT true about the flexor carpi ulnaris?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following IS NOT true about the flexor carpi ulnaris?
+## answer_a
+acts as a synergist during wrist extension
+## explanation_a
+Not true, and therefore the answer. Flexor carpi ulnaris opposes extension of the wrist. It does act as a synergist, but in a different movement: it stabilises the pisiform for abductor digiti minimi, and it pairs with extensor carpi ulnaris to adduct.
+## answer_b
+inserts into base of fifth metacarpal
+## explanation_b
+True, so not the answer — through the pisiform, by the pisohamate and pisometacarpal ligaments.
+## answer_c
+most medial muscles arising from the common flexor origin
+## explanation_c
+True, so not the answer. It is the last muscle on the medial side of the superficial group.
+## answer_d
+ulnar nerve passes between its two heads
+## explanation_d
+True, so not the answer. The humeral and ulnar heads form the arch through which the ulnar nerve enters the forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the insertion, position and action of flexor carpi ulnaris.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p2 q8. Manifest src_a2bf7a9dca4e7cf4015d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Flexor carpi ulnaris does insert into the pisiform and through it into the hook of the hamate and the base of the fifth metacarpal, it is the most medial muscle of the common flexor origin, and the ulnar nerve does pass between its two heads. What is not true is the first statement: a wrist flexor is the antagonist of wrist extension, not its synergist — the synergists of finger flexion are the wrist extensors, and the option has that relationship inverted.
+
+
+---
+
+# Item
+## id
+QM-101-03BEE1AC2571
+## title
+Which of the following is true about flexor digitorum superficialis?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true about flexor digitorum superficialis?
+## answer_a
+all four tendons lie on the same plane under flexor retinaculum
+## explanation_a
+They lie in two planes: the tendons to the middle and ring fingers in front, those to the index and little fingers behind. That arrangement is why the middle and ring fingers are the first to be involved in a tenosynovitis of the common sheath.
+## answer_b
+is innervated by median and ulnar nerves
+## explanation_b
+Flexor digitorum superficialis is wholly median. It is flexor digitorum profundus that has two nerves, and the two muscles are constantly swapped.
+## answer_c
+tendon to index finger separates before other three tendons high in forearm
+## explanation_c
+The tendons that separate first and lie superficial are those to the middle and ring fingers, not the index.
+## answer_d
+median nerve passes between its two heads
+## explanation_d
+Correct. The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.
+## correct_answer
+D
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the arrangement of the superficialis tendons and the nerve that passes through the muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p1 q6. Manifest src_a2bf7a9dca4e7cf4015d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The four superficialis tendons lie in two planes under the retinaculum rather than one; the muscle is entirely median, not median and ulnar — that is profundus; and it is the tendons to the middle and ring fingers that separate first, lying superficial, with the index and little finger tendons deep. The median nerve does pass between the two heads of the muscle, which makes D the true statement.
+
+
+---
+
+# Item
+## id
+QM-101-ECA9960D2965
+## title
+Which of the following is true in respect to the supinator?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true in respect to the supinator?
+## answer_a
+It is innervated by the ulnar nerve
+## explanation_a
+Supinator is a deep extensor and is pierced and supplied by the posterior interosseous nerve. The ulnar nerve reaches no muscle in the extensor compartment.
+## answer_b
+It supinates the forearm by rotating the ulna
+## explanation_b
+It rotates the radius. The ulna is the fixed bone of the forearm, which is what allows the hand to turn without the elbow moving.
+## answer_c
+It forms the floor of the cubital fossa along with the brachioradialis
+## explanation_c
+The floor of the fossa is brachialis medially and supinator laterally; brachioradialis makes the lateral wall. This is the answer the books print and it substitutes a boundary for a floor.
+## answer_d
+It supinates the forearm when the forearm is already flexed
+## explanation_d
+Supinator works in all positions of the elbow and is the muscle relied on when the elbow is extended; it is biceps that needs the elbow flexed.
+## answer_e
+It rotates the radius to turn the palm anteriorly
+## explanation_e
+Correct. Supination is rotation of the radius so that the palm faces forwards, and supinator is the muscle named for it.
+## correct_answer
+E
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Say what supinator actually rotates and what forms the floor of the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q4. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the two keyed copies both give C — that supinator forms the floor of the cubital fossa "along with the brachioradialis". The floor is brachialis and supinator; brachioradialis is the lateral boundary. The true statement is E: supinator turns the palm forwards by rotating the radius, the ulna staying fixed.
+
+
+---
+
+# Item
+## id
+QM-101-8A73938F4BDB
+## title
+Which of the following is true in respect to the supinator? (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true in respect to the supinator? (IPKA)
+## answer_a
+It is innervated by the ulnar nerve
+## explanation_a
+Supinator is posterior interosseous, not ulnar.
+## answer_b
+It supinates the forearm by rotating the ulna
+## explanation_b
+It rotates the radius, not the ulna.
+## answer_c
+It forms the ﬂoor of the cubital fossa along with the brachioradialis. Ac ad
+## explanation_c
+Brachialis, not brachioradialis, is supinator’s partner in the floor. It is the printed key and it swaps a boundary for the floor.
+## answer_d
+It supinates the forearm when the forearm is already ﬂexed
+## explanation_d
+Supinator acts in any position; biceps is the one that needs flexion.
+## answer_e
+It rotates the radius to turn the palm anteriorly
+## explanation_e
+Correct. Supinator rotates the radius laterally so that the palm faces forwards.
+## correct_answer
+E
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Say what supinator actually rotates and what forms the floor of the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that supinator forms the floor of the cubital fossa with brachioradialis. The floor is brachialis and supinator; brachioradialis is the lateral boundary, and the department’s own concept of the fossa says so. The true option is E.
+
+
+---
+
+# Item
+## id
+QM-101-41EA58CD25CD
+## title
+Which of the following is true in respect to the supinator muscle? (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true in respect to the supinator muscle? (2021)
+## answer_a
+It is innervated by the ulnar nerve
+## explanation_a
+Supinator takes the posterior interosseous nerve.
+## answer_b
+It supinates the forearm by rotating the ulna
+## explanation_b
+It rotates the radius; the ulna is fixed.
+## answer_c
+It forms the ﬂoor of the cubital fossa along with the brachioradialis. Ac ad
+## explanation_c
+Brachialis is the muscle that shares the floor with supinator. It is the printed key and it names the lateral boundary instead.
+## answer_d
+It arises from annular and lateral collateral ligament
+## explanation_d
+Correct. Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.
+## correct_answer
+D
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin of supinator and correct the floor of the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, supinator forming the floor of the cubital fossa "along with the brachioradialis"; the floor is brachialis and supinator, brachioradialis being the lateral boundary. This copy replaces the fifth option of its siblings with a statement about the muscle’s origin, and that statement is true: supinator arises from the anular and the lateral collateral ligaments as well as from the lateral epicondyle and the supinator crest of the ulna.
+
+
+---
+
+# Item
+## id
+QM-101-C2541B79BB4D
+## title
+Which of the following muscles arises from interosseous membrane between ad radius & ul…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles arises from interosseous membrane between ad radius & ulna: (DEP BOOK) Vi P ad
+## answer_a
+Pronator teres.
+## explanation_a
+Pronator teres arises from the humerus and the ulna, above the membrane. It is the printed key and it is wrong.
+## answer_b
+Palmaris longus.
+## explanation_b
+Palmaris longus arises from the common flexor origin on the medial epicondyle.
+## answer_c
+Abductor pollicis longus.
+## explanation_c
+Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.
+## answer_d
+Extensor digitorum.
+## explanation_d
+Extensor digitorum arises from the common extensor origin on the lateral epicondyle.
+## correct_answer
+C
+## main_concept
+CON-MSK-4CFF00B2741E50
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name a muscle arising from the interosseous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q22. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, pronator teres, which arises from the medial epicondyle and the coronoid process and reaches the membrane nowhere. Abductor pollicis longus is one of the deep extensors arising from the posterior surface of the membrane.
+
+
+---
+
+# Item
+## id
+QM-101-DC183CD7AD04
+## title
+Which of the following muscles arises, in part, from the radial collateral ligament of …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles arises, in part, from the radial collateral ligament of the elbow joint?
+## answer_a
+extensor carpi radialis brevis
+## explanation_a
+Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle only.
+## answer_b
+supinator
+## explanation_b
+Correct. Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.
+## answer_c
+extensor carpi ulnaris
+## explanation_c
+Extensor carpi ulnaris arises from the common extensor origin and the posterior border of the ulna.
+## answer_d
+extensor digitorum
+## explanation_d
+Extensor digitorum arises from the common extensor origin.
+## correct_answer
+B
+## main_concept
+CON-MSK-E10403A4189B45
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscle that takes origin from a ligament of the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p2 q10. Manifest src_a2bf7a9dca4e7cf4015d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Supinator is the one muscle of the forearm with a ligamentous origin: it arises from the lateral epicondyle, the radial collateral ligament of the elbow, the anular ligament and the supinator crest of the ulna.
+
+
+---
+
+# Item
+## id
+QM-101-14FB7A0135C8
+## title
+Which of the following muscles DOES NOT arise from the common extensor origin?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles DOES NOT arise from the common extensor origin?
+## answer_a
+extensor carpi radialis brevis
+## explanation_a
+Extensor carpi radialis brevis arises from the common extensor origin.
+## answer_b
+extensor digitorum
+## explanation_b
+Extensor digitorum arises from the common extensor origin.
+## answer_c
+extensor carpi radialis longus
+## explanation_c
+Correct, and the answer. Extensor carpi radialis longus arises from the lateral supracondylar ridge above the epicondyle, alongside brachioradialis — which is why the two of them share a nerve supply from the radial trunk while the rest of the compartment takes the posterior interosseous nerve.
+## answer_d
+extensor digiti minimi
+## explanation_d
+Extensor digiti minimi arises from the common extensor origin.
+## answer_e
+extensor carpi ulnaris
+## explanation_e
+Extensor carpi ulnaris arises from the common extensor origin by its humeral head.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Upper Limb
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that extensor carpi radialis longus arises above the lateral epicondyle, not from it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Forearm) (3).pdf p1 q7. Manifest src_a2bf7a9dca4e7cf4015d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, extensor carpi radialis brevis, which is one of the four common extensor origin muscles. Extensor carpi radialis longus arises from the lower third of the lateral supracondylar ridge, above the epicondyle, and that origin goes with its separate nerve supply from the radial trunk.
+
+
+---
+
+# Item
+## id
+QM-101-5D65A30267FC
+## title
+Which of the following muscles DOES NOT arise from the common extensor (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles DOES NOT arise from the common extensor (IPKA)
+## answer_a
+Extensor carpi radialis brevis
+## explanation_a
+From the common extensor origin. It is the printed key and it is one of the four that do.
+## answer_c
+Extensor carpi radialis longus. ad Vi P
+## explanation_c
+Correct. Extensor carpi radialis longus comes from the lateral supracondylar ridge, above the epicondyle.
+## answer_d
+Extensor digiti minimi
+## explanation_d
+From the common extensor origin.
+## answer_e
+Extensor carpi ulnaris
+## explanation_e
+From the common extensor origin.
+## correct_answer
+C
+## main_concept
+CON-MSK-E04D8A31AEAC23
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that extensor carpi radialis longus arises above the lateral epicondyle, not from it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p82 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, extensor carpi radialis brevis, which does arise from the common extensor origin — it is the shorter of the pair precisely because it starts lower. The longus arises higher, from the lateral supracondylar ridge, and is the exception.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9C74CA7DA1FA
+## title
+Which of the following muscles does not extend wrist: (DEP BOOK – 2022 – 2021 - 2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles does not extend wrist: (DEP BOOK – 2022 – 2021 - 2021)
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus extends and abducts the wrist.
+## answer_b
+Extensor carpi ulnaris
+## explanation_b
+Extensor carpi ulnaris extends and adducts it.
+## answer_c
+Extensor digitorum
+## explanation_c
+Extensor digitorum extends the fingers and, continuing past the wrist, helps extend it too.
+## answer_d
+Brachioradialis. P
+## explanation_d
+Correct. Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.
+## correct_answer
+D
+## main_concept
+CON-MSK-4E0B2E1C8DBA77
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+Forearm
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise brachioradialis as an extensor compartment muscle that does not extend anything.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23. Manifest src_08bc782553366518791e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -74066,6 +88676,5567 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-32DF95121AF2
+## title
+Normal RBCs are :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Normal RBCs are :
+## answer_a
+oval in shape
+## explanation_a
+Oval red cells are ovalocytes, one of the abnormal shapes the book lists — normal in camels and birds, abnormal in a human film.
+## answer_b
+nucleated biconcave disks
+## explanation_b
+Nucleated red cells are precursors still in the marrow, or a sign of disease if they reach the blood. The mature cell has extruded its nucleus.
+## answer_c
+non nucleated biconcave disks
+## explanation_c
+Correct. A normal red cell is a non-nucleated biconcave disc.
+## answer_d
+non nucleated biconvex disks
+## explanation_d
+Biconvex is the profile with its curves reversed — thick in the middle instead of thin. It is the single commonest distractor in this chapter and turns on one letter.
+## correct_answer
+C
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the shape and nuclear status of a normal red cell in one phrase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q4. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EF67D1CFAD27
+## title
+top view of RBCS is ……….. while side view is …………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+top view of RBCS is ……….. while side view is …………
+## answer_a
+biconcave, rounded
+## explanation_a
+The two views the wrong way round. A disc seen edge-on is biconcave and seen from above is rounded, not the reverse; this option is the correct pair transposed and is the strongest distractor for that reason.
+## answer_b
+rounded, biconcave
+## explanation_b
+Correct. Rounded in top view, biconcave in side view.
+## answer_c
+oval, biconvex
+## explanation_c
+Both halves wrong. Oval belongs to the ovalocyte, an abnormal cell, and biconvex reverses the profile. It is the option the books key this question to.
+## answer_d
+biconvex, cylinder
+## explanation_d
+Biconvex and cylindrical describe no red cell at all — a cylinder has no view in which it looks like a disc.
+## correct_answer
+B
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the appearance of a red cell in each of the two views.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q1. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The books key this to C, "oval, biconvex". The department book states that red cells are rounded in top view and biconcave in side view, and both halves of the printed key are wrong: oval is the ovalocyte, an abnormal shape, and biconvex is the inverse of the normal profile. The answer is B.
+
+
+---
+
+# Item
+## id
+QM-101-B1EB72EF85A8
+## title
+The average size of RBCs
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The average size of RBCs
+## answer_a
+7.0 um
+## explanation_a
+Correct. About 7 µm — the book gives a range of 6–9 µm with an average of 7.5 µm.
+## answer_b
+7.0 nm
+## explanation_b
+7 nm is a thousandfold too small: that is the order of a cell membrane's thickness, not a cell's diameter.
+## answer_c
+7.0 mm
+## explanation_c
+7 mm is a thousandfold too large and would make a red cell visible to the naked eye.
+## answer_d
+0.7 cm
+## explanation_d
+0.7 cm is 7 mm again in another unit. All three wrong options carry the right figure and the wrong prefix, which is the whole of the question.
+## correct_answer
+A
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the red cell diameter in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q77. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E5A1EFDA2C8D
+## title
+Central pallor in RBCs is the:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Central pallor in RBCs is the:
+## answer_a
+middle 1/3
+## explanation_a
+Correct. The pale centre occupies about the middle third of the diameter, and that is what "normochromic" means on a film.
+## answer_b
+middle 1/2
+## explanation_b
+A pallor half the diameter is what hypochromic cells show, as in iron deficiency — a real appearance, but not the normal one.
+## answer_c
+middle 2/3
+## explanation_c
+Two thirds pale would leave only a thin rim of haemoglobin, which is severe hypochromia.
+## answer_d
+middle 1/4
+## explanation_d
+A quarter is too small; a pallor that slight suggests a spherocyte, which has almost none because it has lost its biconcavity.
+## correct_answer
+A
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the size of the central pallor as a fraction of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q59. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-C0F568389EFD
+## title
+RBCs are……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+RBCs are……………
+## answer_a
+basophilic
+## explanation_a
+Basophilic means taking the basic dye, which acidic components do. Haemoglobin is a basic protein and so does the opposite.
+## answer_b
+need special stain
+## explanation_b
+No special stain is needed: the red cell takes eosin in a routine film, and in an unstained film it is already coloured by its own haemoglobin.
+## answer_c
+acidophilic
+## explanation_c
+Correct. Red cells are acidophilic — they bind the acidic eosin, because haemoglobin is basic.
+## answer_d
+All the above
+## explanation_d
+"All the above" cannot hold when the first two options contradict each other and contradict the third.
+## correct_answer
+C
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the staining reaction of the red cell and say what causes it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q26. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D23545249A1C
+## title
+Light microscopic features of red blood corpuscles Include:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Light microscopic features of red blood corpuscles Include:
+## answer_a
+Variation in size
+## explanation_a
+Variation in size is anisocytosis, which the book lists among the abnormalities. A normal film shows cells of one size.
+## answer_b
+Acidophilic appearance
+## explanation_b
+Correct. Red cells are acidophilic, taking the eosin of a Leishman or H&E preparation.
+## answer_c
+The presence of nuclei
+## explanation_c
+The mature red cell has no nucleus. Nucleated red cells in the blood mean the marrow is releasing immature cells.
+## answer_d
+Dark central area
+## explanation_d
+The centre is pale, not dark — the cell is thinnest there. A dark centre would mean the disc was biconvex, which is the shape error this chapter keeps testing.
+## correct_answer
+B
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the normal light-microscopic feature out of three abnormal ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p23 q2. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Only B is a feature of normal red cells on light microscopy: they are acidophilic because haemoglobin is a basic protein. Variation in size is anisocytosis, an abnormality; nuclei are absent; and the centre is pale, not dark.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FD1DB32BA70A
+## title
+The RBCs in adults:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The RBCs in adults:
+## answer_a
+Are flexible biconcave discs
+## explanation_a
+Correct. Flexible, because they must pass capillaries narrower than themselves, and biconcave, for surface area.
+## answer_b
+Have a life span of about 3 weeks
+## explanation_b
+Three weeks is about 21 days; the red cell lives 120. The figure belongs to no cell in this chapter.
+## answer_c
+Are nucleated cells
+## explanation_c
+The mature red cell has no nucleus at all — that is the point of the ultrastructure question on the same page.
+## answer_d
+Contain myoglobin
+## explanation_d
+Myoglobin is the oxygen-binding protein of muscle. The red cell carries haemoglobin, and the two are close enough in name to be worth separating deliberately.
+## correct_answer
+A
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about adult red cells from three that fail on a single fact.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p23 q1. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key for either printing of this question. Only A is true: red cells are flexible biconcave discs. The life span is 120 days rather than three weeks, the cells are non-nucleated, and they contain haemoglobin, not myoglobin.
+
+
+---
+
+# Item
+## id
+QM-101-F26176E28E0C
+## title
+blood elements are :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+blood elements are :
+## answer_a
+erythrocytes
+## explanation_a
+True but incomplete. Erythrocytes are one of the three formed elements.
+## answer_b
+leukocytes
+## explanation_b
+True but incomplete. Leukocytes are the second.
+## answer_c
+thrombocytes
+## explanation_c
+True but incomplete. Thrombocytes — the platelets — are the third.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three are the formed elements of blood, which make up 45 per cent of it against 55 per cent plasma.
+## correct_answer
+D
+## main_concept
+CON-HEM-623C790132C4D6
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the three formed elements of blood.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q3. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7FD24E3DC0F4
+## title
+characteristic ultrastructural feature of RBCs includes:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+characteristic ultrastructural feature of RBCs includes:
+## answer_a
+Well-developed rER
+## explanation_a
+Well-developed rough endoplasmic reticulum belongs to a cell making protein for export — a plasma cell or a fibroblast. The red cell made its haemoglobin before it lost its ribosomes.
+## answer_b
+Heterochromatic nucleus
+## explanation_b
+A heterochromatic nucleus is a nucleus, and the mature red cell has none.
+## answer_c
+Cell membrane as the only organelle
+## explanation_c
+Correct. The cell membrane is the only membranous structure the mature red cell retains; there is no nucleus and no organelle inside it, only haemoglobin.
+## answer_d
+Euchromatic nucleus
+## explanation_d
+A euchromatic nucleus is the pale active nucleus of a synthesising cell — twice wrong here, since the cell has neither a nucleus nor any synthesis left to do.
+## correct_answer
+C
+## main_concept
+CON-HEM-D5E793EE9EAC18
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State what the red cell has left on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q2. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-791996902C08
+## title
+The following statements concerning erythrocytes are true EXCEPT
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statements concerning erythrocytes are true EXCEPT
+## answer_a
+Rounded biconcave non nucleated cells
+## explanation_a
+True, so not the exception. Rounded in top view, biconcave in profile, and non-nucleated.
+## answer_b
+6-9 µm in diameter
+## explanation_b
+True, so not the exception. 6–9 µm is the book's range.
+## answer_c
+It is red because of its hemoglobin content
+## explanation_c
+True, so not the exception. The red colour is the haemoglobin, which is also why the cell is acidophilic.
+## answer_d
+It is very active cell
+## explanation_d
+The exception, and the answer. A cell with no nucleus, no mitochondria and no ribosomes cannot be described as very active — it cannot divide, cannot repair itself and has about 120 days before it is eaten. Its one per cent of enzymes is all the metabolism it has.
+## correct_answer
+D
+## main_concept
+CON-HEM-D5E793EE9EAC18
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that a cell without organelles cannot be metabolically active.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q75. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8B48DB3E87FA
+## title
+…………… Keep shape, stability of CM of RBCS
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+…………… Keep shape, stability of CM of RBCS
+## answer_a
+actin
+## explanation_a
+True but incomplete. Actin is one of the two.
+## answer_b
+spectrin
+## explanation_b
+True but incomplete. Spectrin is the other, and it is the one whose gene is defective in hereditary spherocytosis.
+## answer_c
+myosin
+## explanation_c
+Myosin is the motor protein of muscle and of the contractile machinery of other cells. The red cell does not contract and has none.
+## answer_d
+a, b
+## explanation_d
+Correct. Actin and spectrin together form the cytoskeleton on the inner surface of the membrane that keeps the shape and stabilises the membrane.
+## correct_answer
+D
+## main_concept
+CON-HEM-D5E793EE9EAC18
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name both proteins of the red cell membrane skeleton.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q27. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C18933DD5A93
+## title
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
+## answer_a
+blood grouping
+## explanation_a
+Blood grouping is decided by the antigens of the glycocalyx, on the *outer* surface. This question and the one about the outer surface are printed with the same four options and differ only in which surface they name.
+## answer_b
+maintainance of its shape
+## explanation_b
+Correct. The spectrin–actin network on the inner surface maintains the biconcave shape and the stability of the membrane.
+## answer_c
+maintainace of its color
+## explanation_c
+The colour comes from haemoglobin in the cytoplasm, not from anything attached to the membrane.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" fails because the first and third belong elsewhere — one to the outer surface, one to the interior.
+## correct_answer
+B
+## main_concept
+CON-HEM-D5E793EE9EAC18
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign the inner surface of the red cell membrane to shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q73. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-18973A049B4E
+## title
+The outer surface of cell membrane of RBCs is responsible for:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The outer surface of cell membrane of RBCs is responsible for:
+## answer_a
+blood grouping
+## explanation_a
+Correct. The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and of the Rh factor.
+## answer_b
+maintainance of its shape
+## explanation_b
+Shape is maintained from inside, by the spectrin–actin cytoskeleton. This is the paired question with the surfaces exchanged.
+## answer_c
+maintainace of its color
+## explanation_c
+The colour is the haemoglobin filling the cell and owes nothing to either surface.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" collects three answers of which only one belongs to the outer surface.
+## correct_answer
+A
+## main_concept
+CON-HEM-D5E793EE9EAC18
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign the outer surface of the red cell membrane to the blood group antigens.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q6. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6018619D0388
+## title
+All characters of RBCs except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of RBCs except
+## answer_a
+flexible, can squeeze in narrow capillary
+## explanation_a
+True, so not the exception. Flexibility lets the cell deform through capillaries narrower than itself.
+## answer_b
+high selective for gas exchange
+## explanation_b
+True, so not the exception. The lipoprotein membrane is highly selective, which is what suits it to gas exchange.
+## answer_c
+rounded, easy pass in vessels
+## explanation_c
+True, so not the exception. The rounded edges ease passage through branched vessels.
+## answer_d
+low surface area for gas exchange
+## explanation_d
+The exception, and the answer. A biconcave disc has a *large* surface area for its volume — that is the whole reason for the shape, and the option inverts it.
+## correct_answer
+D
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that the biconcave shape exists to increase surface area.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q28. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B4BDC91C31BF
+## title
+The followings concerning RBC adaptation to its function ECXEPT
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The followings concerning RBC adaptation to its function ECXEPT
+## answer_a
+Biconcave shape provides a large surface area
+## explanation_a
+True, so not the exception. Biconcavity is for surface area.
+## answer_b
+Cell membrane is highly selective for gas exchange
+## explanation_b
+True, so not the exception. The lipoprotein membrane is highly selective.
+## answer_c
+Cell membrane is elastic to pass through the small capillaries
+## explanation_c
+True, so not the exception. Elasticity lets the cell pass small capillaries.
+## answer_d
+The small nucleus provide a wide space for hemoglobin
+## explanation_d
+The exception, and the answer. The space for haemoglobin comes from having *no* nucleus, not a small one. The option is written to be accepted by a student who has learnt the fact as "small nucleus, more haemoglobin" and never noticed that the nucleus is gone.
+## correct_answer
+D
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall that the red cell has no nucleus at all, small or otherwise.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q27. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2F7D4DDEBC06
+## title
+The following are characters of RBCs except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are characters of RBCs except:
+## answer_a
+average diameter is 7.5 um
+## explanation_a
+True, so not the exception. 7.5 µm is the average diameter.
+## answer_b
+have a role in immunity
+## explanation_b
+The exception, and the answer. Immunity is the work of the leukocytes; the red cell transports gases and buffers acid, and has no defensive role. It is tempting because the red cell does carry surface antigens — but carrying an antigen is not mounting a defence.
+## answer_c
+have biconcave shape
+## explanation_c
+True, so not the exception. The biconcave shape is the red cell's defining feature.
+## answer_d
+can form rouleaux appearance
+## explanation_d
+True, so not the exception. Rouleaux is a property of red cells and of no other blood cell.
+## correct_answer
+B
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Keep immunity out of the red cell's job list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q76. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E203966C00F
+## title
+function of RBCs is :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+function of RBCs is :
+## answer_a
+transfer gases
+## explanation_a
+True but incomplete. Carrying oxygen and carbon dioxide is the first function.
+## answer_b
+acid base buffer
+## explanation_b
+True but incomplete. Through the carbonic anhydrase reaction the cell generates bicarbonate and acts as an acid–base buffer.
+## answer_c
+phagocytosis
+## explanation_c
+Phagocytosis needs lysosomes and pseudopodia. The red cell has neither; it is itself phagocytosed at the end of its 120 days.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Gas transport and acid–base buffering, and a student who stops at the first has given half the answer.
+## correct_answer
+D
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both functions of the red cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q7. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AE3BE788952D
+## title
+Plasmalemma or RBCS is adapted for gas exchange due to high:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Plasmalemma or RBCS is adapted for gas exchange due to high:
+## answer_a
+Myoglobin content
+## explanation_a
+Myoglobin is in muscle, not in any membrane, and it stores oxygen rather than letting it across.
+## answer_b
+Cholesterol content
+## explanation_b
+Cholesterol is present in every plasma membrane and stiffens it. It is not what the book credits with the selectivity for gases.
+## answer_c
+Carbohydrate content
+## explanation_c
+The carbohydrate of the glycocalyx carries the blood group antigens. It faces the plasma and identifies the cell rather than admitting gas.
+## answer_d
+Lipoprotein content
+## explanation_d
+Correct. The membrane is lipoprotein and therefore highly selective, which is the property the book pairs with gas exchange.
+## correct_answer
+D
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the membrane property that makes the red cell selective for gases.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q2. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CF7E64CD49BC
+## title
+Adaptations of RBCS to function include:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Adaptations of RBCS to function include:
+## answer_a
+flexible cell membrane to squeeze in capillaries
+## explanation_a
+Correct. Flexibility of the plasmalemma is what lets the cell be squeezed through a capillary narrower than itself.
+## answer_b
+lipoprotein cell membrane to squeeze in capillaries
+## explanation_b
+The right property with the wrong purpose. Being lipoprotein makes the membrane highly selective and so suited to gas exchange; it is flexibility, not composition, that gets the cell through a capillary.
+## answer_c
+rounded edges to help gaseous exchange
+## explanation_c
+The right feature with the wrong purpose again. Rounded edges ease passage through branched vessels; surface area for gas exchange comes from the biconcavity.
+## answer_d
+biconcave surface to pass in branched vessels
+## explanation_d
+And the fourth permutation. The biconcave surface gives the large surface area for exchange; passage through branched vessels is what the rounded edges are for. Each of these three options is built from two true halves joined wrongly, which is why the question is harder than the facts in it.
+## correct_answer
+A
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Match each red cell feature to its own function rather than to a neighbouring one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p2 q7. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. All four options name a true feature, but three of them pair it with the wrong function: the lipoprotein membrane is for gas exchange rather than for squeezing, the rounded edges are for passing branched vessels rather than for exchange, and the biconcave surface is for surface area rather than for branched vessels. Only A pairs correctly — a flexible membrane to squeeze through capillaries.
+
+
+---
+
+# Item
+## id
+QM-101-AA8A3C30A596
+## title
+Which of the following gives more space for Hb?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following gives more space for Hb?
+## answer_a
+Biconcave shape of RBCs
+## explanation_a
+The weakest member of the set. The department book credits the biconcave shape with surface area rather than with storage space, and a student who rejects this option has read the book correctly — but with B and C both plainly true, no single-option answer is available and the inclusive option is what the examiner intends.
+## answer_b
+absence of nuclei
+## explanation_b
+True. Extruding the nucleus frees the largest single volume in the cell, at the price of never dividing again.
+## answer_c
+absence of organelles
+## explanation_c
+True. Losing the mitochondria and ribosomes frees the rest, which is why the mature cell is 33 per cent haemoglobin.
+## answer_d
+all of the above
+## explanation_d
+Correct as the question is set. B and C are both true and A is carried with them.
+## correct_answer
+D
+## main_concept
+CON-HEM-7BDD11341CD537
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name what the red cell gave up in order to hold more haemoglobin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q67. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CB60E2330DFA
+## title
+average number of Normochromic RBCs is ………….. million / mm3
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+average number of Normochromic RBCs is ………….. million / mm3
+## answer_a
+6
+## explanation_a
+6 million per mm³ is the threshold above which the count is called polycythaemia, not the average.
+## answer_b
+5
+## explanation_b
+Correct. About 5 million per mm³ on average — 4.5–5.5 in the male and 4–5 in the female.
+## answer_c
+8
+## explanation_c
+8 million is well outside any range the book gives, normal or abnormal.
+## answer_d
+7
+## explanation_d
+7 million is above the polycythaemia threshold. The figure 7.5 belongs to the diameter in micrometres, and confusing the two numbers is what produces this answer.
+## correct_answer
+B
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the average red cell count.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q5. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-60E1710C328D
+## title
+life span of RBCs is ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+life span of RBCs is ……………
+## answer_a
+90 days
+## explanation_a
+90 days is short of the mark; no blood cell in this chapter is given that figure.
+## answer_b
+100 days
+## explanation_b
+100 days is the round number a student reaches for when the real one will not come, and it is the closest of the three wrong answers.
+## answer_c
+120 days
+## explanation_c
+Correct. About 120 days, after which macrophages in liver, marrow and spleen phagocytose the cell.
+## answer_d
+150 days
+## explanation_d
+150 days is beyond the range. The book is specific because the figure is used to calculate how fast the marrow must work.
+## correct_answer
+C
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the life span of the red cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q24. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-395997E37B4B
+## title
+male RBCs number is more than female due to …………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+male RBCs number is more than female due to …………
+## answer_a
+stimulatory effect of estrogen on B.M
+## explanation_a
+Oestrogen does not stimulate the marrow; if it did, the female count would be the higher of the two.
+## answer_b
+inhibitory effect of estrogen on B.M
+## explanation_b
+An inhibitory effect of oestrogen would also produce a higher male count, which is why this option is the hardest to reject — but the book attributes the difference to what androgen does, not to what oestrogen fails to do.
+## answer_c
+stimulatory effect of androgen on B.M
+## explanation_c
+Correct. Androgen stimulates the bone marrow, which is why the male range is 4.5–5.5 million against the female 4–5 million.
+## answer_d
+inhibitory effect of androgen on B.M
+## explanation_d
+An inhibitory androgen would reverse the observed difference and make the male count the lower one.
+## correct_answer
+C
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the hormone that accounts for the sex difference in the red cell count.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q6. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BA84CFEA6191
+## title
+polycythemia is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+polycythemia is:
+## answer_a
+decreased Hb in RBCs
+## explanation_a
+Decreased haemoglobin within the cells is hypochromia, and with a low count it is anaemia. Both are the opposite of this term.
+## answer_b
+decreased number of RBCs
+## explanation_b
+A decreased number of red cells is anaemia — the exact converse, and the answer of a student who has the word without its prefix.
+## answer_c
+increased number of RBCs
+## explanation_c
+Correct. Polycythaemia is an increase in the number of red cells, above about 6 million per mm³.
+## answer_d
+increase size of RBCs
+## explanation_d
+Increased cell size is macrocytosis, a change in size rather than in number.
+## correct_answer
+C
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define polycythaemia by what is increased.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q51. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9B8AEE8EDE20
+## title
+Physiological increase of RBCs in the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Physiological increase of RBCs in the following except:
+## answer_a
+High altitude
+## explanation_a
+True, so not the exception. Thin air at altitude is hypoxic, and the marrow answers with more cells in a healthy person.
+## answer_b
+exercise
+## explanation_b
+True, so not the exception. Exercise raises the count physiologically.
+## answer_c
+new born
+## explanation_c
+True, so not the exception. The count is highest in the newborn and falls gradually afterwards.
+## answer_d
+lung disease
+## explanation_d
+The exception, and the answer. Chronic lung disease raises the count by the same hypoxic mechanism, but the hypoxia comes from a diseased lung rather than from thin air, so the polycythaemia is secondary and pathological. The mechanism being identical is exactly what makes this question worth asking.
+## correct_answer
+D
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Separate a physiological rise in the red cell count from a pathological one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q31. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D1FDEE11072A
+## title
+One is true about RBCs:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+One is true about RBCs:
+## answer_a
+Contain azurophilic granules
+## explanation_a
+Azurophilic granules are primary lysosomes and belong to the granular leukocytes and to monocytes. The red cell has no granules of any kind.
+## answer_b
+The center is thicker than the periphery
+## explanation_b
+Reversed. The cell is 0.8 µm thick at the centre and 2.2 µm at the edge, which is why the centre is pale.
+## answer_c
+About 10-12 pm in diameter
+## explanation_c
+10–12 µm is the diameter of a neutrophil or a basophil. The red cell is 6–9 µm, and it is used as the ruler against which white cells are measured on a film.
+## answer_d
+Increase in number in chronic lung disease
+## explanation_d
+Correct. Chronic lung disease produces hypoxia and hypoxia stimulates the marrow — a secondary polycythaemia.
+## correct_answer
+D
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Recognise secondary polycythaemia among three false statements about red cell structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q37. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Only D is true: chronic lung disease causes hypoxia, which drives the marrow and raises the red cell count. Azurophilic granules belong to leukocytes, the red cell centre is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
+
+
+---
+
+# Item
+## id
+QM-101-81362E8178E1
+## title
+The following is character of the erythrocytes
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is character of the erythrocytes
+## answer_a
+its average diameter is 7.5 µm
+## explanation_a
+Correct. The average diameter is 7.5 µm.
+## answer_b
+Is life span is about 20 days
+## explanation_b
+20 days is not the red cell's life span; 120 days is. The figure has lost a digit rather than being a different fact.
+## answer_c
+its count ranges from 400 - 11000/mm3
+## explanation_c
+4,000–11,000 per mm³ is the total white cell count. The red cell count is in millions.
+## answer_d
+Decreased its number below 4 million/mm is called polyeythemia
+## explanation_d
+A count below 4 million is anaemia, not polycythaemia. The definition is right and the word attached to it is its opposite.
+## correct_answer
+A
+## main_concept
+CON-HEM-FBE8CE60EE508C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Pick the correct red cell figure from three that belong to other cells or other words.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q1. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CE53FCEEE1B0
+## title
+Concerning the rouleaux appearance , which is false?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the rouleaux appearance , which is false?
+## answer_a
+RBCs adhere to each other
+## explanation_a
+True, so not the false one. The cells adhere face to face like a pile of coins.
+## answer_b
+Occurs in slow circulation
+## explanation_b
+True, so not the false one. Rouleaux needs slow flow; in normal circulation the cells are kept apart.
+## answer_c
+its cause is high surface tension
+## explanation_c
+True, so not the false one. The book attributes it to the high surface tension produced by the biconcave surface.
+## answer_d
+its cause is low surface tension
+## explanation_d
+The false one, and the answer. It is high surface tension, not low. Options C and D are the same statement with one word changed, so the question is decided entirely on that word.
+## correct_answer
+D
+## main_concept
+CON-HEM-2215D8A37A0AD1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the cause of rouleaux as high surface tension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q69. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FE7997C32DBC
+## title
+Rolueux appearance:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Rolueux appearance:
+## answer_a
+Occurs in normal circulation
+## explanation_a
+Rouleaux occurs in slow circulation, and the book says explicitly that it is not a feature of normal circulation.
+## answer_b
+Reversible phenomena
+## explanation_b
+Correct. It is a reversible phenomenon — the cells separate again when the flow speeds up.
+## answer_c
+Causes damage of RBCs
+## explanation_c
+It does no damage to the cells at all, which is the other half of what makes it reversible.
+## answer_d
+Decrease the erythrocyte sedimentation rate
+## explanation_d
+It raises the erythrocyte sedimentation rate rather than lowering it: stacked cells are heavier for their surface area and fall faster, which is why the rate rises in inflammation.
+## correct_answer
+B
+## main_concept
+CON-HEM-2215D8A37A0AD1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that rouleaux is reversible and harmless.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p4 q23. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-D50C56D1DFE2
+## title
+Rouleaux appearance is characteristic for :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Rouleaux appearance is characteristic for :
+## answer_a
+RBCs
+## explanation_a
+Correct. Only red cells form rouleaux, because only they are biconcave discs that can stack face to face.
+## answer_b
+WBCs
+## explanation_b
+White cells are rounded and nucleated and do not stack. They also circulate in far smaller numbers.
+## answer_c
+monocytes
+## explanation_c
+The monocyte is a white cell, singled out here because it has its own named appearance — frosted glass — which is what the neighbouring question asks about.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" would be true only if red cells did not form rouleaux, and they are the cells the phenomenon is named for.
+## correct_answer
+A
+## main_concept
+CON-HEM-2215D8A37A0AD1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute rouleaux to the red cell alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q21. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-413DED498EA1
+## title
+Regarding RBCs:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding RBCs:
+## answer_a
+Aged RBCs are destroyed in bone marrow by megakaryocytes
+## explanation_a
+Aged red cells are destroyed by macrophages, in the liver, marrow and spleen. Megakaryocytes shed platelets and phagocytose nothing.
+## answer_b
+Decreased number is called polycythemia
+## explanation_b
+A decreased number is anaemia. Polycythaemia is the increase, and the two words are exchanged here.
+## answer_c
+Their biconvex shape is maintained by cytoskeleton
+## explanation_c
+The cytoskeleton does maintain the shape, but the shape is biconcave, not biconvex. One letter carries the whole error.
+## answer_d
+They tend to form rouleaux appearance in slow circulation
+## explanation_d
+Correct. Red cells form rouleaux in slow circulation, reversibly and without damage.
+## correct_answer
+D
+## main_concept
+CON-HEM-2215D8A37A0AD1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Find the one true statement among three that each fail on one word.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q50. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-75A9FE55A944
+## title
+RBCs are fragile, so maintained in …………. solution
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+RBCs are fragile, so maintained in …………. solution
+## answer_a
+isotonic
+## explanation_a
+Correct. Isotonic surroundings — plasma, equivalent to 0.9 per cent saline — leave the cell unchanged.
+## answer_b
+hypertonic
+## explanation_b
+A hypertonic solution draws water out and crenates the cell.
+## answer_c
+hypotonic
+## explanation_c
+A hypotonic solution drives water in and bursts the cell, leaving a ghost.
+## answer_d
+none of above
+## explanation_d
+"None of the above" would require that no tonicity preserved the cell, which would make transfusion impossible.
+## correct_answer
+A
+## main_concept
+CON-HEM-CDB20863524BB2
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the tonicity in which red cells keep their shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q2. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B197AB62691
+## title
+RBCs if placed in hypertonic solution, it ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+RBCs if placed in hypertonic solution, it ……………
+## answer_a
+remain the same
+## explanation_a
+Remaining unchanged is what an isotonic solution produces.
+## answer_b
+shrink crenate
+## explanation_b
+Correct. Water leaves the cell, which shrinks and develops surface notches — crenation.
+## answer_c
+swell, burst
+## explanation_c
+Swelling and bursting is the hypotonic result, the exact opposite direction of water movement.
+## answer_d
+lea of Hg, hemolysis
+## explanation_d
+Leakage of haemoglobin and haemolysis is also hypotonic, and is the same event as C described from the haemoglobin's point of view. Two of the four options describe the opposite tonicity, which is the trap.
+## correct_answer
+B
+## main_concept
+CON-HEM-CDB20863524BB2
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give what a hypertonic solution does to a red cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q25. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FEC28F81CE4B
+## title
+Aplastic anemia is caused by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Aplastic anemia is caused by:
+## answer_a
+Deficiency of iron & vitamin B12
+## explanation_a
+Iron deficiency gives microcytic anaemia and B12 deficiency gives pernicious anaemia. Both are deficiencies of a raw material, whereas aplastic anaemia is failure of the factory.
+## answer_b
+Bone marrow depression by x-ray
+## explanation_b
+Correct. Aplastic anaemia is depression of the bone marrow — by X-rays, as here, or by drugs.
+## answer_c
+Acute blood loss
+## explanation_c
+Acute blood loss removes cells already made and does not stop the marrow making more; the marrow in fact responds by working harder, which is why the reticulocyte count rises.
+## answer_d
+Spherocytosis or favism
+## explanation_d
+Spherocytosis and favism are haemolytic anaemias — the cells are made normally in number and destroyed early.
+## correct_answer
+B
+## main_concept
+CON-HEM-AE93CC33D1374D
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the cause of aplastic anaemia and separate it from the other four.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q5. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D344281BA4EC
+## title
+………………. is low Vit B12 due to failed production of intrinsic factor in stomach
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+………………. is low Vit B12 due to failed production of intrinsic factor in stomach
+## answer_a
+Aplastic anemia
+## explanation_a
+Aplastic anaemia is marrow depression; the stomach is not involved and every cell line falls, not the red one alone.
+## answer_b
+Perinicious anemia
+## explanation_b
+Correct. Pernicious anaemia is vitamin B12 deficiency caused by failure of the stomach to make intrinsic factor, without which B12 cannot be absorbed.
+## answer_c
+sickle cell anemia
+## explanation_c
+Sickle cell anaemia is a mutation in the haemoglobin gene and has nothing to do with any vitamin.
+## answer_d
+microcytic anemia
+## explanation_d
+Microcytic anaemia is iron deficiency. The distinction matters clinically: iron deficiency gives small cells, B12 deficiency large ones.
+## correct_answer
+B
+## main_concept
+CON-HEM-AE93CC33D1374D
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the anaemia that follows loss of intrinsic factor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q30. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4BBE831FFC0B
+## title
+………………. is abnormal rigid type of Hb (Hbs), accumulation of Hb at one side like cresent
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+………………. is abnormal rigid type of Hb (Hbs), accumulation of Hb at one side like cresent
+## answer_a
+Aplastic anemia
+## explanation_a
+Aplastic anaemia produces too few cells of normal shape, not misshapen ones.
+## answer_b
+Perinicious anemia
+## explanation_b
+Pernicious anaemia produces macrocytes — large cells, still round.
+## answer_c
+sickle cell anemia
+## explanation_c
+Correct. Haemoglobin S is rigid and gathers at one side of the cell, drawing it into the crescent that names sickle cell anaemia.
+## answer_d
+microcytic anemia
+## explanation_d
+Microcytic anaemia produces small pale cells from iron deficiency; the shape is unchanged.
+## correct_answer
+C
+## main_concept
+CON-HEM-AE93CC33D1374D
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the anaemia produced by haemoglobin S.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q7. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3E9A79D42042
+## title
+Which statement typifies sickle cell anemia?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which statement typifies sickle cell anemia?
+## answer_a
+Spherical cell
+## explanation_a
+A spherical cell is the spherocyte, and its defect is in spectrin — a membrane protein — not in haemoglobin.
+## answer_b
+Crenated RBC's
+## explanation_b
+Crenated cells are shrunken cells in a hypertonic solution. That is an osmotic artefact, not a disease.
+## answer_c
+Abnormal RBC's nucleus
+## explanation_c
+The mature red cell has no nucleus, so it can have no abnormal one. This is the option that catches students who reach for "genetic disease" and picture a nucleus.
+## answer_d
+Mutated DNA encoding Hb
+## explanation_d
+Correct. A mutation in the DNA encoding haemoglobin produces haemoglobin S, and the abnormal haemoglobin deforms the cell.
+## correct_answer
+D
+## main_concept
+CON-HEM-AE93CC33D1374D
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Locate the defect of sickle cell anaemia in the haemoglobin gene.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p2 q12. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-DEE245BAB068
+## title
+Hereditary spherocytosis of RBCs is caused by: XXX
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Hereditary spherocytosis of RBCs is caused by: XXX
+## answer_a
+Abnormal type of hemoglobin (HbS)
+## explanation_a
+Haemoglobin S is the sickle cell defect. Both diseases deform the cell, and which molecule is at fault is exactly what separates them.
+## answer_b
+Deficiency of hemoglobin reductase enzyme
+## explanation_b
+Haemoglobin reductase keeps haemoglobin able to bind oxygen. Its deficiency would impair gas carriage without changing the shape.
+## answer_c
+Deficiency of carbonic anhydrase enzyme
+## explanation_c
+Carbonic anhydrase is the enzyme of carbon dioxide transport. Losing it would affect buffering, not shape.
+## answer_d
+Primary defect in spectrin gene expression
+## explanation_d
+Correct. A primary defect in the spectrin gene loses the membrane skeleton that holds the biconcavity, and the cell rounds up into a sphere — which is more fragile and is haemolysed early.
+## correct_answer
+D
+## main_concept
+CON-HEM-AE93CC33D1374D
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Trace the spherocyte to a membrane skeleton protein rather than to haemoglobin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q3. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CCD4DFE62201
+## title
+Regarding the reticulocyte, the following statement is correct:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the reticulocyte, the following statement is correct:
+## answer_a
+Acidophilic cytoplasm with basophilic reticulum
+## explanation_a
+Correct. The cytoplasm is acidophilic, like a mature red cell, with a basophilic reticulum of residual ribosomal RNA that a supravital stain shows up.
+## answer_b
+Its size is 20 pm
+## explanation_b
+20 µm is the size of a monocyte, the largest leukocyte. A reticulocyte is the size of the red cell it is about to become, about 7.5 µm.
+## answer_c
+Their % increases in case of allergy
+## explanation_c
+The cell that rises in allergy is the eosinophil. The reticulocyte rises when the marrow is driven — after haemorrhage or haemolysis.
+## answer_d
+Its percentage is 60-70% of total leucocytic count
+## explanation_d
+60–70 per cent of the leucocytic count is the neutrophil. The reticulocyte is not a leukocyte at all and is counted as a percentage of red cells.
+## correct_answer
+A
+## main_concept
+CON-HEM-2893BEDA9ED167
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Describe the reticulocyte's staining and reject the leukocyte figures beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q41. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-71E6CE280198
+## title
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, fallin…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, falling of teeth and persistent non-healing wounds. The attending resident suspected a disease related to connective tissue. The disease causing such symptoms could be:
+## answer_a
+Osteoporosis. —
+## explanation_a
+Osteoporosis is loss of bone mass, from resorption outpacing formation. It presents with fractures, not with bleeding gums, and it does not stop wounds healing.
+## answer_b
+Purpura
+## explanation_b
+Purpura is a low platelet count, and it does cause bleeding gums — which makes it the strongest distractor here. What it does not cause is non-healing wounds or loosening teeth, and those are the collagen signs.
+## answer_c
+Anemia
+## explanation_c
+Anaemia causes pallor, breathlessness and fatigue. It is a failure to carry oxygen, not a failure of connective tissue, and the stem says the disease is one of connective tissue.
+## answer_d
+Scurvy
+## explanation_d
+Correct. Scurvy — vitamin C deficiency — leaves the fibroblast unable to make sound collagen, so the periodontal ligament fails, the teeth loosen, the gums bleed and wounds do not close.
+## correct_answer
+D
+## main_concept
+CON-FND-0CBFF10055D50B
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Read bleeding gums with non-healing wounds as a collagen failure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q14. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The stem names a connective tissue disease with bleeding gums, loosening teeth and wounds that will not heal — the triad of scurvy, in which vitamin C deficiency prevents normal collagen synthesis. The other three options are diseases of bone, of platelets and of red cells.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-685412AE2F91
+## title
+Basophils are characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Basophils are characterized by:
+## answer_a
+Smaller diameter than RBCs
+## explanation_a
+The basophil is 10–12 µm and the red cell 6–9, so the basophil is the larger. Red cells are the ruler on a film, and every leukocyte is bigger than they are.
+## answer_b
+Presence of azurophilic granules onlv
+## explanation_b
+Azurophil granules alone, with no specific granules, describes no granular leukocyte. The basophil's defining granules are its coarse metachromatic specific granules.
+## answer_c
+S-shaped nuclei
+## explanation_c
+Correct. The basophil has an S-shaped nucleus, usually half hidden by the coarse granules lying over it.
+## answer_d
+Acidophilic coarse granules
+## explanation_d
+Coarse acidophilic granules are the eosinophil's. The basophil's granules are basophilic and stain metachromatically purple with toluidine blue because of their heparin.
+## correct_answer
+C
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the basophil by its nuclear shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q65. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1CD8AE57417B
+## title
+frosted glass appearance is characteristic for:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+frosted glass appearance is characteristic for:
+## answer_a
+RBCs
+## explanation_a
+Red cells have homogeneous haemoglobin and no granularity of any kind.
+## answer_b
+WBCs
+## explanation_b
+"WBCs" as a class is too broad: the granular leukocytes have visible granules and the lymphocyte a clear rim, and only one white cell earns this description.
+## answer_c
+monocytes
+## explanation_c
+Correct. The monocyte's pale basophilic cytoplasm is full of fine lysosomes, which give it a ground-glass or frosted-glass look.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" fails because the appearance is a standard descriptive term for one of the listed cells.
+## correct_answer
+C
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the frosted-glass cytoplasm to the monocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q22. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6C158AABDC86
+## title
+Concerning the red bone marrow which statement is correct:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the red bone marrow which statement is correct:
+## answer_a
+Reticular cells are among the free bone marrow cells
+## explanation_a
+Reticular cells are stromal, not free — they and the reticular fibres are the supporting network the free cells lie in.
+## answer_b
+Ratio of immature WBCs to immature RBCs is 5:1
+## explanation_b
+Correct. Immature white cells outnumber immature red cells about five to one, because white cells are the shorter-lived and must be replaced faster.
+## answer_c
+Blood sinusoid in its stroma has continuous basement membrane
+## explanation_c
+The sinusoid's basement membrane is deliberately *not* continuous: the gaps are how a finished blood cell gets out of the marrow and into the blood.
+## answer_d
+Present in shaft of long bone in adult
+## explanation_d
+The shaft of a long bone in an adult holds yellow marrow. Red marrow in the adult is in the flat bones and the ends of the long bones.
+## correct_answer
+B
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the stroma of red marrow from its free cells and recall the sinusoid's discontinuous basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q7. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8DCC622CC16A
+## title
+ratio of immature wBCs to immature RBCs
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+ratio of immature wBCs to immature RBCs
+## answer_a
+1:5
+## explanation_a
+1:5 is the ratio inverted, and it would mean the marrow spent most of its effort on red cells — which is the intuition students bring, since red cells outnumber white ones in the blood a thousand to one.
+## answer_b
+5:1
+## explanation_b
+Correct. About 5:1 in favour of immature white cells, because their life span is days against the red cell's 120.
+## answer_c
+4:1
+## explanation_c
+4:1 is the right direction and the wrong figure.
+## answer_d
+1:4
+## explanation_d
+1:4 is the same wrong figure inverted as well.
+## correct_answer
+B
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the ratio of immature white to immature red cells in the marrow, in the right order.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p6 q48. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9546CA27293D
+## title
+One is regarded as an endogenous pigment:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One is regarded as an endogenous pigment:
+## answer_a
+Haemoglobin
+## explanation_a
+Correct. Haemoglobin is made by the body, and it is listed with melanin and lipofuscin among the endogenous pigments.
+## answer_b
+Carbon
+## explanation_b
+Carbon is inhaled — the dust of city air and of smoke — and is the classic exogenous pigment.
+## answer_c
+Carotene
+## explanation_c
+Carotene comes from food and colours fat and skin. It is made by plants, not by us.
+## answer_d
+Tattoo marks. |
+## explanation_d
+Tattoo dye is introduced through the skin and taken up by macrophages, which is why it stays. Exogenous by the most literal route of all.
+## correct_answer
+A
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Cytology
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Separate pigments the body makes from pigments it takes in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p4 q42. Manifest src_4a8ddb5edfab86d624d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book divides pigment inclusions into endogenous — haemoglobin, melanin and lipofuscin — and exogenous — carbon and dust, carotene, tattoo dyes. Only haemoglobin is on the endogenous list.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-AB1E2F5330FE
+## title
+Which of the following increases with age:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following increases with age:
+## answer_a
+lipofuscin
+## explanation_a
+Correct. Lipofuscin is the wear-and-tear pigment: the indigestible residue of secondary lysosomes, which builds up in long-lived cells such as neurons and cardiac muscle.
+## answer_b
+carotene
+## explanation_b
+Carotene is dietary and rises or falls with what is eaten, not with age.
+## answer_c
+hemoglobin
+## explanation_c
+Haemoglobin content is set by the marrow and does not accumulate in cells over a lifetime; the red cells carrying it are replaced every 120 days.
+## answer_d
+hemosedrin
+## explanation_d
+Haemosiderin accumulates where there has been bleeding or iron overload, which is a local or a pathological matter rather than a consequence of age.
+## correct_answer
+A
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Cytology
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the pigment that accumulates as a cell ages.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q58. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CB01AF8664F0
+## title
+The pigment which is responsible for the brown color of brown adipose tissue is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The pigment which is responsible for the brown color of brown adipose tissue is:
+## answer_a
+melanin
+## explanation_a
+Melanin colours skin, hair and the choroid. No fat cell makes it.
+## answer_b
+cytochrome
+## explanation_b
+Correct. The cytochrome pigments of the many mitochondria of the multilocular fat cell, together with a rich blood supply, are what make brown fat brown — and the mitochondria are there because the tissue burns fat for heat.
+## answer_c
+hemosedrin
+## explanation_c
+Haemosiderin is an iron-storage pigment left where blood has broken down. It gives a brown colour, which is what makes it plausible here, but not in fat.
+## answer_d
+hemoglobin
+## explanation_d
+Haemoglobin is in the blood within the tissue, and the richer blood supply does contribute to the colour — but the pigment the book names is the cytochrome of the mitochondria.
+## correct_answer
+B
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Connective Tissue
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Trace the colour of brown fat to the mitochondria that make it warm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q139. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AD8ED64C3D72
+## title
+Early amniotic cavity separates between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Early amniotic cavity separates between
+## answer_a
+Amnioblast and Cytotrophoblast
+## explanation_a
+The amnioblast lies against the cytotrophoblast, but the cavity does not open between them — it opens on the other side of the amnioblast. This option describes a contact rather than a separation.
+## answer_b
+Amnioblast and epiblast
+## explanation_b
+Correct. The cavity appears within the inner cell mass and separates the amnioblast, which roofs it, from the epiblast, which floors it.
+## answer_c
+Amnioblast and hypoblast
+## explanation_c
+The hypoblast is on the far side of the epiblast, facing the blastocele. The amniotic cavity never touches it — the epiblast is between the two.
+## answer_d
+Amnioblast and yolk sac
+## explanation_d
+The yolk sac is below the hypoblast and is separated from the amniotic cavity by the whole thickness of the bilaminar disc. This is the answer a student gives when they picture the two cavities as neighbours rather than as the two sides of the disc.
+## correct_answer
+B
+## main_concept
+CON-DEV-59DB99C028C33F
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the two cell populations the amniotic cavity opens between.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q65; Anatomy MCQ Book [2025] [first priority].pdf p96 q65. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9A08888AA7FC
+## title
+The source of the three germ layers is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The source of the three germ layers is
+## answer_a
+Hypoblast
+## explanation_a
+The hypoblast is displaced by epiblast cells invaginating through the primitive streak; it contributes nothing to the trilaminar disc. It is the intuitive answer — lower layer becomes lower layer — and the book states the contrary as a point in its own right.
+## answer_b
+Epiblast
+## explanation_b
+Correct. Ectoderm, intra-embryonic mesoderm and endoderm all come from the epiblast.
+## answer_c
+Extraembryonic mesoderm
+## explanation_c
+The extra-embryonic mesoderm is outside the disc, lining the cytotrophoblast and covering the yolk sac. It becomes the chorion and the connecting stalk, not the embryo.
+## answer_d
+Cytotrophoblast
+## explanation_d
+The cytotrophoblast is trophoblast, and the trophoblast never contributes to the embryo proper at all — it makes the fetal part of the placenta.
+## correct_answer
+B
+## main_concept
+CON-DEV-59DB99C028C33F
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Attribute all three germ layers to one layer of the bilaminar disc.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q31; Anatomy MCQ Book [2025] [first priority].pdf p91 q31. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3A0108734548
+## title
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) A…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) Ac ad Ac ad ad ad
+## answer_a
+Chorionic cavity
+## explanation_a
+The chorionic cavity is the extra-embryonic coelom, and it opens in the extra-embryonic mesoderm on the thirteenth day — outside the disc, and five days later.
+## answer_b
+Antrum
+## explanation_b
+The antrum is the fluid-filled cavity of the ovarian follicle, before ovulation. It has nothing to do with the embryoblast; it is offered because it is another named cavity of the same reproductive story.
+## answer_c
+Blastocele
+## explanation_c
+The blastocele is the cavity that made the blastocyst a blastocyst, and it existed before the embryoblast split into epiblast and hypoblast. It is later converted into the primary yolk sac, not into a new cavity.
+## answer_d
+Amniotic cavity
+## explanation_d
+Correct. The amniotic cavity opens within the inner cell mass on the eighth day, separating amnioblast from epiblast.
+## correct_answer
+D
+## main_concept
+CON-DEV-59DB99C028C33F
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the cavity the embryoblast itself produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Of the four cavities offered, only the amniotic cavity forms within the inner cell mass; the chorionic cavity forms in the extra-embryonic mesoderm, the blastocele is already there before the embryoblast divides, and the antrum belongs to the ovarian follicle.
+
+
+---
+
+# Item
+## id
+QM-101-5DD85BAF9C41
+## title
+The earliest source of amniotic fluid is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The earliest source of amniotic fluid is
+## answer_a
+Epiblast
+## explanation_a
+The epiblast forms the floor of the amniotic cavity and goes on to become the embryo. It is not secretory, and the roof rather than the floor is what makes the fluid.
+## answer_b
+Diffusion from fetal blood
+## explanation_b
+Diffusion of fluid from maternal blood is the main source later, once there is a placenta to diffuse across. There is no such circulation at the eighth day.
+## answer_c
+Fetal urinary system
+## explanation_c
+Fetal urine is added only from about the fifth month, when the kidneys begin to work. It is the last source to arrive, not the earliest, and it is the commonest wrong answer because it is the one students remember.
+## answer_d
+Amnioblast
+## explanation_d
+Correct. The amnioblast cells, which form the roof of the amniotic cavity, are the first source of amniotic fluid.
+## correct_answer
+D
+## main_concept
+CON-DEV-59DB99C028C33F
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Order the sources of amniotic fluid and name the first.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q67. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3057A8778E53
+## title
+Regarding implantation
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding implantation
+## answer_a
+It starts at the gth day of pregnancy
+## explanation_a
+Implantation starts on the seventh day and is complete on the eleventh. The ninth day is the day the blastocyst is completely embedded, which is a stage within implantation rather than its beginning — a distinction of two days that these books ask about repeatedly.
+## answer_b
+Chorionic vesicle is the stage that starts implantation
+## explanation_b
+The blastocyst starts implantation. The chorionic vesicle is what the conceptus becomes at the end of the second week, after implantation is over.
+## answer_c
+It occurs at the upper part of the posterior wall of uterine cavity
+## explanation_c
+Correct. Implantation occurs normally in the upper part of the posterior wall of the uterus, just below the fundus.
+## answer_d
+Implantation cavity is formed through the action of proteolytic enzymes
+## explanation_d
+The proteolytic enzymes are made by the syncytiotrophoblast. As printed here the option stops at "proteolytic enzymes" without naming a source, which makes it a true statement about the mechanism and not a false one — but it is not the site, and the stem is answered by C.
+## correct_answer
+C
+## main_concept
+CON-DEV-E08715FEB6438D
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Give the site, the day and the agent of implantation together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q16. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3D71B15CEDC3
+## title
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## answer_a
+Anterior wall of the fundus
+## explanation_a
+The anterior wall of the fundus is the second commonest site and the book says so, which makes it the strongest distractor: it is right about the level and wrong about the wall.
+## answer_b
+Posterior wall of the fundus
+## explanation_b
+Correct. The upper part of the posterior wall, just below the fundus, is the normal site.
+## answer_c
+Anterior wall of the cervix.ViP
+## explanation_c
+The cervix is below the internal os altogether. Implantation there is a cervical ectopic pregnancy, the rarest and most dangerous kind.
+## answer_d
+Posterior wall of the lower part of body· Ac ad
+## explanation_d
+The posterior wall of the lower part of the body is the lower uterine segment, where implantation gives placenta previa.
+## correct_answer
+B
+## main_concept
+CON-DEV-E08715FEB6438D
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the wall and the level at which the blastocyst normally implants.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF43D2A914FE
+## title
+During the second week of development, the trophoblast differentiates into: (2019 – DEP…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+During the second week of development, the trophoblast differentiates into: (2019 – DEP BOOK)
+## answer_a
+Syncytiotrophoblast and cytotrophoblast
+## explanation_a
+Correct. The trophoblast differentiates into an inner cytotrophoblast of separate cells and an outer syncytiotrophoblast whose cells have no membranes between them.
+## answer_b
+The blastocyst begins implantation by its embryonic pole
+## explanation_b
+A true statement about the second week, but not an answer to the stem: the question asks what the trophoblast differentiates *into*, and this names what the blastocyst does rather than a pair of layers.
+## answer_c
+Intraembryonic and extraembryonic mesoderm
+## explanation_c
+Intra-embryonic and extra-embryonic mesoderm are mesoderm, not trophoblast, and the intra-embryonic kind does not exist until the third week.
+## answer_d
+Yolk sac (secondary) Vi ad
+## explanation_d
+The secondary yolk sac does form in the second week, on the thirteenth day, but from the hypoblast lining the primary yolk sac — not from the trophoblast.
+## correct_answer
+A
+## main_concept
+CON-DEV-E08715FEB6438D
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the two layers the trophoblast splits into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D2DC55DE0FD6
+## title
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cel…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cells: (2024) em em em
+## answer_a
+Syncytiotrophoblast
+## explanation_a
+Correct. The lacunar spaces appear within the syncytiotrophoblast on the ninth day, and fill with maternal blood two days later as the utero-placental circulation.
+## answer_b
+Extraembryonic coelom
+## explanation_b
+The extra-embryonic coelom is a cavity in the extra-embryonic mesoderm, which does not exist until the eleventh or twelfth day — two days after the lacunae.
+## answer_c
+Extraembryonic splanchnopleuric
+## explanation_c
+The splanchnopleuric extra-embryonic mesoderm covers the yolk sac and is a thirteenth-day structure, deep inside the conceptus rather than at its eroding surface.
+## answer_d
+Exocoelomic P Ac ad
+## explanation_d
+The exocoelomic (Heuser's) membrane lines the primary yolk sac and is hypoblast-derived. It faces inwards, away from the maternal blood the lacunae are opening onto.
+## correct_answer
+A
+## main_concept
+CON-DEV-E08715FEB6438D
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Place the lacunae in the layer that erodes the endometrium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A1E626091921
+## title
+Amniotic cavity starts formation at the ……. (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Amniotic cavity starts formation at the ……. (DEP BOOK)
+## answer_a
+7th day of pregnancy.
+## explanation_a
+The seventh day is when implantation begins and the trophoblast splits in two. The inner cell mass has not yet divided, so there is nothing for a cavity to open within.
+## answer_b
+8th day of pregnancy.
+## explanation_b
+Correct. The amniotic cavity forms on the eighth day, at the same time as the hypoblast and the bilaminar disc.
+## answer_c
+9th day of pregnancy.
+## explanation_c
+The ninth day brings complete embedding, Heuser's membrane, the primary yolk sac and the lacunae — the next entry on the timetable, and the commonest wrong answer for that reason.
+## answer_d
+10th day of pregnancy.
+## explanation_d
+By the tenth day the amniotic cavity is already there. The four options are consecutive days, so nothing but the timetable itself separates them.
+## correct_answer
+B
+## main_concept
+CON-DEV-22C6EB6EB88448
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Date the appearance of the amniotic cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C51A0C8763E6
+## title
+One of the following is an event of the 9th day of pregnancy (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an event of the 9th day of pregnancy (DEP BOOK)
+## answer_a
+Formation of hypoblast.
+## explanation_a
+The hypoblast forms on the eighth day, with the amniotic cavity. It is one day early, and it is the closest of the three wrong answers.
+## answer_b
+Formation of primary yolk sac.
+## explanation_b
+Correct. Heuser's membrane forms on the ninth day and converts the blastocele into the primary yolk sac, alongside complete embedding and the appearance of the lacunae.
+## answer_c
+Formation of extraembryonic mesoderm.
+## explanation_c
+The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.
+## answer_d
+Formation of primary chorionic villi.
+## explanation_d
+The primary chorionic villi begin after the thirteenth day, at the very end of the second week. They are four days late for this stem.
+## correct_answer
+B
+## main_concept
+CON-DEV-22C6EB6EB88448
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Assign four second-week events to their days.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. Of the four events offered, only the primary yolk sac belongs to the ninth day: the book places the hypoblast on the eighth, the extra-embryonic mesoderm on the eleventh and twelfth, and the primary chorionic villi at the end of the week, after the thirteenth.
+
+
+---
+
+# Item
+## id
+QM-101-CE7658009E9D
+## title
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2022)
+## answer_a
+Blastocyst completes its implantation
+## explanation_a
+True of the second week, so not the wrong one. Implantation begins on the seventh day and is complete on the eleventh.
+## answer_b
+Trophoblast differentiates into 2 layers
+## explanation_b
+True of the second week, so not the wrong one. The trophoblast splits into cytotrophoblast and syncytiotrophoblast on the seventh day.
+## answer_c
+Inner cell mass becomes a trilaminar disc.
+## explanation_c
+The wrong one, and the answer. The inner cell mass becomes a *bilaminar* disc in the second week — epiblast and hypoblast. The third layer arrives with gastrulation in the third week, and the single word "trilaminar" is the whole of the error.
+## answer_d
+Amniotic cavity is formed.
+## explanation_d
+True of the second week, so not the wrong one. The amniotic cavity forms on the eighth day.
+## correct_answer
+C
+## main_concept
+CON-DEV-22C6EB6EB88448
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Keep the third week's trilaminar disc out of the second.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Three of the four statements are events the department book places in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
+
+
+---
+
+# Item
+## id
+QM-101-8779DECBA843
+## title
+Somatic extraembryonic mesoderm (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Somatic extraembryonic mesoderm (DEP BOOK)
+## answer_a
+Is the connecting stalk
+## explanation_a
+The connecting stalk is what is left of the extra-embryonic mesoderm bridging the chorionic cavity, not the somatic layer as such. It is a remnant of the whole mesoderm rather than one of its two divisions.
+## answer_b
+Covers yolk sac cavity. P
+## explanation_b
+Covering the yolk sac is what the splanchnic layer does. Somatic and splanchnic are asked as a pair in these books, and this is the other half of the pair.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Correct. The somatic layer lines the cytotrophoblast, and with the cytotrophoblast and syncytiotrophoblast makes the three layers of the chorion.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+The syncytiotrophoblast is the outermost layer, with the cytotrophoblast between it and the mesoderm. The mesoderm cannot line it without passing through the cytotrophoblast first.
+## correct_answer
+C
+## main_concept
+CON-DEV-B87D52797068D2
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the somatic layer of extra-embryonic mesoderm lines.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-98CB899ED857
+## title
+Splanchnic extraembryonic mesoderm
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Splanchnic extraembryonic mesoderm
+## answer_a
+Covers amniotic c:avity
+## explanation_a
+The amniotic cavity is covered by the somatic layer, along with the lining of the cytotrophoblast. This is the pair reversed.
+## answer_b
+yolk sac cavity
+## explanation_b
+Correct. The splanchnic layer covers the secondary yolk sac — splanchnic goes with the gut and its derivatives throughout embryology, and the yolk sac is the gut's ancestor.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Lining the cytotrophoblast is the somatic layer's work.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+Nothing lines the syncytiotrophoblast from within except the cytotrophoblast. Both this and option C describe the outer wall, which is the somatic side of the split.
+## correct_answer
+B
+## main_concept
+CON-DEV-B87D52797068D2
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the splanchnic layer of extra-embryonic mesoderm covers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q23. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-99D0BFC97C43
+## title
+•••••••••••••••••••• is the middle layer of chorion
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+•••••••••••••••••••• is the middle layer of chorion
+## answer_a
+Cytotrophoblast
+## explanation_a
+Correct. The chorion is somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast from within outwards, so the cytotrophoblast is the middle layer.
+## answer_b
+Syncytiotrophoblast
+## explanation_b
+The syncytiotrophoblast is the outermost layer, the one in contact with the decidua and with maternal blood.
+## answer_c
+Somatic extraembryonic mesoderm
+## explanation_c
+The somatic extra-embryonic mesoderm is the innermost layer, facing the chorionic cavity. It is the layer students most often place in the middle, because it is the one they think of last when reciting from outside in.
+## answer_d
+Splanchnic extraembryonic mesoderm
+## explanation_d
+The splanchnic layer is not part of the chorion at all — it is on the yolk sac, at the other end of the split.
+## correct_answer
+A
+## main_concept
+CON-DEV-B87D52797068D2
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Order the three layers of the chorion from inside out.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q25. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BCDAC02BA52A
+## title
+Primary chorionic villi (DEP BOOK) y ad Ac em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Primary chorionic villi (DEP BOOK) y ad Ac em
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast.
+## explanation_a
+Correct. A primary villus is a core of proliferating cytotrophoblast pushing into the overlying syncytiotrophoblast, and nothing else.
+## answer_b
+It contains fetal blood vessels.
+## explanation_b
+Fetal blood vessels appear only in the tertiary villus, two stages later. This is the option the books key the question to, and it is the answer to the same question asked about tertiary villi.
+## answer_c
+It starts formation at the middle of the 3rd week of pregnancy.
+## explanation_c
+The middle of the third week is when secondary villi appear. Primary villi start at the end of the second week, which is a week earlier.
+## answer_d
+It forms the fetal part of placenta.
+## explanation_d
+The fetal part of the placenta is the chorion frondosum, made of well-developed tertiary villi. A primary villus is three steps away from that.
+## correct_answer
+A
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the composition of a primary villus and reject the later stages.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that a primary villus contains fetal blood vessels. Vessels are what make a villus tertiary; a primary villus is a cytotrophoblast core covered by syncytiotrophoblast, with no mesoderm and no vessels at all. The answer is A. The department book is explicit: primary villi are a core of cytotrophoblast covered by syncytiotrophoblast, secondary villi add a mesodermal core, and tertiary villi add vessels within it.
+
+
+---
+
+# Item
+## id
+QM-101-1F7D95A17816
+## title
+Secondary chorionic villi (DEP BOOK) Ac em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Secondary chorionic villi (DEP BOOK) Ac em
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast
+## explanation_a
+Cytotrophoblast covered by syncytiotrophoblast, with nothing between, is the primary villus. The secondary villus has somatic extra-embryonic mesoderm in its core as well.
+## answer_b
+It contains fetal blood vessels
+## explanation_b
+Fetal blood vessels make a villus tertiary. This is the option the books key the question to, and the distinction it erases — mesoderm without vessels against mesoderm with them — is the one thing this question exists to test.
+## answer_c
+It is formed at the middle of the 3rd week of pregnancy
+## explanation_c
+Correct. Secondary villi form at the middle of the third week, when somatic mesoderm grows into the core of the primary villus.
+## answer_d
+It forms the fetal part of placenta. Acad
+## explanation_d
+The fetal part of the placenta is the chorion frondosum, which carries tertiary villi. A secondary villus has no circulation and could not serve as a placenta.
+## correct_answer
+C
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Date the secondary villus and keep the tertiary villus's vessels out of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that the secondary villus contains fetal blood vessels. It does not: mesoderm alone in the core makes a villus secondary, and it becomes tertiary only once vessels form in that mesoderm. The department book puts secondary villi at the middle of the third week, which is option C, and that is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-EAE9B21DED4E
+## title
+Cytotrophoblastic shell is formed from cytotrophoblast of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytotrophoblastic shell is formed from cytotrophoblast of
+## answer_a
+Primary chorionic villi
+## explanation_a
+Primary villi exist at the end of the second week, before there are intervillous spaces for a shell to bound. The shell is a third-week structure.
+## answer_b
+Secondary chorionic villi.
+## explanation_b
+The secondary villus has a mesodermal core but is still floating; it does not reach the decidua. This is the option the other printing of this question is keyed to.
+## answer_c
+Stem tertiary chorionic villi
+## explanation_c
+Correct. The shell forms from the cytotrophoblast of the stem, or anchoring, tertiary villi — the ones that run all the way from chorion to decidua basalis and can therefore spread out against it.
+## answer_d
+Floating or absorbing tertiary chorionic villi. :
+## explanation_d
+The free or floating villi hang in maternal blood in the intervillous spaces and touch nothing. A villus that reaches no wall cannot build a shell against one; the stem villi are named anchoring for exactly this reason.
+## correct_answer
+C
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace the cytotrophoblastic shell to the villus that reaches the decidua.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf p5 q28. Manifest src_f32859b80fb79d668010.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key and the other is keyed to the secondary villus, which cannot be right — the shell forms around the tertiary villi and the intervillous spaces, from the cytotrophoblast of the tertiary villi, and it is the stem villi that reach the decidua basalis where the shell lies. Set to C.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2C98F5A8F2B9
+## title
+Late placental barrier is composed of (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Late placental barrier is composed of (DEP BOOK)
+## answer_a
+Syncytiotrophoblast and Cytotrophoblast.
+## explanation_a
+Syncytiotrophoblast plus cytotrophoblast is the outer half of the early barrier, and the cytotrophoblast is precisely the layer that disappears. It is also incomplete — a barrier has to reach the fetal blood, and this one stops short of it.
+## answer_b
+Syncytiotrophoblast and endothelium of fetal blood vessels
+## explanation_b
+Correct. The late barrier is syncytiotrophoblast and the endothelium of the fetal blood vessels, two layers where the early barrier had four.
+## answer_c
+Cytotrophoblast and extraembryonic mesoderm.
+## explanation_c
+Cytotrophoblast and villus mesoderm are the two layers that are lost. This option names the disappearing half of the early barrier and nothing that survives.
+## answer_d
+Cytotrophoblast and endothelium of blood vessels.
+## explanation_d
+Keeping the cytotrophoblast and dropping the syncytiotrophoblast reverses which layer persists. The syncytium is the one in contact with maternal blood throughout, and it is the layer that never goes.
+## correct_answer
+B
+## main_concept
+CON-DEV-2D15CFF44F825F
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the two layers left in the late placental barrier.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. Late in pregnancy the cytotrophoblast has disappeared from most of the villus and the core connective tissue is reduced, leaving syncytiotrophoblast and the endothelium of the fetal vessels — option B. Every other option keeps the cytotrophoblast, which is the layer that goes.
+
+
+---
+
+# Item
+## id
+QM-101-9E08B9FFBB1F
+## title
+Regarding the notochord
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the notochord
+## answer_a
+It persists as the annulus fibrosus part of intervertebral disc
+## explanation_a
+It persists as the nucleus pulposus, the soft centre of the disc, not as the annulus fibrosus, the fibrous ring around it. One word apart, and the wrong half of the same structure.
+## answer_b
+It lies between cloacal and buccopharyngeal membrane
+## explanation_b
+The notochord extends from the primitive pit to the bucco-pharyngeal membrane. The cloacal membrane is caudal to the primitive streak, well beyond the notochord's caudal end.
+## answer_c
+It limits the head fold during folding of the embryonic disc
+## explanation_c
+Correct. Its firmness limits the head fold during folding of the embryonic disc, which is one of the three points the book makes about its importance.
+## answer_d
+It is formed during the second week of pregnancy
+## explanation_d
+The notochord forms in the third week, after gastrulation has produced a primitive pit for it to invaginate from. In the second week there is no epiblast streak yet.
+## correct_answer
+C
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Give the notochord's importance and reject three near-misses about its fate and extent.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q33. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E5DEA89FCCB3
+## title
+Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+## answer_a
+They are segments of paraxial mesoderm
+## explanation_a
+Correct. Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and the neural tube.
+## answer_b
+They start formation during the second week of pregnancy.
+## explanation_b
+The first somite pair separates on the twentieth day, in the third week, and three pairs are added daily from then. This is the option the books key the question to, and it is a whole week early — the paraxial mesoderm itself only appears on the seventeenth day.
+## answer_c
+They give rise to muscles of gut.
+## explanation_c
+The muscle of the gut is smooth muscle from splanchnopleuric lateral plate mesoderm. Somites give skeletal muscle, through the myotome, and skeletal muscle is not what a gut wall is made of.
+## answer_d
+They are developed from intermediate mesoderm.
+## explanation_d
+Intermediate mesoderm forms the urogenital system. Somites come from the paraxial mesoderm, which is the medial of the three divisions — swapping the two is the commonest error in the whole mesoderm story.
+## correct_answer
+A
+## main_concept
+CON-DEV-5E63C211DEEE00
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Say what somites are made of and reject a second-week date for them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that somites start forming during the second week. The department book puts the first pair of occipital somites on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
+
+
+---
+
+# Item
+## id
 QM-101-607AF78B4FD8
 ## title
 Lateral rotation at the shoulder; is done by:
@@ -89498,6 +109669,1334 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.
+
+
+---
+
+# Item
+## id
+QM-101-1F081C17FA22
+## title
+Before folding, the most caudal structure in the tail fold is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Before folding, the most caudal structure in the tail fold is
+## answer_a
+Cloacal membrane
+## explanation_a
+The cloacal membrane is the most caudal structure after folding, not before it. The whole point of the reversal is that these two swap places, and this is the answer to the neighbouring question rather than to this one.
+## answer_b
+Primitive streak
+## explanation_b
+The primitive streak lies in the caudal part of the epiblast, but the connecting stalk is attached beyond it — the streak is caudal within the disc, and the stalk is caudal to the disc.
+## answer_c
+Primitive node
+## explanation_c
+The primitive node is at the cranial end of the primitive streak, so it is the more cranial of the two, not the more caudal.
+## answer_d
+Connecting stalk
+## explanation_d
+Correct. Before folding the connecting stalk, carrying the allantois, is the most caudal structure; the tail fold then swings it cranially and ventrally, leaving the cloacal membrane the most caudal.
+## correct_answer
+D
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Place the caudal structures of the disc before the tail fold turns them over.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q55; Anatomy MCQ Book [2025] [first priority].pdf p95 q55. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4E4ED5007234
+## title
+After folding, the most caudal structure at tail fold is (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+After folding, the most caudal structure at tail fold is (DEP BOOK)
+## answer_a
+Primitive streak.
+## explanation_a
+The primitive streak is regressing by this stage and is in any case never the most caudal structure — the connecting stalk was attached beyond it before the fold.
+## answer_b
+Cloacal membrane.
+## explanation_b
+Correct. The tail fold carries the connecting stalk cranially and ventrally, and the cloacal membrane is left as the most caudal structure of the folded embryo.
+## answer_c
+Connecting stalk.
+## explanation_c
+The connecting stalk is the answer to the same question asked about the position before folding, and it is the option the books key this one to as well. After the fold it has moved cranially and ventrally to lie in the ventral body wall at the umbilical ring, which is the opposite end of the reversal.
+## answer_d
+Buccopharyngeal membrane.
+## explanation_d
+The bucco-pharyngeal membrane is at the head end throughout. After folding it becomes the most cranial structure, which makes it the exact mirror of the answer here.
+## correct_answer
+B
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Apply the reversal of position produced by the tail fold.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the connecting stalk, which is the answer to the paired question about the position *before* folding — the two questions are printed together and their keys appear to have been carried across. The department book states the reversal explicitly: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal. After folding the answer is therefore the cloacal membrane, option B.
+
+
+---
+
+# Item
+## id
+QM-101-2077B9B9F3CD
+## title
+Tail fold of the embryo is limited by (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Tail fold of the embryo is limited by (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Notochord.
+## explanation_a
+The notochord limits the head fold, not the tail fold. The book pairs the two limits deliberately, and swapping them is the error the question is set to find.
+## answer_b
+Primitive streak.
+## explanation_b
+Correct. The relatively firm primitive streak limits the tail fold, as the notochord limits the head fold.
+## answer_c
+Yolk sac.
+## explanation_c
+The yolk sac is carried by folding rather than limiting it — the lateral folds pinch it into the vitelline duct.
+## answer_d
+Amniotic cavity.
+## explanation_d
+The amniotic cavity is what causes folding by expanding; something that drives a fold cannot be what stops it.
+## correct_answer
+B
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the firm structure that limits each of the two longitudinal folds.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-18B2A8738FE5
+## title
+Notochord is developed from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Notochord is developed from
+## answer_a
+The epiblast cells at the primitive streak
+## explanation_a
+Epiblast cells at the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from a more precise place — the pit at the cranial end, not the length of the streak.
+## answer_b
+The hypoblast cells
+## explanation_b
+The hypoblast is displaced by the invading epiblast and contributes nothing to the notochord. Half the wrong answers in this chapter come from giving the hypoblast work the epiblast does.
+## answer_c
+Intraembryonic mesoderm
+## explanation_c
+The notochord is not formed from mesoderm; it arises alongside it, from the same epiblast, and lies in the median plane where mesoderm is absent.
+## answer_d
+Epiblast cells at the wall of primitive pit
+## explanation_d
+Correct. The prenotochordal process is a solid cord of epiblast cells from the wall of the primitive pit, which invaginates and grows cranially in the midline.
+## correct_answer
+D
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Trace the notochord to the exact part of the epiblast it comes from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B11121A7A97E
+## title
+Neurenteric canal is formed due to degeneration of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neurenteric canal is formed due to degeneration of
+## answer_a
+Floor of notochordal canal and underlying endoderm
+## explanation_a
+Correct. The floor of the notochordal canal, fused with the endoderm beneath it, degenerates — which opens the amniotic cavity into the yolk sac through the canal.
+## answer_b
+Roof of notochordal canal and median endoderm
+## explanation_b
+The roof of the notochordal canal lies against ectoderm and persists; with the sides it becomes the notochordal plate. Losing the roof would open the canal upwards into nothing.
+## answer_c
+Roof of notochordal canal with median ectoderm
+## explanation_c
+The same error as B with the wrong layer named as well. The ectoderm is above the roof and the endoderm below the floor, and only the lower pair degenerates.
+## answer_d
+Buccopharyngeal membrane
+## explanation_d
+The bucco-pharyngeal membrane is at the cranial end of the disc and breaks down much later, opening the mouth into the foregut. It has nothing to do with the neurenteric canal.
+## correct_answer
+A
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Name the wall whose loss opens the neurenteric canal, and say what it connects.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q36; Anatomy MCQ Book [2025] [first priority].pdf p92 q36. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D2733591B53E
+## title
+One of the following is true regarding the notochord: (2017 – DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true regarding the notochord: (2017 – DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+It extends between primitive pit and cloaca I membrane.
+## explanation_a
+The notochord extends from the primitive pit cranially as far as the bucco-pharyngeal membrane. The cloacal membrane is at the other end of the disc, caudal to the streak.
+## answer_b
+It persists as nucleus pulposus in the intervertebral discs.
+## explanation_b
+Correct. Most of the notochord degenerates; the part inside the intervertebral disc persists as the nucleus pulposus, which is the only piece of it a person keeps.
+## answer_c
+It is formed from cells migrating from primitive streak.
+## explanation_c
+Cells migrating through the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from the primitive pit at the cranial end of the streak — a distinction of a few cell-widths that the books examine repeatedly.
+## answer_d
+It is dorsal to neural tube.
+## explanation_d
+The notochord is ventral to the neural tube: it lies under the ectoderm it induces to become the neural plate. A student who pictures the vertebral column, with the cord behind the bodies, has the relation the right way round and has only to remember that the notochord ends up inside the bodies.
+## correct_answer
+B
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Give the fate of the notochord and its position relative to the neural tube.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p121 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6E9DBEDBFB32
+## title
+Gastrulation is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Gastrulation is
+## answer_a
+The formation of trilaminar embryonic disc
+## explanation_a
+Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one.
+## answer_b
+The formation of bilaminar embryonic disc
+## explanation_b
+The bilaminar disc is what gastrulation starts from, and it was made in the second week from the embryoblast. Chosen by students who have the two discs the right way round but the arrow reversed.
+## answer_c
+The formation of chorion and chorionic villi
+## explanation_c
+The chorion and the chorionic villi form in the same third week, which is why they are offered here, but they are extra-embryonic and are formed from the trophoblast, not from the disc.
+## answer_d
+The start of the process of folding
+## explanation_d
+Folding begins at the end of the third week, after gastrulation has provided it with three layers to fold. The order matters: there is nothing to fold into a gut until the endoderm exists.
+## correct_answer
+A
+## main_concept
+CON-DEV-215BD7E9E58872
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Define gastrulation by which disc it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q30. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EE6F75FF78FF
+## title
+The primitive streak ﬁrst appears at the beginning of the __ week. (2019 – 2nd – DEP BO…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The primitive streak ﬁrst appears at the beginning of the __ week. (2019 – 2nd – DEP BOOK) Vi
+## answer_a
+First
+## explanation_a
+The first week is fertilisation, cleavage and the blastocyst. There is no epiblast yet, so there is nothing for a primitive streak to form in. This is the option the books key the question to, and it is a week and a half too early.
+## answer_b
+Second
+## explanation_b
+The second week is implantation and the bilaminar disc, which does create the epiblast. It is the strongest wrong answer here, and it stops one step short: the epiblast is made in the second week and the streak appears in it at the start of the third.
+## answer_c
+Third
+## explanation_c
+Correct. The primitive streak appears at the beginning of the third week, and its appearance is the beginning of gastrulation.
+## answer_d
+Fourth
+## explanation_d
+By the fourth week gastrulation is over and folding is under way. The streak is already regressing.
+## correct_answer
+C
+## main_concept
+CON-DEV-215BD7E9E58872
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Date the primitive streak to the week gastrulation happens in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the first week. The department book makes gastrulation, beginning with the formation of the primitive streak in the epiblast, one of the two characteristic events of the third gestational week — and the epiblast the streak forms in does not exist until the eighth day. The first week is fertilisation, cleavage and blastocyst formation. Set to C.
+
+
+---
+
+# Item
+## id
+QM-101-3DF6EBF9F054
+## title
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## answer_a
+BLiccopharyngeal membrane
+## explanation_a
+At the bucco-pharyngeal membrane the ectoderm and endoderm are fused to one another, so there is no space between them for mesoderm. That fusion is what makes it a membrane.
+## answer_b
+Cloacal membrane
+## explanation_b
+The cloacal membrane is the same arrangement at the caudal end — ectoderm fused to endoderm, and no mesoderm between.
+## answer_c
+On both sides of notochord and neural tube
+## explanation_c
+Correct. The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and the neural tube.
+## answer_d
+Median region between primitive pit and buccopharyngeal membrane
+## explanation_d
+The median region between the primitive node and the bucco-pharyngeal membrane is occupied by the notochord and the neural tube, so mesoderm is absent there too. All three wrong options name one of the book's three exceptions, which is why this question is harder than it looks: a student who has learnt only the exceptions still has to notice that none of them is the answer.
+## correct_answer
+C
+## main_concept
+CON-DEV-215BD7E9E58872
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Say where intra-embryonic mesoderm lies by knowing the three places it does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q35. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-33A444C7F137
+## title
+Neural plate is a thickened median region of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neural plate is a thickened median region of
+## answer_a
+Endoderm
+## explanation_a
+The endoderm is the lowest layer and lines the gut. Nothing nervous comes from it.
+## answer_b
+Mesoderm
+## explanation_b
+The mesoderm lies between the other two and is where the notochord that *induces* the plate sits. Confusing the inducer with the induced is the commonest way to reach this option.
+## answer_c
+Ectoderm
+## explanation_c
+Correct. The neural plate is a thickening of the ectoderm in the median plane, overlying the notochord.
+## answer_d
+Notochord
+## explanation_d
+The notochord is beneath the plate and induces it, but it is a separate structure and does not thicken into it. If the plate were notochord the nervous system would be mesodermal.
+## correct_answer
+C
+## main_concept
+CON-DEV-4BC4233153C3DC
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the germ layer the neural plate is a thickening of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p92 q37. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. The neural plate is a median thickening of the ectoderm, and the department book puts the central nervous system among the ectodermal derivatives on page 87. Set to C.
+
+
+---
+
+# Item
+## id
+QM-101-9CDC0E65800C
+## title
+Regarding formation of central nervous system, mark the correct statement: (DEP BOOK) e…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding formation of central nervous system, mark the correct statement: (DEP BOOK) em em em
+## answer_a
+It is derived from ectoderm
+## explanation_a
+Correct. The central nervous system develops from ectoderm, by way of the neural plate and the neural tube.
+## answer_b
+It is not induced by the underlying notochord
+## explanation_b
+A double negative hiding a false statement. The notochord does induce the overlying ectoderm to become the neural plate; that induction is the reason the plate lies exactly where the notochord does.
+## answer_c
+The neural groove results from depression of the neural crest
+## explanation_c
+The neural groove is a depression of the neural plate. The neural crest is what is left over at the lips of the groove once the folds fuse, so it is a product of the depression and cannot be the thing depressed.
+## answer_d
+The ﬁrst area of the neural tube to close is its caudal end. Ac ad
+## explanation_d
+Closure begins in the middle of the embryo and runs both ways, so the two ends shut last — and of them the cranial neuropore closes before the caudal. Naming the caudal end as first is wrong twice: it is neither first nor an area where closure begins.
+## correct_answer
+A
+## main_concept
+CON-DEV-4BC4233153C3DC
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Hold the order of neural tube closure and the identity of the inducer together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Only A is true: the central nervous system is a derivative of ectoderm, which is the one statement of the four the department book itself makes, in its list of ectodermal derivatives on page 87. B, C and D are each false, and the reasons are given in their explanations.
+
+
+---
+
+# Item
+## id
+QM-101-C267DFC42D90
+## title
+Epidermis of skin is derived from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Epidermis of skin is derived from
+## answer_a
+Neural crest
+## explanation_a
+The neural crest gives the melanocytes that live in the epidermis, and sensory ganglia, and much else — but not the keratinocytes that are the epidermis itself. This is the most interesting wrong answer in the leaf, because a crest derivative really does end up in the layer.
+## answer_b
+Neural tube
+## explanation_b
+The neural tube becomes the brain and spinal cord. It began as the same ectoderm, which is what makes the distinction between surface and neural ectoderm worth drawing.
+## answer_c
+Suiface ectoderm
+## explanation_c
+Correct. The epidermis comes from the surface ectoderm, the part of the layer that is left once the neural plate has sunk away from it.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+The intra-embryonic mesoderm gives the dermis beneath the epidermis, and the two are commonly answered for each other. Dermis is mesodermal, epidermis ectodermal.
+## correct_answer
+C
+## main_concept
+CON-DEV-C84AD85AB265CC
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Separate surface ectoderm from the neural ectoderm beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q40. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7A47154A526E
+## title
+Parenchyma of the liver is developed from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Parenchyma of the liver is developed from
+## answer_a
+Endoderm
+## explanation_a
+Correct. The liver parenchyma is endodermal — it grows as a diverticulum from the foregut, whose lining is endoderm.
+## answer_b
+Ectoderm
+## explanation_b
+Ectoderm gives the epidermis, the nervous system and the two ends of the digestive tract. The liver arises from the foregut, well inside the endodermal stretch.
+## answer_c
+Neural crest
+## explanation_c
+Neural crest cells migrate very widely, but they do not build glandular parenchyma. The question says parenchyma deliberately.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+The commonest wrong answer, and it is half right: the liver's connective tissue, its capsule and its blood vessels are mesodermal. The parenchyma — the hepatocytes — is not, and the word "parenchyma" in the stem is what separates the two.
+## correct_answer
+A
+## main_concept
+CON-DEV-C84AD85AB265CC
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Assign the working cells of a gut-derived gland to endoderm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p94 q49. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. The department book lists the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid among the derivatives of endoderm, as glandular epithelium. Set to A.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4FE7335BC222
+## title
+By EM , the cell membrane appears as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+By EM , the cell membrane appears as:
+## answer_a
+Lipid bilayer
+## explanation_a
+The lipid bilayer is the molecular arrangement. The electron microscope shows one more layer than that, because it stains the two rows of heads and leaves the tails between them unstained.
+## answer_b
+Trilaminar
+## explanation_b
+Correct. Trilaminar — two electron-dense layers with an electron-lucent layer between them — the unit membrane.
+## answer_c
+unilaminar
+## explanation_c
+Unilaminar is what the membrane looks like below the magnification at which the three layers separate. It is an appearance of poor resolution, not of the membrane.
+## answer_d
+Pentalaminar
+## explanation_d
+Pentalaminar would need two membranes with something between them, which is what a nuclear envelope shows, not a cell membrane.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Report what the electron microscope shows rather than what the chemistry is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q14. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EED140F5AEE5
+## title
+Cell membrane appears as trilaminar structure because:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane appears as trilaminar structure because:
+## answer_a
+Phospholipids molecules have hydrophilic head and hydrophobic tail
+## explanation_a
+True of phospholipids and not an explanation. Having a head and a tail is why they form a bilayer; it is not why the picture has three layers.
+## answer_b
+Of the arrangement of phospholipids molecules bilayer
+## explanation_b
+Also true, and also not the reason. A bilayer by itself would be expected to look like two layers; the third comes from what the stain does, not from what the lipid does.
+## answer_c
+Of deposition of heavy metals (osmium) in the hydrophilic heads of phospholipids
+## explanation_c
+Correct. Osmium and other heavy metals deposit in the hydrophilic heads at both surfaces and not in the hydrophobic tails between them, so two dense lines appear with a pale line between.
+## answer_d
+All of the above
+## explanation_d
+"All of the above" is tempting because A and B are both true statements. The stem asks why the appearance is trilaminar, and only C answers that question — the other two explain the bilayer, which is the thing being imaged rather than the reason for the image.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Give the reason for the three-layered image rather than a true fact about the membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q10. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8841B7D47A36
+## title
+trilaminar membrane:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+trilaminar membrane:
+## answer_a
+1 dark line, 2 light
+## explanation_a
+Reversed. One dark line between two light ones would mean the stain sat in the tails and avoided the heads, which is the opposite of what osmium does.
+## answer_b
+2 dark line, 1 light
+## explanation_b
+Correct. Two dark, electron-dense lines — the stained hydrophilic heads at the two surfaces — with one light, electron-lucent line between them.
+## answer_c
+2 dark line, 2 light
+## explanation_c
+Two and two makes four layers, not three, and the word trilaminar in the stem rules it out before any biology is needed.
+## answer_d
+1 dark line, 1 light
+## explanation_d
+One and one makes two, which is the lipid bilayer counted rather than the image described.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Count the dark and light lines of the unit membrane in the right order.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---

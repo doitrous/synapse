@@ -7722,3 +7722,238 @@ sections.Definition: The identification of the digestive tract's two ectodermal 
 sections.Clinical significance: The argument that the embryonic period is the window in which an organ can fail to form is this article's own reasoning from the book's definition of the period as organogenesis. No Kasr source names a teratogen, a sensitive week or a malformation, and none is named here.
 ## notes
 Written as the leaf's own article rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the two teach different objectives from the same chapter: that article is what one somite becomes, this one is when somites appear, in what direction, and how many. A student can hold either without the other, and the question books ask them separately. The overlap is named in both directions in related_articles so that neither article reads as complete on the other's subject. The chapter's third subject, folding, has its own article already and is only dated here.
+
+---
+
+# Item
+## id
+ART-101-ANA-FETAL-PERIOD
+## title
+The fetal period
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-E273F775E9CB77 | CON-DEV-869FD1A9D3AEB7 | CON-DEV-B9581AAE767D2F
+## related_articles
+ART-101-ANA-EMBRYONIC-PERIOD: The period this one follows — organogenesis in the 4th to 8th weeks, where the fetal period does maturation and growth and forms nothing new.
+ART-101-ANA-AMNIOTIC-FLUID: The fluid the fetus of these months swallows and moves in, and whose volume is the clinical measure of the same period.
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: The organ that supplies the rapid growth described here, across the same months.
+## aliases
+Fetal period | Fetal life | Crown-rump length | CRL | Crown-heel length | CHL | Vernix caseosa | Lanugo hair | Duration of pregnancy
+## reading_time
+8
+## summary
+The fetal period runs from the beginning of the 9th week — the start of the 3rd month — until birth, and it forms no new organs: it matures the ones already built and grows the body fast. Almost everything examined in it is a number attached to a month. The head falls from half the crown-rump length in the 3rd month to a third of crown-heel length in the 5th and a quarter of it at birth; lanugo appears in the 4th month, vernix caseosa in the 5th, and the skin stays wrinkled until the end of the 6th. Pregnancy is 280 days from the last menstrual period, or 266 days from fertilization, which is the more accurate of the two.
+## sections
+### Definition
+The fetal period is the period from the beginning of the 9th week till birth.
+
+It is characterised by maturation of the tissues and organs, and by rapid growth of the body. That is the whole of the contrast with the period before it. The embryonic period, the 4th to the 8th weeks, is organogenesis: the organs are laid down there. Nothing new is laid down here. What happens here is that what exists is finished and enlarged.
+
+The beginning of the 9th week is also the beginning of the 3rd month, and the conversion is where students lose the easiest mark in the chapter. Weeks 1 to 4 are the first month and weeks 5 to 8 the second, so the eight weeks of the embryonic period fill two whole months exactly, and the fetal period opens as the third begins. A student who converts carelessly answers "the 2nd month", which is still inside organogenesis.
+
+The duration of the pregnancy that contains it is counted two ways, and the department book states both with a preference. Counted from the first day of the last menstruation it is about 280 days, or 40 weeks. Counted from fertilization it is about 266 days, or 38 weeks, and the book calls this the more accurate of the two. The difference is the fortnight between the last period and ovulation on the 14th day of the cycle.
+
+### Mechanism
+Growth in this period is measured, not described, and the department book measures it two ways.
+
+**Crown-rump length (CRL)** is the sitting height. **Crown-heel length (CHL)** is measured from the vertex of the skull to the heel — the standing height. The book carries both against the age of the fetus in weeks in a table, and which of the two a figure refers to is part of the figure.
+
+The head grows more slowly than the rest of the body throughout the period, so its share of the whole falls on a schedule with three marked points, each taken against a stated measurement:
+
+At the beginning of the **3rd month**, the head is **one half of the crown-rump length**.
+At the beginning of the **5th month**, the head is **one third of the crown-heel length**.
+At **birth**, the head is **one quarter of the crown-heel length**.
+
+Three fractions, three dates, two different measurements. A student who has learnt the fractions as a run of numbers — a half, a third, a quarter — without the dates and without which measurement each belongs to will pick whichever comes first to mind, and the examiners print the neighbouring fraction as the distractor.
+
+**The external features change on their own schedule**, and the book gives it month by month.
+
+In the **3rd month** the face becomes human-looking and the limbs become longer. At the **end of the 3rd month** the external genitalia are differentiated — which is why the sex of the fetus is not distinguishable before then, though it was determined at fertilization.
+
+From the **4th month** lanugo hair covers the fetus.
+
+At the **5th month** the skin is covered by a fatty substance called vernix caseosa, and fetal movements are clearly recognised from this month.
+
+Until the **end of the 6th month** the skin remains wrinkled, because there is no subcutaneous fat under it. The wrinkles fill out in the last three months as fat is laid down, and that is the same deposition that carries most of the weight gained before birth.
+
+**Just before birth** the testes descend to the scrotum.
+
+Read the two schedules together and the period is one continuous fact seen twice: the body is catching up with the head, and the surface is finishing last.
+
+### Key determinants
+**The period.** Beginning of the 9th week — the start of the 3rd month — until birth. Maturation of tissues and organs, and rapid growth. No organogenesis.
+
+**The two measurements.** Crown-rump length, the sitting height. Crown-heel length, vertex of skull to heel, the standing height.
+
+**The head's share, with its date and its measurement — three items, and each is a pair.**
+
+Beginning of the 3rd month: one half of the crown-rump length.
+Beginning of the 5th month: one third of the crown-heel length.
+At birth: one quarter of the crown-heel length.
+
+**The external features, in month order — seven items.**
+
+3rd month: face becomes human-looking; limbs become longer.
+End of 3rd month: external genitalia differentiated.
+4th month: lanugo hair covers the fetus.
+5th month: vernix caseosa covers the skin; fetal movements clearly recognised.
+End of 6th month: the skin stops being wrinkled, subcutaneous fat having been laid down.
+Just before birth: the testes descend to the scrotum.
+
+**The duration of pregnancy.** About 280 days, 40 weeks, from the first day of the last menstruation. About 266 days, 38 weeks, from fertilization, which is the more accurate.
+
+**Weight at full term.** About 3000 to 3400 grams. The figure comes from the last row of the department book's growth table, and the rows above it are preterm weights — roughly 900 to 1300 grams at 25 to 28 weeks and 1400 to 2100 grams at 28 to 32 weeks. The distinction matters more than the number: 1400 to 2100 grams is a real figure from the same table, one row too high, and it is the distractor that catches most students on this leaf. See `conflicts` for the state of the evidence behind it.
+
+### Clinical significance
+The department book gives this chapter no clinical note. Its applied material is the chapter's two intended learning outcomes — identify the features of the fetal period, and describe how to measure the fetus at different stages of growth — and the silence is recorded in `evidence_gaps` rather than filled from an obstetric textbook.
+
+Two things the book does state are nevertheless used clinically as stated.
+
+The first is the pair of durations. A pregnancy is dated in practice from the first day of the last menstrual period because that is the date a woman can report, and it runs 280 days from there; the biologically accurate 266 days from fertilization cannot usually be counted because the date of fertilization is not known. The fortnight between them is the reason a due date calculated from a period and a size measured on a scan can disagree, and the book's own preference for the fertilization count is the reason the scan is trusted when they do.
+
+The second is the measurement pair. Crown-rump length is the sitting height and crown-heel length the standing height, and the book tabulates both against age in weeks. That table is what a length is read against to give a fetus an age — the fetal-period equivalent of counting somites in the embryonic period, where a process rather than a size did the dating.
+
+Two features of the surface are worth naming as what a newborn is examined for, because the book dates them precisely. Vernix caseosa is present from the 5th month and is the fatty covering seen on a baby at delivery. The testes descend to the scrotum just before birth, which is why the scrotum is examined at birth and why a baby born early may be found with them still undescended.
+
+### Common misconceptions
+The fetal period does not start at the beginning of the 2nd month. It starts at the beginning of the 9th week, which is the beginning of the 3rd month. The 2nd month is weeks 5 to 8 and is the second half of organogenesis.
+
+At birth the head is a quarter of the crown-heel length, not a third. One third is the true figure for the beginning of the 5th month, on the same measurement, which is why it is the distractor that works.
+
+The half is taken against crown-rump length, not crown-heel length. The measurement changes between the 3rd month figure and the two later ones, and a fraction quoted without its measurement is only half an answer.
+
+The fetal period is not when the organs are formed. Nothing new is formed after the 8th week; the period matures and grows what is already there.
+
+The external genitalia are not differentiated at the beginning of the 3rd month but at its end. Sex was determined at fertilization by the type of fertilising sperm; what changes at the end of the 3rd month is only that it becomes visible.
+
+The skin is not wrinkled for want of fluid. It is wrinkled for want of subcutaneous fat, and it fills out at the end of the 6th month when the fat is laid down.
+
+A full-term weight is not 1400 to 2100 grams. That is the 28 to 32 week row of the same growth table — a preterm fetus. Full term is about 3000 to 3400 grams, and one printing of this question in the books is keyed to the wrong row.
+## hold_these
+The fetal period runs from the beginning of the 9th week — the start of the 3rd month — until birth.
+It is characterised by maturation of tissues and organs and rapid growth of the body, not by organ formation.
+Crown-rump length is the sitting height; crown-heel length is measured from the vertex of the skull to the heel and is the standing height.
+At the beginning of the 3rd month the head is one half of the crown-rump length.
+At the beginning of the 5th month the head is one third of the crown-heel length.
+At birth the head is one quarter of the crown-heel length.
+In the 3rd month the face becomes human-looking and the limbs become longer; at the end of the 3rd month the external genitalia are differentiated.
+Lanugo hair covers the fetus from the 4th month, and vernix caseosa covers the skin at the 5th month.
+Fetal movements are clearly recognised from the 5th month of pregnancy.
+The skin remains wrinkled till the end of the 6th month, for want of subcutaneous fat.
+The testes descend to the scrotum just before birth.
+Pregnancy lasts about 280 days, or 40 weeks, from the first day of the last menstruation, and about 266 days, or 38 weeks, from fertilization, which is the more accurate count.
+A full-term fetus weighs about 3000 to 3400 grams.
+## lose_the_mark
+Saying the fetal period starts at the beginning of the 2nd month. The 9th week is the beginning of the 3rd month.
+Giving the head as one third of body length at birth. One third belongs to the beginning of the 5th month; at birth it is one quarter.
+Quoting a fraction without its measurement. The half is of crown-rump length; the third and the quarter are of crown-heel length.
+Answering that organs are formed in the fetal period. They are formed in the embryonic period; this one matures and grows them.
+Putting the differentiation of the external genitalia at the beginning of the 3rd month. It is at its end.
+Explaining the wrinkled skin by anything but the absence of subcutaneous fat.
+Giving 1400 to 2100 grams as the full-term weight. That is the 28 to 32 week row of the growth table.
+Giving one duration of pregnancy where the book gives two. 280 days from the last menstruation and 266 days from fertilization are both marked, and the book prefers the second.
+## image_recommendations
+### comparison table · A clean, legible transcription of the department book's Table 1, "growth changes during fetal life", on Anatomy page 106 — age in weeks against crown-rump length, crown-heel length and weight, every row of it, with the full-term row and the 28-32 week row distinguishable at a glance
+Purpose: This table is the source of every length and weight examined on this leaf, and the repository holds it only as an unreadable image, so the numbers cannot presently be checked against the department's own printing. It is also the table whose adjacent rows produce the standard wrong answer on the birth-weight question. A legible version closes an evidence gap and settles a recorded conflict, which no drawing of ours can do.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: rescan or transcribe from the department book, Anatomy page 106, Table 1. This is a transcription request, not an illustration request: the value is in the numbers being readable and complete.
+Rights: department book material — clear reproduction rights before release, or transcribe the figures into a newly typeset table
+Notes: Serves concepts CON-DEV-869FD1A9D3AEB7 and CON-DEV-B9581AAE767D2F, and would resolve the conflict recorded on this article about the full-term weight.
+### diagram · One fetus drawn twice side by side with the two measurements marked on it — crown-rump length as a line from vertex to rump with the figure seated, and crown-heel length as a line from vertex to heel with the figure extended — each labelled with its everyday name, sitting height and standing height
+Purpose: The two measurements are the axis every fraction in this chapter is taken against, and a student who confuses them attaches the right fraction to the wrong line. Drawn once, on the same fetus, the difference is a single visual fact.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product from the department book's definitions on Anatomy page 106
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-869FD1A9D3AEB7.
+### diagram · Three fetal silhouettes to scale at the beginning of the 3rd month, the beginning of the 5th month and at birth, each with the head bracketed against the body and the fraction written beside it — one half of crown-rump length, one third of crown-heel length, one quarter of crown-heel length — and the measurement line drawn to the rump on the first and to the heel on the other two
+Purpose: The three fractions are examined by printing the neighbouring one as a distractor, so what a student needs is the fractions fixed to their dates rather than remembered as a list. A scaled series makes the falling proportion a trend that can be seen rather than three numbers to be ordered, and drawing the measurement line differently on the first panel carries the change of measurement in the same picture.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 7.1 on Anatomy page 106, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-869FD1A9D3AEB7. An unlabelled variant would also carry a labelling question on this leaf.
+### diagram · A month-by-month strip from the 3rd month to birth, each month carrying the external features the book dates to it — human-looking face and lengthening limbs in the 3rd, differentiated external genitalia at its end, lanugo from the 4th, vernix caseosa and first clearly felt movements in the 5th, wrinkled skin ending with the 6th, testes descending just before birth
+Purpose: Seven features on a seven-month scale, each examined by being offered against its neighbour's month. Laid out on one axis the schedule is read off rather than recalled, and the two features that are dated to the same month become visibly a pair.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn for this product from the department book's text on Anatomy pages 106-107; the book prints the features as prose, not as a figure
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-E273F775E9CB77.
+## conflicts
+The full-term weight of the fetus, 3000 to 3400 grams, is not settled against the department book's own text in the extracted corpus. The book's growth table on Anatomy page 106 is the source of the figure, and the extraction carries that table only as an image, so no weight at any week is present as text. The question books disagree with themselves about it: the clean printing of the birth-weight question is keyed to 3000 to 3400 grams, and two annotated printings are keyed to 1400 to 2100 grams, which is the 28 to 32 week row of the same table. This article follows 3000 to 3400 grams, on the clean printing and on the table's internal logic — a term weight cannot be lower than the preterm rows above it — and records that the department book's own table has not been read to confirm it. The image recommendation for a legible transcription of Table 1 exists to close this.
+The preterm weights quoted in Key determinants — about 900 to 1300 grams at 25 to 28 weeks and 1400 to 2100 grams at 28 to 32 weeks — come from the concept as drafted from the question books and from the same unread table, not from any Kasr text this article has seen. They are given here only to place the standard distractor at the week it belongs to, and they carry the same doubt as the term figure.
+## evidence_gaps
+The department book's growth table, correlating crown-rump and crown-heel length with the age of the fetus in weeks, is carried in the extraction only as an image. No length at any week is stated in this article for that reason, and the two measurements are defined rather than tabulated.
+No Kasr source states the weight of the fetus at any week as extractable text. Every weight in this article is flagged in `conflicts`.
+The department book gives this chapter no clinical note, no anomaly and no Egyptian applied material. Its applied content is the chapter's two intended learning outcomes only.
+No Kasr source states what lanugo hair or vernix caseosa are for, only when each appears. This article does not supply a function for either.
+No Kasr source states when in the fetal period a fetus becomes viable, nor what preterm birth means for it. The preterm weeks are named in this article only as rows of a growth table.
+No Kasr source explains why the fertilization count of 266 days is the more accurate. The book states the preference; the explanation offered in Clinical significance is this article's own.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 7 "Fetal Period", PDF pages 106-107 — the definition of the period and its span, its characterisation as maturation and rapid growth, crown-rump and crown-heel length with their everyday names, the three head-to-body proportions with their dates and measurements, the month-by-month external features, the descent of the testes, the first clearly recognised fetal movements, and the two counts of the duration of pregnancy, with Table 1 and Figure 7.1. Extracted to scripts/kasr/extract/deptbook.json. Table 1 is carried by the extraction as an image and has not been read.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the 4th to 8th weeks as the period of organogenesis, cited here only for the contrast that defines this period.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 1 "Male & Female Gametes", PDF page 66 — ovulation on the 14th day of the ovarian cycle, cited only for the fortnight between the two counts of the duration of pregnancy.
+Anatomy Question [Embryo], Anatomy Department (src_12d639a625d8305c4454) — the question book carrying the fetal-period, head-proportion and birth-weight questions filed on this leaf. Recorded as exam signal on concepts CON-DEV-E273F775E9CB77, CON-DEV-869FD1A9D3AEB7 and CON-DEV-B9581AAE767D2F.
+Anatomy MCQ Book 2025, Anatomy Department (src_764a2521809818b8abdc) — a second printing of the birth-weight question, recorded as exam signal on CON-DEV-B9581AAE767D2F. It is one of the printings keyed to 1400 to 2100 grams, and the disagreement is recorded in `conflicts`.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank. One of the four is a transcription request rather than an illustration request, because the missing asset is a table of numbers.
+questionIds: The four questions filed on this leaf are authored in scripts/kasr/seeds/mcq/fetal-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: None of the three concepts carries a secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason. The weight figures make this article the one on this leaf most in need of a reviewer with the book open at page 106.
+relatedConcepts: All three concepts whose module subject path is 101 ISK > Anatomy > General Embryology > Fetal Period are declared, and each is taught above — the span of the period and its character in Definition, the three head proportions with their dates and measurements in Mechanism and Key determinants, and the full-term weight against the preterm rows in Key determinants and in `conflicts`. The third is the weakest of the three by evidence and is the only one whose supporting figure this article has not seen in the department book's own text.
+sections.Definition: The arithmetic converting the 9th week into the beginning of the 3rd month is this article's own, worked from the book's own dates. The book states the 9th week and does not do the conversion.
+sections.Definition: The identification of the fortnight between the 280-day and 266-day counts as the interval to ovulation joins this chapter's two durations to the Gametes chapter's statement that ovulation falls on the 14th day. Both statements are the book's; the connection is this article's.
+sections.Mechanism: The observation that the two schedules — the falling head proportion and the month-by-month external features — are one process seen twice is this article's own framing. The book gives them as two separate accounts.
+sections.Clinical significance: The account of why a due date is calculated from the last menstrual period in practice, and why a scan may disagree with it, is general obstetric knowledge and is not stated by any Kasr source. It is included because the book states both durations and states a preference between them, and it is named here rather than left to read as the department's own.
+sections.Clinical significance: The remark that a baby born early may be found with undescended testes follows from the book's statement that they descend just before birth. No Kasr source names cryptorchidism, and none is named here.
+sections.Key determinants: The preterm weights are quoted from the concept as drafted from the question books, not from a Kasr text this article has read. They are marked as such in `conflicts` and in `evidence_gaps`.
+## notes
+This is the shortest chapter in the Anatomy part of the department book — two pages, largely a table and a figure — and it is the one where the article most exceeds its source, because almost every mark on the leaf is lost to a number attached to the wrong month or the wrong measurement rather than to a fact not known. The article is therefore organised as schedules rather than as narrative, and every fraction is written with its date and its measurement attached.
+The one thing this article cannot do is read the department book's Table 1, which the extraction holds as an image. Every weight and every length in the chapter comes from that table, so a legible transcription of it is written as the first and only required non-illustration media request on this leaf, and the disagreement it would settle is recorded in `conflicts` rather than resolved silently.

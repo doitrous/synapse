@@ -52,7 +52,10 @@ for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
   const text = readFileSync(join(DIR, name), 'utf8')
   for (const block of text.split(/^\s*---\s*$/m)) {
     const field = (label: string) =>
-      block.match(new RegExp(`^## ${label}\\s*\\n(.+)$`, 'm'))?.[1].trim() ?? ''
+      // `[ \t]*` and not `\s*`: `\s` matches a newline, so a field whose value
+      // is blank would swallow the blank line and return the NEXT heading as
+      // its value. Same bug as `build-article-links.ts` had.
+      block.match(new RegExp(`^## ${label}[ \\t]*\\n(.+)$`, 'm'))?.[1].trim() ?? ''
     const id = field('id')
     const key = field('canonical_key')
     if (id && key) { rows.push({ id, key, subject: field('subject'), file: name }); continue }
