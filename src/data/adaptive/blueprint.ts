@@ -14,6 +14,7 @@
  */
 
 import type { Concept } from '@/data/conceptGraph'
+import { derivedExamWeight } from '@/data/examSignal'
 
 /** Admin-owned, so this is a shared catalogue document. */
 export const ADAPTIVE_BLUEPRINT_STORAGE_KEY = 'synapse-adaptive-blueprints-v1'
@@ -58,9 +59,16 @@ export interface Blueprint {
  */
 export const UNWEIGHTED_CONCEPT_WEIGHT = 0.25
 
-export function rawConceptWeight(concept: Concept, yearId: string): number {
+export function rawConceptWeight(concept: Concept, yearId: string, currentYear = new Date().getFullYear()): number {
   const perYear = yearId ? concept.examWeightByYear?.[yearId] : undefined
   if (typeof perYear === 'number' && perYear > 0) return perYear
+  // A weight derived from the papers a concept actually appeared on beats a
+  // number somebody typed, and unlike that number it can say why. Ranked below
+  // an explicit per-year weight, which is a deliberate override.
+  if (concept.examSignal?.appearances.length) {
+    const derived = derivedExamWeight(concept.examSignal, { currentYear })
+    if (derived > 0) return derived
+  }
   if (typeof concept.blueprintWeight === 'number' && concept.blueprintWeight > 0) return concept.blueprintWeight
   return UNWEIGHTED_CONCEPT_WEIGHT
 }

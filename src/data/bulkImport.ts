@@ -10,6 +10,14 @@ import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
+import {
+  DEFAULT_QUESTION_FORMAT, QUESTION_FORMATS, derivationRefusal, isChoiceFormat,
+  isRunnableFormat, isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
+} from './questionFormat.ts'
+import { matchingErrors, parseMatching } from './matchingQuestion.ts'
+import { multiResponseErrors, parseCorrectAnswers } from './multiResponseQuestion.ts'
+import { labelingErrors, parseLabeling } from './labelingQuestion.ts'
+import { completionErrors, parseCompletion } from './completionQuestion.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
@@ -46,6 +54,16 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       ...common,
       { key: 'vignette', label: 'Question context / vignette', help: 'Clinical or academic context shown before the main question.' },
       { key: 'question', label: 'Question', required: true, help: 'The main question, kept separate from its context.' },
+      { key: 'format', label: 'Question format', help: 'single best answer (default), multiple response, true or false, matching, completion, labelling, image-based, short answer, structured written, essay, comparison table, or multipart written.' },
+      { key: 'written_parts', label: 'Written parts', help: 'The marked subparts of a written question. One "### (a) 5 marks" heading per part, then the prompt, then "Expects:" lines for the mark scheme and an optional "Concept:" line.' },
+      { key: 'matching_options', label: 'Matching options', help: 'The option bank of a matching question, one per line as "A | text".' },
+      { key: 'matching_prompts', label: 'Matching prompts', help: 'The prompts of a matching question, one per line as "prompt = A". An option may answer several prompts, and some may answer none.' },
+      { key: 'correct_answers', label: 'Correct answers', help: 'For a multiple response question: every correct option, as "A | C". Two or more.' },
+      { key: 'labeling_image', label: 'Labelling image', help: 'The image URL of a labelling question.' },
+      { key: 'labeling_alt', label: 'Labelling image alt text', help: 'What the image shows, for a student who cannot see it. Required on a labelling question.' },
+      { key: 'labeling_points', label: 'Labelling points', help: 'One per line as "1 @ 34,58 = Answer | Also accepted". Coordinates are percentages of the image.' },
+      { key: 'completion_text', label: 'Completion sentence', help: 'The sentence with its blanks written inline as [[answer|also accepted]].' },
+      { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
         { key: `answer_${letter.toLowerCase()}`, label: `Answer ${letter}`, help: `Answer option ${letter}. Blank optional answers are omitted.` },
@@ -152,6 +170,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
+      { key: 'station_image', label: 'Station image', help: 'An image the station is built around — a radiograph on the light box. Images only; the runner renders it as an image. (OSCE station)' },
       { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
@@ -663,7 +682,7 @@ export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
       const block = parseLabelledBlock(section.body)
-      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
+      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
     })
     .filter((decision) => decision.question && decision.answers.length)
 }
@@ -765,11 +784,95 @@ const clamp01 = (value?: string) => {
 }
 
 export function validateImportRow(kind: ContentKind, values: Record<string, string>) {
-  const errors = IMPORT_SCHEMAS[kind].fields.filter((field) => field.required && !values[field.key]?.trim()).map((field) => `${field.label} is required`)
+  // A written question has no lettered correct answer, so `correct_answer`
+  // cannot be unconditionally required without making written questions
+  // unimportable — which is the state that forced source questions to be
+  // rewritten as MCQs or dropped.
+  const declaredFormat = kind === 'question' ? parseQuestionFormat(values.format) : null
+  const format = declaredFormat ?? DEFAULT_QUESTION_FORMAT
+  const written = kind === 'question' && isWrittenFormat(format)
+
+  const errors = IMPORT_SCHEMAS[kind].fields
+    .filter((field) => field.required && !values[field.key]?.trim())
+    .filter((field) => !((written || format === 'mcq_multi' || format === 'labeling'
+      || format === 'completion') && field.key === 'correct_answer'))
+    .map((field) => `${field.label} is required`)
+
   if (kind === 'question') {
-    const answer = values.correct_answer?.trim().toUpperCase()
-    if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
-    if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    if (values.format?.trim() && !declaredFormat) {
+      errors.push(`Question format "${values.format.trim()}" is not one of ${QUESTION_FORMATS.join(', ')}`)
+    }
+
+    if (isChoiceFormat(format) && format !== 'mcq_multi') {
+      const answer = values.correct_answer?.trim().toUpperCase()
+      if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
+      if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    }
+
+    // A format with nowhere to run is refused rather than imported to sit
+    // invisible or, worse, render as something it is not.
+    if (!isRunnableFormat(format)) {
+      errors.push(`Nothing can show a ${format} question to a student yet, so importing one would either hide it or mark it wrongly. Capture the source question and wait for the runner.`)
+    }
+
+    if (format === 'mcq_multi') {
+      const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
+      errors.push(...multiResponseErrors(
+        parseCorrectAnswers(values.correct_answers),
+        labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`] ?? '' })),
+      ))
+    } else if (values.correct_answers?.trim()) {
+      errors.push(`Several correct answers were given, but the format is ${format} — only a multiple response question has more than one`)
+    }
+
+    if (format === 'completion') {
+      errors.push(...completionErrors(parseCompletion(values.completion_text), values.completion_text))
+    } else if (values.completion_text?.trim()) {
+      errors.push(`A completion sentence was given, but the format is ${format} — only a completion question carries one`)
+    }
+
+    if (format === 'labeling') {
+      errors.push(...labelingErrors(
+        parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points),
+        values.labeling_points,
+      ))
+    } else if (values.labeling_image?.trim() || values.labeling_points?.trim()) {
+      errors.push(`A labelling image or points were given, but the format is ${format} — only a labelling question carries them`)
+    }
+
+    if (format === 'matching') {
+      errors.push(...matchingErrors(
+        parseMatching(values.matching_options, values.matching_prompts),
+        values.matching_options, values.matching_prompts,
+      ))
+    } else if (values.matching_options?.trim() || values.matching_prompts?.trim()) {
+      errors.push(`A matching block was given, but the format is ${format} — only a matching question carries one`)
+    }
+
+    if (written) {
+      const parts = parseWrittenParts(values.written_parts)
+      if (!parts.length) {
+        errors.push('A written question needs its parts — one "### (a) 5 marks" heading per marked subpart')
+      }
+      parts.forEach((part) => {
+        if (!part.prompt.trim()) errors.push(`Written part (${part.label}) has a heading but no question under it`)
+        const known = new Set(parts.map((other) => other.id))
+        if (part.dependsOnPartId && !known.has(part.dependsOnPartId)) {
+          errors.push(`Written part (${part.label}) depends on a part this question does not have`)
+        }
+      })
+    } else if (values.written_parts?.trim()) {
+      errors.push(`Written parts were given, but the format is ${format} — only a written format carries them`)
+    }
+
+    // The two absolute derivation restrictions. See `questionFormat.ts`.
+    const derivedFrom = parseDerivedFrom(values.derived_from)
+    if (derivedFrom.format) {
+      const refusal = derivationRefusal(derivedFrom.format, format)
+      if (refusal) errors.push(refusal)
+    } else if (written && values.derived_from?.trim()) {
+      errors.push('A written question must say what kind of thing it was derived from, and it may only be a written question')
+    }
   }
   if (kind === 'article') {
     const templateId = values.template_id?.trim()
@@ -973,6 +1076,15 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     // every concept, year and university the question was scoped to.
     const enumValue = <T extends string>(value: string | undefined, allowed: readonly string[], fallback: T) =>
       value?.trim() ? (allowed.includes(value.trim()) ? value.trim() as T : fallback) : undefined
+    // Absent means single best answer, so everything authored before formats
+    // existed keeps its meaning without being migrated.
+    const format = parseQuestionFormat(values.format) ?? DEFAULT_QUESTION_FORMAT
+    const writtenParts = parseWrittenParts(values.written_parts)
+    const matching = parseMatching(values.matching_options, values.matching_prompts)
+    const correctAnswers = parseCorrectAnswers(values.correct_answers)
+    const labeling = parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points)
+    const completion = parseCompletion(values.completion_text)
+    const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
     // are required columns and the validator rejects a correct answer with no
@@ -989,6 +1101,14 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         attachments: (values.attachments?.trim() ? parseAttachments(values.attachments) : undefined) as MediaAttachment[],
         correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel,
         answers,
+        format,
+        writtenParts: writtenParts.length ? writtenParts : undefined,
+        matching: format === 'matching' ? matching : undefined,
+        multiResponse: format === 'mcq_multi' ? { correctAnswers } : undefined,
+        labeling: format === 'labeling' ? labeling : undefined,
+        completion: format === 'completion' ? completion : undefined,
+        derivedFromFormat: derivedFrom.format,
+        derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,
         libraryIds: optionalList(values.library_ids) as string[],
         resourceIds: optionalList(values.resource_ids) as string[],

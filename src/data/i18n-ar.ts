@@ -61,6 +61,46 @@ export const AR: Record<string, string> = {
   Notebook: 'المفكرة',
   Flashcards: 'البطاقات التعليمية',
   'Term Grid': 'شبكة المصطلحات',
+
+  // ---- Spotter --------------------------------------------------------------
+  // "سبوتر" is the loanword Egyptian medical students actually use for this
+  // exam format, not a literal translation of "spotter" — a made-up Arabic
+  // equivalent would read as unfamiliar to the audience this term is for.
+  Spotter: 'سبوتر',
+  'A structure is pinned on a live slide but not named — pick it from four options before the next one comes up.':
+    'يظهر دبّوس على شريحة حية دون اسم — اختر التسمية الصحيحة من بين أربعة خيارات قبل الانتقال إلى السؤال التالي.',
+  'No slides ready for Spotter': 'لا توجد شرائح جاهزة لسبوتر',
+  'Spotter needs published slides with at least one structure pinned. They will appear here once an admin publishes some.':
+    'يحتاج سبوتر إلى شرائح منشورة عليها تركيب واحد على الأقل مثبّت بدبّوس. ستظهر هنا بمجرد أن ينشر أحد المسؤولين بعضها.',
+  'Not enough structures for Spotter': 'لا توجد تركيبات كافية لسبوتر',
+  'Spotter needs at least {min} differently labelled structures across the published slides to build a round of options — there are too few right now.':
+    'يحتاج سبوتر إلى {min} تركيبات مختلفة الاسم على الأقل عبر الشرائح المنشورة لبناء خيارات الجولة، والعدد الحالي غير كافٍ.',
+  'Loading the slide…': 'جارٍ تحميل الشريحة…',
+  'This image could not be loaded.': 'تعذّر تحميل هذه الصورة.',
+  'This slide has no image yet.': 'لا تحتوي هذه الشريحة على صورة بعد.',
+  'The structure to identify': 'التركيب المطلوب تحديده',
+  'Round {current} of {total}': 'الجولة {current} من {total}',
+  'Correct!': 'إجابة صحيحة!',
+  "Not quite — it's {answer}.": 'ليست صحيحة — الإجابة هي {answer}.',
+  Continue: 'متابعة',
+  Score: 'النتيجة',
+  'Play again': 'العب مرة أخرى',
+
+  // ---- Term Match -------------------------------------------------------------
+  'Term Match': 'مطابقة المصطلحات',
+  'Match each term to its Arabic translation or its definition — pick two tiles at a time.':
+    'طابق كل مصطلح بترجمته العربية أو بتعريفه — اختر بطاقتين في كل مرة.',
+  'Not enough terms for Term Match': 'لا توجد مصطلحات كافية لمطابقة المصطلحات',
+  'Term Match needs at least {min} terms with a translation or definition — there are too few published right now.':
+    'تحتاج مطابقة المصطلحات إلى {min} مصطلحات على الأقل تحمل ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.',
+  // `Mode` and `Definition` are already keyed above (Question Bank's session
+  // mode; the article field), and both happen to read correctly reused here.
+  'Wrong attempts': 'المحاولات الخاطئة',
+
+  // ---- Shared by the seeded minigames (Term Grid, Spotter, Term Match) ------
+  'Share this game': 'مشاركة هذه اللعبة',
+  'Time taken': 'الوقت المستغرق',
+
   'Study Together': 'الدراسة الجماعية',
   Account: 'الحساب',
   'Manage your account': 'إدارة حسابك',

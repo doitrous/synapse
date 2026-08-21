@@ -174,6 +174,7 @@ them **present**, so write both.
 | `exam_weight_by_year` | Exam weight by year | `HU_Y2=0.7 \| HU_Y3=0.5`. Per-year override where a year weights it differently from the overall figure. |
 | `clinical_relevance` | Clinical relevance (0–1) | How much it matters on the ward. |
 | `academic_relevance` | Academic relevance (0–1) | How much it matters in the written exam. These genuinely differ — the Krebs cycle is high academic, low clinical. |
+| `exam_signal` | Exam appearances | Which papers this came up on, one per line as `src_… \| tier \| year \| p14`. The blueprint weight is **derived** from these. |
 | `weight_confidence` | Weight confidence (0–1) | How sure the weights are. **Be honest; a guess is not a 1.** If you inferred the weight from one past paper, that is 0.3. |
 | `confidence` | Confidence (0–1) | Authoring confidence in the content. Never a substitute for verification. |
 

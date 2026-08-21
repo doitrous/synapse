@@ -7,7 +7,7 @@ import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
 import { MediaPicker } from '@/components/admin/MediaPicker'
 import { PlacedImage } from '@/components/ui/PlacedMedia'
 import { useMediaRecords } from '@/lib/useMediaRecords'
-import { PRIORITY_BANDS, bandOf, weightForBand } from '@/data/conceptPriority'
+import { PRIORITY_BANDS, bandOf, effectiveWeight, weightForBand } from '@/data/conceptPriority'
 import { useScopedConcepts } from '@/lib/useScopedContent'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -519,19 +519,7 @@ export function ConceptsSetup() {
                       <option value="inactive">Inactive</option>
                     </Select>
                   </Field>
-                  <Field label="Exam priority" hint={bandOf(draft.blueprintWeight).hint}>
-                    {/* One number, said in words. A second priority field would
-                        be two values meaning one thing, free to disagree. */}
-                    <Select
-                      value={bandOf(draft.blueprintWeight).id}
-                      onChange={(e) => patch({ blueprintWeight: weightForBand(e.target.value as ReturnType<typeof bandOf>['id']) })}
-                    >
-                      {PRIORITY_BANDS.map((band) => <option key={band.id} value={band.id}>{band.label}</option>)}
-                    </Select>
-                  </Field>
-                  <Field label="Blueprint weight (0–1)" hint="The number the study order actually reads. The band above writes it.">
-                    <TextInput type="number" min={0} max={1} step={0.05} value={draft.blueprintWeight ?? 0} onChange={(e) => patch({ blueprintWeight: num01(e.target.value) })} />
-                  </Field>
+                  <ExamPriorityFields draft={draft} patch={patch} num01={num01} />
                 </div>
 
                 {/* The same records questions use, so the plate on a question
@@ -765,5 +753,62 @@ function ConceptMediaField({ mediaIds, onChange }: {
         ? <MediaPicker onPick={(mediaId) => { setPicking(false); if (!mediaIds.includes(mediaId)) onChange([...mediaIds, mediaId]) }} onCancel={() => setPicking(false)} />
         : <Button size="sm" variant="secondary" onClick={() => setPicking(true)}>Add an image</Button>}
     </div>
+  )
+}
+
+/**
+ * A concept's exam priority, said in words — and who decided it.
+ *
+ * The weight is one number with two possible sources. Where past papers have
+ * been gathered, `examSignal` derives it and `blueprint.ts` uses that; where
+ * they have not, somebody types it. Offering an editable band in the first case
+ * would let a reviewer set a value the study order ignores, which is the
+ * two-sources-of-truth problem these bands exist to prevent — so where evidence
+ * owns the weight the band states it and does not offer to change it, and says
+ * what to change instead.
+ */
+function ExamPriorityFields({ draft, patch, num01 }: {
+  draft: Partial<Concept>
+  patch: (fields: Partial<Concept>) => void
+  num01: (value: string) => number
+}) {
+  const currentYear = new Date().getFullYear()
+  const { weight, derived } = effectiveWeight(draft, currentYear)
+  const band = bandOf(weight)
+
+  return (
+    <>
+      <Field label="Exam priority" hint={band.hint}>
+        {derived ? (
+          <div className="flex h-9 items-center gap-2 rounded-lg border border-line bg-inset px-3">
+            <Badge tone="primary">{band.label}</Badge>
+            <span className="text-[11.5px] text-ink-3">from past papers</span>
+          </div>
+        ) : (
+          <Select
+            value={band.id}
+            onChange={(e) => patch({ blueprintWeight: weightForBand(e.target.value as ReturnType<typeof bandOf>['id']) })}
+          >
+            {PRIORITY_BANDS.map((option) => <option key={option.id} value={option.id}>{option.label}</option>)}
+          </Select>
+        )}
+      </Field>
+      <Field
+        label={derived ? 'Derived weight (0–1)' : 'Blueprint weight (0–1)'}
+        hint={derived
+          ? 'Computed from the papers this concept appeared on. Change the appearances, not this.'
+          : 'The number the study order reads. The band above writes it.'}
+      >
+        <TextInput
+          type="number"
+          min={0}
+          max={1}
+          step={0.05}
+          readOnly={derived}
+          value={derived ? weight.toFixed(2) : draft.blueprintWeight ?? 0}
+          onChange={(e) => patch({ blueprintWeight: num01(e.target.value) })}
+        />
+      </Field>
+    </>
   )
 }

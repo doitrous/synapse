@@ -12,6 +12,12 @@ export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review
 
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
 
+import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
+import type { MatchingPayload } from './matchingQuestion.ts'
+import type { MultiResponsePayload } from './multiResponseQuestion.ts'
+import type { LabelingPayload } from './labelingQuestion.ts'
+import type { CompletionPayload } from './completionQuestion.ts'
+
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
 export type AnswerLabel = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
@@ -97,7 +103,13 @@ export function isMediaReleased(item: ArticleMediaRecord): boolean {
 
 export const MEDIA_REQUEST_PRIORITIES = ['required', 'strongly helpful', 'optional'] as const
 export const MEDIA_REQUEST_STATUSES = ['needed', 'planned', 'supplied', 'declined'] as const
-export const MEDIA_REQUEST_OWNER_KINDS = ['article', 'question', 'practical'] as const
+// A concept can own one too. Anatomy and histology concepts are frequently
+// unteachable in prose — "the relations of the brachial plexus" needs the plate,
+// not a paragraph — and until now the request had to be hung off whichever
+// article or question happened to mention the concept, which meant the same
+// plate was requested several times over and no single record said what the
+// concept itself needed.
+export const MEDIA_REQUEST_OWNER_KINDS = ['article', 'question', 'practical', 'concept'] as const
 
 /**
  * Two axes, kept separate on purpose.
@@ -228,6 +240,38 @@ export interface QuestionTags {
 }
 
 export interface QuestionAuthoringData {
+  /**
+   * What kind of question this is. Absent means `mcq_single_best`, so every
+   * question authored before formats existed keeps working untouched.
+   */
+  format?: QuestionFormat
+  /**
+   * The marked subparts of a written question — present only on the written
+   * formats, where the marks and expected components *are* the question.
+   */
+  writtenParts?: WrittenPart[]
+  /**
+   * The option bank and prompts of a matching question. Present only on
+   * `format: 'matching'`.
+   */
+  matching?: MatchingPayload
+  /**
+   * Which options are correct on a multiple-response question. Present only on
+   * `format: 'mcq_multi'`, because `correctAnswer` holds one letter and cannot.
+   */
+  multiResponse?: MultiResponsePayload
+  /** The image and its labelled points. Present only on `format: 'labeling'`. */
+  labeling?: LabelingPayload
+  /** The sentence and its blanks. Present only on `format: 'completion'`. */
+  completion?: CompletionPayload
+  /**
+   * What this was derived from, when it was derived rather than transcribed.
+   * A written question may only be derived from another written question; the
+   * validator enforces that against this. See `questionFormat.ts`.
+   */
+  derivedFromFormat?: QuestionFormat | 'concept' | 'practical'
+  /** The question this was derived from, when there is one. */
+  derivedFromId?: string
   attachments: MediaAttachment[]
   /**
    * Images placed in this question, by slot.
@@ -420,6 +464,8 @@ export interface PracticalMarkSectionDraft {
 
 export interface OsceAuthoringData extends PracticalCommon {
   format: 'osce'
+  /** The image a station is built around — a radiograph on the light box. */
+  mediaUrl?: string
   candidateInstructions: string
   actorOpening: string
   actorSections: ActorBriefSectionDraft[]
@@ -432,6 +478,16 @@ export interface ClinicalDecisionDraft {
   id: string
   title: string
   context: string
+  /**
+   * An image the decision turns on — the ECG, the film, the specimen.
+   *
+   * `LabQuestionDraft` has had one all along and a case has not, so a case
+   * built around an image had nowhere to put it and the `Media:` line an author
+   * wrote was silently discarded at import. Images only, as for a lab question:
+   * the runner renders it with `ZoomableImage`, so audio or video would show a
+   * broken image.
+   */
+  mediaUrl?: string
   question: string
   answers: PracticalAnswerDraft[]
   rationale: string

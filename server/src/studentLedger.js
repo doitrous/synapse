@@ -56,6 +56,10 @@ export const PRIVATE_FIELDS = new Set([
   // considerably more here than the four fields `ContentSource` has today.
   'source', 'sourceCitation', 'sourceProvenance', 'sourceQuestion',
   'sourceOccurrences', 'sourceCandidateIds', 'originalWording',
+  // Which source question a derivative came from. Naming it would tell a
+  // student which paper the item was lifted out of, which is the disclosure
+  // `source` is withheld to prevent.
+  'derivedFromFormat', 'derivedFromId',
   // Authors talking to authors.
   'authorNotes', 'fieldNotes', 'notes', 'internalNotes', 'owner', 'ownerId',
   // The review pipeline's own bookkeeping.
@@ -93,12 +97,28 @@ export const PUBLIC_FIELDS = new Set([
   'references', 'conceptTags', 'format', 'candidateInstructions',
   'actorOpening', 'actorSections', 'actorFlags', 'markSections', 'difficulty',
   'decisions', 'debrief', 'subtype', 'questions',
+  // The image a station or a case decision turns on. A student cannot answer
+  // "what does this film show" without the film.
+  'mediaUrl',
   // Resource
   'icon', 'institution', 'storageKey', 'chapters', 'includedConceptIds',
   'includedArticleIds', 'conceptLocations',
   // Where inside a module an item sits. A student navigates by it, so it is
   // theirs to see; it names curriculum structure, not anybody's source.
   'moduleSubjectPaths',
+  // What kind of question this is, and — for a written one — its marked parts.
+  // A student cannot answer an item without knowing its shape, and the mark
+  // scheme in `writtenParts` is what they self-mark against, exactly as an
+  // essay's `modelAnswer` already is.
+  'format', 'writtenParts',
+  // A matching question's option bank and its prompts. The answers are in
+  // there, exactly as a single-best-answer question's correct letter already
+  // is — the bank marks in the browser, so it cannot work otherwise.
+  'matching',
+  // A multiple-response question's answer set, and a labelling plate with its
+  // points. Both hold the answers, exactly as `correctAnswer` and `matching`
+  // already do — the browser marks, so it cannot work otherwise.
+  'multiResponse', 'labeling', 'completion',
   // Question tags. Curriculum placement, blueprint weighting and the difficulty
   // signals the adaptive engine runs on — all of which run on the student's own
   // screen, so withholding them would break the feature rather than protect

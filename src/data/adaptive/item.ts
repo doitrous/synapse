@@ -72,15 +72,30 @@ export function conceptRole(item: AdaptiveItem, conceptId: string): 'main' | 'se
 }
 
 /**
- * The concept an item is chiefly about.
+ * Every concept an item is chiefly about.
  *
- * The per-block cap is "no more than two items **dominated by** one concept", so
- * it has to be applied against a single concept per item rather than against
- * every concept the item touches. Falls back to the first assessed concept when
- * nothing was marked as main.
+ * The per-block cap is "no more than two items **dominated by** one concept",
+ * and an item can genuinely be dominated by more than one: a written question
+ * asking a student to compare two structures assesses both as co-primary, and
+ * so does a matching item. Reading only `mainConceptIds[0]` made the cap count
+ * such an item against its first concept and let it through free on every
+ * other, so a block could fill up with items all really about the same second
+ * concept while the cap reported itself satisfied.
+ *
+ * Falls back to the first assessed concept when nothing was marked as main.
+ */
+export function primaryConcepts(item: AdaptiveItem): string[] {
+  if (item.mainConceptIds.length) return item.mainConceptIds
+  const fallback = item.secondaryConceptIds[0]
+  return fallback ? [fallback] : []
+}
+
+/**
+ * The one concept to name when only one can be named — a diagnostics label,
+ * not a rule. Anything enforcing the cap wants `primaryConcepts`.
  */
 export function primaryConcept(item: AdaptiveItem): string | null {
-  return item.mainConceptIds[0] ?? item.secondaryConceptIds[0] ?? null
+  return primaryConcepts(item)[0] ?? null
 }
 
 /**

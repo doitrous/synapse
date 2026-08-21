@@ -288,11 +288,9 @@ that is deliberate, for the `+append` reason given above.
 
 > **Keep the discriminating columns even in an update.** `## label` above is unchanged, and
 > it is there only so the file can be recognised as a concept batch. Strip it and the
-> validator cannot classify the record at all — it falls through to `unknown` and crashes:
->
-> ```
-> TypeError: Cannot read properties of undefined (reading 'map')
-> ```
+> validator cannot classify the record at all — it falls through to `unknown` and refuses
+> the file, naming the kinds it recognises. (It used to crash with a `TypeError` here, which
+> said the same thing far less usefully.)
 >
 > An update record carries `id` + the discriminating columns for its type + only the fields
 > you are changing. Your manual names the discriminating columns in its header box.

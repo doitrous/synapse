@@ -41,6 +41,17 @@ not.
 The student projection drops `contextual_concept_ids` entirely — that is the whole point of
 the third bucket.
 
+**A question may name more than one main concept.** It used to be forced to name
+exactly one, which is right for most single-best-answer items and wrong as soon
+as a question genuinely assesses two things at once — a written question asking
+a student to compare two structures, or a matching item pairing five. Forcing
+one there meant everything else the question tested earned no mastery evidence,
+so a student who kept failing the second half of such questions was never told.
+
+Name every concept the question really tests. Concepts it merely mentions go in
+`contextual_concept_ids`, which earns no mastery — that distinction is what
+keeps the profile honest, not the count.
+
 **A question may only test a concept that at least one article covers.** If no article
 teaches it, write the article first, or do not write the question.
 
@@ -122,7 +133,17 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 
 | Key | Label | Values | Default |
 |---|---|---|---|
-| `main_concept` | Main concept(s) | **Exactly one concept ID.** Zero or two is an error — *"a question tests exactly one"*. | — |
+| `format` | Question format | `single best answer` (default) · `multiple response` · `true or false` · `matching` · `completion` · `labelling` · `image-based` · `short answer` · `structured written` · `essay` · `comparison table` · `multipart written` | `single best answer` |
+| `written_parts` | Written parts | The marked subparts of a written question. **Required on a written format, refused on any other.** | `[]` |
+| `matching_options` | Matching options | The option bank, one per line as `A \| text`. **Required on `matching`, refused on any other.** | `[]` |
+| `matching_prompts` | Matching prompts | The prompts, one per line as `prompt = A`. | `[]` |
+| `correct_answers` | Correct answers | For `mcq_multi`: every correct option, as `A \| C`. Two or more. | `[]` |
+| `labeling_image` | Labelling image | Image URL. **Required on `labeling`.** | — |
+| `labeling_alt` | Labelling alt text | What the image shows. **Required on `labeling`.** | — |
+| `labeling_points` | Labelling points | One per line as `1 @ 34,58 = Answer \| Also accepted`. | `[]` |
+| `completion_text` | Completion sentence | The sentence with blanks inline as `[[answer\|also accepted]]`. | — |
+| `derived_from` | Derived from | What this was derived from, when it was derived rather than transcribed. | — |
+| `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
 | `contextual_concept_ids` | Contextual concept IDs | Needed by the scenario, never assessed | `[]` |
 | `topic` | Topic | Canonical topic or blueprint heading | `''` |
@@ -205,7 +226,7 @@ several are stricter than the field table's own defaults suggest:
 | 4 or 5 filled options | `N options — the contract is 4 to 5` |
 | every filled option has an explanation | `option X has no explanation` |
 | the correct letter is one of the filled options | `correct answer X is not one of the filled options` |
-| **exactly one** `main_concept` | `N main concepts — a question tests exactly one` |
+| **at least one** `main_concept` | `no main_concept — name what this question tests` |
 | every concept ID exists in live state | `main_concept X is not a concept that exists` |
 | no concept is both assessed and contextual | `X is both assessed and contextual` |
 | `library_ids` is non-empty | `no library_ids — nothing teaches this question's answer` |
@@ -524,3 +545,203 @@ testing does not exist.
 | A concept gains mastery the student never earned | You put a contextual concept in `main_concept` |
 | The worked explanation reads thin | You wrote `explanation_<correct>` as a justification rather than the teaching moment |
 | Question references a concept nobody authored | Author the concept first, or drop the question |
+
+---
+
+## Formats other than single best answer
+
+The bank was built around one shape — a stem, four to six lettered options, one
+correct letter. That is the commonest thing a faculty sets and it is not the
+only thing. Kasr Al Ainy's own Year 1 papers carry matching blocks (one EPE
+paper is twenty matching items out of thirty-two), true/false, completion,
+labelling, and written questions with several marked subparts.
+
+A source question in a format the product did not support used to leave two
+options: rewrite it as an MCQ, which loses what it was actually testing, or skip
+it — which lets the importer decide what students get taught. **Neither is
+acceptable.** Record the question as the thing it is.
+
+Leave `format` blank and you get `single best answer`, so nothing authored
+before formats existed needs changing. A format nobody recognises is an error,
+never a silent fallback.
+
+### Written questions
+
+A written format carries `written_parts` instead of lettered answers, and
+`correct_answer` is not required:
+
+```
+## written_parts
+### (a) 5 marks
+Enumerate the contents of the femoral triangle.
+Expects: Femoral nerve
+Expects: Femoral artery
+Expects: Femoral vein
+Concept: CON-MSK-0001
+
+### (b) 5 marks
+Summarise the ligaments of the hip joint.
+Expects: Iliofemoral ligament
+Concept: CON-MSK-0002
+Depends on: a
+```
+
+`Expects:` lines are a **mark scheme, not a model answer** — the components an
+answer must contain to earn the marks. A part whose mark scheme the paper never
+printed is kept rather than dropped; losing the question because its answer is
+unknown is the wrong trade.
+
+Name every concept the parts assess in `main_concept`. A question asking a
+student to compare two structures assesses both, and both should earn mastery.
+
+### The two derivation restrictions
+
+These are absolute, and the importer enforces them.
+
+1. **A written question may only be derived from an existing written question.**
+   Not from an MCQ, not from a true/false item, not from a textbook passage, not
+   from a concept.
+2. **A practical question may only be derived from an existing practical.**
+
+A written question is not an MCQ with the options removed. What a faculty asks a
+student to write, how many marks each part carries, and which components earn
+them are conventions of that faculty's papers — they cannot be inferred from a
+question that never had them. Invent one from an MCQ and you produce something
+that looks right and trains a student for an exam nobody sets.
+
+Everything else is free. An MCQ may become a matching item; a concept taken from
+a department book may become a true/false item; a written source question may
+inspire a non-written one — as long as the written original is captured too.
+
+### Matching questions
+
+Not a niche format here: one Kasr Al Ainy EPE paper is twenty matching items out
+of thirty-two, and the department question books use them throughout.
+
+```
+## matching_options
+A | Open-ended question
+B | Showing empathy
+C | Closed question
+
+## matching_prompts
+"Tell me more about that" = A
+The best way to deal with a patient's pain = B
+```
+
+An option may answer **several** prompts, and some options answer **none** —
+the unused ones are the distractors, and they must survive import. Nothing
+requires a one-to-one pairing.
+
+Do not split a matching block into one single-best-answer question per prompt.
+It changes what is being tested: a matching block asks a student to tell several
+near neighbours apart *against each other*, and splitting it hands them a fresh
+set of distractors each time.
+
+Options may be written `A | text`, `A. text` or `A) text`, and prompts may use
+`=`, `->` or `:`. Any line that cannot be read is an error naming how many were
+lost — a block must never arrive half-imported in silence. A letter written
+twice is reported as the repeat it is, since only the first is ever reachable.
+
+### Which formats can be shown to a student today
+
+A format is refused at import until something can run and mark it. That refusal
+is deliberate: the alternative failures are silent. `mcq_multi` would go through
+the single-best-answer path, where the correct answer is one letter — a question
+with three right options would mark two of them wrong and tell the student so.
+`completion` and `labeling` have no payload and no runner, so they would arrive
+as an empty question or not at all.
+
+| Format | Where a student meets it |
+|---|---|
+| `mcq_single_best` · `true_false` · `image_based` | Question Bank |
+| `matching` | Essay questions → Matching questions |
+| `short_answer` · `structured_written` · `essay` · `comparison_table` · `multipart_written` | Essay questions → Exam questions |
+| `mcq_multi` | Essay questions → Select all that apply |
+| `labeling` | Essay questions → Labelling |
+| `completion` | Essay questions → Completion |
+
+Every format now has a runner, so nothing is currently refused. The check stays
+because it is what stops a format being imported ahead of the surface that shows
+it — if a new one is added tomorrow, it is refused until something can run it.
+
+Never rewrite a source question into a format it was not set in to get it
+imported. That changes what it tests, which is the whole thing this is here to
+prevent.
+
+### Select all that apply
+
+`correct_answers` holds every correct option, and `correct_answer` is not used —
+it is one letter and cannot say that three options are right. Two or more, or it
+is a single best answer question. Marking every option correct is refused: there
+is nothing left to tell apart.
+
+```
+## correct_answers
+A | C
+```
+
+A student's result is reported as **what they chose wrongly** and **what they
+left out**, kept apart. Those are different mistakes — one is a misconception
+about an option, the other is not knowing it belonged — and a single fraction
+hides which was made.
+
+### Labelling
+
+How anatomy and histology are actually examined here: identify the structure at
+the arrow.
+
+```
+## labeling_image
+https://…/anterior-arm.png
+
+## labeling_alt
+Anterior compartment of the arm, three structures arrowed
+
+## labeling_points
+1 @ 34,58 = Biceps brachii | Biceps | Biceps m.
+2 @ 61,42 = Brachialis
+3 @ 22,77 = Median nerve | Median n. | N. medianus
+```
+
+Coordinates are **percentages** of the image, so a pin holds wherever the image
+is rendered. Everything after the first `|` is another wording that counts as
+right.
+
+**Alt text is required**, not encouraged: the image *is* the question, so
+without it a student using a screen reader is told nothing at all.
+
+Answers are typed, not chosen from a list — recognising a name among four
+options is a different and much easier task than producing it, and producing it
+is what the paper asks.
+
+Marking is lenient about wording and strict about structure. Case, punctuation,
+articles and the abbreviations a student writes are all ignored, so "the biceps
+brachii muscle" and "Biceps brachii" are one answer, and so are "median n." and
+"Median nerve". But the class word is never discarded: **"median nerve" and
+"median artery" are not the same answer**, and treating them as one would credit
+a student for naming a different structure.
+
+### Completion
+
+The department books set these constantly. A blank asks a student to *produce*
+the term; the same item as four lettered options asks them to *recognise* it,
+which is a different and much easier thing — so do not convert one into the
+other.
+
+```
+## completion_text
+The sinoatrial node is supplied by the [[right coronary artery|RCA]] in about
+60% of hearts, and lies in the [[right atrium]].
+```
+
+Blanks are written **inline, in the sentence**, not as a numbered list beneath
+it. A separate list is one more thing to keep in step: renumber the sentence and
+the answers stop lining up, silently, and every blank after the mistake is
+marked against the wrong word.
+
+Everything after the first `|` is another wording that counts. An unclosed `[[`
+is an error rather than a blank that quietly swallows the rest of the sentence.
+
+Marked with the same rules as labelling — lenient about wording, strict about
+structure. "the Right Coronary A." is accepted; "right coronary vein" is not.

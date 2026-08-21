@@ -10,6 +10,8 @@
  * nothing to say which wins.
  */
 
+import { derivedExamWeight, type ExamSignal } from './examSignal.ts'
+
 export interface PriorityBand {
   id: 'critical' | 'high' | 'standard' | 'background'
   label: string
@@ -26,6 +28,29 @@ export const PRIORITY_BANDS: PriorityBand[] = [
   { id: 'standard', label: 'Standard', hint: 'Examined sometimes. Covered by ordinary study.', min: 0.25, max: 0.5 },
   { id: 'background', label: 'Background', hint: 'Rarely examined directly. Supports understanding elsewhere.', min: 0, max: 0.25 },
 ]
+
+/**
+ * The weight that actually decides study order, and where it came from.
+ *
+ * `main` made a concept's exam weight derivable from evidence — which papers it
+ * appeared on, at what tier, in which year — and `blueprint.ts` prefers that
+ * derivation whenever an `examSignal` is present. So a band read from
+ * `blueprintWeight` alone would show one number while the product acted on
+ * another, which is exactly the two-sources-of-truth problem the bands exist to
+ * avoid, arriving from the other direction.
+ *
+ * Evidence wins. A hand-typed weight is the fallback for a concept nobody has
+ * gathered papers for yet.
+ */
+export function effectiveWeight(
+  concept: { blueprintWeight?: number; examSignal?: ExamSignal },
+  currentYear: number,
+): { weight: number; derived: boolean } {
+  if (concept.examSignal?.appearances.length) {
+    return { weight: derivedExamWeight(concept.examSignal, { currentYear }), derived: true }
+  }
+  return { weight: concept.blueprintWeight ?? 0, derived: false }
+}
 
 export function bandOf(weight: number | undefined | null): PriorityBand {
   const value = typeof weight === 'number' && Number.isFinite(weight) ? weight : 0

@@ -412,7 +412,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getCaseDetail(target.id)
   const detail = authored?.format === 'case' ? {
-    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
+    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, mediaUrl: decision.mediaUrl, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
     debrief: authored.debrief,
     references: authored.references,
   } : staticDetail
@@ -500,6 +500,16 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <Panel className="p-5 sm:p-6">
         <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
         {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
+        {/* The image a decision turns on — an ECG, a film, a specimen. A lab
+            question could always carry one and a case could not, so a case
+            built around an image had nowhere to put it. Images only, as for a
+            lab question: this renders an `<img>`, so audio or video would show
+            a broken one. */}
+        {'mediaUrl' in stage && typeof stage.mediaUrl === 'string' && stage.mediaUrl && (
+          <div className="mt-4 overflow-hidden rounded-lg border border-line bg-inset p-2">
+            <ZoomableImage src={stage.mediaUrl} alt={stage.title ?? 'Case image'} className="max-h-96 w-full object-contain" />
+          </div>
+        )}
         <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
 
         <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {

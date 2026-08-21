@@ -13,6 +13,8 @@
  * Pure module: no React, no storage, no clock.
  */
 
+import { seededRandom, shuffle } from './seededRandom.ts'
+
 export interface GridTerm {
   /** The answer. Normalised to uppercase letters before it reaches the grid. */
   term: string
@@ -103,42 +105,6 @@ interface Bounds {
 }
 
 const key = (row: number, column: number) => `${row},${column}`
-
-/**
- * Deterministic 0..1 source, seeded from the shared link's seed.
- *
- * The seed is mixed (splitmix-style) before it drives the xorshift because
- * seeds in practice are small and adjacent — a link seeded 1 and the next
- * seeded 2. Feeding those into a raw xorshift state
- * produces near-identical early output and therefore near-identical grids;
- * mixing first makes neighbouring seeds diverge from the very first draw.
- */
-function seededRandom(seed: number): () => number {
-  let state = Math.imul(seed | 0, 0x9e3779b1) ^ 0x85ebca6b
-  state = Math.imul(state ^ (state >>> 16), 0x21f0aaad)
-  state = Math.imul(state ^ (state >>> 15), 0x735a2d97)
-  state = (state ^ (state >>> 15)) >>> 0
-  // xorshift32 is dead at zero, so nudge it off that one bad state.
-  if (state === 0) state = 0x6d2b79f5
-  return () => {
-    state ^= state << 13
-    state >>>= 0
-    state ^= state >>> 17
-    state ^= state << 5
-    state >>>= 0
-    return state / 0x1_0000_0000
-  }
-}
-
-/** Fisher–Yates, drawing only from the seeded source. */
-function shuffle<T>(items: T[], random: () => number): T[] {
-  const out = [...items]
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1))
-    ;[out[i], out[j]] = [out[j], out[i]]
-  }
-  return out
-}
 
 const letterAt = (placement: Pick<Placement, 'row' | 'column' | 'direction'>, index: number) => ({
   row: placement.direction === 'down' ? placement.row + index : placement.row,

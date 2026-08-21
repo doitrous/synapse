@@ -17,12 +17,12 @@
  */
 import { readFile, writeFile } from 'node:fs/promises'
 
-import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation, CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
-import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { IMPORT_SCHEMAS, importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
-  evidenceErrors, reconcileClaimEvidence,
+  EVIDENCE_IMPORT_FIELDS, evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
 } from '../src/data/evidenceImport.ts'
 
@@ -96,6 +96,26 @@ const before = {
 // Questions run last: each one resolves against both the concept graph and the
 // article ledger, so it has to see every concept and article this run creates.
 const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7, question: 8 }
+
+// The columns each kind actually has, taken from the importer's own field lists
+// rather than a copy kept here — a vocabulary maintained in two places is a
+// vocabulary that drifts, and the drift shows up as a false error on a good
+// batch. `IMPORT_SCHEMAS` is the authority for the three wizard kinds; concepts,
+// relations and evidence carry their own.
+const COLUMNS = {
+  article: IMPORT_SCHEMAS.article.fields,
+  practical: IMPORT_SCHEMAS.practical.fields,
+  question: IMPORT_SCHEMAS.question.fields,
+  concept: CONCEPT_IMPORT_FIELDS,
+  relation: RELATION_IMPORT_FIELDS,
+  resource: EVIDENCE_IMPORT_FIELDS.resource,
+  claim: EVIDENCE_IMPORT_FIELDS.claim,
+  citation: EVIDENCE_IMPORT_FIELDS.citation,
+  span: EVIDENCE_IMPORT_FIELDS.span,
+}
+const KNOWN_COLUMNS = Object.fromEntries(
+  Object.entries(COLUMNS).map(([kind, fields]) => [kind, new Set(fields.map((field) => field.key))]),
+)
 const batches = []
 /** Files this run will not apply, reported under `skipped` rather than `errors`. */
 const refused = []
@@ -131,6 +151,20 @@ const report = []
 const errors = []
 
 for (const batch of batches) {
+  // A column the importer does not recognise is dropped, in silence, along with
+  // everything the author wrote under it: a misspelt `## explanaton_b` imports a
+  // clean-looking question whose option explains nothing. `validate-content-batch`
+  // has always refused unknown columns, but that script is directory-scoped and
+  // this one is the gate — so a typo could pass the only check the manual says
+  // must be green before an import. It is an error and not a note because the
+  // content is already lost by the time anyone reads the report.
+  const known = KNOWN_COLUMNS[batch.kind]
+  batch.rows.forEach((row, index) => {
+    for (const key of Object.keys(row)) {
+      if (!known.has(key)) errors.push(`${batch.file} row ${index + 2}: unknown column "${key}"`)
+    }
+  })
+
   const context = {
     store: evidence,
     conceptIds: new Set(graph.concepts.map((concept) => concept.id)),

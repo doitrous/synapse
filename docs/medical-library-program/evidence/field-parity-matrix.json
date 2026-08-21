@@ -4,9 +4,9 @@
     {
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
-      "modelFields": 45,
-      "importFields": 53,
-      "ok": 45,
+      "modelFields": 46,
+      "importFields": 54,
+      "ok": 46,
       "missing": 0,
       "notApplicable": 0
     },
@@ -14,7 +14,7 @@
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
       "modelFields": 5,
-      "importFields": 53,
+      "importFields": 54,
       "ok": 5,
       "missing": 0,
       "notApplicable": 0
@@ -23,7 +23,7 @@
       "contentType": "Library article · media request",
       "model": "MediaRequest",
       "modelFields": 16,
-      "importFields": 53,
+      "importFields": 54,
       "ok": 14,
       "missing": 0,
       "notApplicable": 2
@@ -31,9 +31,9 @@
     {
       "contentType": "Concept",
       "model": "Concept",
-      "modelFields": 54,
-      "importFields": 52,
-      "ok": 54,
+      "modelFields": 55,
+      "importFields": 53,
+      "ok": 55,
       "missing": 0,
       "notApplicable": 0
     },
@@ -49,18 +49,18 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "modelFields": 13,
-      "importFields": 50,
-      "ok": 13,
+      "modelFields": 21,
+      "importFields": 61,
+      "ok": 21,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Question · tags",
       "model": "QuestionTags",
-      "modelFields": 21,
-      "importFields": 50,
-      "ok": 21,
+      "modelFields": 22,
+      "importFields": 61,
+      "ok": 22,
       "missing": 0,
       "notApplicable": 0
     },
@@ -68,7 +68,7 @@
       "contentType": "Question · media request",
       "model": "MediaRequest",
       "modelFields": 16,
-      "importFields": 50,
+      "importFields": 61,
       "ok": 14,
       "missing": 0,
       "notApplicable": 2
@@ -76,44 +76,44 @@
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "modelFields": 11,
-      "importFields": 25,
-      "ok": 11,
-      "missing": 0,
+      "modelFields": 16,
+      "importFields": 27,
+      "ok": 13,
+      "missing": 3,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "modelFields": 7,
-      "importFields": 25,
-      "ok": 7,
-      "missing": 0,
+      "modelFields": 11,
+      "importFields": 27,
+      "ok": 8,
+      "missing": 3,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "modelFields": 9,
-      "importFields": 25,
-      "ok": 9,
+      "modelFields": 10,
+      "importFields": 27,
+      "ok": 10,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "modelFields": 7,
-      "importFields": 25,
-      "ok": 7,
-      "missing": 0,
+      "modelFields": 11,
+      "importFields": 27,
+      "ok": 8,
+      "missing": 3,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
       "modelFields": 9,
-      "importFields": 25,
+      "importFields": 27,
       "ok": 9,
       "missing": 0,
       "notApplicable": 0
@@ -122,7 +122,7 @@
       "contentType": "Practical · media request",
       "model": "MediaRequest",
       "modelFields": 16,
-      "importFields": 25,
+      "importFields": 27,
       "ok": 14,
       "missing": 0,
       "notApplicable": 2
@@ -130,9 +130,9 @@
     {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
-      "modelFields": 16,
-      "importFields": 18,
-      "ok": 8,
+      "modelFields": 17,
+      "importFields": 19,
+      "ok": 9,
       "missing": 1,
       "notApplicable": 7
     },
@@ -184,6 +184,69 @@
   ],
   "gaps": [
     {
+      "contentType": "Practical · OSCE and checklist",
+      "field": "universityIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · OSCE and checklist",
+      "field": "yearIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · OSCE and checklist",
+      "field": "moduleIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · clinical case",
+      "field": "universityIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · clinical case",
+      "field": "yearIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · clinical case",
+      "field": "moduleIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · interpretation set",
+      "field": "universityIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · interpretation set",
+      "field": "yearIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
+      "contentType": "Practical · interpretation set",
+      "field": "moduleIds",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    },
+    {
       "contentType": "Resource",
       "field": "icon",
       "column": null,
@@ -195,7 +258,7 @@
     {
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "arabicTitle",
@@ -308,6 +371,12 @@
         {
           "field": "moduleIds",
           "column": "module",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },
@@ -472,7 +541,7 @@
     {
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -509,7 +578,7 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -612,7 +681,7 @@
     {
       "contentType": "Concept",
       "model": "Concept",
-      "importFields": 52,
+      "importFields": 53,
       "fields": [
         {
           "field": "id",
@@ -933,6 +1002,12 @@
           "reason": ""
         },
         {
+          "field": "examSignal",
+          "column": "exam_signal",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "fieldNotes",
           "column": "field_notes",
           "state": "ok",
@@ -1016,8 +1091,56 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
+        {
+          "field": "format",
+          "column": "format",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "writtenParts",
+          "column": "written_parts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "matching",
+          "column": "matching_options",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "multiResponse",
+          "column": "correct_answers",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "labeling",
+          "column": "labeling_points",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "completion",
+          "column": "completion_text",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "derivedFromFormat",
+          "column": "derived_from",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "derivedFromId",
+          "column": "derived_from",
+          "state": "ok",
+          "reason": ""
+        },
         {
           "field": "attachments",
           "column": "attachments",
@@ -1101,7 +1224,7 @@
     {
       "contentType": "Question · tags",
       "model": "QuestionTags",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
         {
           "field": "module",
@@ -1200,6 +1323,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "clinicalRelevance",
           "column": "clinical_relevance",
           "state": "ok",
@@ -1234,7 +1363,7 @@
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
         {
           "field": "id",
@@ -1337,11 +1466,17 @@
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "format",
           "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaUrl",
+          "column": "station_image",
           "state": "ok",
           "reason": ""
         },
@@ -1382,6 +1517,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "references",
           "column": "references",
           "state": "ok",
@@ -1404,13 +1545,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         }
       ]
     },
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "format",
@@ -1431,6 +1590,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "references",
           "column": "references",
           "state": "ok",
@@ -1453,13 +1618,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         }
       ]
     },
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "id",
@@ -1475,6 +1658,12 @@
         },
         {
           "field": "context",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaUrl",
           "column": "decisions",
           "state": "ok",
           "reason": ""
@@ -1520,7 +1709,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "format",
@@ -1537,6 +1726,12 @@
         {
           "field": "questions",
           "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },
@@ -1563,13 +1758,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         }
       ]
     },
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "id",
@@ -1630,7 +1843,7 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "importFields": 25,
+      "importFields": 27,
       "fields": [
         {
           "field": "id",
@@ -1733,7 +1946,7 @@
     {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
-      "importFields": 18,
+      "importFields": 19,
       "fields": [
         {
           "field": "universityIds",
@@ -1810,6 +2023,12 @@
         {
           "field": "moduleIds",
           "column": "module_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },

@@ -67,6 +67,25 @@ const errors = []
 const notes = []
 const records = []
 
+// Every branch below assumes `kind` names a contract this script knows how to
+// check. Nothing said so, and an unrecognised file fell through to the evidence
+// branch and threw `TypeError: Cannot read properties of undefined (reading
+// 'map')` on `EVIDENCE_IMPORT_FIELDS[kind]`. Catalogue resources, subjects and
+// glossary terms all land here, and none of them are broken files — they are
+// kinds this script has no branch for. A stack trace says neither, so the author
+// reads it as a bad batch and starts editing content that was fine. Refuse by
+// name, and say which kinds are recognised so the answer is "wrong tool".
+const VALIDATED_KINDS = ['concept', 'relation', 'article', 'question', 'practical', 'resource', 'claim', 'citation', 'span']
+if (!VALIDATED_KINDS.includes(kind)) {
+  errors.push(
+    `${file}: its columns match none of the contracts this script validates, so there is nothing here to check it against. `
+    + `Recognised kinds are ${VALIDATED_KINDS.join(', ')} — a catalogue-resource, subjects or glossary batch is not one of them `
+    + 'and has no branch here. Check it with the manual for its type and the import wizard\'s own preview instead.',
+  )
+  console.log(JSON.stringify({ file, kind, items: rows.length, notes, errors }, null, 1))
+  process.exit(1)
+}
+
 if (kind === 'relation') {
   const dir = dirname(file)
   const concepts = []
@@ -162,7 +181,12 @@ if (kind === 'question') {
     const main = data.tags.mainConceptIds ?? []
     const also = data.tags.conceptIds ?? []
     const contextual = data.tags.contextualConceptIds ?? []
-    if (main.length !== 1) errors.push(`${where}: ${main.length} main concepts — a question tests exactly one`)
+    // At least one, not exactly one. A written question comparing two
+    // structures assesses both as co-primary, and so does a matching item;
+    // forcing a single main concept there means one of the things the question
+    // actually tests earns no mastery evidence. The practical branch has always
+    // required only one-or-more.
+    if (main.length < 1) errors.push(`${where}: no main_concept — name what this question tests`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
       for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
     }
@@ -428,11 +452,21 @@ if (kind !== 'concept') {
 
   // A local source ID must exist in the corpus. Three invented ones passed every
   // other check once; this is why they cannot again.
+  //
+  // The index has to sit beside the batch, and outside `docs/import-ready/` —
+  // which carries a symlink to it — it usually does not. The absence used to be
+  // swallowed here, so the guard quietly stopped guarding and an invented
+  // `src_…` passed a green run. A missing index is now said out loud in `notes`
+  // every time, and any row it would actually have checked is refused rather
+  // than waved through: unchecked and checked must not look alike. It is not a
+  // blanket error, because a claim or span batch names no source at all and
+  // failing one over an index it never needed is the opposite mistake.
+  const corpusSourcePath = join(dirname(dirname(file)), 'evidence', 'corpus-source-index.json')
   let corpusSources = null
   try {
-    corpusSources = JSON.parse(await readFile(join(dirname(dirname(file)), 'evidence', 'corpus-source-index.json'), 'utf8')).sources
-  } catch {
-    // No index available; the check is skipped rather than failing the batch.
+    corpusSources = JSON.parse(await readFile(corpusSourcePath, 'utf8')).sources
+  } catch (reason) {
+    notes.push(`${corpusSourcePath} could not be read (${reason.message}) — no source ID in this file can be checked against the corpus. Put the index beside the batch, or regenerate it.`)
   }
 
   const known = new Set(EVIDENCE_IMPORT_FIELDS[kind].map((field) => field.key))
@@ -442,17 +476,23 @@ if (kind !== 'concept') {
     for (const error of evidenceErrors(kind, values, context)) errors.push(`${where}: ${error}`)
 
     const id = values.id?.trim() ?? ''
-    if (corpusSources && id.startsWith('src_')) {
-      const record = corpusSources[id]
-      if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-      else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
-        errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+    if (id.startsWith('src_')) {
+      if (!corpusSources) errors.push(`${where}: ${id} cannot be checked — the corpus index is missing, and an unchecked source ID is how three invented ones got through before`)
+      else {
+        const record = corpusSources[id]
+        if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
+        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
+          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+        }
       }
     }
-    if (corpusSources && kind === 'citation') {
+    // Only a local ID is checkable: a web source, `RES-WEB-…`, is not in the
+    // corpus index and its absence there means nothing.
+    if (kind === 'citation') {
       const resourceId = values.resource_id?.trim() ?? ''
-      if (resourceId.startsWith('src_') && !corpusSources[resourceId]) {
-        errors.push(`${where}: cites ${resourceId}, which is not a source the corpus contains`)
+      if (resourceId.startsWith('src_')) {
+        if (!corpusSources) errors.push(`${where}: cites ${resourceId}, which cannot be checked — the corpus index is missing`)
+        else if (!corpusSources[resourceId]) errors.push(`${where}: cites ${resourceId}, which is not a source the corpus contains`)
       }
     }
   })
@@ -478,12 +518,17 @@ if (kind !== 'concept') {
 }
 
 // `sourceCandidateIds` is the same trap as `src_`, one field over: a `concept_`
-// ID that does not exist would validate cleanly and point at nothing.
+// ID that does not exist would validate cleanly and point at nothing. And the
+// missing index was the same trap again: swallowing it left a batch that looked
+// checked and was not. Reported in `notes` whenever it is absent, and a refusal
+// on any concept that actually names a candidate — a concept that names none is
+// not failed for an index it had no use for.
+const corpusConceptPath = join(dirname(dirname(file)), 'evidence', 'corpus-concept-index.json')
 let corpusConcepts = null
 try {
-  corpusConcepts = JSON.parse(await readFile(join(dirname(dirname(file)), 'evidence', 'corpus-concept-index.json'), 'utf8')).candidates
-} catch {
-  // No index available; the check is skipped rather than failing the batch.
+  corpusConcepts = JSON.parse(await readFile(corpusConceptPath, 'utf8')).candidates
+} catch (reason) {
+  notes.push(`${corpusConceptPath} could not be read (${reason.message}) — no source_candidate_ids in this file can be checked against the corpus. Put the index beside the batch, or regenerate it.`)
 }
 
 const known = new Set(CONCEPT_IMPORT_FIELDS.map((field) => field.key))
@@ -499,7 +544,8 @@ rows.forEach((values, index) => {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
   }
   for (const candidateId of concept.sourceCandidateIds ?? []) {
-    if (corpusConcepts && !corpusConcepts[candidateId]) {
+    if (!corpusConcepts) errors.push(`${where}: ${candidateId} cannot be checked — the concept candidate index is missing, and an unchecked candidate ID points at nothing`)
+    else if (!corpusConcepts[candidateId]) {
       errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
     }
   }
@@ -518,6 +564,9 @@ console.log(JSON.stringify({
   items: rows.length,
   fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
   placements: records.map((record) => record.primaryNodeId),
+  // `notes` was missing from this branch's report, so anything it had to say
+  // about a check it could not run had nowhere to appear.
+  notes,
   errors,
 }, null, 1))
 if (errors.length) process.exitCode = 1

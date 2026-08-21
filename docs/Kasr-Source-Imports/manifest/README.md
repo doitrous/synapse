@@ -56,23 +56,33 @@ Cross-module practical folder: 130 files.
 | `photo_2026-08-19 01.46.56.jpeg` | `administrative_not_medical_source` |
 | `2022 102  قديم EOY 2022 PHYSIO OLD SYSTEM.pdf` | `superseded_curriculum_old_system` |
 
-## Year-code conflicts
+## Which year a paper was sat
 
-12 filenames carry a batch code and a calendar year that disagree. Both are kept; neither is overwritten.
+12 filenames carry both a batch code and a calendar year and disagree. Five of
+those print an exam date in their own header, and in **all five** the calendar label
+matches the document while the batch code does not:
 
-| Batch | Implies | Calendar label | Δ | File |
-|--:|--:|--:|--:|---|
-| 196 | 2022 | 2021 | -1 | `EOM 196 2021 EOM solved (1).pdf` |
-| 196 | 2022 | 2021 | -1 | `EOM 196 2021 End of Module 102 (1).pdf` |
-| 197 | 2023 | 2024 | +1 | `EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).p` |
-| 195 | 2021 | 2022 | +1 | `EOY 195 first 2022  101 ISK  final module (1).pdf` |
-| 195 | 2021 | 2022 | +1 | `EOY 195 first 2022 101 ISK final (1).pdf` |
-| 196 | 2022 | 2023 | +1 | `EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf` |
-| 198 | 2024 | 2025 | +1 | `EOY 198 BAQOON 10) Answers - Final Written 102 - 198 - 202` |
-| 195 | 2021 | 2022 | +1 | `EOY 102 MERGED 195, 196, 197, 198 Final 2022-1_merged (2) ` |
-| 196 | 2022 | 2023 | +1 | `EOM 196 104 - 2023 (1).pdf` |
-| 196 | 2022 | 2023 | +1 | `EOM 196 104 2023 No answers  (1).pdf` |
-| 198 | 2024 | 2025 | +1 | `EOY final 198 104 - دور مايو 2025 (2).pdf` |
-| 197 | 2023 | 2024 | +1 | `Communication Exam 197 - 2024 (1).pdf` |
+| Batch code | Label on the file | What the document itself says |
+|--:|--:|---|
+| 197 | 2024 | 14 July 2024 |
+| 196 | 2021 | 26/12/2021 |
+| 195 | 2022 | 22/09/2022 and 24/9/2022 |
 
-10 of 12 differ by **+1 year**. That is the pattern you would see if the batch code named the year a cohort *entered* and the calendar label the year they *sat* the paper. Until an owner settles which is authoritative, nothing here collapses them — see §8 of [the plan](../../medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md).
+So **the batch code names the cohort, not a year**, and the calendar label is the
+sitting. `examSittingYear` carries that decision and `examSittingYearSource` says how it
+was reached, so a later reader can disagree with the call without re-deriving it. The
+batch code is kept — which cohort sat a paper is a real question — and is used to derive
+a year only when nothing better is on the file.
+
+| Sitting year | Exam papers | How the year was known |
+|--:|--:|---|
+| 2026 | 1 | 1 calendar label on the file |
+| 2025 | 20 | 14 derived from batch code, 6 calendar label on the file |
+| 2024 | 18 | 5 calendar label on the file, 13 derived from batch code |
+| 2023 | 13 | 7 derived from batch code, 6 calendar label on the file |
+| 2022 | 11 | 2 derived from batch code, 9 calendar label on the file |
+| 2021 | 8 | 1 derived from batch code, 7 calendar label on the file |
+| 2019 | 1 | 1 calendar label on the file |
+| — | 23 | no year on the file |
+
+**The latest three years** are 2026, 2025, 2024 — 39 exam papers.

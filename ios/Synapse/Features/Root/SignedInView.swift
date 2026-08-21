@@ -111,6 +111,12 @@ struct SignedInView: View {
             let audienceStore = AudienceStore(api: auth.api, store: store, sync: sync)
             container = Container(store: store, sync: sync, audienceStore: audienceStore)
 
+            // Instant sync: a change made on the website nudges this device,
+            // which then refreshes through the ordinary path. Set before the
+            // first refresh so a nudge arriving during it is not dropped.
+            PushRegistrar.shared.onNudge = { [weak sync] in await sync?.refresh() }
+            PushRegistrar.shared.start(api: auth.api)
+
             await sync.refresh()
             // After the sync: resolving the cohort needs the universities
             // catalogue, which the sync is what fetches.
@@ -229,6 +235,10 @@ struct AccountView: View {
 
                 Section("Sync") {
                     row("Status", statusText)
+                    // Whether a change made elsewhere reaches this phone at
+                    // once or waits for the next refresh. Worth saying: the
+                    // difference is invisible until you are looking for it.
+                    row("Instant updates", instantUpdates)
                     if sync.pendingUploads > 0 {
                         // Work that has not reached the server yet. Worth
                         // surfacing: it is the difference between "saved" and
@@ -246,6 +256,11 @@ struct AccountView: View {
                     Button("Sign out", role: .destructive) {
                         Task {
                             await sync.clearForSignOut()
+                            // Before the session goes: the token that
+                            // authorises removing this device is the one about
+                            // to be discarded, and a row left behind would send
+                            // this student's nudges to whoever signs in next.
+                            await PushRegistrar.shared.signOut()
                             await auth.signOut()
                         }
                     }
@@ -264,6 +279,20 @@ struct AccountView: View {
             // they are where they signed up.
             await prefs.syncTimezone()
         }
+    }
+
+    /// Whether the silent nudge is working, in a student's terms.
+    private var instantUpdates: String {
+        let push = PushRegistrar.shared
+        // A nudge that has actually arrived is the strongest evidence there is,
+        // and it is reported first: a device can be woken without this build
+        // ever having completed registration, and saying "off" while updates
+        // are visibly arriving would be a readout that lies.
+        if push.nudgesReceived > 0 { return "On · \(push.nudgesReceived) received" }
+        if push.isRegistered { return "On" }
+        // Never registered is the ordinary case on a simulator, and on a device
+        // with no push entitlement. Sync still works; it just is not instant.
+        return push.deviceToken == nil ? "Off — updates arrive on refresh" : "Registering"
     }
 
     /// A setting that is either on or off, as a row that actually responds.

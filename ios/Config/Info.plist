@@ -43,6 +43,16 @@
 		<string>en</string>
 		<string>ar</string>
 	</array>
+	<!--
+	  Waking for a silent push. This is the whole of the app's background
+	  work: a `content-available` nudge saying a record changed elsewhere,
+	  answered by the ordinary sync refresh. No alert, so no permission.
+	-->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
