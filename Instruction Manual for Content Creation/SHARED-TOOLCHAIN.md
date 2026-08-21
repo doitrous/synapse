@@ -945,7 +945,15 @@ Three manifest years were wrong, found by rendering the covers of files with no 
 | `EOM ISK 101 195 Answers.pdf` | flagged solved | **carries no answers** — it is the unsolved copy |
 
 Anything whose `examSittingYearSource` is *"the calendar label on the file"* is a **filename**,
-not a date the examiner wrote. **A wrong year is not cosmetic — the blueprint weights
+not a date the examiner wrote.
+
+**Four instances now, and in every one the filename was wrong and the document said so** — the
+fourth being a pharmacology department book whose OCR carries `2025 للعام الجامعي` on physical
+page 34 against a manifest `2026` taken from its name. So the rule is not "check years". It is:
+
+> **A year sourced from a filename has not been read.** Treat any row whose
+> `examSittingYearSource` names the file rather than the page as **unverified** until someone
+> opens it. **A wrong year is not cosmetic — the blueprint weights
 recency.** Corrections carry a `correction` field saying what was read and where, and the
 manifest note warns that regenerating years from filenames silently undoes them.
 
@@ -1386,9 +1394,22 @@ good practice and reads exactly like an open bug to a grep.
 1. **A probe batch beats reading the source.** Every mistaken claim in this file came from
    reading code; every correction came from running something. Where a claim is "format X
    cannot validate", the cost of checking is one file and one command.
+
+   **And the specific trap: a comment narrating a fixed bug lives at the site of the fix.**
+   That is good practice — the comment is *why the code looks the way it does* — and it is
+   **unreadable to a grep**. Both files that misled me do it, and so do several written by the
+   lanes. Nobody should stop. It means only this: **"I found a comment describing this bug" is
+   never evidence the bug is live.**
 2. **Never relay "skip this" without a reproduction.** A false *blocker* is worse than a false
    *bug report*: a bug report gets checked by whoever tries to fix it, while a blocker is
-   obeyed and leaves no trace. The lane that caught this did so because **its own subagent
+   obeyed and leaves no trace. There is no red validator, no failing test, no gap in a ledger.
+   **It is the only failure mode in this programme that is invisible by construction.**
+
+3. **An instruction to every subagent, not just to coordinators: test any part of your brief
+   that says something cannot be done — including the parts your own lane wrote.** This one
+   was caught because a subagent read `05-questions.md`, found the manual says every format has
+   a runner and *"nothing is currently refused"*, and told its lane the claim was unsupported
+   by anything in the repo. The lane that caught this did so because **its own subagent
    read `05-questions.md`, found the manual says every format has a runner and "nothing is
    currently refused", and challenged its instructions.**
 
