@@ -5062,3 +5062,3127 @@ Extracted by the 102 INT lane from the shared 102/103 biochemistry question book
 
 ## randomise_answers
 yes
+
+---
+
+# Item
+
+## id
+QM-103-13FA7D779DDD
+
+## title
+Glycine is required for the synthesis of one of the following:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Glycine is the smallest amino acid and one of the most heavily used as a building block. The department book lists six things it is required to make.
+
+## question
+Glycine is required for the synthesis of one of the following:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 1. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Nicotinic acid
+
+## explanation_a
+Incorrect. Nicotinic acid is made from **tryptophan**, in a reaction that needs pyridoxine, which is why deficiency of either tryptophan or vitamin B6 gives pellagra-like manifestations. This distractor separates the two amino acids that both feed one-carbon and vitamin-related pathways.
+
+## answer_b
+Lecithin
+
+## explanation_b
+Incorrect. Lecithin is phosphatidylcholine, and the amino acids behind it are **serine**, which is an important constituent of phospholipids, and **methionine**, whose SAM methylates ethanolamine to choline. Glycine contributes nothing to it directly.
+
+## answer_c
+Heme
+
+## explanation_c
+Correct. The first and rate-limiting reaction of heme synthesis is the condensation of glycine with succinyl-CoA to form δ-aminolevulinate, catalysed by ALA synthase with pyridoxal phosphate as coenzyme. The book's full list of glycine's synthetic roles is worth learning as a set of six: serine, glutathione, heme, purines, creatine and bile salts — to which add its supply of formyl-THF and methylene-THF to one-carbon metabolism, and its own role as an inhibitory neurotransmitter and a component of collagen. Notice how many of these are things an examiner can ask about from the other end: a question about the first step of heme synthesis, about the atoms of the purine ring, or about which amino acids make up glutathione is the same fact approached backwards.
+
+## answer_d
+γ-aminobutyric acid (GABA)
+
+## explanation_d
+Incorrect. GABA is made from **glutamate** by glutamate decarboxylase. It is a well-chosen distractor because, like glycine, GABA is an inhibitory neurotransmitter — so a student pattern-matching on function rather than on synthesis will take it.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Glycine
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-38F3A09255526F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glycine
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+76
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-HEM-3D75438A839FBD
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+List the compounds glycine is required to synthesise, and match each of the distractor compounds to the amino acid that really makes it.
+
+## media_recommendations
+### diagram · Question stem
+Brief: Glycine at the centre with arrows to serine, glutathione, heme, purines, creatine, bile salts and the one-carbon pool, and a second tier showing which amino acid makes nicotinic acid, lecithin and GABA instead
+Purpose: The item is a matching problem disguised as a single-best-answer, and every distractor is the correct answer to a different amino acid. A single figure that shows the four amino acids and their products side by side teaches the discrimination; four separate prose lists do not.
+Priority: strongly helpful
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 1. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 91, "GLYCINE — Functions and Derivatives", and printed page 115 for the ALA synthase reaction.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q1. correctSource verbatim: "printed key (p132)". OCR REPAIR: option d reads "y-aminobutyric acid (GABA)" in the bank — a Latin y for gamma — restored to γ. CANCELLATION NOTE: the *answer* is heme, and Biosynthesis of Heme is cancelled by the department orientation. The question itself is filed under Glycine, printed page 91, which is not cancelled, and it tests glycine's list of derivatives rather than the heme pathway — so it is weighted as a glycine item. CON-HEM-3D75438A839FBD is tagged contextual, not assessed, for exactly that reason: a student answering this has not demonstrated any understanding of heme synthesis. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-56E9011EEB28
+
+## title
+Regarding the amino acid Glycine:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Four statements are offered about glycine's chemistry, its synthetic roles and its catabolic classification. Only one is true.
+
+## question
+Regarding the amino acid Glycine:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 2. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+It is a one carbon donor
+
+## explanation_a
+Correct. Glycine is catabolised mainly by the glycine cleavage system, which splits it into ammonia, CO2 and methylene-tetrahydrofolate — so its middle carbon is handed straight to the one-carbon pool. It also gives formyl-THF, and it interconverts with serine through serine hydroxymethyl transferase, a reaction that itself moves a one-carbon unit onto THF. That one-carbon pool is what supplies carbons 2 and 8 of the purine ring and the methyl group of thymidylate, which is why folate antagonists such as methotrexate stop cell division. Glycine is therefore not just a small building block but a carbon *courier*, and this is the property the examiner is testing.
+
+## answer_b
+Required for the synthesis of glutamine
+
+## explanation_b
+Incorrect. Glutamine is made from **glutamate** by glutamine synthetase, which adds ammonia as an amide group. Glycine takes no part. The option is attractive because glycine really is required for glutathione — a tripeptide of glycine, cysteine and glutamic acid — and "glutamine" and "glutathione" are easily confused under time pressure.
+
+## answer_c
+Forms melatonin
+
+## explanation_c
+Incorrect. Melatonin comes from **tryptophan**: tryptophan to serotonin, serotonin acetylated to N-acetylserotonin in the pineal body, then methylated by SAM to melatonin. Glycine has no role in the sequence.
+
+## answer_d
+Ketogenic only
+
+## explanation_d
+Incorrect, and it is the opposite of the truth. Glycine is **glucogenic**: it is converted to serine by serine hydroxymethyl transferase and serine is then deaminated by serine dehydratase to pyruvate, which is a gluconeogenic substrate. The department book's summary table lists glycine as glucogenic and non-essential. The purely ketogenic amino acids are leucine and lysine.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Glycine
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-38F3A09255526F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glycine
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-NEU-6C4A6BDA725F0E
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+State that glycine donates one-carbon units through the glycine cleavage system, and classify glycine correctly as a glucogenic, non-essential amino acid.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 2. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 91, "Catabolic Fate" and "Functions and Derivatives", and printed page 106, the Summary of Amino Acid Metabolism table.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q2. correctSource verbatim: "printed key (p132) read differently by different OCR passes (a/b)". NULL KEY RECOVERED FROM THE PAGE: the bank recorded correct as null. PDF page 132 was opened with the Read tool and the printed key table read visually — row 2 reads "2. a", and every other row on that page matches the bank exactly. The key is a, which the department book supports directly through the glycine cleavage system. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-82A79117DD9F
+
+## title
+Which of the following amino acid degradation pathway disorders would lead to renal failure due to stone formation?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A young adult presents with recurrent renal calculi and progressive renal impairment. The stones are made of calcium oxalate.
+
+## question
+Which of the following amino acid degradation pathway disorders would lead to renal failure due to stone formation?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 3. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Phenylalanine
+
+## explanation_a
+Incorrect. Disordered phenylalanine degradation is phenylketonuria, whose damage is neurological — mental retardation from impaired transport of tyrosine and tryptophan into the brain — together with hypopigmentation and a mousy urine odour. No stone forms.
+
+## answer_b
+Tyrosine
+
+## explanation_b
+Incorrect. The disorders of tyrosine degradation are alkaptonuria, from homogentisate oxidase deficiency, and albinism, from lack of tyrosinase. Alkaptonuria darkens the urine and deposits pigment in cartilage as ochronosis with arthritis, but it does not produce renal calculi.
+
+## answer_c
+Methionine
+
+## explanation_c
+Incorrect, and it is the best distractor because it is one step from a right answer. Homocystinuria is the disorder of methionine metabolism, and its manifestations are vascular, skeletal, neurological and ocular — endothelial injury and thrombosis, osteoporosis, mental retardation, lens dislocation. The stone-forming disorder a student may be reaching for is **cystinuria**, which is a defect of amino acid *transport* rather than of a degradation pathway, and cystine stones are not oxalate stones.
+
+## answer_d
+Glycine
+
+## explanation_d
+Correct. A defect in glycine degradation diverts glycine towards glyoxylate and then to oxalate, which is excreted in the urine; calcium oxalate is poorly soluble, so it crystallises, forms recurrent stones and produces nephrocalcinosis and progressive renal failure. Two things are worth separating here. First, the mechanism is *overproduction* of a poorly soluble excretion product, which is the same logic that makes urate stones form in gout — not a transport defect, which is the logic of cystinuria. Second, this is one of the few facts in the chapter the department textbook does not carry: the Glycine section names glycine's catabolic routes and its derivatives but says nothing about oxalate, so the claim rests on the department question book and on standard biochemistry references. That gap is recorded on the concept.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Glycine
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-REN-339CFAB4C81D12
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glycine
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.7
+
+## cognitive_effort_score
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.45
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## contextual_concept_ids
+CON-REN-3DD1CADB68BB1B
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+Attribute oxalate stone formation to a disorder of glycine degradation, and distinguish an overproduction stone from the transport-defect stone of cystinuria.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 3. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. The department textbook's Glycine section (Dpt book Biochemistry 103, printed page 91) does not cover oxalate or hyperoxaluria; the distractor material is verified against printed pages 97, 100 and 102–103.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q3. correctSource verbatim: "printed key (p132)". No OCR repair was needed. SOURCE GAP, flagged for the faculty reviewer: the glycine-to-oxalate link is asserted by this question and by question 4 of the same chapter, but the department biochemistry textbook does not teach it — the Glycine section names the glycine cleavage system, serine interconversion and the six derivatives, and stops there. The concept CON-REN-339CFAB4C81D12 records this in its `uncertainty` and `evidence_gaps`. The item is kept because the department set it, and the reviewer should decide whether it survives. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-08048629E7A9
+
+## title
+Urinary oxalates are contributed by metabolic defect in which amino acid:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Oxalate is a small dicarboxylic acid the body cannot metabolise further; it must be excreted, and calcium oxalate is poorly soluble in urine.
+
+## question
+Urinary oxalates are contributed by metabolic defect in which amino acid:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 4. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Glycine
+
+## explanation_a
+Correct. Glycine's carbon skeleton can be oxidised to glyoxylate, and glyoxylate that is not converted back to glycine is oxidised to oxalate — a dead end, because humans have no route to break oxalate down. When the enzyme that normally salvages glyoxylate is defective, oxalate production rises, urinary oxalate rises with it, and calcium oxalate precipitates as recurrent stones with nephrocalcinosis and renal failure. The general principle is worth more than the pathway: a metabolic stone disease arises either because a poorly soluble compound is *overproduced*, as here and as in gout, or because it is *not reabsorbed*, as in cystinuria. Knowing which of the two applies tells you whether treatment aims at production or at solubility.
+
+## answer_b
+Tyrosine
+
+## explanation_b
+Incorrect. Tyrosine's degradation defect is alkaptonuria, in which homogentisate accumulates and auto-oxidises to dark quinones — black urine on standing, and brown pigment in bone and cartilage. Pigment, not crystals.
+
+## answer_c
+Glutamate
+
+## explanation_c
+Incorrect. Glutamate has no associated metabolic error in the department book's summary table; its column is blank. It is central to nitrogen handling, GABA and glutathione, and none of those routes generates an insoluble excretion product.
+
+## answer_d
+Cysteine
+
+## explanation_d
+Incorrect, and it is the distractor that separates the two stone diseases of this chapter. The cysteine-related disorder, cystinuria, does cause renal stones — but they are **cystine** stones, formed because a defective dibasic amino acid transporter leaves cystine unreabsorbed in the tubular fluid, and cystine is poorly soluble. It is a transport defect, not a metabolic one, and the stem specifies a metabolic defect.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Glycine
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-REN-339CFAB4C81D12
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glycine
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.7
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.45
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## contextual_concept_ids
+CON-REN-3DD1CADB68BB1B
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+Name glycine as the amino acid whose metabolic defect raises urinary oxalate, and contrast an overproduction stone with a transport-defect stone.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 4. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. The department textbook's Glycine section (Dpt book Biochemistry 103, printed page 91) does not cover oxalate; cystinuria is verified against printed page 97 and alkaptonuria against printed page 102.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q4. correctSource verbatim: "printed key (p132)". No OCR repair was needed. Same SOURCE GAP as question 3 of this chapter: the glycine-to-oxalate link is not in the department textbook and rests on the question book and standard references. Recorded on CON-REN-339CFAB4C81D12. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-15A669412E68
+
+## title
+What type of amino acids are accumulated and excreted into the urine giving a burnt sugar odor in maple syrup urine disease?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+An infant feeds poorly, becomes lethargic in the first week of life, and the nappies carry a sweet smell likened to maple syrup or burnt sugar.
+
+## question
+What type of amino acids are accumulated and excreted into the urine giving a burnt sugar odor in maple syrup urine disease?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 5. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Acidic
+
+## explanation_a
+Incorrect. The acidic amino acids are glutamic acid and aspartic acid, and the department book's summary table records no metabolic error for either. Neither accumulates in a named disease.
+
+## answer_b
+Basic
+
+## explanation_b
+Incorrect, though it is not a wild guess. The basic aliphatic amino acids are arginine and lysine, and the *dibasic* group — cystine, arginine, ornithine and lysine — does accumulate in urine in cystinuria. But cystinuria is a transport defect, its urine has no odour, and its hallmark is hexagonal cystine crystals and stones, not a smell.
+
+## answer_c
+Neutral
+
+## explanation_c
+Incorrect as an answer, because "neutral" is too broad to be a classification the book uses for a disease. The neutral amino acid transport defect that does exist is Hartnup disease, in which tryptophan is not reabsorbed and pellagra-like signs follow — no odour, and the tryptophan leaves in the stool or is putrefied to indole and skatole.
+
+## answer_d
+Branched chain
+
+## explanation_d
+Correct. Maple syrup urine disease is a genetic deficiency of **branched-chain α-keto acid dehydrogenase**, the enzyme that oxidatively decarboxylates the α-keto acids of valine, leucine and isoleucine after they have been transaminated. Because that single enzyme serves all three amino acids, all three and their corresponding α-keto acids accumulate in the body fluids and are excreted, giving urine the characteristic odour of maple syrup or burnt sugar. The α-keto acids are neurotoxic and cause mental retardation, and treatment is a diet restricted in branched-chain amino acids. Two details reward attention: the block is at the *second* step, not the transamination, so the amino acids themselves rise as well as their keto acids; and the enzyme needs the same five cofactors as the other α-keto acid dehydrogenases — TPP, FAD, lipoate, NAD+ and CoASH — which is why it is examined alongside pyruvate dehydrogenase.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Branched Chain Amino Acids (Valine-Leucine-Isoleucine)
+
+## difficulty
+Easy
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-FND-58FAD64EEA965B
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Branched Chain Amino Acids (Valine-Leucine-Isoleucine)
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+1
+
+## inferred_difficulty
+80
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+Identify the branched-chain amino acids as those accumulating in maple syrup urine disease and name the deficient enzyme.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 5. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 93–94, "Branched Chain Amino Acids" and "Maple Syrup Urine Disease".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q5. correctSource verbatim: "printed key (p132)". No OCR repair was needed. CANCELLATION NOTE: the orientation cancels Threonine on printed page 93, and the Branched Chain Amino Acids section begins on the same printed page. The cancellation names Threonine as an item, not the page, so the branched-chain material and Maple Syrup Urine Disease on printed page 94 are not cancelled and this question is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-0A7CE9465114
+
+## title
+Which one of the following is not a derivative of glutamic acid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Glutamate sits at the junction of nitrogen metabolism and neurotransmission, and the department book lists what is built from it. One item in this list belongs to a different amino acid.
+
+## question
+Which one of the following is not a derivative of glutamic acid?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 6. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Glutathione
+
+## explanation_a
+A true derivative, so not the answer. Glutathione is a tripeptide of glutamic acid, cysteine and glycine, and glutamate contributes the γ-glutamyl residue that gives the γ-glutamyl cycle its name.
+
+## answer_b
+Heme
+
+## explanation_b
+Correct — heme is the odd one out. Heme is built from **glycine** condensed with succinyl-CoA by ALA synthase; glutamate contributes nothing to the porphyrin ring. The full glutamate list to hold against it is: GABA, made by glutamate decarboxylase with PLP; glutamine, made by glutamine synthetase adding ammonia as an amide; glutathione, with cysteine and glycine; and arginine and proline, made from its carbon skeleton. Glutamate is also γ-carboxylated in the vitamin K–dependent activation of clotting factors and osteocalcin. What makes this item worth its marks is that three of the four options are things glycine and glutamate *both* seem to touch — glycine is in glutathione, glycine makes heme, and both relate to purines — so the discrimination has to be exact rather than approximate.
+
+## answer_c
+Purines
+
+## explanation_c
+A true derivative, so not the answer. Glutamine — made from glutamate — donates the amide nitrogen that begins purine synthesis, in the glutamine:PRPP amidotransferase reaction, and a second amide nitrogen later in the ring. Glycine also contributes to the purine ring, which is why this option feels ambiguous; but the stem asks what is *not* a glutamate derivative, and purines genuinely are one.
+
+## answer_d
+γ-aminobutyric acid (GABA)
+
+## explanation_d
+A true derivative, so not the answer. GABA is formed from glutamate by decarboxylation, a PLP-dependent reaction, and it is the inhibitory neurotransmitter whose deficiency the book blames for the convulsions of ammonia intoxication.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Glutamic Acid
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-NEU-46F59E9C3EA406
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glutamic Acid
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-38F3A09255526F
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+List the derivatives of glutamic acid and separate them from the derivatives of glycine, naming heme as glycine's.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: Two columns, glycine and glutamate, each listing what it makes, with glutathione and purines marked as receiving a contribution from both
+Purpose: The item's difficulty is entirely in the overlap between two lists. A table that shows where the lists intersect and where they do not is the only presentation that makes the exception visible; two separate prose lists are what produces the error.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 127 (printed 120), question 6. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 94–95, "GLUTAMIC ACID — Functions and Derivatives", and printed page 91 for glycine's list.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p127-q6. correctSource verbatim: "printed key (p132)". OCR REPAIR: option d reads "y-aminobutyric acid (GABA)" in the bank — a Latin y for gamma — restored to γ. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-3C3EF407B6B6
+
+## title
+GABA is derived from which amino acid, and by which reaction?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A 12-year-old boy developed convulsions. After running an EEG, the neurologist determines that the child has epilepsy and starts a benzodiazepine, which promotes the action of GABA.
+
+## question
+GABA is derived from which amino acid, and by which type of reaction?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 7. Transcribed; the printed clinical scenario has been moved into the vignette and the ask, printed as a fill-in-the-blank sentence, restated as a direct question.
+
+## correct_answer
+D
+
+## answer_a
+Tyrosine, transamination
+
+## explanation_a
+Incorrect on both halves. Tyrosine gives catecholamines, melanin and thyroid hormones — not GABA — and although tyrosine aminotransferase does begin tyrosine's catabolism, transamination is not how any neurotransmitter amine is made.
+
+## answer_b
+Glutamate, transamination
+
+## explanation_b
+Incorrect on the reaction, right on the amino acid, which makes it the commonest wrong answer. Transamination of glutamate gives α-ketoglutarate — it removes the amino group. GABA still has its nitrogen; what it has lost is a carboxyl group.
+
+## answer_c
+Glutamate, deamination
+
+## explanation_c
+Incorrect on the reaction. Oxidative deamination of glutamate by glutamate dehydrogenase releases free ammonia and yields α-ketoglutarate. That is the transdeamination route for nitrogen disposal, not a biosynthetic route to a transmitter — and again, GABA keeps its nitrogen.
+
+## answer_d
+Glutamate, decarboxylation
+
+## explanation_d
+Correct. Glutamate decarboxylase, a pyridoxal phosphate–dependent enzyme, removes the α-carboxyl group of glutamate as CO2 and leaves γ-aminobutyric acid. The general rule is worth extracting: the biogenic amines are all made by **decarboxylating** an amino acid while keeping its nitrogen — glutamate to GABA, histidine to histamine, 5-hydroxytryptophan to serotonin, DOPA to dopamine. Every one of those decarboxylases needs PLP, which is why vitamin B6 deficiency produces convulsions: less GABA, the brain's principal inhibitory transmitter. That is also the link to this vignette's ammonia counterpart — the book attributes the convulsions of ammonia intoxication to GABA deficiency, because α-ketoglutarate is pulled away and glutamate handling is distorted.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Glutamic Acid
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-NEU-46F59E9C3EA406
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Glutamic Acid
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-861450E9BAAA11
+
+## library_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## resource_ids
+
+## learning_objective
+State that GABA is formed from glutamate by PLP-dependent decarboxylation, and generalise the rule that biogenic amines are made by decarboxylation rather than transamination or deamination.
+
+## media_recommendations
+### comparison table · Explanation for answer D
+Brief: Four amino-acid-to-amine conversions in one table — glutamate to GABA, histidine to histamine, 5-hydroxytryptophan to serotonin, DOPA to dopamine — each with its decarboxylase and PLP marked
+Purpose: The generalisation in the explanation is what makes this item transferable to three other questions in the same chapter, and a table is what fixes a four-way pattern. Options B and C exist because students cannot tell three nitrogen-handling reactions apart, and seeing the shared reaction type is the correction.
+Priority: strongly helpful
+Status: needed
+Section: Explanation D
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 7. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 94, "Synthesis of γ-aminobutyric acid (GABA) by decarboxylase", and printed page 90 for GABA deficiency in ammonia intoxication.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q7. correctSource verbatim: "printed key (p132)". OCR REPAIR and SPLIT REPAIR: the bank stem is "…he started Bezodiazepine which promotes the action of GABA, GABA is derived from .................- by" — a misspelling of benzodiazepine and a fill-in-the-blank tail. The scenario has been moved into `vignette` with the spelling corrected, and the trailing blank restated as a direct question so the item reads as a question once the options are shuffled. No option was altered. The drug is named as the book named it; no dose is given and the pharmacology is not what is tested. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-7BCE87D21271
+
+## title
+Which of the following is synthesized from Cysteine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Cysteine is the sulfur-containing non-essential amino acid, made by the trans-sulfuration pathway from homocysteine and serine. Its thiol group is what all its derivatives are built around.
+
+## question
+Which of the following is synthesized from Cysteine?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 8. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Taurine
+
+## explanation_a
+Correct. Taurine is synthesised from cysteine mainly in liver cells, and like glycine it is conjugated with bile acids so that they are excreted in bile as bile salts. The department book gives cysteine six derivatives, and they are worth learning as one set because each is a different use of the same sulfur atom: cystine, formed when two cysteines are oxidised into a disulfide bond; the thiol group at the active site of many enzymes; the sulfate group of PAPS, or active sulfate, which donates sulfate for glycosaminoglycans, sulfolipids and detoxification; thioethanolamine, a component of coenzyme A; taurine; and glutathione. Notice that glycine appears twice in the neighbourhood — it conjugates bile acids like taurine, and it is a component of glutathione like cysteine — which is precisely the overlap the other options exploit.
+
+## answer_b
+Melatonin
+
+## explanation_b
+Incorrect. Melatonin is made in the pineal body from serotonin, which comes from **tryptophan**: serotonin is acetylated to N-acetylserotonin and then methylated by SAM. No sulfur amino acid is involved, although SAM's methyl group does come from methionine — which is the thread a student may follow to the wrong sulfur amino acid.
+
+## answer_c
+Melanin
+
+## explanation_c
+Incorrect. Melanin is made from **tyrosine** by way of DOPA, using tyrosinase in melanocytes. Its absence is albinism and its reduction is part of the hypopigmentation of phenylketonuria.
+
+## answer_d
+Heme
+
+## explanation_d
+Incorrect. Heme is made from **glycine** and succinyl-CoA. This option catches a student who has learned that a small amino acid begins a synthesis and has not kept track of which one.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Cysteine
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-11F38A2B3E9B67
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Cysteine
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+74
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+List the six derivatives of cysteine, and assign melatonin, melanin and heme to the amino acids that really make them.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 8. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 97, "CYSTEINE — Functions and Derivatives".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q8. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-4A098B36E430
+
+## title
+Which of the following precursors produce creatine and choline via SAM?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+S-adenosylmethionine hands its methyl group to an acceptor, which is then the methylated product. Naming a SAM reaction correctly means naming the acceptor, not the product.
+
+## question
+Which of the following precursors produce creatine and choline via SAM?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 9. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Norepinepherine & Melatonin respectively
+
+## explanation_a
+Incorrect, and it lists two *products* of SAM reactions rather than the precursors asked for. SAM does methylate noradrenaline to adrenaline and N-acetylserotonin to melatonin — but noradrenaline is the acceptor in the first pair, not the product, and melatonin is a product, not a precursor. Neither yields creatine or choline.
+
+## answer_b
+Acetyleserotonin & Phosphatidylcholine respectively
+
+## explanation_b
+Incorrect, and it is the same error in a different direction. N-acetylserotonin is a genuine SAM acceptor, but its product is melatonin, not creatine. Phosphatidylcholine is downstream of choline, so naming it as choline's precursor reverses the sequence.
+
+## answer_c
+Ethanolamine & Nucleotides respectively
+
+## explanation_c
+Incorrect because the two halves are in the wrong order. Ethanolamine really is the precursor methylated by SAM to give **choline** — but it is paired here with creatine, which it does not make, while nucleotides are offered for choline, which they do not make either. This is the sharpest distractor on the item: it contains the right molecule in the wrong slot, and a student who reads only the first word takes it.
+
+## answer_d
+Guanidinoacetate & Ethanolamine respectively
+
+## explanation_d
+Correct, and in the right order: guanidinoacetate is methylated by SAM to **creatine**, and ethanolamine is methylated by SAM to **choline**. Guanidinoacetate itself is assembled from glycine and arginine, so creatine draws on three amino acids in turn — arginine and glycine for the skeleton, methionine for the methyl group. The transmethylation reactions the department book lists are ethanolamine to choline, noradrenaline to adrenaline, and N-acetylserotonin to melatonin, each catalysed by its own methyl transferase; SAM becomes S-adenosylhomocysteine, which is hydrolysed to homocysteine, and methionine synthase regenerates methionine using methylcobalamin and methyl-THF. That regeneration loop is why vitamin B12 and folate deficiency both raise homocysteine.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Methionine
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3622E11F05032C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+38
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-E8A570D41E7B8F
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Name the methyl acceptor for each SAM-dependent transmethylation, and distinguish an acceptor from the methylated product it becomes.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The SAM cycle — methionine to SAM, SAM handing a methyl group to an acceptor and becoming SAH, SAH hydrolysed to homocysteine, homocysteine remethylated by methionine synthase with methylcobalamin and methyl-THF — with the three acceptor/product pairs branching off the transfer step
+Purpose: Every distractor here is a real molecule from this cycle placed in the wrong slot, so the item tests position rather than recall. A cycle diagram with acceptors on one side of the transfer arrow and products on the other is what makes position legible; a prose list of pairs is exactly what students scramble.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 9. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 98, "METHIONINE — Functions and Derivatives" and the "Role of Methionine as Methyl Donor" diagram; creatine's assembly from glycine and arginine against printed pages 91 and 96.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q9. correctSource verbatim: "printed key (p132)". No OCR repair was made to the options: "Norepinepherine" and "Acetyleserotonin" are how the department book itself spells them, and `original_wording` fidelity is preferred to silent correction of the examiner's spelling; the explanations use the correct forms. CANCELLATION NOTE: creatine synthesis is also taught under Arginine on printed page 96, which the orientation cancels. The question is filed under Methionine, printed page 98, which is not cancelled, and it tests SAM transmethylation — so it is weighted as a methionine item. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-23DAFA9EB602
+
+## title
+SAM is required for the synthesis of which of the following compounds?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Adrenaline differs from noradrenaline by a single methyl group on its nitrogen. That difference is where this question lives.
+
+## question
+SAM is required for the synthesis of which of the following compounds?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 10. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Thyroid hormone
+
+## explanation_a
+Incorrect. Thyroid hormones are made by **iodinating** tyrosine residues of thyroglobulin to MIT and DIT and then coupling them — DIT plus DIT giving T4, DIT plus MIT giving T3. The modification is iodination, not methylation, and no methyl donor is involved.
+
+## answer_b
+Melanin
+
+## explanation_b
+Incorrect. Melanin is polymerised from DOPA by tyrosinase in melanocytes. Again, no methyl group is added.
+
+## answer_c
+Epinephrine
+
+## explanation_c
+Correct. The last step of catecholamine synthesis is the N-methylation of noradrenaline to adrenaline, and SAM is the methyl donor — the book lists "Nor-epinephrine → Epinephrine" among its three named transmethylation reactions, alongside ethanolamine to choline and N-acetylserotonin to melatonin. The sequence to hold is tyrosine → DOPA by tyrosine hydroxylase (which needs tetrahydrobiopterin, the same cofactor as phenylalanine hydroxylase) → dopamine → noradrenaline → adrenaline, with only the final arrow requiring SAM. Two of the four options in this item are tyrosine derivatives and the correct one is a tyrosine derivative too, so the discrimination is not "which amino acid" but "which chemical step", which is the more durable thing to have learned.
+
+## answer_d
+Serotonin
+
+## explanation_d
+Incorrect, and it is the near-miss worth understanding. Serotonin is made from tryptophan by hydroxylation and then decarboxylation — neither step needs SAM. It is the *next* molecule in that sequence, melatonin, that requires SAM, after serotonin has first been acetylated. A student who remembers "SAM is involved somewhere in the tryptophan pathway" and stops one molecule early lands here.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Methionine
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3622E11F05032C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-FA4D15805B9D02 | CON-NEU-6C4A6BDA725F0E
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Name the three transmethylation reactions SAM carries out, and identify the N-methylation of noradrenaline to adrenaline as the only SAM-dependent step of catecholamine synthesis.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 10. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 98 for the transmethylation list, and printed page 101 for catecholamine, melanin and thyroid hormone synthesis from tyrosine.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q10. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-99B051B06584
+
+## title
+A high blood level of homocysteine is due to deficiency of which of the following enzymes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Homocysteinaemia is associated with an increased risk of atherosclerosis, because raised homocysteine modifies LDL and collagen and injures the endothelium.
+
+## question
+A high blood level of homocysteine is due to deficiency of which of the following enzymes?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 11. Transcribed; the printed framing clause has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+B
+
+## answer_a
+Tyrosine hydroxylase
+
+## explanation_a
+Incorrect. Tyrosine hydroxylase converts tyrosine to DOPA at the start of catecholamine synthesis, using tetrahydrobiopterin. It has nothing to do with sulfur amino acids.
+
+## answer_b
+Cystathionine synthase
+
+## explanation_b
+Correct, and it is the commonest cause. Homocysteine sits at a fork: it can be *remethylated* back to methionine by methionine synthase, using vitamin B12 and THF, or it can be committed onward down the trans-sulfuration pathway by **cystathionine synthase**, which condenses it with serine to make cystathionine and needs PLP. Block the second route and homocysteine accumulates, along with methionine behind it, and cysteine falls — which is why cysteine becomes effectively essential in these patients. Large amounts of homocystine, two homocysteine molecules joined by a disulfide bond, appear in the urine, hence the name homocystinuria. The pattern of plasma amino acids is what distinguishes the two causes: with a cystathionine synthase defect both homocysteine and **methionine** are high, whereas with a methionine synthase defect homocysteine is high and methionine is **normal**.
+
+## answer_c
+Glutathione reductase
+
+## explanation_c
+Incorrect. Glutathione reductase regenerates reduced glutathione using NADPH, and its failure matters in oxidant stress and in G6PD deficiency — not in sulfur amino acid catabolism. The link a student reaches for is that glutathione contains cysteine, which is downstream of homocysteine, but reducing glutathione does not consume homocysteine.
+
+## answer_d
+L-amino acid oxidase
+
+## explanation_d
+Incorrect. L-amino acid oxidase is the low-activity flavoprotein of liver and kidney that deaminates L-amino acids generally. It is not specific to homocysteine and its loss does not produce a named disease.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Methionine
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-E8A570D41E7B8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-3622E11F05032C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Name cystathionine synthase as the commonest deficient enzyme in homocystinuria, and use the plasma methionine level to separate it from a methionine synthase defect.
+
+## media_recommendations
+### flowchart · Explanation for answer B
+Brief: Homocysteine at a fork — remethylation to methionine by methionine synthase with B12 and THF on one branch, trans-sulfuration to cystathionine by cystathionine synthase with PLP on the other — with the plasma methionine level annotated as high or normal depending on which branch is blocked
+Purpose: The two causes of homocystinuria are told apart by one analyte moving in different directions, and students who learn them as two separate diseases cannot reconstruct which. The fork with the annotation is the discriminating fact made visible.
+Priority: required
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 11. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 99, "Metabolic Disorder of Methionine Metabolism — Homocystinuria".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q11. correctSource verbatim: "printed key (p132)". SPLIT REPAIR, not an OCR repair: the printed item runs its framing clause and its ask together; the framing now sits in `vignette` and the ask in `question`, with no word changed beyond the reordering needed to make the question stand alone. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-81107267A2B0
+
+## title
+Which compound is expected to be elevated in blood in cystathionine synthase deficiency?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A newborn presents with refusal to feed and irritability. A deficiency of cystathionine synthase has been diagnosed.
+
+## question
+Which of the following compounds is expected to be elevated in blood?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 12. Transcribed; the printed clinical scenario has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+C
+
+## answer_a
+Glycine
+
+## explanation_a
+Incorrect. Glycine's metabolism runs through the glycine cleavage system and its interconversion with serine, neither of which is touched by cystathionine synthase. Glycine does supply the serine that cystathionine synthase condenses with homocysteine — but that is a substrate on the other side of the reaction, and blocking an enzyme raises what is upstream of it, not what feeds in alongside.
+
+## answer_b
+Glutamate
+
+## explanation_b
+Incorrect. Glutamate is not part of the trans-sulfuration pathway. It appears here because glutamate is a component of glutathione and glutathione contains cysteine, so a student following a loose association may arrive at it.
+
+## answer_c
+Homocysteine
+
+## explanation_c
+Correct, and it follows directly from where the block sits. Cystathionine synthase is the enzyme that commits homocysteine to the trans-sulfuration pathway by condensing it with serine to form cystathionine, with PLP as coenzyme. Remove the enzyme and homocysteine accumulates immediately upstream of it. Because homocysteine can still be remethylated to methionine, plasma methionine rises too; plasma cysteine falls, since it can no longer be made this way, which is why cysteine is described as essential in these patients; and homocystine — two homocysteine molecules joined by a disulfide bond — is excreted in large amounts in urine. Raised homocysteine modifies LDL and collagen, producing endothelial injury, atherogenesis, coronary disease, thromboembolism and hypertension, together with osteoporosis, mental retardation and dislocation of the lens. Treatment is restriction of methionine intake, a diet rich in cysteine, and supplementation with vitamins B6, B12 and folate.
+
+## answer_d
+Valine
+
+## explanation_d
+Incorrect. Valine is a branched-chain amino acid, and it accumulates in maple syrup urine disease from deficiency of branched-chain α-keto acid dehydrogenase. Different enzyme, different disease — and a fair distractor, because both are inborn errors presenting in the newborn with feeding difficulty and irritability.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Methionine
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-E8A570D41E7B8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+79
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-58FAD64EEA965B
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Predict which metabolite accumulates when a named enzyme of the trans-sulfuration pathway is deficient, and list the plasma changes and manifestations of homocystinuria.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 128 (printed 121), question 12. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 99, "Homocystinuria — Causes, Manifestations, Treatment", and printed page 96 for the trans-sulfuration reaction diagram.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p128-q12. correctSource verbatim: "printed key (p132)". SPLIT REPAIR, not an OCR repair: the printed item runs the clinical scenario and the ask together; the scenario now sits in `vignette` and the ask in `question`. The bank capitalises option a as "glycine" and option b as "Glutamate" inconsistently; both are left as printed. The treatment named in the explanation is the department book's own and carries no dose. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-B8F9057D5DF9
+
+## title
+Homocystinuria is caused by deficiencies in enzymes that are responsible for metabolism of which amino acid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The name of an inborn error usually names the metabolite that spills into the urine, not the amino acid whose pathway is broken.
+
+## question
+Homocystinuria is caused by deficiencies in enzymes that are responsible for metabolism of which amino acid?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 13. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Phenylalanine
+
+## explanation_a
+Incorrect. The disorder of phenylalanine metabolism is phenylketonuria, from deficiency of phenylalanine hydroxylase or of its cofactor tetrahydrobiopterin.
+
+## answer_b
+Tyrosine
+
+## explanation_b
+Incorrect. The disorders of tyrosine metabolism are alkaptonuria, from homogentisate oxidase deficiency, and albinism, from lack of tyrosinase.
+
+## answer_c
+Methionine
+
+## explanation_c
+Correct. The department book files homocystinuria as the metabolic disorder of **methionine** metabolism, and the reason is that homocysteine is not a dietary amino acid but an intermediate in methionine's own cycle: methionine is activated to SAM, SAM donates its methyl group and becomes SAH, SAH is hydrolysed to homocysteine, and homocysteine is then either remethylated back to methionine by methionine synthase, using B12 and THF, or condensed with serine by cystathionine synthase towards cysteine. Both of those exits can fail, and both give homocystinuria. Reading the name is the trap the item is built on — "homocystinuria" names the substance in the urine, and the amino acid whose pathway is broken is one step behind it.
+
+## answer_d
+Glycine
+
+## explanation_d
+Incorrect. Glycine is glucogenic and non-essential, and the department book's summary table records no metabolic error against it. The disorder a student might be reaching for is the glycine-to-oxalate defect tested earlier in this chapter, which produces oxalate stones, not homocystine.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Methionine
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-E8A570D41E7B8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+80
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Match each named inborn error of amino acid metabolism to the amino acid whose pathway is affected, and explain why homocystinuria is filed under methionine.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 13. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 99, and the Summary of Amino Acid Metabolism table on printed page 107, which lists Homocystinuria in the Methionine row.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q13. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-64382C87EE48
+
+## title
+A patient diagnosed with Homocystinuria does not require supplementation by one of the following vitamins:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Treatment of homocystinuria is restriction of methionine intake and a diet rich in cysteine, together with three vitamins — each of which is a coenzyme at a specific point in the pathway.
+
+## question
+A patient diagnosed with Homocystinuria does not require supplementation by one of the following vitamins:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 14. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Folic acid
+
+## explanation_a
+Required, so not the answer. Methionine synthase remethylates homocysteine using **methyl-THF** as the methyl source, so folate is one of the two coenzymes of the remethylation branch. Folate deficiency is itself a cause of the disease, and supplementing it can push homocysteine back down that branch.
+
+## answer_b
+Vitamin C
+
+## explanation_b
+Correct — vitamin C is the one not required. Ascorbate's roles in this part of the syllabus lie elsewhere: it is a cofactor for p-hydroxyphenylpyruvate hydroxylase and homogentisate oxidase in **tyrosine** catabolism, and for lysyl hydroxylase in collagen. None of the three enzymes handling homocysteine uses it. The way to answer this item without memorising a list is to walk the pathway and ask which coenzyme each step needs: cystathionine synthase needs PLP, which is B6; methionine synthase needs methylcobalamin, which is B12, and methyl-THF, which is folate. Three enzymes, three vitamins, and vitamin C is not among them.
+
+## answer_c
+Vitamin B12
+
+## explanation_c
+Required, so not the answer. Methionine synthase uses **methylcobalamin**, so B12 deficiency blocks remethylation and raises homocysteine — with normal plasma methionine, which is how this cause is told apart from a cystathionine synthase defect.
+
+## answer_d
+Vitamin B6
+
+## explanation_d
+Required, so not the answer. Cystathionine synthase is PLP-dependent, and the department book notes that the disease follows a defect "of the enzyme **or** vitamin B6". Some patients respond to pharmacological doses of B6 for that reason.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Methionine
+
+## difficulty
+Moderate
+
+## question_type
+Treatment
+
+## main_concept
+CON-FND-E8A570D41E7B8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Methionine
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-C9E5128193029E
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Assign a coenzyme vitamin to each enzyme of homocysteine metabolism, and explain why vitamin C has no role there despite being a cofactor elsewhere in amino acid metabolism.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 14. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 99, "Treatment: Restriction of methionine intake and supplementation of diet rich in cysteine with vitamins B6, B12 and folate", and printed page 100 for vitamin C's role in tyrosine catabolism.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q14. correctSource verbatim: "printed key (p132)". No OCR repair was needed. This item concerns treatment, so it lands as Draft for faculty review like the rest of the batch; the vitamins named are the department book's own and no dose is given. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-AE0D4A7036F3
+
+## title
+Cystinuria is caused by a genetic defect in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Hexagonal crystals are seen on urine microscopy in a young adult with recurrent radio-opaque stones. Plasma amino acids are normal.
+
+## question
+Cystinuria is caused by a genetic defect in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 15. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Amino acid synthesis
+
+## explanation_a
+Incorrect, and the clue against it is in the vignette: plasma amino acids are normal. A synthetic defect would show in the blood. Cystinuria's abnormality is confined to the urine, which is the signature of a transport problem rather than a metabolic one.
+
+## answer_b
+Acidic amino acid transport
+
+## explanation_b
+Incorrect on which transporter. The acidic amino acids are glutamate and aspartate, and neither appears in the urine in cystinuria. This option catches a student who has correctly identified "transport" and then guessed the group.
+
+## answer_c
+Dibasic amino acid transport
+
+## explanation_c
+Correct. Cystinuria is the most common genetic error of amino acid transport: a defect in the transporter of the **dibasic** amino acids means cystine, arginine, ornithine and lysine are not reabsorbed across the renal proximal tubule and are excreted in urine. Cystine is the least soluble of the four, so it precipitates, crystallises as the characteristic hexagonal crystals, and forms stones. Treatment follows straight from the mechanism: alkalinisation of the urine and plenty of fluid make cystine more soluble so it is washed out rather than deposited. Two contrasts are worth carrying away. Cystinuria is a *transport* defect and the plasma is normal, whereas homocystinuria is a *metabolic* defect and the plasma is abnormal — the similar names hide opposite mechanisms. And cystine stones form because a soluble compound is not reabsorbed, whereas oxalate and urate stones form because an insoluble compound is overproduced.
+
+## answer_d
+Disulfide bond formation
+
+## explanation_d
+Incorrect, though it is the cleverest distractor here. Cystine *is* two cysteines joined by a disulfide bond, so the chemistry is genuinely relevant — but forming that bond is normal and is not what fails. Nothing about cystinuria involves an inability to make or break disulfides.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Cysteine
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-REN-3DD1CADB68BB1B
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Cysteine
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-E8A570D41E7B8F
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+Identify cystinuria as a defect of dibasic amino acid transport, and distinguish a transport defect from a metabolic defect by the plasma amino acid pattern.
+
+## media_recommendations
+### comparison table · Explanation for answer C
+Brief: Cystinuria against homocystinuria — defect type, plasma finding, urine finding, stone or no stone, and treatment
+Purpose: The two names differ by three letters and the mechanisms are opposite, which is the single most reliable confusion in this chapter. Only a side-by-side makes the opposition the thing a student remembers.
+Priority: required
+Status: needed
+Section: Explanation C
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 15. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 97, "Metabolic Disorder of Cysteine Metabolism — Cystinuria".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q15. correctSource verbatim: "printed key (p132)". OCR REPAIR: the bank renders option c as "Dibasic amino acid transport" and the book prints "dibasic"; no change was needed. The vignette's hexagonal crystals and normal plasma are the book's own findings restated as a presentation. CANCELLATION NOTE: the four amino acids affected include arginine and lysine, whose own section on printed page 96 the orientation cancels. This question is filed under Cysteine, printed page 97, which is not cancelled, and it tests the transporter rather than arginine or lysine metabolism — so it is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-8781D67686D1
+
+## title
+In a patient suffering from cystinuria, all of the following amino acids are seen in urine of affected patients except?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+One transporter serves a chemical family, so a defect in it spills the whole family into the urine — and only that family.
+
+## question
+In a patient suffering from cystinuria, all of the following amino acids are seen in urine of affected patients except?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 16. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Arginine
+
+## explanation_a
+Present in the urine, so not the exception. Arginine is one of the four dibasic amino acids the defective transporter handles.
+
+## answer_b
+Methionine
+
+## explanation_b
+Correct — methionine is the exception. It is a **neutral**, sulfur-containing amino acid, not a dibasic one, so it is reabsorbed by a different transporter that is unaffected in cystinuria. The four that do appear are cystine, arginine, ornithine and lysine, which students remember as COAL. Methionine is an excellent distractor precisely because it is the *other* sulfur amino acid: cysteine is made from homocysteine, which comes from methionine, so the two sit in one pathway. But the transporter sorts molecules by charge and shape, not by which pathway made them — and that is the discrimination the item is testing.
+
+## answer_c
+Lysine
+
+## explanation_c
+Present in the urine, so not the exception. Lysine is dibasic and is one of the four.
+
+## answer_d
+Ornithine
+
+## explanation_d
+Present in the urine, so not the exception. Ornithine is dibasic and is one of the four, which is a useful reminder that a molecule can be central to the urea cycle and still be handled by a general renal transporter.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Cysteine
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-REN-3DD1CADB68BB1B
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Cysteine
+
+## clinical_relevance
+0.75
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+63
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-6A2CCA2892E78C
+
+## library_ids
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## resource_ids
+
+## learning_objective
+List the four amino acids excreted in cystinuria and explain why methionine is not among them despite being a sulfur amino acid.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 16. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 97: "failure of transport of these amino acids (cystine, arginine, ornithine, and lysine) across the renal proximal tubules".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q16. correctSource verbatim: "printed key (p132)". OCR REPAIR: the bank renders option a as "Arginine" and the book as "arginine"; no substantive change was needed. The "COAL" mnemonic in the explanation is a study aid, not the book's wording. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-8433A87B3CF0
+
+## title
+Hydroxylation of Phenylalanine to Tyrosine requires:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+About one to two per cent of phenylketonuria is not caused by a defect in the enzyme itself, but by a defect in what the enzyme needs to work — which is why treatment differs in those cases.
+
+## question
+Hydroxylation of Phenylalanine to Tyrosine requires:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 17. Transcribed; the option list is reconstructed from the printed page, as described in author_notes.
+
+## correct_answer
+B
+
+## answer_a
+Glutathione
+
+## explanation_a
+Incorrect. Glutathione is the antioxidant tripeptide, and it is a cofactor for methionine adenosyl transferase in SAM synthesis — which is why it appears in this chapter at all. It has no part in the hydroxylases.
+
+## answer_b
+Tetrahydrobiopterin
+
+## explanation_b
+Correct. Phenylalanine hydroxylase requires **tetrahydrobiopterin (BH4)** as a coenzyme and hydrogen donor: BH4 is oxidised to BH2 while molecular oxygen is used to hydroxylate the ring, and NADPH regenerates BH4. This matters clinically because deficiency of BH4 itself causes about one to two per cent of phenylketonuria, and those patients need BH4 supplementation as well as dietary treatment — dietary restriction alone will not correct them. It matters conceptually because the same cofactor serves **tyrosine hydroxylase** at the start of catecholamine synthesis and **tryptophan hydroxylase** at the start of serotonin synthesis, so a BH4 defect blocks three pathways at once and produces a neurological picture that dietary phenylalanine restriction cannot rescue.
+
+## answer_c
+SAM
+
+## explanation_c
+Incorrect. SAM is the methyl donor of transmethylation reactions, and its one role in this neighbourhood is methylating noradrenaline to adrenaline several steps further down the tyrosine pathway. Hydroxylation adds an OH group, not a methyl group.
+
+## answer_d
+Cu²⁺
+
+## explanation_d
+Incorrect for this enzyme, and it is the distractor built from a real neighbouring fact: copper is a cofactor for **p-hydroxyphenylpyruvate hydroxylase**, one step into tyrosine's catabolic pathway, alongside vitamin C. Two hydroxylases sitting a few reactions apart with different cofactors is exactly the kind of near-neighbour confusion an examiner sets.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-A6E502DCE4232F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+63
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-FND-D7BB8C3AFB54CC
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Name tetrahydrobiopterin as the coenzyme of phenylalanine hydroxylase, and explain why a BH4 defect blocks catecholamine and serotonin synthesis as well.
+
+## media_recommendations
+### diagram · Explanation for answer B
+Brief: The three BH4-dependent hydroxylases on one figure — phenylalanine to tyrosine, tyrosine to DOPA, tryptophan to 5-hydroxytryptophan — with the BH4/BH2 and NADPH cycle drawn once and shared between them
+Purpose: The clinical point of this item is that one cofactor defect blocks three pathways, which is a convergence a student cannot see in three separately taught reactions. Drawing the shared cofactor once is what makes the convergence the memorable fact.
+Priority: required
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 17. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 100 (phenylalanine hydroxylase with BH4, and p-hydroxyphenylpyruvate hydroxylase with vitamin C and Cu²⁺), printed page 101 (tyrosine hydroxylase needs the same factors), printed page 102 (BH4 deficiency causes 1–2% of PKU) and printed page 103 (tryptophan hydroxylase is BH4-dependent).
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q17. correctSource verbatim: "printed key (p132)". SUSPECT FLAG RESOLVED — the bank flags this item "option count" and delivers only three options, the third reading "SAM dj) Cu*", with options c and d run together and the copper ion garbled. PDF page 129 was opened with the Read tool: the book prints four options — a) Glutathione, b) Tetra hydrobiopterin, c) SAM, d) Cu²⁺. The options have been restored to the printed four; "Tetra hydrobiopterin" is given as the standard single word "Tetrahydrobiopterin" and "Cu*" restored to "Cu²⁺". No option was invented. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-2640E6C8EF0F
+
+## title
+Tyrosine is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The department book's summary table gives every amino acid three attributes: glucogenic, ketogenic or mixed; essential, non-essential or semi-essential; and its derivatives. Tyrosine's row is worth reading carefully.
+
+## question
+Tyrosine is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 18. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+An essential amino acid
+
+## explanation_a
+Incorrect, and it is the misconception the item is built on. Tyrosine is **non-essential** because it is made from phenylalanine by phenylalanine hydroxylase. The catch is that this makes it *conditionally* essential: in phenylketonuria, where that enzyme is missing, tyrosine can no longer be synthesised and must be supplied in the diet — which is why treatment is phenylalanine restriction *with tyrosine supplementation*. The book's table nonetheless lists tyrosine as non-essential, and that is what the question asks.
+
+## answer_b
+A precursor in the biosynthesis of serotonin
+
+## explanation_b
+Incorrect. Serotonin comes from **tryptophan**, hydroxylated to 5-hydroxytryptophan and then decarboxylated. Both tryptophan and tyrosine are aromatic and both are hydroxylated by BH4-dependent enzymes, which is why they are confused; but their products are different — tyrosine gives catecholamines, melanin and thyroid hormones.
+
+## answer_c
+A precursor in the biosynthesis of γ-aminobutyric acid (GABA)
+
+## explanation_c
+Incorrect. GABA is decarboxylated from **glutamate**. Nothing links tyrosine to it.
+
+## answer_d
+Both gluconeogenic and ketogenic
+
+## explanation_d
+Correct — tyrosine is a mixed amino acid. Its catabolism ends in two products: transamination by tyrosine aminotransferase gives p-hydroxyphenylpyruvate, which is hydroxylated to homogentisate, opened by homogentisate oxidase to maleylacetoacetate, isomerised and then hydrolysed into **fumarate**, which is glucogenic, and **acetoacetate**, which is ketogenic. That is why the summary table calls tyrosine mixed, as it does phenylalanine, isoleucine and tryptophan. Knowing the two end products also answers a different question in this chapter — where phenylalanine's carbon enters the citric acid cycle — because phenylalanine is catabolised only after it has been converted to tyrosine.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-634036621EB132
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-FA4D15805B9D02
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-81A4F3A9C51B7B
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Classify tyrosine as non-essential and mixed glucogenic-ketogenic, naming fumarate and acetoacetate as its two catabolic end products, and explain in what sense it becomes essential in PKU.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 18. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 100, "Catabolic Fate of Tyrosine", and printed page 107, the Summary of Amino Acid Metabolism table, Tyrosine row.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q18. correctSource verbatim: "printed key (p132) read differently by different OCR passes (a/d)". NULL KEY RECOVERED FROM THE PAGE: the bank recorded correct as null. PDF page 132 was opened with the Read tool and the printed key table read visually — row 18 reads "18. d", and every other row on that page matches the bank exactly. The key is d, which the department book's own summary table supports. The two OCR candidates were a and d, and a is the one the book explicitly contradicts, so the recovery also resolves the disagreement on the medicine. OCR REPAIR: option c reads "y-aminobutyric acid (GABA)" in the bank; the Latin y was restored to γ. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-0EB5D2FC7991
+
+## title
+Phenylalanine upon catabolism, enter TCA cycle through:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Phenylalanine has no catabolic pathway of its own. It is first converted to tyrosine, and everything that follows is tyrosine's pathway.
+
+## question
+Phenylalanine upon catabolism, enter TCA cycle through:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 19. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Oxaloacetate
+
+## explanation_a
+Incorrect. Oxaloacetate is where **aspartate** enters, by transamination. It is a favourite answer because oxaloacetate is the cycle's most familiar entry point, but nothing in the aromatic pathway produces it directly.
+
+## answer_b
+Citrate
+
+## explanation_b
+Incorrect. Citrate is formed inside the cycle from acetyl-CoA and oxaloacetate by citrate synthase; no amino acid enters as citrate. A ketogenic fragment such as acetoacetate can reach acetyl-CoA and thence citrate, but that is entry at acetyl-CoA, not at citrate.
+
+## answer_c
+Succinyl Co A
+
+## explanation_c
+Incorrect. Succinyl-CoA is the entry point for **valine**, for **methionine** by way of propionyl-CoA, and for the propionyl half of isoleucine — the propionyl-CoA family. Phenylalanine is not in it.
+
+## answer_d
+Fumarate
+
+## explanation_d
+Correct. Phenylalanine is hydroxylated to tyrosine, and tyrosine's catabolism ends when maleylacetoacetate is isomerised and then hydrolysed into fumarate and acetoacetate. Fumarate is a citric acid cycle intermediate, so that is the glucogenic entry point, while acetoacetate is the ketogenic half — which is what makes both amino acids "mixed". Two things worth carrying: first, when a question names phenylalanine's catabolism, answer it as a tyrosine question, because the first step converts one to the other; second, fumarate is also where the urea cycle joins the citric acid cycle, so the same intermediate is the meeting point for two quite different pathways and an examiner can approach it from either side.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-634036621EB132
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+57
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-129A247205D4D0
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Trace phenylalanine's carbon into the citric acid cycle at fumarate, and name the entry points of the amino acids offered as distractors.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 129 (printed 122), question 19. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 100, "Catabolic Fate of Tyrosine" ending "Fumarate (Glucogenic) / Acetoacetate (Ketogenic)", and printed pages 93 and 98 for the succinyl-CoA entrants.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p129-q19. correctSource verbatim: "printed key (p132)". No OCR repair was needed; the stem's grammar ("Phenylalanine upon catabolism, enter TCA cycle through") is the book's own and is left as printed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-D1D4A69FE3AC
+
+## title
+Catecholamines are synthesized from which of the following amino acids?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Dopamine, noradrenaline and adrenaline share one precursor and one first committed step.
+
+## question
+Catecholamines are synthesized from which of the following amino acids?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 20. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Tyrosine
+
+## explanation_a
+Correct. Tyrosine is hydroxylated to dihydroxyphenylalanine (DOPA) by tyrosine hydroxylase, which needs the same factors as phenylalanine hydroxylase — tetrahydrobiopterin and molecular oxygen, with NADPH regenerating the cofactor. DOPA is then the precursor of the catecholamines: dopamine, noradrenaline and adrenaline, the last made by SAM-dependent N-methylation of noradrenaline. DOPA is also where melanin branches off, made in melanocytes by tyrosinase — so one intermediate serves both the transmitter pathway and the pigment pathway, which is why phenylketonuria and albinism both involve pigmentation and why a question about DOPA can be asked from either direction.
+
+## answer_b
+Tryptophan
+
+## explanation_b
+Incorrect. Tryptophan gives serotonin, melatonin and nicotinic acid. It is the other aromatic amino acid with a BH4-dependent hydroxylase, which is the whole reason it works as a distractor.
+
+## answer_c
+Glutamate
+
+## explanation_c
+Incorrect. Glutamate gives GABA, glutamine, glutathione, arginine and proline. It is a neurotransmitter precursor, but for the inhibitory amino acid transmitter rather than for the catecholamines.
+
+## answer_d
+Histidine
+
+## explanation_d
+Incorrect. Histidine gives histamine by decarboxylation. Histamine is a biogenic amine like the catecholamines, which is what makes this option plausible to a student sorting by class rather than by precursor.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-FA4D15805B9D02
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+84
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Name tyrosine as the precursor of the catecholamines and place DOPA at the branch point shared with melanin synthesis.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 20. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 101, "Functions and Derivatives — 1- Catecholamine" and the tyrosine hydroxylase diagram.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q20. correctSource verbatim: "printed key (p132)". No OCR repair was needed. This item and question 21 of the same chapter are near-duplicates — one asks for the precursor of the catecholamines as a class and the other for dopamine specifically — and both are kept, sharing a main concept; that repetition is itself the blueprint signal. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-0CF7792C7732
+
+## title
+Dopamine is synthesized from which of the following amino acids?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Dopamine is the first catecholamine formed in the sequence, made by decarboxylating the immediate hydroxylation product of an aromatic amino acid.
+
+## question
+Dopamine is synthesized from which of the following amino acids?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 21. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Tyrosine
+
+## explanation_a
+Correct. Tyrosine hydroxylase converts tyrosine to DOPA, and DOPA is decarboxylated to dopamine — the first of the three catecholamines. Dopamine is then hydroxylated to noradrenaline, and noradrenaline is N-methylated by SAM to adrenaline. Reading the sequence as a chain of small chemical edits is more useful than memorising four names: one hydroxylation onto the ring, one decarboxylation, one more hydroxylation on the side chain, one methylation on the nitrogen. The clinical anchor is that the same first step is BH4-dependent, so the rare BH4-deficient form of phenylketonuria depletes dopamine and serotonin as well as tyrosine, and cannot be treated by diet alone.
+
+## answer_b
+Tryptophan
+
+## explanation_b
+Incorrect. Tryptophan's decarboxylation product is serotonin, not dopamine — and the decarboxylation happens only after tryptophan hydroxylase has made 5-hydroxytryptophan. The two pathways are structurally parallel, which is exactly the confusion this option is set to catch.
+
+## answer_c
+Histidine
+
+## explanation_c
+Incorrect. Histidine is decarboxylated directly to histamine, with no hydroxylation step at all.
+
+## answer_d
+Methionine
+
+## explanation_d
+Incorrect. Methionine's contribution to catecholamine synthesis is real but indirect and comes at the very end: SAM donates the methyl group that converts noradrenaline to adrenaline. It supplies a methyl group; it does not supply the carbon skeleton.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-FA4D15805B9D02
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+85
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-3622E11F05032C
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Write the tyrosine-to-adrenaline sequence as four named chemical steps and identify which amino acid supplies the skeleton and which supplies the methyl group.
+
+## media_recommendations
+### flowchart · Explanation for answer A
+Brief: Tyrosine to DOPA to dopamine to noradrenaline to adrenaline, each arrow labelled with its reaction type and its cofactor, with the melanin branch leaving DOPA via tyrosinase
+Purpose: Four of this chapter's questions live somewhere on this one chain, and the distractors are all "one step off". A single labelled chain serves all of them and shows the melanin branch that connects them to albinism and to PKU hypopigmentation.
+Priority: strongly helpful
+Status: needed
+Section: Explanation A
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 21. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 101, and printed page 98 for the SAM methylation of noradrenaline.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q21. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes

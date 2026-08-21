@@ -7454,3 +7454,4278 @@ correctSource, verbatim: "printed key (p114)". The key page (file page 114, prin
 No OCR repair was needed; the stem and all options came through the extraction intact.
 resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
 The department book states that lipoprotein lipase "is present in the vascular endothelial cells of extrahepatic tissues" (file page 58) but does not mention heparin or the heparan sulphate anchor. The heparin fact comes from the question book only. Flagged for the faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-80CA36B077C8
+
+## title
+Insulin is a protein hormone formed of:
+
+## question
+Insulin is a protein hormone formed of:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 1, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+One chain: 51 amino acids
+
+## explanation_a
+Incorrect. The amino acid count is right but the chain count is not, and the single-chain form has a different name and a different meaning. **Proinsulin** is a single chain; it becomes insulin only when the connecting peptide is excised. Calling mature insulin a single chain erases the processing step that produces C-peptide, which is the marker used clinically to tell endogenous insulin from injected.
+
+## answer_b
+Two chains: 51 amino acids
+
+## explanation_b
+Correct. Insulin is **two chains totalling 51 amino acids** — an A chain of 21 and a B chain of 30 — held together by **two interchain disulphide bridges**, with a third, intrachain, bridge inside the A chain. The two-chain structure is the product of processing rather than of translation: the β cell makes preproinsulin, cleaves the signal sequence to give proinsulin, and then excises the C-peptide from the middle, leaving the A and B chains joined only by their disulphide bonds. C-peptide is secreted in equimolar amounts and, because it is not cleared as fast as insulin, is what allows endogenous secretion to be measured.
+
+## answer_c
+One chain: 31 amino acids
+
+## explanation_c
+Incorrect on both halves. 31 is the length of C-peptide, not of insulin, and this option catches a student who has memorised a number from the processing diagram and attached it to the wrong molecule.
+
+## answer_d
+Two chains: 31 amino acids
+
+## explanation_d
+Incorrect. Two chains is right, 31 amino acids is not — it is neither the total nor the length of either chain.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Structure of insulin
+
+## main_concept
+CON-END-73242F18F11E58
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Clinical
+
+## reasoning_level
+1
+
+## inferred_difficulty
+76
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+State the chain structure and amino acid count of insulin, and relate them to proinsulin processing.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 1; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q1, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 1 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-73242F18F11E58, whose definition already states 51 amino acids in A and B chains with two interchain and one intrachain disulphide bond. Nothing new was minted. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-346ACE4EBC2D
+
+## title
+Secretion of insulin in response to a glucose load occurs in:
+
+## question
+Secretion of insulin in response to a glucose load occurs in:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 2, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+One phase
+
+## explanation_a
+Incorrect, and it misses what the biphasic pattern is for. A single smooth release could not both blunt the immediate post-meal glucose peak and cover the hours of digestion that follow. The β cell needs a fast component and a sustained one, and it achieves them with two different pools of hormone.
+
+## answer_b
+Two phases
+
+## explanation_b
+Correct. Insulin secretion is **biphasic**. The first phase is a sharp, brief spike within minutes, released from insulin already made and stored in granules docked at the membrane; it is what limits the immediate rise in blood glucose after a meal. The second phase is slower, smaller and sustained, drawing on the reserve pool and on newly synthesised hormone, and it lasts as long as the glucose stimulus does. The distinction is clinically load-bearing: **loss of the first phase is one of the earliest detectable abnormalities in type 2 diabetes**, appearing before the fasting glucose is abnormal, which is why a person can have a normal fasting sugar and a clearly abnormal response to a glucose load.
+
+## answer_c
+Three phases
+
+## explanation_c
+Incorrect. Three phases would suit a description of a different secretory system; the insulin response to glucose has a rapid first phase and a sustained second phase and no third.
+
+## answer_d
+Four phases
+
+## explanation_d
+Incorrect. Four phases matches nothing in insulin physiology and is offered to complete the numerical series.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Secretion of insulin
+
+## main_concept
+CON-END-83E98BC1F9E93E
+
+## concept_ids
+CON-END-2ED4BD533EA0E3
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+68
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+State that insulin secretion is biphasic and explain what each phase contributes and which is lost first in type 2 diabetes.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 2; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q2, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 2 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+No live or pending concept covers the biphasic secretory pattern; the nearest, CON-END-2ED4BD533EA0E3, names the secretagogues but not the phases, and is tagged as an also-assessed concept instead. The 103 department biochemistry book has no diabetes chapter and does not describe biphasic secretion; the source is the question book. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-6350D3A944A5
+
+## title
+The half-life of insulin in the circulation is approximately:
+
+## question
+The half-life of insulin in the circulation is approximately:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 3, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+3-5 seconds
+
+## explanation_a
+Incorrect. Seconds is the timescale of a neurotransmitter acting across a synaptic cleft, or of a locally released mediator such as nitric oxide. A hormone that had to survive transit from the pancreas through the portal circulation to its target tissues could not work on that scale.
+
+## answer_b
+3-5 minutes
+
+## explanation_b
+Correct — roughly **3 to 5 minutes**. Insulin is degraded by the liver, kidney and placenta, by reduction of its disulphide bonds followed by proteolysis, and the liver removes a large share of it on first pass from the portal vein. The short half-life is functionally the point: it lets the plasma insulin level track the blood glucose almost in real time, rising and falling with each meal, which is what makes minute-to-minute glucose control possible. Two consequences follow. Because the clearance is hepatic and renal, insulin persists longer in renal failure, and a diabetic patient whose kidneys fail may need less insulin, not more. And because injected insulin bypasses the portal first pass, its kinetics differ from those of the hormone the pancreas secretes.
+
+## answer_c
+3-5 hours
+
+## explanation_c
+Incorrect. Hours is the timescale of the thyroid hormones and of the steroid hormones, which act by changing gene transcription and are carried on binding proteins. Insulin is a peptide acting through a membrane receptor and is cleared far faster.
+
+## answer_d
+3-5 days
+
+## explanation_d
+Incorrect. Days would make moment-to-moment glucose regulation impossible; a hormone with that half-life could not be switched off between meals.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Catabolism of insulin
+
+## main_concept
+CON-END-8E70A34402E8B7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+State the plasma half-life of insulin, name the organs that clear it, and explain why a short half-life is necessary.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 3; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q3, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 3 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-8E70A34402E8B7 — "Liver, kidney, and placenta catabolize short-lived circulating insulin through disulfide reduction and proteolysis". It names the short half-life and the clearing organs; the numeric value 3-5 minutes comes from the question book. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-E425122ADE84
+
+## title
+The insulin receptor is composed of:
+
+## question
+The insulin receptor is composed of:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 4, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+1α and 1β subunit
+
+## explanation_a
+Incorrect. A single αβ pair is only half of the receptor. Two of them must be disulphide-linked into a tetramer, and that pairing is not decorative — the tyrosine kinase in each β subunit phosphorylates its partner across the dimer, so a receptor with only one β subunit could never trans-autophosphorylate and would transmit no signal at all.
+
+## answer_b
+1α and 2β subunits
+
+## explanation_b
+Incorrect. The stoichiometry is symmetrical: the subunits come in equal numbers because the receptor is a dimer of identical αβ halves. An unequal count describes no real receptor.
+
+## answer_c
+2α and 2β subunits
+
+## explanation_c
+Correct. The insulin receptor is a **heterotetramer, α₂β₂**, held together by disulphide bonds. The two **α subunits are entirely extracellular** and carry the insulin-binding site; the two **β subunits span the membrane** and carry tyrosine kinase activity on their cytoplasmic tails. Insulin binding to the α subunits produces a conformational change that activates the β-subunit kinase, which trans-autophosphorylates and then phosphorylates the insulin receptor substrate proteins, launching the metabolic and growth pathways downstream. The division of labour is the thing to hold — the α subunit binds and never crosses the membrane, the β subunit signals and does — because it explains why insulin never needs to enter the cell to act.
+
+## answer_d
+2α and 1β subunit
+
+## explanation_d
+Incorrect for the same reason as B, mirrored. The receptor contains two of each subunit.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Insulin receptor and signalling
+
+## main_concept
+CON-END-2A7BECE1524359
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+State the subunit composition of the insulin receptor and assign binding and kinase activity to the correct subunit.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 4; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q4, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 4 is C, agreeing with the extraction.
+OCR repair: The four options were extracted as "la and 1p", "la and 2B", "2a and 2p" and "20 and 1B" — the OCR read the Greek α as "a" or "0" and β as "p" or "B". They are written here as 1α/1β, 1α/2β, 2α/2β and 2α/1β. The pattern is unambiguous from the four together and from the printed key naming c.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-2A7BECE1524359, which covers insulin receptor activation and beta-subunit tyrosine kinase. Its stored definition does not state the α₂β₂ stoichiometry explicitly; a reviewer may wish to add it to that concept rather than mint a second receptor concept, which is why none was minted here. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-FC0730157F56
+
+## title
+Insulin resistance is associated with:
+
+## question
+Insulin resistance is associated with:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 5, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+D
+
+## answer_a
+Inhibited lipolysis
+
+## explanation_a
+Incorrect, and it is the trap for a student who remembers the action but not the direction. Insulin normally **inhibits** lipolysis, so when tissues resist insulin that brake is released and lipolysis **increases** — which is why insulin resistance is accompanied by raised plasma free fatty acids. Each option here names a genuine insulin action; the question is which one survives when insulin stops working.
+
+## answer_b
+Decreased gluconeogenesis
+
+## explanation_b
+Incorrect for the same reason. Insulin normally suppresses hepatic gluconeogenesis; resistance removes that suppression, so gluconeogenesis **rises** and contributes to the fasting hyperglycaemia.
+
+## answer_c
+Increased glucose uptake by skeletal muscles
+
+## explanation_c
+Incorrect. Insulin normally drives glucose into skeletal muscle and adipose tissue through GLUT-4; resistance means less GLUT-4 at the membrane, so muscle glucose uptake **falls**. This is the largest single contributor to post-meal hyperglycaemia, because skeletal muscle is the biggest disposal site for a glucose load.
+
+## answer_d
+Inhibited glycogenesis
+
+## explanation_d
+Correct. Insulin normally stimulates glycogen synthesis, so in insulin resistance **glycogenesis is inhibited** — the one option that states an insulin action correctly reversed. The general rule is worth more than the item: in insulin resistance every anabolic action of insulin is blunted and every process insulin normally restrains is released. Glycogenesis and lipogenesis fall; lipolysis, gluconeogenesis, glycogenolysis, proteolysis and ketogenesis rise. Working from that one principle answers this whole cluster of questions without memorising four separate lists, and it also explains why the same patient shows hyperglycaemia, a raised triacylglycerol and a low HDL together.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Insulin resistance
+
+## main_concept
+CON-END-FB7FB91A0697C0
+
+## concept_ids
+CON-END-BCCD5E0C1920B1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.55
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+Predict the direction each insulin-sensitive process moves in insulin resistance, from insulin's normal action on it.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 5; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q5, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 5 is D, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-FB7FB91A0697C0 — "Insulin resistance reduces adipose antilipolysis, muscle glucose uptake, and hepatic suppression of gluconeogenesis" — which covers three of the four options directly. Glycogenesis is not named in that concept's stored definition; a reviewer may wish to extend it rather than mint a second insulin-resistance concept. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-E21D167F8D5B
+
+## title
+Type 1 diabetes mellitus is characterised by:
+
+## question
+Type 1 diabetes mellitus is characterised by:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 6, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Middle age onset of diagnosis
+
+## explanation_a
+Incorrect. Middle-aged onset is typical of **type 2**. Type 1 characteristically presents in childhood or adolescence, though it can appear at any age — which is why onset is a useful pointer and never a diagnostic criterion on its own.
+
+## answer_b
+Exercise and low-calorie diet can help
+
+## explanation_b
+Incorrect, and it describes the first-line management of **type 2**, where weight loss and exercise improve insulin sensitivity and can restore glycaemic control on their own. A person with type 1 has no insulin to become more sensitive to; diet and exercise matter for them, but as adjuncts to insulin, never as a substitute.
+
+## answer_c
+High incidence of diabetic ketoacidosis
+
+## explanation_c
+Correct, and the reason is mechanical. Type 1 diabetes is an **absolute** deficiency of insulin following β-cell destruction, so there is nothing left to restrain lipolysis. Fatty acids flood the liver, β-oxidation outruns the citric acid cycle, and — with gluconeogenesis draining oxaloacetate — acetyl-CoA is diverted into ketone bodies. Ketogenesis outstrips ketolysis, ketone bodies accumulate, and because acetoacetate and 3-hydroxybutyrate are acids the result is a metabolic acidosis. In type 2 there is usually enough residual insulin to hold lipolysis partly in check, which is why ketoacidosis is far less common there and hyperosmolar coma is the characteristic acute crisis instead.
+
+## answer_d
+Insulin resistance
+
+## explanation_d
+Incorrect, and it is the defining feature of **type 2**, not type 1. The distinction is the axis the whole comparison turns on: type 1 is a problem of insulin *supply*, type 2 a problem of insulin *action*.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Classification of diabetes mellitus
+
+## main_concept
+CON-END-85750744126501
+
+## concept_ids
+CON-END-CC450A236ABF50
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.35
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+74
+
+## exam_relevance
+9
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Distinguish type 1 from type 2 diabetes on onset, mechanism, treatment and susceptibility to ketoacidosis.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 6; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q6, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 6 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The live concept CON-END-3DCCBF7739DD59 defines diabetes mellitus but does not separate the two types; the department orientation lists "Compare: Type 1 and type 2 DM" among its written questions, so the comparison is examined in its own right and is minted as a concept here. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-B1556AD0013E
+
+## title
+Diabetic dyslipidaemia is caused by:
+
+## question
+Diabetic dyslipidaemia is caused by:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 116, printed page 109, printed question 7, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Low activity of hormone sensitive lipase
+
+## explanation_a
+Incorrect, and it is the wrong lipase pointed the wrong way. Hormone-sensitive lipase is **more** active in diabetes, not less: insulin normally inhibits it, so insulin deficiency releases the brake and lipolysis accelerates. That is what floods the liver with fatty acids in the first place.
+
+## answer_b
+Low activity of lipoprotein lipase
+
+## explanation_b
+Correct. **Lipoprotein lipase is induced by insulin**, so in insulin deficiency its activity falls and the triacylglycerol-rich lipoproteins — chylomicrons and VLDL — are not cleared from plasma. The department book gives this as one of three reasons diabetes causes hypercholesterolaemia, and the other two compound it: increased lipolysis and fatty acid oxidation leave excess acetyl-CoA for cholesterol synthesis, and the flood of plasma fatty acids drives hepatic triacylglycerol synthesis and therefore VLDL output. So production rises and clearance falls at the same time, which is why the characteristic picture is a high triacylglycerol with a low HDL.
+
+## answer_c
+Low activity of fatty acid oxidase
+
+## explanation_c
+Incorrect. Fatty acid oxidation is **increased** in insulin deficiency, not decreased — it is what supplies the acetyl-CoA for both ketogenesis and cholesterol synthesis. A student who assumes "diabetes means fat is not handled properly, so fat oxidation must be low" has the direction inverted.
+
+## answer_d
+Low activity of HMG-CoA synthase
+
+## explanation_d
+Incorrect. HMG-CoA synthase is the ketogenic enzyme of liver mitochondria, and its activity is if anything raised in insulin deficiency — that is what produces ketosis. Lowering it would reduce ketone bodies, which is the opposite of what happens.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Diabetic dyslipidaemia
+
+## main_concept
+CON-END-B41C6D0DFACFE4
+
+## concept_ids
+CON-GIT-6CB618DBA50596
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.6
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Explain why plasma triacylglycerol rises in insulin deficiency, naming the enzyme insulin normally induces.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 109 (file page 116), question 7; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p116-q7, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 7 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+Evidenced from the department book, file page 75, which lists under the causes of hypercholesterolaemia: "There is decrease in the activity of plasma lipoprotein lipase (induced by insulin), leading to decreased clearance of plasma lipoproteins." module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-C4580EB7F8DB
+
+## title
+Macrovascular complications of diabetes mellitus include:
+
+## question
+Macrovascular complications of diabetes mellitus include:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 8, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Retinopathy
+
+## explanation_a
+Incorrect — retinopathy is **micro**vascular. It is disease of the retinal capillaries, and it belongs with nephropathy and neuropathy in the group whose severity tracks how long and how badly the glucose has been raised.
+
+## answer_b
+Nephropathy
+
+## explanation_b
+Incorrect — nephropathy is **micro**vascular, beginning in the glomerular capillaries and detected first as microalbuminuria. It is the commonest cause of end-stage renal failure in diabetic populations, but it is not a large-vessel complication.
+
+## answer_c
+Coronary heart disease
+
+## explanation_c
+Correct. The chronic complications of diabetes divide cleanly by the calibre of the vessel involved, and the division is worth learning as the organising principle rather than as two lists. **Macrovascular** disease is accelerated atherosclerosis of the large arteries — **coronary heart disease**, cerebrovascular disease and peripheral arterial disease — driven by the diabetic dyslipidaemia, the raised LDL and low HDL, and by glycation of vessel wall proteins. **Microvascular** disease affects capillaries and small vessels — retinopathy, nephropathy and neuropathy — and is more tightly linked to glycaemic control. The practical consequence is that tightening glucose control does most for the microvascular complications, while the macrovascular ones also require the blood pressure and the lipids to be treated.
+
+## answer_d
+Peripheral neuritis
+
+## explanation_d
+Incorrect — peripheral neuritis is the neuropathy of the **micro**vascular group. Its mechanism is partly ischaemia of the vasa nervorum and partly direct metabolic injury through the polyol pathway, and either way the vessels concerned are small.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Complications of diabetes mellitus
+
+## main_concept
+CON-END-F0182CA8A56EA7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+1
+
+## inferred_difficulty
+76
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Sort the chronic complications of diabetes into macrovascular and microvascular by the calibre of vessel involved.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 8; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q8, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 8 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-6E844E76FDF0
+
+## title
+Hypoglycaemic coma is characterised by:
+
+## question
+Hypoglycaemic coma is characterised by:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 9, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Bradycardia
+
+## explanation_a
+Incorrect, and it is the reverse of the sign. Falling glucose triggers a sympathetic and adrenal response, so the pulse is **fast**, not slow. Tachycardia, tremor and sweating are one physiological package, and they arrive together.
+
+## answer_b
+Hyperventilation
+
+## explanation_b
+Incorrect, and it belongs to the other diagnosis. Deep sighing hyperventilation is **Kussmaul breathing**, the respiratory compensation for the metabolic acidosis of diabetic ketoacidosis. A hypoglycaemic patient has no acidosis and no reason to blow off carbon dioxide.
+
+## answer_c
+Wet skin
+
+## explanation_c
+Correct, and the sign is diagnostic at the bedside precisely because it is the opposite of what the hyperglycaemic comas show. Hypoglycaemia provokes a **sympatho-adrenal discharge** — adrenaline released to mobilise glucose — and sweating is part of it, along with tremor, tachycardia, hunger and anxiety. So the skin is **wet and often cool**. In diabetic ketoacidosis and in hyperosmolar coma the patient has lost litres of water through an osmotic diuresis, so the skin is **dry** and the tongue and mucous membranes are dry with it. The department's own orientation sets "Compare: Hypoglycemic and hyperglycemic coma" and asks students to "explain on biochemical basis" that diabetic ketoacidosis is manifested by dry skin, so the wet/dry distinction is examined directly. Onset separates them too: hypoglycaemia develops over minutes, the hyperglycaemic comas over hours to days.
+
+## answer_d
+Blood glucose around 70 mg/dL
+
+## explanation_d
+Incorrect, and the number is the point. 70 mg/dL is the **lower end of normal** — the department book gives the normal fasting range as 70 to under 100 mg/dL. Hypoglycaemia means a fall below the normal fasting level, and the book notes that a marked drop, below about 45-50 mg/dL, may be fatal. A patient in coma from hypoglycaemia is far below 70.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Acute complications of diabetes mellitus
+
+## main_concept
+CON-END-68CC8CA610DF37
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+62
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Distinguish hypoglycaemic from hyperglycaemic coma at the bedside, and justify the skin sign from the underlying physiology.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 9; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q9, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 9 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The normal fasting range and the fatal threshold are from the department book, file pages 53 and 56. The coma comparison itself is not in the textbook — it has no diabetes chapter — but the department orientation lists it among the written questions to be studied, so it is examined. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-4C91DC115923
+
+## title
+Which of the following statements about HbA1c is correct?
+
+## question
+Which of the following statements about HbA1c is correct?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 10, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+D
+
+## answer_a
+It is glycated haemoglobin that binds enzymatically when blood glucose is high
+
+## explanation_a
+Incorrect, and the single wrong word is "enzymatically". Glycation is **non-enzymatic**: glucose attaches to the N-terminal valine of the haemoglobin β chain spontaneously, at a rate that depends only on how much glucose is there and for how long. That is exactly why the measurement works as a record of average exposure — no enzyme regulates it, so nothing can compensate for or modulate it.
+
+## answer_b
+Its normal value should be around 9%
+
+## explanation_b
+Incorrect, and dangerously so if believed. Around 9% is the value of a person with poorly controlled diabetes. Normal is below about 5.7%, and 6.5% or above is diagnostic of diabetes.
+
+## answer_c
+It reflects the mean blood glucose level over the preceding 4 weeks
+
+## explanation_c
+Incorrect, and it is the closest distractor because the idea is right and the number is wrong. HbA1c reflects average glucose over roughly the **preceding 8 to 12 weeks**, not four. The period is set by the lifespan of the red cell, about 120 days, because glycation is irreversible once it has happened and the label is only lost when the cell is destroyed. The corollary is worth holding: anything that shortens red cell survival — haemolysis, recent blood loss — falsely lowers the HbA1c.
+
+## answer_d
+It is used for the diagnosis and follow-up of diabetes mellitus
+
+## explanation_d
+Correct. HbA1c is used **both to diagnose and to follow up** diabetes, and the two uses draw on the same property. Because it is a slow, cumulative, non-enzymatic record of glucose exposure over the life of the circulating red cells, it is unaffected by whether the patient has just eaten, by an acute illness on the day, or by a single good or bad week — which is what a fasting glucose cannot escape. A threshold of 6.5% or above establishes the diagnosis, and serial values then show whether treatment is working.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Glycated haemoglobin
+
+## main_concept
+CON-END-839E4F7D92FBEF
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+9
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+State what HbA1c measures, over what period, and why it serves for both diagnosis and follow-up.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 10; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q10, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 10 is D, agreeing with the extraction.
+OCR repair: The stem was extracted as "HbAle:" — an OCR misread of HbA1c. It is written here as a full question about HbA1c so that the item reads as a question rather than as a bare label.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+HbA1c appears nowhere in the 103 department biochemistry book — the cached page text was searched for "HbA1c", "A1c", "glycated" and "glycosylated". The department orientation nonetheless sets "explain on biochemical basis: HbA1c is used to diagnose and follow up diabetic cases", so it is examined. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-EBBBB9680A12
+
+## title
+Glucagon-like peptide-1 agonists are used in the treatment of diabetes mellitus. Which of the following describes their action?
+
+## question
+Glucagon-like peptide-1 agonists are used in the treatment of diabetes mellitus. Which of the following describes their action?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 11, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+A
+
+## answer_a
+It increases insulin secretion
+
+## explanation_a
+Correct. GLP-1 is an **incretin** — a hormone released by the intestinal mucosa when it meets nutrients, which stimulates the β cell to secrete insulin. The department book describes the underlying phenomenon without naming the hormone: "upon contact with glucose, the intestinal mucosa secretes gastro-intestinal hormones that stimulate the secretion of insulin by the pancreatic β-cells. Insulin is secreted to the portal blood before absorption of glucose, which explains why oral glucose produces more insulin than intravenous glucose." A GLP-1 agonist exploits that pathway. Its most useful property is that the effect is **glucose-dependent** — it augments insulin release when glucose is high and not when it is low — so, unlike a sulphonylurea, it carries little risk of hypoglycaemia on its own.
+
+## answer_b
+It increases glucagon secretion
+
+## explanation_b
+Incorrect, and it is the option produced by reading the name rather than the class. GLP-1 is glucagon-*like* only in that it is cleaved from the same precursor, proglucagon; its actions oppose glucagon's. It **suppresses** glucagon secretion from the α cell, which lowers hepatic glucose output and is a second way it reduces blood glucose.
+
+## answer_c
+It decreases intestinal absorption of glucose
+
+## explanation_c
+Incorrect, and this is the mechanism of a different drug class. **Acarbose**, an α-glucosidase inhibitor, slows the digestion of complex carbohydrate in the gut lumen and so blunts the post-meal rise. GLP-1 agonists act on the islet, not on absorption — although they do slow gastric emptying, which is a related but distinct effect.
+
+## answer_d
+It increases appetite
+
+## explanation_d
+Incorrect, and it is the reverse. GLP-1 agonists **reduce** appetite through central satiety pathways and delayed gastric emptying, which is why they cause weight loss — a considerable advantage in type 2 diabetes, where obesity drives the insulin resistance.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Treatment of diabetes mellitus
+
+## main_concept
+CON-END-2ED4BD533EA0E3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Treatment
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.35
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+70
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+State how a GLP-1 agonist lowers blood glucose, and separate it from an α-glucosidase inhibitor.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 11; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q11, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 11 is A, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-2ED4BD533EA0E3 — "Amino acids, acetylcholine, sulfonylureas, cholecystokinin, and GLP-1 stimulate insulin release" — which names GLP-1 directly. Nothing new was minted. This item is about a drug class and is Draft; no dose is stated anywhere, because no source in this corpus states one. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-1164998F8CBD
+
+## title
+A fasting blood glucose of 117 mg/dL is diagnostic of:
+
+## question
+A fasting blood glucose of 117 mg/dL is diagnostic of:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 12, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Diabetes mellitus
+
+## explanation_a
+Incorrect. Diabetes requires a fasting glucose of **126 mg/dL or above**, confirmed. 117 is high but short of that threshold, and calling it diabetes would label a patient with a lifelong diagnosis on a value that does not reach the definition.
+
+## answer_b
+A normal subject
+
+## explanation_b
+Incorrect. The department book gives the normal fasting plasma glucose, after 8 to 12 hours of fasting, as **70 to under 100 mg/dL**. 117 is clearly above that, so the result is abnormal even though it is not diabetic.
+
+## answer_c
+Pre-diabetes
+
+## explanation_c
+Correct. A fasting glucose of **100 to 125 mg/dL** is impaired fasting glucose — pre-diabetes — and 117 sits inside it. The category exists because the risk is continuous while the diagnosis is binary: a person in this band is not diabetic but has a substantially raised chance of becoming so, and is already at increased cardiovascular risk. It is also the point at which the damage is most reversible, since weight loss and exercise can return the value to normal. The three fasting bands are worth memorising as one line — under 100 normal, 100 to 125 pre-diabetes, 126 and over diabetes — because every question in this cluster is answered by placing a number on it.
+
+## answer_d
+Gestational diabetes
+
+## explanation_d
+Incorrect. Gestational diabetes is glucose intolerance first recognised **during pregnancy**, and it is diagnosed by its own thresholds on an oral glucose tolerance test. Nothing in the stem mentions pregnancy, so the category cannot apply.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Diagnosis of diabetes mellitus
+
+## main_concept
+CON-END-AC5B11BA2F2BCA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Investigation
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.35
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+9
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Place a fasting glucose value in the normal, pre-diabetic or diabetic band.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 12; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q12, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 12 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The normal fasting range 70 to <100 mg/dL is the department book's own, file page 53. The 100-125 pre-diabetes band and the 126 threshold are from the question book; the textbook has no diabetes chapter and states neither. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-B10ECCF35C0F
+
+## title
+Which fasting blood glucose range accurately characterises pre-diabetes?
+
+## question
+Which fasting blood glucose range accurately characterises pre-diabetes?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 13, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+From 120-180 mg/dL
+
+## explanation_a
+Incorrect. This range straddles the diabetic threshold — its lower half is pre-diabetic and its upper half is frankly diabetic — so it cannot define a category. Note also that 180 mg/dL is a number from a different context entirely: it is the **renal threshold**, the plasma level above which the tubules can no longer reabsorb all the filtered glucose and glucosuria appears.
+
+## answer_b
+From 126-140 mg/dL
+
+## explanation_b
+Incorrect, and it starts one unit above where pre-diabetes ends. **126 mg/dL is the diagnostic threshold for diabetes**, so a range beginning at 126 describes diabetes, not the state before it. This option catches a student who has learnt the number 126 but not which side of it each category lies on.
+
+## answer_c
+From 100-125 mg/dL
+
+## explanation_c
+Correct. **Impaired fasting glucose runs from 100 to 125 mg/dL**, sitting between the normal upper limit of under 100 and the diabetic threshold of 126. The band identifies people in whom insulin resistance is already established and β-cell compensation is beginning to fail, but before the glucose has risen enough to satisfy the definition of diabetes — the stage at which lifestyle intervention has most to offer.
+
+## answer_d
+Above 160 mg/dL
+
+## explanation_d
+Incorrect. Above 160 mg/dL is well into the diabetic range on any criterion, and it approaches the renal threshold at which glucose starts to appear in the urine.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Diagnosis of diabetes mellitus
+
+## main_concept
+CON-END-AC5B11BA2F2BCA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Investigation
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+1
+
+## inferred_difficulty
+74
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+State the fasting glucose range that defines pre-diabetes and distinguish it from the diabetic threshold and the renal threshold.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 13; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q13, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 13 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The renal threshold of 180 mg/dL used in the explanation of option A is the department book's own figure, file pages 54 and 57. The pre-diabetes band is from the question book. This item and item 12 test the same concept from opposite directions and are two occurrences of it, which is blueprint evidence rather than grounds for a second concept. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-A049D3188F55
+
+## title
+Which oral hypoglycaemic drug acts by increasing insulin secretion?
+
+## question
+Which oral hypoglycaemic drug acts by increasing insulin secretion?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 117, printed page 110, printed question 14, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Metformin
+
+## explanation_a
+Incorrect, and the distinction between these first two options is the one the department's own orientation asks students to compare directly. **Metformin does not stimulate the β cell at all.** It is an insulin sensitiser: it reduces hepatic glucose output, chiefly by restraining gluconeogenesis, and improves peripheral glucose uptake. Because it does not force insulin release, it does not by itself cause hypoglycaemia — which is the practical consequence of the mechanism and the reason the comparison is set.
+
+## answer_b
+Sulphonylureas
+
+## explanation_b
+Correct. **Sulphonylureas act on the β cell** to increase insulin secretion, and the live concept for insulin secretagogues names them alongside amino acids, acetylcholine, cholecystokinin and GLP-1. Two things follow from the mechanism. They only work where functioning β cells remain, so they are useless in type 1 diabetes and lose effect in long-standing type 2 as β-cell mass declines. And because they release insulin whether or not the glucose is high, they **can cause hypoglycaemia** — unlike metformin, and unlike the GLP-1 agonists whose effect is glucose-dependent.
+
+## answer_c
+Thiazolidinediones
+
+## explanation_c
+Incorrect. Thiazolidinediones are insulin sensitisers acting on adipose tissue and muscle through PPAR-γ. They improve insulin *action*; like metformin they do not stimulate secretion.
+
+## answer_d
+Insulin
+
+## explanation_d
+Incorrect on a definition rather than on pharmacology. Insulin raises the circulating level of the hormone directly by replacing it, so it does not increase *secretion*; and it is injected rather than taken by mouth, so it fails the stem's requirement for an **oral** hypoglycaemic drug.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Treatment of diabetes mellitus
+
+## main_concept
+CON-END-2ED4BD533EA0E3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Treatment
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+74
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-END-TOP-8B80E93DAE
+
+## resource_ids
+
+## learning_objective
+Assign each oral antidiabetic class to secretagogue or sensitiser, and explain which can cause hypoglycaemia.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 110 (file page 117), question 14; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p117-q14, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 14 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the live concept CON-END-2ED4BD533EA0E3, which names sulfonylureas among the insulin secretagogues. The department orientation sets "Compare: Mode of action of sulfonylureas and metformin" as a written question. Draft status; no dose appears anywhere in this item because no source in this corpus states one. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-BB1CF8D99E01
+
+## title
+Type 1 diabetes mellitus is characterised by which of the following?
+
+## question
+Type 1 diabetes mellitus is characterised by which of the following?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 15, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+A
+
+## answer_a
+It is caused by an absolute deficiency of insulin
+
+## explanation_a
+Correct, and the word carrying the weight is **absolute**. Type 1 diabetes follows destruction of the pancreatic β cells, so insulin production ceases altogether rather than merely falling short of demand. Everything characteristic of the disease follows from that totality: there is no insulin to restrain lipolysis, so ketoacidosis is a constant risk; there is nothing to make more sensitive, so diet and exercise cannot substitute for treatment; and replacement with injected insulin is not one option among several but the only one.
+
+## answer_b
+Impaired insulin secretion
+
+## explanation_b
+Incorrect as the *best* answer, and this is a question about precision rather than about right and wrong. Insulin secretion is certainly impaired — but "impaired" describes the **partial, progressive** β-cell failure of type 2 diabetes, where secretion is inadequate for the demand created by resistance while never ceasing. A statement true of both types cannot characterise one of them.
+
+## answer_c
+Increased insulin resistance
+
+## explanation_c
+Incorrect. Increased insulin resistance is the defining feature of **type 2** diabetes. Type 1 patients have normal insulin sensitivity; their tissues would respond perfectly well to insulin if any were present.
+
+## answer_d
+Excessive hepatic glucose production
+
+## explanation_d
+Incorrect as a characterisation, though the phenomenon is real. Excessive hepatic glucose production occurs in both types, because it is the consequence of a low insulin-to-glucagon ratio wherever that arises. It is a shared downstream effect, not the lesion that distinguishes type 1.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Classification of diabetes mellitus
+
+## main_concept
+CON-END-85750744126501
+
+## concept_ids
+CON-END-3DCCBF7739DD59
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+58
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Identify absolute insulin deficiency as the defining lesion of type 1 diabetes, and reject features shared with type 2.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 15; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q15, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 15 is A, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+This item and item 6 test the same type 1 versus type 2 concept from different angles and are two occurrences of it. The live concept CON-END-3DCCBF7739DD59 defines diabetes as impaired secretion, action or both, and is tagged as also-assessed. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-C122F5B8C680
+
+## title
+Which of the following is a criterion for the diagnosis of diabetes?
+
+## question
+Which of the following is a criterion for the diagnosis of diabetes?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 16, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Fasting blood glucose from 100-125 mg/dl
+
+## explanation_a
+Incorrect, and it is the band immediately below the threshold. 100 to 125 mg/dL fasting is **pre-diabetes**, not diabetes; the diagnostic fasting value is 126 mg/dL or above. Choosing this is the commonest way to over-diagnose on paper.
+
+## answer_b
+2-hour postprandial glucose >100 mg/dl
+
+## explanation_b
+Incorrect, and the number is far too low. A 2-hour post-prandial glucose is expected to return to **under 140 mg/dL** in a normal person — the department book states exactly that. The diagnostic threshold on a 2-hour value is 200 mg/dL, so ">100" would classify most healthy people as diabetic.
+
+## answer_c
+HbA1c > 6.5%
+
+## explanation_c
+Correct. An **HbA1c of 6.5% or above** is one of the accepted diagnostic criteria, alongside a fasting plasma glucose of 126 mg/dL or above, a 2-hour value of 200 mg/dL or above on an oral glucose tolerance test, and a random glucose of 200 mg/dL or above in a patient with the classical symptoms of polyuria, polydipsia and weight loss. HbA1c earns its place among them because it is independent of the last meal and of a single day's illness, reflecting average glucose over the preceding two to three months. The rule that keeps these four straight is that every threshold is a **cut-off with a direction**: three of them are 126, 200 and 200 mg/dL, and the fourth is 6.5%.
+
+## answer_d
+Random blood glucose about 100 mg/dl with classical symptoms
+
+## explanation_d
+Incorrect on the number, not on the principle. A random glucose *does* diagnose diabetes when the classical symptoms are present — but the threshold is **200 mg/dL or above**, and a random value of about 100 mg/dL is entirely normal.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Diagnosis of diabetes mellitus
+
+## main_concept
+CON-END-AC5B11BA2F2BCA
+
+## concept_ids
+CON-END-839E4F7D92FBEF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+9
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+List the diagnostic criteria for diabetes mellitus with their thresholds, and reject values that describe normality or pre-diabetes.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 16; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q16, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 16 is C, agreeing with the extraction.
+OCR repair: The stem was extracted as "The criteria for the diagnosis of diabetes are:" with option c as "HBAIC > 6.5%". The option is written as HbA1c; the stem is rephrased in the singular to match a single-best-answer item.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The normal 2-hour post-prandial value of <140 mg/dL used in explanation B is the department book's own, file page 53. The diagnostic thresholds themselves are from the question book. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-0FF9BDDC0C71
+
+## title
+Insulin deficiency is associated with:
+
+## question
+Insulin deficiency is associated with:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 17, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Reduced lipolysis
+
+## explanation_a
+Incorrect, and it is the inverse. Insulin is the only hormone that inhibits lipolysis, doing so by stimulating phosphodiesterase to destroy cAMP and by activating lipase phosphatase. Remove insulin and hormone-sensitive lipase stays phosphorylated and active, so lipolysis **increases** and free fatty acids pour into the plasma.
+
+## answer_b
+Increased ketogenesis
+
+## explanation_b
+Correct, and it is the end of the chain the other three options each get backwards. Insulin deficiency raises the **anti-insulin to insulin ratio**, which is the single condition every cause of ketosis shares. Three things then happen in the liver at once. Lipolysis floods it with free fatty acids. β-oxidation accelerates, generating acetyl-CoA, NADH and ATP faster than the citric acid cycle can absorb them. And gluconeogenesis, running hard, drains the oxaloacetate that citrate synthase would need to condense with acetyl-CoA — so the acetyl-CoA has nowhere to go but into HMG-CoA and out as ketone bodies. Ketogenesis outstrips ketolysis, ketone bodies accumulate in blood and urine, and because they are acids the result is acidosis. This is exactly why severe uncontrolled diabetes appears on the department book's list of causes of ketosis alongside starvation.
+
+## answer_c
+Reduced gluconeogenesis
+
+## explanation_c
+Incorrect. Gluconeogenesis is **increased**, not reduced. Insulin normally suppresses it, and glucagon in its absence stimulates it — which is why the hyperglycaemia of insulin deficiency is driven as much by hepatic glucose output as by failed peripheral uptake.
+
+## answer_d
+Reduced proteolysis
+
+## explanation_d
+Incorrect. Proteolysis is **increased**. Insulin is anabolic for protein as well as for fat and carbohydrate, so its absence releases muscle protein breakdown, supplying amino acids for gluconeogenesis and contributing to the weight loss that is a classical presenting symptom.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Metabolic consequences of insulin deficiency
+
+## main_concept
+CON-END-CC450A236ABF50
+
+## concept_ids
+CON-END-3EA6071BAE8130
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.55
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+62
+
+## exam_relevance
+9
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-KETOSIS
+
+## resource_ids
+
+## learning_objective
+Predict the direction of lipolysis, gluconeogenesis, proteolysis and ketogenesis in insulin deficiency, from insulin's normal action on each.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 17; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q17, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 17 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+main_concept is the existing 103 concept CON-END-CC450A236ABF50, "Ketosis is what happens when ketogenesis outruns ketolysis, and every cause is a state of high anti-insulin to insulin ratio", taught by ART-103-BIO-KETOSIS. The live concept CON-END-3EA6071BAE8130 covers the carbohydrate half and is tagged as also-assessed. Nothing new was minted. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-99559E79D230
+
+## title
+The test for checking the mean plasma glucose concentration over the previous 8-10 weeks is:
+
+## question
+The test for checking the mean plasma glucose concentration over the previous 8-10 weeks is:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 18, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+A
+
+## answer_a
+Haemoglobin A1C
+
+## explanation_a
+Correct. **HbA1c** is the long-window test, and the window is set by biology rather than by convention. Glucose attaches non-enzymatically to the N-terminal valine of the haemoglobin β chain, the reaction is irreversible, and the label is therefore carried for the remaining life of that red cell — about 120 days. The measured value is a weighted average of glucose exposure over roughly the preceding 8 to 12 weeks, weighted towards the more recent weeks because younger cells outnumber older ones. Because it cannot be manipulated by fasting on the morning of the test, it is the standard measure of long-term control.
+
+## answer_b
+Oral glucose tolerance test
+
+## explanation_b
+Incorrect. An oral glucose tolerance test measures the response to a **single** standardised glucose load over two hours. It is a snapshot of how the body handles one challenge on one day — informative about β-cell reserve and about gestational diabetes, and useless as a record of the previous two months.
+
+## answer_c
+Fasting plasma glucose level
+
+## explanation_c
+Incorrect. A fasting plasma glucose is a **single point in time**, reflecting the last several hours only. Two patients with identical fasting values can have very different average control, which is precisely the gap HbA1c fills.
+
+## answer_d
+Plasma fructosamine
+
+## explanation_d
+Incorrect, and it is the sharpest distractor because it is a genuine glycation marker. Fructosamine is glycated **serum protein**, chiefly albumin, and albumin turns over in about two to three weeks — so fructosamine reports on roughly the preceding **2 to 3 weeks**, not 8 to 10. It is the test used when HbA1c is unreliable, as in haemolytic anaemia or recent blood loss, where a shortened red cell lifespan falsely lowers the HbA1c. The window each marker reports is set by the lifespan of the protein carrying it, and that single idea distinguishes the two.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Glycated haemoglobin
+
+## main_concept
+CON-END-839E4F7D92FBEF
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Match a glycation marker to the period it reports, and explain why the red cell and albumin lifespans set those periods.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 18; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q18, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 18 is A, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+This item and item 10 test the same HbA1c concept and are two occurrences of it. Note the internal inconsistency in the question book itself: item 10 offers "4 weeks" as a wrong option while this item's stem says 8-10 weeks. Neither figure is in the department textbook, which has no diabetes chapter. Flagged for the faculty reviewer. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-8525AE601CA4
+
+## title
+Type 1 diabetes is primarily treated by:
+
+## question
+Type 1 diabetes is primarily treated by:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 19, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Diet and exercise
+
+## explanation_a
+Incorrect as the *primary* treatment, though diet and exercise matter for every diabetic patient. They are first-line in **type 2** diabetes, where they reduce insulin resistance and can restore control on their own. In type 1 there is no endogenous insulin for improved sensitivity to act on, so they adjust the dose required and never replace it.
+
+## answer_b
+Oral hypoglycaemic drugs
+
+## explanation_b
+Incorrect, and the reason is mechanical rather than a matter of preference. The sulphonylureas work by stimulating the β cell to release stored insulin — and in type 1 diabetes the β cells have been destroyed, so there is nothing to stimulate. A drug that acts on an absent cell cannot work, whatever the dose.
+
+## answer_c
+Insulin injection
+
+## explanation_c
+Correct. Type 1 diabetes is an **absolute** deficiency of insulin, so the treatment is replacement of the missing hormone. Insulin must be injected because it is a 51-amino-acid protein and would be digested by gastric and pancreatic proteases if swallowed — the same reason no peptide hormone is given by mouth. This is also the one form of diabetes in which stopping treatment is rapidly dangerous: without insulin, lipolysis is unrestrained, ketogenesis outruns ketolysis, and ketoacidosis develops within a day or two.
+
+## answer_d
+Acarbose
+
+## explanation_d
+Incorrect. Acarbose is an α-glucosidase inhibitor that slows the digestion of complex carbohydrate in the gut and blunts the post-meal glucose rise. It modifies absorption and does nothing about the absent hormone, so it can be at most an adjunct.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Treatment of diabetes mellitus
+
+## main_concept
+CON-END-85750744126501
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Treatment
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+82
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+State the primary treatment of type 1 diabetes and explain from the mechanism why oral secretagogues cannot substitute for it.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 19; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q19, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+The extraction recorded correct: null with correctSource "none". The printed answer key on file page 119 (printed 112) was opened with the Read tool and read visually: item 19 is C. Recovered, not inferred.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+Draft status and no dose or regimen appears anywhere in this item, because no source in this corpus states one. This is treatment content and must not auto-publish. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-AE21D14D1295
+
+## title
+Which of the following enzymes is involved in the conversion of glucose to sorbitol?
+
+## question
+Which of the following enzymes is involved in the conversion of glucose to sorbitol?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 20, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Galactokinase
+
+## explanation_a
+Incorrect. Galactokinase phosphorylates galactose to galactose-1-phosphate, the first step of the Leloir pathway, and its deficiency causes a form of galactosaemia in which cataract is the main feature. The cataract connection is what makes this option tempting — but that cataract arises through galactitol, formed by the same aldose reductase named in option C, not through galactokinase itself.
+
+## answer_b
+Glucokinase
+
+## explanation_b
+Incorrect. Glucokinase is the hepatic hexokinase isoform, phosphorylating glucose to glucose-6-phosphate with a high Km so that the liver takes up glucose in proportion to how much arrives. It commits glucose to glycolysis and glycogen synthesis, not to the polyol pathway.
+
+## answer_c
+Aldose reductase
+
+## explanation_c
+Correct. **Aldose reductase** reduces glucose to **sorbitol**, using NADPH; sorbitol dehydrogenase then oxidises sorbitol to fructose. This is the **polyol pathway**, and it matters in diabetes because of which tissues run it and how. Aldose reductase has a high Km, so it only handles significant amounts of glucose when glucose is high — and it operates in tissues whose glucose uptake is **insulin-independent**: the lens, retina, kidney, Schwann cells and peripheral nerve. Those tissues cannot protect themselves by reducing uptake, so intracellular glucose rises with the plasma level. Sorbitol is polar and crosses membranes poorly, so it is trapped; it accumulates, draws water in osmotically, and the pathway also consumes NADPH, weakening glutathione-dependent antioxidant defence. The result is the classic triad of cataract, retinopathy and peripheral neuropathy in poorly controlled diabetes, and it is why the department orientation asks students to explain on a biochemical basis how uncontrolled diabetes causes cataract.
+
+## answer_d
+Aldolase B
+
+## explanation_d
+Incorrect. Aldolase B splits fructose-1-phosphate in fructose metabolism, and its deficiency causes hereditary fructose intolerance. It appears here because sorbitol is converted onward to fructose, so the name sits near the pathway without being part of this step.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Polyol pathway
+
+## main_concept
+CON-END-5D8DA0351D0C94
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.6
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+56
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Name the enzyme of the polyol pathway and explain why sorbitol accumulation damages the lens and peripheral nerve specifically.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 20; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q20, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 20 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+Neither "sorbitol" nor "aldose reductase" appears anywhere in the 103 department biochemistry book — the cached page text was searched for both. The department orientation nonetheless sets "explain on biochemical basis: uncontrolled diabetes can cause cataract", which is this pathway. Source is the question book plus that orientation. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-ECB443DD84B9
+
+## title
+Which of the following is a long-term complication of diabetes mellitus?
+
+## question
+Which of the following is a long-term complication of diabetes mellitus?
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 118, printed page 111, printed question 21, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+D
+
+## answer_a
+Acute renal failure
+
+## explanation_a
+Incorrect, and the disqualifying word is in the option itself. **Acute** renal failure develops over hours to days and is not a long-term complication of anything. Diabetes damages the kidney chronically and progressively, through the glomerular capillaries, and the name for that is nephropathy.
+
+## answer_b
+Bronchial asthma
+
+## explanation_b
+Incorrect. Bronchial asthma is a chronic inflammatory airway disease with its own causes; it is not caused by diabetes and has no place on this list.
+
+## answer_c
+Liver cell failure
+
+## explanation_c
+Incorrect, and it is a plausible-sounding trap because the liver is so central to the metabolic disturbance of diabetes. Diabetes is associated with fatty liver, and severe liver disease can in turn impair glucose homeostasis — the department book lists severe liver disease among the causes of fasting hypoglycaemia. But liver cell failure is not one of the recognised chronic complications, which are defined by damage to blood vessels.
+
+## answer_d
+Nephropathy
+
+## explanation_d
+Correct. **Diabetic nephropathy** is a microvascular complication, beginning with damage to the glomerular capillaries and detected first as microalbuminuria, progressing through proteinuria to declining filtration and eventually end-stage renal disease. It belongs with retinopathy and neuropathy in the microvascular group, whose severity tracks the duration and degree of hyperglycaemia most closely; the macrovascular group — coronary, cerebrovascular and peripheral arterial disease — is the other half of the picture. The unifying idea is that the chronic complications of diabetes are **vascular** complications, sorted by the size of the vessel involved, which is why the correct answer to any question of this shape is always an organ whose damage runs through its blood supply.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Complications of diabetes mellitus
+
+## main_concept
+CON-END-F0182CA8A56EA7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Recognise nephropathy as a chronic microvascular complication and reject acute or unrelated conditions.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 111 (file page 118), question 21; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p118-q21, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 21 is D, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+This item and item 8 test the same complications concept from opposite sides of the micro/macro division and are two occurrences of it. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-3CCBEAE6AD1D
+
+## title
+Hyperglycaemic hyperosmolar coma is characterised by:
+
+## question
+Hyperglycaemic hyperosmolar coma is characterised by:
+
+## vignette
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 119, printed page 112, printed question 22, chapter "Biochemistry Of Diabetes Mellitus". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+D
+
+## answer_a
+Blood glucose level is high, around 300 mg/dL
+
+## explanation_a
+Incorrect on the number, and the number is what defines the syndrome. 300 mg/dL is a high glucose, but it is the sort of value seen in diabetic ketoacidosis or in any poorly controlled diabetic. Hyperosmolar coma is characterised by **extreme** hyperglycaemia, typically 600 mg/dL or higher, and that extremity is exactly why the osmolarity rises far enough to cause coma.
+
+## answer_b
+Increased loss of ketones in urine
+
+## explanation_b
+Incorrect, and it names the feature of the **other** hyperglycaemic emergency. Ketonuria and ketonaemia belong to diabetic ketoacidosis. Hyperosmolar coma is by definition non-ketotic: enough residual insulin remains — this is characteristically a complication of type 2 diabetes — to restrain lipolysis and keep ketogenesis from outrunning ketolysis, even though it is nowhere near enough to control the blood glucose.
+
+## answer_c
+Moist skin
+
+## explanation_c
+Incorrect, and it is the opposite sign. Extreme hyperglycaemia exceeds the renal threshold of about 180 mg/dL by a wide margin, so glucose is lost in the urine and drags water with it in an osmotic diuresis. The patient becomes profoundly dehydrated and the skin and mucous membranes are **dry**. Moist or wet skin points instead to hypoglycaemia, where the sympatho-adrenal discharge causes sweating.
+
+## answer_d
+Coma is due to hyperosmolarity
+
+## explanation_d
+Correct, and it is the mechanism the name records. Very high plasma glucose raises the plasma osmolarity directly; the osmotic diuresis that follows removes water faster than solute and concentrates it further. Water is then drawn out of cells, including neurons, and the resulting cellular dehydration is what depresses consciousness. The contrast with diabetic ketoacidosis is the point of the question and the department orientation sets it as a written comparison: **DKA impairs consciousness through acidosis, hyperosmolar coma through dehydration and hyperosmolarity**. That difference dictates the emphasis of treatment, and it explains why the two look different at the bedside — Kussmaul breathing and a fruity breath in one, profound dehydration without acidosis in the other.
+
+## topic
+Insulin and diabetes mellitus
+
+## subtopic
+Acute complications of diabetes mellitus
+
+## main_concept
+CON-END-68CC8CA610DF37
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.6
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+58
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-DIABETES-MELLITUS
+
+## resource_ids
+
+## learning_objective
+Explain the mechanism of coma in the hyperosmolar state and distinguish it from diabetic ketoacidosis.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Biochemistry Of Diabetes Mellitus", printed page 112 (file page 119), question 22; printed answer key on printed page 112. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p119-q22, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p119)". The key page (file page 119, printed 112) was re-read visually and item 22 is D, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The renal threshold of 180 mg/dL is the department book's own figure, file page 57. The hyperosmolar syndrome itself is not in the textbook, which has no diabetes chapter; the department orientation sets "Compare: DKA and hyperosmolar coma" as a written question. module_subject stops at "103 BMS > Biochemistry". The question book has a "Biochemistry Of Diabetes Mellitus" chapter; the subject tree, built from the department TEXTBOOK's contents page, has no node for it, because that textbook has no diabetes chapter. No node was invented and this item was not filed under Carbohydrate Metabolism to make it fit. Decision owed to a faculty reviewer.
+
+---
+
+# Item
+
+## id
+QM-103-D23A103860C2
+
+## title
+After digestion of a high-carbohydrate meal, which one of the following is most likely to occur?
+
+## question
+After digestion of a high-carbohydrate meal, which one of the following is most likely to occur?
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 1, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Glucagon is released from the pancreas
+
+## explanation_a
+Incorrect, and it is the wrong half of the reciprocal pair. A carbohydrate meal raises blood glucose, which raises **insulin** and **lowers** glucagon. Glucagon is secreted by the α cells in response to a fall in glucose, and the insulin-to-glucagon ratio is the main regulator of blood glucose — so in the well-fed state that ratio is high, not low.
+
+## answer_b
+Insulin stimulates the transport of glucose into the brain
+
+## explanation_b
+Incorrect, and the error is about which tissues need insulin at all. Glucose enters the brain on **insulin-independent** transporters, and the department book states plainly that in early fasting the brain is "not affected by ↓ insulin" and continues to use glucose. That independence is deliberate physiology: the brain must be supplied whatever the hormonal state, so its uptake is never gated by a hormone. The insulin-dependent transporter, **GLUT-4**, serves skeletal muscle, cardiac muscle and adipose tissue — the tissues that can afford to wait.
+
+## answer_c
+Liver and skeletal muscle use glucose as their major fuel
+
+## explanation_c
+Correct. In the well-fed state, 0 to 4 hours after a meal, the main fuel is **glucose** supplied by ingested carbohydrate and the predominant hormone is **insulin**. Insulin raises glucose uptake through GLUT-4 in muscle and adipose tissue, and the liver takes glucose up through GLUT-2 in proportion to how much arrives in the portal blood. Each tissue then does its own version of the same thing: the liver increases glycolysis, glycogenesis, lipogenesis and cholesterol synthesis; muscle increases glycolysis, glycogenesis and the incorporation of amino acids into protein; adipose tissue increases glycolysis and lipogenesis and decreases lipolysis. So liver and skeletal muscle are both burning glucose, and both are storing the surplus.
+
+## answer_d
+Skeletal muscles convert glucose to fatty acids
+
+## explanation_d
+Incorrect, and it puts the right pathway in the wrong tissue. Lipogenesis from glucose occurs in the **liver, adipose tissue and lactating mammary gland**, not in skeletal muscle. Muscle stores its surplus glucose as glycogen and uses incoming amino acids for protein synthesis; it is not a site of fat manufacture.
+
+## topic
+Metabolic integration
+
+## subtopic
+Well-fed state
+
+## main_concept
+CON-FND-85583A59349A47
+
+## concept_ids
+CON-FND-1C668119B3C0BB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+State the main fuel and predominant hormone of the well-fed state, and assign each tissue its metabolic response.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 1; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q1, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p136)". The key page (file page 136, printed 129) was re-read visually and item 1 is C, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-DD3FF16C4ABE
+
+## title
+The body's main fuel during late fasting is:
+
+## question
+The body's main fuel during late fasting is:
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 2, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Amino acids
+
+## explanation_a
+Incorrect for this stage, though amino acids do matter here. In late fasting, 18 to 48 hours, muscle protein is broken down and alanine is exported to the liver for gluconeogenesis — but amino acids are being used as a **substrate for making glucose**, not burned as the body's main fuel. They become the fuel of last resort only after the triacylglycerol stores are exhausted in prolonged starvation, and by then death is close.
+
+## answer_b
+Fatty acids
+
+## explanation_b
+Correct. The department book states it directly for this stage: the main fuel source is **fatty acids supplied mainly by adipose tissue lipolysis**, and the predominant hormones are the anti-insulin ones, chiefly glucagon and the catecholamines. By 18 hours the glycogen stores are significantly depleted, so the body switches "from glucose-burning into fat-burning mode" — lipolysis, β-oxidation, ketogenesis and ketolysis. Blood glucose is now maintained by gluconeogenesis, and it is preserved for the tissues that have no alternative. Reading the four stages as a sequence of fuels makes the whole chapter one idea: dietary glucose, then hepatic glycogen, then fatty acids, then ketone bodies.
+
+## answer_c
+Ketone bodies
+
+## explanation_c
+Incorrect for this stage, and it is the nearest miss because ketogenesis has genuinely begun. In late fasting the book says only that "some ketone bodies can also be used as fuel" by the brain; they are a growing contributor rather than the main one. Ketone bodies do not become the major fuel of the brain until several weeks of starvation, which is the **next** stage.
+
+## answer_d
+Lactate
+
+## explanation_d
+Incorrect. Lactate is a gluconeogenic substrate recycled from muscle and red cells through the Cori cycle, and the book associates it particularly with severe muscular exercise. It carries carbon back to the liver to be rebuilt into glucose; it is not a bulk fuel for the body.
+
+## topic
+Metabolic integration
+
+## subtopic
+Late fasting state
+
+## main_concept
+CON-FND-85583A59349A47
+
+## concept_ids
+CON-END-2E748A37DA660A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name the main fuel of the late fasting state and distinguish it from the fuel of prolonged starvation.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 2; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q2, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+The extraction recorded correct: null with correctSource "none". The printed answer key on file page 136 (printed 129) was opened with the Read tool and read visually: item 2 is B. Recovered, not inferred.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-D9C151C8AEFE
+
+## title
+During starvation, the major fuel of the brain is:
+
+## question
+During starvation, the major fuel of the brain is:
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 3, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+B
+
+## answer_a
+Glucose
+
+## explanation_a
+Incorrect for starvation, though glucose is the brain's fuel at every earlier stage — well-fed, early fasting and late fasting alike. What changes in starvation is that the brain deliberately **reduces** its glucose use to spare it for the red cells, which have no mitochondria and can use nothing else. The book puts the priority explicitly: the first is to provide sufficient glucose for the brain and the tissues that depend on it, the second is to preserve protein.
+
+## answer_b
+Ketone bodies
+
+## explanation_b
+Correct, and the adaptation is the single most important idea in this chapter. After about 2 to 5 days of starvation the liver makes large amounts of ketone bodies and the brain begins to take roughly a third of its energy from them; the heart does the same. **After several weeks, ketone bodies become the major fuel of the brain.** The reason this matters is not the fuel switch itself but what it prevents. Every gram of glucose the brain does not consume is a gram the liver does not have to make from muscle protein — so the shift reduces gluconeogenesis and spares body protein. Survival time is then set by the size of the triacylglycerol depot, and once that is gone protein degradation accelerates and death follows from failure of respiratory, cardiac, hepatic or renal function.
+
+## answer_c
+Fatty acids
+
+## explanation_c
+Incorrect, and it is the option that should be eliminated first because a physical barrier makes it impossible. Plasma fatty acids travel bound to **albumin**, and the albumin–fatty acid complex cannot cross the blood–brain barrier. The brain cannot use fatty acids at any stage, in any nutritional state — which is precisely why ketone bodies exist as a water-soluble alternative that needs no carrier.
+
+## answer_d
+Amino acids
+
+## explanation_d
+Incorrect. Amino acids released from muscle go to the liver as gluconeogenic substrate; the brain does not burn them as a fuel. Confusing "the body is breaking down protein" with "the brain is running on protein" misses the intermediate step, which is that the protein becomes glucose first.
+
+## topic
+Metabolic integration
+
+## subtopic
+Starvation state
+
+## main_concept
+CON-FND-85583A59349A47
+
+## concept_ids
+CON-END-2E748A37DA660A
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+74
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+State the brain's major fuel in prolonged starvation, explain why it cannot use fatty acids, and say what the switch spares.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 3; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q3, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p136)". The key page (file page 136, printed 129) was re-read visually and item 3 is B, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-76C0226B278A
+
+## title
+By 24 hours after a meal:
+
+## question
+By 24 hours after a meal:
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 4, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+A
+
+## answer_a
+Gluconeogenesis in the liver is the major source of blood glucose
+
+## explanation_a
+Correct. Twenty-four hours places the body in the **late fasting state**, 18 to 48 hours, and by then hepatic glycogen is significantly depleted — glycogenolysis carried the early fasting period, 4 to 18 hours, and cannot carry this one. The book is explicit that at this stage blood glucose is maintained by **gluconeogenesis**, with the liver as the dominant site. Its substrates are the glycerol released by lipolysis, lactate returning through the Cori cycle, and amino acids from muscle protein, especially alanine.
+
+## answer_b
+Muscles convert amino acids to blood glucose
+
+## explanation_b
+Incorrect, and it is the trap the department book flags in its own margin: "muscle glycogenolysis cannot contribute directly to plasma glucose". Muscle lacks glucose-6-phosphatase, so it cannot release free glucose into the blood at all. What muscle does is transaminate pyruvate to **alanine** and export that to the liver, where gluconeogenesis converts it to glucose. The conversion happens in the liver, not in the muscle.
+
+## answer_c
+Fatty acids released from adipose tissue provide carbon for the synthesis of glucose
+
+## explanation_c
+Incorrect, and it is the classic misconception in this whole topic. Fatty acids are oxidised to **acetyl-CoA**, and acetyl-CoA can never be converted to glucose, because the pyruvate dehydrogenase reaction that produced it is irreversible. Fatty acids support gluconeogenesis energetically — their oxidation supplies the ATP the liver spends on it — but they contribute no carbon. The only parts of a triacylglycerol molecule that can become glucose are the **glycerol** backbone and, for an odd-chain fatty acid, the terminal three carbons that leave as propionyl-CoA.
+
+## answer_d
+Ketone bodies provide carbon for gluconeogenesis
+
+## explanation_d
+Incorrect, and it inverts the flow. Ketone bodies are made **from** acetyl-CoA, downstream of fatty acid oxidation, and they carry the same limitation: extrahepatic tissues oxidise them back to acetyl-CoA and into the citric acid cycle. They are an output of the fasting liver, never an input to gluconeogenesis.
+
+## topic
+Metabolic integration
+
+## subtopic
+Late fasting state
+
+## main_concept
+CON-FND-85583A59349A47
+
+## concept_ids
+CON-FND-1B027502822320
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+4
+
+## inferred_difficulty
+48
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+Identify hepatic gluconeogenesis as the source of blood glucose at 24 hours, and explain why fatty acid carbon cannot become glucose.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 4; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q4, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p136)". The key page (file page 136, printed 129) was re-read visually and item 4 is A, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-4DE2B5E3DAAB
+
+## title
+Which type of metabolic fuel is used to generate glucose after several weeks of starvation?
+
+## question
+Which type of metabolic fuel is used to generate glucose after several weeks of starvation?
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 5, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+D
+
+## answer_a
+Glycogen
+
+## explanation_a
+Incorrect. Glycogen is the glucose source of **early** fasting, 4 to 18 hours, and the stores are significantly depleted by 18 to 48 hours. After several weeks there is none left to draw on, so it cannot be the answer whatever else is true.
+
+## answer_b
+Fat
+
+## explanation_b
+Incorrect, and it is the option that catches the largest number of students because fat genuinely is the dominant *fuel* at this stage. But the stem asks specifically what glucose is **generated from**, and the bulk of a fat molecule cannot become glucose: the fatty acids are oxidised to acetyl-CoA, and the step that makes acetyl-CoA from pyruvate is irreversible. Only the glycerol backbone is gluconeogenic, and it is a small fraction of the molecule. Distinguishing "the main fuel" from "the source of glucose" is exactly what this question is for.
+
+## answer_c
+Starch
+
+## explanation_c
+Incorrect, and it can be eliminated on definition. Starch is a **dietary** plant polysaccharide. A person who has been starving for several weeks is by definition taking none in.
+
+## answer_d
+Amino acids
+
+## explanation_d
+Correct. Once the triacylglycerol stores are exhausted, the department book states, "the only source of fuel remains is proteins" — protein degradation accelerates and **amino acids** are the substrate from which the remaining glucose is made. The sequence tells the whole story of survival: gluconeogenesis from protein is deliberately suppressed during the earlier weeks, because the brain's switch to ketone bodies reduces the demand for glucose and therefore spares muscle. That protein-sparing is what makes prolonged starvation survivable at all, and its failure is what ends it — death follows from loss of respiratory, cardiac, hepatic or renal function as the proteins of those organs are consumed.
+
+## topic
+Metabolic integration
+
+## subtopic
+Starvation state
+
+## main_concept
+CON-FND-1B027502822320
+
+## concept_ids
+CON-FND-85583A59349A47
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+56
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+Separate the main fuel of prolonged starvation from the substrate glucose is made from, and explain why fat cannot serve as the latter.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 5; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q5, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p136)". The key page (file page 136, printed 129) was re-read visually and item 5 is D, agreeing with the extraction.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-B11C0C275153
+
+## title
+During early fasting, glucose is derived from:
+
+## question
+During early fasting, glucose is derived from:
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 135, printed page 128, printed question 6, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+A
+
+## answer_a
+Glycogen
+
+## explanation_a
+Correct. The early fasting state runs from **4 to 18 hours** after a meal. Plasma glucose falls, insulin secretion drops and glucagon rises, and the book states that in this phase the main fuel is glucose supplied mainly by **hepatic glycogenolysis**, with glucagon as the predominant hormone. Glycogen is used first for a simple reason: it is already glucose, stored ready-made, so releasing it is fast and costs almost nothing. Gluconeogenesis is slower and expensive in ATP, so the body defers it until the cheap store runs out — which is why the stages are ordered as they are.
+
+## answer_b
+Amino acids
+
+## explanation_b
+Incorrect for this stage. Amino acids become an important gluconeogenic substrate in **late** fasting, once glycogen is depleted, and the dominant one is alanine arriving from muscle. Using them at 4 to 18 hours would mean breaking down muscle while a ready supply of glucose was still sitting in the liver.
+
+## answer_c
+Fatty acids
+
+## explanation_c
+Incorrect at any stage, and it is the same misconception the earlier items catch. Fatty acids are oxidised to acetyl-CoA, which cannot be converted to glucose because pyruvate dehydrogenase is irreversible. β-oxidation does rise in early fasting — in liver and muscle both — but it supplies energy, not glucose carbon.
+
+## answer_d
+Ketone bodies
+
+## explanation_d
+Incorrect. Ketone bodies are made from acetyl-CoA and are burned back to acetyl-CoA; they are a product of the fasting liver, not a precursor of glucose. In early fasting they are barely being made yet, since ketogenesis becomes prominent only in the late fasting and starvation states.
+
+## topic
+Metabolic integration
+
+## subtopic
+Early fasting state
+
+## main_concept
+CON-FND-85583A59349A47
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+76
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name the source of blood glucose in early fasting and explain why glycogen is used before gluconeogenesis.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 128 (file page 135), question 6; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p135-q6, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+correctSource, verbatim: "printed key (p136)". The key page (file page 136, printed 129) was re-read visually and item 6 is A, agreeing with the extraction.
+OCR repair: The extraction rendered option a as "Glycogen :" with a trailing colon picked up from the printed layout. Written here as "Glycogen".
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.
+
+---
+
+# Item
+
+## id
+QM-103-33BFA27554FC
+
+## title
+During starvation, the major glucogenic amino acid is:
+
+## question
+During starvation, the major glucogenic amino acid is:
+
+## vignette
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## format
+single best answer
+
+## derived_from
+Transcribed from the Kasr Al Ainy Biochemistry department MCQ book (src_07f0a0ff41addf826c7f), file page 136, printed page 129, printed question 7, chapter "Metabolic Integration In Feed-Starve Cycle". Extracted by the 102 INT lane and tagged as taught by 103 BMS.
+
+## correct_answer
+C
+
+## answer_a
+Threonine
+
+## explanation_a
+Incorrect. Threonine is glucogenic and ketogenic, and it is a minor contributor. It is also one of the eight individual amino acids the department cancels from both exams, so it is not material a student is expected to hold in this much detail.
+
+## answer_b
+Lysine
+
+## explanation_b
+Incorrect, and it is wrong by category rather than by degree. **Lysine is purely ketogenic** — together with leucine it is one of the only two amino acids that cannot yield glucose at all, because its carbon skeleton is degraded to acetyl-CoA and acetoacetyl-CoA. Offering it here catches a student who is guessing among amino acid names without having sorted them into glucogenic and ketogenic.
+
+## answer_c
+Alanine
+
+## explanation_c
+Correct. **Alanine** is the major glucogenic amino acid of fasting, and the reason is the **glucose–alanine cycle** the department book sets out. In muscle, glycolysis produces pyruvate; when muscle protein is broken down, the amino group from other amino acids is transferred onto that pyruvate by transamination, producing alanine. Alanine travels to the liver, where it is transaminated back to pyruvate and rebuilt into glucose, and the nitrogen it carried enters the urea cycle. The cycle solves two problems with one carrier: it moves gluconeogenic carbon out of muscle, and it exports waste nitrogen safely, without releasing free ammonia into the blood. That dual function is why alanine, rather than any other amino acid, dominates.
+
+## answer_d
+Glycine
+
+## explanation_d
+Incorrect. Glycine is glucogenic — it can be converted to serine and then to pyruvate — but it is a minor contributor and it has no dedicated inter-organ transport role. Alanine is the one with a named cycle built around it.
+
+## topic
+Metabolic integration
+
+## subtopic
+Glucose-alanine cycle
+
+## main_concept
+CON-FND-1B027502822320
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.55
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+58
+
+## exam_relevance
+2
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations
+
+## question_only_for
+
+## library_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name the major glucogenic amino acid of fasting and describe the two jobs the glucose-alanine cycle performs at once.
+
+## source_citation
+Kasr Al Ainy, Department of Biochemistry MCQ book for modules 102 and 103, chapter "Metabolic Integration In Feed-Starve Cycle", printed page 129 (file page 136), question 7; printed answer key on printed page 129. Manifest src_07f0a0ff41addf826c7f.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Extraction id MCQ-102-07f0a0ff-p136-q7, produced by the 102 INT lane from src_07f0a0ff41addf826c7f and tagged as taught by 103 BMS; this lane did not re-read the PDF except for the pages named below.
+The extraction recorded correct: null with correctSource "none". The printed answer key on file page 136 (printed 129) was opened with the Read tool and read visually: item 7 is C. Recovered, not inferred.
+No OCR repair was needed; the stem and all options came through the extraction intact.
+resource_ids is deliberately empty: it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there would error. The source is carried in source_citation and derived_from instead.
+The glucose-alanine cycle is stated in the department book at file page 54 and again at 115. EXAM STATUS. The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9) cancels row 10 of its own table, "Metabolic integration — 109-114", from BOTH the end-of-module and the final exam; those printed pages are exactly this chapter of the department book. The item is kept because a cancelled topic still appears in the question book and a student may still meet it, but exam_relevance and exam_weight_by_year are written low and do not claim it is examined. Any concept minted from it carries a low weight_confidence for the same reason.

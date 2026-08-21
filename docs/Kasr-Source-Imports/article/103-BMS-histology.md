@@ -162,7 +162,7 @@ Expecting a visible line between the two dermal layers. The book separates them 
 
 
 ## published_sections
-[clear]
+
 
 ## hold_these
 The papillary layer is thin, superficial, loose, more cellular, more vascular, and it forms the dermal papillae.
@@ -401,7 +401,7 @@ Confusing the osteoclast with the megakaryocyte because both are large and multi
 
 
 ## published_sections
-[clear]
+
 
 ## hold_these
 The osteoblast arises from osteogenic cells; the osteoclast arises by fusion of mononuclear haemopoietic progenitor cells.
@@ -655,7 +655,7 @@ Expecting the discs to look like Z lines. Z lines are inside a sarcomere and are
 
 
 ## published_sections
-[clear]
+
 
 ## hold_these
 By light microscopy intercalated discs are clear transverse lines at intervals along the cardiac muscle fibre.
@@ -908,7 +908,7 @@ Calling the dense bodies Z lines. They correspond to the Z line functionally, as
 
 
 ## published_sections
-[clear]
+
 
 ## hold_these
 The sarcolemma is thin, surrounded by a basal lamina, and has caveolae instead of T-tubules; there is no tubular system.
