@@ -55,6 +55,21 @@
   because local availability in Egypt could not be verified from any source in the
   corpus.
 
+  ── Where the model answers came from ───────────────────────────────────────
+  The solved twin hides its answers three different ways. On pages 1–4 and 7 the
+  overlays are typed and extract cleanly, so the cached text is trustworthy for the
+  five enumerate items, all three diagrams and Case (3). On pages 5, 6 and 8 they do
+  not extract at all — the extracted character count barely moves between the blank
+  paper and the solved one (ratios 1.05, 1.02 and 1.06 against 1.7–1.9 on the good
+  pages), which looks like a short answer rather than like a failure. Those three
+  pages were opened and read visually, and they carry the answers to Case (1)
+  (phenylketonuria), Case (2) (gout, including the drug part) and the whole vitamin
+  matching block. Two findings came only from the render and are recorded on the
+  concepts they belong to: the solved Case (2) d names allopurinol and then the bare
+  heading "Drugs increasing the excretion of uric acid (Uricosuric drugs)" with no
+  member named, and the solved matching table leaves exactly two rows — "Water
+  soluble antioxidant" and "Muscle glycogen phosphorylase" — unnumbered.
+
   Weights are inferred from a single sitting, so `weight_confidence` is 0.25–0.35
   throughout. One paper is weak evidence and the numbers say so.
 
@@ -2947,7 +2962,7 @@ CLM-FND-PKU-DIETARY-TREATMENT-01
 The book gives no target blood phenylalanine, no age at which the diet may be relaxed, and no statement about diet in pregnancy. None of that is supplied here, and none should be added from a foreign source without a local review.
 
 ## evidence_gaps
-This record states a treatment and must not auto-publish. Its claim is to be written with risk_class treatment_or_action. It rests on the department book alone, quantifies nothing, and names no proprietary product; the availability and cost of a phenylalanine-free formula in Egypt is not stated in any source in this corpus and is deliberately left unwritten.
+This record states a treatment and must not auto-publish. Its claim is to be written with risk_class treatment_or_action. It rests on the department book alone, quantifies nothing, and names no proprietary product; the availability and cost of a phenylalanine-free formula in Egypt is not stated in any source in this corpus and is deliberately left unwritten. The examiner's model answer for this part does not extract from the solved copy and was read visually; it reproduces the book's two sentences word for word, which is why the wording below matches the book exactly.
 
 ## owner
 Claude
@@ -3421,3 +3436,1053 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
 
 ## field_notes
 relationships: Updated rather than duplicated after "jaundice", "hemolysis" and "haemolytic" all returned this record. The Biochemistry book's own list of causes of haemolytic jaundice includes G6PD deficiency, which is CON-HEM-4F64967BBFBB6F in this same batch, so the causes edge between them is now writable and is owed to a relations file this batch does not author.
+
+---
+
+# Item
+
+## label
+Alcohol raises urate through lactate: both share one renal transporter, and lactate wins
+
+## id
+CON-REN-0460ED67059E66
+
+## canonical_key
+urate.alcohol-lactate.renal-retention
+
+## aliases
+Alcohol and hyperuricaemia
+Lactate and uric acid excretion
+Renal gout from alcohol
+NADH NAD ratio and lactate
+Competition for the renal urate transporter
+
+## arabic_label
+تأثير الكحول واللاكتات على إفراز حمض البوليك
+
+## arabic_aliases
+فرط حمض البوليك الناتج عن الكحول
+تنافس اللاكتات وحمض البوليك على ناقل الكلية
+
+## definition
+Oxidising ethanol to acetaldehyde generates a large amount of NADH. The raised NADH/NAD⁺ ratio pushes the lactate dehydrogenase reaction towards lactate, so blood lactate rises. Lactate and uric acid use the same transporter in the renal tubules, and lactate — present at higher concentration and more soluble — takes the transporter in preference, so uric acid is retained and gout follows. Alcohol also causes dehydration. The book files this under decreased excretion, that is, renal gout, not under overproduction.
+
+## explicit_objective
+Trace the chain from an alcoholic drink to a raised blood urate in the order the book gives it, and say why a raised blood lactate on its own has the same effect.
+
+## pitfalls
+Explaining alcohol's effect as a purine load from beer. The book's mechanism is entirely renal and runs through NADH and lactate; the dietary purine route is a separate cause listed under increased production. The other error is calling this competitive inhibition of an enzyme — it is competition for a transporter, and the substance excreted is uric acid, not lactate.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-BIO-T06
+
+## secondary_node_ids
+SYS-MSK-T04 | SYS-REN-T06
+
+## topic
+Molecular biology
+
+## subtopic
+Disorders of Purine Metabolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## article_ids
+ART-103-BIO-GOUT-AND-HYPERURICAEMIA
+
+## related_article_ids
+ART-REN-TOP-AD3B2EA126
+
+## related_concept_ids
+CON-REN-31708150F8B722 | CON-REN-7A52C1FD960B35 | CON-REN-B9E0531973510E | CON-REN-90F0EB9115E7CA
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
+
+## atomic_claim_ids
+CLM-REN-ALCOHOL-LACTATE-URATE-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (2) b, 1 mark] Explain how does alcohol intake affect hyperuriciemia:
+[Biochemistry III, Case (2) c, 1.5 marks] Explain how increased blood lactate levels can have an effect on uric acid blood concentration:
+"The elevation of blood lactate decreases the excretion of uric acid from the kidneys, as both lactic acid and uric acid occupy the same transporter in renal tubules."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-REN-B9E0531973510E
+
+## conflicts
+
+## uncertainty
+The book names the shared renal transporter only as "the same transporter in renal tubules" and does not identify it, so no transporter name is given here. It also gives no threshold intake of alcohol.
+
+## evidence_gaps
+Supported by the department book only. Alcohol intake is uncommon in much of the Egyptian patient population and the book offers no local epidemiology; the mechanism is taught because the paper asks for it, and the same mechanism explains the exercise-induced and hypoxic lactataemia that a student is far more likely to meet.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06, which is where every live purine concept sits.
+nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "alcohol", "lactate", "uric" and "excretion" — sixteen gout records exist and none states this mechanism, so it is minted rather than merged; the four nearest are in related_concept_ids.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded. The Biochemistry cancelled-items table names nothing in the purines and pyrimidines chapter.
+rejectedMergeCandidateIds: CON-REN-B9E0531973510E states that cancer, leukaemia and psoriasis cause secondary metabolic gout through increased purine catabolism. Not merged — that is the overproduction branch of the book's classification and this is the decreased-excretion branch; a question could test either without the other.
+relationships: Walked all 16 concepts under DIS-BIO-T06 whose labels concern purines, plus the 16 records returned for "gout". Live state carries the classification, the presentation and the drugs but not this mechanism, which is the one the paper asked for. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and a causes edge from this concept to CON-REN-31708150F8B722 is owed.
+
+---
+
+# Item
+
+## label
+Urate is lowered two ways — make less of it or excrete more of it — and the book names a drug for only one of them
+
+## id
+CON-REN-38B4BED80BC671
+
+## canonical_key
+gout.uricosuric-drugs.increased-excretion
+
+## aliases
+Uricosuric drugs
+Drugs that lower uric acid
+Drugs increasing the excretion of uric acid
+Treatment of gout
+Urate-lowering therapy
+
+## arabic_label
+الأدوية الخافضة لحمض البوليك
+
+## arabic_aliases
+الأدوية المدرة لحمض البوليك
+علاج النقرس
+
+## definition
+The book divides the drug treatment of gout into three. Anti-inflammatory agents reduce joint inflammation and relieve pain but do not lower urate. Drugs decreasing the production of uric acid, of which allopurinol is the drug of choice. And drugs increasing the excretion of uric acid, the uricosuric drugs, which the book names as a class without naming a member; it adds that they must be taken with plenty of fluid and with alkalinisation of the urine, to prevent renal stones. Diet and adequate fluid intake sit alongside the drugs, and alcohol is to be avoided.
+
+## explicit_objective
+Name the two mechanisms by which a drug can lower blood uric acid, say which class does which, and state the precaution the book attaches to the uricosuric class.
+
+## pitfalls
+Offering colchicine as a urate-lowering drug. Colchicine is anti-inflammatory: it treats the attack and leaves the urate where it was. The question asks for drugs that decrease uric acid levels, which is the other two headings.
+
+## concept_type
+management
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+renal
+
+## primary_node_id
+DIS-BIO-T06
+
+## secondary_node_ids
+SYS-MSK-T04 | SYS-FND-T04
+
+## topic
+Molecular biology
+
+## subtopic
+Disorders of Purine Metabolism
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## article_ids
+ART-103-BIO-GOUT-AND-HYPERURICAEMIA
+
+## related_article_ids
+ART-REN-TOP-AD3B2EA126
+
+## related_concept_ids
+CON-REN-E5BAEF03791C8F | CON-REN-B3AEE6F22A046A | CON-REN-42ED4D5025FB7B | CON-REN-691A0268DB4342
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.35
+
+## confidence
+0.9
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
+
+## atomic_claim_ids
+CLM-REN-URICOSURIC-DRUGS-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry III, Case (2) d, 1.5 marks] What drugs are used to decrease uric acid levels in blood, and explain their mechanisms:
+"Drugs increasing the excretion of uric acid (Uricosuric drugs): These medications should be taken with plenty of fluid accompanied by alkalization of urine to prevent the formation of renal stones."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-REN-691A0268DB4342
+
+## conflicts
+
+## uncertainty
+The book prints "Drugs increasing the excretion of uric acid (Uricosuric drugs)" as a bare heading and names no member of the class, and the examiner's own model answer, read off the solved copy's render, copies that heading and adds no member either. What a marker expects under this heading beyond the mechanism is therefore genuinely unrecorded, and is not reconstructed here.
+
+## evidence_gaps
+This record states a treatment and must not auto-publish. Its claim is to be written with risk_class treatment_or_action. It names no individual uricosuric drug because neither source names one: the department book prints the class as a bare heading, and the solved copy of the paper — whose answer to this part had to be read visually, because it does not extract — reproduces that same heading and names allopurinol only, on the production side. No drug is imported from elsewhere and no brand name appears, because availability in Egypt could not be verified from any source in this corpus. No dose is stated anywhere in either source and none is written.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+treatment_content_awaiting_faculty_review
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06.
+nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "uricosuric", "allopurinol", "gout" and "excretion" — "uricosuric" returns no existing record, and the allopurinol records are the production side, which this batch updates rather than duplicates.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded. Nothing in the purines and pyrimidines chapter is cancelled.
+rejectedMergeCandidateIds: CON-REN-691A0268DB4342 states that colchicine, NSAIDs and corticosteroids reduce gout inflammation and pain. Not merged, and kept adjacent on purpose — it is the class the examiner's question excludes, and the pair is the distinction the mark scheme turns on.
+relationships: Walked the 16 gout records. Three of them are allopurinol, which is the production half; nothing covers the excretion half, which is why this record is minted. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and treated_by edges from CON-REN-31708150F8B722 to this concept and to CON-REN-E5BAEF03791C8F are owed.
+
+---
+
+<!--
+  UPDATE. Live record, id copied verbatim from find-existing.mjs. This is the
+  diagnosis for Case (2): tophi plus a raised blood urate.
+-->
+
+# Item
+
+## id
+CON-REN-31708150F8B722
+
+## label
+Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones
+
+## definition
+Gout is a painful inflammation of one or more joints, characterised by deposition of nodular masses of uric acid crystals — tophi — in soft tissue. In the joints they are found most often as hard nodules around the fingers, at the tips of the elbows, and around the big toe, where they cause arthritis. Precipitation of urates in the urinary tract may produce renal stones. Hyperuricaemia, the raised serum urate behind it, comes either from overproduction (metabolic) or from decreased excretion (renal); plasma urate is normally 4–7 mg/dL in men and 3–6 mg/dL in women.
+
+## explicit_objective
+Given inflammation of the big toe with a high blood uric acid and tophi, give the diagnosis, and name the two broad mechanisms that raise serum urate.
+
+## aliases
+Gout
+Tophaceous gout
+Hyperuricaemia
+Tophi
+Podagra
+Urate arthritis
+
+## arabic_label
+النقرس
+
+## arabic_aliases
+فرط حمض البوليك في الدم
+الرواسب النقرسية (التوفي)
+
+## pitfalls
+Answering "hyperuricaemia" alone. A raised urate is the biochemical finding; gout is the disease, and it is the inflamed joint plus the tophi that make it gout rather than asymptomatic hyperuricaemia. The paper's own model answer writes both, with gout in brackets.
+
+## concept_type
+definition
+
+## secondary_node_ids
+SYS-MSK-T04 | SYS-REN-T06
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## article_ids
+ART-REN-TOP-AD3B2EA126 | ART-103-BIO-GOUT-AND-HYPERURICAEMIA
+
+## related_concept_ids
+CON-REN-7A52C1FD960B35 | CON-REN-0460ED67059E66 | CON-REN-38B4BED80BC671 | CON-REN-E5BAEF03791C8F
+
+## resource_ids
+src_fed8df63e76653347a64 | src_300847a5fa64809d6c07
+
+## atomic_claim_ids
+CLM-REN-31708150F8B722 | CLM-REN-GOUT-TOPHI-DIAGNOSIS-01
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## weight_confidence
+0.35
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
+
+## conflicts
+The exam stem says the tophi crystals were found "in urine", while the book describes tophi as deposits in soft tissue and says that urate precipitating in the urinary tract forms renal stones. The paper's wording is recorded as printed; the book's account is what the article teaches.
+
+## original_wording
+[Biochemistry III, Case (2) a, 1 mark] Diagnosis:
+"A patient presents with inflammation around joints, especially big toe, lab tests were done and proved a high uric acid concentration in blood and a topi-crystals in urine."
+"Gout is a painful inflammation in one or more joints. It is characterized by deposition of nodular masses of uric acid crystals (tophi) in different soft-tissue areas of the body."
+
+## field_notes
+relationships: Updated rather than duplicated after "gout", "urate" and "tophi" each returned this record. Walked all 16 gout records under DIS-BIO-T06. Four loose neighbours are in related_concept_ids, two of them new in this batch. The caused_by edge to CON-REN-0460ED67059E66 and the treated_by edges to the two drug concepts are owed to a relations file this batch does not author.
+
+---
+
+<!--
+  UPDATE. Live record, id copied verbatim from find-existing.mjs. TREATMENT CONTENT —
+  this record must not auto-publish, and its new claim takes risk_class
+  treatment_or_action.
+-->
+
+# Item
+
+## id
+CON-REN-E5BAEF03791C8F
+
+## label
+Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function
+
+## definition
+Allopurinol is the drug of choice for lowering uric acid production. It resembles hypoxanthine closely enough that xanthine oxidase oxidises it to oxypurinol, and oxypurinol then binds tightly to xanthine oxidase, so the enzyme can no longer oxidise hypoxanthine and xanthine and less uric acid is formed. Allopurinol also reacts with PRPP, which lowers the PRPP pool and reduces de-novo purine synthesis. It therefore works at two points: the last step of catabolism and the first step of synthesis.
+
+## explicit_objective
+Explain how allopurinol lowers blood uric acid at both of the points the book describes, naming the enzyme inhibited and the metabolite formed from allopurinol itself.
+
+## aliases
+Allopurinol
+Xanthine oxidase inhibitor
+Oxypurinol
+Drug of choice for gout
+Drugs decreasing the production of uric acid
+
+## arabic_label
+ألوبيورينول
+
+## arabic_aliases
+مثبط إنزيم أوكسيديز الزانثين
+دواء خفض إنتاج حمض البوليك
+
+## pitfalls
+Saying allopurinol increases the excretion of uric acid. It does the opposite kind of thing — it makes less of it. Excretion is the uricosuric class, which the book lists separately, and mixing the two loses the mechanism mark even when the drug name is right.
+
+## concept_type
+management
+
+## secondary_node_ids
+SYS-MSK-T04 | SYS-FND-T04
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## article_ids
+ART-REN-TOP-AD3B2EA126 | ART-103-BIO-GOUT-AND-HYPERURICAEMIA
+
+## related_concept_ids
+CON-REN-B3AEE6F22A046A | CON-REN-42ED4D5025FB7B | CON-REN-38B4BED80BC671 | CON-REN-31708150F8B722
+
+## resource_ids
+src_fed8df63e76653347a64 | src_300847a5fa64809d6c07
+
+## atomic_claim_ids
+CLM-REN-E5BAEF03791C8F | CLM-REN-ALLOPURINOL-MECHANISM-01
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## weight_confidence
+0.35
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+treatment_content_awaiting_faculty_review
+
+## evidence_gaps
+Treatment content; must not auto-publish, and CLM-REN-ALLOPURINOL-MECHANISM-01 is to be written with risk_class treatment_or_action. The department book states the class and the mechanism and no dose, so no dose is written. The live label's caution about impaired kidney function is retained from the existing record and is not restated from the 103 book, which does not mention it; a reviewer should check which source it came from. No brand name is given, because availability in Egypt could not be verified from any source in this corpus.
+
+## original_wording
+[Biochemistry III, Case (2) d, 1.5 marks] What drugs are used to decrease uric acid levels in blood, and explain their mechanisms:
+"Allopurinol is the drug of choice: It has a structural similarity to hypoxanthine. Allopurinol is oxidized by xanthine oxidase to oxypurinol. The latter binds tightly to xanthine oxidase, inhibiting its ability to oxidize hypoxanthine and xanthine and decreases uric acid formation."
+
+## field_notes
+relationships: Updated rather than duplicated after "allopurinol", "gout" and "uric" each returned this record. Live state already carries the two halves of the mechanism as separate concepts — CON-REN-B3AEE6F22A046A for the structural similarity and CON-REN-42ED4D5025FB7B for the PRPP effect — so this record is the one that ties them together and they are its loose neighbours. No typed edges are written — this batch authors no relations file, and the mechanism_step_before edge from CON-REN-B3AEE6F22A046A to this concept is owed.
+
+---
+
+# Item
+
+## label
+Each fat-soluble vitamin is matched to one reaction and one deficiency: A to dark adaptation, D to 1-hydroxylase, E to lipid antioxidation, K to glutamate carboxylation
+
+## id
+CON-FND-46B9F239340ED9
+
+## canonical_key
+vitamins.fat-soluble.active-forms-and-functions
+
+## aliases
+Fat soluble vitamins
+Vitamins A D E K
+Active forms of the fat soluble vitamins
+Lipid soluble antioxidant
+Gamma-carboxylation of glutamate
+Increased dark adaptation time
+
+## arabic_label
+الفيتامينات الذائبة في الدهون ووظائفها
+
+## arabic_aliases
+فيتامينات أ ود وهـ وك
+الأشكال النشطة للفيتامينات الذائبة في الدهون
+
+## definition
+Four vitamins are fat-soluble, and each carries one function a matching question can hang on. Vitamin A, active as retinol, retinal and retinoic acid, maintains healthy epithelium, vision, reproduction and gene expression; its deficiency gives night blindness, in which the dark adaptation time is increased, and xerophthalmia. Vitamin D is converted in the liver by 25-hydroxylase to calcidiol and in the kidney by 1-hydroxylase to calcitriol, the active form, which maintains plasma calcium and bone calcification; deficiency gives rickets and osteomalacia. Vitamin E, as α-tocopherol, is the lipid-soluble antioxidant; deficiency raises red cell fragility and gives anaemia. Vitamin K, as the hydroquinone, γ-carboxylates glutamate residues of the clotting factors and other proteins; deficiency gives bleeding.
+
+## explicit_objective
+Match each fat-soluble vitamin to its active form, the one reaction the book names for it, and its deficiency disease.
+
+## pitfalls
+Pairing "antioxidant" with vitamin E and stopping there. Vitamin C is an antioxidant too, and a matching question distinguishes them only by the words "lipid soluble" and "water soluble" — read those two words before choosing. The other trap is vitamin D: the option that names 1-hydroxylase describes where the *active* form is made, in the kidney, not the 25-hydroxylase step in the liver.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T08
+
+## secondary_node_ids
+SYS-END-T04 | SYS-GIT-T04
+
+## topic
+Nutrition
+
+## subtopic
+Vitamins
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Summary Table for Vitamins
+
+## article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_article_ids
+ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE
+
+## related_concept_ids
+CON-FND-C9E5128193029E | CON-FND-5F0DC4407DEC51 | CON-HEM-121DCA556B6311 | CON-END-1DE2C490ABBA64
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p8 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-FAT-SOLUBLE-VITAMINS-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry IV, Match, 1 mark each] Vitamin A · Increased dark adaptation time; Vitamin K · Carboxylation of glutamate (Formation of γ-carboxy-glutamate); Vitamin D · Active form produced by 1-hydroxylase; Vitamin E · Lipid soluble antioxidant.
+"Calcitriol is the active form of vitamin D3."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-END-1DE2C490ABBA64 | CON-HEM-121DCA556B6311
+
+## conflicts
+
+## uncertainty
+The book's summary table gives an RDA for each vitamin without saying whose recommendation it is or for what age and sex, so the figures are not reproduced as authoritative here. Vitamin A's deficiency is listed as night blindness in the vitamin chapter and as "increased dark adaptation time" in the same section; the exam uses the second wording.
+
+## evidence_gaps
+Supported by the department book only. No Egyptian prevalence data for any of these deficiencies exists in the corpus, so none is quoted; vitamin D deficiency in particular is common in Egypt and a local figure should be attached before publication rather than a Western one.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's per-vitamin sections sit below the Summary Table named in module_subject; the canonical tree has no node finer than DIS-BIO-T08.
+nanotopicId: No nanotopic exists below the microtopic level for nutrition.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "vitamin", "tocopherol", "calciferol", "dark adaptation" and "night blindness" — the last four return no existing record, and the eighteen "vitamin" hits are pharmacology and endocrine records, none of them a candidate for this idea.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded. The Biochemistry final exam covers "All chapters from Bioenergetics to vitamins" and no vitamin appears in the cancelled-items table.
+rejectedMergeCandidateIds: CON-END-1DE2C490ABBA64 states that PTH and low phosphate activate proximal-tubular 1-alpha-hydroxylase; CON-HEM-121DCA556B6311 states that coumarins competitively inhibit vitamin K and hepatic prothrombin formation. Both are single-vitamin records inside other systems, and both are narrower than a classification of all four fat-soluble vitamins; they are linked rather than merged.
+relationships: Walked the 18 records returned for "vitamin" across the endocrine, haematology and andrology namespaces and the DIS-BIO-T08 set. No record classifies the vitamins. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and contrasts_with edges between this concept and the water-soluble one, and between vitamins E and C, are owed.
+
+---
+
+# Item
+
+## label
+The water-soluble vitamins are coenzymes, and a matching question tests which reaction each one runs
+
+## id
+CON-FND-C9E5128193029E
+
+## canonical_key
+vitamins.water-soluble.coenzyme-functions
+
+## aliases
+Water soluble vitamins
+B complex vitamins
+Coenzyme forms of the B vitamins
+Water soluble antioxidant
+Oxidative decarboxylation of alpha-keto acids
+Synthesis of CoA-SH
+
+## arabic_label
+الفيتامينات الذائبة في الماء ووظائفها كإنزيمات مساعدة
+
+## arabic_aliases
+فيتامينات المجموعة ب
+الأشكال المساعدة للفيتامينات الذائبة في الماء
+
+## definition
+Vitamin C and the B complex are water-soluble, absorbed directly into blood, not stored except for folate and B12, and their deficiencies appear quickly. Each has one function a matching question uses. Thiamine, as thiamine pyrophosphate, runs the oxidative decarboxylation of α-keto acids and transketolase; deficiency is beriberi. Riboflavin, as FMN and FAD, and niacin, as NAD⁺ and NADP⁺, are hydrogen carriers; niacin deficiency is pellagra. Pantothenic acid is the vitamin of coenzyme A and is the acyl carrier. Biotin runs carboxylation, that is, CO₂ fixation. Folic acid, as tetrahydrofolate, transfers one-carbon units; deficiency gives megaloblastic anaemia and neural tube defects. Cobalamin converts homocysteine to methionine and methylmalonyl-CoA to succinyl-CoA, and its deficiency gives subacute combined degeneration of the spinal cord. Vitamin C is the water-soluble antioxidant, and pyridoxal phosphate sits at each catalytic site of muscle glycogen phosphorylase.
+
+## explicit_objective
+Match each water-soluble vitamin to the reaction or the deficiency the book names for it, and identify which options in a matching list belong to a vitamin that is not in the stem.
+
+## pitfalls
+Choosing niacin for "oxidative decarboxylation of α-keto acids" because both involve NAD⁺. The decarboxylation coenzyme is thiamine pyrophosphate; niacin's answer is pellagra. The second reliable loss is pairing folate with the neurological option: folate deficiency gives neural tube defects in the newborn, while subacute combined degeneration of the cord is B12, and treating a megaloblastic anaemia with folate alone is exactly the mistake the book warns about.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T08
+
+## secondary_node_ids
+SYS-HEM-T02 | SYS-NEU-T02
+
+## topic
+Nutrition
+
+## subtopic
+Vitamins
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Summary Table for Vitamins
+
+## article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_article_ids
+ART-HEM-TOP-B697DE3AAD
+
+## related_concept_ids
+CON-FND-46B9F239340ED9 | CON-FND-1A4A49607783A9 | CON-HEM-A92555744C9B35 | CON-GIT-BDC3EA18923D6C
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.85
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.35
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p8 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-WATER-SOLUBLE-VITAMINS-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry IV, Match, 1 mark each] Vitamin B12 · Subacute degeneration of spinal cord; Thiamine · Needed in oxidative decarboxylation of α-keto acids; Biotin · Needed in CO₂ fixation reactions; Pantothenic acid · Synthesis of CoA-SH; Folic acid · Neural tube defects; Niacin · Pallagra. Two options are distractors: "Water soluble antioxidant" and "Muscle glycogen phosphorylase".
+"Muscle glycogen phosphorylase has a pyridoxal phosphate at each catalytic site."
+"It is a highly efficient water-soluble antioxidant."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-HEM-A92555744C9B35 | CON-GIT-BDC3EA18923D6C
+
+## conflicts
+
+## uncertainty
+The exam's option list contains two functions belonging to vitamins that are not among its ten stems — the water-soluble antioxidant, which is vitamin C, and muscle glycogen phosphorylase, which is pyridoxine. Both are correct statements from the book and neither is answerable from the ten stems given. The solved copy settles it: read visually, its matching table carries a number against every other row and leaves exactly those two blank. They are distractors, and that is now observed rather than inferred.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international nutrition reference has been attached, and the book's RDA figures are not reproduced.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's per-vitamin sections sit below the Summary Table named in module_subject; the canonical tree has no node finer than DIS-BIO-T08.
+nanotopicId: No nanotopic exists below the microtopic level for nutrition.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "thiamine", "niacin", "biotin", "pantothen", "riboflavin", "cobalamin", "pellagra", "beriberi" and "ascorbic" — all but "pantothen" return no existing record, and that one hit is a fatty-acid-oxidation record.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded; no vitamin appears in the Biochemistry cancelled-items table.
+rejectedMergeCandidateIds: CON-HEM-A92555744C9B35 says gastrectomy, vitamin C deficiency, inhibitors and small-intestinal disease can impair iron absorption — a vitamin C fact inside an iron record, and about absorption rather than about the vitamin's own function. CON-GIT-BDC3EA18923D6C says choline deficiency can follow B12 or folate deficiency, which is a choline record. Neither classifies the vitamins, and neither is merged.
+relationships: Walked the 18 records returned for "vitamin" and the DIS-BIO-T08 set, then searched each vitamin by name. Live state holds no B-vitamin record at all. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file, and the often_confused_with edge between folate and B12 deficiency is the single most useful one owed.
+
+---
+
+# Item
+
+## label
+Folate antagonists work at two different enzymes, and that is why one is an antibiotic and the other an anticancer drug
+
+## id
+CON-FND-1A4A49607783A9
+
+## canonical_key
+folate.antagonists.sulfonamides-methotrexate
+
+## aliases
+Folate antagonists
+Sulfonamides
+Methotrexate
+Antifolates
+Dihydrofolate reductase inhibitor
+PABA and folic acid synthesis
+
+## arabic_label
+مضادات حمض الفوليك
+
+## arabic_aliases
+السلفوناميدات والميثوتريكسات
+مثبطات إنزيم اختزال ثنائي هيدروفولات
+
+## definition
+The book names two folate antagonists and they act at different points. Sulfonamides are competitive inhibitors of the bacterial enzyme that incorporates PABA into folic acid, so bacteria cannot make folate and cannot multiply; they do not affect human DNA or RNA synthesis, because mammalian cells cannot synthesise folic acid at all and must take it in. Methotrexate is an anticancer drug and a competitive inhibitor of dihydrofolate reductase, so folic acid is not activated to tetrahydrofolate, and DNA synthesis and cell division of malignant cells stop — the conversion of dUMP to dTMP needs methylene-THF. Treatment with methotrexate is itself a listed cause of folate deficiency.
+
+## explicit_objective
+Name the two folate antagonists the book gives, state the enzyme each inhibits, and explain why one is selective for bacteria and the other is not.
+
+## pitfalls
+Saying sulfonamides are selective because they only enter bacteria. The selectivity is metabolic, not a matter of uptake: human cells have no folate synthesis pathway to inhibit, so the enzyme sulfonamides block does not exist in them. Methotrexate blocks an enzyme humans do have, which is precisely why it causes folate deficiency.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T08
+
+## secondary_node_ids
+SYS-FND-T04 | DIS-BIO-T06
+
+## topic
+Nutrition
+
+## subtopic
+Vitamin B9 (Folic acid)
+
+## microtopic
+
+## nanotopic
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Vitamin B9 (Folic acid, Pteroyl glutamate)
+
+## article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_article_ids
+ART-REN-TOP-AD3B2EA126
+
+## related_concept_ids
+CON-FND-C9E5128193029E | CON-IMM-8444491F42C168 | CON-REN-E6070C296322CB | CON-GIT-BDC3EA18923D6C
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## clinical_relevance
+0.75
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.95
+
+## exam_signal
+src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
+
+## atomic_claim_ids
+CLM-FND-FOLATE-ANTAGONISTS-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+[Biochemistry I-4, 2 marks] Folate antagonists.
+"Sulfonamides act as competitive inhibitors of the enzyme needed to incorporate PABA to form folic acid by bacteria and inhibit bacterial multiplication."
+"Methotrexate is an anti-cancer drug. It acts as a competitive inhibitor of dihydrofolate reductase."
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-IMM-8444491F42C168
+
+## conflicts
+
+## uncertainty
+The book does not name the bacterial enzyme sulfonamides inhibit — it calls it "the enzyme needed to incorporate PABA to form folic acid" — so no enzyme name is supplied here. It also gives no dose for either drug and none is written.
+
+## evidence_gaps
+This record names two drug classes and their mechanisms. It states no dose, no indication beyond the book's own words, and no brand name; availability in Egypt could not be verified from any source in this corpus. Its claim should carry risk_class treatment_or_action if a reviewer reads naming an anticancer and an antibacterial agent as treatment content, even though the concept is taught here as vitamin biochemistry rather than as prescribing.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The book's own vitamin section is the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T08.
+nanotopicId: No nanotopic exists below the microtopic level for nutrition.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the exam paper and the department book; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "folate", "methotrexate", "sulfonamide" and "dihydrofolate" — "sulfonamide" returns nothing, the folate hits are two choline and lipotropic records, and the methotrexate hit is an immunosuppression record.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+exclusionReason: Not excluded; no vitamin appears in the Biochemistry cancelled-items table.
+rejectedMergeCandidateIds: CON-IMM-8444491F42C168 states that azathioprine and methotrexate inhibit DNA production and lymphocyte proliferation. Not merged — it is an immunosuppression record whose objective is transplant and autoimmune therapy, and it names neither the enzyme nor the folate pathway; a question could test either without the other.
+relationships: Walked the 18 records returned for "vitamin", the four for "folate" and the two for "methotrexate". Nothing states the mechanism of a folate antagonist. Four loose neighbours are in related_concept_ids, including CON-REN-E6070C296322CB on 5-fluorouracil, which is the adjacent antimetabolite. No typed edges are written — this batch authors no relations file.

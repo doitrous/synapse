@@ -199,6 +199,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Adductor canal", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic Adductor canal is already the most precise node the department book supports; the book prints no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -369,6 +370,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Muscles of the Lateral (Peroneal) Compartment of the Leg", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic already names the compartment section the book prints; the book gives peroneus longus no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -540,6 +542,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "The Hip joint", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic The Hip joint is the most precise node the department book's own chapter structure supports.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -711,6 +714,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Posterior Tibial Artery", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic Posterior Tibial Artery is the most precise node the department book's own section headings support.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -881,6 +885,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Sciatic Nerve", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic Sciatic Nerve is the most precise node the department book's chapter on the gluteal region supports.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -1050,6 +1055,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Sciatic Nerve", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic Sciatic Nerve is the most precise node the department book's chapter on the gluteal region supports.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -1222,6 +1228,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Common Peroneal Nerve (Lateral popliteal nerve)", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic already names the book's own section for this nerve; the book prints no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -1392,6 +1399,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Common Peroneal Nerve (Lateral popliteal nerve)", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic already names the book's own section for this nerve; the book prints no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -1562,6 +1570,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Common Peroneal Nerve (Lateral popliteal nerve)", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic already names the book's own section for this nerve; the book prints no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -1734,6 +1743,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Common Peroneal Nerve (Lateral popliteal nerve)", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-ANA-T03 and has nothing finer for the lower limb.
 nanotopicId: The microtopic already names the book's own section for this nerve; the book prints no subdivision beneath it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.

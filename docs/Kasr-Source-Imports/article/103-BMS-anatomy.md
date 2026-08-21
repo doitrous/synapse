@@ -146,7 +146,7 @@ Saying the canal ends at the popliteal fossa. It ends at the adductor hiatus, wh
 ## callout_evidence
 ### Four contents: femoral artery, femoral vein, saphenous nerve, nerve to vastus medialis.
 Claims: CLM-MSK-ADDUCTOR-CANAL-02
-Citations: CIT-ANA103-ADDUCTOR-CANAL-02
+Citations: CIT-KA-ANAT-ADDUCTOR-CANAL-02
 Span: SPN-ANA-ADDUCTOR-CANAL-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -359,7 +359,7 @@ Naming the deep peroneal nerve as its supply. The deep branch is for the anterio
 ## callout_evidence
 ### Nerve supply: musculo-cutaneous nerve, that is the superficial peroneal nerve.
 Claims: CLM-MSK-PERONEUS-LONGUS-01
-Citations: CIT-ANA103-PERONEUS-LONGUS-01
+Citations: CIT-KA-ANAT-PERONEUS-LONGUS-01
 Span: SPN-ANA-PERONEUS-LONGUS-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -572,7 +572,7 @@ Listing muscles without saying which is the prime mover and which assists, when 
 ## callout_evidence
 ### Medial rotation is gluteus medius and minimus, anterior fibres only.
 Claims: CLM-MSK-HIP-MOVEMENTS-01
-Citations: CIT-ANA103-HIP-MOVEMENTS-01
+Citations: CIT-KA-ANAT-HIP-MOVEMENTS-01
 Span: SPN-ANA-HIP-MOVEMENTS-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -785,7 +785,7 @@ Forgetting the circumflex fibular artery, the one branch given high in the leg.
 ## callout_evidence
 ### The peroneal artery is the largest branch and the main supply of the leg.
 Claims: CLM-MSK-POST-TIBIAL-BRANCHES-01
-Citations: CIT-ANA103-POST-TIBIAL-BRANCHES-01
+Citations: CIT-KA-ANAT-POST-TIBIAL-BRANCHES-01
 Span: SPN-ANA-POST-TIBIAL-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -998,7 +998,7 @@ Giving the hamstrings as one block from the sciatic nerve, and losing the short 
 ## callout_evidence
 ### The short head of biceps femoris is the only hamstring supplied by the common peroneal part; every other hamstring comes from the tibial part.
 Claims: CLM-MSK-SCIATIC-BRANCHES-01
-Citations: CIT-ANA103-SCIATIC-BRANCHES-01
+Citations: CIT-KA-ANAT-SCIATIC-BRANCHES-01
 Span: SPN-ANA-SCIATIC-02
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -1219,14 +1219,14 @@ Swapping talipes equinovarus and talipes calcaneo-valgus between the two nerves.
 ## callout_evidence
 ### The nerve lies against the lateral aspect of the neck of the fibula, covered by skin and fascia only, which is why a fracture there injures it.
 Claims: CLM-MSK-CPN-INJURY-01
-Citations: CIT-ANA103-CPN-INJURY-01
+Citations: CIT-KA-ANAT-CPN-INJURY-01
 Span: SPN-ANA-CPN-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
 
 ### The deformity of common peroneal palsy is talipes equinovarus; the deformity of tibial nerve palsy is talipes calcaneo-valgus.
 Claims: CLM-MSK-CPN-DEFORMITY-01
-Citations: CIT-ANA103-CPN-DEFORMITY-01
+Citations: CIT-KA-ANAT-CPN-DEFORMITY-01
 Span: SPN-ANA-CPN-03
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21

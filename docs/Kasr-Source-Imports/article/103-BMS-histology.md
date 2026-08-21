@@ -181,7 +181,7 @@ Naming the hypodermis as a layer of the dermis, or of the skin.
 ## callout_evidence
 ### The epidermis is avascular, which is why the papillary layer is the more vascular of the two.
 Claims: CLM-DER-DERMIS-LAYERS-01
-Citations: CIT-KA-HIS-DERMIS-01
+Citations: CIT-KA-HIST-DERMIS-LAYERS-01
 Span: SPN-HIS-DERMIS-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -422,7 +422,7 @@ Answering "origin" with the cell's function. The paper asks four separate axes a
 ## callout_evidence
 ### The osteoblast arises from osteogenic cells; the osteoclast arises by fusion of mononuclear haemopoietic progenitor cells.
 Claims: CLM-MSK-OSTEOBLAST-01 | CLM-MSK-OSTEOCLAST-01
-Citations: CIT-KA-HIS-OSTEOBLAST-01 | CIT-KA-HIS-OSTEOCLAST-01
+Citations: CIT-KA-HIST-OSTEOBLAST-01 | CIT-KA-HIST-OSTEOCLAST-01
 Span: SPN-HIS-BONE-CELLS-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -675,7 +675,7 @@ Writing that the disc is present in all three muscle types. Skeletal muscle has 
 ## callout_evidence
 ### The lateral position of the gap junctions is what protects them from the contraction forces.
 Claims: CLM-MSK-INTERCALATED-DISC-02
-Citations: CIT-KA-HIS-ICD-02
+Citations: CIT-KA-HIST-INTERCALATED-DISC-02
 Span: SPN-HIS-ICD-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
@@ -929,7 +929,7 @@ Naming troponin as the calcium-binding protein. That is striated muscle; here it
 ## callout_evidence
 ### The sarcolemma is thin, surrounded by a basal lamina, and has caveolae instead of T-tubules; there is no tubular system.
 Claims: CLM-MSK-SMOOTH-MUSCLE-EM-01
-Citations: CIT-KA-HIS-SMOOTH-01
+Citations: CIT-KA-HIST-SMOOTH-MUSCLE-EM-01
 Span: SPN-HIS-SMOOTH-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21

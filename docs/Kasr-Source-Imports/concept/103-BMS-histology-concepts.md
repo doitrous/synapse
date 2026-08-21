@@ -255,6 +255,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "The Dermis", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T03.
 nanotopicId: The microtopic "The Dermis" is already the finest level the department book's own chapter structure names; a nanotopic would be invented.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the micrograph it needs is requested on ART-103-HIS-DERMIS-LAYERS.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -427,6 +428,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Bone Cells", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T02.
 nanotopicId: "Bone Cells" is the finest heading the department book prints under Bone; a nanotopic below it would be invented.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the fields it needs are requested on ART-103-HIS-BONE-CELLS.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -599,6 +601,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Bone Cells", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T02.
 nanotopicId: "Bone Cells" is the finest heading the department book prints under Bone; a nanotopic below it would be invented.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the fields it needs are requested on ART-103-HIS-BONE-CELLS.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -770,6 +773,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Cardiac Muscle", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T02.
 nanotopicId: "Cardiac Muscle" is the finest heading the department book prints under Muscle Tissue; a nanotopic below it would be invented.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the micrographs it needs are requested on ART-103-HIS-CARDIAC-INTERCALATED-DISC and on the written question.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
@@ -942,6 +946,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+microtopicId: The department book's own section, "Smooth Muscle", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T02.
 nanotopicId: "Smooth Muscle" is the finest heading the department book prints under Muscle Tissue; a nanotopic below it would be invented.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the micrograph it needs is requested on ART-103-HIS-SMOOTH-MUSCLE and on the written question.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
