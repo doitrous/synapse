@@ -396,7 +396,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-FND-9EA7F8E2898EB7 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B
+CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B
 ## related_articles
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte is described there as a blood cell, with its counts and its whole immunological family; here it is described as the macrophage's origin.
 ART-101-HIS-GRANULAR-LEUKOCYTES: The basophil is the mast cell's blood counterpart, sharing metachromatic granules and IgE receptors, and the book compares them directly.
@@ -696,7 +696,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-1D529ACEC2E2F3 | CON-FND-F1914E2CE56EBF | CON-FND-73F10C624D4BE1
+CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-73F10C624D4BE1
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.

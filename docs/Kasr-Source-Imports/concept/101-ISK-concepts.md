@@ -2773,7 +2773,7 @@ Cytology
 ## aliases
 Polyribosome | Polysome
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-SECRETORY-PATHWAY-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -2958,7 +2958,7 @@ Blood
 ## aliases
 Mononuclear phagocyte | Macrophage precursor
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
@@ -3050,7 +3050,7 @@ Cytology
 ## aliases
 Mitochondrion | Chondriosome
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-MITOCHONDRIA-AND-CYTOSKELETON
 ## support_mode
 direct_statement
 ## original_wording
@@ -6189,7 +6189,7 @@ Connective Tissue
 ## aliases
 Active fibroblast | Fibrocyte
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-CT-CELLS-COMPARED
 ## support_mode
 direct_statement
 ## original_wording
@@ -6281,7 +6281,7 @@ Blood
 ## aliases
 B cell | Large lymphocyte
 ## article_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
