@@ -43,7 +43,7 @@ const blueprintWeight = (seed: Seed, paperMarks: number, sittings: number) =>
 
 export function conceptBlock(
   source: SourceRef, seed: Seed, alsoSeenOn: string[] = [],
-  context: { paperMarks?: number; articleId?: string } = {},
+  context: { paperMarks?: number; articleId?: string; relatedArticleIds?: string[] } = {},
 ): string {
   const signals = [occurrence(source, seed), ...alsoSeenOn].join('\n')
   const weight = blueprintWeight(seed, context.paperMarks ?? 81, alsoSeenOn.length)
@@ -110,7 +110,7 @@ ${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ${seed.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}`
+${conceptTail(context.relatedArticleIds ?? [])}`
 }
 
 /**
@@ -166,7 +166,7 @@ ${conceptTail()}`
  * is worth more than a filled one that lies, and this content is going to a
  * faculty reviewer precisely because nobody has reviewed it.
  */
-function conceptTail(): string {
+function conceptTail(relatedArticleIds: string[] = []): string {
   return `## arabic_label
 
 ## arabic_aliases
@@ -178,7 +178,7 @@ function conceptTail(): string {
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+${relatedArticleIds.join(' | ') || '[clear]'}
 ## resource_ids
 ${DEPARTMENT_BOOK}
 ## approved_file_resource_ids
@@ -359,6 +359,7 @@ export const batchFile = (header: string, blocks: string[]) =>
  */
 export function mcqConceptBlock(
   concept: McqConcept, signals: string[], articleId?: string, asked?: string,
+  relatedArticleIds: string[] = [],
 ): string {
   // Weight from how often the books ask it. A question book asking a thing five
   // times across three books is blueprint evidence no single paper can give.
@@ -425,7 +426,7 @@ ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}
+${conceptTail(relatedArticleIds)}
 `
 }
 

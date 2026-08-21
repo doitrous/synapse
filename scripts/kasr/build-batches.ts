@@ -9,6 +9,29 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { mintConceptId, partsKey, subjectCollisions, subjectForPath, type KasrSubject, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
+
+/**
+ * What each article offers as further reading, read from the articles.
+ *
+ * A concept's `relatedArticleIds` is further reading, and the honest answer is
+ * whatever its teaching article already points at — every one of the 77 carries
+ * a `related_articles` list saying why each connects. Derived rather than typed,
+ * so it cannot drift from the articles it describes.
+ */
+function furtherReading(): Map<string, string[]> {
+  const dir = `${OUT_ROOT}/article`
+  const out = new Map<string, string[]>()
+  if (!existsSync(dir)) return out
+  for (const name of readdirSync(dir).filter((one) => one.endsWith('.md'))) {
+    for (const block of readFileSync(`${dir}/${name}`, 'utf8').split(/^\s*---\s*$/m)) {
+      const id = block.match(/## id\n(\S+)/)?.[1]
+      const related = block.match(/## related_articles\n([\s\S]*?)(?=\n## |$)/)?.[1] ?? ''
+      if (!id) continue
+      out.set(id, [...new Set([...related.matchAll(/^(ART-[A-Z0-9-]+)/gm)].map((m) => m[1]))])
+    }
+  }
+  return out
+}
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
 import { PAPER as EOY_2024 } from './seeds/101-eoy-2024.ts'
@@ -24,6 +47,7 @@ import { SITTING_SIGNALS } from './seeds/sittings.ts'
 const PAPERS: Paper[] = [EOY_2025, EOY_2024, EOY_2022, EOY_2022_SECOND, BAQOON_2024, BAQOON_2023, CASES_2025]
 
 const OUT = 'docs/Kasr-Source-Imports'
+const OUT_ROOT = 'docs/Kasr-Source-Imports'
 /**
  * The batch filename for a paper.
  *
@@ -63,6 +87,7 @@ const slug = (paper: Paper) =>
  * and inflates the blueprint weight of whatever happens to be asked often.
  */
 function concepts() {
+  const reading = furtherReading()
   const byKey = new Map<string, { paper: Paper, seed: Seed, repeats: string[] }>()
 
   for (const paper of PAPERS) {
@@ -88,6 +113,7 @@ function concepts() {
     conceptBlock(paper.source, seed, repeats, {
       paperMarks: paper.seeds.reduce((sum, one) => sum + one.marks, 0),
       articleId: ARTICLE_FOR_CONCEPT[mintConceptId(seed.subject, seed.key)],
+      relatedArticleIds: reading.get(ARTICLE_FOR_CONCEPT[mintConceptId(seed.subject, seed.key)] ?? '') ?? [],
     }))
 
   const repeated = [...byKey.values()].filter((entry) => entry.repeats.length).length
@@ -380,7 +406,9 @@ async function mcq() {
     // path takes the same field from the paper's printed question.
     const best = [...stems].sort((a, b) => b.timesAsked - a.timesAsked)[0]
     const asked = best ? `[asked ${best.timesAsked}x across the question books] ${best.stem}` : ''
-    conceptBlocks.push(mcqConceptBlock(concept, [...signals], [...articleIds].join(' | '), asked))
+    const reading = furtherReading()
+    conceptBlocks.push(mcqConceptBlock(concept, [...signals], [...articleIds].join(' | '), asked,
+      [...new Set([...articleIds].flatMap((id) => reading.get(id) ?? []))]))
   }
 
   const header = `Multiple-choice questions for 101 ISK, from the departmental question books.

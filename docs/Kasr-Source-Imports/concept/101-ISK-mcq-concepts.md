@@ -135,7 +135,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -270,7 +270,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -401,7 +401,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -539,7 +539,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -673,7 +673,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -806,7 +806,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -939,7 +939,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1080,7 +1080,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1214,7 +1214,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1353,7 +1353,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1496,7 +1496,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1635,7 +1635,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-FIBROUS-JOINTS | ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-SHOULDER-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1768,7 +1768,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1899,7 +1899,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FIBROUS-JOINTS | ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2031,7 +2031,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FIBROUS-JOINTS | ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2163,7 +2163,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FIBROUS-JOINTS | ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2304,7 +2304,7 @@ The books ask "the superior thoracic artery … arises behind the pectoralis min
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2437,7 +2437,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2571,7 +2571,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2704,7 +2704,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2845,7 +2845,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2979,7 +2979,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3113,7 +3113,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3249,7 +3249,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3401,7 +3401,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3535,7 +3535,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3677,7 +3677,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3830,7 +3830,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3965,7 +3965,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4101,7 +4101,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-DEEP-FASCIA | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4238,7 +4238,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4370,7 +4370,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4504,7 +4504,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4636,7 +4636,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4771,7 +4771,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4903,7 +4903,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5043,7 +5043,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5188,7 +5188,7 @@ Several cells used in these rows have concepts of their own that already belong 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5330,7 +5330,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5476,7 +5476,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5620,7 +5620,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5763,7 +5763,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5900,7 +5900,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6046,7 +6046,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6184,7 +6184,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6317,7 +6317,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6456,7 +6456,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6599,7 +6599,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6738,7 +6738,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -6884,7 +6884,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7022,7 +7022,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7164,7 +7164,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7300,7 +7300,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7436,7 +7436,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7576,7 +7576,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7719,7 +7719,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS | ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7852,7 +7852,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -7997,7 +7997,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8129,7 +8129,7 @@ The department book's cytology chapter does not mention proteasomes at all — i
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS | ART-101-HIS-BLOOD-PLATELETS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8261,7 +8261,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PARAXIAL-MESODERM | ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-NOTOCHORD | ART-101-ANA-FETAL-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8392,7 +8392,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PARAXIAL-MESODERM | ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-NOTOCHORD | ART-101-ANA-FETAL-PERIOD
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8523,7 +8523,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-PERIOD | ART-101-ANA-AMNIOTIC-FLUID | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8654,7 +8654,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-PERIOD | ART-101-ANA-AMNIOTIC-FLUID | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8786,7 +8786,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-PERIOD | ART-101-ANA-AMNIOTIC-FLUID | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -8921,7 +8921,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA | ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9053,7 +9053,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9186,7 +9186,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9317,7 +9317,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9448,7 +9448,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-EMBRYONIC-FOLDING | ART-101-ANA-DECIDUA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9582,7 +9582,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9714,7 +9714,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-FERTILIZATION | ART-101-ANA-IMPLANTATION | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9855,7 +9855,7 @@ The department book names no example of a mixed gland. The question books answer
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -9997,7 +9997,7 @@ The department book describes the three mechanisms and states explicitly that no
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10133,7 +10133,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10266,7 +10266,7 @@ The department book prints the nine-way classification as diagrams with no organ
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10398,7 +10398,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10529,7 +10529,7 @@ The department book names no gland against watery, serous or mucous. That the pa
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MYO-EPITHELIUM | ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-THE-CELL | ART-101-HIS-NEURO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10664,7 +10664,7 @@ The department book states dead neutrophils form pus cells and that pus raises b
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10796,7 +10796,7 @@ The department book puts eosinophils at 1–4% of the differential count. Severa
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -10930,7 +10930,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11061,7 +11061,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11192,7 +11192,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11323,7 +11323,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11454,7 +11454,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11596,7 +11596,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11749,7 +11749,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -11904,7 +11904,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12039,7 +12039,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12177,7 +12177,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12314,7 +12314,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12457,7 +12457,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12594,7 +12594,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12727,7 +12727,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -12867,7 +12867,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-CARTILAGINOUS-JOINTS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13005,7 +13005,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13144,7 +13144,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13278,7 +13278,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13409,7 +13409,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-CARTILAGINOUS-JOINTS | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13540,7 +13540,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13679,7 +13679,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13812,7 +13812,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -13945,7 +13945,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14082,7 +14082,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14214,7 +14214,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14348,7 +14348,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14484,7 +14484,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14617,7 +14617,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14748,7 +14748,7 @@ The department book does not say whether myo-epithelial cells are ectodermal in 
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-HIS-NEURO-EPITHELIUM | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -14882,7 +14882,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15019,7 +15019,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15156,7 +15156,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15298,7 +15298,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15430,7 +15430,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15570,7 +15570,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15708,7 +15708,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15842,7 +15842,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -15975,7 +15975,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16110,7 +16110,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16241,7 +16241,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16374,7 +16374,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16506,7 +16506,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-ARM | ART-101-ANA-MUSCLES-OF-THE-BACK
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16638,7 +16638,7 @@ The department book names only the taste bud. It does not extend neuro-epitheliu
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-SURFACE-EPITHELIUM | ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-HIS-MYO-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16772,7 +16772,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -16906,7 +16906,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17038,7 +17038,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17169,7 +17169,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17300,7 +17300,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17436,7 +17436,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17584,7 +17584,7 @@ One book asks which granulocyte shows most euchromatin and which most heterochro
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17722,7 +17722,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17853,7 +17853,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -17995,7 +17995,7 @@ Four adipocyte rows were filed under this leaf and are authored against this con
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18128,7 +18128,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18259,7 +18259,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18390,7 +18390,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18527,7 +18527,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST | ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18658,7 +18658,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLE-ATTACHMENTS | ART-101-ANA-AXILLA-BREAST
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18803,7 +18803,7 @@ The department book gives no length or diameter for a microvillus, a stereociliu
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -18939,7 +18939,7 @@ The department book names no transmembrane protein family for any junction — n
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19076,7 +19076,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19211,7 +19211,7 @@ The department book does not use the word connexin or connexon, describing the c
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19345,7 +19345,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19483,7 +19483,7 @@ The lamina lucida and lamina densa subdivision of the basal lamina is asked by t
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19614,7 +19614,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19747,7 +19747,7 @@ The department book describes the consequences without naming the disease. "Immo
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -19881,7 +19881,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20016,7 +20016,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20158,7 +20158,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20291,7 +20291,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20425,7 +20425,7 @@ The question books extend neuro-epithelium to the organ of Corti. The department
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20558,7 +20558,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20704,7 +20704,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20846,7 +20846,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -20987,7 +20987,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21131,7 +21131,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21273,7 +21273,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21407,7 +21407,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21542,7 +21542,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21675,7 +21675,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21814,7 +21814,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -21957,7 +21957,7 @@ Two rows filed under this leaf name the immunoglobulin the basophil and the mast
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22090,7 +22090,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22223,7 +22223,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22355,7 +22355,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22486,7 +22486,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22617,7 +22617,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22749,7 +22749,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -22880,7 +22880,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-DEEP-FASCIA | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -23013,7 +23013,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-DEEP-FASCIA | ART-101-ANA-HAND-ARTERIES
 ## resource_ids
 src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
