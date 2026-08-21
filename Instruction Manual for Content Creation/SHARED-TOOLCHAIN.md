@@ -1035,3 +1035,39 @@ neither in the other publisher's fragment list. So the 101 stripper **removes ex
 tokens that corpus needs (`P`, `y`) and keeps exactly the ones it should remove.** Per module,
 defaulting to `None`, and **list a checked corpus explicitly** — a corpus checked and found
 clean is a different fact from one nobody has looked at.
+
+### A null result that could not have shown the damage is not a clean bill of health
+
+Validating a destructive transform: **state what a passing test would look like if the damage
+were present, and check your test can tell the two apart.**
+
+The worked case. Everyone reached "the watermark half does not travel" from the false-positive
+side — 146 false positives, the P wave. Nobody had tested the other direction: whether the
+corpus the tool *is* trusted for was ever actually checked. "Safe for the 101 question books"
+was an assumption with a plausible story attached.
+
+The first check was for surviving `P face` and `E face` — freeze-fracture membrane
+terminology, real first-year histology, and `P` is in the strip list. **Zero of each.** That
+looks like a hit. It is not: `E` is **not** in the strip list, so if the books used that
+terminology the E-face half would have survived untouched. Zero of both means the books simply
+do not use it — **the test could not have shown damage, so its passing proved nothing.**
+
+The evidence that did the work was what *survived*: `cis face`, `trans face`, `entry face`,
+`exit face` — correct Golgi terminology the stripper cannot touch. Result: no damage across
+all 2,704 questions. Not the zeros.
+
+### Guard a collision on the resolved output path, not on the field that caused it
+
+A fix prompted by a resit-versus-EOM collision can easily end up keyed on **tier**, which
+leaves two formatives in one year colliding exactly the same way. Key on the **resolved
+filename** instead, so any two records landing on one name are caught whatever produced the
+clash:
+
+```
+Error: 1 batch filename(s) claimed by more than one paper — one would overwrite the other:
+  101-ISK-EOY-2025: EOY (ISK - 101) 199 (1).pdf and EOY (ISK - 101) 198 (1).pdf
+```
+
+It throws **at generation time, before anything is written** — existing batch files keep their
+timestamps through the refusal, so there is no partial write to clean up. Loud, not a skip.
+Verified by forcing a year collision rather than by reading the code.
