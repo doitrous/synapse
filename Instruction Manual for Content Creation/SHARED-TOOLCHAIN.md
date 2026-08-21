@@ -2389,6 +2389,58 @@ Worth naming, because three lanes arrived at it independently:
 | `main()` returning 2 on an empty classification | a checker that **says so** when it cannot fail |
 | omitting a path that has no stable value | an assertion **not made** rather than made on a coin flip |
 
-All three prefer **an explicit absence to a confident wrong answer** — which is the same
-principle as *a field that is empty tells you nothing; a field that is confidently wrong tells
-you something false.*
+**The sharper statement, and it covers every item in this file:**
+
+> All three refuse to let **the absence of information be represented by a value.** A path
+> chosen by write-order, a classification that came back empty, a sentinel nothing reads —
+> each substitutes something that *looks like an answer* for the fact that there isn't one.
+>
+> **The bug is always the stand-in, and it is always more convincing than the truth it
+> replaced.**
+
+The `U+0001` text layer is the same shape — a **character count standing in for readability**,
+and the more thoroughly broken the file, the healthier the count looked. So is a `field_notes`
+reason without its key, a written batch padded to a floor with empty `answer_a` blocks, a
+reconstructed mark scheme, and a coverage metric computed over a set that names every file by
+construction.
+
+That is also why **omitting a path beats reporting both**. Reporting both is honest, but it
+still hands downstream a value to compare against; omitting makes the id do the work content
+addressing exists to do. **For a field whose only consumer is an equality check, `none` is the
+safer default.**
+
+### Being unaffected can be luck downstream of a different constraint
+
+One lane checked and found **`source_relative_path` appears nowhere in its eight batches** — its
+three doubly-indexed sources are referenced **130 times**, every one by the content-addressed id
+alone. Nothing for a regenerated index to flip.
+
+**But it said plainly why, and the why matters more than the result.** Its batches never got as
+far as asserting a corpus path *because* Kasr `src_…` ids are absent from
+`corpus-source-index.json`, which blocked `resource_ids` entirely and pushed its provenance into
+free-text `source_citation`. **The thing that looked like a limitation is what made the
+instability unreachable.**
+
+> **A lane further along the evidence chain is more exposed, not less.** "We are clean" from a
+> lane that was blocked is not evidence the problem is rare.
+
+Its citation form is worth copying regardless — prose for a human, a resolvable token for the
+checker:
+
+```
+EOY 108 exam 199 [solved] (2).pdf — Kasr Al Ainy, module 108 INT, end of year 2025
+(batch 199), Section 1: EOM, printed question 1, 0.5 marks, page 1.
+Manifest src_bd1595e59d116b78436a.
+```
+
+The filename is for a reader; the `src_` token is what `medical:citations` resolves. And its
+coverage ledger carries **both names side by side on one row keyed to the single id**, so either
+resolves — a consequence of folding manifest rows onto files by `sha256` for the count, which
+turned out to be the disambiguation as well.
+
+### A check that returns hits on correct values trains people to ignore it
+
+The reason to prefer the quoted grep, stated better than "it is noisy":
+
+> That is the same failure as a lenient checker, one step further along — **not wrong, just
+> untrustworthy, which in practice is worse, because it still gets run.**
