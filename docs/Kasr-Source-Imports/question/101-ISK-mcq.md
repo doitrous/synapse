@@ -45,7 +45,7 @@
     Types of Connective Tissue Proper — 19 questions, 6 concepts
     Veins of the Upper Limb — 9 questions, 3 concepts
 
-  Extracted from 2704 distinct questions across thirty question books and
+  Extracted from 2867 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
   copy each other freely. Every item carries how many times it was asked, which is
   blueprint evidence no single sat paper can give.
@@ -1545,7 +1545,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -1557,9 +1557,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q74. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q74; EOM ISK 101 - 2023.pdf p7 q78. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. In the cubital fossa the median nerve lies medial to the brachial artery, so C is the statement that is not correct; A, B and D are all true of the nerve.
 
@@ -2462,7 +2462,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -2474,9 +2474,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q12. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q12; EOM ISK 101 - 2023.pdf p9 q96. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -2545,7 +2545,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -2557,9 +2557,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q15. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q15; EOM ISK 101 195 Answers.pdf p6 q64. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, and A is wrong: brachialis is supplied by the musculocutaneous nerve, with a twig from the radial, and never by the median. C is true — brachialis is the main flexor of the elbow joint. This is the department book's revised printing of a question whose earlier versions had no true option at all, and the revision is exactly the addition of C.
 
@@ -3126,7 +3126,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -3138,9 +3138,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p56 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p56 q1; EOM ISK EOM exam 2024.pdf p6 q64. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The nerve pierces the deep fascia at the lateral border of the biceps tendon about an inch above the elbow and continues as the lateral cutaneous nerve of the forearm, which makes C true; A reverses its plane, B gives the wrong cord and D gives it a radial muscle.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -3209,7 +3209,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -3221,9 +3221,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3; EOM ISK EOM exam 2024.pdf p6 q67. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, and C is the exact opposite of the truth: biceps is the powerful supinator, and it cannot pronate. B is the answer — flexion and supination of the forearm.
 
@@ -3379,7 +3379,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -3391,9 +3391,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q15. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q15; EOM ISK 101 - 2023.pdf p7 q73. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -3968,7 +3968,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -3980,9 +3980,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q2. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q2; EOM ISK 101 195 Answers.pdf p7 q73. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, and C is wrong: the nerve supplies brachialis and lies on it, but the muscle it pierces is coracobrachialis. The same question at `the-musculocutaneous-nerve-pierces-which-muscle-2022-em-em-e-ce2ed1fe` keys A.
 
@@ -4051,7 +4051,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -4063,9 +4063,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q5; EOM ISK 101 - 2023.pdf p10 q105. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -4885,7 +4885,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -4897,9 +4897,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16; EOM ISK End 101 — 2022.pdf p4 q47. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The book prints B, the fibrous capsule, which is the first of the seven components and plainly a true character. The false statement is C: articular cartilage is hyaline, not yellow elastic — elastic cartilage is found in the pinna and epiglottis and never on an articular surface.
 
@@ -5051,7 +5051,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -5063,9 +5063,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18; EOM ISK 101 195 Answers.pdf p4 q45. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Of the four, only the knee is synovial, and a joint cavity — even a potential one — exists in no other class of joint.
 
@@ -5881,7 +5881,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -5893,9 +5893,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79; EOM ISK 101 195 Answers.pdf p8 q82. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root; the medial pectoral, axillary and thoracodorsal nerves all arise from cords.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -6134,7 +6134,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -6146,9 +6146,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14; EOM ISK 101 - 2023.pdf p9 q97. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries D, but serratus anterior genuinely does form the medial wall of the axilla, so it cannot be the exception. The exception is B: the roots of the plexus lie in the neck and the axilla holds the cords.
 
@@ -8391,7 +8391,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -8403,9 +8403,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1; EOM ISK 101 195 Answers.pdf p10 q104. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries C, but the long head of triceps arises from the infraglenoid tubercle of the scapula and runs down the back of the arm, nowhere near the groove. The intertubercular groove lodges the tendon of the long head of biceps, held there by the transverse humeral ligament.
 
@@ -9229,7 +9229,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -9241,9 +9241,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q10. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q10; EOM ISK 101 195 Answers.pdf p10 q106. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key; the keyed copy `the-suprascapular-nerve-is-a-branch-from-the-ipka-2022-2021-54f34e95` marks D, the posterior cord, which is wrong. The suprascapular nerve is one of the two branches of the upper trunk, with the nerve to subclavius.
 
@@ -10656,7 +10656,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -10668,9 +10668,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39. Manifest src_c6ab1b49dc16762227e1.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39; EOM ISK End 101 — 2022.pdf p4 q441. Manifest src_c6ab1b49dc16762227e1, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Delta granules do hold ATP; each of the other three options misassigns either a structure or a granule content.
 
@@ -11569,7 +11569,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -11581,9 +11581,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q44; Anatomy MCQ Book [2025] [first priority].pdf p8 q44. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q44; Anatomy MCQ Book [2025] [first priority].pdf p8 q44; EOM first 2021 101 INT end of module.pdf p3 q16. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc, src_9487fd713153c573087f.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -12897,7 +12897,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -12909,9 +12909,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25; EOM ISK 101 195 Answers.pdf p1 q2. Manifest src_d1414701d8fcb55932b6, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -15221,7 +15221,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -15233,9 +15233,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q87. Manifest src_4e481d399b2ffd65b97a.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q87; EOM ISK 101 - 2023.pdf p2 q20. Manifest src_4e481d399b2ffd65b97a, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -16387,7 +16387,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -16399,9 +16399,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q39. Manifest src_c30d9391aa0861f41e44.
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q39; EOM first 2021 101 INT end of module.pdf p2 q14. Manifest src_c30d9391aa0861f41e44, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -25027,7 +25027,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -25039,9 +25039,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q8. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q8; EOM first 2021 101 INT end of module.pdf p2 q10. Manifest src_d1414701d8fcb55932b6, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 3 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -33248,7 +33248,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -33260,9 +33260,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q9. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q9; EOM ISK 101 - 2023.pdf p2 q15. Manifest src_6846577508f49244d715, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys A, the phagosome, which gives the heterolysosome. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, and the same books key `fusion-of-1ry-lysosome-with-pinocytic-vesicle-334eaa05` as the multivesicular body. Overridden to B.
 
@@ -39066,7 +39066,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -39078,9 +39078,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q2. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q2; EOM ISK EOM exam 2024.pdf p2 q12. Manifest src_d1414701d8fcb55932b6, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys B, tubules of the rough reticulum, which produce transfer vesicles. Secretory vesicles bud from the Golgi's exit face; the same books key `the-organelle-that-packages-proteins-within-the-cell-is-41e916bd` and `all-of-the-following-are-products-of-golgi-apparatus-except-6aaae4bb` consistently with the Golgi as the source.
 
@@ -40643,7 +40643,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -40655,9 +40655,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q21. Manifest src_620516ae7327c0f4fc2f.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q21; EOM ISK End 101– 2021 (answers).pdf p1 q5. Manifest src_620516ae7327c0f4fc2f, src_17bf088a37f1ab6540a3.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -42469,7 +42469,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -42481,9 +42481,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7; EOM ISK 101 195 Answers.pdf p5 q48; EOM ISK 101 - 2023.pdf p4 q50. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.
 
@@ -43133,7 +43133,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -43145,9 +43145,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5; EOM ISK 101 - 2023.pdf p5 q59. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The books key this to placenta accreta, which is one of the department book's own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.
 
@@ -43880,7 +43880,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -43892,9 +43892,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26; EOM ISK EOM exam 2024.pdf p11 q417. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.
 
@@ -44212,7 +44212,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -44224,9 +44224,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34; EOM first 2021 101 INT end of module.pdf p6 q44. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9487fd713153c573087f.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -45457,7 +45457,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -45469,9 +45469,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7; EOM ISK 101 195 Answers.pdf p5 q56. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -48781,7 +48781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -48793,9 +48793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3; EOM ISK 101 195 Answers.pdf p8 q80. Manifest src_b7301bfcd7d002317e40, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The contents of the fossa run, from medial to lateral, median nerve, brachial artery, biceps tendon, radial nerve — so the nerve found medial to the artery is the median.
 
@@ -48947,7 +48947,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -48959,9 +48959,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26; EOM ISK EOM exam 2024.pdf p8 q85. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, biceps brachii, which is musculocutaneous and lies in the arm — nothing at the medial epicondyle can reach it. The ulnar nerve supplies only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and only the first is offered.
 
@@ -49030,7 +49030,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 High
 ## reasoning_level
@@ -49042,9 +49042,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27; EOM ISK 101 195 Answers.pdf p7 q74; EOM ISK 101 - 2023.pdf p10 q106. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -50275,7 +50275,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -50287,9 +50287,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10; EOM ISK 101 195 Answers.pdf p9 q93. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, extensor digitorum, which is the compartment’s principal content. The fourth compartment carries extensor digitorum and extensor indicis with the posterior interosseous nerve and the anterior interosseous artery — an odd pairing, and the one the item is built on. The structure that does not pass is the anterior interosseous nerve, which ends in the forearm on the front of the interosseous membrane at pronator quadratus.
 
@@ -50615,7 +50615,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -50627,9 +50627,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13; EOM ISK 101 195 Answers.pdf p10 q102. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -51366,7 +51366,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -51378,9 +51378,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1; EOM ISK 101 195 Answers.pdf p6 q65. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The anterior interosseous nerve is the branch that supplies flexor pollicis longus, and where a branch and its parent trunk are both offered this faculty keys the branch.
 
@@ -51532,7 +51532,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -51544,9 +51544,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26; EOM ISK 101 - 2023.pdf p10 q103. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -51781,7 +51781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -51793,9 +51793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71; EOM ISK 101 - 2023.pdf p6 q68. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pronator teres is median, flexor pollicis longus is median through the anterior interosseous nerve and opponens pollicis is median through the recurrent branch; adductor pollicis is supplied by the deep branch of the ulnar nerve.
 
@@ -51864,7 +51864,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -51876,9 +51876,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q5; EOM ISK 101 195 Answers.pdf p11 q113. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the elbow joint, which is a hinge and permits flexion and extension only. Rotation of the forearm takes place at the superior and inferior radio-ulnar joints, which are pivot joints, even though the superior one shares a capsule with the elbow.
 
@@ -52781,7 +52781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -52793,9 +52793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5; EOM ISK 101 - 2023.pdf p7 q82. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, which is true and therefore not the incorrect statement: the medial cutaneous nerve of the forearm is a branch of the medial cord. The incorrect statement is B — the skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and by the supraclavicular nerves above them, not by the lateral cord, whose only cutaneous territory is the lateral forearm.
 
@@ -53943,7 +53943,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -53955,9 +53955,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26; EOM ISK 101 195 Answers.pdf p11 q111. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Brachioradialis flexes the elbow rather than extending it, lies on the lateral side of the forearm, and is supplied by the radial nerve itself rather than by the posterior interosseous branch — leaving the mid-prone action as the only true statement.
 
@@ -55196,7 +55196,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -55208,9 +55208,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2; EOM ISK 101 - 2023.pdf p6 q69. Manifest src_b7301bfcd7d002317e40, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Flexor pollicis longus arises from the anterior surface of the radius and the interosseous membrane; the other three all act on the radius rather than arising from it.
 
@@ -55279,7 +55279,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -55291,9 +55291,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3; EOM ISK EOM exam 2024.pdf p5 q50. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Extensor indicis is a deep extensor and posterior interosseous; anconeus and extensor carpi radialis longus are supplied by the radial nerve itself, and brachialis is musculocutaneous.
 
@@ -55445,7 +55445,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -55457,9 +55457,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24; EOM ISK 101 - 2023.pdf p8 q89. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -56200,7 +56200,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -56212,9 +56212,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13; EOM ISK 101 195 Answers.pdf p6 q63. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, that the superficial radial nerve supplies extensor carpi ulnaris, which is false: the superficial branch is wholly cutaneous and supplies no muscle at all — extensor carpi ulnaris takes the deep branch, the posterior interosseous nerve. The true statement is C, its relation to the radial artery in the forearm.
 
@@ -56951,7 +56951,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -56963,9 +56963,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76; EOM ISK End 101 — 2022.pdf p10 q104; EOM ISK 101 - 2023.pdf p10 q404. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem, which is an extraction artefact. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, an arch that lies just distal to the medial epicondyle.
 
@@ -57299,7 +57299,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -57311,9 +57311,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q12. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q12; EOM ISK 101 195 Answers.pdf p9 q98; EOM ISK End 101 — 2022.pdf p11 q117. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives abductor pollicis longus, which does abduct the wrist. Palmaris longus is the midline muscle and the only one in the list that cannot deviate the hand.
 
@@ -57556,7 +57556,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -57568,9 +57568,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q13; EOM ISK 101 - 2023.pdf p11 q116. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, extensor carpi ulnaris, which is one of the four muscles of the common extensor origin on the lateral epicondyle. Abductor pollicis longus is a deep extensor arising from the backs of the ulna, the radius and the interosseous membrane, and it is the one muscle in the list with no epicondylar attachment.
 
@@ -57643,7 +57643,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -57655,9 +57655,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q5. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q5; EOM ISK 101 195 Answers.pdf p9 q97. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives extensor carpi ulnaris, which does arise from the lateral epicondyle. Abductor pollicis longus is the deep extensor with no attachment to it.
 
@@ -57813,7 +57813,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 High
 ## reasoning_level
@@ -57825,9 +57825,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13; EOM ISK 101 195 Answers.pdf p8 q88; EOM ISK End 101 — 2022.pdf p10 q109. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, the posterior cutaneous nerve of the forearm, which is a genuine radial branch given in the spiral groove. The one in the list that is not radial is the upper lateral cutaneous nerve of the arm, which comes from the posterior branch of the axillary nerve and supplies the skin over the lower half of deltoid.
 
@@ -58236,7 +58236,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -58248,9 +58248,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25; EOM ISK 101 195 Answers.pdf p6 q66. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, supinator forming the floor of the cubital fossa "along with the brachioradialis"; the floor is brachialis and supinator, brachioradialis being the lateral boundary. This copy replaces the fifth option of its siblings with a statement about the muscle’s origin, and that statement is true: supinator arises from the anular and the lateral collateral ligaments as well as from the lateral epicondyle and the supinator crest of the ulna.
 
@@ -58655,7 +58655,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -58667,9 +58667,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23; EOM ISK 101 195 Answers.pdf p11 q119. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -65793,7 +65793,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -65805,9 +65805,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2; EOM ISK 101 195 Answers.pdf p7 q68. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key, and the one keyed copy marks A, princeps pollicis, which is a radial branch and cannot be the exception. The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, so B is the exception.
 
@@ -66042,7 +66042,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -66054,9 +66054,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72; EOM ISK 101 - 2023.pdf p6 q70. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so adduction of the thumb is what is lost; wasting of the thenar eminence, loss of abduction and sensation over the thumb are all median.
 
@@ -66208,7 +66208,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -66220,9 +66220,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8; EOM ISK 101 195 Answers.pdf p8 q78; EOM ISK 101 - 2023.pdf p10 q111. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-super-cial-palmar-arch-i-25404826` marks B. The superficial arch gives four palmar digital arteries, of which the common palmar digitals are three.
 
@@ -66540,7 +66540,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -66552,9 +66552,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30; EOM ISK 101 195 Answers.pdf p9 q92. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve accompanies the deep palmar arch and lies within its concavity, which is true as printed; the level in B belongs to the superficial arch, the hypothenar muscles in C are supplied by the deep branch not the superficial, and flexor digitorum superficialis inserts into the middle phalanx, not the distal.
 
@@ -67702,7 +67702,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -67714,9 +67714,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8; EOM ISK 101 195 Answers.pdf p9 q94. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, abductor digiti minimi, which is a hypothenar muscle and squarely within the deep branch's territory. The exception is C: the first and second lumbricals are supplied by the median nerve.
 
@@ -69113,7 +69113,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -69125,9 +69125,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27; EOM ISK EOM exam 2024.pdf p8 q87. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -70358,7 +70358,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -70370,9 +70370,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9; EOM ISK 101 195 Answers.pdf p10 q100. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but the medial (ulnar) collateral ligament is a genuine ligament of the wrist. The anular ligament belongs to the superior radio-ulnar joint at the other end of the forearm, so D is the one that is not a wrist ligament.
 
@@ -73263,7 +73263,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -73275,9 +73275,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q32. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q32; EOM first 2021 101 INT end of module.pdf p2 q11. Manifest src_6846577508f49244d715, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A. Best's carmine does stain glycogen, so A is a true statement — but so is B, since the department book states that PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -73761,7 +73761,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -73773,9 +73773,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q31. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q31; EOM ISK End 101 — 2022.pdf p1 q4. Manifest src_6846577508f49244d715, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. The department book gives Sudan III as the fat stain and PAS as the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best's carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -75089,7 +75089,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -75101,9 +75101,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q1. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q1; EOM first 2021 101 INT end of module.pdf p2 q8. Manifest src_d1414701d8fcb55932b6, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -76334,7 +76334,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -76346,9 +76346,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q41. Manifest src_c30d9391aa0861f41e44.
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q41; EOM first 2021 101 INT end of module.pdf p2 q15. Manifest src_c30d9391aa0861f41e44, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -78500,7 +78500,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -78512,9 +78512,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9; EOM ISK 101 195 Answers.pdf p11 q116. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, which is one of the three actions latissimus dorsi cannot perform. It extends, adducts and medially rotates the arm, so D is the only true statement offered.
 
@@ -80097,9 +80097,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q14; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q18; Upper MCQ Dr.jalal (1).pdf p55 q18; Anatomy Question [Upper Limb] (1).pdf p6 q33; Anatomy MCQ Book [2025] [first priority].pdf p24 q33. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q14; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q18; Upper MCQ Dr.jalal (1).pdf p55 q18; Anatomy Question [Upper Limb] (1).pdf p6 q33; Anatomy MCQ Book [2025] [first priority].pdf p24 q33; EOM ISK 101 - 2023.pdf p8 q92. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 5 times across the question books.
+Asked 6 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -80832,7 +80832,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.5
+9.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -80844,9 +80844,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q18; Upper MCQ Dr.jalal (1).pdf p15 q18; Anatomy MCQ Book [2025] [first priority].pdf p22 q19. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q18; Upper MCQ Dr.jalal (1).pdf p15 q18; Anatomy MCQ Book [2025] [first priority].pdf p22 q19; EOM ISK 101 - 2023.pdf p7 q75. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 3 times across the question books.
+Asked 4 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the three copies of this question in the bank carry three different letters between them — A on `the-following-structure-is-a-content-of-the-cubital-fossa-de-17e185eb` and D on `the-followfng-structure-is-a-content-of-the-cubital-fossa-96e524e5`. The contents of the fossa are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; brachioradialis is the lateral boundary and the ulnar nerve is behind the medial epicondyle, so B is the only option that is a content.
 
@@ -82907,7 +82907,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -82919,9 +82919,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q3; EOM ISK EOM exam 2024.pdf p8 q84. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Winging brought out by pushing against a wall is the classic test of serratus anterior, whose nerve — the long thoracic — lies exposed on the muscle on the lateral chest wall, exactly where the stab is described.
 
@@ -82990,7 +82990,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -83002,9 +83002,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q4. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q4; EOM ISK EOM exam 2024.pdf p6 q66. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is D, the axillary nerve, which is wrong: the axillary nerve is at the surgical neck, not the mid-shaft. The radial nerve lies in the spiral groove directly against the mid-shaft, and the two other copies of this question in the bank both give the radial nerve.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -83073,7 +83073,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -83085,9 +83085,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q6; EOM ISK 101 195 Answers.pdf p11 q120. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Holding paper between two fingers is adduction, produced by the palmar interossei, and every interosseous muscle takes the deep branch of the ulnar nerve.
 
@@ -83156,7 +83156,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -83168,9 +83168,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q32. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q32; EOM ISK 101 195 Answers.pdf p7 q76. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Thumb adduction is adductor pollicis, the muscle in which the deep branch of the ulnar nerve terminates; a wound at the wrist that spares sensation and takes only this movement is a deep branch lesion.
 
@@ -83405,7 +83405,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -83417,9 +83417,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q6; EOM ISK 101 195 Answers.pdf p8 q83. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the median nerve, and it is wrong for the same reason as on the two sibling copies: the median nerve owns the lateral two-thirds of the palm, and the lateral two-thirds of the dorsum is superficial radial territory.
 
@@ -83654,7 +83654,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -83666,9 +83666,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q1; EOM ISK EOM exam 2024.pdf p4 q47. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy; the identically worded `after-drinking-heavily-on-a-saturday-night-a-man-fell-asleep-09f4ce28` is keyed C. The chair back compresses the radial nerve in the axilla, which is the named mechanism of Saturday night palsy.
 
@@ -84484,7 +84484,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -84496,9 +84496,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q5; EOM ISK 101 195 Answers.pdf p10 q101. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, claw hand, and it is wrong twice over: claw hand is the deformity of Klumpke’s paralysis and of ulnar injury, and Erb’s palsy spares the hand altogether because C8 and T1 are intact. The posture of Erb’s palsy is the policeman’s or porter’s tip position.
 
@@ -85148,7 +85148,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -85160,9 +85160,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q11. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q11; EOM ISK 101 195 Answers.pdf p7 q72. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, winging of the scapula, which belongs to the long thoracic nerve. The axillary nerve supplies deltoid, and deltoid is what gives the shoulder its rounded contour — so its wasting flattens the shoulder.
 
@@ -87397,7 +87397,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -87409,9 +87409,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q56. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q56; EOM ISK 101 - 2023.pdf p7 q80. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy; the sibling asked twice is keyed C. Clawing of the fourth and fifth fingers with the index and middle largely spared is the signature of an ulnar lesion, the sparing coming from the median supply of the lateral two lumbricals.
 
@@ -88144,7 +88144,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -88156,9 +88156,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q73. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q73; EOM ISK 101 - 2023.pdf p7 q77. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Three of the four statements are true of the ulnar nerve — it gives no branch in the arm, it enters the hand superficial to the flexor retinaculum, and its injury claws the hand partially — leaving the root value as the false one. The ulnar nerve is C8 and T1, from the medial cord; C6 belongs to the upper part of the plexus and never reaches it.
 
@@ -88393,7 +88393,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -88405,9 +88405,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q2. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q2; EOM ISK 101 - 2023.pdf p6 q66. Manifest src_b7301bfcd7d002317e40, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives the median nerve, which passes deep to the retinaculum rather than over it. The ulnar nerve is the structure that crosses superficial to it.
 
@@ -88725,7 +88725,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -88737,9 +88737,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q75. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q75; EOM ISK 101 - 2023.pdf p8 q87. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The deep branch is a branch in the hand and supplies the hypothenar muscles, the interossei, the medial two lumbricals and adductor pollicis. Flexor carpi ulnaris is a forearm muscle, supplied by the ulnar nerve trunk in the upper forearm long before the deep branch exists.
 
@@ -89804,7 +89804,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -89816,9 +89816,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q4. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q4; EOM ISK End 101 — 2022.pdf p7 q74. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The musculocutaneous nerve pierces the deep fascia about an inch above the elbow at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm — the two are the same nerve under two names.
 
@@ -89887,7 +89887,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -89899,9 +89899,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q35. Manifest src_69103a53ec28a93958d5.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q35; EOM ISK 101 - 2023.pdf p8 q93. Manifest src_69103a53ec28a93958d5, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -90053,7 +90053,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -90065,9 +90065,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q33. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q33; EOM ISK 101 195 Answers.pdf p11 q118. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The dorsum of the hand is divided between the superficial branch of the radial nerve over the lateral two-thirds and the dorsal branch of the ulnar nerve over the medial third.
 
@@ -90476,7 +90476,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -90488,9 +90488,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q11. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q11; EOM ISK 101 195 Answers.pdf p10 q107. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the one keyed copy of the question gives C6 alone, which is wrong. The long thoracic nerve arises by three roots, from C5, C6 and C7, which is also why it is a root branch rather than a trunk or cord branch.
 
@@ -90733,7 +90733,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -90745,9 +90745,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q12. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q12; EOM ISK 101 195 Answers.pdf p10 q108. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Trapezius is the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus: its motor supply is the spinal root of the accessory nerve, with C3 and C4 carrying sensation.
 
@@ -91480,7 +91480,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -91492,9 +91492,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q79. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q79; EOM ISK 101 195 Answers.pdf p8 q86. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The median and ulnar nerves both cross the whole arm without giving a single branch — the median gives its first branches in the cubital fossa and the ulnar in the forearm — while the musculocutaneous supplies coracobrachialis, biceps and brachialis and the radial supplies triceps and anconeus.
 
@@ -91729,7 +91729,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -91741,9 +91741,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6; EOM ISK EOM exam 2024.pdf p8 q82. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the ulnar nerve, which is the one nerve at the wrist that does not enter the tunnel: it crosses superficial to the flexor retinaculum in the canal of Guyon. The structure in the tunnel is the median nerve, with the long flexor tendons.
 
@@ -93808,7 +93808,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -93820,9 +93820,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53; EOM ISK 101 - 2023.pdf p1 q9. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -97962,7 +97962,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -97974,9 +97974,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9; EOM ISK 101 195 Answers.pdf p4 q43. Manifest src_34c967631e388497dc35, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -98792,7 +98792,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -98804,9 +98804,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q26; EOM ISK 101 195 Answers.pdf p8 q81. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -98958,7 +98958,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -98970,9 +98970,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q1; EOM ISK EOM exam 2024.pdf p7 q73. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pectoralis major is the standard example of a doubly innervated muscle: the lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve, after passing through pectoralis minor, supplies the sternocostal head.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -99713,7 +99713,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -99725,9 +99725,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q8. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q8; EOM ISK 101 195 Answers.pdf p10 q105. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pectoralis major, pectoralis minor, subclavius and the clavipectoral fascia are the four components of the anterior wall; teres major is a posterior wall muscle and is the exception.
 
@@ -101705,7 +101705,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -101717,9 +101717,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90. Manifest src_1fb914ce96908301b7b1.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90; EOM ISK End 101 — 2022.pdf p3 q34. Manifest src_1fb914ce96908301b7b1, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -109590,7 +109590,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -109602,9 +109602,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19; EOM ISK EOM exam 2024.pdf p10 q410. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. Of the four cavities offered, only the amniotic cavity forms within the inner cell mass; the chorionic cavity forms in the extra-embryonic mesoderm, the blastocele is already there before the embryoblast divides, and the antrum belongs to the ovarian follicle.
 
@@ -109839,7 +109839,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -109851,9 +109851,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6; EOM ISK 101 195 Answers.pdf p5 q57. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -110254,7 +110254,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -110266,9 +110266,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7; EOM ISK 101 195 Answers.pdf p6 q58. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. Three of the four statements are events the department book places in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
 
@@ -111001,7 +111001,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -111013,9 +111013,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5; EOM ISK 101 195 Answers.pdf p5 q52. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The books key this to B, that somites start forming during the second week. The department book puts the first pair of occipital somites on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
 
@@ -113906,7 +113906,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -113918,9 +113918,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1; EOM ISK EOM exam 2024.pdf p5 q57. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the second printing of the same case; abduction is the movement deltoid alone performs, so it is the one that confirms an axillary nerve lesion.
 
@@ -114985,7 +114985,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -114997,9 +114997,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22; EOM ISK End 101 — 2022.pdf p4 q46. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -115317,7 +115317,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -115329,9 +115329,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23; EOM ISK EOM exam 2024.pdf p9 q95. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
 
@@ -116147,7 +116147,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -116159,9 +116159,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47; EOM first 2021 101 INT end of module.pdf p4 q27. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_9487fd713153c573087f.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -116230,7 +116230,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -116242,9 +116242,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12; EOM ISK 101 - 2023.pdf p1 q6. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -118388,7 +118388,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -118400,9 +118400,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45. Manifest src_25ac512fb1cb23a6f696.
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45; EOM ISK 101 - 2023.pdf p3 q29. Manifest src_25ac512fb1cb23a6f696, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -127684,7 +127684,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -127696,9 +127696,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39. Manifest src_4e481d399b2ffd65b97a.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39; EOM first 2021 101 INT end of module.pdf p6 q41. Manifest src_4e481d399b2ffd65b97a, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -128597,7 +128597,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -128609,9 +128609,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32; EOM ISK EOM exam 2024.pdf p10 q412. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_16f747e1171423933757.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -129842,7 +129842,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -129854,9 +129854,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53. Manifest src_c30d9391aa0861f41e44.
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53; EOM ISK 101 195 Answers.pdf p3 q23. Manifest src_c30d9391aa0861f41e44, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -131340,7 +131340,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -131352,9 +131352,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2; EOM ISK EOM exam 2024.pdf p9 q91. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
 

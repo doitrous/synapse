@@ -4427,7 +4427,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-442B2EEF9107 | CLM-5DD96673F598 | CLM-424EA5AAE2FF | CLM-B2B513C852D4
+CLM-442B2EEF9107 | CLM-5DD96673F598 | CLM-424EA5AAE2FF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids

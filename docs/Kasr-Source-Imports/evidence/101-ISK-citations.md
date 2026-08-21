@@ -1,7 +1,7 @@
 <!--
   Where the department book says what the claims say.
 
-  327 citations, every one quoting the book's own line.
+  329 citations, every one quoting the book's own line.
 
   A span is attached only where it carries at least 60% of the claim's
   distinctive vocabulary, and only from the chapter the concept's own curriculum
@@ -2907,6 +2907,286 @@ yes
 
 # Item
 ## id
+CIT-73E54EC54DF6
+## claim_id
+CLM-03BAF0005C5B
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+8. Compare the types of C.T. Proper in terms of the relative amount and arrangement of cells, fibres and ground substance. The connective tissue (C.T.) forms a linkage with the epithelial, muscular, and
+## locator_type
+printed_page
+## locator_page
+40
+## locator_section
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## locator_detail
+PDF page 41, printed as 40
+## context_note
+Matched to the claim on 67% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.67
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-7205B88991C3
+## claim_id
+CLM-9F4C3CF86D8E
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+When exposed to specific antigen they become activated by T- helper cells to: a. Plasmablasts then plasma cells to produce antibodies. (Humoral immunity) b. B- memory cells responsible for the rapid second immune response. HIV human Immunodeficiency virus that causes AIDS destroys T-helper cells → decreased immunity & patient becomes susceptible to infections.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+101 ISK > Histology > Blood > Non granular leukocytes
+## locator_detail
+PDF page 38, printed as 37
+## context_note
+Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.63
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-F3E7B0AC93E6
+## claim_id
+CLM-43B503AB8E49
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+When exposed to specific antigen they become activated by T- helper cells to: a. Plasmablasts then plasma cells to produce antibodies. (Humoral immunity) b. B- memory cells responsible for the rapid second immune response.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+101 ISK > Histology > Blood > Non granular leukocytes
+## locator_detail
+PDF page 38, printed as 37
+## context_note
+Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-A98666843D84
+## claim_id
+CLM-6661BBB9FD08
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+1. Terminate the allergy by: 1. Secrete Heparin [prevents a- Secrete histaminase & clotting & promotes allergy]. sulphatase to destroy 2. Secrete Histamine → histamine & heparin. vasodilatation → sudden ↓↓ in b- Phagocytose antigen-Ab. blood Pressure → anaphylaxis.
+## locator_type
+printed_page
+## locator_page
+34
+## locator_section
+101 ISK > Histology > Blood > Granular leukocytes
+## locator_detail
+PDF page 35, printed as 34
+## context_note
+Matched to the claim on 61% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.61
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-2C74AC893321
+## claim_id
+CLM-F460D2954A6B
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+4- Adipose connective tissue • Fat cells predominate over other components • Reticular fibres form a fine network that supports individual fat cells and bind them together • Collagen fibres divide this tissue into incomplete lobules.
+## locator_type
+printed_page
+## locator_page
+49
+## locator_section
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## locator_detail
+PDF page 50, printed as 49
+## context_note
+Matched to the claim on 79% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.79
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-6C8BD38E3F7D
+## claim_id
+CLM-F8D0C96B10DF
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+1] Stroma: - Fixed cells: reticular cells, together with reticular fibres form network in the background, fibroblasts, UMC, pericytes, osteogenic cells &fat cells (the largest cells in bone marrow).
+## locator_type
+printed_page
+## locator_page
+38
+## locator_section
+101 ISK > Histology > Blood > Haemopoiesis
+## locator_detail
+PDF page 39, printed as 38
+## context_note
+Matched to the claim on 80% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.80
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-E395EA259039
+## claim_id
+CLM-8DAC6A109BEE
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+- Fixed cells: reticular cells, together with reticular fibres form network in the background, fibroblasts, UMC, pericytes, osteogenic cells &fat cells (the largest cells in bone marrow). - Blood sinusoids: Wide irregular blood capillaries lined with endothelial cells with non-continuous basement membrane through their pores blood cells
+## locator_type
+printed_page
+## locator_page
+38
+## locator_section
+101 ISK > Histology > Blood > Haemopoiesis
+## locator_detail
+PDF page 39, printed as 38
+## context_note
+Matched to the claim on 73% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.73
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-8FD8C60DB7F7
+## claim_id
+CLM-CCF1D56C5223
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+3- Endoplasmic reticulum Definition: A membranous network that extends from the nucleus to the cell membrane enclosing a series of intercommunicating channels and sacs, called cisternae.
+## locator_type
+printed_page
+## locator_page
+11
+## locator_section
+101 ISK > Histology > Cytology > Cytoplasm
+## locator_detail
+PDF page 12, printed as 11
+## context_note
+Matched to the claim on 85% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.85
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-964ECB7DBCFF
+## claim_id
+CLM-D5F37FAB32F2
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+➢ With silver stain (Ag), it can be demonstrated as a network of brown granules & fibrils. Its site is either:
+## locator_type
+printed_page
+## locator_page
+12
+## locator_section
+101 ISK > Histology > Cytology > Cytoplasm
+## locator_detail
+PDF page 13, printed as 12
+## context_note
+Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-DDCCB4AECA2F
+## claim_id
+CLM-9216BAC14B43
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+stain, e.g. Toluidine blue; when it stains basophil of blood or mast cell. It reacts with the mucopolysaccharides in their granules giving a violet color. 6- Histochemical stains: Need the frozen technique. To demonstrate enzymes or chemical components of the cells, e.g.: a. Periodic Acid-Schiff reaction (PAS): stains glycogen with magenta red color.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+101 ISK > Histology > Introduction > Microtechniques
+## locator_detail
+PDF page 6, printed as 5
+## context_note
+Matched to the claim on 64% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.64
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
 CIT-68D0E1DF7EBA
 ## claim_id
 CLM-B64A39EE51C8
@@ -3292,62 +3572,6 @@ PDF page 11, printed as 10
 Matched to the claim on 64% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.64
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-8FD8C60DB7F7
-## claim_id
-CLM-CCF1D56C5223
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-3- Endoplasmic reticulum Definition: A membranous network that extends from the nucleus to the cell membrane enclosing a series of intercommunicating channels and sacs, called cisternae.
-## locator_type
-printed_page
-## locator_page
-11
-## locator_section
-101 ISK > Histology > Cytology > Cytoplasm
-## locator_detail
-PDF page 12, printed as 11
-## context_note
-Matched to the claim on 85% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.85
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-964ECB7DBCFF
-## claim_id
-CLM-D5F37FAB32F2
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-➢ With silver stain (Ag), it can be demonstrated as a network of brown granules & fibrils. Its site is either:
-## locator_type
-printed_page
-## locator_page
-12
-## locator_section
-101 ISK > Histology > Cytology > Cytoplasm
-## locator_detail
-PDF page 13, printed as 12
-## context_note
-Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.75
 ## counts_as_claim_evidence
 yes
 
@@ -5119,34 +5343,6 @@ yes
 
 # Item
 ## id
-CIT-A98666843D84
-## claim_id
-CLM-6661BBB9FD08
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-1. Terminate the allergy by: 1. Secrete Heparin [prevents a- Secrete histaminase & clotting & promotes allergy]. sulphatase to destroy 2. Secrete Histamine → histamine & heparin. vasodilatation → sudden ↓↓ in b- Phagocytose antigen-Ab. blood Pressure → anaphylaxis.
-## locator_type
-printed_page
-## locator_page
-34
-## locator_section
-101 ISK > Histology > Blood > Granular leukocytes
-## locator_detail
-PDF page 35, printed as 34
-## context_note
-Matched to the claim on 61% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.61
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
 CIT-CA65C9098F84
 ## claim_id
 CLM-D4B1DB514E3D
@@ -5196,62 +5392,6 @@ PDF page 39, printed as 38
 Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.75
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-6C8BD38E3F7D
-## claim_id
-CLM-F8D0C96B10DF
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-1] Stroma: - Fixed cells: reticular cells, together with reticular fibres form network in the background, fibroblasts, UMC, pericytes, osteogenic cells &fat cells (the largest cells in bone marrow).
-## locator_type
-printed_page
-## locator_page
-38
-## locator_section
-101 ISK > Histology > Blood > Haemopoiesis
-## locator_detail
-PDF page 39, printed as 38
-## context_note
-Matched to the claim on 80% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.80
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-E395EA259039
-## claim_id
-CLM-8DAC6A109BEE
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-- Fixed cells: reticular cells, together with reticular fibres form network in the background, fibroblasts, UMC, pericytes, osteogenic cells &fat cells (the largest cells in bone marrow). - Blood sinusoids: Wide irregular blood capillaries lined with endothelial cells with non-continuous basement membrane through their pores blood cells
-## locator_type
-printed_page
-## locator_page
-38
-## locator_section
-101 ISK > Histology > Blood > Haemopoiesis
-## locator_detail
-PDF page 39, printed as 38
-## context_note
-Matched to the claim on 73% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.73
 ## counts_as_claim_evidence
 yes
 
@@ -6452,62 +6592,6 @@ printed_page
 101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
 ## locator_detail
 PDF page 59, printed as 58
-## context_note
-Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.75
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-7205B88991C3
-## claim_id
-CLM-9F4C3CF86D8E
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-When exposed to specific antigen they become activated by T- helper cells to: a. Plasmablasts then plasma cells to produce antibodies. (Humoral immunity) b. B- memory cells responsible for the rapid second immune response. HIV human Immunodeficiency virus that causes AIDS destroys T-helper cells → decreased immunity & patient becomes susceptible to infections.
-## locator_type
-printed_page
-## locator_page
-37
-## locator_section
-101 ISK > Histology > Blood > Non granular leukocytes
-## locator_detail
-PDF page 38, printed as 37
-## context_note
-Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.63
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-F3E7B0AC93E6
-## claim_id
-CLM-43B503AB8E49
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-When exposed to specific antigen they become activated by T- helper cells to: a. Plasmablasts then plasma cells to produce antibodies. (Humoral immunity) b. B- memory cells responsible for the rapid second immune response.
-## locator_type
-printed_page
-## locator_page
-37
-## locator_section
-101 ISK > Histology > Blood > Non granular leukocytes
-## locator_detail
-PDF page 38, printed as 37
 ## context_note
 Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
@@ -8808,34 +8892,6 @@ PDF page 86
 Matched to the claim on 64% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.64
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-2C74AC893321
-## claim_id
-CLM-F460D2954A6B
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-4- Adipose connective tissue • Fat cells predominate over other components • Reticular fibres form a fine network that supports individual fat cells and bind them together • Collagen fibres divide this tissue into incomplete lobules.
-## locator_type
-printed_page
-## locator_page
-49
-## locator_section
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## locator_detail
-PDF page 50, printed as 49
-## context_note
-Matched to the claim on 79% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.79
 ## counts_as_claim_evidence
 yes
 

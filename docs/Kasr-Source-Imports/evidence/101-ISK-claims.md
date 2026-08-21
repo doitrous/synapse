@@ -1,15 +1,15 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1099 claims from 307 concepts.
+  1123 claims from 314 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
   alongside — two records of one thing can disagree, and then nobody knows which
   the module teaches.
 
-  327 carry a citation to the department book and stand at `verified`.
-  772 do not, and stand at `needs_evidence`. That split is the point of
+  329 carry a citation to the department book and stand at `verified`.
+  794 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -9537,6 +9537,1804 @@ curriculum: 101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
 
 # Item
 ## id
+CLM-03BAF0005C5B
+## concept_id
+CON-FND-7D55448AC644C5
+## subject
+The cells of connective tissue proper
+## predicate
+are
+## object
+grouped two ways
+## display_text
+The cells of connective tissue proper are grouped two ways.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.67
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Connective tissue cells divide into fixed and free, and into branched and unbranched — and the two divisions do not coincide
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-FDB0B6F855CF
+## concept_id
+CON-FND-7D55448AC644C5
+## subject
+By permanence: the fixed cells
+## predicate
+are
+## object
+the fibroblast and fibrocyte, the fat cell, the undifferentiated mesenchymal cell, the pericyte, the reticular cell and the pigment cell, all resident and long-lived; the free cells are the macrophage, the mast cell, the plasma cell and the wandering leukocytes, which come and go and are mostly short-lived — the plasma cell most obviously so
+## display_text
+By permanence: the fixed cells are the fibroblast and fibrocyte, the fat cell, the undifferentiated mesenchymal cell, the pericyte, the reticular cell and the pigment cell, all resident and long-lived; the free cells are the macrophage, the mast cell, the plasma cell and the wandering leukocytes, which come and go and are mostly short-lived — the plasma cell most obviously so.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Connective tissue cells divide into fixed and free, and into branched and unbranched — and the two divisions do not coincide
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-91ED630AE849
+## concept_id
+CON-FND-7D55448AC644C5
+## subject
+By shape: the branched cells
+## predicate
+are
+## object
+the fibroblast, the undifferentiated mesenchymal cell, the pericyte, the macrophage and the pigment cell, all of which send out processes; the unbranched are the fat cell, which is a sphere, and the plasma cell and mast cell, which are oval
+## display_text
+By shape: the branched cells are the fibroblast, the undifferentiated mesenchymal cell, the pericyte, the macrophage and the pigment cell, all of which send out processes; the unbranched are the fat cell, which is a sphere, and the plasma cell and mast cell, which are oval.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Connective tissue cells divide into fixed and free, and into branched and unbranched — and the two divisions do not coincide
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-83DBD19B329A
+## concept_id
+CON-FND-7D55448AC644C5
+## subject
+Cells of other tissues
+## predicate
+are
+## object
+not connective tissue cells at all however phagocytic they are: the microglia is the macrophage of the central nervous system and belongs to nervous tissue, and the Kupffer cell and the dust cell belong to liver and lung
+## display_text
+Cells of other tissues are not connective tissue cells at all however phagocytic they are: the microglia is the macrophage of the central nervous system and belongs to nervous tissue, and the Kupffer cell and the dust cell belong to liver and lung.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Connective tissue cells divide into fixed and free, and into branched and unbranched — and the two divisions do not coincide
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-C2CACCDB4716
+## concept_id
+CON-FND-7D406E91EA3BF2
+## subject
+The mast cell's granules hold heparin
+## predicate
+states
+## object
+The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and — in the books' account — serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## display_text
+The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and — in the books' account — serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-4E7EDABAF41D
+## concept_id
+CON-FND-7D406E91EA3BF2
+## subject
+Its surface
+## predicate
+carries
+## object
+receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once
+## display_text
+Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-CD546E911B9E
+## concept_id
+CON-FND-7D406E91EA3BF2
+## subject
+That discharge
+## predicate
+is
+## object
+the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child
+## display_text
+That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-5CBE601DE5C4
+## concept_id
+CON-FND-7D406E91EA3BF2
+## subject
+The mast cell does not make histaminase; that
+## predicate
+is
+## object
+the eosinophil's enzyme, and it is what ends the reaction the mast cell began
+## display_text
+The mast cell does not make histaminase; that is the eosinophil's enzyme, and it is what ends the reaction the mast cell began.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-A79BD74DAB3B
+## concept_id
+CON-HEM-A8DC563DBFFDF6
+## subject
+The B lymphocyte matures in the bone marrow in mammals and
+## predicate
+carries
+## object
+surface receptors for IgM and IgD
+## display_text
+The B lymphocyte matures in the bone marrow in mammals and carries surface receptors for IgM and IgD.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-9F4C3CF86D8E
+## concept_id
+CON-HEM-A8DC563DBFFDF6
+## subject
+When it meets its specific antigen and
+## predicate
+is
+## object
+activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response
+## display_text
+When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.63
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-43B503AB8E49
+## concept_id
+CON-HEM-A8DC563DBFFDF6
+## subject
+Some of its progeny become B memory cells
+## predicate
+states
+## object
+Some of its progeny become B memory cells, which give the rapid second response.
+## display_text
+Some of its progeny become B memory cells, which give the rapid second response.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.75
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-3703F30812B5
+## concept_id
+CON-HEM-A8DC563DBFFDF6
+## subject
+The plasma cell itself
+## predicate
+is
+## object
+a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus
+## display_text
+The plasma cell itself is a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-4B9981034149
+## concept_id
+CON-HEM-719FA556594454
+## subject
+The monocyte
+## predicate
+is
+## object
+13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look
+## display_text
+The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-E0C60BC304F8
+## concept_id
+CON-HEM-719FA556594454
+## subject
+It spends about three days in the blood, then enters connective tissue and
+## predicate
+becomes
+## object
+the macrophage, living some three months
+## display_text
+It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-A2ACDB20356F
+## concept_id
+CON-HEM-719FA556594454
+## subject
+It
+## predicate
+is
+## object
+an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system
+## display_text
+It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-B5F3BA5CD202
+## concept_id
+CON-HEM-607B783A16FBEB
+## subject
+Basophils
+## predicate
+are
+## object
+0–1% of the white cell count, 10–12 µm, with an S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin
+## display_text
+Basophils are 0–1% of the white cell count, 10–12 µm, with an S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
+curriculum: 101 ISK > Histology > Blood > Granular leukocytes
+
+---
+
+# Item
+## id
+CLM-26879AEC8C4D
+## concept_id
+CON-HEM-607B783A16FBEB
+## subject
+The specific granules
+## predicate
+are
+## object
+large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE
+## display_text
+The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
+curriculum: 101 ISK > Histology > Blood > Granular leukocytes
+
+---
+
+# Item
+## id
+CLM-6661BBB9FD08
+## concept_id
+CON-HEM-607B783A16FBEB
+## subject
+Heparin prevents clotting and promotes allergy
+## predicate
+states
+## object
+Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## display_text
+Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.61
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
+curriculum: 101 ISK > Histology > Blood > Granular leukocytes
+
+---
+
+# Item
+## id
+CLM-EFF621355EB6
+## concept_id
+CON-FND-4589050BE16100
+## subject
+Pericytes lie along the outside of capillaries and venules
+## predicate
+states
+## object
+Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## display_text
+Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-E13C946BF2C6
+## concept_id
+CON-FND-4589050BE16100
+## subject
+They
+## predicate
+are
+## object
+small cells with a dark, heterochromatic nucleus and few organelles, which is the picture of an undifferentiated cell rather than a working one — and they are indeed undifferentiated, able to give rise to fibroblasts, to smooth muscle and to new endothelium after injury
+## display_text
+They are small cells with a dark, heterochromatic nucleus and few organelles, which is the picture of an undifferentiated cell rather than a working one — and they are indeed undifferentiated, able to give rise to fibroblasts, to smooth muscle and to new endothelium after injury.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-CAD702E3C8E3
+## concept_id
+CON-FND-4589050BE16100
+## subject
+They carry a network of actin and myosin filaments, so they
+## predicate
+are
+## object
+contractile and can narrow the capillary they sit on
+## display_text
+They carry a network of actin and myosin filaments, so they are contractile and can narrow the capillary they sit on.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-ABE7A684992F
+## concept_id
+CON-FND-4589050BE16100
+## subject
+The undifferentiated mesenchymal cell of connective tissue proper
+## predicate
+is
+## object
+the same kind of reserve cell away from a vessel wall
+## display_text
+The undifferentiated mesenchymal cell of connective tissue proper is the same kind of reserve cell away from a vessel wall.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-C0DAF8AF7705
+## concept_id
+CON-FND-86543DB2855310
+## subject
+White adipose connective tissue
+## predicate
+is
+## object
+made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat
+## display_text
+White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-143E226C739C
+## concept_id
+CON-FND-86543DB2855310
+## subject
+Brown adipose connective tissue
+## predicate
+is
+## object
+made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria
+## display_text
+Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-F460D2954A6B
+## concept_id
+CON-FND-37C773B1F99BE3
+## subject
+Adipose connective tissue
+## predicate
+is
+## object
+fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules
+## display_text
+Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.79
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-75EBA2D5A09C
+## concept_id
+CON-FND-37C773B1F99BE3
+## subject
+It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and
+## predicate
+gives
+## object
+the skin its contour
+## display_text
+It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and gives the skin its contour.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-EDEE538B46DC
+## concept_id
+CON-FND-37C773B1F99BE3
+## subject
+It also
+## predicate
+has
+## object
+an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate
+## display_text
+It also has an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-F5D7F2148CB4
+## concept_id
+CON-FND-37C773B1F99BE3
+## subject
+It
+## predicate
+has
+## object
+no role in immunity
+## display_text
+It has no role in immunity.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-9105384C31DB
+## concept_id
+CON-FND-1438DCA008F0DB
+## subject
+Dense white fibrous connective tissue
+## predicate
+is
+## object
+packed with collagen bundles and holds few cells and little ground substance
+## display_text
+Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-FC22D388E9D1
+## concept_id
+CON-FND-1438DCA008F0DB
+## subject
+It
+## predicate
+is
+## object
+regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland
+## display_text
+It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-9D9371FDBFA9
+## concept_id
+CON-FND-1438DCA008F0DB
+## subject
+Both
+## predicate
+are
+## object
+dense; the direction of the bundles is what separates them, and it follows from the direction of the force
+## display_text
+Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-F8D0C96B10DF
+## concept_id
+CON-HEM-E27E5F8544640A
+## subject
+Red bone marrow
+## predicate
+has
+## object
+a stroma and free cells
+## display_text
+Red bone marrow has a stroma and free cells.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.80
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-8DAC6A109BEE
+## concept_id
+CON-HEM-E27E5F8544640A
+## subject
+The stroma
+## predicate
+is
+## object
+reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood
+## display_text
+The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.73
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-ABCFDEA7E79B
+## concept_id
+CON-HEM-E27E5F8544640A
+## subject
+The free cells
+## predicate
+are
+## object
+the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived
+## display_text
+The free cells are the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-80A7949FF9F3
+## concept_id
+CON-FND-6F4EB91B19C122
+## subject
+Connective tissue
+## predicate
+has
+## object
+three kinds of fibre
+## display_text
+Connective tissue has three kinds of fibre.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-0DB1F0D54D57
+## concept_id
+CON-FND-6F4EB91B19C122
+## subject
+Collagen
+## predicate
+is
+## object
+the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane
+## display_text
+Collagen is the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-E1DA3066439C
+## concept_id
+CON-FND-6F4EB91B19C122
+## subject
+Reticular fibres
+## predicate
+are
+## object
+fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow
+## display_text
+Reticular fibres are fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-DFC232DF47C2
+## concept_id
+CON-FND-6F4EB91B19C122
+## subject
+Elastic fibres
+## predicate
+are
+## object
+made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil
+## display_text
+Elastic fibres are made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-BF6C88B7432A
+## concept_id
+CON-FND-471B49C03F8BF8
+## subject
+Reticular fibres
+## predicate
+are
+## object
+fine, branching fibres of type III collagen that form a network rather than bundles
+## display_text
+Reticular fibres are fine, branching fibres of type III collagen that form a network rather than bundles.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-DFBA852EB58C
+## concept_id
+CON-FND-471B49C03F8BF8
+## subject
+They
+## predicate
+are
+## object
+stained black by silver — argyrophilic — and are PAS-positive because of the carbohydrate on them; they are not demonstrable in a routine H&E section at all
+## display_text
+They are stained black by silver — argyrophilic — and are PAS-positive because of the carbohydrate on them; they are not demonstrable in a routine H&E section at all.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-23F0D51745E6
+## concept_id
+CON-FND-471B49C03F8BF8
+## subject
+They form the supporting stroma of the parenchymatous organs
+## predicate
+states
+## object
+They form the supporting stroma of the parenchymatous organs, and the reticular cells that produce them lie along them.
+## display_text
+They form the supporting stroma of the parenchymatous organs, and the reticular cells that produce them lie along them.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-09F1D456B45E
+## concept_id
+CON-FND-471B49C03F8BF8
+## subject
+A reticular cell
+## predicate
+is
+## object
+regarded as a modified fibroblast, is found mainly in the stroma of organs, and in the lymphoid organs and bone marrow has a phagocytic function; it is not demonstrated by iron haematoxylin, which is the centriole stain
+## display_text
+A reticular cell is regarded as a modified fibroblast, is found mainly in the stroma of organs, and in the lymphoid organs and bone marrow has a phagocytic function; it is not demonstrated by iron haematoxylin, which is the centriole stain.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-CCF1D56C5223
+## concept_id
+CON-FND-0E38E21957DB05
+## subject
+The endoplasmic reticulum
+## predicate
+is
+## object
+a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds
+## display_text
+The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-60027C76AD83
+## concept_id
+CON-FND-0E38E21957DB05
+## subject
+The rough kind
+## predicate
+is
+## object
+parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason
+## display_text
+The rough kind is parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-AE4784D04229
+## concept_id
+CON-FND-0E38E21957DB05
+## subject
+It
+## predicate
+is
+## object
+abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised
+## display_text
+It is abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-F64F34A42D71
+## concept_id
+CON-FND-0E38E21957DB05
+## subject
+It synthesises the exported proteins
+## predicate
+states
+## object
+It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
+## display_text
+It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-D32B98DB6247
+## concept_id
+CON-FND-9EBFBDE42AC100
+## subject
+The Golgi apparatus
+## predicate
+is
+## object
+not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell
+## display_text
+The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-D5F37FAB32F2
+## concept_id
+CON-FND-9EBFBDE42AC100
+## subject
+It
+## predicate
+is
+## object
+demonstrated positively by silver, which shows it as a network of brown granules and fibrils
+## display_text
+It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.75
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-900EDB477595
+## concept_id
+CON-FND-9EBFBDE42AC100
+## subject
+Its position tells what the cell
+## predicate
+is
+## object
+doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face
+## display_text
+Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-E74857C5DEB1
+## concept_id
+CON-FND-721D9B96A2367F
+## subject
+Fat
+## predicate
+is
+## object
+demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away
+## display_text
+Fat is demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-AC9ED965AA1C
+## concept_id
+CON-FND-721D9B96A2367F
+## subject
+In a routine H&E section the fat
+## predicate
+has
+## object
+therefore gone, and a unilocular fat cell appears as an empty vacuole with the cytoplasm squeezed into a thin rim and the nucleus flattened against one side — the signet ring appearance
+## display_text
+In a routine H&E section the fat has therefore gone, and a unilocular fat cell appears as an empty vacuole with the cytoplasm squeezed into a thin rim and the nucleus flattened against one side — the signet ring appearance.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-DD3B63C34741
+## concept_id
+CON-FND-721D9B96A2367F
+## subject
+The unilocular cell holds one large droplet, does not divide, and
+## predicate
+is
+## object
+the cell of white adipose tissue, which stores fat; heat generation belongs to the multilocular cell of brown fat
+## display_text
+The unilocular cell holds one large droplet, does not divide, and is the cell of white adipose tissue, which stores fat; heat generation belongs to the multilocular cell of brown fat.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-184C7606A864
+## concept_id
+CON-FND-5EFDEADAA559B8
+## subject
+A vital stain
+## predicate
+is
+## object
+one given to a living animal, whose cells then take it up while alive: trypan blue and Indian ink are injected, and the macrophages phagocytose them, which is how the macrophage is demonstrated
+## display_text
+A vital stain is one given to a living animal, whose cells then take it up while alive: trypan blue and Indian ink are injected, and the macrophages phagocytose them, which is how the macrophage is demonstrated.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A vital stain stains living cells inside the living animal, a supravital stain stains living cells outside the body
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-4B0E2CF2EB03
+## concept_id
+CON-FND-5EFDEADAA559B8
+## subject
+A supravital stain works on living cells outside the body — brilliant cresyl blue added to a drop of fresh blood
+## predicate
+shows
+## object
+the reticulum of the reticulocyte, which is residual ribosomal RNA and disappears as the cell matures
+## display_text
+A supravital stain works on living cells outside the body — brilliant cresyl blue added to a drop of fresh blood shows the reticulum of the reticulocyte, which is residual ribosomal RNA and disappears as the cell matures.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A vital stain stains living cells inside the living animal, a supravital stain stains living cells outside the body
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-83B69E5ED405
+## concept_id
+CON-FND-5EFDEADAA559B8
+## subject
+The distinction
+## predicate
+is
+## object
+where the cell is when it is stained, not what the dye is
+## display_text
+The distinction is where the cell is when it is stained, not what the dye is.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A vital stain stains living cells inside the living animal, a supravital stain stains living cells outside the body
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-65BC8A0E5971
+## concept_id
+CON-FND-A5D2D2350D099D
+## subject
+A metachromatic stain
+## predicate
+is
+## object
+one that produces a colour different from the colour of the dye itself
+## display_text
+A metachromatic stain is one that produces a colour different from the colour of the dye itself.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A metachromatic stain gives a colour that is not its own — toluidine blue turns violet-magenta on the heparin of mast cell and basophil granules
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-9216BAC14B43
+## concept_id
+CON-FND-A5D2D2350D099D
+## subject
+Toluidine blue
+## predicate
+is
+## object
+the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red
+## display_text
+Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.64
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A metachromatic stain gives a colour that is not its own — toluidine blue turns violet-magenta on the heparin of mast cell and basophil granules
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-9CC360EBF45F
+## concept_id
+CON-FND-A5D2D2350D099D
+## subject
+The molecule responsible
+## predicate
+is
+## object
+heparin, which is why the same reaction identifies both cells and why no other connective tissue cell shows it — the plasma cell is basophilic but not metachromatic, the macrophage takes trypan blue, and the fat cell takes Sudan
+## display_text
+The molecule responsible is heparin, which is why the same reaction identifies both cells and why no other connective tissue cell shows it — the plasma cell is basophilic but not metachromatic, the macrophage takes trypan blue, and the fat cell takes Sudan.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A metachromatic stain gives a colour that is not its own — toluidine blue turns violet-magenta on the heparin of mast cell and basophil granules
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
 CLM-B71E5410B751
 ## concept_id
 CON-FND-103DF490A6E01E
@@ -10431,99 +12229,6 @@ no
 ## qualifiers
 concept: The basement membrane has an epithelial basal lamina and a connective-tissue reticular lamina, and hemidesmosomes fix the epithelium to it
 curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-
----
-
-# Item
-## id
-CLM-9105384C31DB
-## concept_id
-CON-FND-1438DCA008F0DB
-## subject
-Dense white fibrous connective tissue
-## predicate
-is
-## object
-packed with collagen bundles and holds few cells and little ground substance
-## display_text
-Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-FC22D388E9D1
-## concept_id
-CON-FND-1438DCA008F0DB
-## subject
-It
-## predicate
-is
-## object
-regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland
-## display_text
-It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-9D9371FDBFA9
-## concept_id
-CON-FND-1438DCA008F0DB
-## subject
-Both
-## predicate
-are
-## object
-dense; the direction of the bundles is what separates them, and it follows from the direction of the force
-## display_text
-Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
 
 ---
 
@@ -11515,223 +13220,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: The mitochondrion makes the cell's ATP — Krebs cycle in the matrix, oxidative phosphorylation on the cristae — and in brown fat makes heat instead
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-CCF1D56C5223
-## concept_id
-CON-FND-0E38E21957DB05
-## subject
-The endoplasmic reticulum
-## predicate
-is
-## object
-a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds
-## display_text
-The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.85
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-60027C76AD83
-## concept_id
-CON-FND-0E38E21957DB05
-## subject
-The rough kind
-## predicate
-is
-## object
-parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason
-## display_text
-The rough kind is parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-AE4784D04229
-## concept_id
-CON-FND-0E38E21957DB05
-## subject
-It
-## predicate
-is
-## object
-abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised
-## display_text
-It is abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-F64F34A42D71
-## concept_id
-CON-FND-0E38E21957DB05
-## subject
-It synthesises the exported proteins
-## predicate
-states
-## object
-It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
-## display_text
-It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-D32B98DB6247
-## concept_id
-CON-FND-9EBFBDE42AC100
-## subject
-The Golgi apparatus
-## predicate
-is
-## object
-not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell
-## display_text
-The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-D5F37FAB32F2
-## concept_id
-CON-FND-9EBFBDE42AC100
-## subject
-It
-## predicate
-is
-## object
-demonstrated positively by silver, which shows it as a network of brown granules and fibrils
-## display_text
-It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.75
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-900EDB477595
-## concept_id
-CON-FND-9EBFBDE42AC100
-## subject
-Its position tells what the cell
-## predicate
-is
-## object
-doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face
-## display_text
-Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
 curriculum: 101 ISK > Histology > Cytology > Cytoplasm
 
 ---
@@ -14554,130 +16042,6 @@ no
 ## qualifiers
 concept: Monozygotic twins come from one zygote and are always of the same sex; dizygotic twins come from two ova and need not be
 curriculum: 101 ISK > Anatomy > General Embryology > Fetal Membranes
-
----
-
-# Item
-## id
-CLM-80A7949FF9F3
-## concept_id
-CON-FND-6F4EB91B19C122
-## subject
-Connective tissue
-## predicate
-has
-## object
-three kinds of fibre
-## display_text
-Connective tissue has three kinds of fibre.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-0DB1F0D54D57
-## concept_id
-CON-FND-6F4EB91B19C122
-## subject
-Collagen
-## predicate
-is
-## object
-the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane
-## display_text
-Collagen is the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-E1DA3066439C
-## concept_id
-CON-FND-6F4EB91B19C122
-## subject
-Reticular fibres
-## predicate
-are
-## object
-fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow
-## display_text
-Reticular fibres are fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-DFC232DF47C2
-## concept_id
-CON-FND-6F4EB91B19C122
-## subject
-Elastic fibres
-## predicate
-are
-## object
-made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil
-## display_text
-Elastic fibres are made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
 
 ---
 
@@ -18868,99 +20232,6 @@ curriculum: 101 ISK > Histology > Blood > Granular leukocytes
 
 # Item
 ## id
-CLM-778C7A149FE0
-## concept_id
-CON-HEM-607B783A16FBEB
-## subject
-Basophils
-## predicate
-are
-## object
-0–1% of the count, 10–12 µm, with an irregular segmented S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin
-## display_text
-Basophils are 0–1% of the count, 10–12 µm, with an irregular segmented S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
-curriculum: 101 ISK > Histology > Blood > Granular leukocytes
-
----
-
-# Item
-## id
-CLM-26879AEC8C4D
-## concept_id
-CON-HEM-607B783A16FBEB
-## subject
-The specific granules
-## predicate
-are
-## object
-large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE
-## display_text
-The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
-curriculum: 101 ISK > Histology > Blood > Granular leukocytes
-
----
-
-# Item
-## id
-CLM-6661BBB9FD08
-## concept_id
-CON-HEM-607B783A16FBEB
-## subject
-Heparin prevents clotting and promotes allergy
-## predicate
-states
-## object
-Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
-## display_text
-Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.61
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
-curriculum: 101 ISK > Histology > Blood > Granular leukocytes
-
----
-
-# Item
-## id
 CLM-D4B1DB514E3D
 ## concept_id
 CON-HEM-AEB2E6C6E8A423
@@ -19172,99 +20443,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: The haemopoietic stem cell is the marrow component transplanted to treat leukaemia, because it alone repopulates every blood cell line
-curriculum: 101 ISK > Histology > Blood > Haemopoiesis
-
----
-
-# Item
-## id
-CLM-F8D0C96B10DF
-## concept_id
-CON-HEM-E27E5F8544640A
-## subject
-Red bone marrow
-## predicate
-has
-## object
-a stroma and free cells
-## display_text
-Red bone marrow has a stroma and free cells.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.80
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
-curriculum: 101 ISK > Histology > Blood > Haemopoiesis
-
----
-
-# Item
-## id
-CLM-8DAC6A109BEE
-## concept_id
-CON-HEM-E27E5F8544640A
-## subject
-The stroma
-## predicate
-is
-## object
-reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood
-## display_text
-The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.73
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
-curriculum: 101 ISK > Histology > Blood > Haemopoiesis
-
----
-
-# Item
-## id
-CLM-ABCFDEA7E79B
-## concept_id
-CON-HEM-E27E5F8544640A
-## subject
-The free cells
-## predicate
-are
-## object
-the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived
-## display_text
-The free cells are the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
 curriculum: 101 ISK > Histology > Blood > Haemopoiesis
 
 ---
@@ -21596,37 +22774,6 @@ curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
 
 # Item
 ## id
-CLM-B2B513C852D4
-## concept_id
-CON-FND-0BB73C5CC1821B
-## subject
-It
-## predicate
-carries
-## object
-surface receptors for IgE, and it secretes heparin, histamine, leukotrienes and eosinophil chemotactic factor
-## display_text
-It carries surface receptors for IgE, and it secretes heparin, histamine, leukotrienes and eosinophil chemotactic factor.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The mast cell and the plasma cell are both basophilic and share nothing else
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
-
----
-
-# Item
-## id
 CLM-3A0335A796EC
 ## concept_id
 CON-FND-90E8073879B42A
@@ -23952,223 +25099,6 @@ curriculum: 101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
 
 # Item
 ## id
-CLM-4B9981034149
-## concept_id
-CON-HEM-719FA556594454
-## subject
-The monocyte
-## predicate
-is
-## object
-13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look
-## display_text
-The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-E0C60BC304F8
-## concept_id
-CON-HEM-719FA556594454
-## subject
-It spends about three days in the blood, then enters connective tissue and
-## predicate
-becomes
-## object
-the macrophage, living some three months
-## display_text
-It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-A2ACDB20356F
-## concept_id
-CON-HEM-719FA556594454
-## subject
-It
-## predicate
-is
-## object
-an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system
-## display_text
-It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-A79BD74DAB3B
-## concept_id
-CON-HEM-A8DC563DBFFDF6
-## subject
-The B lymphocyte matures in the bone marrow in mammals and
-## predicate
-carries
-## object
-surface receptors for IgM and IgD
-## display_text
-The B lymphocyte matures in the bone marrow in mammals and carries surface receptors for IgM and IgD.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-9F4C3CF86D8E
-## concept_id
-CON-HEM-A8DC563DBFFDF6
-## subject
-When it meets its specific antigen and
-## predicate
-is
-## object
-activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response
-## display_text
-When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.63
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-43B503AB8E49
-## concept_id
-CON-HEM-A8DC563DBFFDF6
-## subject
-Some of its progeny become B memory cells
-## predicate
-states
-## object
-Some of its progeny become B memory cells, which give the rapid second response.
-## display_text
-Some of its progeny become B memory cells, which give the rapid second response.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.75
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-3703F30812B5
-## concept_id
-CON-HEM-A8DC563DBFFDF6
-## subject
-The plasma cell itself
-## predicate
-is
-## object
-a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus
-## display_text
-The plasma cell itself is a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
 CLM-9A9466377979
 ## concept_id
 CON-HEM-681584C9DC1F94
@@ -25559,68 +26489,6 @@ no
 ## qualifiers
 concept: Only two muscles laterally rotate the arm, and everything large and anterior rotates it medially
 curriculum: 101 ISK > Anatomy > Upper Limb > Pectoral Region
-
----
-
-# Item
-## id
-CLM-C0DAF8AF7705
-## concept_id
-CON-FND-86543DB2855310
-## subject
-White adipose connective tissue
-## predicate
-is
-## object
-made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat
-## display_text
-White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-143E226C739C
-## concept_id
-CON-FND-86543DB2855310
-## subject
-Brown adipose connective tissue
-## predicate
-is
-## object
-made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria
-## display_text
-Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
 
 ---
 
@@ -31386,130 +32254,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: Loose areolar connective tissue lies under every epithelium and in every space except the brain
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-F460D2954A6B
-## concept_id
-CON-FND-37C773B1F99BE3
-## subject
-Adipose connective tissue
-## predicate
-is
-## object
-fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules
-## display_text
-Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.79
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-75EBA2D5A09C
-## concept_id
-CON-FND-37C773B1F99BE3
-## subject
-It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and
-## predicate
-gives
-## object
-the skin its contour
-## display_text
-It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and gives the skin its contour.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-EDEE538B46DC
-## concept_id
-CON-FND-37C773B1F99BE3
-## subject
-It also
-## predicate
-has
-## object
-an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate
-## display_text
-It also has an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-F5D7F2148CB4
-## concept_id
-CON-FND-37C773B1F99BE3
-## subject
-It
-## predicate
-has
-## object
-no role in immunity
-## display_text
-It has no role in immunity.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
 curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
 
 ---

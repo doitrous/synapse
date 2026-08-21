@@ -39,8 +39,8 @@ looks exactly like a file with nothing in it.
 | `written/101-ISK-EOY-2024-written.md` | 16 |
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 | `written/101-ISK-FORMATIVE-2025-written.md` | 10 |
-| `evidence/101-ISK-citations.md` | 327 |
-| `evidence/101-ISK-claims.md` | 1099 |
+| `evidence/101-ISK-citations.md` | 329 |
+| `evidence/101-ISK-claims.md` | 1123 |
 | `evidence/101-ISK-resources.md` | 75 |
 
 ## Read short

@@ -45,7 +45,7 @@
     Types of Connective Tissue Proper — 19 questions, 6 concepts
     Veins of the Upper Limb — 9 questions, 3 concepts
 
-  Extracted from 2704 distinct questions across thirty question books and
+  Extracted from 2867 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
   copy each other freely. Every item carries how many times it was asked, which is
   blueprint evidence no single sat paper can give.
@@ -105,6 +105,7 @@ src_a38c7a9672971718ccdb | question_book | | p2 | 101 ISK
 src_08bc782553366518791e | question_book | | p43 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p50 | 101 ISK
 src_08bc782553366518791e | question_book | | p42 | 101 ISK
+src_16f747e1171423933757 | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p19 | 101 ISK
 src_a38c7a9672971718ccdb | question_book | | p1 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p11 | 101 ISK
@@ -242,14 +243,15 @@ kau
 src_08bc782553366518791e | question_book | | p42 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p50 | 101 ISK
 src_08bc782553366518791e | question_book | | p44 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
 src_08bc782553366518791e | question_book | | p45 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -267,7 +269,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following muscles produces ﬂexion of the pronated forearm: (2017) y
+[asked 2x across the question books] Regarding the brachialis muscle, select the correct statement: (2022 - 2021) y
 ## conflicts
 [clear]
 ## uncertainty
@@ -915,12 +917,13 @@ kau
 src_a38c7a9672971718ccdb | question_book | | p1 | 101 ISK
 src_08bc782553366518791e | question_book | | p46 | 101 ISK
 src_08bc782553366518791e | question_book | | p47 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -938,7 +941,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following is correct regarding the brachial artery (IPKA). Ac P Vi a- Lies lateral to the basilic vein
+[asked 2x across the question books] The brachial artery, select the true answer: (2022) Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -1046,11 +1049,14 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p73 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p55 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p70 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 src_08bc782553366518791e | question_book | | p56 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p54 | 101 ISK
 src_a38c7a9672971718ccdb | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p11 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p15 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p22 | 101 ISK
@@ -1081,7 +1087,7 @@ ART-101-ANA-ARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-RADIAL-
 ## support_mode
 direct_statement
 ## original_wording
-[asked 3x across the question books] Regarding the structures passing in the roof of the cubital fossa, mark one correct statement: •
+[asked 4x across the question books] The following structure is a content of the cubital fossa:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1189,16 +1195,20 @@ kau
 1
 ## exam_signal
 src_b7301bfcd7d002317e40 | question_book | | p56 | 101 ISK
+src_16f747e1171423933757 | question_book | | p6 | 101 ISK
 src_a38c7a9672971718ccdb | question_book | | p1 | 101 ISK
 src_08bc782553366518791e | question_book | | p45 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p46 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p7 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1216,7 +1226,7 @@ ART-101-ANA-ARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-RADIAL-
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Select the correct statement; the musculocutaneous nerve: (2024)
+[asked 2x across the question books] Select the correct statement; the musculocutaneous nerve: (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -1332,13 +1342,15 @@ src_08bc782553366518791e | question_book | | p81 | 101 ISK
 src_08bc782553366518791e | question_book | | p50 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p60 | 101 ISK
 src_a38c7a9672971718ccdb | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p10 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1356,7 +1368,7 @@ ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-FOREARM-RETINACULUM-RO
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] The radial nerve, around the elbow, choose the correct answer:
+[asked 3x across the question books] Which of the following is NOT a branch of the radial nerve? (2022 - 2021) Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -1467,13 +1479,17 @@ src_0f1171705349e98b44e6 | question_book | | p20 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p32 | 101 ISK
 src_08bc782553366518791e | question_book | | p88 | 101 ISK
 src_08bc782553366518791e | question_book | | p89 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p9 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p55 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p6 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p24 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
+src_16f747e1171423933757 | question_book | | p6 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p122 | 101 ISK
+src_16f747e1171423933757 | question_book | | p4 | 101 ISK
 src_08bc782553366518791e | question_book | | p48 | 101 ISK
 src_08bc782553366518791e | question_book | | p49 | 101 ISK
 ## weight_confidence
@@ -1499,7 +1515,7 @@ ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 5x across the question books] Wrist drop deformity results from injury of which one of the following nerves?
+[asked 6x across the question books] Wrist drop deformity results from injury of which one of the following nerves?
 ## conflicts
 [clear]
 ## uncertainty
@@ -1758,9 +1774,11 @@ src_0f1171705349e98b44e6 | question_book | | p26 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p40 | 101 ISK
 src_08bc782553366518791e | question_book | | p102 | 101 ISK
 src_08bc782553366518791e | question_book | | p84 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
 src_08bc782553366518791e | question_book | | p85 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
 src_08bc782553366518791e | question_book | | p83 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 src_a2bf7a9dca4e7cf4015d | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
@@ -1893,18 +1911,20 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p11 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -1916,7 +1936,7 @@ ART-101-ANA-SYNOVIAL-JOINTS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding characters of the synovial joint, one is wrong : (2022)
+[asked 2x across the question books] Regarding characters of the synovial joint, one is wrong : (2022)
 ## conflicts
 [clear]
 ## uncertainty
@@ -2180,7 +2200,7 @@ ART-101-ANA-SYNOVIAL-JOINTS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] An example of a secondary cartilaginous joint (DEP BOOK – 2016). Ac P Vi a- Intervertebral
+[asked 2x across the question books] An example of a secondary cartilaginous joint is: (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -2834,16 +2854,21 @@ src_0f1171705349e98b44e6 | question_book | | p14 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p8 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p26 | 101 ISK
+src_16f747e1171423933757 | question_book | | p8 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p42 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p17 | 101 ISK
 src_08bc782553366518791e | question_book | | p73 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p10 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 src_08bc782553366518791e | question_book | | p51 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p13 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p15 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p33 | 101 ISK
 src_08bc782553366518791e | question_book | | p71 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p36 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p64 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -2976,14 +3001,15 @@ kau
 ## exam_signal
 src_b7301bfcd7d002317e40 | question_book | | p36 | 101 ISK
 src_08bc782553366518791e | question_book | | p34 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p9 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p1 | 101 ISK
 src_08bc782553366518791e | question_book | | p32 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -3001,7 +3027,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Concerning the axilla, the following statements are correct except: (2022)
+[asked 2x across the question books] Concerning the axilla, the following statements are correct except: (2022). em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -3112,12 +3138,13 @@ src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
 src_08bc782553366518791e | question_book | | p32 | 101 ISK
 src_08bc782553366518791e | question_book | | p34 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -3135,7 +3162,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Choose the correct answer, which of the following muscles forms the anterior fold of axilla:
+[asked 2x across the question books] The anterior wall of the axilla is formed by all of the following EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3384,12 +3411,14 @@ src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p32 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 src_08bc782553366518791e | question_book | | p38 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p7 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p1 | 101 ISK
 src_08bc782553366518791e | question_book | | p36 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p33 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 src_08bc782553366518791e | question_book | | p35 | 101 ISK
 src_08bc782553366518791e | question_book | | p37 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p6 | 101 ISK
@@ -3671,9 +3700,12 @@ src_0f1171705349e98b44e6 | question_book | | p1 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p32 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p52 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p22 | 101 ISK
+src_16f747e1171423933757 | question_book | | p8 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
 ## weight_confidence
@@ -3820,15 +3852,18 @@ src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p8 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p25 | 101 ISK
 src_08bc782553366518791e | question_book | | p38 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p1 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p19 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p8 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p33 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p46 | 101 ISK
+src_16f747e1171423933757 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -3962,14 +3997,15 @@ kau
 src_0f1171705349e98b44e6 | question_book | | p1 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p21 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p22 | 101 ISK
+src_16f747e1171423933757 | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p19 | 101 ISK
 src_08bc782553366518791e | question_book | | p20 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -3987,7 +4023,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding pectoralis major, mark one correct statement:
+[asked 2x across the question books] Considering the nerve supply of pectoralis major; It is innervated by (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -4102,12 +4138,13 @@ src_08bc782553366518791e | question_book | | p93 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p12 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p30 | 101 ISK
 src_08bc782553366518791e | question_book | | p92 | 101 ISK
+src_16f747e1171423933757 | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4233,6 +4270,7 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p42 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p23 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p34 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p28 | 101 ISK
@@ -4242,9 +4280,9 @@ src_764a2521809818b8abdc | question_book | | p39 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4636,19 +4674,20 @@ kau
 1
 ## exam_signal
 src_c6ab1b49dc16762227e1 | question_book | | p7 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -4660,7 +4699,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Granulomere of blood platelets contains:
+[asked 2x across the question books] Granulomere of blood platelets contains:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5168,13 +5207,14 @@ kau
 ## exam_signal
 src_51fef9b6234c5d381f59 | question_book | | p7 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p8 | 101 ISK
+src_9487fd713153c573087f | question_book | | p3 | 101 ISK
 src_08bc782553366518791e | question_book | | p14 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -5192,7 +5232,7 @@ ART-101-ANA-CARDIOVASCULAR-SYSTEM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding the systemic circulation, which of the following statements is true?
+[asked 3x across the question books] Regarding the systemic circulation, which of the following statements is true?
 ## conflicts
 [clear]
 ## uncertainty
@@ -5351,7 +5391,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-03BAF0005C5B | CLM-FDB0B6F855CF | CLM-91ED630AE849 | CLM-83DBD19B329A
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5488,7 +5528,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-C2CACCDB4716 | CLM-4E7EDABAF41D | CLM-CD546E911B9E | CLM-5CBE601DE5C4
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5896,7 +5936,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-442B2EEF9107 | CLM-5DD96673F598 | CLM-424EA5AAE2FF | CLM-B2B513C852D4
+CLM-442B2EEF9107 | CLM-5DD96673F598 | CLM-424EA5AAE2FF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -6119,6 +6159,7 @@ src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
@@ -6147,7 +6188,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Macrophages originate from..?
+[asked 2x across the question books] Which one of the following C.T cells is typically an antigen presenting cell:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6309,7 +6350,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-778C7A149FE0 | CLM-26879AEC8C4D | CLM-6661BBB9FD08
+CLM-B5F3BA5CD202 | CLM-26879AEC8C4D | CLM-6661BBB9FD08
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -6445,7 +6486,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-EFF621355EB6 | CLM-E13C946BF2C6 | CLM-CAD702E3C8E3 | CLM-ABE7A684992F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -7209,12 +7250,13 @@ kau
 1
 ## exam_signal
 src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7232,7 +7274,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The type III collagen fibers are secreted by the following cells:
+[asked 2x across the question books] The type III collagen fibers are secreted by the following cells:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7258,7 +7300,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-BF6C88B7432A | CLM-DFBA852EB58C | CLM-23F0D51745E6 | CLM-09F1D456B45E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -7487,6 +7529,7 @@ kau
 ## exam_signal
 src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
@@ -7521,7 +7564,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] A newborn presenting with yellow coloration of skin and eyes by examination is expected to have:
+[asked 2x across the question books] smooth endoplasmic reticulum is seen in:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7631,6 +7674,7 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
@@ -7825,7 +7869,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-E74857C5DEB1 | CLM-AC9ED965AA1C | CLM-DD3B63C34741
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -7956,7 +8000,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-184C7606A864 | CLM-4B0E2CF2EB03 | CLM-83B69E5ED405
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -8089,7 +8133,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-65BC8A0E5971 | CLM-9216BAC14B43 | CLM-9CC360EBF45F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -8175,12 +8219,13 @@ src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8198,7 +8243,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The following CT fibers can branch EXCEPT:
+[asked 2x across the question books] Elastic fibers are characterized by being:
 ## conflicts
 [clear]
 ## uncertainty
@@ -8997,6 +9042,7 @@ src_25ac512fb1cb23a6f696 | question_book | | p3 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p3 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p11 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p13 | 101 ISK
@@ -9025,7 +9071,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] In the basal lamina of the epithelia:
+[asked 2x across the question books] Concerning the basement membrane ONE statement is true:
 ## conflicts
 [clear]
 ## uncertainty
@@ -9536,6 +9582,7 @@ src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
+src_17bf088a37f1ab6540a3 | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p8 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p4 | 101 ISK
 ## weight_confidence
@@ -10114,6 +10161,7 @@ src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
 src_6846577508f49244d715 | question_book | | p1 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p7 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_16f747e1171423933757 | question_book | | p2 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
 src_6846577508f49244d715 | question_book | | p6 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
@@ -10142,7 +10190,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] all functions of golgi except:
+[asked 2x across the question books] The secretory vesicles in a cell arise from:
 ## conflicts
 [clear]
 ## uncertainty
@@ -10529,13 +10577,14 @@ src_d1414701d8fcb55932b6 | question_book | | p9 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10553,7 +10602,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] All of the following are types of secondary lysosomes EXCEPT:
+[asked 2x across the question books] Multivesicular bodies are formed when:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12598,18 +12647,20 @@ kau
 ## exam_signal
 src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
 src_08bc782553366518791e | question_book | | p4 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p4 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -12621,7 +12672,7 @@ ART-101-ANA-FASCIA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the functions of superficial fascia is:
+[asked 3x across the question books] Concerning the superﬁcial fascia, select the correct statement: (2018)
 ## conflicts
 [clear]
 ## uncertainty
@@ -12883,7 +12934,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding the placental (decidual) septa
+[asked 2x across the question books] One of the following is not true, regarding the placenta: (2023 - 2022) ad Ac a- Its fetal part develops from chorion frondosum. y Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -13257,12 +13308,13 @@ src_764a2521809818b8abdc | question_book | | p95 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p12 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p98 | 101 ISK
 src_08bc782553366518791e | question_book | | p125 | 101 ISK
+src_16f747e1171423933757 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -13543,7 +13595,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding monozygotic twin (DEP BOOK - 2024)
+[asked 2x across the question books] Regarding monozygotic twin
 ## conflicts
 [clear]
 ## uncertainty
@@ -13676,7 +13728,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Secondary chorionic villi
+[asked 3x across the question books] Chorionic villi are considered as secondary chorionic villi when they: (2023 - 2022) ad Ac a- Contact the decidua basalis y Ac
 ## conflicts
 [clear]
 ## uncertainty
@@ -13915,14 +13967,15 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p127 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p5 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p96 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -13940,7 +13993,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Marginal attachment of umbilical cord to the placenta is known as
+[asked 2x across the question books] One of the following is not among the anomalies of placenta: (2023) y em
 ## conflicts
 [clear]
 ## uncertainty
@@ -14443,15 +14496,17 @@ kau
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p6 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p92 | 101 ISK
+src_9487fd713153c573087f | question_book | | p6 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p5 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p91 | 101 ISK
+src_16f747e1171423933757 | question_book | | p10 | 101 ISK
 src_08bc782553366518791e | question_book | | p121 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -14469,7 +14524,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION | ART-101-ANA-EM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Neurenteric canal is the communication between
+[asked 3x across the question books] Neurenteric canal is the communication between
 ## conflicts
 [clear]
 ## uncertainty
@@ -14578,18 +14633,19 @@ kau
 ## exam_signal
 src_08bc782553366518791e | question_book | | p118 | 101 ISK
 src_08bc782553366518791e | question_book | | p117 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -14601,7 +14657,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following is an event of the 8th day of pregnancy (DEP BOOK)
+[asked 2x across the question books] One of the following statements is wrong during the second week of pregnancy: (2023 - 2022)
 ## conflicts
 [clear]
 ## uncertainty
@@ -15237,15 +15293,16 @@ kau
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 src_08bc782553366518791e | question_book | | p114 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
 src_08bc782553366518791e | question_book | | p115 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -15263,7 +15320,7 @@ ART-101-ANA-FERTILIZATION | ART-101-ANA-GAMETES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Fertilization occurs in the
+[asked 3x across the question books] Fertilization occurs in the
 ## conflicts
 [clear]
 ## uncertainty
@@ -15528,7 +15585,7 @@ ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following.is true about blastocyst
+[asked 2x across the question books] Regarding implantation, choose the correct statement:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15780,11 +15837,13 @@ src_08bc782553366518791e | question_book | | p72 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
 src_08bc782553366518791e | question_book | | p51 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p82 | 101 ISK
 src_08bc782553366518791e | question_book | | p67 | 101 ISK
 src_08bc782553366518791e | question_book | | p45 | 101 ISK
 src_08bc782553366518791e | question_book | | p52 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p66 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p50 | 101 ISK
 src_08bc782553366518791e | question_book | | p68 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p2 | 101 ISK
@@ -15934,7 +15993,10 @@ src_08bc782553366518791e | question_book | | p49 | 101 ISK
 src_08bc782553366518791e | question_book | | p89 | 101 ISK
 src_08bc782553366518791e | question_book | | p88 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p122 | 101 ISK
+src_16f747e1171423933757 | question_book | | p5 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p11 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
 src_a2bf7a9dca4e7cf4015d | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
@@ -16079,6 +16141,7 @@ src_08bc782553366518791e | question_book | | p101 | 101 ISK
 src_08bc782553366518791e | question_book | | p52 | 101 ISK
 src_08bc782553366518791e | question_book | | p54 | 101 ISK
 src_08bc782553366518791e | question_book | | p85 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p8 | 101 ISK
 src_08bc782553366518791e | question_book | | p84 | 101 ISK
 ## weight_confidence
 0.8
@@ -16218,14 +16281,17 @@ src_08bc782553366518791e | question_book | | p103 | 101 ISK
 src_08bc782553366518791e | question_book | | p53 | 101 ISK
 src_08bc782553366518791e | question_book | | p83 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p11 | 101 ISK
 src_a2bf7a9dca4e7cf4015d | question_book | | p2 | 101 ISK
 src_08bc782553366518791e | question_book | | p84 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -16353,15 +16419,17 @@ kau
 src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p25 | 101 ISK
 src_08bc782553366518791e | question_book | | p79 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 src_08bc782553366518791e | question_book | | p77 | 101 ISK
 src_08bc782553366518791e | question_book | | p76 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -16379,7 +16447,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding the radial artery, one is correct:
+[asked 3x across the question books] All the following are among the structures deep to the radial artery in forearm except: (2022) y y
 ## conflicts
 [clear]
 ## uncertainty
@@ -16885,15 +16953,16 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p89 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p6 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p1 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p19 | 101 ISK
 src_08bc782553366518791e | question_book | | p88 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -16911,7 +16980,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding radial nerve injury, choose the correct answer:
+[asked 2x across the question books] The superﬁcial radial nerve, select the true statement: (2022)
 ## conflicts
 [clear]
 ## uncertainty
@@ -17302,7 +17371,9 @@ src_69103a53ec28a93958d5 | question_book | | p2 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p20 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p106 | 101 ISK
 src_08bc782553366518791e | question_book | | p81 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p61 | 101 ISK
+src_16f747e1171423933757 | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -17434,14 +17505,15 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p91 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p21 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p130 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -17459,7 +17531,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-A
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022) ad Vi
+[asked 2x across the question books] Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022) ad Vi
 ## conflicts
 [clear]
 ## uncertainty
@@ -17571,6 +17643,7 @@ src_0f68f0c75a8effe74782 | question_book | | p16 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
 src_08bc782553366518791e | question_book | | p72 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p6 | 101 ISK
 src_08bc782553366518791e | question_book | | p61 | 101 ISK
 src_08bc782553366518791e | question_book | | p68 | 101 ISK
 src_08bc782553366518791e | question_book | | p63 | 101 ISK
@@ -17586,12 +17659,14 @@ src_08bc782553366518791e | question_book | | p59 | 101 ISK
 src_08bc782553366518791e | question_book | | p58 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p22 | 101 ISK
 src_08bc782553366518791e | question_book | | p66 | 101 ISK
+src_16f747e1171423933757 | question_book | | p8 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p17 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p21 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p41 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p24 | 101 ISK
 src_08bc782553366518791e | question_book | | p67 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p70 | 101 ISK
 src_08bc782553366518791e | question_book | | p60 | 101 ISK
 src_08bc782553366518791e | question_book | | p74 | 101 ISK
@@ -17732,12 +17807,13 @@ src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p32 | 101 ISK
 src_08bc782553366518791e | question_book | | p48 | 101 ISK
 src_08bc782553366518791e | question_book | | p74 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -18015,6 +18091,7 @@ src_0f68f0c75a8effe74782 | question_book | | p57 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p28 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p48 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p7 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p100 | 101 ISK
 src_08bc782553366518791e | question_book | | p76 | 101 ISK
 ## weight_confidence
@@ -18152,14 +18229,17 @@ src_69103a53ec28a93958d5 | question_book | | p28 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p48 | 101 ISK
 src_08bc782553366518791e | question_book | | p79 | 101 ISK
 src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p10 | 101 ISK
 src_08bc782553366518791e | question_book | | p61 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p36 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -18177,7 +18257,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding the ulnar artery at the wrist and hand, mark the correct answer:
+[asked 3x across the question books] One of the followings is a branch of superficial palmar arch:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18287,15 +18367,16 @@ kau
 src_08bc782553366518791e | question_book | | p85 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p114 | 101 ISK
 src_08bc782553366518791e | question_book | | p87 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p16 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p34 | 101 ISK
 src_08bc782553366518791e | question_book | | p86 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -18313,7 +18394,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] One of the following structures lies deep to the extensor retinaculum:
+[asked 2x across the question books] In the 4th compartment deep to extensor retinaculum one of the following structures is not passing: (2021)
 ## conflicts
 [clear]
 ## uncertainty
@@ -20322,6 +20403,7 @@ src_08bc782553366518791e | question_book | | p50 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p66 | 101 ISK
 src_08bc782553366518791e | question_book | | p74 | 101 ISK
 src_08bc782553366518791e | question_book | | p62 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p9 | 101 ISK
 src_08bc782553366518791e | question_book | | p59 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p80 | 101 ISK
 src_08bc782553366518791e | question_book | | p57 | 101 ISK
@@ -20331,6 +20413,7 @@ src_0f1171705349e98b44e6 | question_book | | p14 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p4 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p22 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
 src_08bc782553366518791e | question_book | | p64 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p90 | 101 ISK
 src_08bc782553366518791e | question_book | | p70 | 101 ISK
@@ -20611,18 +20694,20 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p73 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p6 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p14 | 101 ISK
 src_08bc782553366518791e | question_book | | p70 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
 src_08bc782553366518791e | question_book | | p65 | 101 ISK
 src_08bc782553366518791e | question_book | | p74 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p7 | 101 ISK
 src_08bc782553366518791e | question_book | | p71 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -20640,7 +20725,7 @@ ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Partial claw hand deformity results from injury of which one of the following nerves?
+[asked 2x across the question books] As a result of injury of the ulnar nerve at the wrist: (2022) Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -21568,12 +21653,13 @@ src_69103a53ec28a93958d5 | question_book | | p30 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p50 | 101 ISK
 src_08bc782553366518791e | question_book | | p102 | 101 ISK
 src_08bc782553366518791e | question_book | | p103 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -22226,6 +22312,7 @@ kau
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
@@ -22257,7 +22344,7 @@ ART-101-HIS-MICROSCOPES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL | A
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] All the statements concerned to the cell membrane are true EXCEPT:
+[asked 2x across the question books] Regarding the cell membrane, the following is true:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22765,15 +22852,16 @@ kau
 ## exam_signal
 src_6846577508f49244d715 | question_book | | p8 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_9487fd713153c573087f | question_book | | p2 | 101 ISK
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p19 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -22791,7 +22879,7 @@ ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] The following inclusion can be stained with Best's carmine:
+[asked 3x across the question books] PAS stain is used to demonstrate all of the following except: a-Cell membrane
 ## conflicts
 [clear]
 ## uncertainty
@@ -22900,14 +22988,15 @@ kau
 ## exam_signal
 src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p1 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p18 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -22925,7 +23014,7 @@ ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Fat cells can be stained by:
+[asked 2x across the question books] Fat cells are stained with:
 ## conflicts
 [clear]
 ## uncertainty
@@ -23456,7 +23545,7 @@ ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] (Signet ring appearance) is a descriptive term for the:
+[asked 2x across the question books] Concerning unilocular adipocytes: i
 ## conflicts
 [clear]
 ## uncertainty
@@ -23699,12 +23788,13 @@ kau
 src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p26 | 101 ISK
 src_08bc782553366518791e | question_book | | p24 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -23722,7 +23812,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Actions of the latissimus dorsi:
+[asked 2x across the question books] One of the following actions is done by the latissimus dorsi muscle: (2021) Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -23991,7 +24081,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
+[asked 2x across the question books] Triangle of auscultation is associated with all of the following EXCEPT: (IPKA) P Vi a- Latissimus dorsi. ad Vi P
 ## conflicts
 [clear]
 ## uncertainty
@@ -24102,12 +24192,13 @@ src_08bc782553366518791e | question_book | | p36 | 101 ISK
 src_08bc782553366518791e | question_book | | p24 | 101 ISK
 src_08bc782553366518791e | question_book | | p23 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -24125,7 +24216,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branches of brachial plexus except: (DEP BOOK) Ac em
+[asked 2x across the question books] The trapezius muscle is supplied by the:
 ## conflicts
 [clear]
 ## uncertainty
@@ -24793,7 +24884,7 @@ ART-101-ANA-MUSCLE-ATTACHMENTS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The muscle which initiate a certain movement, is called: (2022 - 2023). Ac ad Ac ad ad ad
+[asked 3x across the question books] The muscle which initiate a certain movement, is called: (2022 - 2023). Ac ad Ac ad ad ad
 ## conflicts
 `which-of-the-following-terms-describes-a-muscle-that-assists-ef68e5d8` is keyed to "antagonist" for a stem asking which muscle assists the prime mover. The department chapter defines the antagonist as the muscle that *opposes* the prime mover, and the synergist as the one that acts so the prime mover's action becomes maximal.
 ## uncertainty
@@ -25169,11 +25260,13 @@ src_764a2521809818b8abdc | question_book | | p38 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p122 | 101 ISK
 src_08bc782553366518791e | question_book | | p88 | 101 ISK
 src_08bc782553366518791e | question_book | | p92 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p8 | 101 ISK
 src_08bc782553366518791e | question_book | | p91 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p130 | 101 ISK
 src_08bc782553366518791e | question_book | | p66 | 101 ISK
 src_08bc782553366518791e | question_book | | p75 | 101 ISK
 src_08bc782553366518791e | question_book | | p67 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -25305,19 +25398,20 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p90 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p10 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p126 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -27189,6 +27283,7 @@ kau
 ## exam_signal
 src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p29 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p30 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p17 | 101 ISK
@@ -27198,9 +27293,9 @@ src_6846577508f49244d715 | question_book | | p23 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -27218,7 +27313,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Pars fibrosa of the nucleolus:
+[asked 3x across the question books] Pars fibrosa of the nucleolus:
 ## conflicts
 [clear]
 ## uncertainty
@@ -27466,6 +27561,7 @@ src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
 ## weight_confidence
@@ -27491,7 +27587,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] About neutrophil , all true except:
+[asked 2x across the question books] The megakaryocyte is characterized by the following
 ## conflicts
 [clear]
 ## uncertainty
@@ -28031,7 +28127,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] In absorbing columnar cell, the brush border seen by L/M is:
+[asked 3x across the question books] Pseudo-stratified columnar ciliated epithelium is characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -28573,7 +28669,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Glia f Push fiuids in one direction g. Digestion Table Ill 4. Tight junction a Intestinal cells 2. Adherens junction b. Narrow intercellular space
+[asked 3x across the question books] Transitional epithelium Is characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -30015,14 +30111,15 @@ kau
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
 src_08bc782553366518791e | question_book | | p117 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 src_08bc782553366518791e | question_book | | p116 | 101 ISK
 src_08bc782553366518791e | question_book | | p119 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -30040,7 +30137,7 @@ ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding implantation
+[asked 2x across the question books] The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -30152,13 +30249,14 @@ src_764a2521809818b8abdc | question_book | | p96 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p5 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p91 | 101 ISK
 src_08bc782553366518791e | question_book | | p119 | 101 ISK
+src_16f747e1171423933757 | question_book | | p10 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -30416,12 +30514,13 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p122 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -30439,7 +30538,7 @@ ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+[asked 2x across the question books] Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
 ## conflicts
 [clear]
 ## uncertainty
@@ -31359,12 +31458,13 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p8 | 101 ISK
+src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -31382,7 +31482,7 @@ ART-101-ANA-SKELETAL-SYSTEM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following is not a function of pneumatic bone: (2022). em em em em em
+[asked 2x across the question books] One of the following is not a function of pneumatic bone: (2022). em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -31624,18 +31724,19 @@ kau
 ## exam_signal
 src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
 src_08bc782553366518791e | question_book | | p8 | 101 ISK
+src_16f747e1171423933757 | question_book | | p9 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -31647,7 +31748,7 @@ ART-101-ANA-SKELETAL-SYSTEM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The part which is responsible for the growth of long bones in length is called:
+[asked 2x across the question books] Longitudinal growth in a growing bone passes through which of the following? (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -32023,13 +32124,14 @@ kau
 src_510c935c09a7e7cbff32 | question_book | | p5 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -32289,6 +32391,7 @@ kau
 ## exam_signal
 src_510c935c09a7e7cbff32 | question_book | | p2 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p10 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p10 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
@@ -32326,7 +32429,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] One statement is true about simple squamous epithelium:
+[asked 3x across the question books] One statement is true about simple squamous epithelium:
 ## conflicts
 [clear]
 ## uncertainty
@@ -32578,6 +32681,7 @@ kau
 src_25ac512fb1cb23a6f696 | question_book | | p8 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p2 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p3 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p2 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p13 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p5 | 101 ISK
@@ -32609,7 +32713,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] all, thin epithelial cells that have the appearance of two or more layers, but with all cells touching the basement membrane is
+[asked 2x across the question books] In which of these locations would pseudostratified columnar ciliated epithelium intermixed with goblet cells be found?
 ## conflicts
 [clear]
 ## uncertainty
@@ -33556,6 +33660,7 @@ src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p1 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_9487fd713153c573087f | question_book | | p6 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -33579,7 +33684,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] A teen ager presenting with slower growth rate than expected for age and delayed sexual development, investigations may show:
+[asked 2x across the question books] The cell membrane of the mast cells have specific receptors for:
 ## conflicts
 [clear]
 ## uncertainty
@@ -33712,7 +33817,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] All the following statements concerning gap junction (nexus) are true EXCEPT:
+[asked 3x across the question books] Junctional complex | e. Adjacent plasmalemma fuse at certain points f. Encircles the cell like a belt ‏.و‎ In basal part of basal cells of epithelium 14 | MCO& MATCHING |<<" HISTOLOGY FIRST YEAR’ | Answers of Epithelial Tissue
 ## conflicts
 [clear]
 ## uncertainty
@@ -33845,7 +33950,7 @@ ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Gastrulation is
+[asked 2x across the question books] One of the followings is not a part of intraembryonic mesoderm: (2022) Ac P a- Intermediate mesoderm. P Vi b- Paraxial mesoderm. y
 ## conflicts
 [clear]
 ## uncertainty
@@ -34351,18 +34456,19 @@ kau
 ## exam_signal
 src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p9 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -34374,7 +34480,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Among the functions of the loose areolar connective tissue: |
+[asked 2x across the question books] Regarding loose areolar connective tissue:
 ## conflicts
 [clear]
 ## uncertainty
@@ -34506,7 +34612,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Reticular fibers e. Anchoring fibres f. Capsule of organs g. Orcein stain Table Ill [Concerning Types of Connective Tissue Proper]: Column (B) 4- Loose areolar C.T. a. Mediastinal region 2- Yellow elastic C.T. b. Large arteries 3- Regular white fibrous c. Tendons 4- oa adipose C.T. d. Pulp of teeth 5- Mucoid C,T. 6, Ear pinna f. Sclera g. Most abundant type 21 Answers of Connective Tissue ١
+[asked 2x across the question books] Reticular fibers e. Anchoring fibres f. Capsule of organs g. Orcein stain Table Ill [Concerning Types of Connective Tissue Proper]: Column (B) 4- Loose areolar C.T. a. Mediastinal region 2- Yellow elastic C.T. b. Large arteries 3- Regular white fibrous c. Tendons 4- oa adipose C.T. d. Pulp of teeth 5- Mucoid C,T. 6, Ear pinna f. Sclera g. Most abundant type 21 Answers of Connective Tissue ١
 ## conflicts
 [clear]
 ## uncertainty
