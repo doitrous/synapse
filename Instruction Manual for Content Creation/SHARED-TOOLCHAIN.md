@@ -1792,3 +1792,45 @@ fabricated data:
 
 Both were recorded as **findings** rather than as failures or as unreadable questions. That is
 the right disposition: the paper is telling you what it is.
+
+### A `field_notes` reason without the key is half the contract
+
+The audit asks **two different questions**, and answering one does not answer the other:
+
+- **`conceptPopulated`** — does this field **carry a value**?
+- **`conceptPresent`** — does **the key exist at all**? Reports `X absent for <id>` when it does not.
+
+An emitter that writes a `field_notes` reason for a field but **never emits the key itself**
+satisfies the first and fails the second. That is exactly what happened: `conceptTail` wrote
+reasons for nineteen fields and emitted none of them.
+
+**And §5 makes it worse quietly:** an empty `## key` block parses as **untouched**, so the key
+ends up *absent* rather than present-and-empty. **`[clear]` is what says "present and
+deliberately empty".**
+
+So the shape is: **emit the key, with a real value where the module has one and `[clear]` where
+it does not, with the reason still standing behind it.** Nineteen keys, and the concept batches
+went **35 → 54 fields, 0 errors**.
+
+**How the wrong conclusion was reached from a correct measurement** — worth more than the fix.
+An agent measured main at 35 columns and the widened emitter at 54, and reported that nineteen
+of the difference were **redefinitions** of columns main already computes, concluding that
+byte-identity for one module and the 50-field floor were **mutually exclusive** without
+branching per module. It chose byte-identity and left the other module failing the floor.
+
+**All nineteen were pure additions. Main emits none of them. There was no conflict.** The count
+was right; the interpretation was invented. **Listing the columns took a minute and dissolved a
+constraint that would otherwise have shaped the emitter permanently.**
+
+> Before designing around a conflict, enumerate the things said to be in conflict.
+
+### A stale registry deletes; it does not merely omit
+
+Second instance in one merge. Main had added a **seventh** 101 paper (`BAQOON_2023`) after the
+registry snapshot I circulated. Using the six from that snapshot verbatim would have **deleted
+`101-ISK-BAQOON-2023-written.md` as an orphan** — caught by the byte-identity gate, not by
+reading.
+
+A registry listing fewer papers does not error. Depending on the generator it builds less
+**or removes what it no longer knows about**. Re-read the registry at merge time; a list quoted
+from a message is stale the moment it is sent.
