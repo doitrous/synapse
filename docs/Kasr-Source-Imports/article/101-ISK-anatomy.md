@@ -6154,14 +6154,14 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-EA4C451C8749B9
+CON-MSK-EA4C451C8749B9 | CON-MSK-88711B7586CF2F
 ## related_articles
 ART-101-ANA-SYNOVIAL-JOINTS: The seven components of a synovial joint, and the factors that make one stable — this joint is the worked example of what happens when three of the four are missing.
 ART-101-ANA-AXILLARY-NERVE: The nerve lying against the lax inferior fold of this joint's capsule, and the nerve a dislocation of this joint injures.
 ART-101-ANA-SHOULDER-SPACES-ROTATION: The rotator cuff muscles that hold this joint together, and the ranges of abduction the coraco-acromial arch limits.
 ART-101-ANA-ELBOW-JOINT: The other worked joint on this leaf, and the contrast — a hinge with deep bony fit and strong collateral ligaments.
 ## aliases
-Shoulder joint | Gleno-humeral joint | Labrum glenoidale | Rotator cuff | Coraco-acromial arch
+Shoulder joint | Gleno-humeral joint | Labrum glenoidale | Rotator cuff | Coraco-acromial arch | Movements of the shoulder joint
 ## reading_time
 12
 ## summary
@@ -6214,7 +6214,23 @@ Perforations of the capsule, three. Anteriorly, to the subscapular bursa. Latera
 
 Bursae, five. The subscapular bursa, deep to subscapularis between it and the front of the capsule. A bursa deep to the infraspinatus tendon, behind the capsule. The subacromial bursa, between deltoid and the capsule, prolonged under the acromion where it separates it from the supraspinatus tendon, and not communicating with the joint cavity. A bursa between the coracoid process and the capsule. And a subcutaneous bursa on the upper surface of the acromion.
 
-Movements and the muscles producing them. Abduction is by supraspinatus and the middle, acromial, fibres of deltoid. Adduction is by pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor. Flexion and medial rotation are by the anterior fibres of deltoid; extension and lateral rotation by its posterior fibres. The mechanism of abduction is the range question: supraspinatus initiates it through the first small range, deltoid's middle fibres continue it to about a right angle, then the greater tuberosity impinges on the coraco-acromial ligament and the rest is scapular rotation by trapezius and serratus anterior.
+Movements and the muscles producing them. Being polyaxial, the joint has three pairs of movements plus circumduction, and each is asked with its muscles.
+
+Flexion: the clavicular head of pectoralis major, the anterior fibres of deltoid, and coracobrachialis, assisted by the long head of biceps.
+
+Extension: the posterior fibres of deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm.
+
+Abduction: supraspinatus, which initiates it, and the middle, acromial, fibres of deltoid.
+
+Adduction: pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor.
+
+Medial rotation: pectoralis major, teres major, latissimus dorsi, the anterior fibres of deltoid, and subscapularis.
+
+Lateral rotation: infraspinatus, the posterior fibres of deltoid, and teres minor.
+
+Circumduction combines all of them.
+
+The mechanism of abduction is the range question and it is where this joint's movements stop being the joint's own: supraspinatus initiates abduction through the first small range, deltoid's middle fibres continue it to about a right angle, then the greater tuberosity impinges on the coraco-acromial ligament and the arm can be raised no further at the joint. Everything above that is upward rotation of the scapula, by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior. Three sets of muscles in what a student calls one movement.
 
 ### Clinical significance
 The department book's clinical statements about this joint are all consequences of its instability.
@@ -6241,6 +6257,10 @@ The capsule is not attached to the anatomical neck all the way round. Below, it 
 The labrum is fibrocartilage, not hyaline cartilage, and it deepens the socket rather than covering the articular surface.
 
 Abduction does not stop because deltoid gives out. It stops because the greater tuberosity meets the coraco-acromial ligament.
+
+Abduction is not deltoid's movement. Supraspinatus starts it, deltoid carries it to a right angle, and everything above that is scapular rotation — three different sets of muscles inside one word.
+
+The anterior and posterior fibres of deltoid appear in four different movement lists between them, because each group flexes or extends and rotates. Answering "deltoid" without saying which fibres puts the muscle in the wrong list half the time.
 ## hold_these
 The shoulder joint is a synovial polyaxial ball and socket joint between the head of the humerus and the glenoid cavity, deepened by the labrum glenoidale.
 The labrum glenoidale is a fibrocartilaginous rim fixed by its base to the circumference of the glenoid cavity, deepening and widening the socket and protecting its edges.
@@ -6253,6 +6273,10 @@ It is supported above by supraspinatus and the long head of biceps, in front by 
 The lax inferior fold of the capsule bulges into the upper axilla in direct relation to the axillary nerve and posterior circumflex humeral artery, and is stretched in full abduction.
 The coraco-acromial arch — the coraco-acromial ligament with the coracoid and acromion — is a secondary socket above the joint and is what the greater tuberosity impinges on at ninety degrees.
 The subacromial bursa lies between deltoid and the capsule, extends under the acromion, and does not communicate with the joint cavity.
+Flexion is by the clavicular head of pectoralis major, anterior deltoid and coracobrachialis, assisted by the long head of biceps; extension by posterior deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm.
+Abduction is by supraspinatus and middle deltoid; adduction by pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor.
+Medial rotation is by pectoralis major, teres major, latissimus dorsi, anterior deltoid and subscapularis; lateral rotation by infraspinatus, posterior deltoid and teres minor.
+Abduction is in three ranges by three sets of muscles: supraspinatus, then middle deltoid to a right angle, then upward rotation of the scapula by trapezius and serratus anterior.
 ## lose_the_mark
 Naming the gleno-humeral ligaments as the joint's support. The book calls all three weak; the support is the rotator cuff and the coraco-acromial arch.
 Giving three rotator cuff muscles. There are four, and teres minor is the one usually dropped; teres major is not one of them.
@@ -6262,6 +6286,8 @@ Explaining the arrest of abduction by muscle fatigue. The greater tuberosity imp
 Omitting the reasons for instability. The question asks why the joint dislocates, and the book gives three reasons, not one.
 Calling the labrum hyaline cartilage. It is fibrocartilaginous and it deepens the socket rather than covering a surface.
 Forgetting that the supraglenoid tubercle and the tendon of the long head of biceps are inside the capsule.
+Answering the whole of abduction with deltoid. Supraspinatus initiates it, deltoid carries it to a right angle, and the rest is scapular rotation.
+Naming deltoid without its fibre group in the flexion, extension or rotation lists. The anterior and posterior groups do opposite things and appear in different lists.
 ## image_recommendations
 ### diagram · Coronal section of the shoulder joint with the head of the humerus in the glenoid cavity, the labrum glenoidale drawn as a rim, the line of capsular attachment marked medially beyond the labrum and laterally to the anatomical neck except below where it reaches the surgical neck, and the lax inferior fold shown bulging with the axillary nerve and posterior circumflex humeral artery beneath it
 Purpose: The joint's instability is a fact about where a capsule is attached and where it is loose, which is a line on a bone and a fold in a membrane. One section carries the attachment, the fold and the nerve beneath it in a single reading.
@@ -6288,6 +6314,15 @@ Kind: diagram
 Section: Key determinants
 Source direction: purpose-drawn, following the department book Anatomy pages 270-291
 Rights: newly drawn for this product, or CC-BY
+### comparison table · The movements of the shoulder joint in two columns, movement against the muscles producing it, with abduction split into its three ranges and the muscle set for each range on its own row
+Purpose: The answer is a six-row correspondence, and abduction is the row that is really three. Splitting it on the page is what stops "deltoid" being written against the whole of it.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 169-177 and 270-291
+Rights: newly drawn for this product
+Notes: Serves concept CON-MSK-88711B7586CF2F.
 ### diagram · The five bursae around the shoulder drawn on one section, each labelled and each marked as communicating or not communicating with the joint cavity
 Purpose: Five bursae in five positions is a list students reproduce with the wrong one communicating. Drawing each in place with its communication marked turns the list into a map with one property per item.
 Priority: optional
@@ -6308,7 +6343,8 @@ No Kasr source describes the synovial membrane's arrangement around the intracap
 No independent citation has been attached to any statement in this article, and only the department book covers this joint in detail in the extracted corpus.
 ## evidence_basis
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the type and articular surfaces, the labrum glenoidale, the line of capsular attachment, the four ligaments with their attachments, the intracapsular structures, the three capsular perforations, the five bursae, the muscular support from three sides and the absence below, the lax inferior fold and its relation to the axillary nerve and posterior circumflex humeral artery, the coraco-acromial arch, the three reasons for instability, and the mechanism of abduction. Extracted to scripts/kasr/extract/deptbook.json.
-Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the four rotator cuff muscles with their attachments and actions, deltoid's three fibre groups, and the ranges of abduction.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the four rotator cuff muscles with their attachments and actions, deltoid's three fibre groups with their three different actions, and the ranges of abduction.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapters 1 and 2, PDF pages 153-168 — pectoralis major with its two heads acting differently, and latissimus dorsi's extension, medial rotation and adduction of the arm, which supply the remaining names in the movement lists.
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — axillary nerve injury in dislocation of the shoulder joint.
 Department Book Module 101 (src_b1e6dc481eaf337268d0), chapter 4 "Articular System", PDF pages 122-131 — the four factors affecting the stability of a synovial joint, against which this joint's three weaknesses are read.
 VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), topic "Shoulder joint" — the same type, surfaces, ligaments and instability. Extracted to scripts/kasr/extract/notes.json.
@@ -6325,6 +6361,7 @@ reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence fo
 sections.Mechanism: The reading of the joint's three weaknesses against the Articular System chapter's four factors of stability is this article's own. Both lists are the department book's, in two different chapters, and the book does not put them side by side.
 sections.Mechanism: The conclusion that the unsupported direction is the direction of dislocation is drawn from the book's own statements that there is no muscular support below and that the axillary nerve, which lies below the joint, is injured in dislocation. The book does not name a direction of dislocation, which is recorded in evidence_gaps.
 sections.Clinical significance: The remark that a bursa between a moving tendon and a bony arch is the interface across which abduction happens is general anatomical reasoning from the book's own description of the subacromial bursa.
+sections.Key determinants: The department book states the flexors, extensors, abductors and adductors of the shoulder joint as four lists in its Joints chapter, but gives no corresponding list for medial and lateral rotation. The two rotation lists above are assembled from the individual actions the same book states for each muscle in its Pectoral Region, Muscles of the Back and Shoulder Region chapters — pectoralis major, teres major, latissimus dorsi, subscapularis and the anterior fibres of deltoid as medial rotators, infraspinatus, teres minor and the posterior fibres of deltoid as lateral rotators. Every muscle named is the book's own; the grouping into two rotation lists is this article's.
 ## notes
 Written as a peer to ART-101-ANA-ELBOW-JOINT on the Joints of Upper Limb leaf, and deliberately organised around the department book's own three reasons for instability rather than around a list of parts, because that is the question the paper asks and every other fact about the joint is an answer to it.
 
@@ -6513,3 +6550,185 @@ sections.Mechanism: The general account of what an arterial anastomosis is for, 
 sections.Clinical significance: The statement that a block or ligature of the axillary artery between the first rib and teres major can be bypassed by this network is an inference from the book's own list of parent trunks. No Kasr source states it, which is recorded in evidence_gaps.
 ## notes
 Written as a separate short article on the Shoulder Region leaf rather than folded into the muscles article, because the concept is about arteries and their parentage and because the department book teaches all three shoulder-region anastomoses together in the Axilla chapter. The two companion networks are taught here as well, since an examiner asking one can ask any.
+
+---
+
+# Item
+## id
+ART-101-ANA-NOTOCHORD
+## title
+The notochord
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-1BCF37C48AF307
+## related_articles
+ART-101-ANA-PARAXIAL-MESODERM: The sclerotome migrates medially to surround the notochord, which is how the vertebral column comes to form around it.
+ART-101-ANA-EMBRYONIC-FOLDING: The firmness of the notochord is what limits the head fold, which is one of its three stated uses.
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: The same third week in which the villi become tertiary is the week the notochord is completed.
+## aliases
+Notochord | Prenotochordal process | Notochordal canal | Neurenteric canal | Nucleus pulposus
+## reading_time
+8
+## summary
+The notochord is asked as three things: four steps of formation, three uses, and one fate. The four steps are a cord that becomes a tube and then a solid cord again, and the middle of them opens a temporary hole between the amniotic cavity and the yolk sac. The fate is where the marks go, because the answer is not what a student expects: the vertebral column forms around the notochord and the notochord itself degenerates, surviving only as the nucleus pulposus.
+## sections
+### Definition
+The notochord is the temporary primitive axial skeleton of the embryonic disc.
+
+It develops in the third week, from epiblast cells that pass through the primitive pit during gastrulation, and it lies in the median plane between the ectoderm and the endoderm.
+
+It develops in four steps: the prenotochordal process, the notochordal canal, the neurenteric canal with the notochordal plate, and the definitive notochord.
+
+### Mechanism
+The four steps are one structure changing shape twice — solid, then hollow, then solid again — and each change has a consequence.
+
+Step one, the prenotochordal process. A solid cord of epiblast cells, derived from the primitive pit, invaginates and extends cranially in the midline between the ectoderm and the endoderm, until it reaches the bucco-pharyngeal membrane. That membrane is where ectoderm and endoderm are fused and no mesoderm intervenes, so it is the cranial limit the cord can reach.
+
+Step two, the notochordal canal. The cavity of the primitive pit extends forwards into the prenotochordal process, hollowing it. The canal so formed has a roof in contact with the ectoderm, a floor fused with the endoderm in the midline, and a cavity continuous with the amniotic cavity above.
+
+Step three, the neurenteric canal and the notochordal plate. The floor of the notochordal canal degenerates, together with the fused median region of endoderm beneath it. That opens a temporary communication between the amniotic cavity above and the yolk sac below — the neurenteric canal. What is left of the notochordal structure is its roof and sides, now a flat plate lying in the endoderm: the notochordal plate, whose sides fuse with the remaining endoderm on each side.
+
+Step four, the definitive notochord. The notochordal plate folds upon itself, forming a solid cord again with no cavity, and pinches free. The endoderm then approximates and fuses beneath it on both sides, so the amniotic cavity and the yolk sac regain their separation and the neurenteric canal closes.
+
+The importance follows from what the structure is: a firm rod in the midline of a soft disc. The department book gives three uses. It is the temporary primitive axial skeleton. During folding of the embryonic disc, its firmness limits the head fold — which is why the head fold is limited cranially and the tail fold by the relatively firm primitive streak. And the vertebral column forms around it, the sclerotome cells of the somites migrating medially to surround it.
+
+The fate follows from the same fact. Once the vertebral column has formed around it, a firm rod in the middle of the vertebral bodies has no further use, and most of the notochord degenerates. The part lying within the intervertebral disc persists, and it persists as the nucleus pulposus — the soft central part of the disc.
+
+### Key determinants
+The four steps, in order, each with the feature that names it.
+
+Prenotochordal process: a solid cord of epiblast cells from the primitive pit, invaginating and extending cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+
+Notochordal canal: the cavity of the primitive pit extends into that cord, giving a roof against the ectoderm, a floor fused with the endoderm and a cavity continuous with the amniotic cavity.
+
+Neurenteric canal and notochordal plate: degeneration of the canal's floor with the fused median endoderm opens a temporary communication between amniotic cavity and yolk sac; the persistent roof and sides form the notochordal plate, whose sides fuse with the remaining endoderm.
+
+Definitive notochord: the plate folds on itself into a solid cord with no cavity, and the endoderm approximates and fuses on both sides, separating amniotic cavity and yolk sac again.
+
+Importance, three items. Temporary primitive axial skeleton. Its firmness limits the head fold during folding of the embryonic disc. The vertebral column forms around it.
+
+Fate, one sentence with two halves. Most of it degenerates; the part within the intervertebral disc persists as the nucleus pulposus.
+
+The regions of the disc where intra-embryonic mesoderm is absent belong with this, because the notochord accounts for one of them: at the bucco-pharyngeal membrane and the cloacal membrane, where ectoderm and endoderm fuse; and in the median region between the primitive node and the bucco-pharyngeal membrane, which is occupied by the notochord and the neural tube.
+
+### Clinical significance
+The department book gives no anomaly and no disease of the notochord, and that silence is recorded in `evidence_gaps`.
+
+What the book does state carries one clinical consequence directly. The nucleus pulposus of the intervertebral disc is notochordal tissue — a remnant of the embryonic axial skeleton persisting in the adult. It is the soft centre of the structure the department's own Articular System chapter describes as a secondary cartilaginous joint, in which the two vertebral surfaces are covered by thin hyaline cartilage and separated by a disc of white fibrocartilage whose elasticity is what permits the joint's limited mobility.
+
+### Common misconceptions
+The notochord does not become the vertebral column. The column forms around it, and the notochord itself degenerates. Writing that it "becomes" the vertebrae answers the fate question wrong and the importance question only half right.
+
+The neurenteric canal is not a step in itself so much as a consequence of one. It opens when the floor of the notochordal canal degenerates, and it closes when the endoderm fuses beneath the definitive notochord. It is temporary in both directions.
+
+The notochord is solid at the beginning and at the end, and hollow only in the middle. A student who describes it as a tube throughout has merged step two with step four.
+
+The prenotochordal process stops at the bucco-pharyngeal membrane. It does not cross it, because there is no mesoderm there — ectoderm and endoderm are fused.
+
+The nucleus pulposus is not the whole intervertebral disc. The disc is white fibrocartilage; the nucleus pulposus is its soft centre and the only notochordal part of it.
+
+The notochord is not what limits the tail fold. It limits the head fold; the relatively firm primitive streak limits the tail fold.
+## hold_these
+The notochord is the temporary primitive axial skeleton of the embryonic disc, formed in the third week from epiblast cells passing through the primitive pit.
+Step 1, the prenotochordal process: a solid cord invaginating and extending cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+Step 2, the notochordal canal: the primitive pit cavity extends into the process, its roof against ectoderm, its floor fused with endoderm and its cavity continuous with the amniotic cavity.
+Step 3: degeneration of the floor with the fused median endoderm opens the neurenteric canal between amniotic cavity and yolk sac, leaving roof and sides as the notochordal plate.
+Step 4, the definitive notochord: the plate folds on itself into a solid cord with no cavity, and the endoderm fuses beneath it so the two cavities are separate again.
+Its three uses are: temporary primitive axial skeleton; its firmness limits the head fold during folding; and the vertebral column forms around it.
+Most of the notochord degenerates; the part within the intervertebral disc persists as the nucleus pulposus.
+Intra-embryonic mesoderm is absent at the bucco-pharyngeal and cloacal membranes and in the median region between primitive node and bucco-pharyngeal membrane, which the notochord and neural tube occupy.
+The head fold is limited by the notochord and the tail fold by the primitive streak.
+## lose_the_mark
+Saying the notochord becomes the vertebral column. The column forms around it and the notochord degenerates, surviving only as the nucleus pulposus.
+Giving three steps. There are four, and the neurenteric canal stage is the one usually merged with another.
+Describing the notochord as a tube throughout. It is solid, then hollow, then solid again.
+Saying the notochord limits the tail fold. It limits the head fold; the primitive streak limits the tail fold.
+Calling the whole intervertebral disc a notochordal remnant. Only the nucleus pulposus is.
+Giving the fate without the importance, or the reverse. The question asks for formation, importance and fate, and each is separately marked.
+## image_recommendations
+### diagram · The four steps of notochord formation as four median sagittal sections of the embryonic disc — solid prenotochordal process, hollowed notochordal canal with its roof, floor and cavity labelled, the neurenteric canal open between amniotic cavity and yolk sac with the notochordal plate above it, and the definitive solid notochord with the endoderm fused beneath
+Purpose: The whole answer is one structure changing shape twice, and the third step is a hole that opens and closes. Four sections in sequence show the change; four sentences ask the reader to rebuild the shape each time from words.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Third Week chapter figures, Anatomy pages 80-86, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-1BCF37C48AF307.
+### diagram · Transverse sections through the same level at step three and step four, showing the notochordal plate lying in the endoderm with the neurenteric canal open, and then the folded definitive notochord with endoderm fused beneath it
+Purpose: The plate-to-cord fold is a movement in the transverse plane and is invisible in a sagittal section. The pair completes the account the sagittal series begins.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · A vertebral body and intervertebral disc in median section with the notochord drawn faintly through it at the embryonic stage and the nucleus pulposus shaded at the adult stage, so the surviving fragment can be seen where the rod used to be
+Purpose: The fate is a correspondence between an embryonic structure and an adult one, and it is the answer students get wrong. Superimposing the two makes the survival of one fragment the visible point.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+[clear]
+## evidence_gaps
+No Kasr source names any anomaly, tumour or remnant disease of the notochord.
+No Kasr source states when the notochord degenerates, or by what process.
+No Kasr source states how the notochord induces the overlying ectoderm to form the neural plate, although it names the notochord as the axial structure of the disc.
+No Kasr source describes the composition of the nucleus pulposus or its change with age.
+The Clinical significance section draws on the department book's Articular System chapter for the structure of the intervertebral disc. The connection between that disc's nucleus pulposus and the notochord is stated by the embryology chapter; nothing further is claimed.
+No independent citation has been attached to any statement in this article, and only the department book covers the notochord's four steps in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the definition of the notochord, its four steps of formation with the structure of the notochordal canal, the neurenteric canal and the notochordal plate, its three uses, its fate as the nucleus pulposus, and the regions of the disc lacking intra-embryonic mesoderm. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the sclerotome migrating medially to surround the notochord and form the vertebrae and intervertebral discs, and the two causes of folding in which the notochord limits the head fold.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy chapter 4 "Articular System", PDF pages 122-131 — the intervertebral disc as a secondary cartilaginous joint, in which the nucleus pulposus lies.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: decidua and notochord" — the model answer to a past paper, which pairs the notochord with the decidua as two six-mark embryology topics.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-1BCF37C48AF307 carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The framing of the four steps as "solid, then hollow, then solid again" is this article's own device for making the sequence memorable. The four steps are the department book's, described in its own terms.
+sections.Mechanism: The explanation that the prenotochordal process stops at the bucco-pharyngeal membrane because ectoderm and endoderm are fused there joins two of the book's own statements — the cranial limit of the process, and the regions where intra-embryonic mesoderm is absent — which the book makes in separate paragraphs.
+sections.Mechanism: The reasoning that a firm rod has no further use once the column has formed around it is this article's own; the book states the fate without explaining it.
+sections.Clinical significance: The section is short because the corpus gives no clinical material on the notochord, and it says so in its own text rather than importing a lesion from a general textbook.
+## notes
+Written as a separate short article on the Third Week leaf rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the notochord and the somites are two different derivatives of gastrulation asked as two different questions, and because the notochord's four steps are a self-contained six-mark answer. The two articles cross-reference each other at the point where they meet: the sclerotome surrounding the notochord.

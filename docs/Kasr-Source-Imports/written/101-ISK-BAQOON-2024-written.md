@@ -1010,6 +1010,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
@@ -1159,6 +1161,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
@@ -1233,6 +1237,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation

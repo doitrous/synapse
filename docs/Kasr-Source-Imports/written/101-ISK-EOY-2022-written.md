@@ -171,6 +171,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
@@ -250,6 +252,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation

@@ -252,7 +252,15 @@ if (kind === 'question') {
       // against, and `markWritten` scores a part with no points as zero.
       const parts = data.writtenParts ?? []
       if (!parts.length) {
-        errors.push(`${where}: no written_parts — a written question with no parts cannot be marked`)
+        // Distinguish an empty column from one whose headings did not parse.
+        // Both leave a question unmarkable, but only one is an authoring
+        // omission — the other is a heading shape the parser does not know,
+        // and saying "no written_parts" about a column full of them sends the
+        // author looking in the wrong place.
+        const headings = (values.written_parts ?? '').split('\n').filter((line) => line.trim().startsWith('###')).length
+        errors.push(headings
+          ? `${where}: written_parts has ${headings} "###" heading${headings === 1 ? '' : 's'} and none of them parsed — check the label and marks format`
+          : `${where}: no written_parts — a written question with no parts cannot be marked`)
       }
       for (const part of parts) {
         if (!part.expectedPoints.length) {

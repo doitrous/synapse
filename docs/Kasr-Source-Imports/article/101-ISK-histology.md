@@ -396,12 +396,12 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80
+CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-FND-9EA7F8E2898EB7 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B
 ## related_articles
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte is described there as a blood cell, with its counts and its whole immunological family; here it is described as the macrophage's origin.
 ART-101-HIS-GRANULAR-LEUKOCYTES: The basophil is the mast cell's blood counterpart, sharing metachromatic granules and IgE receptors, and the book compares them directly.
 ## aliases
-Cells of connective tissue proper | Mast cell | Plasma cell | Macrophage | Histiocyte | Adipose cells | Unilocular and multilocular fat cells
+Cells of connective tissue proper | Mast cell | Plasma cell | Macrophage | Histiocyte | Adipose cells | Unilocular and multilocular fat cells | Fibroblast | Fibrocyte
 ## reading_time
 13
 ## summary
@@ -425,7 +425,13 @@ Those granules stain metachromatically with toluidine blue, appearing purple or 
 
 The cell surface carries receptors for IgE, and binding of an antigen to that IgE is what discharges the granules. Four secretions follow. Heparin acts as an anticoagulant. Histamine causes vasodilatation and increased vascular permeability. Leukotrienes contract the smooth muscle of the bronchial tree, causing bronchial asthma. Eosinophil chemotactic factor attracts eosinophils to the allergic site, which is where this article joins the granular leucocytes.
 
-The other resident cells are recognised on the same principle, appearance following content. The active fibroblast is branched with long thin processes, a deeply basophilic cytoplasm and a large pale oval nucleus with a prominent nucleolus, and on electron microscopy it is a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi, many mitochondria and a euchromatic nucleus; the inactive fibroblast, or fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, a smaller darker nucleus with more heterochromatin, and less of all three organelles.
+**The fibroblast**, which is the commonest cell of connective tissue proper and is found in nearly all its types. It arises from the undifferentiated mesenchymal cell and from the pericyte, and it exists in two states that are opposites of each other in every feature.
+
+The active fibroblast is branched, with many long thin processes, deeply basophilic cytoplasm, and a central large oval pale nucleus carrying a prominent nucleolus. On electron microscopy it is the picture of a protein-synthesising cell: well developed rough endoplasmic reticulum and Golgi apparatus, many mitochondria and a euchromatic nucleus. Every one of those features is what a cell exporting protein has to have, and the deep basophilia of the cytoplasm is the light-microscopic shadow of the rough endoplasmic reticulum the electron microscope finds.
+
+The inactive fibroblast, the fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, and a smaller darker nucleus with more heterochromatin, and it has less rough endoplasmic reticulum, less Golgi and fewer mitochondria. In injury it becomes active again for wound healing, and between times it maintains the connective tissue by a continuous slow turnover of the extracellular components.
+
+The fibroblast's functions are four: synthesis of the connective tissue fibres; synthesis of the ground substance of the matrix; production of growth factors for cell growth and differentiation; and healing and repair of connective tissue after injury. The first two are why the cell looks the way it does — the fibres and the ground substance are both exported products.
 
 **The two adipose cells.** Both arise from the undifferentiated mesenchymal cell, and they differ in how the fat is stored. The unilocular fat cell forms white adipose connective tissue. It is large — 50 to 150 µm, the largest cell in this chapter — and oval, and its fat is one large droplet containing dissolved carotenoids, which pushes the cytoplasm and the nucleus to the periphery. H&E dissolves that fat away, and what is left is the signet ring appearance: a rim of cytoplasm with a flattened peripheral nucleus around an empty space. Sudan III stains the droplet orange, which is the preparation that shows the fat was there. On electron microscopy the cell has abundant smooth endoplasmic reticulum, few mitochondria and one large electron-dense droplet. Its functions are the synthesis and storage of fat, support of organs such as the kidney, heat insulation, and an endocrine function — the secretion of leptin, which inhibits food intake and stimulates the metabolic rate and the loss of body weight.
 
@@ -447,6 +453,12 @@ On electron microscopy: a well developed Golgi, many mitochondria, few rough end
 The discriminating comparison is with the plasma cell, which the book places on the same page. The plasma cell arises from the B lymphocyte, is numerous in lymphoid tissue, and is a large oval cell with deeply basophilic cytoplasm. But its basophilia comes from rough endoplasmic reticulum, not from granules, and beside the nucleus it shows a pale negative Golgi image. Its nucleus is eccentric, not central, and its dark heterochromatin alternates with lighter euchromatin to give the cart-wheel or clock-face appearance. On electron microscopy it is a protein-forming cell, rich in rough endoplasmic reticulum with a well developed Golgi, many mitochondria, a euchromatic nucleus and no secretory granules at all. It secretes antibodies. It is not metachromatic.
 
 So: central pale nucleus with granules is the mast cell; eccentric cart-wheel nucleus with a negative Golgi image and no granules is the plasma cell. Toluidine blue separates them outright.
+
+**The plasma cell's origin.** The plasma cell arises from the B lymphocyte, and the B lymphocyte's own picture belongs here for the same reason the monocyte's does: it is this cell one stage earlier.
+
+Lymphocytes are 20 to 30 per cent of the leucocytes. By activity they are small or large; the large lymphocyte is 5 to 10 per cent of the leucocytes and 10 to 15 µm across, with a large indented pale nucleus carrying a clear nucleolus and abundant deeply basophilic cytoplasm, and it is either an activated lymphocyte or a natural killer cell. By function there are three kinds — T lymphocytes, B lymphocytes and natural killer cells — and they are identical by light and by electron microscopy. They differ only in their surface receptors, which is why a question about them asks for receptors rather than for an appearance.
+
+B lymphocytes are 20 to 30 per cent of the lymphocytes and live from a few days to a few months. They mature in the bursa of Fabricius in birds and in the bone marrow in mammals. They carry surface receptors for IgM and IgD, and they mediate humoral immunity. On meeting its specific antigen and being activated by a T-helper cell, a B lymphocyte becomes a plasmablast, then a plasma cell producing antibody, and B memory cells responsible for the rapid second response. So the two cells needed to start a humoral response are the B lymphocyte and the T-helper cell, and the plasma cell described below is the end of that sequence.
 
 **Plasma cell against macrophage**, which the department book asks as its own comparison and which turns on three rows rather than on staining.
 
@@ -490,6 +502,10 @@ The signet ring is not an artefact to be ignored. It is the diagnostic light-mic
 Brown fat is not simply fat that looks different. The multilocular cell has many mitochondria rich in cytochrome oxidase and produces heat through thermogenin, and its brown colour is a consequence of those mitochondria.
 
 The monocyte is not a granulocyte. Its frosted-glass cytoplasm is produced by lysosomes — the azurophil granules — and it is classed among the non-granular leucocytes because it has no specific granules.
+
+The B lymphocyte cannot be identified by looking at it. T, B and natural killer cells are identical by light and by electron microscopy, and the only thing that separates them is the set of surface receptors each carries — IgM and IgD on the B cell.
+
+The fibrocyte is not a different cell from the fibroblast. It is the same cell inactive, and it becomes active again in injury; describing it when the question asks for the fibroblast answers with the opposite of every feature required.
 ## hold_these
 Mast cell granules are metachromatic with toluidine blue, staining purple or red where the dye is blue, and the metachromasia is due to heparin.
 The mast cell nucleus is central, spherical and pale; the plasma cell nucleus is eccentric with a cart-wheel or clock-face pattern.
@@ -506,6 +522,13 @@ The monocyte is 13–20 µm and 3–8% of white cells, with a kidney-shaped ecce
 The monocyte is also the precursor of the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the CNS.
 The unilocular fat cell is 50–150 µm with one droplet and the signet ring appearance; the multilocular fat cell is smaller with many droplets, no signet ring, brown pigmentation and many mitochondria.
 Unilocular fat cells store fat, support organs, insulate and secrete leptin; multilocular fat cells produce heat through thermogenin.
+The fibroblast is the commonest cell of connective tissue proper and arises from the undifferentiated mesenchymal cell and the pericyte.
+The active fibroblast is branched with long thin processes, deeply basophilic cytoplasm and a central large pale oval nucleus with a prominent nucleolus; by EM it has well developed rER and Golgi, many mitochondria and a euchromatic nucleus.
+The fibrocyte is a smaller spindle cell with few processes, paler cytoplasm, a smaller darker heterochromatic nucleus and less of all three organelles.
+Fibroblast functions: synthesis of connective tissue fibres, synthesis of ground substance, production of growth factors, and healing and repair after injury.
+Lymphocytes are 20–30% of the leucocytes; T, B and natural killer cells look identical and differ only in their surface receptors.
+B lymphocytes are 20–30% of the lymphocytes, mature in the bone marrow in mammals, carry receptors for IgM and IgD, and mediate humoral immunity.
+An activated B lymphocyte becomes a plasmablast, then a plasma cell producing antibody, plus B memory cells.
 ## lose_the_mark
 Confusing the mast cell with the plasma cell. Both are basophilic, but the plasma cell has a cart-wheel nucleus and a pale Golgi hof, and is not metachromatic.
 Saying the granules stain blue with toluidine blue. Metachromasia means the opposite: the granules take a colour different from the dye.
@@ -518,6 +541,9 @@ Expecting secretory granules in a plasma cell. It has none — it exports antibo
 Giving the macrophage's origin as the lymphocyte. It arises from the monocyte, and so do the dust cell, the Kupffer cell, the osteoclast and the microglial cell.
 Treating the signet ring as an artefact to be discounted. It is the diagnostic appearance of the unilocular fat cell.
 Calling the multilocular fat cell a small white fat cell. It forms brown adipose tissue, has many cytochrome-oxidase-rich mitochondria, and its job is heat rather than storage.
+Describing the fibrocyte and calling it a fibroblast. The question asks the active cell — branched, deeply basophilic, pale euchromatic nucleus — and the inactive one is its opposite in every feature.
+Trying to recognise a B lymphocyte down the microscope. T, B and natural killer cells are identical by light and electron microscopy, and the surface receptors are the only thing that separates them.
+Giving the B lymphocyte's receptors as IgG. They are IgM and IgD.
 ## image_recommendations
 ### histology · Loose connective tissue spread stained with toluidine blue, mast cells showing purple metachromatic granules against a blue background, one cell at high power with the central pale nucleus visible
 Purpose: Metachromasia is a colour phenomenon and the single identifying feature of this cell. No description substitutes for seeing the granules take a colour the dye is not, and a student who has never seen it cannot recognise it in a practical.
@@ -552,6 +578,24 @@ Kind: histology
 Section: Mechanism
 Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
+### comparison table · Active fibroblast against inactive fibrocyte side by side at the same magnification, light-microscopic drawings above and electron-microscopic drawings below, with shape, processes, cytoplasmic basophilia, nucleus and organelle content marked on each
+Purpose: The two states are opposites in every feature, and the examinable error is describing the wrong one. Two cells drawn side by side make each feature a comparison rather than a description, which is the only form in which "paler" and "smaller" mean anything.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's page 43 comparative table
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-FND-9EA7F8E2898EB7.
+### diagram · The B lymphocyte pathway drawn as a sequence — resting B lymphocyte with IgM and IgD receptors on its surface, antigen binding, T-helper activation, plasmablast, plasma cell secreting antibody, and the B memory cell branch — with the plasma cell's cart-wheel nucleus and negative Golgi image drawn at the end
+Purpose: The plasma cell is the end of a sequence, and the receptors that start it are the only thing that identifies the cell at the beginning. One sequence carries both the identification question and the origin question that the plasma cell's own description depends on.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Non Granular Leucocytes chapter, printed pages 36-38
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-HEM-9F3C4150F1076B.
 ### comparison table · Plasma cell against macrophage in two columns — origin, site, light-microscopic outline, cytoplasm, nucleus, special stain, electron microscopy and function — with a drawing of each cell at the same magnification
 Purpose: The department book asks this as a comparison and the two cells are confused on the one row that does not separate them, basophilia. A table forces every row to be answered and puts the discriminating rows — outline, nucleus, vital stain — beside the one that is not.
 Priority: required
@@ -579,7 +623,7 @@ Section: Mechanism
 Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
 ## conflicts
-Where the monocyte belongs. Concept CON-HEM-22B546E0AA7D80 sits on the Blood > Non granular leukocytes leaf, and the leaf-correct article for it is ART-101-HIS-NON-GRANULAR-LEUKOCYTES, which teaches the monocyte in full as a blood cell. That article lives in a sibling batch file this session was not permitted to edit, so its `related_concepts` could not be extended and the coverage link could not be made from there. The concept is declared here instead, on an article that does teach the monocyte — its counts, its light- and electron-microscopic picture and its functions — as the macrophage's origin, because the department book's own account of the macrophage begins "arises from the monocyte" and the two cells are one cell at two stages. The declaration should be moved to ART-101-HIS-NON-GRANULAR-LEUKOCYTES at the evidence pass, and this article's own teaching of the monocyte kept as the macrophage's origin.
+Where the monocyte and the B lymphocyte belong. Concepts CON-HEM-22B546E0AA7D80 and CON-HEM-9F3C4150F1076B both sit on the Blood > Non granular leukocytes leaf, and the leaf-correct article for both is ART-101-HIS-NON-GRANULAR-LEUKOCYTES, which teaches the monocyte and all three lymphocyte types in full as blood cells. That article lives in a sibling batch file this session was not permitted to edit, so its `related_concepts` could not be extended and the coverage link could not be made from there. Both concepts are declared here instead, on an article that does teach both cells — the monocyte with its counts, light- and electron-microscopic picture and functions, and the B lymphocyte with its percentage, maturation site, surface receptors and pathway to the plasma cell — because the department book's own accounts of the macrophage and the plasma cell begin "arises from the monocyte" and "arises from the B lymphocyte", and each pair is one cell at two stages. The fix at the evidence pass is one line in each place: add `CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B` to the `related_concepts` of ART-101-HIS-NON-GRANULAR-LEUKOCYTES and repoint both entries in `scripts/kasr/seeds/articles.ts`. This article's own teaching of the two precursors should stay, because the macrophage and the plasma cell are not intelligible without them.
 Whether the macrophage is described as fixed or free. The department book says the macrophage "is found in C.T., lymphoid tissue, bone marrow, brain, lung and liver" and draws no fixed-versus-free distinction. Concept CON-FND-45A380D5F6A77F describes it as fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung. This article states the book's list and names the histiocyte as the book does, without asserting the fixed-free split, which no Kasr source in the corpus makes.
 Origin of the mast cell. The department book states the mast cell arises from the undifferentiated mesenchymal cell. Standard current texts derive it from a bone-marrow progenitor that matures in the tissues. This article states the book's position because that is what this faculty teaches and marks, and the disagreement is recorded here rather than resolved silently.
 ## evidence_gaps
@@ -588,7 +632,8 @@ The book gives no mast cell count or density per unit tissue.
 The book does not draw a fixed-versus-free distinction for the macrophage, which concept CON-FND-45A380D5F6A77F does. That distinction is not stated here.
 The book gives no size for the macrophage or the plasma cell, only "large" for both, so no figure is given.
 The book does not state the life span of the plasma cell.
-The monocyte figures used here — 13 to 20 µm, 3 to 8 per cent, three days in blood and three months in tissue — come from the book's Blood chapter rather than from this one, and are cited to it in evidence_basis.
+The monocyte figures used here — 13 to 20 µm, 3 to 8 per cent, three days in blood and three months in tissue — come from the book's Blood chapter rather than from this one, and are cited to it in evidence_basis. The same is true of every B lymphocyte figure.
+The connective tissue chapter gives no life span for the fibroblast and no count for it, only that it is the commonest cell of connective tissue proper.
 The book does not name the chemical class of heparin or explain the physical basis of metachromasia beyond attributing it to heparin.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
@@ -596,6 +641,7 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 Mast cell size and life span compared with the basophil are taken from the same book's "Granular Leucocytes" chapter, printed page 35.
 The monocyte's diameter, differential count, life span, light- and electron-microscopic picture and descendants are taken from the same book's "Non Granular Leucocytes" chapter, printed pages 36-38, and from Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), page 10, topic "Monocytes". Extracted to scripts/kasr/extract/deptbook.json and scripts/kasr/extract/notes.json.
 Prof. Dalia El Marakby's Connective Tissue handout (src_d56198df979fc164f6c6), page 6, topic "Mast cells, plasma cells and macrophages" — the same three cells with the same light- and electron-microscopic pictures and the same macrophage functions. Extracted to scripts/kasr/extract/notes.json.
+The lymphocyte percentages, the three functional types, the B lymphocyte's maturation site, its IgM and IgD receptors and its pathway through the plasmablast to the plasma cell and the B memory cell are taken from the same department book's "Non Granular Leucocytes" chapter, printed pages 36-38, and from Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), topic "T, B and null lymphocytes".
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so the plates this article needs are written as image recommendations.
@@ -608,7 +654,7 @@ reviewer: Not yet reviewed by faculty, which is why the publication gate is need
 ## notes
 The Normal values section borrows the mast cell size and life span from the granular leucocyte chapter of the same book, because the connective tissue chapter gives neither. Both are the department's own figures.
 
-Extended from a mast-cell article into a full account of this leaf, because five concepts sit here: the mast cell, the plasma cell, the plasma cell against the macrophage, the two fat cells, and — for the reason set out in conflicts — the monocyte. The department book's own chapter is organised the same way, as a series of two-column comparative tables, and the Key determinants section now follows that organisation.
+Extended from a mast-cell article into a full account of this leaf, because six concepts sit here — the mast cell, the plasma cell, the plasma cell against the macrophage, the fibroblast, the two fat cells — and, for the reason set out in conflicts, two more that belong on the blood leaf: the monocyte and the B lymphocyte, each taught here as the precursor of a cell this chapter describes. The department book's own chapter is organised the same way, as a series of two-column comparative tables, and the Key determinants section now follows that organisation.
 
 ---
 
@@ -616,7 +662,7 @@ Extended from a mast-cell article into a full account of this leaf, because five
 ## id
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## title
-Cytoplasmic organelles and the lysosome
+The cytoplasm: organelles and inclusions
 ## subject
 fnd
 ## status
@@ -650,16 +696,16 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-9D325B98FC59A0
+CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-1D529ACEC2E2F3 | CON-FND-F1914E2CE56EBF | CON-FND-73F10C624D4BE1
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.
 ## aliases
-Cytoplasm | Lysosomes | Organelles and inclusions
+Cytoplasm | Lysosomes | Organelles and inclusions | Endoplasmic reticulum | Smooth endoplasmic reticulum | Golgi apparatus | Ribosomes | Mitochondria | Cytoskeleton
 ## reading_time
 13
 ## summary
-The cytoplasm is sorted twice before anything is described: living organelles against non-living inclusions, then membranous organelles against non-membranous ones. The lysosome sits in the membranous group, and the examinable question about it is one of appearance — a primary lysosome and a secondary lysosome differ on electron microscopy by whether the enzymes inside have yet met anything to digest.
+The cytoplasm is sorted twice before anything is described: living organelles against non-living inclusions, then membranous organelles against non-membranous ones. After that the chapter is a series of organelles, and the exam asks each of them the same three questions — what it looks like by light microscopy, what it looks like by electron microscopy, and what it does. Three of the answers to the first question are the same: the smooth endoplasmic reticulum, the Golgi and the cytoskeleton are all invisible in themselves and are known by something else — an acidophilia, a pale unstained area, and immunofluorescence.
 ## sections
 ### Definition
 Cytoplasm is formed of cytosol, organelles and inclusions. The cytosol is the fluid, carrying carbohydrates, proteins, lipids, minerals, ions and salts, RNA, metabolites, oxygen and carbon dioxide.
@@ -671,7 +717,39 @@ The second division sorts the organelles by whether they have a limiting membran
 A lysosome is a membranous organelle containing hydrolytic enzymes — proteases, sulfatases — responsible for intracytoplasmic digestion. It is abundant in phagocytic cells such as macrophages and neutrophils, and because it is small and unstained in routine preparations it requires histochemical stains to demonstrate.
 
 ### Mechanism
-The lysosomal enzymes are made where every exported protein is made, and travel a fixed route. They are synthesised in the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus, and released from the Golgi inside lysosomes.
+**The endoplasmic reticulum.** The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs, the cisternae, extending from the nucleus to the cell membrane. It is of two types, and the two are distinguished by one thing: whether ribosomes are bound to the membrane.
+
+Rough endoplasmic reticulum sits in protein-forming cells, of which the plasma cell is the type example. By light microscopy it shows as basophilia — a diffuse cytoplasmic basophilia where it is abundant. By electron microscopy it is parallel flattened cisternae, continuous with the outer nuclear envelope, studded with ribosomes bound to ribophorins. Its functions are protein synthesis; segregation of the protein made; initial glycosylation; packing into transfer vesicles for the Golgi; protection of the cytoplasm from the hydrolytic enzymes it makes; and service as an intracellular pathway.
+
+Smooth endoplasmic reticulum sits in lipid-forming cells, of which the liver cell is the type example. By light microscopy it is not demonstrated as such: where it is abundant it gives the cytoplasm an acidophilia, and that acidophilia is what is seen. By electron microscopy it is a network of branching and anastomosing tubular cisternae of variable shape, continuous with the rough endoplasmic reticulum, and carrying no ribosomes. Its functions are phospholipid synthesis; steroid hormone synthesis, cortisone and testosterone; breakdown of glycogen to glucose; detoxification of drugs, alcohol and hormones; release of calcium in muscle contraction; and service as an intracellular pathway.
+
+So the two are one organelle in two states, continuous with each other, and the ribosomes decide both what the cytoplasm looks like — basophilic where they are, acidophilic where they are not — and what the cell can make.
+
+**The Golgi apparatus.** The Golgi apparatus is a membranous organelle concerned with secretion, and it is well developed in secretory cells. Its site is apical in secretory cells and perinuclear in nerve cells.
+
+By light microscopy it is invisible in haematoxylin and eosin. What is seen is a pale unstained area beside the nucleus — the negative Golgi image — and the organelle is demonstrated instead by silver impregnation, which shows it as a network of brown granules and fibrils. The negative image is therefore not an absent Golgi; it is the organelle, unstained.
+
+By electron microscopy it is a stack of three to ten interconnected parallel flat curved saccules, stacked above each other. Each stack has an entry, or cis, face, which receives transfer vesicles from the rough endoplasmic reticulum, and an exit, or trans, face, which buds secretory vesicles and lysosomes.
+
+**Ribosomes.** Ribosomes are non-membranous particles of ribosomal RNA and protein. The rRNA forms in the nucleolus and the proteins in the cytoplasm; both unite in the nucleolus into a small and a large subunit, which return to the cytoplasm and join each other only during protein synthesis.
+
+They are of two types, and the type is a position rather than a different particle. Free ribosomes lie in the cytosol, single or as polyribosomes linked by messenger RNA in rosettes or spiral chains, and they form proteins used within the cell, such as the glycolytic enzymes. Attached ribosomes are bound to the rough endoplasmic reticulum by their large subunit at the ribophorins, and they form the proteins the cell secretes, such as enzymes and hormones. So where the ribosome sits decides where the protein goes.
+
+Ribosomes are also what makes cytoplasm basophilic, because of the acidity of the phosphate group in RNA, and the basophilia may be focal, diffuse or localised.
+
+**Mitochondria.** Mitochondria are the power-house of the cell and are sited in its most active areas. Each is bounded by two unit membranes. The outer membrane is smooth, carries porins, and is permeable to small molecules. The inner membrane is selectively permeable and folds into cristae, and the cristae bear elementary particles with ATP synthase activity — which is what the folding is for.
+
+The matrix inside holds the oxidative enzymes of the citric acid cycle, mitochondrial DNA with mRNA, tRNA and rRNA, and dense calcium-rich granules acting as catalysts. Mitochondria increase in number by simple division. They stain dark blue with iron haematoxylin and green with Janus green.
+
+**The cytoskeleton.** The cytoskeleton is a network of microtubules, microfilaments and intermediate filaments with linking proteins, forming a microtrabecular lattice. All three are difficult to see by light microscopy except by immunofluorescence, which is the honest answer to any question about their light-microscopic appearance.
+
+Microtubules are hollow cylinders 24 nm across, their wall thirteen parallel protofilaments of alpha and beta tubulin, their length changed by polymerisation directed by the microtubule organising centre, which contains gamma tubulin. They determine cell shape and elongation, transport organelles and macromolecules, form the mitotic spindle, and form the centrioles, cilia and flagella.
+
+Microfilaments are fine strands 5 to 7 nm across, two chains of globular G actin coiled into filamentous F actin, lying beneath the plasmalemma and in the microvilli. They change cell shape in endocytosis, exocytosis and amoeboid movement, transport organelles, cleave the cell in division, form the core of the microvillus, and act in muscle contraction.
+
+Intermediate filaments are 8 to 10 nm across, formed by polymerisation of chemically differing tetrameric subunits, and their role is supportive. Each tissue has its own: cytokeratin in epithelium, vimentin in connective and muscular tissue, desmin in muscular tissue, neurofilaments in neurons, glial fibrillar acidic protein in glial cells, and lamins in the nuclear envelope.
+
+**The lysosome and its pathway.** The lysosomal enzymes are made where every exported protein is made, and travel a fixed route. They are synthesised in the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus, and released from the Golgi inside lysosomes.
 
 A lysosome newly released from the Golgi is a primary lysosome. Its enzymes have not yet acted on anything, so its contents are uniform: on electron microscopy it appears as a homogeneous, moderately electron-dense vesicle.
 
@@ -687,6 +765,14 @@ Two features separate a primary from a secondary lysosome on electron microscopy
 Density and uniformity. The primary lysosome is homogeneous and moderately electron dense, because nothing but enzyme is inside it. The secondary lysosome is heterogeneous, because it contains a substrate in some stage of breakdown.
 
 Size and content. The primary lysosome is small. The secondary lysosome is larger, and what it contains identifies which of the three types it is — recognisable solid material for a heterolysosome, small vesicles within the larger vesicle for a multivesicular body, and a recognisable organelle such as a mitochondrion for an autolysosome. A residual body is the end state, holding material that has stopped changing.
+
+**Rough against smooth endoplasmic reticulum**, which the department book sets out as a four-row table — site, light microscopy, electron microscopy, function.
+
+Site: protein-forming cells, the plasma cell, against lipid-forming cells, the liver cell. Light microscopy: basophilia against acidophilia, and neither is the organelle itself. Electron microscopy: parallel flattened cisternae continuous with the outer nuclear envelope and studded with ribosomes, against branching and anastomosing tubules of variable shape, continuous with the rough reticulum, with no ribosomes. Function: protein synthesis, segregation, glycosylation, packing into transfer vesicles, protection of the cytoplasm from hydrolytic enzymes and an intracellular pathway, against phospholipid synthesis, steroid hormone synthesis, glycogen breakdown to glucose, detoxification of drugs, alcohol and hormones, calcium release in muscle contraction and an intracellular pathway.
+
+**Microtubules against microfilaments**, which the book sets out as a table of structure, diameter, protein subunit, location, light microscopy and function.
+
+Structure: a hollow cylinder whose wall is thirteen parallel protofilaments, against a fine strand of two coiled chains. Diameter: 24 nm against 5 to 7 nm. Protein subunit: alpha and beta tubulin, with gamma tubulin in the organising centre, against globular G actin coiled into filamentous F actin. Location: throughout the cell, in the spindle, in centrioles, cilia and flagella, against beneath the plasmalemma and in the microvilli. Light microscopy: neither is resolvable — both are seen only by immunofluorescence. Function: cell shape and elongation, transport, the mitotic spindle, and the formation of centrioles, cilia and flagella, against change of cell shape in endocytosis, exocytosis and amoeboid movement, transport, cleavage in cell division, the microvillus core, and muscle contraction. The intermediate filament, 8 to 10 nm, sits between them in diameter and is supportive, its protein naming the tissue.
 
 The trap this sets is that electron density on its own does not identify a lysosome. Many granules are dense. The neutrophil's azurophil granule is dense and is a primary lysosome; the basophil's specific granule is dense and is not. Density says nothing about enzyme content, and what a body contains and what it has fused with are what the answer must name.
 
@@ -706,6 +792,16 @@ A residual body is not a fourth type of secondary lysosome. It is the end state 
 Peroxisomes are not small lysosomes. They bud off the rough endoplasmic reticulum, their enzymes are made on free ribosomes, and their oxidases perform beta-oxidation of long-chain fatty acids to produce heat rather than ATP, generating hydrogen peroxide that their catalase then splits into water and oxygen. Nothing about that is hydrolytic digestion.
 
 The multivesicular body is easy to misfile because its name describes its appearance and not its origin. Its origin is fusion with a pinocytic vesicle, and its job is digesting fluid.
+
+The negative Golgi image is not an absent Golgi. It is the organelle itself, unstained by haematoxylin and eosin, and a silver preparation of the same cell shows it as a network of brown granules and fibrils.
+
+Smooth endoplasmic reticulum is not visible under the light microscope. What is visible where it is abundant is the acidophilia it gives the cytoplasm, which is a property of the cytoplasm and not a picture of the organelle. The same logic runs the other way for the rough reticulum, whose ribosomes give a basophilia.
+
+Free and attached ribosomes are not two organelles. They are the same particle in two places, and the place decides whether the protein it makes stays in the cell or leaves it.
+
+Cristae are not just folds. The elementary particles on them carry the ATP synthase activity, which is what the increase in surface area is for.
+
+Neither microtubules nor microfilaments have a light-microscopic appearance to describe. The whole cytoskeleton is seen only by immunofluorescence, and writing a description of what they look like in an ordinary section answers a question the microscope cannot ask.
 ## hold_these
 A primary lysosome is small, homogeneous and moderately electron dense, and its enzymes have not yet acted.
 A secondary lysosome is larger and heterogeneous because it has fused with a substrate.
@@ -715,6 +811,19 @@ Lysosomal enzymes are made in rER, carried by transfer vesicles to the Golgi, an
 Organelles are living, permanent, essential and active; inclusions are non-living, temporary, usually not essential and inert.
 Membranous organelles are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi, lysosomes and peroxisomes; ribosomes and cytoskeleton are non-membranous.
 Lipofuscin is an inclusion, not an organelle, and it is the accumulated residual body of a long-lived cell.
+Rough endoplasmic reticulum sits in protein-forming cells, gives cytoplasmic basophilia, and by EM is parallel flattened cisternae continuous with the outer nuclear envelope studded with ribosomes at ribophorins.
+Smooth endoplasmic reticulum sits in lipid-forming cells such as the liver cell, is not demonstrated as such by light microscopy but gives an acidophilia where abundant, and by EM is branching anastomosing tubules continuous with the rough reticulum and carrying no ribosomes.
+Smooth endoplasmic reticulum synthesises phospholipid and steroid hormones, breaks glycogen down to glucose, detoxifies drugs, alcohol and hormones, releases calcium in muscle contraction, and acts as an intracellular pathway.
+The Golgi apparatus is invisible in H&E except as the pale negative Golgi image beside the nucleus, and is demonstrated by silver as a network of brown granules and fibrils.
+By EM the Golgi is 3 to 10 interconnected parallel flat curved saccules with a cis face receiving transfer vesicles from rER and a trans face budding secretory vesicles and lysosomes.
+Ribosomes are non-membranous particles of rRNA and protein whose subunits form in the nucleolus and join only during protein synthesis.
+Free ribosomes, single or as polyribosomes on mRNA, make proteins used inside the cell; attached ribosomes, bound to rER at ribophorins by their large subunit, make proteins the cell secretes.
+Ribosomes cause cytoplasmic basophilia because of the acidity of the phosphate group in RNA.
+A mitochondrion has a smooth outer membrane with porins and a selectively permeable inner membrane folded into cristae bearing elementary particles with ATP synthase activity.
+The mitochondrial matrix holds the oxidative enzymes of the citric acid cycle, DNA with mRNA, tRNA and rRNA, and dense calcium-rich granules; mitochondria divide to increase in number and stain with iron haematoxylin and Janus green.
+Microtubules are 24 nm hollow cylinders of 13 protofilaments of alpha and beta tubulin, directed by the MTOC which contains gamma tubulin.
+Microfilaments are 5 to 7 nm strands of two chains of G actin coiled into F actin, under the plasmalemma and in microvilli; intermediate filaments are 8 to 10 nm and supportive.
+The whole cytoskeleton is difficult to see by light microscopy except by immunofluorescence.
 ## lose_the_mark
 Calling every dense body a lysosome. Density alone does not identify one, and what it has fused with is what the answer must name.
 Listing the residual body as a type of secondary lysosome. It is the end state of all three.
@@ -722,6 +831,13 @@ Naming only two secondary lysosome types. The multivesicular body is the one usu
 Confusing peroxisomes with lysosomes. Peroxisomes bud from rER, hold oxidases and catalase, and produce heat rather than digesting.
 Saying the autolysosome digests material from outside the cell. Its substrate is endogenous, condemned by the cell itself.
 Writing that lysosomes are visible in routine H&E. The book says they require histochemical stains.
+Reporting the negative Golgi image as an absent Golgi. The pale area beside the nucleus is the organelle, unstained, and silver shows it is there.
+Expecting to see smooth endoplasmic reticulum under the light microscope. What is seen is the acidophilia it gives the cytoplasm where it is abundant.
+Attributing cytoplasmic basophilia to the endoplasmic reticulum's membranes. It is the ribosomes on them, through the acidity of the phosphate group in RNA.
+Treating free and attached ribosomes as different organelles. They are the same particle in two places, and the place decides the protein's destination.
+Describing the cristae as folds and stopping. The elementary particles on them carry the ATP synthase, which is what the folding is worth having for.
+Giving a light-microscopic description of microtubules or microfilaments. Neither is resolvable; the answer is immunofluorescence.
+Giving the microtubule wall as 13 microtubules. It is 13 protofilaments of alpha and beta tubulin in the wall of one microtubule.
 ## image_recommendations
 ### diagram · Electron-microscopic drawing of the lysosome pathway, from rER through transfer vesicle and Golgi to a primary lysosome, then branching to heterolysosome, multivesicular body and autolysosome, ending in a residual body with its two fates
 Purpose: The three secondary lysosomes are defined by what each fused with, which is a branching origin story. A branching figure makes each type's identity readable off its input, where a paragraph asks the student to hold three parallel fusions in mind at once.
@@ -756,6 +872,59 @@ Kind: histology
 Section: Mechanism
 Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
+### comparison table · Rough against smooth endoplasmic reticulum in four rows — site, light microscopy, electron microscopy, function — with an EM drawing of each beside its column, flattened ribosome-studded cisternae against ribosome-free anastomosing tubules
+Purpose: The department book itself sets this out as a four-row table and the exam asks it that way. The two light-microscopy rows are the whole trap — basophilia against acidophilia, neither being the organelle — and a table is where two answers that are both "not the organelle" stay distinguishable.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's own comparative table on page 12 of the Cytology chapter
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-FND-0B3CC0A79F9150.
+### histology · A plasma cell or pancreatic acinar cell in H&E showing the pale negative Golgi image beside the nucleus, shown beside a silver-impregnated preparation of the same cell type showing the Golgi as a network of brown granules and fibrils
+Purpose: The examinable point is that an unstained pale area is the organelle, which no student believes from a sentence. The paired preparations are the proof, and they are the only form in which "negative image" stops meaning "absent".
+Priority: required
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed histology teaching set, or an institutional slide scan
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-56B72DE04F5FED.
+### diagram · Electron-microscopic drawing of a Golgi stack with its cis face receiving transfer vesicles from rough endoplasmic reticulum and its trans face budding secretory vesicles and lysosomes, the saccules counted so the 3 to 10 range is visible
+Purpose: The Golgi is defined by a direction of travel through it, and the two faces are what make it more than a pile of sacs. A drawing with the traffic arrowed carries the polarity that the words cis and trans only label.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Cytology chapter, printed pages 7-21
+Rights: newly drawn for this product, or CC-BY
+### diagram · A mitochondrion in section with the smooth outer membrane and its porins, the selectively permeable inner membrane folded into cristae, the elementary particles drawn on the cristae, and the matrix labelled with its oxidative enzymes, DNA and dense granules
+Purpose: The pitfall is describing cristae as folds and stopping. Drawing the elementary particles on the cristae makes the folding's purpose part of the picture rather than a sentence appended to it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's unlabelled mitochondrion figure in the Cytology chapter
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-FND-F1914E2CE56EBF.
+### diagram · Free ribosomes and a polyribosome rosette on one side, an attached ribosome bound to rough endoplasmic reticulum by its large subunit at a ribophorin on the other, with the growing polypeptide drawn entering the cisterna in the second and staying in the cytosol in the first
+Purpose: The whole concept is that one particle in two positions sends its product to two destinations. Drawing the polypeptide's path in each case is the argument; naming the two types is only the label.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's two ribosome figures on page 16 of the Cytology chapter
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-FND-1D529ACEC2E2F3.
+### comparison table · Microtubule against microfilament against intermediate filament in six rows — structure, diameter, protein subunit, location, light microscopy, function — with a drawing of each at proportional thickness
+Purpose: Three elements distinguished largely by diameter should be drawn to scale, because 24, 8 to 10 and 5 to 7 nanometres is a comparison the eye can hold and a list of numbers is not. The light-microscopy row, which is the same answer for all three, is also worth seeing repeated.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's own comparative table in the Cytology chapter
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-FND-73F10C624D4BE1.
 ### comparison table · Membranous versus non-membranous organelles, and organelles versus inclusions, as a single reference chart
 Purpose: The chapter opens with two sorting decisions that the rest of it depends on, and examiners ask them as list questions. A chart is the form the answer itself takes.
 Priority: optional
@@ -770,10 +939,14 @@ Rights: newly drawn for this product
 The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-9D325B98FC59A0 is therefore unsupported by this source and is not stated in this article.
 The book gives no size in nanometres for a primary or a secondary lysosome, so the article describes them as small and larger rather than giving a figure.
 The book does not state the pH at which the lysosomal hydrolases work, nor name the proton pump that maintains it.
-The Golgi apparatus section of the book carries a "Functions" heading whose content sits entirely inside an unextractable figure, so the Golgi's functions are not available as text from this source and are not listed here.
+The Golgi apparatus section of the department book carries a "Functions" heading whose content sits entirely inside an unextractable figure, so the Golgi's functions are not available as text from the book. Prof. Dalia El Marakby's Cytology handout gives them — packing, concentration and storage of protein from the rough reticulum; chemical modification of proteins and lipids by adding carbohydrate; formation of lysosomes and secretory vesicles; discharge of hormones in secretory vesicles; and renewal and maintenance of the cell membrane — and they are cited to that handout in evidence_basis rather than to the department book. They are not stated in the body of this article, because the concept this article carries asks for the Golgi's site, stains and light-microscopic appearance rather than its functions.
+The book gives no dimensions for the Golgi saccules, for a ribosome or for a mitochondrion, although it gives diameters for all three cytoskeletal elements.
+The book does not state which detoxification reactions the smooth endoplasmic reticulum performs, only that it detoxifies drugs, alcohol and hormones.
+The book does not state how a ribosome is directed to the rough endoplasmic reticulum rather than remaining free; it states only that attached ribosomes bind by their large subunit at ribophorins.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
-Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "The Cytoplasm", printed pages 7-21. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "The Cytoplasm", printed pages 7-21 — the two sortings of the cytoplasm, the endoplasmic reticulum in both forms with the book's own four-row comparison on page 12, the Golgi with its site, stains, negative image and electron-microscopic structure, the ribosomes in both types with their origin in the nucleolus and their two destinations, the mitochondrion with both membranes, the cristae, the elementary particles and the matrix, the three cytoskeletal elements with their diameters and subunits, the lysosome pathway with the three secondary lysosomes and the residual body, the peroxisome, and the inclusions. Extracted to scripts/kasr/extract/deptbook.json.
+Prof. Dalia El Marakby's Cytology handout (src_0abbf6bc25c43a087d36), pages 7 onwards, topics "Endoplasmic reticulum and Golgi apparatus", "Ribosomes and protein synthesis" and "Cytoskeleton — microtubules, microfilaments, intermediate filaments" — the same account of both forms of the reticulum with the basophilia and acidophilia stated the same way, the Golgi's two faces and its functions, and the same cytoskeletal subunits and functions. Extracted to scripts/kasr/extract/notes.json.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every figure is written as an image recommendation.
@@ -784,6 +957,8 @@ nanotopic: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
+Extended from a lysosome article into an account of the whole cytoplasm chapter, and retitled to match, because six concepts sit on this leaf: the lysosome types, the smooth endoplasmic reticulum, the Golgi apparatus, the ribosomes, the mitochondrion and the cytoskeletal comparison. Every one of them is asked the same three ways — light microscopy, electron microscopy, function — and the article is organised around that, with the department book's own two comparative tables reproduced as prose in Key determinants.
+
 The Key determinants section draws the neutrophil azurophil granule and the basophil specific granule into the density trap. Both are the same book's own statements, from the granular leucocyte chapter, and the cross-reference is deliberate: it is where students actually meet a dense granule that is and is not a lysosome.
 
 ---

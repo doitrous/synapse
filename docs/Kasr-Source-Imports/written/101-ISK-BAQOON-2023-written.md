@@ -158,6 +158,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
@@ -461,6 +463,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-JOINT
 ## owner
 Claude
 ## source_citation
@@ -755,6 +759,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-NOTOCHORD
 ## owner
 Claude
 ## source_citation
@@ -828,6 +834,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
@@ -901,6 +909,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
@@ -973,6 +983,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation

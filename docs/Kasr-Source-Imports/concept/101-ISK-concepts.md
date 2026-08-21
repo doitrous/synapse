@@ -2680,6 +2680,8 @@ Histology
 Cytology
 ## aliases
 Golgi body | Golgi complex | G.A.
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -2770,6 +2772,8 @@ Histology
 Cytology
 ## aliases
 Polyribosome | Polysome
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -2860,6 +2864,8 @@ Histology
 Connective Tissue
 ## aliases
 White adipose cell | Brown adipose cell | Adipocyte
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -2951,6 +2957,8 @@ Histology
 Blood
 ## aliases
 Mononuclear phagocyte | Macrophage precursor
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -3041,6 +3049,8 @@ Histology
 Cytology
 ## aliases
 Mitochondrion | Chondriosome
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -3132,6 +3142,8 @@ Histology
 Connective Tissue
 ## aliases
 Mastocyte | Tissue basophil
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -3223,6 +3235,8 @@ Histology
 Connective Tissue
 ## aliases
 Plasmacyte | Cart-wheel nucleus | Clock-face nucleus
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -3314,6 +3328,8 @@ Histology
 Blood
 ## aliases
 Acidophil leukocyte
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
@@ -3404,6 +3420,8 @@ Histology
 Blood
 ## aliases
 Basophil leukocyte
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
@@ -4419,6 +4437,8 @@ Histology
 Cytology
 ## aliases
 Tubulin | Actin filaments | Cytoskeleton
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5616,6 +5636,8 @@ Histology
 Cytology
 ## aliases
 Agranular endoplasmic reticulum
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5706,6 +5728,8 @@ Histology
 Connective Tissue
 ## aliases
 Histiocyte
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -5796,6 +5820,8 @@ Anatomy
 Upper Limb
 ## aliases
 Collateral circulation at the elbow | Peri-articular anastomosis of the elbow
+## article_ids
+ART-101-ANA-BRACHIAL-ARTERY
 ## support_mode
 direct_statement
 ## original_wording
@@ -5886,6 +5912,8 @@ Anatomy
 Upper Limb
 ## aliases
 Glenohumeral joint movements
+## article_ids
+ART-101-ANA-SHOULDER-JOINT
 ## support_mode
 direct_statement
 ## original_wording
@@ -5976,6 +6004,8 @@ Anatomy
 General Embryology
 ## aliases
 Notochordal plate | Nucleus pulposus
+## article_ids
+ART-101-ANA-NOTOCHORD
 ## support_mode
 direct_statement
 ## original_wording
@@ -6066,6 +6096,8 @@ Histology
 Cytology
 ## aliases
 Rough endoplasmic reticulum | Granular endoplasmic reticulum
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -6156,6 +6188,8 @@ Histology
 Connective Tissue
 ## aliases
 Active fibroblast | Fibrocyte
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording
@@ -6246,6 +6280,8 @@ Histology
 Blood
 ## aliases
 B cell | Large lymphocyte
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## support_mode
 direct_statement
 ## original_wording

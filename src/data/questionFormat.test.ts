@@ -207,3 +207,16 @@ test('whole marks still parse, and a part with no marks stated is worth none', (
   assert.equal(parts[0].marks, 5)
   assert.equal(parts[1].marks, 0)
 })
+
+test('a compound part label survives, so a paper with two lettered cases keeps its scheme', () => {
+  // `I-a` matched nothing under an alphanumeric-only label, so every part of a
+  // two-case question was dropped and it arrived unmarkable. An unmatched
+  // heading is not an error inside the parser — it is simply skipped — which is
+  // why this needs a test rather than a reader.
+  const parts = parseWrittenParts(
+    '### I-a 2 marks\nWhat lymph nodes should be removed?\nExpects: The axillary nodes\n'
+    + '### II-b\nWhat nerve is injured?\nExpects: The radial nerve in the spiral groove')
+  assert.deepEqual(parts.map((part) => part.label), ['I-a', 'II-b'])
+  assert.equal(parts[0].marks, 2)
+  assert.equal(parts[1].expectedPoints.length, 1)
+})
