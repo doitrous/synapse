@@ -88,7 +88,7 @@ PAPERS = {
     "src_17bf088a37f1ab6540a3": {
         "role": "solved",
         "dpi": 200,
-        "sat": 0.05, "val": 180,
+        "sat": 0.03, "val": 220,
         "twin": "src_9e6aad6c6af097e473d6",
         "markPath": "fill",
         "sampledFrom": ("the band over option c of question 10 on page 2, modal "
@@ -100,7 +100,7 @@ PAPERS = {
     "src_9e6aad6c6af097e473d6": {
         "role": "control",
         "dpi": 200,
-        "sat": 0.05, "val": 180,
+        "sat": 0.03, "val": 220,
         "twinOf": "src_17bf088a37f1ab6540a3",
         "markPath": "fill",
     },
@@ -148,6 +148,7 @@ MIN_RUN = 16          # px: shortest horizontal run of mark pixels kept
 MIN_W, MIN_H = 40, 10 # px: widest run, and rows, a region must reach
 MIN_AREA = 1000       # px: total mark pixels in a region
 CORE = 0.70           # fraction of an OCR word box treated as its ink core
+CLOSE_IN = 0.08       # inches: the widest gap between mark pixels bridged in a row
 
 # ------------------------------------------------------------- attribution
 MIN_FRAC = 0.12       # an option must be this covered to count as marked
@@ -420,7 +421,20 @@ def text_column(words):
 
 
 # ------------------------------------------------------------------- regions
-def runs_from_flags(flags, w, h, min_run):
+def runs_from_flags(flags, w, h, min_run, close=0):
+    """Row runs of set pixels, after closing gaps of up to `close` pixels.
+
+    The closing is not cosmetic and it is what 108 did not need. Its papers were
+    digital pages where the highlight was painted over the glyphs; here every
+    paper is a scan, the value floor that keeps JPEG chroma ringing out also
+    removes the dark glyph pixels, and a highlight band therefore arrives as a
+    line of short fragments with a hole at every letter. Measured on page 3 of
+    the 2021 paper: without closing, eleven bands that a reader sees at a glance
+    survive the shape filter as sixteen fragments and only six of the eleven
+    answers are recoverable. Closing the letter-width gaps first makes each band
+    one region again. It is also the annulus fix from the other direction — a
+    hand-drawn circle's arcs are joined by the same operation.
+    """
     runs = []
     for y in range(h):
         row = y * w
@@ -428,10 +442,22 @@ def runs_from_flags(flags, w, h, min_run):
         while x < w:
             if flags[row + x]:
                 start = x
-                while x < w and flags[row + x]:
-                    x += 1
-                if x - start >= min_run:
-                    runs.append((y, start, x))
+                end = x
+                while x < w:
+                    if flags[row + x]:
+                        end = x + 1
+                        x += 1
+                        continue
+                    gap = x
+                    while gap < w and not flags[row + gap]:
+                        gap += 1
+                    if gap - x <= close and gap < w:
+                        x = gap
+                        continue
+                    break
+                if end - start >= min_run:
+                    runs.append((y, start, end))
+                x = max(x, end)
             else:
                 x += 1
     return runs
@@ -529,7 +555,8 @@ def fill_page(sid, pdf, page, cfg, force):
     out = {"families": {}, "noise": {}}
     for name, window in (("pink", PINK), ("blue", BLUE)):
         w, h, flags, npx, hues = colour_mask(on, cfg["sat"], cfg["val"], window)
-        runs = runs_from_flags(flags, w, h, MIN_RUN)
+        close = int(round(cfg["dpi"] * CLOSE_IN))
+        runs = runs_from_flags(flags, w, h, MIN_RUN, close)
         regs, dropped, dropped_px = regions(runs)
         _w2, _h2, _f2, nref, _hu = colour_mask(off, cfg["sat"], cfg["val"], window)
         out["families"][name] = {
@@ -594,7 +621,7 @@ def stroke_page(sid, pdf, page, cfg, words, force):
                 continue
             flags[i] = 1
             n += 1
-    runs = runs_from_flags(flags, w, h, 3)
+    runs = runs_from_flags(flags, w, h, 3, int(round(cfg["dpi"] * CLOSE_IN)))
     regs, dropped, dropped_px = regions(runs, min_h=3, min_w=6, min_area=40)
     return {"regions": regs, "pixels": n, "width": w, "height": h,
             "regionsDroppedAsTooSmall": dropped,
@@ -834,6 +861,13 @@ def run_source(src, force):
                         % ", ".join(families))
                 if families:
                     note = "ink colour: " + ", ".join(families)
+            else:
+                letter, share, per_option, hull, reason = score_stroke(block, hulls)
+                rule = "containment"
+                if hull:
+                    geometry = {"strokeHull": [hull["x0"], hull["y0"],
+                                               hull["x1"], hull["y1"]],
+                                "fragments": hull["fragments"], "inkPixels": hull["px"]}
             if block["merged"] and letter:
                 letter, reason = None, (
                     "OCR read options %s as one box, so a mark on either would be "
@@ -842,13 +876,6 @@ def run_source(src, force):
             if len(block["options"]) < 4 and letter is None and reason:
                 reason += ("; OCR recovered only %d of the option boxes on this "
                            "question" % len(block["options"]))
-            else:
-                letter, share, per_option, hull, reason = score_stroke(block, hulls)
-                rule = "containment"
-                if hull:
-                    geometry = {"strokeHull": [hull["x0"], hull["y0"],
-                                               hull["x1"], hull["y1"]],
-                                "fragments": hull["fragments"], "inkPixels": hull["px"]}
             row = {
                 "joinKey": "%s:s1:p%03d" % (sid, position),
                 "sourceId": sid,

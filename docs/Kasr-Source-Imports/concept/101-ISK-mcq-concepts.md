@@ -2,7 +2,7 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
-    Cytoplasm — 190 questions, 23 concepts
+    Cytoplasm — 286 questions, 23 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
@@ -26,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  127 questions were excluded and 0 held back for having no
+  139 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -541,12 +541,13 @@ src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -644,6 +645,8 @@ src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
 src_7449943b97c0e18d37b0 | question_book | | p2 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -737,15 +740,21 @@ kau
 src_4a8ddb5edfab86d624d8 | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
 src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p6 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
+src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -832,6 +841,7 @@ kau
 ## exam_signal
 src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
 src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
@@ -843,6 +853,8 @@ src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p8 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -940,12 +952,19 @@ src_6846577508f49244d715 | question_book | | p12 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_6846577508f49244d715 | question_book | | p6 | 101 ISK
+src_6846577508f49244d715 | question_book | | p26 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1041,6 +1060,8 @@ src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -1131,7 +1152,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
@@ -1232,12 +1253,24 @@ src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
 src_6846577508f49244d715 | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p24 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p7 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
+src_6846577508f49244d715 | question_book | | p6 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p13 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1328,12 +1361,14 @@ src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
 src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1519,12 +1554,13 @@ src_d1414701d8fcb55932b6 | question_book | | p9 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1609,6 +1645,8 @@ kau
 ## learner_years
 1
 ## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p14 | 101 ISK
@@ -1619,12 +1657,13 @@ src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
 src_6846577508f49244d715 | question_book | | p21 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1713,12 +1752,17 @@ src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p30 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p12 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1815,6 +1859,10 @@ src_620516ae7327c0f4fc2f | question_book | | p13 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p12 | 101 ISK
+src_6846577508f49244d715 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -1911,12 +1959,14 @@ src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p15 | 101 ISK
 src_6846577508f49244d715 | question_book | | p19 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p5 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2012,6 +2062,7 @@ src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -2106,12 +2157,14 @@ src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
 src_6846577508f49244d715 | question_book | | p15 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p7 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p13 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2294,12 +2347,17 @@ src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_6846577508f49244d715 | question_book | | p22 | 101 ISK
 src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p28 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p14 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2390,10 +2448,11 @@ src_6846577508f49244d715 | question_book | | p8 | 101 ISK
 src_6846577508f49244d715 | question_book | | p3 | 101 ISK
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p27 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
 ## weight_confidence
@@ -2487,18 +2546,20 @@ kau
 1
 ## exam_signal
 src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p12 | 101 ISK
+src_6846577508f49244d715 | question_book | | p23 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -2583,12 +2644,21 @@ src_d1414701d8fcb55932b6 | question_book | | p3 | 101 ISK
 src_6846577508f49244d715 | question_book | | p23 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p2 | 101 ISK
 src_6846577508f49244d715 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p3 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
+src_6846577508f49244d715 | question_book | | p15 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2674,12 +2744,13 @@ kau
 1
 ## exam_signal
 src_6846577508f49244d715 | question_book | | p18 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance

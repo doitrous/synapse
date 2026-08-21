@@ -34,11 +34,17 @@
  * have to move these three questions here into that file, or move this concept
  * there, because the same duplicate-id rule applies.
  *
- * Five answers are overridden here and a sixth, `clathrin`, in `cytoplasm.ts`.
- * Two of them — `which-molecule-of-the-cell-membrane-has-a-stabilizing-effect`
+ * Eight answers are overridden here: six where the books printed no key at all
+ * and two where they printed one I believe is wrong. The two — `which-molecule-of-the-cell-membrane-has-a-stabilizing-effect`
  * and `one-of-the-followings-is-not-a-function-of-the-cell-membrane` — are keyed
  * wrong in the books by one letter, and in both cases the same book keys the
- * matching question correctly, which is what makes the misprint visible.
+ * matching question correctly, which is what makes the misprint visible. *
+ * `scripts/kasr/extract/mcq-bank.json` was regenerated part-way through this
+ * pass: an option-repair run recovered 76 options across 69 rows that a
+ * publisher watermark had split. Every row in this file was re-checked against
+ * the rebuilt bank afterwards, and the exclusions that the repair made obsolete
+ * were rewritten as live questions. If the bank is repaired again, the
+ * exclusions are the part of this file to re-read.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 

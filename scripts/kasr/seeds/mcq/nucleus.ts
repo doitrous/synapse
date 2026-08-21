@@ -16,8 +16,9 @@
  * is not a bin, it is the objective those questions test. Four adipocyte rows sit
  * least comfortably under it and are noted on the concept.
  *
- * Nine answers are overridden and every one is recorded. Three of them matter
- * more than the rest:
+ * Eighteen answers are overridden and every one is recorded: twelve where the
+ * books printed no key, and six where they printed one I believe is wrong.
+ * Three of the six matter more than the rest:
  *
  *   - `pars-amorpha-of-the-nucleus` and `pars-fibrosa-of-the-nucleus` are both
  *     keyed B in the same book, and B cannot be right for both. The same book
@@ -28,7 +29,13 @@
  *     exception is C.
  *   - `regarding-the-ovum` is keyed C, but the department book states that
  *     female gametogenesis begins in intrauterine life, and states in its own
- *     words that the corona radiata is the outer cover — option D.
+ *     words that the corona radiata is the outer cover — option D. *
+ * `scripts/kasr/extract/mcq-bank.json` was regenerated part-way through this
+ * pass: an option-repair run recovered 76 options across 69 rows that a
+ * publisher watermark had split. Every row in this file was re-checked against
+ * the rebuilt bank afterwards, and the exclusions that the repair made obsolete
+ * were rewritten as live questions. If the bank is repaired again, the
+ * exclusions are the part of this file to re-read.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -866,7 +873,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason:
-        'Option A has been read into the stem — the stem ends "a, Its diameter is about 12 microns" — leaving three lettered options. The intact copy is `regarding-the-ovum-dep-book-7eea6085`, which is the one to use; this row is a duplicate and is kept so a rescan knows it.',
+        'A duplicate of `regarding-the-ovum-dep-book-7eea6085` whose option A had also been read into the stem, so that the stem ends "a, Its diameter is about 12 microns". The bank\'s option-repair pass has since recovered option A, so the row now carries four; it remains a duplicate of the keyed copy, which is the one authored, and is kept here so a rescan knows the two rows are one question.',
     },
     {
       key: 'regarding-the-ovum-dep-book-7eea6085',
@@ -1013,7 +1020,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason:
-        'Not a nucleus question in any part. The extractor filed a haemopoiesis question under this leaf, and its concept — `bone-marrow-red-and-yellow`, which gives adult red marrow as filling the flat, short and irregular bones — is already minted in `haemopoiesis.ts`. Declaring that concept again here would emit a duplicate concept id and the validator would reject the batch. The row is sound and its answer is the flat bones such as the sternum; it should be moved into the haemopoiesis seed rather than repaired, and it is kept here so that whoever does the move can find it.',
+        'Not a nucleus question in any part, and its four options are now intact after the bank\'s option-repair pass, so nothing is wrong with the row itself. The extractor filed a haemopoiesis question under this leaf, and its concept — `bone-marrow-red-and-yellow`, which gives adult red marrow as filling the flat, short and irregular bones — is already minted in `haemopoiesis.ts`. Declaring that concept again here would emit a duplicate concept id and the validator would reject the batch. The row is sound and its answer is the flat bones such as the sternum; it should be moved into the haemopoiesis seed rather than repaired, and it is kept here so that whoever does the move can find it.',
     },
     {
       key: 'unilocular-fat-cells-92e7f734',
