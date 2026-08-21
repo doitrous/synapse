@@ -17,8 +17,12 @@ import java.time.Instant
  * Read-modify-write through [LocalStore], never the API. Two documents
  * change per attempt: the month shard the record actually lives in, and the
  * index that lets headline totals be read without opening every shard.
- * [SyncEngine.write] saves each locally and queues it in one transaction, so
- * an attempt made offline is queued rather than lost.
+ * They go out through [SyncEngine.writeAll], which commits both -- and both
+ * outbox entries -- in one transaction, because half a banked attempt is
+ * worse than none. A shard with no index fold is an answer every headline
+ * figure ignores; an index fold with no shard is a total no screen can
+ * account for. Both fail silently, and an attempt made offline is queued
+ * rather than lost either way.
  *
  * [AttemptStore.addAttempt] refuses a record whose id already exists in the
  * shard by handing back the exact same [AttemptMonth] instance it was given.
@@ -45,10 +49,16 @@ suspend fun writeAttempt(store: LocalStore, sync: SyncEngine, record: AttemptRec
         ?: AttemptMonth(month = monthName)
     val updatedMonth = AttemptStore.addAttempt(month, record)
     if (updatedMonth === month) return
-    sync.write(monthKey, CortexJson.encodeToString(AttemptMonth.serializer(), updatedMonth))
 
     val index = store.document(AttemptStore.INDEX_KEY)?.json
         ?.let { CortexJson.decodeFromString(AttemptIndex.serializer(), it) }
         ?: AttemptIndex()
-    sync.write(AttemptStore.INDEX_KEY, CortexJson.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
+
+    sync.writeAll(
+        listOf(
+            monthKey to CortexJson.encodeToString(AttemptMonth.serializer(), updatedMonth),
+            AttemptStore.INDEX_KEY to
+                CortexJson.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)),
+        ),
+    )
 }

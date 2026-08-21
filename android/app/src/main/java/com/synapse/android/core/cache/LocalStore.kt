@@ -20,6 +20,18 @@ data class StoredDocument(
     val savedAt: Instant,
 )
 
+/**
+ * A document about to be written, before it has a stamp of its own.
+ *
+ * [serverUpdatedAt] is the stamp already held for that key, carried through
+ * untouched -- a local edit does not claim the server has seen it.
+ */
+data class PendingDocument(
+    val key: String,
+    val json: String,
+    val serverUpdatedAt: Instant?,
+)
+
 /** One queued write, waiting for the sync engine to drain it. */
 data class OutboxEntry(
     val id: Long,
@@ -76,16 +88,39 @@ class LocalStore(private val database: CortexDatabase) {
      * closes that window — either both rows land, or neither does.
      */
     suspend fun putDocumentAndEnqueue(key: String, json: String, serverUpdatedAt: Instant?, savedAt: Instant) {
+        putDocumentsAndEnqueue(listOf(PendingDocument(key, json, serverUpdatedAt)), savedAt)
+    }
+
+    /**
+     * The same guarantee across *several* documents: all of them land, or
+     * none of them does.
+     *
+     * Some edits are one document only in the storage layer's eyes. Banking
+     * an attempt writes a month shard and the index that counts it, and the
+     * two are one fact about the student: a shard written without its index
+     * is an answer that never happened as far as every headline figure goes,
+     * and an index written without its shard counts an answer no screen can
+     * show. Writing them as two [putDocumentAndEnqueue] calls leaves a window
+     * -- a process death, a cancellation -- where exactly one survives, and
+     * nothing afterwards can tell that it did.
+     *
+     * Callers with a genuinely single document keep using
+     * [putDocumentAndEnqueue]; this exists for the ones whose write is only
+     * meaningful whole.
+     */
+    suspend fun putDocumentsAndEnqueue(documents: List<PendingDocument>, savedAt: Instant) {
         database.withTransaction {
-            documentDao.upsert(
-                DocumentEntity(
-                    key = key,
-                    json = json,
-                    serverUpdatedAt = serverUpdatedAt,
-                    savedAt = Instant.now(),
-                ),
-            )
-            outboxDao.insert(OutboxEntity(key = key, json = json, savedAt = savedAt))
+            for (document in documents) {
+                documentDao.upsert(
+                    DocumentEntity(
+                        key = document.key,
+                        json = document.json,
+                        serverUpdatedAt = document.serverUpdatedAt,
+                        savedAt = Instant.now(),
+                    ),
+                )
+                outboxDao.insert(OutboxEntity(key = document.key, json = document.json, savedAt = savedAt))
+            }
         }
     }
 

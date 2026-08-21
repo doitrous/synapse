@@ -222,4 +222,50 @@ class LocalStoreTest {
         val remaining = store.outbox()
         assertEquals(listOf("key-2"), remaining.map { it.key })
     }
+
+    // -- Multi-document writes --------------------------------------------
+
+    @Test fun `several documents and their outbox entries land together`() = runBlocking {
+        store.putDocumentsAndEnqueue(
+            listOf(
+                PendingDocument("shard", """{"a":1}""", null),
+                PendingDocument("index", """{"b":2}""", null),
+            ),
+            Instant.now(),
+        )
+
+        assertEquals("""{"a":1}""", store.document("shard")?.json)
+        assertEquals("""{"b":2}""", store.document("index")?.json)
+        assertEquals(listOf("shard", "index"), store.outbox().map { it.key })
+    }
+
+    /**
+     * The half-written attempt this method exists to prevent.
+     *
+     * Banking an attempt writes a month shard and the index that counts it.
+     * As two separate transactions, a failure between them commits the first
+     * and loses the second, and nothing afterwards can tell: a shard with no
+     * index fold is an answer no headline figure counts, and an index fold
+     * with no shard is a total no screen can account for.
+     *
+     * The failure is injected by handing the method a list that throws on its
+     * second element -- real, in-transaction, and precisely between the two
+     * documents. No mocking framework, because there is none on this branch
+     * and this does not need one.
+     */
+    @Test fun `a failure between two documents leaves neither written`() = runBlocking {
+        val explodesOnTheSecond = object : AbstractList<PendingDocument>() {
+            override val size = 2
+            override fun get(index: Int): PendingDocument = when (index) {
+                0 -> PendingDocument("shard", """{"a":1}""", null)
+                else -> throw IllegalStateException("the write failed midway")
+            }
+        }
+
+        val thrown = runCatching { store.putDocumentsAndEnqueue(explodesOnTheSecond, Instant.now()) }
+        assertTrue("the failure must surface, not be swallowed", thrown.isFailure)
+
+        assertEquals("the first document must have been rolled back", null, store.document("shard"))
+        assertEquals("and its outbox entry with it", emptyList<String>(), store.outbox().map { it.key })
+    }
 }

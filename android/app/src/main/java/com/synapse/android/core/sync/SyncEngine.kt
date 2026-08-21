@@ -5,6 +5,7 @@ import com.synapse.android.core.api.ApiError
 import com.synapse.android.core.api.RemoteState
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.LocalStore
+import com.synapse.android.core.cache.PendingDocument
 import com.synapse.android.core.model.LedgerDecoder
 import com.synapse.android.core.progress.AttemptStore
 import java.time.Instant
@@ -101,6 +102,29 @@ class SyncEngine(
     suspend fun write(key: String, json: String) {
         val existing = store.document(key)
         store.putDocumentAndEnqueue(key, json, existing?.serverUpdatedAt, Instant.now())
+        drain()
+    }
+
+    /**
+     * The same, for an edit that is only meaningful as a whole.
+     *
+     * [write] guarantees that one document and its outbox entry land
+     * together; this guarantees the same across several documents at once.
+     * Banking an attempt is the case that needs it: the month shard and the
+     * index that counts it are two documents but one fact, and half of it
+     * committed is worse than none of it -- a shard with no index entry is an
+     * answer no headline figure counts, and an index with no shard counts an
+     * answer no screen can show. Both are silent, and neither is recoverable
+     * from the outside.
+     *
+     * Callers writing a single document should keep using [write]; there is
+     * nothing to gain here and a list to build.
+     */
+    suspend fun writeAll(documents: List<Pair<String, String>>) {
+        val pending = documents.map { (key, json) ->
+            PendingDocument(key, json, store.document(key)?.serverUpdatedAt)
+        }
+        store.putDocumentsAndEnqueue(pending, Instant.now())
         drain()
     }
 
