@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Pull every question off every 101 ISK exam paper.
+"""Pull every question off a Kasr Al Ainy module's exam papers.
+
+    python3 scripts/kasr/extract-questions.py [--module "104 CPS"]
+
+Defaults to 101 ISK, whose questions.json is committed at the unprefixed path;
+any other module writes into extract/<module-slug>/.
 
 Text layer where there is one, OCR where there is not. A scanned paper that
 extracts to nothing is not a paper without questions, and treating it as one is
@@ -16,10 +21,21 @@ import sys
 import tempfile
 import unicodedata
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "extract"))
+from kasr_module import module_sources, out_path, parse_module  # noqa: E402
+
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-CORPUS = "/Users/doitrous/Desktop/Kasr Alainy"
 MANIFEST = os.path.join(REPO, "docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json")
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions.json")
+
+# Set in main(). `101 ISK` keeps the unprefixed questions.json it has committed.
+MODULE = "101 ISK"
+OUT = out_path(MODULE, "questions.json")
+
+# The page text every other extractor already produced. Re-OCRing a paper this
+# cache already holds is not a second opinion, it is a second bill — and, for a
+# scanned paper, a worse one, because the shared pass reads every page while the
+# fallback here stops at forty.
+PAGETEXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "extract", "pagetext")
 
 WANTED = {"EOY", "EOM", "Baqoon", "Written Questions"}
 
@@ -118,10 +134,34 @@ def questions_from(text, source):
     return rows
 
 
-def main():
-    manifest = json.load(open(MANIFEST))
-    papers = [x for x in manifest["sources"]
-              if x["moduleId"] == "101 ISK" and x["sourceCategory"] in WANTED]
+def cached_text(source):
+    """Page text from the shared cache, in either schema, or None."""
+    path = os.path.join(PAGETEXT, source["sourceId"] + ".json")
+    if not os.path.exists(path):
+        return None
+    doc = json.load(open(path, encoding="utf-8"))
+    pages = doc.get("pages")
+    if not pages:
+        return None
+    # `mode` is pagetext.py's; `method` is mcq.py's. Both hold a page list.
+    how = doc.get("mode") or doc.get("method") or "cached"
+    return "\f".join(pages), ("cached-" + how)
+
+
+def main(argv):
+    global MODULE, OUT
+    MODULE, _rest = parse_module(argv)
+    OUT = out_path(MODULE, "questions.json")
+
+    # One row per file, not per manifest row: fourteen source IDs in this corpus
+    # are indexed twice, and a paper counted twice is a paper whose questions are
+    # all duplicated.
+    seen, papers = set(), []
+    for source in module_sources(MODULE):
+        if source["sourceCategory"] not in WANTED or source["sourceId"] in seen:
+            continue
+        seen.add(source["sourceId"])
+        papers.append(source)
     papers.sort(key=lambda x: (x["sourceTier"], -(x["examSittingYear"] or 0)))
 
     all_rows = []
@@ -133,9 +173,13 @@ def main():
             continue
 
         pages = paper["pageCount"] or 0
-        text = native(path)
-        how = "native"
-        if len(text.strip()) < 200:
+        cached = cached_text(paper)
+        if cached:
+            text, how = cached
+        else:
+            text = native(path)
+            how = "native"
+        if not cached and len(text.strip()) < 200:
             # Cap the OCR: a 89-page compilation of many papers is worth its
             # first 40 pages now and a second pass later, not an hour today.
             text = ocr(path, min(pages, 40))
@@ -153,4 +197,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

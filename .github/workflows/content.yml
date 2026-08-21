@@ -71,8 +71,13 @@ jobs:
           set -e
           concepts=$(ls docs/Kasr-Source-Imports/concept/*.md 2>/dev/null || true)
           articles=$(ls docs/Kasr-Source-Imports/article/*.md 2>/dev/null || true)
+          # Evidence too. A question may cite the paper it was taken from, and
+          # that citation only resolves if the resource record is a sibling —
+          # otherwise a batch that is right fails here for naming its own
+          # source, and the only way to pass is to drop the provenance.
+          evidence=$(ls docs/Kasr-Source-Imports/evidence/*.md 2>/dev/null || true)
           siblings=""
-          for file in $concepts $articles; do siblings="$siblings --with $file"; done
+          for file in $concepts $articles $evidence; do siblings="$siblings --with $file"; done
 
           failed=0
           for file in docs/Kasr-Source-Imports/*/*.md; do

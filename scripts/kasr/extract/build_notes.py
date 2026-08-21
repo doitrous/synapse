@@ -2,7 +2,14 @@
 """Assembles notes.json for the 101 ISK Notes / Important & Summaries /
 Orientation batch. Content below is transcribed from the extracted page text
 (see notes.py for the extraction); nothing is added from outside the sources."""
-import json, os
+import json, os, sys
+
+from kasr_module import out_path, parse_module
+
+# Five modules share this directory. `101 ISK` keeps the unprefixed
+# `notes.json` it already writes; any other module writes into its own
+# `extract/<module-slug>/`, so two lanes cannot overwrite one file.
+MODULE, _ARGV = parse_module(sys.argv[1:])
 
 SID = {
     "blood":  "src_450c71dc6273b2e64ca3",
@@ -1508,7 +1515,15 @@ OUT = {"files": FILES, "orientation": ORIENTATION, "topics": TOPICS, "pastQuesti
        "flags": FLAGS, "notes": NOTES}
 
 if __name__ == "__main__":
-    dest = os.path.join(os.path.dirname(os.path.abspath(__file__)), "notes.json")
+    # The tables in this file are 101 ISK's, transcribed by hand. Writing them
+    # out under another module's name would file one module's notes as
+    # another's, so a non-default module is refused rather than silently
+    # producing a mislabelled file.
+    if MODULE != "101 ISK":
+        raise SystemExit(
+            "build_notes.py holds 101 ISK's transcribed tables; it has nothing to\n"
+            "write for %s. Transcribe that module's notes into their own file." % MODULE)
+    dest = out_path(MODULE, "notes.json")
     with open(dest, "w") as fh:
         json.dump(OUT, fh, ensure_ascii=False, indent=1)
     print("wrote %s: %d files, %d topics, %d pastQuestions"

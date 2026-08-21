@@ -1,0 +1,2744 @@
+{
+ "moduleId": "108 INT",
+ "universityId": "kau",
+ "sourceCategory": "EOY",
+ "generatedBy": "scripts/kasr/extract/108-INT/answerkey.py",
+ "generatedFrom": "pixels: each MCQ page of the four EOY sources rendered at 150 dpi and intersected with the option line boxes that pdftotext -bbox-layout reports",
+ "joinsTo": "scripts/kasr/extract/108-INT/eoy.json on questionId; eoy.py and eoy.json are not modified by this script",
+ "colourRule": {
+  "space": "HSV over the 8-bit sRGB render",
+  "hueDegrees": [
+   295.0,
+   355.0
+  ],
+  "saturationMin": 0.1,
+  "valueMin255": 24,
+  "valueFloorNote": "set near black, not near white: the 2024 mark is translucent and renders as dark maroon of the same hue where it crosses a glyph",
+  "why": "sampled, not assumed: the 2025 highlight renders at H317 S0.35 V1.00 and the 2024 one at H336-338 S0.16-0.24 V0.91-0.97, while every non-highlight mark on an MCQ page of either paper is neutral grey (R==G==B, saturation 0) and fails the floor"
+ },
+ "shapeRule": {
+  "minHorizontalRunPx": 12,
+  "minWidthPx": 30,
+  "minHeightPx": 8,
+  "minTotalPixels": 600,
+  "optionCoreFraction": 0.6
+ },
+ "attributionRule": {
+  "minOverlapFraction": 0.12,
+  "minShare": 0.7,
+  "note": "a question whose best option falls short of either threshold is written with optionLetter null and the geometry that made it ambiguous; no answer is ever inferred from the text"
+ },
+ "control": [
+  {
+   "sourceId": "src_26907f7ae5f2763e89f0",
+   "file": "EOY 108 exam 199 [unsolved] (2).pdf",
+   "role": "unsolved control copy",
+   "mcqPagesScanned": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "questionsScanned": 24,
+   "highlightPixelsFound": 0,
+   "highlightRegionsFound": 0,
+   "highlightRegionsOnNoOptionBox": 0,
+   "answersAttributed": 0,
+   "questionsWithAnyOverlap": 0
+  },
+  {
+   "sourceId": "src_a2e82550c5fffe1b8bfd",
+   "file": "EOY Exam {INT-108} 198 (3).pdf",
+   "role": "unsolved control copy",
+   "mcqPagesScanned": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "questionsScanned": 24,
+   "highlightPixelsFound": 0,
+   "highlightRegionsFound": 0,
+   "highlightRegionsOnNoOptionBox": 0,
+   "answersAttributed": 0,
+   "questionsWithAnyOverlap": 0
+  }
+ ],
+ "totals": {
+  "answersRecovered": 48,
+  "questionsScanned": 48,
+  "unresolved": 0,
+  "byPaper": {
+   "src_bd1595e59d116b78436a": {
+    "questions": 24,
+    "answered": 24,
+    "unresolved": 0,
+    "file": "EOY 108 exam 199 [solved] (2).pdf"
+   },
+   "src_3deab75f7f81cc5f5260": {
+    "questions": 24,
+    "answered": 24,
+    "unresolved": 0,
+    "file": "EOY Exam {INT-108} 198 (Solved) (3).pdf"
+   }
+  },
+  "confidenceDistribution": {
+   "1.00": 43,
+   "0.95-0.99": 4,
+   "0.90-0.94": 0,
+   "0.80-0.89": 1,
+   "0.70-0.79": 0,
+   "unresolved": 0
+  }
+ },
+ "pageStatistics": {
+  "src_bd1595e59d116b78436a": [
+   {
+    "page": 1,
+    "highlightPixels": 41607,
+    "regionsKept": 4,
+    "regionsDroppedAsTooSmall": 30,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     315.0,
+     324.0
+    ],
+    "saturationRange": [
+     0.10196078431372549,
+     0.4
+    ],
+    "hueHistogram": {
+     "315": 41097,
+     "320": 510
+    }
+   },
+   {
+    "page": 2,
+    "highlightPixels": 52715,
+    "regionsKept": 4,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     316.8421052631579,
+     342.8571428571429
+    ],
+    "saturationRange": [
+     0.10196078431372549,
+     0.45161290322580644
+    ],
+    "hueHistogram": {
+     "315": 43091,
+     "320": 1610,
+     "325": 1011,
+     "330": 7000,
+     "340": 3
+    }
+   },
+   {
+    "page": 3,
+    "highlightPixels": 57376,
+    "regionsKept": 4,
+    "regionsDroppedAsTooSmall": 59,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     316.3636363636364,
+     324.0
+    ],
+    "saturationRange": [
+     0.10196078431372549,
+     0.4
+    ],
+    "hueHistogram": {
+     "315": 56433,
+     "320": 943
+    }
+   },
+   {
+    "page": 4,
+    "highlightPixels": 135830,
+    "regionsKept": 5,
+    "regionsDroppedAsTooSmall": 74,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     316.8,
+     324.0
+    ],
+    "saturationRange": [
+     0.10080645161290322,
+     0.5725490196078431
+    ],
+    "hueHistogram": {
+     "315": 132216,
+     "320": 3614
+    }
+   },
+   {
+    "page": 5,
+    "highlightPixels": 119524,
+    "regionsKept": 5,
+    "regionsDroppedAsTooSmall": 70,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     316.3636363636364,
+     324.0
+    ],
+    "saturationRange": [
+     0.10196078431372549,
+     0.4
+    ],
+    "hueHistogram": {
+     "315": 116785,
+     "320": 2739
+    }
+   },
+   {
+    "page": 6,
+    "highlightPixels": 142398,
+    "regionsKept": 4,
+    "regionsDroppedAsTooSmall": 110,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     316.8421052631579,
+     324.0
+    ],
+    "saturationRange": [
+     0.10196078431372549,
+     0.4
+    ],
+    "hueHistogram": {
+     "315": 140150,
+     "320": 2248
+    }
+   }
+  ],
+  "src_26907f7ae5f2763e89f0": [
+   {
+    "page": 1,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 2,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 3,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 4,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 5,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 6,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   }
+  ],
+  "src_a2e82550c5fffe1b8bfd": [
+   {
+    "page": 1,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 2,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 3,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   },
+   {
+    "page": 4,
+    "highlightPixels": 0,
+    "regionsKept": 0,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     null,
+     null
+    ],
+    "saturationRange": [
+     null,
+     null
+    ],
+    "hueHistogram": {}
+   }
+  ],
+  "src_3deab75f7f81cc5f5260": [
+   {
+    "page": 1,
+    "highlightPixels": 42427,
+    "regionsKept": 6,
+    "regionsDroppedAsTooSmall": 0,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     330.0,
+     336.9230769230769
+    ],
+    "saturationRange": [
+     0.1,
+     0.6379310344827587
+    ],
+    "hueHistogram": {
+     "330": 1013,
+     "335": 41414
+    }
+   },
+   {
+    "page": 2,
+    "highlightPixels": 37410,
+    "regionsKept": 7,
+    "regionsDroppedAsTooSmall": 5,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     332.3076923076923,
+     348.0
+    ],
+    "saturationRange": [
+     0.1,
+     0.6379310344827587
+    ],
+    "hueHistogram": {
+     "330": 615,
+     "335": 36175,
+     "340": 616,
+     "345": 4
+    }
+   },
+   {
+    "page": 3,
+    "highlightPixels": 129258,
+    "regionsKept": 6,
+    "regionsDroppedAsTooSmall": 50,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     330.0,
+     350.0
+    ],
+    "saturationRange": [
+     0.1,
+     0.4810126582278481
+    ],
+    "hueHistogram": {
+     "330": 372,
+     "335": 124942,
+     "340": 3924,
+     "345": 17,
+     "350": 3
+    }
+   },
+   {
+    "page": 4,
+    "highlightPixels": 87107,
+    "regionsKept": 6,
+    "regionsDroppedAsTooSmall": 45,
+    "regionsOnNoOptionBox": 0,
+    "regionsOnNoOptionBoxGeometry": [],
+    "hueRange": [
+     330.0,
+     348.0
+    ],
+    "saturationRange": [
+     0.1,
+     0.4345991561181435
+    ],
+    "hueHistogram": {
+     "330": 313,
+     "335": 83420,
+     "340": 3363,
+     "345": 11
+    }
+   }
+  ]
+ },
+ "answers": [
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 1,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 1,
+   "questionNumberPrinted": "1",
+   "questionId": "src_bd1595e59d116b78436a:s1:1",
+   "questionIdBasis": "position 1 of 24 mcq_single_best questions in eoy.json, printed number 1 vs 1, stem text agrees",
+   "stem": "The earliest change in reversible cell injury is:",
+   "optionLetter": "c",
+   "optionText": "Cloudy swelling",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Nuclear pyknosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6461.3
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Fatty change",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5059.2
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Cloudy swelling",
+     "overlapFraction": 0.6123,
+     "overlapPixels": 3617.6,
+     "optionCorePixels": 5908.5
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Fat necrosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4803.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 3617.6
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 1,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 2,
+   "questionNumberPrinted": "2",
+   "questionId": "src_bd1595e59d116b78436a:s1:2",
+   "questionIdBasis": "position 2 of 24 mcq_single_best questions in eoy.json, printed number 2 vs 2, stem text agrees",
+   "stem": "Reperfusion injury occurs due to:",
+   "optionLetter": "b",
+   "optionText": "Increased free radicals",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Loss of ATP only",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6307.3
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Increased free radicals",
+     "overlapFraction": 1.027,
+     "overlapPixels": 8601.1,
+     "optionCorePixels": 8374.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Glycogen accumulation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8544.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Reduced oxygen supply",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8801.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 8601.1
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 1,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 3,
+   "questionNumberPrinted": "3",
+   "questionId": "src_bd1595e59d116b78436a:s1:3",
+   "questionIdBasis": "position 3 of 24 mcq_single_best questions in eoy.json, printed number 3 vs 3, stem text agrees",
+   "stem": "Apoptosis is characterized by:",
+   "optionLetter": "c",
+   "optionText": "Cell shrinkage",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Cell swelling",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4888.3
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Inflammation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5015.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Cell shrinkage",
+     "overlapFraction": 0.9803,
+     "overlapPixels": 5334.0,
+     "optionCorePixels": 5440.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Liquefaction",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4762.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 5334.0
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 1,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 4,
+   "questionNumberPrinted": "4",
+   "questionId": "src_bd1595e59d116b78436a:s1:4",
+   "questionIdBasis": "position 4 of 24 mcq_single_best questions in eoy.json, printed number 4 vs 4, stem text agrees",
+   "stem": "Fat necrosis occurs in:",
+   "optionLetter": "a",
+   "optionText": "Acute pancreatitis",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Acute pancreatitis",
+     "overlapFraction": 0.4336,
+     "overlapPixels": 2912.7,
+     "optionCorePixels": 6717.0
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Myocardial infarction",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 7651.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Brain infarction",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5695.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Tuberculosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4945.5
+    }
+   ],
+   "highlightPixelsOnQuestion": 2912.7
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 2,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 5,
+   "questionNumberPrinted": "5",
+   "questionId": "src_bd1595e59d116b78436a:s1:5",
+   "questionIdBasis": "position 5 of 24 mcq_single_best questions in eoy.json, printed number 5 vs 5, stem text agrees",
+   "stem": "Which type of necrosis has a “cheese-like” appearance?",
+   "optionLetter": "d",
+   "optionText": "Caseous",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Coagulative",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6680.6
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Fat",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2692.5
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Fibrinoid",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5209.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Caseous",
+     "overlapFraction": 0.9987,
+     "overlapPixels": 5299.7,
+     "optionCorePixels": 5306.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 5299.7
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 2,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 6,
+   "questionNumberPrinted": "6",
+   "questionId": "src_bd1595e59d116b78436a:s1:6",
+   "questionIdBasis": "position 6 of 24 mcq_single_best questions in eoy.json, printed number 6 vs 6, stem text agrees",
+   "stem": "Dystrophic calcification occurs in:",
+   "optionLetter": "b",
+   "optionText": "Dead or damaged tissues",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Normal tissues",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8095.4
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Dead or damaged tissues",
+     "overlapFraction": 0.9987,
+     "overlapPixels": 13173.6,
+     "optionCorePixels": 13190.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Hypercalcemia",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8095.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Bone and teeth",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8368.3
+    }
+   ],
+   "highlightPixelsOnQuestion": 13173.6
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 2,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 7,
+   "questionNumberPrinted": "7",
+   "questionId": "src_bd1595e59d116b78436a:s1:7",
+   "questionIdBasis": "position 7 of 24 mcq_single_best questions in eoy.json, printed number 7 vs 7, stem text agrees",
+   "stem": "Hyperparathyroidism commonly causes:",
+   "optionLetter": "b",
+   "optionText": "Metastatic calcification",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Dystrophic calcification",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 12026.0
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Metastatic calcification",
+     "overlapFraction": 0.9646,
+     "overlapPixels": 11526.2,
+     "optionCorePixels": 11948.6
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Fat necrosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6836.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Amyloidosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6856.3
+    }
+   ],
+   "highlightPixelsOnQuestion": 11526.2
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 2,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 8,
+   "questionNumberPrinted": "8",
+   "questionId": "src_bd1595e59d116b78436a:s1:8",
+   "questionIdBasis": "position 8 of 24 mcq_single_best questions in eoy.json, printed number 8 vs 8, stem text agrees",
+   "stem": "Café au lait patches in neurofibromatosis are related to deposition of:",
+   "optionLetter": "a",
+   "optionText": "Melanin",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Melanin",
+     "overlapFraction": 0.9987,
+     "overlapPixels": 4797.4,
+     "optionCorePixels": 4803.7
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Amyloid",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4978.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Lipids",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3951.5
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Carbon",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4667.8
+    }
+   ],
+   "highlightPixelsOnQuestion": 4797.4
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 3,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 9,
+   "questionNumberPrinted": "9",
+   "questionId": "src_bd1595e59d116b78436a:s1:9",
+   "questionIdBasis": "position 9 of 24 mcq_single_best questions in eoy.json, printed number 9 vs 9, stem text agrees",
+   "stem": "Under polarized light, Congo red stained amyloid shows:",
+   "optionLetter": "b",
+   "optionText": "Apple green birefringence",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Yellow fluorescence",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8882.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Apple green birefringence",
+     "overlapFraction": 1.0342,
+     "overlapPixels": 11612.1,
+     "optionCorePixels": 11228.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Blue fluorescence",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8082.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Black pigmentation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8581.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 11612.1
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 3,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 10,
+   "questionNumberPrinted": "9",
+   "questionId": "src_bd1595e59d116b78436a:s1:10",
+   "questionIdBasis": "position 10 of 24 mcq_single_best questions in eoy.json, printed number 9 vs 9, stem text agrees",
+   "stem": "Which of the following is an example of intracellular hyaline change?",
+   "optionLetter": "c",
+   "optionText": "Russell bodies",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Hyaline arteriolosclerosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 10974.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Keloid scar",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5438.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Russell bodies",
+     "overlapFraction": 0.5871,
+     "overlapPixels": 3983.4,
+     "optionCorePixels": 6785.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Chloasma of pregnancy",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 10477.8
+    }
+   ],
+   "highlightPixelsOnQuestion": 3983.4
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 3,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 11,
+   "questionNumberPrinted": "11",
+   "questionId": "src_bd1595e59d116b78436a:s1:11",
+   "questionIdBasis": "position 11 of 24 mcq_single_best questions in eoy.json, printed number 11 vs 11, stem text agrees",
+   "stem": "Xanthomas are skin or tendon lesions caused by the buildup of which substance?",
+   "optionLetter": "b",
+   "optionText": "Lipids",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Calcium",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4239.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Lipids",
+     "overlapFraction": 0.838,
+     "overlapPixels": 2802.0,
+     "optionCorePixels": 3343.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Uric acid",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4438.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Melanin",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4141.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 2802.0
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 3,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 12,
+   "questionNumberPrinted": "12",
+   "questionId": "src_bd1595e59d116b78436a:s1:12",
+   "questionIdBasis": "position 12 of 24 mcq_single_best questions in eoy.json, printed number 12 vs 12, stem text agrees",
+   "stem": "Which of the following is true about apoptosis?",
+   "optionLetter": "d",
+   "optionText": "It is controlled by the BCL2 protein family",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It is pathological only",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 9330.4
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It involves death of a group of cells",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14818.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "It represents reversible cell injury",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14067.1
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It is controlled by the BCL2 protein family",
+     "overlapFraction": 1.0342,
+     "overlapPixels": 17903.7,
+     "optionCorePixels": 17311.6
+    }
+   ],
+   "highlightPixelsOnQuestion": 17903.7
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 4,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 13,
+   "questionNumberPrinted": "13",
+   "questionId": "src_bd1595e59d116b78436a:s1:13",
+   "questionIdBasis": "position 13 of 24 mcq_single_best questions in eoy.json, printed number 13 vs 13, stem text agrees",
+   "stem": "A weak acid drug is better absorbed trom the stomach because:",
+   "optionLetter": "c",
+   "optionText": "In an acidic medium, the weak acid is mostly non-ionized and lipid- soluble",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Active transport is maximally eﬀective in the acidic gastric environment",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 24504.4
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Gastric acidity increases the drug's passive distribution to tissues",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 22754.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "In an acidic medium, the weak acid is mostly non-ionized and lipid- soluble",
+     "overlapFraction": 1.0054,
+     "overlapPixels": 25835.5,
+     "optionCorePixels": 25696.2
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "The gastric mucosa has the largest absorbing surface in the gastrointestinal tract",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27670.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 25835.5
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 4,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 14,
+   "questionNumberPrinted": "14",
+   "questionId": "src_bd1595e59d116b78436a:s1:14",
+   "questionIdBasis": "position 14 of 24 mcq_single_best questions in eoy.json, printed number 14 vs 14, stem text agrees",
+   "stem": "A very high volume of distribution (Vd) for a drug implies that it:",
+   "optionLetter": "b",
+   "optionText": "Is concentrated in body tissues rather than remaining in the blood",
+   "confidence": 0.8999,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Has high molecular weight or strong plasma protein binding",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 20758.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Is concentrated in body tissues rather than remaining in the blood",
+     "overlapFraction": 0.7732,
+     "overlapPixels": 17638.5,
+     "optionCorePixels": 22813.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Is unlikely to cross the blood-brain barrier",
+     "overlapFraction": 0.086,
+     "overlapPixels": 1265.6,
+     "optionCorePixels": 14711.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Remains within the intravascular compartment",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16377.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 18904.1
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 4,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 15,
+   "questionNumberPrinted": "15",
+   "questionId": "src_bd1595e59d116b78436a:s1:15",
+   "questionIdBasis": "position 15 of 24 mcq_single_best questions in eoy.json, printed number 15 vs 15, stem text agrees",
+   "stem": "Which of the following is required for a drug to reach steady-state plasma concentration (Css)?",
+   "optionLetter": "b",
+   "optionText": "Equal rates of drug administration and drug elimination",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Administration by intravenous infusion only",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 15170.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Equal rates of drug administration and drug elimination",
+     "overlapFraction": 0.873,
+     "overlapPixels": 16766.6,
+     "optionCorePixels": 19206.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Gradual reduction of the dose over successive administrations",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 21687.2
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Waiting exactly one plasma half-life between successive doses",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 21879.6
+    }
+   ],
+   "highlightPixelsOnQuestion": 16766.6
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 4,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 16,
+   "questionNumberPrinted": "16",
+   "questionId": "src_bd1595e59d116b78436a:s1:16",
+   "questionIdBasis": "position 16 of 24 mcq_single_best questions in eoy.json, printed number 16 vs 16, stem text agrees",
+   "stem": "Which of the following correctly distinguishes hepatic microsomal from non-microsomal drug-metabolizing enzymes?",
+   "optionLetter": "a",
+   "optionText": "Hepatic microsomal enzymes are inducible; non-microsomal enzymes are not",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Hepatic microsomal enzymes are inducible; non-microsomal enzymes are not",
+     "overlapFraction": 0.9306,
+     "overlapPixels": 24673.4,
+     "optionCorePixels": 26514.5
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Hepatic microsomal enzymes can catalyze all Phase Il reactions except glucuronidation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 29825.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Non-microsomal enzymes are confined to the liver and absent from other organs",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27519.2
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Non-microsomal enzymes catalyze only Phase Il synthetic reactions.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 23710.8
+    }
+   ],
+   "highlightPixelsOnQuestion": 24673.4
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 5,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 17,
+   "questionNumberPrinted": "17",
+   "questionId": "src_bd1595e59d116b78436a:s1:17",
+   "questionIdBasis": "position 17 of 24 mcq_single_best questions in eoy.json, printed number 17 vs 17, stem text agrees",
+   "stem": "The maintenance dose of a drug is correctly calculated as:",
+   "optionLetter": "b",
+   "optionText": "Clearance multiplied by the desired Css and the dosing interval (Tm)",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Clearance divided by the desired steady-state concentration (Css)",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 22893.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Clearance multiplied by the desired Css and the dosing interval (Tm)",
+     "overlapFraction": 0.8743,
+     "overlapPixels": 20671.6,
+     "optionCorePixels": 23644.2
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Half-life multiplied by the volume of distribution",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16585.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Volume of distribution multiplied by the desired plasma concentration",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 24006.5
+    }
+   ],
+   "highlightPixelsOnQuestion": 20671.6
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 5,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 18,
+   "questionNumberPrinted": "18",
+   "questionId": "src_bd1595e59d116b78436a:s1:18",
+   "questionIdBasis": "position 18 of 24 mcq_single_best questions in eoy.json, printed number 18 vs 18, stem text agrees",
+   "stem": "Which of the following characterizes renal tubular secretion of drugs?",
+   "optionLetter": "a",
+   "optionText": "It is an active saturable process.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It is an active saturable process.",
+     "overlapFraction": 1.0054,
+     "overlapPixels": 11655.1,
+     "optionCorePixels": 11592.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It is eﬀective only for water-soluble drugs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14810.0
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Probenecid increases penicillin excretion by competition at this mechanism.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 25946.3
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "There is one specific carrier for each individual drug.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 18330.2
+    }
+   ],
+   "highlightPixelsOnQuestion": 11655.1
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 5,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 19,
+   "questionNumberPrinted": "19",
+   "questionId": "src_bd1595e59d116b78436a:s1:19",
+   "questionIdBasis": "position 19 of 24 mcq_single_best questions in eoy.json, printed number 19 vs 19, stem text agrees",
+   "stem": "In a dose-response experiment, how can a non-competitive antagonist be distinguished from a competitive antagonist?",
+   "optionLetter": "a",
+   "optionText": "A decrease in the Emax of the agonist occurs only with the non- competitive antagonist",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "A decrease in the Emax of the agonist occurs only with the non- competitive antagonist",
+     "overlapFraction": 0.8831,
+     "overlapPixels": 26329.2,
+     "optionCorePixels": 29813.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "A lower potency of the agonist occurs only with competitive antagonism",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 24750.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "A parallel rightward shift of the curve occurs with the non-competitive antagonist",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27564.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Displacement by excess agonist occurs with the non-competitive antagonist",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 25972.5
+    }
+   ],
+   "highlightPixelsOnQuestion": 26329.2
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 5,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 20,
+   "questionNumberPrinted": "20",
+   "questionId": "src_bd1595e59d116b78436a:s1:20",
+   "questionIdBasis": "position 20 of 24 mcq_single_best questions in eoy.json, printed number 20 vs 20, stem text agrees",
+   "stem": "Drug A produces a maximum eﬀect of 80%, and Drug B produces a maximum eﬀect of 100% at the same receptor. Which of the following correctly describes this finding?",
+   "optionLetter": "d",
+   "optionText": "Drug B has greater eﬃcacy than Drug A",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Drug A has greater eﬃcacy than Drug B",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14118.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Drug A has greater potency than Drug B",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14283.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Drug A is a full agonist and Drug B is a partial agonist",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 18649.8
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Drug B has greater eﬃcacy than Drug A",
+     "overlapFraction": 1.0054,
+     "overlapPixels": 14236.9,
+     "optionCorePixels": 14160.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 14236.9
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 6,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 21,
+   "questionNumberPrinted": "21",
+   "questionId": "src_bd1595e59d116b78436a:s1:21",
+   "questionIdBasis": "position 21 of 24 mcq_single_best questions in eoy.json, printed number 21 vs 21, stem text agrees",
+   "stem": "An IRREVERSIBLE non-competitive antagonist diﬀers from a reversible one in that:",
+   "optionLetter": "a",
+   "optionText": "It binds covalently, and its block ends only with new receptor synthesis",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It binds covalently, and its block ends only with new receptor synthesis",
+     "overlapFraction": 1.0035,
+     "overlapPixels": 26874.4,
+     "optionCorePixels": 26780.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It can be displaced by excess agonist, restoring the normal response",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 26099.4
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "It causes a parallel rightward shift of the concentration-response curve",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 26641.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It does not aﬀect the maximum response (Emax) of the agonist",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 23860.6
+    }
+   ],
+   "highlightPixelsOnQuestion": 26874.4
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 6,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 22,
+   "questionNumberPrinted": "22",
+   "questionId": "src_bd1595e59d116b78436a:s1:22",
+   "questionIdBasis": "position 22 of 24 mcq_single_best questions in eoy.json, printed number 22 vs 22, stem text agrees",
+   "stem": "Pharmacogenomics is best described as the study of:",
+   "optionLetter": "b",
+   "optionText": "How genetic variations influence an individual's response to drugs",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Drug interactions between two or more simultaneously administered drugs",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27871.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "How genetic variations influence an individual's response to drugs",
+     "overlapFraction": 0.9484,
+     "overlapPixels": 23801.3,
+     "optionCorePixels": 25097.0
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "The chemical modification of drugs to improve their pharmacokinetic profile",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 28267.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "The relationship between drug dose and therapeutic plasma concentration",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27918.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 23801.3
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 6,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 23,
+   "questionNumberPrinted": "23",
+   "questionId": "src_bd1595e59d116b78436a:s1:23",
+   "questionIdBasis": "position 23 of 24 mcq_single_best questions in eoy.json, printed number 23 vs 23, stem text agrees",
+   "stem": "Which of the following is a PHARMACODYNAMIC mechanism of acquired drug tolerance",
+   "optionLetter": "b",
+   "optionText": "Down-regulation of receptors following prolonged agonist administration",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Decreased drug absorption due to changes in gastrointestinal motility",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 26296.6
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Down-regulation of receptors following prolonged agonist administration",
+     "overlapFraction": 0.9882,
+     "overlapPixels": 27061.2,
+     "optionCorePixels": 27384.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Increased hepatic microsomal enzyme activity, degrading the drug faster",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 27402.1
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Reduction in drug bioavailability due to increased first-pass metabolism",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 26857.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 27061.2
+  },
+  {
+   "sourceId": "src_bd1595e59d116b78436a",
+   "page": 6,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 24,
+   "questionNumberPrinted": "24",
+   "questionId": "src_bd1595e59d116b78436a:s1:24",
+   "questionIdBasis": "position 24 of 24 mcq_single_best questions in eoy.json, printed number 24 vs 24, stem text agrees",
+   "stem": "Which of the following correctly distinguishes drug allergy from idiosyncrasy?",
+   "optionLetter": "b",
+   "optionText": "Allergy is immune-mediated; idiosyncrasy is genetically determined.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Allergy can occur on first exposure; idiosyncrasy requires repeated exposure.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 28816.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Allergy is immune-mediated; idiosyncrasy is genetically determined.",
+     "overlapFraction": 0.9607,
+     "overlapPixels": 24673.8,
+     "optionCorePixels": 25682.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Idiosyncrasy is dose-dependent; allergy occurs only at toxic doses.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 25467.7
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Idiosyncrasy requires prior sensitization; allergy does not.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 21844.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 24673.8
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 1,
+   "questionNumberPrinted": "1",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:1",
+   "questionIdBasis": "position 1 of 24 mcq_single_best questions in eoy.json, printed number 1 vs 1, stem text agrees",
+   "stem": "Liquefactive necrosis occurs in:",
+   "optionLetter": "d",
+   "optionText": "Centers of pyogenic abscesses",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Kidney infarction.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4489.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Heart infarction.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4176.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Splenic infarction.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4574.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Centers of pyogenic abscesses",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 6570.8,
+     "optionCorePixels": 7671.0
+    }
+   ],
+   "highlightPixelsOnQuestion": 6570.8
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 2,
+   "questionNumberPrinted": "2",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:2",
+   "questionIdBasis": "position 2 of 24 mcq_single_best questions in eoy.json, printed number 2 vs 2, stem text agrees",
+   "stem": "Apoptosis is brought about by a group of enzymes called:",
+   "optionLetter": "c",
+   "optionText": "Caspeses",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Lipases",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2330.0
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Proteases",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2869.5
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Caspeses",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 2409.0,
+     "optionCorePixels": 2812.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Catalases",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2841.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 2409.0
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 3,
+   "questionNumberPrinted": "3",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:3",
+   "questionIdBasis": "position 3 of 24 mcq_single_best questions in eoy.json, printed number 3 vs 3, stem text agrees",
+   "stem": "The following is true about fat necrosis:",
+   "optionLetter": "c",
+   "optionText": "The affected areas are chalky white due to formation of calcium soaps",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Intracellular accumulation of neutral lipids in parenchymatous organs occurs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 17756.6
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Depression of mitochondrial enzymes occurs in enzymatic fat necrosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16476.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "The affected areas are chalky white due to formation of calcium soaps",
+     "overlapFraction": 0.8555,
+     "overlapPixels": 14007.6,
+     "optionCorePixels": 16374.5
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "May occur due to excessive mobilization of fat from its stores to the liver.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16959.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 14007.6
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 4,
+   "questionNumberPrinted": "4",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:4",
+   "questionIdBasis": "position 4 of 24 mcq_single_best questions in eoy.json, printed number 4 vs 4, stem text agrees",
+   "stem": "The type of necrosis occurs in the blood vessels in autoimmune diseases:",
+   "optionLetter": "c",
+   "optionText": "Fibrinoid necrosis.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Caseation necrosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4915.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Liquefactive necrosis.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5483.4
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Fibrinoid necrosis.",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 4014.7,
+     "optionCorePixels": 4687.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Coagulative necrosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5312.9
+    }
+   ],
+   "highlightPixelsOnQuestion": 4014.7
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 4,
+   "sequentialIndex": 5,
+   "questionNumberPrinted": "5",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:5",
+   "questionIdBasis": "position 5 of 24 mcq_single_best questions in eoy.json, printed number 5 vs 5, stem text agrees",
+   "stem": "Karyorrhexis means:",
+   "optionLetter": "c",
+   "optionText": "Fragmentation of the nucleus",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Swelling of the nucleus.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5938.4
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Shrinkage of the nucleus",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6194.4
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Fragmentation of the nucleus",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 6132.7,
+     "optionCorePixels": 7159.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Deep staining of the nucleus",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 7018.5
+    }
+   ],
+   "highlightPixelsOnQuestion": 6132.7
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 1,
+   "pageIndexOnPage": 5,
+   "sequentialIndex": 6,
+   "questionNumberPrinted": "6",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:6",
+   "questionIdBasis": "position 6 of 24 mcq_single_best questions in eoy.json, printed number 6 vs 6, stem text agrees",
+   "stem": "Which is true about hepatic steatosis:",
+   "optionLetter": "d",
+   "optionText": "May be caused by alcohol intake.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It is typically irreversible.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6106.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "the liver is shrunken, yellow and greasy.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 9593.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "It is an abnormal accumulation of lipid within portal tract areas.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14659.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "May be caused by alcohol intake.",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 6960.6,
+     "optionCorePixels": 8126.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 6960.6
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 7,
+   "questionNumberPrinted": "7",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:7",
+   "questionIdBasis": "position 7 of 24 mcq_single_best questions in eoy.json, printed number 7 vs 7, stem text agrees",
+   "stem": "Primary amyloidosis can be found in patients with:",
+   "optionLetter": "c",
+   "optionText": "Plasma cell tumor (multiple myeloma)",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Tuberculosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3438.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Acute inflammation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4886.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Plasma cell tumor (multiple myeloma)",
+     "overlapFraction": 0.7995,
+     "overlapPixels": 7243.4,
+     "optionCorePixels": 9060.3
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Renal transplantation",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5398.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 7243.4
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 8,
+   "questionNumberPrinted": "8",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:8",
+   "questionIdBasis": "position 8 of 24 mcq_single_best questions in eoy.json, printed number 8 vs 8, stem text agrees",
+   "stem": "In all of the following conditions the amyloid fibril protein is AA EXCEPT:",
+   "optionLetter": "b",
+   "optionText": "Multiple myeloma.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Ulcerative colitis.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4402.7
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Multiple myeloma.",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 4014.7,
+     "optionCorePixels": 4687.0
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Tuberculosis",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3409.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Chronic osteomyelitis.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5567.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 4014.7
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 9,
+   "questionNumberPrinted": "9",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:9",
+   "questionIdBasis": "position 9 of 24 mcq_single_best questions in eoy.json, printed number 9 vs 9, stem text agrees",
+   "stem": "In Anthracosis, the lung accumulate:",
+   "optionLetter": "c",
+   "optionText": "Carbon particles",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Lipofuscin pigments",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5085.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Haemosidrin pigments",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5653.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Carbon particles",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 3650.0,
+     "optionCorePixels": 4261.2
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Calcium salts",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3607.3
+    }
+   ],
+   "highlightPixelsOnQuestion": 3650.0
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 10,
+   "questionNumberPrinted": "10",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:10",
+   "questionIdBasis": "position 10 of 24 mcq_single_best questions in eoy.json, printed number 10 vs 10, stem text agrees",
+   "stem": "Bronze diabetes occurs in:",
+   "optionLetter": "c",
+   "optionText": "Hemochromatosis",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Amyloidosis of the pancreas",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6932.5
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Wilson disease",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4005.5
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Hemochromatosis",
+     "overlapFraction": 0.7995,
+     "overlapPixels": 3724.1,
+     "optionCorePixels": 4658.2
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Alpha 1 antitrypsin deficiency",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 7160.0
+    }
+   ],
+   "highlightPixelsOnQuestion": 3724.1
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 4,
+   "sequentialIndex": 11,
+   "questionNumberPrinted": "11",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:11",
+   "questionIdBasis": "position 11 of 24 mcq_single_best questions in eoy.json, printed number 11 vs 11, stem text agrees",
+   "stem": "The following are examples of abnormal lipid deposition:",
+   "optionLetter": "b",
+   "optionText": "Xanthomas.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Russel bodies.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3920.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Xanthomas.",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 2823.2,
+     "optionCorePixels": 3295.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Brown atrophy of the heart.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 6705.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Hyalinosis.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3039.6
+    }
+   ],
+   "highlightPixelsOnQuestion": 2823.2
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 5,
+   "sequentialIndex": 12,
+   "questionNumberPrinted": "12",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:12",
+   "questionIdBasis": "position 12 of 24 mcq_single_best questions in eoy.json, printed number 12 vs 12, stem text agrees",
+   "stem": "The pigment associated with parasitic infection:",
+   "optionLetter": "b",
+   "optionText": "Hemozoins",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Hemosiderin",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3437.3
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Hemozoins",
+     "overlapFraction": 0.8566,
+     "overlapPixels": 2676.7,
+     "optionCorePixels": 3124.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Lipofuscin",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2841.0
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Melanin",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2358.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 2676.7
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 2,
+   "pageIndexOnPage": 6,
+   "sequentialIndex": 13,
+   "questionNumberPrinted": "13",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:13",
+   "questionIdBasis": "position 13 of 24 mcq_single_best questions in eoy.json, printed number 13 vs 13, stem text agrees",
+   "stem": "Which of the following statements best describes active transport:",
+   "optionLetter": "d",
+   "optionText": "It requires a carrier.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It doesn’t need energy.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 5730.7
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It involves mainly small sized lipid soluble drugs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 11505.3
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "It occurs with the concentration gradient.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 9716.3
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It requires a carrier.",
+     "overlapFraction": 0.7289,
+     "overlapPixels": 3623.7,
+     "optionCorePixels": 4971.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 3623.7
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 3,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 14,
+   "questionNumberPrinted": "14",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:14",
+   "questionIdBasis": "position 14 of 24 mcq_single_best questions in eoy.json, printed number 14 vs 14, stem text agrees",
+   "stem": "Regarding the oral absorption of drugs, which of the following applies:",
+   "optionLetter": "d",
+   "optionText": "The presence of food might compete with the absorption of some drugs.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "First-pass metabolism occurs only in the liver.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 10879.5
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Gastritis (stomach inflammation) will increase the surface area for absorption.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 17924.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "The stomach will be the main site of absorption of most drugs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14564.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "The presence of food might compete with the absorption of some drugs.",
+     "overlapFraction": 0.8743,
+     "overlapPixels": 14722.5,
+     "optionCorePixels": 16839.1
+    }
+   ],
+   "highlightPixelsOnQuestion": 14722.5
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 3,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 15,
+   "questionNumberPrinted": "15",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:15",
+   "questionIdBasis": "position 15 of 24 mcq_single_best questions in eoy.json, printed number 15 vs 15, stem text agrees",
+   "stem": "A drug with a volume of distribution of 4 liters in a 70 kg person most probably has which of the following distribution patterns:",
+   "optionLetter": "c",
+   "optionText": "This drug probably has a high molecular weight or strong plasma protien binding",
+   "confidence": 0.9715,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "The drug is most probably concentrated in bones and has a very low plasma concentration that keeps it intravascular.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 26953.6
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It enters every cell in the body.",
+     "overlapFraction": 0.0264,
+     "overlapPixels": 196.8,
+     "optionCorePixels": 7462.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "This drug probably has a high molecular weight or strong plasma protien binding",
+     "overlapFraction": 0.9007,
+     "overlapPixels": 16702.2,
+     "optionCorePixels": 18543.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It is probably highly ionized and is confined to the extracellular space.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16251.6
+    }
+   ],
+   "highlightPixelsOnQuestion": 16899.0
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 3,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 16,
+   "questionNumberPrinted": "16",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:16",
+   "questionIdBasis": "position 16 of 24 mcq_single_best questions in eoy.json, printed number 16 vs 16, stem text agrees",
+   "stem": "A hepatic microsomal enzyme inducer can do which of the following:",
+   "optionLetter": "d",
+   "optionText": "Induce its own metabolism.",
+   "confidence": 0.9812,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "A decrease in the rate of formation of metabolites by the liver",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 14291.3
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "An increase in drug duration of action.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 9149.6
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "An increase in plasma protein binding of other drugs.",
+     "overlapFraction": 0.0115,
+     "overlapPixels": 144.0,
+     "optionCorePixels": 12473.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Induce its own metabolism.",
+     "overlapFraction": 0.5992,
+     "overlapPixels": 4034.5,
+     "optionCorePixels": 6733.0
+    }
+   ],
+   "highlightPixelsOnQuestion": 4178.5
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 3,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 17,
+   "questionNumberPrinted": "17",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:17",
+   "questionIdBasis": "position 17 of 24 mcq_single_best questions in eoy.json, printed number 17 vs 17, stem text agrees",
+   "stem": "Which of the following pharmacokinetic principles applies to plasma half-life:",
+   "optionLetter": "c",
+   "optionText": "The plasma half-life is fixed in drugs following first-order elimination.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "The longer the plasma half-life, the shorter the time required to reach a steady state concentration.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 22663.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "The plasma half-life is always an indicator of the duration of action of a drug.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 17662.8
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "The plasma half-life is fixed in drugs following first-order elimination.",
+     "overlapFraction": 0.8873,
+     "overlapPixels": 14081.6,
+     "optionCorePixels": 15870.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It takes two half-lives for a drug to attain steady state concentration in plasma.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 18040.5
+    }
+   ],
+   "highlightPixelsOnQuestion": 14081.6
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 3,
+   "pageIndexOnPage": 4,
+   "sequentialIndex": 18,
+   "questionNumberPrinted": "18",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:18",
+   "questionIdBasis": "position 18 of 24 mcq_single_best questions in eoy.json, printed number 18 vs 18, stem text agrees",
+   "stem": "Which of the following can increase drug metabolism:",
+   "optionLetter": "d",
+   "optionText": "Tobacco smoking",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Estrogen",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2613.9
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Grapefruit",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2840.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Malnutrition",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3181.4
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Tobacco smoking",
+     "overlapFraction": 0.9708,
+     "overlapPixels": 4376.4,
+     "optionCorePixels": 4508.2
+    }
+   ],
+   "highlightPixelsOnQuestion": 4376.4
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 0,
+   "sequentialIndex": 19,
+   "questionNumberPrinted": "19",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:19",
+   "questionIdBasis": "position 19 of 24 mcq_single_best questions in eoy.json, printed number 19 vs 19, stem text agrees",
+   "stem": "Which of the following describes the renal elimination of drugs:",
+   "optionLetter": "a",
+   "optionText": "Drugs undergoing renal secretion need a carrier.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Drugs undergoing renal secretion need a carrier.",
+     "overlapFraction": 1.0279,
+     "overlapPixels": 11857.5,
+     "optionCorePixels": 11535.8
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Renal excretion is faster and better for lipid-soluble than for water-soluble drugs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 18552.1
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Urinary acidification helps the excretion of acidic drugs.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 13011.3
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Water soluble, protein-bound drugs are filtered through the glomeruli.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 16175.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 11857.5
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 1,
+   "sequentialIndex": 20,
+   "questionNumberPrinted": "20",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:20",
+   "questionIdBasis": "position 20 of 24 mcq_single_best questions in eoy.json, printed number 20 vs 20, stem text agrees",
+   "stem": "Which of the following characterizes a competitive antagonist:",
+   "optionLetter": "b",
+   "optionText": "It can be displaced by an excess of the agonist.",
+   "confidence": 0.9975,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It affects a drug’s efficacy more than affecting its potency.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 13515.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It can be displaced by an excess of the agonist.",
+     "overlapFraction": 0.8368,
+     "overlapPixels": 9462.8,
+     "optionCorePixels": 11308.6
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "It causes a non-parallel shift of the dose-response curve to the right",
+     "overlapFraction": 0.0021,
+     "overlapPixels": 33.8,
+     "optionCorePixels": 15796.6
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It reduces the E-Max of the agonist.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 8636.8
+    }
+   ],
+   "highlightPixelsOnQuestion": 9496.6
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 2,
+   "sequentialIndex": 21,
+   "questionNumberPrinted": "21",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:21",
+   "questionIdBasis": "position 21 of 24 mcq_single_best questions in eoy.json, printed number 21 vs 21, stem text agrees",
+   "stem": "The ability of a drug to fit onto a receptor to form a drug-receptor complex is termed:",
+   "optionLetter": "b",
+   "optionText": "Affinity.",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Efficacy.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2462.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Affinity.",
+     "overlapFraction": 0.9708,
+     "overlapPixels": 2115.0,
+     "optionCorePixels": 2178.7
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Potency.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2490.8
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Bioavailability",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3665.0
+    }
+   ],
+   "highlightPixelsOnQuestion": 2115.0
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 3,
+   "sequentialIndex": 22,
+   "questionNumberPrinted": "22",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:22",
+   "questionIdBasis": "position 22 of 24 mcq_single_best questions in eoy.json, printed number 22 vs 22, stem text agrees",
+   "stem": "Exaggerated normal action in response to a small therapeutic dose of the drug is termed",
+   "optionLetter": "c",
+   "optionText": "Super-sensitivity",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Hypersensitivity",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4147.1
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Idiosyncrasy",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3408.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Super-sensitivity",
+     "overlapFraction": 0.5017,
+     "overlapPixels": 2151.8,
+     "optionCorePixels": 4289.1
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Tolerance",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 2775.4
+    }
+   ],
+   "highlightPixelsOnQuestion": 2151.8
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 4,
+   "sequentialIndex": 23,
+   "questionNumberPrinted": "23",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:23",
+   "questionIdBasis": "position 23 of 24 mcq_single_best questions in eoy.json, printed number 23 vs 23, stem text agrees",
+   "stem": "Which of the following describes the therapeutic index:",
+   "optionLetter": "b",
+   "optionText": "It is a measure of drug safety.",
+   "confidence": 0.9986,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "It is the ratio between the E-Max and the ED50",
+     "overlapFraction": 0.0014,
+     "overlapPixels": 16.0,
+     "optionCorePixels": 11165.6
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "It is a measure of drug safety.",
+     "overlapFraction": 0.9708,
+     "overlapPixels": 7051.2,
+     "optionCorePixels": 7263.4
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "The lower the ratio the less effective a drug is.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 10947.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "It is more clinically relevant than the therapeutic window.",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 13296.2
+    }
+   ],
+   "highlightPixelsOnQuestion": 7067.2
+  },
+  {
+   "sourceId": "src_3deab75f7f81cc5f5260",
+   "page": 4,
+   "pageIndexOnPage": 5,
+   "sequentialIndex": 24,
+   "questionNumberPrinted": "24",
+   "questionId": "src_3deab75f7f81cc5f5260:s1:24",
+   "questionIdBasis": "position 24 of 24 mcq_single_best questions in eoy.json, printed number 24 vs 24, stem text agrees",
+   "stem": "An altered response to a drug due to genetic variation is termed…..",
+   "optionLetter": "b",
+   "optionText": "Idiosyncrasy",
+   "confidence": 1.0,
+   "confidenceBasis": "share of all highlight overlap on this question held by the winning option",
+   "method": "pixel-highlight-over-option-box",
+   "unresolvedReason": null,
+   "options": [
+    {
+     "optionLetter": "a",
+     "optionText": "Acquired tolerance",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 4802.2
+    },
+    {
+     "optionLetter": "b",
+     "optionText": "Idiosyncrasy",
+     "overlapFraction": 0.93,
+     "overlapPixels": 3170.1,
+     "optionCorePixels": 3408.9
+    },
+    {
+     "optionLetter": "c",
+     "optionText": "Mutagenicity",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3408.9
+    },
+    {
+     "optionLetter": "d",
+     "optionText": "Teratogenicity",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0,
+     "optionCorePixels": 3712.7
+    }
+   ],
+   "highlightPixelsOnQuestion": 3170.1
+  }
+ ]
+}
