@@ -15,3 +15,11 @@ status-*.json
 *.png
 *.ppm
 *.jpg
+
+# The end-of-module answer-key recovery caches two kinds of intermediate under
+# `eom-renders/`: page rasters, already covered by the image rules above, and
+# the per-page tesseract TSV that supplies the option boxes. Both regenerate
+# from the PDFs — the rasters in about a second a page, the OCR in about two —
+# and together they run to gigabytes. `eom-answers.json` is the result and is
+# tracked; these are not.
+eom-renders/

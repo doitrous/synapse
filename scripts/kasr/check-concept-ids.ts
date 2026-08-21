@@ -36,6 +36,18 @@ const DIR = 'docs/Kasr-Source-Imports/concept'
 interface Row { id: string; key: string; subject: string; file: string }
 
 const rows: Row[] = []
+/**
+ * Blocks that look like items but did not parse.
+ *
+ * This reads `## id` and `## canonical_key` with a regex and skips a block it
+ * cannot read. A parser that skips what it does not recognise loses content
+ * quietly — so it is paired with a count of what should have been there: every
+ * block containing a `# Item` heading is an item, and one that yields no row is
+ * reported rather than dropped. A field renamed upstream would otherwise make
+ * this check pass by having nothing left to check.
+ */
+const unparsed: string[] = []
+
 for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
   const text = readFileSync(join(DIR, name), 'utf8')
   for (const block of text.split(/^\s*---\s*$/m)) {
@@ -43,7 +55,10 @@ for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
       block.match(new RegExp(`^## ${label}\\s*\\n(.+)$`, 'm'))?.[1].trim() ?? ''
     const id = field('id')
     const key = field('canonical_key')
-    if (id && key) rows.push({ id, key, subject: field('subject'), file: name })
+    if (id && key) { rows.push({ id, key, subject: field('subject'), file: name }); continue }
+    if (/^#\s*Item\s*$/m.test(block)) {
+      unparsed.push(`${name}: an item with ${id ? 'no canonical_key' : key ? 'no id' : 'neither id nor canonical_key'}`)
+    }
   }
 }
 
@@ -53,7 +68,7 @@ const group = <T>(items: T[], by: (item: T) => string) => {
   return out
 }
 
-const problems: string[] = []
+const problems: string[] = [...unparsed]
 
 for (const [key, seen] of group(rows, (row) => row.key)) {
   const ids = [...new Set(seen.map((row) => row.id))]
