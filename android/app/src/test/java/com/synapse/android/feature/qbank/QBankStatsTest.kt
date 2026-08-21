@@ -9,7 +9,7 @@ import org.junit.Test
 /**
  * [QBankStats.of] is a pure port of `YourQbank`'s figures
  * (`src/pages/student/QuestionBank.tsx:119-200`), computed over the
- * `surface == "qbank"` slice of the attempt ledger. No [android.content.Context],
+ * qbank-and-room slice of the attempt ledger. No [android.content.Context],
  * no [com.synapse.android.core.cache.LocalStore] -- every record here is
  * built by hand, the same discipline `AttemptTest` uses for [com.synapse.android.core.progress.AttemptStore].
  */
@@ -27,6 +27,38 @@ class QBankStatsTest {
         id = id, at = at, surface = surface, itemId = itemId, subjectId = subjectId,
         topic = "Cardiology", difficulty = "Moderate", correct = correct, sessionId = sessionId,
     )
+
+    @Test
+    fun `a question answered in a study room counts as answered`() {
+        // src/pages/student/QuestionBank.tsx:119-120 takes 'qbank' *or*
+        // 'room'. A student who spends an evening in a room and then opens
+        // this panel should not be told they answered nothing today.
+        val records = listOf(
+            record(id = "a1", itemId = "q1", surface = "qbank", correct = true),
+            record(id = "a2", itemId = "q2", surface = "room", correct = false),
+        )
+
+        val stats = QBankStats.of(records, total = 10)
+
+        assertEquals("both surfaces count towards coverage", 2, stats.seen)
+        assertEquals("and both towards accuracy", 0.5, stats.accuracy!!, 0.0001)
+        assertEquals("and both towards the week", 2, stats.weekTotal)
+    }
+
+    @Test
+    fun `an attempt from somewhere that is not the question bank is left out`() {
+        // A ticked OSCE station is a real attempt, but it is not a question,
+        // and counting it here would inflate coverage against a pool it was
+        // never part of.
+        val records = listOf(
+            record(id = "a1", itemId = "q1", surface = "qbank"),
+            record(id = "a2", itemId = "os-1", surface = "practical"),
+        )
+
+        val stats = QBankStats.of(records, total = 10)
+
+        assertEquals(1, stats.seen)
+    }
 
     @Test
     fun `coverage counts distinct questions, not attempts`() {

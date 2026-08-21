@@ -57,7 +57,16 @@ data class QBankStats(
     val bySubject: List<SubjectAccuracy>,
 ) {
     companion object {
-        private const val SURFACE = "qbank"
+        /**
+         * Both surfaces a question can be answered on. The web counts them
+         * together -- `record.surface === 'qbank' || record.surface === 'room'`
+         * in `src/pages/student/QuestionBank.tsx:119-120` -- because a
+         * question answered in a study room was still answered by this
+         * student, and leaving those out means a room session shows up as a
+         * broken streak and a question the student has plainly seen counted
+         * as unseen.
+         */
+        private val SURFACES = setOf("qbank", "room")
         private const val WEEK_DAYS = 7
 
         /**
@@ -75,7 +84,7 @@ data class QBankStats(
          * that read; this function only ever sees the attempt ledger.
          */
         fun of(records: List<AttemptRecord>, total: Int, today: LocalDate = LocalDate.now()): QBankStats {
-            val qbankRecords = records.filter { it.surface == SURFACE }
+            val qbankRecords = records.filter { it.surface in SURFACES }
             val week = AttemptStats.dailyCounts(qbankRecords, WEEK_DAYS, today)
 
             val bySubject = qbankRecords.groupBy { it.subjectId }

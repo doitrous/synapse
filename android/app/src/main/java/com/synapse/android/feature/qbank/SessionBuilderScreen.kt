@@ -28,6 +28,9 @@ import kotlinx.coroutines.launch
 /** `MAX_QUESTIONS` in `src/pages/student/QuestionBank.tsx` -- the longest sitting a student can build in one go. */
 private const val MAX_QUESTIONS = 40
 
+/** What the slider opens on, as the web's builder does. */
+private const val DEFAULT_QUESTIONS = 10
+
 /**
  * How many questions, and whether to see the answer as you go (tutor) or
  * only at the end (timed).
@@ -40,8 +43,15 @@ private const val MAX_QUESTIONS = 40
 fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession) -> Unit) {
     val availableCount by viewModel.availableCount.collectAsState()
     var mode by remember { mutableStateOf(SittingMode.TUTOR) }
-    val maxCount = { if (availableCount > 0) minOf(availableCount, MAX_QUESTIONS) else 1 }
-    var count by remember(availableCount) { mutableIntStateOf(minOf(10, maxCount())) }
+    // Seeded once, then clamped on read. `availableCount` arrives after the
+    // first composition and moves again whenever the student changes what the
+    // pool is drawn from, so keying `remember` on it -- as this did -- threw
+    // away the number they had just dialled in every time the pool changed
+    // underneath them. Clamping instead means a count of 40 survives a filter
+    // that briefly leaves five questions, and comes back at 40 when it lifts.
+    var chosenCount by remember { mutableIntStateOf(DEFAULT_QUESTIONS) }
+    val maxCount = if (availableCount > 0) minOf(availableCount, MAX_QUESTIONS) else 1
+    val count = chosenCount.coerceIn(1, maxCount)
     val coroutineScope = rememberCoroutineScope()
 
     Column(
@@ -62,9 +72,9 @@ fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession
         Text("$count questions")
         Slider(
             value = count.toFloat(),
-            onValueChange = { count = it.toInt() },
-            valueRange = 1f..maxCount().toFloat(),
-            steps = maxOf(0, maxCount() - 2),
+            onValueChange = { chosenCount = it.toInt() },
+            valueRange = 1f..maxCount.toFloat(),
+            steps = maxOf(0, maxCount - 2),
         )
 
         Button(
