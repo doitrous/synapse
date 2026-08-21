@@ -315,6 +315,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -388,6 +390,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-JOINT
 ## owner
 Claude
 ## source_citation
@@ -460,6 +464,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## owner
 Claude
 ## source_citation
@@ -612,6 +618,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
@@ -685,6 +693,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FIBROUS-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -757,6 +767,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
@@ -831,6 +843,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-UMBILICAL-CORD
 ## owner
 Claude
 ## source_citation
@@ -904,6 +918,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-IMPLANTATION
 ## owner
 Claude
 ## source_citation
@@ -979,6 +995,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-PARAXIAL-MESODERM
 ## owner
 Claude
 ## source_citation
@@ -1096,6 +1114,9 @@ High
 3
 ## estimated_seconds
 600
+## library_ids
+ART-101-ANA-CLAVICLE
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation

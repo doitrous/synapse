@@ -326,6 +326,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CUBITAL-FOSSA
 ## owner
 Claude
 ## source_citation
@@ -401,6 +403,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -477,6 +481,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-ULNAR-ARTERY
 ## owner
 Claude
 ## source_citation
@@ -553,6 +559,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-PLEXUS
 ## owner
 Claude
 ## source_citation
@@ -627,6 +635,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -701,6 +711,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -773,6 +785,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
@@ -849,6 +863,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AMNIOTIC-FLUID
 ## owner
 Claude
 ## source_citation
@@ -925,6 +941,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
 ## owner
 Claude
 ## source_citation
@@ -998,6 +1016,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## owner
 Claude
 ## source_citation
@@ -1118,6 +1138,7 @@ High
 600
 ## library_ids
 ART-101-ANA-AXILLA-BREAST
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation

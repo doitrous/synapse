@@ -157,7 +157,7 @@ export const SEEDS: Seed[] = [
     q: 5, section: 'Anatomy', page: 11, marks: 7,
     asked: 'Mention attachment, action and nerve supply of Pectoralis Major.',
     label: 'Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves',
-    key: 'pectoralis-major-attachment-action-nerve',
+    key: 'pectoralis-major-attachment-nerve-action',
     definition: 'Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.',
     objective: 'Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.',
     pitfall: 'Giving one action for the whole muscle. The two heads oppose each other in flexion and extension, which is why the question asks for both.',

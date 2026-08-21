@@ -87,6 +87,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
@@ -160,6 +162,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FIBROUS-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -233,6 +237,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FERTILIZATION
 ## owner
 Claude
 ## source_citation
@@ -306,6 +312,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-IMPLANTATION
 ## owner
 Claude
 ## source_citation
@@ -380,6 +388,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-UMBILICAL-CORD
 ## owner
 Claude
 ## source_citation
@@ -455,6 +465,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -529,6 +541,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
 ## owner
 Claude
 ## source_citation
@@ -605,6 +619,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
@@ -756,6 +772,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-STERNOCLAVICULAR-JOINT
 ## owner
 Claude
 ## source_citation
@@ -841,6 +859,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -928,6 +948,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
