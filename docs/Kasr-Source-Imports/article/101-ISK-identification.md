@@ -38,7 +38,7 @@ DIS-HIS-T01
 ## secondary_node_ids
 DIS-HIS-T04
 ## related_concepts
-CON-FND-E2DE55693981A7 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
+CON-FND-E2DE55693981A7
 ## related_articles
 ART-101-HIS-NUCLEUS: What the nucleus is and does. This article is the recognition half — the same structures as they appear on the department's own plates.
 ## aliases
@@ -996,7 +996,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 DIS-HIS-T04
 ## related_concepts
-CON-FND-3E3303864A3CE8 | CON-FND-49D5829AC3DCA1 | CON-FND-7FB8290199B237 | CON-FND-B33D27A8517527 | CON-FND-4671C4D2911392
+CON-FND-3E3303864A3CE8 | CON-FND-7FB8290199B237 | CON-FND-B33D27A8517527 | CON-FND-4671C4D2911392
 ## related_articles
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE: What each type is, where it is found and what it does. This article is the recognition half.
 ART-101-HIS-ID-CONNECTIVE-TISSUE-FIBRES: The three fibres these tissues are built from, and the characters used here to name a whole field.

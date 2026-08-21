@@ -89,6 +89,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -98,8 +99,10 @@ direct_statement
 [DPT Practical Histo 101 p.35, answer p.36] Structure outlined by red rectangle is ... / Give 1 visible character of A / Mention the structure marked by blue star / Green arrow point to ...
 [Answer page] 2 dark & 1 pale layers (trilamellar); cytoplasm (blue star); intercellular space (green arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -222,6 +225,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -231,8 +235,10 @@ direct_statement
 [DPT Practical Histo 101 p.43, answer p.44] Green arrow points to ..., name a stain for it & one visible feature
 [Answer page] green arrow: mitochondria; stain: iron hematoxylin or Janus green; cristae
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -356,6 +362,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -365,8 +372,10 @@ direct_statement
 [DPT Practical Histo 101 p.37, answer p.38] The organelle is called ... / Blue arrows point to ... / Arrowhead points to ...
 [Answer page] blue arrows: cristae; red arrowhead: matrix
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -490,6 +499,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -499,8 +509,10 @@ direct_statement
 [DPT Practical Histo 101 p.51, answer p.52] Organelle is called ... & its nickname is ... / Yellow star marks ... & 1 visible feature ... / Red arrow points to ... green arrow points to ...
 [Answer page] Golgi saccules parallel / stacked (yellow star); cytoplasm (blue star); transfer vesicles (red arrow); secretory vesicles (green arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -625,6 +637,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -635,8 +648,10 @@ direct_statement
 [Answer page] fine fibrils or granules; perinuclear position; nucleus central / rounded
 [DPT Practical Histo 101 p.49, answer p.50] Red arrows demonstrate ... in ... cells — apical position
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -761,6 +776,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -770,8 +786,10 @@ direct_statement
 [DPT Practical Histo 101 p.9] Negative Golgi apparatus
 [DPT Practical Histo 101 p.151, answer p.152] Black arrow points to ... — negative Golgi image, on the plasma cell
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -896,6 +914,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -906,8 +925,10 @@ direct_statement
 [Answer page] arrows: ribosomes; function: protein synthesis
 [DPT Practical Histo 101 p.39, answer p.40] Organelle pointed to by the yellow arrows is ... / Mention 1 visible character for C — rER: parallel tubules / covered by ribosomes
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -1031,6 +1052,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1040,8 +1062,10 @@ direct_statement
 [DPT Practical Histo 101 p.45, answer p.46] Name the organelle pointed to by the yellow arrow / Mention one visible feature
 [Answer page] smooth surface; no ribosomes; vesicles of different size and shape
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -1165,6 +1189,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1174,8 +1199,10 @@ direct_statement
 [DPT Practical Histo 101 p.13] EM of Smooth & Rough Endoplasmic Reticulum
 [DPT Practical Histo 101 p.12] EM of Smooth Endoplasmic Reticulum & Mitochondrion
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -1298,6 +1325,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1306,8 +1334,10 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.18] Nissl's granules in nerve cell
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -1430,6 +1460,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1438,8 +1469,10 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.19] Ribosome (labelled diagram): large ribosomal subunit; small ribosomal subunit; P-site; A-site; amino acid chain (protein); tRNA; mRNA; codon
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -1564,6 +1597,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1573,8 +1607,10 @@ direct_statement
 [DPT Practical Histo 101 p.55, answer p.56] The organelle is called ... / Red arrows point to ..., arranged as ...
 [Answer page] red arrow: microtubules; arranged as 9 triplets
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -1699,6 +1735,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
@@ -1708,8 +1745,10 @@ direct_statement
 [DPT Practical Histo 101 p.59, answer p.60] Red square surrounds ..., give 1 character / Blue square surrounds ..., give 1 character / Yellow arrows point to ...
 [Answer page] shaft of cilium / axoneme formed of ~20 microtubules; microvilli: no microtubules, pale core, small; cell membrane
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -1834,6 +1873,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1843,8 +1883,10 @@ direct_statement
 [DPT Practical Histo 101 p.61, answer p.62] Identify inclusions in fig. a & b / Name the used stains for fig. a & b / Give visible character for fig. a & b / Name the cell in fig. a & b
 [Answer page] fig a: glycogen, red granules, liver cells
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -1969,6 +2011,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1979,8 +2022,10 @@ direct_statement
 [DPT Practical Histo 101 p.25] Inclusions - Fat cells, H&E
 [DPT Practical Histo 101 p.26] Inclusions - Fat cells, Sudan III
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2103,16 +2148,20 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.27] LM of open & closed face nuclei: open face nucleus; closed face nucleus
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -2238,8 +2287,10 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -2248,8 +2299,10 @@ direct_statement
 [Answer page] blue arrow: nucleolus; red arrow: nuclear membrane
 [DPT Practical Histo 101 p.73] E.M. of Nucleus (labelled): outer nuclear layer; inner nuclear layer
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2376,8 +2429,10 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -2386,8 +2441,10 @@ direct_statement
 [Answer page, heterochromatic] peripheral heterochromatin; chromatin island; nucleolus associated chromatin; nuclear sap / euchromatin; nuclear membrane
 [DPT Practical Histo 101 p.67, answer p.68, euchromatic] nucleolus (yellow arrow); nuclear pore (arrowhead)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2515,8 +2572,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -2524,8 +2583,10 @@ direct_statement
 [DPT Practical Histo 101 p.90, answer p.91] This is a ..., stained by ...
 [DPT Practical Histo 101 p.83] A blood film showing different blood elements: neutrophil; eosinophil; basophil
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2650,6 +2711,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
@@ -2659,8 +2721,10 @@ direct_statement
 [DPT Practical Histo 101 p.92, answer p.93] Red arrow points to ... characterized by ..., while the green arrow points to ...
 [Answer page] neutrophil: segmented / multilobed nucleus (red arrow); Barr body (green arrow); platelets (yellow arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2785,6 +2849,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
@@ -2794,8 +2859,10 @@ direct_statement
 [DPT Practical Histo 101 p.96, answer p.97] Red arrow points to ..., characterized by ... granules & nucleus is ...
 [Answer page] basophil: basophilic granules, nucleus S-shaped / masked by granules
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -2920,8 +2987,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -2930,8 +2999,10 @@ direct_statement
 [Answer page] monocyte: kidney shaped nucleus, frosted glass cytoplasm; lymphocyte
 [DPT Practical Histo 101 p.100, answer p.101] Red arrow points to ..., characterized by ... nucleus surrounded by ... cytoplasm — lymphocyte: dark nucleus, thin rim / little cytoplasm
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3057,6 +3128,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
@@ -3066,8 +3138,10 @@ direct_statement
 [DPT Practical Histo 101 p.102, answer p.103] The arrow in A points to ... / The boxed area in B shows ...
 [Answer page] platelets (arrow in field A); lymphocytes (boxed area in field B)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3192,8 +3266,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -3201,8 +3277,10 @@ direct_statement
 [DPT Practical Histo 101 p.90, answer p.91] Green arrow points to ..., characterized by ... / Blue arrow points to ...
 [Answer page] RBC with central pallor (green arrow); crenated RBC (blue arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3327,8 +3405,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -3336,8 +3416,10 @@ direct_statement
 [DPT Practical Histo 101 p.114, answer p.115] This is a ... stained with ... which is a ... stain / Name the cell pointed out by red arrow
 [Answer page] reticulocyte; cresyl blue is a supravital stain
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3463,8 +3545,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -3475,6 +3559,7 @@ direct_statement
 ## conflicts
 CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the largest cells in bone marrow. This concept does not dispute it: fat cells are the largest cells of the marrow stroma, and the megakaryocyte is named here by its 50-70 micrometre diameter and its single multilobed nucleus rather than as the largest cell in the marrow. Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3) p.13 is the source of the fat-cell statement and p.15 of the megakaryocyte measurement.
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3599,6 +3684,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -3608,8 +3694,10 @@ direct_statement
 [DPT Practical Histo 101 p.143, answer p.144] Name cell pointed out by arrow / Arrowhead points to ...
 [Answer page] fibrocyte (or fibroblast) (arrow); collagen bundles (arrowhead)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -3732,6 +3820,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -3740,8 +3829,10 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.120] Macrophage
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -3866,6 +3957,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -3875,8 +3967,10 @@ direct_statement
 [DPT Practical Histo 101 p.151, answer p.152] Cells surrounded by yellow circles ... & green circles ... / Black arrow points to ... / Mention 2 visible characters to nucleus pointed by red arrow
 [Answer page] mast cells (yellow circles); plasma cells (green circles); negative Golgi image (black arrow); plasma cell nucleus: eccentric, single, cart-wheel
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4002,6 +4096,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -4012,8 +4107,10 @@ direct_statement
 [Answer page] unilocular fat cells; large / oval, single fat droplet; thin rim of cytoplasm
 [DPT Practical Histo 101 p.155, answer p.156] multilocular fat cells; small / rounded, many fat droplets; nuclei; blood vessels
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4139,8 +4236,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4148,8 +4247,10 @@ direct_statement
 [DPT Practical Histo 101 p.141, answer p.142] Name fiber pointed by blue arrow & 1 character / Name fiber pointed by green arrow & 1 character
 [Answer page] collagen fibers: condensed / bundles / acidophilic; elastic fibers: singly, thin, zigzag, acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4275,8 +4376,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4284,8 +4387,10 @@ direct_statement
 [DPT Practical Histo 101 p.145, answer p.146] Identify the type of tissue / Mention a special stain for it / List 2 visible characters for the tissue
 [Answer page] brown; thin; branching / anastomosing fibers
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4411,8 +4516,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4420,8 +4527,10 @@ direct_statement
 [DPT Practical Histo 101 p.141, answer p.142] Identify the tissue (be specific) / Arrow head points to ... & star marks ...
 [Answer page] fibroblast cell or nucleus (arrowhead); matrix (star)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4547,8 +4656,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4556,8 +4667,10 @@ direct_statement
 [DPT Practical Histo 101 p.157, answer p.158] Identify type of C.T. ... & stain ... / Red arrows point to ... / Mention characters for B
 [Answer page] reticular fibers (red arrows); brown; thin; branch & anastomose
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4683,8 +4796,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4692,8 +4807,10 @@ direct_statement
 [DPT Practical Histo 101 p.159, answer p.160] Type of C.T. is ... & in fresh state is ... colour / It is stained ... colour with ... stain / Give 2 visible characters for C
 [Answer page] yellow in the fresh state; orcein (stains brown); singly / thin / zigzag / acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4820,8 +4937,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
@@ -4830,8 +4949,10 @@ direct_statement
 [Answer page, regular] white in the fresh state; parallel / regular / thick bundles / acidophilic
 [DPT Practical Histo 101 p.163, answer p.164, irregular] irregularly arranged / thick bundles / acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -4955,16 +5076,20 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+[clear]
 
 ## support_mode
 direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.137] Mucoid C.T.
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -5091,6 +5216,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5101,8 +5227,10 @@ direct_statement
 [Answer page] nucleus flat / single (arrowhead); basement membrane (yellow arrow)
 [DPT Practical Histo 101 p.197, answer p.198] simple squamous: flat cells, one layer; nuclei flat / single / central
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -5229,6 +5357,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5239,8 +5368,10 @@ direct_statement
 [Answer page] nuclei rounded / central / single (arrowheads); basement membrane (yellow arrow)
 [DPT Practical Histo 101 p.197, answer p.198] simple cubical: square shape, short cells, single layer
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -5365,6 +5496,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5374,8 +5506,10 @@ direct_statement
 [DPT Practical Histo 101 p.199, answer p.200] Identify type of epithelium / Mention 1 visible feature for A / Name the structure pointed to by yellow arrow / Mention 1 visible feature for B
 [Answer page] tall cells; one layer; oval basal nuclei
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -5501,6 +5635,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5510,8 +5645,10 @@ direct_statement
 [DPT Practical Histo 101 p.201, answer p.202] Identify the epithelium / Mention 2 visible characters / Blue arrow points to ... & green arrow ... / Cell pointed by red arrow is ... & star marks ...
 [Answer page] tall cells; 1 cell layer; crowded nuclei; cilia; basement membrane; goblet cell; connective tissue
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
@@ -5634,6 +5771,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5642,8 +5780,10 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.177] Pseudostratified columnar ciliated epithelium with stereocilia
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
@@ -5769,6 +5909,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -5779,8 +5920,10 @@ direct_statement
 [Answer page, keratinized] horny layer / keratin, acidophilic condensed layers; intermediate layers, polyhedral cells, rounded nuclei; connective tissue
 [DPT Practical Histo 101 p.205, answer p.206, non-keratinized] superficial layer: flat cells / flat nuclei
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]

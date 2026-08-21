@@ -386,7 +386,7 @@ ${concept.subject}
 ## primary_node_id
 ${concept.primary}
 ## secondary_node_ids
-${concept.secondary.join(' | ')}
+${concept.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject

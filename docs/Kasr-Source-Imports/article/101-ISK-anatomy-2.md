@@ -90,7 +90,7 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M02
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-798DE81B6EE665
+[clear]
 CON-MSK-74BFAB9385B955
 CON-MSK-951D4DFF864245
 CON-MSK-875049D4420AA4
@@ -361,7 +361,7 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M01
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-82C4250560D1A1
+[clear]
 CON-MSK-1CA86BE843A07C
 CON-MSK-DF8F395F3D471E
 CON-MSK-8533FCB18D819B
@@ -638,7 +638,7 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M04
 SYS-MSK-T01-S01-M05
 ## related_concepts
-CON-MSK-25C6698A72A982
+[clear]
 CON-MSK-E10403A4189B45
 CON-MSK-44234D1863CE8E
 ## related_articles
@@ -1428,6 +1428,7 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T01
 ## related_concepts
+[clear]
 
 ## related_articles
 ART-101-ANA-FASCIA: The first structure described in these terms — superficial and deep, and everything the two words mean.
@@ -1626,7 +1627,7 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T03-S02-M04
 ## related_concepts
-CON-MSK-2145D2D62EC401
+[clear]
 CON-MSK-6CD9FFF51AE9CD
 ## related_articles
 ART-101-ANA-DEEP-FASCIA: The deep half of this chapter taught on its own, with the five parts and their functions worked through one at a time.
@@ -1829,6 +1830,7 @@ DIS-ANA-T01
 SYS-MSK-T05
 SYS-MSK-T01-S03-M01
 ## related_concepts
+[clear]
 
 ## related_articles
 ART-101-ANA-CARTILAGINOUS-JOINTS: The epiphyseal plate is a joint as well as a growth plate, and the classification of joints that follows from the cartilage types is set out there.
@@ -2094,6 +2096,7 @@ ART-101-ANA-ELBOW-JOINT: The anastomosis around the elbow is the department book
 ART-101-ANA-SHOULDER-REGION: The anastomosis around the scapula, the collateral route that keeps the limb alive when the axillary artery is blocked.
 ART-101-ANA-VEINS-OF-UPPER-LIMB: The superficial and deep veins of a limb, and the venae comitantes this chapter's principles describe in general.
 ## related_concepts
+[clear]
 
 ## aliases
 Cardiovascular system | Heart | Blood circulation | Systemic circulation | Pulmonary circulation | Portal circulation | Arterial anastomosis | End arteries | Venous return | Arteriovenous shunt
@@ -2325,6 +2328,7 @@ DIS-ANA-T01
 SYS-IMM-T01
 SYS-HEM-T01
 ## related_concepts
+[clear]
 
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes and the lymphatic drainage of the breast — this chapter's principles in the region the papers ask them from.
@@ -2553,6 +2557,7 @@ DIS-ANA-T01
 SYS-NEU-T01-S01
 SYS-NEU-T01-S02
 ## related_concepts
+[clear]
 
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: A peripheral nerve followed from its roots to its territory — this chapter's classification worked out in one nerve.
