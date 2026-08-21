@@ -24,7 +24,7 @@ export const SOURCE: SourceRef = {
   sittingYear: 2025,
   tier: 'end_of_year',
   sections: ['Histology', 'Anatomy'],
-  notCaptured: '26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.',
+  incomplete: '26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.',
 }
 
 
