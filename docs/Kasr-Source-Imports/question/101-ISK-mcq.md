@@ -2,6 +2,7 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Cytoplasm — 145 questions, 23 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
@@ -11,6 +12,7 @@
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
@@ -24,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  92 questions were excluded and 0 held back for having no
+  122 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1357,6 +1359,10713 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-D36553EBD165
+## title
+A protein forming cell has ONE of these characters:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A protein forming cell has ONE of these characters:
+## answer_a
+Acidophilic cytoplasm
+## explanation_a
+Acidophilic cytoplasm is the steroid- or lipid-forming cell, where abundant smooth endoplasmic reticulum takes the acid dye. A protein-forming cell is basophilic.
+## answer_b
+Great number of lysosomes
+## explanation_b
+Many lysosomes mark a phagocyte — the macrophage, the neutrophil — a cell that digests rather than one that builds.
+## answer_c
+Abundant rER
+## explanation_c
+Correct. Abundant rough endoplasmic reticulum is the defining feature, because the ribosomes on it are what make protein for export. Asked three times across the books.
+## answer_d
+Condensed nucleus
+## explanation_d
+A condensed nucleus means coiled, inactive chromatin. A cell making protein needs its genes readable, so its nucleus is pale and euchromatic.
+## correct_answer
+C
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that marks a cell as a protein producer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p1 q10; Dpt Book MCQ histo 101 .NEW (1).pdf p2 q10; Cytology | Module 101 questions.pdf.pdf p25 q10. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-899FA0D422C2
+## title
+One of the following is a non membranous organelles:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a non membranous organelles:
+## answer_a
+Mitochondria
+## explanation_a
+A mitochondrion has two membranes, which makes it the most membranous organelle of the list.
+## answer_b
+Ribosomes
+## explanation_b
+Correct. Ribosomes are one of only two non-membranous entries the book gives — the other is the cytoskeleton with everything it builds.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi apparatus is a stack of membranous saccules.
+## answer_d
+rER
+## explanation_d
+Rough endoplasmic reticulum is a membranous network; the ribosomes on its surface are non-membranous, but the reticulum itself is not.
+## correct_answer
+B
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Sort an organelle into the membranous or non-membranous class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p2 q11; Dpt Book MCQ histo 101 .NEW (1).pdf p2 q11; Cytology | Module 101 questions.pdf.pdf p25 q11. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-98C8B00B04A5
+## title
+The organelle responsible for synthesis of secreted proteins is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The organelle responsible for synthesis of secreted proteins is:
+## answer_a
+Mitochondria
+## explanation_a
+Mitochondria make ATP. They carry ribosomes of their own, but what those make stays inside the mitochondrion.
+## answer_b
+Lysosomes
+## explanation_b
+Lysosomes destroy protein; they do not synthesise it.
+## answer_c
+Attached ribosomes
+## explanation_c
+Correct. Ribosomes attached to the rough endoplasmic reticulum make the proteins the cell exports — the free ones make what it keeps.
+## answer_d
+Smooth endoplasmic reticulum
+## explanation_d
+Smooth endoplasmic reticulum has no ribosomes at all, so it cannot make protein of any kind.
+## correct_answer
+C
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute exported protein to the attached ribosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p3 q32; Dpt Book MCQ histo 101 .NEW (1).pdf p4 q32; Cytology | Module 101 questions.pdf.pdf p27 q32. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A97125117339
+## title
+A newborn presenting with yellow coloration of skin and eyes by examination is expected…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A newborn presenting with yellow coloration of skin and eyes by examination is expected to have:
+## answer_a
+Defective ribosomes
+## explanation_a
+Defective ribosomes would cripple protein synthesis throughout the body, not produce a yellow pigment in the skin.
+## answer_b
+Underdeveloped sER in liver
+## explanation_b
+Correct. The liver cell's smooth endoplasmic reticulum is what handles bilirubin, as it handles drugs and alcohol, and it is not yet fully developed in a newborn.
+## answer_c
+Underdeveloped sER in skin
+## explanation_c
+Smooth endoplasmic reticulum in the skin would be a steroid- and lipid-handling organelle in the wrong organ. The skin is where the colour is seen; the liver is where the fault is.
+## answer_d
+Malfunction of rER
+## explanation_d
+Rough endoplasmic reticulum makes exported protein. The albumin it makes carries bilirubin, which is why this option is tempting, but the processing itself is the smooth reticulum's.
+## correct_answer
+B
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Trace neonatal jaundice to the organelle that handles bilirubin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p6 q4; Dpt Book MCQ histo 101 .NEW (1).pdf p6 q3. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Yellowing of skin and sclera is jaundice, from bilirubin the liver has not yet processed, and the smooth endoplasmic reticulum of the liver cell is the organelle that does that work — underdeveloped in the newborn. Only B names both the organelle and the organ.
+
+
+---
+
+# Item
+## id
+QM-101-154B840F9B89
+## title
+Among features of medical conditions related to defective lysosomes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Among features of medical conditions related to defective lysosomes:
+## answer_a
+Lack of catalase
+## explanation_a
+Catalase is a peroxisomal enzyme. Lacking it is a peroxisomal disease, and the option is here because the two single-membrane digestive organelles are constantly swapped.
+## answer_b
+Accumulation of hydrogen peroxide compounds
+## explanation_b
+Hydrogen peroxide accumulates when peroxisomal catalase fails. A lysosome neither makes nor destroys it.
+## answer_c
+Interference with nerve cell function
+## explanation_c
+Correct. The department book gives sulfatase deficiency as its example: sulfated compounds accumulate inside cells and interfere with the normal function of nerve cells.
+## answer_d
+Defective oxidoreductases
+## explanation_d
+Oxidoreductases belong to the mitochondrion and the peroxisome. The lysosome's enzymes are hydrolases.
+## correct_answer
+C
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the consequence of a missing lysosomal enzyme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p3 q26; Cytology | Module 101 questions.pdf.pdf p26 q26. Manifest src_4a8ddb5edfab86d624d8, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-26626E89AB51
+## title
+As regards ribosomes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+As regards ribosomes:
+## answer_a
+Their subunits are formed in the nucleolus
+## explanation_a
+Correct. rRNA is made in the nucleolus, the proteins in the cytoplasm, and the two unite in the nucleolus into the subunits, which then leave through the nuclear pores.
+## answer_b
+Are formed of DNA associated with proteins
+## explanation_b
+A ribosome is rRNA with protein, not DNA with protein. DNA with histone is chromatin, and that is what this option describes.
+## answer_c
+Cause cytoplasmic acidophilia
+## explanation_c
+Ribosomes cause basophilia, not acidophilia — their RNA is acidic and so binds the basic dye. Acidophilia comes from abundant smooth endoplasmic reticulum.
+## answer_d
+Are formed of two subunits of equal size
+## explanation_d
+The two subunits are of unequal size, a large one and a small one, and the polypeptide chain is carried on the large one. "Equal" is what makes this option false.
+## correct_answer
+A
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the ribosome's composition, origin and subunit sizes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q55; Cytology | Module 101 questions.pdf.pdf p30 q56. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DA65DF3674A1
+## title
+Concerning rER:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning rER:
+## answer_a
+Its sites cause localized or diffuse acidophilia
+## explanation_a
+Rough endoplasmic reticulum causes basophilia, localised or diffuse, because of its ribosomes. Acidophilia is what the smooth kind causes.
+## answer_b
+Shares in drug detoxification
+## explanation_b
+Drug detoxification is smooth endoplasmic reticulum. The two halves of the endoplasmic reticulum are constantly offered for each other's functions.
+## answer_c
+Its limiting membranes have lysosomes
+## explanation_c
+Lysosomes are separate organelles budded from the Golgi. The rough reticulum makes their enzymes but does not carry lysosomes on its membranes.
+## answer_d
+Responsible for protein segregation
+## explanation_d
+Correct. Segregation — moving the newly made protein into the lumen, away from the cytosol — is one of its named functions, and it is what protects the cytoplasm from the hydrolytic enzymes it makes.
+## correct_answer
+D
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise segregation as a function of rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p3 q23; Cytology | Module 101 questions.pdf.pdf p26 q23. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4BC1EC73405E
+## title
+Localized cytoplasmic basophilia indicates the presence of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Localized cytoplasmic basophilia indicates the presence of:
+## answer_a
+Mitochondria
+## explanation_a
+Mitochondria are acidophilic. They are stained by iron haematoxylin or Janus green, not by the basic dye of a routine section.
+## answer_b
+DNA
+## explanation_b
+DNA is basophilic, but it is in the nucleus. This question is about the cytoplasm, and the option is here to catch a student who answers on staining alone.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi apparatus takes no dye at all in H&E, which is why it shows as a pale negative image rather than a basophilic patch.
+## answer_d
+rER
+## explanation_d
+Correct. A localised patch of basophilia is a mass of rough endoplasmic reticulum, its ribosomes concentrated in one region — the Nissl granule of the nerve cell is the type example.
+## correct_answer
+D
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Read a localised patch of basophilia as rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p2 q12; Cytology | Module 101 questions.pdf.pdf p25 q12. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6331A4779C97
+## title
+Microtubules are characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubules are characterized by:
+## answer_a
+Having fixed length
+## explanation_a
+The length is not fixed — a microtubule grows and shrinks by adding and losing tubulin, and that instability is what lets the mitotic spindle work.
+## answer_b
+Being formed of alpha and beta tubulin
+## explanation_b
+Correct. Dimers of alpha and beta tubulin build the protofilaments. Gamma tubulin is a third form, and it is in the organising centre rather than in the tube.
+## answer_c
+Being arranged into 10 protofilaments
+## explanation_c
+Thirteen protofilaments, not ten. The number is fixed and is what fixes the diameter.
+## answer_d
+Diameter varies according to tubulin polymerization
+## explanation_d
+The diameter is the one thing that never varies: thirteen protofilaments always give the same circumference, so 24 nm every time. This option swaps the fixed property for the variable one.
+## correct_answer
+B
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the subunit of a microtubule and separate its fixed diameter from its variable length.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p4 q30; Cytology | Module 101 questions.pdf.pdf p27 q30. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-E4AAB3DDA5F9
+## title
+Microtubules are formed of a protein called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubules are formed of a protein called:
+## answer_a
+Actin
+## explanation_a
+Actin is the microfilament protein — the other cytoskeletal element, and the one the books put opposite this every time.
+## answer_b
+Myosin
+## explanation_b
+Myosin works with actin in contraction. It is a motor, not a structural subunit of a tube.
+## answer_c
+Tubulin
+## explanation_c
+Correct. Tubulin, as dimers of an alpha and a beta form.
+## answer_d
+Clathrin
+## explanation_d
+Clathrin coats the pit of receptor-mediated endocytosis. It builds a cage on a membrane, not a cytoskeletal tube.
+## correct_answer
+C
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the microtubule protein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q54; Cytology | Module 101 questions.pdf.pdf p30 q55. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CF45BB4CE143
+## title
+One item is a feature of defective mitochondria:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One item is a feature of defective mitochondria:
+## answer_a
+Mitochondrial RNA mutation
+## explanation_a
+A mutation in mitochondrial RNA is a cause rather than a feature. The question asks what the patient shows, not what the genome did.
+## answer_b
+Muscle weakness
+## explanation_b
+Correct. No ATP means no energy for vital activity, and in muscle that presents as muscular weakness — the department book's own applied note.
+## answer_c
+Failure of breakdown of bilirubin
+## explanation_c
+Failure to break down bilirubin is the smooth endoplasmic reticulum of the liver, which is why an underdeveloped one jaundices a newborn.
+## answer_d
+Lack of sulfatases
+## explanation_d
+Lack of sulfatases is a lysosomal disease, the one that interferes with nerve cell function.
+## correct_answer
+B
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the clinical consequence of failing mitochondria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p2 q8; Cytology | Module 101 questions.pdf.pdf p24 q8. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3A8313C633DE
+## title
+One of the following structures is basophilic in staining: :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures is basophilic in staining: :
+## answer_a
+Ribosomes
+## explanation_a
+Correct. The acidity of the phosphate groups in ribosomal RNA is what binds the basic dye, and it is the whole reason cytoplasm is ever blue.
+## answer_b
+sER
+## explanation_b
+Smooth endoplasmic reticulum, when abundant, makes the cytoplasm acidophilic — the opposite reaction.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi apparatus takes neither dye and appears as an unstained negative image.
+## answer_d
+Lysosomes
+## explanation_d
+Lysosomes cannot be seen in a routine section at all; they need the acid phosphatase reaction.
+## correct_answer
+A
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Name the cytoplasmic structure that takes the basic dye.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p3 q31; Dpt Book MCQ histo 101 .NEW (1).pdf p4 q31. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Ribosomes are the only basophilic structure in the list — their RNA phosphate groups bind the basic dye. Smooth endoplasmic reticulum gives acidophilia, and neither the Golgi nor the lysosome is demonstrated in a routine section at all.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F14471DAC051
+## title
+The cytoplasmic organelle which contains DNA & RNA is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cytoplasmic organelle which contains DNA & RNA is:
+## answer_a
+rER
+## explanation_a
+Rough endoplasmic reticulum carries ribosomes, which are RNA, but it holds no DNA of its own.
+## answer_b
+SER
+## explanation_b
+Smooth endoplasmic reticulum has neither, having no ribosomes at all.
+## answer_c
+lysosome
+## explanation_c
+A lysosome contains hydrolytic enzymes — including a nuclease, which acts on nucleic acid rather than containing it.
+## answer_d
+Mitochondria
+## explanation_d
+Correct. The mitochondrial matrix holds mitochondrial DNA together with mRNA, tRNA and rRNA, which is why the organelle can divide independently of the cell.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle with its own genetic material.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p1 q7; Cytology | Module 101 questions.pdf.pdf p24 q7. Manifest src_4a8ddb5edfab86d624d8, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B7FA36CF2ABB
+## title
+The most prominent cytoplasmic organelles in monocytes are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most prominent cytoplasmic organelles in monocytes are:
+## answer_a
+Golgi apparatus and lysosomes
+## explanation_a
+Correct. The monocyte is the blood form of the macrophage, so it is built to digest: many lysosomes, and a prominent Golgi apparatus making them.
+## answer_b
+Glycogen granules
+## explanation_b
+Glycogen granules are an inclusion of liver and muscle, not the defining content of a phagocyte.
+## answer_c
+Mitochondria
+## explanation_c
+Mitochondria are present in every cell. Being present everywhere makes them useless for identifying one.
+## answer_d
+sER
+## explanation_d
+Smooth endoplasmic reticulum marks a lipid- or steroid-forming cell, which is the opposite kind of work.
+## correct_answer
+A
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Blood
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Predict the organelle profile of a cell that is about to become a macrophage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q62; Dpt Book MCQ histo 101 .NEW (1).pdf p25 q26. Manifest src_2944234d11e92ac4bbc8, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-56649D177016
+## title
+the wall of centrioles is composed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the wall of centrioles is composed of:
+## answer_a
+9 microtubules
+## explanation_a
+9 is the number of bundles, and it is the number of microtubules in a rootlet. Stopping at nine is the single commonest error in this leaf.
+## answer_b
+27 microtubules
+## explanation_b
+Correct. Nine bundles of three — 27 microtubules.
+## answer_c
+72 microtubules
+## explanation_c
+72 is 9 × 8 and corresponds to nothing. It is in the set as a digit-reversal of 27.
+## answer_d
+18 microtubules
+## explanation_d
+18 is the nine doublets of the ciliary shaft counted without its central pair.
+## correct_answer
+B
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a centriole wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q21; Cytology | Module 101 questions.pdf.pdf p20 q10. Manifest src_6846577508f49244d715, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2CA39E1BC0F7
+## title
+Which organelle is prominent in cells that synthesize steroid hormones?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which organelle is prominent in cells that synthesize steroid hormones?
+## answer_a
+rER
+## explanation_a
+Rough endoplasmic reticulum makes protein for export. A steroid is not a protein, so it needs no ribosomes at any point.
+## answer_b
+sER
+## explanation_b
+Correct. Smooth endoplasmic reticulum synthesises the steroid hormones — cortisone and testosterone are the book's examples — and is abundant in the cells that make them.
+## answer_c
+Lysosome
+## explanation_c
+Lysosomes digest. They have no synthetic role.
+## answer_d
+Peroxisomes
+## explanation_d
+Peroxisomes oxidise long-chain fatty acids and destroy hydrogen peroxide. They handle lipid but they do not build a hormone from it.
+## correct_answer
+B
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute steroid synthesis to smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p2 q19; Cytology | Module 101 questions.pdf.pdf p25 q19. Manifest src_4a8ddb5edfab86d624d8, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9BE48B6B8402
+## title
+Cytoplasmic basophilia observed in LM is due to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytoplasmic basophilia observed in LM is due to:
+## answer_a
+Golgi apparatus
+## explanation_a
+The Golgi apparatus takes no dye in H&E; it appears as a pale gap in the basophilia rather than as a source of it.
+## answer_b
+Euchromatin
+## explanation_b
+Euchromatin is basophilic but it is nuclear. The stem says cytoplasmic, and this is the option that catches a student answering on staining alone.
+## answer_c
+Ribosomes
+## explanation_c
+Correct. Ribosomes, free or on the rough endoplasmic reticulum, are what make cytoplasm basophilic — the phosphate groups of their RNA are acidic and bind the basic dye.
+## answer_d
+Heterochromatin
+## explanation_d
+Heterochromatin is more basophilic still, and equally nuclear. B and D are the same wrong answer offered twice, which is usually a sign that neither is it.
+## correct_answer
+C
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Attribute cytoplasmic basophilia to ribosomal RNA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p3 q20; Cytology | Module 101 questions.pdf.pdf p25 q20. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8014DBE14EAE
+## title
+2 subunits of ribosome unite together by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+2 subunits of ribosome unite together by:
+## answer_a
+tRNA
+## explanation_a
+Transfer RNA brings the amino acids in. It passes through the assembled ribosome but it is not what assembles it.
+## answer_b
+rRNA
+## explanation_b
+Ribosomal RNA is what the subunits are built from. It is inside each subunit rather than between them.
+## answer_c
+mRNA
+## explanation_c
+Correct. The two subunits come together only during protein synthesis, threaded onto the messenger RNA — which is also why a string of them on one mRNA is a polyribosome.
+## answer_d
+none the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name what holds the two ribosomal subunits together during translation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q6. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-16A72E45E837
+## title
+A 45 female patient suffering from breast cancer the doctor gave her a chemotherapy to …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 45 female patient suffering from breast cancer the doctor gave her a chemotherapy to block the activity of:
+## answer_a
+Microfilaments
+## explanation_a
+Microfilaments cleave the cell in two at the end of division, so blocking them would leave a binucleate cell rather than stopping division. They are not what the drug is aimed at.
+## answer_b
+Intermediate filaments
+## explanation_b
+Intermediate filaments are the other tumour answer in these books — the one a pathologist stains to find where the tumour came from. Staining and blocking are two different questions with the same setting, and this option is the other one's answer.
+## answer_c
+Microtubules
+## explanation_c
+Correct. The mitotic spindle is built of microtubules, so a drug that prevents tubulin polymerising stops the cell dividing — the department book gives exactly this as its applied note.
+## answer_d
+Proteasome
+## explanation_d
+The proteasome degrades abnormal proteins. Blocking it would not stop a cell dividing.
+## correct_answer
+C
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Explain why blocking one cytoskeletal element arrests a tumour.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q1. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that cancer chemotherapy arrests proliferation in tumours by preventing microtubule formation, because the mitotic spindle is microtubule. Only C names that element.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-20982C2497CF
+## title
+A brownfibritlar network in the cytoplasm represents:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A brownfibritlar network in the cytoplasm represents:
+## answer_a
+Primary lysosomes
+## explanation_a
+Primary lysosomes are separate vesicles and need the acid phosphatase reaction, which gives discrete deposits rather than a network.
+## answer_b
+Secondary lysosomes. 7
+## explanation_b
+Secondary lysosomes are likewise discrete bodies, and larger and more varied than the primary ones — still not a network.
+## answer_c
+Golgi apparatus
+## explanation_c
+Correct. Silver impregnation shows the Golgi apparatus as a network of brown granules and fibrils beside the nucleus. It is the positive counterpart of the negative Golgi image seen in H&E.
+## answer_d
+Ribosomes
+## explanation_d
+Ribosomes are far too small to resolve individually by light microscopy; what they produce is a diffuse blue tint, not a brown mesh.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Identify the Golgi apparatus from its silver appearance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p2 q22. Manifest src_4a8ddb5edfab86d624d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A brown network of granules and fibrils is the department book's own description of the Golgi apparatus demonstrated by silver; no other option in the set is a network or is shown by silver.
+
+
+---
+
+# Item
+## id
+QM-101-31F6AC47E694
+## title
+A patient presenting with urine troubles and fatty liver. kidney and liver examination …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient presenting with urine troubles and fatty liver. kidney and liver examination showed:
+## answer_a
+Mitochondrial abnormalities
+## explanation_a
+A mitochondrial fault presents as failure of ATP production — weakness in muscle — rather than as fat accumulating in the liver.
+## answer_b
+Lysosomal enzyme deficiency
+## explanation_b
+Lysosomal enzyme deficiency leaves undigested material accumulating, and the department book's example of it is interference with nerve cell function.
+## answer_c
+Peroxisomal enzyme deficiency
+## explanation_c
+Correct. Peroxisomes carry out beta-oxidation of long-chain fatty acids and are most abundant in liver and kidney, which is exactly the pair of organs the stem names.
+## answer_d
+Defective fat metabolism
+## explanation_d
+Defective fat metabolism is the consequence, not the cause. The question asks what examination of the organs showed, and every other option names an organelle.
+## correct_answer
+C
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Trace a fatty liver with renal involvement to the peroxisome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q6. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Beta-oxidation of long-chain fatty acids is peroxisomal, and the peroxisome is abundant in liver and kidney — the two organs named in the stem. The department book states that lack of peroxisomal enzymes affects the function of organs such as the liver. C names the organelle and the fault together.
+
+
+---
+
+# Item
+## id
+QM-101-B6216CE0BCB6
+## title
+a small tumor was exercised from the adrenal gland of an adult male. after examination,…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+a small tumor was exercised from the adrenal gland of an adult male. after examination, the cells of the tumor were shown to express high levels of steroid hormones which of the following organelles were abundant within these tumor cells??
+## answer_a
+sER
+## explanation_a
+Correct. Steroid hormones are synthesised on smooth endoplasmic reticulum, so a cell making them in excess is packed with it — and the adrenal cortex is the type example of such a cell.
+## answer_b
+peroxisomes
+## explanation_b
+Peroxisomes oxidise fatty acids and destroy hydrogen peroxide. They handle lipid, which makes them tempting, but they build no hormone.
+## answer_c
+golgi apparatus
+## explanation_c
+The Golgi apparatus packs and modifies protein for export. A steroid is small and lipid-soluble and leaves the cell by diffusion, needing no packaging at all.
+## answer_d
+rER
+## explanation_d
+Rough endoplasmic reticulum makes exported protein. A student who answers "hormone, therefore export, therefore rER" has reasoned well but forgotten that a steroid is not a protein.
+## correct_answer
+A
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Predict the organelle profile of a steroid-secreting tumour.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q24. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D45FABBA2546
+## title
+Abnormal short lived proteins are degraded by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Abnormal short lived proteins are degraded by:
+## answer_a
+Lysosomes
+## explanation_a
+The lysosome digests what has been taken into the cell and whole organelles that are worn out. It is a membrane-bound compartment, and a soluble cytosolic protein never enters it.
+## answer_b
+Proteosomes
+## explanation_b
+Correct. The proteasome is a non-membranous complex in the cytosol that destroys abnormal, misfolded and short-lived proteins after they have been ubiquitin-tagged.
+## answer_c
+Peroxisomes
+## explanation_c
+Peroxisomes hold oxidases and catalase and act on fatty acids and hydrogen peroxide, not on protein.
+## answer_d
+Endosmes
+## explanation_d
+An endosome is a vesicle of material taken in from outside, on its way to a lysosome. Again the wrong side of a membrane.
+## correct_answer
+B
+## main_concept
+CON-FND-0D6F0DC6CBAD60
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate proteasomal from lysosomal degradation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q78. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Abnormal and short-lived cytosolic proteins are tagged with ubiquitin and destroyed by the proteasome; the lysosome digests engulfed material and worn-out organelles. Only B is the proteasome.
+
+
+---
+
+# Item
+## id
+QM-101-5F24BD1A3852
+## title
+Abundance of attached ribosomes in the cytoplasm is indicative of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Abundance of attached ribosomes in the cytoplasm is indicative of:
+## answer_a
+protein synthesis for export
+## explanation_a
+Correct. Attached ribosomes feed their product into the lumen of the rough endoplasmic reticulum, which segregates it and sends it to the Golgi for export.
+## answer_b
+protein synthesis for intracellular use
+## explanation_b
+Protein for the cell's own use is made on free ribosomes, which release it straight into the cytosol. This is the paired question's answer, and the two rows appear together with identical options.
+## answer_c
+Excessive phagocytosis
+## explanation_c
+Excessive phagocytosis would show as many lysosomes, not many ribosomes.
+## answer_d
+all of the above
+## explanation_d
+Attached and free ribosomes do opposite jobs, so "all of the above" would have the same cell exporting and retaining the same protein.
+## correct_answer
+A
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Infer what a cell is making from its attached ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p4 q24. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-33037D86182C
+## title
+Abundance of free ribosomes in the cytoplasm is indicative of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Abundance of free ribosomes in the cytoplasm is indicative of:
+## answer_a
+protein synthesis for export
+## explanation_a
+Protein for export needs the rough endoplasmic reticulum to segregate and package it, so it is made on attached ribosomes. This is the companion question's answer.
+## answer_b
+protein synthesis for intracellular use
+## explanation_b
+Correct. A free ribosome releases its product into the cytosol, so what it makes is what the cell keeps — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes.
+## answer_c
+Excessive phagocytosis
+## explanation_c
+Phagocytosis is read from lysosome content, not from ribosomes.
+## answer_d
+all of the above
+## explanation_d
+The two ribosome populations make different destinations of protein, so no cell shows both meanings at once.
+## correct_answer
+B
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Infer what a cell is making from its free ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q23. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED97D170967F
+## title
+All are true about rER EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All are true about rER EXCEPT:
+## answer_a
+formed of intercommunicating cisternae
+## explanation_a
+True, so not the exception. Intercommunicating cisternae are what the endoplasmic reticulum is.
+## answer_b
+continuous with outer nuclear surface
+## explanation_b
+True, so not the exception. It is continuous with the outer membrane of the nuclear envelope, which is itself ribosome-studded for the same reason.
+## answer_c
+responsible for drug detoxication in liver
+## explanation_c
+The exception, and the answer. Detoxification of drugs and alcohol in the liver is smooth endoplasmic reticulum. The two halves of one organelle are set against each other in almost every question about either.
+## answer_d
+is studded with ribosomes on their outer surface
+## explanation_d
+True, so not the exception. The ribosomes are on the outer, cytoplasmic surface — which is where the messenger RNA is.
+## correct_answer
+C
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate rough from smooth endoplasmic reticulum by function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q80. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and D are all stated by the department book of the rough reticulum. Drug detoxification in the liver is the smooth reticulum's function, so C is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-F03EF1356F5E
+## title
+all characters of peroxisome except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all characters of peroxisome except:
+## answer_a
+in liver cell, kidney
+## explanation_a
+True, so not the exception. Liver and kidney cells are where peroxisomes are most abundant.
+## answer_b
+increase by division
+## explanation_b
+True, so not the exception. Peroxisomes increase in number by division, as mitochondria do.
+## answer_c
+in phagocytic cell
+## explanation_c
+The exception, and the answer. The organelle abundant in phagocytic cells is the lysosome. Both are single-membrane enzyme bags, and this substitution is the trap in every peroxisome question in these books.
+## answer_d
+contain oxidase
+## explanation_d
+True, so not the exception. Oxidase is one of the peroxisome's two enzyme groups, catalase being the other.
+## correct_answer
+C
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the peroxisome in liver and kidney rather than in phagocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q14. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED530C6E8133
+## title
+all function of microfilament except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all function of microfilament except:
+## answer_a
+cell shape changes as endocytosis
+## explanation_a
+True, so not the exception. Actin changes the shape of the cell in endocytosis.
+## answer_b
+formation of mitotic spindle
+## explanation_b
+The exception, and the answer. The mitotic spindle is microtubule. The microfilament's part in division comes later, cleaving the cell in two once the chromosomes have separated — so both elements act in mitosis, at different moments.
+## answer_c
+for cleavage of cells
+## explanation_c
+True, so not the exception. The cleavage furrow is a contractile ring of actin.
+## answer_d
+formation of microvilli core
+## explanation_d
+True, so not the exception. The core of a microvillus is a bundle of actin filaments.
+## correct_answer
+B
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the mitotic spindle to microtubules, not microfilaments.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q20. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-60F4BFC4A15C
+## title
+all functions of golgi except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all functions of golgi except:
+## answer_a
+packing, concentration & storage
+## explanation_a
+True, so not the exception. Packing, concentration and storage of the secretory product are the Golgi's core work.
+## answer_b
+chemical modification of proteins
+## explanation_b
+True, so not the exception. Chemical modification — adding carbohydrate to make glycoprotein — happens as the protein moves through the stack.
+## answer_c
+formation of secretory vesicles and lysosomes
+## explanation_c
+True, so not the exception. Secretory vesicles and lysosomes both bud from its exit face.
+## answer_d
+cell respiration, energy production
+## explanation_d
+The exception, and the answer. Cell respiration and energy production are the mitochondrion's. This option is the odd one in a list otherwise entirely about handling protein, which is what makes it findable without knowing every Golgi function.
+## correct_answer
+D
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate what the Golgi does from what the mitochondrion does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C3B37FEF65A2
+## title
+all functions of microtubule except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all functions of microtubule except:
+## answer_a
+Determination of shape of the cell and cell elongation
+## explanation_a
+True, so not the exception. Microtubules determine cell shape and cell elongation.
+## answer_b
+intracellular transport of organelles, vesicles
+## explanation_b
+True, so not the exception. They are the tracks along which organelles and vesicles are moved.
+## answer_c
+cell shape change as endocytosis
+## explanation_c
+The exception, and the answer. Changing the shape of the cell during endocytosis is actin — the microfilament. This row is the mirror image of `all-function-of-microfilament-except`, which offers the spindle; between them the two questions test the same boundary from both sides.
+## answer_d
+formation of the mitotic Spindle during cell division
+## explanation_d
+True, so not the exception. The mitotic spindle is microtubule.
+## correct_answer
+C
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute endocytic shape change to microfilaments, not microtubules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q16. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5641447B5021
+## title
+All hydrolytic enzymes in lysosome except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All hydrolytic enzymes in lysosome except:
+## answer_a
+phospholipase
+## explanation_a
+True, so not the exception. Phospholipase hydrolyses phospholipid.
+## answer_b
+acid phosphatase
+## explanation_b
+True, so not the exception. Acid phosphatase is the lysosome's marker enzyme, and the reaction that demonstrates the organelle.
+## answer_c
+nuclease
+## explanation_c
+True, so not the exception. Nuclease hydrolyses nucleic acid.
+## answer_d
+oxidase
+## explanation_d
+The exception, and the answer. An oxidase oxidises rather than hydrolyses, and it belongs to the peroxisome. Every option here ends in "-ase", so the choice has to be made on the chemistry rather than on the word.
+## correct_answer
+D
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the oxidase as a peroxisomal rather than a lysosomal enzyme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p8 q2. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9B8FC97CB83B
+## title
+All of the following are basophilic except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are basophilic except:
+## answer_a
+Nuclear membrane
+## explanation_a
+True, so not the exception. The nuclear membrane is basophilic like the rest of the nucleus.
+## answer_b
+Chromatin
+## explanation_b
+True, so not the exception. Chromatin is basophilic from the phosphate of its DNA.
+## answer_c
+rER
+## explanation_c
+True, so not the exception. Rough endoplasmic reticulum is basophilic because of the RNA of its ribosomes.
+## answer_d
+Mitochondria
+## explanation_d
+The exception, and the answer. Mitochondria are acidophilic, and are demonstrated by iron haematoxylin or Janus green rather than by the basic dye of a routine section. Everything else in the list owes its colour to nucleic acid; the mitochondrion is the one whose bulk is protein.
+## correct_answer
+D
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Recognise the mitochondrion as acidophilic among basophilic structures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p13 q77. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6312AE5E54E1
+## title
+all of the following are cytoskeleton except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all of the following are cytoskeleton except:
+## answer_a
+microtubules
+## explanation_a
+True, so not the exception. Microtubules are the first of the three.
+## answer_b
+micro filaments
+## explanation_b
+True, so not the exception. Microfilaments — thin filaments — are the second.
+## answer_c
+thick filaments
+## explanation_c
+The exception, and the answer. Thick filaments are myosin of the muscle contractile apparatus. The trap is the pairing: thin filaments really are cytoskeletal, so "thick" reads as its natural partner.
+## answer_d
+intermediate filaments
+## explanation_d
+True, so not the exception. Intermediate filaments are the third.
+## correct_answer
+C
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Exclude the thick filament from the cytoskeleton.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F7F622ACF2D8
+## title
+all of the following are function of golgi apparatus except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all of the following are function of golgi apparatus except:
+## answer_a
+modification of protein
+## explanation_a
+True, so not the exception. Chemical modification of protein is one of its functions.
+## answer_b
+concentration of protein
+## explanation_b
+True, so not the exception. Concentration of the secretory product happens in the stack.
+## answer_c
+synthesis of protein
+## explanation_c
+The exception, and the answer. Protein is synthesised on ribosomes; the Golgi receives it already made. Everything the Golgi does to a protein is done to something someone else built.
+## answer_d
+bud off secretory vesicle
+## explanation_d
+True, so not the exception. Secretory vesicles bud from the exit face.
+## correct_answer
+C
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that the Golgi handles protein but does not make it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q22. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-17EE7CB1CE09
+## title
+All of the following are membranous organelles except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are membranous organelles except:
+## answer_a
+Cell membrane
+## explanation_a
+True, so not the exception. The plasma membrane heads the book's own list of membranous organelles.
+## answer_b
+rough endoplasmic reticulum
+## explanation_b
+True, so not the exception. Rough endoplasmic reticulum is a membranous network.
+## answer_c
+Centriole
+## explanation_c
+The exception, and the answer. A centriole is nine triplets of microtubules and nothing else — no membrane anywhere, which puts it with the ribosomes and the cytoskeleton.
+## answer_d
+Lysosom
+## explanation_d
+True, so not the exception. A lysosome is bounded by a single membrane, and that membrane is what keeps its hydrolases off the cytoplasm.
+## correct_answer
+C
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the centriole as non-membranous.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p9 q53. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The cell membrane, rough endoplasmic reticulum and lysosome are all on the department book's membranous list; the centriole is built of microtubules and has no membrane, so C is the exception.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3B7A0B5F527C
+## title
+All of the following are products of Golgi Apparatus EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are products of Golgi Apparatus EXCEPT:
+## answer_a
+secretory vesicles
+## explanation_a
+True, so not the exception. Secretory vesicles bud from the exit face.
+## answer_b
+transfer vesicles
+## explanation_b
+The exception, and the answer. Transfer vesicles come *from* the rough endoplasmic reticulum and arrive at the cis face carrying newly made protein. Everything else in the list leaves; this one arrives, and the direction is the whole question.
+## answer_c
+Lysosomes
+## explanation_c
+True, so not the exception. Primary lysosomes bud from the exit face too.
+## answer_d
+coated vesicles
+## explanation_d
+True, so not the exception. Coated vesicles are among the Golgi's products, which is how it renews the cell membrane.
+## correct_answer
+B
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the transfer vesicle as a Golgi input rather than a Golgi product.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p4 q31. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F4DFCCC56C7D
+## title
+All of the following are true as regard the centrioles except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are true as regard the centrioles except:
+## answer_a
+Present in microtubular organizing center
+## explanation_a
+True, so not the exception. The two centrioles sit at the heart of the microtubule organising centre.
+## answer_b
+Two in non-dividing cells
+## explanation_b
+True, so not the exception. Two, perpendicular to one another, in a cell that is not dividing.
+## answer_c
+Important for mitotic spindle formation
+## explanation_c
+True, so not the exception. They organise the mitotic spindle after the centrosome duplicates in S phase.
+## answer_d
+Contain 27 microfilaments
+## explanation_d
+The exception, and the answer. The number 27 is right but the filament is wrong: a centriole is 27 micro*tubules*, not microfilaments. This is a one-word substitution in an otherwise correct statement, which is the hardest kind of exception to see.
+## correct_answer
+D
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Read the count and the filament type of a centriole together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q82. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-C7D11C767C35
+## title
+All of the following are types of secondary lysosomes EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are types of secondary lysosomes EXCEPT:
+## answer_a
+Multivesicular body
+## explanation_a
+True, so not the exception. A multivesicular body is a primary lysosome fused with a pinocytic vesicle.
+## answer_b
+Residual body
+## explanation_b
+True as the books use it here — the residual body is the end state of a secondary lysosome and is listed with them. It is the option a careful student hesitates over, since strictly it is a fate rather than a fourth type.
+## answer_c
+Heterolysosomes
+## explanation_c
+True, so not the exception. A heterolysosome is a primary lysosome fused with a phagosome.
+## answer_d
+Barr body
+## explanation_d
+The exception, and the answer. A Barr body is the inactivated X chromosome, seen as a drumstick on the neutrophil nucleus. It is nuclear and has nothing to do with digestion; the word "body" is the only thing it shares with the rest of the list.
+## correct_answer
+D
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the three secondary lysosomes and reject a nuclear structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q34. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F69F7B6729C0
+## title
+All of the following share in the formation of cytoskeleton except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following share in the formation of cytoskeleton except:
+## answer_a
+microtubules
+## explanation_a
+True, so not the exception. Microtubules are one of the three elements.
+## answer_b
+microfilaments
+## explanation_b
+True, so not the exception. Microfilaments are another.
+## answer_c
+centrioles
+## explanation_c
+True as the books use it — centrioles are built of microtubules and are counted with the cytoskeleton in the department book's own table of non-membranous organelles.
+## answer_d
+mitochondria
+## explanation_d
+The exception, and the answer. A mitochondrion is a membranous organelle that makes energy; it is moved *by* the cytoskeleton rather than being part of it.
+## correct_answer
+D
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Exclude the mitochondrion from the cytoskeleton.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p7 q50. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E618EFDF1C64
+## title
+All of the followings are membranous organelles except :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the followings are membranous organelles except :
+## answer_a
+Coated vesicles
+## explanation_a
+True, so not the exception. A coated vesicle is a piece of the plasma membrane that has pinched off, so it is as membranous as the membrane it came from.
+## answer_b
+Peroxisomes
+## explanation_b
+True, so not the exception. A peroxisome is a vesicle bounded by a single membrane.
+## answer_c
+Microtubules
+## explanation_c
+The exception, and the answer. A microtubule is a hollow cylinder whose wall is thirteen protofilaments of tubulin protein. It is hollow, but a hollow made of protein is not a membrane.
+## answer_d
+Lysosomes
+## explanation_d
+True, so not the exception. A lysosome has a single limiting membrane.
+## correct_answer
+C
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the microtubule as non-membranous.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q90. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Coated vesicles, peroxisomes and lysosomes are all bounded by membrane; the microtubule is a cytoskeletal cylinder of tubulin with none. C is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-5A583849CB46
+## title
+all the following are true about lysosomes except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all the following are true about lysosomes except:
+## answer_a
+originate from golgi apparatus
+## explanation_a
+True, so not the exception. Lysosomes bud from the exit face of the Golgi apparatus.
+## answer_b
+identified by histochemical techniques
+## explanation_b
+True, so not the exception. They are invisible in a routine section and need the acid phosphatase histochemical reaction.
+## answer_c
+contain hydrolytic enzyme
+## explanation_c
+True, so not the exception. Hydrolytic enzymes are their defining content.
+## answer_d
+responsible for detoxification of drugs
+## explanation_d
+The exception, and the answer. Detoxification of drugs is smooth endoplasmic reticulum. Both organelles break molecules down, which is why the substitution is tempting, but the lysosome works on what has been engulfed or worn out.
+## correct_answer
+D
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate lysosomal digestion from smooth-reticulum detoxification.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7E6E892601DA
+## title
+all the following statements are true about mitochondria except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all the following statements are true about mitochondria except:
+## answer_a
+are sites of protein synthesis
+## explanation_a
+The exception, and the answer. The site of protein synthesis is the ribosome, free or on the rough endoplasmic reticulum. The mitochondrion holds RNA of its own, which is why this option catches students who reason from the presence of RNA, but the book gives it no synthetic role.
+## answer_b
+are sites of oxidative phosphorylation
+## explanation_b
+True, so not the exception. Oxidative phosphorylation happens on the inner membrane.
+## answer_c
+are variable in number & shape
+## explanation_c
+True, so not the exception. Number and shape both vary with the cell and its activity.
+## answer_d
+contain DNA
+## explanation_d
+True, so not the exception. Mitochondrial DNA is in the matrix, and it is why the organelle can divide on its own.
+## correct_answer
+A
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that protein synthesis is not what the department book gives mitochondria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q13. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9D4AA41C91B3
+## title
+All the statements concerning peroxisomes are true EXCEPT they:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the statements concerning peroxisomes are true EXCEPT they:
+## answer_a
+Contain hydrolytic enzymes
+## explanation_a
+The exception, and the answer. Hydrolytic enzymes belong to the lysosome. The peroxisome holds oxidases and catalase, and this single substitution is what almost every peroxisome question in these books turns on.
+## answer_b
+Are spherical membrane bounded organelles
+## explanation_b
+True, so not the exception. Peroxisomes are spherical vesicles bounded by a single membrane.
+## answer_c
+Contain enzymes involved in formation of H2O2
+## explanation_c
+True, so not the exception. The oxidases generate hydrogen peroxide as a by-product of beta-oxidation.
+## answer_d
+Contain enzymes involved in breakdown of excess H2O2
+## explanation_d
+True, so not the exception. Catalase breaks that hydrogen peroxide into water and oxygen — the organelle makes its own poison and then destroys it. This is the option the book keys, and it is one of the two things a peroxisome is for.
+## correct_answer
+A
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Reject hydrolytic enzymes as peroxisomal.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q42. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys D, but breaking down excess hydrogen peroxide is exactly what peroxisomal catalase does — the department book states it — so D is true and cannot be the exception. A is the false statement: hydrolytic enzymes are the lysosome's. The book's key has taken the last option rather than the wrong one.
+
+
+---
+
+# Item
+## id
+QM-101-CB399A0C7A54
+## title
+All the statements concerning SER are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the statements concerning SER are true EXCEPT:
+## answer_a
+Found in lipid synthesizing cells
+## explanation_a
+True, so not the exception. Smooth endoplasmic reticulum is abundant in lipid-synthesising cells such as the liver cell.
+## answer_b
+Responsible for detoxification of toxins and drugs
+## explanation_b
+True, so not the exception. Detoxification of drugs, alcohol and hormones is one of its named functions. This is the option the book keys, and taking it would mean denying the function the organelle is most famous for.
+## answer_c
+It is double membrane organelle
+## explanation_c
+The exception, and the answer. The endoplasmic reticulum has one membrane. Two-membrane organelles are the mitochondrion and the nucleus, and importing that number here is the mistake being tested.
+## answer_d
+In the muscle, it is called sarcoplasmic reticulum
+## explanation_d
+True, so not the exception. In muscle the smooth reticulum is the sarcoplasmic reticulum, and its calcium release is what triggers contraction.
+## correct_answer
+C
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recall that the endoplasmic reticulum is bounded by one membrane, not two.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p13 q31. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, but detoxification of toxins and drugs is the smooth reticulum's best-known function and cannot be the exception. C is the false statement: the endoplasmic reticulum, rough or smooth, is bounded by a single membrane — two membranes is the mitochondrion and the nuclear envelope.
+
+
+---
+
+# Item
+## id
+QM-101-6FAB1184B8E4
+## title
+As regards Golgi apparatus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+As regards Golgi apparatus:
+## answer_a
+Present around nucleus in nerve cell
+## explanation_a
+Correct. In the nerve cell the Golgi is perinuclear — around the nucleus — because the cell has no single secretory surface to face.
+## answer_b
+Always apical in all the cells
+## explanation_b
+Apical position belongs to a secretory cell discharging at a free surface. "Always" is what makes this option false: the nerve cell is the counter-example the books use.
+## answer_c
+Formed of parallel cisternae
+## explanation_c
+The Golgi's saccules are flat and curved and stacked above one another, not parallel flat cisternae — that description belongs to the rough endoplasmic reticulum.
+## answer_d
+Detoxifies drugs and alcohol
+## explanation_d
+Detoxification of drugs and alcohol is smooth endoplasmic reticulum. It is the function most often lent to the wrong organelle in this leaf.
+## correct_answer
+A
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the Golgi's position in the nerve cell and reject the smooth reticulum's functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q8. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9824762D30E1
+## title
+Autolysodomes are formed when a 1ry lysosome fuses with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Autolysodomes are formed when a 1ry lysosome fuses with:
+## answer_a
+An old organelle
+## explanation_a
+Correct. Auto- means self: the substrate is the cell's own worn-out organelle, wrapped in an autophagic vesicle.
+## answer_b
+A phagosome
+## explanation_b
+A phagosome — material engulfed from outside — gives the heterolysosome. Hetero- is the opposite prefix, and the two words carry the whole distinction.
+## answer_c
+A pinocytotic vesicle
+## explanation_c
+A pinocytic vesicle gives the multivesicular body. This is the option the book keys, and it names the wrong one of the three fusions.
+## answer_d
+A residual body
+## explanation_d
+A residual body is what is left at the end of digestion, not what starts it.
+## correct_answer
+A
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match the autolysosome to the substrate it fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q10. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, the pinocytic vesicle, which forms the multivesicular body. "Auto-" means the cell's own material: an autolysosome is a primary lysosome fused with an old organelle, option A. The same books key `autolysosome-is-formed-of-primary-lysosome-bb187ec0` correctly as the destroyed organelle, which is what makes this key visibly wrong.
+
+
+---
+
+# Item
+## id
+QM-101-FB02AEFB8330
+## title
+Autolysosome is formed of primary lysosome+
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Autolysosome is formed of primary lysosome+
+## answer_a
+Another primary lysosome
+## explanation_a
+Two primary lysosomes fusing would give a larger primary lysosome and no digestion at all — nothing has been brought in to digest.
+## answer_b
+Destroyed organelle
+## explanation_b
+Correct. A destroyed or worn-out organelle, taken up in an autophagic vesicle, is what the primary lysosome fuses with to make an autolysosome.
+## answer_c
+pinocytic vesicle
+## explanation_c
+A pinocytic vesicle gives the multivesicular body — fluid rather than an organelle.
+## answer_d
+Residual body
+## explanation_d
+A residual body is the end state after digestion, so it cannot be the starting substrate.
+## correct_answer
+B
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match the autolysosome to the substrate it fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q3. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-99E04881962A
+## title
+Autolysosomes are formed when a iry lysosome fuses with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Autolysosomes are formed when a iry lysosome fuses with:
+## answer_a
+An old organelle
+## explanation_a
+Correct. The cell's own worn-out organelle — auto- means self, and that prefix is the whole answer.
+## answer_b
+A phagosome
+## explanation_b
+A phagosome holds material taken in from outside and gives the heterolysosome.
+## answer_c
+A pinocytic vesicle
+## explanation_c
+A pinocytic vesicle holds fluid and gives the multivesicular body, whose many small vesicles inside are what name it.
+## answer_d
+A residual body
+## explanation_d
+A residual body is undigested residue at the end of the process, not a substrate at its start.
+## correct_answer
+A
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match the autolysosome to the substrate it fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p3 q15. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. An autolysosome is a primary lysosome fused with the cell's own old organelle, which is option A; the phagosome gives a heterolysosome and the pinocytic vesicle a multivesicular body.
+
+
+---
+
+# Item
+## id
+QM-101-E6BD2FD393E4
+## title
+Axoneme of cilia consists of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Axoneme of cilia consists of:
+## answer_a
+9 microtubules
+## explanation_a
+9 is the number of rootlet microtubules, and the number of bundles in a centriole. It is what is left if the doublets are counted as units.
+## answer_b
+18 microtubules
+## explanation_b
+18 is nine doublets counted without the central pair. This is the option the book keys, and the two missing microtubules in the middle are exactly what the "9+2" formula exists to stop you forgetting.
+## answer_c
+20 microtubules
+## explanation_c
+Correct. Nine peripheral doublets — 18 — plus two central singlets makes 20.
+## answer_d
+27 microtubules
+## explanation_d
+27 is the basal body and the centriole, nine triplets. That is the structure the shaft grows out of, not the shaft.
+## correct_answer
+C
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a ciliary axoneme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q14. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, 18, which counts the nine peripheral doublets and forgets the central pair. The axoneme is 9 doublets plus 2 central singlets — 20 microtubules — and the same books key `the-axoneme-of-the-cilia-has-2ff05c64` correctly as 20.
+
+
+---
+
+# Item
+## id
+QM-101-F2A4551EE225
+## title
+basal body of cilia consists of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+basal body of cilia consists of:
+## answer_a
+9 microtubules
+## explanation_a
+9 is the rootlet, formed from the C microtubule of each of the nine triplets.
+## answer_b
+18 microtubules
+## explanation_b
+18 is the doublets of the shaft counted without their central pair, and it belongs to neither structure as a final answer. This is the option the book keys.
+## answer_c
+20 microtubules
+## explanation_c
+20 is the shaft — the axoneme — with its central pair. The shaft grows from the basal body but does not have its structure.
+## answer_d
+27 microtubules
+## explanation_d
+Correct. 27, in nine triplets: the basal body is a centriole that has migrated to the apical surface, and it keeps a centriole's arrangement exactly.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a ciliary basal body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q15. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, 18. The basal body has exactly the structure of a centriole — nine triplets, 27 microtubules — and the same books key `concerning-basal-body-it-is-formed-of-f8373bc5` and `the-basal-body-of-the-cilia-has-d824d86d` correctly as 27.
+
+
+---
+
+# Item
+## id
+QM-101-F579FF049CF5
+## title
+basophilia of the cytoplasm is due to
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+basophilia of the cytoplasm is due to
+## answer_a
+Ribosomes and rER
+## explanation_a
+Correct. Both populations count: free ribosomes and the ribosomes studding the rough endoplasmic reticulum, because the basophilia comes from the RNA and not from the membrane it sits on.
+## answer_b
+smooth endoplasmic reticulum
+## explanation_b
+Smooth endoplasmic reticulum has no ribosomes and gives acidophilia — the opposite reaction, from the opposite half of the same organelle.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi apparatus takes neither dye and shows as an unstained gap.
+## answer_d
+lysosomes
+## explanation_d
+Lysosomes are invisible without histochemistry and are far too few to colour a whole cytoplasm.
+## correct_answer
+A
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Attribute cytoplasmic basophilia to ribosomes wherever they sit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p11 q60. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B8790D0A214
+## title
+Beta oxidation occurs in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Beta oxidation occurs in:
+## answer_a
+Mitochondrial matrix
+## explanation_a
+The matrix holds the citric acid cycle. If beta-oxidation were being asked as a mitochondrial process this would be the option, not the inner membrane — but the department book gives the process to the peroxisome.
+## answer_b
+Mitochondrial inner membrane
+## explanation_b
+The inner membrane carries the respiratory chain and ATP synthase. Nothing is oxidised there in the sense this question means. This is the option the book keys.
+## answer_c
+Lysosomes
+## explanation_c
+Lysosomes hydrolyse; they do not oxidise.
+## answer_d
+Peroxisomes
+## explanation_d
+Correct as the department book teaches it. Peroxisomal oxidases carry out beta-oxidation of long-chain fatty acids, producing heat and hydrogen peroxide — which is why the organelle needs catalase.
+## correct_answer
+D
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute beta-oxidation of long-chain fatty acids to the peroxisome as this faculty teaches it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q11. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, the inner mitochondrial membrane, which is wrong twice over: the department book attributes beta-oxidation of long-chain fatty acids to the peroxisomal oxidases, producing heat rather than ATP, and even the mitochondrial share of beta-oxidation is a matrix process rather than a membrane one. Overridden to D on the faculty's own text.
+
+
+---
+
+# Item
+## id
+QM-101-FB07B8FCBEB5
+## title
+Both oxidases and catalase enzymes are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Both oxidases and catalase enzymes are present in:
+## answer_a
+Mitochondria
+## explanation_a
+Mitochondria hold the oxidative enzymes of the citric acid cycle and the respiratory chain, but not catalase — and it is catalase that pins this answer down.
+## answer_b
+Microtubules
+## explanation_b
+Microtubules are cytoskeletal cylinders of tubulin and hold no enzymes at all. The option is here because the word begins the same way as the answer.
+## answer_c
+Microbodies
+## explanation_c
+Correct. Microbody is the peroxisome, and oxidase plus catalase is exactly its enzyme content: the oxidase makes hydrogen peroxide and the catalase destroys it.
+## answer_d
+Microfilaments
+## explanation_d
+Microfilaments are actin, and likewise hold no enzymes. Three of the four options begin with "micro-", which is what the question is really testing.
+## correct_answer
+C
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise "microbody" as the peroxisome's other name.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p7 q35. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Oxidases and catalase together define the peroxisome, and microbody is the department book's own alternative name for it.
+
+
+---
+
+# Item
+## id
+QM-101-31858937A84B
+## title
+By EM, the pericytes contain a network of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+By EM, the pericytes contain a network of:
+## answer_a
+actin
+## explanation_a
+True, but not the whole answer. Actin is half of a contractile network.
+## answer_b
+myosin
+## explanation_b
+True, but not the whole answer. Myosin is the motor that pulls on the actin, and neither does anything without the other.
+## answer_c
+microtubules
+## explanation_c
+Microtubules would give a transport and shape system, not a contractile one. The pericyte wraps a capillary and squeezes it, which needs actin and myosin.
+## answer_d
+Both a & b
+## explanation_d
+Correct. Both, because contraction is what a pericyte does, and contraction is always actin against myosin.
+## correct_answer
+D
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise a contractile cell by its actin and myosin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q143. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F1FDFF94E13E
+## title
+cell organelle surrounded by 2 membranes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cell organelle surrounded by 2 membranes:
+## answer_a
+nucleus
+## explanation_a
+True, but not the whole answer. The nuclear envelope is two parallel unit membranes with a perinuclear space between them.
+## answer_b
+mitochondria
+## explanation_b
+True, but not the whole answer. The mitochondrion has a smooth outer membrane and a folded inner one.
+## answer_c
+microtubules
+## explanation_c
+Microtubules have no membrane at all — they are protein cylinders, and they belong with the ribosomes among the non-membranous organelles.
+## answer_d
+Both a&b
+## explanation_d
+Correct. Two membranes is the feature that picks out exactly these two structures in the whole cell, which is why the books keep asking it.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name every structure in the cell bounded by two membranes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q85. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Both the nucleus, through its double-walled envelope, and the mitochondrion have two membranes, so neither A nor B alone is complete and D is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-73E80DBEB269
+## title
+cells active in protein formation have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cells active in protein formation have:
+## answer_a
+rER
+## explanation_a
+True, but not the whole answer. Rough endoplasmic reticulum is where the protein is made and segregated.
+## answer_b
+Golgi complex
+## explanation_b
+True, but not the whole answer. The Golgi complex packs, concentrates and modifies it afterwards.
+## answer_c
+Ribosomes
+## explanation_c
+True, but not the whole answer. The ribosomes on that reticulum are what actually assemble the polypeptide.
+## answer_d
+all of the above
+## explanation_d
+Correct. The three are one pathway rather than three independent facts, and a cell that has one of them in quantity has all three.
+## correct_answer
+D
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assemble the whole organelle profile of a protein-exporting cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q82. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Rough endoplasmic reticulum, the Golgi complex and ribosomes are three consecutive stations on one production line, and a protein-exporting cell is rich in all three, so D is the only complete answer.
+
+
+---
+
+# Item
+## id
+QM-101-24E69632A0C9
+## title
+cells extrude materials by :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cells extrude materials by :
+## answer_a
+endocytosis
+## explanation_a
+Endocytosis is the umbrella term for taking material *in*. It is the opposite direction, and the prefix is the whole distinction.
+## answer_b
+exocytosis
+## explanation_b
+Correct. Exocytosis: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside, without breaking the membrane's continuity.
+## answer_c
+phagocytosis
+## explanation_c
+Phagocytosis is a kind of endocytosis, and takes solids in.
+## answer_d
+pinocytosis
+## explanation_d
+Pinocytosis is a kind of endocytosis too, and takes fluid in. Three of the four options move material inwards.
+## correct_answer
+B
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the process that moves material out of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p1 q6. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C62427D3CB49
+## title
+cells that are involved in phagocytosis of extra cellular material would contain highly…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cells that are involved in phagocytosis of extra cellular material would contain highly levels of
+## answer_a
+rER
+## explanation_a
+Rough endoplasmic reticulum marks a cell exporting protein — the plasma cell, the fibroblast. A phagocyte builds little and digests much.
+## answer_b
+lysosomes
+## explanation_b
+Correct. Lysosomes are what a phagocyte needs, because engulfing a particle achieves nothing until the hydrolytic enzymes reach it.
+## answer_c
+SER
+## explanation_c
+Smooth endoplasmic reticulum marks a lipid- or steroid-forming cell.
+## answer_d
+ribosomes
+## explanation_d
+Ribosomes are in every cell and are prominent where protein is being made. They mark synthesis, and this cell's work is destruction.
+## correct_answer
+B
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Predict the organelle profile of a phagocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q26. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B38337E0BB99
+## title
+Centriole consists of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Centriole consists of:
+## answer_a
+9 microtubules
+## explanation_a
+9 is the rootlet, and the number of bundles in a centriole rather than the number of microtubules.
+## answer_b
+18 microtubules
+## explanation_b
+18 is nine doublets — the ciliary shaft without its central pair.
+## answer_c
+20 microtubules
+## explanation_c
+20 is the ciliary shaft complete, nine doublets plus two central singlets. This is the option the book keys, and it belongs to the structure the centriole gives rise to rather than to the centriole.
+## answer_d
+27 microtubules
+## explanation_d
+Correct. Nine triplets, 27 microtubules, and no central pair at all.
+## correct_answer
+D
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a centriole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q13. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, 20, which is the ciliary shaft. A centriole is nine triplets — 27 microtubules — and the same books key `the-wall-of-the-centriole-is-formed-of-7ed317ec`, `wall-of-each-centriole-contain-mts-4e879533` and `the-wall-of-centrioles-is-composed-of-ebe08389` all as 27. This page has slipped one row of a four-row block that asks 9, 18, 20 and 27 in turn.
+
+
+---
+
+# Item
+## id
+QM-101-38FAAD820C24
+## title
+Characters of organelles:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Characters of organelles:
+## answer_a
+living, permanent
+## explanation_a
+True, but not the whole answer. Living and permanent are the first two of the book's five.
+## answer_b
+essential, active
+## explanation_b
+True, but not the whole answer. Essential and active are the next two.
+## answer_c
+Have vital. Function
+## explanation_c
+True, but not the whole answer. Having a vital function is the fifth.
+## answer_d
+all the above
+## explanation_d
+Correct. All five are one contrast against the inclusion, which is non-living, temporary, usually not essential, inert and a result of the cell's activity rather than a doer of it.
+## correct_answer
+D
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List the properties that separate an organelle from an inclusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q3. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9039FB07DC18
+## title
+complex network of microtubule, intermediate filaments, microfilaments:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+complex network of microtubule, intermediate filaments, microfilaments:
+## answer_a
+ribosome
+## explanation_a
+A ribosome is a single particle of rRNA and protein, not a network.
+## answer_b
+proteasome
+## explanation_b
+A proteasome is a protein-degrading complex, also a discrete particle.
+## answer_c
+lysosome
+## explanation_c
+A lysosome is a membrane-bound vesicle of enzymes.
+## answer_d
+cytoskeleton
+## explanation_d
+Correct. Microtubules, microfilaments and intermediate filaments with their linking proteins are the cytoskeleton — the microtrabecular lattice that fills the cytosol.
+## correct_answer
+D
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the network the three filament systems make.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-41C5DA11C813
+## title
+components of the nucleolus are all of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+components of the nucleolus are all of the following EXCEPT:
+## answer_a
+pars granulosa
+## explanation_a
+True, so not the exception. Pars granulosa is mature rRNA, one of the nucleolus's three dark parts.
+## answer_b
+pars amorpha
+## explanation_b
+True, so not the exception. Pars amorpha is the nucleolar organiser, the DNA encoding rRNA.
+## answer_c
+pars fibrosa
+## explanation_c
+True, so not the exception. Pars fibrosa is newly synthesised rRNA.
+## answer_d
+peroxisomes
+## explanation_d
+The exception, and the answer. A peroxisome is a cytoplasmic organelle full of oxidases and catalase; it is on the wrong side of the nuclear envelope entirely. Three "pars" and one organelle is the shape of the question, and the odd one out gives itself away.
+## correct_answer
+D
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the peroxisome as cytoplasmic and so not part of the nucleolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p6 q42. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6F9314044903
+## title
+concerning basal body , it is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning basal body , it is formed of:
+## answer_a
+9 Microtubules
+## explanation_a
+9 is the rootlet, built from the C microtubule of each triplet.
+## answer_b
+18 Microtubules
+## explanation_b
+18 is the doublets of the shaft counted without the central pair.
+## answer_c
+20 Microtubules
+## explanation_c
+20 is the shaft complete. The shaft grows out of the basal body but does not copy its arrangement.
+## answer_d
+27 Microtubules
+## explanation_d
+Correct. 27, in nine triplets — the basal body is a centriole that has migrated to the apical surface.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a basal body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q61. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-04706DF2E8AC
+## title
+Concerning brown fat, the followings are correct EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning brown fat, the followings are correct EXCEPT:
+## answer_a
+It shows an extensive vascularity
+## explanation_a
+True, so not the exception. Brown fat is richly vascular, which is how the heat it makes is carried away to the rest of the body.
+## answer_b
+Contain large single lipid droplet
+## explanation_b
+The exception, and the answer. A single large droplet is the white, unilocular cell. Brown fat is multilocular — many small droplets — and the many droplets give the many mitochondria more surface to work on.
+## answer_c
+The cells contain abundant mitochondria
+## explanation_c
+True, so not the exception. Abundant mitochondria are what make the tissue brown, through their cytochrome pigment, and what make it able to generate heat.
+## answer_d
+It is more extensive in newborns
+## explanation_d
+True, so not the exception. Brown fat is most extensive in the newborn, who cannot shiver effectively.
+## correct_answer
+B
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate brown fat from white by droplet number and mitochondrial content.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q63. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2080FA19B4D5
+## title
+concerning centrioles , it is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning centrioles , it is formed of:
+## answer_a
+9 triplets of microtubules
+## explanation_a
+True, but not the whole answer. Nine triplets is the arrangement.
+## answer_b
+9 triplets of microtubules with 2 central singlets
+## explanation_b
+False, and the trap. Two central singlets belong to the ciliary shaft, which is 9+2. A centriole has nothing in its centre, and importing the central pair is the commonest error on this structure.
+## answer_c
+27 microtubules
+## explanation_c
+True, but not the whole answer. 27 microtubules is the same fact as A, counted rather than described.
+## answer_d
+both a & c are correct
+## explanation_d
+Correct. A and C are one arrangement stated two ways, so both are true and both are needed.
+## correct_answer
+D
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the centriole's arrangement two ways and see that they are the same statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q64. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-76197F684324
+## title
+Concerning Cilia which statement is false:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning Cilia which statement is false:
+## answer_a
+Present in the apical surface
+## explanation_a
+True, so not the false one. Cilia are an apical specialisation of the cell surface.
+## answer_b
+shaft is formed of 27 microtubules
+## explanation_b
+False, and the answer. 27 is the basal body; the shaft is 20 — nine doublets and two central singlets. Both numbers belong to the same cilium, which is exactly why they are confused.
+## answer_c
+It’s motile structure
+## explanation_c
+True, so not the false one. Cilia beat, and that motility is what separates them from microvilli and stereocilia.
+## answer_d
+formed of three parts
+## explanation_d
+True, so not the false one. Basal body, shaft and rootlets are the three parts.
+## correct_answer
+B
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the microtubule count of the ciliary shaft rather than of the basal body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q18. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-62179967B4AA
+## title
+Concerning fibroblasts: ;
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning fibroblasts: ;
+## answer_a
+They have few organelles
+## explanation_a
+The active fibroblast has well-developed rough endoplasmic reticulum, Golgi and mitochondria — it is the department book's type example of a protein-synthesising cell. Few organelles describes its resting form, the fibrocyte.
+## answer_b
+They have many free ribosomes. i
+## explanation_b
+Its ribosomes are mostly attached, on the rough endoplasmic reticulum, because collagen is exported. Many *free* ribosomes would mean protein kept inside the cell.
+## answer_c
+They have pale basophilic cytoplasm. |
+## explanation_c
+The cytoplasm is deeply basophilic, not pale. Pale basophilic cytoplasm is the reticular cell, and the phrase is borrowed from that description.
+## answer_d
+They are the most common type in the connective tissue proper. |
+## explanation_d
+Correct. The fibroblast is the commonest cell of connective tissue proper — which is also why the books ask about it from four different leaves.
+## correct_answer
+D
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall what a fibroblast is and what its organelle content says about it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q6. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states the fibroblast is the commonest cell of connective tissue proper and describes the active form as having deeply basophilic cytoplasm and well-developed organelles, so A, B and C are all false and D stands.
+
+
+---
+
+# Item
+## id
+QM-101-BAA7CC71057E
+## title
+concerning microtubules, one is wrong:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning microtubules, one is wrong:
+## answer_a
+an element of cytoskeleton
+## explanation_a
+True, so not the wrong one. The microtubule is one of the three cytoskeletal elements.
+## answer_b
+responsible for intracellular transport
+## explanation_b
+True, so not the wrong one. Organelles and vesicles are moved along microtubules.
+## answer_c
+present in cilia & flagella
+## explanation_c
+True, so not the wrong one. The axoneme of a cilium and of a flagellum is microtubule.
+## answer_d
+each has fixed length
+## explanation_d
+The wrong statement, and the answer. What is fixed is the diameter — 24 nm, because thirteen protofilaments always give the same circumference. The length changes continually, and it is that instability the mitotic spindle depends on.
+## correct_answer
+D
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the microtubule's fixed diameter from its variable length.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q87. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are all true of microtubules. The length is not fixed — microtubules lengthen and shorten constantly by adding and losing tubulin — so D is the wrong statement.
+
+
+---
+
+# Item
+## id
+QM-101-B1847F8231C7
+## title
+Concerning of ribosomes which is wrong?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning of ribosomes which is wrong?
+## answer_a
+free in cytoplasm
+## explanation_a
+True, so not the wrong one. Free ribosomes lie singly or as polyribosomes in the cytosol.
+## answer_b
+attached to surface of rER
+## explanation_b
+True, so not the wrong one. Attached ribosomes bind by their large subunit to the ribophorins of the rough reticulum.
+## answer_c
+attached to sER
+## explanation_c
+The wrong statement, and the answer. Smooth endoplasmic reticulum is defined by having no bound ribosomes — that absence is the only difference between the two halves of the organelle.
+## answer_d
+both a & c
+## explanation_d
+Cannot be the answer, because A is true. An option that bundles a true statement with a false one can never be "the wrong statement".
+## correct_answer
+C
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that ribosomes never attach to smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q83. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Ribosomes are free in the cytoplasm or attached to the rough reticulum; attachment to the smooth reticulum is what makes it not smooth, so C is the wrong statement. D cannot be the answer because it includes A, which is true.
+
+
+---
+
+# Item
+## id
+QM-101-8A4B84473A32
+## title
+concerning rootlets , it is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning rootlets , it is formed of:
+## answer_a
+9 Microtubules
+## explanation_a
+Correct. 9 — one from each of the nine triplets of the basal body, the C microtubule, growing down into the cytoplasm to anchor the cilium.
+## answer_b
+18 Microtubules
+## explanation_b
+18 is the shaft's doublets without the central pair.
+## answer_c
+20 Microtubules
+## explanation_c
+20 is the shaft complete.
+## answer_d
+27 Microtubules
+## explanation_d
+27 is the basal body and the centriole. The four numbers 9, 18, 20 and 27 are the whole of what these books ask about cilia, and each belongs to exactly one part.
+## correct_answer
+A
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a ciliary rootlet.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q63. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EA44F552C935
+## title
+Concerning sER:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning sER:
+## answer_a
+It has ribosomes
+## explanation_a
+It has no ribosomes; that absence is what makes it smooth.
+## answer_b
+When abundant appears basophilic
+## explanation_b
+When abundant it makes the cytoplasm acidophilic, not basophilic. Basophilia is the rough reticulum's signature.
+## answer_c
+Well developed in protein forming cells
+## explanation_c
+Protein-forming cells are full of the rough kind. The smooth kind marks lipid and steroid formation.
+## answer_d
+Plays an important role in muscle contraction
+## explanation_d
+Correct. In muscle the smooth reticulum is the sarcoplasmic reticulum, and the calcium it releases is what makes the muscle contract.
+## correct_answer
+D
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p26 q25. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-43AC099F4ABF
+## title
+concerning Shaft , it is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning Shaft , it is formed of:
+## answer_a
+9 Microtubules
+## explanation_a
+9 is the rootlet.
+## answer_b
+18 Microtubules
+## explanation_b
+18 is the shaft's nine doublets with the central pair forgotten — the near miss this question is built around.
+## answer_c
+20 Microtubules
+## explanation_c
+Correct. 20: nine peripheral doublets and two central singlets, the 9+2 axoneme.
+## answer_d
+27 Microtubules
+## explanation_d
+27 is the basal body, nine triplets.
+## correct_answer
+C
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Count the microtubules in a ciliary shaft.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q62. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C560D951D380
+## title
+Concerning the microtubules, one statement istrue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the microtubules, one statement istrue:
+## answer_a
+Subunit A is formed of 13 protofilaments
+## explanation_a
+Correct. Thirteen protofilaments make the wall, and that number is why the diameter never varies.
+## answer_b
+Subunit A is formed of 10 protofilaments
+## explanation_b
+Ten protofilaments would give a narrower tube. The figure is close enough to thirteen to be worth offering and wrong enough to be worth marking.
+## answer_c
+Subunit B is formed of 13 protofilaments
+## explanation_c
+The same claim about a different subunit, and equally wrong on the number in the other direction — it repeats the thirteen but attaches it to the option the question has already used.
+## answer_d
+All the previous statements are true
+## explanation_d
+The four statements contradict each other on the count, so they cannot all be true.
+## correct_answer
+A
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Give the number of protofilaments in a microtubule wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p15 q49. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6D87439BCE59
+## title
+Concerning the multilocular adipocyte:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the multilocular adipocyte:
+## answer_a
+Contain large number of lipid droplets
+## explanation_a
+Correct. Multi-locular means many compartments: the stored fat is in many small droplets rather than one, and the nucleus stays central and rounded because none of them is big enough to displace it.
+## answer_b
+They form white connective tissue
+## explanation_b
+Multilocular cells make brown adipose tissue. White adipose tissue is unilocular, and the colour follows the mitochondria rather than the droplets.
+## answer_c
+Are cells with single large lipid droplet
+## explanation_c
+A single large droplet is the unilocular cell — the direct opposite, and the answer to the companion question with the same four options.
+## answer_d
+Are cells with prominent Golgi complex and RER
+## explanation_d
+A prominent Golgi and rough endoplasmic reticulum describe a protein-exporting cell. A fat cell stores an inclusion; it exports nothing.
+## correct_answer
+A
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the multilocular fat cell by the number of its lipid inclusions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q26. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F58849A3FBD1
+## title
+Concerning the RER, one statement is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the RER, one statement is true:
+## answer_a
+Formed of two membranes, the inner is studded by ribosomes
+## explanation_a
+Two membranes is a mitochondrion or a nuclear envelope, and ribosomes on an inner surface would face the lumen, where there is no messenger RNA.
+## answer_b
+Formed of two membranes, the outer is studded by ribosomes
+## explanation_b
+Two membranes again. The count is what makes this false, even though the face is right.
+## answer_c
+Formed of one membrane, the outer surface is studded by ribosomes
+## explanation_c
+Correct. One membrane, studded on its outer — cytoplasmic — surface, because that is the side the messenger RNA is on and the side the ribophorins face.
+## answer_d
+Formed of one membranes, the inner surface is studded by ribosomes
+## explanation_d
+One membrane is right but the inner surface is wrong: a ribosome inside the cisterna would be sealed away from the cytosol it draws its materials from. The four options are the two-by-two of membrane count against surface, and only one cell of it is true.
+## correct_answer
+C
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the membrane number of the rough reticulum and the face its ribosomes sit on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p12 q26. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3B239A2B1C6B
+## title
+Concerning the unilocular adipocyte:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the unilocular adipocyte:
+## answer_a
+Contain large number of lipid droplets
+## explanation_a
+Many droplets is the multilocular cell — the companion question with the same options, and its answer.
+## answer_b
+They form brown connective tissue
+## explanation_b
+Unilocular cells make white adipose tissue. Brown is multilocular, coloured by the cytochrome of its many mitochondria.
+## answer_c
+Are cells with single large lipid droplet
+## explanation_c
+Correct. Uni-locular: one large droplet filling the cell, flattening the nucleus against the periphery and leaving a thin rim of cytoplasm — the signet ring.
+## answer_d
+Are cells with prominent Golgi complex and RER
+## explanation_d
+A prominent Golgi and rough endoplasmic reticulum belong to a cell exporting protein, which a fat cell is not.
+## correct_answer
+C
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the unilocular fat cell by its single lipid inclusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q25. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E53F7937B27B
+## title
+Cytoskeleton is a network of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytoskeleton is a network of:
+## answer_a
+Microtubules
+## explanation_a
+True, but not the whole answer. Microtubules are the largest of the three at 24 nm.
+## answer_b
+Thin filaments
+## explanation_b
+True, but not the whole answer. Thin filaments are the microfilaments, 5–7 nm, and the smallest.
+## answer_c
+Intermediate filaments
+## explanation_c
+True, but not the whole answer. Intermediate filaments are 8–10 nm — named for being between the other two.
+## answer_d
+All of theabove
+## explanation_d
+Correct. Three elements, and their diameters run in the order the names suggest once you notice that "intermediate" is a size and not a function.
+## correct_answer
+D
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three elements of the cytoskeleton.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p15 q45. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-243CD12A30B2
+## title
+Desmin filaments are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Desmin filaments are:
+## answer_a
+Microfilaments
+## explanation_a
+Microfilaments are actin, and only actin. This is the option the book keys, and taking it would make desmin a contractile protein rather than a supporting one.
+## answer_b
+Intermediate filaments
+## explanation_b
+Correct. Desmin is the intermediate filament of muscular tissue — one of the six tissue-specific proteins the department book names.
+## answer_c
+Thick filaments
+## explanation_c
+Thick filaments are myosin of the muscle contractile apparatus, and are not cytoskeletal at all. The muscle setting makes this the most tempting wrong answer.
+## answer_d
+Microtubules
+## explanation_d
+Microtubules are tubulin. Nothing named "-in" of this family is tubulin.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Classify desmin among the cytoskeletal elements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p16 q54. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys A, microfilaments. Desmin is on the department book's own list of intermediate filament proteins, with cytokeratin, vimentin, neurofilaments, GFAP and the lamins. The same books key the identically-shaped rows for vimentin and keratin as intermediate filaments, which is what makes this key visibly wrong.
+
+
+---
+
+# Item
+## id
+QM-101-FDF08E0517A7
+## title
+detection of ……………. is important for treatment of tumor:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+detection of ……………. is important for treatment of tumor:
+## answer_a
+microtubule
+## explanation_a
+Microtubules are what a chemotherapy drug blocks — the other tumour question in these books, with the same setting and a different verb. Detection is not what is done to them.
+## answer_b
+intermediate filaments
+## explanation_b
+Correct. Each tissue has its own intermediate filament protein, so identifying it by immunocytochemistry reveals the cell the tumour arose from, and that decides how it is treated.
+## answer_c
+microfilaments
+## explanation_c
+Microfilaments are actin in every cell alike, so finding actin says nothing about where a tumour came from. Being universal is exactly what makes a marker useless.
+## answer_d
+proteasome
+## explanation_d
+The proteasome is likewise present everywhere and is not tissue-specific.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Explain why intermediate filaments are what a pathologist stains in a tumour.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p13 q26. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B06D48DCCE18
+## title
+Detoxification of drugs is the function of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Detoxification of drugs is the function of:
+## answer_a
+sER
+## explanation_a
+Correct. Smooth endoplasmic reticulum detoxifies drugs, alcohol and hormones — which is also why the liver cell, where it is most abundant, is the organ that handles them.
+## answer_b
+rER
+## explanation_b
+Rough endoplasmic reticulum makes and segregates exported protein. It is the other half of the same organelle and takes none of its functions.
+## answer_c
+Golgi
+## explanation_c
+The Golgi apparatus packs and modifies protein. This is the option the book keys, and no statement anywhere in the department text supports it.
+## answer_d
+Mitochondria
+## explanation_d
+Mitochondria oxidise substrates to make ATP. Oxidation is involved in detoxification, which is what makes this the most defensible of the three wrong options, but the enzymes that do it sit on smooth reticulum.
+## correct_answer
+A
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute drug detoxification to smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q30. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, the Golgi apparatus, which has no detoxifying role of any kind. Detoxification of drugs, alcohol and hormones is a named function of smooth endoplasmic reticulum in the department book, and four other rows in these same books key it to sER. The key here is simply wrong and is overridden to A.
+
+
+---
+
+# Item
+## id
+QM-101-BC26F840C6C9
+## title
+diameter of microfilament ……. nm
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+diameter of microfilament ……. nm
+## answer_a
+5.10
+## explanation_a
+5–10 nm spans the microfilament and the intermediate filament together, so it identifies neither. It is the near miss the option set is built on.
+## answer_b
+4.8
+## explanation_b
+4–8 nm is invented and belongs to nothing in the cytoskeleton.
+## answer_c
+3.6
+## explanation_c
+3–6 nm is too small for any of the three.
+## answer_d
+5.7
+## explanation_d
+Correct. 5–7 nm, printed here as "5.7". The three diameters run 5–7 for microfilaments, 8–10 for intermediate filaments and 24 for microtubules.
+## correct_answer
+D
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the diameter of a microfilament.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0E852ECF4EFA
+## title
+diameter of microtubule is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+diameter of microtubule is:
+## answer_a
+6 nm
+## explanation_a
+6 nm is a microfilament.
+## answer_b
+10 nm
+## explanation_b
+10 nm is the top of the intermediate filament range.
+## answer_c
+24nm
+## explanation_c
+Correct. 24 nm, fixed by the thirteen protofilaments of the wall.
+## answer_d
+40 nm
+## explanation_d
+40 nm is larger than any cytoskeletal element and corresponds to nothing the book gives.
+## correct_answer
+C
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the diameter of a microtubule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-464B51823EB7
+## title
+Elementary particles are located at the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elementary particles are located at the:
+## answer_a
+Outer membrane of rER
+## explanation_a
+The rough endoplasmic reticulum carries ribosomes on its outer surface, not elementary particles. The two are both "granules on a membrane", which is why the option is offered.
+## answer_b
+Inner membrane of rER
+## explanation_b
+The rough reticulum has one membrane, so it has no inner one to speak of.
+## answer_c
+Outer mitochondrial membrane
+## explanation_c
+The outer mitochondrial membrane is smooth and carries porins. It is where small molecules get in, not where ATP is made.
+## answer_d
+Inner mitochondrial membrane
+## explanation_d
+Correct. The elementary particles are the globular structures attached by stalks to the cristae of the inner membrane, and they carry the ATP synthase.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the elementary particles on the inner mitochondrial membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p25 q16. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7B46172088FF
+## title
+EM of sER is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+EM of sER is:
+## answer_a
+anastomosing tubule
+## explanation_a
+Correct. A network of branching and anastomosing tubules of variable shape, continuous with the rough reticulum but carrying no ribosomes.
+## answer_b
+has ribosome
+## explanation_b
+Ribosomes are exactly what it does not have — their absence is the definition of "smooth".
+## answer_c
+parallel cisternae
+## explanation_c
+Parallel flattened cisternae are the rough reticulum. The two halves of the organelle differ in shape as well as in ribosomes, and this option gives the smooth one the rough one's shape.
+## answer_d
+same size, shape
+## explanation_d
+The tubules are of variable shape and size, not uniform. Regularity would be a poor description of a network that branches.
+## correct_answer
+A
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the smooth reticulum as it appears on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p6 q25. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-28647985F7FB
+## title
+EM picture of macrophage shows the followings EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+EM picture of macrophage shows the followings EXCEPT:
+## answer_a
+Prominent Golgi complex
+## explanation_a
+True, so not the exception. A prominent Golgi is what makes the lysosomes the cell lives by.
+## answer_b
+Few RER
+## explanation_b
+True, so not the exception. Rough endoplasmic reticulum is scanty — the macrophage digests rather than exports.
+## answer_c
+Many lysosomes
+## explanation_c
+True, so not the exception. Many lysosomes are its defining content.
+## answer_d
+No pseudopodia
+## explanation_d
+The exception, and the answer. A macrophage has pseudopodia; they are how it engulfs. A phagocyte with a smooth outline could not do its work, and this is the option that tests whether the surface was included in the picture at all.
+## correct_answer
+D
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assemble the macrophage's ultrastructure and see that its surface belongs to it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q22. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F27FD5DC3261
+## title
+enclosed by single membrane containing oxidase:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+enclosed by single membrane containing oxidase:
+## answer_a
+lysosome
+## explanation_a
+A lysosome is also a single membrane around enzymes, which is why half the description fits — but its enzymes are hydrolases, not oxidases.
+## answer_b
+golgi
+## explanation_b
+The Golgi is a stack of many saccules, not a single vesicle, and it holds no digestive enzyme of its own.
+## answer_c
+peroxisome
+## explanation_c
+Correct. Single membrane plus oxidase is the peroxisome; catalase is the other half of its enzyme content.
+## answer_d
+proteasome
+## explanation_d
+A proteasome has no membrane at all and degrades protein by a different route entirely.
+## correct_answer
+C
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify an organelle from its membrane count and its enzyme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E61A83A13AC
+## title
+Endoplasmic reticulum is formed of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Endoplasmic reticulum is formed of
+## answer_a
+flat curved membranous saccules
+## explanation_a
+Flat curved saccules stacked above one another is the Golgi apparatus. The two organelles are both stacks of membrane, and this is the description that separates them.
+## answer_b
+continuous interconnected cisternae
+## explanation_b
+Correct. A network of continuous, intercommunicating channels and sacs — cisternae — running from the nuclear envelope out to the cell membrane.
+## answer_c
+vesicles with two membranes
+## explanation_c
+Vesicles with two membranes describes nothing in the cell; two membranes are the mitochondrion and the nucleus, and neither is a vesicle.
+## answer_d
+granules with two subunits
+## explanation_d
+Granules with two subunits are ribosomes. They sit on the reticulum but are not what it is made of.
+## correct_answer
+B
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the endoplasmic reticulum as an interconnected system of cisternae.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p10 q59. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-80ABA23F14FD
+## title
+Enzymes associated with drug detoxification are associated with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Enzymes associated with drug detoxification are associated with:
+## answer_a
+SER
+## explanation_a
+Correct. The detoxifying enzymes sit on smooth endoplasmic reticulum, which is why the liver cell — where it is most abundant — is the organ that handles drugs and alcohol.
+## answer_b
+rER
+## explanation_b
+Rough endoplasmic reticulum makes exported protein. Its only share in this is that it is continuous with the smooth kind.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi apparatus packs and modifies protein and detoxifies nothing, though one row in these books mistakenly keys it so.
+## answer_d
+Mitochondria
+## explanation_d
+Mitochondria oxidise substrates to make ATP. Oxidation is part of detoxification, which makes this the most defensible wrong answer, but the enzymes are not theirs.
+## correct_answer
+A
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the detoxifying enzymes to smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p3 q17. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Detoxification of drugs, alcohol and hormones is a named function of smooth endoplasmic reticulum in the department book, and none of the other three organelles is given any detoxifying role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-24E693F08A6D
+## title
+Enzymes for oxidative phosphorylation are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Enzymes for oxidative phosphorylation are present in:
+## answer_a
+outer mitochondrial membrane
+## explanation_a
+The outer membrane is smooth and carries porins; its job is to let small molecules through, not to make ATP.
+## answer_b
+inner mitochondrial membrane
+## explanation_b
+Correct. The inner membrane, and specifically the elementary particles on its cristae, where ATP synthase does the work.
+## answer_c
+mitochondrial matrix
+## explanation_c
+The matrix holds the citric acid cycle enzymes — one step earlier in the same pathway, and the option this question exists to separate from the answer.
+## answer_d
+all of the above
+## explanation_d
+Not all three: the outer membrane has no part in it at all.
+## correct_answer
+B
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place oxidative phosphorylation on the inner mitochondrial membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q67. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6F8BF96039FF
+## title
+enzymes of oxidative phosphorylation for ATP production present in the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+enzymes of oxidative phosphorylation for ATP production present in the:
+## answer_a
+mitochondria
+## explanation_a
+Correct. The mitochondrion is the power house, and oxidative phosphorylation on its cristae is how the ATP is made.
+## answer_b
+secondary lysosomes
+## explanation_b
+Secondary lysosomes digest. Digestion releases energy-yielding molecules but does not phosphorylate ADP.
+## answer_c
+primary lysosomes
+## explanation_c
+Primary lysosomes have not yet digested anything at all.
+## answer_d
+rough ER
+## explanation_d
+Rough endoplasmic reticulum makes protein. It uses ATP rather than making it.
+## correct_answer
+A
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that produces the cell's ATP.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-45E4DA718755
+## title
+Enzymes of peroxisomes are formed in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Enzymes of peroxisomes are formed in:
+## answer_a
+rER
+## explanation_a
+Rough endoplasmic reticulum makes proteins destined for export or for a membrane-bound compartment. The peroxisome buds from it, which is exactly why this option is tempting, but its enzymes take the other route.
+## answer_b
+Free ribosomes
+## explanation_b
+Correct. The peroxisome's enzymes are made on free ribosomes and imported into the organelle afterwards — the department book states it explicitly.
+## answer_c
+Attached ribosomes
+## explanation_c
+Attached ribosomes are the rough reticulum's, and make exported protein.
+## answer_d
+Free & attached ribosomes
+## explanation_d
+Both would mean the cell used two routes for one set of enzymes. It uses one.
+## correct_answer
+B
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute peroxisomal enzymes to free ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q83. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-EAE72E6E338A
+## title
+Enzymes of peroxisomes are synthesized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Enzymes of peroxisomes are synthesized by:
+## answer_a
+Free ribosomes
+## explanation_a
+Correct. Free ribosomes, releasing the enzymes into the cytosol, from which the peroxisome imports them.
+## answer_b
+Attached ribosomes
+## explanation_b
+Attached ribosomes make protein for export or for the secretory pathway — a different destination entirely.
+## answer_c
+rER
+## explanation_c
+The rough endoplasmic reticulum is where the peroxisome's membrane buds from, so half the organelle does come from it. Its enzymes do not, and separating the membrane's origin from the contents' origin is what this question is for.
+## answer_d
+Golgi apparatus
+## explanation_d
+The Golgi apparatus packs and ships protein; it synthesises none.
+## correct_answer
+A
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute peroxisomal enzymes to free ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q79. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that peroxisomal enzymes are synthesised on free ribosomes, which is option A. The same question keyed elsewhere in the bank, `enzymes-of-peroxisomes-are-formed-in-fbc4e1e8`, gives free ribosomes too.
+
+
+---
+
+# Item
+## id
+QM-101-86927E6AB4DE
+## title
+Fibrocytes are characterized by :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fibrocytes are characterized by :
+## answer_a
+having deeply basophilic cytoplasm
+## explanation_a
+Deep basophilia means abundant rough endoplasmic reticulum, which is the active fibroblast. The fibrocyte's cytoplasm is pale because it has little.
+## answer_b
+being spindle shaped with few processes
+## explanation_b
+Correct. A smaller spindle-shaped cell with few processes — the resting form, which becomes an active fibroblast again for wound healing.
+## answer_c
+having well developed golgi apparatus
+## explanation_c
+A well-developed Golgi goes with active export. The fibrocyte is exporting almost nothing.
+## answer_d
+being active cells
+## explanation_d
+Active is the fibroblast. The suffix carries the whole distinction: -blast is building, -cyte is resting.
+## correct_answer
+B
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Read the fibrocyte as the resting state of the fibroblast.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q111. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-732FFB74EA29
+## title
+fine strand of 2 chain of G.Actin coiled:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fine strand of 2 chain of G.Actin coiled:
+## answer_a
+microtubule
+## explanation_a
+A microtubule is a hollow cylinder of tubulin, not a coiled pair of actin chains.
+## answer_b
+intermediate filaments
+## explanation_b
+Intermediate filaments are polymers of tetrameric subunits that differ from tissue to tissue — never actin.
+## answer_c
+microfilaments
+## explanation_c
+Correct. Two chains of globular G actin coiled into filamentous F actin: the microfilament, 5–7 nm across.
+## answer_d
+proteasome
+## explanation_d
+A proteasome is an enzyme complex, not a filament at all.
+## correct_answer
+C
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the microfilament from its subunit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q15. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6B686C48C889
+## title
+fixed diameter with 13 protofilaments
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fixed diameter with 13 protofilaments
+## answer_a
+microtubule
+## explanation_a
+Correct. Thirteen parallel protofilaments make the wall, and because the number never changes the 24 nm diameter never changes either.
+## answer_b
+intermediate filaments
+## explanation_b
+Intermediate filaments have no protofilaments and no fixed diameter of that kind; they are 8–10 nm and built from tetramers.
+## answer_c
+microfilaments
+## explanation_c
+Microfilaments are two coiled chains of actin, 5–7 nm, with no wall and no lumen.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option, so "none of the above" cannot stand.
+## correct_answer
+A
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the microtubule from its wall structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q11. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-25CB7B2C8927
+## title
+form the cytoskeleton of the cells
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+form the cytoskeleton of the cells
+## answer_a
+microtubules
+## explanation_a
+True, but not the whole answer. Microtubules are the largest of the three.
+## answer_b
+microfilaments
+## explanation_b
+True, but not the whole answer. Microfilaments are the smallest.
+## answer_c
+intermediate filaments
+## explanation_c
+True, but not the whole answer. Intermediate filaments lie between them in size and are the supportive element.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three, joined by linking proteins into the microtrabecular lattice.
+## correct_answer
+D
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three elements of the cytoskeleton.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q86. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Microtubules, microfilaments and intermediate filaments are the three elements the department book gives, so no single one of them is the answer and D is.
+
+
+---
+
+# Item
+## id
+QM-101-F54066526F2F
+## title
+Formation and degradation of hydrogen peroxide into water is the function of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Formation and degradation of hydrogen peroxide into water is the function of:
+## answer_a
+Ribosomes
+## explanation_a
+Ribosomes assemble protein and hold no enzymes of their own.
+## answer_b
+Lysosomes
+## explanation_b
+Lysosomes hydrolyse. They neither make nor destroy hydrogen peroxide, and swapping them for peroxisomes is the standing trap in this leaf.
+## answer_c
+Peroxisomes
+## explanation_c
+Correct. The oxidases generate hydrogen peroxide as a by-product and the catalase splits it into water and oxygen — the organelle is named for the compound it handles at both ends.
+## answer_d
+Ptoteasomes
+## explanation_d
+Proteasomes degrade protein and have nothing to do with peroxide.
+## correct_answer
+C
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that one organelle both makes and destroys hydrogen peroxide.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q35. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2433BDCB24F7
+## title
+free ribosomes are responsible for the synthesis of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+free ribosomes are responsible for the synthesis of:
+## answer_a
+lipids
+## explanation_a
+Lipids are made on smooth endoplasmic reticulum. No ribosome makes a lipid.
+## answer_b
+proteins used in cell growth
+## explanation_b
+Correct. Free ribosomes make the protein the cell keeps — the enzymes of its own metabolism and the protein of its own growth.
+## answer_c
+carbohydrates
+## explanation_c
+Carbohydrate is added to protein in the rough reticulum and the Golgi; ribosomes assemble amino acids only.
+## answer_d
+proteins secreted outside the cell
+## explanation_d
+Protein secreted outside the cell is made on attached ribosomes. This is the exact opposite answer, and the two questions are asked side by side with the same options.
+## correct_answer
+B
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the destination of protein made on free ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q20. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7FDA63FFB64B
+## title
+fusion of 1ry lysosome with autophagic vesicle:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fusion of 1ry lysosome with autophagic vesicle:
+## answer_a
+heterolysosome
+## explanation_a
+A heterolysosome comes from a phagosome — material from outside. Hetero- means other, and it is the opposite prefix to the one in the stem.
+## answer_b
+multivesicle bodies
+## explanation_b
+A multivesicular body comes from a pinocytic vesicle, and the many small vesicles it keeps inside are what name it.
+## answer_c
+autolysosome
+## explanation_c
+Correct. Autophagic vesicle plus primary lysosome gives the autolysosome — the cell digesting its own worn-out organelles.
+## answer_d
+residual bodies
+## explanation_d
+A residual body is what is left when digestion is finished, whichever of the three routes was taken.
+## correct_answer
+C
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the secondary lysosome formed with an autophagic vesicle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q9. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E2BC606D597A
+## title
+fusion of 1ry lysosome with phagocytic cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fusion of 1ry lysosome with phagocytic cell:
+## answer_a
+heterolysosome
+## explanation_a
+Correct. Phagocytosed material — a phagosome — plus a primary lysosome gives the heterolysosome, which digests solid particles taken from outside.
+## answer_b
+multivesicle bodies
+## explanation_b
+A multivesicular body is the pinocytic route, and digests fluid.
+## answer_c
+autolysosome
+## explanation_c
+An autolysosome digests the cell's own organelles.
+## answer_d
+residual bodies
+## explanation_d
+A residual body is the end state of any of the three.
+## correct_answer
+A
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the secondary lysosome formed with a phagosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p8 q7. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7D7A2F1540C8
+## title
+fusion of 1ry lysosome with pinocytic vesicle:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fusion of 1ry lysosome with pinocytic vesicle:
+## answer_a
+heterolysosome
+## explanation_a
+A heterolysosome is the phagosome route — solids rather than fluid.
+## answer_b
+multivesicle bodies
+## explanation_b
+Correct. Pinocytic vesicle plus primary lysosome gives the multivesicular body, digesting the fluid and dissolved material the cell drank.
+## answer_c
+autolysosome
+## explanation_c
+An autolysosome is the cell's own organelles.
+## answer_d
+residual bodies
+## explanation_d
+A residual body is the residue left at the end, not a fusion product in its own right.
+## correct_answer
+B
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the secondary lysosome formed with a pinocytic vesicle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p8 q8. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C70D8B5C275C
+## title
+Glial filaments are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glial filaments are:
+## answer_a
+Microfilaments
+## explanation_a
+Microfilaments are actin in every cell alike and have no tissue-specific forms.
+## answer_b
+Intermediate filaments
+## explanation_b
+Correct. GFAP is the intermediate filament of glial cells, and its tissue specificity is what makes it useful in identifying a glial tumour.
+## answer_c
+Thick filaments
+## explanation_c
+Thick filaments are myosin of muscle and are not cytoskeletal.
+## answer_d
+Microtubules
+## explanation_d
+Microtubules are tubulin. This is the option the book keys, and it would make a tissue-specific protein out of one that is the same everywhere.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Classify glial fibrillary acidic protein among the cytoskeletal elements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p16 q57. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys D, microtubules. Glial fibrillary acidic protein is on the department book's own list of the six intermediate filament proteins, alongside cytokeratin, vimentin, desmin, neurofilaments and the lamins. The same books key the vimentin row correctly as intermediate filaments, which makes this key a slip.
+
+
+---
+
+# Item
+## id
+QM-101-1583BEA8C62D
+## title
+Golgi complex is composed of all of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi complex is composed of all of the following EXCEPT:
+## answer_a
+saccules
+## explanation_a
+True, so not the exception. The stack of flat curved saccules is the Golgi itself.
+## answer_b
+Transfer vesicles
+## explanation_b
+True, so not the exception. Transfer vesicles arriving at the cis face are counted as part of the complex, even though they come from the rough reticulum.
+## answer_c
+pinocytotic vesicles
+## explanation_c
+The exception, and the answer. A pinocytic vesicle is formed at the plasma membrane and travels inwards to a lysosome. It never belongs to the Golgi, and it is the only vesicle in the list that is not part of the secretory route.
+## answer_d
+secretory vesicles
+## explanation_d
+True, so not the exception. Secretory vesicles leaving the trans face are the Golgi's own product.
+## correct_answer
+C
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the pinocytic vesicle as no part of the Golgi.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p4 q30. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-60CEE4E47F3D
+## title
+Golgi have the following functions EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi have the following functions EXCEPT:
+## answer_a
+Synthesis of polypeptide chains
+## explanation_a
+The exception, and the answer. Polypeptide chains are assembled on ribosomes. The Golgi receives protein already made and never builds a peptide bond.
+## answer_b
+Packing of proteins
+## explanation_b
+True, so not the exception. Packing is the first word in every account of what the Golgi does. This is the option the book keys, and taking it would deny the organelle its own definition.
+## answer_c
+Condensation of proteins
+## explanation_c
+True, so not the exception. The secretory product is concentrated as it passes through the stack.
+## answer_d
+Modification of proteins
+## explanation_d
+True, so not the exception. Chemical modification — adding carbohydrate to make glycoprotein — happens there.
+## correct_answer
+A
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the Golgi handles polypeptide but does not assemble it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q37. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, packing of proteins, which is the Golgi's defining function and cannot be the exception. Synthesis of polypeptide chains — option A — is done on ribosomes, and it is the only false statement in the set.
+
+
+---
+
+# Item
+## id
+QM-101-A51D4013DCED
+## title
+golgi in plasma cell give …………. with H, E
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+golgi in plasma cell give …………. with H, E
+## answer_a
+brown color
+## explanation_a
+Brown is what silver gives, not H&E. The two stains give opposite pictures of the same organelle, and this option has the right colour with the wrong technique.
+## answer_b
+red color
+## explanation_b
+Red would mean the Golgi took eosin. It takes neither dye, which is the whole point.
+## answer_c
+negative golgi image
+## explanation_c
+Correct. A pale unstained area beside the nucleus, interrupting the plasma cell's deep basophilia — the negative Golgi image.
+## answer_d
+green color
+## explanation_d
+No histological stain in this syllabus gives green except Janus green, which is a vital stain for mitochondria.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Recognise the negative Golgi image in the plasma cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E5E2978D5A21
+## title
+Golgi is apical in position in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi is apical in position in
+## answer_a
+liver cells
+## explanation_a
+The liver cell secretes bile in one direction and plasma proteins in another, and its Golgi is not described as apical.
+## answer_b
+Steroid secreting cells
+## explanation_b
+A steroid-secreting cell releases its product by diffusion through the whole surface, so it has no apical face to point a Golgi at — and it needs little Golgi at all.
+## answer_c
+secretory cells
+## explanation_c
+Correct. A secretory cell discharging into a lumen keeps its Golgi above the nucleus, on the route between the rough reticulum below and the surface above.
+## answer_d
+nerve cells
+## explanation_d
+The nerve cell is the book's counter-example: its Golgi is perinuclear, surrounding the nucleus rather than sitting above it.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Predict Golgi position from the direction a cell secretes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q68. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the Golgi as apical in secretory cells and perinuclear in nerve cells; only C names a cell that discharges at a free surface.
+
+
+---
+
+# Item
+## id
+QM-101-A7D86B23DF9D
+## title
+Heterolysosome is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Heterolysosome is formed of:
+## answer_a
+Primary lysosome + pinocytic vesicle
+## explanation_a
+A pinocytic vesicle gives the multivesicular body.
+## answer_b
+Primary lysosome + phagosome
+## explanation_b
+Correct. Hetero- means other: material from outside the cell, engulfed as a phagosome.
+## answer_c
+Primary lysosome + autophagic vesicle
+## explanation_c
+An autophagic vesicle gives the autolysosome — the cell's own material, the opposite prefix.
+## answer_d
+Primary lysosome + Residual body
+## explanation_d
+A residual body is the end of digestion rather than its beginning.
+## correct_answer
+B
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match the heterolysosome to the substrate it fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p9 q50. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-38A9DD84D056
+## title
+Histiocytes have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Histiocytes have:
+## answer_a
+Darkly basophilic cytoplasm
+## explanation_a
+Deep basophilia means abundant rough endoplasmic reticulum, which is the plasma cell. A macrophage is faintly basophilic at most.
+## answer_b
+Euchromatic nucleus
+## explanation_b
+The macrophage nucleus is indented and relatively dark, not the pale vesicular nucleus of a protein-exporting cell.
+## answer_c
+Pseudopodia
+## explanation_c
+Correct. Pseudopodia — an irregular surface throwing out processes — are how the cell engulfs, and they are what identify it on electron microscopy.
+## answer_d
+Few lysosomes
+## explanation_d
+Few lysosomes is the opposite of the truth. The macrophage has more than almost any other cell.
+## correct_answer
+C
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the macrophage by its surface and its lysosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p2 q10. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The histiocyte is the tissue macrophage: it has pseudopodia, many lysosomes, a pale nucleus is not its distinguishing feature, and its cytoplasm is not deeply basophilic. Only C stands, and the identical row `histocytes-macrophages-have-8d579144` is keyed C in the same books.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C79864E4F0C0
+## title
+Histocytes (Macrophages) have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Histocytes (Macrophages) have:
+## answer_a
+darkly basophilic cytoplasm
+## explanation_a
+Deeply basophilic cytoplasm is the plasma cell, packed with rough endoplasmic reticulum.
+## answer_b
+euchromatic nucleus
+## explanation_b
+A euchromatic, pale nucleus goes with heavy protein synthesis. The macrophage's nucleus is indented and darker.
+## answer_c
+pseudopodia
+## explanation_c
+Correct. Pseudopodia, the processes it engulfs with — the feature that identifies it and the one it could not do its work without.
+## answer_d
+few lysosomes
+## explanation_d
+Few lysosomes contradicts what a phagocyte is for.
+## correct_answer
+C
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the macrophage by its surface and its lysosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q112. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C0BD682A1CD7
+## title
+Homogenous electron dense membrane limited granules are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Homogenous electron dense membrane limited granules are:
+## answer_a
+primary lysosomes
+## explanation_a
+Correct. Homogeneous and uniformly electron dense, bounded by a membrane, is a primary lysosome: it has not yet fused with anything, so there is nothing in it but enzyme.
+## answer_b
+secondary lysosomes
+## explanation_b
+A secondary lysosome is heterogeneous, because it holds whatever it fused with at various stages of digestion. Homogeneous against heterogeneous is the whole distinction.
+## answer_c
+Free ribosomes
+## explanation_c
+Free ribosomes are electron dense but far smaller and are not membrane-limited.
+## answer_d
+attached ribosomes
+## explanation_d
+Attached ribosomes are likewise not membrane-limited — they sit on a membrane rather than inside one.
+## correct_answer
+A
+## main_concept
+CON-FND-42CCE864C55A08
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify a primary lysosome by its uniform density.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q36. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DB7F9D71958B
+## title
+Hydrolytic enzymes are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Hydrolytic enzymes are present in:
+## answer_a
+Mitochondria
+## explanation_a
+Mitochondria hold oxidative enzymes for energy production, not hydrolases.
+## answer_b
+peroxisomes
+## explanation_b
+Peroxisomes hold oxidases and catalase. They are the other single-membrane enzyme bag and the standing distractor here.
+## answer_c
+Lysosomes
+## explanation_c
+Correct. Hydrolytic enzymes for intracytoplasmic digestion are what a lysosome is.
+## answer_d
+sER
+## explanation_d
+Smooth endoplasmic reticulum carries the detoxifying and lipid-synthesising enzymes.
+## correct_answer
+D
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute hydrolytic enzymes to the lysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p21 q5. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FD31564F56AE
+## title
+In merocrine gland, the secretory materials go out of the cells by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In merocrine gland, the secretory materials go out of the cells by:
+## answer_a
+endocytosis
+## explanation_a
+Endocytosis brings material in. A gland cell secreting is doing the opposite.
+## answer_b
+rupture of the whole cell
+## explanation_b
+Rupture of the whole cell is holocrine secretion — the sebaceous gland. Naming the three modes of secretion by what survives the process is the point of the question.
+## answer_c
+exocytosis
+## explanation_c
+Correct. Merocrine secretion is exocytosis: the vesicle fuses with the membrane and discharges, and the cell loses neither cytoplasm nor its life.
+## answer_d
+pinocytosis
+## explanation_d
+Pinocytosis takes fluid in, again the wrong direction.
+## correct_answer
+C
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Epithelium
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Connect merocrine secretion to exocytosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q9. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-373B7B1B1A9F
+## title
+in nerve cell, golgi is present:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in nerve cell, golgi is present:
+## answer_a
+Apical
+## explanation_a
+Apical is the secretory cell, which has a free surface to discharge at. A nerve cell has none.
+## answer_b
+perinuclear
+## explanation_b
+Correct. Perinuclear — around the nucleus — because the neuron distributes its product along processes running in every direction.
+## answer_c
+basal
+## explanation_c
+Basal would put the Golgi below the nucleus, on the wrong side of the secretory route in any cell.
+## answer_d
+central
+## explanation_d
+Central is not a term the book uses for Golgi position; the two positions it gives are apical and perinuclear.
+## correct_answer
+B
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the Golgi's position in the nerve cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C28C5EBC27A1
+## title
+in secretory cell, golgi is present:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in secretory cell, golgi is present:
+## answer_a
+Apical
+## explanation_a
+Correct. Apical, above the nucleus, on the route between the rough reticulum in the base of the cell and the free surface it discharges at.
+## answer_b
+perinuclear
+## explanation_b
+Perinuclear is the nerve cell — the paired question, with the same four options and the other answer.
+## answer_c
+basal
+## explanation_c
+Basal is where the rough endoplasmic reticulum and the nucleus are, not the Golgi.
+## answer_d
+central
+## explanation_d
+Central is not one of the positions the book gives.
+## correct_answer
+A
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the Golgi's position in a secretory cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q11. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CEF431799A69
+## title
+In the white adipose tissue, the adipocytes have the following characters EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In the white adipose tissue, the adipocytes have the following characters EXCEPT:
+## answer_a
+Are unilocular
+## explanation_a
+True, so not the exception. White adipose tissue is unilocular by definition.
+## answer_b
+Contain small multiple lipid droplets
+## explanation_b
+The exception, and the answer. Small multiple droplets are the multilocular brown cell. "Unilocular" in option A and "multiple droplets" here contradict each other outright, which is what makes the exception findable even without the rest.
+## answer_c
+Have abundant sER
+## explanation_c
+True, so not the exception. Abundant smooth endoplasmic reticulum goes with handling lipid.
+## answer_d
+Have Few filamentous mitochondria
+## explanation_d
+True, so not the exception. Few filamentous mitochondria — the opposite of the brown cell, whose crowd of mitochondria is what colours it.
+## correct_answer
+B
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the white adipocyte from the brown by droplet number.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q62. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-28F147658A15
+## title
+inactive enzyme, homogenous, newly released from golgi:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+inactive enzyme, homogenous, newly released from golgi:
+## answer_a
+ribosome
+## explanation_a
+A ribosome is not enzyme-filled, has no membrane and does not come from the Golgi.
+## answer_b
+primary lysosome
+## explanation_b
+Correct. Newly budded from the Golgi, homogeneous, and holding hydrolases that have not yet acted — a primary lysosome.
+## answer_c
+secondary lysosome
+## explanation_c
+A secondary lysosome has already fused with a substrate, so it is heterogeneous and its enzymes are working.
+## answer_d
+autolysosome
+## explanation_d
+An autolysosome is one kind of secondary lysosome and is likewise no longer inactive.
+## correct_answer
+B
+## main_concept
+CON-FND-42CCE864C55A08
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the primary lysosome from its origin and its uniformity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p8 q6. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-638D56C7D642
+## title
+inclusion not essential except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+inclusion not essential except:
+## answer_a
+melanin
+## explanation_a
+Melanin protects the skin from ultraviolet light, but a cell survives perfectly well without it.
+## answer_b
+lipofuscin
+## explanation_b
+Lipofuscin is waste — undigested residue accumulating with age. It is the least essential thing in the cell.
+## answer_c
+Hb
+## explanation_c
+The exception, and the answer. Haemoglobin is an inclusion by the book's classification, but it is the entire purpose of the red cell, which has discarded everything else to carry more of it. "Usually not essential" is how the book words the rule, and this is the exception the wording leaves room for.
+## answer_d
+carotene
+## explanation_d
+Carotene is an exogenous pigment taken in with food, and nothing depends on it.
+## correct_answer
+C
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise haemoglobin as the inclusion the cell cannot do without.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q4. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A6CBEA92F30C
+## title
+initial glycosylation is a function off
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+initial glycosylation is a function off
+## answer_a
+sER
+## explanation_a
+Smooth endoplasmic reticulum handles lipid and steroid and detoxification, not sugar on protein.
+## answer_b
+lysosomes
+## explanation_b
+Lysosomes break glycoprotein down; they add nothing.
+## answer_c
+Golgi apparatus
+## explanation_c
+The Golgi does glycosylate — but it does the later, further modification. The word "initial" is what points at the earlier organelle, and this is the option that catches a student who reads past it.
+## answer_d
+rER
+## explanation_d
+Correct. The rough endoplasmic reticulum performs the initial glycosylation, as part of what it does to a protein before the transfer vesicle leaves.
+## correct_answer
+D
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place initial glycosylation in the rough reticulum rather than the Golgi.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p11 q61. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5C11F48794D6
+## title
+inner membrane of mitochondria:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+inner membrane of mitochondria:
+## answer_a
+attached to enzymes by stalk
+## explanation_a
+True, but not the whole answer. The elementary particles are attached to it by stalks.
+## answer_b
+cristae.shaped
+## explanation_b
+True, but not the whole answer. It is thrown into the folds called cristae.
+## answer_c
+high surface area
+## explanation_c
+True, but not the whole answer. Those folds are what give it its high surface area.
+## answer_d
+all the above
+## explanation_d
+Correct. The three are one fact seen three ways: the membrane folds, folding gives area, and the area carries the particles that make the ATP.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the inner mitochondrial membrane completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q6. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7BB245976A46
+## title
+Intense basophilic cytoplasm in the plasma cell is referred to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Intense basophilic cytoplasm in the plasma cell is referred to:
+## answer_a
+Well developed RER and abundance ribosomes
+## explanation_a
+Correct. The plasma cell exports antibody, so it is filled with rough endoplasmic reticulum and ribosomes, and the RNA of those ribosomes is what binds the basic dye.
+## answer_b
+Few mitochondaria
+## explanation_b
+Few mitochondria would explain nothing about staining, and mitochondria are acidophilic in any case.
+## answer_c
+Secretory granules
+## explanation_c
+Secretory granules would show as discrete bodies. The plasma cell's basophilia is diffuse through the whole cytoplasm.
+## answer_d
+Centerioles
+## explanation_d
+Centrioles are two tiny structures beside the nucleus, far too small to colour a cell.
+## correct_answer
+A
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Explain the plasma cell's basophilia from its organelle content.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q33. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B40276ACCEED
+## title
+invagination of CM to surround particles without need of other proteins:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+invagination of CM to surround particles without need of other proteins:
+## answer_a
+pinocytosis
+## explanation_a
+Correct. Pinocytosis is a plain invagination of the membrane closing round extracellular fluid — no clathrin, no receptor, no pseudopodium.
+## answer_b
+exocytosis
+## explanation_b
+Exocytosis moves material out, and this stem describes an invagination inwards.
+## answer_c
+phagocytosis
+## explanation_c
+Phagocytosis works by pseudopodia extending outwards around the particle, not by the membrane sinking inwards.
+## answer_d
+receptors-mediated
+## explanation_d
+Receptor-mediated endocytosis is the one route that certainly does need other proteins — the receptors and the clathrin coat. It is the option the phrase "without need of other proteins" is written to exclude.
+## correct_answer
+A
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Distinguish the endocytic route that needs no accessory protein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p3 q21. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CF642E54C5D2
+## title
+ion transporting cells need large surface area , so they are characteized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+ion transporting cells need large surface area , so they are characteized by:
+## answer_a
+numerous mitochondria
+## explanation_a
+True, but not the whole answer. Numerous mitochondria arranged vertically between the infoldings supply the ATP that active transport costs.
+## answer_b
+numerous lateral interdegitations
+## explanation_b
+Lateral interdigitations increase contact between neighbouring cells rather than with the basal surface where transport happens.
+## answer_c
+numerous basal infoldings
+## explanation_c
+True, but not the whole answer. Basal infoldings are the invaginations that provide the surface area itself.
+## answer_d
+Both a & c
+## explanation_d
+Correct. Surface and power together: infoldings to move the ions across and mitochondria packed between them to pay for it, which is why the two are always seen in the same cell.
+## correct_answer
+D
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Epithelium
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect basal infoldings to the mitochondria that power them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q124. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-78F955A2D2C7
+## title
+Kreb's cycle occurs in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Kreb's cycle occurs in:
+## answer_a
+Mitochondrial matrix
+## explanation_a
+Correct. The Krebs cycle enzymes are soluble, in the matrix — the department book lists them among the matrix contents alongside the mitochondrial DNA and the calcium granules.
+## answer_b
+Mitochondrial inner membrane
+## explanation_b
+The inner membrane carries oxidative phosphorylation, the *next* stage. This is the option the book keys, and the two stages are the two halves of the same question set in almost every mitochondrial row in this leaf.
+## answer_c
+Lysosomes
+## explanation_c
+Lysosomes hydrolyse and have no part in respiration.
+## answer_d
+Peroxisomes
+## explanation_d
+Peroxisomes oxidise fatty acids and destroy hydrogen peroxide, which is a different oxidation entirely and produces heat rather than ATP.
+## correct_answer
+A
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the citric acid cycle in the mitochondrial matrix.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q12. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, the inner membrane, which carries the respiratory chain and ATP synthase. The department book puts the oxidative enzymes of the citric acid cycle in the matrix, and the same books key `the-mitochondrial-matrix-contains-all-the-following-except-304ffff7` with Krebs cycle enzymes as a true matrix content. Overridden to A.
+
+
+---
+
+# Item
+## id
+QM-101-C92BD8CE591C
+## title
+Lipofusin pigments:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lipofusin pigments:
+## answer_a
+Are the digested material in the secondary lysosome in long lived cells
+## explanation_a
+Digested material is absorbed and used. What stays behind and colours the cell is precisely what could not be digested.
+## answer_b
+Are the undigested material in the secondary lysosome in long lived cells
+## explanation_b
+Correct. Undigested residue held in the secondary lysosome — the residual body — which in cells that never divide accumulates year on year and becomes the age pigment.
+## answer_c
+Are the undigested material in multivesicular bodies in long lived cells
+## explanation_c
+The multivesicular body is one route in; the residue ends up in a residual body whichever route it came by, so naming one of the three is too narrow.
+## answer_d
+None of the above
+## explanation_d
+This is the option the book keys, and B is true, so it cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Define lipofuscin as undigested residue in a long-lived cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q41. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys D, none of the above, but B is exactly how the department book describes lipofuscin: undigested material retained in the secondary lysosome — the residual body — accumulating over years in long-lived cells such as cardiac muscle and nerve cells. The same books key the parallel row `residual-bodies-c4d7b4d2` as B on the same wording, which is what makes D untenable here.
+
+
+---
+
+# Item
+## id
+QM-101-AAD4095F93F8
+## title
+lysosome is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+lysosome is present in:
+## answer_a
+macrophage
+## explanation_a
+True, but not the whole answer. The macrophage is the type example.
+## answer_b
+neutrophil
+## explanation_b
+True, but not the whole answer. The neutrophil's azurophil granules are primary lysosomes.
+## answer_c
+phagocytic cell
+## explanation_c
+True, but not the whole answer, and it is the category the other two belong to.
+## answer_d
+all the above
+## explanation_d
+Correct. All of them, because all three are phagocytes — and A and B are simply two named members of the class C describes.
+## correct_answer
+D
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cells that are rich in lysosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p8 q3. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3E1472B794CF
+## title
+Lysosomes under the LM:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lysosomes under the LM:
+## answer_a
+Can be seen in their normal histology
+## explanation_a
+They cannot be seen in a routine preparation. Being invisible without histochemistry is one of the facts the books ask about them most.
+## answer_b
+Need H&E to be seen
+## explanation_b
+H&E shows neither the organelle nor its contents; the enzymes are colourless and the vesicles too small.
+## answer_c
+Need acid phosphatase to be seen
+## explanation_c
+Correct. The acid phosphatase reaction — a histochemical demonstration of the marker enzyme, which is what confirms a dense body is a lysosome at all.
+## answer_d
+Need best’s carmine to be seen
+## explanation_d
+Best's carmine stains glycogen red. It is a stain for an inclusion, not for an organelle.
+## correct_answer
+C
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Name the reaction that demonstrates a lysosome by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q91. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that lysosomes require histochemical stains, and the acid phosphatase reaction is the one that identifies them. They are not seen in routine histology or in H&E, and Best's carmine is a glycogen stain.
+
+
+---
+
+# Item
+## id
+QM-101-7B8A358BC023
+## title
+Mature erythrocyte
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mature erythrocyte
+## answer_a
+Lacking nuclei
+## explanation_a
+Correct. The mature erythrocyte has no nucleus — the department book goes further and says it is not a true cell — because everything that is not haemoglobin has been discarded to carry more of it.
+## answer_b
+Rich with mitochondria
+## explanation_b
+It has no mitochondria either. Having none is why it cannot use the oxygen it carries.
+## answer_c
+Rich with ribosomes
+## explanation_c
+Ribosomes are lost at the same stage; the reticulocyte still has a few, and its name comes from the network they form with supravital stain, but the mature cell has none.
+## answer_d
+Have a diameter less than 6 pm
+## explanation_d
+The diameter is about 7.5 µm, not under 6. The option prints "pm" where the page must have read µm, which is worth noting for whoever rescans it, though it does not affect the answer.
+## correct_answer
+A
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Blood
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall what the mature red cell has given up.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q60. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-57F25E32ED3A
+## title
+Membranous network that extends from nucleus to cell membrane is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Membranous network that extends from nucleus to cell membrane is:
+## answer_a
+cell membrane
+## explanation_a
+The cell membrane is the boundary the network runs to, not the network.
+## answer_b
+endoplasmic reticulum
+## explanation_b
+Correct. The endoplasmic reticulum is the department book's own definition: a membranous network extending from the nucleus to the cell membrane, enclosing intercommunicating channels and sacs.
+## answer_c
+golgi
+## explanation_c
+The Golgi is a localised stack beside the nucleus, not a network spanning the cell.
+## answer_d
+lysosome
+## explanation_d
+A lysosome is a single small vesicle.
+## correct_answer
+B
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the endoplasmic reticulum from its extent.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4C1588E4DAA8
+## title
+Microbodies are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microbodies are:
+## answer_a
+Peroxisomes
+## explanation_a
+Correct. Microbody is the peroxisome's other name, and the department book uses the two interchangeably.
+## answer_b
+Lysosomes
+## explanation_b
+Lysosomes are the other single-membrane enzyme vesicle and the standing confusion in this leaf, but they have never been called microbodies.
+## answer_c
+Ribosomes
+## explanation_c
+Ribosomes are non-membranous particles of rRNA and protein.
+## answer_d
+Centrosomes
+## explanation_d
+A centrosome is the pair of centrioles with its tubulin matrix — the microtubule organising centre, and nothing to do with either enzyme bag.
+## correct_answer
+A
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise "microbody" as another name for the peroxisome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q78. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book names the peroxisome "microbody" in its own heading, so A is the answer and the other three organelles have separate names of their own.
 
 
 ---
@@ -18621,6 +29330,9551 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q36. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1A4CC99891F0
+## title
+Taste bud is an example of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Taste bud is an example of
+## answer_a
+Myo-epithelium
+## explanation_a
+Myo-epithelium is modified to contract, around the acini of the salivary, mammary and sweat glands. A taste bud contracts nothing.
+## answer_b
+Surface epithelium
+## explanation_b
+Surface epithelium covers and lines. The bud is embedded in a surface epithelium, which is what makes this tempting, but it is not itself doing the covering.
+## answer_c
+Secretory epithelium
+## explanation_c
+Secretory — glandular — epithelium makes a product. The serous glands of the tongue empty into the trough around the bud, and they are the secretory part; the bud is not.
+## answer_d
+Neuro-epithelium
+## explanation_d
+Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the book's example of it.
+## correct_answer
+D
+## main_concept
+CON-FND-49350AB867CB5A
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Place the taste bud in the right one of the four classes of epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q46; Dpt Book MCQ histo 101 .NEW (1).pdf p13 q37; Epithelium | Module 101 questions.pdf.pdf p16 q46. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-47C94568365B
+## title
+The function of simple columnar epithelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The function of simple columnar epithelium is:
+## answer_a
+Secretion only
+## explanation_a
+True, but not the whole answer. The simple columnar cells of the stomach secrete.
+## answer_b
+Absorption only
+## explanation_b
+True, but not the whole answer. The simple columnar cells of the intestine absorb, which is what their microvilli are for.
+## answer_c
+Secretion and absorption
+## explanation_c
+Correct. The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.
+## answer_d
+Protection
+## explanation_d
+Protection is the function of stratified epithelium. One layer of tall cells protects nothing.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both functions of simple columnar epithelium rather than one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q16; Dpt Book MCQ histo 101 .NEW (1).pdf p11 q16; Epithelium | Module 101 questions.pdf.pdf p12 q16. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0DB1001EE489
+## title
+One of the following is correct concerning neuro-epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is correct concerning neuro-epithelium:
+## answer_a
+Is modified type of epithelium to contract
+## explanation_a
+Modified to contract is myo-epithelium. Each of the four classes has one modification and they cannot be swapped.
+## answer_b
+Can be keratinized
+## explanation_b
+Keratinisation belongs to stratified squamous surface epithelium of the skin. A receptor cell has no use for a dead protective layer over it.
+## answer_c
+Covers skin & forms glands
+## explanation_c
+Covering skin and forming glands describes surface and glandular epithelium — two of the other three classes in one option.
+## answer_d
+Is present in organ of Corti
+## explanation_d
+Correct as keyed. The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Note that the department book names only the taste bud; the organ of Corti comes from the question books.
+## correct_answer
+D
+## main_concept
+CON-FND-49350AB867CB5A
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the four classes of epithelium by what each is modified to do.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A1ECE44ED812
+## title
+One statement is true about simple squamous epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement is true about simple squamous epithelium:
+## answer_a
+Lines the convoluted tubules of kidney
+## explanation_a
+The convoluted tubules are simple cubical. Their job is reabsorption, which needs cytoplasm; the thin cell is used where filtration happens, in Bowman's capsule.
+## answer_b
+Lines the endothelium of blood vessels
+## explanation_b
+Correct. Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.
+## answer_c
+Formed of many layers of cells resting on basement membrane
+## explanation_c
+Many layers would make it stratified. Simple means one layer, all of it on the basement membrane.
+## answer_d
+Penetrated by blood vessels
+## explanation_d
+No epithelium is penetrated by blood vessels. Avascularity is a general character of the tissue, and it is why nutrition arrives by diffusion.
+## correct_answer
+B
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall the sites and the avascularity of simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-217B78D130E1
+## title
+One statement is true about stratified columnar epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement is true about stratified columnar epithelium:
+## answer_a
+May be keratinized or non-keratinized
+## explanation_a
+Keratinisation is confined to stratified squamous epithelium in the skin. A columnar surface cell is a living secretory or protective cell, not a dead keratinised plate.
+## answer_b
+The superficial cells are flat
+## explanation_b
+Flat superficial cells would make it stratified squamous. The whole point of the separate name is that the surface cells are not flat.
+## answer_c
+Basal cells are flat
+## explanation_c
+The basal cells are not what any stratified epithelium is classified on, and describing them as flat is doubly wrong — basal cells are columnar or cuboidal.
+## answer_d
+The surface cells are columnar in shape
+## explanation_d
+Correct. Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.
+## correct_answer
+D
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify a stratified epithelium by the shape of its superficial cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p4 q31; Epithelium | Module 101 questions.pdf.pdf p14 q31. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DE484229E5BF
+## title
+Simple squamous epithelium can be found in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple squamous epithelium can be found in:
+## answer_a
+Lung alveoli
+## explanation_a
+Correct. The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar, because absorption needs tall cells with microvilli.
+## answer_c
+Trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## answer_d
+Gall bladder
+## explanation_d
+The gall bladder is simple columnar, absorbing water from the bile it stores.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q5; Epithelium | Module 101 questions.pdf.pdf p10 q5. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-E2CE2F14472D
+## title
+Simple squamous epithelium is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple squamous epithelium is formed of:
+## answer_a
+One layer of cube-like cells with flat nuclei
+## explanation_a
+Cube-like cells are simple cubical, and their nuclei are rounded and central. The option pairs a cubical cell with a squamous nucleus, which does not occur.
+## answer_b
+One layer of flat cells with rounded nuclei
+## explanation_b
+A rounded nucleus does not fit inside a flat cell. The nucleus follows the shape of the cell it is in, which is the principle the question is testing.
+## answer_c
+One layer of flat cells with flat nuclei
+## explanation_c
+Correct. One layer of flat cells with flat nuclei.
+## answer_d
+Two layers of flat cells with flat nuclei
+## explanation_d
+Two layers would make it stratified, and no epithelium is called simple with two layers.
+## correct_answer
+C
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the cell shape and the nuclear shape of simple squamous epithelium together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q4; Epithelium | Module 101 questions.pdf.pdf p10 q4. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-45E6A1B0286C
+## title
+The stratified squamous epithelium is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The stratified squamous epithelium is characterized by:
+## answer_a
+Cells connected by desmosomes
+## explanation_a
+Correct. The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.
+## answer_b
+It is always keratinized
+## explanation_b
+It is keratinised only in the epidermis of the skin. Every other site on the list — oesophagus, oral cavity, cornea, vagina — is non-keratinised.
+## answer_c
+Found in trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated. Stratified squamous appears there only after metaplasia in a heavy smoker.
+## answer_d
+All its cells rest on the basement membrane
+## explanation_d
+All cells resting on the basement membrane is the definition of a simple epithelium, and it is what pseudostratified epithelium exploits. A stratified epithelium has cells that never touch it.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect the desmosome to the epithelium that takes friction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p11 q21; Epithelium | Module 101 questions.pdf.pdf p12 q21. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6388FFAE8150
+## title
+2- Mesothelium is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+2- Mesothelium is :
+## answer_a
+Simple squamous epithelium that lines serous cavities
+## explanation_a
+Correct. Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.
+## answer_b
+Simple squamous epithelium that lines the lumen of the
+## explanation_b
+The option describing a vessel lumen names endothelium, which is the same epithelium under the other regional name. Distinguishing the two is what the question exists for.
+## answer_c
+Found in kidney tubules
+## explanation_c
+The kidney tubules are simple cubical, and neither name applies to them.
+## answer_d
+B and C can be correct
+## explanation_d
+A hedge that cannot be right, since options B and C are wrong on their own terms.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define mesothelium by its epithelium and its site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q39. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-01D50368B186
+## title
+A type of epithelium with limited distribution in the body is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A type of epithelium with limited distribution in the body is
+## answer_a
+Stratified cubical epithelium
+## explanation_a
+Correct. The book calls stratified cubical epithelium rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.
+## answer_b
+Simple columnar epithelium
+## explanation_b
+Simple columnar epithelium lines most of the gastrointestinal tract, which is as widely distributed as an epithelium gets.
+## answer_c
+Transitional epithelium
+## explanation_c
+Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and the book does not call it rare.
+## answer_d
+Simple squamous epithelium
+## explanation_d
+Simple squamous epithelium is everywhere: every blood vessel, every serous sac, every alveolus.
+## correct_answer
+A
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise stratified cubical epithelium as the rare one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q23. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7F8715A94B92
+## title
+All the statements concerning the transitional epithelium is true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the statements concerning the transitional epithelium is true EXCEPT:
+## answer_a
+Exclusively in the urinary system
+## explanation_a
+True, so not the exception. Transitional epithelium is found in the urinary system and nowhere else.
+## answer_b
+Superficial cells occasionally bicnucleated
+## explanation_b
+True, so not the exception. The large superficial dome cells are sometimes binucleated.
+## answer_c
+Basal layer is squamous cells
+## explanation_c
+The exception, and the answer. The basal cells are cuboidal with central rounded nuclei. Squamous basal cells occur in no epithelium at all — a basal cell is always cuboidal or columnar, because it is the youngest cell and has not yet been flattened.
+## answer_d
+The number of cell layers is changeable
+## explanation_d
+True, so not the exception. The layer count changes with filling, from 6–8 to 3–4, and that is what "transitional" names.
+## correct_answer
+C
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall the shape of the basal cells of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q36. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9B3033E9F34F
+## title
+all, thin epithelial cells that have the appearance of two or more layers, but with all…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all, thin epithelial cells that have the appearance of two or more layers, but with all cells touching the basement membrane is
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer of flat cells and has no appearance of layering at all.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is a single row of cubes with nuclei at one level — again no illusion of layers.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium has its nuclei at one level near the base. Crowd it and it becomes the pseudostratified form, which is what the stem describes.
+## answer_d
+pseudostratified columnar epithelium
+## explanation_d
+Correct. Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium that looks layered while every cell touches the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q43. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F5A105668480
+## title
+called uro-epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+called uro-epithelium:
+## answer_a
+transitional
+## explanation_a
+Correct. Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and then it is a disease finding rather than the normal lining.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium lines sweat gland ducts.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is found at the recto-anal junction, in large gland ducts and in the penile urethra — the penile urethra being the one part of the urinary tract that is not urothelium.
+## correct_answer
+A
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Match the name urothelium to transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q24. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-23467B1DCA9E
+## title
+Concerning Nuclei of Transitional epithelium, all are true Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning Nuclei of Transitional epithelium, all are true Except:
+## answer_a
+central rounded
+## explanation_a
+True, so not the exception. The basal cuboidal cells have central rounded nuclei.
+## answer_b
+basal & oval
+## explanation_b
+The exception, and the answer. A basal oval nucleus belongs to a columnar cell, and there is no columnar cell in transitional epithelium — the basal cells are cuboidal. This is the simple columnar answer given to the wrong epithelium.
+## answer_c
+flat
+## explanation_c
+True, so not the exception. In the full bladder the superficial cells flatten and their nuclei flatten with them.
+## answer_d
+May be binucleated
+## explanation_d
+True, so not the exception. The large superficial dome cells may be binucleated, which is one of the recognition features of this epithelium.
+## correct_answer
+B
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recall the nuclear shapes at each level of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q30. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F07347055640
+## title
+dome-shaped cell with upper convex is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+dome-shaped cell with upper convex is present in:
+## answer_a
+transitional
+## explanation_a
+Correct. The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium has flat superficial cells — the opposite shape, and the name says so.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium has cube-shaped surface cells, flat-topped rather than domed.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium has tall surface cells with flat tops.
+## correct_answer
+A
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the dome-shaped superficial cell to transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q25. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1BF82C6CD9E7
+## title
+Ducts of sweat glands are lined by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Ducts of sweat glands are lined by:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange and smooth movement, neither of which a duct through the dermis needs.
+## answer_b
+Stratified cubical epithelium
+## explanation_b
+Correct. The sweat gland duct is the book's single example of stratified cubical epithelium, usually two layers thick.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium lines the gut, not a sweat duct.
+## answer_d
+Simple cubical epithelium
+## explanation_d
+Simple cubical epithelium lines the secretory part of many glands, which makes this a near miss — but the duct is two layers, and two layers make it stratified.
+## correct_answer
+B
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the sweat gland duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q26. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-20CBF3DF5A16
+## title
+Each of the following statements concerning the transitional epithelium is true, EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Each of the following statements concerning the transitional epithelium is true, EXCEPT:
+## answer_a
+is keratinized
+## explanation_a
+The exception, and the answer. Keratin is a dry protective plate, and it would be useless in an organ permanently bathed in urine; the barrier here is the rigid plaque on the dome cell instead.
+## answer_b
+consists of the basal, intermediate, and superficial layers
+## explanation_b
+True, so not the exception. Basal cuboidal, intermediate polyhedral, superficial dome-shaped.
+## answer_c
+changes the number of its layers, depending on the degree of
+## explanation_c
+True, so not the exception. The layer count changes with the degree of distension, from 6–8 layers empty to 3–4 full.
+## answer_d
+its superficial cells are dome shaped
+## explanation_d
+True, so not the exception. Dome-shaped superficial cells are its signature.
+## correct_answer
+A
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that transitional epithelium is never keratinised.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q60. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-81A78C372684
+## title
+Endothelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Endothelium is:
+## answer_a
+simple squamous epithelium in blood vessels
+## explanation_a
+Correct. Endothelium is simple squamous epithelium lining the blood vessels and the heart.
+## answer_b
+simple squamous epithelium in serous membranes
+## explanation_b
+Right epithelium, wrong site — the serous membranes are lined by the same epithelium under the name mesothelium.
+## answer_c
+simple cuboidal epithelium in blood vessels
+## explanation_c
+Wrong epithelium, right site. A cuboidal lining would make the vessel wall thicker than exchange allows.
+## answer_d
+simple cuboidal epithelium in serous membranes
+## explanation_d
+Wrong on both counts, and it is chosen when the two names and the two cell shapes are being guessed at independently.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Pair the name endothelium with the right epithelium and the right site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q109. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5F4069CE788B
+## title
+Epithelial cells that can stretch from a cuboidal or columnar shape to a squamous shape…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Epithelial cells that can stretch from a cuboidal or columnar shape to a squamous shape are called
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous cells are already flat and cannot become anything else.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal cells keep their shape; nothing distends a thyroid follicle or a kidney tubule enough to change them.
+## answer_c
+pseudostratified columnar epithelium
+## explanation_c
+Pseudostratified columnar epithelium looks as if it changes level, but its cells do not change shape.
+## answer_d
+transitional epithelium
+## explanation_d
+Correct. Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium whose cells change shape with distension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q44. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6F84F63DF766
+## title
+esophagus is lined with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+esophagus is lined with:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer thin enough for exchange. A bolus passing over it would strip it off.
+## answer_b
+stratified cuboidal epithelium
+## explanation_b
+Stratified cuboidal epithelium is the sweat gland duct, two layers, and offers nothing against abrasion.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+The trap. The oesophagus is stratified squamous, but non-keratinised: keratin belongs to the dry surface of the skin, and the oesophagus is moist.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.
+## correct_answer
+D
+## main_concept
+CON-FND-89FBF21510F273
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the oesophageal epithelium and say whether it is keratinised.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q23. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A16D532D38E3
+## title
+example of pseudostratified columnar ciliated with motile cilia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+example of pseudostratified columnar ciliated with motile cilia:
+## answer_a
+upper respiratory
+## explanation_a
+Correct. The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract narrows to bronchioles lined by simple columnar ciliated epithelium, and finally alveoli lined by simple squamous. Pseudostratification is lost as the airway gets smaller.
+## answer_c
+vas deferens
+## explanation_c
+The vas deferens carries the non-ciliated form of the same epithelium.
+## answer_d
+epididymis
+## explanation_d
+The epididymis carries the form with stereocilia, which are long microvilli rather than true cilia and do not move.
+## correct_answer
+A
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Match the motile-ciliated form of pseudostratified epithelium to its site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q17. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4099F6969720
+## title
+example of pseudostratified columnar ciliated with non-motile cilia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+example of pseudostratified columnar ciliated with non-motile cilia:
+## answer_a
+upper respiratory
+## explanation_a
+The upper respiratory tract has motile cilia; sweeping mucus is exactly what it is for.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract is not pseudostratified at all.
+## answer_c
+vas deferens
+## explanation_c
+The vas deferens has the non-ciliated form — no processes of either kind.
+## answer_d
+epididymis
+## explanation_d
+Correct. The epididymis carries stereocilia, which the book classes under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Match the stereociliated form of pseudostratified epithelium to its site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q18. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7697B8C5DF7C
+## title
+example of pseudostratified columnar non ciliated:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+example of pseudostratified columnar non ciliated:
+## answer_a
+upper respiratory
+## explanation_a
+The upper respiratory tract is the ciliated form with goblet cells.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract is simple columnar ciliated and then simple squamous.
+## answer_c
+vas deferens
+## explanation_c
+Correct. The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.
+## answer_d
+epididymis
+## explanation_d
+The epididymis carries stereocilia, which is the third form; the epididymis and the vas deferens are neighbours in the same duct system and are the pair this question exists to separate.
+## correct_answer
+C
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Match the non-ciliated form of pseudostratified epithelium to its site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q16. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-63E259025A6B
+## title
+Function of simple columnar epithelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Function of simple columnar epithelium is:
+## answer_a
+secretion (stomach)
+## explanation_a
+True, but not the whole answer. The stomach lining secretes.
+## answer_b
+protection
+## explanation_b
+Protection is stratified epithelium. A single layer of cells protects nothing.
+## answer_c
+absorption (intestine)
+## explanation_c
+True, but not the whole answer. The intestinal lining absorbs, through its microvillous brush border.
+## answer_d
+both a & c are correct
+## explanation_d
+Correct. Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.
+## correct_answer
+D
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both functions of simple columnar epithelium with their sites.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q20. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-22AA6F108D63
+## title
+Function of stratified squamous epithelium is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Function of stratified squamous epithelium is
+## answer_a
+Absorbtion
+## explanation_a
+Absorption needs a thin single layer with a large surface, which is the opposite of many layers of flattened cells.
+## answer_b
+Reabsorbtion
+## explanation_b
+Reabsorption is simple cubical epithelium in the kidney tubule.
+## answer_c
+Protection
+## explanation_c
+Correct. Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.
+## answer_d
+Gas exchange
+## explanation_d
+Gas exchange needs the thinnest barrier possible, which is simple squamous epithelium. Adding layers is exactly what would prevent it.
+## correct_answer
+C
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the function of stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q121. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9C29C6C61078
+## title
+How is a pseudostratified epithelium different from a truly stratified tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+How is a pseudostratified epithelium different from a truly stratified tissue?
+## answer_a
+The nuclei are at the same level in pseudostratified epithelia
+## explanation_a
+The reverse of the truth, and the reason the epithelium looks stratified in the first place: its nuclei sit at several levels because its cells are of several heights.
+## answer_b
+All cells reach apex
+## explanation_b
+Correct as keyed, though it needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.
+## answer_c
+There are multiple cell layers in pseudostratified epithelia
+## explanation_c
+Multiple cell layers is what a truly stratified epithelium has and a pseudostratified one only appears to have.
+## answer_d
+All the cells in a pseudostratified epithelium interact with the
+## explanation_d
+This option is cut short and is in any case a restatement of B rather than a competing answer.
+## correct_answer
+B
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+State precisely what a pseudostratified epithelium has that a stratified one does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q66. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A5E6D69B4541
+## title
+in heavy cigarette smoker, pseudostratified columnar is transformed into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in heavy cigarette smoker, pseudostratified columnar is transformed into:
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium is a rare epithelium of gland ducts and the recto-anal junction. Metaplasia goes towards the tough general-purpose epithelium, not towards a rarity.
+## answer_b
+stratified cubical
+## explanation_b
+Stratified cubical epithelium is two layers in a sweat duct and gives little protection.
+## answer_c
+stratified squamous
+## explanation_c
+Correct. Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.
+## answer_d
+none of above
+## explanation_d
+The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and the book calls it metaplasia.
+## correct_answer
+C
+## main_concept
+CON-FND-5AD09BF9FC2420
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the epithelium that replaces the respiratory lining in a heavy smoker.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q28. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B5D5F6C0F840
+## title
+In heavy smokers, pseudo-stratified columnar ciliated epithelium of the bronchi may be …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In heavy smokers, pseudo-stratified columnar ciliated epithelium of the bronchi may be transformed into .................. epithelium:
+## answer_a
+Simple columnar
+## explanation_a
+Simple columnar epithelium would be a change of shape without a gain in protection, and metaplasia here is driven by the need for protection.
+## answer_b
+Stratified columnar ciliated
+## explanation_b
+Keeping the cilia would keep the clearance, and the clinical point of this metaplasia is precisely that clearance is lost.
+## answer_c
+Simple cubical
+## explanation_c
+Simple cubical epithelium is thinner and weaker than what it would be replacing.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.
+## correct_answer
+D
+## main_concept
+CON-FND-5AD09BF9FC2420
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the product of squamous metaplasia in the bronchus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q33. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The book states directly that in heavy cigarette smokers the pseudostratified columnar ciliated epithelium of the bronchi may transform into stratified squamous epithelium, which is option D; the other three are epithelia the book never associates with metaplasia.
+
+
+---
+
+# Item
+## id
+QM-101-F62CA79A95ED
+## title
+In heavy smokers, the pseudo-stratified columnar ciliated epithelium of the bronchi may…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In heavy smokers, the pseudo-stratified columnar ciliated epithelium of the bronchi may be transformed into:
+## answer_a
+Simple columnar epithelium
+## explanation_a
+Simple columnar epithelium is a single layer and offers no more protection than what was there.
+## answer_b
+Stratified columnar ciliated epithelium
+## explanation_b
+Retaining cilia would defeat the point: the whole clinical consequence of this metaplasia is that the cilia are gone.
+## answer_c
+Stratified columnar non ciliated epithelium
+## explanation_c
+Stratified columnar non-ciliated epithelium is a rare epithelium found at the recto-anal junction and in large gland ducts; metaplasia does not produce it here.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.
+## correct_answer
+D
+## main_concept
+CON-FND-5AD09BF9FC2420
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the product of squamous metaplasia in the bronchus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p14 q33. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-04F4D265350E
+## title
+In which of these locations would pseudostratified columnar ciliated epithelium intermi…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In which of these locations would pseudostratified columnar ciliated epithelium intermixed with goblet cells be found?
+## answer_a
+surface of the skin
+## explanation_a
+The surface of the skin is stratified squamous keratinised epithelium — the opposite kind of surface, dry and protective.
+## answer_b
+lining of nasal cavity and trachea
+## explanation_b
+Correct. Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.
+## answer_c
+lining of serous membranes
+## explanation_c
+Serous membranes are mesothelium, simple squamous.
+## answer_d
+lining the small intestine
+## explanation_d
+The small intestine is simple columnar with goblet cells but no cilia — goblet cells alone are not enough to make an epithelium respiratory, which is what this distractor tests.
+## correct_answer
+B
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Place respiratory epithelium in the airway.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-AF4D6E6EBF7B
+## title
+its function is distensibility:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+its function is distensibility:
+## answer_a
+transitional
+## explanation_a
+Correct. Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium protects against friction. It stretches a little but has no mechanism for changing its layer count.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium is two layers in a sweat duct, which distends not at all.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is a rare protective lining and is not built to stretch.
+## correct_answer
+A
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match distensibility to transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q26. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F6FC38A67DD7
+## title
+its function is easy movement, exchange of gases:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+its function is easy movement, exchange of gases:
+## answer_a
+squamous
+## explanation_a
+Correct. Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.
+## answer_b
+cubical
+## explanation_b
+Cubical cells are for secretion and reabsorption. Their extra cytoplasm is exactly what a gas barrier must not have.
+## answer_c
+columnar
+## explanation_c
+Columnar cells are taller still, for secretion and absorption.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified columnar epithelium is thick and ciliated, built for moving mucus rather than for exchange.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Connect thinness and smoothness to simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q10. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5E7B07F78617
+## title
+its function is secretion, absorption:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+its function is secretion, absorption:
+## answer_a
+squamous
+## explanation_a
+Squamous cells are for exchange and smooth movement.
+## answer_b
+cubical
+## explanation_b
+The near miss, and the pair this question is set against: cubical epithelium secretes and *re*absorbs, in the kidney tubule and the gland acinus.
+## answer_c
+columnar
+## explanation_c
+Correct. Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified epithelium transports mucus across a surface.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate secretion-and-absorption from secretion-and-reabsorption.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q9. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FD2799F7BA65
+## title
+its function is secretion, reabsorption:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+its function is secretion, reabsorption:
+## answer_a
+squamous
+## explanation_a
+Squamous is exchange and easy movement.
+## answer_b
+cubical
+## explanation_b
+Correct. Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.
+## answer_c
+columnar
+## explanation_c
+The mirror of this question: columnar epithelium secretes and absorbs in the gut. Reabsorption is the word that points at the kidney.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified epithelium moves material along the surface rather than through the cell.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match secretion and reabsorption to simple cubical epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q8. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FB4B2A8CF777
+## title
+its function is transport of fluid in one direction:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+its function is transport of fluid in one direction:
+## answer_a
+squamous
+## explanation_a
+Simple squamous epithelium lets things across it, not along it.
+## answer_b
+cubical
+## explanation_b
+Simple cubical epithelium moves material through the cell, not over its surface.
+## answer_c
+columnar
+## explanation_c
+Correct. Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified columnar ciliated epithelium does the same thing, which makes this the closest wrong answer; the option set here lists simple cell shapes, and columnar is the one that carries the cilia.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute one-way transport to the ciliated columnar cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q11. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1CA7999AF792
+## title
+Mesothelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mesothelium is:
+## answer_a
+simple squamous epithelium in blood vessels
+## explanation_a
+Right epithelium, wrong site — that is endothelium, and the two names are the only thing separating these options.
+## answer_b
+simple squamous epithelium in serous membranes
+## explanation_b
+Correct. Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.
+## answer_c
+simple cuboidal epithelium in blood vessels
+## explanation_c
+Wrong epithelium and wrong site.
+## answer_d
+simple cuboidal epithelium in serous membranes
+## explanation_d
+Wrong epithelium, right site. A cuboidal serous lining would make organs stick rather than slide.
+## correct_answer
+B
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Pair the name mesothelium with the right epithelium and the right site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q110. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49675952452E
+## title
+non-keratinized is present in all the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+non-keratinized is present in all the following except:
+## answer_a
+cornea
+## explanation_a
+True, so not the exception. The cornea is non-keratinised, and it must be — keratin would make it opaque.
+## answer_b
+oral cavity
+## explanation_b
+True, so not the exception. The oral cavity is moist and non-keratinised.
+## answer_c
+vagina, esophagus
+## explanation_c
+True, so not the exception. Vagina and oesophagus are both moist non-keratinised linings.
+## answer_d
+epidermis
+## explanation_d
+The exception, and the answer. The epidermis is the keratinised form, and it is the only one on this list exposed to dry air.
+## correct_answer
+D
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Separate the one keratinised site from the non-keratinised list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q22. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3A49A9CD1846
+## title
+Nuclei of simple columnar epithelium are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclei of simple columnar epithelium are:
+## answer_a
+central rounded
+## explanation_a
+Central rounded nuclei belong to cubical cells, whose height and width are the same so the nucleus sits in the middle.
+## answer_b
+basal & oval
+## explanation_b
+Correct. A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.
+## answer_c
+flat
+## explanation_c
+Flat nuclei belong to squamous cells, which have no room for anything else.
+## answer_d
+Binucleated
+## explanation_d
+Binucleated cells occur in the superficial layer of transitional epithelium, not here.
+## correct_answer
+B
+## main_concept
+CON-FND-28D12B544C3BA3
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the nuclear shape and position of a columnar cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q23. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A45DF276EF22
+## title
+Nuclei of simple cuboidal epithelium are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclei of simple cuboidal epithelium are:
+## answer_a
+central rounded
+## explanation_a
+Correct. A cube-shaped cell holds a round nucleus in the centre.
+## answer_b
+basal & oval
+## explanation_b
+Basal and oval is the columnar cell — taller, so the nucleus is displaced downwards and elongated with the cell.
+## answer_c
+flat
+## explanation_c
+Flat is the squamous cell.
+## answer_d
+May be bi-nucleated
+## explanation_d
+Binucleation is a feature of the superficial dome cells of transitional epithelium.
+## correct_answer
+A
+## main_concept
+CON-FND-28D12B544C3BA3
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the nuclear shape and position of a cuboidal cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q24. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A0022102D307
+## title
+number of layer of transitional epithelium in full bladder:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+number of layer of transitional epithelium in full bladder:
+## answer_a
+5-30
+## explanation_a
+5–30 layers is stratified squamous epithelium — a fixed range for an epithelium that does not change with filling.
+## answer_b
+6-8
+## explanation_b
+6–8 layers is transitional epithelium in the *empty* bladder. This is the trap: both numbers belong to this epithelium, and the question specifies which state.
+## answer_c
+2
+## explanation_c
+Two layers is stratified cubical epithelium, in the sweat gland duct.
+## answer_d
+3-4
+## explanation_d
+Correct. 3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Give the layer count of transitional epithelium in the full bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q20. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-54F92CA3443C
+## title
+number of layers of stratified squamous:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+number of layers of stratified squamous:
+## answer_a
+5-30
+## explanation_a
+Correct. 5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.
+## answer_b
+6-8
+## explanation_b
+6–8 layers is transitional epithelium in the empty bladder.
+## answer_c
+2
+## explanation_c
+Two layers is stratified cubical epithelium.
+## answer_d
+3-4
+## explanation_d
+3–4 layers is transitional epithelium in the full bladder.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Give the layer count of stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q19. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E53C9C478E00
+## title
+One of the following organs is lined with transitional epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following organs is lined with transitional epithelium:
+## answer_a
+Uterus
+## explanation_a
+The uterus is simple columnar partially ciliated epithelium.
+## answer_b
+Urinary bladder
+## explanation_b
+Correct. The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.
+## answer_c
+Vas deferens
+## explanation_c
+The vas deferens is pseudostratified columnar non-ciliated epithelium — a genital duct, not a urinary one.
+## answer_d
+Gall bladder
+## explanation_d
+The gall bladder is simple columnar, absorbing water from stored bile. It is chosen because both are hollow distensible sacs called bladders, which is a name rather than a histology.
+## correct_answer
+B
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise that transitional epithelium is confined to the urinary tract.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q25. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F2C37003CE2F
+## title
+One statement about transitional epithelium is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement about transitional epithelium is true:
+## answer_a
+Associated with the respiratory tract
+## explanation_a
+Transitional epithelium is urinary, not respiratory. The respiratory lining is pseudostratified columnar ciliated.
+## answer_b
+Represents a transitional tissue between stratified squamous
+## explanation_b
+The option describing it as a stage between two other epithelia reads the word "transitional" as if it meant intermediate. It does not: the transition is in the epithelium's own shape as the organ fills.
+## answer_c
+Has clear basement membrane
+## explanation_c
+The single most useful discriminator against the oesophagus, and it is false here. The oesophagus has a clear, thick, wavy basement membrane; the bladder's is non-clear and not wavy.
+## answer_d
+The upper most layers have some binucleated cells
+## explanation_d
+Correct. The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.
+## correct_answer
+D
+## main_concept
+CON-FND-89FBF21510F273
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+Use the basement membrane and the superficial cells to tell the bladder from the oesophagus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q24. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+4 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-63AA31EAE75F
+## title
+One statement is NOT true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement is NOT true:
+## answer_a
+Squamous cells have flat nuclei
+## explanation_a
+True, so not the false one. A flat cell holds a flat nucleus.
+## answer_b
+Columnar cells have oval nuclei
+## explanation_b
+True, so not the false one. A tall cell holds an oval nucleus, placed basally.
+## answer_c
+Cuboidal cells have rounded nuclei
+## explanation_c
+True, so not the false one. A cube holds a round nucleus, centrally.
+## answer_d
+Pseudostratified columnar epithelium cells have no nuclei
+## explanation_d
+The false statement, and the answer. Every cell of a pseudostratified epithelium has a nucleus — it is the fact that those nuclei sit at several levels that produces the false appearance of layering in the first place.
+## correct_answer
+D
+## main_concept
+CON-FND-28D12B544C3BA3
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Confirm that nuclear shape follows cell shape, and reject an absurdity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q11. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9CD03B5816DA
+## title
+Only one statement about the stratified squamous epithelium is correct. Cells of the la…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Only one statement about the stratified squamous epithelium is correct. Cells of the layer:
+## answer_a
+Farthest from the basement membrane, squamous
+## explanation_a
+Correct. Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.
+## answer_b
+Farthest from the basement membrane, are polygonal
+## explanation_b
+Polygonal cells are the intermediate layers, between the columnar base and the flat surface.
+## answer_c
+Closest to the basement membrane, are squamous
+## explanation_c
+Closest to the basement membrane is the basal layer, which is columnar, not squamous. A cell flattens as it is pushed up, so the youngest cell is the tallest.
+## answer_d
+Closest to the basement membrane are polygonal
+## explanation_d
+Polygonal cells are above the basal layer, not in it. The gradient runs columnar, polygonal, flat from base to surface, and this option is one step out.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place squamous and polygonal cells at the right depth in a stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q34. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-60752D4FE37B
+## title
+Pseudostratified columnar epithelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pseudostratified columnar epithelium is:
+## answer_a
+Transitional epithelium
+## explanation_a
+Transitional epithelium is genuinely stratified and confined to the urinary tract.
+## answer_b
+Stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium really does have cells that do not reach the basement membrane, and it is what a pseudostratified epithelium is being mistaken for.
+## answer_c
+A simple columnar epithelium
+## explanation_c
+Correct. Every cell rests on the basement membrane, so the book classifies it among the simple epithelia despite its appearance.
+## answer_d
+It is a false appearance of epithelium, it is CT
+## explanation_d
+It is epithelium, not connective tissue. The "false appearance" is of stratification, not of being epithelium at all.
+## correct_answer
+C
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Class pseudostratified epithelium among the simple epithelia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q9. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A335BFE278F8
+## title
+Pseudostratified columnar epithelium is evident in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pseudostratified columnar epithelium is evident in:
+## answer_a
+ureter
+## explanation_a
+The ureter is transitional epithelium.
+## answer_b
+vas deference
+## explanation_b
+Correct. The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.
+## answer_c
+small intestine
+## explanation_c
+The small intestine is simple columnar with a brush border.
+## answer_d
+esophagus
+## explanation_d
+The oesophagus is stratified squamous non-keratinised.
+## correct_answer
+B
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of pseudostratified columnar epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q68. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-66BCD0FB6A67
+## title
+Pseudostratified columnar non ciliated epithelium lines:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pseudostratified columnar non ciliated epithelium lines:
+## answer_a
+Skin
+## explanation_a
+Skin is stratified squamous keratinised.
+## answer_b
+Trachea
+## explanation_b
+The trachea is the same epithelium *with* cilia and goblet cells, which is the distinction the word "non-ciliated" is there to force.
+## answer_c
+Ureter
+## explanation_c
+The ureter is transitional.
+## answer_d
+Vas deferens
+## explanation_d
+Correct. The vas deferens, with the membranous urethra, is the non-ciliated form.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of the non-ciliated form specifically.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q25. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2C29B3122D95
+## title
+simple cuboidal epithelium is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+simple cuboidal epithelium is present in:
+## answer_a
+ureter
+## explanation_a
+The ureter is transitional epithelium.
+## answer_b
+lining the thyroid follicle
+## explanation_b
+Correct. The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.
+## answer_c
+trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## answer_d
+endothelium of blood vessel
+## explanation_d
+The endothelium of a blood vessel is simple squamous — the same "simple", a different shape.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of simple cubical epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q21. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-77830D360D77
+## title
+simple squamous epithelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+simple squamous epithelium is:
+## answer_a
+provides smooth surfaces
+## explanation_a
+True, but not the whole answer. Smoothness lets fluid pass and organs move against one another.
+## answer_b
+form filtration membranes
+## explanation_b
+True, but not the whole answer. Thinness lets it form filtration membranes, as in Bowman's capsule.
+## answer_c
+lines absorptive surfaces
+## explanation_c
+Absorptive surfaces are lined by simple columnar epithelium with microvilli. A flat cell has neither the cytoplasm nor the surface area for it.
+## answer_d
+a & b
+## explanation_d
+Correct. The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.
+## correct_answer
+D
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give both consequences of a flat cell shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q18. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DF05D0F70E5A
+## title
+Simple squamous epithelium is suitable for
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple squamous epithelium is suitable for
+## answer_a
+Secretion
+## explanation_a
+Secretion needs cytoplasm for the synthetic machinery, so it belongs to cubical and columnar cells.
+## answer_b
+Reabsorption
+## explanation_b
+Reabsorption is simple cubical, in the kidney tubule.
+## answer_c
+Gas exchange
+## explanation_c
+Correct. Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.
+## answer_d
+Protection
+## explanation_d
+Protection is stratified epithelium — the opposite design.
+## correct_answer
+C
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match gas exchange to the thinnest epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p11 q10. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4D8E28E3C040
+## title
+Stratified squamous keratinized epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stratified squamous keratinized epithelium:
+## answer_a
+Covered by thick layer of keratin
+## explanation_a
+Correct. A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.
+## answer_b
+Present in the moist surfaces (mouth, pharynx and esophagous)
+## explanation_b
+Moist surfaces — mouth, pharynx, oesophagus — carry the non-keratinised form. Keratin is for a dry surface.
+## answer_c
+Lines the digestive tract
+## explanation_c
+The digestive tract is stratified squamous only at its two ends, and non-keratinised there; most of it is simple columnar.
+## answer_d
+Lines the uterus
+## explanation_d
+The uterus is simple columnar partially ciliated.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the defining feature of the keratinised form.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q35. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0D5BA618A5E6
+## title
+Stratified squamous non keratinized epithelium is found in all EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stratified squamous non keratinized epithelium is found in all EXCEPT:
+## answer_a
+Gum
+## explanation_a
+True, so not the exception. The gum is part of the oral cavity.
+## answer_b
+Tongue
+## explanation_b
+True, so not the exception. The tongue surface is stratified squamous, non-keratinised over most of it.
+## answer_c
+Cornea
+## explanation_c
+True, so not the exception. The cornea must be non-keratinised to stay transparent.
+## answer_d
+Skin
+## explanation_d
+The exception, and the answer. The skin is the keratinised form, and the only one in the list that is dry.
+## correct_answer
+D
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Separate the keratinised site from the non-keratinised list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q46. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-57C25CDCF31E
+## title
+Stratified squamous non keratinized epithelium is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stratified squamous non keratinized epithelium is present in:
+## answer_a
+Oral cavity
+## explanation_a
+Correct. The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.
+## answer_b
+Trachea
+## explanation_b
+The trachea is pseudostratified columnar ciliated.
+## answer_c
+Skin
+## explanation_c
+The skin is the keratinised form of the same epithelium, which is the one-word difference this question turns on.
+## answer_d
+Uterus
+## explanation_d
+The uterus is simple columnar partially ciliated.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of stratified squamous non-keratinised epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q48. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D70571574996
+## title
+The alveoli in the lung (gas exchange) are line by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The alveoli in the lung (gas exchange) are line by:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Correct. Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium would double or triple the diffusion distance.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is thicker still, and belongs to absorbing and secreting surfaces.
+## answer_d
+pseudostratified epithelium
+## explanation_d
+Pseudostratified epithelium lines the conducting airways above the alveolus; the change from conducting to exchanging is precisely a change from thick and ciliated to thin and bare.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the lung alveolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q16. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D5D694179BC8
+## title
+The epidermis is formed by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epidermis is formed by:
+## answer_a
+simple squamous non keratinized epithelium
+## explanation_a
+"Simple squamous non-keratinised" is a contradiction in the making: one layer of flat cells would be no protection at all on a dry surface.
+## answer_b
+stratified squamous non keratinized epithelium
+## explanation_b
+The right epithelium without the keratin, which is the lining of the oesophagus and the mouth. Naming the epithelium and omitting the keratin is the commonest half-answer here.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+Correct. Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.
+## answer_d
+simple columnar ciliated epithelium
+## explanation_d
+Simple columnar ciliated epithelium belongs to the uterus and the bronchiole.
+## correct_answer
+C
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the epidermis, keratinisation included.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q43. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FFF368A176BD
+## title
+the epithelial lining of the serous membrane is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the epithelial lining of the serous membrane is called:
+## answer_a
+transitional epithelium
+## explanation_a
+Transitional epithelium is the urinary tract.
+## answer_b
+simple columnar
+## explanation_b
+Simple columnar epithelium is the gut. A serous membrane needs a surface that slides, not one that absorbs.
+## answer_c
+mesothelium
+## explanation_c
+Correct. Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.
+## answer_d
+endothelium
+## explanation_d
+Endothelium is the same epithelium lining blood vessels and the heart. The two names are the whole question.
+## correct_answer
+C
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the epithelium of the serous membranes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q4. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-86D6BEACBECB
+## title
+The epithelium lines the urinary bladder is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium lines the urinary bladder is:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer thin enough for exchange, which is the last thing a bladder wants — its lining must be impermeable to urine.
+## answer_b
+stratified squamous epithelium
+## explanation_b
+Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and the change costs the organ its distensibility.
+## answer_c
+Glandular epithelium
+## explanation_c
+Glandular epithelium secretes. The bladder stores; it does not make urine.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the urinary bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q41. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED4F56EDA7E7
+## title
+the epithelium lining of the blood vesels is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the epithelium lining of the blood vesels is called:
+## answer_a
+transitional epithelium
+## explanation_a
+Transitional epithelium is urinary.
+## answer_b
+simple columnar epithelium
+## explanation_b
+Simple columnar epithelium is the gut.
+## answer_c
+mesothelium
+## explanation_c
+Mesothelium is the serous membranes — the same simple squamous epithelium under the other regional name.
+## answer_d
+endothelium
+## explanation_d
+Correct. Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.
+## correct_answer
+D
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the epithelium lining blood vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q1. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D3219561C790
+## title
+The epithelium that lines the blood vessels is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium that lines the blood vessels is called:
+## answer_a
+Mesothelium
+## explanation_a
+Mesothelium is the serous membranes. The pair endothelium/mesothelium is asked repeatedly across these books, in both directions.
+## answer_b
+Endothelium
+## explanation_b
+Correct. Endothelium lines the blood vessels and the heart.
+## answer_c
+Transitional
+## explanation_c
+Transitional epithelium is the urinary tract.
+## answer_d
+Pseudostratified
+## explanation_d
+Pseudostratified epithelium is the airway and the male genital ducts.
+## correct_answer
+B
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the epithelium lining blood vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q5. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-56E471EEF986
+## title
+The epithelium that resist friction is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium that resist friction is:
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is one layer thick and is destroyed by abrasion.
+## answer_b
+Pseudostratified columnar
+## explanation_b
+Pseudostratified columnar epithelium is a conducting lining, protected from friction rather than resisting it.
+## answer_c
+Stratified squamous
+## explanation_c
+Correct. Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium resists urine and stretch. Those are chemical and mechanical demands of a different kind.
+## correct_answer
+C
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match resistance to friction to stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q47. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-13FDA8B9E883
+## title
+The epithelium type that has the ability to decrease its layers' number in full viscus is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium type that has the ability to decrease its layers' number in full viscus is:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium has one layer and cannot have fewer.
+## answer_b
+Stratified cuboidal epithelium
+## explanation_b
+Stratified cubical epithelium keeps its two layers.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is one layer throughout.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the epithelium whose layer count changes with distension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q38. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F68964CB010
+## title
+The epithelium which is composed of cells resting on the same basement membrane, but no…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium which is composed of cells resting on the same basement membrane, but not all reaching the lumen is called:
+## answer_a
+stratified squamous
+## explanation_a
+In stratified squamous epithelium only the basal cells touch the basement membrane.
+## answer_b
+stratified cuboidal
+## explanation_b
+Stratified cuboidal epithelium is likewise genuinely layered.
+## answer_c
+pseudostratified epithelium
+## explanation_c
+Correct. Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is genuinely stratified, and its intermediate and superficial cells do not reach the base.
+## correct_answer
+C
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the epithelium in which every cell touches the base but not every cell the lumen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q18. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1127544814B0
+## title
+The epithelium which is formed of more than one layer is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium which is formed of more than one layer is called:
+## answer_a
+simple
+## explanation_a
+Simple means one layer, with every cell on the basement membrane.
+## answer_b
+stratified
+## explanation_b
+Correct. Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.
+## answer_c
+pseudostratified
+## explanation_c
+Pseudostratified epithelium only appears to have more than one layer, which is exactly why the word "pseudo" is in its name.
+## answer_d
+all of the above
+## explanation_d
+The three are alternatives and only one of them answers the stem.
+## correct_answer
+B
+## main_concept
+CON-FND-28D12B544C3BA3
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the name for an epithelium of more than one layer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q42. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF6B03AA8718
+## title
+The esophagus is lined by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The esophagus is lined by:
+## answer_a
+simple squamous non keratinized epithelium
+## explanation_a
+One layer of flat cells would be stripped off by the first bolus. "Simple squamous non-keratinised" also confuses a term used only of stratified epithelium.
+## answer_b
+stratified squamous non keratinized epithelium
+## explanation_b
+Correct. Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+The keratinised form is the epidermis of the skin. Adding keratin to the oesophagus is the single commonest error on this question.
+## answer_d
+simple columnar ciliated epithelium
+## explanation_d
+Simple columnar ciliated epithelium is the uterus and the bronchiole. The oesophagus becomes simple columnar only past the cardia, in the stomach.
+## correct_answer
+B
+## main_concept
+CON-FND-89FBF21510F273
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the oesophageal epithelium precisely, keratinisation included.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q44. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-95782540E127
+## title
+The following Is true regarding simple squamous epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following Is true regarding simple squamous epithelium:
+## answer_a
+It's formed of many layers of cells
+## explanation_a
+Many layers would make it stratified. Simple means exactly one.
+## answer_b
+It forms the mesothelium of serous membranes
+## explanation_b
+Correct. The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.
+## answer_c
+It lines the intestinal mucosa
+## explanation_c
+The intestinal mucosa is simple columnar, because it absorbs and needs microvilli.
+## answer_d
+It lines thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical, because they secrete and reabsorb.
+## correct_answer
+B
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise mesothelium as simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q8. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only B is true: mesothelium is simple squamous epithelium on the serous membranes. A contradicts the word "simple", and the intestinal mucosa and thyroid follicles are simple columnar and simple cubical respectively.
+
+
+---
+
+# Item
+## id
+QM-101-BF0E2989D694
+## title
+The following is true regarding stratified squamous epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is true regarding stratified squamous epithelium:
+## answer_a
+The superficial layer of cells always keratinized
+## explanation_a
+"Always keratinised" is false. Only the epidermis is; every moist site is not.
+## answer_b
+It lines the wall of the esophagus
+## explanation_b
+Correct. The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.
+## answer_c
+Its most superficial layer of cells is cuboidal cells
+## explanation_c
+The most superficial cells are squamous — flat — which is what the epithelium is named for. Cuboidal surface cells would make it stratified cuboidal.
+## answer_d
+The intercellular spaces contain mucoid-like substance
+## explanation_d
+A mucoid-like substance in wide intercellular spaces is offered by some books as the reason transitional epithelium stretches. It is not a feature of stratified squamous epithelium, whose cells are held close by desmosomes.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall a true site of stratified squamous epithelium and reject three false descriptions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p12 q20. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8487414811BC
+## title
+The following statement Is true about transitional epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statement Is true about transitional epithelium:
+## answer_a
+Basement membrane Is clear
+## explanation_a
+False, and it is the oesophagus's answer. The oesophageal basement membrane is clear, thick and wavy; the bladder's is non-clear and flat.
+## answer_b
+Superficial cells are columnar
+## explanation_b
+The superficial cells are dome-shaped, not columnar. Columnar surface cells would make it stratified columnar epithelium.
+## answer_c
+Formed of one layer of cells
+## explanation_c
+One layer would make it simple. Transitional epithelium is 6–8 layers empty and 3–4 full — the point being that neither figure is one.
+## answer_d
+Superficial cells are dome shaped
+## explanation_d
+Correct. Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.
+## correct_answer
+D
+## main_concept
+CON-FND-89FBF21510F273
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Pick out the two features that separate bladder epithelium from oesophageal epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q24. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only D is true. The bladder's basement membrane is non-clear, not clear — that is the book's own comparison against the oesophagus; the superficial cells are dome-shaped rather than columnar; and the epithelium is stratified, 6–8 layers when empty, not one.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F9E7008B2E2F
+## title
+The following statement is true regarding simple squamous epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statement is true regarding simple squamous epithelium:
+## answer_a
+It's formed of many layers of cells
+## explanation_a
+Many layers contradicts "simple", which means one.
+## answer_b
+It forms the mesothelium of serous membranes
+## explanation_b
+Correct. Mesothelium of the serous membranes is simple squamous epithelium.
+## answer_c
+It lines the intestinal mucosa
+## explanation_c
+The intestinal mucosa is simple columnar with a brush border.
+## answer_d
+It lines thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical.
+## correct_answer
+B
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise mesothelium as simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p11 q8. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-89477AC2B9C8
+## title
+The function of transitional epithelium is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The function of transitional epithelium is:
+## answer_a
+stretchability
+## explanation_a
+True, but not the whole answer. Stretchability is what the changing layer count provides.
+## answer_b
+Distensibility
+## explanation_b
+True, but not the whole answer, and the same property named in the book's own word.
+## answer_c
+Protection from toxins
+## explanation_c
+True, but not the whole answer, and the one students forget: the plaques on the dome cells protect against the cytotoxic effect of urine.
+## answer_d
+All of the above
+## explanation_d
+Correct. Distension and chemical protection are two demands of the same organ, and the epithelium meets both.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both functions of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q49. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-93C458156A5E
+## title
+The inner lining of the vagina, tip of urethra and esophagus is made up of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The inner lining of the vagina, tip of urethra and esophagus is made up of
+## answer_a
+Columnar epithelium
+## explanation_a
+Columnar epithelium lines the gut and the uterus, not these three.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. Vagina, tip of the urethra and oesophagus are three of the book's named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.
+## answer_c
+Squamous epithelium
+## explanation_c
+"Squamous epithelium" without "stratified" would mean the simple form, one layer thick, which none of these moist abraded surfaces could survive with.
+## answer_d
+Ciliated epithelium
+## explanation_d
+Ciliated epithelium is the airway and the female genital tract above the vagina. It is worth noticing that the fallopian tube and uterus are ciliated while the vagina is not.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the book's list of non-keratinised sites as one epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q57. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-160E9118941E
+## title
+The kidney tubules are lined by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The kidney tubules are lined by:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is in the same nephron, lining Bowman's capsule, where the job is filtration. The tubule's job is reabsorption and needs more cell than that.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Correct. The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is the gut.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium begins further down, in the renal pelvis, and continues to the bladder.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the kidney tubules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q19. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4E68C6CDE25E
+## title
+The lining epithelium of pleura is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The lining epithelium of pleura is:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Correct. The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.
+## answer_b
+Cubical Stratified epithelium
+## explanation_b
+Stratified cubical epithelium is a sweat gland duct.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium would be a rough, thick surface — the opposite of what two moving surfaces need.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is confined to the urinary tract.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of a serous membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q6. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A73ABD757297
+## title
+The lining epithelium of the ureter is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The lining epithelium of the ureter is:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium would let urine through, which is exactly what the urinary tract must not do.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium lines the kidney tubules above, where reabsorption is still happening. Once the urine is final, the lining changes.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Simple columnar ciliated epithelium is the uterus and the bronchiole; nothing in the ureter needs sweeping.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Extend transitional epithelium to the whole urinary tract.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q45. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3C019BA70ABE
+## title
+The lining epithelium of the uterus is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The lining epithelium of the uterus is:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange; the uterus has to move an ovum along.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium secretes and reabsorbs but cannot transport anything along its surface.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Correct. Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is urinary. The uterus is distensible too, which is what makes this option tempting, but distension there is achieved by the muscle wall and not by the lining.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the uterus and say why it is ciliated.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q22. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C94C5E35F0E0
+## title
+The lining epithelium of thyroid follicles is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The lining epithelium of thyroid follicles is:
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium appears in a very underactive follicle, but the epithelium the book names is cubical.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Correct. Simple cubical epithelium, secreting into the colloid and reabsorbing from it.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Cilia would have nothing to move inside a closed follicle.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is urinary and stratified; a follicle lining is one layer.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the thyroid follicle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q21. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF28BDAB1F3D
+## title
+The respiratory epithelium is also known as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The respiratory epithelium is also known as:
+## answer_a
+Endothelium
+## explanation_a
+Endothelium is the lining of blood vessels.
+## answer_b
+Urothelium
+## explanation_b
+Urothelium is transitional epithelium of the urinary tract.
+## answer_c
+Pseudostratified columnar ciliated with goblet cells
+## explanation_c
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.
+## answer_d
+Mesotelium
+## explanation_d
+Mesothelium is the serous membranes. All three wrong options are regional names for other epithelia, which is what the question is really testing.
+## correct_answer
+C
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the full name of respiratory epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q7. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5EB89C738EF6
+## title
+The simple cuboidal epithelium is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The simple cuboidal epithelium is present in:
+## answer_a
+The lining of thyroid follicles
+## explanation_a
+Correct. The thyroid follicle is lined by a single layer of cubical cells.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar — taller cells, with a brush border for absorption.
+## answer_c
+The lining of the vagina
+## explanation_c
+The vagina is stratified squamous non-keratinised.
+## answer_d
+Epidermis of skin
+## explanation_d
+The epidermis is stratified squamous keratinised.
+## correct_answer
+A
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of simple cubical epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q13. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-90BC1E692EFA
+## title
+the simple squamous epithelium lines:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the simple squamous epithelium lines:
+## answer_a
+Bowman capsule of the kidney
+## explanation_a
+Correct. Bowman's capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.
+## answer_b
+gall bladder
+## explanation_b
+The gall bladder is simple columnar, absorbing water from the bile.
+## answer_c
+thyroid follicles
+## explanation_c
+Thyroid follicles are simple cubical.
+## answer_d
+urinary bladder
+## explanation_d
+The urinary bladder is transitional. Two of the four options are in the urinary system, and they take different epithelia — filtration at the top, storage at the bottom.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place simple squamous epithelium in Bowman's capsule and not elsewhere in the kidney.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q12. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D70F1C90332D
+## title
+The stomach is lined by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The stomach is lined by:
+## answer_a
+Simple cubical epithelium
+## explanation_a
+Simple cubical epithelium lines gland acini and kidney tubules, not the stomach surface.
+## answer_b
+Pseudostratified columnar ciliated epithelium with goblet cells
+## explanation_b
+The respiratory epithelium is the airway. It is offered here because both are mucus-covered surfaces, but the stomach's mucus comes from its own surface cells rather than from goblet cells, and it has no cilia.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.
+## answer_d
+Stratified columnar epithelium
+## explanation_d
+Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the stomach.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q24. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-591B3597267E
+## title
+the stratified squamous keratinized epithelium is present in the
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the stratified squamous keratinized epithelium is present in the
+## answer_a
+large intestine
+## explanation_a
+The large intestine is simple columnar with many goblet cells.
+## answer_b
+epidermis of skin
+## explanation_b
+Correct. The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.
+## answer_c
+urinary bladder
+## explanation_c
+The urinary bladder is transitional.
+## answer_d
+thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of keratinised stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q11. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A088FD20D239
+## title
+The stratified squamous keratinized epithelium is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The stratified squamous keratinized epithelium is present in:
+## answer_a
+The lining of thyroid follicles
+## explanation_a
+Thyroid follicles are simple cubical.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar.
+## answer_c
+The lining of the vagina
+## explanation_c
+The vagina is stratified squamous — but non-keratinised, being a moist surface. It is the closest wrong answer, and the one word that separates it is the whole question.
+## answer_d
+Epidermis of skin
+## explanation_d
+Correct. The epidermis of the skin.
+## correct_answer
+D
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of keratinised stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q40. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D5F96E0A62F4
+## title
+the stratified squamous non-keratinized epithelium is present in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the stratified squamous non-keratinized epithelium is present in
+## answer_a
+esophagus
+## explanation_a
+Correct. The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.
+## answer_b
+gall bladder
+## explanation_b
+The gall bladder is simple columnar.
+## answer_c
+ureter
+## explanation_c
+The ureter is transitional.
+## answer_d
+small intestine
+## explanation_d
+The small intestine is simple columnar with a brush border.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of non-keratinised stratified squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q13. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D5B65B77AE0D
+## title
+The superficial layer of the skin is composed of which type of tissues:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The superficial layer of the skin is composed of which type of tissues:
+## answer_a
+Simple columnar epithelium
+## explanation_a
+Simple columnar epithelium is the gut lining, one cell thick.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.
+## answer_c
+Dense fibrous tissue
+## explanation_c
+Dense fibrous tissue is the dermis beneath, and it is connective tissue rather than epithelium. The question asks about the superficial layer.
+## answer_d
+Stratified columnar epithelium
+## explanation_d
+Stratified columnar epithelium is rare and is found in gland ducts and at the recto-anal junction.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Basis
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the epidermis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q7. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BC8C50C161AB
+## title
+The surface epithelium:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The surface epithelium:
+## answer_a
+Is modified to give secretion
+## explanation_a
+Modified to secrete is glandular epithelium.
+## answer_b
+Is modified to contract
+## explanation_b
+Modified to contract is myo-epithelium.
+## answer_c
+Is modified to receive sensation
+## explanation_c
+Modified to receive sensation is neuro-epithelium.
+## answer_d
+Covers surfaces or lines cavities
+## explanation_d
+Correct. Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.
+## correct_answer
+D
+## main_concept
+CON-FND-49350AB867CB5A
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define surface epithelium against the other three classes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p10 q2. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-687C49FCD33A
+## title
+The trachea (upper respiratory tract) is lined by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The trachea (upper respiratory tract) is lined by:
+## answer_a
+simple squamouse pithelium
+## explanation_a
+Simple squamous epithelium is in the alveolus at the far end of the same airway, where the requirement changes from conducting to exchanging.
+## answer_b
+non keratinized stratified squamous epithelium
+## explanation_b
+Non-keratinised stratified squamous epithelium appears in the airway only after metaplasia in a heavy smoker.
+## answer_c
+Keratinized stratified squamouse pithelium
+## explanation_c
+Keratinised stratified squamous epithelium belongs to the skin and appears nowhere in the airway.
+## answer_d
+pseudostratified columnar ciliated epithelium with goblet cells
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the trachea in full.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q14. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-50BFB32D0BFE
+## title
+transitional epithelium is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+transitional epithelium is present in:
+## answer_a
+thyroid gland
+## explanation_a
+The thyroid gland is simple cubical epithelium lining its follicles.
+## answer_b
+urinary bladder
+## explanation_b
+Correct. The urinary bladder, the organ this epithelium exists for.
+## answer_c
+gallbladder
+## explanation_c
+The gall bladder is simple columnar. It is chosen because it stores a fluid and distends, but its distension is accommodated by folds in the wall rather than by the epithelium changing shape.
+## answer_d
+trachea
+## explanation_d
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## correct_answer
+B
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q20. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3753908E8AF7
+## title
+Transitional epithelium is stretchable as it has:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Transitional epithelium is stretchable as it has:
+## answer_a
+Thick basement membrane
+## explanation_a
+The bladder's basement membrane is thin and non-clear, not thick — and a thick basement membrane would resist stretch rather than permit it.
+## answer_b
+wide intracellular substance containing mucous like substance
+## explanation_b
+Correct as keyed. The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.
+## answer_c
+thin layer of keratin on top layer
+## explanation_c
+Keratin is a rigid dead layer for a dry surface. It would crack rather than stretch, and it is confined to the epidermis.
+## answer_d
+flat cells in the top layer and columnar cells in the top layer
+## explanation_d
+The option describing flat cells in the top layer and columnar cells in the top layer contradicts itself, and in any case the superficial cells are dome-shaped and the basal ones cuboidal.
+## correct_answer
+B
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the structural reason transitional epithelium can stretch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q29. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-771F2DEA86BB
+## title
+Transitional epithelium, one of the following is false:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Transitional epithelium, one of the following is false:
+## answer_a
+Lines the urinary bladder
+## explanation_a
+True, so not the false one. The urinary bladder is its principal site.
+## answer_b
+Contains goblet cells
+## explanation_b
+The false statement, and the answer. Goblet cells are unicellular mucous glands scattered in the respiratory and intestinal linings; mucus over the urothelium would serve no purpose, and the barrier here is the plaque instead.
+## answer_c
+Is classified as a stratified epithelium
+## explanation_c
+True, so not the false one. It is more than one layer, so it is stratified — named, like every stratified epithelium, for the shape of its superficial cells.
+## answer_d
+Has a non-clear basement membrane
+## explanation_d
+True, so not the false one. The non-clear basement membrane is the book's own point of comparison against the oesophagus.
+## correct_answer
+B
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that transitional epithelium has no goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q58. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-4A01AF525BC8
+## title
+Type of epithelium in Bowman's capsule of kidney is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in Bowman's capsule of kidney is:
+## answer_a
+Simple squamous
+## explanation_a
+Correct. Filtration needs the thinnest barrier available, and the parietal layer of Bowman's capsule is simple squamous.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium is the convoluted tubule further along the same nephron, where reabsorption happens.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Simple columnar ciliated epithelium is the uterus and bronchiole.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells is the airway.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of Bowman's capsule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q120. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0FC0EEFFFA8E
+## title
+Type of epithelium in bronchioles is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in bronchioles is:
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is further down still, in the alveolus.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium the book names for the bronchiole is columnar and ciliated.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Correct. Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated with goblet cells is the trachea and bronchi. The airway loses its pseudostratification and its goblet cells as it narrows, and this question is exactly about that transition.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Distinguish the bronchiole's epithelium from the trachea's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q112. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DC4A8A63EC08
+## title
+Type of epithelium in convoluted tubules of kidney is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in convoluted tubules of kidney is:
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is Bowman's capsule, at the start of the same nephron.
+## answer_b
+Simple cuboidal
+## explanation_b
+Correct. Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Nothing in the kidney tubule is ciliated in the sense meant here; urine is moved by pressure, not by beating.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells is the airway.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the convoluted tubules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q119. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8CDE975B61A3
+## title
+Type of epithelium in cornea is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in cornea is:
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratin would make the cornea opaque, which would defeat the whole organ. This is the option that turns a memorised list into a reason.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Correct. Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Explain why the cornea is non-keratinised.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q116. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-19AA5C95A5A7
+## title
+Type of epithelium in ducts of sweat glands is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in ducts of sweat glands is:
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the epidermis the duct passes through, not the duct itself.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium is the moist linings — mouth, oesophagus, cornea, vagina.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Correct. Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## correct_answer
+C
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the sweat gland duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q118. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-12BFD9157BED
+## title
+Type of epithelium in skin is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in skin is:
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Correct. Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+The non-keratinised form lines the moist surfaces. Giving it to the skin is the standard half-answer.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct, which is in the skin but is not the skin.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## correct_answer
+A
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the skin, keratinisation included.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q117. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-69BF202EDBA7
+## title
+Type of epithelium in thyroid follicles is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in thyroid follicles is:
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is for exchange, and a follicle secretes.
+## answer_b
+Simple cuboidal
+## explanation_b
+Correct. Simple cubical epithelium, the standard lining of a secretory unit.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Cilia have nothing to move in a closed follicle.
+## answer_d
+Pseudostratified columnar ciliated with goblet cell
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells belongs to the airway.
+## correct_answer
+B
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the thyroid follicle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q115. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-037AA9BD90D5
+## title
+Type of epithelium in trachea is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in trachea is:
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is the alveolus.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium is the terminal bronchiole and the gland acinus.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Simple columnar ciliated epithelium is the bronchiole — the same cilia, one layer, no goblet cells.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the trachea.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q111. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4A910F506C53
+## title
+Type of epithelium in ureter is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in ureter is:
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the skin.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium is the oesophagus and the other moist abraded linings.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the ureter.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q114. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3B5F3BC995F7
+## title
+Type of epithelium in urinary bladder is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type of epithelium in urinary bladder is:
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the skin.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium appears in the bladder only after bilharzial metaplasia.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the urinary bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q113. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D513812A0A66
+## title
+Urinary bladder is lined with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Urinary bladder is lined with:
+## answer_a
+Pseudostratified columnar epithelium
+## explanation_a
+Pseudostratified columnar epithelium is the airway and the male genital ducts.
+## answer_b
+Stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium is rare — gland ducts, recto-anal junction, penile urethra.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium is the bilharzial metaplasia answer, not the normal lining.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the urinary bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q26. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-345D1B74F841
+## title
+Urinary bladder is lined with ................... epithellum:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Urinary bladder is lined with ................... epithellum:
+## answer_a
+Pseudostratified columnar
+## explanation_a
+Pseudostratified columnar epithelium is the airway and the vas deferens.
+## answer_b
+Stratified columnar
+## explanation_b
+Stratified columnar epithelium is confined to gland ducts, the recto-anal junction and the penile urethra.
+## answer_c
+Stratified squamous
+## explanation_c
+Stratified squamous epithelium appears in the bladder only in bilharziasis, as metaplasia.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium, or urothelium.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of the urinary bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q26. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The bladder is lined by transitional epithelium, which is option D; the same question with the same four options is keyed D at `urinary-bladder-is-lined-with-5979e9b6`.
+
+
+---
+
+# Item
+## id
+QM-101-382D9E4DE583
+## title
+What type of epithelium is composed of cells which all touch the basement membrane and …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of epithelium is composed of cells which all touch the basement membrane and is only one cell layer thick?
+## answer_a
+Stratified squamous epithelium
+## explanation_a
+Stratified squamous epithelium has many layers and only the basal one touches the basement membrane.
+## answer_b
+Transitional epithelium
+## explanation_b
+Transitional epithelium is genuinely stratified as well.
+## answer_c
+Stratified cuboidal epithelium
+## explanation_c
+Stratified cuboidal epithelium has two layers, of which only one is basal.
+## answer_d
+Pseudostratified epithelium
+## explanation_d
+Correct. Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Recognise pseudostratified epithelium from the description of a single layer that looks like several.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q22. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-BC3B271F64E5
+## title
+What type of epithelium lines most of the gastrointestinal tract?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of epithelium lines most of the gastrointestinal tract?
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange and would be destroyed by gut contents.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium lines the gut's glands, not its surface.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.
+## answer_d
+Simple columnar ciliated
+## explanation_d
+Cilia belong to the airway and the female genital tract; nothing in the gut is moved by ciliary beat.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epithelium of most of the gastrointestinal tract.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q21. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-3D3AC913DA1D
+## title
+which of following contain desmosome:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which of following contain desmosome:
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium has junctions like any epithelium, but the book singles out neither it nor its junctions.
+## answer_b
+stratified cubical
+## explanation_b
+Stratified cubical epithelium is two layers in a sweat duct and is under no particular mechanical load.
+## answer_c
+stratified squamous
+## explanation_c
+Correct. The book states that desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.
+## answer_d
+all the above
+## explanation_d
+A hedge that loses the point: every epithelium has some desmosomes, and the question is which one is defined by having many.
+## correct_answer
+C
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect abundant desmosomes to the epithelium that takes friction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q21. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E82CD964F7E3
+## title
+Which of the following epithelia is also called the urothelium
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following epithelia is also called the urothelium
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium has its own regional names — endothelium and mesothelium — and neither of them is urothelium.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Stratified squamous epithelium is what urothelium becomes in bilharziasis, which is the one situation in which the two words meet.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is the gut.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Urothelium is transitional epithelium.
+## correct_answer
+D
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Match urothelium to transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q4. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-54AAE15485BE
+## title
+Which of the following epithelia may have a striate border on its surface
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following epithelia may have a striate border on its surface
+## answer_a
+Simple squamous epithelium
+## explanation_a
+A squamous cell has no room for a border of microvilli and no reason for one — it is not absorbing.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+A stratified squamous surface is shedding cells constantly; a specialised absorptive border there would be pointless.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.
+## answer_d
+Transitional epithelium
+## explanation_d
+The luminal surface of transitional epithelium carries rigid plaques, which is a barrier rather than an absorptive border.
+## correct_answer
+C
+## main_concept
+CON-FND-6887E3F110A894
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute the striated border to the absorptive simple columnar cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q3. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2CB9CC7349B2
+## title
+Which of the following epithelium may have keratin on the surface:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following epithelium may have keratin on the surface:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer for exchange; keratinising it would destroy the function and the cell.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium secretes and absorbs and stays alive at its surface.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is bathed in urine and never keratinises.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise that only stratified squamous epithelium keratinises.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q2. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-56205E2C7588
+## title
+Which organ contains stratified squamous epithelium with keratinization?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which organ contains stratified squamous epithelium with keratinization?
+## answer_a
+oral cavity
+## explanation_a
+The oral cavity is stratified squamous and moist, so non-keratinised.
+## answer_b
+Esophagus
+## explanation_b
+The oesophagus is the same — stratified squamous non-keratinised.
+## answer_c
+Trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated and is not stratified squamous at all.
+## answer_d
+Skin
+## explanation_d
+Correct. The skin, the only place in the body where the surface is dry and the epithelium keratinises.
+## correct_answer
+D
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the keratinised site out of three non-keratinised ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q62. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-408691506B4D
+## title
+Which type of epithelium are cells which are main site of gas exchange?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of epithelium are cells which are main site of gas exchange?
+## answer_a
+Pseudostratified columnar epithelium
+## explanation_a
+Pseudostratified columnar epithelium conducts air and cleans it; it is far too thick for gas to cross.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is thicker than squamous and belongs to secretory and reabsorptive sites.
+## answer_c
+Simple squamous epithelium
+## explanation_c
+Correct. Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is built to be impermeable, which is the opposite requirement.
+## correct_answer
+C
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the epithelium at which gas exchange happens.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q61. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-44E5013B5ED7
+## title
+Which type of epithelium is best suited for rapid filtration?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of epithelium is best suited for rapid filtration?
+## answer_a
+simple squamous
+## explanation_a
+Correct. Filtration in Bowman's capsule needs the thinnest possible barrier, and one layer of flat cells provides it.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium is many layers of protection — designed to stop things crossing.
+## answer_c
+pseudostratified
+## explanation_c
+Pseudostratified epithelium is thick and mucus-covered.
+## answer_d
+stratified cuboidal
+## explanation_d
+Stratified cuboidal epithelium is two layers in a duct and filters nothing.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Connect filtration to the thinnest epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q53. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-445DF704C7B1
+## title
+which type of epithelium is called respiratory epithelium?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which type of epithelium is called respiratory epithelium?
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is the alveolus, at the end of the respiratory tract rather than lining its conducting part.
+## answer_b
+stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.
+## answer_c
+pseudo stratified columnar epithelium
+## explanation_c
+The source's printed answer, and incomplete. Pseudostratified columnar epithelium comes in three forms, and the non-ciliated one lines the vas deferens — so this name alone does not identify the respiratory lining.
+## answer_d
+pseudo stratified ciliated columnar epithelium
+## explanation_d
+Correct. Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.
+## correct_answer
+D
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Name respiratory epithelium exactly, including the cilia that define it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q22. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The source key gives C, "pseudo stratified columnar epithelium", but the book divides pseudostratified columnar epithelium into three forms and only the ciliated one is the respiratory epithelium — the non-ciliated form lines the vas deferens. Option D names the ciliated form exactly, so with both on the same list D is the single best answer and C is the incomplete one. Recorded rather than followed, because the printed key would teach students that the cilia are optional.
+
+
+---
+
+# Item
+## id
+QM-101-49DF59311243
+## title
+which type of epithelium is found in organs that are responsible for gaseous exchange?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which type of epithelium is found in organs that are responsible for gaseous exchange?
+## answer_a
+simple squamous epithelium
+## explanation_a
+Correct. Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is secretory and reabsorptive.
+## answer_c
+pseudo-stratified columnar epithelium
+## explanation_c
+Pseudostratified columnar epithelium conducts and cleans the air on its way in.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+Stratified squamous epithelium is a barrier, which is precisely what an exchange surface must not be.
+## correct_answer
+A
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the epithelium of organs responsible for gaseous exchange.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q16. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3FE5B938EF0D
+## title
+which type of epithelium is found in the skin?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which type of epithelium is found in the skin?
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer for exchange.
+## answer_b
+stratified cuboidal epithelium
+## explanation_b
+Stratified cuboidal epithelium is the sweat gland duct within the skin, not the skin surface.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+Correct. Stratified squamous keratinised epithelium.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+The same epithelium named without its keratin, which is the option this question exists to separate from the right one. Given both, the more exact name is the answer.
+## correct_answer
+C
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the skin's epithelium with its keratinisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q19. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-23E61C8425B9
+## title
+Which type of epithelium is present epidermis?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of epithelium is present epidermis?
+## answer_a
+Stratified squamous epithelium without keratinization
+## explanation_a
+Without keratinisation this is the lining of the oesophagus, mouth and vagina — moist surfaces, not skin.
+## answer_b
+Stratified squamous epithelium with keratinization
+## explanation_b
+Correct. Stratified squamous epithelium with keratinisation.
+## answer_c
+Secretory type of epithelium
+## explanation_c
+Secretory epithelium is glandular. The skin contains glands, but the epidermis itself covers.
+## answer_d
+Absorptive type of epithelium
+## explanation_d
+Absorptive epithelium is simple columnar with microvilli, and the skin is built to keep things out rather than take them in.
+## correct_answer
+B
+## main_concept
+CON-FND-8FEBD5195DCED2
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the epidermal epithelium with its keratinisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q64. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2BD4318F98F9
+## title
+Which type of the epithelium has dome shaped cells?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of the epithelium has dome shaped cells?
+## answer_a
+Transitional epithelium
+## explanation_a
+Correct. The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.
+## answer_b
+Stratified cubical epithelium
+## explanation_b
+Stratified cubical epithelium has cube-shaped surface cells with flat tops.
+## answer_c
+Stratified columnar epithelium
+## explanation_c
+Stratified columnar epithelium has tall surface cells.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Stratified squamous epithelium has flat surface cells — the shape at the opposite extreme, and the reason a distended bladder is so often misread as stratified squamous.
+## correct_answer
+A
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the dome cell to transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q32. Manifest src_1fb914ce96908301b7b1.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.

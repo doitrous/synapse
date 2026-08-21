@@ -9,14 +9,18 @@
  * *committed batches* are. So this reads the batch files themselves, which is
  * the one artefact both lanes always share.
  *
- * Three ways one idea ends up as two concepts, and this finds all of them:
+ * Four ways one idea ends up as two rows, and this finds all of them:
  *
  *   1. One canonical key carrying two IDs. Should be impossible while the mint
  *      is a pure function of the key, and is checked anyway because that is the
  *      property the whole scheme rests on.
- *   2. One ID carrying two canonical keys — a genuine hash collision, or a
+ *   2. The same ID twice in one file. Grouping by key finds one ID here and
+ *      reports nothing, which is how it went unnoticed — it came from an
+ *      emitter writing a concept once per leaf without deduplicating, and the
+ *      importer would apply it as a record overwriting itself.
+ *   3. One ID carrying two canonical keys — a genuine hash collision, or a
  *      hand-edited batch.
- *   3. Two IDs sharing a hash body behind different subject prefixes. The mint
+ *   4. Two IDs sharing a hash body behind different subject prefixes. The mint
  *      hashes the key alone and the subject only picks the prefix, so this is
  *      the same key filed under two subjects — the failure that survives a
  *      correct mint, and the only one a reader is likely to skim past, because
@@ -56,6 +60,20 @@ for (const [key, seen] of group(rows, (row) => row.key)) {
   if (ids.length > 1) {
     problems.push(`canonical key "${key}" has ${ids.length} ids: ${ids.join(', ')} `
       + `(${[...new Set(seen.map((row) => row.file))].join(', ')})`)
+  }
+}
+
+// The same id twice in one file. Distinct from an id shared by two keys: here
+// the key is the same too, so grouping by key finds one id and reports nothing.
+// It arrived from an emitter that wrote a concept once per leaf without
+// deduplicating, and the importer would apply it as a record overwriting
+// itself — the later row silently winning on every field.
+for (const [file, seen] of group(rows, (row) => row.file)) {
+  for (const [id, rowsWithId] of group(seen, (row) => row.id)) {
+    if (rowsWithId.length > 1) {
+      problems.push(`${file} carries ${rowsWithId.length} rows with id ${id} `
+        + `(canonical key "${rowsWithId[0].key}") — the importer would apply the last one and drop the rest`)
+    }
   }
 }
 

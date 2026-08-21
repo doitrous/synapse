@@ -268,6 +268,13 @@ async function mcq() {
   // no single paper can give.
   const conceptBlocks: string[] = []
   const questionBlocks: string[] = []
+  // Concepts by canonical key, so a concept two leaves both test is one record
+  // carrying every occurrence and every article that teaches it.
+  const byKey = new Map<string, {
+    concept: McqLeafSeed['concepts'][number]
+    signals: Set<string>
+    articleIds: Set<string>
+  }>()
   let excluded = 0
   let unanswered = 0
 
@@ -280,7 +287,21 @@ async function mcq() {
         .filter((one) => one.conceptKey === concept.key)
         .flatMap((one) => bank.get(one.key)?.occurrences ?? [])
         .map((where) => `${where.sourceId} | question_book | | p${where.page} | 101 ISK`)
-      conceptBlocks.push(mcqConceptBlock(concept, [...new Set(signals)], leaf.articleId))
+      // Merged across leaves, not emitted per leaf. Two leaves may correctly
+      // reuse one concept — `cilium-origin-and-ultrastructure` is tested from
+      // both the cytoplasm and the membranous-specialisations side — and
+      // emitting it twice put two rows with one id in the batch, which the
+      // importer would apply as a record overwriting itself. The paper path
+      // has always deduplicated by key; this one did not.
+      const found = byKey.get(concept.key)
+      if (found) {
+        for (const signal of signals) found.signals.add(signal)
+        found.articleIds.add(leaf.articleId)
+      } else {
+        byKey.set(concept.key, {
+          concept, signals: new Set(signals), articleIds: new Set([leaf.articleId]),
+        })
+      }
     }
 
     for (const authored of live) {
@@ -289,6 +310,10 @@ async function mcq() {
       if (!authored.answerOverride && !row.answer) { unanswered += 1; continue }
       questionBlocks.push(mcqBlock(row, authored, leaf))
     }
+  }
+
+  for (const { concept, signals, articleIds } of byKey.values()) {
+    conceptBlocks.push(mcqConceptBlock(concept, [...signals], [...articleIds].join(' | ')))
   }
 
   const header = `Multiple-choice questions for 101 ISK, from the departmental question books.

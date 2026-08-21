@@ -2,6 +2,7 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Cytoplasm — 145 questions, 23 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
@@ -11,6 +12,7 @@
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
@@ -24,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  92 questions were excluded and 0 held back for having no
+  122 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -468,6 +470,2213 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous
+## id
+CON-FND-2560DB7970AF40
+## canonical_key
+organelles-inclusions-and-the-membranous-classification
+## definition
+Cytoplasm is cytosol, organelles and inclusions. Organelles are living, permanent, essential and active, and have vital functions; inclusions are non-living, temporary, usually not essential and inert, and result from the cell's activity. Organelles are classified by whether they have a limiting membrane. The membranous ones are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes; the non-membranous ones are the ribosomes and the cytoskeleton, with the centrioles, cilia and flagella that the microtubules build. The inclusions are stored food — glycogen, which dissolves out of an H&E section leaving vacuoles and is shown by Best's carmine or PAS, and fat, vacuolated in H&E and orange with Sudan III — and pigments, endogenous (haemoglobin, melanin, lipofuscin) or exogenous (carbon and dust, carotene, tattoo dyes).
+## explicit_objective
+Separate organelles from inclusions by the five properties the book contrasts, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.
+## pitfalls
+Calling a coated vesicle or a centriole an organelle of the wrong class. A coated vesicle is a piece of membrane and is membranous; a centriole is built of microtubules and has no membrane at all.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.87
+## exam_weight_by_year
+KAU_Y1=0.87
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Cytoplasmic inclusions | Membranous organelles | Non-membranous organelles
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+What a cell is doing can be read from which organelle is prominent in it
+## id
+CON-FND-7D25B3CB28F0F6
+## canonical_key
+organelle-content-identifies-what-a-cell-does
+## definition
+A cell's organelle profile follows from its work, and the books examine the inference in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.
+## explicit_objective
+Predict which organelle will be prominent in a named cell, and name the cell from a described organelle profile.
+## pitfalls
+Reading basophilia as a property of the cell rather than of its ribosomes. A cell is basophilic because it is full of rough endoplasmic reticulum, so the staining and the organelle are one fact, not two that have to be memorised separately.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p2 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Several cells used in these rows have concepts of their own that already belong to sibling leaves of this batch — `fibroblast-active-and-fibrocyte-inactive` in `haemopoiesis.ts`, the macrophage and plasma cell in the connective-tissue leaves, and the erythrocyte in a leaf not yet seeded. None of them could be declared again here without emitting a duplicate concept id, so the cell-specific facts are carried in the option explanations. When those leaves are authored, these rows should be re-homed to them.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A mitochondrion is two membranes — a smooth outer one with porins and an inner one folded into cristae — around a matrix that holds its own DNA
+## id
+CON-FND-29AD7E837E1E1E
+## canonical_key
+mitochondrion-ultrastructure-and-staining
+## definition
+A mitochondrion is bounded by two unit membranes. The outer membrane is smooth, carries porins and is permeable to small molecules. The inner membrane is selectively permeable and is thrown into folds — the cristae — which greatly increase its area and carry the elementary particles, globular structures attached by stalks with ATP synthase activity. Between them lies the intermembranous space, and within the inner membrane the matrix, which holds the oxidative enzymes of the citric acid cycle, mitochondrial DNA and mRNA, tRNA and rRNA, and dense calcium-rich granules that act as catalysts. Mitochondria are 0.5 µm across and up to 10 µm long, vary in number and shape with the cell, increase in number by simple division, and are sited in the most active part of the cell. They stain dark blue with iron haematoxylin and green with Janus green, and their cytoplasmic content makes them acidophilic in H&E.
+## explicit_objective
+Describe the two mitochondrial membranes and the matrix, say what is on the cristae, and give the two stains that demonstrate the organelle.
+## pitfalls
+Putting the cristae on the outer membrane. The outer one is smooth; it is the inner membrane that folds, and the folds are where the ATP is made.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Cristae | Elementary particles | Mitochondrial matrix | Janus green
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The mitochondrion makes the cell's ATP — Krebs cycle in the matrix, oxidative phosphorylation on the cristae — and in brown fat makes heat instead
+## id
+CON-FND-B845AC57451E7F
+## canonical_key
+mitochondrion-power-house-krebs-oxidative-phosphorylation-and-heat
+## definition
+The mitochondrion is the power house of the cell: it holds the enzymes of aerobic respiration and energy production, and it is sited wherever the cell needs the energy. The enzymes of the citric acid — Krebs — cycle are in the matrix; the enzymes of oxidative phosphorylation are on the inner membrane, in the elementary particles of the cristae, where ATP synthase makes the ATP. Mitochondria also regulate calcium, storing it in the dense matrix granules, and they can generate heat rather than ATP: the mitochondria of the multilocular brown fat cell are packed with cytochrome pigment, which colours the tissue, and with thermogenin, which uncouples oxidation from ATP production so the energy leaves as heat. A defect in the mitochondrial enzymes means a failure to produce the ATP every vital activity needs, and in muscle that shows as muscular weakness.
+## explicit_objective
+Say where in the mitochondrion each stage of energy production happens, and explain what changes in a mitochondrion that makes heat instead of ATP.
+## pitfalls
+Placing the Krebs cycle on the inner membrane. The cycle is a set of soluble enzymes in the matrix; only the respiratory chain and ATP synthase are on the membrane, and the books ask both in the same option list.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p9 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Oxidative phosphorylation | ATP synthase | Thermogenin | Brown fat
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+## id
+CON-FND-0E38E21957DB05
+## canonical_key
+rough-endoplasmic-reticulum-structure-and-protein-export
+## definition
+The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds. The rough kind is parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason. It is abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised. It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
+## explicit_objective
+Describe the rough endoplasmic reticulum's membranes and ribosome attachment, and list what it does to a protein before the Golgi apparatus receives it.
+## pitfalls
+Giving rough endoplasmic reticulum two membranes because a mitochondrion has two. It has one, and the ribosomes are on its outer face — the face towards the cytoplasm, where the messenger RNA is.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_6846577508f49244d715 | question_book | | p12 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Granular endoplasmic reticulum | Ribophorin | Cisternae | Protein segregation
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Smooth endoplasmic reticulum is invisible in itself and known by the acidophilia it causes and its ribosome-free tubules
+## id
+CON-FND-0B3CC0A79F9150
+## canonical_key
+ser-structure-function-steroid-detoxification
+## definition
+Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells. On light microscopy it is not demonstrated as such, but where it is abundant it gives the cytoplasm an acidophilia. On electron microscopy it is a network of branching and anastomosing tubules of variable shape, continuous with the rough endoplasmic reticulum, whose membranes carry no bound ribosomes.
+## explicit_objective
+Describe smooth endoplasmic reticulum as it appears on light microscopy and on electron microscopy, and say what it does.
+## pitfalls
+Expecting to see it under the light microscope. What is seen is the cytoplasmic acidophilia it produces when abundant, not the organelle.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p13 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.95
+## exam_weight_by_year
+KAU_Y1=0.95
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Agranular endoplasmic reticulum
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
+## id
+CON-FND-9EBFBDE42AC100
+## canonical_key
+golgi-apparatus-lm-appearance-and-position
+## definition
+The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell. It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils. Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.
+## explicit_objective
+Recognise the negative Golgi image, name the stain that shows the Golgi positively, and give its position in a secretory cell and in a nerve cell.
+## pitfalls
+Expecting the pale supranuclear area to be empty. It is where the Golgi is; it looks pale because the Golgi takes neither dye, not because nothing is there.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Negative Golgi image | Golgi hof | Silver impregnation
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The Golgi is a stack of flat saccules with an entry and an exit face, and everything it buds off leaves from the exit face
+## id
+CON-FND-405BB5EA3C359E
+## canonical_key
+golgi-apparatus-em-structure-products-and-functions
+## definition
+On electron microscopy the Golgi apparatus is a stack of three to ten interconnected, parallel, flat curved saccules lying above one another, with vesicles at both ends. The entry or cis face receives the transfer vesicles that the rough endoplasmic reticulum sends; the exit or trans face buds off the products — secretory vesicles, lysosomes and coated vesicles. A transfer vesicle is therefore not a Golgi product but a Golgi input, which is the distinction the books ask most often. The Golgi packs, concentrates and stores protein, modifies it chemically by adding carbohydrate to make glycoprotein, forms secretory vesicles and primary lysosomes, and renews and maintains the cell membrane by sending membrane to it.
+## explicit_objective
+Describe the Golgi stack and its two faces, say what arrives at each and what leaves, and list its functions.
+## pitfalls
+Calling the transfer vesicle a product of the Golgi. It comes from the rough endoplasmic reticulum and arrives at the cis face; secretory vesicles, lysosomes and coated vesicles leave from the trans face.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Cis face | Trans face | Saccules | Transfer vesicle | Secretory vesicle
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A lysosome is a single-membrane bag of hydrolytic enzymes made in the rER, packed by the Golgi, and shown only by histochemistry
+## id
+CON-FND-1ACE68A9080772
+## canonical_key
+lysosome-enzymes-origin-and-functions
+## definition
+A lysosome is a membranous organelle bounded by a single membrane and containing hydrolytic enzymes — acid phosphatase, protease, sulfatase, phospholipase, nuclease — for intracytoplasmic digestion. The enzymes are made on the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus and released from it in lysosomes, so two organelles share in forming them. They are abundant in phagocytic cells: macrophages, neutrophils and monocytes. They cannot be seen in a routine section and need a histochemical reaction — the acid phosphatase reaction — to be identified. They digest nutrients and phagocytosed bacteria and viruses, remove excess and non-functional organelles, carry out postmortem autolysis, help the sperm head penetrate the ovum at fertilisation, and activate thyroid hormone by breaking the bond between the hormone and its protein. Lack of a lysosomal enzyme such as a sulfatase leaves sulfated compounds accumulating inside the cell and interfering with the function of nerve cells.
+## explicit_objective
+Say what a lysosome contains, where its enzymes are made and packed, how it is demonstrated, and list what it does for the cell.
+## pitfalls
+Handing detoxification of drugs to the lysosome. Both organelles break things down, but drug detoxification is smooth endoplasmic reticulum; the lysosome digests what has been taken in or worn out.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_6846577508f49244d715 | question_book | | p21 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Acid phosphatase | Hydrolytic enzymes | Intracytoplasmic digestion
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate
+## id
+CON-FND-42CCE864C55A08
+## canonical_key
+lysosome-types-electron-microscopy
+## definition
+A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.
+## explicit_objective
+Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.
+## pitfalls
+Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A secondary lysosome is named by what the primary lysosome fused with, and all end as residual bodies
+## id
+CON-FND-9D325B98FC59A0
+## canonical_key
+lysosome-types-secondary-fates
+## definition
+Secondary lysosomes are heterogeneous membranous vesicles that have entered digestive events. A heterolysosome is a primary lysosome fused with a phagosome, digesting solid particles; a multivesicular body is a primary lysosome fused with a pinocytic vesicle, digesting fluid; an autolysosome is a primary lysosome fused with old organelles. What is left undigested becomes a residual body, which is either discharged from the cell by exocytosis or stays in it as lipofuscin, the pigment that accumulates with age particularly in non-dividing cells such as cardiac muscle and nerve cells.
+## explicit_objective
+Name the three types of secondary lysosome by what the primary lysosome fused with, and give the fate of the residual body.
+## pitfalls
+Treating the residual body as a fourth type of secondary lysosome. It is the end state of all three, not a parallel kind.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p9 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p8 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Heterolysosome | Autolysosome | Multivesicular body | Residual body
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A peroxisome holds oxidases that make hydrogen peroxide and catalase that destroys it
+## id
+CON-FND-195407DF67047D
+## canonical_key
+peroxisome-oxidase-and-catalase
+## definition
+Peroxisomes, or microbodies, are spherical membranous vesicles bounded by a single membrane, budding off the rough endoplasmic reticulum, whose enzymes are made on free ribosomes rather than on attached ones. They hold two kinds of enzyme. The oxidases carry out beta-oxidation of long-chain fatty acids, which produces heat rather than ATP and generates hydrogen peroxide as a toxic by-product; catalase then breaks that hydrogen peroxide into water and oxygen. They are abundant in liver and kidney cells and they increase in number by division. Lack of peroxisomal enzymes affects the function of organs such as the liver.
+## explicit_objective
+Name the two enzyme groups of the peroxisome, say what each does, and distinguish the organelle from the lysosome by its enzymes.
+## pitfalls
+Giving the peroxisome hydrolytic enzymes. It has oxidases and catalase; hydrolases are the lysosome's, and every "except" question about peroxisomes in these books is built on that one substitution.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p9 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p7 | 101 ISK
+src_6846577508f49244d715 | question_book | | p6 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.87
+## exam_weight_by_year
+KAU_Y1=0.87
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Microbody | Catalase | Beta oxidation
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A ribosome is a non-membranous particle of rRNA and protein, assembled as two unequal subunits in the nucleolus
+## id
+CON-FND-4284C6B8667CD6
+## canonical_key
+ribosome-structure-and-origin-in-the-nucleolus
+## definition
+A ribosome is a non-membranous particle formed of ribosomal RNA and protein, appearing on electron microscopy as an electron-dense granule 20–30 nm across. Its rRNA is formed in the nucleolus and its proteins in the cytoplasm; both unite in the nucleolus into a large and a small subunit of unequal size, which return separately to the cytoplasm and join one another only during protein synthesis, held together by the messenger RNA that threads between them. The growing polypeptide chain is carried on the large subunit. Ribosomes linked along one strand of mRNA are polyribosomes or polysomes, seen as bead-like rosettes or spiral chains.
+## explicit_objective
+Give the composition of a ribosome, say where each of its parts is made and where they are assembled, and explain what joins its two subunits.
+## pitfalls
+Making the two subunits equal, or making the ribosome membranous. It is two unequal subunits and it has no membrane at all — which is why it is one of only two non-membranous organelles.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p30 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Polyribosome | Polysome | Ribosomal subunits
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Free ribosomes make protein the cell keeps; attached ribosomes make protein it exports — and both together are why cytoplasm is basophilic
+## id
+CON-FND-60953640114635
+## canonical_key
+free-versus-attached-ribosomes-and-cytoplasmic-basophilia
+## definition
+A ribosome is either free in the cytoplasm, singly or as a polyribosome, or attached by its large subunit to the ribophorins of the rough endoplasmic reticulum. Free ribosomes form the proteins the cell uses within itself — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes. Attached ribosomes form the proteins the cell secretes: enzymes and hormones for export. Ribosomes are what make cytoplasm basophilic, because of the acidity of the phosphate groups of their RNA, and the pattern of that basophilia says where they are — localised or focal basophilia marks a site of rough endoplasmic reticulum, and diffuse basophilia free ribosomes scattered through the cytosol.
+## explicit_objective
+Predict from a cell's free-to-attached ribosome ratio what kind of protein it is making, and explain what cytoplasmic basophilia is caused by.
+## pitfalls
+Reading basophilia as acidophilia because RNA is an acid. The RNA is acidic, so it binds the *basic* dye — that is what basophilic means, and the reasoning has to be run one step further than it feels like it should.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p27 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p3 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p13 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Free ribosomes | Attached ribosomes | Cytoplasmic basophilia
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The cytoskeleton is microtubules, microfilaments and intermediate filaments — and nothing else
+## id
+CON-FND-6D29BE5A5B1325
+## canonical_key
+cytoskeleton-is-three-filament-systems
+## definition
+The cytoskeleton is a complex network of microtubules, microfilaments and intermediate filaments, joined by linking proteins into a microtrabecular lattice that fills the cytosol. All three are non-membranous, and all three are beyond the resolution of the light microscope except by immunofluorescence. The centrioles, cilia and flagella are built by the microtubules and the microvilli and stereocilia by the microfilaments, so they are products of the cytoskeleton rather than a fourth element of it, and the thick filaments of muscle are a contractile apparatus rather than part of it.
+## explicit_objective
+Name the three elements of the cytoskeleton and recognise what the books offer beside them that is not one.
+## pitfalls
+Admitting thick filaments to the cytoskeleton because thin filaments are in it. Thin filaments are the microfilaments; thick filaments are myosin of the muscle contractile apparatus, and the books use the pair as an "except" every time.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_6846577508f49244d715 | question_book | | p7 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p15 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Microtrabecular lattice | Thin filaments
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A microtubule is a 24 nm hollow cylinder of thirteen protofilaments of alpha and beta tubulin, grown from the microtubule organising centre
+## id
+CON-FND-05D3B2832089AB
+## canonical_key
+microtubule-structure-and-functions
+## definition
+A microtubule is a hollow cylinder of fixed diameter, 24 nm across, whose wall is thirteen parallel protofilaments built from dimers of alpha and beta tubulin. Its length is not fixed: it lengthens and shortens by adding and losing tubulin at its ends, so it is dynamic, and its assembly is directed by the microtubule organising centre, which is rich in a third form, gamma tubulin, and contains the two perpendicular centrioles. Microtubules determine the shape of the cell and its elongation, transport organelles, vesicles and macromolecules through the cytoplasm, form the mitotic spindle during cell division, and build the centrioles, cilia and flagella. Because the spindle is made of them, cancer chemotherapy that prevents microtubule formation arrests the proliferation of a tumour.
+## explicit_objective
+Give the diameter, the protein and the wall structure of a microtubule, and list what it builds and what it does.
+## pitfalls
+Confusing the fixed diameter with a fixed length. The diameter never varies, because thirteen protofilaments always make the same circumference; the length varies constantly, and that instability is what the spindle depends on.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p27 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p30 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p15 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Tubulin | Protofilament | Microtubule organizing centre | MTOC | Mitotic spindle
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A microfilament is a 5–7 nm strand of two coiled chains of actin, and it changes the shape of the cell
+## id
+CON-FND-DAF4EB4BC63077
+## canonical_key
+microfilament-structure-and-functions
+## definition
+A microfilament, or thin filament, is a fine strand 5–7 nm in diameter formed of two chains of globular G actin coiled together into filamentous F actin. Microfilaments lie in a web beneath the plasmalemma and form the core of the microvillus and of the stereocilium. They change the shape of the cell in endocytosis, exocytosis and amoeboid movement, transport organelles, cleave the cell in two at the cleavage furrow of cell division, and act with myosin in muscle contraction. The peripheral hyalomere of the platelet and the contractile network of the pericyte are both actin and myosin of this kind.
+## explicit_objective
+Give the diameter and the protein of a microfilament, and list the movements and shape changes it performs.
+## pitfalls
+Handing the mitotic spindle to the microfilament. The microfilament cleaves the cell at the end of division; the spindle that separates the chromosomes is microtubule, and the books put the two in the same "except" list.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Actin filament | Thin filament | G actin | F actin
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Intermediate filaments are supportive, 8–10 nm, and each tissue has its own protein — which is what makes them diagnostic
+## id
+CON-FND-6268E97A4A9F26
+## canonical_key
+intermediate-filament-types-and-tumour-diagnosis
+## definition
+Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue. Their role is supportive rather than motile. Cytokeratin is the intermediate filament of epithelium, vimentin of connective tissue and muscle, desmin of muscle, neurofilaments of neurons, glial fibrillary acidic protein of glial cells, and the lamins of the nuclear envelope. Because each is tissue-specific, identifying the intermediate filament protein of a tumour by immunocytochemistry reveals the cell the tumour arose from, and that matters for its diagnosis and its treatment.
+## explicit_objective
+Give the diameter and subunit of an intermediate filament, name the six proteins and their tissues, and explain why they are used in tumour diagnosis.
+## pitfalls
+Choosing microtubules for the tumour question because chemotherapy acts on microtubules. Two different tumour questions sit side by side in these books: microtubules are what a drug blocks, and intermediate filaments are what a pathologist stains.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p16 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Cytokeratin | Vimentin | Desmin | Neurofilament | GFAP | Lamins
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A centriole is a cylinder of nine microtubule triplets — 27 microtubules — and a pair of them organises the mitotic spindle
+## id
+CON-FND-F2650956ED1A0C
+## canonical_key
+centriole-structure-and-role-in-cell-division
+## definition
+A centriole is a short cylindrical structure whose wall is nine bundles of three microtubules each, twenty-seven microtubules in all, with no central pair and no membrane. In a non-dividing cell two lie perpendicular to one another surrounded by a tubulin matrix, the whole being the centrosome, which is the microtubule organising centre. The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles, where they organise the mitotic spindle, so the centriole is a self-replicating structure. Centrioles also duplicate thousands of times over to form the basal bodies of cilia and flagella, which have exactly a centriole's structure.
+## explicit_objective
+Give the microtubule arrangement of a centriole, describe the centrosome, and say what centrioles do in division and in ciliogenesis.
+## pitfalls
+Counting nine and stopping. The centriole's nine bundles are triplets, so the count is twenty-seven; nine is the rootlet, eighteen the doublets of the shaft alone, and twenty the shaft with its central pair.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Centrosome | Diplosome | Basal body
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A cilium arises from a basal body and is built on a 9+2 axoneme
+## id
+CON-FND-0FAE59E00B748E
+## canonical_key
+cilium-origin-and-ultrastructure
+## definition
+A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface. On electron microscopy the shaft contains an axoneme of nine peripheral microtubule doublets around a central pair, with dynein arms on the doublets that produce the beat.
+## explicit_objective
+Describe where a cilium comes from and what its 9+2 axoneme looks like on electron microscopy.
+## pitfalls
+Giving microvilli the same answer. A microvillus has an actin core and no axoneme, and does not beat.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p23 | 101 ISK
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.95
+## exam_weight_by_year
+KAU_Y1=0.95
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A microvillus is a short actin-cored projection for absorption, and a stereocilium is a long one — neither is a cilium
+## id
+CON-FND-632A634868EEC6
+## canonical_key
+microvillus-and-stereocilium-have-actin-cores
+## definition
+A microvillus is a finger-like projection of the apical cell surface, shorter than a cilium, with a core of actin filaments inserted into a terminal web of the cytoskeleton, and no microtubules. Seen with the light microscope, the mass of them is the striated or brush border, and their purpose is to increase surface area for absorption — in the small intestine and the kidney tubule. A stereocilium is not a cilium either: it is a long, non-motile, solid microvillus with the same actin core and no microtubules, and it helps absorption in the male genital system, notably the epididymis. Cilia, by contrast, are motile, have a microtubular axoneme, and are seen by light microscopy as fine hair-like striations at the free surface.
+## explicit_objective
+Distinguish microvilli, stereocilia and cilia by their core protein, their motility and what they are seen as by light microscopy.
+## pitfalls
+Trusting the name "stereocilium". It has no microtubules and does not move; it is a long microvillus and takes an actin answer every time.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+
+## weight_confidence
+0.6
+## blueprint_weight
+0.15
+## exam_weight_by_year
+KAU_Y1=0.15
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Brush border | Striated border | Terminal web | Stereocilia
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis
+## id
+CON-FND-E66C68C0B80D16
+## canonical_key
+endocytosis-three-types-and-exocytosis
+## definition
+Endocytosis is the bulk movement of material into the cell by forming vesicles from the plasma membrane, and it is of three kinds. Phagocytosis, cell eating, surrounds a solid particle with pseudopodia — a white blood cell engulfing a bacterium. Pinocytosis, cell drinking, takes in extracellular fluid and what is dissolved in it through small invaginations, needing no other protein to do it. Receptor-mediated endocytosis begins when a ligand binds its receptors; the receptors aggregate over a patch of membrane that clathrin coats on its cytoplasmic side, forming a coated pit which pinches off as a coated vesicle — this is how a hormone such as growth hormone is taken up. Exocytosis is the reverse: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside without breaking the continuity of the membrane, and it is how a merocrine gland secretes.
+## explicit_objective
+Distinguish the three types of endocytosis by what is taken in and by how the membrane does it, and contrast all three with exocytosis.
+## pitfalls
+Deciding by the size of the word rather than by what is engulfed. Phagocytosis takes solids, pinocytosis takes fluid, and receptor-mediated endocytosis takes whatever its receptor binds however little of it there is.
+## concept_type
+mechanism
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Phagocytosis | Pinocytosis | Receptor mediated endocytosis | Coated pit | Clathrin | Exocytosis
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The proteasome, not the lysosome, destroys abnormal and short-lived proteins inside the cytosol
+## id
+CON-FND-0D6F0DC6CBAD60
+## canonical_key
+proteasome-degrades-abnormal-and-short-lived-proteins
+## definition
+A proteasome is a non-membranous cytoplasmic protein complex that degrades abnormal, misfolded and short-lived proteins in the cytosol, after they have been tagged with ubiquitin. It differs from the lysosome in having no membrane and in acting on the cell's own soluble proteins rather than on material taken in or on whole worn-out organelles. Failure of proteasomal degradation lets abnormal protein accumulate in the cell, which is the mechanism the question books attach to Alzheimer's disease.
+## explicit_objective
+Distinguish the proteasome from the lysosome by what each destroys and by whether it has a membrane.
+## pitfalls
+Answering "lysosome" because the question says degradation. The lysosome digests what has been engulfed or worn out; abnormal short-lived cytosolic protein is the proteasome's work.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p18 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Proteosome | Ubiquitin
+## article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book's cytology chapter does not mention proteasomes at all — it names ribosomes and the cytoskeleton as the only non-membranous organelles. The question books nevertheless examine the proteasome as a distractor and, in two rows, as the answer. The concept is minted because it is examined, and this note records that no statement in the faculty's own text supports it.
 ## owner
 Claude
 ## publication_status
@@ -3518,104 +5727,6 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
-A cilium arises from a basal body and is built on a 9+2 axoneme
-## id
-CON-FND-0FAE59E00B748E
-## canonical_key
-cilium-origin-and-ultrastructure
-## definition
-A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface. On electron microscopy the shaft contains an axoneme of nine peripheral microtubule doublets around a central pair, with dynein arms on the doublets that produce the beat.
-## explicit_objective
-Describe where a cilium comes from and what its 9+2 axoneme looks like on electron microscopy.
-## pitfalls
-Giving microvilli the same answer. A microvillus has an actin core and no axoneme, and does not beat.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
-src_6846577508f49244d715 | question_book | | p5 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
-src_6846577508f49244d715 | question_book | | p23 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Epithelial Tissues
-## aliases
-
-## article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-## support_mode
-direct_statement
-## conflicts
-This concept states that dynein arms produce the beat. The department book does not: it attributes the beat to the bending of adjacent doublets against one another and names no dynein arm, nexin link or radial spoke anywhere. The question books follow the book — the answer key to "Movement of cilia can be done by: dynein arms / nexin / radial spokes / none of the above" is "none of the above". Both facts are recorded because a student needs the department's answer to pass and the real mechanism to go on learning.
-The three parts of the cilium and their microtubule counts are stated by the book as basal body 27 in 9 triplets, shaft 20 as 9 doublets plus 2 singlets, and rootlets 9. This concept states only the shaft arrangement; the other two counts are examined just as often.
-## uncertainty
-
-## evidence_gaps
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
 A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
 ## id
 CON-FND-5114283D5309E5
@@ -4353,6 +6464,990 @@ direct_statement
 
 ## evidence_gaps
 The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty's text does.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Epithelial tissue is avascular, crowded, rests on a basement membrane and regenerates well, and falls into four classes by what its cells are modified to do
+## id
+CON-FND-49350AB867CB5A
+## canonical_key
+epithelium-general-characters-and-four-functional-classes
+## definition
+Epithelial tissue covers the outer surfaces of the body and lines the surfaces of its cavities. Its cells are crowded with minimal intercellular space; it has a free upper surface and a basal surface resting on a basement membrane that may be clear or not clear; it is avascular, because blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so it is fed by diffusion from the connective tissue beneath; and it has a high power of regeneration. It may be ectodermal, as in skin, mesodermal, as in the serous membranes, or endodermal, as in the gastrointestinal tract. By what its cells are modified to do it falls into four classes: surface epithelium, which covers or lines; glandular epithelium, modified to secrete; neuro-epithelium, modified to receive a stimulus; and myo-epithelium, modified to contract.
+## explicit_objective
+List the general characters of epithelium, and place a named example in one of the four functional classes.
+## pitfalls
+Answering the class question from the organ rather than from the modification. The taste bud sits inside a stratified squamous covering, but the bud itself is neuro-epithelium because its cells receive a stimulus.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p10 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Covering epithelium | Classes of epithelium | General characters of epithelium
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The question books extend neuro-epithelium to the organ of Corti. The department book names only the taste bud, so the organ of Corti is taught here because a keyed question uses it and not because this faculty's text supports it.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Surface epithelium is classified first by the number of layers and then by cell shape — and the shape of the nucleus follows the shape of the cell
+## id
+CON-FND-28D12B544C3BA3
+## canonical_key
+surface-epithelium-classified-by-layers-then-by-cell-shape
+## definition
+Surface epithelium is divided by the number of layers into simple, one layer with every cell on the basement membrane, and stratified, more than one layer. A simple epithelium is then subdivided by the shape of all its cells; a stratified epithelium by the shape of its superficial cells only. The nucleus takes the shape of the cell that holds it: a squamous cell has a flat nucleus, a cuboidal cell a central rounded one, and a columnar cell a basal oval one. Naming the nuclear shape is therefore a second way of asking for the cell shape.
+## explicit_objective
+Apply the two-step classification — layers first, then cell shape — and read the nuclear shape as evidence of the cell shape.
+## pitfalls
+Classifying a stratified epithelium by its basal cells. The classification is on the superficial layer, which is why an epithelium with columnar basal cells is still called stratified squamous.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p2 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Simple epithelium | Stratified epithelium | Nuclear shape
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
+## id
+CON-FND-E51851DAB2DD13
+## canonical_key
+simple-squamous-epithelium-sites-names-and-functions
+## definition
+Simple squamous epithelium is one layer of flat cells with flat nuclei. Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another. It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## explicit_objective
+Recognise simple squamous epithelium by its cells and nuclei, give its regional names, and connect its thinness and smoothness to what each site needs.
+## pitfalls
+Swapping endothelium and mesothelium. Endo- is inside a vessel; meso- is the mesodermal lining of the serous sacs. Both are the same epithelium under two names, and half the questions on this material turn on which name goes where.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p2 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p10 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p10 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p2 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p1 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p11 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Endothelium | Mesothelium | Pneumocytes | Simple squamous
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
+## id
+CON-FND-6887E3F110A894
+## canonical_key
+simple-cubical-and-simple-columnar-epithelium-sites-and-functions
+## definition
+Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney. Simple columnar epithelium is one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border. Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
+## explicit_objective
+Distinguish simple cubical from simple columnar epithelium by cell height, nuclear shape, site and function, and say what adding cilia changes.
+## pitfalls
+Giving the kidney one answer. The convoluted tubules are simple cubical, but Bowman's capsule in the same nephron is simple squamous, because filtration needs thinness and reabsorption needs cytoplasm.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p2 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p12 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p2 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p5 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Simple cubical | Simple cuboidal | Simple columnar | Simple columnar ciliated
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Pseudostratified columnar epithelium is simple — every cell reaches the basement membrane — and comes in three forms distinguished by what is on the apex
+## id
+CON-FND-68DA70C4BBE2A1
+## canonical_key
+pseudostratified-columnar-epithelium-is-simple-and-has-three-forms
+## definition
+Pseudostratified columnar epithelium looks stratified and is not. All its cells rest on the basement membrane, but some do not reach the surface, and crowding puts the nuclei at more than one level, giving a false appearance of layering; the book classifies it among the simple epithelia. It has three forms. Non-ciliated lines the vas deferens and the membranous urethra. Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland. Ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — lines the epididymis.
+## explicit_objective
+Explain why pseudostratified epithelium counts as simple, and name the site of each of its three forms.
+## pitfalls
+Calling it stratified because the nuclei sit at several levels. What decides is whether every cell touches the basement membrane, and here every cell does; what varies is whether every cell reaches the lumen, and that is what produces the illusion.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_25ac512fb1cb23a6f696 | question_book | | p8 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p2 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p2 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p13 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p5 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Pseudostratified epithelium | Respiratory epithelium | Goblet cell
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
+## id
+CON-FND-8FEBD5195DCED2
+## canonical_key
+stratified-squamous-epithelium-keratinised-and-non-keratinised
+## definition
+Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells. Its basal layer is columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei. It is 5–30 layers thick and its function is protection against friction. The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina. The keratinised form, covered by a layer of keratin, is the epidermis of the skin.
+## explicit_objective
+Describe the layers of stratified squamous epithelium from base to surface, give its layer count, and separate the keratinised sites from the non-keratinised ones.
+## pitfalls
+Writing that the oesophagus is keratinised. Keratin is for a dry surface exposed to air; every moist lining in the list is non-keratinised, and the skin is the only keratinised member.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p12 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p2 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p5 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p6 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p1 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Stratified squamous | Keratinised epithelium | Non-keratinised epithelium | Epidermis
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
+## id
+CON-FND-6913B2CF5EFC7C
+## canonical_key
+transitional-epithelium-dome-cells-and-a-changing-layer-count
+## definition
+Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else. Its basal layer is cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier. It is 6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills. Its functions are distensibility and protection against the cytotoxic effect of urine.
+## explicit_objective
+Identify transitional epithelium by its dome-shaped superficial cells and changing layer count, give both counts, and state its two functions.
+## pitfalls
+Calling it stratified squamous when it is distended. The superficial cells do flatten and the epithelium does thin to 3–4 layers, and it is still transitional — that it changes is exactly what defines it.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p5 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p4 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p11 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p8 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p2 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p13 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p6 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p14 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Urothelium | Uro-epithelium | Transitional epithelium | Dome cells
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Oesophagus and urinary bladder are lined by different stratified epithelia suited to different stresses
+## id
+CON-FND-89FBF21510F273
+## canonical_key
+oesophagus-versus-bladder-epithelium
+## definition
+The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus. The bladder is lined by transitional epithelium (urothelium), whose dome-shaped superficial cells and plaque-bearing membrane let it stretch and stay impermeable to urine.
+## explicit_objective
+Compare the epithelium of oesophagus and urinary bladder and relate each to the mechanical demand on that organ.
+## pitfalls
+Calling urothelium stratified squamous because its surface cells flatten when distended. It is transitional; the flattening is the point.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p13 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The two minor stratified epithelia: stratified cubical in sweat-gland ducts, stratified columnar with columnar surface cells at the recto-anal junction and in large gland ducts
+## id
+CON-FND-7FDC0D8E9467FA
+## canonical_key
+stratified-cubical-and-stratified-columnar-epithelium
+## definition
+Stratified cubical epithelium is rare and has a limited distribution — usually two layers of cubical cells, as in the ducts of the sweat glands. Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: it is ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra. Neither is ever keratinised.
+## explicit_objective
+Name the sites of stratified cubical and stratified columnar epithelium, and identify each by the shape of its superficial cells.
+## pitfalls
+Describing a stratified columnar epithelium as having flat surface cells. Its surface cells are columnar — that is the only reason it has a separate name — and its basal cells, like every stratified epithelium's, are not what it is classified on.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p4 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p14 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p5 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Stratified cubical | Stratified cuboidal | Stratified columnar
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Metaplasia replaces one epithelium with another, and the cost is whatever the original one did — cilia in the smoker's bronchus, distensibility in the bilharzial bladder
+## id
+CON-FND-5AD09BF9FC2420
+## canonical_key
+epithelial-metaplasia-in-smoking-and-bilharziasis
+## definition
+Metaplasia is the transformation of one type of epithelium into another under abnormal conditions. In heavy cigarette smokers the pseudostratified columnar ciliated epithelium of the bronchi may transform into stratified squamous epithelium: the new epithelium protects against abrasion but has no cilia, so the mucociliary escalator that cleared the airway stops working. In bilharziasis the transitional epithelium of the urinary bladder may change into stratified squamous epithelium, and what is lost is the dome-shaped superficial cell with its plaques — the very things that made the bladder both distensible and impermeable to urine.
+## explicit_objective
+Name what each epithelium becomes in metaplasia and state exactly which function is lost with the change.
+## pitfalls
+Learning the two examples as facts rather than as consequences. Both convert to stratified squamous, because that is the epithelium of protection, and in both cases the price is the specialisation that the organ actually needed.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Metaplasia | Squamous metaplasia | Bilharziasis
+## article_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status

@@ -1,9 +1,12 @@
 <!--
   Library articles for 101 ISK — Histology, Year 1, Kasr Al Ainy (kau).
 
-  Twelve articles, completing the Histology half of the module: the six leaves
-  of ../academic/101-isk-structure.md not covered by 101-ISK-histology.md, plus
-  the six that were left for this pass.
+  Twelve articles, completing the Histology half of the module: the three blood
+  leaves of ../academic/101-isk-structure.md not covered by 101-ISK-histology.md,
+  and the nine remaining leaves — Microscopes, Microtechniques, The cell, Nucleus,
+  Connective Tissue Fibres, Types of Connective Tissue Proper, Glandular
+  Epithelium, Neuro Epithelium and Myo Epithelium — added in the pass that
+  followed.
 
   Source of record: the department's own book, "Normal Structure of the Human
   Body (ISK - 101)", staff of the Histology and Anatomy Departments, Faculty of
@@ -19,6 +22,17 @@
   Neuro Epithelium and Myo Epithelium — carry three questions and one question
   respectively, and the book gives each of them three or four lines. They are
   written short on purpose.
+
+  `related_concepts` is what the importer derives coverage from, so each article
+  lists every concept in ../concept/101-ISK-mcq-concepts.md and
+  ../concept/101-ISK-concepts.md whose `module_subject` is that article's own
+  subject path, copied rather than re-derived. Two articles list one concept
+  beyond that rule — ART-101-HIS-THE-CELL the lateral junctions and
+  ART-101-HIS-NUCLEUS the gamete nuclei — because those concepts name these
+  articles in their own `article_ids` and their questions are filed on these
+  leaves. Both are taught in the prose, from the department book, with the
+  chapter they come from named in `evidence_basis`. Four leaves carry no concept
+  at all yet, and their `field_notes` say so rather than borrowing one.
 
   The repository holds zero medical images (../media-requests/media-audit.md).
   Every plate these articles need is written as an `image_recommendations` block
@@ -1001,12 +1015,13 @@ DIS-HIS-T01
 SYS-FND-T01-S01-M01
 SYS-FND-T01-S02-M02
 ## related_concepts
-CON-FND-F4B7458F8B8265 | CON-FND-85CC08A33D0A88 | CON-FND-F2237ED98E88F3 | CON-FND-E66C68C0B80D16
+CON-FND-F4B7458F8B8265 | CON-FND-85CC08A33D0A88 | CON-FND-F2237ED98E88F3 | CON-FND-17E5245CBA11D0
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rest of the cytoplasm — mitochondria, endoplasmic reticulum, Golgi, lysosomes, ribosomes and cytoskeleton — is set out there, with the membranous against non-membranous division the plasma membrane belongs to.
 ART-101-HIS-NUCLEUS: The cell's second basic component, described in full.
 ART-101-HIS-RED-BLOOD-CORPUSCLES: The book's own worked example of this article — the coat that carries the blood groups and the inner cytoskeleton that keeps the biconcave shape are both red corpuscle facts.
 ART-101-HIS-MICROSCOPES: Why the membrane is invisible by light microscopy is an arithmetical consequence of resolution, worked there.
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: The four lateral junctions summarised here are set out in full there, together with the apical and basal specialisations and the basement membrane.
 ## aliases
 Plasmalemma | Cell membrane | Plasma membrane | Glycocalyx | Cell coat | Endocytosis
 ## reading_time
@@ -1049,6 +1064,10 @@ Four membranous terms are set against one another in the question books and are 
 
 The three types of endocytosis are decided by what is taken in, not by the length of the word. Phagocytosis takes solids. Pinocytosis takes fluid. Receptor-mediated endocytosis takes whatever its receptor binds, however little of it there is, and it is the only one of the three with a named coat protein, clathrin.
 
+Where two cells meet, their plasma membranes are joined by junctions, and the question books ask these against the cell membrane as well as against the epithelial chapter that owns them. Four lateral junctions are recognised, and they are told apart by the width of the space between the two membranes and by what is anchored on the cytoplasmic side. In the tight or occluding junction, the zonula occludens, the two adjacent membranes actually fuse at points through transmembrane proteins on each cell, so the distance between them is zero; it encircles the apex of the cell like a belt and restricts the passage of substances between cells. In the adherens junction, the zonula adherens, a wide intercellular space is bridged by transmembrane proteins joined with the help of calcium ions, and condensed protein on the cytoplasmic side binds them to actin filaments; it also encircles the cell, and it provides lateral adhesion. The macula adherens, or desmosome, has the same wide space and the same calcium dependence, but its thickened cytoplasmic side is an attachment plaque anchoring intermediate filaments, and it does not encircle the cell — it is scattered as circular spots. It is the strongest junction, and it is found where a surface is subjected to friction, especially in stratified squamous epithelium. The gap junction, or nexus, leaves a narrow gap that is bridged by channels rather than closed; each channel is formed of six symmetrical transmembrane protein molecules, and it allows ions and small molecules to pass between adjacent cells and impulses to pass between muscle cells. A junctional complex is three of them together — zonula occludens, zonula adherens and desmosome — as between the simple columnar cells lining the small intestine.
+
+The examinable contrast is between the first and the last. The zonula occludens fuses the two membranes and leaves no space; the gap junction bridges a space that is still there. So a statement that the gap junction provides an actual fusion of two cell membranes is describing the zonula occludens, and it is the standard wrong option.
+
 ### Normal values
 Plasma membrane thickness: 7.5–10 nm, equivalently 75–100 Å.
 
@@ -1081,6 +1100,8 @@ A peripheral protein is not simply a small integral protein. It does not cross t
 The membrane is not invisible because it is unstained. It is below the resolution of the light microscope, which is 0.2 µm — two hundred nanometres against seven and a half. Silver and PAS do not resolve the membrane either; they thicken the picture by staining its carbohydrate coat.
 
 The trilaminar appearance is not two membranes with a space between them. It is one membrane seen as three layers: dark, light, dark.
+
+The gap junction does not fuse the two cell membranes. It bridges a gap that remains open, and fusion at points is what the zonula occludens does.
 ## hold_these
 The cell is the basic structural and functional unit of the living body, and its two basic components are cytoplasm and nucleus.
 Cell size ranges from 4 µm in the granular cells of the cerebellum to 150 µm in the ovum.
@@ -1094,6 +1115,8 @@ The cell coat functions in adhesion, identification and recognition, protection 
 Blood group antigens are cell coat molecules on the outer surface of the red corpuscle; the cytoskeleton on the inner surface gives it elasticity, flexibility and its biconcave shape.
 Endocytosis has three types: phagocytosis for solid particles, pinocytosis for extracellular fluid, and receptor-mediated endocytosis using clathrin-coated pits and coated vesicles.
 Exocytosis discharges a vesicle's contents outside the cell without breaking the continuity of the membrane.
+Four lateral junctions link epithelial cells: zonula occludens (membranes fuse, distance zero, belt, restricts passage), zonula adherens (wide space, calcium, actin, belt), macula adherens or desmosome (wide space, calcium, attachment plaque anchoring intermediate filaments, scattered spots, strongest, resists friction) and gap junction or nexus (narrow gap bridged by channels of six transmembrane proteins, passing ions, small molecules and impulses).
+A junctional complex is zonula occludens plus zonula adherens plus desmosome, as between the simple columnar cells of the small intestine.
 ## lose_the_mark
 Putting the cell coat on the inner surface, or on both surfaces. It is on the outer surface only, and the cytoskeleton is the inner one.
 Reading 7.5–10 as micrometres or as angstroms. It is nanometres; 7.5–10 nm is 75–100 Å.
@@ -1104,6 +1127,8 @@ Describing the trilaminar membrane as two unit membranes separated by a space. I
 Choosing H&E to demonstrate the cell membrane. Silver or PAS is the answer, and both work through the carbohydrate coat.
 Attributing the red corpuscle's biconcave shape to the cell coat. The coat carries the blood groups; the inner cytoskeleton holds the shape.
 Saying the membrane is invisible by light microscopy because it is transparent. It is below the light microscope's 0.2 µm resolution.
+Writing that the gap junction fuses the two cell membranes. It bridges a gap that is still open; the zonula occludens is the one that fuses them, leaving a distance of zero.
+Anchoring actin filaments at the desmosome. The desmosome's attachment plaque anchors intermediate filaments; actin belongs to the zonula adherens.
 ## image_recommendations
 ### diagram · The fluid-mosaic plasma membrane in section — phospholipid bilayer with hydrophilic heads out and hydrophobic tails in, cholesterol among the tails, a peripheral protein on each face, an integral protein spanning the bilayer as a channel, and the glycocalyx of glycoproteins and glycolipids on the outer surface only
 Purpose: Every high-frequency error on this leaf is a side error — coat inside, heads inward, peripheral protein crossing. One drawing with an unambiguous inside and outside settles all three at once, which no amount of prose does.
@@ -1138,6 +1163,15 @@ Section: Clinical significance
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 Notes: Serves ART-101-HIS-RED-BLOOD-CORPUSCLES as well, where the same two surfaces are the examinable pair.
+### diagram · The four lateral junctions between two epithelial cells, drawn in one column — zonula occludens with the membranes fused and no space, zonula adherens with a wide space and actin on the cytoplasmic side, macula adherens with an attachment plaque anchoring intermediate filaments, and a gap junction with an open narrow gap bridged by six-protein channels
+Purpose: The four are told apart by the width of one space and by which filament is anchored, and both are measurements on a drawing. The standard wrong answer — that a gap junction fuses the membranes — is visibly wrong the moment the gap is drawn open.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's page 60-61 figures rather than reproducing them
+Rights: newly drawn for this product, or CC-BY
+Notes: The same drawing serves ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, where the junctions are the chapter's own content.
 ## conflicts
 Which membrane molecule has the stabilising effect. The department book states that cholesterol lies among the hydrophobic fatty acid tails, restricts the movement of the phospholipid molecules and so modulates membrane fluidity, and the concept CON-FND-85CC08A33D0A88 follows the book. One question in the extracted bank marks "phospholipids" as the answer to the stabilising-effect stem while another marks cholesterol for the same idea. This article follows the department book: cholesterol is the stabiliser. The question-book discrepancy is recorded rather than resolved silently, and it needs a faculty ruling before either item is published.
 ## evidence_gaps
@@ -1147,19 +1181,20 @@ No mechanism is given for how a coated vesicle sheds its clathrin coat, and no f
 The book names receptor-mediated endocytosis and clathrin but does not describe the receptor itself, its recycling, or what happens to the ligand.
 The book gives no figure for the membrane's permeability, no list of what crosses it passively, and no account of active against passive transport in this chapter, although the question books ask about both.
 The book does not explain why cell size varies from 4 µm to 150 µm, nor what limits it.
+The book gives no width in nanometres for the gap of a gap junction or for the intercellular space of an adherens junction, and it names no junctional protein family — no claudin, occludin, cadherin or connexin appears anywhere. The question books use the word connexon for the gap junction channel and give the gap as 2-3 nm; neither is in the department book, and neither is stated in this article.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
 ## evidence_basis
-Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter II "Cytology", introductory section on The Cell, printed page 7, and the plasma membrane section of the Cytoplasm chapter, printed pages 7-21, including the molecular structure of the cell membrane and the three types of endocytosis. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter II "Cytology", introductory section on The Cell, printed page 7, and the plasma membrane section of the Cytoplasm chapter, printed pages 7-21, including the molecular structure of the cell membrane and the three types of endocytosis. The four lateral junctions are from the same book's Polarity and Membranous Specializations chapter, printed pages 60-62. Extracted to scripts/kasr/extract/deptbook.json.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: All four concepts whose module subject path is 101 ISK > Histology > Cytology > The cell are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught in the prose above — the unit membrane and its thickness in Definition, the molecular components in Mechanism, the cell coat in Mechanism and Clinical significance, and endocytosis and exocytosis in Mechanism.
+relatedConcepts: All three concepts whose module subject path is 101 ISK > Histology > Cytology > The cell are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a fourth, CON-FND-17E5245CBA11D0, whose own module subject path is the Polarity and Membranous Specializations leaf but whose article_ids name this article and whose three questions are filed on this leaf. Rather than leave those three questions with nothing to read, the four lateral junctions are taught above, in the department book's own terms and cross-referenced to ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, which owns that leaf. Each listed concept is taught in the prose above — the unit membrane and its thickness in Definition, the molecular components in Mechanism, and the cell coat in Mechanism and Clinical significance. The endocytosis-and-exocytosis concept CON-FND-E66C68C0B80D16 is deliberately not listed: it was moved to the 101 ISK > Histology > Cytology > Cytoplasm path while this batch was being written, so it belongs to ART-101-HIS-CYTOPLASMIC-ORGANELLES. This article still teaches the three types of endocytosis, because the leaf's questions need them, but it does not claim a concept that now sits on another leaf.
 questionIds: Questions for this article are authored in the question pass, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-beyondTheBook: The IgE receptors of the mast cell and the basophil, named in Clinical significance, are taught in the blood and connective tissue chapters of the same book rather than in the cytology chapter. They are used here as an application of the cell coat's receptor function, and the cross-reference is stated rather than presented as this chapter's own content. Nothing from outside the department book is asserted anywhere in this article.
+beyondTheBook: The four lateral junctions in Key determinants are from the department book's epithelial chapter rather than its cytology chapter, and the evidence basis says so. The question books' own vocabulary for them — connexon, and a gap of 2-3 nm — is deliberately not used, because the department book names no junctional protein family and gives no gap width; a student answering from this article answers in the book's words. The IgE receptors of the mast cell and the basophil, named in Clinical significance, are taught in the blood and connective tissue chapters of the same book rather than in the cytology chapter. They are used here as an application of the cell coat's receptor function, and the cross-reference is stated rather than presented as this chapter's own content. Nothing from outside the department book is asserted anywhere in this article.
 ## notes
 The department book splits this material between a one-page section called The Cell and the opening pages of the Cytoplasm chapter. The subject tree gives the leaf to The cell and the question bank files forty-six membrane questions there, so the membrane is taught here and the remaining organelles are left to ART-101-HIS-CYTOPLASMIC-ORGANELLES, which holds the Cytoplasm leaf. The two articles are written not to repeat each other.
 
@@ -1204,17 +1239,20 @@ Year 1
 DIS-HIS-T01
 ## secondary_node_ids
 SYS-FND-T01-S01-M03
+## related_concepts
+CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-DEV-0BA870DF2C2E13
 ## related_articles
 ART-101-HIS-THE-CELL: The cell's other basic component, and the plasma membrane whose trilaminar profile the nuclear envelope repeats twice over.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rough endoplasmic reticulum the outer nuclear membrane is continuous with, and the ribosomes whose subunits leave through the nuclear pores, are described there.
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The small lymphocyte is the book's own type example of a heterochromatic, condensed, metabolically inactive nucleus.
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The plasma cell and the active fibroblast are the book's worked examples of a euchromatic, vesicular nucleus in a protein-forming cell.
+ART-101-HIS-CYTOPLASMIC-ORGANELLES: The gamete nuclei summarised in Clinical significance belong to the embryology part of the same book, and the sperm's mitochondrial sheath and axial filament are cytoskeletal structures described in the cytology chapter.
 ## aliases
 Nuclear envelope | Chromatin | Euchromatin | Heterochromatin | Nucleolus | Nuclear sap
 ## reading_time
 13
 ## summary
-One idea runs through the whole chapter, and the paper asks it a dozen different ways: a nucleus tells you how busy its cell is. Uncoiled euchromatin means active genes, a pale vesicular nucleus and a clear nucleolus; coiled heterochromatin means inactive genes, a small dark condensed nucleus and no visible nucleolus. Everything else here — the envelope, the pores, the three parts of the nucleolus, the sap — is the machinery that idea runs on.
+One idea runs through the whole chapter, and the paper asks it a dozen different ways: a nucleus tells you how busy its cell is. Uncoiled euchromatin means active genes, a pale vesicular nucleus and a clear nucleolus; coiled heterochromatin means inactive genes, a small dark condensed nucleus and no visible nucleolus. The envelope, the pores, the three parts of the nucleolus and the sap are the machinery that idea runs on, and the number, position and shape of the nucleus are how half the cells in this module are identified in the first place.
 ## sections
 ### Definition
 The nucleus is the largest component of all cells, with two stated exceptions: the red blood corpuscles and the platelets, which the book states are not true cells because neither has one.
@@ -1230,9 +1268,9 @@ Structurally the nucleus has four parts: the nuclear membrane, or envelope; the 
 ### Mechanism
 The nuclear envelope is a double-walled membrane, two parallel unit membranes separated by a perinuclear space and interrupted by nuclear pores. The two walls are not alike. The outer membrane is rough, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum — the nucleus and the protein factory are one continuous compartment. The inner membrane is fibrillar, with peripheral chromatin attached to it, and it is associated with the nuclear lamina, made mainly of lamins, which are intermediate filament proteins.
 
-Where the inner and outer membranes fuse there is a circular opening: the nuclear pore complex. It is formed of thirty nucleoporin proteins arranged as an octagonal ring, with filaments extending into the cytoplasm on one side and into the nucleus on the other, and a transporter protein at its centre. Traffic runs both ways through it. Proteins are transported into the nucleus; RNA and ribosomal subunits are exported out of it.
+Two words are used here and they are not the same thing. A nuclear pore is the circular opening itself — the place where the inner and outer membranes become continuous with one another. The nuclear pore complex is the protein machine that fills that opening: a non-membranous cylindrical assembly of about thirty nucleoporin proteins arranged as an octagonal ring, with filaments extending into the cytoplasm on one side and into the nucleus on the other, and a transporter protein at its centre. The hole is the pore; the machinery in it is the complex, and the question books turn on that difference. Traffic runs both ways through it: proteins are transported into the nucleus, and RNA and ribosomal subunits are exported out of it.
 
-Chromatin is the chromosomal material in the uncoiled state, as it exists in the non-dividing nucleus. It is the genetic material, and it is made of nucleoproteins — double-stranded DNA together with histone and non-histone protein. It carries the genetic information, forms mRNA, rRNA and tRNA, and directs and controls protein synthesis.
+Chromatin is the chromosomal material in the uncoiled state, as it exists in the non-dividing nucleus. It is the genetic material, and it is made of nucleoproteins — double-stranded DNA together with histone and non-histone protein. It is basophilic because of the phosphate groups of its nucleic acid, which is the same reason ribosomes make a cytoplasm basophilic. It carries the genetic information, forms mRNA, rRNA and tRNA, and directs and controls protein synthesis.
 
 Chromatin exists in two forms, and the difference between them is the diagnostic idea of the whole chapter. Euchromatin is extended, uncoiled chromatin containing active genes. It predominates in metabolically active, protein-forming cells. It appears as fine threads, giving a pale basophilic vesicular nucleus with a clear nucleolus, and it is electron-lucent by electron microscopy. Heterochromatin is coiled, inactive chromatin containing inactive genes. It predominates in metabolically inactive cells, of which the small lymphocyte is the book's example. It appears as coarse dark basophilic clumps, giving a condensed nucleus with an unclear nucleolus, and it is electron-dense.
 
@@ -1253,6 +1291,8 @@ The three parts of the nucleolus are asked by name and each has one answer. Pars
 
 The envelope is settled on three facts: two unit membranes with a perinuclear space between them; a granular outer membrane continuous with the rough endoplasmic reticulum; a fibrillar inner membrane with the nuclear lamina and the peripheral chromatin. Like everything else made of nucleic acid it is basophilic, never acidophilic.
 
+The last determinant is the one the rest of the module runs on: a cell is very often named from its nucleus. Number, position, shape and staining together identify it, and the examples are fixed across the question books. The neutrophil has a segmented nucleus of two to five lobes; the eosinophil a bilobed horse-shoe nucleus; the basophil an irregular S-shaped nucleus usually obscured by its granules; the monocyte a large, pale, eccentric kidney-shaped nucleus; the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark rounded one filling the cell; the megakaryocyte a single large multilobed dark nucleus; the plasma cell an eccentric cartwheel nucleus beside a pale Golgi area; and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet, which is the signet-ring appearance. Nuclear level is used the same way at tissue scale: crowded columnar cells whose nuclei sit at more than one level make an epithelium pseudostratified, not stratified, because every one of those cells still reaches the basement membrane. Each of those cells is described in its own article; what belongs here is the vocabulary they are all described in.
+
 ### Normal values
 The nuclear pore complex is formed of thirty nucleoporin proteins in an octagonal ring.
 
@@ -1267,9 +1307,13 @@ The chapter's clinical content is short, and both statements are about growth go
 
 Chromosomal alterations are associated with tumours and with genetic diseases. The nucleus carries the hereditary material, so a change in the chromosome is a change transmitted to every daughter cell.
 
+The departmental question books examine four such alterations by name, and they are set out here because the paper asks them, with the caution that the histology chapter itself states only the general association and none of the karyotypes. Down syndrome is trisomy 21 — an extra chromosome 21, so the somatic cells hold 47 chromosomes. Turner syndrome affects females and has an XO sex chromosome constitution, so the somatic cells hold 45 chromosomes and the genital system is underdeveloped. Klinefelter syndrome affects males and is XXY, so the somatic cells hold 47 chromosomes. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5. The arithmetic is the trap: an extra chromosome makes 47 and belongs to Down and to Klinefelter, while Turner is a chromosome short at 45, and the books put the two beside each other with the same four options.
+
 Large nucleoli are found in rapidly growing malignant cells. This follows directly from what the nucleolus is for. A cell that is dividing fast needs ribosomes fast; ribosomal subunits are made in the nucleolus; so the nucleolus enlarges. A pathologist reporting prominent nucleoli is reporting a rate of protein synthesis, and the same reasoning that makes a plasma cell's nucleolus clear makes a tumour cell's nucleolus large.
 
 The same logic gives the routine slide its diagnostic value. A pale vesicular nucleus with a clear nucleolus says the cell is synthesising; a small dark condensed nucleus says it is not. That judgement is available on any haematoxylin and eosin section, and the module uses it to tell an active fibroblast from a fibrocyte and a plasma cell from a small lymphocyte.
+
+The two nuclei that decide the sex of a child are described in the embryology part of the same book, and they are summarised here because the question books ask them against this leaf. The sperm's head holds a condensed nucleus carrying the father's hereditary material — 22 autosomes and either an X or a Y chromosome — with an acrosomal cap containing hyaluronidase and acrosin over most of that nucleus, minimal cytoplasm, and a cell membrane around it. The whole sperm is about 55 µm long: head 4 µm, middle piece 6 µm, tail 45 µm. Spermatogenesis begins at puberty and continues into old age. The mature ovum is a secondary oocyte about 120 µm across, carrying the mother's hereditary material — 22 autosomes and an X chromosome only — with a large cytoplasm that is the zygote's first source of nutrition, and three coverings which from within outwards are the cell membrane, the zona pellucida, a glycoprotein coat carrying the sperm receptors, and the corona radiata, follicular cells held together by hyaluronic acid. Oogenesis begins in intrauterine life, is arrested, and resumes from puberty to the menopause. So it is the sperm nucleus, not the ovum's, that carries either sex chromosome, and the ovum's diameter is 120 µm rather than 12.
 
 ### Common misconceptions
 The nucleolus is not a membrane-bound organelle. By electron microscopy it is spongy and not limited by a membrane, which is why it is never listed among the membranous organelles.
@@ -1285,6 +1329,10 @@ The pars amorpha is not mature rRNA. It is the DNA of the nucleolar organiser �
 The nuclear envelope is not acidophilic. Everything in the nucleus that stains in H&E stains basophilic, because of its nucleic acid.
 
 Not every cell has one nucleus and not every multinucleated cell is abnormal. Liver cells are binucleated, and osteoclasts and skeletal muscle are multinucleated, in health.
+
+The ovum nucleus does not carry either sex chromosome. It carries 22 autosomes and an X, always; the sperm nucleus is the one that carries an X or a Y.
+
+The corona radiata is not the innermost covering of the ovum. The order from within outwards is cell membrane, zona pellucida, corona radiata, so the corona radiata is the outer one.
 ## hold_these
 The nucleus is the largest component of all cells except red blood corpuscles and platelets, which the book states are not true cells.
 Liver cells are binucleated; osteoclasts and skeletal muscle are multinucleated.
@@ -1300,6 +1348,14 @@ The nucleolus is not limited by a membrane; its dark areas are pars amorpha (rRN
 The nucleolus forms rRNA and the ribosomal subunits, which leave through the nuclear pores.
 Nuclear sap fills the space between chromatin and nucleolus and provides the medium for transport of RNA through the pores.
 Large nucleoli are found in rapidly growing malignant cells, and chromosomal alterations are associated with tumours and genetic diseases.
+A nuclear pore is the opening where the two membranes become continuous; the nuclear pore complex is the non-membranous protein assembly filling it.
+Chromatin is basophilic because of the phosphate groups of its nucleic acid.
+Cells are named from their nuclei: neutrophil segmented into two to five lobes, eosinophil bilobed horse-shoe, basophil irregular S-shaped, monocyte kidney-shaped, small lymphocyte dark and rounded, megakaryocyte single and multilobed, plasma cell eccentric cartwheel, unilocular fat cell flattened and peripheral.
+Nuclei at more than one level in a crowded columnar epithelium make it pseudostratified, not stratified.
+Down syndrome is trisomy 21 with 47 chromosomes; Klinefelter is XXY with 47; Turner is XO with 45; cri-du-chat is partial deletion of the short arm of chromosome 5.
+The sperm nucleus carries 22 autosomes and either an X or a Y chromosome; the ovum nucleus carries 22 autosomes and an X only.
+The sperm is about 55 µm long — head 4 µm, middle piece 6 µm, tail 45 µm — with the acrosomal cap over most of the nucleus, not over the middle piece; spermatogenesis starts at puberty.
+The mature ovum is about 120 µm across, and its three coverings from within outwards are cell membrane, zona pellucida (glycoprotein, carrying the sperm receptors) and corona radiata (follicular cells joined by hyaluronic acid).
 ## lose_the_mark
 Calling the nucleolus a membranous organelle. By electron microscopy it has no limiting membrane at all.
 Describing heterochromatin as fine threads or as coiled filaments rather than coarse dark clumps. Fine threads are euchromatin.
@@ -1310,6 +1366,12 @@ Calling the nuclear envelope acidophilic. Nuclear structures are basophilic.
 Saying more heterochromatin is seen in protein-forming cells. Protein-forming cells are euchromatic; heterochromatin predominates in inactive cells.
 Making the outer nuclear membrane the fibrillar one. The outer is granular and continuous with rER; the inner is fibrillar and carries the lamina.
 Treating binucleate or multinucleate cells as pathological. Liver cells, osteoclasts and skeletal muscle are normally so.
+Using nuclear pore and nuclear pore complex as though they were one term. The pore is the hole; the complex is the protein machine in it.
+Giving Turner syndrome 47 chromosomes. An extra chromosome makes 47 and belongs to Down and Klinefelter; Turner is XO, at 45.
+Calling a pseudostratified epithelium stratified because its nuclei lie at several levels. Every one of its cells still reaches the basement membrane.
+Giving the ovum nucleus an X or a Y. Only the sperm nucleus carries either; the ovum always carries an X.
+Putting the acrosomal cap over the middle piece, or giving the ovum a diameter of 12 µm. The cap covers most of the nucleus in the head, and the ovum is about 120 µm.
+Naming the corona radiata as the inner covering of the ovum. It is the outer one.
 ## image_recommendations
 ### comparison table · Euchromatin versus heterochromatin — coiling, gene activity, type of cell, light-microscopic appearance of chromatin, appearance of the whole nucleus and nucleolus, and electron density
 Purpose: The book prints this as a table on page 24 and the paper asks it back column by column. In prose the six contrasts collapse into a general impression of "pale means active", and the student loses the electron-density and nucleolus rows.
@@ -1336,6 +1398,14 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn, following the department book's page 23 figure rather than reproducing it
 Rights: newly drawn for this product, or CC-BY
+### diagram · A gallery of nuclear positions and shapes — central, basal, peripheral and eccentric; flat, rounded, oval, bilobed, segmented or multilobed and kidney — each drawn in the cell the module names for it
+Purpose: The book prints position and shape as two rows of small unlabelled drawings on page 22 and never attaches a cell to any of them. Attaching the cells is exactly what turns a vocabulary list into the identification skill the practical and the written paper both test, and it can only be done in a picture.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's page 22 figures rather than reproducing them, with the cell examples added from the blood, connective tissue and epithelium chapters
+Rights: newly drawn for this product, or CC-BY
 ### diagram · The nucleus in section — envelope with perinuclear space and pores, outer membrane continuous with rER and studded with ribosomes, nuclear lamina and peripheral chromatin on the inner membrane, chromatin islands, and a nucleolus with pars amorpha, pars fibrosa, pars granulosa and nucleolar sap labelled
 Purpose: Three separate examinable lists — four nuclear parts, three heterochromatin sites, three nucleolar regions — are all positions in one structure. Drawn once, they become a map instead of three lists to be recalled independently.
 Priority: required
@@ -1351,21 +1421,24 @@ The book gives no size for the nucleus, no nucleocytoplasmic ratio, and no diame
 The book names the nuclear lamina and lamins but does not say what the lamina does beyond being associated with the inner membrane.
 The book states that chromatin is chromosomal material in the uncoiled state but does not describe the nucleosome, the histone octamer, or any level of packing between DNA and chromosome.
 Cell division is named as a function of the nucleus, but no stage of mitosis or meiosis is described in this chapter.
-No named chromosomal disorder appears in this chapter. The question books ask Down, Turner, Klinefelter and cri-du-chat syndromes against this leaf, and the chromosome counts and deletions those questions turn on are not in the extracted text of pages 22-25.
+No named chromosomal disorder appears in this chapter. The book states only that chromosomal alterations are associated with tumours and genetic diseases. The karyotypes of Down, Turner, Klinefelter and cri-du-chat syndromes given in Clinical significance are from the departmental question books, several of them marked in those books as departmental questions, and not from the extracted text of pages 22-25. They need a faculty ruling before publication, and if the department does not teach them here they should be moved to a genetics article rather than kept.
+The cells named in Key determinants as examples of nuclear shape — neutrophil, eosinophil, basophil, monocyte, lymphocyte, megakaryocyte, plasma cell, fat cell — are described in the blood, connective tissue and epithelium chapters of the same book, not in the nucleus chapter, which lists the shapes without attaching a cell to any of them.
 The book does not state the Barr body here, although the granular leucocyte chapter does.
+The book gives no chromosome number for the normal human somatic cell anywhere in this chapter. The gamete chromosome complements given in Clinical significance are from the embryology part of the same book, not from this chapter, and the cytology chapter never states how a haploid gamete nucleus relates to a diploid somatic one.
+The book describes no stage of gametogenesis, no meiosis and no reduction division anywhere in the histology part, so nothing is said here about how a gamete comes to carry half the chromosomes.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
 ## evidence_basis
-Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter II "Cytology", section on The Nucleus, printed pages 22-25, including the page 24 euchromatin-versus-heterochromatin table, the page 23 nuclear pore complex figure and the page 25 electron micrograph of the nucleolus. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter II "Cytology", section on The Nucleus, printed pages 22-25, including the page 24 euchromatin-versus-heterochromatin table, the page 23 nuclear pore complex figure and the page 25 electron micrograph of the nucleolus. The gamete nuclei summarised in Clinical significance are from the same book's Part II, General Embryology, chapter on Gametes, printed pages 66-67. The named cells in the nuclear-shape paragraph are from the same book's Blood, Connective Tissue and Epithelial Tissues chapters, printed pages 26-62. Extracted to scripts/kasr/extract/deptbook.json.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
+relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Cytology > Nucleus are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a seventh, CON-DEV-0BA870DF2C2E13, whose own module subject path is the General Embryology > Gametes leaf but whose article_ids name this article and whose two questions are filed on this leaf. Rather than leave those two questions with nothing to read, the gamete nuclei are summarised in Clinical significance from the embryology chapter of the same book, with the source named. Each listed concept is taught above — the four parts, the nuclear sap and the functions in Definition and Mechanism; the envelope and the pore-versus-pore-complex distinction in Mechanism and Key determinants; euchromatin against heterochromatin and the three heterochromatin sites in Mechanism and Key determinants; the three parts of the nucleolus and what it makes in Mechanism and Key determinants; nuclear number, position, shape and level as the way a cell is named in Key determinants; and the four named chromosomal syndromes in Clinical significance. The last of those six was minted while this article was being written and is the only one whose content the histology chapter itself does not carry; it is taught with its source named rather than left uncovered.
 questionIds: The extracted question bank files seventy-one questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-beyondTheBook: The question books ask this leaf for the karyotypes of Down, Turner, Klinefelter and cri-du-chat syndromes, several of them marked in the books as departmental questions. The nucleus chapter of the department book teaches no karyotype, no chromosome number and no named syndrome, so none is asserted here. The absence is recorded as an evidence gap for a faculty reviewer to rule on rather than filled from a genetics textbook.
+beyondTheBook: Two blocks of content in this article are not in the department book's nucleus chapter, and both are named as such rather than smuggled in. The karyotypes of Down, Turner, Klinefelter and cri-du-chat syndromes in Clinical significance come from the departmental question books, which mark several of them as departmental questions; the chapter itself teaches only that chromosomal alterations are associated with tumours and genetic diseases. They are taught here because concept CON-FND-5097CA5BAB2E51 sits on this leaf and the questions on it would otherwise have nowhere to be read, and they carry an explicit sentence in the prose saying the chapter does not state them. The named cells in the nuclear-shape paragraph are from other chapters of the same book, cross-referenced rather than reproduced, and so is the gamete material in Clinical significance, which belongs to the embryology part. Nothing in this article comes from a textbook other than the department's own book and its own question books.
 ## notes
 Several questions filed on this leaf in the extracted bank are really questions about a named blood or connective tissue cell whose nucleus is the discriminating feature — the S-shaped basophil nucleus, the kidney-shaped monocyte nucleus, the multilobed megakaryocyte nucleus. This article supplies the vocabulary of nuclear shape and activity; the cells themselves are described in their own articles.
 
