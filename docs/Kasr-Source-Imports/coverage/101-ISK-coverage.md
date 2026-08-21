@@ -40,7 +40,7 @@ looks exactly like a file with nothing in it.
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 | `written/101-ISK-FORMATIVE-2025-written.md` | 10 |
 | `evidence/101-ISK-citations.md` | 332 |
-| `evidence/101-ISK-claims.md` | 1144 |
+| `evidence/101-ISK-claims.md` | 1153 |
 | `evidence/101-ISK-resources.md` | 75 |
 
 ## Read short
