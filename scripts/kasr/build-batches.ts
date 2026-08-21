@@ -7,7 +7,7 @@
  *   node --experimental-strip-types scripts/kasr/build-batches.ts
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { mintConceptId, partsKey, subjectCollisions, type KasrSubject, type Paper, type Seed } from './seeds/types.ts'
+import { mintConceptId, partsKey, subjectCollisions, subjectForPath, type KasrSubject, type Paper, type Seed } from './seeds/types.ts'
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
@@ -151,9 +151,12 @@ for (const paper of PAPERS) {
  */
 async function assertOneSubjectPerKey() {
   const entries: { key: string; subject: KasrSubject; where: string }[] = []
+  const byPath = new Map<string, KasrSubject>()
   for (const paper of PAPERS) {
     for (const seed of paper.seeds) {
       entries.push({ key: seed.key, subject: seed.subject, where: paper.source.file })
+      const expected = subjectForPath(seed.modulePath)
+      if (expected) byPath.set(seed.key, expected)
     }
   }
   const dir = 'scripts/kasr/seeds/mcq'
@@ -162,8 +165,24 @@ async function assertOneSubjectPerKey() {
       const leaf = (await import(`./seeds/mcq/${name}`)).LEAF as McqLeafSeed
       for (const concept of leaf.concepts) {
         entries.push({ key: concept.key, subject: concept.subject, where: `seeds/mcq/${name}` })
+        const expected = subjectForPath(concept.modulePath)
+        if (expected) byPath.set(concept.key, expected)
       }
     }
+  }
+
+  // The agreed rule, checked rather than remembered. A key whose subject
+  // disagrees with where it sits in the curriculum is the disagreement that
+  // becomes a rival id the moment a second author files the same key correctly.
+  const offRule = entries
+    .map((entry) => ({ entry, expected: byPath.get(entry.key) }))
+    .filter(({ entry, expected }) => expected && expected !== entry.subject)
+  if (offRule.length) {
+    throw new Error(
+      `${offRule.length} concept(s) take a subject the curriculum path does not give:\n`
+      + offRule.map(({ entry, expected }) =>
+        `  ${entry.key}: ${entry.subject}, expected ${expected}  (${entry.where})`).join('\n')
+      + '\nSee subjectForPath in seeds/types.ts. Change the subject, or the rule, not one file.')
   }
 
   const clashes = subjectCollisions(entries)

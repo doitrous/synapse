@@ -148,6 +148,25 @@ export function conceptHash(key: string): string {
 }
 
 /**
+ * The subject a concept takes, from where it sits in the curriculum.
+ *
+ * Agreed between the two lanes authoring this module, because the subject is
+ * the one field that can still fork a concept: the mint hashes the canonical
+ * key alone and the subject only picks the `CON-<SYS>-` prefix, so two authors
+ * filing one key differently produce two ids for one idea.
+ *
+ * Returns null where the path is outside the rule, which is a question for a
+ * human rather than a default to fall back on.
+ */
+export function subjectForPath(modulePath: string): KasrSubject | null {
+  if (modulePath.includes('> Histology > Blood')) return 'haem'
+  if (modulePath.includes('> Histology')) return 'fnd'
+  if (modulePath.includes('> General Embryology')) return 'dev'
+  if (modulePath.includes('> Basis of Anatomy') || modulePath.includes('> Upper Limb')) return 'msk'
+  return null
+}
+
+/**
  * Canonical keys that have been given more than one subject.
  *
  * The one way this pipeline can still mint rival IDs for one idea. Two authors
