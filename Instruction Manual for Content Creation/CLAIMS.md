@@ -18,6 +18,14 @@ pair, and never the same output file.
 | Claimed | Agent | Scope | Output file | Depends on |
 |---|---|---|---|---|
 | — | — | — | — | — |
+| 2026-08-21 | 104-cps | `104 CPS` · module-subject structure | docs/Kasr-Source-Imports/academic/104-cps-structure.md | — |
+| 2026-08-21 | 104-cps | `104 CPS` · concepts | docs/Kasr-Source-Imports/concept/104-CPS-concepts.md | — |
+| 2026-08-21 | 104-cps | `104 CPS` · teaching articles | docs/Kasr-Source-Imports/article/104-CPS-articles.md | 104 CPS concepts |
+| 2026-08-21 | 104-cps | `104 CPS` · written questions | docs/Kasr-Source-Imports/written/104-CPS-written.md | 104 CPS concepts + articles |
+| 2026-08-21 | 104-cps | `104 CPS` · MCQ questions | docs/Kasr-Source-Imports/question/104-CPS-mcq.md | 104 CPS concepts + articles |
+| 2026-08-21 | 104-cps | `104 CPS` · practical items | docs/Kasr-Source-Imports/practical/104-CPS-practical.md | 104 CPS concepts |
+| 2026-08-21 | 104-cps | `104 CPS` · media requests | docs/Kasr-Source-Imports/media-requests/104-CPS-media-audit.md | — |
+| 2026-08-21 | 104-cps | `104 CPS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/104-CPS-coverage.md | — |
 
 ---
 
@@ -30,6 +38,7 @@ scope. Whoever owns it picks it up from here.
 | Wanted by | What is needed | Why you cannot write it | Blocking |
 |---|---|---|---|
 | — | — | — | — |
+| 104-cps | The `104 CPS` slice of `DPT BOOK 102, 103, 104 physiology question &answer (1).pdf` (`src_34deb8ce27268cb7e890`) — physiology questions that teach cardiopulmonary content | The file has exactly one manifest row and it is `102 INT`. The manifest row decides ownership, so 102 extracts it and tags each item with the module it teaches. Re-reading it here would mint the same question twice under two IDs, and it is `textLayer: none` so it would cost a second OCR pass | `104 CPS` physiology question coverage |
 
 ---
 
