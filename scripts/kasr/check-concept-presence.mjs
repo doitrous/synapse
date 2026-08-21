@@ -20,10 +20,25 @@
  * someone imports it. This asks the same two questions of the batch instead,
  * which is the point: the answer is wanted before the import, not after.
  *
+ * It also checks the shape of every column against the parser that actually
+ * reads it, which is a second and separate way to be silently wrong:
+ *
+ *   text column   deliberately empty  ->  empty body     (stores null)
+ *   list column   deliberately empty  ->  `[clear]`      (stores [])
+ *
+ * Get it backwards and a text column holds the literal four characters
+ * `[clear]`, or a list column holds null where "considered, and empty" was
+ * meant. **The parser is measured, not read**: a probe value goes through the
+ * importer and the stored type is observed, because the names mislead in both
+ * directions — `pitfalls` reads like a list and is text, while `conflicts`,
+ * `uncertainty` and `original_wording` read like prose and are lists.
+ *
  * Exits non-zero on any absence, so it can be wired into CI.
  */
 import { readFileSync } from 'node:fs'
-import { conceptFromRow, materialiseNewConcept, resolvePlacement } from '../../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, resolvePlacement, CONCEPT_IMPORT_FIELDS } from '../../src/data/conceptImport.ts'
+import { IMPORT_SCHEMAS, importRowToContent } from '../../src/data/bulkImport.ts'
+import { materialiseNewItem } from '../../src/data/importMerge.ts'
 import { CURRICULUM_CATALOG } from '../../src/data/curriculumCatalog.ts'
 
 /** Kept identical to `audit-medical-content-fields.mjs`; drift here is silent. */
@@ -34,12 +49,77 @@ const POPULATED = [
   'atomicClaimIds', 'supportMode', 'confidence', 'originalWording', 'owner', 'reviewer',
   'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
+/**
+ * The only fields the audit lets a `field_notes` reason excuse.
+ *
+ * `conceptPopulated` does NOT take one — `requirePaths` runs bare `hasValue`.
+ * My first version of this check allowed a note for any populated field, which
+ * made it *more lenient than the audit it emulates*: it said green where the
+ * real thing says red, which is the worst thing a check can do.
+ */
+const NOTE_EXCUSES = [
+  'arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId',
+  'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue',
+  'resourceOccurrenceIds', 'sourceCandidateIds',
+]
+
 const PRESENT = [
   'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',
   'relatedConceptIds', 'moduleIds', 'aliases', 'arabicLabel', 'arabicAliases', 'pitfalls',
   'approvedFileResourceIds', 'approvedVideoResourceIds', 'conflicts', 'uncertainty', 'evidenceGaps',
   'mergeIds', 'rejectedMergeCandidateIds', 'lastReviewed', 'reviewDue', 'exclusionReason',
 ]
+
+/**
+ * Which parser each column goes through, measured rather than read.
+ *
+ * A probe with a `|` in it goes through the importer for every column; if what
+ * comes out is an array the column is a list, and if it is a string it is text.
+ * Reading the source would work too, until someone changes a parser without
+ * changing the column name.
+ */
+const SHAPE = {}
+{
+  const base = { id: 'CON-PROBE', label: 'L', canonical_key: 'k', definition: 'd' }
+  const before = materialiseNewConcept(conceptFromRow(base))
+  for (const { key } of CONCEPT_IMPORT_FIELDS) {
+    if (base[key] !== undefined) continue
+    const probe = materialiseNewConcept(conceptFromRow({ ...base, [key]: 'AAA | BBB' }))
+    for (const prop of new Set([...Object.keys(probe), ...Object.keys(before)])) {
+      if (JSON.stringify(probe[prop]) !== JSON.stringify(before[prop])) {
+        SHAPE[key] = Array.isArray(probe[prop]) ? 'list' : 'text'
+      }
+    }
+  }
+}
+
+/**
+ * The same measurement for an article, which needs a different probe.
+ *
+ * `conceptFromRow` takes a bare row; `importRowToContent` needs enough context
+ * to materialise, so a single-column probe reaches nothing and every column
+ * comes back unclassified. A check that cannot see half its subject reports
+ * that half as clean — the errs-toward-green failure, in the fix built to stop
+ * it.
+ */
+const ARTICLE_SHAPE = {}
+{
+  const base = {
+    id: 'ART-PROBE', title: 'T', subject: 'fnd', topic: 'X',
+    summary: 'S', sections: '### Definition\nBody',
+  }
+  const build = (row) => materialiseNewItem(importRowToContent('article', row, 'probe'))
+  const before = build(base)
+  for (const { key } of IMPORT_SCHEMAS.article.fields) {
+    if (base[key] !== undefined) continue
+    const probe = build({ ...base, [key]: 'AAA | BBB' })
+    for (const prop of Object.keys(probe.articleData ?? {})) {
+      if (JSON.stringify(probe.articleData[prop]) !== JSON.stringify(before.articleData?.[prop])) {
+        ARTICLE_SHAPE[key] = Array.isArray(probe.articleData[prop]) ? 'list' : 'text'
+      }
+    }
+  }
+}
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -56,13 +136,40 @@ const isEmpty = (value) => value === undefined || value === null || value === ''
   || (Array.isArray(value) && !value.length)
   || (typeof value === 'object' && !Array.isArray(value) && !Object.keys(value).length)
 
+/**
+ * A checker that cannot fail proves nothing.
+ *
+ * Both mistakes are fed through deliberately before any real file is read, and
+ * if either comes back clean the run aborts — because at that point a zero from
+ * this script would mean the probe stopped working, not that the batches are
+ * right, and those look identical from outside.
+ */
+{
+  const wrongWay = { id: 'CON-CTRL', label: 'L', canonical_key: 'k', definition: 'd' }
+  const textCol = Object.keys(SHAPE).find((key) => SHAPE[key] === 'text')
+  const listCol = Object.keys(SHAPE).find((key) => SHAPE[key] === 'list')
+  if (!textCol || !listCol) {
+    console.error('control failed: the probe classified no text or no list column — it is not working')
+    process.exit(2)
+  }
+  const built = materialiseNewConcept(conceptFromRow({ ...wrongWay, [textCol]: '[clear]' }))
+  const stored = Object.values(built).some((value) => value === '[clear]')
+  if (!stored) {
+    console.error(`control failed: "[clear]" in the text column ${textCol} did not survive as a literal, `
+      + 'so this script can no longer detect the bug it exists for')
+    process.exit(2)
+  }
+}
+
 let failed = 0
 for (const file of process.argv.slice(2)) {
   const rows = parse(readFileSync(file, 'utf8')).filter((row) => row.id || row.label)
+  const isArticle = rows.some((row) => row.summary !== undefined && row.sections !== undefined)
+  const shapeOf = isArticle ? ARTICLE_SHAPE : SHAPE
   const absent = {}
   const unpopulated = {}
 
-  for (const row of rows) {
+  for (const row of isArticle ? [] : rows) {
     // Placement is resolved the way the importer resolves it. Without the
     // catalogue `subjectId` comes back undefined and every concept looks
     // broken — a check that cries wolf is worse than no check.
@@ -72,13 +179,27 @@ for (const file of process.argv.slice(2)) {
       if (!(key in concept) || concept[key] === undefined) (absent[key] ??= []).push(concept.id)
     }
     for (const key of POPULATED) {
-      if (isEmpty(concept[key]) && !concept.fieldNotes?.[key]) (unpopulated[key] ??= []).push(concept.id)
+      const excused = NOTE_EXCUSES.includes(key) && concept.fieldNotes?.[key]
+      if (isEmpty(concept[key]) && !excused) (unpopulated[key] ??= []).push(concept.id)
     }
   }
 
-  const gaps = [...Object.entries(absent).map(([k, v]) => [`absent: ${k}`, v]),
+  const shape = {}
+  for (const row of rows) {
+    for (const [col, value] of Object.entries(row)) {
+      if (shapeOf[col] === 'list' && value === '') {
+        (shape[`${col} is a list column emitted empty — needs [clear], or it stores null where [] was meant`] ??= []).push(row.id)
+      }
+      if (shapeOf[col] === 'text' && value === '[clear]') {
+        (shape[`${col} is a text column holding the literal string "[clear]"`] ??= []).push(row.id)
+      }
+    }
+  }
+
+  const gaps = [...Object.entries(shape),
+                ...Object.entries(absent).map(([k, v]) => [`absent: ${k}`, v]),
                 ...Object.entries(unpopulated).map(([k, v]) => [`unpopulated with no reason: ${k}`, v])]
-  console.log(`${file.split('/').pop()} — ${rows.length} concepts`)
+  console.log(`${file.split('/').pop()} — ${rows.length} ${isArticle ? 'articles' : 'concepts'}`)
   if (!gaps.length) console.log('   both questions answered for every field')
   for (const [what, ids] of gaps) {
     failed += 1

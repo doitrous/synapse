@@ -15,6 +15,17 @@ import { createHash } from 'node:crypto'
 import { mintConceptId, mintQuestionId, partsKey, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
 import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
 
+/**
+ * The department's own textbook, which is what every definition here rests on.
+ *
+ * Not the exam paper the concept was found on. That paper is `is_assessment:
+ * yes` — evidence of what this faculty *asks*, never evidence that anything in
+ * it is *true* — and it is already recorded on `exam_signal`, which is the
+ * column for curriculum signal. Putting it in `resource_ids` would make a
+ * question its own justification.
+ */
+const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
+
 /** Where a concept was examined, in the `exam_signal` column's own grammar. */
 const occurrence = (source: SourceRef, seed: Seed) =>
   `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | 101 ISK`
@@ -110,8 +121,38 @@ ${conceptTail()}`
  * for one kind of concept and not another is an authoring accident, not a
  * decision.
  *
- * Nineteen of these keys carry `[clear]`, and the distinction is the whole
- * point. `medical:audit` asks two questions of every field: is it populated,
+ * `[clear]` means "present and deliberately empty" — **on a list column only**.
+ * On a text column the importer stores the literal string, so emitting it for
+ * `reviewer` gave every concept a reviewer named `[clear]`, which satisfies the
+ * audit by accident and tells a reader nothing. The six text columns here are a
+ * real value or nothing: `materialiseNewConcept` fills `arabicLabel`,
+ * `lastReviewed`, `reviewDue` and `exclusionReason` as null whether the key is
+ * written or not, so presence is satisfied without writing anything.
+ *
+ * `reviewer` and `finalPublisher` are different again: they are on
+ * `conceptPopulated`, which takes no `field_notes` excuse, so an empty one is an
+ * audit error — and §10's gate is the audit at zero, so `[clear]` there is not
+ * a worse metric, it is a batch that cannot ship.
+ *
+ * They carry the manual's documented defaults, which its own worked example
+ * writes verbatim (`02-concepts.md:214-216`, `:538-544`).
+ *
+ * I argued at length for a sentinel saying nobody had reviewed this, on the
+ * grounds that naming a team asserts a review that did not happen. The
+ * objection was right and the remedy was wrong: three other fields already say
+ * it, and say it where the product reads it — `status: under review`,
+ * `publication_status: needs_evidence`, and an `editorial_review_status` naming
+ * the gate not yet passed. **Only `published` reaches a student.** So these two
+ * are ownership, not a claim about work done, and the honesty belongs in the
+ * status fields rather than smuggled into a name.
+ *
+ * The wider point, which cost two lanes a detour: a convention agreed between
+ * lanes that contradicts the manual makes a half-migrated library, and that is
+ * worse than either convention, because a later reader cannot tell which
+ * records followed which rule. If a documented default is wrong, the manual
+ * changes first and everyone moves together.
+ *
+ * The rest carry `[clear]`, and that distinction is the whole point. `medical:audit` asks two questions of every field: is it populated,
  * and does the key exist at all. Writing a `field_notes` reason answers the
  * first and fails the second, because a key that was never emitted reports as
  * *absent* rather than as deliberately empty — and an empty `## key` block
@@ -127,7 +168,7 @@ ${conceptTail()}`
  */
 function conceptTail(): string {
   return `## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -139,7 +180,7 @@ function conceptTail(): string {
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+${DEPARTMENT_BOOK}
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -155,15 +196,15 @@ function conceptTail(): string {
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -177,7 +218,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -317,7 +357,9 @@ export const batchFile = (header: string, blocks: string[]) =>
  * five times across three books is saying something about the blueprint that no
  * single paper says.
  */
-export function mcqConceptBlock(concept: McqConcept, signals: string[], articleId?: string): string {
+export function mcqConceptBlock(
+  concept: McqConcept, signals: string[], articleId?: string, asked?: string,
+): string {
   // Weight from how often the books ask it. A question book asking a thing five
   // times across three books is blueprint evidence no single paper can give.
   const weight = Math.min(1, 0.15 + 0.08 * signals.length).toFixed(2)
@@ -344,7 +386,7 @@ ${concept.subject}
 ## primary_node_id
 ${concept.primary}
 ## secondary_node_ids
-${concept.secondary.join(' | ')}
+${concept.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject
@@ -376,7 +418,7 @@ ${(concept.aliases ?? []).join(' | ') || '[clear]'}
 ${articleId ? `## article_ids\n${articleId}\n` : ''}## support_mode
 direct_statement
 ## original_wording
-[clear]
+${asked ?? ''}
 ## conflicts
 ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
@@ -384,7 +426,7 @@ ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
 ${conceptTail()}
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.`
+`
 }
 
 /**

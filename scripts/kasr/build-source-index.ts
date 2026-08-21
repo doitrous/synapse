@@ -1,72 +1,70 @@
 /**
- * A corpus source index for the Kasr Al Ainy Year 1 manifest.
+ * Every source ID the Kasr corpus actually contains.
  *
  *   node --experimental-strip-types scripts/kasr/build-source-index.ts
  *
- * `scripts/build-corpus-source-index.mjs` walks `corpus/01-explicitly-taught/`
- * and indexes 267 sources. The Kasr Y1 corpus went through a different intake
- * (`scripts/corpus-intake/`) and lands in
- * `docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json` instead, so none of
- * its 415 files appear in that index. A citation naming one of them therefore
- * trips `is not a source the corpus contains` — for a file that is real,
- * checksummed and sitting on disk.
+ * `validate-content-batch.mjs` refuses a `src_…` it cannot check, and it looks
+ * for this file beside the batch: `<import root>/evidence/corpus-source-index.json`.
+ * Without it every resource record in this programme comes back "cannot be
+ * checked — an unchecked source ID is how three invented ones got through
+ * before", which is the right refusal and the wrong reason.
  *
- * `validate-content-batch.mjs:500` looks for `corpus-source-index.json` in the
- * `evidence/` folder beside the batch it is validating, so this writes one
- * there, in that file's own schema. It indexes the **whole manifest**, not one
- * module: every module lane needs the same file, and identical bytes in every
- * branch is the one version of this that does not conflict on merge.
+ * The existing index at `docs/medical-library-program/evidence/` holds 267
+ * sources and **not one of them is from this corpus**. So a Kasr batch was not
+ * failing a check; it had no check to fail. This is that corpus's own index,
+ * generated from the manifest so the two cannot disagree.
  *
- * This mints nothing. Every ID, path and hash below is copied from the
- * manifest, which is itself generated from the files. An ID that is not in the
- * manifest is still an invented ID and still refused.
+ * Keyed by source ID, one entry per FILE. The manifest holds one row per path,
+ * and IDs are content-addressed, so the same bytes filed under two names give
+ * two rows and one entry — which is the point: the validator compares a batch's
+ * `source_relative_path` against this, and an index with one path per ID agrees
+ * with it by construction where a per-row map cannot.
  */
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
 
-const REPO = process.cwd()
-const MANIFEST = 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
-const OUT = 'docs/Kasr-Source-Imports/evidence/corpus-source-index.json'
-
-interface ManifestSource {
-  sourceId: string
-  corpusRelativePath: string
-  sha256: string
-  processingStatus: string
-  pageCount: number | null
-  fileType: string
-  exclusionReason: string | null
+interface Row {
+  sourceId: string; sha256: string; fileName: string; corpusRelativePath: string | null
+  fileType: string; pageCount: number | null; textLayer: string | null
+  oldSystemExcluded?: boolean; exclusionReason?: string | null
 }
 
-const manifest = JSON.parse(readFileSync(join(REPO, MANIFEST), 'utf8'))
-const sources: Record<string, unknown> = {}
+const manifest = JSON.parse(readFileSync('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json', 'utf8'))
 
+const sources: Record<string, unknown> = {}
+const duplicated: string[] = []
 let excluded = 0
-for (const source of manifest.sources as ManifestSource[]) {
-  // An excluded file is still a file the corpus contains. The exclusion is a
-  // decision about whether to extract from it, not a claim that it is absent —
-  // and a citation that names one should fail on the exclusion, with a reason,
-  // rather than on "this source does not exist", which would be untrue.
-  if (source.exclusionReason) excluded += 1
-  sources[source.sourceId] = {
-    sourceRelativePath: source.corpusRelativePath,
-    sha256: source.sha256,
-    processingStatus: source.processingStatus,
-    pageCount: source.pageCount ?? null,
-    languages: [],
-    exclusionReason: source.exclusionReason ?? null,
+
+for (const row of manifest.sources as Row[]) {
+  if (sources[row.sourceId]) { duplicated.push(row.sourceId); continue }
+  // An excluded file is still IN the corpus. Leaving it out would make a batch
+  // that names it fail as "not a source the corpus contains", which is a
+  // different and false statement from "excluded on purpose".
+  if (row.oldSystemExcluded) excluded += 1
+  sources[row.sourceId] = {
+    sourceRelativePath: row.corpusRelativePath ?? row.fileName,
+    sha256: row.sha256,
+    processingStatus: row.oldSystemExcluded ? 'excluded'
+      : row.fileType !== 'pdf' ? 'not_extractable'
+      : row.textLayer === 'none' ? 'ocr_required' : 'extracted',
+    pageCount: row.pageCount ?? 0,
+    languages: [/[؀-ۿ]/.test(row.fileName) ? 'ar' : 'en'],
+    ...(row.oldSystemExcluded ? { exclusionReason: row.exclusionReason ?? 'OLD SYSTEM material, excluded from this programme' } : {}),
   }
 }
 
-mkdirSync(dirname(join(REPO, OUT)), { recursive: true })
-writeFileSync(join(REPO, OUT), `${JSON.stringify({
-  note: 'Every source ID the Kasr Al Ainy Year 1 corpus contains, from its own manifest. '
-    + 'A batch naming a src_ ID absent from here is naming a source that does not exist. '
-    + 'Generated by scripts/kasr/build-source-index.ts — do not hand-edit.',
-  generatedFrom: MANIFEST,
-  manifestGeneratedOn: manifest.generatedOn,
+const index = {
+  note: 'Every source ID the Kasr Al Ainy corpus actually contains. A batch naming a src_ ID absent from '
+    + 'here is naming a source that does not exist. Generated from '
+    + 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json by scripts/kasr/build-source-index.ts, so the '
+    + 'two cannot disagree. One entry per file: IDs are content-addressed, so the same bytes filed under two '
+    + 'names give two manifest rows and one entry here — which is what lets the validator compare a batch\'s '
+    + 'source_relative_path against a single authoritative path.',
   count: Object.keys(sources).length,
   sources,
-}, null, 1)}\n`)
+}
 
-console.log(JSON.stringify({ sources: Object.keys(sources).length, excluded, out: OUT }, null, 1))
+mkdirSync('docs/Kasr-Source-Imports/evidence', { recursive: true })
+const out = 'docs/Kasr-Source-Imports/evidence/corpus-source-index.json'
+writeFileSync(out, `${JSON.stringify(index, null, 1)}\n`)
+console.log(`${index.count} sources (${manifest.sources.length} manifest rows, `
+  + `${duplicated.length} duplicated, ${excluded} excluded) -> ${out}`)
