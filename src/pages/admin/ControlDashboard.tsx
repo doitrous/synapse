@@ -63,6 +63,7 @@ import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/d
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useScopedItems } from '@/lib/useScopedContent'
+import { LibraryTreeEditor } from '@/components/admin/LibraryTreeEditor'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
@@ -603,6 +604,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           {/* An empty table has two very different causes for a scoped reviewer,
               and "there is nothing here" is the wrong reading of the other one.
               Said once, at the top, rather than in every empty state below. */}
+          {/* Library Setup only: the faculty's own by-module and by-year
+              structures, which are independent of the generated taxonomy. */}
+          {lockedKind && activeKind === 'article' && <LibraryTreeEditor />}
+
           {contentScope && ledger.length > items.length && (
             <p className="border-b border-line bg-inset px-4 py-2 text-[11.5px] leading-relaxed text-ink-2">
               You are seeing the {CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} in the modules and years assigned
