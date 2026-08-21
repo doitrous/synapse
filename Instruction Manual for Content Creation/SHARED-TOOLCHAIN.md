@@ -1259,3 +1259,43 @@ Acids — and the author already wrote a sentence saying why.
 
 **This makes `related_articles` mechanically load-bearing.** It is a prose list, one
 `ART-…: why` per line. **A line separated by `|` or `;` silently loses the link.**
+
+### The written ceiling, cross-checked from both directions
+
+Two lanes reached **37 filled + 4 deliberately empty** independently — one by adding six
+columns to 31, the other by decomposing a total of 41. Same position, opposite directions,
+which is better evidence than either measurement alone.
+
+```
+present but EMPTY in every record:  attached_image  attachments  derived_from  resource_ids
+filled in some records:             concept_ids  contextual_concept_ids
+                                    media_recommendations  vignette
+```
+
+The inapplicable sets differ by exactly one, for a good reason: one lane lists `vignette` as
+inapplicable, the other has it filled on a **single** record — the one question whose scenario
+is stated separately from the ask. That is the column behaving as documented, not a
+disagreement.
+
+**A documented empty is a statement, not a gap.** `derived_from` empty says these questions
+were **transcribed, not derived** — real provenance. `attachments`/`attached_image` empty says
+there are no rights-cleared assets and the needs are filed as `media_recommendations` instead.
+Neither is `answer_a`-style padding in reverse; both are claims a reader can rely on.
+
+**Circulate the mechanism, not just the instruction.** One lane left `resource_ids` empty for
+the right reason but the wrong model — "no manifest source exists as a live resource record"
+rather than "it resolves against the catalogue store". *"Leave it empty"* without the mechanism
+invites the next author to fill it the moment a catalogue record appears to exist.
+
+### The look-it-up rule points both ways
+
+The mint rule and the re-slug rule are the same rule seen from the producing side. It also
+runs the other way, on the **consuming** side: one lane's concepts name **33 `CLM-*` IDs**
+inline, and a separate agent must now author exactly those claims. The IDs are already written
+down, so the claims must **match** them — not be minted afresh from the same canonical keys.
+
+**Wherever an ID crosses between two authors, one of them looks it up and neither derives it
+twice.**
+
+A lane that authored directly rather than generating has no re-slug exposure at all — there is
+no second run to re-mint anything. The hazard is a property of generation, not of authoring.
