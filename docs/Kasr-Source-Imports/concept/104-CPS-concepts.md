@@ -44,7 +44,7 @@ SYS-CVS-T01-S01-M04
 ## aliases
 Phase 1 and phase 2 of the ventricular action potential | Ionic basis of the cardiac plateau
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -82,11 +82,11 @@ The physiology department book p. 12 prints the L-type current as 'Efflux of Ca+
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -173,7 +173,7 @@ SYS-CVS-T01-S02-M01
 ## aliases
 Phases of ventricular ejection
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -211,11 +211,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 The arterial-pressure row of the solved copy's table is contaminated by jugular-venous-pulse text (x and v waves) that belongs to another table; that row is taken from the department book p. 25 instead.
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -303,7 +303,7 @@ SYS-CVS-T01-S02-M01
 ## aliases
 ESPVR shift with contractility | Inotropy on the PV loop
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -341,11 +341,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -434,7 +434,7 @@ SYS-CVS-T01-S02-M02
 ## aliases
 Cardiac reserve
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -472,11 +472,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -565,7 +565,7 @@ SYS-CVS-T01-S02-M02
 ## aliases
 MSFP | Mean systemic filling pressure on the venous return curve
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -603,11 +603,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -695,7 +695,7 @@ SYS-CVS-T01-S02-M02
 ## aliases
 Respiratory pump | Thoracic pump
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -733,11 +733,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -826,7 +826,7 @@ SYS-CVS-T01-S02-M03
 ## aliases
 Baroreceptor reflex | Buffer reflex
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -864,11 +864,11 @@ CON-CVS-A302CAFBD5028C | CON-CVS-61D2DE3408AC86
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -956,7 +956,7 @@ SYS-RES-T01-S02-M01
 ## aliases
 Recoil tendency of the lung and expansion tendency of the chest wall
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -994,11 +994,11 @@ CON-RES-5D76C8ED496E54 | CON-RES-364A753569C12F
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1086,7 +1086,7 @@ SYS-RES-T01-S02-M01
 ## aliases
 Functions of pulmonary surfactant | Causes of surfactant deficiency
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1124,11 +1124,11 @@ CON-RES-FB2D4322FCC2EB | CON-RES-364A753569C12F
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1216,7 +1216,7 @@ SYS-RES-T01-S02-M04
 ## aliases
 Left shift of the oxygen dissociation curve | Factors decreasing P50
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1254,11 +1254,11 @@ src_a11a7faed67c95e2d636
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1346,7 +1346,7 @@ SYS-RES-T01-S01-M04
 ## aliases
 Termination of the posterior intercostal veins | Superior intercostal veins
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1384,11 +1384,11 @@ src_4bd55e9eaf092282818c
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1477,7 +1477,7 @@ SYS-RES-T01-S01-M03
 ## aliases
 Innervation of the pleura
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1515,11 +1515,11 @@ src_4bd55e9eaf092282818c
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1608,7 +1608,7 @@ SYS-CVS-T01-S01-M03
 ## aliases
 Left circumflex artery
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1646,11 +1646,11 @@ The unsolved copy renders this question as 'Mention origin, end and branches of 
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1737,7 +1737,7 @@ SYS-RES-T01-S01-M04
 ## aliases
 Posterior mediastinum
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1775,11 +1775,11 @@ src_4bd55e9eaf092282818c
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1868,7 +1868,7 @@ SYS-CVS-T01-S01
 ## aliases
 Derivatives of the aortic sac
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1906,11 +1906,11 @@ src_4bd55e9eaf092282818c
 ## uncertainty
 The unsolved copy's page 10 is a failed scan that repeats page 9, so this question's wording is attested only by the solved copy. The orientation's arithmetic — five SAQs of six marks plus a case of four, totalling 34 — requires a fifth anatomy SAQ and confirms one is there.
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1998,7 +1998,7 @@ SYS-CVS-T07-S02-M01
 ## aliases
 Aortic arch aneurysm | Mediastinal syndrome
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2036,11 +2036,11 @@ The solved copy numbers this item '6-', which is its position within the anatomy
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2128,7 +2128,7 @@ SYS-HEM
 ## aliases
 Palatine tonsil | Lingual tonsil
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2166,11 +2166,11 @@ The solved copy answers 'single crypt' for the lingual tonsil. The histology dep
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2258,7 +2258,7 @@ SYS-HEM
 ## aliases
 Malpighian corpuscle | Periarteriolar lymphatic sheath
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2296,11 +2296,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2389,7 +2389,7 @@ DIS-HIS-T01
 ## aliases
 Cell renewal | Non-renewing, potentially renewable and continuously renewing cells
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2427,11 +2427,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2520,7 +2520,7 @@ DIS-HIS-T01
 ## aliases
 Non-disjunction | Causes of aneuploidy
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2558,11 +2558,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2650,7 +2650,7 @@ SYS-CVS-T01-S01
 ## aliases
 Somatic capillary | Blood sinusoid
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2688,11 +2688,11 @@ CON-CVS-2A37D5DDEB19DB | CON-CVS-047FC0A529AFBA | CON-HEM-C860EAA4417873
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2780,7 +2780,7 @@ SYS-RES-T01-S01-M01
 ## aliases
 Olfactory mucosa | Respiratory mucosa
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2818,11 +2818,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject

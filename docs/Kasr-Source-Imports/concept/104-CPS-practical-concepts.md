@@ -99,7 +99,7 @@ SYS-HEM
 ## aliases
 Histological structure of the lymph node | Lymph node stroma and parenchyma | Cortex, paracortex and medulla of the lymph node
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -138,11 +138,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -232,7 +232,7 @@ SYS-HEM
 ## aliases
 Primary and secondary lymphatic follicles | Germinal centre | Secondary lymphatic nodule
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -271,11 +271,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -365,7 +365,7 @@ SYS-HEM
 ## aliases
 Paracortex | Thymus-dependent zone of the lymph node | Post-capillary venules of the paracortex
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -404,11 +404,11 @@ The department book p. 15 calls the lining of the post-capillary venule 'simple 
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -497,7 +497,7 @@ SYS-HEM
 ## aliases
 Medullary cords and medullary sinuses | Lymph circulation through the lymph node | Filtration of lymph
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -536,11 +536,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -630,7 +630,7 @@ SYS-HEM
 ## aliases
 Differences between lymph node and spleen | Lymph node versus spleen | Lymph sinus versus central arteriole
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -669,11 +669,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -765,7 +765,7 @@ SYS-HEM
 ## aliases
 Histological structure of the spleen | Splenic capsule and trabeculae | White pulp and red pulp
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -804,11 +804,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -898,7 +898,7 @@ SYS-HEM
 ## aliases
 Splenic red pulp | Cords of Billroth | Splenic blood sinusoids | Stave cells | Littoral cells
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -937,11 +937,11 @@ CON-HEM-20659D298CF475 | CON-HEM-C860EAA4417873
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1030,7 +1030,7 @@ SYS-HEM
 ## aliases
 Theories of splenic circulation | Open and closed theory | Blood circulation in the spleen
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1068,11 +1068,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1161,7 +1161,7 @@ SYS-HEM
 ## aliases
 Histological structure of the palatine tonsil | Tonsillar crypts | Palatine tonsil
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1200,11 +1200,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1294,7 +1294,7 @@ SYS-HEM
 ## aliases
 Definition of the tonsils | Types of tonsils | Incomplete encapsulation
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1333,11 +1333,11 @@ The book defines tonsils as a class on p. 20 as 'aggregation of lymphatic tissue
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1426,7 +1426,7 @@ SYS-HEM
 ## aliases
 Pharyngeal tonsil | Adenoids | Nasopharyngeal tonsil
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1465,11 +1465,11 @@ CON-RES-A811FF8C5B42AD
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1558,7 +1558,7 @@ SYS-HEM
 ## aliases
 Functions of the tonsils | Antigen sampling by tonsillar crypts
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1596,11 +1596,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1689,7 +1689,7 @@ SYS-HEM
 ## aliases
 Histological structure of the thymus | Thymic lobules | Thymic cortex and medulla
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1728,11 +1728,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1822,7 +1822,7 @@ SYS-HEM
 ## aliases
 Hassall's corpuscle | Thymic corpuscle
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1861,11 +1861,11 @@ src_5adcc001e9c3bb86bb75
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -1955,7 +1955,7 @@ SYS-HEM
 ## aliases
 Epithelial reticular cells | Thymic epithelial cells | Endodermal reticular cells of the thymus
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -1994,11 +1994,11 @@ CON-FND-49D5829AC3DCA1
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2087,7 +2087,7 @@ SYS-HEM
 ## aliases
 Special features of the thymus | What the thymus lacks | Absence of afferent lymphatics in the thymus
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2125,11 +2125,11 @@ src_18d3a953df4ca83c4e74
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
@@ -2218,7 +2218,7 @@ SYS-HEM
 ## aliases
 Blood-thymic barrier | Blood-thymus barrier | Thymic barrier
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## topic
@@ -2256,11 +2256,11 @@ CON-AND-C44B32EAF91652
 ## uncertainty
 [clear]
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## exclusion_reason
-[clear]
+
 ## modules
 104 CPS
 ## module_subject
