@@ -777,9 +777,9 @@ Expects: Adducts and medially rotates the arm
 Expects: The clavicular head flexes the arm
 Expects: The sternocostal head extends it from flexion
 Expects: Supplied by the lateral and medial pectoral nerves
-Concept: CON-MSK-097C0BDED777AB
+Concept: CON-MSK-2B9F47FC205689
 ## main_concept
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## topic
 Anatomy
 ## subtopic

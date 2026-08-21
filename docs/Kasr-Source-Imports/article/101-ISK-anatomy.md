@@ -784,7 +784,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## related_articles
 ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal are what make the two heads of this muscle produce opposite movements.
 ART-101-ANA-AXILLA-BREAST: Pectoralis major is the superficial layer of the anterior wall of the axilla, and the breast lies on the pectoral fascia that covers it.
@@ -901,7 +901,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates, or a purpose-drawn figure following the department book Anatomy Fig. 11
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-097C0BDED777AB, whose exam question was "Mention attachment, action and nerve supply of Pectoralis Major", 7 marks.
+Notes: Serves concept CON-MSK-2B9F47FC205689, whose exam question was "Mention attachment, action and nerve supply of Pectoralis Major", 7 marks.
 ### diagram · Bony attachment map of pectoralis major, origin in one colour on clavicle, sternum and the upper six costal cartilages, insertion in another on the lateral lip of the bicipital groove, with teres major on the medial lip and latissimus dorsi on the floor marked for contrast
 Purpose: The three tenants of the bicipital groove are a classic confusion and the mark turns on which lip. One bone with three labelled strips settles it permanently.
 Priority: strongly helpful

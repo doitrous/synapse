@@ -101,7 +101,7 @@ export const SEEDS: Seed[] = [
     q: 1, section: 'Anatomy', page: 2, marks: M,
     asked: 'compare : Pectoralis major | Pectoralis minor — origin, insertion, Action',
     label: 'Pectoralis major and pectoralis minor differ in all three rows: origin, insertion and action',
-    key: 'pectoralis-major-attachment-action-nerve',
+    key: 'pectoralis-major-attachment-nerve-action',
     definition: 'Pectoralis major arises by a clavicular head from the anterior surface of the medial half of the clavicle and a sternocostal head from the anterior surface of the sternum, the upper six costal cartilages and the aponeurosis of external abdominal oblique, and inserts by a bilaminar tendon into the lateral lip of the intertubercular (bicipital) groove; supplied by the lateral and medial pectoral nerves, it adducts and medially rotates the arm, its clavicular head flexing the arm and its sternocostal head extending the flexed arm. Pectoralis minor arises from the outer surfaces of the 3rd, 4th and 5th ribs near their costal cartilages and inserts into the medial border and upper surface of the coracoid process; supplied by the medial pectoral nerve, it protracts and depresses the shoulder girdle and raises the ribs in forced inspiration when the scapula is fixed.',
     objective: 'Compare pectoralis major and pectoralis minor by origin, insertion and action.',
     pitfall: 'Giving pectoralis minor an action on the arm. It does not reach the humerus at all — it ends on the coracoid process, so everything it does is to the scapula or the ribs.',

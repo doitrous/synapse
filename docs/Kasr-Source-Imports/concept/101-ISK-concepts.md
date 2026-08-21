@@ -951,9 +951,9 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
 ## id
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## canonical_key
-pectoralis-major-attachment-action-nerve
+pectoralis-major-attachment-nerve-action
 ## definition
 Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.
 ## explicit_objective

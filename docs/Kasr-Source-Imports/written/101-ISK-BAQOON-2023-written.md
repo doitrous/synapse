@@ -46,9 +46,9 @@ Expects: Pectoralis major inserts by a bilaminar tendon into the lateral lip of 
 Expects: Pectoralis minor inserts into the medial border and upper surface of the coracoid process
 Expects: Pectoralis major adducts and medially rotates the arm, its clavicular head flexing the arm and its sternocostal head extending the flexed arm
 Expects: Pectoralis minor protracts and depresses the shoulder girdle, and raises the ribs in forced inspiration when the scapula is fixed
-Concept: CON-MSK-097C0BDED777AB
+Concept: CON-MSK-2B9F47FC205689
 ## main_concept
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## topic
 Anatomy
 ## subtopic
