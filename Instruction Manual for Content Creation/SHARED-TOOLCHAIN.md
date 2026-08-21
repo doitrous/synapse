@@ -1004,6 +1004,22 @@ written question has lettered options.
 so.** A metric that can only be reached by asserting something false is the wrong gate for
 that format. Report the ceiling and why, rather than padding to the number.
 
+**The ceiling measured exactly:** the question schema has **61** columns, of which **16 are
+choice-only** (`answer_a…f`, `explanation_a…f`, `correct_answer`, `correct_answers`,
+`attached_image`, `randomise_answers`) and **4 belong to other non-written formats**. So **41
+is the ceiling for a written batch**, and a written batch at 41 is a perfect score.
+
+**But do not read your own number as finished until you have measured the ceiling.** The lane
+that measured it found itself at **31**, ten short — and most of those were fillable:
+`concept_ids`, `contextual_concept_ids`, `cognitive_effort_score`, `inferred_difficulty`,
+`exam_weight_by_year`, and `media_recommendations` on its diagram questions. It reached 37;
+the remaining four genuinely do not apply. **"41 is the ceiling" and "check what you left
+fillable" are both true.**
+
+Note on `media_recommendations`: requests attach to articles, questions and practicals, and
+**importing is the only way one comes into existence**. A separate hand-apply file is a
+convenience for an already-imported question, not the mechanism.
+
 ### Three ways an answer key hides, and the two-second test for which
 
 **Test first, then pick a technique.** Compare extracted character counts between a
@@ -1205,3 +1221,41 @@ re-deriving it.
 **`concepts` alone**, so `articles` and `resources` stay undefined on that path — a practical
 referencing an article cannot resolve it from a sibling batch. Concepts do fold in, so a
 practical batch **can** ship alongside concepts authored in the same pass.
+
+### A question's `resource_ids` cannot be filled at all — do not try
+
+Filling it with a manifest source ID returns `resource_ids src_… is not a resource that
+exists`, because a question's `resource_ids` resolves against the **catalogue** store —
+something a student opens — not the evidence store the manifest feeds.
+
+And the catalogue batch **cannot be imported**: `medical:batch` has no contract for a
+catalogue resource and reports the file `kind: "unknown"`, which fails CI for every lane.
+`detectBatchKind` has no catalogue-resource branch.
+
+**So leave the column out and write the reason into `author_notes`.** One lane's 69-record
+catalogue batch is staged outside the import root waiting on that branch. **This gap has no
+owner.**
+
+### Plans are not stable the way IDs are — read them back, don't re-derive
+
+The mint rule has a second home. Re-running a plan generator **re-slugs**: a renamed chapter or
+a reworded canonical key mints a **second** article for a page that already has one, and
+nothing notices.
+
+One lane went 21 → 38 concepts on reading a second paper (7 examined on both sittings, which
+is what lifts `weight_confidence` 0.7 → 0.9), which meant regenerating its article and claim
+assignment sheets. Its generator now **reads existing IDs back out of the batches** — article
+by `module_subject`, claim by `concept_id` — and reuses them. Verified: **all 15 article IDs
+and all 21 claim IDs preserved, none lost.**
+
+Same rule, different derived value: **for a record that already exists, look the ID up.**
+
+### `related_article_ids` has an honest source — derive it, don't invent it
+
+It is on `conceptPopulated`, so `[clear]` fails the audit. The honest source is the
+`related_articles` cross-references the article authors actually wrote: if the Enzymes article
+says Nucleic Acids is related, then a concept Enzymes teaches is genuinely discussed by Nucleic
+Acids — and the author already wrote a sentence saying why.
+
+**This makes `related_articles` mechanically load-bearing.** It is a prose list, one
+`ART-…: why` per line. **A line separated by `|` or `;` silently loses the link.**
