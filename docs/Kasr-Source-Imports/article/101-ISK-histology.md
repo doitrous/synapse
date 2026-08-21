@@ -60,7 +60,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 ## related_concepts
-CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB
+CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB | CON-HEM-77B701F6105076 | CON-HEM-5559E34E79085D
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The basophil and the mast cell share metachromatic granules and IgE receptors, and the department book compares them directly.
 ## aliases
@@ -196,6 +196,8 @@ nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 ## notes
 Written entirely from the department book chapter. The only content drawn from outside it is the naming of Leishman and Giemsa stains inside an image request, which is sourcing direction to a human and not taught content.
+
+Two further concepts were declared on this article without changing a word of it, because the article already taught both in full: the eosinophil's differential count, light-microscopic picture and functions, and the basophil's count, nucleus, metachromatic granules, IgE receptors and four secretions. Both are set out in Key determinants, Mechanism, Normal values and Clinical significance, and the mast cell comparison the basophil concept's pitfall turns on is in Common misconceptions.
 
 ---
 
@@ -394,11 +396,12 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-EE10AFCE944705
+CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80
 ## related_articles
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte is described there as a blood cell, with its counts and its whole immunological family; here it is described as the macrophage's origin.
 ART-101-HIS-GRANULAR-LEUKOCYTES: The basophil is the mast cell's blood counterpart, sharing metachromatic granules and IgE receptors, and the book compares them directly.
 ## aliases
-Cells of connective tissue proper | Mast cell
+Cells of connective tissue proper | Mast cell | Plasma cell | Macrophage | Histiocyte | Adipose cells | Unilocular and multilocular fat cells
 ## reading_time
 13
 ## summary
@@ -422,7 +425,15 @@ Those granules stain metachromatically with toluidine blue, appearing purple or 
 
 The cell surface carries receptors for IgE, and binding of an antigen to that IgE is what discharges the granules. Four secretions follow. Heparin acts as an anticoagulant. Histamine causes vasodilatation and increased vascular permeability. Leukotrienes contract the smooth muscle of the bronchial tree, causing bronchial asthma. Eosinophil chemotactic factor attracts eosinophils to the allergic site, which is where this article joins the granular leucocytes.
 
-The other resident cells are recognised on the same principle, appearance following content. The active fibroblast is branched with long thin processes, a deeply basophilic cytoplasm and a large pale oval nucleus with a prominent nucleolus, and on electron microscopy it is a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi, many mitochondria and a euchromatic nucleus; the inactive fibroblast, or fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, a smaller darker nucleus with more heterochromatin, and less of all three organelles. The unilocular fat cell stores its fat as a single large droplet that pushes cytoplasm and nucleus to the periphery, and because H&E dissolves the fat away it is left as the signet ring appearance, while Sudan III stains the fat orange. The macrophage is large and irregular, with pale basophilic cytoplasm and an eccentric dark kidney-shaped nucleus, and is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses.
+The other resident cells are recognised on the same principle, appearance following content. The active fibroblast is branched with long thin processes, a deeply basophilic cytoplasm and a large pale oval nucleus with a prominent nucleolus, and on electron microscopy it is a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi, many mitochondria and a euchromatic nucleus; the inactive fibroblast, or fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, a smaller darker nucleus with more heterochromatin, and less of all three organelles.
+
+**The two adipose cells.** Both arise from the undifferentiated mesenchymal cell, and they differ in how the fat is stored. The unilocular fat cell forms white adipose connective tissue. It is large — 50 to 150 µm, the largest cell in this chapter — and oval, and its fat is one large droplet containing dissolved carotenoids, which pushes the cytoplasm and the nucleus to the periphery. H&E dissolves that fat away, and what is left is the signet ring appearance: a rim of cytoplasm with a flattened peripheral nucleus around an empty space. Sudan III stains the droplet orange, which is the preparation that shows the fat was there. On electron microscopy the cell has abundant smooth endoplasmic reticulum, few mitochondria and one large electron-dense droplet. Its functions are the synthesis and storage of fat, support of organs such as the kidney, heat insulation, and an endocrine function — the secretion of leptin, which inhibits food intake and stimulates the metabolic rate and the loss of body weight.
+
+The multilocular fat cell forms brown adipose connective tissue. It is smaller, its fat is in multiple small droplets so there is no signet ring, its nucleus is mostly eccentric and round, and it carries a brown pigmentation. On electron microscopy it has less smooth endoplasmic reticulum and many mitochondria rich in cytochrome oxidase. Its function is thermogenesis: it breaks down fat to release heat, through the thermogenin protein in those mitochondria. So the two cells are told apart by droplet number, by the presence or absence of the signet ring, by nuclear position and by colour — and the mitochondrial count on electron microscopy is what the difference in function rests on.
+
+**The macrophage, and where it comes from.** The macrophage, also called the histiocyte, arises from the monocyte. It is found in connective tissue, in lymphoid tissue, in bone marrow, in brain, in lung and in liver. On light microscopy it is a large, irregular cell with pale basophilic cytoplasm and an eccentric, dark, kidney-shaped nucleus, and it is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses. On electron microscopy it has pseudopodia, is rich in lysosomes, phagocytosed particles and residual bodies, and has a prominent Golgi, few cisternae of rough endoplasmic reticulum and a heterochromatic nucleus.
+
+The monocyte it comes from is a blood cell, and its own picture is worth holding here because it is the macrophage one stage earlier. The monocyte is the largest leucocyte, 13 to 20 µm across, and 3 to 8 per cent of the white cells. Its nucleus is large, eccentric, pale and kidney-shaped, with one or two nucleoli. Its cytoplasm is non-granular and pale basophilic, with a frosted-glass appearance produced by its lysosomes — the azurophil granules — which is why the light microscope finds a texture where the electron microscope finds organelles. On electron microscopy the nucleus is euchromatic with a clear nucleolus, and the cytoplasm holds pseudopodia, mitochondria, rough endoplasmic reticulum, a well developed Golgi and many primary and secondary lysosomes. It is highly phagocytic. It remains about three days in the blood, then enters the connective tissue and becomes a macrophage, living about three months there; it is an antigen-presenting cell; and it is the precursor of the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system. The kidney-shaped nucleus survives the transition, which is why it identifies the cell at both ends of it.
 
 ### Key determinants
 Three things identify a mast cell, and the exam asks for all three.
@@ -437,8 +448,26 @@ The discriminating comparison is with the plasma cell, which the book places on 
 
 So: central pale nucleus with granules is the mast cell; eccentric cart-wheel nucleus with a negative Golgi image and no granules is the plasma cell. Toluidine blue separates them outright.
 
+**Plasma cell against macrophage**, which the department book asks as its own comparison and which turns on three rows rather than on staining.
+
+Origin. The plasma cell arises from the B lymphocyte, through the plasmablast. The macrophage arises from the monocyte.
+
+Site. The plasma cell lies in lymphoid tissue, where it is numerous. The macrophage is found in connective tissue — where it is the histiocyte — and in lymphoid tissue, bone marrow, brain, lung and liver.
+
+Light microscopy. The plasma cell is a large oval cell with a regular outline, deeply basophilic cytoplasm and a pale negative Golgi image beside the nucleus; its nucleus is spherical and eccentric, and its alternating hetero- and euchromatin give the cart-wheel or clock-face appearance. The macrophage is a large, branched, motile cell with an irregular boundary, pale granular basophilic cytoplasm, and a single darkly stained eccentric kidney-shaped nucleus; it is demonstrated by a vital stain such as trypan blue or India ink, which it takes up.
+
+Electron microscopy. The plasma cell is the picture of a protein-forming cell — rich in rough endoplasmic reticulum, well developed Golgi, many mitochondria, euchromatic nucleus, and no secretory granules at all. The macrophage is the picture of a phagocyte — pseudopodia, many lysosomes, phagocytosed particles and residual bodies, prominent Golgi, few rough endoplasmic reticulum profiles and a heterochromatic nucleus.
+
+Function. The plasma cell synthesises and secretes antibodies. The macrophage phagocytoses and destroys foreign particles, microorganisms and dead cells; fuses with its fellows into multinucleated foreign body giant cells to engulf large particles; presents antigen to activate lymphocytes; and destroys old red cells in the liver and spleen.
+
+Two shapes and two nuclei, then: regular outline with a cart-wheel nucleus and no granules is the plasma cell; irregular branched outline with a kidney-shaped nucleus and ingested vital stain is the macrophage. Basophilia does not separate them, because both can look dark.
+
+**Unilocular against multilocular fat cell**, the other comparison this leaf carries.
+
+Origin: both from the undifferentiated mesenchymal cell. Tissue formed: white adipose connective tissue against brown. Size: large, 50 to 150 µm, against smaller. Fat: one large droplet with dissolved carotenoids against multiple small droplets. Light microscopy: signet ring appearance after H&E, with the nucleus flattened at the periphery, against no signet ring, with a mostly eccentric round nucleus and a brown pigmentation. Electron microscopy: abundant smooth endoplasmic reticulum and few mitochondria against less smooth endoplasmic reticulum and many mitochondria rich in cytochrome oxidase. Function: synthesis and storage of fat, organ support, heat insulation and secretion of leptin, against thermogenesis through thermogenin.
+
 ### Normal values
-The unilocular adipose cell is 50–150 µm across, the largest cell described in this chapter. The book names seven resident cell types and two transient cell types in connective tissue proper, and four functional classes. Where the granular leucocyte chapter compares the mast cell with the basophil, it gives the mast cell as 20–30 µm against the basophil's 10–12 µm, and a life span of weeks to months against the basophil's few days.
+The unilocular adipose cell is 50–150 µm across, the largest cell described in this chapter. The monocyte, described here as the macrophage's precursor, is 13–20 µm and 3–8% of the white cells, and lives three days in the blood and about three months in the connective tissue. The book names seven resident cell types and two transient cell types in connective tissue proper, and four functional classes. Where the granular leucocyte chapter compares the mast cell with the basophil, it gives the mast cell as 20–30 µm against the basophil's 10–12 µm, and a life span of weeks to months against the basophil's few days.
 
 ### Clinical significance
 The mast cell is the cell of allergy, and the book states the consequence in two grades.
@@ -453,6 +482,14 @@ The macrophage carries the other clinical weight in this chapter. It phagocytose
 Basophilia of the cytoplasm is not one thing. In the mast cell it is granular and metachromatic, produced by heparin in membrane-bound granules. In the plasma cell it is diffuse and orthochromatic, produced by ribosomes on rough endoplasmic reticulum. Two cells can be described with the same word and be told apart in one stain.
 
 The mast cell is a resident cell and the plasma cell a transient one, which is why the book lists them in different columns even though it compares them side by side.
+
+The plasma cell and the macrophage are not told apart by how dark they are. Both can look basophilic. They are told apart by outline — regular and oval against irregular and branched — by nucleus — cart-wheel and spherical against kidney-shaped — and by what a vital stain does, which is nothing to a plasma cell and everything to a macrophage.
+
+The signet ring is not an artefact to be ignored. It is the diagnostic light-microscopic appearance of the unilocular fat cell, and it exists precisely because H&E dissolved the fat; the Sudan III preparation of the same tissue is what proves it.
+
+Brown fat is not simply fat that looks different. The multilocular cell has many mitochondria rich in cytochrome oxidase and produces heat through thermogenin, and its brown colour is a consequence of those mitochondria.
+
+The monocyte is not a granulocyte. Its frosted-glass cytoplasm is produced by lysosomes — the azurophil granules — and it is classed among the non-granular leucocytes because it has no specific granules.
 ## hold_these
 Mast cell granules are metachromatic with toluidine blue, staining purple or red where the dye is blue, and the metachromasia is due to heparin.
 The mast cell nucleus is central, spherical and pale; the plasma cell nucleus is eccentric with a cart-wheel or clock-face pattern.
@@ -462,6 +499,13 @@ The mast cell secretes heparin, histamine, leukotrienes and eosinophil chemotact
 Connective tissue proper has seven resident cell types and two transient cell types.
 The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around vessels and beneath the epithelium of lung and digestive tube.
 The unilocular fat cell's signet ring appearance is an artefact of H&E dissolving the fat away, and Sudan III stains the fat orange.
+The plasma cell arises from the B lymphocyte and lies in lymphoid tissue; the macrophage arises from the monocyte and is found in connective tissue, lymphoid tissue, bone marrow, brain, lung and liver.
+The plasma cell is regular and oval with a cart-wheel nucleus and no secretory granules; the macrophage is irregular and branched with a kidney-shaped nucleus and takes up vital stains.
+Macrophage functions: phagocytosis of particles, microorganisms and dead cells; fusion into foreign body giant cells; antigen presentation; and destruction of old red cells in liver and spleen.
+The monocyte is 13–20 µm and 3–8% of white cells, with a kidney-shaped eccentric nucleus and frosted-glass cytoplasm from its lysosomes; it spends three days in blood and then becomes a macrophage.
+The monocyte is also the precursor of the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the CNS.
+The unilocular fat cell is 50–150 µm with one droplet and the signet ring appearance; the multilocular fat cell is smaller with many droplets, no signet ring, brown pigmentation and many mitochondria.
+Unilocular fat cells store fat, support organs, insulate and secrete leptin; multilocular fat cells produce heat through thermogenin.
 ## lose_the_mark
 Confusing the mast cell with the plasma cell. Both are basophilic, but the plasma cell has a cart-wheel nucleus and a pale Golgi hof, and is not metachromatic.
 Saying the granules stain blue with toluidine blue. Metachromasia means the opposite: the granules take a colour different from the dye.
@@ -469,6 +513,11 @@ Attributing metachromasia to histamine. The book attributes it to heparin.
 Listing only histamine and heparin as mast cell secretions. The book names four, and leukotrienes and eosinophil chemotactic factor are the ones dropped.
 Placing the mast cell among the transient cells. It is resident, and the plasma cell is the transient one.
 Describing the mast cell nucleus as obscured by granules. That is the basophil. The mast cell nucleus is central, spherical and visible.
+Separating the plasma cell from the macrophage by basophilia alone. Both can look dark; it is the cart-wheel nucleus and negative Golgi image against the kidney-shaped nucleus and ingested vital stain that settle it.
+Expecting secretory granules in a plasma cell. It has none — it exports antibody continuously, which is why its cytoplasm is rough endoplasmic reticulum rather than stored product.
+Giving the macrophage's origin as the lymphocyte. It arises from the monocyte, and so do the dust cell, the Kupffer cell, the osteoclast and the microglial cell.
+Treating the signet ring as an artefact to be discounted. It is the diagnostic appearance of the unilocular fat cell.
+Calling the multilocular fat cell a small white fat cell. It forms brown adipose tissue, has many cytochrome-oxidase-rich mitochondria, and its job is heat rather than storage.
 ## image_recommendations
 ### histology · Loose connective tissue spread stained with toluidine blue, mast cells showing purple metachromatic granules against a blue background, one cell at high power with the central pale nucleus visible
 Purpose: Metachromasia is a colour phenomenon and the single identifying feature of this cell. No description substitutes for seeing the granules take a colour the dye is not, and a student who has never seen it cannot recognise it in a practical.
@@ -503,6 +552,24 @@ Kind: histology
 Section: Mechanism
 Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
+### comparison table · Plasma cell against macrophage in two columns — origin, site, light-microscopic outline, cytoplasm, nucleus, special stain, electron microscopy and function — with a drawing of each cell at the same magnification
+Purpose: The department book asks this as a comparison and the two cells are confused on the one row that does not separate them, basophilia. A table forces every row to be answered and puts the discriminating rows — outline, nucleus, vital stain — beside the one that is not.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: composite from openly licensed micrographs, following the department book's page 45 and page 46 comparative tables
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-45A380D5F6A77F.
+### comparison table · Unilocular against multilocular adipose cell at the same magnification, H&E for both, with the signet ring visible on one and absent on the other, nucleus position marked on each, and a Sudan III panel of the unilocular cell beside it
+Purpose: The whole comparison is a light-microscopic discrimination between one droplet and many, and the signet ring only makes sense once the Sudan III panel shows the fat that H&E removed. Three panels carry the comparison and the artefact together.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: openly licensed histology teaching set, following the department book's page 44 comparative table
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-2E2D5D5817E5F5.
 ### histology · Connective tissue spread after vital staining with trypan blue or India ink, macrophages loaded with ingested particles, eccentric kidney-shaped nucleus visible
 Purpose: The book identifies the macrophage by the vital stain it takes up rather than by shape alone. A plate showing loaded cells makes the identification method concrete.
 Priority: optional
@@ -512,15 +579,23 @@ Section: Mechanism
 Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
 ## conflicts
+Where the monocyte belongs. Concept CON-HEM-22B546E0AA7D80 sits on the Blood > Non granular leukocytes leaf, and the leaf-correct article for it is ART-101-HIS-NON-GRANULAR-LEUKOCYTES, which teaches the monocyte in full as a blood cell. That article lives in a sibling batch file this session was not permitted to edit, so its `related_concepts` could not be extended and the coverage link could not be made from there. The concept is declared here instead, on an article that does teach the monocyte — its counts, its light- and electron-microscopic picture and its functions — as the macrophage's origin, because the department book's own account of the macrophage begins "arises from the monocyte" and the two cells are one cell at two stages. The declaration should be moved to ART-101-HIS-NON-GRANULAR-LEUKOCYTES at the evidence pass, and this article's own teaching of the monocyte kept as the macrophage's origin.
+Whether the macrophage is described as fixed or free. The department book says the macrophage "is found in C.T., lymphoid tissue, bone marrow, brain, lung and liver" and draws no fixed-versus-free distinction. Concept CON-FND-45A380D5F6A77F describes it as fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung. This article states the book's list and names the histiocyte as the book does, without asserting the fixed-free split, which no Kasr source in the corpus makes.
 Origin of the mast cell. The department book states the mast cell arises from the undifferentiated mesenchymal cell. Standard current texts derive it from a bone-marrow progenitor that matures in the tissues. This article states the book's position because that is what this faculty teaches and marks, and the disagreement is recorded here rather than resolved silently.
 ## evidence_gaps
 The book does not describe the internal ultrastructure of the mast cell granule. It says only "electron-dense membrane-bound granules". The scroll or lamellar internal structure named in concept CON-FND-EE10AFCE944705 is not in this chapter, is not stated in this article, and needs either an independent citation or removal from the concept.
 The book gives no mast cell count or density per unit tissue.
+The book does not draw a fixed-versus-free distinction for the macrophage, which concept CON-FND-45A380D5F6A77F does. That distinction is not stated here.
+The book gives no size for the macrophage or the plasma cell, only "large" for both, so no figure is given.
+The book does not state the life span of the plasma cell.
+The monocyte figures used here — 13 to 20 µm, 3 to 8 per cent, three days in blood and three months in tissue — come from the book's Blood chapter rather than from this one, and are cited to it in evidence_basis.
 The book does not name the chemical class of heparin or explain the physical basis of metachromasia beyond attributing it to heparin.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Connective Tissue Cells", printed pages 41-46. Extracted to scripts/kasr/extract/deptbook.json.
 Mast cell size and life span compared with the basophil are taken from the same book's "Granular Leucocytes" chapter, printed page 35.
+The monocyte's diameter, differential count, life span, light- and electron-microscopic picture and descendants are taken from the same book's "Non Granular Leucocytes" chapter, printed pages 36-38, and from Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), page 10, topic "Monocytes". Extracted to scripts/kasr/extract/deptbook.json and scripts/kasr/extract/notes.json.
+Prof. Dalia El Marakby's Connective Tissue handout (src_d56198df979fc164f6c6), page 6, topic "Mast cells, plasma cells and macrophages" — the same three cells with the same light- and electron-microscopic pictures and the same macrophage functions. Extracted to scripts/kasr/extract/notes.json.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so the plates this article needs are written as image recommendations.
@@ -532,6 +607,8 @@ secondaryNodeIds: Concept CON-FND-EE10AFCE944705 carries no secondary placement,
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
 The Normal values section borrows the mast cell size and life span from the granular leucocyte chapter of the same book, because the connective tissue chapter gives neither. Both are the department's own figures.
+
+Extended from a mast-cell article into a full account of this leaf, because five concepts sit here: the mast cell, the plasma cell, the plasma cell against the macrophage, the two fat cells, and — for the reason set out in conflicts — the monocyte. The department book's own chapter is organised the same way, as a series of two-column comparative tables, and the Key determinants section now follows that organisation.
 
 ---
 

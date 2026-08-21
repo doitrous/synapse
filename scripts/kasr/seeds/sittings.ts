@@ -24,7 +24,7 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
   'elbow-joint-type-bones-ligaments': [
     'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
   ],
-  'radial-nerve-origin-roots-branches': [
+  'radial-nerve-origin-root-branches': [
     'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
   ],
   'embryonic-folding-types-and-causes': [

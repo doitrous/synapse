@@ -118,8 +118,6 @@ Match each vitamin to its correlated function or disease.
 ## format
 matching
 
-## correct_answer
-A
 
 ## matching_options
 A | Subacute degeneration of the spinal cord
@@ -237,7 +235,6 @@ Not split into ten single-best-answer questions. Splitting changes what is teste
 "Pallagra" is the paper's own spelling in both the solved and the unsolved copy; option C is written "Pellagra". "CO₂ xation" in the unsolved copy's text layer is the dropped fi ligature and is CO₂ fixation, confirmed on the render.
 Two main concepts, both co-primary: the block runs across the fat-soluble vitamins and the water-soluble ones, and a student who gets the four fat-soluble stems right and the six water-soluble ones wrong has demonstrated one and not the other. Naming a single main concept would leave half of what this question tests earning no mastery evidence.
 concept_ids and contextual_concept_ids are empty: the two summary concepts cover all twelve options and both distractors between them, and nothing in the question is needed as background without being assessed.
-`correct_answer` is present, set to A, and is never read. It is here because the importer requires the column and its exemption list — written formats, mcq_multi, labeling and completion — does not include `matching`, which is an oversight in `bulkImport.ts` rather than a statement about this question: a matching block has no single correct letter any more than a completion or a labelling one does. The repo's own matching test row (`src/data/bulkImport.test.ts`, "a matching question whose prompt names a missing option is refused") carries the same placeholder. Because `matching` is not a choice format, the value is never validated against a lettered option, no `answer_a` is required and none is created, so nothing here declares that this question has lettered options. A is chosen because it is a real option letter in this block — the option that answers Vitamin B12 — rather than an invented one. A reviewer should add `matching` to that exemption list and drop this cell.
 Marks: the paper prints {1 Mark each} against the block and lists ten vitamins, so it is worth ten. There is no marks column on a matching question — the runner marks it prompt by prompt, which is the same thing.
 resource_ids is left present-but-empty on purpose. It resolves against the catalogue resource store, not the evidence store the Kasr manifest feeds, so naming src_37f6c0daf3436096af19 or src_a2e23ffc50b6b2e24897 there fails with "is not a resource that exists". Both manifests are named in source_citation instead.
 media_recommendations is empty: the paper's table is words, and it is reproduced as words. An image of it would add nothing and would make the options unsearchable.

@@ -1,0 +1,8325 @@
+{
+ "moduleId": "101 ISK",
+ "universityId": "kau",
+ "sourceCategory": "EOM",
+ "generatedBy": "scripts/kasr/extract/eom-answerkey.py",
+ "files": [
+  {
+   "file": "EOM ISK 101 - 2023.pdf",
+   "sourceId": "src_ce4292e31edea7517e7b",
+   "pages": 11,
+   "mechanism": "raster",
+   "markPath": "fill",
+   "dpi": 200,
+   "hsv": {
+    "hue": [
+     310.0,
+     20.0
+    ],
+    "sat": 0.15,
+    "val": 200
+   },
+   "hsvNote": "hue window wraps past 360; a second window [190.0, 250.0] is scanned for the blue correction ink",
+   "sampledFrom": null,
+   "isControl": true,
+   "controlHighlightPixels": 1790,
+   "controlMarkRegions": 1,
+   "questions": 108,
+   "recovered": 0,
+   "ambiguous": 108,
+   "recoveredByRule": {
+    "intersection": 0,
+    "containment": 0
+   },
+   "pageStatistics": [
+    {
+     "page": 1,
+     "questionsFound": 10,
+     "ocrWords": 325,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 1695,
+     "markRegions": 1,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 1695,
+       "annotationsOffPixels": 1719,
+       "marginRatio": 0.99
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 2,
+     "questionsFound": 15,
+     "ocrWords": 337,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 2,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 3,
+     "questionsFound": 11,
+     "ocrWords": 346,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 4,
+     "questionsFound": 13,
+     "ocrWords": 334,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 0,
+     "markPixels": 62,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 62,
+       "annotationsOffPixels": 40,
+       "marginRatio": 1.55
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 5,
+     "questionsFound": 12,
+     "ocrWords": 418,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 6,
+     "questionsFound": 11,
+     "ocrWords": 367,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 7,
+     "questionsFound": 10,
+     "ocrWords": 438,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 8,
+     "questionsFound": 0,
+     "ocrWords": 379,
+     "ocrModes": [],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 33,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 33,
+       "annotationsOffPixels": 37,
+       "marginRatio": 0.89
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 9,
+     "questionsFound": 9,
+     "ocrWords": 428,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 10,
+     "questionsFound": 10,
+     "ocrWords": 332,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 11,
+     "questionsFound": 7,
+     "ocrWords": 312,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 0,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    }
+   ],
+   "controlRows": []
+  },
+  {
+   "file": "EOM ISK 101 195 Answers.pdf",
+   "sourceId": "src_9e6aad6c6af097e473d6",
+   "pages": 11,
+   "mechanism": "raster",
+   "markPath": "fill",
+   "dpi": 200,
+   "hsv": {
+    "hue": [
+     310.0,
+     20.0
+    ],
+    "sat": 0.03,
+    "val": 220
+   },
+   "hsvNote": "hue window wraps past 360; a second window [190.0, 250.0] is scanned for the blue correction ink",
+   "sampledFrom": null,
+   "isControl": true,
+   "controlHighlightPixels": 193223,
+   "controlMarkRegions": 1,
+   "questions": 117,
+   "recovered": 0,
+   "ambiguous": 117,
+   "recoveredByRule": {
+    "intersection": 0,
+    "containment": 0
+   },
+   "pageStatistics": [
+    {
+     "page": 1,
+     "questionsFound": 9,
+     "ocrWords": 325,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 23076,
+     "markRegions": 1,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 6922,
+       "annotationsOffPixels": 7402,
+       "marginRatio": 0.94
+      },
+      "blue": {
+       "annotationsOnPixels": 16154,
+       "annotationsOffPixels": 19189,
+       "marginRatio": 0.84
+      }
+     }
+    },
+    {
+     "page": 2,
+     "questionsFound": 12,
+     "ocrWords": 286,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 16744,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 1637,
+       "annotationsOffPixels": 2153,
+       "marginRatio": 0.76
+      },
+      "blue": {
+       "annotationsOnPixels": 15107,
+       "annotationsOffPixels": 18177,
+       "marginRatio": 0.83
+      }
+     }
+    },
+    {
+     "page": 3,
+     "questionsFound": 10,
+     "ocrWords": 304,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 15580,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 3368,
+       "annotationsOffPixels": 3736,
+       "marginRatio": 0.9
+      },
+      "blue": {
+       "annotationsOnPixels": 12212,
+       "annotationsOffPixels": 14632,
+       "marginRatio": 0.83
+      }
+     }
+    },
+    {
+     "page": 4,
+     "questionsFound": 13,
+     "ocrWords": 298,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 17490,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 2168,
+       "annotationsOffPixels": 2390,
+       "marginRatio": 0.91
+      },
+      "blue": {
+       "annotationsOnPixels": 15322,
+       "annotationsOffPixels": 18175,
+       "marginRatio": 0.84
+      }
+     }
+    },
+    {
+     "page": 5,
+     "questionsFound": 12,
+     "ocrWords": 380,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 16454,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 3637,
+       "annotationsOffPixels": 3996,
+       "marginRatio": 0.91
+      },
+      "blue": {
+       "annotationsOnPixels": 12817,
+       "annotationsOffPixels": 15444,
+       "marginRatio": 0.83
+      }
+     }
+    },
+    {
+     "page": 6,
+     "questionsFound": 10,
+     "ocrWords": 371,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 18101,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 2267,
+       "annotationsOffPixels": 2931,
+       "marginRatio": 0.77
+      },
+      "blue": {
+       "annotationsOnPixels": 15834,
+       "annotationsOffPixels": 19525,
+       "marginRatio": 0.81
+      }
+     }
+    },
+    {
+     "page": 7,
+     "questionsFound": 10,
+     "ocrWords": 354,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 17895,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 3456,
+       "annotationsOffPixels": 3868,
+       "marginRatio": 0.89
+      },
+      "blue": {
+       "annotationsOnPixels": 14439,
+       "annotationsOffPixels": 16787,
+       "marginRatio": 0.86
+      }
+     }
+    },
+    {
+     "page": 8,
+     "questionsFound": 10,
+     "ocrWords": 384,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 18232,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 2547,
+       "annotationsOffPixels": 3266,
+       "marginRatio": 0.78
+      },
+      "blue": {
+       "annotationsOnPixels": 15685,
+       "annotationsOffPixels": 19953,
+       "marginRatio": 0.79
+      }
+     }
+    },
+    {
+     "page": 9,
+     "questionsFound": 9,
+     "ocrWords": 424,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 18608,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 3733,
+       "annotationsOffPixels": 4554,
+       "marginRatio": 0.82
+      },
+      "blue": {
+       "annotationsOnPixels": 14875,
+       "annotationsOffPixels": 18636,
+       "marginRatio": 0.8
+      }
+     }
+    },
+    {
+     "page": 10,
+     "questionsFound": 12,
+     "ocrWords": 363,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 0,
+     "markPixels": 16577,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 1700,
+       "annotationsOffPixels": 2248,
+       "marginRatio": 0.76
+      },
+      "blue": {
+       "annotationsOnPixels": 14877,
+       "annotationsOffPixels": 18679,
+       "marginRatio": 0.8
+      }
+     }
+    },
+    {
+     "page": 11,
+     "questionsFound": 10,
+     "ocrWords": 320,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 14466,
+     "markRegions": 0,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 3435,
+       "annotationsOffPixels": 4135,
+       "marginRatio": 0.83
+      },
+      "blue": {
+       "annotationsOnPixels": 11031,
+       "annotationsOffPixels": 13941,
+       "marginRatio": 0.79
+      }
+     }
+    }
+   ],
+   "controlRows": []
+  },
+  {
+   "file": "EOM ISK EOM exam 2024.pdf",
+   "sourceId": "src_16f747e1171423933757",
+   "pages": 11,
+   "mechanism": "raster",
+   "markPath": "stroke",
+   "dpi": 300,
+   "hsv": {
+    "hue": [
+     310.0,
+     20.0
+    ],
+    "sat": 0.05,
+    "val": 180
+   },
+   "hsvNote": "hue window wraps past 360; a second window [190.0, 250.0] is scanned for the blue correction ink",
+   "sampledFrom": "nothing: at every threshold in the calibration grid this paper's page 2 yields under 100 coloured pixels, all of them below value 180. Its marks are grey graphite.",
+   "isControl": false,
+   "controlHighlightPixels": 0,
+   "controlMarkRegions": 0,
+   "questions": 14,
+   "recovered": 0,
+   "ambiguous": 14,
+   "recoveredByRule": {
+    "intersection": 0,
+    "containment": 0
+   },
+   "pageStatistics": [
+    {
+     "page": 1,
+     "questionsFound": 0,
+     "ocrWords": 270,
+     "ocrModes": [],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 72782,
+     "strokeFragments": 22,
+     "strokeHulls": 1
+    },
+    {
+     "page": 2,
+     "questionsFound": 2,
+     "ocrWords": 303,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 24679,
+     "strokeFragments": 27,
+     "strokeHulls": 14
+    },
+    {
+     "page": 3,
+     "questionsFound": 2,
+     "ocrWords": 321,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 37719,
+     "strokeFragments": 12,
+     "strokeHulls": 3
+    },
+    {
+     "page": 4,
+     "questionsFound": 4,
+     "ocrWords": 375,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 160309,
+     "strokeFragments": 26,
+     "strokeHulls": 1
+    },
+    {
+     "page": 5,
+     "questionsFound": 0,
+     "ocrWords": 397,
+     "ocrModes": [],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 38703,
+     "strokeFragments": 24,
+     "strokeHulls": 8
+    },
+    {
+     "page": 6,
+     "questionsFound": 0,
+     "ocrWords": 369,
+     "ocrModes": [],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 40647,
+     "strokeFragments": 11,
+     "strokeHulls": 2
+    },
+    {
+     "page": 7,
+     "questionsFound": 0,
+     "ocrWords": 382,
+     "ocrModes": [],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 37181,
+     "strokeFragments": 17,
+     "strokeHulls": 5
+    },
+    {
+     "page": 8,
+     "questionsFound": 1,
+     "ocrWords": 354,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 63576,
+     "strokeFragments": 27,
+     "strokeHulls": 8
+    },
+    {
+     "page": 9,
+     "questionsFound": 1,
+     "ocrWords": 357,
+     "ocrModes": [
+      "psm11"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 47300,
+     "strokeFragments": 17,
+     "strokeHulls": 5
+    },
+    {
+     "page": 10,
+     "questionsFound": 2,
+     "ocrWords": 330,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 0,
+     "markPixels": 48783,
+     "strokeFragments": 20,
+     "strokeHulls": 3
+    },
+    {
+     "page": 11,
+     "questionsFound": 2,
+     "ocrWords": 248,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 0,
+     "markPixels": 47570,
+     "strokeFragments": 15,
+     "strokeHulls": 3
+    }
+   ]
+  },
+  {
+   "file": "EOM ISK End 101 — 2022.pdf",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "pages": 11,
+   "mechanism": "raster",
+   "markPath": "fill",
+   "dpi": 200,
+   "hsv": {
+    "hue": [
+     310.0,
+     20.0
+    ],
+    "sat": 0.15,
+    "val": 200
+   },
+   "hsvNote": "hue window wraps past 360; a second window [190.0, 250.0] is scanned for the blue correction ink",
+   "sampledFrom": "the band over option a of question 11 on page 2, whose pixels run hue 350-360 at saturation 0.20-0.26 and value 224-255",
+   "isControl": false,
+   "controlHighlightPixels": 0,
+   "controlMarkRegions": 0,
+   "questions": 108,
+   "recovered": 92,
+   "ambiguous": 16,
+   "recoveredByRule": {
+    "intersection": 92,
+    "containment": 0
+   },
+   "pageStatistics": [
+    {
+     "page": 1,
+     "questionsFound": 11,
+     "ocrWords": 341,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 141338,
+     "markPixels": 98076,
+     "markRegions": 11,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 98076,
+       "annotationsOffPixels": 1617,
+       "marginRatio": 60.65
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 2,
+     "questionsFound": 15,
+     "ocrWords": 331,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 2,
+     "annotationDiffPixels": 278981,
+     "markPixels": 190980,
+     "markRegions": 15,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 190980,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 3,
+     "questionsFound": 6,
+     "ocrWords": 345,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 226804,
+     "markPixels": 148608,
+     "markRegions": 12,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 148608,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 4,
+     "questionsFound": 13,
+     "ocrWords": 335,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 179164,
+     "markPixels": 110977,
+     "markRegions": 13,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 110977,
+       "annotationsOffPixels": 37,
+       "marginRatio": 2999.38
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 5,
+     "questionsFound": 11,
+     "ocrWords": 440,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 203500,
+     "markPixels": 133246,
+     "markRegions": 11,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 133246,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 6,
+     "questionsFound": 12,
+     "ocrWords": 368,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 167324,
+     "markPixels": 110913,
+     "markRegions": 11,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 110913,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 7,
+     "questionsFound": 10,
+     "ocrWords": 444,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 181069,
+     "markPixels": 122188,
+     "markRegions": 11,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 122188,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 8,
+     "questionsFound": 5,
+     "ocrWords": 372,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 1,
+     "annotationDiffPixels": 199929,
+     "markPixels": 138345,
+     "markRegions": 11,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 138345,
+       "annotationsOffPixels": 33,
+       "marginRatio": 4192.27
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 9,
+     "questionsFound": 9,
+     "ocrWords": 444,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 219200,
+     "markPixels": 162214,
+     "markRegions": 9,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 162214,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 10,
+     "questionsFound": 10,
+     "ocrWords": 338,
+     "ocrModes": [
+      "psm11",
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 205180,
+     "markPixels": 146281,
+     "markRegions": 10,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 146281,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    },
+    {
+     "page": 11,
+     "questionsFound": 6,
+     "ocrWords": 312,
+     "ocrModes": [
+      "psm6"
+     ],
+     "questionsWithMergedOptionBox": 0,
+     "annotationDiffPixels": 161955,
+     "markPixels": 109541,
+     "markRegions": 8,
+     "regionsOutsideColumn": 0,
+     "regionsOutsideColumnGeometry": [],
+     "noise": {
+      "pink": {
+       "annotationsOnPixels": 109541,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      },
+      "blue": {
+       "annotationsOnPixels": 0,
+       "annotationsOffPixels": 0,
+       "marginRatio": null
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "answers": [
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p001",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 2,
+   "printedNumber": 13,
+   "positionInSection": 1,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.5381
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     27,
+     494,
+     1103,
+     788
+    ]
+   },
+   "stemOcr": "Which statement is correct about the mitochondria? 4. Responsible for cell digestion J Inner membrane form cristae €. Form intracellular pathway X dé Stain orange with silver Pars amorpha of nucleolus is veel 7 Light area _W. Filaments of rRNA _9Strands of DNA"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p002",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 2,
+   "printedNumber": 14,
+   "positionInSection": 2,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0081
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     27,
+     494,
+     1103,
+     758
+    ]
+   },
+   "stemOcr": "Pars amorpha of nucleolus is"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p003",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 3,
+   "printedNumber": 28,
+   "positionInSection": 3,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 2,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 2 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     101,
+     639,
+     449,
+     667
+    ],
+    "b": [
+     0,
+     635,
+     1022,
+     765
+    ]
+   },
+   "stemOcr": "Simple cubical epithelium is found in the following site: bules of kidney 4 Convoluted t < Bowman’s capsule of kidney u he skin dv Epidermis of t ys Endothelium of blood vessels 2°29. Lung bronchioles are lined with: nar epithelium"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p004",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 3,
+   "printedNumber": 32,
+   "positionInSection": 4,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 2 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     110,
+     969,
+     295,
+     998
+    ],
+    "b": [
+     28,
+     950,
+     1094,
+     1063
+    ]
+   },
+   "stemOcr": "Pseudostratified columnar ciliated epithelium with stereocilia lines:"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p005",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 4,
+   "printedNumber": 4,
+   "positionInSection": 5,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     25,
+     463,
+     979,
+     596
+    ]
+   },
+   "stemOcr": "Basophils Je RBCS a Lymphocytes 4d. Eosinophils . ix Oval specific granules with electron dense core is seen in: _# Neutrophil _BMeonoorte f 8 Basophil _/6. Eosinophil | “40. Neutrophils: F | A: Decrease in parasitic disease 4 Terminate allergic reaction | _&-. Increase in pyogenic infections A, Responsible for cell mediated immunity | “Ae The ratio between immature WECs to immature RBCs in bone marrow is: J ae 51 P15 3:1"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p006",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 4,
+   "printedNumber": 41,
+   "positionInSection": 6,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 2,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 2 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     37,
+     463,
+     979,
+     581
+    ],
+    "a": [
+     35,
+     567,
+     288,
+     650
+    ]
+   },
+   "stemOcr": "The ratio between immature WBCs to immature RBCs in bone marrow is:"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p007",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 4,
+   "printedNumber": 43,
+   "positionInSection": 7,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     110,
+     641,
+     831,
+     693
+    ]
+   },
+   "stemOcr": "Natural killer cells are characterized by: 5"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p008",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 4,
+   "printedNumber": 45,
+   "positionInSection": 8,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     60,
+     951,
+     1101,
+     1137
+    ]
+   },
+   "stemOcr": "Considering the movement of the radio-ulnar joint: | aC In supination, the axis of supination-pronation is oblique to the axis of the forearm. | -> In pronation, the bones of the forearm are parallel * _#. Pronation is the stronger movement, ]"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p009",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 8,
+   "printedNumber": 84,
+   "positionInSection": 9,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 1,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 1 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     69,
+     1067,
+     1157,
+     1434
+    ]
+   },
+   "stemOcr": "A 45-year-old man is stabbed in the lateral chest wall. He now presents with Winging of scapula when pushing against a wall. Which nerve is likely damaged? / _® axillary nerve bt long thoracic nerve. ee dorsal scapular nerve di: thoracodorsal nerve. 85. A 45-year-old man arrived at the emergency department with injuries to his left elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examinations show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed? -. flexor digitorum superficialis -» biceps brachii ¢. brachioradialis _Aflexor carpi ulnaris é 86. The trapezius muscle is supplied by the .....eceeccecceneseeeeees MOFVE! al cranialaccessory _—b< spinal accessory"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p010",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 9,
+   "printedNumber": 96,
+   "positionInSection": 10,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0647
+    },
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     35,
+     1012,
+     1115,
+     1181
+    ],
+    "a": [
+     403,
+     1144,
+     577,
+     1181
+    ],
+    "c": [
+     613,
+     1145,
+     760,
+     1170
+    ]
+   },
+   "stemOcr": "Which of the following bones is a sesamoid bone? Pr risiform » scaphoid"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p011",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 10,
+   "printedNumber": 101,
+   "positionInSection": 11,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     12,
+     572,
+     962,
+     765
+    ],
+    "d": [
+     43,
+     704,
+     1087,
+     902
+    ],
+    "a": [
+     110,
+     896,
+     1006,
+     969
+    ]
+   },
+   "stemOcr": "wri descrj | : terms Ti ‘a hich of the following 8 a muscle that assists the prime mover home Performing its action? fi © agoni oni j * agonist DP antag _2®esynergist AM fixator | 1 ‘ cl | 22: Which of the following bones 18 Classified as a flatbone? “A scapula yy fern XX carpals 74. patella 103. Which of the following bones forms part of the axial skeleton? 2: Clavicle péeulna sternum 7d. scapula S77 104.4 Plane which i coat sn oa into an anterior and posterior part is called a: | _: Median plane . sagittal p cv horizontal plane _-4 Coronal plane ) 105. What does the term \"superior\" indicate in this description? ] @ Closer to the midline"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p012",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 10,
+   "printedNumber": 102,
+   "positionInSection": 12,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area",
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     12,
+     572,
+     962,
+     712
+    ],
+    "d": [
+     384,
+     703,
+     1087,
+     741
+    ],
+    "a": [
+     83,
+     718,
+     1032,
+     923
+    ],
+    "c": [
+     51,
+     943,
+     1075,
+     1098
+    ]
+   },
+   "stemOcr": "Which of the folowing bones is Classifieg as a flat bone? 6. patella XX carpals a Scapula femur 103. Which of the agen bones forms part of the axial skeleton? ulna 7d, scapula + Sternum ®. Clavicle ‘}—104. A plane which separates the Body into an anterior and posterior part is called a: ‘ sagittal plane d: coronal plane c: horizontal plane @. Median plane 105. What does the term “superior” indicate in this description?"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p013",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 11,
+   "printedNumber": 113,
+   "positionInSection": 13,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.7429
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     0,
+     283,
+     883,
+     590
+    ],
+    "d": [
+     82,
+     631,
+     1175,
+     778
+    ],
+    "b": [
+     81,
+     725,
+     1100,
+     1292
+    ]
+   },
+   "stemOcr": "Placenta previa av Ps Is the implantation of blastocyst in the lower segment of uterine cavity 4S. \\s the implantation of blastocyst in the utering tube? /. \\s the implantation of blastocyst at the surface of ovaly?"
+  },
+  {
+   "joinKey": "src_16f747e1171423933757:s1:p014",
+   "sourceId": "src_16f747e1171423933757",
+   "page": 11,
+   "printedNumber": 4,
+   "positionInSection": 14,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "containment",
+   "note": "",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": "no stroke hull contains an option box by at least 75% of its area",
+   "optionScores": [
+    {
+     "optionLetter": "c",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "containedFraction": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "containedFraction": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "c": [
+     0,
+     458,
+     930,
+     620
+    ],
+    "a": [
+     137,
+     598,
+     480,
+     627
+    ],
+    "d": [
+     82,
+     631,
+     1167,
+     729
+    ],
+    "b": [
+     131,
+     725,
+     884,
+     759
+    ]
+   },
+   "stemOcr": "\\s the implantation of blastocyst in the uterine tube? . \\s the implantation of blastocyst at the Surface of ovary? A \\s the implantation of blastocyst in the pelvic cavity? ¢|114. Regarding sclerotome of somite: “It is dorsolateral part of the somite Ss. It forms vertebral column"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p001",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 1,
+   "positionInSection": 1,
+   "answer": "C",
+   "overlapShare": 0.9556,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.989,
+     "overlapPixels": 2250.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.046,
+     "overlapPixels": 2678.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     1211,
+     697,
+     1321,
+     727
+    ],
+    "c": [
+     952,
+     706,
+     1077,
+     732
+    ],
+    "a": [
+     312,
+     709,
+     476,
+     732
+    ],
+    "b": [
+     257,
+     713,
+     1248,
+     797
+    ]
+   },
+   "stemOcr": "The following cell stained metachro ohh"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p002",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 2,
+   "positionInSection": 2,
+   "answer": null,
+   "overlapShare": 0.6411,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": "the mark spans more than one option: d=0.33, b=0.18",
+   "optionScores": [
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.1832,
+     "overlapPixels": 615.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.3273,
+     "overlapPixels": 13834.0
+    }
+   ],
+   "optionBoxes": {
+    "c": [
+     1011,
+     794,
+     1272,
+     824
+    ],
+    "a": [
+     301,
+     802,
+     431,
+     826
+    ],
+    "b": [
+     661,
+     806,
+     784,
+     845
+    ],
+    "d": [
+     255,
+     837,
+     926,
+     927
+    ]
+   },
+   "stemOcr": "l= eed"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p003",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 3,
+   "positionInSection": 3,
+   "answer": null,
+   "overlapShare": 0.5393,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": "the mark spans more than one option: a=0.26, c=0.22",
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.2603,
+     "overlapPixels": 16810.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.2224,
+     "overlapPixels": 8120.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     1002,
+     924,
+     1230,
+     953
+    ],
+    "a": [
+     288,
+     933,
+     891,
+     1086
+    ],
+    "c": [
+     287,
+     969,
+     939,
+     1049
+    ],
+    "d": [
+     252,
+     1003,
+     745,
+     1088
+    ]
+   },
+   "stemOcr": "hy i vig"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p004",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 4,
+   "positionInSection": 4,
+   "answer": "D",
+   "overlapShare": 0.7954,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.297,
+     "overlapPixels": 3954.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0764,
+     "overlapPixels": 9647.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     871,
+     1081,
+     1385,
+     1118
+    ],
+    "a": [
+     296,
+     1099,
+     387,
+     1123
+    ],
+    "b": [
+     250,
+     1099,
+     1337,
+     1265
+    ]
+   },
+   "stemOcr": "—="
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p005",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 5,
+   "positionInSection": 5,
+   "answer": "B",
+   "overlapShare": 0.8506,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9524,
+     "overlapPixels": 1664.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1673,
+     "overlapPixels": 10672.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     1149,
+     1183,
+     1262,
+     1212
+    ],
+    "b": [
+     581,
+     1194,
+     685,
+     1218
+    ],
+    "a": [
+     248,
+     1195,
+     949,
+     1325
+    ]
+   },
+   "stemOcr": "es"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p006",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 6,
+   "positionInSection": 6,
+   "answer": "A",
+   "overlapShare": 0.9847,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1415,
+     "overlapPixels": 9017.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0022,
+     "overlapPixels": 244.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     284,
+     1249,
+     1482,
+     1325
+    ],
+    "c": [
+     118,
+     1307,
+     1482,
+     1423
+    ]
+   },
+   "stemOcr": "The true statement about mi Kg ria ist my"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p007",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 7,
+   "positionInSection": 7,
+   "answer": "B",
+   "overlapShare": 0.8832,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.568,
+     "overlapPixels": 7146.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0751,
+     "overlapPixels": 7435.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     280,
+     1424,
+     346,
+     1449
+    ],
+    "b": [
+     564,
+     1409,
+     982,
+     1452
+    ],
+    "d": [
+     115,
+     1405,
+     1334,
+     1521
+    ]
+   },
+   "stemOcr": "Enzymes of peroxisomesi@rige frome c ““"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p008",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 8,
+   "positionInSection": 8,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1753,
+     "overlapPixels": 6824.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     286,
+     1486,
+     884,
+     1579
+    ],
+    "b": [
+     930,
+     1490,
+     1248,
+     1570
+    ],
+    "c": [
+     112,
+     1541,
+     1485,
+     1629
+    ],
+    "d": [
+     284,
+     1585,
+     696,
+     1619
+    ]
+   },
+   "stemOcr": "Intermediate filam ‘ la a"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p009",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 9,
+   "positionInSection": 9,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1922,
+     "overlapPixels": 7942.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     279,
+     1683,
+     1297,
+     1741
+    ],
+    "c": [
+     279,
+     1720,
+     844,
+     1800
+    ]
+   },
+   "stemOcr": "ture rRNA."
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p010",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 10,
+   "positionInSection": 10,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0053,
+     "overlapPixels": 3059.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     278,
+     1829,
+     347,
+     1855
+    ],
+    "b": [
+     541,
+     1817,
+     657,
+     1851
+    ],
+    "c": [
+     842,
+     1810,
+     1003,
+     1837
+    ],
+    "d": [
+     1188,
+     1808,
+     1488,
+     1933
+    ]
+   },
+   "stemOcr": "Actin filaments share in the formation of: ai |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p011",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 1,
+   "printedNumber": 40,
+   "positionInSection": 11,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0053,
+     "overlapPixels": 2907.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     1188,
+     1808,
+     1331,
+     1835
+    ],
+    "c": [
+     842,
+     1810,
+     995,
+     1837
+    ],
+    "b": [
+     541,
+     1817,
+     657,
+     1851
+    ],
+    "a": [
+     170,
+     1829,
+     1447,
+     1995
+    ]
+   },
+   "stemOcr": "Actin filaments share in the formati"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p012",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 11,
+   "positionInSection": 12,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9821,
+     "overlapPixels": 10736.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     915,
+     272,
+     1334,
+     355
+    ],
+    "a": [
+     247,
+     309,
+     735,
+     341
+    ],
+    "d": [
+     913,
+     325,
+     1150,
+     358
+    ],
+    "c": [
+     248,
+     348,
+     571,
+     379
+    ]
+   },
+   "stemOcr": "Lysosomes are: ; ais"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p013",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 12,
+   "positionInSection": 13,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9524,
+     "overlapPixels": 1040.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "c": [
+     885,
+     437,
+     948,
+     463
+    ],
+    "d": [
+     703,
+     406,
+     1307,
+     454
+    ],
+    "a": [
+     252,
+     447,
+     317,
+     471
+    ],
+    "b": [
+     525,
+     449,
+     679,
+     473
+    ]
+   },
+   "stemOcr": "Detoxification of drug needs mainly"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p014",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 13,
+   "positionInSection": 14,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9677,
+     "overlapPixels": 6615.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     858,
+     535,
+     1138,
+     571
+    ],
+    "a": [
+     254,
+     544,
+     516,
+     569
+    ],
+    "d": [
+     765,
+     563,
+     1436,
+     604
+    ],
+    "c": [
+     254,
+     579,
+     569,
+     610
+    ]
+   },
+   "stemOcr": "Euchromatin is:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p015",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 14,
+   "positionInSection": 15,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.181,
+     "overlapPixels": 4938.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     86,
+     675,
+     1304,
+     707
+    ],
+    "a": [
+     254,
+     673,
+     441,
+     698
+    ],
+    "b": [
+     563,
+     680,
+     775,
+     710
+    ],
+    "c": [
+     928,
+     685,
+     962,
+     703
+    ]
+   },
+   "stemOcr": "Best's Carmine is used to demonstrate: fs"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p016",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 15,
+   "positionInSection": 16,
+   "answer": null,
+   "overlapShare": 0.6558,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: d=0.93, b=0.49",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.4867,
+     "overlapPixels": 25526.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.9272,
+     "overlapPixels": 28399.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     252,
+     768,
+     1317,
+     842
+    ],
+    "b": [
+     254,
+     804,
+     1179,
+     885
+    ],
+    "c": [
+     890,
+     818,
+     1254,
+     850
+    ],
+    "d": [
+     254,
+     840,
+     1185,
+     887
+    ]
+   },
+   "stemOcr": "Multivesicular bodies: :"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p017",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 16,
+   "positionInSection": 17,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0559,
+     "overlapPixels": 561.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     256,
+     936,
+     287,
+     960
+    ],
+    "b": [
+     581,
+     951,
+     614,
+     974
+    ],
+    "c": [
+     882,
+     956,
+     916,
+     982
+    ]
+   },
+   "stemOcr": "The shaft of cilium contains -++seeee eM iCrotubules: ‘"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p018",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 17,
+   "positionInSection": 18,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "OCR read options b as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.6695,
+     "overlapPixels": 9783.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     258,
+     1024,
+     414,
+     1073
+    ],
+    "b": [
+     573,
+     1048,
+     1070,
+     1090
+    ],
+    "d": [
+     1230,
+     1062,
+     1387,
+     1089
+    ]
+   },
+   "stemOcr": "The centrioles can be stained with; , gatas"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p019",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 18,
+   "positionInSection": 19,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9899,
+     "overlapPixels": 2767.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     269,
+     1132,
+     390,
+     1165
+    ],
+    "b": [
+     550,
+     1145,
+     683,
+     1174
+    ],
+    "c": [
+     869,
+     1155,
+     982,
+     1183
+    ],
+    "d": [
+     1120,
+     1162,
+     1325,
+     1191
+    ]
+   },
+   "stemOcr": "The C.T. cell that gives rise to fibroblasts: j"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p020",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 19,
+   "positionInSection": 20,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "OCR read options b as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.6316,
+     "overlapPixels": 10418.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     271,
+     1231,
+     409,
+     1264
+    ],
+    "b": [
+     550,
+     1243,
+     1098,
+     1286
+    ],
+    "d": [
+     1250,
+     1267,
+     1436,
+     1297
+    ]
+   },
+   "stemOcr": "Thermogenesis is a function of:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p021",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 20,
+   "positionInSection": 21,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9677,
+     "overlapPixels": 4011.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     271,
+     1329,
+     420,
+     1359
+    ],
+    "b": [
+     543,
+     1341,
+     734,
+     1372
+    ],
+    "c": [
+     846,
+     1353,
+     1033,
+     1385
+    ],
+    "d": [
+     1192,
+     1367,
+     1342,
+     1401
+    ]
+   },
+   "stemOcr": "One of the following C.TW cells is an antigen: presentinigecell:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p022",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 21,
+   "positionInSection": 22,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.7622,
+     "overlapPixels": 12272.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     264,
+     1427,
+     584,
+     1467
+    ],
+    "b": [
+     864,
+     1452,
+     1298,
+     1505
+    ],
+    "c": [
+     265,
+     1465,
+     666,
+     1511
+    ],
+    "d": [
+     863,
+     1489,
+     1248,
+     1537
+    ]
+   },
+   "stemOcr": "The plasma cell is characterized by:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p023",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 22,
+   "positionInSection": 23,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.9653,
+     "overlapPixels": 3975.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     275,
+     1564,
+     398,
+     1597
+    ],
+    "b": [
+     540,
+     1575,
+     689,
+     1606
+    ],
+    "c": [
+     822,
+     1587,
+     1103,
+     1626
+    ],
+    "d": [
+     1233,
+     1609,
+     1392,
+     1646
+    ]
+   },
+   "stemOcr": "Vital stain is used to demonstrate:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p024",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 23,
+   "positionInSection": 24,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0476,
+     "overlapPixels": 2222.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     267,
+     1664,
+     401,
+     1692
+    ],
+    "b": [
+     544,
+     1675,
+     645,
+     1705
+    ],
+    "c": [
+     824,
+     1688,
+     962,
+     1724
+    ],
+    "d": [
+     1184,
+     1708,
+     1259,
+     1736
+    ]
+   },
+   "stemOcr": "The C.T. fibers Stained brown with orcein are). fibers:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p025",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 24,
+   "positionInSection": 25,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.8664,
+     "overlapPixels": 17211.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     267,
+     1760,
+     783,
+     1815
+    ],
+    "b": [
+     909,
+     1795,
+     1239,
+     1843
+    ],
+    "c": [
+     269,
+     1800,
+     506,
+     1840
+    ],
+    "d": [
+     909,
+     1829,
+     1365,
+     1884
+    ]
+   },
+   "stemOcr": "The mucoid C.T. is characterized by:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p026",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 2,
+   "printedNumber": 25,
+   "positionInSection": 26,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0067,
+     "overlapPixels": 4768.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     269,
+     1901,
+     468,
+     1935
+    ],
+    "b": [
+     638,
+     1920,
+     743,
+     1952
+    ],
+    "c": [
+     914,
+     1937,
+     1028,
+     1968
+    ],
+    "d": [
+     96,
+     1952,
+     1510,
+     2099
+    ]
+   },
+   "stemOcr": "The type of C.T. in tendons is sete dS rcuscdes OTS"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p027",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 26,
+   "positionInSection": 27,
+   "answer": null,
+   "overlapShare": 0.5989,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: d=0.14, a=0.09",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0915,
+     "overlapPixels": 8865.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.1366,
+     "overlapPixels": 21628.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     223,
+     340,
+     1304,
+     468
+    ],
+    "b": [
+     640,
+     392,
+     756,
+     417
+    ],
+    "c": [
+     887,
+     380,
+     983,
+     410
+    ],
+    "d": [
+     257,
+     355,
+     1423,
+     549
+    ]
+   },
+   "stemOcr": "The ee most common F ; Giles"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p028",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 27,
+   "positionInSection": 28,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.4506,
+     "overlapPixels": 12181.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     886,
+     474,
+     1141,
+     508
+    ],
+    "a": [
+     320,
+     486,
+     1262,
+     527
+    ],
+    "d": [
+     885,
+     505,
+     1168,
+     547
+    ],
+    "c": [
+     322,
+     523,
+     1140,
+     601
+    ]
+   },
+   "stemOcr": "Regarding the endothelium, it is: cells."
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p029",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 28,
+   "positionInSection": 29,
+   "answer": null,
+   "overlapShare": 0.5784,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: a=0.27, c=0.19; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.2657,
+     "overlapPixels": 2929.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.1937,
+     "overlapPixels": 7550.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     327,
+     618,
+     642,
+     668
+    ],
+    "b": [
+     867,
+     610,
+     1098,
+     642
+    ],
+    "c": [
+     328,
+     629,
+     1241,
+     690
+    ]
+   },
+   "stemOcr": "Follicles of thyroid gland are lined by sjueste---eee00007\"\" epithelium."
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p030",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 29,
+   "positionInSection": 30,
+   "answer": "D",
+   "overlapShare": 0.8128,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.2156,
+     "overlapPixels": 5282.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.9361,
+     "overlapPixels": 7224.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     331,
+     754,
+     1331,
+     789
+    ],
+    "d": [
+     853,
+     773,
+     1168,
+     808
+    ],
+    "c": [
+     333,
+     790,
+     672,
+     820
+    ]
+   },
+   "stemOcr": "Concerning pseudostratified columnar epi cells reach the surfac e"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p031",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 30,
+   "positionInSection": 31,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 3801.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     343,
+     888,
+     454,
+     912
+    ],
+    "b": [
+     577,
+     884,
+     758,
+     913
+    ],
+    "c": [
+     875,
+     872,
+     1047,
+     900
+    ],
+    "d": [
+     1161,
+     859,
+     1256,
+     888
+    ]
+   },
+   "stemOcr": "Simple columnar ciliated epithelium is lining: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p032",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 3,
+   "printedNumber": 31,
+   "positionInSection": 32,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.3353,
+     "overlapPixels": 16713.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     349,
+     972,
+     864,
+     1009
+    ],
+    "b": [
+     351,
+     1010,
+     844,
+     1041
+    ],
+    "c": [
+     352,
+     1036,
+     976,
+     1076
+    ],
+    "d": [
+     259,
+     1074,
+     964,
+     1175
+    ]
+   },
+   "stemOcr": "Transitional epithelium is characterized by:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p033",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 38,
+   "positionInSection": 33,
+   "answer": "A",
+   "overlapShare": 0.8987,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.8752,
+     "overlapPixels": 3584.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0986,
+     "overlapPixels": 4652.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     362,
+     380,
+     512,
+     419
+    ],
+    "b": [
+     234,
+     375,
+     882,
+     479
+    ]
+   },
+   "stemOcr": "Which of the following is a non- grande erst d, EosinoP"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p034",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 39,
+   "positionInSection": 34,
+   "answer": "A",
+   "overlapShare": 0.902,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.4214,
+     "overlapPixels": 10687.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0458,
+     "overlapPixels": 3207.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     914,
+     439,
+     1189,
+     487
+    ],
+    "a": [
+     352,
+     475,
+     999,
+     531
+    ],
+    "c": [
+     352,
+     512,
+     739,
+     545
+    ],
+    "d": [
+     352,
+     540,
+     1323,
+     643
+    ]
+   },
+   "stemOcr": "Neutrophils are characterized by:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p035",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 40,
+   "positionInSection": 35,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no mark region covers any option box by at least 12% of its area; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     360,
+     641,
+     501,
+     670
+    ],
+    "b": [
+     624,
+     640,
+     793,
+     671
+    ],
+    "c": [
+     235,
+     632,
+     1066,
+     725
+    ]
+   },
+   "stemOcr": "The white blood cells with histamine & heparin aor gr d, Basophils."
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p036",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 41,
+   "positionInSection": 36,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": "OCR read options a as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1822,
+     "overlapPixels": 6051.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     903,
+     724,
+     1070,
+     754
+    ],
+    "a": [
+     354,
+     735,
+     1201,
+     791
+    ],
+    "c": [
+     351,
+     770,
+     605,
+     796
+    ]
+   },
+   "stemOcr": "Granulomere of blood platelets contains:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p037",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 42,
+   "positionInSection": 37,
+   "answer": "C",
+   "overlapShare": 0.9393,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9647,
+     "overlapPixels": 2533.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0623,
+     "overlapPixels": 5755.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     348,
+     864,
+     433,
+     892
+    ],
+    "b": [
+     594,
+     864,
+     697,
+     893
+    ],
+    "c": [
+     847,
+     860,
+     968,
+     891
+    ],
+    "d": [
+     232,
+     848,
+     1287,
+     973
+    ]
+   },
+   "stemOcr": "Regarding T-lymphocytes, the CD8 T-cells are .......-+-----+"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p038",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 43,
+   "positionInSection": 38,
+   "answer": "C",
+   "overlapShare": 0.8828,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 3440.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.1355,
+     "overlapPixels": 8680.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     355,
+     956,
+     478,
+     984
+    ],
+    "b": [
+     593,
+     957,
+     722,
+     986
+    ],
+    "c": [
+     848,
+     953,
+     1020,
+     981
+    ],
+    "d": [
+     231,
+     943,
+     1451,
+     1018
+    ]
+   },
+   "stemOcr": "The .........-... Can be stained by brilliant cresyl blue stain: :"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p039",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 44,
+   "positionInSection": 39,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 4580.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     356,
+     1047,
+     494,
+     1075
+    ],
+    "b": [
+     859,
+     1045,
+     1088,
+     1073
+    ],
+    "c": [
+     356,
+     1078,
+     1051,
+     1110
+    ]
+   },
+   "stemOcr": "The normal shape of RBCs is kept by: ; |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p040",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 45,
+   "positionInSection": 40,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0559,
+     "overlapPixels": 4233.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     342,
+     1173,
+     591,
+     1196
+    ],
+    "b": [
+     870,
+     1170,
+     1197,
+     1197
+    ],
+    "c": [
+     343,
+     1207,
+     602,
+     1235
+    ],
+    "d": [
+     859,
+     1203,
+     1171,
+     1235
+    ]
+   },
+   "stemOcr": "One of the following joints is gomphosis:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p041",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 46,
+   "positionInSection": 41,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9524,
+     "overlapPixels": 6112.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     341,
+     1294,
+     649,
+     1325
+    ],
+    "b": [
+     855,
+     1293,
+     1237,
+     1317
+    ],
+    "c": [
+     352,
+     1328,
+     670,
+     1351
+    ],
+    "d": [
+     854,
+     1327,
+     1187,
+     1360
+    ]
+   },
+   "stemOcr": "One of the following is not a function of pneumatic bone:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p042",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 47,
+   "positionInSection": 42,
+   "answer": null,
+   "overlapShare": 0.6465,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: c=0.75, a=0.41; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.4116,
+     "overlapPixels": 17662.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.7526,
+     "overlapPixels": 23457.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     226,
+     1417,
+     1141,
+     1484
+    ],
+    "c": [
+     226,
+     1451,
+     1238,
+     1495
+    ],
+    "d": [
+     336,
+     1481,
+     816,
+     1567
+    ]
+   },
+   "stemOcr": "Regarding characters of the synovial joint, one-is wrong: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p043",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 48,
+   "positionInSection": 43,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.039,
+     "overlapPixels": 1072.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     351,
+     1576,
+     429,
+     1597
+    ],
+    "b": [
+     866,
+     1575,
+     933,
+     1597
+    ],
+    "c": [
+     340,
+     1608,
+     644,
+     1636
+    ],
+    "d": [
+     862,
+     1608,
+     1154,
+     1636
+    ]
+   },
+   "stemOcr": "An example of synovial biaxial ellipsoid joint is:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p044",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 49,
+   "positionInSection": 44,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.5403,
+     "overlapPixels": 9066.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     329,
+     1697,
+     448,
+     1725
+    ],
+    "b": [
+     567,
+     1690,
+     1077,
+     1737
+    ],
+    "d": [
+     1190,
+     1701,
+     1273,
+     1724
+    ]
+   },
+   "stemOcr": "The muscle, which initiate a certain mo ment, is called:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p045",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 4,
+   "printedNumber": 50,
+   "positionInSection": 45,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.039,
+     "overlapPixels": 2656.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     349,
+     1786,
+     515,
+     1808
+    ],
+    "b": [
+     831,
+     1788,
+     1052,
+     1811
+    ],
+    "c": [
+     339,
+     1819,
+     679,
+     1849
+    ],
+    "d": [
+     829,
+     1821,
+     1445,
+     1848
+    ]
+   },
+   "stemOcr": "Concerning the superficial fascia, select the correct statement:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p046",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 51,
+   "positionInSection": 46,
+   "answer": "C",
+   "overlapShare": 0.8856,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0053,
+     "overlapPixels": 2603.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0848,
+     "overlapPixels": 6515.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.045,
+     "overlapPixels": 1564.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     615,
+     377,
+     717,
+     408
+    ],
+    "c": [
+     854,
+     383,
+     991,
+     410
+    ],
+    "d": [
+     239,
+     371,
+     1407,
+     465
+    ],
+    "a": [
+     257,
+     446,
+     956,
+     517
+    ]
+   },
+   "stemOcr": "Fertili i EEE — ere: | ization occurs j - &. Intramural a rs in the following site of the Fallopian tube: ‘pulum. 52-Th i"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p047",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 52,
+   "positionInSection": 47,
+   "answer": "B",
+   "overlapShare": 0.7135,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.3409,
+     "overlapPixels": 11625.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0053,
+     "overlapPixels": 4370.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0627,
+     "overlapPixels": 2027.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     289,
+     448,
+     1304,
+     496
+    ],
+    "b": [
+     954,
+     472,
+     1184,
+     499
+    ],
+    "c": [
+     289,
+     484,
+     1316,
+     529
+    ],
+    "d": [
+     826,
+     504,
+     1228,
+     539
+    ]
+   },
+   "stemOcr": "The common Site of im Plantation in the uterus is at:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p048",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 53,
+   "positionInSection": 48,
+   "answer": "C",
+   "overlapShare": 0.8691,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.1266,
+     "overlapPixels": 2389.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.8403,
+     "overlapPixels": 17670.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     302,
+     582,
+     774,
+     636
+    ],
+    "b": [
+     301,
+     618,
+     791,
+     673
+    ],
+    "c": [
+     303,
+     654,
+     830,
+     711
+    ],
+    "d": [
+     959,
+     662,
+     1280,
+     700
+    ]
+   },
+   "stemOcr": "One of the followin g statements is wrong, during the second week of pregnancy:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p049",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 54,
+   "positionInSection": 49,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 7750.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     294,
+     749,
+     889,
+     797
+    ],
+    "b": [
+     295,
+     785,
+     802,
+     829
+    ],
+    "c": [
+     295,
+     820,
+     732,
+     860
+    ],
+    "d": [
+     963,
+     828,
+     1273,
+     863
+    ]
+   },
+   "stemOcr": "Concerning the foldin g Of the embryonic dis¢; select the correct answer:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p050",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 55,
+   "positionInSection": 50,
+   "answer": "C",
+   "overlapShare": 0.9657,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.7575,
+     "overlapPixels": 15561.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0269,
+     "overlapPixels": 601.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     289,
+     914,
+     701,
+     950
+    ],
+    "b": [
+     852,
+     924,
+     1305,
+     955
+    ],
+    "c": [
+     289,
+     950,
+     956,
+     994
+    ],
+    "d": [
+     291,
+     984,
+     1108,
+     1023
+    ]
+   },
+   "stemOcr": "Concerning the blastocyst, selectithe false answer:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p051",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 56,
+   "positionInSection": 51,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.3833,
+     "overlapPixels": 8649.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     298,
+     1080,
+     1246,
+     1114
+    ],
+    "c": [
+     292,
+     1115,
+     870,
+     1152
+    ],
+    "d": [
+     300,
+     1149,
+     1058,
+     1186
+    ]
+   },
+   "stemOcr": "Regarding the umbilical cord at birth, select the incorrect statement:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p052",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 57,
+   "positionInSection": 52,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9808,
+     "overlapPixels": 13973.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     302,
+     1244,
+     882,
+     1274
+    ],
+    "b": [
+     302,
+     1279,
+     938,
+     1311
+    ],
+    "c": [
+     301,
+     1313,
+     949,
+     1340
+    ],
+    "d": [
+     303,
+     1348,
+     685,
+     1376
+    ]
+   },
+   "stemOcr": "One of the followings is not true, regarding the placenta:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p053",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 58,
+   "positionInSection": 53,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": "OCR read options c as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 2 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.4881,
+     "overlapPixels": 8205.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     293,
+     1441,
+     1277,
+     1469
+    ],
+    "c": [
+     296,
+     1475,
+     1124,
+     1504
+    ]
+   },
+   "stemOcr": "Chorionic villi are considered:as:secondary-chorionic villi when they:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p054",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 59,
+   "positionInSection": 54,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 4080.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     303,
+     1569,
+     593,
+     1597
+    ],
+    "b": [
+     840,
+     1567,
+     1052,
+     1589
+    ],
+    "c": [
+     297,
+     1604,
+     534,
+     1633
+    ],
+    "d": [
+     836,
+     1601,
+     1040,
+     1629
+    ]
+   },
+   "stemOcr": "One of the followings is not among the anomalies of placenta:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p055",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 60,
+   "positionInSection": 55,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 3654.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     306,
+     1665,
+     886,
+     1736
+    ],
+    "b": [
+     999,
+     1692,
+     1173,
+     1721
+    ],
+    "c": [
+     297,
+     1728,
+     870,
+     1761
+    ],
+    "d": [
+     998,
+     1726,
+     1240,
+     1755
+    ]
+   },
+   "stemOcr": "The deltopectoral groove contains:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p056",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 5,
+   "printedNumber": 61,
+   "positionInSection": 56,
+   "answer": "B",
+   "overlapShare": 0.966,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0302,
+     "overlapPixels": 636.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.8591,
+     "overlapPixels": 16902.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     308,
+     1819,
+     1192,
+     1853
+    ],
+    "b": [
+     308,
+     1849,
+     919,
+     1895
+    ],
+    "c": [
+     309,
+     1887,
+     995,
+     1921
+    ],
+    "d": [
+     185,
+     1922,
+     1476,
+     2031
+    ]
+   },
+   "stemOcr": "The female breast, select the true statement:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p057",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 62,
+   "positionInSection": 57,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.1954,
+     "overlapPixels": 10164.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "d": [
+     232,
+     371,
+     1309,
+     440
+    ],
+    "c": [
+     842,
+     401,
+     951,
+     420
+    ],
+    "a": [
+     348,
+     412,
+     481,
+     443
+    ],
+    "b": [
+     560,
+     413,
+     1092,
+     489
+    ]
+   },
+   "stemOcr": "In Erb’s paralysis, the deformity is ane t drop"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p058",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 63,
+   "positionInSection": 58,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.4844,
+     "overlapPixels": 11466.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     857,
+     482,
+     1238,
+     522
+    ],
+    "a": [
+     349,
+     512,
+     563,
+     540
+    ],
+    "d": [
+     855,
+     519,
+     1246,
+     559
+    ],
+    "c": [
+     341,
+     546,
+     924,
+     604
+    ]
+   },
+   "stemOcr": "The thoracoacromial artery is a brane"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p059",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 64,
+   "positionInSection": 59,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9957,
+     "overlapPixels": 3496.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     874,
+     627,
+     1026,
+     660
+    ],
+    "a": [
+     349,
+     640,
+     689,
+     670
+    ],
+    "d": [
+     874,
+     661,
+     1055,
+     690
+    ],
+    "c": [
+     341,
+     674,
+     491,
+     702
+    ]
+   },
+   "stemOcr": "The suprascapular nerve is a branch fi m the: ice)"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p060",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 65,
+   "positionInSection": 60,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.3576,
+     "overlapPixels": 14054.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     348,
+     761,
+     1449,
+     812
+    ],
+    "b": [
+     235,
+     792,
+     957,
+     862
+    ],
+    "c": [
+     234,
+     832,
+     855,
+     874
+    ],
+    "d": [
+     346,
+     871,
+     791,
+     901
+    ]
+   },
+   "stemOcr": "Muscles that rotate the scapula downward)are attached to: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p061",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 66,
+   "positionInSection": 61,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.8631,
+     "overlapPixels": 3353.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     346,
+     962,
+     766,
+     1002
+    ],
+    "b": [
+     827,
+     963,
+     977,
+     1000
+    ],
+    "c": [
+     338,
+     996,
+     685,
+     1027
+    ],
+    "d": [
+     825,
+     995,
+     1088,
+     1025
+    ]
+   },
+   "stemOcr": "Structure crossing superficial to thé flexor retinaculum:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p062",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 67,
+   "positionInSection": 62,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9528,
+     "overlapPixels": 7461.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     347,
+     1084,
+     676,
+     1118
+    ],
+    "b": [
+     822,
+     1088,
+     1168,
+     1126
+    ],
+    "c": [
+     337,
+     1117,
+     727,
+     1151
+    ],
+    "d": [
+     821,
+     1119,
+     1106,
+     1154
+    ]
+   },
+   "stemOcr": "Branches of the radial artery at the wrist include:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p063",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 68,
+   "positionInSection": 63,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "OCR read options a as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 4263.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     345,
+     1202,
+     1064,
+     1240
+    ],
+    "c": [
+     337,
+     1238,
+     553,
+     1267
+    ],
+    "d": [
+     801,
+     1242,
+     1004,
+     1271
+    ]
+   },
+   "stemOcr": "One of the following muscles is hot innervated by median nerve or its branches:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p064",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 69,
+   "positionInSection": 64,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.3339,
+     "overlapPixels": 8008.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     344,
+     1326,
+     1323,
+     1361
+    ],
+    "c": [
+     740,
+     1331,
+     975,
+     1360
+    ]
+   },
+   "stemOcr": "The Muscle takes origin from the radius is:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p065",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 70,
+   "positionInSection": 65,
+   "answer": "B",
+   "overlapShare": 0.7794,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.2799,
+     "overlapPixels": 9071.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.989,
+     "overlapPixels": 5940.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     231,
+     1409,
+     883,
+     1480
+    ],
+    "b": [
+     341,
+     1446,
+     671,
+     1472
+    ],
+    "c": [
+     231,
+     1478,
+     671,
+     1537
+    ],
+    "d": [
+     231,
+     1490,
+     779,
+     1570
+    ]
+   },
+   "stemOcr": "As a result of injury of the uinar nerve at the wrist: sa |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p066",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 71,
+   "positionInSection": 66,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.319,
+     "overlapPixels": 6425.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     339,
+     1598,
+     486,
+     1621
+    ],
+    "b": [
+     800,
+     1604,
+     947,
+     1632
+    ],
+    "c": [
+     333,
+     1629,
+     1155,
+     1664
+    ]
+   },
+   "stemOcr": "The quadrangular space is bounded by all of the following except:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p067",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 74,
+   "positionInSection": 67,
+   "answer": "C",
+   "overlapShare": 0.7528,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.3042,
+     "overlapPixels": 10214.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9263,
+     "overlapPixels": 5397.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     339,
+     1598,
+     486,
+     1621
+    ],
+    "b": [
+     231,
+     1604,
+     947,
+     1671
+    ],
+    "c": [
+     333,
+     1629,
+     620,
+     1658
+    ],
+    "d": [
+     842,
+     1634,
+     1155,
+     1673
+    ]
+   },
+   "stemOcr": "The quadrangular space is bounded by all of the following except: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p068",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 6,
+   "printedNumber": 72,
+   "positionInSection": 68,
+   "answer": null,
+   "overlapShare": 0.6375,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: d=0.45, c=0.26",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.2577,
+     "overlapPixels": 3282.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.4531,
+     "overlapPixels": 11581.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     340,
+     1711,
+     960,
+     1749
+    ],
+    "b": [
+     231,
+     1746,
+     1459,
+     1815
+    ],
+    "c": [
+     231,
+     1778,
+     610,
+     1826
+    ],
+    "d": [
+     341,
+     1809,
+     1415,
+     1843
+    ]
+   },
+   "stemOcr": "Regarding the biceps brachii, one is false: ] >"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p069",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 73,
+   "positionInSection": 69,
+   "answer": "A",
+   "overlapShare": 0.9237,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.6515,
+     "overlapPixels": 17351.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0538,
+     "overlapPixels": 1243.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     316,
+     395,
+     972,
+     453
+    ],
+    "b": [
+     318,
+     433,
+     859,
+     494
+    ],
+    "c": [
+     320,
+     471,
+     757,
+     519
+    ],
+    "d": [
+     321,
+     508,
+     1296,
+     559
+    ]
+   },
+   "stemOcr": "The brachial artery, Select the true answer:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p070",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 74,
+   "positionInSection": 70,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.1965,
+     "overlapPixels": 11622.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     327,
+     604,
+     865,
+     631
+    ],
+    "c": [
+     305,
+     622,
+     1388,
+     700
+    ]
+   },
+   "stemOcr": "The lateral cutaneous nerve of the forearm is derived from the:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p071",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 75,
+   "positionInSection": 71,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9714,
+     "overlapPixels": 2414.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     333,
+     735,
+     513,
+     767
+    ],
+    "b": [
+     624,
+     743,
+     781,
+     778
+    ],
+    "d": [
+     1115,
+     746,
+     1283,
+     772
+    ],
+    "c": [
+     879,
+     749,
+     1021,
+     774
+    ]
+   },
+   "stemOcr": "One of the followings is not a content of the cubital fossa:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p072",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 76,
+   "positionInSection": 72,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.9957,
+     "overlapPixels": 3979.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     337,
+     829,
+     514,
+     859
+    ],
+    "d": [
+     1120,
+     835,
+     1293,
+     868
+    ],
+    "b": [
+     625,
+     838,
+     1026,
+     872
+    ]
+   },
+   "stemOcr": "The lesser tuberosity of the humerus gives attachment to the following muscle"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p073",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 77,
+   "positionInSection": 73,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 8505.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     341,
+     923,
+     676,
+     954
+    ],
+    "b": [
+     842,
+     931,
+     1247,
+     960
+    ],
+    "c": [
+     229,
+     957,
+     965,
+     1034
+    ],
+    "d": [
+     232,
+     980,
+     1383,
+     1097
+    ]
+   },
+   "stemOcr": "Regarding the ulnar nerve, select the false answer: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p074",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 78,
+   "positionInSection": 74,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.4838,
+     "overlapPixels": 15845.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     235,
+     1083,
+     1465,
+     1161
+    ],
+    "b": [
+     349,
+     1117,
+     1465,
+     1154
+    ],
+    "c": [
+     351,
+     1150,
+     1465,
+     1192
+    ],
+    "d": [
+     279,
+     1184,
+     1465,
+     1280
+    ]
+   },
+   "stemOcr": "Concerning the median nerve, one of the following is not correct: | i |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p075",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 79,
+   "positionInSection": 75,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 6980.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     356,
+     1273,
+     704,
+     1304
+    ],
+    "b": [
+     844,
+     1274,
+     1222,
+     1305
+    ],
+    "c": [
+     350,
+     1306,
+     526,
+     1334
+    ],
+    "d": [
+     841,
+     1310,
+     1190,
+     1338
+    ]
+   },
+   "stemOcr": "Anastomosis around the scapula connects:the subclavian artery with the:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p076",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 80,
+   "positionInSection": 76,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.8225,
+     "overlapPixels": 2641.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "c": [
+     866,
+     1418,
+     1005,
+     1451
+    ],
+    "a": [
+     362,
+     1427,
+     526,
+     1453
+    ],
+    "b": [
+     611,
+     1428,
+     772,
+     1449
+    ],
+    "d": [
+     1117,
+     1429,
+     1265,
+     1450
+    ]
+   },
+   "stemOcr": "Partial claw hand deformity results from injury. of which one of the following nerves?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p077",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 81,
+   "positionInSection": 77,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 3880.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     366,
+     1512,
+     560,
+     1540
+    ],
+    "b": [
+     837,
+     1513,
+     1241,
+     1540
+    ],
+    "c": [
+     359,
+     1541,
+     642,
+     1569
+    ],
+    "d": [
+     839,
+     1545,
+     1033,
+     1567
+    ]
+   },
+   "stemOcr": "Which one of the;following muscles canyextend the arm?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p078",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 7,
+   "printedNumber": 82,
+   "positionInSection": 78,
+   "answer": "B",
+   "overlapShare": 0.8274,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.1443,
+     "overlapPixels": 9730.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.6917,
+     "overlapPixels": 9998.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     370,
+     1649,
+     1343,
+     1748
+    ],
+    "b": [
+     372,
+     1722,
+     722,
+     1781
+    ],
+    "c": [
+     374,
+     1784,
+     1343,
+     1841
+    ],
+    "d": [
+     376,
+     1846,
+     1345,
+     1906
+    ]
+   },
+   "stemOcr": "Regarding the cutaneous supply of the upper limb, select the incorrect statement:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p079",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 8,
+   "printedNumber": 83,
+   "positionInSection": 79,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 5061.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     355,
+     342,
+     596,
+     371
+    ],
+    "b": [
+     856,
+     327,
+     1124,
+     393
+    ],
+    "c": [
+     348,
+     379,
+     680,
+     410
+    ],
+    "d": [
+     856,
+     371,
+     1220,
+     443
+    ]
+   },
+   "stemOcr": "One of the following muscles cannot perform flexion : ee"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p080",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 8,
+   "printedNumber": 84,
+   "positionInSection": 80,
+   "answer": "C",
+   "overlapShare": 0.9649,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0371,
+     "overlapPixels": 834.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 9100.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     357,
+     464,
+     1026,
+     512
+    ],
+    "c": [
+     350,
+     511,
+     805,
+     539
+    ],
+    "d": [
+     352,
+     543,
+     916,
+     578
+    ]
+   },
+   "stemOcr": "Concerning the relations of the ulnar artery at the ahi wae."
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p081",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 8,
+   "printedNumber": 85,
+   "positionInSection": 81,
+   "answer": null,
+   "overlapShare": 1.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": "OCR read options c as one box, so a mark on either would be credited to the first; refused rather than scored; OCR recovered only 3 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 5360.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     358,
+     638,
+     626,
+     666
+    ],
+    "b": [
+     861,
+     632,
+     1132,
+     672
+    ],
+    "c": [
+     358,
+     667,
+     1129,
+     704
+    ]
+   },
+   "stemOcr": "The clavipectoral fascia is pierced by, mark the appropr' iate:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p082",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 8,
+   "printedNumber": 86,
+   "positionInSection": 82,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9861,
+     "overlapPixels": 23243.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     358,
+     759,
+     1090,
+     805
+    ],
+    "b": [
+     357,
+     797,
+     1154,
+     836
+    ],
+    "c": [
+     357,
+     833,
+     1088,
+     867
+    ],
+    "d": [
+     284,
+     870,
+     1329,
+     965
+    ]
+   },
+   "stemOcr": "Regarding shoulder joint, select the false'statement: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p083",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 8,
+   "printedNumber": 91,
+   "positionInSection": 83,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.989,
+     "overlapPixels": 7254.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     367,
+     1547,
+     972,
+     1586
+    ],
+    "b": [
+     368,
+     1585,
+     796,
+     1613
+    ],
+    "c": [
+     368,
+     1619,
+     771,
+     1645
+    ],
+    "d": [
+     284,
+     1651,
+     1323,
+     1738
+    ]
+   },
+   "stemOcr": "The serratus anterior miso, mark the wrong answer:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p084",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 94,
+   "positionInSection": 84,
+   "answer": "D",
+   "overlapShare": 0.7129,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.4061,
+     "overlapPixels": 21434.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0084,
+     "overlapPixels": 32976.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     347,
+     417,
+     1241,
+     472
+    ],
+    "b": [
+     348,
+     455,
+     1195,
+     509
+    ],
+    "c": [
+     349,
+     495,
+     1382,
+     568
+    ],
+    "d": [
+     348,
+     532,
+     1035,
+     600
+    ]
+   },
+   "stemOcr": "OF retinaculum, the following statements are true except Regarding the extens"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p085",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 95,
+   "positionInSection": 85,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.5766,
+     "overlapPixels": 6859.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     343,
+     666,
+     608,
+     699
+    ],
+    "b": [
+     898,
+     677,
+     1413,
+     710
+    ],
+    "c": [
+     335,
+     702,
+     590,
+     734
+    ],
+    "d": [
+     893,
+     714,
+     1411,
+     770
+    ]
+   },
+   "stemOcr": "Which one of the following nerves arises from the roots of the brachial plex ; . i us? |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p086",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 96,
+   "positionInSection": 86,
+   "answer": null,
+   "overlapShare": 0.5141,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": "the mark spans more than one option: b=0.25, c=0.24",
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.2501,
+     "overlapPixels": 4845.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.2364,
+     "overlapPixels": 9435.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     357,
+     835,
+     1047,
+     876
+    ],
+    "b": [
+     357,
+     870,
+     986,
+     914
+    ],
+    "c": [
+     236,
+     903,
+     779,
+     1008
+    ],
+    "d": [
+     238,
+     940,
+     1192,
+     1039
+    ]
+   },
+   "stemOcr": "Regarding injury of radial nerve in thé spiral groove, the following statements ar? | beecteit . e correct, except: |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p087",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 97,
+   "positionInSection": 87,
+   "answer": "B",
+   "overlapShare": 0.914,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0493,
+     "overlapPixels": 1429.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.5242,
+     "overlapPixels": 14579.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     352,
+     1030,
+     1253,
+     1076
+    ],
+    "b": [
+     241,
+     1063,
+     843,
+     1129
+    ],
+    "c": [
+     242,
+     1101,
+     1071,
+     1169
+    ],
+    "d": [
+     243,
+     1135,
+     1169,
+     1208
+    ]
+   },
+   "stemOcr": "Concerning the axilla, the following statements are correct except: ; |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p088",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 98,
+   "positionInSection": 88,
+   "answer": "C",
+   "overlapShare": 0.9926,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0072,
+     "overlapPixels": 155.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9649,
+     "overlapPixels": 7245.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     357,
+     1226,
+     1186,
+     1263
+    ],
+    "c": [
+     357,
+     1259,
+     703,
+     1290
+    ],
+    "d": [
+     844,
+     1268,
+     1191,
+     1296
+    ]
+   },
+   "stemOcr": "One of the followings regarding the movements of thumb, is false: | |"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p089",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 99,
+   "positionInSection": 89,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9821,
+     "overlapPixels": 8822.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     359,
+     1349,
+     791,
+     1379
+    ],
+    "b": [
+     359,
+     1381,
+     949,
+     1411
+    ],
+    "c": [
+     359,
+     1414,
+     760,
+     1446
+    ],
+    "d": [
+     290,
+     1447,
+     1239,
+     1539
+    ]
+   },
+   "stemOcr": "Regarding the brachiali§ muscle, select the\\correct statement:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p090",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 100,
+   "positionInSection": 90,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9821,
+     "overlapPixels": 11638.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     363,
+     1531,
+     844,
+     1566
+    ],
+    "b": [
+     363,
+     1565,
+     892,
+     1597
+    ],
+    "c": [
+     363,
+     1598,
+     832,
+     1628
+    ],
+    "d": [
+     362,
+     1630,
+     820,
+     1739
+    ]
+   },
+   "stemOcr": "Lymphatics from thelskin of the back above the iliac crest drain into the:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p091",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 101,
+   "positionInSection": 91,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 1.0204,
+     "overlapPixels": 2860.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     365,
+     1715,
+     533,
+     1742
+    ],
+    "b": [
+     622,
+     1717,
+     1006,
+     1744
+    ],
+    "d": [
+     1104,
+     1724,
+     1247,
+     1752
+    ]
+   },
+   "stemOcr": "One of the following muscles is ni of a rotator cuff muscle:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p092",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 9,
+   "printedNumber": 102,
+   "positionInSection": 92,
+   "answer": "C",
+   "overlapShare": 0.8948,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.1242,
+     "overlapPixels": 1008.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0559,
+     "overlapPixels": 8262.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     366,
+     1800,
+     871,
+     1824
+    ],
+    "b": [
+     367,
+     1832,
+     871,
+     1855
+    ],
+    "c": [
+     367,
+     1862,
+     853,
+     1885
+    ],
+    "d": [
+     368,
+     1895,
+     1328,
+     1998
+    ]
+   },
+   "stemOcr": "Paralysis of the deltoid muscle causes:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p093",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 103,
+   "positionInSection": 93,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 8127.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     840,
+     296,
+     1227,
+     325
+    ],
+    "a": [
+     363,
+     304,
+     662,
+     336
+    ],
+    "d": [
+     844,
+     332,
+     1165,
+     368
+    ],
+    "c": [
+     357,
+     341,
+     664,
+     373
+    ]
+   },
+   "stemOcr": "One of the following is not a branch of the radial artery:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p094",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 104,
+   "positionInSection": 94,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 1.0476,
+     "overlapPixels": 5434.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     825,
+     435,
+     1078,
+     469
+    ],
+    "a": [
+     359,
+     442,
+     606,
+     472
+    ],
+    "d": [
+     826,
+     471,
+     1198,
+     507
+    ],
+    "c": [
+     349,
+     479,
+     535,
+     505
+    ]
+   },
+   "stemOcr": "Ulnar nerve enter the forearm between the two heads of the following muscle"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p095",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 105,
+   "positionInSection": 95,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9714,
+     "overlapPixels": 3876.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     355,
+     574,
+     583,
+     599
+    ],
+    "d": [
+     811,
+     608,
+     1084,
+     639
+    ],
+    "c": [
+     347,
+     611,
+     479,
+     634
+    ]
+   },
+   "stemOcr": "The musculocutaneous nerve pierces which muscle? b, Short head of biceps"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p096",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 106,
+   "positionInSection": 96,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.989,
+     "overlapPixels": 4140.0
+    },
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     815,
+     741,
+     1045,
+     767
+    ],
+    "a": [
+     348,
+     743,
+     534,
+     769
+    ],
+    "d": [
+     334,
+     778,
+     1058,
+     808
+    ]
+   },
+   "stemOcr": "All the followings are among the structures deep to the radial artery in forearm xcept"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p097",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 107,
+   "positionInSection": 97,
+   "answer": "D",
+   "overlapShare": 0.9669,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm11",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0333,
+     "overlapPixels": 969.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.9714,
+     "overlapPixels": 3485.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     342,
+     877,
+     619,
+     910
+    ],
+    "b": [
+     343,
+     897,
+     1157,
+     948
+    ],
+    "d": [
+     1026,
+     946,
+     1231,
+     971
+    ],
+    "c": [
+     342,
+     948,
+     836,
+     982
+    ]
+   },
+   "stemOcr": "One of the following arteries is not. sharing in formation of anterior carpal arch"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p098",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 108,
+   "positionInSection": 98,
+   "answer": "C",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.9677,
+     "overlapPixels": 3969.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     339,
+     1045,
+     507,
+     1075
+    ],
+    "b": [
+     811,
+     1045,
+     1016,
+     1070
+    ],
+    "c": [
+     324,
+     1080,
+     513,
+     1111
+    ],
+    "d": [
+     809,
+     1080,
+     897,
+     1105
+    ]
+   },
+   "stemOcr": "Which muscle initiates abduction of the shoulder?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p099",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 109,
+   "positionInSection": 99,
+   "answer": "D",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.3308,
+     "overlapPixels": 15721.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     334,
+     1178,
+     808,
+     1208
+    ],
+    "b": [
+     333,
+     1208,
+     1451,
+     1247
+    ],
+    "c": [
+     332,
+     1248,
+     849,
+     1274
+    ],
+    "d": [
+     177,
+     1283,
+     856,
+     1383
+    ]
+   },
+   "stemOcr": "Which of the following is NOT a branch of the radial nerve?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p100",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 110,
+   "positionInSection": 100,
+   "answer": "A",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9841,
+     "overlapPixels": 27931.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     327,
+     1370,
+     1228,
+     1415
+    ],
+    "b": [
+     325,
+     1410,
+     1226,
+     1444
+    ],
+    "c": [
+     324,
+     1445,
+     1221,
+     1482
+    ],
+    "d": [
+     322,
+     1480,
+     1219,
+     1568
+    ]
+   },
+   "stemOcr": "What muscles are fecessary to raise the arm.above the shoulder?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p101",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 111,
+   "positionInSection": 101,
+   "answer": "B",
+   "overlapShare": 1.0,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.9821,
+     "overlapPixels": 8536.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     318,
+     1580,
+     738,
+     1614
+    ],
+    "b": [
+     316,
+     1618,
+     704,
+     1650
+    ],
+    "c": [
+     309,
+     1646,
+     1155,
+     1733
+    ]
+   },
+   "stemOcr": "One of the followings.is a branchiof superficial palmar arch:"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p102",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 10,
+   "printedNumber": 112,
+   "positionInSection": 102,
+   "answer": "C",
+   "overlapShare": 0.9668,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 1.0345,
+     "overlapPixels": 3528.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0355,
+     "overlapPixels": 6322.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     310,
+     1828,
+     464,
+     1856
+    ],
+    "b": [
+     868,
+     1809,
+     1187,
+     1843
+    ],
+    "c": [
+     296,
+     1863,
+     464,
+     1892
+    ],
+    "d": [
+     155,
+     1845,
+     1510,
+     2033
+    ]
+   },
+   "stemOcr": "A 14-year-old boy fell on his outstretched hand and has a fracture of the scaphoid bone. The fracture is most likely accompanied by a rupture of which of the following arteries?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p103",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 113,
+   "positionInSection": 103,
+   "answer": null,
+   "overlapShare": 0.0,
+   "confidence": "low",
+   "ambiguous": true,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 2,
+   "ocrMode": "psm6",
+   "unresolvedReason": "no mark region covers any option box by at least 12% of its area; OCR recovered only 2 of the option boxes on this question",
+   "optionScores": [
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0084,
+     "overlapPixels": 302.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "b": [
+     214,
+     600,
+     1178,
+     653
+    ],
+    "d": [
+     767,
+     645,
+     1024,
+     676
+    ]
+   },
+   "stemOcr": "Whi : . a Hah of the following Muscles does NOT extend to the wrist? ig \"achioradialis"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p104",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 115,
+   "positionInSection": 104,
+   "answer": "B",
+   "overlapShare": 0.7937,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 3,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.4409,
+     "overlapPixels": 10621.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.1146,
+     "overlapPixels": 1589.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     258,
+     882,
+     497,
+     919
+    ],
+    "b": [
+     209,
+     916,
+     926,
+     964
+    ],
+    "d": [
+     248,
+     957,
+     644,
+     1007
+    ]
+   },
+   "stemOcr": "A patient complaining of inability to flex the distal interphalangeal joints. Whic of the following muscles appear to be Paralyzed?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p105",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 116,
+   "positionInSection": 105,
+   "answer": "C",
+   "overlapShare": 0.9627,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0337,
+     "overlapPixels": 450.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.8692,
+     "overlapPixels": 9408.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     263,
+     1092,
+     660,
+     1140
+    ],
+    "b": [
+     784,
+     1124,
+     1079,
+     1155
+    ],
+    "c": [
+     249,
+     1129,
+     578,
+     1176
+    ],
+    "d": [
+     780,
+     1160,
+     1067,
+     1193
+    ]
+   },
+   "stemOcr": "Which of the following muscles does NOT take an origin from the lateral epicondyle of the humerus?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p106",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 117,
+   "positionInSection": 106,
+   "answer": "A",
+   "overlapShare": 0.9827,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.9857,
+     "overlapPixels": 5947.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0174,
+     "overlapPixels": 212.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     268,
+     1229,
+     489,
+     1268
+    ],
+    "b": [
+     792,
+     1257,
+     1057,
+     1290
+    ],
+    "c": [
+     256,
+     1265,
+     652,
+     1309
+    ],
+    "d": [
+     790,
+     1294,
+     1113,
+     1329
+    ]
+   },
+   "stemOcr": "Which of the following does NOT abduct the hand at the wrist joint?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p107",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 118,
+   "positionInSection": 107,
+   "answer": "C",
+   "overlapShare": 0.8529,
+   "confidence": "medium",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.7777,
+     "overlapPixels": 17966.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.1341,
+     "overlapPixels": 3622.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     262,
+     1364,
+     1204,
+     1427
+    ],
+    "b": [
+     264,
+     1401,
+     1412,
+     1468
+    ],
+    "c": [
+     265,
+     1473,
+     925,
+     1523
+    ],
+    "d": [
+     267,
+     1509,
+     995,
+     1562
+    ]
+   },
+   "stemOcr": "Which of the following is true in respect to the anatomical snuff box?"
+  },
+  {
+   "joinKey": "src_a54bbf7a625ba2b172fc:s1:p108",
+   "sourceId": "src_a54bbf7a625ba2b172fc",
+   "page": 11,
+   "printedNumber": 119,
+   "positionInSection": 108,
+   "answer": "A",
+   "overlapShare": 0.9473,
+   "confidence": "high",
+   "ambiguous": false,
+   "rule": "intersection",
+   "note": "ink colour: pink",
+   "optionsFound": 4,
+   "ocrMode": "psm6",
+   "unresolvedReason": null,
+   "optionScores": [
+    {
+     "optionLetter": "a",
+     "overlapFraction": 0.6576,
+     "overlapPixels": 20684.0
+    },
+    {
+     "optionLetter": "b",
+     "overlapFraction": 0.0366,
+     "overlapPixels": 491.0
+    },
+    {
+     "optionLetter": "c",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    },
+    {
+     "optionLetter": "d",
+     "overlapFraction": 0.0,
+     "overlapPixels": 0.0
+    }
+   ],
+   "optionBoxes": {
+    "a": [
+     272,
+     1606,
+     1089,
+     1661
+    ],
+    "b": [
+     273,
+     1641,
+     719,
+     1684
+    ],
+    "c": [
+     274,
+     1677,
+     925,
+     1724
+    ],
+    "d": [
+     180,
+     1713,
+     1253,
+     1832
+    ]
+   },
+   "stemOcr": "Which of the following is true in respect to the elbow joint?"
+  }
+ ]
+}

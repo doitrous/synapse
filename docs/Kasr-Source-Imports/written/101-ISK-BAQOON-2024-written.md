@@ -81,6 +81,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -231,6 +233,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -303,6 +307,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES
 ## owner
 Claude
 ## source_citation
@@ -376,6 +382,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -450,6 +458,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -524,6 +534,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FERTILIZATION
 ## owner
 Claude
 ## source_citation
@@ -598,6 +610,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## owner
 Claude
 ## source_citation
@@ -672,6 +686,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## owner
 Claude
 ## source_citation
@@ -744,6 +760,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
@@ -829,6 +847,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AXILLARY-NERVE
 ## owner
 Claude
 ## source_citation

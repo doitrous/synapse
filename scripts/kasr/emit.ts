@@ -158,6 +158,9 @@ export function writtenBlock(paper: Paper, seeds: Seed[], articleFor: (conceptId
   const conceptId = byKey.get(seed.key)!
   const total = paper.seeds.reduce((sum, other) => sum + other.marks, 0)
 
+  // A matching question has no parts to apportion — its marks sit on the
+  // prompts, which the runner scores itself.
+  //
   // The paper prints a total for the question and letters beneath it, so the
   // letters divide it evenly. Kept fractional rather than rounded: rounding
   // each part and totalling drifts from the mark on the page.
@@ -193,8 +196,10 @@ Draft
 ${scheme.format}
 ## question
 ${scheme.prompt}
-## written_parts
-${parts}
+${scheme.format === 'matching'
+  ? `## matching_options\n${(scheme.options ?? []).map((one) => `${one.letter} | ${one.text}`).join('\n')}\n`
+    + `## matching_prompts\n${(scheme.matches ?? []).map((one) => `${one.prompt} = ${one.letter}`).join('\n')}`
+  : `## written_parts\n${parts}`}
 ## main_concept
 ${[...byKey.values()].join(' | ')}
 ## topic

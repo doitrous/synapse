@@ -78,6 +78,16 @@ export interface Seed {
 
 export type WrittenFormat =
   | 'short_answer' | 'structured_written' | 'comparison_table' | 'essay' | 'multipart_written'
+  /**
+   * Not a written format, and here anyway.
+   *
+   * Sat papers carry matching tables — the Baqoon and July 2022 sittings both
+   * end with them — and a matching question is neither a written question nor a
+   * question-book MCQ. It belongs to the paper it was sat on, which means it
+   * belongs to a `Paper` seed; the alternative is that a whole section of a real
+   * paper has nowhere to live and quietly does not get transcribed.
+   */
+  | 'matching'
 
 /** One lettered subpart, where the paper printed lettered subparts. */
 export interface SchemePart {
@@ -113,6 +123,15 @@ export interface Scheme {
    * because the paper gives a total for the case and letters beneath it.
    */
   parts?: SchemePart[]
+  /**
+   * The option bank of a matching question, in the paper's own lettering.
+   *
+   * An option may answer several prompts and some may answer none, which is
+   * what makes a matching question harder than the same facts as four MCQs.
+   */
+  options?: { letter: string; text: string }[]
+  /** Each prompt and the option that answers it. */
+  matches?: { prompt: string; letter: string }[]
 }
 
 /** One paper, as a module a generator can pick up. */
@@ -149,6 +168,25 @@ export function mintConceptId(subject: KasrSubject, key: string): string {
  */
 export function conceptHash(key: string): string {
   return createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase().slice(0, 14)
+}
+
+/**
+ * The subject a concept takes, from where it sits in the curriculum.
+ *
+ * Agreed between the two lanes authoring this module, because the subject is
+ * the one field that can still fork a concept: the mint hashes the canonical
+ * key alone and the subject only picks the `CON-<SYS>-` prefix, so two authors
+ * filing one key differently produce two ids for one idea.
+ *
+ * Returns null where the path is outside the rule, which is a question for a
+ * human rather than a default to fall back on.
+ */
+export function subjectForPath(modulePath: string): KasrSubject | null {
+  if (modulePath.includes('> Histology > Blood')) return 'haem'
+  if (modulePath.includes('> Histology')) return 'fnd'
+  if (modulePath.includes('> General Embryology')) return 'dev'
+  if (modulePath.includes('> Basis of Anatomy') || modulePath.includes('> Upper Limb')) return 'msk'
+  return null
 }
 
 /**

@@ -37,12 +37,46 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BANK = os.path.join(HERE, "mcq-bank.json")
 PAGETEXT = os.path.join(HERE, "pagetext")
 
-# The watermark. It is "ViP Academy" set rotated across the page, and pdftotext
-# lays its glyphs down wherever they fall — so it arrives not as one token but
-# as fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`, sometimes split across two
-# lines mid-word. Matched only as whole tokens, so a real word ending in "ad"
-# survives.
-WATERMARK = re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])")
+# Watermarks are a property of a PUBLISHER, not of the format.
+#
+# 101's question books are watermarked "ViP Academy", set rotated across the
+# page, and `pdftotext` lays its glyphs down wherever they fall — so it arrives
+# not as one token but as fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`,
+# sometimes split across two lines mid-word. Stripping those recovers 505
+# options here.
+#
+# Applied to a corpus that is NOT watermarked, the same list is destructive and
+# silent:
+#
+#   "It is initiated by the P wave of the ECG"  ->  "the  wave of the ECG"
+#   "The normal P50 for human is 27 mmHg"       ->  "The normal 50 for human"
+#   "The y descent follows the v wave"          ->  "The  descent follows"
+#
+# Each still parses, still reads as English, and is now wrong — and the damage
+# is indistinguishable from a source that never said it. A parallel module
+# measured 146 fragment matches across 46 sources and not one real watermark
+# token: `P` was the P wave, P50 and PaO2; `y` was the y descent.
+#
+# So it is a per-corpus table, and `None` is a real value meaning "this corpus
+# has no watermark; pass every line through untouched". A corpus not listed
+# here gets `None`, because assuming a watermark that is not there deletes
+# content while assuming none that is there merely fails to recover it. The
+# first is silent and the second is visible in the option counts.
+WATERMARKS: dict[str, "re.Pattern[str] | None"] = {
+    # Kasr Al Ainy 101 ISK: ViP Academy, rotated overlay.
+    "101 ISK": re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])"),
+    # Kasr Al Ainy 104 CPS: checked, and deliberately None rather than absent —
+    # a corpus someone has looked at is a different fact from one nobody has.
+    # `ViP`/`VIP`/`Vi` appear zero times in all 46 of its sources. Its EOM scans
+    # do carry a `DOCTOR HOUSE` overlay, 15 tokens in one file, and it is left
+    # alone on purpose: it never lands on an option label, and stripping
+    # `DOCTOR` or `HOUSE` as whole tokens would delete the words themselves
+    # wherever a paper uses them. An overlay is only worth removing where it
+    # breaks a parse.
+    "104 CPS": None,
+}
+
+DEFAULT_MODULE = "101 ISK"
 
 # `a- text`, `a. text`, `a) text`, with any indent.
 #
@@ -51,7 +85,17 @@ WATERMARK = re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za
 # `Vi    a- Subclavian vein.` — and an anchored parse skips the option
 # entirely rather than erroring. Which is why options went missing from every
 # letter position and not just the last.
-OPTION = re.compile(r"^[^A-Za-z]*(?:[A-Za-z]{1,3}\s+)?\(?([a-eA-E])\s*[-.)]\s+(\S.*)$")
+# The glyphs a scan puts where an option label should be, measured across one
+# module's eighteen OCR'd sources rather than guessed: `6`x29, `0`x25, `©`x8,
+# `¢`x3, `@`x1. They are only ever read as "a label is here" — which letter it
+# is still comes from position, never from the shape.
+MANGLED = "06¢©®€@"
+
+# The comma is a separator too — `a, It has low electric resistance…` runs to
+# 78 lines in one physiology book alone, and without it every one of those
+# options is invisible rather than merely mislabelled.
+OPTION = re.compile(r"^[^A-Za-z]*(?:[A-Za-z]{1,3}\s+)?\(?([a-eA-E]|[" + MANGLED
+                    + r"])\s*[-.,)]\s+(\S.*)$")
 # `23-`, `23.`, `23)`, `Q23.` — where the next question starts.
 NUMBER = re.compile(r"^\s*(?:Q(?:uestion)?\s*)?(\d{1,3})\s*[-.)]\s*\S")
 
@@ -63,7 +107,13 @@ NUMBER = re.compile(r"^\s*(?:Q(?:uestion)?\s*)?(\d{1,3})\s*[-.)]\s*\S")
 # label is, they are resolved by position: labels run in order, so a mangled one
 # following `c` is `d`. Guessing by shape would put an option under the wrong
 # letter, which is worse than dropping it, because the answer key is by letter.
-INLINE = re.compile(r"(?<=\s)([a-e0¢6])\s*[-.]\s+(?=[A-Z(])")
+# A comma is a separator here too — `a, It has low electric resistance…` runs to
+# 78 lines in one physiology book alone.
+INLINE = re.compile(r"(?<=\s)([a-e" + MANGLED + r"])\s*[-.,]\s+(?=[A-Z(])")
+
+# How a question's stem ends: the punctuation that introduces its options. A
+# mangled label carrying this is a lost question number, not an option.
+STEM_TAIL = re.compile(r"[:?]\s*$")
 
 # A lone digit or symbol left at the end of an option by the watermark.
 TRAILING_JUNK = re.compile(r"[\s.]+[0-9¢|_]{1,2}\s*$")
@@ -105,13 +155,19 @@ def resolve(found):
     return out
 
 
-def clean(line):
-    """A line with the watermark taken out, or None if that is all it was."""
-    stripped = WATERMARK.sub(" ", line)
+def clean(line, watermark=None):
+    """A line with the watermark taken out, or None if that is all it was.
+
+    With no watermark for this corpus the line is returned untouched, which is
+    the whole point of the table above: the default must be to change nothing.
+    """
+    if watermark is None:
+        return line if line.strip() else None
+    stripped = watermark.sub(" ", line)
     return stripped if stripped.strip() else None
 
 
-def options_after(lines, start, stop_number):
+def options_after(lines, start, stop_number, watermark=None):
     """Read the options following a stem, tolerating watermark gaps.
 
     Stops at the next question number rather than at the first blank line, which
@@ -121,7 +177,7 @@ def options_after(lines, start, stop_number):
     found = []
     for raw in lines[start:]:
         for piece in split_inline(raw).split("\n"):
-            line = clean(piece)
+            line = clean(piece, watermark)
             if line is None:
                 continue
 
@@ -131,7 +187,20 @@ def options_after(lines, start, stop_number):
 
             match = OPTION.match(line)
             if match:
-                found.append([match.group(1), match.group(2).strip()])
+                text = match.group(2).strip()
+                if match.group(1) in MANGLED:
+                    # A mangled glyph at the head of the block, or one carrying
+                    # a stem's punctuation, is a question number the scan lost —
+                    # not this question's option A. Reading it as an option
+                    # files the next question's stem inside this one, which is
+                    # a wrong answer rather than a missing one. Decided by
+                    # position and by the line's own shape, never by which
+                    # glyph it happens to be.
+                    if not found:
+                        continue
+                    if STEM_TAIL.search(text) and len(text) > 40:
+                        return resolve(tidy(found))
+                found.append([match.group(1), text])
                 continue
 
             # A continuation of the option above, but only while it looks like
@@ -150,6 +219,64 @@ def tidy(found):
     cleaned = [(label, re.sub(r'\s{2,}', ' ', TRAILING_JUNK.sub('', text)).strip())
                for label, text in found]
     return [(label, text) for label, text in cleaned if text]
+
+
+LINE_CASES = [
+    (
+        "two options on one line, second label mangled",
+        # DPT HISTO MCQ [Respiratory].pdf p2 — `d.` read as `0.`
+        ["a. Mucosa. b. Connective tissue corium.",
+         "c. Submucosa., 0. Adventitia."],
+        1, {"A": "Mucosa.", "B": "Connective tissue corium.",
+            "C": "Submucosa.,", "D": "Adventitia."},
+    ),
+    (
+        "adjacent labels both mangled, on their own lines",
+        # DPT HISTO MCQ [Lymphatic System].pdf p2 — `c.`→`6.` then `d.`→`0.`
+        ["a. Present under the mucus membrane of the nasopharynx.",
+         "b. Covered with keratinized stratified squamous epithelium.",
+         "6. Mucous glands open into the bases of crypts.",
+         "0. Lymphatic tissue includes lymphatic nodules and diffuse tissue."],
+        12, {"A": "Present under the mucus membrane of the nasopharynx.",
+             "B": "Covered with keratinized stratified squamous epithelium.",
+             "C": "Mucous glands open into the bases of crypts.",
+             "D": "Lymphatic tissue includes lymphatic nodules and diffuse tissue."},
+    ),
+    (
+        "comma for the separator",
+        # DPT BOOK Physio MCQ [104][2022].pdf p1 — 78 lines set `a, text`
+        ["a, It has low electric resistance of the membrane at the discs",
+         "b. It forms true syncytium .",
+         "c, It obeys the all or none law .",
+         "0. there is almost a special capillary for each muscle fiber ."],
+        3, {"A": "It has low electric resistance of the membrane at the discs",
+            "B": "It forms true syncytium .",
+            "C": "It obeys the all or none law .",
+            "D": "there is almost a special capillary for each muscle fiber ."},
+    ),
+    (
+        "a mangled question number is not the next question's option A",
+        # EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p9 — the number reads `@)`.
+        # Nothing distinguishes it from a mangled label except position and the
+        # stem's own colon, and calling it option A would file the next
+        # question's stem inside this one.
+        ["a. the first joins the brachial plexus.",
+         "b. the lower five are atypical.",
+         "@) Regarding the heart; mark the correct statement, choosing one only:",
+         "a. It lies behind the sternum."],
+        99, {"A": "the first joins the brachial plexus.",
+             "B": "the lower five are atypical."},
+    ),
+    (
+        "a mangled label leading the block is declined, not guessed",
+        # Same shape, nothing yet read: which question it belongs to is
+        # unknowable, so it is left out rather than filed under A.
+        ["©) Which of the following is a typical intercostal nerve:",
+         "a. The first.",
+         "b. The seventh."],
+        99, {"A": "The first.", "B": "The seventh."},
+    ),
+]
 
 
 def self_test():
@@ -185,6 +312,45 @@ def self_test():
     print(f"{'PASS' if ok else 'FAIL'}  a repeated letter does not overwrite the first")
     failed += 0 if ok else 1
 
+    # The cases above exercise `resolve`. These exercise the step before it —
+    # whether a mangled label is recognised as a label at all. `resolve` was
+    # always correct for these; nothing reached it, because an anchored
+    # `[a-eA-E]` never saw the line. Every one is a real line from a scanned
+    # paper, cited where it came from.
+    for name, lines, stop, expected in LINE_CASES:
+        out = options_after(lines, 0, stop)
+        ok = out == expected
+        print(f"{'PASS' if ok else 'FAIL'}  {name}")
+        if not ok:
+            print(f"        wanted {expected}")
+            print(f"        got    {out}")
+        failed += 0 if ok else 1
+    failed += 0 if ok else 1
+
+    # A corpus with no watermark profile must come through untouched. This is
+    # the destructive case: `P` and `y` are the P wave and the y descent, and
+    # stripping them leaves a sentence that still parses, still reads as
+    # English, and is now wrong — with nothing to distinguish the damage from a
+    # source that never said it.
+    medical = [
+        "It is initiated by the P wave of the ECG",
+        "d- The normal P50 for human is 27 mmHg",
+        "The y descent follows the v wave",
+        "a- P-wave.",
+        "PaO2 and PaCO2 are measured on the same sample",
+    ]
+    for line in medical:
+        got = clean(line, WATERMARKS.get("no-such-module"))
+        ok = got == line
+        print(f"{'PASS' if ok else 'FAIL'}  untouched with no profile: {line[:44]!r}")
+        failed += 0 if ok else 1
+
+    # And with 101's profile it still does its job on 101's own text.
+    got = clean("Vi    a- Subclavian vein.", WATERMARKS["101 ISK"])
+    ok = got is not None and got.strip().startswith("a- Subclavian")
+    print(f"{'PASS' if ok else 'FAIL'}  101's profile still strips its own watermark")
+    failed += 0 if ok else 1
+
     return failed
 
 
@@ -192,6 +358,12 @@ def main():
     if "--self-test" in sys.argv:
         sys.exit(1 if self_test() else 0)
     dry = "--dry-run" in sys.argv
+    module = DEFAULT_MODULE
+    if "--module" in sys.argv:
+        module = sys.argv[sys.argv.index("--module") + 1]
+    if module not in WATERMARKS:
+        print(f"no watermark profile for {module!r}; lines pass through untouched", file=sys.stderr)
+    watermark = WATERMARKS.get(module)
     bank = json.load(open(BANK))
     cache = {}
 
@@ -225,12 +397,12 @@ def main():
 
             # Find this question's number on the page, then read past it.
             for position, raw in enumerate(lines):
-                line = clean(raw)
+                line = clean(raw, watermark)
                 if not line:
                     continue
                 number = NUMBER.match(line)
                 if number and int(number.group(1)) == where["number"]:
-                    found = options_after(lines, position + 1, where["number"] + 1)
+                    found = options_after(lines, position + 1, where["number"] + 1, watermark)
                     if len([v for v in found.values() if v.strip()]) > len([v for v in best.values() if v and v.strip()]):
                         best = found
                     break

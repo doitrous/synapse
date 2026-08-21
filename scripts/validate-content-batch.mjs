@@ -107,7 +107,27 @@ async function foldInSiblings(concepts, articles, resources) {
       const id = row.id?.trim()
       if (!id) continue
       if (kind === 'concept') {
-        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
+        // `article_ids` on the concept row is not decoration: `conceptImport.ts`
+        // reads it straight into `articleIds`, so a concept authored with it
+        // arrives at import already knowing what teaches it. Dropping it here
+        // made the coverage check one-directional, and reported 247 questions
+        // as untaught whose concepts named their article perfectly well.
+        // Merged, not overwritten. A concept may be authored in two batches —
+        // once from the papers and once from the question books — and the two
+        // name the articles they each know about. Replacing on the second file
+        // meant whichever batch happened to be listed last decided what taught
+        // the concept, and a concept whose paper batch omitted the column lost
+        // the article its question-book batch had named.
+        const already = concepts.get(id)
+        concepts.set(id, {
+          id,
+          publicationStatus: row.publication_status?.trim() ?? already?.publicationStatus,
+          articleIds: [...new Set([
+            ...(already?.articleIds ?? []),
+            ...(row.article_ids ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean),
+          ])],
+          pending: sibling,
+        })
       }
       if (kind === 'article' && articles) {
         articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
@@ -117,8 +137,9 @@ async function foldInSiblings(concepts, articles, resources) {
     notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
   }
 
-  // An article's `related_concepts` is what puts its ID on the concept record
-  // at import. A concept and an article both waiting to be imported would
+  // The other direction. An article's `related_concepts` also puts its ID on the
+  // concept record at import, so coverage is the union of the two — a link
+  // authored from either side is a link the importer will make. A concept and an article both waiting to be imported would
   // otherwise look, to the coverage check, like a concept nothing teaches — so
   // the same link is made here, from the article side, exactly as the importer
   // makes it.
