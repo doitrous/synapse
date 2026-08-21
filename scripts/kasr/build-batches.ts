@@ -7,7 +7,7 @@
  *   node --experimental-strip-types scripts/kasr/build-batches.ts
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { mintConceptId, partsKey, subjectCollisions, subjectForPath, type KasrSubject, type Paper, type Seed } from './seeds/types.ts'
+import { mintConceptId, partsKey, subjectCollisions, subjectForPath, type KasrSubject, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
@@ -23,8 +23,26 @@ import { SITTING_SIGNALS } from './seeds/sittings.ts'
 const PAPERS: Paper[] = [EOY_2025, EOY_2024, EOY_2022, EOY_2022_SECOND, BAQOON_2024, CASES_2025]
 
 const OUT = 'docs/Kasr-Source-Imports'
+/**
+ * The batch filename for a paper.
+ *
+ * One prefix per tier. This used to be a two-way branch — end of year, or else
+ * "EOM" — over four tiers, so the Baqoon third-sitting resit and a formative
+ * assessment were both filed as end-of-module papers. That was wrong when it
+ * was written and is about to become destructive: the real end-of-module papers
+ * are entirely multiple choice and are now being seeded, and a genuine
+ * `EOM-2024` would have overwritten the resit sitting under the same name with
+ * nothing reporting it.
+ */
+const TIER_PREFIX: Record<SourceRef['tier'], string> = {
+  end_of_year: 'EOY',
+  end_of_module: 'EOM',
+  resit: 'BAQOON',
+  formative: 'FORMATIVE',
+}
+
 const slug = (paper: Paper) =>
-  `101-ISK-${paper.source.tier === 'end_of_year' ? 'EOY' : 'EOM'}-${paper.source.sittingYear}`
+  `101-ISK-${TIER_PREFIX[paper.source.tier]}-${paper.source.sittingYear}`
 
 /**
  * Concepts, deduplicated by canonical key across every paper.
@@ -198,6 +216,27 @@ async function assertOneSubjectPerKey() {
     + '\nAgree one subject per key and rerun. The key decides the concept; the subject only picks its prefix.')
 }
 
+/**
+ * Refuse two papers that would write to the same batch file.
+ *
+ * The filename carries only tier and year, so two sittings of one tier in one
+ * year — a first and second sitting, or a paper filed under the wrong tier —
+ * silently overwrite each other, and the survivor looks complete.
+ */
+function assertNoSlugCollision() {
+  const byFile = new Map<string, string[]>()
+  for (const paper of PAPERS) {
+    const file = slug(paper)
+    byFile.set(file, [...(byFile.get(file) ?? []), paper.source.file])
+  }
+  const clashes = [...byFile.entries()].filter(([, papers]) => papers.length > 1)
+  if (!clashes.length) return
+  throw new Error(
+    `${clashes.length} batch filename(s) claimed by more than one paper — one would overwrite the other:\n`
+    + clashes.map(([file, papers]) => `  ${file}: ${papers.join(' and ')}`).join('\n'))
+}
+
+assertNoSlugCollision()
 await assertOneSubjectPerKey()
 
 /**

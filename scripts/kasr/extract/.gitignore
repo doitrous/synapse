@@ -8,3 +8,10 @@ parts/
 raw/
 __pycache__/
 status-*.json
+
+# Rendered pages. The answer-key recovery rasterises every page of every
+# end-of-module paper to find highlights that exist only as pixels; the images
+# are a cache, regenerable from the PDFs, and megabytes of them.
+*.png
+*.ppm
+*.jpg

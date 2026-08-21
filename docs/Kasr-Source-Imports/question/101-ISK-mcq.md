@@ -2,12 +2,16 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
+    Nucleus — 70 questions, 7 concepts
+    Polarity and Membranous Specializations — 87 questions, 9 concepts
+    The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
@@ -20,7 +24,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  20 questions were excluded and 0 held back for having no
+  92 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1349,6 +1353,3575 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q48. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-82DCF129E456
+## title
+Simple branched tubular glands:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple branched tubular glands:
+## answer_a
+Have branched ducts
+## explanation_a
+The commonest wrong answer, and the one the name invites. A branching duct is what "compound" means, and this gland has already been called simple, which settles the duct as unbranched.
+## answer_b
+Are endocrine gland
+## explanation_b
+An endocrine gland is ductless, so it cannot be described by duct branching at all. Every term in this name presupposes a duct.
+## answer_c
+Have alveolar secretory unit
+## explanation_c
+Tubular and alveolar are alternatives, not companions: the secretory unit here is a tube, which is what the word tubular states.
+## answer_d
+Have branched secretory part
+## explanation_d
+Correct. Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.
+## correct_answer
+D
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Attribute "branched" in a gland's name to the secretory part, not the duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q42; Dpt Book MCQ histo 101 .NEW (1).pdf p13 q36; Epithelium | Module 101 questions.pdf.pdf p15 q42. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C5D8078F54AD
+## title
+Exocrine glands:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Exocrine glands:
+## answer_a
+Are only unicellular glands
+## explanation_a
+Unicellular glands such as the goblet cell are exocrine, but so are the multicellular ones. This option mistakes one subdivision of exocrine glands for the whole class.
+## answer_b
+Discharge secretory product by diffusion into the blood
+## explanation_b
+Diffusion into the blood is what an endocrine gland does, and it is precisely what having a duct makes unnecessary.
+## answer_c
+Discharge their secretion via ducts
+## explanation_c
+Correct. An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.
+## answer_d
+Secretes hormones
+## explanation_d
+Hormones are the endocrine product. An exocrine secretion is delivered to a surface or a lumen, not to the bloodstream.
+## correct_answer
+C
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define an exocrine gland by its duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q32; Epithelium | Module 101 questions.pdf.pdf p14 q32. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-21DEE449ECEA
+## title
+Myo-epithelial cells are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Myo-epithelial cells are:
+## answer_a
+Present around acini of salivary glands
+## explanation_a
+Correct. The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are the book's other two examples.
+## answer_b
+Found in thyroid gland
+## explanation_b
+The thyroid is a ductless endocrine gland. Its follicular cells release their hormone into blood capillaries, so there is no duct to squeeze anything into and no myo-epithelial cell to do it.
+## answer_c
+Found in pancreas
+## explanation_c
+The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The book's stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.
+## answer_d
+Modified type of epithelium which act as a receptor
+## explanation_d
+Acting as a receptor is neuro-epithelium, the class next door. Myo-epithelium is modified to contract, which is a different one of the four modifications.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Work out which glands can have myo-epithelial cells by asking whether the gland has a duct to squeeze secretion into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q48; Epithelium | Module 101 questions.pdf.pdf p16 q48. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FDF15B66FAB3
+## title
+Sebaceous gland is considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Sebaceous gland is considered as:
+## answer_a
+Compound tubular gland
+## explanation_a
+Compound needs a branching duct. The sebaceous gland empties by a single short duct into a hair follicle, and its secretory units are rounded rather than tubular.
+## answer_b
+Simple branched alveolar gland
+## explanation_b
+Correct. A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.
+## answer_c
+Branched tubular
+## explanation_c
+Right on the branching, wrong on the shape. The sebaceous secretory unit is a rounded sac, not a tube — this is the answer of a student who remembered "branched" and stopped there.
+## answer_d
+Compound tubule- alveolar gland
+## explanation_d
+Compound tubulo-alveolar is the salivary gland. Two of the three terms are wrong here.
+## correct_answer
+B
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place the sebaceous gland in the combined classification.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q44; Epithelium | Module 101 questions.pdf.pdf p16 q44. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-218E636E376F
+## title
+The compound tubulo-alveolar glands are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The compound tubulo-alveolar glands are present in:
+## answer_a
+Sweat glands
+## explanation_a
+The sweat gland is simple coiled tubular: one unbranched duct and a tube coiled up in the dermis.
+## answer_b
+Intestinal crypts
+## explanation_b
+Intestinal crypts are simple tubular — straight unbranched tubes opening on the surface, with no duct tree at all.
+## answer_c
+Salivary glands
+## explanation_c
+Correct. The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.
+## answer_d
+Fundus of stomach
+## explanation_d
+The fundic glands of the stomach are simple branched tubular: the duct does not branch, the secretory part does.
+## correct_answer
+C
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the gland that is compound tubulo-alveolar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q41; Epithelium | Module 101 questions.pdf.pdf p15 q41. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6289115CEFF4
+## title
+According to the mode of secretion the exocrine glands classified into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+According to the mode of secretion the exocrine glands classified into:
+## answer_a
+Apocrine, holocrine and merocrine glands
+## explanation_a
+Correct. Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.
+## answer_b
+Mucous, serous and mucoserous glands
+## explanation_b
+Mucous, serous and mucoserous is the classification by the *nature* of the secretion — what it is made of, rather than how it leaves.
+## answer_c
+Simple, branched, and compound glands
+## explanation_c
+Simple, branched and compound classify the duct, which is a question about the gland's architecture rather than its secretory mechanism.
+## answer_d
+Alveolar, tubular and tubuloalveolar glands
+## explanation_d
+Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. The book has five criteria and this question names one of them; picking the wrong list is the standard error.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Match a classifying criterion to the set of categories it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q51. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5BEA51098E5C
+## title
+According to their function, there are two major types of epithelial tissue, these are
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+According to their function, there are two major types of epithelial tissue, these are
+## answer_a
+epithelial tissue and cartilage
+## explanation_a
+Cartilage is connective tissue, not epithelium. This option does not answer the question it was asked.
+## answer_b
+holocrine and apocrine glands
+## explanation_b
+Holocrine and apocrine are modes of secretion within one class of epithelium, not two classes of epithelial tissue.
+## answer_c
+transitional and pseudostratified epithelium
+## explanation_c
+Transitional and pseudostratified are two types of *surface* epithelium, so both sit inside one of the answer's two categories.
+## answer_d
+covering and secretory epithelium
+## explanation_d
+Correct as this book puts it — covering epithelium and secretory epithelium. Note that the department book itself recognises four classes, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Separate epithelium that covers from epithelium that secretes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q51. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-B30364AE96D3
+## title
+All are true about goblet cell Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All are true about goblet cell Except:
+## answer_a
+Secret mucous
+## explanation_a
+True, so not the exception. Mucus is the goblet cell's product, which is why it is classed as a mucous gland.
+## answer_b
+Flask in shape
+## explanation_b
+True, so not the exception. The name describes the shape — a narrow base and a swollen mucus-filled apex.
+## answer_c
+Multicellular gland
+## explanation_c
+The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is the book's example of a unicellular gland.
+## answer_d
+Present in the respiratory tract
+## explanation_d
+True, so not the exception. Goblet cells are scattered through the pseudostratified columnar ciliated epithelium of the airway, and through the simple columnar epithelium of the intestine.
+## correct_answer
+C
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that the goblet cell is a gland of exactly one cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q60. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8CC5DB44DDA5
+## title
+Apocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Apocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell discharges mucus by exocytosis and stays intact, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is the standard merocrine example — its cells lose nothing at all.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the whole cell disintegrates and becomes the secretion. This is one rung too far along the ladder.
+## answer_d
+Lactating mammary gland
+## explanation_d
+Correct. The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.
+## correct_answer
+D
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland that loses the apex of its cells with its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q63. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3E9665BC49BA
+## title
+Compound tubular glands are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Compound tubular glands are present in:
+## answer_a
+Pancreas
+## explanation_a
+The pancreas has a branching duct system, so it is compound, but its secretory units are rounded acini — it is compound alveolar, not tubular.
+## answer_b
+Parotid
+## explanation_b
+The parotid is a salivary gland, compound tubulo-alveolar. The duct term is right and the shape term is not.
+## answer_c
+Prostate
+## explanation_c
+The prostate is compound tubulo-alveolar as well. It is chosen by students who know it is compound and stop there.
+## answer_d
+Kidney
+## explanation_d
+Correct. The kidney is the book's compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.
+## correct_answer
+D
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Name a compound tubular gland, where both terms have to be right at once.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q39. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A7689507A031
+## title
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## answer_a
+Its duct is not branching
+## explanation_a
+Correct. Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+This describes an unbranched *secretory* part, which is what "simple" is routinely mistaken for. A simple branched gland is the counter-example: simple duct, several secretory units.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Tubular describes the shape of the secretory part, and is chosen from an adjacent list rather than from the one the question asked about.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar likewise describes shape. Neither shape term has anything to say about the duct.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Attribute the word "simple" to the duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q52. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-27D4460FFE15
+## title
+Concerning the exocrine glands the term “compound” refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the exocrine glands the term “compound” refers to:
+## answer_a
+Its duct is branching
+## explanation_a
+Correct. Compound means the duct branches like a tree, with each branch carrying its own secretory part.
+## answer_b
+Its secretory part is branching
+## explanation_b
+A branching secretory part is what "branched" names, and it can occur under a simple duct — a simple branched gland is exactly that.
+## answer_c
+A and B
+## explanation_c
+The tempting hedge. It is true that a compound gland has many secretory parts, but the word compound is defined on the duct, and choosing both makes the term unable to distinguish anything.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is a shape term from a different criterion, and a compound gland may be tubular, alveolar or tubulo-alveolar.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Attribute the word "compound" to the duct alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q54. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9972D1EB2D2D
+## title
+Concerning the exocrine glands the term “tubular” refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the exocrine glands the term “tubular” refers to:
+## answer_a
+Its duct is not branching
+## explanation_a
+An unbranching duct is "simple". This is the answer to the neighbouring question in the same series, and the two are routinely swapped.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+The number of secretory units is not what tubular describes; a gland can have one tube or many.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Correct. Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is the alternative to tubular, not a synonym for it — the secretory unit is rounded rather than tube-like.
+## correct_answer
+C
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Attribute the word "tubular" to the shape of the secretory part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q53. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D547DF736C54
+## title
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## answer_a
+They are spindle shaped cells
+## explanation_a
+Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; the department book gives no shape, so this is not sourced to it.
+## answer_b
+They contain actin and myosin
+## explanation_b
+Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though again the department book states only that the cell contracts and does not name actin and myosin.
+## answer_c
+They can contract
+## explanation_c
+True, so not the exception, and it is the one thing the department book does state — myo-epithelium is epithelium modified to contract.
+## answer_d
+They are related to the endocrine glands
+## explanation_d
+The exception, and the answer. An endocrine gland is ductless: its secretion leaves through the blood capillaries beside it, so there is no duct to squeeze it into and no work for a myo-epithelial cell to do. They belong to exocrine glands — salivary, mammary and sweat.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Reason from the duct: a gland with no duct has nothing for a myo-epithelial cell to expel secretion into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p9 q71. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C95BC195F775
+## title
+Fundic glands of the stomach are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fundic glands of the stomach are considered as:
+## answer_a
+Simple tubular glands
+## explanation_a
+Simple tubular is the intestinal crypt: a straight unbranched tube. The trap is that both organs are in the gut and both have tubular glands.
+## answer_b
+Simple alveolar glands
+## explanation_b
+Alveolar means a rounded secretory unit. The fundic gland is a tube running down through the mucosa.
+## answer_c
+Simple branched tubular glands
+## explanation_c
+Correct. The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.
+## answer_d
+Compound tubular glands
+## explanation_d
+Compound requires a branching duct tree, which the fundic gland does not have — it opens directly into a gastric pit.
+## correct_answer
+C
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Distinguish the fundic gland from the intestinal crypt by whether the secretory part branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q45. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3544082D62E7
+## title
+Glands are classified according to the presence or absence of ducts into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glands are classified according to the presence or absence of ducts into:
+## answer_a
+exocrine, endocrine or mixed glands
+## explanation_a
+Correct. A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.
+## answer_b
+serous and mucous glands
+## explanation_b
+Serous and mucous classify the nature of the secretion, which is a different one of the book's five criteria.
+## answer_c
+unicellular and multi-cellular glands
+## explanation_c
+Unicellular and multicellular classify exocrine glands by the number of secretory cells, and presuppose that the duct question has already been answered.
+## answer_d
+none of the above
+## explanation_d
+A hedge that is wrong because option A is exactly right. It is chosen when the three-way answer is misremembered as two-way, exocrine and endocrine only.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Match the duct criterion to the three classes it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q59. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-88381E2A6A76
+## title
+glands that lose their upper portion of cytoplasm during secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+glands that lose their upper portion of cytoplasm during secretion:
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — the product leaves by exocytosis and the cell is unchanged.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the cell everything. Losing the upper portion is the middle rung, not the last one.
+## answer_d
+autocrine
+## explanation_d
+Autocrine describes a cell that acts on itself, which is a signalling term and not one of the book's three modes of secretion.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match the loss of the cell apex to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q66. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D741BDD8C2DC
+## title
+Glands whose ducts have many branches are called
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glands whose ducts have many branches are called
+## answer_a
+simple
+## explanation_a
+Simple is the opposite: a duct that does not branch.
+## answer_b
+compound
+## explanation_b
+Correct. A branching duct tree is what compound means.
+## answer_c
+branched
+## explanation_c
+"Branched" is reserved for a branching secretory portion, and it is the word this question is designed to make you reach for wrongly.
+## answer_d
+alveolar
+## explanation_d
+Alveolar describes the shape of the secretory unit and says nothing about the duct.
+## correct_answer
+B
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the gland whose duct branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q49. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-767CF8F3E5E8
+## title
+Glandular epithelium is classified according to mode of secretion into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glandular epithelium is classified according to mode of secretion into:
+## answer_a
+Apocrine where no change occurs in the secretory cells
+## explanation_a
+The description belongs to merocrine, not apocrine. In apocrine secretion the cell does change — it loses its apex.
+## answer_b
+Merocrine where the apex of the cell is destroyed during secretion
+## explanation_b
+Backwards. Losing the apex of the cell is apocrine; merocrine leaves the cell untouched.
+## answer_c
+Merocrine where all the cell is destroyed during secretion
+## explanation_c
+Destruction of the whole cell is holocrine. This is the same swap as B, one rung further along.
+## answer_d
+Holocrine where all the cell is destroyed during secretion
+## explanation_d
+Correct. Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.
+## correct_answer
+D
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pair each mode of secretion with the right amount of cell loss.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q34. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each option pairs a mode with a description, and only D pairs them correctly: holocrine is the mode in which the whole cell is destroyed. A gives merocrine's description to apocrine, B gives apocrine's to merocrine, and C gives holocrine's to merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1CF8FFDE3A00
+## title
+Goblet cell is an example of all of the followings Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Goblet cell is an example of all of the followings Except:
+## answer_a
+unicellular gland
+## explanation_a
+True, so not the exception. One cell doing the secreting is exactly what unicellular means.
+## answer_b
+mucous gland
+## explanation_b
+True, so not the exception. Its product is mucus, which makes it a mucous gland.
+## answer_c
+Simple columnar secretory epithelium
+## explanation_c
+The exception, and the answer, and a fine trap: goblet cells really do sit within simple columnar epithelium in the intestine. But "simple columnar secretory epithelium" names the surface epithelium around the cell, not the cell itself, and the goblet cell is also found in pseudostratified columnar ciliated epithelium, where that description would be wrong outright.
+## answer_d
+exocrine gland
+## explanation_d
+True, so not the exception. Its secretion reaches a free surface rather than the blood, which makes it exocrine.
+## correct_answer
+C
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Separate what the goblet cell is from the epithelium it sits in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q58. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E6F6012FD0E
+## title
+Holocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Holocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell secretes by exocytosis and survives it, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is merocrine — the standard example of the mode that costs the cell nothing.
+## answer_c
+Sebaceous gland
+## explanation_c
+Correct. Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing only the apex. Chosen by students who know it loses something and do not check how much.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland that loses whole cells with its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q64. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-21CA8E84B5EE
+## title
+Holocrine secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Holocrine secretion:
+## answer_a
+Occurs in endocrine gland
+## explanation_a
+Modes of secretion are a classification of *exocrine* glands. An endocrine gland is ductless and releases hormone into blood; it has no holocrine form.
+## answer_b
+Destruction of the whole cell
+## explanation_b
+Correct. The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.
+## answer_c
+Destruction of apical parts of cell
+## explanation_c
+Destruction of the apical part is apocrine — one rung short.
+## answer_d
+No change in secretory cells
+## explanation_d
+No change in the secretory cell is merocrine, the commonest mode and the opposite extreme from this one.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State how much of the cell holocrine secretion destroys.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q35. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Holocrine secretion is defined as the whole cell being lost with the product, which is option B; A is false because holocrine is a mode of exocrine secretion, and C and D are the definitions of apocrine and merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-80E2879A4EBD
+## title
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## answer_a
+merocrinic gland
+## explanation_a
+Merocrine secretion leaves the cell intact; nothing of the cytoplasm goes with the product.
+## answer_b
+apocrine gland
+## explanation_b
+Correct. Apocrine means the apex goes with the secretion, which is exactly what the stem describes.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the entire cell, not part of it.
+## answer_d
+endocrine gland
+## explanation_d
+Endocrine is a classification by duct, not by mode. It answers a different criterion altogether, and is chosen when the "-crine" ending is read as if all four words belonged to one list.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match the loss of apical cytoplasm to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q10. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-871DF165B661
+## title
+Ina gland, entire cells break down to form the secretion
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Ina gland, entire cells break down to form the secretion
+## answer_a
+exocrine
+## explanation_a
+Exocrine is the class of gland, not the mode. All three modes below are exocrine, so this cannot distinguish anything.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing at all — the far end of the ladder from this stem.
+## answer_c
+holocrine
+## explanation_c
+Correct. Entire cells breaking down to become the product is the definition of holocrine secretion.
+## answer_d
+autocrine
+## explanation_d
+Autocrine is a signalling term for a cell acting on itself and is not one of the book's three modes.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match whole-cell destruction to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q50. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-DB7047F7D6AF
+## title
+Intestinal glands are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Intestinal glands are considered as:
+## answer_a
+Simple tubular glands
+## explanation_a
+Correct. The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.
+## answer_b
+Simple branched tubular
+## explanation_b
+Simple branched tubular is the fundic gland of the stomach. The two are the classic pair, and the whole difference is whether the secretory part divides at its base.
+## answer_c
+Compound tubular
+## explanation_c
+Compound requires a branching duct tree, which the intestine's crypts do not have.
+## answer_d
+Simple coiled tubular
+## explanation_d
+Simple coiled tubular is the sweat gland, whose tube is coiled up in the dermis. The intestinal crypt is straight.
+## correct_answer
+A
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place the intestinal crypt in the combined classification.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q35. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B5491AF22BE0
+## title
+Merocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Merocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the example the books intend, and the one that appears in the answer key.
+## answer_b
+Salivary gland
+## explanation_b
+Correct. The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the cell is the secretion.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing the apex of each cell with the milk fat.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland whose cells lose nothing when they secrete.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q125. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B60428BE79F
+## title
+Mixed gland is a mixture of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mixed gland is a mixture of:
+## answer_a
+Endocrine and exocrine glands
+## explanation_a
+Correct. A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.
+## answer_b
+Simple and compound glands
+## explanation_b
+Simple and compound are two forms of exocrine duct. A gland is one or the other, and no gland is called mixed for having both.
+## answer_c
+Unicellular and multicellular glands
+## explanation_c
+Unicellular and multicellular is another exocrine subdivision, and again not what "mixed" refers to.
+## answer_d
+Stroma and parenchyma
+## explanation_d
+Stroma and parenchyma are the supporting and working tissue of any organ, so every gland is a mixture of them. The word tells you nothing, which is what makes it a plausible-sounding distractor.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define a mixed gland by the two secretory arrangements it contains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q55. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-53440DF241C6
+## title
+modify to give secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+modify to give secretion:
+## answer_a
+surface
+## explanation_a
+Surface epithelium covers surfaces and lines cavities. Some of its cells secrete — the goblet cell does — but the class is defined by covering.
+## answer_b
+glandular
+## explanation_b
+Correct. Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.
+## answer_c
+neuro-epithelium
+## explanation_c
+Neuro-epithelium is modified to receive a stimulus, not to make a product.
+## answer_d
+myo-epithelium
+## explanation_d
+Myo-epithelium is modified to contract, and it acts on secretion made by somebody else.
+## correct_answer
+B
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the class of epithelium that is modified to secrete.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q1. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FCFC88EF38A2
+## title
+most common mechanism, secretion discharged with no change in cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+most common mechanism, secretion discharged with no change in cell:
+## answer_a
+apocrine
+## explanation_a
+Apocrine costs the cell its apex, so there is a change in the secretory cell — and it is much the rarer arrangement.
+## answer_b
+merocrine
+## explanation_b
+Correct. Merocrine secretion is discharged by exocytosis with no change in the cell, and the book names it the most common mode.
+## answer_c
+holocrine
+## explanation_c
+Holocrine destroys the cell entirely, which is the largest change of the three.
+## answer_d
+none of the above
+## explanation_d
+A hedge with no reason to be chosen: merocrine answers the stem exactly.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the commonest mode of secretion and state what it costs the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q3. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-09377F79E0ED
+## title
+One of the following glands is considered as apocrine gland:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following glands is considered as apocrine gland:
+## answer_a
+Sebaceous glands
+## explanation_a
+Sebaceous glands are holocrine — the whole cell becomes sebum.
+## answer_b
+Mammary gland
+## explanation_b
+Correct. The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.
+## answer_c
+Salivary gland
+## explanation_c
+Salivary glands are merocrine, losing nothing.
+## answer_d
+Pancreas
+## explanation_d
+The exocrine pancreas is merocrine too; it is chosen when a student is looking for something unusual and picks the gland that is unusual for a different reason — it is the mixed gland.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the apocrine gland among four named glands.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q38. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6718B37C4E22
+## title
+Parotid gland is considered:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Parotid gland is considered:
+## answer_a
+Mucous secreting gland
+## explanation_a
+Mucous is the sublingual gland's predominant character, not the parotid's. A mucous secretion is viscid and carries no enzymes.
+## answer_b
+Serous secreting gland
+## explanation_b
+Correct. The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.
+## answer_c
+Mucoserous secreting gland
+## explanation_c
+Mucoserous is the submandibular gland, which has both cell types. Chosen by students who know the three salivary glands differ and cannot recall which is which.
+## answer_d
+Unicellular secreting gland
+## explanation_d
+Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland the book names is the goblet cell.
+## correct_answer
+B
+## main_concept
+CON-FND-BD4F040EFC8693
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the parotid by the nature of its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p14 q34. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-747A2FB6EFC2
+## title
+Salivary glands are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Salivary glands are considered as:
+## answer_a
+Merocrine glands
+## explanation_a
+Correct. Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.
+## answer_b
+Holocrine glands
+## explanation_b
+Holocrine is the sebaceous gland, where the whole cell is lost.
+## answer_c
+Apocrine glands
+## explanation_c
+Apocrine is the lactating mammary gland, which loses the apex of its cells.
+## answer_d
+Compound alveolar
+## explanation_d
+The interesting distractor, because it is not false — the salivary gland *is* compound tubulo-alveolar. It answers a different criterion, though: this option classifies by architecture where the other three classify by mode, and a question whose other options are all modes is asking about mode.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the salivary gland by mode of secretion when a shape term is also on offer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q43. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EE04BD3704EF
+## title
+Salivary glands is an example of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Salivary glands is an example of:
+## answer_a
+exocrine gland
+## explanation_a
+True, but not the whole answer. The salivary gland has ducts, so it is exocrine.
+## answer_b
+endocrine gland
+## explanation_b
+False. An endocrine gland is ductless and sends its product into the blood; salivary secretion goes down a duct into the mouth.
+## answer_c
+Merocrine gland
+## explanation_c
+True, but not the whole answer. It secretes by exocytosis without losing any of the cell, so it is merocrine.
+## answer_d
+Both a & c
+## explanation_d
+Correct. The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise that one gland is classified under several criteria at once.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q61. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5601BDFFEB01
+## title
+secretion is come out with all cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+secretion is come out with all cell:
+## answer_a
+apocrine
+## explanation_a
+Apocrine loses the apex only, which is the middle of the three.
+## answer_b
+merocrine
+## explanation_b
+Merocrine loses nothing; the cell is unchanged by secreting.
+## answer_c
+holocrine
+## explanation_c
+Correct. In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.
+## answer_d
+none of the above
+## explanation_d
+There is a mode that fits the stem exactly, so a hedge cannot be right here.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match whole-cell loss to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q5. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B4198A04739E
+## title
+secretion is come out with apex of cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+secretion is come out with apex of cell:
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — exocytosis leaves the membrane and cytoplasm intact.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the whole cell, not just its apex.
+## answer_d
+none of the above
+## explanation_d
+Apocrine answers the stem exactly, so the hedge is not needed.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match loss of the cell apex to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q4. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-19D52946337D
+## title
+single duct with non-branching secretory cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+single duct with non-branching secretory cell:
+## answer_a
+simple non branched
+## explanation_a
+Correct. One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.
+## answer_b
+compound
+## explanation_b
+Compound requires the duct to branch, which the stem has ruled out.
+## answer_c
+tubular
+## explanation_c
+Tubular is a shape term from the other criterion, and the stem says nothing about shape.
+## answer_d
+all the above
+## explanation_d
+A hedge that cannot hold, since compound directly contradicts the single unbranched duct in the stem.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland in which neither the duct nor the secretory part branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q6. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D8E2A1F5DE30
+## title
+the gland which releases its secretion by exocytosis without change is classified as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the gland which releases its secretion by exocytosis without change is classified as:
+## answer_a
+merocrine gland
+## explanation_a
+Correct. Merocrine secretion is discharged by exocytosis with no change in the secretory cell.
+## answer_b
+apocrine gland
+## explanation_b
+Apocrine loses the apex of the cell with the product, so the cell is changed.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the whole cell.
+## answer_d
+eccrine gland
+## explanation_d
+Eccrine is not one of the three modes this book recognises. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the department book's list is three long.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the mode in which the cell is unchanged by secreting.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q3. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C8F3973AC87D
+## title
+The most common type of secretion of exocrine cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of secretion of exocrine cells is:
+## answer_a
+All possible types of secretion are roughly equally
+## explanation_a
+The book is explicit that one mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.
+## answer_b
+Merocrine secretion
+## explanation_b
+Correct. Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.
+## answer_c
+Holocrine secretion
+## explanation_c
+Holocrine destroys a cell per secretion and is confined to a few glands such as the sebaceous.
+## answer_d
+Apocrine secretion
+## explanation_d
+Apocrine is likewise uncommon, and the lactating mammary gland is its one everyday example.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State which mode of secretion is the commonest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q35. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-8FA8AD0F0704
+## title
+The secretions of endocrine glands are released directly
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The secretions of endocrine glands are released directly
+## answer_a
+onto the skin surface
+## explanation_a
+Delivery onto a surface is exocrine, and the skin is where several exocrine glands empty — sweat and sebaceous among them.
+## answer_b
+into the bloodstream
+## explanation_b
+Correct. An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.
+## answer_c
+into a gland duct
+## explanation_c
+A gland duct is precisely what an endocrine gland does not have. This is the definition of the class it is being distinguished from.
+## answer_d
+into the brain tissue
+## explanation_d
+Release into brain tissue would make the gland a neurosecretory structure with a local target. The defining feature of an endocrine gland is that the blood carries its product *away*.
+## correct_answer
+B
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State where an endocrine gland delivers its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q52. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-673FFE6A43CB
+## title
+The type of secretion in which cells lose part of their cytoplasm is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of secretion in which cells lose part of their cytoplasm is called:
+## answer_a
+Merocrine
+## explanation_a
+Merocrine cells lose no cytoplasm at all.
+## answer_b
+Apocrine
+## explanation_b
+Correct. Losing part of the cytoplasm — the apex — with the product is apocrine.
+## answer_c
+Holocrine
+## explanation_c
+Holocrine cells lose all of their cytoplasm, along with everything else.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the book's modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match partial loss of cytoplasm to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q5. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2B41A3899F8F
+## title
+When the cell is expelled as a secretory product, which term applies:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+When the cell is expelled as a secretory product, which term applies:
+## answer_a
+Merocrine
+## explanation_a
+Merocrine expels only the product; the cell stays where it is.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine expels the apex of the cell along with the product, which is part of the cell rather than the cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. When the cell itself is the secretory product, the mode is holocrine.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the three modes, despite the "cyto-" making it sound like the one that involves whole cells. That resemblance is the trap.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match expulsion of the whole cell to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q6. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8D9256DE69CD
+## title
+Which of the following glands eliminates its complete cells as a secretory product
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following glands eliminates its complete cells as a secretory product
+## answer_a
+Merocrine
+## explanation_a
+Merocrine eliminates no cells; that is what makes it repeatable and the commonest mode.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine eliminates the apical part of a cell, not the complete cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.
+## answer_d
+Endocrine
+## explanation_d
+Endocrine answers a different criterion — presence of a duct — and no endocrine gland is described by any of the three modes.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match elimination of complete cells to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q1. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-3A435BE5FD9E
+## title
+which of the following is an example of mixed gland:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which of the following is an example of mixed gland:
+## answer_a
+Thyroid gland
+## explanation_a
+The thyroid is purely endocrine. Its follicles look like secretory units with a lumen, which is what makes it tempting, but nothing leaves them by a duct.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is purely exocrine, and "mixed" is being read here in its other sense — a mucoserous secretion. That double meaning is the trap the question is built on.
+## answer_c
+Pancreas
+## explanation_c
+Correct. The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.
+## answer_d
+None of the above
+## explanation_d
+A hedge that is wrong because the pancreas is exactly the example the classification was written for.
+## correct_answer
+C
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the gland that has both an exocrine and an endocrine part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q50. Manifest src_1fb914ce96908301b7b1.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -5337,6 +8910,12543 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-DD564E1304C6
+## title
+Concerning euchromatin:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning euchromatin:
+## answer_a
+Represents coiled parts of chromatin
+## explanation_a
+Coiled chromatin is heterochromatin. Euchromatin is the extended, uncoiled form — the whole distinction is in the coiling.
+## answer_b
+Appears as condensed masses in nucleus
+## explanation_b
+Condensed masses are heterochromatin: peripheral chromatin, chromatin islands and the ring around the nucleolus. Euchromatin is too dispersed to appear as a mass.
+## answer_c
+Contains inactive genes that direct protein synthesis
+## explanation_c
+Half right and therefore dangerous. Euchromatin does direct protein synthesis, but by carrying *active* genes; inactive genes direct nothing, and the word "inactive" is what makes this option false.
+## answer_d
+Makes the nucleus vesicular
+## explanation_d
+Correct. Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Histology-general
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect euchromatin to the pale vesicular nucleus it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q50; Cytology | Module 101 questions.pdf.pdf p29 q51. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-87771E7F98DA
+## title
+Only ONE statement is correct about small lymphocytes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Only ONE statement is correct about small lymphocytes:
+## answer_a
+Abundant cytoplasm
+## explanation_a
+The small lymphocyte has a thin rim of cytoplasm, barely more than a blue line around the nucleus. Abundant cytoplasm belongs to the monocyte.
+## answer_b
+Indented nucleus with nucleolus
+## explanation_b
+An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the book's own example of a heterochromatic nucleus.
+## answer_c
+Well-developed organelles
+## explanation_c
+Organelles are scanty in the small lymphocyte, which follows from the same fact: a cell whose chromatin is coiled and silent is not synthesising much and does not need the machinery.
+## answer_d
+The majority of circulating lymphocytes
+## explanation_d
+Correct. Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the small lymphocyte as the department book's type example of an inactive, heterochromatic cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q64; Dpt Book MCQ histo 101 .NEW (1).pdf p24 q21. Manifest src_2944234d11e92ac4bbc8, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B7B592CAA0F0
+## title
+Pars fibrosa of the nucleolus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pars fibrosa of the nucleolus:
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Correct. Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa, granules. The names carry the difference: a fibre is being made, a granule is finished.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+The DNA encoding rRNA is pars amorpha, the nucleolar organiser. It is the template, one step earlier than the fibres.
+## answer_d
+Represents light areas of nuclear sap
+## explanation_d
+Light areas are nucleolar sap and are not one of the three dark parts at all. The option also says "nuclear sap" rather than nucleolar, which is a second reason it cannot be right.
+## correct_answer
+A
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Histology-general
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B578B22B295C
+## title
+Pars granulosa of the nucleolus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pars granulosa of the nucleolus:
+## answer_a
+Represents newly formed rRNA
+## explanation_a
+Newly formed rRNA is pars fibrosa. This is the option immediately before the answer in the sequence, which is where the mark is usually lost.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Correct. Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.
+## answer_c
+Represents chromosomes encoding for rRNA
+## explanation_c
+The chromosomes encoding rRNA are pars amorpha, the nucleolar organiser.
+## answer_d
+Represents light areas of nucleolar sap
+## explanation_d
+Light areas of nucleolar sap are not part of the dark areas and represent no stage of rRNA at all.
+## correct_answer
+B
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Histology-general
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place pars granulosa at the finished-product stage of the nucleolar sequence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q53; Cytology | Module 101 questions.pdf.pdf p30 q54. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6AED8FC4FD28
+## title
+Regarding Turner syndrome
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Turner syndrome
+## answer_a
+Occurs only in males
+## explanation_a
+Turner syndrome occurs in females. It is Klinefelter syndrome that occurs only in males, and this book asks the two questions with the same four options.
+## answer_b
+Somatic cells contains 47 chromosomes
+## explanation_b
+47 chromosomes means one too many, which is Down syndrome or Klinefelter. Turner is one short, at 45.
+## answer_c
+Has XO sex chromosomes
+## explanation_c
+Correct. A single X and no second sex chromosome — XO — which is why the count is 45.
+## answer_d
+Has normal genital system
+## explanation_d
+The genital system is underdeveloped in Turner syndrome; a normal genital system would leave nothing to diagnose.
+## correct_answer
+C
+## main_concept
+CON-FND-5097CA5BAB2E51
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Embryology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the sex chromosome constitution of Turner syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p14 q87; Anatomy MCQ Book [2025] [first priority].pdf p100 q87. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C73B37CA5B93
+## title
+About neutrophil , all true except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About neutrophil , all true except:
+## answer_a
+Has segmented nucleus 3-5 segments
+## explanation_a
+True, so not the exception. The neutrophil nucleus is segmented into lobes joined by thin chromatin threads — the reason the cell is also called polymorphonuclear.
+## answer_b
+Diferential count 60-70%
+## explanation_b
+True, so not the exception. 60–70% of the differential count makes it the commonest white cell.
+## answer_c
+The largest leucocyte
+## explanation_c
+The exception, and the answer. Commonest is not largest: the monocyte is the largest leucocyte, and this option is chosen by students who conflate the two superlatives.
+## answer_d
+Phagocytic in function
+## explanation_d
+True, so not the exception. The neutrophil is the first line of non-specific defence and is actively phagocytic.
+## correct_answer
+C
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall that the neutrophil is the commonest leucocyte but not the largest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q34. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3DBBAE89E88D
+## title
+All of the following about nuclear envelope are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following about nuclear envelope are true EXCEPT:
+## answer_a
+acidophilic
+## explanation_a
+The exception, and the answer. The nucleus and its envelope are basophilic, from the phosphate groups of the nucleic acid. Acidophilia belongs to cytoplasm rich in smooth endoplasmic reticulum or in mitochondria.
+## answer_b
+interrupted at intervals by nuclear pores
+## explanation_b
+True, so not the exception. The envelope is interrupted at intervals by nuclear pores.
+## answer_c
+double walled membrane
+## explanation_c
+True, so not the exception. It is a double-walled membrane, two parallel unit membranes.
+## answer_d
+separated by a perinuclear space
+## explanation_d
+True, so not the exception. The perinuclear space separates the two, and it is continuous with the lumen of the rough endoplasmic reticulum.
+## correct_answer
+A
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that everything nuclear is basophilic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p6 q43. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D3788B5A961E
+## title
+Chromatin:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Chromatin:
+## answer_a
+Basophilic as it contains phosphate group
+## explanation_a
+Correct. The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.
+## answer_b
+Acidophilic as it contains DNA
+## explanation_b
+Acidophilia would mean binding the acid dye, eosin. DNA is the reason chromatin is basophilic, so this option gets both halves the wrong way round.
+## answer_c
+Basophilic as it contains protein
+## explanation_c
+Protein is present in chromatin, as histone and non-histone protein, but protein is not what makes it basophilic. The nucleic acid is.
+## answer_d
+Acidophilic as it contains protein
+## explanation_d
+Wrong on the staining and wrong on the reason, and in the set to catch a student who is guessing on the second half of the sentence.
+## correct_answer
+A
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Explain why chromatin stains with the basic dye.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p15 q85. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-FE1A94077FAC
+## title
+Clumps of nucleoprotein concentrated near the periphery of the nucleus are called
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Clumps of nucleoprotein concentrated near the periphery of the nucleus are called
+## answer_a
+nuclear pore complex
+## explanation_a
+The nuclear pore complex is protein — nucleoporin — not nucleoprotein clumps, and it fills the pores rather than lying against the membrane between them.
+## answer_b
+nucleolus
+## explanation_b
+The nucleolus is a single rounded mass, usually one or two per nucleus, and it sits within the nucleus rather than around its rim.
+## answer_c
+heterochromatin
+## explanation_c
+Correct. Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.
+## answer_d
+euchromatin
+## explanation_d
+Euchromatin is dispersed and pale and forms no clumps anywhere. It is chosen by students who remember that something is attached at the periphery but not which form.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the chromatin attached to the inner nuclear membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p13 q72. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Peripheral chromatin is one of the three sites of heterochromatin the department book names, so C is the only option the description fits.
+
+
+---
+
+# Item
+## id
+QM-101-607AD700FC1B
+## title
+Concerning heterochromatin, all of the followings are true except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning heterochromatin, all of the followings are true except:
+## answer_a
+The inactive form of chromatin
+## explanation_a
+True, so not the exception. Heterochromatin is the inactive form of chromatin.
+## answer_b
+Present in the form of coiled filaments
+## explanation_b
+True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the option the book keys, and taking it would mean calling heterochromatin's own definition false.
+## answer_c
+Present in the form of extended filaments
+## explanation_c
+The exception, and the answer. Extended, uncoiled filaments are euchromatin. B and C are the two halves of one contrast and only one of them can be true of this form.
+## answer_d
+By EM, it appears as electron dense granules
+## explanation_d
+True, so not the exception. Coiled chromatin scatters electrons, so it is electron dense.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise extended filaments as euchromatin, not heterochromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p26 q37. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, "present in the form of coiled filaments", which is the definition of heterochromatin and cannot be the exception. C, "present in the form of extended filaments", describes euchromatin and is the only false statement in the set. B and C are the same sentence with the coiling reversed, which is the shape a one-letter key slip takes.
+
+
+---
+
+# Item
+## id
+QM-101-638CD9F53823
+## title
+Concerning multilocular adipocytes, they have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning multilocular adipocytes, they have:
+## answer_a
+Cytochrome pigments
+## explanation_a
+Correct. The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.
+## answer_b
+Signet ring appearance
+## explanation_b
+The signet ring appearance is the unilocular cell: one huge droplet with the nucleus and a thin rim of cytoplasm squeezed to one edge, like the stone of a ring.
+## answer_c
+Single large fat droplet
+## explanation_c
+A single large droplet is again the unilocular cell. The multilocular cell holds many small ones, which is what "multilocular" means.
+## answer_d
+Flat peripheral nucleus
+## explanation_d
+A flat peripheral nucleus is what a single large droplet does to a nucleus. The multilocular cell's nucleus stays central and rounded because no one droplet is big enough to displace it.
+## correct_answer
+A
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Histology-general
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the multilocular from the unilocular fat cell by nucleus, droplets and pigment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p16 q9. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B, C and D are all features of the unilocular cell; the cytochrome pigment of the many mitochondria is what makes brown fat brown, and it is the only option that belongs to the multilocular cell. The paired question `concerning-unilocular-adipocytes-they-have-all-of-the-follow-88d2b6b6` keys the same option A as the exception for the unilocular cell, which confirms the reading.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-912C73C9C792
+## title
+Concerning reticular cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning reticular cells:
+## answer_a
+They are rounded cells with no processes
+## explanation_a
+Reticular cells are stellate and branched — their processes are what form the reticular network the fibres run along. A rounded cell with no processes could not build a mesh.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the macrophage of connective tissue, a different cell. Both live in reticular tissue, which is what makes the option tempting.
+## answer_c
+They have pale basophilic cytoplasm
+## explanation_c
+Correct. The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.
+## answer_d
+They have dark heterochromatic nucleus
+## explanation_d
+A dark heterochromatic nucleus would mean an inactive cell. It is the opposite of what a reticular cell shows, and this option is the direct contradiction of C — one of the two has to go.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Read a pale nucleus and basophilic cytoplasm as an active cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p2 q11. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The reticular cell is a branched, stellate cell with a pale euchromatic nucleus and pale basophilic cytoplasm, and it is not a histiocyte. Only C stands.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-5C8CF645565C
+## title
+Concerning the nuclear pores:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the nuclear pores:
+## answer_a
+Triangular openings at intervals
+## explanation_a
+The openings are circular. "Triangular" is invented, and it is the option a student takes who remembers only that the pore has a defined geometry.
+## answer_b
+Inner & outer nuclear membranes do not fuse at the pore
+## explanation_b
+The inner and outer membranes do become continuous with one another at the pore; that fusion is what makes a hole rather than two separate holes.
+## answer_c
+Concerned with import of RNA to nucleus
+## explanation_c
+The direction is wrong. RNA and ribosomal subunits are exported out of the nucleus; what is imported is protein made in the cytoplasm.
+## answer_d
+Its proteins form octagonal ring
+## explanation_d
+Correct. About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.
+## correct_answer
+D
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Histology-general
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Describe the nuclear pore and the direction each cargo travels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q48. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is as the department book has it.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-90B0FACB2DA7
+## title
+Concerning unilocular adipocytes , they have all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning unilocular adipocytes , they have all of the following except:
+## answer_a
+cytochrome pigments
+## explanation_a
+The exception, and the answer. Cytochrome pigment sits in the many mitochondria of the multilocular — brown — fat cell and is what colours it. The unilocular cell has few mitochondria and no such pigment.
+## answer_b
+signet ring appearance
+## explanation_b
+True, so not the exception. The signet ring appearance is the unilocular cell's hallmark.
+## answer_c
+single large fat droplet
+## explanation_c
+True, so not the exception. One large droplet fills the cell.
+## answer_d
+flat peripheral nucleus
+## explanation_d
+True, so not the exception. That droplet flattens the nucleus and pushes it to the periphery, which is the other half of the signet ring picture.
+## correct_answer
+A
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute cytochrome pigment to brown fat and not to white.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q17. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A76E8A8C90E5
+## title
+Cri-du-chat syndrome is due to
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cri-du-chat syndrome is due to
+## answer_a
+Partial deletion of short arm of chromosome 5
+## explanation_a
+Correct. Partial deletion of the short arm of chromosome 5.
+## answer_b
+Partial deletion of long arm of chromosome 5
+## explanation_b
+The long arm of chromosome 5 is the same chromosome with the wrong arm. The option set varies chromosome and arm independently, so both have to be remembered.
+## answer_c
+Partial deletion of short arm of chromosome 15
+## explanation_c
+Chromosome 15 is the wrong chromosome, with the right arm — the mirror of B.
+## answer_d
+Partial deletion of long arm of chromosome 15
+## explanation_d
+Wrong on both counts, and in the set to complete the two-by-two.
+## correct_answer
+A
+## main_concept
+CON-FND-5097CA5BAB2E51
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Embryology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the chromosome and the arm deleted in cri-du-chat syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p14 q86. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-26EE2E79C638
+## title
+dark area of nucleolus is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+dark area of nucleolus is formed of:
+## answer_a
+pars amorpha
+## explanation_a
+True, but not the whole answer. Pars amorpha is one of the three dark parts.
+## answer_b
+pars fibrosa
+## explanation_b
+True, but not the whole answer. Pars fibrosa is the second.
+## answer_c
+pars granulosa
+## explanation_c
+True, but not the whole answer. Pars granulosa is the third.
+## answer_d
+all the above
+## explanation_d
+Correct. All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.
+## correct_answer
+D
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three dark parts of the nucleolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q11. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D7F25EECE27
+## title
+Down syndrome occurs due to: (DEP BOOK)
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Down syndrome occurs due to: (DEP BOOK)
+## answer_a
+Extra chromosome 13
+## explanation_a
+An extra chromosome 13 is Patau syndrome, not Down. It is the right kind of fault — a trisomy — on the wrong chromosome.
+## answer_b
+Partial deletion of long arm of chromosome 15
+## explanation_b
+A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the option the book keys, and it names a fault the syllabus does not teach at all.
+## answer_c
+Partial deletion of short arm of chromosome 5
+## explanation_c
+Partial deletion of the short arm of chromosome 5 is cri-du-chat syndrome. The books ask that question separately with the same options, so mixing the two up costs both marks.
+## answer_d
+Extra chromosome 21
+## explanation_d
+Correct. Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.
+## correct_answer
+D
+## main_concept
+CON-FND-5097CA5BAB2E51
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Nucleus
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Give the chromosomal fault behind Down syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p133 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, a deletion on chromosome 15, which is not any recognised cause of Down syndrome and does not correspond to any of the four syndromes these books teach. Down syndrome is trisomy 21 — option D — and the key is a straightforward misprint.
+
+
+---
+
+# Item
+## id
+QM-101-2C98C26E58F9
+## title
+Euchromatin has all the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Euchromatin has all the following except:
+## answer_a
+extended, uncoiled
+## explanation_a
+True, so not the exception. Extended and uncoiled is what euchromatin is.
+## answer_b
+active gene
+## explanation_b
+True, so not the exception. Its genes are the active ones.
+## answer_c
+coarse clumps, dark basophilic
+## explanation_c
+The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of the department book's comparative table, and this is the row that has been taken from the wrong column.
+## answer_d
+electron lucent, clear nucleolus
+## explanation_d
+True, so not the exception. Electron lucent by EM, with a clear nucleolus — both follow from the chromatin being dispersed.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute coarse dark clumps to heterochromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q16. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4850431BA7EC
+## title
+Euchromatin is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Euchromatin is:
+## answer_a
+Highly coiled chromatin
+## explanation_a
+Highly coiled is heterochromatin. Euchromatin is the extended form.
+## answer_b
+Formed of RNA and protein
+## explanation_b
+Chromatin is DNA with histone and non-histone protein, not RNA with protein. RNA and protein together describe the ribosome.
+## answer_c
+Directing protein synthesis
+## explanation_c
+Correct. Euchromatin carries the active genes, and it is through them that the nucleus directs and controls protein synthesis.
+## answer_d
+Associated with nucleolus
+## explanation_d
+Chromatin condensed around the nucleolus is nucleolus-associated *hetero*chromatin — one of the three sites the book lists. This is the option the book keys, and it names the wrong form of chromatin.
+## answer_e
+Attached to inner nuclear membrane
+## explanation_e
+Chromatin attached to the inner nuclear membrane is peripheral chromatin, also heterochromatin. D and E are two of the three heterochromatin sites offered side by side, which is what makes this the hardest row in the leaf.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about euchromatin from four heterochromatin descriptions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q5. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys D, but nucleolus-associated chromatin is one of the three sites of heterochromatin the department book names, so D is false. Only C — directing protein synthesis — is true of euchromatin, which is the form carrying the active genes. This is the rare five-option row in the bank, and the extra option appears to have shifted the key by one letter.
+
+
+---
+
+# Item
+## id
+QM-101-2F396CEA6881
+## title
+Fibrillar components of the nuclear membrane includes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fibrillar components of the nuclear membrane includes:
+## answer_a
+Euchromatin + Lamins
+## explanation_a
+Euchromatin is the dispersed form and is not attached to the nuclear envelope. What is attached there is the coiled, peripheral kind.
+## answer_b
+Lamins
+## explanation_b
+Lamins alone are incomplete. They are the protein the nuclear lamina is built from, and the chromatin attached to the same surface is left out.
+## answer_c
+Heterochromatin + Nuclear lamina
+## explanation_c
+Correct. The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.
+## answer_d
+Lamins + nuclear lamina
+## explanation_d
+Lamins and nuclear lamina are the same material named twice, since the lamina is made mainly of lamins. An option that repeats itself cannot add the second component the question is asking for.
+## correct_answer
+C
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name what lies against the fibrillar inner nuclear membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q81. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book describes the inner nuclear membrane as fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the reading the book supports, and the row is flagged here because no key was printed and the wording of the options is loose.
+
+
+---
+
+# Item
+## id
+QM-101-A65EE2597706
+## title
+Following statements concerning nuclear envelope are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Following statements concerning nuclear envelope are true EXCEPT:
+## answer_a
+Formed of two membranes
+## explanation_a
+True, so not the exception. Two parallel unit membranes.
+## answer_b
+Perforated at various interval by nuclear pores
+## explanation_b
+True, so not the exception. Perforated at intervals by nuclear pores.
+## answer_c
+Not resolved by EM
+## explanation_c
+The exception, and the answer. The envelope is not resolved by *light* microscopy; the electron microscope is where its two membranes, its perinuclear space and its pores are seen at all. A student reading quickly swaps the two instruments.
+## answer_d
+Has perinuclear cisterna (space)
+## explanation_d
+True, so not the exception. The perinuclear cisterna is the space between the two membranes.
+## correct_answer
+C
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that the nuclear envelope is an electron-microscopic structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q72. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and D are all stated by the department book. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.
+
+
+---
+
+# Item
+## id
+QM-101-E05DBF1187D2
+## title
+Goblet cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Goblet cell:
+## answer_a
+Contains few RER
+## explanation_a
+A cell exporting a large glycoprotein needs abundant rough endoplasmic reticulum, not a little. Few rER would make secretion impossible.
+## answer_b
+Synthesize mucus
+## explanation_b
+Correct. The goblet cell is a unicellular gland that synthesises and secretes mucus.
+## answer_c
+Has central nucleus
+## explanation_c
+The nucleus is basal, not central: the mucous droplets fill the apex and push it down, which is what gives the cell its goblet shape.
+## answer_d
+Has deep acidophilic cytoplasm
+## explanation_d
+The cytoplasm is basophilic from its rER, and its mucous cap is pale. Deep acidophilia would say the cell was making something else entirely.
+## correct_answer
+B
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Epithelium
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall the goblet cell's product and the nuclear position that follows from it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q62. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-22059FEC37C6
+## title
+Heterochromatin has all the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Heterochromatin has all the following except:
+## answer_a
+coiled, inactive
+## explanation_a
+True, so not the exception. Coiled and inactive is the definition.
+## answer_b
+inactive gene, electron dense
+## explanation_b
+True, so not the exception. Inactive genes, and electron dense because the coiling is what scatters electrons.
+## answer_c
+in small lymphocyte
+## explanation_c
+True, so not the exception. The small lymphocyte is the department book's own example of a heterochromatic cell.
+## answer_d
+active in protein forming cell
+## explanation_d
+The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the book's comparative table taken from the wrong column.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that a protein-forming cell is euchromatic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7FC14D0B78A8
+## title
+Heterochromatine is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Heterochromatine is:
+## answer_a
+highly coiled
+## explanation_a
+True, but not the whole answer. Highly coiled is the structural half.
+## answer_b
+electron dense
+## explanation_b
+True, but not the whole answer. Electron dense is what that coiling looks like under the beam.
+## answer_c
+directing protein synthesis
+## explanation_c
+Directing protein synthesis is euchromatin's work. Heterochromatin's genes are inactive, which is the point of it being coiled away.
+## answer_d
+a & b are correct
+## explanation_d
+Correct. A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both defining features of heterochromatin together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q39. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5E6BBA3871D8
+## title
+intermediate layer of transitional is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+intermediate layer of transitional is:
+## answer_a
+polyhedral, central, rounded nucleus
+## explanation_a
+Correct. The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.
+## answer_b
+in full bladder: increase thickness
+## explanation_b
+A full bladder stretches the epithelium and makes it thinner, not thicker. The relationship runs the other way, and it is the fact this epithelium is named for.
+## answer_c
+cuboidal cell, central, rounded nucleus
+## explanation_c
+Cuboidal cells with a central rounded nucleus are the basal layer. The nucleus is described identically, which is what makes this the closest distractor — the cell shape is the only thing separating the two options.
+## answer_d
+flat cell, flat nucleus
+## explanation_d
+Flat cells with flat nuclei are the superficial layer of a stretched bladder, or a simple squamous epithelium elsewhere.
+## correct_answer
+A
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Epithelium
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Describe the cells of the intermediate layer of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q23. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C8EB3C380478
+## title
+largest component of the cell, not present in RBCs:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+largest component of the cell, not present in RBCs:
+## answer_a
+Nucleolus
+## explanation_a
+The nucleolus is inside the nucleus, so it is smaller by definition — and a red cell has lost it only because it lost the nucleus around it.
+## answer_b
+nucleus
+## explanation_b
+Correct. The nucleus is the largest component of the cell, and the department book states that the red blood corpuscle and the platelet, having none, are not true cells.
+## answer_c
+cytoplasm
+## explanation_c
+A red cell is almost entirely cytoplasm — that is where its haemoglobin is. It cannot be what the cell is missing.
+## answer_d
+chromatin
+## explanation_d
+Chromatin is the material inside the nucleus. It is lost with the nucleus, but the question asks for the largest component, and chromatin is a part of it rather than the whole.
+## correct_answer
+B
+## main_concept
+CON-FND-BC0AAA59F11F66
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the largest cell component and the one the red cell lacks.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-06C50F3478DA
+## title
+light area of nucleolus formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+light area of nucleolus formed of:
+## answer_a
+RNA
+## explanation_a
+RNA is in the dark areas — newly made in pars fibrosa and mature in pars granulosa. RNA is what makes them dark.
+## answer_b
+DNA
+## explanation_b
+DNA is in the dark areas too, in the pars amorpha that encodes the rRNA.
+## answer_c
+sap
+## explanation_c
+Correct. The light areas are nucleolar sap, the fluid between the dark parts.
+## answer_d
+none of above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what the light areas of the nucleolus contain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q15. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AE9CFFE8EA26
+## title
+More euchromatin is prominent in :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+More euchromatin is prominent in :
+## answer_a
+neutrophils
+## explanation_a
+The neutrophil nucleus is the darkest and most condensed of the three, which is why the paired question keys the neutrophil for heterochromatin.
+## answer_b
+eosinphils
+## explanation_b
+True, but not the whole answer. The eosinophil's bilobed nucleus is paler than the neutrophil's.
+## answer_c
+basophils
+## explanation_c
+True, but not the whole answer. The basophil's nucleus is pale as well, and its granules obscure it further.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct as the books have it: the eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Rank the granulocytes by how condensed their nuclei are, as the books ask it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q13. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6571037829D9
+## title
+More heterochromatin is prominent in :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+More heterochromatin is prominent in :
+## answer_a
+neutrophils
+## explanation_a
+Correct. The neutrophil's segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.
+## answer_b
+eosinphils
+## explanation_b
+The eosinophil is the paler of the pair the companion question keys for euchromatin.
+## answer_c
+basophils
+## explanation_c
+The basophil likewise. It is dark on a film, but that is the granules, not the nucleus — and the granules are what make the S-shaped nucleus hard to see at all.
+## answer_d
+both b & c are correct
+## explanation_d
+Both b and c is the answer to the companion question, `more-euchromatin-is-prominent-in`, not to this one. The two rows share an option set and have opposite answers, which is the whole trap.
+## correct_answer
+A
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Rank the granulocytes by how condensed their nuclei are, as the books ask it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q72. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-390F6184B34A
+## title
+nuclear pore complex:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nuclear pore complex:
+## answer_a
+circular opening in interval
+## explanation_a
+True, but not the whole answer. Circular openings at intervals along the envelope.
+## answer_b
+formed of 30 nucleoporin protein
+## explanation_b
+True, but not the whole answer. About thirty nucleoporin proteins build it.
+## answer_c
+octagonal annulus
+## explanation_c
+True, but not the whole answer. Those proteins are arranged as an octagonal annulus.
+## answer_d
+all the above
+## explanation_d
+Correct. Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.
+## correct_answer
+D
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the nuclear pore complex completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q7. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-33A9A1A29A7E
+## title
+Nuclear pore complex refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclear pore complex refers to:
+## answer_a
+The nuclear pores
+## explanation_a
+The nuclear pores are the openings. The complex is what sits in them — the two words are used loosely in conversation and precisely in this question.
+## answer_b
+Non membranous cylindrical structure fits the pores
+## explanation_b
+Correct. A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.
+## answer_c
+Rim of the nuclear pores
+## explanation_c
+The rim of the pore is where the inner and outer membranes fuse. It is membrane, and the complex is protein.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the pore from the complex that fills it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q74. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The complex is the nucleoporin assembly occupying the pore, not the pore itself and not its rim, so B is the only option that names it.
+
+
+---
+
+# Item
+## id
+QM-101-E613569799D4
+## title
+Nuclear pores:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclear pores:
+## answer_a
+The sites of nuclear envelope perforation
+## explanation_a
+True, but not the whole answer. The pores are where the envelope is perforated.
+## answer_b
+Sites at which the inner and the outer membranes are continuous
+## explanation_b
+True, but not the whole answer. Inner and outer membranes fuse and become continuous at the rim of each pore.
+## answer_c
+Regulate the exchange of substances between nucleus and cytoplasm
+## explanation_c
+True, but not the whole answer. Protein enters and RNA and ribosomal subunits leave through them, under control.
+## answer_d
+All of the above
+## explanation_d
+Correct. Site, structure and function together — a student stopping at the first true option has answered a third of it.
+## correct_answer
+D
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give what a nuclear pore is and what it does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q73. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.
+
+
+---
+
+# Item
+## id
+QM-101-C121F65B49E6
+## title
+Nucleolus associated heterochromatin:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nucleolus associated heterochromatin:
+## answer_a
+Is a membrane surrounds the nucleolus
+## explanation_a
+The nucleolus has no membrane of its own; the book is explicit that it is not limited by one. Chromatin around it is not a membrane and does not act as one.
+## answer_b
+Is a heterochromatin attached to the nucleolus
+## explanation_b
+Correct. It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.
+## answer_c
+Nucleolar organizer regions
+## explanation_c
+The nucleolar organiser is the pars amorpha *inside* the nucleolus — the DNA encoding rRNA. It is chromosomal too, which is what makes this the closest distractor, but it is in the nucleolus rather than around it.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Define nucleolus-associated chromatin as one of the three sites of heterochromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q76. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Nucleolus-associated chromatin is the third of the three heterochromatin sites the department book names — heterochromatin condensed around the nucleolus — which is option B.
+
+
+---
+
+# Item
+## id
+QM-101-F4498B499139
+## title
+Nucleolus formed of three regions:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nucleolus formed of three regions:
+## answer_a
+Pars granulosa, pars fibrosa and nucleolar organizer regions
+## explanation_a
+Correct. Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.
+## answer_b
+Peripheral , nucleolar associated chromatin and chromatin islands
+## explanation_b
+Peripheral chromatin, nucleolus-associated chromatin and chromatin islands are the three sites of *heterochromatin*, not the three regions of the nucleolus. Two lists of three, and this is the other one.
+## answer_c
+rRNA , ribosomal proteins andDNA
+## explanation_c
+rRNA, ribosomal protein and DNA are the materials the nucleolus works with, not its named regions.
+## answer_d
+Heterochromatin, euchromatin and nucleolar matrix
+## explanation_d
+Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not a term the book uses.
+## correct_answer
+A
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the three regions of the nucleolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q77. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the nucleolus's dark areas as pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.
+
+
+---
+
+# Item
+## id
+QM-101-82C88F95EC61
+## title
+nucleolus is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleolus is:
+## answer_a
+basophilic
+## explanation_a
+True, but not the whole answer. Deeply basophilic, from the nucleic acid it is packed with.
+## answer_b
+rich in nucleic acid
+## explanation_b
+True, but not the whole answer. Rich in nucleic acid is the reason for the basophilia.
+## answer_c
+surrounded by chromatin
+## explanation_c
+True, but not the whole answer. Nucleolus-associated chromatin condenses around it.
+## answer_d
+all the above
+## explanation_d
+Correct. All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.
+## correct_answer
+D
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the nucleolus by light microscopy completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5A36CB10AE00
+## title
+nucleolus is composed of all the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleolus is composed of all the following except:
+## answer_a
+pars granulose
+## explanation_a
+True, so not the exception. Pars granulosa is one of the three dark parts.
+## answer_b
+rRNA
+## explanation_b
+True, so not the exception. rRNA is the material of pars fibrosa and pars granulosa both.
+## answer_c
+fibrous lamina
+## explanation_c
+The exception, and the answer. The fibrous lamina — the nuclear lamina — lies against the inner nuclear membrane, at the other side of the nucleus entirely. The word "fibrous" beside "pars fibrosa" is what makes this option work as a trap.
+## answer_d
+pars fibrosa
+## explanation_d
+True, so not the exception. Pars fibrosa is the newly synthesised rRNA.
+## correct_answer
+C
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the nucleolus's own parts from the nuclear lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q9. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-97488C5A68DB
+## title
+nucleus of basophils is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleus of basophils is :
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil. The three granulocyte questions in this book share one option list, so each answer is a distractor in the other two.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil, its two lobes joined by a thick chromatin thread.
+## answer_c
+S shaped
+## explanation_c
+Correct. The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.
+## answer_d
+large kidney shaped
+## explanation_d
+Large and kidney-shaped is the monocyte, which is not a granulocyte at all.
+## correct_answer
+C
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the shape of the basophil nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q11. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49162F39DEB3
+## title
+nucleus of monocyte is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleus of monocyte is :
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil.
+## answer_c
+S shaped
+## explanation_c
+S-shaped is the basophil.
+## answer_d
+large kidney shaped
+## explanation_d
+Correct. The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.
+## correct_answer
+D
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the shape of the monocyte nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q12. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FE40F8B8F491
+## title
+nucleus of neutrophils is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleus of neutrophils is :
+## answer_a
+multilobed segmented
+## explanation_a
+Correct. Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil.
+## answer_c
+S shaped
+## explanation_c
+S-shaped is the basophil.
+## answer_d
+large kidney shaped
+## explanation_d
+Large and kidney-shaped is the monocyte.
+## correct_answer
+A
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the shape of the neutrophil nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q9. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7C218D25F5CA
+## title
+Nucleus of the nerve cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nucleus of the nerve cells:
+## answer_a
+Condensed
+## explanation_a
+A condensed nucleus means an inactive cell. The nerve cell is one of the two the department book names as active, alongside the liver cell.
+## answer_b
+Euchromatic
+## explanation_b
+Correct. The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.
+## answer_c
+No visible nucleolus
+## explanation_c
+The nucleolus is not merely visible in a nerve cell but conspicuous; it is one of the features used to recognise the cell on a slide.
+## answer_d
+Inactive
+## explanation_d
+Inactive is the opposite of what the appearance says. A and D are the same answer twice, which usually means neither is the one.
+## correct_answer
+B
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Read the nerve cell nucleus as the type example of an active nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q84. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6E52BDA77989
+## title
+one layer of columnar, crowded cell, with more than one level nucleus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+one layer of columnar, crowded cell, with more than one level nucleus:
+## answer_a
+squamous
+## explanation_a
+Squamous cells are flat with flat nuclei, in one layer at one level.
+## answer_b
+cubical
+## explanation_b
+Cubical cells are as tall as they are wide, with central rounded nuclei at a single level.
+## answer_c
+columnar
+## explanation_c
+Simple columnar epithelium is a single layer of tall cells, but its nuclei sit at one level. The word the stem adds — crowded, at more than one level — is exactly what separates the two.
+## answer_d
+pseudostratified
+## explanation_d
+Correct. Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.
+## correct_answer
+D
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Epithelium
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Use nuclear level to identify pseudostratified epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q7. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D3B879DC0382
+## title
+Pars amorpha of the nucleolus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pars amorpha of the nucleolus:
+## answer_a
+Represents newly formed strands of rRNA
+## explanation_a
+Newly formed strands of rRNA are pars fibrosa, one step downstream.
+## answer_b
+Represents granules of mature rRNA
+## explanation_b
+Granules of mature rRNA are pars granulosa, two steps downstream.
+## answer_c
+Represents parts of chromosomes encoding for rRNA
+## explanation_c
+Correct. Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap, and the option also says nuclear rather than nucleolar sap.
+## correct_answer
+C
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place pars amorpha at the gene stage of the nucleolar sequence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p29 q52. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-319A78A35922
+## title
+Pars amorpha of the nucleus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pars amorpha of the nucleus:
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Newly synthesised rRNA is pars fibrosa.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa. This is the option the book keys, and it names the last stage of the sequence for the part that is the first.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+Correct. Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap, and are not one of the three dark parts.
+## correct_answer
+C
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place pars amorpha at the gene stage of the nucleolar sequence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q17. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, mature rRNA, which is pars granulosa. Pars amorpha is the DNA encoding rRNA — option C — and the same book keys the identical question printed as `pars-amorpha-of-the-nucleolus-dce300f0` correctly as C. Two rows on this page, this one and `pars-fibrosa-of-the-nucleus-5f1e3d3e`, are both keyed B, and B cannot be right for both: a column of the answer key has shifted.
+
+
+---
+
+# Item
+## id
+QM-101-8D515A11C0B0
+## title
+Pars fibrosa of the nucleus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pars fibrosa of the nucleus:
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Correct. Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa. This is the option the book keys, and it is one step further along the sequence than the question asks.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+The DNA encoding rRNA is pars amorpha, one step earlier.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap and represent no stage of rRNA.
+## correct_answer
+A
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q18. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, mature rRNA, which is pars granulosa. Pars fibrosa is newly synthesised rRNA — option A — and the same book keys the identical question printed as `pars-fibrosa-of-the-nucleolus-fd5fcfbb` correctly as A. This row and `pars-amorpha-of-the-nucleus-b92731c1` are both keyed B on the same page, which is the signature of a shifted answer column rather than two independent judgements.
+
+
+---
+
+# Item
+## id
+QM-101-BA32D7D9DEE5
+## title
+part of chromosome carry genes encoding rRNA:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+part of chromosome carry genes encoding rRNA:
+## answer_a
+pars amorpha
+## explanation_a
+Correct. Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.
+## answer_b
+pars fibrosa
+## explanation_b
+Pars fibrosa is the RNA transcribed from those genes, not the genes themselves.
+## answer_c
+pars granulosa
+## explanation_c
+Pars granulosa is the finished rRNA, further downstream still.
+## answer_d
+all the above
+## explanation_d
+Only one of the three is chromosomal DNA, so "all the above" cannot stand. Two of the three are RNA at different stages.
+## correct_answer
+A
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the nucleolar organiser as chromosomal DNA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q12. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-89CBE089A089
+## title
+plasma cells is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+plasma cells is characterized by:
+## answer_a
+cartwheel nucleus + negative Golgi image
+## explanation_a
+True, but not the whole answer. The cartwheel nucleus is the alternating chromatin seen end-on, and the pale negative Golgi image sits beside it.
+## answer_b
+alternating euchromatin & heterochromatin in nucleus
+## explanation_b
+True, but not the whole answer. The spokes of the cartwheel *are* alternating euchromatin and heterochromatin — this option and A are the same fact described two ways.
+## answer_c
+deep basophilic cytoplasm
+## explanation_c
+True, but not the whole answer. Deep basophilia follows from the rough endoplasmic reticulum an antibody-exporting cell is packed with.
+## answer_d
+all of the above
+## explanation_d
+Correct. Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assemble the plasma cell's nuclear and cytoplasmic picture as one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q58. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B6C60DDEFBC
+## title
+Regarding Klinefelter syndrome (DEP BOOK)
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Klinefelter syndrome (DEP BOOK)
+## answer_a
+Occurs only in females.
+## explanation_a
+Klinefelter syndrome occurs in males. It is Turner syndrome that affects females, and this book asks both with the same four options.
+## answer_b
+Somatic cells contain 47 chromosomes.
+## explanation_b
+Correct. XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.
+## answer_c
+Has XO sex chromosomes.
+## explanation_c
+XO is Turner syndrome, and it gives 45. The two syndromes sit either side of the normal count, which is the distinction the paired questions are built on.
+## answer_d
+Has normal genital system.
+## explanation_d
+The genital system is abnormal in Klinefelter syndrome; a normal one would leave nothing to recognise.
+## correct_answer
+B
+## main_concept
+CON-FND-5097CA5BAB2E51
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Nucleus
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the chromosome count in Klinefelter syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p133 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B218A4FEE117
+## title
+Regarding the ovum (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ovum (DEP BOOK)
+## answer_a
+Its diameter is about 12 microns
+## explanation_a
+The mature ovum is about 120 µm across — one of the largest cells in the body, and the reason it is visible to the naked eye. Twelve microns is a tenth of that and closer to a lymphocyte.
+## answer_b
+The nucleus carries 22 autosomes and either X- or Y-chromosome
+## explanation_b
+The oocyte nucleus carries 22 autosomes and an X chromosome only. "Either X or Y" is true of the sperm, and the same option appears in the sperm question where it is the answer — which is the trap this pair of questions is built on.
+## answer_c
+It starts development at puberty. Ac ad
+## explanation_c
+Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the option the book keys, and it describes spermatogenesis, which really does start at puberty.
+## answer_d
+Corona radiate is the outer cover of the ovum
+## explanation_d
+Correct. The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.
+## correct_answer
+D
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Nucleus
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the ovum's size, chromosome content, timing and coverings.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, that the ovum starts development at puberty, but the department book states that in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as this faculty teaches it. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the department book against it.
+
+
+---
+
+# Item
+## id
+QM-101-B91DE34ED765
+## title
+Regarding the sperm, one of the following statements is correct: (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the sperm, one of the following statements is correct: (DEP BOOK)
+## answer_a
+Its length is about 6 microns.
+## explanation_a
+The whole sperm is about 55 µm long: head 4, middle piece 6 and tail 45. Six microns is the middle piece alone, which is where the figure in this option comes from.
+## answer_b
+The nucleus carries 22 autosomes and either X- or Y-chromosome.
+## explanation_b
+Correct. The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.
+## answer_c
+It starts formation at birth.
+## explanation_c
+Spermatogenesis starts at puberty and continues into old age. Formation beginning before birth is the female pattern, and the two are being swapped here.
+## answer_d
+Acrosomal cap covers most of the middle piece.
+## explanation_d
+The acrosomal cap covers most of the *nucleus*, in the head. The middle piece carries the mitochondrial sheath instead, and putting the cap there confuses the two ends of the cell.
+## correct_answer
+B
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Nucleus
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the sperm's length, nuclear content, timing and acrosome position.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the sperm as 55 µm long, its formation as beginning at puberty, and the acrosomal cap as covering most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.
+
+
+---
+
+# Item
+## id
+QM-101-E286F2DE43B0
+## title
+site of heterochromatin:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+site of heterochromatin:
+## answer_a
+attached to inner envelope
+## explanation_a
+True, but not the whole answer. Peripheral chromatin, attached to the inner nuclear membrane.
+## answer_b
+scattered in nuclear sap
+## explanation_b
+True, but not the whole answer. Chromatin islands, scattered in the nuclear sap.
+## answer_c
+around nucleolus
+## explanation_c
+True, but not the whole answer. Nucleolus-associated chromatin, condensed around the nucleolus.
+## answer_d
+all the above
+## explanation_d
+Correct. Three sites, and the department book lists them as three; each is a separate option in other questions in these books, so knowing only one of them is not enough.
+## correct_answer
+D
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three sites of heterochromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3D311463C59C
+## title
+The euchromatin
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The euchromatin
+## answer_a
+Contains inactive genes
+## explanation_a
+Inactive genes are heterochromatin's. Euchromatin is the form whose genes are being read.
+## answer_b
+Appears dark in EM
+## explanation_b
+Electron dense is heterochromatin. Euchromatin is electron lucent, because it is dispersed.
+## answer_c
+Predominates in active cells
+## explanation_c
+Correct. Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are the book's examples.
+## answer_d
+Include peripheral and islands chromatin
+## explanation_d
+Peripheral chromatin and chromatin islands are two of the three heterochromatin sites. Naming them for euchromatin puts it in the one place it never is.
+## correct_answer
+C
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about euchromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q69. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and D each state a property of heterochromatin; only C — that euchromatin predominates in active cells — is true of it.
+
+
+---
+
+# Item
+## id
+QM-101-DBDD04ED5C69
+## title
+The following is a character of multilocular adipocyte:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is a character of multilocular adipocyte:
+## answer_a
+Has membrane-bound granule filling the cytoplasm
+## explanation_a
+A membrane-bound granule filling the cytoplasm is not what a fat droplet is — lipid inclusions have no membrane, which is part of what makes them inclusions rather than organelles.
+## answer_b
+Has flattened peripheral nucleus
+## explanation_b
+A flattened peripheral nucleus is the unilocular cell, pushed aside by its single droplet. The multilocular cell keeps a central rounded nucleus.
+## answer_c
+Function is heat generation
+## explanation_c
+Correct. Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.
+## answer_d
+Most abundant in white adipose C.T
+## explanation_d
+White adipose tissue is unilocular. Multilocular cells make up brown adipose tissue, which is the smaller depot and most prominent in the newborn.
+## correct_answer
+C
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give what brown fat is for.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q35. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A361DCA900CC
+## title
+The megakaryocyte is characterized by the following
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The megakaryocyte is characterized by the following
+## answer_a
+Have single multilobed dark nucleus
+## explanation_a
+Correct. One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.
+## answer_b
+Have acidophilie cytoplasm rich in lysosomes
+## explanation_b
+Acidophilic cytoplasm rich in lysosomes describes the osteoclast. The megakaryocyte cytoplasm is where the platelet granules are being packaged.
+## answer_c
+Found on bony surface, in howship's lacunae
+## explanation_c
+Sitting on a bony surface in Howship's lacunae is the osteoclast again — another giant multinucleated cell, and the reason this option is here.
+## answer_d
+Give origin to metamyelocytes
+## explanation_d
+Metamyelocytes come from the granulocyte line. What the megakaryocyte gives origin to is platelets, shed from its cytoplasm along demarcation channels.
+## correct_answer
+A
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the megakaryocyte from its nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B6E40722DA46
+## title
+The nucleus of large lymphocytes is characterized by being …………
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The nucleus of large lymphocytes is characterized by being …………
+## answer_a
+Kidney-shaped
+## explanation_a
+Kidney-shaped is the monocyte. The two are the largest cells on a film and the option is here because they are confused on sight.
+## answer_b
+Large and indented
+## explanation_b
+Correct. Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.
+## answer_c
+With no obvious nucleolus
+## explanation_c
+No obvious nucleolus is the *small* lymphocyte, whose condensed chromatin hides it.
+## answer_d
+Heterochromatic
+## explanation_d
+Heterochromatic is again the small lymphocyte. The large one is paler because it is the active form.
+## correct_answer
+B
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Blood
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the large lymphocyte nucleus from the small one and from the monocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p2 q12. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-0CFA309E009C
+## title
+The nucleus of protein forming cell shows all the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The nucleus of protein forming cell shows all the following except:
+## answer_a
+More euchromatin by EM
+## explanation_a
+True, so not the exception. More euchromatin by EM is exactly what an active nucleus shows.
+## answer_b
+More heterochromatin by EM
+## explanation_b
+The exception, and the answer. More heterochromatin means genes coiled away and unread, which is the nucleus of a resting cell.
+## answer_c
+Clear nucleolus
+## explanation_c
+True, so not the exception. A clear nucleolus goes with it, because a cell making protein is making ribosomes.
+## answer_d
+Pale by LM
+## explanation_d
+True, so not the exception. Pale by light microscopy is what dispersed chromatin looks like — the vesicular nucleus.
+## correct_answer
+B
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assemble the nuclear picture of an active cell and name the one feature that does not belong.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p9 q51. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-CB3BD40E3F19
+## title
+The outer layer of the nuclear envelope:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The outer layer of the nuclear envelope:
+## answer_a
+Is smooth
+## explanation_a
+Smooth is what the inner membrane would be called if the terms were reversed. The outer one carries ribosomes and so is granular — it is continuous with the rough endoplasmic reticulum, and that continuity is the reason.
+## answer_b
+Is granular
+## explanation_b
+Correct. The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.
+## answer_c
+Shows cristae
+## explanation_c
+Cristae are folds of the inner mitochondrial membrane. Nothing in the nuclear envelope is folded that way.
+## answer_d
+Is fibrillar
+## explanation_d
+Fibrillar is the *inner* membrane, with the nuclear lamina against it and peripheral chromatin attached. Granular outside, fibrillar inside, and this question and its options exist to test which is which.
+## correct_answer
+B
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Cytology
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the outer nuclear membrane from the inner one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p29 q48. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C5D30914EB73
+## title
+Unilocular fat cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Unilocular fat cells:
+## answer_a
+have eccentric flat nucleus
+## explanation_a
+True, but not the whole answer. The nucleus is flattened and pushed eccentrically to the edge.
+## answer_b
+have single large fat droplet
+## explanation_b
+True, but not the whole answer. A single large droplet is what does the pushing.
+## answer_c
+have thin rim of cytoplasm
+## explanation_c
+True, but not the whole answer. What is left of the cytoplasm is a thin rim around that droplet.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.
+## correct_answer
+D
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assemble the signet ring appearance from its three parts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q100. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B3A5B4585F32
+## title
+In absorbing columnar cell, the brush border seen by L/M is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In absorbing columnar cell, the brush border seen by L/M is:
+## answer_a
+Cilia
+## explanation_a
+Cilia are visible by light microscopy too, but as a distinct fringe of beating processes on a ciliated epithelium — not as the fine even border of an absorptive cell.
+## answer_b
+Flagella
+## explanation_b
+A flagellum in the human body is the sperm tail, one per cell. It does not form a border of any kind.
+## answer_c
+Microvilli
+## explanation_c
+Correct. Microvilli are too small to resolve individually, so the light microscope sees the whole carpet as a single brush or striated border on the apex of the absorptive cell.
+## answer_d
+Stereocilia
+## explanation_d
+Stereocilia are long microvilli, but they are found in the epididymis and not on the absorptive columnar cell of the intestine.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure whose carpet is seen as a brush border by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p11 q13; Epithelium | Module 101 questions.pdf.pdf p11 q13. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1DD34E7A2BDE
+## title
+One of the following is a character of the shaft of cilia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a character of the shaft of cilia:
+## answer_a
+Increase the surface area for absorption
+## explanation_a
+Increasing surface area for absorption is what a microvillus does. This is the pitfall the whole question is built on — three of the four options describe a microvillus.
+## answer_b
+Form the brush border in cells lining the renal tubules
+## explanation_b
+The brush border of the renal tubule is microvilli. Cilia do not form a border.
+## answer_c
+Form the brush border in cells lining the intestine
+## explanation_c
+The brush border of the intestine is microvilli as well, for the same reason.
+## answer_d
+Contain doublets of microtubules
+## explanation_d
+Correct. The shaft — the axoneme — is nine peripheral doublets of microtubules around two central singlets. Doublets are the giveaway: the basal body has triplets and a microvillus has no microtubules at all.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute the microtubule doublets to the ciliary shaft and the brush border to microvilli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q41; Epithelium | Module 101 questions.pdf.pdf p16 q50. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BD51E60DC613
+## title
+Stereocilia are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stereocilia are:
+## answer_a
+Short microvilli
+## explanation_a
+Right kind of structure, wrong length. Ordinary microvilli are the short ones; the "stereo-" prefix here is about length.
+## answer_b
+Long microvilli
+## explanation_b
+Correct. A stereocilium is a long, non-motile microvillus with an actin core, and the book is explicit that it is not a true cilium.
+## answer_c
+Motile cilia
+## explanation_c
+The trap the name is built for. Stereocilia do not move at all — they have no axoneme to move with.
+## answer_d
+Short cilia
+## explanation_d
+Not a cilium of any length. There is no basal body, no rootlet and no microtubule in a stereocilium.
+## correct_answer
+B
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define a stereocilium as a long microvillus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q9; Epithelium | Module 101 questions.pdf.pdf p16 q49. Manifest src_25ac512fb1cb23a6f696, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A6FD51B87A61
+## title
+which of the following is involved in cell to cell communication??
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which of the following is involved in cell to cell communication??
+## answer_a
+gap junction
+## explanation_a
+Correct. The gap junction is the communicating junction: its channels carry ions and small molecules from the interior of one cell to the interior of the next, and impulses between muscle cells.
+## answer_b
+desmosomes
+## explanation_b
+A desmosome holds cells together and passes nothing. It is chosen because it is the junction students know best.
+## answer_c
+demilunes
+## explanation_c
+Demilunes are the crescents of serous cells capping a mucous acinus in a salivary gland — a gland structure, not a junction at all.
+## answer_d
+basal lamina
+## explanation_d
+The basal lamina lies underneath the epithelium, between it and the connective tissue. It is not between two epithelial cells.
+## correct_answer
+A
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junction through which material actually passes between cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q107; Epithelium | Module 101 questions.pdf.pdf p9 q25. Manifest src_1fb914ce96908301b7b1, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0DBF6C410FD7
+## title
+A male patient complains of repeated upper respiratory tract infections and not respond…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A male patient complains of repeated upper respiratory tract infections and not responding well to usual medications, the case to be due to:
+## answer_a
+repeated viral infections
+## explanation_a
+This names the infections again rather than saying why they keep coming back. Repeated viral infection is what has to be explained, not the explanation.
+## answer_b
+repeated bacterial infections
+## explanation_b
+Same objection, and it also conflicts with the stem: the usual medications are not working, which is exactly what ordinary bacterial infection would respond to.
+## answer_c
+immotile cilia
+## explanation_c
+Correct. Cilia that cannot beat cannot move mucus up the airway, secretions accumulate, and bacteria grow on top of them — so the infections recur however they are treated.
+## answer_d
+defective stereocilia
+## explanation_d
+Stereocilia are long non-motile microvilli in the epididymis. They never moved anything, so a defect in them cannot impair clearance, and they are nowhere near the respiratory tract.
+## correct_answer
+C
+## main_concept
+CON-FND-BBC8959FD63F56
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Read treatment-resistant repeated infection as a failure of clearance rather than of the drug.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p7 q8. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The stem's discriminating detail is that the infections repeat and do not respond to the usual medication, which points at the mucociliary clearance mechanism; the book states directly that immotile cilia let secretions accumulate and bacterial infection follow. Options A and B restate the presentation rather than explain it, and stereocilia are in the epididymis and clear nothing.
+
+
+---
+
+# Item
+## id
+QM-101-31440153B40B
+## title
+A male patient complains of repeated upper respiratory tract infections and not respond…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A male patient complains of repeated upper respiratory tract infections and not responding well to the usual medications, physician diagnosed the case to be due to:
+## answer_a
+repeated viral infections
+## explanation_a
+Restates the problem instead of explaining it, and does not account for the failure of treatment.
+## answer_b
+repeated bacterial. infections
+## explanation_b
+Bacterial infection is what happens on top of retained secretions; the question asks what let the secretions be retained.
+## answer_c
+immotile cilia syndrome
+## explanation_c
+Correct. Immotile cilia syndrome stops the mucociliary escalator, secretions accumulate and infection follows — and because the sperm flagellum shares the axoneme, the same patient may also be infertile.
+## answer_d
+defective stereocilia
+## explanation_d
+Stereocilia are non-motile microvilli of the epididymis. A defect in them would show as a problem of male fertility, not of the airway, and it is worth noticing that the airway and the fertility clue point at the same axoneme by two different routes.
+## correct_answer
+C
+## main_concept
+CON-FND-BBC8959FD63F56
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the ciliary defect behind repeated treatment-resistant respiratory infection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p7 q40. Manifest src_4a8ddb5edfab86d624d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The same question as `a-male-patient-complains-of-repeated-upper-respiratory-tract-1bada6ea` with the syndrome named in the option, and the same reasoning applies: only immotile cilia explain why the infections recur despite treatment.
+
+
+---
+
+# Item
+## id
+QM-101-0C895D5EDF50
+## title
+absorptive membranes are lined with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+absorptive membranes are lined with:
+## answer_a
+ciliated cells
+## explanation_a
+Cilia move material along a surface; they do not take it up. A ciliated epithelium is a transporting one, not an absorbing one.
+## answer_b
+columnar cell with microvilli
+## explanation_b
+Correct. Absorption needs surface area, and a tall cell carrying a carpet of microvilli is how the epithelium gets it.
+## answer_c
+simple squamous epithelium
+## explanation_c
+Simple squamous epithelium is thin for diffusion and filtration, and its whole point is that it presents as little material as possible, not as much surface as possible.
+## answer_d
+none of the above
+## explanation_d
+A hedge, and unnecessary — option B is exactly right.
+## correct_answer
+B
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match absorption to the microvillous columnar cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q17. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A3F7A1CAF25F
+## title
+Basal lamina by EM is formed of two layers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Basal lamina by EM is formed of two layers:
+## answer_a
+Basement membrane and lamina lucida
+## explanation_a
+The basement membrane is the whole structure, of which the basal lamina is one part; a part cannot contain the whole. This option is the answer to the neighbouring question read backwards.
+## answer_b
+Lamina lucida and lamina densa
+## explanation_b
+Correct. Within the basal lamina, electron microscopy shows an electron-lucent lamina lucida against the epithelial cell and an electron-dense lamina densa beneath it.
+## answer_c
+Lamina lucida and lamina reticularis
+## explanation_c
+The lamina reticularis is the connective-tissue half of the basement membrane, not part of the epithelium's basal lamina. Pairing it with the lamina lucida mixes the two levels of the question.
+## answer_d
+Lamina densa and basal lamina
+## explanation_d
+Same error the other way round: the lamina densa is inside the basal lamina, so the two cannot be listed as siblings.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the two layers of the basal lamina from the two layers of the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q91. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AE7F3ECAB550
+## title
+Basement membrane by EM is formed of two layers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Basement membrane by EM is formed of two layers:
+## answer_a
+Basal lamina and lamina lucida
+## explanation_a
+The lamina lucida is a subdivision of the basal lamina, so this pairs a structure with one of its own parts.
+## answer_b
+Basal lamina and lamina densa
+## explanation_b
+Same fault: the lamina densa also lies within the basal lamina.
+## answer_c
+Basal lamina and lamina reticularis
+## explanation_c
+Correct. The basement membrane is the epithelium's basal lamina — type IV collagen — plus the connective tissue's lamina reticularis of type III collagen, which is the reticular fibres.
+## answer_d
+None of the above
+## explanation_d
+A hedge, chosen when the two-level structure has become confusing. Option C is the book's own answer.
+## correct_answer
+C
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the two layers of the basement membrane and the tissue that makes each.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q123. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2EC64154E554
+## title
+cell junction that restrict passage of substances in between cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cell junction that restrict passage of substances in between cells is:
+## answer_a
+gap junction
+## explanation_a
+The gap junction does the opposite — it opens a route, though between the interiors of the cells rather than between them.
+## answer_b
+zonula occludens
+## explanation_b
+Correct. The zonula occludens fuses the two membranes at points and encircles the apex, so nothing passes down the intercellular space.
+## answer_c
+zonula adherens
+## explanation_c
+The zonula adherens leaves a wide intercellular space and holds the cells together across it. It adheres; it does not seal.
+## answer_d
+None of the above
+## explanation_d
+A hedge with no reason to be chosen — the zonula occludens answers the stem exactly.
+## correct_answer
+B
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junction that closes the route between adjacent cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q79. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A467E0EEF7AC
+## title
+Cell membrane modifications mean:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane modifications mean:
+## answer_a
+Cell membrane modify to form microvilli
+## explanation_a
+True, but not the whole answer. A microvillus is a finger of plasma membrane over an actin core.
+## answer_b
+Cell membrane modify to form cilia
+## explanation_b
+True, but not the whole answer. A cilium is a process of plasma membrane over a microtubular axoneme.
+## answer_c
+Cell membrane modify to form flagella
+## explanation_c
+True, but not the whole answer. A flagellum is the same arrangement as a cilium, far longer.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three are the plasma membrane pushed outwards over a different cytoskeletal core, which is exactly what "membranous specialisation" names.
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Recognise that the apical specialisations are all modifications of the same membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q15. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The source key gives B, which cannot be right: A, B and C are each individually true — microvilli, cilia and flagella are all modifications of the cell membrane — so an option reading "all of the above" must be the answer. Selecting cilia alone would make two printed options false that are not.
+
+
+---
+
+# Item
+## id
+QM-101-53884F0F3877
+## title
+centrioles share in the the formation of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+centrioles share in the the formation of the following EXCEPT:
+## answer_a
+Mitotic spindles
+## explanation_a
+True, so not the exception. The centrioles organise the mitotic spindle, which is microtubular.
+## answer_b
+Microvilli
+## explanation_b
+The exception, and the answer. The microvillus has an actin core inserted into a terminal web, with no microtubules and no basal body, so nothing about it comes from a centriole.
+## answer_c
+Cilia
+## explanation_c
+True, so not the exception. A centriole duplicates, migrates apically and becomes the basal body of a cilium.
+## answer_d
+Flagella
+## explanation_d
+True, so not the exception. The flagellum has the same axoneme and the same basal-body origin as a cilium.
+## correct_answer
+B
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall that the centriole makes microtubular structures, and that the microvillus is not one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q38. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E23A41236101
+## title
+cilia is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cilia is formed of:
+## answer_a
+basal body
+## explanation_a
+True, but not the whole answer. The basal body is the migrated centriole at the base, 27 microtubules in 9 triplets.
+## answer_b
+shaft
+## explanation_b
+True, but not the whole answer. The shaft is the axoneme, 9 doublets plus 2 singlets.
+## answer_c
+rootlet
+## explanation_c
+True, but not the whole answer. The rootlets are 9 microtubules growing down into the cytoplasm from the C tubule of each basal-body triplet, and they anchor the cilium against its own beat.
+## answer_d
+all the above
+## explanation_d
+Correct. All three, and the reason to know all three is that each has its own microtubule count — 27, 20 and 9 — and the exam asks for them separately.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three parts of a cilium rather than stopping at the shaft.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p13 q27. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A9E58A4270D6
+## title
+concerning sterocilia, which of the following is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+concerning sterocilia, which of the following is true:
+## answer_a
+Increase the surface area
+## explanation_a
+True, but not the whole answer. Being a long microvillus, its job is to increase surface area for absorption.
+## answer_b
+Present in epididymis
+## explanation_b
+True, but not the whole answer. The epididymis is where the book puts them, in the male genital system.
+## answer_c
+A and B
+## explanation_c
+Correct. Both are true, and a student who takes the first true option has given half the answer.
+## answer_d
+Movement of the mucous
+## explanation_d
+Moving mucus is what a cilium does. A stereocilium is not motile at all, which is the single most examined fact about it.
+## correct_answer
+A
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give both the function and the site of the stereocilium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q83. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-68F82EAEEAC4
+## title
+Concerning the basement membrane ONE statement is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the basement membrane ONE statement is true:
+## answer_a
+It is supporting layer between the epithelium and connective tissue
+## explanation_a
+True, but not the whole answer. It lies between the epithelium above and the connective tissue below, and supports the one on the other.
+## answer_b
+Basal lamina synthesized by epithelial cells
+## explanation_b
+True, but not the whole answer. The basal lamina is the epithelial contribution — type IV collagen and glycoproteins made by the epithelial cells themselves.
+## answer_c
+Lamina reticularis manufactured by connective tissue cells
+## explanation_c
+True, but not the whole answer. The lamina reticularis is type III collagen laid down by the connective tissue.
+## answer_d
+All of the above
+## explanation_d
+Correct. The structure is made by two tissues from either side, which is why it has two layers and why naming which tissue made which layer is the question this material is always asked as.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the basement membrane's position, and the origin of each of its two layers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3F8EE0427C49
+## title
+Desmosome (macula adherence):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Desmosome (macula adherence):
+## answer_a
+Disk shaped plaque of electron dense materials
+## explanation_a
+True, but not the whole answer. The attachment plaque is a disc of electron-dense protein on the cytoplasmic face of each membrane.
+## answer_b
+Intermediate filaments
+## explanation_b
+True, but not the whole answer. Bundles of intermediate filaments — tonofilaments — are anchored into that plaque.
+## answer_c
+Dense vertical line
+## explanation_c
+True, but not the whole answer. The wide intercellular space between the two plaques shows a dense midline where the transmembrane proteins of the two cells meet.
+## answer_d
+All of the above
+## explanation_d
+Correct. Plaque, intermediate filaments and midline are three parts of one picture, and the desmosome question is normally set as a picture rather than as a single fact.
+## correct_answer
+D
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the full electron-microscopic picture of a desmosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q85. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9A5ED39A7645
+## title
+each channel in gap junction is formed of ……… Symmetrical subunit
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+each channel in gap junction is formed of ……… Symmetrical subunit
+## answer_a
+6
+## explanation_a
+Correct. Each channel is built of six symmetrical transmembrane protein molecules, which is the one number the book gives for this junction.
+## answer_b
+8
+## explanation_b
+Eight is not a count the book gives anywhere in this chapter.
+## answer_c
+9
+## explanation_c
+Nine is the ciliary number — nine doublets in the shaft, nine triplets in the basal body, nine rootlet microtubules — and it is picked when the numbers of this chapter run together.
+## answer_d
+5
+## explanation_d
+Five is not a count the book gives.
+## correct_answer
+A
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+State how many subunits form one gap-junction channel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q39. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1995FF4B3645
+## title
+encircle apex of cell like Belt
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+encircle apex of cell like Belt
+## answer_a
+tight junction
+## explanation_a
+Correct. The zonula occludens is the most apical junction and completely encircles the cell like a belt, which is what "zonula" means.
+## answer_b
+adherens junction
+## explanation_b
+The zonula adherens is a belt too, which makes this a genuinely close call — but it lies below the occludens rather than at the apex, and the apical position is what the stem specifies.
+## answer_c
+desmosome
+## explanation_c
+A desmosome is a spot, not a belt: "macula" against "zonula" is exactly this distinction.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions are patches of channels scattered on the lateral surface and encircle nothing.
+## correct_answer
+A
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the junction that encircles the apex of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q34. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EB061C9FC25B
+## title
+Epithelial tissue is distinguished from connective tissue, muscular, or nervous tissue …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Epithelial tissue is distinguished from connective tissue, muscular, or nervous tissue by its
+## answer_a
+large extracellular matrix
+## explanation_a
+A large extracellular matrix is the mark of connective tissue. Epithelial cells are crowded with minimal intercellular space, which is the opposite.
+## answer_b
+contractility
+## explanation_b
+Contractility belongs to muscle — and to the one epithelium modified for it, the myo-epithelium, which is why the option is not absurd.
+## answer_c
+ability to carry action potentials
+## explanation_c
+Carrying action potentials is nerve. Neuro-epithelium receives a stimulus but does not conduct it.
+## answer_d
+basement membrane
+## explanation_d
+Correct. Resting on a basement membrane is what all four classes of epithelium have in common and what none of the other tissues has.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comparison
+## learning_objective
+Name the feature that identifies a tissue as epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q47. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-0E10E155D591
+## title
+Epithelial tissue that can resist friction would have many
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Epithelial tissue that can resist friction would have many
+## answer_a
+desmosomes
+## explanation_a
+Correct. The desmosome is the strongest junction, and the book states it is abundant between the cells of stratified squamous epithelium precisely where the surface is subjected to friction.
+## answer_b
+gap junctions
+## explanation_b
+Gap junctions communicate and contribute no mechanical strength at all.
+## answer_c
+tight junctions
+## explanation_c
+Tight junctions seal. They stop material passing between the cells; they are not what holds the cells together when the surface is rubbed.
+## answer_d
+basement junctions
+## explanation_d
+"Basement junction" is not a structure. Hemidesmosomes attach the epithelium to the basement membrane, which resists being peeled off rather than being rubbed.
+## correct_answer
+A
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Connect resistance to friction to the strongest junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q48. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5061329C0FD2
+## title
+fix epithelium to basement membrane and C.T:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+fix epithelium to basement membrane and C.T:
+## answer_a
+hemidesmosome
+## explanation_a
+Correct. A hemidesmosome is half a desmosome on the basal surface of a basal cell, and it fixes the epithelium to the basement membrane and the connective tissue below.
+## answer_b
+basement membrane
+## explanation_b
+The basement membrane is what the epithelium is being fixed to, not what does the fixing. It is the commonest wrong answer because the stem names it.
+## answer_c
+basal infolding
+## explanation_c
+Basal infoldings increase surface area for transport; they attach nothing.
+## answer_d
+desmosome
+## explanation_d
+A desmosome joins two epithelial cells to each other. It is the whole of which the hemidesmosome is half, and the half is what faces the basement membrane.
+## correct_answer
+A
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure that attaches the epithelium to the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q30. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-99EC4337AF5C
+## title
+Gap junction (nexus) is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Gap junction (nexus) is:
+## answer_a
+Occluding junction
+## explanation_a
+Occluding is the zonula occludens, which seals rather than connects.
+## answer_b
+Adhering junction
+## explanation_b
+Adhering covers the two adherens junctions, which hold cells together mechanically and pass nothing.
+## answer_c
+Communicating junction
+## explanation_c
+Correct. The gap junction is the communicating junction — the only one of the four through which ions, small molecules and impulses actually pass.
+## answer_d
+All of the above
+## explanation_d
+The three categories are alternatives, and the gap junction belongs to exactly one of them.
+## correct_answer
+C
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Class the gap junction as communicating rather than occluding or adhering.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q87. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-66975E2A2AAA
+## title
+Gap junctions
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Gap junctions
+## answer_a
+Permit the passage of large proteins from cell to cell
+## explanation_a
+The channel is narrow and selective. Ions and small molecules cross it; large proteins do not, and this is the standard overstatement of what a gap junction does.
+## answer_b
+Form part of the classical junctional complex
+## explanation_b
+The classical junctional complex is three junctions — zonula occludens, zonula adherens and macula adherens — and the gap junction is the one left out.
+## answer_c
+Exist only between epithelial cells
+## explanation_c
+Not exclusive to epithelium at all, and that is the point of the correct option: gap junctions between cardiac and smooth muscle cells carry the impulse.
+## answer_d
+Are areas of transmission of impulses
+## explanation_d
+Correct. Impulses pass through gap junctions at electrical synapses and between muscle cells, which is the same channel doing the same thing in a different tissue.
+## correct_answer
+D
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State what a gap junction does and does not carry, and where else it is found.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q19. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7015E2251F6A
+## title
+help absorption in male genital system:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+help absorption in male genital system:
+## answer_a
+stereocilia
+## explanation_a
+Correct. Stereocilia are long non-motile microvilli in the epididymis, and like all microvilli they increase surface area for absorption.
+## answer_b
+cilia
+## explanation_b
+Cilia occur in the female genital tract, moving the ovum along the fallopian tube — the mirror-image fact, and the reason this option is tempting.
+## answer_c
+microvilli
+## explanation_c
+Microvilli absorb, but the book's named site for them is the intestine; in the male genital system the microvillus takes the long non-motile form and the name stereocilium.
+## answer_d
+flagella
+## explanation_d
+The flagellum in the male genital system is the sperm tail, which moves the cell rather than absorbing anything.
+## correct_answer
+A
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the stereocilium in the male genital tract and give its function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q29. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B23DD9D71CB
+## title
+in zonula adherens, transmembrane is attached to ………. filament:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in zonula adherens, transmembrane is attached to ………. filament:
+## answer_a
+actin
+## explanation_a
+Correct. Condensed proteins on the cytoplasmic side of the zonula adherens bind the junction to actin filaments.
+## answer_b
+myosin
+## explanation_b
+Myosin is the motor that acts on actin, not the filament anchored at the junction. The book names actin here and nothing else.
+## answer_c
+intermediate
+## explanation_c
+Intermediate filaments belong to the macula adherens. Swapping the two adherens junctions is the single commonest error on this material.
+## answer_d
+none of above
+## explanation_d
+There is a filament, and the answer is actin.
+## correct_answer
+A
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the filament anchored at the zonula adherens.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q35. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7E92F6683C00
+## title
+inability of cilia to move result in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+inability of cilia to move result in:
+## answer_a
+bacterial infection
+## explanation_a
+True, but not the whole answer. Bacteria grow in the secretions the cilia can no longer clear.
+## answer_b
+chronic respiratory infection
+## explanation_b
+True, but not the whole answer. Repeated bacterial infection on retained secretions is what chronic respiratory infection means here.
+## answer_c
+male infertility
+## explanation_c
+Also true in life — the sperm flagellum has the same axoneme, so the same defect causes male infertility — but this option is not part of the source's combined answer, which pairs the two respiratory consequences.
+## answer_d
+a, b
+## explanation_d
+Correct as the source has it. The bacterial infection and the chronic respiratory picture are one sequence, and naming only one of them describes half of it.
+## correct_answer
+D
+## main_concept
+CON-FND-BBC8959FD63F56
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the chain from immotile cilia through retained secretions to chronic infection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p14 q34. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-83DD041ED7EA
+## title
+junction complex include all except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+junction complex include all except
+## answer_a
+tight junction
+## explanation_a
+True, so not the exception. The tight junction is the most apical member of the complex.
+## answer_b
+adherens junction
+## explanation_b
+True, so not the exception. The zonula adherens is the middle member.
+## answer_c
+desmosome
+## explanation_c
+True, so not the exception. The desmosome is the deepest member.
+## answer_d
+gap junction
+## explanation_d
+The exception, and the answer. The book recognises four lateral junctions and three members of the complex, and the gap junction is the one left out — it communicates rather than sealing or adhering.
+## correct_answer
+D
+## main_concept
+CON-FND-993662DC8318E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the junction excluded from the junctional complex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q38. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6C04696D2F57
+## title
+Junctional complex is composed of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Junctional complex is composed of the following except:
+## answer_a
+Zonula occludens
+## explanation_a
+True, so not the exception. Zonula occludens is the first of the three.
+## answer_b
+Zonula adherens
+## explanation_b
+True, so not the exception. Zonula adherens is the second.
+## answer_c
+Fascia adherens
+## explanation_c
+The exception, and the answer. A fascia adherens is a band-shaped adhering junction of cardiac muscle, not one of the four lateral junctions of epithelium, and it is convincing here because it is built from the same two words as the two junctions that are.
+## answer_d
+Macula adherens
+## explanation_d
+True, so not the exception. Macula adherens — the desmosome — is the third member.
+## correct_answer
+C
+## main_concept
+CON-FND-993662DC8318E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise that fascia adherens is not a member of the epithelial junctional complex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q122. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-14C3891F8EAC
+## title
+lon transporting cells are characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+lon transporting cells are characterized by:
+## answer_a
+Basal infoldings alternating with mitochondria
+## explanation_a
+Correct. The infoldings multiply the basal membrane area available for transport, and the mitochondria stacked vertically between them supply the ATP on the spot. The kidney tubule cell is the book's example.
+## answer_b
+Lateral infoldings
+## explanation_b
+Lateral infoldings are not a specialisation the book names. The lateral surface carries junctions, not folds.
+## answer_c
+Stereocilia
+## explanation_c
+Stereocilia are apical, absorb passively and are found in the epididymis. Nothing about them transports ions.
+## answer_d
+Apical cilia
+## explanation_d
+Apical cilia move material across the surface. They face the lumen, which is the wrong end of the cell for a structure whose job is to move ions towards the blood.
+## correct_answer
+A
+## main_concept
+CON-FND-D716C3939DB217
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect basal infoldings and their mitochondria to active ion transport.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p14 q47. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only A describes a structure the book attributes to ion-transporting cells: basal infoldings with mitochondria arranged vertically between them, whose energy drives the active transport. Lateral infoldings are not a structure the book names, and stereocilia and cilia are apical specialisations with no transport role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1E86F5FEA8CE
+## title
+Long motile structures on the surface of some epithelial cells are known as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Long motile structures on the surface of some epithelial cells are known as:
+## answer_a
+Microvilli
+## explanation_a
+Microvilli are short and do not move. They are the structure most often given a cilium's answer.
+## answer_b
+Cilia
+## explanation_b
+Correct. Cilia are the motile processes on the free surface of an epithelium, moving secretions and particles across it in one direction.
+## answer_c
+Flagella
+## explanation_c
+A flagellum is longer still and has the same axoneme, but in the human body there is exactly one — the sperm tail — and it moves the cell rather than sitting on an epithelial surface.
+## answer_d
+Steriocilia
+## explanation_d
+Stereocilia are long, which makes them tempting here, but they are non-motile microvilli.
+## correct_answer
+B
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the motile process on the surface of an epithelial cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q106. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5241287F6239
+## title
+Macula adherence (desmosome) Is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Macula adherence (desmosome) Is characterized by:
+## answer_a
+Encircles the cells
+## explanation_a
+Encircling the cell is what a zonula does. Macula means a spot, and the desmosome is scattered as discs rather than running round the cell.
+## answer_b
+Permits the passage of ions
+## explanation_b
+Passing ions is the gap junction. A desmosome passes nothing at all — it is purely mechanical.
+## answer_c
+Important in intercellular communication
+## explanation_c
+Intercellular communication is the gap junction again, stated the other way round.
+## answer_d
+Bundles of intermediate filaments are anchored to the plaques
+## explanation_d
+Correct. Bundles of intermediate filaments are anchored into the dense cytoplasmic plaque on each side, which is what makes the desmosome the strongest junction.
+## correct_answer
+D
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the feature that identifies a desmosome and reject the three that belong to other junctions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q43. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only D is true of a desmosome: intermediate filaments anchored into the attachment plaques. Encircling the cell is the zonula, and passing ions and intercellular communication are the gap junction, so each of the other three options describes a different junction.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7D2543F937A8
+## title
+Microtubules share in the formation of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubules share in the formation of the following except:
+## answer_a
+Mitotic spindle
+## explanation_a
+True, so not the exception. The mitotic spindle is built of microtubules.
+## answer_b
+Microvilli
+## explanation_b
+The exception, and the answer. A microvillus has a core of actin filaments inserted into the terminal web, and not one microtubule.
+## answer_c
+Cilia
+## explanation_c
+True, so not the exception. The ciliary shaft is nine doublets around two singlets.
+## answer_d
+Flagella
+## explanation_d
+True, so not the exception. A flagellum has the same axoneme as a cilium.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall that the microvillus is the apical specialisation with no microtubules in it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q20. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-76B7E5646009
+## title
+Microvilli under light microscope are described as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microvilli under light microscope are described as:
+## answer_a
+Brush border
+## explanation_a
+True, but not the whole answer. Brush border is the usual name in the intestine.
+## answer_b
+Striated border
+## explanation_b
+True, but not the whole answer. Striated border is the same appearance under another name, used especially of the kidney tubule.
+## answer_c
+A or B
+## explanation_c
+Correct. The two terms describe one appearance, and a question offering both separately is testing whether the student knows they are synonyms.
+## answer_d
+None of the above
+## explanation_d
+Microvilli are certainly visible in aggregate by light microscopy — it is only the individual microvillus that is not.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give both light-microscopic names for a carpet of microvilli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q81. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-30A39C59570C
+## title
+Movement of cilia can be done by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Movement of cilia can be done by:
+## answer_a
+Dyenin arms
+## explanation_a
+Dynein arms are the accepted mechanism in the general literature, and they are what the concept record for the cilium states. They are not, however, in the department book, which attributes the beat to the bending of adjacent doublets and never names them — which is why the printed key rejects this option.
+## answer_b
+Nexin
+## explanation_b
+Nexin links hold neighbouring doublets together so that sliding becomes bending. The department book does not mention them either.
+## answer_c
+Radial spokes
+## explanation_c
+Radial spokes run from each doublet to the central pair. Again real, again absent from the department book.
+## answer_d
+None of the above
+## explanation_d
+The answer as this faculty keys it. The book gives the beat as the bending of adjacent doublets against one another and names no protein at all, so none of the three named structures is in the material the examiner set. Learn the department's answer for the paper and the dynein mechanism for everything after it — the disagreement is recorded on the concept.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Answer this faculty's question from this faculty's source, while knowing that the wider literature gives dynein arms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q16. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0AEC687D56C2
+## title
+permit exchange of ions, passage of impulses:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+permit exchange of ions, passage of impulses:
+## answer_a
+tight junction
+## explanation_a
+The tight junction stops movement between cells rather than permitting it.
+## answer_b
+adherens junction
+## explanation_b
+The adherens junction holds cells together across a wide space and lets nothing through.
+## answer_c
+desmosome
+## explanation_c
+The desmosome is the strongest junction and the least permeable — a mechanical rivet.
+## answer_d
+gap junction
+## explanation_d
+Correct. The gap junction's six-subunit channels carry ions and small molecules between cell interiors, and impulses between muscle cells.
+## correct_answer
+D
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Match ion exchange and impulse transmission to the gap junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q40. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6B981D10832F
+## title
+Regarding transitional epithelium, the following statement is correct:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding transitional epithelium, the following statement is correct:
+## answer_a
+Formed of 5-30 layers of cells
+## explanation_a
+5–30 layers is stratified squamous epithelium. Transitional is 6–8 layers when the bladder is empty and 3–4 when it is full.
+## answer_b
+Cells rest on thick basement membrane
+## explanation_b
+The bladder's basement membrane is non-clear and thin; the thick, clear, wavy one belongs to the oesophagus, and this option is the oesophagus's answer given to the bladder.
+## answer_c
+Superficial cells are connected by junctional complex
+## explanation_c
+Correct. The dome-shaped superficial cells are joined to one another by junctional complexes — zonula occludens, zonula adherens and macula adherens together — which is part of how the surface stays impermeable to urine.
+## answer_d
+Superficial cells are covered by cilia
+## explanation_d
+Cilia move material along a surface. Nothing in the urinary tract needs sweeping, and the superficial cell's luminal specialisation is a rigid plaque, not a cilium.
+## correct_answer
+C
+## main_concept
+CON-FND-993662DC8318E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise the junctional complex as the joining of the superficial cells of transitional epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q27. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-E579E2CC20C3
+## title
+Simple columnar epithelium of the intestine is provided with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple columnar epithelium of the intestine is provided with:
+## answer_a
+Cilia
+## explanation_a
+Cilia would sweep the contents along, which the intestine achieves by muscular contraction instead. The absorptive cell needs surface area, not motion.
+## answer_b
+Microvilli
+## explanation_b
+Correct. Microvilli, seen by light microscopy as the striated or brush border, multiply the absorptive surface of the intestinal cell.
+## answer_c
+sterocilia
+## explanation_c
+Stereocilia are long microvilli of the epididymis. The structure is nearly right and the site is wrong.
+## answer_d
+Flagella
+## explanation_d
+The only human flagellum is the sperm tail.
+## correct_answer
+B
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the apical specialisation of the intestinal absorptive cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q25. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7E98FC65BD0D
+## title
+strongest type of junction:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+strongest type of junction:
+## answer_a
+tight junction
+## explanation_a
+The tight junction is the tightest seal, which is not the same as the strongest bond. It resists leakage, not traction.
+## answer_b
+adherens junction
+## explanation_b
+The adherens junction does adhere, but across a wide space and onto actin, which is a lighter anchorage than the desmosome's.
+## answer_c
+desmosome
+## explanation_c
+Correct. The desmosome anchors intermediate filaments into a dense plaque on each side, and the book names it the strongest junction — which is why stratified squamous epithelium, the tissue that takes friction, is full of them.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is a set of channels and contributes essentially no mechanical strength.
+## correct_answer
+C
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the strongest of the four lateral junctions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q37. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-41E416787283
+## title
+the absorptive columnar cells area characterized by presence of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the absorptive columnar cells area characterized by presence of:
+## answer_a
+apical flat nucleus
+## explanation_a
+The nucleus of a columnar cell is oval and basal, not apical and not flat — a flat nucleus belongs to a squamous cell.
+## answer_b
+numerous myosin filaments
+## explanation_b
+The microvillus core is actin, and myosin is not what the book names in it. The option swaps the contractile partner for the structural one.
+## answer_c
+apical microvilli
+## explanation_c
+Correct. Apical microvilli, seen as a brush border, are what make the cell absorptive.
+## answer_d
+cilia
+## explanation_d
+Cilia move material past a cell. An absorptive cell takes material in, which needs surface rather than motion.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the defining apical feature of an absorptive columnar cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q5. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9304767BD1AF
+## title
+The actin filaments form the core of the microvilli, it is embeded in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The actin filaments form the core of the microvilli, it is embeded in:
+## answer_a
+Basal body
+## explanation_a
+The basal body anchors a cilium, not a microvillus, and it is made of microtubules. This is the cilium's answer given to the microvillus.
+## answer_b
+Kinetochore
+## explanation_b
+The kinetochore is the attachment point of spindle microtubules on a chromosome — a mitotic structure with nothing to do with the apical surface.
+## answer_c
+Terminal web
+## explanation_c
+Correct. The actin filaments of each microvillus run down into a mat of filaments beneath the apical membrane, the terminal web.
+## answer_d
+Centrosome
+## explanation_d
+The centrosome is the microtubule organising centre near the nucleus, and it is the ancestor of the basal body rather than of anything in a microvillus.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure the actin core of a microvillus is anchored into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q80. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B639C8FDC073
+## title
+The basement membrane, one of the following is false:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The basement membrane, one of the following is false:
+## answer_a
+Stains positively with (PAS)
+## explanation_a
+True, so not the false one. The basement membrane stains red with PAS and brown with silver, which is how it is seen at all by light microscopy.
+## answer_b
+Is composed of type IV collagen
+## explanation_b
+True, so not the false one, although the printed key says otherwise. The basal lamina is type IV collagen with glycoproteins; the reticular lamina adds type III.
+## answer_c
+Has basal lamina
+## explanation_c
+True, so not the false one. The basal lamina is the epithelial half of the basement membrane.
+## answer_d
+Is produced by the connective tissue alone
+## explanation_d
+The false statement, and the answer. Two tissues build it from either side — the epithelium lays down the basal lamina and the connective tissue the reticular lamina — and "alone" is the word that makes the option false.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recall that both the epithelium and the connective tissue build the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q57. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+Answer changed from the source's: The source key marks B — "is composed of type IV collagen" — as the false statement, but that is true: the basal lamina is type IV collagen and glycoproteins. The statement that is actually false is D, that the basement membrane is produced by the connective tissue alone; the basal lamina is made by the epithelial cells and only the reticular lamina by the connective tissue. Keeping the printed key would teach a true statement as false.
+
+
+---
+
+# Item
+## id
+QM-101-C5E281F7945D
+## title
+The classical description of a junctional complex includes the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The classical description of a junctional complex includes the following except:
+## answer_a
+fascia occludens
+## explanation_a
+The exception, and the answer. There is no fascia occludens. It is manufactured from the vocabulary of the real junctions — fascia from fascia adherens, occludens from zonula occludens — and it is convincing for exactly that reason.
+## answer_b
+zonula occludens
+## explanation_b
+True, so not the exception. The zonula occludens is the most apical member.
+## answer_c
+zonula adherens
+## explanation_c
+True, so not the exception. The zonula adherens is the middle member.
+## answer_d
+macula adherens (desmosome)
+## explanation_d
+True, so not the exception. The macula adherens, the desmosome, is the deepest.
+## correct_answer
+A
+## main_concept
+CON-FND-993662DC8318E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the three members of the junctional complex and reject an invented fourth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p3 q17. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7F8F3D08BB7D
+## title
+The epithelial cells connect to the basement membrane through:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelial cells connect to the basement membrane through:
+## answer_a
+gap junction
+## explanation_a
+Gap junctions connect one cell to another cell, not a cell to a matrix.
+## answer_b
+desmosomes
+## explanation_b
+A desmosome joins two epithelial cells. It is the right family, and the trap is that the answer is only half of it.
+## answer_c
+hemi-desmosomes
+## explanation_c
+Correct. A hemidesmosome is half a desmosome facing the basement membrane instead of a neighbouring cell.
+## answer_d
+zonula occludens
+## explanation_d
+The zonula occludens is at the apex, sealing the space between cells. It is at the opposite end of the cell from the basement membrane.
+## correct_answer
+C
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junction between an epithelial cell and the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q69. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-54888D5D0553
+## title
+The epithelium is characterized by: |
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The epithelium is characterized by: |
+## answer_a
+1] has low power of regeneration
+## explanation_a
+The reverse of the truth: epithelium has a high power of regeneration, which is why a graze heals and why the gut lining can be renewed continuously.
+## answer_b
+It consists of cells with wide intercellular spaces,
+## explanation_b
+Wide intercellular spaces are connective tissue. Epithelial cells are crowded with minimal space between them.
+## answer_c
+itis penetrated by blood vessels. 3
+## explanation_c
+Epithelium is avascular — blood and lymph vessels cannot penetrate between its cells, though nerves can — and it is fed by diffusion from the connective tissue below.
+## answer_d
+It has clear or non clear basement membrane
+## explanation_d
+Correct. Every epithelium rests on a basement membrane, and the book explicitly allows it to be clear, as in skin, or not clear, as in transitional epithelium.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall the general characters of epithelium, including that its basement membrane may be clear or not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p1 q1. Manifest src_510c935c09a7e7cbff32.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Three of the four options state the negation of a character the book gives: epithelium has a high power of regeneration, minimal intercellular space, and is avascular because vessels cannot penetrate between its cells. Only D is true — the book states the basement membrane may be clear or not clear.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-29CF544A5F6F
+## title
+The following can be found on the apical surface of intestinal simple columnar epithelium
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following can be found on the apical surface of intestinal simple columnar epithelium
+## answer_a
+Villi
+## explanation_a
+The best distractor on the page. A villus is a finger of the whole mucosa, visible to the naked eye, containing connective tissue and a blood supply; a microvillus is a projection of one cell's membrane. The question is asking about a cell surface, so the answer is the small one.
+## answer_b
+Hemidesmosome
+## explanation_b
+A hemidesmosome is on the basal surface, attaching the cell to the basement membrane — the opposite end of the cell.
+## answer_c
+Desmosome
+## explanation_c
+A desmosome is on the lateral surface, joining the cell to its neighbours.
+## answer_d
+Microvilli
+## explanation_d
+Correct. Microvilli are the apical specialisation of the intestinal absorptive cell, seen by light microscopy as the striated border.
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a microvillus from an intestinal villus and from the lateral and basal junctions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q20. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7203F06045DC
+## title
+The following statements concerning gap junction (nexus) are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statements concerning gap junction (nexus) are true EXCEPT:
+## answer_a
+It links the interior of adjacent cells
+## explanation_a
+True, so not the exception. The channels link the interior of one cell directly to the interior of the next.
+## answer_b
+It permits ions and small molecule to pass from one cell to another
+## explanation_b
+True, so not the exception. Ions and small molecules are exactly what passes.
+## answer_c
+They transmit impulses at certain synapse
+## explanation_c
+True, so not the exception. At electrical synapses and between muscle cells the junction carries the impulse.
+## answer_d
+Provides an actual fusion of adjacent two cell membranes Basement membrane
+## explanation_d
+The exception, and the answer. Actual fusion of the two membranes is the zonula occludens. The gap junction leaves a narrow gap — hence the name — and bridges it with channels rather than closing it.
+## correct_answer
+D
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the gap junction's narrow bridged gap from the tight junction's membrane fusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q89. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-45F92BBC8B0F
+## title
+The followings are free surface specialization EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The followings are free surface specialization EXCEPT:
+## answer_a
+Microvilli
+## explanation_a
+True, so not the exception. Microvilli are apical.
+## answer_b
+Cilia
+## explanation_b
+True, so not the exception. Cilia are apical.
+## answer_c
+Streocilia
+## explanation_c
+True, so not the exception. Stereocilia are apical, being long microvilli.
+## answer_d
+Phagocytosis
+## explanation_d
+The exception, and the answer. Phagocytosis is something a cell does, not a structure on its surface, and the question is asking for structures. It is chosen by students who read the list as "things that happen at the free surface" rather than "specialisations of the free surface".
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+List the apical specialisations and recognise that a process is not one of them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q77. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AC94CAFAC146
+## title
+The junction which prevents entrance of extracellular substance:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The junction which prevents entrance of extracellular substance:
+## answer_a
+Gap junction
+## explanation_a
+The gap junction lets things through, which is the opposite of what the stem describes.
+## answer_b
+Adherent junction
+## explanation_b
+The adherens junction leaves a wide intercellular space open and merely holds the cells together across it.
+## answer_c
+Occluding junction
+## explanation_c
+Correct. The occluding junction fuses the two membranes at points around the apex, so extracellular material cannot pass down between the cells.
+## answer_d
+Desmosome
+## explanation_d
+The desmosome is a spot with a wide space around it, so it seals nothing — it is strong, not tight, and those are different properties.
+## correct_answer
+C
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junction that bars the intercellular route.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q108. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FE901DCE2548
+## title
+The microvilli containing cells in functional aspect are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The microvilli containing cells in functional aspect are:
+## answer_a
+covering
+## explanation_a
+Covering is what surface epithelium does generally, and it needs no microvilli — a simple squamous covering has none.
+## answer_b
+stem
+## explanation_b
+Stem cells divide to replace others. Nothing about a microvillus serves division.
+## answer_c
+secretory
+## explanation_c
+A secretory cell exports material and is recognised by its granules and its rough endoplasmic reticulum, not by its surface area.
+## answer_d
+absorption
+## explanation_d
+Correct. Microvilli exist to multiply surface area, and surface area is what absorption needs.
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Infer function from the presence of microvilli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q67. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-107975673D5D
+## title
+the strongest type of junctions is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the strongest type of junctions is:
+## answer_a
+zonula occludens
+## explanation_a
+Zonula occludens is the seal. Tightness against leakage is not mechanical strength.
+## answer_b
+zonula adherens
+## explanation_b
+Zonula adherens adheres, but anchors actin across a wide space and is the weaker of the two adherens junctions.
+## answer_c
+macula adherens
+## explanation_c
+Correct. Macula adherens — the desmosome — anchors intermediate filaments into dense plaques and is the strongest of the four.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is for communication and adds no strength.
+## correct_answer
+C
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the strongest junction, using its Latin name.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p12 q99. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8C6ABA173804
+## title
+the type of filament inserted in the dense plaque of desmosomes is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the type of filament inserted in the dense plaque of desmosomes is:
+## answer_a
+thin filaments
+## explanation_a
+Thin filaments are actin, and actin is anchored at the zonula adherens. This is the swap the whole topic turns on.
+## answer_b
+thick filaments
+## explanation_b
+Thick filaments are myosin, a muscle structure, and are not anchored at any epithelial junction.
+## answer_c
+intermediate filaments
+## explanation_c
+Correct. Bundles of intermediate filaments — tonofilaments in an epithelial cell — insert into the dense attachment plaque of the desmosome.
+## answer_d
+neuro filaments
+## explanation_d
+Neurofilaments are the intermediate filaments of a nerve cell. Right class of filament, wrong cell entirely.
+## correct_answer
+C
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the filament anchored in the desmosomal plaque.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q24. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ABD741545D04
+## title
+these are motile has like structures on surface some epithelial cells
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+these are motile has like structures on surface some epithelial cells
+## answer_a
+flagella
+## explanation_a
+A flagellum is motile and hair-like, but there is one per cell and in humans only on the spermatozoon — not a covering of an epithelial surface.
+## answer_b
+stereocilia
+## explanation_b
+Stereocilia look like hairs and are not motile at all, which is precisely the trap the name sets.
+## answer_c
+cilia
+## explanation_c
+Correct. Cilia are the motile hair-like processes covering the free surface of a ciliated epithelium.
+## answer_d
+microvilli
+## explanation_d
+Microvilli are neither hair-like at light-microscope resolution nor motile; they appear as a continuous border.
+## correct_answer
+C
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify the motile hair-like process of an epithelial surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q8. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CE3AECCDEC0C
+## title
+What of the following facts about the epithelial tissue is true?:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What of the following facts about the epithelial tissue is true?:
+## answer_a
+Epithelium is considered to be (vascular tissue)
+## explanation_a
+Epithelium is avascular. Vessels cannot penetrate between its cells, which is why it depends on diffusion from the connective tissue beneath.
+## answer_b
+It’s one of the C.T. fibers types
+## explanation_b
+Epithelium is a tissue in its own right, not a connective tissue fibre. The fibres are collagen, reticular and elastic.
+## answer_c
+Its cells lie on a basement membrane
+## explanation_c
+Correct. Every epithelium rests on a basement membrane, and it is the feature that distinguishes epithelium from the tissues around it.
+## answer_d
+It’s transitional type is considered to be simple
+## explanation_d
+Transitional epithelium is stratified, not simple. The epithelium that looks stratified and is simple is the pseudostratified one, and this option swaps the two.
+## correct_answer
+C
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the basement membrane as the constant feature of epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q2. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-993F0E91DC68
+## title
+Which feature is characteristic for zonula Occludens?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which feature is characteristic for zonula Occludens?
+## answer_a
+Fusion of adjacent membranes at certain points
+## explanation_a
+Correct. The two adjacent plasma membranes fuse at points through transmembrane proteins from each cell, which is what obliterates the space between them.
+## answer_b
+Abundant cytokeratin filaments near the junction
+## explanation_b
+Cytokeratin is an intermediate filament, and intermediate filaments gather at the desmosome. This option describes the wrong junction.
+## answer_c
+Surrounds columnar cells in the basal region of their lateral plasma
+## explanation_c
+The basal region is the wrong end of the cell: the zonula occludens encircles the apex, which is why anything entering must pass the seal first.
+## answer_d
+Dense intracellular plaque
+## explanation_d
+A dense intracellular plaque is the desmosome's attachment plaque. The zonula occludens has no plaque.
+## correct_answer
+A
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the electron-microscopic feature that identifies a tight junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q8. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-72D9E63B58D6
+## title
+Which of the following specializations are described in the stratified epithelia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following specializations are described in the stratified epithelia:
+## answer_a
+microvilli
+## explanation_a
+Microvilli belong to absorptive simple epithelia. A stratified epithelium exists to protect, and multiplying its surface area would work against that.
+## answer_b
+cilia
+## explanation_b
+Cilia sit on simple and pseudostratified columnar epithelia. A stratified surface that is constantly abraded would not keep them.
+## answer_c
+desmosomes
+## explanation_c
+Correct. Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the tissue exposed to friction and the desmosome is the strongest junction.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions occur widely but are not what the book singles out as the specialisation of stratified epithelium.
+## correct_answer
+C
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Connect stratified epithelium to the junction that resists friction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q70. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-716358DFDAEF
+## title
+Which of the following statements is the best description of zonula Occludens? Cell adh…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements is the best description of zonula Occludens? Cell adhesion involved mainly in:
+## answer_a
+A barrier to avoid free diffusion along epithelial cells
+## explanation_a
+Correct. The seal is a barrier to free diffusion along the intercellular space, which is what makes an epithelium able to keep two compartments different from each other.
+## answer_b
+Exchange of small molecules and ions between cells
+## explanation_b
+Exchange of small molecules and ions is the gap junction, and it is between cell interiors rather than along the space between them.
+## answer_c
+Anchoring the cell to the basement membrane
+## explanation_c
+Anchoring the cell to the basement membrane is the hemidesmosome, at the opposite end of the cell.
+## answer_d
+Mechanical stability and resistance
+## explanation_d
+Mechanical stability and resistance is the desmosome. Tight and strong are the two properties this topic keeps asking students to separate.
+## correct_answer
+A
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the functional consequence of the tight junction rather than its structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q37. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-801F9EFD04F1
+## title
+Which structure forms the brush border?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which structure forms the brush border?
+## answer_a
+Secretory granules
+## explanation_a
+Secretory granules sit inside the cell, in the apical cytoplasm. They are not on its surface and form no border.
+## answer_b
+Basal body
+## explanation_b
+The basal body is the base of a cilium, inside the cell. Its name makes it sound basal in position, which is a separate confusion worth clearing up: it lies in the apical cytoplasm.
+## answer_c
+Microvilli
+## explanation_c
+Correct. A dense carpet of microvilli is resolved by the light microscope as a single brush or striated border.
+## answer_d
+Cilia
+## explanation_d
+Cilia are longer and are seen individually as a fringe, not as a solid border.
+## correct_answer
+C
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure whose carpet is the brush border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q54. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-C7AEA27BEED9
+## title
+which type of cell junction shares in the formation of barriers in the tissues?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which type of cell junction shares in the formation of barriers in the tissues?
+## answer_a
+zonula adherens
+## explanation_a
+The zonula adherens holds cells together across an open space, so material can still pass along it.
+## answer_b
+zonula occludens
+## explanation_b
+Correct. The zonula occludens is what turns a sheet of cells into a barrier, by closing the only route that goes round the cells rather than through them.
+## answer_c
+fascia adherens
+## explanation_c
+A fascia adherens is a cardiac muscle junction and is not part of the epithelial set at all.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is a route, not a barrier.
+## correct_answer
+B
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junction that makes an epithelium a barrier.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q27. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-13657780AF03
+## title
+which type of junction is located more near apex of the cell??
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which type of junction is located more near apex of the cell??
+## answer_a
+zonula adherens
+## explanation_a
+The zonula adherens lies immediately below the tight junction, which makes it the closest wrong answer.
+## answer_b
+tight junction
+## explanation_b
+Correct. The tight junction is the most apical of the lateral junctions, which is what lets it seal everything below it off from the lumen.
+## answer_c
+Desmosomes
+## explanation_c
+Desmosomes are the deepest member of the junctional complex and are also scattered further down the lateral surface.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions are not part of the complex and lie on the lateral surface without a fixed apical position.
+## correct_answer
+B
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Order the junctions from the apex of the cell downwards.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q26. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED573CF184ED
+## title
+wide inter cell space show dark midline:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+wide inter cell space show dark midline:
+## answer_a
+tight junction
+## explanation_a
+The tight junction has no intercellular space at the points of fusion, so it cannot show a midline in a space that is not there.
+## answer_b
+adherens junction
+## explanation_b
+The zonula adherens does have a wide intercellular space, which makes this the real competitor — but the dense midline in the middle of that space is described of the desmosome, and the zonula adherens is distinguished instead by being a belt anchoring actin.
+## answer_c
+desmosome
+## explanation_c
+Correct. The desmosome shows a wide intercellular space with a dense midline where the transmembrane proteins of the two cells meet, flanked by an attachment plaque on each side.
+## answer_d
+gap junction
+## explanation_d
+The gap junction's space is narrow — that is what "gap" names — and it is crossed by channels rather than marked by a midline.
+## correct_answer
+C
+## main_concept
+CON-FND-59E3FDA20F54AD
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify a desmosome from its electron-microscopic appearance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q36. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-60604D8E349F
+## title
+Integral proteins are represented by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Integral proteins are represented by:
+## answer_a
+Non continuous layer
+## explanation_a
+A non-continuous layer describes the way peripheral proteins are scattered over the membrane surfaces, not the integral protein.
+## answer_b
+Loosely attached to both surfaces of cell membrane
+## explanation_b
+This is the definition of a peripheral protein — loosely attached to either surface — and it is the exact opposite of an integral one. It is the option most often taken by students who read "integral" as "important" rather than as "built in".
+## answer_c
+Small molecules
+## explanation_c
+Small molecules are what integral proteins carry, not what they are. Glucose and ions cross through them; they are not made of them.
+## answer_d
+Trans. membrane protein
+## explanation_d
+Correct. Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Histology-general
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the integral protein as the one that crosses the bilayer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p2 q2; Cytology | Module 101 questions.pdf.pdf p24 q2. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A5882AC7D924
+## title
+A teen ager presenting with slower growth rate than expected for age and delayed sexual…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A teen ager presenting with slower growth rate than expected for age and delayed sexual development, investigations may show:
+## answer_a
+Defective cell receptors and decreased hormone level in blood
+## explanation_a
+A low hormone level would explain the failure without any receptor being involved, and the point of the question is a target cell that cannot hear a message that is being sent normally.
+## answer_b
+Defective cell membrane and normal hormone level
+## explanation_b
+A defect of the whole cell membrane would not produce a picture confined to growth and sexual development. What is selective here is the receptor, not the membrane.
+## answer_c
+Defective cell receptors and normal hormone {evel
+## explanation_c
+Correct. The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — the department book gives this as a cause of dwarfism.
+## answer_d
+Defective endoplasmic reticulum receptors
+## explanation_d
+The receptors that bind circulating hormones sit on the cell coat at the external surface, where the hormone can reach them. Endoplasmic reticulum is inside the cell and a blood-borne hormone never arrives there.
+## correct_answer
+C
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Explain a failure of hormone action when the hormone level itself is normal.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p6 q3. Manifest src_4a8ddb5edfab86d624d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book's own applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.
+
+
+---
+
+# Item
+## id
+QM-101-B157487E0D41
+## title
+About function of cell coat, which of the followings is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About function of cell coat, which of the followings is true:
+## answer_a
+important for cell recognition
+## explanation_a
+True, but not the whole answer. Cell recognition — one cell identifying another as self or foreign — is a cell coat function.
+## answer_b
+important for cell adhesion
+## explanation_b
+True, but not the whole answer. Adhesion of cells to each other is a cell coat function.
+## answer_c
+site of receptors
+## explanation_c
+True, but not the whole answer. The coat carries the specific receptors for drugs, hormones, bacteria and viruses.
+## answer_d
+All of the above
+## explanation_d
+Correct. Recognition, adhesion and reception are three of the coat's functions and the book lists protection and cell immunity beside them; a student who stops at the first true option has answered a third of the question.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List all the functions of the cell coat rather than stopping at the first true one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q81. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book as a cell coat function, so the only option that is not incomplete is D.
+
+
+---
+
+# Item
+## id
+QM-101-7353313311E0
+## title
+all the following statements about the cell membrane are true except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all the following statements about the cell membrane are true except
+## answer_a
+its thickness is about 7.5.10nm
+## explanation_a
+True, so not the exception. 7.5–10 nm is the thickness the department book gives.
+## answer_b
+it is not visible by the light microscope with H, E
+## explanation_b
+True, so not the exception. The membrane is below the resolving power of the light microscope in an H&E section, which is why it has to be inferred rather than seen.
+## answer_c
+the cell coat is present on its inner surface
+## explanation_c
+The exception, and the answer. Picked by students who remember that peripheral proteins sit on both surfaces and extend that to the coat. The carbohydrate is added on the external face only; the inner surface carries the cytoskeleton instead.
+## answer_d
+Can be stained with silver or PAS
+## explanation_d
+True, so not the exception. Silver and PAS both act on the carbohydrate of the coat, and they are the only way the membrane is shown by light microscopy.
+## correct_answer
+C
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the cell coat on the outer surface and nowhere else.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q2. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F0C9CBD6932
+## title
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## answer_a
+Leaves an intercellular cleft 2-3 nm
+## explanation_a
+True, so not the exception. The gap junction leaves a narrow intercellular cleft — narrow, but a real one.
+## answer_b
+Minute structure bridging the gap called connexons
+## explanation_b
+True, so not the exception. The minute structures crossing that cleft are the connexons.
+## answer_c
+Each connexon consists of six subunits
+## explanation_c
+True, so not the exception. Each channel is built of six symmetrical transmembrane protein subunits.
+## answer_d
+Provides an actual fusion of adjacent two cell membranes
+## explanation_d
+The exception, and the answer. Actual fusion of the two membranes belongs to the zonula occludens, where the distance between them falls to zero. The gap junction is named for the gap it keeps; a student who has learnt "junction means the membranes join" picks this one.
+## correct_answer
+D
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Epithelium
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a bridged gap from a true membrane fusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q88. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-289E0B1CBF8B
+## title
+As regards the glycocalyx:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+As regards the glycocalyx:
+## answer_a
+Present on both surfaces of cell membrane
+## explanation_a
+The coat is on the external surface only. This option is the mirror of the commonest error, and it is what students choose when they generalise from peripheral proteins, which really are on both.
+## answer_b
+Embeded in lipid bilayer
+## explanation_b
+The glycocalyx projects from the outer face of the bilayer; it is not embedded within it. What is embedded in the lipid is cholesterol and the integral proteins.
+## answer_c
+Formed of proteins & lipids
+## explanation_c
+It is formed of glycoproteins and glycolipids — that is, of the carbohydrate attached to protein and to lipid. Naming proteins and lipids without the sugar leaves out the only part that makes it a glycocalyx.
+## answer_d
+Plays a role in cell adhesion & recognition
+## explanation_d
+Correct. Adhesion and recognition are the coat's two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Choose the true statement about the glycocalyx from three near-misses about its position and composition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p26 q24. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-92EE60348789
+## title
+by EM cell membrane:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+by EM cell membrane:
+## answer_a
+appear formed of 3 layers
+## explanation_a
+True, but not the whole answer. Three layers is what "trilaminar" means and what "unit membrane" names.
+## answer_b
+have outer & inner electron dense
+## explanation_b
+True, but not the whole answer. The two dark lines are the electron-dense outer and inner layers.
+## answer_c
+have middle electron lucent
+## explanation_c
+True, but not the whole answer. The middle layer is electron lucent, which is why the membrane reads as two dark lines with a clear one between them.
+## answer_d
+all of the above
+## explanation_d
+Correct. The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.
+## correct_answer
+D
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the trilaminar unit membrane completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q88. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are the three parts of one statement — the unit membrane is three layers, the outer two electron dense and the middle electron lucent — so no single one of them can be the answer.
+
+
+---
+
+# Item
+## id
+QM-101-46CEB21AF3A7
+## title
+Cell coat:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell coat:
+## answer_a
+mix of glycolipid, glycoprotein
+## explanation_a
+True. The coat is a mixture of glycolipid and glycoprotein — sugar carried on the lipid and on the protein of the outer leaflet.
+## answer_b
+have receptors
+## explanation_b
+True. The receptors for drugs, hormones, bacteria and viruses are part of the coat.
+## answer_c
+on internal surface only
+## explanation_c
+False, and it is the statement the answer excludes. The coat is on the external surface only.
+## answer_d
+all except C
+## explanation_d
+Correct. A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the one false statement in a set about the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-85716F507B4B
+## title
+Cell membrane is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane is formed of:
+## answer_a
+Lipids
+## explanation_a
+True, but not the whole answer. Lipid is the phospholipid bilayer plus cholesterol.
+## answer_b
+Carbohydrates
+## explanation_b
+True, but not the whole answer. Carbohydrate is the smallest component by mass and sits on the outer surface only, but it is a component.
+## answer_c
+Proteins
+## explanation_c
+True, but not the whole answer. Protein is about half the membrane by mass.
+## answer_d
+All of the above
+## explanation_d
+Correct. Lipid, protein and carbohydrate — the three-part answer the department book's own heading gives.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three molecular components of the cell membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q7. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C753E50F4CB8
+## title
+Cell membrane of basophils shows receptors for:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane of basophils shows receptors for:
+## answer_a
+Ig A
+## explanation_a
+IgA is the immunoglobulin of secretions — tears, saliva, gut and airway mucus. Nothing puts a receptor for it on the basophil.
+## answer_b
+Ig E
+## explanation_b
+Correct. The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.
+## answer_c
+Ig M
+## explanation_c
+IgM is the first antibody of a primary response and the largest. Chosen by students reasoning from size or from primacy, neither of which is what the receptor is selected for.
+## answer_d
+Ig D
+## explanation_d
+IgD sits on the surface of B lymphocytes as an antigen receptor. It is a membrane immunoglobulin, which makes it tempting, but it is on a different cell.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the immunoglobulin whose receptor the basophil membrane carries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q58. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D969628A2123
+## title
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## answer_a
+allows gas exchange
+## explanation_a
+True, so not the false one. Oxygen and carbon dioxide cross the lipid bilayer freely, which is the whole basis of the red cell's work.
+## answer_b
+allows escape of Hb
+## explanation_b
+False, and therefore the answer. If haemoglobin could escape, the red cell would empty itself into the plasma; selectivity means small gases pass and the large protein does not.
+## answer_c
+prevents of escape of Hb
+## explanation_c
+True, so not the false one. It is the same statement as B with the sense reversed, and having both in one option set is the point — a student who reads quickly will pick whichever they see first.
+## answer_d
+none of the above
+## explanation_d
+There is a false statement in the set, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise selective permeability as keeping large molecules in while letting gases through.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q70. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-184A377D9DD4
+## title
+function of cell coat:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+function of cell coat:
+## answer_a
+identification, adhesion
+## explanation_a
+True, but not the whole answer. Identification and adhesion are the two functions most often quoted.
+## answer_b
+immunity
+## explanation_b
+True, but not the whole answer. The book lists cell immunity among the coat's functions.
+## answer_c
+protection
+## explanation_c
+True, but not the whole answer. Protection is on the same list.
+## answer_d
+all the above
+## explanation_d
+Correct. The department book gives adhesion, identification, protection and cell immunity together, so any single option leaves most of the list out.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall the full list of cell coat functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-10F1B3FE279F
+## title
+function of the cell coat is /are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+function of the cell coat is /are:
+## answer_a
+cell adhesion
+## explanation_a
+True, but not the whole answer. Adhesion of one cell to another is a coat function.
+## answer_b
+cell recognition
+## explanation_b
+True, but not the whole answer. Recognition of self from foreign is a coat function.
+## answer_c
+act as specific cell receptor
+## explanation_c
+True, but not the whole answer. The specific receptors of the cell are carried on the coat.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight the department puts on it.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall the full list of cell coat functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q19. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1BC9AF49F28D
+## title
+Gap junction Is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Gap junction Is characterized by:
+## answer_a
+Present at site of mechanical stress e.g. friction
+## explanation_a
+Sites of mechanical stress and friction are where desmosomes are, because the desmosome is the strongest junction. The gap junction is a communication device and adds almost nothing to adhesion.
+## answer_b
+Intercellular space filled with adhesive material
+## explanation_b
+An intercellular space filled with adhesive material describes the adherens junction and the desmosome, where transmembrane proteins are joined across a wide gap with calcium.
+## answer_c
+Condensation of actin at the cytoplasmic side of plasma membrane
+## explanation_c
+Condensation of actin on the cytoplasmic side is the zonula adherens. Intermediate filaments, not actin, go to the desmosome, and nothing is anchored at a gap junction.
+## answer_d
+Permits the passage of ions
+## explanation_d
+Correct. The gap junction's channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.
+## correct_answer
+D
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Histology-general
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the gap junction by what passes through it rather than by what holds it together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q42. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C each describe a different junction — desmosome, adherens junction and adherens junction again — and only D describes the gap junction, whose channels carry ions and small molecules.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7DD4AEBF8F5F
+## title
+Glycocalyx can be detected by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx can be detected by:
+## answer_a
+H & E
+## explanation_a
+H&E shows neither the membrane nor its coat; the coat is too thin and too little coloured by either dye. This is the option taken by students who assume that anything on a routine slide must be H&E-visible.
+## answer_b
+PAS
+## explanation_b
+True, but not the whole answer. PAS is the carbohydrate stain and it does show the coat.
+## answer_c
+Ag
+## explanation_c
+True, but not the whole answer. Silver also demonstrates it.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Choose the stains that demonstrate carbohydrate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q16. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8364BC600AB6
+## title
+Glycocalyx is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx is:
+## answer_a
+the protein component of the cell membrane
+## explanation_a
+The protein component is the peripheral and integral proteins. "Glyco-" is the part of the word that names what this actually is.
+## answer_b
+the carbohydrate component of the cell membrane
+## explanation_b
+Correct. The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.
+## answer_c
+the hydrophilic end of lipid
+## explanation_c
+The hydrophilic end of the phospholipid is its head, which faces the aqueous solution. It is on the outer surface too, which is what makes this option tempting, but it is lipid, not sugar.
+## answer_d
+the hydrophobic end of lipid
+## explanation_d
+The hydrophobic end is the fatty acid tail, and it points inwards, away from the surface entirely.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the glycocalyx as the carbohydrate component of the membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q66. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F8BFA6C6DF80
+## title
+Glycocalyx is formed of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx is formed of
+## answer_a
+Molecules of lipoproteins and glycoproteins
+## explanation_a
+Lipoproteins are what the membrane as a whole is often called. The coat is specifically the sugar carried on lipid and on protein, and "lipoprotein" leaves the sugar out.
+## answer_b
+Molecules of glycolipids and glycoproteins
+## explanation_b
+Correct. Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.
+## answer_c
+Molecules of proteoglycans and glycoproteins
+## explanation_c
+Proteoglycans are ground substance molecules of connective tissue. They are sugar-rich, which is why the option looks plausible, but they are extracellular matrix, not membrane coat.
+## answer_d
+Molecules of phospholipids and cholesterol
+## explanation_d
+Phospholipids and cholesterol are the lipid of the bilayer itself, underneath the coat rather than part of it.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the two molecule types that make up the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q3. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-D977AEFB3ECD
+## title
+How thick is the plasma membrane?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+How thick is the plasma membrane?
+## answer_a
+7.5-10 angstroms
+## explanation_a
+Angstroms are a tenth of a nanometre, so 7.5–10 Å would be under a nanometre — thinner than a single phospholipid molecule, and thinner than one leaflet of the bilayer.
+## answer_b
+7.5-10 nanometers
+## explanation_b
+Correct. 7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.
+## answer_c
+7.5-10 micrometers
+## explanation_c
+Micrometres would make the membrane about the width of a red blood cell. The whole point of the figure is that the membrane is far below light-microscopic resolution.
+## answer_d
+7.5-10 millimeters
+## explanation_d
+Millimetres would make it visible to the naked eye. The option is in the set only to mark the far end of the unit ladder that this question is entirely about.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q18. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A30D22C64E3F
+## title
+In zonula occludens, distance between two cell membranes is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In zonula occludens, distance between two cell membranes is:
+## answer_a
+20 nm
+## explanation_a
+20 nm is roughly the wide intercellular space of an adherens junction or a desmosome. Chosen by students who know the tight junction is narrow but not that it is nothing.
+## answer_b
+20 um
+## explanation_b
+20 µm is a thousand times too large — wider than most whole cells, so no junction could span it.
+## answer_c
+Zero
+## explanation_c
+Correct. At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.
+## answer_d
+200 um
+## explanation_d
+200 µm is larger still, and is in the set only as the far end of the unit ladder.
+## correct_answer
+C
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Epithelium
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the intercellular distance at a tight junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p17 q53. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8DEDD9DAE098
+## title
+One of the followings is not a function of the cell membrane:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is not a function of the cell membrane:
+## answer_a
+Active transport
+## explanation_a
+Active transport is a membrane function: the sodium–potassium pump is an integral protein of the membrane.
+## answer_b
+Passive diffusion
+## explanation_b
+Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the option the book keys, and taking it would mean denying that anything crosses a membrane unaided.
+## answer_c
+Phagocytosis
+## explanation_c
+Phagocytosis is a membrane function: the pseudopodia that surround a particle are membrane, and the phagosome is made from it.
+## answer_d
+RNA synthesis
+## explanation_d
+Correct. RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate what the membrane does from what the nucleus does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q14. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, and passive diffusion is a membrane function — it is the plainest one there is. RNA synthesis happens in the nucleus and is the only listed activity the membrane has no part in. The key is one letter off; the answer is D.
+
+
+---
+
+# Item
+## id
+QM-101-C0E930159466
+## title
+Protein components of the cell membrane is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Protein components of the cell membrane is
+## answer_a
+Peripheral present inside the lipid bilayer
+## explanation_a
+Peripheral proteins are outside the lipid bilayer, on one surface or the other. Inside the bilayer is where the integral proteins are.
+## answer_b
+Peripheral small continuous molecules outside the lipid bilayer
+## explanation_b
+The first half is right — peripheral proteins are outside the bilayer — but they are not a continuous layer; they are scattered and loosely attached. "Continuous" is what makes this option false.
+## answer_c
+integral present outside the lipid bilayer
+## explanation_c
+Integral proteins are not outside the bilayer. This option and A are the same swap made in both directions, which is what the question is set to catch.
+## answer_d
+integral may cross the lipid bilayer
+## explanation_d
+Correct. Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish peripheral from integral protein by position.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q2. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is as the department book has it.
+
+
+---
+
+# Item
+## id
+QM-101-746B8B8470EE
+## title
+Responsible for blood Grouping:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Responsible for blood Grouping:
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+Correct. The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+The membrane cytoskeleton on the inner surface gives the red cell its elasticity and its biconcave shape. It faces the cytoplasm, so it cannot be what another person's antibodies recognise.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer. It is the same in every red cell of every group and carries no identity.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids likewise are structural and identical between people. Only the sugar of the coat varies enough to type blood by.
+## correct_answer
+A
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute the blood group antigens to the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q42. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2C563A38D3F7
+## title
+Responsible for RBCs Elasticity & flexibility:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Responsible for RBCs Elasticity & flexibility:
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+The cell coat on the outer surface carries the blood group antigens. It identifies the cell; it does not give it shape. This is the paired question to `responsible-for-blood-grouping`, with the same four options, and swapping the two answers is what the pair is designed to catch.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+Correct. The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer and restricts phospholipid movement — it makes the membrane less mobile, not more deformable.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids form the bilayer, which is fluid but has no mechanical memory of its own. Shape and recoil come from the protein scaffold beneath it.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute red cell deformability to the membrane cytoskeleton on the inner surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q43. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5E9950F9878C
+## title
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the membrane itself, the structure the coat sits on.
+## answer_b
+Glycocalyx
+## explanation_b
+Correct. Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.
+## answer_c
+cristae
+## explanation_c
+Cristae are the folds of the inner mitochondrial membrane. They are in the option set because this book uses one quartet of membranous terms across several questions.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and the Golgi.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the carbohydrate coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p1 q1. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6681A45B06B1
+## title
+The cell limiting membrane is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell limiting membrane is:
+## answer_a
+plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane that envelopes the cell — that is the department book's own definition of it.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is carried on the plasmalemma's outer surface. It is a coat, not a membrane, and it does not limit the cell by itself.
+## answer_c
+cristae
+## explanation_c
+Cristae are folds of the inner mitochondrial membrane, inside an organelle rather than around the cell.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the sacs of the endoplasmic reticulum, again inside the cell.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the limiting membrane of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q9. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5ABBC3E6C206
+## title
+The cell membrane can be demonstrated by
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane can be demonstrated by
+## answer_a
+H&E
+## explanation_a
+H&E does not show it. This is the option most students take, because H&E is the slide they see every week — but the membrane is below the light microscope's resolution and neither dye concentrates in it.
+## answer_b
+PAS
+## explanation_b
+Correct. PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.
+## answer_c
+Sudan III
+## explanation_c
+Sudan III is a fat stain, used on frozen sections for fat inclusions. The membrane's lipid is far too little to show with it.
+## answer_d
+Orcein
+## explanation_d
+Orcein stains elastic fibres in connective tissue and has nothing to do with the cell membrane.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Choose the stain that shows the cell membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p24 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7A8EE77C6B82
+## title
+The cell membrane of the mast cells have specific receptors for:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane of the mast cells have specific receptors for:
+## answer_a
+IgM
+## explanation_a
+IgM is the first antibody of a primary response, made and released by plasma cells rather than bound at a mast cell surface.
+## answer_b
+IgG
+## explanation_b
+IgG is the commonest circulating immunoglobulin and the one crossing the placenta. Chosen by students reasoning from abundance.
+## answer_c
+IgA
+## explanation_c
+IgA is the immunoglobulin of secretions and is handled by epithelium, not by mast cells.
+## answer_d
+IgE
+## explanation_d
+Correct. The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the department book compares the two cells directly.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Connective Tissue
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the immunoglobulin whose receptor the mast cell membrane carries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5956BF7665DA
+## title
+The cell membrane’s thickness ranges from:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane’s thickness ranges from:
+## answer_a
+4-6 nm thick
+## explanation_a
+4–6 nm is thinner than the bilayer plus its coat, and is roughly what a single leaflet with its head groups would measure.
+## answer_b
+6-7.5 nm thick
+## explanation_b
+6–7.5 nm brushes the bottom of the true range without reaching it. This option is set immediately below the answer, so it catches a half-remembered figure.
+## answer_c
+7.5-10 nm thick
+## explanation_c
+Correct. 7.5–10 nm is the range the department book gives.
+## answer_d
+10-30 nm thick
+## explanation_d
+10–30 nm is thicker than any plasma membrane and closer to the width of an intercellular gap at an adherens junction.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the membrane thickness as a range within the right order of magnitude.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q89. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.
+
+
+---
+
+# Item
+## id
+QM-101-3E2B2A4C58D7
+## title
+The function of cholesterol in the cell membrane is to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The function of cholesterol in the cell membrane is to:
+## answer_a
+act as channels
+## explanation_a
+Channels are integral proteins spanning the bilayer. Cholesterol sits between the fatty acid tails and conducts nothing.
+## answer_b
+stabilize the cell membrane
+## explanation_b
+Correct. Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.
+## answer_c
+act as receptors
+## explanation_c
+Receptors are on the cell coat and are glycoprotein. Cholesterol is buried in the lipid interior where no extracellular ligand could reach it.
+## answer_d
+both a & c are correct
+## explanation_d
+Both a and c would need cholesterol to be a channel and a receptor, and it is neither. This is the option for a student who thinks a lipid this famous must be doing more than one thing.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State what cholesterol does in the bilayer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q15. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C201BD3B8707
+## title
+The inner folds of mitochondrial membrane are called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The inner folds of mitochondrial membrane are called:
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the limiting membrane of the whole cell, not a fold inside an organelle.
+## answer_b
+Glycocalyx
+## explanation_b
+Glycocalyx is the carbohydrate coat on the outer surface of the plasmalemma.
+## answer_c
+cristae
+## explanation_c
+Correct. Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and of the Golgi. This quartet of four membranous terms is reused across several questions in this book, and answering it is a matter of holding all four apart at once.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Tell the plasmalemma apart from the other membranous terms the books offer beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q8. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0DEA8F1A2035
+## title
+The thickness of the cell membraneis:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The thickness of the cell membraneis:
+## answer_a
+7.5 – 10 mm
+## explanation_a
+7.5–10 mm is a centimetre-scale membrane. The option is at the far end of the unit ladder this question is built from.
+## answer_b
+7.5 – 10 µm
+## explanation_b
+7.5–10 µm is about the diameter of a red blood cell — a thousand times too thick.
+## answer_c
+7.5 – 10 nm
+## explanation_c
+Correct. 7.5–10 nm.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q8. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-722A91AFC392
+## title
+thickness of the cell membrane is about:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+thickness of the cell membrane is about:
+## answer_a
+7.5.10nm
+## explanation_a
+Correct. 7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.
+## answer_b
+7.5 .10 µm
+## explanation_b
+The same figure in micrometres, a thousandfold too thick.
+## answer_c
+75.100nm
+## explanation_c
+75–100 nm is ten times the true thickness and is closer to the diameter of a small vesicle.
+## answer_d
+75.100µm
+## explanation_d
+75–100 µm is larger than most whole cells.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit and the correct order of magnitude.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A1121ECFAB20
+## title
+What is the limiting membrane of a cell?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the limiting membrane of a cell?
+## answer_a
+Plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane enveloping the cell.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is the coat carried on the plasmalemma's outer face, not the membrane itself.
+## answer_c
+Protoplasm
+## explanation_c
+Protoplasm is the whole living content of the cell, cytoplasm and nucleus together. It is what the membrane encloses, not what encloses it.
+## answer_d
+Cristae
+## explanation_d
+Cristae are folds of the inner mitochondrial membrane.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the limiting membrane of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q4. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-41363525B8AA
+## title
+Which molecule of the cell membrane has a stabilizing effect?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which molecule of the cell membrane has a stabilizing effect?
+## answer_a
+cholesterol
+## explanation_a
+Correct. Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.
+## answer_b
+cell coat
+## explanation_b
+The cell coat is on the outer surface and does recognition, adhesion and reception. It contributes nothing to the mechanical stability of the lipid.
+## answer_c
+Phospholipids
+## explanation_c
+Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the option the book keys, and taking it reverses the relationship the question is about.
+## answer_d
+Intrinsic proteins
+## explanation_d
+Intrinsic — integral — proteins are channels, carriers and pumps. They cross the bilayer but they do not hold it together.
+## correct_answer
+A
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute membrane stabilisation to cholesterol.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q2. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.
 
 
 ---
