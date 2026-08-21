@@ -19,7 +19,12 @@ import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
-import { removeStoredMedia, resolveMediaSource, storeMediaFile } from '@/lib/mediaStorage'
+import { isStoredMediaReference, removeStoredMedia, resolveMediaSource } from '@/lib/mediaStorage'
+import { uploadMedia, verifyRenders } from '@/lib/mediaUpload'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { useIdentity } from '@/lib/useIdentity'
+import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
+import { MEDIA_STATE_KEY, emptyMediaLibrary, mediaUrl, type MediaLibraryDocument, type MediaRecord } from '@/data/mediaLibrary'
 import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
@@ -115,6 +120,8 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
   const [draft, setDraft] = useState<ManagedContentItem>(() => item ?? emptySlide())
   const [pinObjective, setPinObjective] = useState<Objective>(OBJECTIVES[0])
   const [selectedStructureId, setSelectedStructureId] = useState<string | null>(null)
+  const [library, setLibrary] = usePersistentState<MediaLibraryDocument>(MEDIA_STATE_KEY, emptyMediaLibrary)
+  const identity = useIdentity()
   const [mediaError, setMediaError] = useState('')
   const [uploading, setUploading] = useState<Objective | null>(null)
 
@@ -170,21 +177,46 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
     // draft is a render old.
     const previous = data.views.find((view) => view.objective === objective)
     setUploading(objective)
-    const id = `histology-${objective}x-${Date.now()}-${file.name.replace(/[^a-zA-Z0-9._-]/g, '-')}`
     try {
-      const image = await storeMediaFile(id, file)
-      // The picture being replaced is nobody's now, so it does not sit in the
-      // browser's storage for the rest of the slide's life. Its pins stay: a
-      // replacement is almost always a better scan of the same field.
-      if (previous) void removeStoredMedia(previous.image).catch(() => {})
+      // On the server, like every other image. A slide that only existed in the
+      // uploader's browser rendered perfectly for them and reached no student —
+      // histology arrived after that bug and inherited it.
+      const { measured, alreadyStored } = await uploadMedia(file)
+      const twin = alreadyStored
+        ? (library.records ?? []).find((record) => record.sha256 === measured.sha256)
+        : undefined
+      let mediaId = twin?.id
+      if (!mediaId) {
+        const record: MediaRecord = {
+          id: `med-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+          ...measured,
+          title: `${draft.title || 'Slide'} · ${objective}×`,
+          // Blank on purpose: the file is safe, and it is not publishable until
+          // somebody says what it shows and where it came from.
+          altText: '',
+          rights: '',
+          tags: { moduleIds: [], moduleSubjectPaths: [], conceptIds: [], yearIds: [] },
+          uploadedBy: identity.userId ?? 'unknown',
+          uploadedAt: new Date().toISOString(),
+        }
+        setLibrary((current) => ({ ...current, records: [record, ...(current.records ?? [])] }))
+        mediaId = record.id
+      }
+      await verifyRenders(mediaId)
+      const image = mediaUrl(mediaId)
+      // A replaced picture that only ever lived in this browser is nobody's
+      // now. One on the server is left alone: another slide may name it.
+      if (previous && isStoredMediaReference(previous.image)) void removeStoredMedia(previous.image).catch(() => {})
       updateData((current) => ({
         ...current,
         views: [...current.views.filter((view) => view.objective !== objective), { objective, image }]
           .sort((a, b) => a.objective - b.objective),
       }))
       setPinObjective(objective)
-    } catch {
-      setMediaError(`${file.name} could not be stored. Check available browser storage and try again.`)
+    } catch (reason) {
+      setMediaError(reason instanceof Error
+        ? `${file.name} was not stored: ${reason.message}`
+        : `${file.name} could not be stored.`)
     } finally {
       setUploading(null)
     }
@@ -351,6 +383,19 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                       </div>
                       {preview && (
                         <img src={preview} alt="" className="mb-2 block h-24 w-full rounded-md object-cover" />
+                      )}
+                      {view && isStoredMediaReference(view.image) && (
+                        <div className="mb-2">
+                          <StrandedMediaNotice
+                            reference={view.image}
+                            title={`${draft.title || 'Slide'} · ${objective}×`}
+                            onRecovered={(mediaId) => updateData((current) => ({
+                              ...current,
+                              views: current.views.map((candidate) =>
+                                candidate.objective === objective ? { ...candidate, image: mediaUrl(mediaId) } : candidate),
+                            }))}
+                          />
+                        </div>
                       )}
                       <label className="flex min-h-9 cursor-pointer items-center justify-center gap-1.5 rounded-md border border-line bg-surface px-2 text-[11.5px] font-semibold text-ink-2 hover:border-primary-line hover:text-primary-strong">
                         <Icon icon={ImagePlus} size={14} />
