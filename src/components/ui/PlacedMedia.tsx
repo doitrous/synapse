@@ -4,6 +4,29 @@ import { mediaUrl, type MediaPlacement, type MediaRecord } from '@/data/mediaLib
 import { apiFetchFile } from '@/lib/api'
 
 /**
+ * Whether these bytes actually begin like an image.
+ *
+ * The server identifies an upload from its own content and refuses anything
+ * else; this is the reading half of that stance. Without it, anything answering
+ * 200 — an SPA index page, a proxy's error page, a sign-in redirect — becomes a
+ * Blob labelled `image/png` and renders as a broken picture with no
+ * explanation. A broken image tells the reviewer nothing; a sentence does.
+ */
+function looksLikeImage(bytes: ArrayBuffer): boolean {
+  const head = new Uint8Array(bytes.slice(0, 12))
+  if (head.length < 12) return false
+  const starts = (...signature: number[]) => signature.every((byte, index) => head[index] === byte)
+  const ascii = (offset: number, text: string) =>
+    [...text].every((character, index) => head[offset + index] === character.charCodeAt(0))
+  return (
+    starts(0x89, 0x50, 0x4e, 0x47)          // PNG
+    || starts(0xff, 0xd8, 0xff)             // JPEG
+    || ascii(0, 'GIF8')                     // GIF
+    || (ascii(0, 'RIFF') && ascii(8, 'WEBP'))
+  )
+}
+
+/**
  * One placed image, fetched with the session's credentials.
  *
  * `GET /api/media/:id` is authenticated, and an `<img src>` cannot send a
@@ -28,6 +51,10 @@ export function PlacedImage({ record, caption, className }: {
     apiFetchFile(mediaUrl(record.id))
       .then((bytes) => {
         if (!active) return
+        if (!looksLikeImage(bytes)) {
+          setError('The server did not return an image for this record. It may not have finished uploading.')
+          return
+        }
         objectUrl = URL.createObjectURL(new Blob([bytes], { type: record.mimeType }))
         setSource(objectUrl)
       })
