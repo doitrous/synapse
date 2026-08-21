@@ -43,8 +43,19 @@ const LEDGER = 'docs/Kasr-Source-Imports/coverage/101-ISK-untaught-concepts.md'
 const field = (block: string, label: string) =>
   block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |$)`, 'm'))?.[1].trim() ?? ''
 
+/**
+ * A list column's entries.
+ *
+ * `[clear]` is dropped. It is the batch format's marker for "present, and empty
+ * on purpose" — the thing `check-concept-presence` exists to distinguish from a
+ * field nobody thought about — so it is a statement that there are no entries,
+ * never an entry itself. Before the blank-field fix above it was never seen
+ * here, because the reader returned the following heading instead; now that the
+ * reader is right, the marker has to be understood rather than passed through
+ * as the name of an article called `[clear]`.
+ */
 const list = (value: string) =>
-  value.split(/[|;\n]/).map((one) => one.trim()).filter(Boolean)
+  value.split(/[|;\n]/).map((one) => one.trim()).filter((one) => one && one !== '[clear]')
 
 const blocks = (dir: string) =>
   readdirSync(dir).filter((name) => name.endsWith('.md')).flatMap((name) =>

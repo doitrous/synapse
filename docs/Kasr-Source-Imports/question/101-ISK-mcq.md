@@ -5,8 +5,12 @@
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
+    Cardiovascular system — 9 questions, 2 concepts
+    Connective Tissue Cells — 89 questions, 21 concepts
+    Connective Tissue Fibres — 51 questions, 11 concepts
     Cytoplasm — 286 questions, 23 concepts
     Embryonic Period — 9 questions, 2 concepts
+    Fascia — 14 questions, 2 concepts
     Fetal Membranes — 69 questions, 16 concepts
     Fetal Period — 6 questions, 3 concepts
     First Week of Development — 24 questions, 6 concepts
@@ -16,9 +20,13 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
+    Introduction — 16 questions, 3 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Lymphatic system — 4 questions, 2 concepts
     Microscopes — 7 questions, 2 concepts
+    Microtechniques — 87 questions, 24 concepts
     Muscles of the Back — 29 questions, 9 concepts
+    Muscular system — 11 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
     Nervous system — 16 questions, 4 concepts
@@ -27,16 +35,17 @@
     Nucleus — 70 questions, 7 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
-    Red Blood Corpuscles — 61 questions, 14 concepts
+    Red Blood Corpuscles — 61 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 40 questions, 19 concepts
+    Skeletal system — 43 questions, 7 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Third Week of Development — 33 questions, 6 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
     Veins of the Upper Limb — 9 questions, 3 concepts
 
-  Extracted from 2704 distinct questions across thirty question books and
+  Extracted from 2867 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
   copy each other freely. Every item carries how many times it was asked, which is
   blueprint evidence no single sat paper can give.
@@ -46,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  377 questions were excluded and 0 held back for having no
+  477 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1536,7 +1545,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -1548,9 +1557,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q74. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q74; EOM ISK 101 - 2023.pdf p7 q78. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. In the cubital fossa the median nerve lies medial to the brachial artery, so C is the statement that is not correct; A, B and D are all true of the nerve.
 
@@ -2453,7 +2462,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -2465,9 +2474,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q12. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q12; EOM ISK 101 - 2023.pdf p9 q96. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -2536,7 +2545,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -2548,9 +2557,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q15. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q15; EOM ISK 101 195 Answers.pdf p6 q64. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, and A is wrong: brachialis is supplied by the musculocutaneous nerve, with a twig from the radial, and never by the median. C is true — brachialis is the main flexor of the elbow joint. This is the department book's revised printing of a question whose earlier versions had no true option at all, and the revision is exactly the addition of C.
 
@@ -3117,7 +3126,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -3129,9 +3138,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p56 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p56 q1; EOM ISK EOM exam 2024.pdf p6 q64. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The nerve pierces the deep fascia at the lateral border of the biceps tendon about an inch above the elbow and continues as the lateral cutaneous nerve of the forearm, which makes C true; A reverses its plane, B gives the wrong cord and D gives it a radial muscle.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -3200,7 +3209,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -3212,9 +3221,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3; EOM ISK EOM exam 2024.pdf p6 q67. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, and C is the exact opposite of the truth: biceps is the powerful supinator, and it cannot pronate. B is the answer — flexion and supination of the forearm.
 
@@ -3370,7 +3379,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -3382,9 +3391,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q15. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q15; EOM ISK 101 - 2023.pdf p7 q73. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -3959,7 +3968,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -3971,9 +3980,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q2. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q2; EOM ISK 101 195 Answers.pdf p7 q73. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, and C is wrong: the nerve supplies brachialis and lies on it, but the muscle it pierces is coracobrachialis. The same question at `the-musculocutaneous-nerve-pierces-which-muscle-2022-em-em-e-ce2ed1fe` keys A.
 
@@ -4042,7 +4051,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -4054,9 +4063,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q5; EOM ISK 101 - 2023.pdf p10 q105. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -4876,7 +4885,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -4888,9 +4897,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16; EOM ISK End 101 — 2022.pdf p4 q47. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The book prints B, the fibrous capsule, which is the first of the seven components and plainly a true character. The false statement is C: articular cartilage is hyaline, not yellow elastic — elastic cartilage is found in the pinna and epiglottis and never on an articular surface.
 
@@ -5042,7 +5051,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -5054,9 +5063,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18; EOM ISK 101 195 Answers.pdf p4 q45. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Of the four, only the knee is synovial, and a joint cavity — even a potential one — exists in no other class of joint.
 
@@ -5872,7 +5881,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -5884,9 +5893,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79; EOM ISK 101 195 Answers.pdf p8 q82. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root; the medial pectoral, axillary and thoracodorsal nerves all arise from cords.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -6125,7 +6134,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -6137,9 +6146,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14; EOM ISK 101 - 2023.pdf p9 q97. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries D, but serratus anterior genuinely does form the medial wall of the axilla, so it cannot be the exception. The exception is B: the roots of the plexus lie in the neck and the axilla holds the cords.
 
@@ -8382,7 +8391,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -8394,9 +8403,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1; EOM ISK 101 195 Answers.pdf p10 q104. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries C, but the long head of triceps arises from the infraglenoid tubercle of the scapula and runs down the back of the arm, nowhere near the groove. The intertubercular groove lodges the tendon of the long head of biceps, held there by the transverse humeral ligament.
 
@@ -9220,7 +9229,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -9232,9 +9241,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q10. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q10; EOM ISK 101 195 Answers.pdf p10 q106. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key; the keyed copy `the-suprascapular-nerve-is-a-branch-from-the-ipka-2022-2021-54f34e95` marks D, the posterior cord, which is wrong. The suprascapular nerve is one of the two branches of the upper trunk, with the nerve to subclavius.
 
@@ -10647,7 +10656,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -10659,9 +10668,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39. Manifest src_c6ab1b49dc16762227e1.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39; EOM ISK End 101 — 2022.pdf p4 q441. Manifest src_c6ab1b49dc16762227e1, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Delta granules do hold ATP; each of the other three options misassigns either a structure or a granule content.
 
@@ -11411,6 +11420,9646 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-88A2143118F9
+## title
+The right atrium receives blood from:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The right atrium receives blood from:
+## answer_a
+Superior and inferior vena cava
+## explanation_a
+Correct. The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.
+## answer_b
+Pulmonary artery
+## explanation_b
+The pulmonary artery leaves the right ventricle for the lungs. Naming it here would reverse the direction of flow through the right heart.
+## answer_c
+Aorta
+## explanation_c
+The aorta leaves the left ventricle. It is the outflow of the other side of the heart entirely.
+## answer_d
+Pulmonary veins
+## explanation_d
+The four pulmonary veins are the trap, and a good one: they carry blood back to the heart, so a student thinking only "veins return blood" takes them. They return it to the *left* atrium, and the blood in them is oxygenated.
+## correct_answer
+A
+## main_concept
+CON-MSK-655D74FEE1515A
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the vessels that empty into the right atrium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q43; Anatomy MCQ Book [2025] [first priority].pdf p8 q43. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-71259EFFD400
+## title
+Regarding the systemic circulation, which of the following statements is true?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the systemic circulation, which of the following statements is true?
+## answer_a
+The blood passes from the right ventricle to the right atrium
+## explanation_a
+Backwards through the right heart. Blood passes from the right atrium to the right ventricle, and in any case that is the start of the pulmonary circuit, not the systemic one.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium
+## explanation_b
+Half right, which is why it is printed. The veins do collect blood into the right atrium, but what they collect is deoxygenated blood — the oxygen was given up in the tissues, which is the point of the circuit.
+## answer_c
+Deoxygenated blood passes through the aorta to all tissues of the body
+## explanation_c
+The right vessel with the wrong blood. The aorta does carry blood to all the tissues, but it leaves the left ventricle and the blood in it is oxygenated.
+## answer_d
+Oxygenated blood passes through the aorta to all tissues of the body
+## explanation_d
+Correct. Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.
+## correct_answer
+D
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about the systemic circulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q44; Anatomy MCQ Book [2025] [first priority].pdf p8 q44; EOM first 2021 101 INT end of module.pdf p3 q16. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc, src_9487fd713153c573087f.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D6FC9CDB32CB
+## title
+Regarding the pulmonary ‘circulation, which of the following statements is true? (DEP B…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pulmonary ‘circulation, which of the following statements is true? (DEP BOOK). P a- The blood passes from the right ventricle to the right atrium. P Vi ad
+## answer_a
+The blood passes from the right ventricle to the right atrium.
+## explanation_a
+Backwards. Blood passes from the right atrium to the right ventricle and out through the pulmonary valve; a ventricle never fills the atrium above it.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium.
+## explanation_b
+A description of the systemic circulation with the wrong blood in it. Veins do collect into the right atrium, but the blood they bring is deoxygenated.
+## answer_c
+Oxygenated blood returns from the lung to the left atrium.
+## explanation_c
+Correct, and the override. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.
+## answer_d
+Deoxygenated blood passes through the aorta to all tissues of the body.
+## explanation_d
+The aorta carries oxygenated blood, and it belongs to the systemic circulation. This option and B are the same swap made in opposite directions.
+## correct_answer
+C
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about the pulmonary circulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The "(DEP BOOK)" copy printed no key, and the only other printing of this question is too damaged to import. C is the department chapter's own account of the pulmonary circulation: oxygenated blood returns from both lungs to the left atrium by the four pulmonary veins. The other three options describe flows the chapter denies.
+
+
+---
+
+# Item
+## id
+QM-101-9C6733423B17
+## title
+Regarding the portal circulation, which of the following statements is true? (DEP BOOK). P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the portal circulation, which of the following statements is true? (DEP BOOK). P
+## answer_a
+The venous blood from the digestive system enters the liver through the portal vein
+## explanation_a
+Correct. The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.
+## answer_b
+The venous blood leaves the liver through the portal vein. ad
+## explanation_b
+The right vein, the wrong direction, and the commonest error in the leaf. The portal vein brings blood in; the hepatic veins take it out to the inferior vena cava.
+## answer_c
+The venous blood from the digestive system enters the liver through the hepatic vein
+## explanation_c
+The two names swapped. The hepatic vein is the exit, not the entrance, and this option differs from the answer by one word.
+## answer_d
+The venous blood enters the liver through the inferior vena cava
+## explanation_d
+The inferior vena cava is where portal blood ends up *after* the liver, by way of the hepatic veins. Nothing enters the liver from it.
+## correct_answer
+A
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which vessel brings blood to the liver and which takes it away.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `regarding-the-portal-circulation-which-of-the-following-stat-02876c54` is keyed A, and A is what the department chapter states: venous blood from the stomach, spleen, pancreas and intestine is collected into the portal vein, which enters the liver through the porta hepatis. This is the only copy in which options A and C are printed in full, so it is the only one in which that key can be acted on.
+
+
+---
+
+# Item
+## id
+QM-101-41BB2EB900AE
+## title
+Most common cell in Connective tissue is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Most common cell in Connective tissue is :
+## answer_a
+Fibroblast
+## explanation_a
+Correct. The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.
+## answer_b
+Plasma cells
+## explanation_b
+Plasma cells are free cells, numerous only in lymphoid tissue and at sites of chronic inflammation.
+## answer_c
+Mast cells
+## explanation_c
+Mast cells are scattered, chiefly around blood vessels and under the epithelium of gut and lung.
+## answer_d
+Macrophages
+## explanation_d
+Macrophages are numerous where there is something to eat, but they are immigrants from the blood rather than the resident population.
+## correct_answer
+A
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the commonest cell of connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q144. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C21FA682FBB6
+## title
+Regarding fibroblasts all of the following are true except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding fibroblasts all of the following are true except:
+## answer_a
+Are rare cells in connective tissue
+## explanation_a
+The exception, and the answer. Fibroblasts are the commonest cell of connective tissue proper, not rare ones.
+## answer_b
+Produce collagen fibers
+## explanation_b
+True, so not the exception. Producing collagen is the fibroblast's chief work.
+## answer_c
+Are the main cell type in dense connective tissue
+## explanation_c
+True, so not the exception. In dense connective tissue there is little but collagen and fibroblasts.
+## answer_d
+Cannot undergo cell division
+## explanation_d
+True as the books mean it, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.
+## correct_answer
+A
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the fibroblast as the commonest connective tissue cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q54. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-EC5842FFE602
+## title
+Collagen fibers are mainly synthesized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen fibers are mainly synthesized by:
+## answer_a
+Mast cells
+## explanation_a
+Mast cells store and release heparin and histamine. They build nothing.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages digest — including old collagen. They are the demolition half of the pair, not the construction half.
+## answer_c
+Fibroblasts
+## explanation_c
+Correct. Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.
+## answer_d
+plasma cells
+## explanation_d
+Plasma cells are protein-synthesising cells, but the protein is antibody, which is exported into the plasma rather than laid down as fibre.
+## correct_answer
+C
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell that makes collagen in connective tissue proper.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q81. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B486EBD2027
+## title
+Which connective tissue cell type produces collagen?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which connective tissue cell type produces collagen?
+## answer_a
+Fibroblast
+## explanation_a
+Correct. The fibroblast.
+## answer_b
+Connective tissue macrophage
+## explanation_b
+The connective tissue macrophage phagocytoses; it makes no fibre.
+## answer_c
+Histiocyte
+## explanation_c
+Histiocyte is simply the other name for the connective tissue macrophage, so B and C are the same cell offered twice — which is a clue that neither is the answer.
+## answer_d
+Plasma cell
+## explanation_d
+The plasma cell makes antibody.
+## correct_answer
+A
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the collagen-producing connective tissue cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q26. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-9C8B772BA3F5
+## title
+The ground substance of connective tissue is synthesized mainly by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The ground substance of connective tissue is synthesized mainly by:
+## answer_a
+Mast cells
+## explanation_a
+Mast cells release heparin into the tissue, which is a glycosaminoglycan — but releasing a stored mediator is not synthesising the matrix.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages break the matrix down during remodelling; they do not lay it down.
+## answer_c
+Fibroblasts
+## explanation_c
+Correct. The fibroblast makes both the fibres and the ground substance they lie in.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell exports antibody and nothing structural.
+## correct_answer
+C
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the ground substance to the fibroblast as well as the fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q92. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D0D0DFC765E3
+## title
+Elastic fibers are formed by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic fibers are formed by:
+## answer_a
+fibroblasts
+## explanation_a
+Correct. The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.
+## answer_b
+macrophages
+## explanation_b
+Macrophages are phagocytes. This is the option chosen by students who assume a different fibre must mean a different cell.
+## answer_c
+fat cells
+## explanation_c
+Fat cells store lipid and secrete leptin.
+## answer_d
+mast cells
+## explanation_d
+Mast cells secrete heparin and histamine.
+## correct_answer
+A
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the elastic fibre to the same cell that makes collagen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q117. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-118B963E4E39
+## title
+All the followings are concerned to the function of the fibroblast EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the followings are concerned to the function of the fibroblast EXCEPT:
+## answer_a
+Secretion of elastin and fibrillin
+## explanation_a
+True, so not the exception. Elastin and fibrillin are both fibroblast products — fibrillin is the microfibril scaffold the elastin is laid on.
+## answer_b
+Secretion of collagen
+## explanation_b
+True, so not the exception. Collagen is its principal product.
+## answer_c
+Repair of injuries
+## explanation_c
+True, so not the exception. Wound healing is the fibrocyte turning active again and laying down new collagen.
+## answer_d
+Growth of epithelium
+## explanation_d
+The exception, and the answer. Epithelium grows on its own account, from its own stem cells; the fibroblast supplies the connective tissue beneath it and does not drive it.
+## correct_answer
+D
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Keep epithelial growth off the fibroblast's list of functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q13. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4D807EA12030
+## title
+Fibroblast has the following functions EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fibroblast has the following functions EXCEPT:
+## answer_a
+Synthesis of C.T fibers
+## explanation_a
+True, so not the exception. All three fibre types are fibroblast products.
+## answer_b
+Synthesis of ground substances
+## explanation_b
+True, so not the exception. The ground substance is made by the same cell.
+## answer_c
+Secretion of collagen
+## explanation_c
+True, so not the exception, and the same fact as A named more narrowly.
+## answer_d
+Secretion of heparin
+## explanation_d
+The exception, and the answer. Heparin comes from the mast cell — and the mast cell often sits right beside the fibroblast in loose connective tissue, which is what makes the swap easy.
+## correct_answer
+D
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Keep heparin off the fibroblast's list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q11. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4A84E916A3ED
+## title
+A Female was exposed to car accident while driving, resulting in many wounds In her bod…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A Female was exposed to car accident while driving, resulting in many wounds In her body. The wounds healed within few days. The main C.T. cell contributing for this healing Is:
+## answer_a
+Fibroblasts
+## explanation_a
+Correct. The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.
+## answer_b
+Fat cells
+## explanation_b
+Fat cells fill the space beneath the skin and store lipid. They contribute bulk, not repair — and in the obese, an excess of them actually delays healing.
+## answer_c
+Mast cells
+## explanation_c
+Mast cells release histamine in the first minutes of injury and open the vessels; that is the inflammatory phase, not the healing one.
+## answer_d
+Plasma cells
+## explanation_d
+Plasma cells make antibody and appear in chronic inflammation. They fight infection rather than close a wound.
+## correct_answer
+A
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the cell that heals a wound.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q43. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. Wound healing is the laying down of new collagen and ground substance, which is the fibroblast's work — the department book gives repair of injuries among its functions and says the fibrocyte becomes active again for wound healing.
+
+
+---
+
+# Item
+## id
+QM-101-9EDAE09B4802
+## title
+The following C.T. cells are a protein secreting cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following C.T. cells are a protein secreting cells:
+## answer_a
+Fat and macrophage cells
+## explanation_a
+The fat cell stores lipid and the macrophage digests; neither has the rough endoplasmic reticulum of an exporter.
+## answer_b
+Fat and fibroblast cell
+## explanation_b
+Half right — the fibroblast is one of the two — but the fat cell is not a protein-secreting cell, whatever its leptin output.
+## answer_c
+Macrophage and plasma cells
+## explanation_c
+Half right the other way: the plasma cell is one of the two, and the macrophage is not.
+## answer_d
+Fibroblast and plasma cells
+## explanation_d
+Correct. The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.
+## correct_answer
+D
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the two connective tissue cells built for protein export.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q34. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F21762C00112
+## title
+Which of the following cells of the connective tissue is richest in rER:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following cells of the connective tissue is richest in rER:
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is the resting fibroblast, with little rough endoplasmic reticulum — the active form would be a better answer than this one.
+## answer_b
+Monocytes
+## explanation_b
+The monocyte is a blood cell with pale non-granular cytoplasm and lysosomes; its work is digestion, not export.
+## answer_c
+Plasma cells
+## explanation_c
+Correct. The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.
+## answer_d
+Adipocytes
+## explanation_d
+The adipocyte is almost entirely one lipid droplet, with the cytoplasm squeezed into a rim.
+## correct_answer
+C
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the connective tissue cell with the most rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q31. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2560A0368ECA
+## title
+rER is present in the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+rER is present in the following except:
+## answer_a
+plasma cell
+## explanation_a
+True, so not the exception. The plasma cell is the type example of a rough-ER-rich cell.
+## answer_b
+pancreatic cell
+## explanation_b
+True, so not the exception. The pancreatic acinar cell exports digestive enzymes and is full of rough ER.
+## answer_c
+liver
+## explanation_c
+The exception, and the answer. The liver cell is dominated by *smooth* endoplasmic reticulum, for lipid and steroid synthesis and for detoxification — it has rough ER as well, but the question is asking which of the four is not characterised by it.
+## answer_d
+fibroblast
+## explanation_d
+True, so not the exception. The active fibroblast is a protein-synthesising cell.
+## correct_answer
+C
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the cell whose endoplasmic reticulum is smooth rather than rough.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q19. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EACBF8E28A02
+## title
+sER is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+sER is present in:
+## answer_a
+liver
+## explanation_a
+True but incomplete. The liver cell uses smooth ER for lipid synthesis and for detoxification.
+## answer_b
+plasma cell
+## explanation_b
+The plasma cell is the opposite — rough ER throughout, for antibody export.
+## answer_c
+endocrine cell
+## explanation_c
+True but incomplete. A steroid-secreting endocrine cell is built on smooth ER.
+## answer_d
+a,c
+## explanation_d
+Correct. Liver cells and steroid-forming endocrine cells, the two classic sites.
+## correct_answer
+D
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name both cells rich in smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p6 q24. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-705AB45D3180
+## title
+smooth endoplasmic reticulum is seen in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+smooth endoplasmic reticulum is seen in:
+## answer_a
+liver cells
+## explanation_a
+Correct. The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.
+## answer_b
+muscle cells
+## explanation_b
+The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell the books name for smooth ER is the hepatocyte.
+## answer_c
+plasma cells
+## explanation_c
+The plasma cell is rough ER from end to end.
+## answer_d
+fat cells
+## explanation_d
+The fat cell stores its lipid as a droplet in the cytosol, not in a membrane system.
+## correct_answer
+A
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell with abundant smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25; EOM ISK 101 195 Answers.pdf p1 q2. Manifest src_d1414701d8fcb55932b6, src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1711B9BEA60A
+## title
+The cell responsible for production of antibodies is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell responsible for production of antibodies is:
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast exports protein, but structural protein — collagen and elastin.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. The plasma cell synthesises and secretes antibody.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell releases mediators it has stored, not proteins it has made to order.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage presents the antigen that starts the response and then leaves the antibody to the plasma cell.
+## correct_answer
+B
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the antibody-producing cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q121. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-863016D73B49
+## title
+Plasma cells secrete:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Plasma cells secrete:
+## answer_a
+Heparin
+## explanation_a
+Heparin is a mast cell granule constituent.
+## answer_b
+Histamine
+## explanation_b
+Histamine likewise.
+## answer_c
+Antibodies
+## explanation_c
+Correct. Antibodies — immunoglobulin — are what the plasma cell exists to make.
+## answer_d
+both a & b are correct
+## explanation_d
+"Both a & b" is the answer to the mast cell version of this question, printed on the same page with the same options.
+## correct_answer
+C
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the plasma cell's product.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q85. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-139F64513BCA
+## title
+Cartwheel nucleus is present in :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cartwheel nucleus is present in :
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast has a large pale oval nucleus with a prominent nucleolus — an active nucleus, but not patterned.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. The plasma cell's eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell's nucleus is central, spherical and pale, and is usually hidden by the granules over it.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage's nucleus is kidney-shaped, which is the other named nuclear shape in this chapter.
+## correct_answer
+B
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the cart-wheel nucleus to the plasma cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q145. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F652BE8AFFD6
+## title
+Which one of the following C.T cells, its nucleus has a clock face appearance:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following C.T cells, its nucleus has a clock face appearance:
+## answer_a
+Mast cells
+## explanation_a
+The mast cell nucleus is pale, round and central.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage nucleus is kidney-shaped and eccentric.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast nucleus is a large pale oval with a nucleolus.
+## answer_d
+plasma cells
+## explanation_d
+Correct. Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.
+## correct_answer
+D
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the clock-face nucleus as the cart-wheel under its other name.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q88. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B6EBEFA5B1B6
+## title
+Russell bodies are spherical inclusion present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Russell bodies are spherical inclusion present in:
+## answer_a
+Fat cells
+## explanation_a
+A fat cell contains one droplet of lipid, not spherical protein inclusions.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.
+## answer_c
+Phagocytic cells
+## explanation_c
+A phagocytic cell contains phagosomes and residual bodies — inclusions, but of ingested material rather than of its own product.
+## answer_d
+Endothelial cells
+## explanation_d
+An endothelial cell is a thin lining cell with no notable inclusions.
+## correct_answer
+B
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute Russell bodies to the plasma cell and explain what they are.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q30. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-32F10E41E5A7
+## title
+Negative Golgi image is seen in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Negative Golgi image is seen in:
+## answer_a
+Mast cells
+## explanation_a
+The mast cell's cytoplasm is crowded with granules; a pale unstained patch would not stand out and is not what the cell is known for.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage's cytoplasm is pale throughout, so there is no dark background for a pale area to show against.
+## answer_c
+Fibroblasts
+## explanation_c
+The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell that the books name — its basophilia is the deepest of any connective tissue cell.
+## answer_d
+plasma cells
+## explanation_d
+Correct. The plasma cell's deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the cell in which the negative Golgi image is best seen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q80. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-13B2D95A0BBE
+## title
+The cell derived from B lymphocytes is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell derived from B lymphocytes is:
+## answer_a
+Mast cell
+## explanation_a
+The mast cell comes from the undifferentiated mesenchymal cell, in connective tissue.
+## answer_b
+Plasma cell
+## explanation_b
+Correct. The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.
+## answer_c
+Fibroblast
+## explanation_c
+The fibroblast comes from the undifferentiated mesenchymal cell and the pericyte.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage comes from the blood monocyte — which is the other lineage question on this page and has a different answer.
+## correct_answer
+B
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Trace the plasma cell to the B lymphocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q77. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A07D861D826F
+## title
+Which connective tissue cell is derived from B lymphocytes?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which connective tissue cell is derived from B lymphocytes?
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast is mesenchymal in origin and has nothing to do with the immune lineages.
+## answer_b
+Mast cell
+## explanation_b
+The mast cell is also mesenchymal, despite behaving like a basophil.
+## answer_c
+Histiocyte
+## explanation_c
+The histiocyte is the connective tissue macrophage and comes from the monocyte.
+## answer_d
+Plasma cell
+## explanation_d
+Correct. The plasma cell.
+## correct_answer
+D
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Trace the plasma cell to the B lymphocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q17. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-CD3FE54D5CAD
+## title
+B lymphocytes can
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+B lymphocytes can
+## answer_a
+ingest pathogenic organisms
+## explanation_a
+Ingesting organisms is the neutrophil's and macrophage's work. The lymphocyte has no phagocytic apparatus.
+## answer_b
+Differentiate into plasma cells during immune responses
+## explanation_b
+Correct. On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.
+## answer_c
+Differentiate into macrophage as a result of tissue damage
+## explanation_c
+The macrophage comes from the monocyte, not from any lymphocyte — this is the standard confusion between the two responses.
+## answer_d
+Secrete histamine
+## explanation_d
+Histamine is secreted by the mast cell and the basophil.
+## correct_answer
+B
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what a B lymphocyte does when it meets its antigen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q59. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-56E77BCD8E08
+## title
+Basophilic granules are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Basophilic granules are present in:
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast's basophilia is diffuse, from its ribosomes, and it has no granules.
+## answer_b
+Plasma cells
+## explanation_b
+The plasma cell is the most basophilic cell of all, but again diffusely — a fact worth holding, because the word in the stem is "granules".
+## answer_c
+Mast cells
+## explanation_c
+Correct. The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage's cytoplasm is pale and its lysosomes are too fine to read as granules by light microscopy.
+## correct_answer
+C
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute granular basophilia to the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q147. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BD8B6EAF0DE4
+## title
+Which one of the following C.T cells has receptors for immunoglobulin E ( IgE ):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following C.T cells has receptors for immunoglobulin E ( IgE ):
+## answer_a
+Mast cells
+## explanation_a
+Correct. The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage has receptors for the Fc of IgG and for complement, which help it phagocytose opsonised material — related receptors for a different immunoglobulin and a different purpose.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast carries no immunoglobulin receptors at all.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell makes immunoglobulin rather than binding it; a receptor for its own product would be self-defeating.
+## correct_answer
+A
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute IgE receptors to the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q89. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CFD5029B02E3
+## title
+Mast cells secrete:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells secrete:
+## answer_a
+Heparin
+## explanation_a
+True but incomplete. Heparin is the anticoagulant of the granule and is what makes it metachromatic.
+## answer_b
+Histamine
+## explanation_b
+True but incomplete. Histamine is the vasodilator.
+## answer_c
+Antibodies
+## explanation_c
+Antibodies come from the plasma cell. The mast cell binds antibody made by someone else.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Heparin and histamine together, and a student who takes the first true option has half the granule.
+## correct_answer
+D
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name both principal mast cell products.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q86. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0599F10887A9
+## title
+Mast cells synthesize and secrete:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells synthesize and secrete:
+## answer_a
+Heparin
+## explanation_a
+True but incomplete.
+## answer_b
+Histamine
+## explanation_b
+True but incomplete.
+## answer_c
+Serotonin
+## explanation_c
+True but incomplete as the books have it: serotonin is listed among the mast cell's secretions alongside heparin and histamine.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three.
+## correct_answer
+D
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the mast cell granule contents as the books give them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q36. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EF8CC3C1BC79
+## title
+Mast cells synthesize and secrete all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells synthesize and secrete all of the following except:
+## answer_a
+Heparin
+## explanation_a
+True, so not the exception.
+## answer_b
+Histamine
+## explanation_b
+True, so not the exception.
+## answer_c
+Serotonin
+## explanation_c
+True, so not the exception, as the books list it.
+## answer_d
+histaminase
+## explanation_d
+The exception, and the answer. Histaminase destroys histamine and is secreted by the eosinophil, which arrives to end the reaction the mast cell started. One syllable separates the mediator from its antidote.
+## correct_answer
+D
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Keep histaminase, the eosinophil's enzyme, off the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q134. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C31EF7CCA23B
+## title
+Which of the following cells is the precursor of histamine & heparin.?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following cells is the precursor of histamine & heparin.?
+## answer_a
+Fibroblasts
+## explanation_a
+The fibroblast makes fibres and ground substance.
+## answer_b
+Mast cells
+## explanation_b
+Correct. The mast cell stores both in its granules and releases them together.
+## answer_c
+Plasma cells
+## explanation_c
+The plasma cell makes antibody.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage digests, and secretes cytokines rather than amines.
+## correct_answer
+B
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the source of histamine and heparin in connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q73. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E13FAE452745
+## title
+Which connective tissue cell type secretes histamine?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which connective tissue cell type secretes histamine?
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast makes structural protein.
+## answer_b
+Fibrocyte
+## explanation_b
+The fibrocyte is the same cell resting, and makes even less.
+## answer_c
+Mast cell
+## explanation_c
+Correct. The mast cell.
+## answer_d
+Plasma cell
+## explanation_d
+The plasma cell makes antibody — and it is antibody of the IgE class, bound to the mast cell, that triggers the histamine release. The two cells work in sequence, which is why they are so often offered together.
+## correct_answer
+C
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the histamine-secreting connective tissue cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q27. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2138D83EC80E
+## title
+After receiving Penicillin injection, a patient suffered from allergic reaction which i…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+After receiving Penicillin injection, a patient suffered from allergic reaction which is probably due to secretion of:
+## answer_a
+Growth factors by fibroblasts
+## explanation_a
+Fibroblast growth factors drive repair over days. An allergic reaction takes minutes.
+## answer_b
+Lipid by adipocytes
+## explanation_b
+Adipocyte lipid is storage, not signalling.
+## answer_c
+Antibodies by plasma cells
+## explanation_c
+Plasma cell antibody is what sensitised the patient in the first place, but the reaction itself is the release triggered when the allergen meets that antibody on a mast cell.
+## answer_d
+Histamine by mast cells
+## explanation_d
+Correct. Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.
+## correct_answer
+D
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute an allergic reaction to mast cell histamine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q42. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF78D42BA6C0
+## title
+A 2-year-old girl with itchy skin& respiratory distress is brought to | the emergency r…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 2-year-old girl with itchy skin& respiratory distress is brought to | the emergency room by her parents 30 minutes after eating peanut butter cookies .On physical examination the patient showed flushing &swelling of the lips &eye lids. Blood pressure [90/40mm Hg] & : pulse 100/minute. Which of the following is responsible for | increased vascular permeability in this patient with a severe peanut allergy:
+## answer_a
+Eosinophils
+## explanation_a
+The eosinophil arrives later and secretes histaminase and sulphatase to end the reaction. It is a raised eosinophil count that marks allergy, not the eosinophil that causes it.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages phagocytose and present antigen; they release no vasoactive amine.
+## answer_c
+Mast cells
+## explanation_c
+Correct. Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.
+## answer_d
+Plasma cells
+## explanation_d
+The plasma cell made the IgE that sensitised the child, days or weeks earlier. It is upstream of the reaction, not the cause of the permeability.
+## correct_answer
+C
+## main_concept
+CON-FND-7D406E91EA3BF2
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the cell whose mediator raises vascular permeability in anaphylaxis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q1. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. The increased vascular permeability of an immediate allergic reaction is produced by histamine, and in the tissues — skin, lips, eyelids, airway — the cell that releases it is the mast cell.
+
+
+---
+
+# Item
+## id
+QM-101-A7BE356DF4B2
+## title
+A 17-year-old girl received a penicillin injection for treatment of an | infectious dis…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A 17-year-old girl received a penicillin injection for treatment of an | infectious disease. Fifteen minutes after the injection, she suffered from difficulty in breathing, edema and sudden drop in blood pressure (anaphylactic shock). The cell responsible for this | condition is: |
+## answer_a
+Plasma cell
+## explanation_a
+The plasma cell made the IgE that sensitised her, but the shock itself is the discharge of granules from the cell that IgE is bound to.
+## answer_b
+Fibroblast
+## explanation_b
+The fibroblast has no part in an immediate reaction.
+## answer_c
+Eosinophil
+## explanation_c
+The eosinophil is drawn in to terminate the reaction — it destroys histamine with histaminase — so it is the brake rather than the accelerator.
+## answer_d
+Basoptill
+## explanation_d
+Correct. The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.
+## correct_answer
+D
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the blood cell responsible for anaphylactic shock.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Blood] (1).pdf p4 q5. Manifest src_995e491b2e22cc96d8ef.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The stem asks which cell is responsible for an anaphylactic shock fifteen minutes after an intravenous drug, and of the four blood and connective tissue cells offered only the basophil releases histamine — the department book names the histamine release of the basophil as anaphylaxis in so many words.
+
+
+---
+
+# Item
+## id
+QM-101-E3F5A9D532ED
+## title
+Metachromatic granules are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Metachromatic granules are present in:
+## answer_a
+mast cells
+## explanation_a
+Correct. The heparin of the mast cell granule turns toluidine blue purple — metachromasia.
+## answer_b
+plasma cells
+## explanation_b
+The plasma cell is basophilic but not metachromatic; its blue is the dye's own colour.
+## answer_c
+fat cells
+## explanation_c
+The fat cell has a lipid droplet and no granules.
+## answer_d
+pigment cells
+## explanation_d
+The pigment cell holds melanin, which is brown on its own account and needs no dye at all.
+## correct_answer
+A
+## main_concept
+CON-FND-A5D2D2350D099D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute metachromatic granules to the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q119. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49B5361B8A37
+## title
+Which one of the following can be stained metachromatically by toludine blue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following can be stained metachromatically by toludine blue:
+## answer_a
+Mast cells
+## explanation_a
+Correct. The mast cell.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage is shown by trypan blue in the living animal, or by acid phosphatase histochemistry.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast takes haematoxylin diffusely and metachromatically nothing.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell is the other deeply basophilic cell, and the one this question exists to exclude.
+## correct_answer
+A
+## main_concept
+CON-FND-A5D2D2350D099D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell toluidine blue stains metachromatically.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q83. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5D59AED59809
+## title
+Which of the following cells has metachromatic granules:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following cells has metachromatic granules:
+## answer_a
+Mast cells & Lymphocytes
+## explanation_a
+The lymphocyte has a thin agranular rim of cytoplasm and no granules to be metachromatic.
+## answer_b
+Mast cells & basophilis
+## explanation_b
+Correct. The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.
+## answer_c
+Mast cells & Plasma cells
+## explanation_c
+The plasma cell is basophilic without being metachromatic — the distinction this whole group of questions is built on.
+## answer_d
+Mast cells
+## explanation_d
+"Mast cells" alone is true but incomplete, and incomplete is wrong when the fuller option is on the list.
+## correct_answer
+B
+## main_concept
+CON-FND-A5D2D2350D099D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name both cells with metachromatic granules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q19. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A2A65B20DC7A
+## title
+Macrophages originate from..?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Macrophages originate from..?
+## answer_a
+Chondroblast
+## explanation_a
+The chondroblast makes cartilage matrix and is a fixed cell of a different tissue.
+## answer_b
+Plasma cell
+## explanation_b
+The plasma cell is the other end of the immune system — it comes from the B lymphocyte and makes antibody.
+## answer_c
+Mast cell
+## explanation_c
+The mast cell is mesenchymal in origin and is not a phagocyte.
+## answer_d
+Blood monocytes
+## explanation_d
+Correct. The blood monocyte enters the tissue and becomes the macrophage.
+## correct_answer
+D
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Trace the macrophage to the blood monocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q70. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8F0ED294D4A1
+## title
+monocyte can give rise to :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+monocyte can give rise to :
+## answer_a
+mast cells
+## explanation_a
+Mast cells arise in the connective tissue itself, from undifferentiated mesenchymal cells.
+## answer_b
+plasma cells
+## explanation_b
+Plasma cells come from B lymphocytes.
+## answer_c
+macrophage
+## explanation_c
+Correct. In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.
+## answer_d
+lymphocytes
+## explanation_d
+Lymphocytes arise from lymphoid precursors and are a separate line from the monocyte altogether.
+## correct_answer
+C
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name what the monocyte becomes in tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q24. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4070EA7E8E68
+## title
+Which one of the following originates from the blood monocytes:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following originates from the blood monocytes:
+## answer_a
+Mast cells
+## explanation_a
+The mast cell is mesenchymal. It resembles the basophil, which does come from the marrow, but it is not that cell grown up.
+## answer_b
+Macrophages
+## explanation_b
+Correct. The macrophage.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast is mesenchymal.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell comes from the B lymphocyte.
+## correct_answer
+B
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the connective tissue cell of monocyte origin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q82. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6D2D8D935EE2
+## title
+The main function of histiocyte (macrophage) is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The main function of histiocyte (macrophage) is:
+## answer_a
+secretion of antibodies
+## explanation_a
+Antibody secretion is the plasma cell's.
+## answer_b
+secretion of histamine
+## explanation_b
+Histamine secretion is the mast cell's.
+## answer_c
+phagocytosis
+## explanation_c
+Correct. Phagocytosis — the cell is named for it, macro-phage, the big eater.
+## answer_d
+exocytosis
+## explanation_d
+Exocytosis is a mechanism every secretory cell uses, not a function that identifies a cell.
+## correct_answer
+C
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the macrophage's main function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q118. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-699DAD2DAD7C
+## title
+Which cell is a connective tissue macrophage?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which cell is a connective tissue macrophage?
+## answer_a
+Kupffer cells
+## explanation_a
+The Kupffer cell is the macrophage of the liver sinusoid.
+## answer_b
+Histiocyte
+## explanation_b
+Correct. Histiocyte is the connective tissue macrophage's own name.
+## answer_c
+Dust cell
+## explanation_c
+The dust cell is the macrophage of the lung alveolus.
+## answer_d
+Langerhans cell
+## explanation_d
+The Langerhans cell is the antigen-presenting cell of the epidermis. All four are the same lineage under four names, and only one of them belongs to connective tissue.
+## correct_answer
+B
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Give the macrophage's name in connective tissue among its names in other tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q1. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-71A12F330F88
+## title
+Which one of the following C.T cells is typically an antigen presenting cell:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following C.T cells is typically an antigen presenting cell:
+## answer_a
+Mast cells
+## explanation_a
+The mast cell binds antigen through IgE and reacts to it; it does not present it to a T cell.
+## answer_b
+Macrophages
+## explanation_b
+Correct. The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast has no immunological role.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell is the product of antigen presentation, not the agent of it.
+## correct_answer
+B
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the antigen-presenting cell of connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q87; EOM ISK 101 - 2023.pdf p2 q20. Manifest src_4e481d399b2ffd65b97a, src_ce4292e31edea7517e7b.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-27667A2F8610
+## title
+Antigen presenting cells are:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Antigen presenting cells are:
+## answer_a
+Macrophages + reticular cells
+## explanation_a
+Correct. Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the books pair the two.
+## answer_b
+Macrophages + plasma cells
+## explanation_b
+The plasma cell is the end of the response, not its beginning.
+## answer_c
+Macrophages + mast cells
+## explanation_c
+The mast cell reacts to antigen through bound IgE; it presents nothing.
+## answer_d
+Macrophages + fibroblasts
+## explanation_d
+The fibroblast plays no immunological part at all.
+## correct_answer
+A
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the second antigen-presenting cell beside the macrophage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q60. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5A2F573E43BE
+## title
+Kidney shaped nucleus is present in:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Kidney shaped nucleus is present in:
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast's nucleus is a large pale oval with a prominent nucleolus.
+## answer_b
+Plasma cells
+## explanation_b
+The plasma cell's nucleus is eccentric with a cart-wheel pattern.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell's nucleus is central, spherical and pale.
+## answer_d
+Macrophages
+## explanation_d
+Correct. The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.
+## correct_answer
+D
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the kidney-shaped nucleus to the macrophage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q146. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3E621F3C0879
+## title
+Pericytes of the connective tissue arises from:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pericytes of the connective tissue arises from:
+## answer_a
+reticular cells
+## explanation_a
+The reticular cell is itself a modified fibroblast and produces reticular fibres; it is a sibling rather than a parent.
+## answer_b
+fibroblasts
+## explanation_b
+The fibroblast is one of the things a pericyte can become, so this reverses the direction.
+## answer_c
+undifferentiated mesenchymal cells
+## explanation_c
+Correct. The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.
+## answer_d
+macrophages
+## explanation_d
+The macrophage comes from the monocyte and gives rise to nothing.
+## correct_answer
+C
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Trace the pericyte to the undifferentiated mesenchymal cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q90. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B15BFDF8465
+## title
+Which cell is present around blood capillaries:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which cell is present around blood capillaries:
+## answer_a
+Mast cells
+## explanation_a
+Mast cells lie *near* blood vessels, which is what makes this the strongest distractor — but they lie beside them, not wrapped around the endothelium inside its basement membrane.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages wander through the tissue and are not fixed to vessels.
+## answer_c
+pericytes
+## explanation_c
+Correct. The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.
+## answer_d
+plasma cells
+## explanation_d
+Plasma cells are free cells of the tissue at large.
+## correct_answer
+C
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell that wraps a capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q98. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-174831D3C8DA
+## title
+Under certain conditions, Pericytes of the connective tissue can differentiate into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Under certain conditions, Pericytes of the connective tissue can differentiate into:
+## answer_a
+endothelial cells
+## explanation_a
+True but incomplete. After injury it can replace lost endothelium.
+## answer_b
+fibroblasts
+## explanation_b
+True but incomplete. It is one of the two sources of new fibroblasts.
+## answer_c
+smooth muscle cells
+## explanation_c
+True but incomplete. It can become smooth muscle, which is what it already half is.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three, which is the point of calling it undifferentiated.
+## correct_answer
+D
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+List everything a pericyte can become.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q91. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D40E764E6C3A
+## title
+Which one of the connective tissue cell can differentiate into endothelial cell?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the connective tissue cell can differentiate into endothelial cell?
+## answer_a
+Macrophage
+## explanation_a
+The macrophage is a terminal cell — it comes from the monocyte and becomes nothing further.
+## answer_b
+Plasma cell
+## explanation_b
+The plasma cell is likewise terminal and short-lived.
+## answer_c
+Pericyte
+## explanation_c
+Correct. The pericyte lies against the endothelium and can become endothelium after injury.
+## answer_d
+Mast cell
+## explanation_d
+The mast cell is terminal too.
+## answer_e
+Fibroblast
+## explanation_e
+The fibroblast is differentiated; it is one of the things a pericyte becomes, not a cell that becomes something else.
+## correct_answer
+C
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the connective tissue cell that can replace endothelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p1 q1. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5F2AF3817918
+## title
+After injury of adult C.T., the following cells differentiate for C.T. repair:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+After injury of adult C.T., the following cells differentiate for C.T. repair:
+## answer_a
+Mast cells & Fibroblasts
+## explanation_a
+The mast cell opens the vessels in the first minutes of injury but lays down nothing.
+## answer_b
+Pericytes & Fibroblasts
+## explanation_b
+Correct. Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.
+## answer_c
+Reticular cells & Histiocytes
+## explanation_c
+Reticular cells and histiocytes belong to organ stroma and to phagocytosis respectively.
+## answer_d
+Reticular cells & plasma cells
+## explanation_d
+Plasma cells appear in chronic inflammation and make antibody, not matrix.
+## correct_answer
+B
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Name the two cells repair calls on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q36. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-10E8C9F33E02
+## title
+Incase of injury, pericytes can differentiate into : |
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Incase of injury, pericytes can differentiate into : |
+## answer_a
+Chondrocyte
+## explanation_a
+The chondrocyte comes from the chondroblast, in cartilage, and no connective tissue pericyte becomes one.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the connective tissue macrophage and comes from the blood monocyte. The books ask this the other way round too — "can pericytes become macrophages?" — and the answer is no both times.
+## answer_c
+Fibroblast
+## explanation_c
+Correct. The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.
+## answer_d
+Lymphocyte. ‏ا‎
+## explanation_d
+Lymphocytes come from lymphoid precursors in the marrow and thymus.
+## correct_answer
+C
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name what a pericyte becomes after injury.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q4. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The pericyte gives rise to fibroblasts, smooth muscle and endothelium, and of the four options only the fibroblast is on that list — the parallel question `under-certain-conditions-pericytes-of-the-connective-tissue-a9606c24` names all three and is keyed to "all of the above".
+
+
+---
+
+# Item
+## id
+QM-101-22354F054786
+## title
+All of the following about pericytes are correct except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following about pericytes are correct except:
+## answer_a
+Can differentiate into macrophages
+## explanation_a
+The exception, and the answer. The macrophage comes from the blood monocyte. The pericyte is undifferentiated and versatile, which is exactly why students grant it a lineage it does not have.
+## answer_b
+Regulate blood flow through the capillaries
+## explanation_b
+True, so not the exception. Its actin and myosin let it contract and so regulate capillary flow.
+## answer_c
+Are located along capillaries
+## explanation_c
+True, so not the exception. It lies along the capillary within the basement membrane.
+## answer_d
+Can differentiate to endothelial cells and smooth muscle cells
+## explanation_d
+True, so not the exception. Endothelium and smooth muscle are both within its power.
+## correct_answer
+A
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Keep the macrophage lineage out of the pericyte's repertoire.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q48. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A065CD41D111
+## title
+All of the following cells synthesize collagen EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following cells synthesize collagen EXCEPT:
+## answer_a
+chondroblasts
+## explanation_a
+True, so not the exception. The chondroblast makes the type II collagen of cartilage.
+## answer_b
+odontoblasts
+## explanation_b
+True, so not the exception. The odontoblast makes the collagen of dentine.
+## answer_c
+osteoblasts
+## explanation_c
+True, so not the exception. The osteoblast makes the type I collagen of bone matrix.
+## answer_d
+pericytes
+## explanation_d
+The exception, and the answer. The pericyte is an undifferentiated reserve cell; it can *become* a fibroblast and then make collagen, but as a pericyte it makes none.
+## correct_answer
+D
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the several cells that make collagen and the one that does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q93. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0D1F855D3F40
+## title
+Collagen is secreted by all of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen is secreted by all of the following EXCEPT:
+## answer_a
+Fibroblast
+## explanation_a
+True, so not the exception. The fibroblast is the type example.
+## answer_b
+Osteoblast
+## explanation_b
+True, so not the exception. Bone matrix is largely type I collagen.
+## answer_c
+Mast cell
+## explanation_c
+The exception, and the answer. The mast cell stores and releases mediators; it builds nothing.
+## answer_d
+Chondroblast
+## explanation_d
+True, so not the exception. Cartilage matrix is type II collagen.
+## correct_answer
+C
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the cell in a collagen-making list that makes none.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q71. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A2E71CCADA44
+## title
+Collagen fibers are formed by the following cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen fibers are formed by the following cell:
+## answer_a
+Macrophage
+## explanation_a
+The macrophage digests collagen during remodelling; it makes none.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the macrophage under its connective tissue name, so options A and B are one cell offered twice — which is itself the signal that neither can be the answer.
+## answer_c
+Chondroblasts
+## explanation_c
+Correct. The chondroblast lays down the type II collagen of cartilage matrix.
+## answer_d
+Adipocyte
+## explanation_d
+The adipocyte stores lipid and secretes leptin.
+## correct_answer
+C
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the collagen-forming cell from a list of three that do not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p2 q15; Dpt Book MCQ histo 101 .NEW (1).pdf p17 q15. Manifest src_7449943b97c0e18d37b0, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key; the parallel printing at `collagen-fibers-are-formed-by-88f2dbc4`, with the same four options, is keyed to the chondroblast. Of the four cells offered only the chondroblast makes collagen — the macrophage and the histiocyte are the same phagocyte under two names, and the adipocyte stores fat.
+
+
+---
+
+# Item
+## id
+QM-101-63AD4E9D8D3B
+## title
+Collagen fibers are formed by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen fibers are formed by:
+## answer_a
+macrophage
+## explanation_a
+The macrophage phagocytoses.
+## answer_b
+histocytes
+## explanation_b
+The histiocyte is the same cell under another name.
+## answer_c
+chondroblats
+## explanation_c
+Correct. The chondroblast makes the collagen of cartilage.
+## answer_d
+adipocytes
+## explanation_d
+The adipocyte stores fat.
+## correct_answer
+C
+## main_concept
+CON-FND-6F4EB91B19C122
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the collagen-forming cell from a list of three that do not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q115. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9A8335ED331D
+## title
+The type III collagen fibers are secreted by the following cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type III collagen fibers are secreted by the following cells:
+## answer_a
+Fibroblasts, macrophage cells
+## explanation_a
+The macrophage makes no collagen of any type.
+## answer_b
+Fibroblasts & reticular cells
+## explanation_b
+Correct. Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.
+## answer_c
+Fibroblasts & mast cells
+## explanation_c
+The mast cell secretes mediators.
+## answer_d
+Fibroblasts & plasma cells
+## explanation_d
+The plasma cell secretes antibody.
+## correct_answer
+B
+## main_concept
+CON-FND-471B49C03F8BF8
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the two cells that make type III collagen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q39; EOM first 2021 101 INT end of module.pdf p2 q14. Manifest src_c30d9391aa0861f41e44, src_9487fd713153c573087f.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-00DEF57CF664
+## title
+Adipocytes are of two types:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Adipocytes are of two types:
+## answer_a
+Free and fixed
+## explanation_a
+Free and fixed is the classification of connective tissue cells in general, not of fat cells — and the fat cell is fixed under it.
+## answer_b
+Unilocular and multilocular
+## explanation_b
+Correct. Unilocular, with one droplet, and multilocular, with many.
+## answer_c
+Primary and secondary
+## explanation_c
+Primary and secondary describes lysosomes and chorionic villi elsewhere in this course, not adipocytes.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" fails once B is true.
+## correct_answer
+B
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the two kinds of fat cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q24. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D165A088C1C7
+## title
+White adipose connective tissue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+White adipose connective tissue:
+## answer_a
+Formed mainly of multilocular adipocytes
+## explanation_a
+Multilocular cells make brown fat, whose many droplets and many mitochondria are what let it burn fat for heat.
+## answer_b
+Formed mainly of unilocular adipocytes
+## explanation_b
+Correct. White adipose tissue is made of unilocular cells, each holding one large droplet.
+## answer_c
+All of the above
+## explanation_c
+"All of the above" cannot hold when A and B are alternatives.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" fails once B is true.
+## correct_answer
+B
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Match white fat to its cell type.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q27. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-29EAA6F512CE
+## title
+Brown adipose connective tissue is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Brown adipose connective tissue is:
+## answer_a
+responsible for fat storage
+## explanation_a
+Storage is white fat's job. Brown fat spends what it holds.
+## answer_b
+responsible for heat production
+## explanation_b
+True but incomplete. Heat production is its function.
+## answer_c
+formed of multilocular fat cells
+## explanation_c
+True but incomplete. Multilocular fat cells are what it is made of.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.
+## correct_answer
+D
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give both the cell type and the function of brown fat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q104. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C1BFCDDBE83D
+## title
+Which of the following cells has the mission of producing heat:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following cells has the mission of producing heat:
+## answer_a
+plasma cells
+## explanation_a
+Plasma cells make antibody.
+## answer_b
+White adipocytes
+## explanation_b
+White adipocytes insulate against heat loss, which is not the same as generating heat — the commonest confusion in this pair.
+## answer_c
+Brown adipocytes
+## explanation_c
+Correct. The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.
+## answer_d
+Mast cells
+## explanation_d
+Mast cells release mediators.
+## correct_answer
+C
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the heat-producing cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q30. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-6766262448D4
+## title
+An obese 40-year-old female suffered from delayed healing of abdominal surgical incisio…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+An obese 40-year-old female suffered from delayed healing of abdominal surgical incision. The cause of this condition could be attributed to:
+## answer_a
+Increased unilocular fat cells.
+## explanation_a
+Correct. Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.
+## answer_b
+Increased multilocular fat cells.
+## explanation_b
+Multilocular brown fat is a tissue of fetal life and infancy, largely replaced by white fat during childhood; an adult has too little for it to matter.
+## answer_c
+Increased fibroblasts.
+## explanation_c
+More fibroblasts would mean more collagen and faster healing. The option has the direction reversed.
+## answer_d
+Decreased fibroblasts.
+## explanation_d
+A fall in fibroblast number would indeed delay healing, but obesity does not cause one — what it causes is more fat between the fibroblasts that are there.
+## correct_answer
+A
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Explain delayed healing in an obese patient from what fat tissue is like.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q7. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. Obesity is an increase in white, unilocular fat, and it is that tissue — poorly vascularised and holding few fibroblasts — that heals slowly. Brown fat is negligible in an adult, and an increase in fibroblasts would speed healing rather than delay it.
+
+
+---
+
+# Item
+## id
+QM-101-A2C9C65EAC4A
+## title
+Leptin hormone Is secreted by the following cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Leptin hormone Is secreted by the following cell:
+## answer_a
+Fibroblast cell
+## explanation_a
+The fibroblast secretes fibres and ground substance, and growth factors locally; it is not an endocrine cell.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the connective tissue macrophage and secretes cytokines that act nearby.
+## answer_c
+Plasma cell
+## explanation_c
+The plasma cell secretes antibody into the plasma, which is a secretion but not a hormone.
+## answer_d
+Adipocyte
+## explanation_d
+Correct. The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.
+## correct_answer
+D
+## main_concept
+CON-FND-37C773B1F99BE3
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the cell with an endocrine function among the connective tissue cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q12. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book gives adipose connective tissue an endocrine function and names leptin as its hormone, so the cell is the adipocyte.
+
+
+---
+
+# Item
+## id
+QM-101-F321D03C3A33
+## title
+give orange color with fat cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+give orange color with fat cell:
+## answer_a
+sudan III
+## explanation_a
+Correct. Sudan III stains fat orange, and the section must be a frozen one.
+## answer_b
+PAS
+## explanation_b
+PAS gives magenta red on carbohydrate.
+## answer_c
+silver
+## explanation_c
+Silver blackens reticular fibres and browns the Golgi.
+## answer_d
+H, E
+## explanation_d
+H&E dissolves the fat away and leaves a signet ring.
+## correct_answer
+A
+## main_concept
+CON-FND-721D9B96A2367F
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the stain that colours fat orange.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q7. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CB0654E4255C
+## title
+Which of the following is suitable to examine the fat cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is suitable to examine the fat cells:
+## answer_a
+Periodic acid-Schiff reaction (PAS)
+## explanation_a
+PAS shows carbohydrate: glycogen, mucus, basement membrane.
+## answer_b
+Silver (Ag)
+## explanation_b
+Silver shows reticular fibres, nerve tissue and the Golgi.
+## answer_c
+Acid phosphatase
+## explanation_c
+Acid phosphatase histochemistry identifies lysosomes and so phagocytes.
+## answer_d
+Sudan Ill
+## explanation_d
+Correct. Sudan III.
+## correct_answer
+D
+## main_concept
+CON-FND-721D9B96A2367F
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Choose the technique that shows fat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q6. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Fat is demonstrated by a fat stain — Sudan III — on a frozen section; the other three options are a carbohydrate stain, a metal impregnation and an enzyme reaction.
+
+
+---
+
+# Item
+## id
+QM-101-AEB10E366731
+## title
+All of the following is branched Connective tissue cells EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following is branched Connective tissue cells EXCEPT:
+## answer_a
+Pericytes
+## explanation_a
+Branched, so not the exception. The pericyte wraps a capillary in long processes.
+## answer_b
+Fibroblasts
+## explanation_b
+Branched, so not the exception. The active fibroblast is the most processed cell of all.
+## answer_c
+Plasma cells
+## explanation_c
+The exception, and the answer. The plasma cell is a plump oval with no processes — which suits a cell that exports antibody into the fluid around it rather than reaching out to anything.
+## answer_d
+Pigment cells
+## explanation_d
+Branched, so not the exception. The pigment cell sends dendritic processes between the cells it supplies with melanin.
+## correct_answer
+C
+## main_concept
+CON-FND-7D55448AC644C5
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Sort the connective tissue cells by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q75. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A82CE5E72ED8
+## title
+ALL those connective tissue cells are branched Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+ALL those connective tissue cells are branched Except:
+## answer_a
+Fibroblasts
+## explanation_a
+Branched, so not the exception.
+## answer_b
+Pericytes
+## explanation_b
+Branched, so not the exception.
+## answer_c
+Fat cell
+## explanation_c
+The exception, and the answer. A unilocular fat cell is a sphere distended by a single droplet; there is no room for a process and nothing for one to do.
+## answer_d
+UMCs
+## explanation_d
+Branched, so not the exception. The undifferentiated mesenchymal cell keeps the stellate shape of the mesenchyme it came from.
+## correct_answer
+C
+## main_concept
+CON-FND-7D55448AC644C5
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise the fat cell as the unbranched extreme.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q122. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C431ADB9E2C5
+## title
+Which one of these cells is not a cell type routinely found in loose connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of these cells is not a cell type routinely found in loose connective tissue?
+## answer_a
+Fibroblast
+## explanation_a
+Found there, so not the answer. The fibroblast is the commonest cell of loose connective tissue.
+## answer_b
+Microglia
+## explanation_b
+The answer. Microglia are the macrophages of the central nervous system and are found only there — they share the macrophage's lineage, which is exactly what makes the option plausible.
+## answer_c
+Histiocyte
+## explanation_c
+Found there, so not the answer. The histiocyte is the connective tissue macrophage.
+## answer_d
+Plasma cell
+## explanation_d
+Found there, so not the answer. Plasma cells are free cells of loose connective tissue, more numerous where there is chronic inflammation.
+## correct_answer
+B
+## main_concept
+CON-FND-7D55448AC644C5
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Reject a phagocyte that belongs to another tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p2 q8. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-861DB54BB5B4
+## title
+Asection in the tendon shows all the following features except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Asection in the tendon shows all the following features except:
+## answer_a
+Minimal intercellular substance
+## explanation_a
+True, so not the exception. Dense tissue has little ground substance between its bundles.
+## answer_b
+Many macrophages and mast cells
+## explanation_b
+The exception, and the answer. A tendon is collagen bundles with fibrocytes squeezed between them and almost nothing else; free cells such as macrophages and mast cells belong to loose connective tissue, where there is room and blood supply for them.
+## answer_c
+Parallel collagen bundles
+## explanation_c
+True, so not the exception. Parallel bundles are what make it regular.
+## answer_d
+Regular white fibrous connective tissue
+## explanation_d
+True, so not the exception. Tendon is the type example of dense regular white fibrous tissue.
+## correct_answer
+B
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recall that dense regular tissue is nearly all fibre and nearly no free cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q47. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-8B9C0C701A01
+## title
+White fibrous connective tissue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+White fibrous connective tissue:
+## answer_a
+Has abundant matrix.
+## explanation_a
+Abundant matrix is loose areolar tissue, and mucoid tissue most of all. Dense tissue is packed with fibre and has little ground substance.
+## answer_b
+Is rich in blood supply. '
+## explanation_b
+Dense fibrous tissue is poorly vascularised, which is why tendons and ligaments heal so slowly.
+## answer_c
+Contains the three types of connective tissue fibers. :
+## explanation_c
+It is dominated by collagen. Tissue containing all three fibre types in quantity is loose areolar tissue, the general-purpose one.
+## answer_d
+Its cells are fibroblasts.
+## explanation_d
+Correct. Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.
+## correct_answer
+D
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the cell of dense white fibrous tissue and reject three properties of loose tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p3 q27. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Dense white fibrous tissue has little ground substance, a poor blood supply — which is why a tendon heals slowly — and is dominated by collagen rather than carrying all three fibre types. Its cells are fibroblasts and fibrocytes, so only D is true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-E2BB8312BA7A
+## title
+Fixed cells of bone marrow include the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Fixed cells of bone marrow include the following except:
+## answer_a
+Fibroblasts
+## explanation_a
+Fixed, so not the exception. Fibroblasts are part of the stroma.
+## answer_b
+Fat cells
+## explanation_b
+Fixed, so not the exception. Fat cells are stromal and are the largest cells in the marrow.
+## answer_c
+Endothelium of blood sinusoids
+## explanation_c
+Fixed, so not the exception. The sinusoidal endothelium is part of the framework.
+## answer_d
+Megakaryocytes
+## explanation_d
+The exception, and the answer. The megakaryocyte is a free cell — a developing blood element, shedding platelets into the sinusoid — not part of the scaffolding.
+## correct_answer
+D
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the marrow stroma from the cells developing in it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q45. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5C395BB18EEA
+## title
+The largest cell in bone marrow is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The largest cell in bone marrow is:
+## answer_a
+Fat cell
+## explanation_a
+Correct as the book has it: it names the fat cells as the largest cells of the marrow stroma.
+## answer_b
+Megakaryocyte
+## explanation_b
+The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the book's statement is about the fat cell, and a distended unilocular adipocyte is larger still.
+## answer_c
+Reticular cell
+## explanation_c
+The reticular cell is a modest stellate cell of the framework.
+## answer_d
+fibroblast
+## explanation_d
+The fibroblast is likewise ordinary in size.
+## correct_answer
+A
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Normal values
+## learning_objective
+Name the largest cell in marrow as the department book has it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q45. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-CA6FAB5435FF
+## title
+The stroma of myeloid tissue is formed of:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The stroma of myeloid tissue is formed of:
+## answer_a
+Fat cells and blood platelets
+## explanation_a
+Platelets are a circulating product, not a structural element.
+## answer_b
+Reticular cells and lymphocytes
+## explanation_b
+Lymphocytes are free cells developing in the marrow, not part of its framework.
+## answer_c
+Reticular cells, fat cells and fibroblasts
+## explanation_c
+Correct. Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.
+## answer_d
+Fibroblasts and developing blood cells
+## explanation_d
+Developing blood cells are the free population the stroma supports; this option mixes one stromal cell with them.
+## correct_answer
+C
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the fixed cells that make up the marrow stroma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q20. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B3BB607ED9BB
+## title
+The stroma of the red bone marrow contains all the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The stroma of the red bone marrow contains all the following except:
+## answer_a
+reticular cells
+## explanation_a
+Present, so not the exception. Reticular cells with their fibres are the framework.
+## answer_b
+fat cells
+## explanation_b
+Present, so not the exception, and the largest cells there.
+## answer_c
+osteocytes
+## explanation_c
+The exception, and the answer. The osteocyte is a bone cell, walled into its lacuna in the bone around the marrow cavity. Osteo*genic* cells are in the stroma; osteo*cytes* are in the bone, and one syllable moves the cell out of the tissue.
+## answer_d
+macrophages
+## explanation_d
+Present, so not the exception. Macrophages of the marrow phagocytose the extruded nuclei of developing red cells.
+## answer_e
+fibroblasts
+## explanation_e
+Present, so not the exception. Fibroblasts are stromal.
+## correct_answer
+C
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Reject a bone cell offered as part of the marrow stroma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q81. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9A33FA7A1687
+## title
+In the red bone marrow, you can recognize
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+In the red bone marrow, you can recognize
+## answer_a
+Fat cells, fibroblasts and endothelial cells
+## explanation_a
+True but incomplete. Fat cells, fibroblasts and the sinusoidal endothelium are all stromal elements.
+## answer_b
+Macrophages and reticular ells
+## explanation_b
+True but incomplete, and the option the books key this question to. Macrophages and reticular cells are there too.
+## answer_c
+Blood forming cells
+## explanation_c
+True but incomplete. The developing blood cells are the free population, and the reason the tissue exists.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three groups are present, and naming only one of them describes a third of the marrow.
+## correct_answer
+D
+## main_concept
+CON-HEM-E27E5F8544640A
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recall that marrow contains both the stroma and the cells developing in it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q82. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B. All three of the first options are true of red bone marrow — the stroma holds fat cells, fibroblasts, endothelial cells, macrophages and reticular cells, and the free population is the developing blood cells — so with "all of the above" on the list, no single one of them can be the answer.
+
+
+---
+
+# Item
+## id
+QM-101-E9F5C2AF48EF
+## title
+Which of the following is NOT a fiber found in connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT a fiber found in connective tissue?
+## answer_a
+Collagen fiber
+## explanation_a
+One of the three. Collagen is the strongest and the most abundant.
+## answer_b
+Elastic fiber
+## explanation_b
+One of the three. Elastic fibres are the ones that stretch and recoil.
+## answer_c
+Reticular fiber
+## explanation_c
+One of the three. Reticular fibres are the branching network of an organ's stroma.
+## answer_d
+Purkinje fiber
+## explanation_d
+Correct — and not a connective tissue fibre at all. Purkinje fibres are modified cardiac muscle cells conducting the impulse through the ventricle; the word "fibre" in histology names a thread of protein in some places and a whole cell in others, and this option is built on that ambiguity.
+## correct_answer
+D
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the three connective tissue fibres and reject a fibre that belongs to another tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q3. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-D4D703B6398D
+## title
+Which is the most abundant fiber in connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which is the most abundant fiber in connective tissue?
+## answer_a
+Collagen fiber
+## explanation_a
+Correct. Collagen is the most abundant fibre in connective tissue and the most abundant protein in the body — tendon, dermis, bone matrix and organ capsules are all collagen.
+## answer_b
+Elastic fiber
+## explanation_b
+Elastic fibres are abundant only where recoil is needed: the large arteries, the lung, the ligamenta flava. Everywhere else they are the minority fibre in a collagenous field.
+## answer_c
+Reticular fiber
+## explanation_c
+Reticular fibres are fine and sparse by design — they are a delicate supporting mesh in the stroma of organs, not a bulk structural fibre.
+## answer_d
+Purkinje fiber
+## explanation_d
+Purkinje fibres are cardiac conducting cells, not connective tissue fibres at all.
+## correct_answer
+A
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest connective tissue fibre in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q25. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A0A32A44CA40
+## title
+What are stretchable/flexible CT fibers?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What are stretchable/flexible CT fibers?
+## answer_a
+Collagen fibers type I
+## explanation_a
+Type I collagen is flexible but inelastic — it bends freely and resists being lengthened, which is what makes a tendon transmit a muscle's pull without stretching.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. Elastin lets the fibre stretch and spring back, which is why it is concentrated in the aorta, the lung and the skin.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are described as a loose flexible supporting network. Flexible is not elastic: they bend with the organ but do not recoil.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre under another name, so this option and C are the same answer — a sign that neither can be right.
+## correct_answer
+B
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute stretch and recoil to the elastic fibre and not to collagen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q53. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-20B2E4F188E1
+## title
+The following CT fibers can branch EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following CT fibers can branch EXCEPT:
+## answer_a
+Collagen fibers type I
+## explanation_a
+Correct, and the exception. The department book's wording is exact: collagen forms "wavy branching bundles formed of non-branching fibres". The bundle divides; the individual type I fibre inside it does not.
+## answer_b
+Elastic fibers
+## explanation_b
+Elastic fibres branch, and freely — they run singly and anastomose into a network, which is one of the two characters that separates them from collagen in the same field.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres branch and anastomose; that is what makes them a network and what the word reticular means.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre, so this option repeats C. It branches for the same reason.
+## correct_answer
+A
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+State which connective tissue fibres branch, and separate a branching bundle from a branching fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q52. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E292CC7D3CF2
+## title
+The type of tissue that makes up the bulk of the dermis is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of tissue that makes up the bulk of the dermis is:
+## answer_a
+Collagen
+## explanation_a
+Correct. The dermis is dense irregular connective tissue, and its bulk is collagen bundles interweaving in every plane so that skin resists pull from any direction.
+## answer_b
+Melanin
+## explanation_b
+Melanin is a pigment made by melanocytes in the epidermis, not a connective tissue at all — and it is a granule, not a fibre.
+## answer_c
+Keratin
+## explanation_c
+Keratin is the intermediate filament protein of the epidermal keratinocyte, so it belongs to the layer above the dermis rather than to the dermis itself.
+## answer_d
+Fibroplastin
+## explanation_d
+"Fibroplastin" is not a substance in this module or in any other; it is built out of "fibroblast" to look plausible.
+## correct_answer
+A
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Basis
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name the fibre that forms the bulk of the dermis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q8. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6B5208847713
+## title
+Regarding the staining, the following are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the staining, the following are true EXCEPT:
+## answer_a
+Elastic fiber stain brown with orcien
+## explanation_a
+True. Orcein browns elastic fibres, and that is the department book's stain for them.
+## answer_b
+Reticular fibers stain pink with H&E
+## explanation_b
+Correct, and the exception. Reticular fibres are not visible in H&E; that invisibility is the whole reason silver impregnation exists for them, and PAS reddens them because of their sugar.
+## answer_c
+Collagen fibers stain pink with H&E
+## explanation_c
+True. Collagen is acidophilic and takes eosin pink — this is what it looks like in every routine section.
+## answer_d
+Mast cells stain purple with toludin blue
+## explanation_d
+True. Toluidine blue stains mast cell granules metachromatically purple, a different colour from the dye itself, because of their heparin.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Give the colour each fibre takes with its stain, and identify the fibre that H&E cannot show at all.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q66. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D49147529D6
+## title
+H&E could be used to stain:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+H&E could be used to stain:
+## answer_a
+collagen fibers + elastic fibers
+## explanation_a
+Correct, and keyed. Collagen and elastic fibres are both acidophilic and both take eosin pink — which is why H&E cannot tell them apart by colour and the student must use bundling and outline instead.
+## answer_b
+elastic fibers + reticular fibers
+## explanation_b
+Includes reticular fibres, and those are invisible in H&E. A pairing that contains the one fibre H&E misses cannot be the answer.
+## answer_c
+collagen fibers + reticular fibers
+## explanation_c
+Same fault as B for the same reason: reticular fibres take no H&E colour.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" fails on reticular fibres alone. Two out of three is not all.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Say which of the three connective tissue fibres H&E shows and which it does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q62. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F614EC44CA15
+## title
+Regarding reticular fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding reticular fibers:
+## answer_a
+type III collagen
+## explanation_a
+True on its own — reticular fibres are type III collagen — but the stem offers a combined option, so a single true statement is not yet the answer.
+## answer_b
+stained with Ag
+## explanation_b
+True on its own. Silver browns them, which is why they are called argyrophilic.
+## answer_c
+stained with PAS
+## explanation_c
+True on its own. PAS reddens them, because of the high sugar content that distinguishes type III from type I.
+## answer_d
+all of the above
+## explanation_d
+Correct, and keyed. All three statements hold together, and the reason they do is one fact: a sugar-rich type III collagen takes both a silver and a carbohydrate stain.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the collagen type of the reticular fibre and the two stains that demonstrate it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q65. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B4FBA8B8BAC
+## title
+Reticular fibers are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are:
+## answer_a
+Forming bundles
+## explanation_a
+Bundles are collagen type I. Reticular fibres run as a fine anastomosing network — that is the difference between a rope and a net.
+## answer_b
+Thick , non branching fibers
+## explanation_b
+The opposite of the fibre on both counts. Reticular fibres are thin and they branch; thick and non-branching describes the individual type I collagen fibre.
+## answer_c
+Formed of collagen type III
+## explanation_c
+Correct. Reticular fibres are type III collagen, and their sugar content is what makes them argyrophilic and PAS-positive.
+## answer_d
+Lacking axial periodicity
+## explanation_d
+Reticular fibres are collagen, and collagen has axial periodicity — the banding is the mark of the molecule, not of the fibre's calibre.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular fibres from a set built out of collagen's characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p1 q4. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A91DCF3A0363
+## title
+Concerning the reticular fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular fibers:
+## answer_a
+They form bundles
+## explanation_a
+Bundles belong to type I collagen. The reticular fibre is a network, and the word reticular says so.
+## answer_b
+They are formed by chondroblasts & smooth muscle cells
+## explanation_b
+Chondroblasts make type II collagen, in cartilage. Reticular fibres come from fibroblasts, reticular cells and smooth muscle cells — the chondroblast is borrowed from the row above in the book's own table.
+## answer_c
+They are formed mainly of type III collagen fibers
+## explanation_c
+Correct. Reticular fibres are type III collagen; that identity is what explains both their staining and their fineness.
+## answer_d
+They are visible by H&E
+## explanation_d
+The single most reliable negative fact about this fibre: it is not visible in H&E, which is why silver was needed at all.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular fibres, including who makes them and whether H&E shows them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q19. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the department book's own statement — reticular fibres are type III collagen — and each of the other three contradicts the book directly: they form a network rather than bundles, they are made by fibroblasts, reticular cells and smooth muscle cells rather than chondroblasts, and they are not visible in H&E.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7BCCACFCEC2D
+## title
+The stroma of the organs is formed by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The stroma of the organs is formed by:
+## answer_a
+collagen fibers
+## explanation_a
+Collagen makes the capsule that surrounds an organ, not the delicate mesh inside it. Capsule and stroma are different jobs and different fibres.
+## answer_b
+elastic fibers
+## explanation_b
+Elastic fibres are found in organ stroma only where recoil is needed, as in lung; they are not what supports the parenchymal cells of spleen, lymph node and liver.
+## answer_c
+reticular fibers
+## explanation_c
+Correct. Reticular fibres branch and anastomose into a loose flexible network — the stroma — and the reticular cell that secretes them lives in it.
+## answer_d
+muscle fibers
+## explanation_d
+Muscle fibres are cells of a different basic tissue. Naming them here is the same ambiguity of "fibre" that the Purkinje distractor uses.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name the fibre that forms the supporting stroma of an organ.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q95. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DDD42E73DDE3
+## title
+Reticular fibers are composed of type………collagen fibrils
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are composed of type………collagen fibrils
+## answer_a
+II
+## explanation_a
+Type II is cartilage collagen, laid down by chondroblasts as fine fibres in the matrix.
+## answer_b
+III
+## explanation_b
+Correct. Reticular fibres are type III collagen, and their high sugar content is what separates them from type I in staining.
+## answer_c
+IV
+## explanation_c
+Type IV is the granular collagen of the basal lamina, made by the epithelium — the only one of the five that is not fibrous.
+## answer_d
+V
+## explanation_d
+Type V is not one of the five types this module tabulates; it is offered to see whether the number was memorised or the tissue was understood.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the reticular fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q96. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D08F1975AC7E
+## title
+Reticular fibers are formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are formed of:
+## answer_a
+Type I
+## explanation_a
+Type I is the bundled collagen of tendon, bone and dermis — the one a student names first because it is the commonest.
+## answer_b
+Type III
+## explanation_b
+Correct. Type III is the reticular fibre.
+## answer_c
+Type V
+## explanation_c
+Type V is outside the five types the department book tabulates.
+## answer_d
+Type IV
+## explanation_d
+Type IV is the basal lamina collagen, and granular rather than fibrous, so it cannot make a fibre of any sort.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the reticular fibre against a different distractor set.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q47. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-112D06F016FF
+## title
+The most common type of collagen in the body is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of collagen in the body is:
+## answer_a
+Type I
+## explanation_a
+Correct. Type I is the collagen of connective tissue proper, tendon, bone and organ capsules, and those tissues are most of the body's bulk.
+## answer_b
+Type II
+## explanation_b
+Type II is confined to cartilage, which is a small fraction of adult tissue.
+## answer_c
+Type III
+## explanation_c
+Type III is the reticular fibre — fine and sparse, a supporting mesh rather than a bulk fibre.
+## answer_d
+Type IV
+## explanation_d
+Type IV is a granular component of basement membranes, which are microscopically thin sheets.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest collagen type in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q74. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C37BAD3DC0E5
+## title
+The most common type of collagen is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of collagen is:
+## answer_a
+Type I
+## explanation_a
+Correct. Type I, arranged in bundles, is the commonest collagen in the body.
+## answer_b
+Type III
+## explanation_b
+Type III is reticular fibre — everywhere in organ stroma but never in bulk.
+## answer_c
+Type V
+## explanation_c
+Type V is not among the types this module tabulates.
+## answer_d
+Type VI
+## explanation_d
+Type VI is not among them either; both C and D exist to reward the student who counted rather than the one who learned the table.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest collagen type against a distractor set drawn from the higher numbers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q46. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B4E9D904C4D
+## title
+The strongest type of collagen is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The strongest type of collagen is:
+## answer_a
+type I
+## explanation_a
+Correct, and keyed. Type I is the strongest, and it is strongest because it is bundled — many parallel fibres sharing one line of pull, which is what a tendon is.
+## answer_b
+type II
+## explanation_b
+Type II is fine fibres dispersed in cartilage matrix; cartilage resists compression, and it does so through its ground substance rather than through fibre strength.
+## answer_c
+type Ill
+## explanation_c
+Type III forms a delicate anastomosing network built for support, not for load.
+## answer_d
+type IV
+## explanation_d
+Type IV is granular and sits in a basement membrane a fraction of a micrometre thick.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the strongest collagen type and connect its strength to the way it is arranged.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q64. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-83542915FB1E
+## title
+Type I collagen is present mainly in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type I collagen is present mainly in:
+## answer_a
+reticular connective tissue
+## explanation_a
+Reticular connective tissue is named for its type III fibres; that is what makes it reticular rather than collagenous.
+## answer_b
+dense collagenous connective tissue
+## explanation_b
+Correct. Dense collagenous connective tissue — tendon, ligament, dermis, capsule — is bundled type I collagen and little else.
+## answer_c
+mucoid connective tissue
+## explanation_c
+Mucoid connective tissue is jelly rich in hyaluronic acid with few fibres; Wharton's jelly of the umbilical cord is the example.
+## answer_d
+yellow elastic connective tissue
+## explanation_d
+Yellow elastic connective tissue is named for its elastic fibres, which are elastin and not collagen at all.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Site
+## learning_objective
+Name the type of connective tissue in which type I collagen predominates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q110. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BFEF5A5F27E6
+## title
+Type IV collagen is in the form of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type IV collagen is in the form of:
+## answer_a
+granules
+## explanation_a
+Correct, and keyed. The department book's table gives type IV as granular — a sheet of granules in the basal lamina, not a thread.
+## answer_b
+fibrils
+## explanation_b
+Fibrils are what type I and type III form. Reading "collagen" as "must be a fibre" is the whole trap of this question.
+## answer_c
+fibers
+## explanation_c
+Fibres are the aggregate of fibrils; type IV never gets that far.
+## answer_d
+bundles
+## explanation_d
+Bundles are type I, and bundling is exactly what makes type I strong. Type IV is in a basement membrane, which needs to filter rather than to pull.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Give the form type IV collagen takes, and note that it is not a fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q63. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-482F5F10857F
+## title
+All of the following concerning reticular cells is true except :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following concerning reticular cells is true except :
+## answer_a
+Produce collagen type III
+## explanation_a
+True. The reticular cell secretes reticular fibres, and those are type III collagen.
+## answer_b
+Produce collagen type II
+## explanation_b
+Correct, and the exception. Type II collagen is cartilage collagen and comes from the chondroblast; the reticular cell never makes it.
+## answer_c
+Present in stroma of organs
+## explanation_c
+True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.
+## answer_d
+Have supporting function
+## explanation_d
+True. With their fibres the reticular cells form the supporting network of the organ, which is the definition of stroma.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Name the collagen the reticular cell secretes, and reject the type belonging to cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q124. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-66AF2C8259FB
+## title
+In the basal lamina of the epithelia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In the basal lamina of the epithelia:
+## answer_a
+Type I collagen protein is abundant
+## explanation_a
+Type I is the bundled collagen of tendon and dermis. It lies in the connective tissue below the basement membrane, not within the basal lamina.
+## answer_b
+Type IV collagen protein is abundant
+## explanation_b
+Correct. The basal lamina is an electron-dense sheet of type IV collagen and glycoproteins, and the epithelium itself makes it.
+## answer_c
+Type II collagen protein is abundant
+## explanation_c
+Type II is cartilage collagen; there is no epithelium resting on cartilage matrix in this sense.
+## answer_d
+Type VII collagen protein is abundant
+## explanation_d
+Type VII is present at the basement membrane but as anchoring fibrils tying it down to the connective tissue, not as the substance of the lamina.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type abundant in the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q49. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-42E38FF7FADC
+## title
+Which type of collagen is the main part of basal lamina?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of collagen is the main part of basal lamina?
+## answer_a
+Type ١ collagen
+## explanation_a
+Type I is the collagen of the connective tissue underneath, arranged in bundles.
+## answer_b
+Type II collagen
+## explanation_b
+Type II is cartilage.
+## answer_c
+Type III collagen
+## explanation_c
+Type III makes the reticular lamina, which is the other half of the basement membrane and the connective tissue's contribution.
+## answer_d
+Type IV collagen
+## explanation_d
+Correct, and keyed. Type IV collagen is the main constituent of the basal lamina.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the main collagen of the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q63. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5955B6BA18D8
+## title
+Which type of collagen Is a component of the basement membrane?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of collagen Is a component of the basement membrane?
+## answer_a
+Type Il.
+## explanation_a
+Type II is the fine fibre of cartilage matrix, made by chondroblasts.
+## answer_b
+Type IV.
+## explanation_b
+Correct. Type IV is the granular collagen of the basal lamina, made by the epithelial cells that sit on it.
+## answer_c
+Type V.
+## explanation_c
+Type V is not among the five collagens this module tabulates.
+## answer_d
+Type |.
+## explanation_d
+Type I is the bundled collagen of the connective tissue below; it is near the basement membrane but not in it.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name a collagen of the basement membrane from a set of four types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q45. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Type IV is the collagen of the basal lamina in the department book's own table, and none of the other three types offered — II, V or I — is a basement membrane component.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F3578FE9EF6F
+## title
+Collagen in the basal lamina:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen in the basal lamina:
+## answer_a
+Type ١ fibers
+## explanation_a
+Wrong type and wrong form. Type I is bundled collagen in the connective tissue proper.
+## answer_b
+Type Ill fibers
+## explanation_b
+Type III fibres are the reticular lamina, the connective-tissue half of the basement membrane, not the basal lamina.
+## answer_c
+Type IV fibers
+## explanation_c
+The right type in the wrong form, and the option that catches most students. Type IV is correct, but in the basal lamina it is granular; it does not aggregate into fibres.
+## answer_d
+Type IV granules
+## explanation_d
+Correct, and keyed. Type IV, in granular form — the department book's table gives exactly this pairing.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Give both the type and the form of the collagen in the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q33. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7947C8C76DC9
+## title
+contain collagen fiber type III and ground substance:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+contain collagen fiber type III and ground substance:
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is type IV collagen and glycoproteins, and it is the epithelium's own product.
+## answer_b
+epithelial component
+## explanation_b
+"Epithelial component" is another name for the basal lamina, so this option is A restated — and it is wrong for the same reason.
+## answer_c
+reticular lamina
+## explanation_c
+Correct. The reticular lamina is the connective-tissue component: type III collagen, which is reticular fibre, together with ground substance.
+## answer_d
+a, b
+## explanation_d
+Pairs two names for the same wrong layer.
+## correct_answer
+C
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the layer of the basement membrane made of type III collagen and ground substance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q32. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9523DF540D16
+## title
+electron dense sheat formed of collagen IV, lamins:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+electron dense sheat formed of collagen IV, lamins:
+## answer_a
+basal lamina
+## explanation_a
+True as far as it goes — the basal lamina is the electron-dense sheet of type IV collagen and laminin — but the stem allows a combined option, and B is equally true.
+## answer_b
+epithelial component
+## explanation_b
+True as far as it goes. The epithelial component of the basement membrane is precisely the basal lamina.
+## answer_c
+reticular lamina
+## explanation_c
+The reticular lamina is the connective-tissue component and is type III collagen, so it is neither electron-dense in this sense nor made of type IV.
+## answer_d
+a, b
+## explanation_d
+Correct. A and B name one layer under two names, so both are right and the combined option is the answer.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Recognise that the basal lamina and the epithelial component of the basement membrane are one and the same layer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q31. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-555C548A5643
+## title
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## answer_a
+Type | collage
+## explanation_a
+Type I is bundled collagen of the connective tissue; it is what the anchoring fibrils tie the membrane down to, not the fibrils themselves.
+## answer_b
+Type Il collagen
+## explanation_b
+Type II is cartilage collagen and plays no part in a basement membrane.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres — type III — make the reticular lamina, which is a layer of the membrane rather than the tether that anchors it.
+## answer_d
+Type VII collagen
+## explanation_d
+Correct. Type VII collagen forms the anchoring fibrils.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the anchoring fibrils of the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p6 q57. Manifest src_510c935c09a7e7cbff32.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book's collagen table names type VII as anchoring fibres in basement membranes, made by fibroblasts, and gives no other type that role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1694296DCC86
+## title
+both lamina of basement membrane attached to C. T by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+both lamina of basement membrane attached to C. T by:
+## answer_a
+collagen IV
+## explanation_a
+Type IV collagen is what the basal lamina is made of, not what fastens it down.
+## answer_b
+collagen III
+## explanation_b
+Type III collagen is the reticular lamina itself — one of the two laminae the stem is asking about, so it cannot be the attachment.
+## answer_c
+collagen VII
+## explanation_c
+True on its own: type VII collagen is the anchoring collagen. But the stem offers a combined option.
+## answer_d
+anchoring fibril
+## explanation_d
+True on its own: the anchoring fibril is the structure. C and D are the same thing named as a molecule and as a structure.
+## answer_e
+c, d
+## explanation_e
+Correct. C and D together — type VII collagen in the form of anchoring fibrils is what attaches the basement membrane to the connective tissue.
+## correct_answer
+E
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Name what attaches the basement membrane to the underlying connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q33. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-77166F36FB17
+## title
+Regarding the basement membrane, choose the correct statement:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the basement membrane, choose the correct statement:
+## answer_a
+Basal lamina has no collagen
+## explanation_a
+False on the central fact of the layer. The basal lamina is largely type IV collagen; saying it has none contradicts every account of it.
+## answer_b
+Reticular lamina is formed of reticular fibers and ground substance
+## explanation_b
+Correct, and keyed. The reticular lamina is the connective-tissue component — reticular fibres, which are type III collagen, plus ground substance.
+## answer_c
+It is best seen by Janus green
+## explanation_c
+Janus green is the vital stain for mitochondria. The basement membrane is shown with PAS or with silver, both of which act on its carbohydrate.
+## answer_d
+The anchoring fibers are represented by collagen type I
+## explanation_d
+The anchoring fibres are type VII, not type I. Type I is the bundled collagen of the connective tissue underneath.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the two laminae, their collagens and the stain that shows the membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q32. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A8A608330044
+## title
+Dense regular collagenous connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense regular collagenous connective tissue is present in:
+## answer_a
+Tendon
+## explanation_a
+Correct. A tendon transmits pull along one line, so its collagen bundles all run that way — the definition of regular.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, Wharton's jelly, which is ground substance rich in hyaluronic acid with few fibres.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue; it needs recoil, not tensile strength in one direction.
+## answer_d
+Capsule of organs
+## explanation_d
+A capsule is pulled on from every side, so its bundles interweave — that makes it dense irregular, not regular.
+## correct_answer
+A
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name a site of dense regular collagenous connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q45. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C2BD21AF6F4C
+## title
+Dense irregular collagenous connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense irregular collagenous connective tissue is present in:
+## answer_a
+Tendon
+## explanation_a
+A tendon is the type example of the regular form: parallel bundles, one direction of pull.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, not dense at all.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue.
+## answer_d
+Capsule of organs
+## explanation_d
+Correct. An organ capsule is stressed from all directions, so its collagen bundles interweave in different planes — dense irregular.
+## correct_answer
+D
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name a site of dense irregular collagenous connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q44. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6974F96199B4
+## title
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## answer_a
+It is highly vascular
+## explanation_a
+Dense connective tissue is comparatively poorly vascular; it is packed with fibre, and vessels have little room in it.
+## answer_b
+It is highly cellular
+## explanation_b
+Dense means few cells. Cellularity is a feature of loose areolar tissue, which holds every connective tissue cell type there is.
+## answer_c
+Its main fiber type is collagen
+## explanation_c
+Correct, and keyed. Collagen is the main fibre of dense white fibrous connective tissue in both its regular and irregular forms.
+## answer_d
+It has a large amount of ground substance
+## explanation_d
+Little ground substance, not a large amount. A large amount of ground substance describes mucoid connective tissue instead.
+## correct_answer
+C
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what dense irregular connective tissue is rich in and what it is poor in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q52. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-214A54D67321
+## title
+Dense regular C.T is of two types:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense regular C.T is of two types:
+## answer_a
+Collagen and elastic
+## explanation_a
+Correct. Dense regular tissue comes in a white fibrous form, whose parallel bundles are collagen and which makes tendons and ligaments, and a yellow elastic form, whose parallel fibres are elastin and which makes the ligamenta flava and the vocal ligament.
+## answer_b
+Collagen and reticular
+## explanation_b
+Reticular fibres never form a dense regular tissue; they make a loose anastomosing stroma, which is the opposite arrangement.
+## answer_c
+Elastic and reticular
+## explanation_c
+Pairs elastic with reticular and so drops collagen, which is the commoner of the two dense regular forms.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" is only defensible if A is wrong, and A is the department book's own division.
+## correct_answer
+A
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the two fibres that give dense regular connective tissue its two forms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q68. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E62142B7D9AE
+## title
+One of the following is true about fibroblasts:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true about fibroblasts:
+## answer_a
+Can differentiate to endothelial cells and smooth muscle cells
+## explanation_a
+That is the pericyte. The perivascular stem cell around a capillary divides into endothelium, fibroblasts and smooth muscle; the fibroblast is one of its products, not another stem cell.
+## answer_b
+Secrete collagen and elastic fibers
+## explanation_b
+Correct, and keyed. The fibroblast synthesises the connective tissue fibres — collagen, elastic and reticular — and the ground substance they lie in.
+## answer_c
+large cubical cells
+## explanation_c
+The active fibroblast is branched with long thin processes, and the inactive fibrocyte is spindle-shaped. Neither is large and cubical; cubical is an epithelial shape.
+## answer_d
+responsible for storage of fat
+## explanation_d
+Fat storage is the adipocyte's work. Both cells descend from the undifferentiated mesenchymal cell, which is why the two are confused.
+## correct_answer
+B
+## main_concept
+CON-FND-E15318FC4CE3A1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State what the fibroblast makes, and separate it from the pericyte and the fat cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q49. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-B5C7276AD19E
+## title
+One of the functions of undifferentiated mesenchymal cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of undifferentiated mesenchymal cells is:
+## answer_a
+Formation of collagen fibers
+## explanation_a
+Collagen is laid down by the fibroblast. The mesenchymal cell's contribution is to become that fibroblast.
+## answer_b
+Formation of blood cells
+## explanation_b
+Correct. In bone marrow the undifferentiated mesenchymal cell is the life-long source of the blood cells — the book's own example of why the cell stays undifferentiated into adult life.
+## answer_c
+Secretion of the intercellular matrix
+## explanation_c
+Ground substance, like fibre, is a fibroblast product.
+## answer_d
+Formation of elastic fibers
+## explanation_d
+Elastic fibres are made by fibroblasts, chondroblasts and smooth muscle cells; the stem cell makes none of them directly.
+## correct_answer
+B
+## main_concept
+CON-FND-6EC4DC6997F361
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the undifferentiated mesenchymal cell does, as against what the cells it becomes do.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q3. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the undifferentiated mesenchymal cell as a life-long source of cells in certain adult sites and names bone marrow, for blood cells, as one of them. The other three options are the work of the fibroblast the mesenchymal cell differentiates into, not of the stem cell itself.
+
+
+---
+
+# Item
+## id
+QM-101-C4CC53AB2F1F
+## title
+………….. prevent clotting, promote allergy
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+………….. prevent clotting, promote allergy
+## answer_a
+histamine
+## explanation_a
+Histamine is the mast cell's vasodilator and permeability agent — it gives the flare and the swelling of an allergic reaction, but it does not touch clotting.
+## answer_b
+Collagen
+## explanation_b
+Collagen is a fibre, not a secretion of this kind; it is here because the extraction filed this row under fibres for exactly that word.
+## answer_c
+heparin
+## explanation_c
+Correct. Heparin is the anticoagulant of the mast cell granule, and it is also what makes the granule metachromatic with toluidine blue.
+## answer_d
+sulfate
+## explanation_d
+"Sulfate" names a chemical group rather than a secretion; heparin is itself a sulphated glycosaminoglycan, which is why the group sounds familiar.
+## correct_answer
+C
+## main_concept
+CON-FND-E0C05B1FE6D280
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Blood
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the mast cell secretion that is an anticoagulant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q24. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B06B6065F3E1
+## title
+A young child was suffering from bleeding gums and non-healing wounds. This disease may…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A young child was suffering from bleeding gums and non-healing wounds. This disease may be due to the defective synthesis of:
+## answer_a
+Extracellular matrix
+## explanation_a
+The extracellular matrix is the whole ground substance and fibre together. The defect in scurvy is specific to one component of it, and naming the whole matrix does not identify it.
+## answer_b
+Collagen fibers
+## explanation_b
+Correct, and keyed. Vitamin C deficiency blocks collagen synthesis, and the wound that will not close and the gum that bleeds are collagen failing.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are type III collagen and are not the fibre of wound repair; scar tissue is type I.
+## answer_d
+Elastic fibers
+## explanation_d
+Elastic fibres are unaffected in scurvy. A student picks them because bleeding suggests vessels, and vessels suggest elasticity.
+## correct_answer
+B
+## main_concept
+CON-FND-46C9A4425362B0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the fibre whose defective synthesis gives bleeding gums and unhealed wounds.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q40. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-0C981E1A888F
+## title
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unheal…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unhealed wounds. It is diagnosed as scurvy which may be due to defective synthesis of:
+## answer_a
+Collagen molecules
+## explanation_a
+Correct. Scurvy is defective collagen synthesis, and this stem hands the student the diagnosis and asks only for the molecule.
+## answer_b
+Elastin molecules
+## explanation_b
+Elastin is unaffected. Its failure gives loss of recoil in arteries and skin, not bleeding gums.
+## answer_c
+Reticulin molecules
+## explanation_c
+Reticulin is type III collagen and is not the fibre of repair.
+## answer_d
+Glycoprotein molecules
+## explanation_d
+Glycoprotein is a component of ground substance and of the basal lamina; scurvy is a fibre disease, not a ground substance one.
+## correct_answer
+A
+## main_concept
+CON-FND-46C9A4425362B0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the molecule whose defective synthesis causes scurvy, when the diagnosis is given in the stem.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q10. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states directly that vitamin C deficiency — scurvy — is due to defective collagen synthesis, and none of the other three molecules is implicated in it.
+
+
+---
+
+# Item
+## id
+QM-101-B2CAC548AD3C
+## title
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan revealed a dilated & calcified segment_of abdominal aorta. After surgery the examination of this dilated part demonstrated loss of which of the following cellular components that contributed in development of this aneurysm:
+## answer_a
+Collagen I
+## explanation_a
+Collagen resists stretching but does not recoil, and in a degenerating aortic wall it is often increased rather than lost — it is the scarring, not the failure.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. The aorta's wall is packed with elastic laminae; when they are destroyed the vessel dilates and cannot spring back, which is what a CT scan shows as an aneurysm.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres support the cells of an organ's stroma; they carry no part of the pressure in a great vessel.
+## answer_d
+Smooth muscle
+## explanation_d
+Smooth muscle loss does contribute to a weak arterial wall, and this is the most defensible distractor — but the stem asks what was lost on examining the dilated part, and it is the elastic lamina whose destruction defines the lesion.
+## correct_answer
+B
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the fibre whose loss allows an artery to dilate into an aneurysm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q3. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. An aneurysm is a dilated arterial segment, and the aorta is yellow elastic connective tissue whose recoil comes from its elastic fibres; losing them lets the wall stretch and stay stretched. None of the other three components supplies recoil.
 
 
 ---
@@ -15378,7 +25027,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -15390,9 +25039,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q8. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q8; EOM first 2021 101 INT end of module.pdf p2 q10. Manifest src_d1414701d8fcb55932b6, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 3 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -23599,7 +33248,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -23611,9 +33260,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q9. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q9; EOM ISK 101 - 2023.pdf p2 q15. Manifest src_6846577508f49244d715, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys A, the phagosome, which gives the heterolysosome. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, and the same books key `fusion-of-1ry-lysosome-with-pinocytic-vesicle-334eaa05` as the multivesicular body. Overridden to B.
 
@@ -29417,7 +39066,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -29429,9 +39078,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q2. Manifest src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q2; EOM ISK EOM exam 2024.pdf p2 q12. Manifest src_d1414701d8fcb55932b6, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys B, tubules of the rough reticulum, which produce transfer vesicles. Secretory vesicles bud from the Golgi's exit face; the same books key `the-organelle-that-packages-proteins-within-the-cell-is-41e916bd` and `all-of-the-following-are-products-of-golgi-apparatus-except-6aaae4bb` consistently with the Golgi as the source.
 
@@ -30994,7 +40643,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -31006,9 +40655,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q21. Manifest src_620516ae7327c0f4fc2f.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q21; EOM ISK End 101– 2021 (answers).pdf p1 q5. Manifest src_620516ae7327c0f4fc2f, src_17bf088a37f1ab6540a3.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 2 materially different wordings of this question exist in the books and were not collapsed into it.
@@ -32677,6 +42326,421 @@ Answer changed from the source's: None of the three printings of this question i
 
 # Item
 ## id
+QM-101-81BA0CFD3266
+## title
+One of the functions of superficial fascia is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of superficial fascia is:
+## answer_a
+Presence of skin muscles
+## explanation_a
+Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the book's example, and they are there precisely because the face has no deep fascia to hold them.
+## answer_b
+Formation of aponeurosis
+## explanation_b
+An aponeurosis — palmar, plantar — is deep fascia. Tempting because both layers are connective tissue sheets, but only the deep layer is dense enough to make one.
+## answer_c
+Formation of broad sheets
+## explanation_c
+Broad sheets around muscle groups are the first of the five forms deep fascia takes. Superficial fascia surrounds nothing; it lies flat under the skin.
+## answer_d
+Formation of interosseous membranes
+## explanation_d
+Interosseous membranes are deep fascia, spanning between two bones to separate muscle groups. Superficial fascia never reaches bone.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of superficial fascia from three that belong to deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q9. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8BAF5832C09D
+## title
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## answer_a
+It contains fat.
+## explanation_a
+Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+## answer_b
+It forms retinacula.
+## explanation_b
+Retinacula are localised transverse thickenings of *deep* fascia at the wrist and ankle. Picked by students who remember that a retinaculum is superficially placed, which is a statement about depth rather than about which layer it is made of.
+## answer_c
+It forms intermuscular septa.
+## explanation_c
+Intermuscular septa are deep fascia dipping between muscle groups. Superficial fascia has no septa; it does not descend between muscles at all.
+## answer_d
+It forms sheath around vessels.
+## explanation_d
+Sheaths around great vessels, such as the carotid sheath, are deep fascia. The superficial layer conducts vessels *to the skin* rather than wrapping the big ones, and that near-miss is what makes this the strongest distractor.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the one property that belongs to superficial rather than deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7; EOM ISK 101 195 Answers.pdf p5 q48; EOM ISK 101 - 2023.pdf p4 q50. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.
+
+
+---
+
+# Item
+## id
+QM-101-08E75F516311
+## title
+One of the functions of deep fascia is that it:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of deep fascia is that it:
+## answer_a
+Facilitates the movement of the skin
+## explanation_a
+Facilitating the movement of the skin over the structures beneath is a function of superficial fascia. Deep fascia is inelastic and anchors things rather than freeing them.
+## answer_b
+Prevents heat loss from the body
+## explanation_b
+Preventing heat loss is superficial fascia acting as a thermal insulator, and it does it with its fat. Deep fascia has no fat.
+## answer_c
+Contains many types of glands
+## explanation_c
+The glands — the mammary gland is the book's example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
+## answer_d
+Forms the interosseous membranes
+## explanation_d
+Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
+## correct_answer
+D
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of deep fascia from three that belong to superficial fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q10. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FD83330508B2
+## title
+The intermuscular septa and interosseous membranes:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The intermuscular septa and interosseous membranes:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+Surrounding the muscles of the limbs is what the broad sheets of deep fascia do — the first of its five forms, and the one the septa arise from. The septa are what dips inward from those sheets, not the sheets themselves.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+That is the retinaculum, printed here as a distractor because this leaf's four stems share one option block and each stem's answer is another stem's distractor.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Tough sheaths around big vessels are the carotid sheath and its like — the fifth form of deep fascia, not the septa.
+## correct_answer
+B
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q11. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4A55FDC3D1C8
+## title
+The retinacula:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The retinacula:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+The broad sheets of deep fascia surround the limb muscles. A retinaculum is a band across a joint, not a sleeve around a muscle group.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Separating muscle groups of different action is the work of the intermuscular septa, which is the answer to the neighbouring stem sharing this option block.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Fibrous sheaths around great vessels — the carotid sheath — are a different form of deep fascia. Both are "wrappings", which is what makes this option worth printing.
+## correct_answer
+C
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the retinacula to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q12. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-0B63A2F925D2
 ## title
 Chorionic plate
@@ -33069,7 +43133,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -33081,9 +43145,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5; EOM ISK 101 - 2023.pdf p5 q59. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The books key this to placenta accreta, which is one of the department book's own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.
 
@@ -33816,7 +43880,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -33828,9 +43892,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26; EOM ISK EOM exam 2024.pdf p11 q417. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.
 
@@ -34148,7 +44212,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -34160,9 +44224,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34; EOM first 2021 101 INT end of module.pdf p6 q44. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9487fd713153c573087f.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -35393,7 +45457,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -35405,9 +45469,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7; EOM ISK 101 195 Answers.pdf p5 q56. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -38717,7 +48781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -38729,9 +48793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q3; EOM ISK 101 195 Answers.pdf p8 q80. Manifest src_b7301bfcd7d002317e40, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The contents of the fossa run, from medial to lateral, median nerve, brachial artery, biceps tendon, radial nerve — so the nerve found medial to the artery is the median.
 
@@ -38883,7 +48947,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -38895,9 +48959,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26; EOM ISK EOM exam 2024.pdf p8 q85. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, biceps brachii, which is musculocutaneous and lies in the arm — nothing at the medial epicondyle can reach it. The ulnar nerve supplies only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and only the first is offered.
 
@@ -38966,7 +49030,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 High
 ## reasoning_level
@@ -38978,9 +49042,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q27; EOM ISK 101 195 Answers.pdf p7 q74; EOM ISK 101 - 2023.pdf p10 q106. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -40211,7 +50275,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -40223,9 +50287,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p87 q10; EOM ISK 101 195 Answers.pdf p9 q93. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, extensor digitorum, which is the compartment’s principal content. The fourth compartment carries extensor digitorum and extensor indicis with the posterior interosseous nerve and the anterior interosseous artery — an odd pairing, and the one the item is built on. The structure that does not pass is the anterior interosseous nerve, which ends in the forearm on the front of the interosseous membrane at pronator quadratus.
 
@@ -40551,7 +50615,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -40563,9 +50627,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q13; EOM ISK 101 195 Answers.pdf p10 q102. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -41302,7 +51366,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -41314,9 +51378,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q1; EOM ISK 101 195 Answers.pdf p6 q65. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The anterior interosseous nerve is the branch that supplies flexor pollicis longus, and where a branch and its parent trunk are both offered this faculty keys the branch.
 
@@ -41468,7 +51532,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -41480,9 +51544,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q26; EOM ISK 101 - 2023.pdf p10 q103. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -41717,7 +51781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -41729,9 +51793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q71; EOM ISK 101 - 2023.pdf p6 q68. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pronator teres is median, flexor pollicis longus is median through the anterior interosseous nerve and opponens pollicis is median through the recurrent branch; adductor pollicis is supplied by the deep branch of the ulnar nerve.
 
@@ -41800,7 +51864,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -41812,9 +51876,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q5; EOM ISK 101 195 Answers.pdf p11 q113. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the elbow joint, which is a hinge and permits flexion and extension only. Rotation of the forearm takes place at the superior and inferior radio-ulnar joints, which are pivot joints, even though the superior one shares a capsule with the elbow.
 
@@ -42717,7 +52781,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -42729,9 +52793,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q5; EOM ISK 101 - 2023.pdf p7 q82. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, which is true and therefore not the incorrect statement: the medial cutaneous nerve of the forearm is a branch of the medial cord. The incorrect statement is B — the skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and by the supraclavicular nerves above them, not by the lateral cord, whose only cutaneous territory is the lateral forearm.
 
@@ -43879,7 +53943,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -43891,9 +53955,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q26; EOM ISK 101 195 Answers.pdf p11 q111. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Brachioradialis flexes the elbow rather than extending it, lies on the lateral side of the forearm, and is supplied by the radial nerve itself rather than by the posterior interosseous branch — leaving the mid-prone action as the only true statement.
 
@@ -45132,7 +55196,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -45144,9 +55208,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q2; EOM ISK 101 - 2023.pdf p6 q69. Manifest src_b7301bfcd7d002317e40, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Flexor pollicis longus arises from the anterior surface of the radius and the interosseous membrane; the other three all act on the radius rather than arising from it.
 
@@ -45215,7 +55279,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -45227,9 +55291,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q3; EOM ISK EOM exam 2024.pdf p5 q50. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Extensor indicis is a deep extensor and posterior interosseous; anconeus and extensor carpi radialis longus are supplied by the radial nerve itself, and brachialis is musculocutaneous.
 
@@ -45381,7 +55445,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -45393,9 +55457,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q24; EOM ISK 101 - 2023.pdf p8 q89. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -46136,7 +56200,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -46148,9 +56212,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q13; EOM ISK 101 195 Answers.pdf p6 q63. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, that the superficial radial nerve supplies extensor carpi ulnaris, which is false: the superficial branch is wholly cutaneous and supplies no muscle at all — extensor carpi ulnaris takes the deep branch, the posterior interosseous nerve. The true statement is C, its relation to the radial artery in the forearm.
 
@@ -46887,7 +56951,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -46899,9 +56963,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q76; EOM ISK End 101 — 2022.pdf p10 q104; EOM ISK 101 - 2023.pdf p10 q404. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key — only a stray echo of option a in the stem, which is an extraction artefact. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, an arch that lies just distal to the medial epicondyle.
 
@@ -47235,7 +57299,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -47247,9 +57311,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q12. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p2 q12; EOM ISK 101 195 Answers.pdf p9 q98; EOM ISK End 101 — 2022.pdf p11 q117. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives abductor pollicis longus, which does abduct the wrist. Palmaris longus is the midline muscle and the only one in the list that cannot deviate the hand.
 
@@ -47492,7 +57556,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -47504,9 +57568,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p83 q13; EOM ISK 101 - 2023.pdf p11 q116. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, extensor carpi ulnaris, which is one of the four muscles of the common extensor origin on the lateral epicondyle. Abductor pollicis longus is a deep extensor arising from the backs of the ulna, the radius and the interosseous membrane, and it is the one muscle in the list with no epicondylar attachment.
 
@@ -47579,7 +57643,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -47591,9 +57655,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q5. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q5; EOM ISK 101 195 Answers.pdf p9 q97. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives extensor carpi ulnaris, which does arise from the lateral epicondyle. Abductor pollicis longus is the deep extensor with no attachment to it.
 
@@ -47749,7 +57813,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 High
 ## reasoning_level
@@ -47761,9 +57825,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q13; EOM ISK 101 195 Answers.pdf p8 q88; EOM ISK End 101 — 2022.pdf p10 q109. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, the posterior cutaneous nerve of the forearm, which is a genuine radial branch given in the spiral groove. The one in the list that is not radial is the upper lateral cutaneous nerve of the arm, which comes from the posterior branch of the axillary nerve and supplies the skin over the lower half of deltoid.
 
@@ -48172,7 +58236,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -48184,9 +58248,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p85 q25; EOM ISK 101 195 Answers.pdf p6 q66. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, supinator forming the floor of the cubital fossa "along with the brachioradialis"; the floor is brachialis and supinator, brachioradialis being the lateral boundary. This copy replaces the fifth option of its siblings with a statement about the muscle’s origin, and that statement is true: supinator arises from the anular and the lateral collateral ligaments as well as from the lateral epicondyle and the supinator crest of the ulna.
 
@@ -48591,7 +58655,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -48603,9 +58667,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p84 q23; EOM ISK 101 195 Answers.pdf p11 q119. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -55729,7 +65793,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -55741,9 +65805,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2; EOM ISK 101 195 Answers.pdf p7 q68. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key, and the one keyed copy marks A, princeps pollicis, which is a radial branch and cannot be the exception. The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, so B is the exception.
 
@@ -55978,7 +66042,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -55990,9 +66054,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72; EOM ISK 101 - 2023.pdf p6 q70. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so adduction of the thumb is what is lost; wasting of the thenar eminence, loss of abduction and sensation over the thumb are all median.
 
@@ -56144,7 +66208,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -56156,9 +66220,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8. Manifest src_6c62090ee8d9969a8c5b.
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8; EOM ISK 101 195 Answers.pdf p8 q78; EOM ISK 101 - 2023.pdf p10 q111. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-super-cial-palmar-arch-i-25404826` marks B. The superficial arch gives four palmar digital arteries, of which the common palmar digitals are three.
 
@@ -56476,7 +66540,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -56488,9 +66552,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30; EOM ISK 101 195 Answers.pdf p9 q92. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve accompanies the deep palmar arch and lies within its concavity, which is true as printed; the level in B belongs to the superficial arch, the hypothenar muscles in C are supplied by the deep branch not the superficial, and flexor digitorum superficialis inserts into the middle phalanx, not the distal.
 
@@ -57638,7 +67702,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -57650,9 +67714,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8; EOM ISK 101 195 Answers.pdf p9 q94. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, abductor digiti minimi, which is a hypothenar muscle and squarely within the deep branch's territory. The exception is C: the first and second lumbricals are supplied by the median nerve.
 
@@ -59049,7 +69113,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -59061,9 +69125,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27; EOM ISK EOM exam 2024.pdf p8 q87. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -59232,6 +69296,670 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, so a fracture there paralyses ulnar-supplied muscles; of the four offered only adductor pollicis is ulnar.
+
+
+---
+
+# Item
+## id
+QM-101-D81B9F3F35BD
+## title
+Anatomical position is: (DEP BOOK). Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anatomical position is: (DEP BOOK). Vi
+## answer_a
+A term used to refer to the body facing forwards and sitting down.
+## explanation_a
+Sitting is not the reference. A position that changes with the chair could not be a reference for describing anything; the anatomical position is standing, and it is fixed.
+## answer_b
+The position in which the body Is lying down with feet parallel and arms by the sides.
+## explanation_b
+Lying down with the arms at the sides is the supine position, which the book names separately. It is a clinical posture, not the reference posture.
+## answer_c
+The position in which the body is erect, facing front with feet parallel and arms hanging at the sides with the palms facing forwards.
+## explanation_c
+Correct, and complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
+## answer_d
+The position in which the body is erect, facing forward with feet parallel and arms hanging at the sides with palms facing backwards.
+## explanation_d
+Identical to C except that the palms face backwards — which is where they naturally hang, and therefore the option a student who has never noticed the detail will pick. In the anatomical position the forearms are supinated so the palms face forwards and the thumbs point laterally.
+## correct_answer
+C
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Pick the full statement of the anatomical erect position from four near-identical postures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The identical row `anatomical-position-is-ebd3fee8`, asked twice, is keyed C — and this is the only copy in which C and D are printed in full, so it is the only copy in which the key can be acted on at all.
+
+
+---
+
+# Item
+## id
+QM-101-4CB595203971
+## title
+The following statement describes the anatomical position:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statement describes the anatomical position:
+## answer_a
+The eyes are looking backwards
+## explanation_a
+Reversed. The eyes look forwards; a body facing one way with the eyes looking the other is not a posture anyone could hold, which is what makes this the easiest option to eliminate.
+## answer_b
+The upper limbs are hanging by the sides
+## explanation_b
+Correct. The upper limbs hang by the sides — the only one of the four statements the book gives as printed.
+## answer_c
+The palms are facing backwards
+## explanation_c
+Reversed, and the commonest error in this leaf. The palms face forwards, not backwards; this is the one element of the position that is not the way a body naturally stands.
+## answer_d
+The thumbs are directed medially
+## explanation_d
+Reversed. The thumbs are directed laterally, which follows from the palms facing forwards. A student who put the palms backwards will put the thumbs medially too, so the two errors travel together.
+## correct_answer
+B
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify the one statement about the anatomical position that is true, given three that invert a detail of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p2 q1. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CC514FE115D
+## title
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## answer_a
+Median plane
+## explanation_a
+Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
+## answer_b
+Coronal plane
+## explanation_b
+The coronal plane is vertical too, which is why it is picked. It divides the body into anterior and posterior parts, not right and left.
+## answer_c
+Paramedian plane
+## explanation_c
+The trap the word "equal" is in the stem for. The paramedian plane is parallel to the median plane and near it, so it also gives a right and a left part — unequal ones.
+## answer_d
+Horizontal plane. Vi P ad
+## explanation_d
+The horizontal plane cuts across the body into an upper and a lower part. It divides nothing into right and left.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that divides the body into equal right and left halves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `the-plane-which-divides-the-body-into-2-equal-halves-right-a-8f461c93` is keyed A, and A is what the department book states: the median (sagittal) plane passes in the midline and gives equal right and left halves.
+
+
+---
+
+# Item
+## id
+QM-101-120730AF9092
+## title
+A plane which separates the body into an anterior and posterior part is called a: (2024…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A plane which separates the body into an anterior and posterior part is called a: (2024). y y
+## answer_a
+Median plane.
+## explanation_a
+The median plane is vertical like the coronal, but it separates right from left.
+## answer_b
+Sagittal plane.
+## explanation_b
+The book gives "sagittal" as the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
+## answer_c
+Horizontal plane.
+## explanation_c
+The horizontal plane gives an upper and a lower part. A student picks it when reading "separates the body into two parts" and stopping there.
+## answer_d
+Coronal plane.
+## explanation_d
+Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that separates the body into an anterior and a posterior part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book defines the coronal (frontal) plane as the one cutting the body vertically into an anterior part towards the front and a posterior part towards the back, so D is the only option that answers the stem.
+
+
+---
+
+# Item
+## id
+QM-101-543988846157
+## title
+Which of the following is true about the coronal plane?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true about the coronal plane?
+## answer_a
+It is a horizontal plane
+## explanation_a
+The coronal plane is vertical, not horizontal. This option and C are the same error stated twice, which is a sign that neither is the answer.
+## answer_b
+It divides the body into anterior and posterior halves
+## explanation_b
+Correct, subject to the book's wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The department book says "parts"; only a plane through the exact mid-thickness of the body would give halves.
+## answer_c
+It cuts the body into upper and lower halves
+## explanation_c
+Upper and lower is the horizontal (transverse) plane. Picked by students who remember that the coronal plane is a cross-section of some kind without remembering which way it faces.
+## answer_d
+It is a vertical plane that divides the body into 2 equal right and left halves
+## explanation_d
+A correct definition of the median plane, offered under the coronal plane's name. Both are vertical, which is what makes the swap tempting.
+## correct_answer
+B
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Say both what the coronal plane cuts and which way it runs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p2 q4. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only true statement: the coronal plane divides the body into an anterior and a posterior part. The book says "parts" rather than "halves", and the item's wording is looser than the book's, but no other option is defensible — A and C describe the horizontal plane and D the median.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6AF0770CC61F
+## title
+The anatomical term that means "away from the median plane" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "away from the median plane" is:
+## answer_a
+Lateral
+## explanation_a
+Correct. Lateral is away from the median plane; medial is towards it.
+## answer_b
+Medial
+## explanation_b
+The exact opposite, and the option a student picks by matching the words "median" and "medial" rather than reading the direction.
+## answer_c
+Distal
+## explanation_c
+Distal is away from the root of the limb, not away from the midline. Both mean "further out", which is why the two pairs are confused; they measure from different reference points.
+## answer_d
+Proximal
+## explanation_d
+Proximal is nearer the root of the limb — the wrong axis and the wrong direction at once.
+## correct_answer
+A
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position away from the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p2 q5. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F377B3580666
+## title
+The anatomical term that means "nearer to the root of the limb" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "nearer to the root of the limb" is:
+## answer_a
+Lateral
+## explanation_a
+Lateral is measured from the median plane of the body, not along the limb.
+## answer_b
+Medial
+## explanation_b
+Medial is the other half of that same pair, and belongs to the trunk axis rather than the limb axis.
+## answer_c
+Distal
+## explanation_c
+The exact opposite: distal is away from the root of the limb. A student who reads only "root" and answers by feel takes this half the time.
+## answer_d
+Proximal
+## explanation_d
+Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
+## correct_answer
+D
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the root of the limb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q6. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2092A939DF82
+## title
+Near to the median plane is: (DEP BOOK). em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Near to the median plane is: (DEP BOOK). em em
+## answer_a
+Lateral
+## explanation_a
+Lateral is the opposite — away from the median plane.
+## answer_b
+Proximal
+## explanation_b
+Proximal is measured along a limb, from its root, not from the midline of the body.
+## answer_c
+Medial
+## explanation_c
+Correct, and the override. Medial is nearer to the median plane; median itself is exactly in the midline.
+## answer_d
+Inferior
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.
+## correct_answer
+C
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Inferior", which cannot stand: inferior means lower, and has nothing to do with the median plane. The department book's own table of terms of position gives medial as "nearer the median plane", so the answer is C. The extractor appears to have read a page mark rather than a key.
 
 
 ---
@@ -59630,7 +70358,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -59642,9 +70370,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9; EOM ISK 101 195 Answers.pdf p10 q100. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but the medial (ulnar) collateral ligament is a genuine ligament of the wrist. The anular ligament belongs to the superior radio-ulnar joint at the other end of the forearm, so D is the one that is not a wrist ligament.
 
@@ -60898,6 +71626,172 @@ Answer changed from the source's: The bank carries A, but the sternoclavicular j
 
 # Item
 ## id
+QM-101-AF05A432D22C
+## title
+The right lymphatic duct drains:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The right lymphatic duct drains:
+## answer_a
+The whole body below the diaphragm
+## explanation_a
+The whole body below the diaphragm drains to the thoracic duct, both sides of it. This is the option that catches a student who has divided the body into a right half and a left half.
+## answer_b
+The right lower limb
+## explanation_b
+The right lower limb is below the diaphragm and therefore thoracic duct territory. Its being on the right side is exactly the resemblance that makes this wrong.
+## answer_c
+The right upper limb
+## explanation_c
+Correct. The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.
+## answer_d
+The right half of the abdomen
+## explanation_d
+The right half of the abdomen is below the diaphragm, so it too goes to the thoracic duct. Three of the four options are on the right side of the body, which is what makes the question a test of the diaphragm rather than of the midline.
+## correct_answer
+C
+## main_concept
+CON-MSK-BF3670E27D6F12
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## topic
+Basis
+## subtopic
+Lymphatic system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State what the right lymphatic duct drains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p8 q48. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DF6FEA79E991
+## title
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## answer_a
+Afferent vessels carry lymph away from lymph nodes.
+## explanation_a
+Reversed. Afferent vessels carry lymph *to* the node, opening into its periphery at the convex border; it is the efferent vessels, leaving the hilum, that carry it away. The prefixes are the whole distinction and they are easy to swap under time pressure.
+## answer_b
+Right bronchomediastinal lymph trunk carry lymph from right side thorax and upper surface of the liver left lobe.
+## explanation_b
+The right bronchomediastinal trunk is not described in this chapter, which stops at the two great ducts in the root of the neck. An option naming a structure the course does not teach cannot be the answer a first-year examiner intends, and the detail it adds about the left lobe of the liver is there to look authoritative.
+## answer_c
+End blindly in tissue spaces and contain wide pores but do not have valves.
+## explanation_c
+Half of this is the chapter's own wording — lymph vessels do end blindly in the tissue spaces and do have wide pores — and the last four words reverse it. They have many valves, which is what makes lymph flow in one direction. A statement that is three-quarters true is the hardest kind of distractor.
+## answer_d
+Absent in brain, spinal cord, bone marrow and avascular structures.
+## explanation_d
+Correct, and the override. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.
+## correct_answer
+D
+## main_concept
+CON-MSK-8EFC3649B7898F
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## topic
+Lymphatic system
+## subtopic
+Lymphatic system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about lymph vessels among three that invert a stated character.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p15 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the department chapter's own list, word for word — lymph vessels are absent in brain and spinal cord, bone marrow and avascular structures such as cartilage, cornea and hair. A and C each invert a character the chapter states, and B concerns a trunk the chapter never describes.
+
+
+---
+
+# Item
+## id
 QM-101-644A25B01A69
 ## title
 All the statements concerned to the cell membrane are true EXCEPT:
@@ -61140,6 +72034,5567 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F0463982B17C
+## title
+Freezing technique has the following advantage:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Freezing technique has the following advantage:
+## answer_a
+It takes a short time
+## explanation_a
+Correct. Freezing is the most rapid method, which is why a frozen section is what a surgeon waits for while a tumour is diagnosed mid-operation.
+## answer_b
+It gives serial sections
+## explanation_b
+Serial sections are a paraffin advantage; the book lists "no serial sections" among the disadvantages of freezing.
+## answer_c
+It gives thin sections
+## explanation_c
+Thin sections are paraffin too. Frozen sections are thick and hard to cut.
+## answer_d
+Sections are easy to stain
+## explanation_d
+Frozen sections are explicitly "not easily stained" in the book's table — which is a separate matter from their being the only sections that keep enzymes to stain for.
+## correct_answer
+A
+## main_concept
+CON-FND-9F0CCA2BFB5C7B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Give the advantage the freezing technique is chosen for.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q3. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book calls the freezing technique "the most rapid" and lists the other three options — serial sections, thin sections, easy staining — as advantages of the paraffin technique and disadvantages of freezing.
+
+
+---
+
+# Item
+## id
+QM-101-9E4176D0151E
+## title
+The suitable technique to stain the glycogen inside the cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The suitable technique to stain the glycogen inside the cells is:
+## answer_a
+Paraffin technique
+## explanation_a
+Paraffin is the routine technique and the wrong one here for the reason the book gives: its xylol and heat destroy the cell's chemical components, which is exactly what a histochemical stain is looking for.
+## answer_b
+Celloidin technique
+## explanation_b
+Celloidin avoids heat and preserves fine structure, but it is the slowest technique and is used for large organs and soft tissue, not for histochemistry.
+## answer_c
+Freezing technique
+## explanation_c
+Correct. Histochemical stains are done on frozen sections, because freezing preserves the chemistry the stain reacts with.
+## answer_d
+Scanning EM
+## explanation_d
+Scanning electron microscopy shows surfaces in three dimensions. It is not a way of staining anything, and it is not a light-microscopic technique at all.
+## correct_answer
+C
+## main_concept
+CON-FND-9F0CCA2BFB5C7B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Technique choice
+## learning_objective
+Choose the processing technique that permits a histochemical stain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q4. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that histochemical stains — PAS for glycogen among them — need the frozen technique, because the heat and solvents of paraffin processing destroy the chemical components of the cell.
+
+
+---
+
+# Item
+## id
+QM-101-7C7CED02D7F3
+## title
+The most common staining system In the histology is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common staining system In the histology is:
+## answer_a
+Silver stain
+## explanation_a
+Silver is a special stain, used for the Golgi apparatus, nerve cells and fibres, and reticular fibres. It is slow and selective, not routine.
+## answer_b
+Orcein stain
+## explanation_b
+Orcein is a special stain with one job: browning elastic fibres.
+## answer_c
+Hematoxylin and eosin system (H & E)
+## explanation_c
+Correct. H&E is the routine system, and every slide a student is shown is H&E unless told otherwise.
+## answer_d
+Periodic acid-Schiff reaction (PAS)
+## explanation_d
+PAS is a histochemical reaction for carbohydrate. It is common, but it demonstrates one class of molecule rather than showing a section as a whole.
+## correct_answer
+C
+## main_concept
+CON-FND-22D6FA8D15AA45
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the routine staining system of histology.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q5. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that haematoxylin and eosin is the most commonly used stain in routine histological slides; the other three are special stains used for one target each.
+
+
+---
+
+# Item
+## id
+QM-101-B296E8028009
+## title
+cytoplasm of ribosome is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+cytoplasm of ribosome is:
+## answer_a
+acidophilic
+## explanation_a
+Acidophilic is what cytoplasm poor in RNA looks like — smooth endoplasmic reticulum, or the haemoglobin of a red cell. Ribosomes push the staining the other way.
+## answer_b
+basophilic
+## explanation_b
+Correct. Ribosomal RNA carries acidic phosphate groups, which bind the basic dye haematoxylin, so ribosome-rich cytoplasm is basophilic.
+## answer_c
+need special stain
+## explanation_c
+Ribosomes need no special stain to make their presence felt: their effect on ordinary H&E is exactly the basophilia this question is about. Seeing an individual ribosome does need electron microscopy, which is a different claim.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" cannot stand while B is the department book's own account of cytoplasmic basophilia.
+## correct_answer
+B
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Staining
+## learning_objective
+Say how ribosomes make the cytoplasm stain, and why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q4. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DA669921E2E3
+## title
+Lishman stain is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lishman stain is:
+## answer_a
+neutral stain
+## explanation_a
+Correct, and keyed. Leishman's stain is a neutral stain: a mixture of the acidic dye eosin and the basic dye methylene blue, which is what lets one preparation show both the acidophilic and the basophilic cells of a blood film.
+## answer_b
+vital stain
+## explanation_b
+A vital stain is taken up by living cells inside the living animal. Leishman's is applied to a dried film of dead cells on a slide.
+## answer_c
+supravital stain
+## explanation_c
+Supravital staining is of living cells outside the body — brilliant cresyl blue on reticulocytes. Leishman's film is fixed with methyl alcohol first, so its cells are not alive.
+## answer_d
+metachromatic stain
+## explanation_d
+A metachromatic stain gives a colour different from its own. Leishman's components each give their own colour, which is the opposite property.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify Leishman's stain among the classes of special stain.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p11 q65. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-679C96AA50C6
+## title
+Stain used for blood film:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Stain used for blood film:
+## answer_a
+eosin only
+## explanation_a
+Eosin alone is acidic and would show the acidophilic structures — red cells and eosinophil granules — and leave the nuclei and basophilic granules unstained.
+## answer_b
+Leishman
+## explanation_b
+Correct. Leishman's stain is the neutral stain for blood films, and being a mixture is the whole point of it.
+## answer_c
+methylene blue only
+## explanation_c
+Methylene blue alone is basic and would stain nuclei and basophilic granules while leaving the red cells almost colourless.
+## answer_d
+Hematoxylin
+## explanation_d
+Haematoxylin is the basic dye of the routine tissue stain; it is not used on blood films, where Leishman's combined dyes in methyl alcohol both fix and stain in one step.
+## correct_answer
+B
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain used for a blood film and say why a mixture is needed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q22. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-66871650AE20
+## title
+staining of blood film is done by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+staining of blood film is done by:
+## answer_a
+orecin stain
+## explanation_a
+Orcein browns elastic fibres and has no role in blood.
+## answer_b
+silver stain
+## explanation_b
+Silver browns the Golgi and nerve fibres and blackens reticular fibres; it demonstrates none of the blood cells.
+## answer_c
+H & E stain
+## explanation_c
+H&E is the routine stain for a tissue section, not for a blood film — a film is air-dried and needs a stain that carries its own alcohol fixative.
+## answer_d
+leishman's stain
+## explanation_d
+Correct. Leishman's stain is the blood film stain.
+## correct_answer
+D
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain used for a blood film against a set of special stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q5. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7BF30A69E897
+## title
+Fixative material that used in blood film:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fixative material that used in blood film:
+## answer_a
+methyl alcohol
+## explanation_a
+Correct. Leishman's dyes are dissolved in methyl alcohol, which fixes the air-dried film as the stain is applied — one solution doing both jobs.
+## answer_b
+eosin
+## explanation_b
+Eosin is one of the two dyes in the mixture, not the fixative that carries them.
+## answer_c
+ethylene glycol
+## explanation_c
+Ethylene glycol is an antifreeze and has no place in this preparation.
+## answer_d
+glycerin
+## explanation_d
+Glycerin is a mounting and clearing agent, not a fixative.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the fixative in which a blood film stain is dissolved.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q23. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B39E076B8D4E
+## title
+Staining of the macrophage with trypan blue is an example of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Staining of the macrophage with trypan blue is an example of:
+## answer_a
+Vital stain
+## explanation_a
+Correct. A vital stain is one taken up by living cells inside the living animal — the dye is injected and the macrophage phagocytoses it, which is why this method identifies that cell and no other.
+## answer_b
+Supravital stain
+## explanation_b
+Supravital staining is of living cells outside the body. The reticulocyte with brilliant cresyl blue is the example the book gives.
+## answer_c
+Flurescent stain
+## explanation_c
+A fluorescent stain is read under ultraviolet light; trypan blue is seen in an ordinary microscope as blue granules inside the cell.
+## answer_d
+Histochemical stain
+## explanation_d
+A histochemical stain demonstrates a chemical or an enzyme. Trypan blue demonstrates a behaviour — phagocytosis — which is a different kind of evidence.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the demonstration of a macrophage with trypan blue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q123. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C6A962598508
+## title
+Reticulocytes could be demonstrated by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticulocytes could be demonstrated by:
+## answer_a
+Vital stain
+## explanation_a
+A vital stain works inside the living animal. The reticulocyte is stained on a slide, after the blood has been drawn.
+## answer_b
+Supra vital stain
+## explanation_b
+Correct, and keyed. Brilliant cresyl blue on living cells outside the body is supravital staining, and it precipitates the residual RNA of the young red cell into the visible reticulum that names it.
+## answer_c
+Toluidine blue
+## explanation_c
+Toluidine blue is the metachromatic stain for mast cell and basophil granules; it says nothing about a reticulocyte.
+## answer_d
+Metachromatic stain
+## explanation_d
+Metachromasia is a property of a dye on a particular substrate. The reticulum of the reticulocyte is shown in the dye's own colour, which is the opposite.
+## correct_answer
+B
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the stain that demonstrates a reticulocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p6 q31. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-09633B9DAE8D
+## title
+Macrophages can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Macrophages can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain demonstrates the mast cell and the basophil, whose granules hold heparin.
+## answer_b
+Histochemical stain
+## explanation_b
+A histochemical stain does mark the macrophage indirectly, through the acid phosphatase of its many lysosomes — but the specific demonstration named in the book is the vital stain, and the option offered here is unqualified.
+## answer_c
+Trypan blue stain
+## explanation_c
+Correct. Trypan blue is the vital stain the macrophage phagocytoses, and finding blue granules inside a connective tissue cell is how the cell is identified.
+## answer_d
+Sudan III stain
+## explanation_d
+Sudan III demonstrates fat, which identifies the adipocyte.
+## correct_answer
+C
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the class of stain that demonstrates the macrophage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q137. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0215E1F24615
+## title
+Mast cells can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+Correct. Toluidine blue is a metachromatic stain, and the heparin of the mast cell granule turns it purple — a colour the dye itself does not have.
+## answer_b
+Histochemical stain
+## explanation_b
+Histochemical stains demonstrate a named chemical or enzyme; the mast cell is not identified that way in this course.
+## answer_c
+Trypan blue stain
+## explanation_c
+Trypan blue identifies the macrophage, by being eaten. Mast cells are not phagocytic, which is one of the differences the book draws between them and the basophil.
+## answer_d
+Sudan III stain
+## explanation_d
+Sudan III identifies the fat cell.
+## correct_answer
+A
+## main_concept
+CON-FND-5F15B250FC19EC
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the class of stain that demonstrates the mast cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q136. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF4733F354AC
+## title
+basophils stained by toluidine blue (metachromatic. due to
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+basophils stained by toluidine blue (metachromatic. due to
+## answer_a
+histamine
+## explanation_a
+Histamine is in the same granule and is what causes the vasodilatation of anaphylaxis, but it is not what turns the dye purple.
+## answer_b
+heparin
+## explanation_b
+Correct. Heparin is the sulphated glycosaminoglycan of the granule, and metachromasia is what a dye does on a densely charged polyanion like it.
+## answer_c
+sulfate
+## explanation_c
+"Sulfate" names the chemical group that carries the charge rather than the molecule that carries the group — a half-answer that only looks right because heparin is sulphated.
+## answer_d
+Collagenase
+## explanation_d
+Collagenase is not a basophil product at all.
+## correct_answer
+B
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the granule constituent that makes a basophil metachromatic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q38. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AFC70CA5CFF0
+## title
+Glycogen can be stained by the following:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycogen can be stained by the following:
+## answer_a
+H&E
+## explanation_a
+H&E does not show glycogen: the routine technique dissolves and washes much of it out, and what remains takes neither dye distinctively.
+## answer_b
+Best’s carmine
+## explanation_b
+True on its own — Best's carmine is the classical glycogen stain — but the stem allows a combined option.
+## answer_c
+PAS
+## explanation_c
+True on its own. PAS reacts with the sugar of glycogen and gives magenta red.
+## answer_d
+b & c
+## explanation_d
+Correct. Both B and C demonstrate glycogen, and they do so for the same reason: glycogen is a carbohydrate.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stains that demonstrate glycogen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q57. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ED4C0867E307
+## title
+Glycogen granules are stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycogen granules are stained with:
+## answer_a
+Best's carmine
+## explanation_a
+True, and the answer the page carries. Best's carmine is the classical glycogen stain — but it is not the only one offered here.
+## answer_b
+PAS
+## explanation_b
+Also true. PAS reddens glycogen because glycogen is a carbohydrate, which is exactly what PAS reacts with.
+## answer_c
+Sudan III
+## explanation_c
+Sudan III is the fat stain. Fat and glycogen are the two cytoplasmic inclusions students most often swap, because both are storage products and both vanish in routine processing.
+## answer_d
+Both a & b
+## explanation_d
+Correct. A and B are both true, so the combined option is the one that stands.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stains that demonstrate glycogen when a combined option is offered.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q32; EOM first 2021 101 INT end of module.pdf p2 q11. Manifest src_6846577508f49244d715, src_9487fd713153c573087f.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A. Best's carmine does stain glycogen, so A is a true statement — but so is B, since the department book states that PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D1888FD2F372
+## title
+Carbohydrates are stained red with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Carbohydrates are stained red with:
+## answer_a
+Silver stain
+## explanation_a
+Silver browns the Golgi and nerve fibres and blackens reticular fibres. It does redden nothing, and its reticular target is chosen for its sugar only indirectly.
+## answer_b
+Green Janus B
+## explanation_b
+Janus green is the vital stain for mitochondria and gives green, as its name says.
+## answer_c
+Iron hematoxylin
+## explanation_c
+Iron haematoxylin is the stain for centrioles and gives dark blue.
+## answer_d
+Best’s carmine
+## explanation_d
+Correct. Best's carmine reddens carbohydrate — glycogen above all — and PAS does the same in magenta.
+## correct_answer
+D
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that reddens carbohydrate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q16. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F0C8B88F3944
+## title
+The following inclusion can be stained with Best's carmine:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following inclusion can be stained with Best's carmine:
+## answer_a
+Hemoglobin (Hb)
+## explanation_a
+Haemoglobin is a protein and is acidophilic; it takes eosin in an ordinary film and needs no special stain.
+## answer_b
+Glycogen
+## explanation_b
+Correct. Best's carmine demonstrates glycogen, and glycogen is the carbohydrate inclusion of the liver and muscle cell.
+## answer_c
+Fats
+## explanation_c
+Fat needs a fat-soluble dye — Sudan III — on a frozen section, because a carbohydrate stain has nothing to react with in a lipid droplet.
+## answer_d
+Carotene pigment
+## explanation_d
+Carotene is the pigment dissolved in the fat droplet and is seen with the fat, not with a carbohydrate stain.
+## correct_answer
+B
+## main_concept
+CON-FND-05C930A781CE55
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the cytoplasmic inclusion that Best's carmine demonstrates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q1; Cytology | Module 101 questions.pdf.pdf p19 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B27AA9B77C5F
+## title
+In light microscopy, the basement membrane is stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In light microscopy, the basement membrane is stained with:
+## answer_a
+Sudan III
+## explanation_a
+Sudan III shows fat. There is no fat in a basement membrane.
+## answer_b
+Hematoxylin
+## explanation_b
+Haematoxylin stains the acidic components of the cell; the basement membrane is not resolved as a distinct layer by it.
+## answer_c
+Eosin
+## explanation_c
+Eosin makes it, at best, part of the general pink of the connective tissue below.
+## answer_d
+PAS
+## explanation_d
+Correct, and keyed. PAS reddens the basement membrane because its glycoproteins are carbohydrate — the same reason it reddens glycogen and mucus.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Epithelium
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows the basement membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p3 q14. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5500B3FF4C3B
+## title
+The basement membrane can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The basement membrane can be stained by:
+## answer_a
+trypan blue
+## explanation_a
+Trypan blue is the vital stain for the macrophage; it is taken up by a living phagocyte and stains no extracellular sheet.
+## answer_b
+silver
+## explanation_b
+True on its own — silver browns the basement membrane, as it browns the reticular fibres of the reticular lamina.
+## answer_c
+PAS
+## explanation_c
+True on its own — PAS reddens it, through its glycoprotein.
+## answer_d
+Both b and c are correct
+## explanation_d
+Correct. Both B and C work, and they work on the same layer from its two sides: silver on the reticular fibres of the connective tissue half, PAS on the sugar of the whole.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Epithelium
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name both stains that demonstrate the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q102. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DB469A9046EF
+## title
+Fat cells can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fat cells can be stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain marks the mast cell and the basophil, through their heparin.
+## answer_b
+Histochemical stain
+## explanation_b
+A histochemical stain is the right family — Sudan III is one — but the option is unqualified, and the specific member is offered in D.
+## answer_c
+Trypan blue stain
+## explanation_c
+Trypan blue is the vital stain for the macrophage.
+## answer_d
+Sudan III stain
+## explanation_d
+Correct. Sudan III dissolves into the fat droplet and colours it orange, and it is the stain that identifies the adipocyte.
+## correct_answer
+D
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Pick the stain that demonstrates the fat cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q138. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-43E35932C1F9
+## title
+Fat cells are stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fat cells are stained with:
+## answer_a
+Best's carmine
+## explanation_a
+Best's carmine demonstrates glycogen, which is a carbohydrate.
+## answer_b
+PAS
+## explanation_b
+The answer the page carries, and the reason for this override. PAS reacts with sugar; a fat droplet has none, which is why PAS shows nothing where the fat was.
+## answer_c
+Sudan III
+## explanation_c
+Correct. Sudan III is a fat-soluble dye and stains the droplet orange, on a frozen section.
+## answer_d
+Both a & b
+## explanation_d
+"Both a & b" pairs the two carbohydrate stains, so it is wrong twice over.
+## correct_answer
+C
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain that demonstrates fat, against a set that also offers the glycogen stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q31; EOM ISK End 101 — 2022.pdf p1 q4. Manifest src_6846577508f49244d715, src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. The department book gives Sudan III as the fat stain and PAS as the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best's carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-248800AAEFEC
+## title
+Which of the following would be best suited to visualize lipid?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to visualize lipid?
+## answer_a
+Orcein stain
+## explanation_a
+Orcein browns elastic fibres and does nothing to lipid.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E dissolves the lipid out during processing and leaves an empty space — the opposite of visualising it.
+## answer_c
+Sudan ‏الا‎ stain
+## explanation_c
+Correct, and keyed. Sudan III is the fat-soluble dye that colours the droplet orange. The option is printed with the Roman numeral mangled by the scan, but the stain named is unambiguous.
+## answer_d
+Silver stain
+## explanation_d
+Silver browns the Golgi and nerve fibres and blackens reticular fibres; none of those is lipid.
+## correct_answer
+C
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Choose the stain best suited to showing lipid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q24. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-BF12549D970D
+## title
+lipids:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+lipids:
+## answer_a
+Stored mainly in the muscle cells
+## explanation_a
+Muscle stores glycogen as its ready fuel, not fat as a depot. The fat depot is adipose tissue.
+## answer_b
+Can be stained with PAS
+## explanation_b
+PAS is the carbohydrate reaction. It reddens glycogen, mucus and basement membrane; a lipid droplet has no sugar for it to react with.
+## answer_c
+Mainly stored in the liver cells
+## explanation_c
+The liver stores glycogen. Fat accumulates in it only in disease, which is a pathological finding rather than the normal store this option claims.
+## answer_d
+None of the above
+## explanation_d
+Correct by elimination: no option offered is true, because fat is stored in the unilocular adipocyte and is demonstrated by Sudan III on a frozen section.
+## correct_answer
+D
+## main_concept
+CON-FND-03C08D6EA7C7BE
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative reasoning
+## learning_objective
+Reject three false statements about where lipid is stored and what stains it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q71. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and each of the three substantive options fails against the department book: fat is stored in the adipocyte of adipose connective tissue rather than mainly in muscle or in liver cells, and PAS is a carbohydrate reaction that gives nothing on lipid. That leaves "none of the above", which is the only option this row can carry.
+
+
+---
+
+# Item
+## id
+QM-101-EAB3A85C7ED7
+## title
+(Signet ring appearance) is a descriptive term for the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+(Signet ring appearance) is a descriptive term for the:
+## answer_a
+Fat cells stained with sudan III
+## explanation_a
+Sudan III fills the droplet with orange, so the cell looks full rather than empty. That is the opposite of a signet ring.
+## answer_b
+Fat cells stained with sudan black
+## explanation_b
+Sudan black does the same in black; again the space is occupied.
+## answer_c
+Fat cells stained with H&E
+## explanation_c
+Correct. H&E dissolves the fat away, leaving a large empty space with the nucleus and a rim of cytoplasm flattened against one side — the stone and the band of a signet ring.
+## answer_d
+Fat cells stained with toludin blue
+## explanation_d
+Toluidine blue is the mast cell stain and does nothing to a fat cell.
+## correct_answer
+C
+## main_concept
+CON-FND-97930723FE0D94
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Say which preparation of a fat cell gives the signet ring appearance and why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q28. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6E066AD0AF9B
+## title
+Concerning unilocular adipocytes, they:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning unilocular adipocytes, they:
+## answer_a
+Are stained by Sudan Ill
+## explanation_a
+Correct. The single large droplet of the unilocular cell is fat, and Sudan III is what makes it visible.
+## answer_b
+Are concerned with heat generation
+## explanation_b
+Heat generation is the multilocular, brown fat cell's work, through the thermogenin of its many mitochondria. White fat insulates against heat loss, which is a different job.
+## answer_c
+They possess small fat droplets
+## explanation_c
+One large droplet is what unilocular means. Many small droplets is the multilocular cell.
+## answer_d
+They can divide
+## explanation_d
+A fat cell filled with its droplet does not divide; new fat cells come from the undifferentiated mesenchymal cell.
+## correct_answer
+A
+## main_concept
+CON-FND-97930723FE0D94
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the unilocular fat cell against the characters of the multilocular one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p16 q8. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A is true of the unilocular cell — Sudan III is the department book's stain for its fat — and the other three are each a character of the multilocular cell or of no cell: thermogenesis and multiple small droplets belong to the brown, multilocular adipocyte, and a mature fat cell does not divide.
+
+
+---
+
+# Item
+## id
+QM-101-CE103EC088BB
+## title
+Lysosomes are stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Lysosomes are stained by:
+## answer_a
+H&E
+## explanation_a
+A lysosome cannot be seen in a routine H&E section at all; it is below the useful limit and takes no distinctive colour.
+## answer_b
+Metachromatic stain
+## explanation_b
+Metachromatic staining marks the heparin of mast cell and basophil granules, not a lysosome.
+## answer_c
+Histochemical stain detecting acid phosphatase
+## explanation_c
+Correct. Acid phosphatase is the lysosomal marker enzyme, and the histochemical reaction for it is how the organelle is identified by light microscopy.
+## answer_d
+Histochemical stain detecting alkaline phosphatase
+## explanation_d
+Alkaline phosphatase is the trap this pair of options exists for. It is not the lysosomal enzyme; acid is.
+## correct_answer
+C
+## main_concept
+CON-FND-1ACE68A9080772
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the histochemical reaction that identifies a lysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q35. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-21CB26C1E062
+## title
+peroxisomes are stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+peroxisomes are stained by:
+## answer_a
+Metachromatic stain
+## explanation_a
+A metachromatic stain marks heparin-rich granules; a peroxisome has none.
+## answer_b
+Histochemical stain for catalase
+## explanation_b
+Correct. Catalase is the peroxisome's defining enzyme — it destroys the hydrogen peroxide the organelle's own oxidases produce — and the histochemical reaction for it is what identifies the organelle.
+## answer_c
+Histochemical stain as acid phosphatase
+## explanation_c
+Acid phosphatase is the lysosomal marker. Substituting one single-membrane vesicle for the other is the standard error here.
+## answer_d
+Histochemical stain as alkaline phosphatase
+## explanation_d
+The answer the page carries, and the reason for this override. Alkaline phosphatase is a membrane enzyme of absorptive and osteogenic cells; it belongs to neither organelle in this pair.
+## correct_answer
+B
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the enzyme whose histochemical demonstration identifies a peroxisome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p21 q7. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, alkaline phosphatase, which is neither a lysosomal nor a peroxisomal enzyme. The department book gives the peroxisome two enzyme groups, the oxidases and catalase, and option B names catalase specifically. This row sits on the same book's page 21 among the same block of shifted keys as the fat cell and mitochondrion rows.
+
+
+---
+
+# Item
+## id
+QM-101-7DAF84C052F8
+## title
+mitochondria can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mitochondria can be stained by:
+## answer_a
+janus green
+## explanation_a
+Correct. Janus green is the vital stain for mitochondria, and it colours them green.
+## answer_b
+van Gieson
+## explanation_b
+Van Gieson is a fibre stain: red for collagen, yellow for elastic fibres.
+## answer_c
+hematoxylin & eosin
+## explanation_c
+H&E makes mitochondria part of the general acidophilia of the cytoplasm; it does not distinguish them.
+## answer_d
+orcein
+## explanation_d
+Orcein browns elastic fibres.
+## correct_answer
+A
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the vital stain for mitochondria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q8. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7D12F3573FB2
+## title
+Mitochondria can be stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitochondria can be stained with:
+## answer_a
+Best's carmine
+## explanation_a
+Best's carmine demonstrates glycogen.
+## answer_b
+Janus green
+## explanation_b
+Correct. Janus green is the vital stain for mitochondria; iron haematoxylin is the other stain the book names for them.
+## answer_c
+Sudan III
+## explanation_c
+The answer the page carries, and the reason for this override. Sudan III shows fat, which is a cytoplasmic inclusion rather than an organelle.
+## answer_d
+Leishman stain
+## explanation_d
+Leishman's stain is the neutral stain for a blood film and demonstrates whole cells, not organelles.
+## correct_answer
+B
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain for mitochondria against a set of other special stains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q33. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, Sudan III, which is the fat stain. The department book gives Janus green and iron haematoxylin as the mitochondrial stains, and Janus green is option B. This is the third row of the shifted block on the same printed page as `fat-cells-are-stained-with-8f1f1a6a` and `glycogen-granules-are-stained-with-760dabb7`.
+
+
+---
+
+# Item
+## id
+QM-101-DBC109501639
+## title
+stain used for centriole:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+stain used for centriole:
+## answer_a
+iron hematoxylin
+## explanation_a
+Correct. Iron haematoxylin is the stain for centrioles, which are otherwise below the useful resolution of the light microscope in a routine section.
+## answer_b
+janus green
+## explanation_b
+Janus green shows mitochondria.
+## answer_c
+silver
+## explanation_c
+Silver browns the Golgi and nerve fibres and blackens reticular fibres.
+## answer_d
+PA
+## explanation_d
+PAS is the carbohydrate reaction; a centriole is protein — tubulin — and holds no sugar.
+## correct_answer
+A
+## main_concept
+CON-FND-F2650956ED1A0C
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows centrioles by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p14 q36. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D56712C6FAED
+## title
+Golgi complex could be stained as brown granules & Fibrils by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi complex could be stained as brown granules & Fibrils by:
+## answer_a
+H & E
+## explanation_a
+H&E shows the Golgi only as a negative image — a pale gap in otherwise basophilic cytoplasm — not as brown granules.
+## answer_b
+PAS
+## explanation_b
+PAS reddens carbohydrate. The Golgi does add sugar to proteins, but the reaction does not outline the organelle.
+## answer_c
+silver
+## explanation_c
+Correct. Silver impregnation shows the Golgi as a network of brown granules and fibrils beside the nucleus.
+## answer_d
+Integral membrane proteins
+## explanation_d
+Integral membrane proteins are a component of a membrane, not a stain — the option is not the same kind of thing as the other three.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that shows the Golgi apparatus positively.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p4 q29. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-756C85F0AD9B
+## title
+Golgi apparatus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Golgi apparatus:
+## answer_a
+Appears as negative Golgi image when cells stained with silver
+## explanation_a
+The two halves are swapped. Silver gives the positive image, brown granules and fibrils; it is H&E that gives the negative image.
+## answer_b
+Appears as granular network when the cells stained with H/E
+## explanation_b
+Also swapped. H&E gives no granular network — that is silver's picture — and what H&E gives is a pale unstained area.
+## answer_c
+Variable in size, shape and position
+## explanation_c
+Correct. The Golgi varies in size, shape and position with the cell: apical in a secretory cell discharging at a surface, perinuclear in a nerve cell.
+## answer_d
+Easy to see in routine histological sections
+## explanation_d
+The opposite of the fact. It is hard to see in a routine section, which is why the negative image and the silver stain both had to be learned.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the light-microscopic Golgi apparatus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p13 q35. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-65B8A55485FD
+## title
+Concerning the Golgi complex, all the statements are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the Golgi complex, all the statements are true EXCEPT:
+## answer_a
+Stained with silver
+## explanation_a
+True, and the answer the page carries. Silver shows the Golgi as brown granules and fibrils; this is the reason the override was needed.
+## answer_b
+Appears as Golgi image in H/E sections
+## explanation_b
+True, with the book's own wording behind it: in an H&E section the Golgi appears as an image — the negative Golgi image, a pale area where the basophilic cytoplasm is interrupted.
+## answer_c
+Variable in size, shape and position
+## explanation_c
+True. Size, shape and position all vary with the cell and with what it is secreting.
+## answer_d
+Not present in protein synthesizing cells
+## explanation_d
+Correct, and the exception. A protein-synthesising cell has a well developed Golgi — that is what packages the protein for export — and the plasma cell shows it as a clear negative image.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Identify the false statement about the Golgi apparatus in a set of three true ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q36. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, "stained with silver", but that is the department book's own positive demonstration of the Golgi and cannot be the false statement. D is false on the book's account and on this leaf's own evidence: the Golgi is best developed in protein-synthesising cells, and the plasma cell — the type example of one — is the cell in which the negative Golgi image is asked about three separate times in this same bank.
+
+
+---
+
+# Item
+## id
+QM-101-4924E5E77EAF
+## title
+In H&E stained sections of plasma cell, Golgi apparatus appears:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In H&E stained sections of plasma cell, Golgi apparatus appears:
+## answer_a
+Perinuclear
+## explanation_a
+Perinuclear is the Golgi's position in a nerve cell. The question asks how it appears, not where it lies, and in the plasma cell it is beside the nucleus rather than around it.
+## answer_b
+Apical
+## explanation_b
+Apical describes the position in a secretory epithelial cell discharging at a free surface. A plasma cell has no free surface.
+## answer_c
+Unstained
+## explanation_c
+Correct. It appears unstained — the negative Golgi image, a pale gap in the plasma cell's otherwise deeply basophilic cytoplasm. Asked three times across three books, which makes it the most repeated question in this leaf.
+## answer_d
+Basal
+## explanation_d
+Basal is where the rough endoplasmic reticulum of a secretory cell lies, below the nucleus, and it is basophilic rather than pale.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Say how the Golgi apparatus of a plasma cell appears in an H&E section.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p1 q6; Dpt Book MCQ histo 101 .NEW (1).pdf p2 q6; Cytology | Module 101 questions.pdf.pdf p24 q6. Manifest src_4a8ddb5edfab86d624d8, src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BD88701B2C5C
+## title
+in H&E-stained sections of protein forming cell, Golgi appears as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in H&E-stained sections of protein forming cell, Golgi appears as:
+## answer_a
+deeply basophilia area near the nucleus
+## explanation_a
+Basophilic near the nucleus describes the rough endoplasmic reticulum that surrounds the Golgi, not the Golgi itself. Its basophilia is what makes the Golgi's pallor visible.
+## answer_b
+deeply acidophilic area near the nucleus
+## explanation_b
+Acidophilic describes cytoplasm poor in RNA — the opposite of a protein-forming cell's.
+## answer_c
+brown fibrils and granules near the nucleus
+## explanation_c
+Brown fibrils and granules is the silver picture, not the H&E one. The question names the stain, and that is the discriminator.
+## answer_d
+unstained area near the nucleus
+## explanation_d
+Correct. The negative Golgi image: an unstained area beside the nucleus, where the Golgi takes neither dye.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Say how the Golgi of any protein-forming cell appears in H&E.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p11 q63. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the H&E appearance of the Golgi as the negative Golgi image — an unstained area beside the nucleus — and the identical question asked of the plasma cell, `in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf`, is keyed to "unstained" in three separate books.
+
+
+---
+
+# Item
+## id
+QM-101-3ADDFCADDA64
+## title
+negative Golgi image appears:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+negative Golgi image appears:
+## answer_a
+in plasma cells & osteoblasts
+## explanation_a
+True on its own. The plasma cell and the osteoblast are the two cells the books name for the negative Golgi image, because both have deeply basophilic cytoplasm for the pale area to stand out against.
+## answer_b
+when stained by H&E
+## explanation_b
+True on its own. The negative image is what H&E gives; silver gives the positive one.
+## answer_c
+when Golgi is small
+## explanation_c
+The reverse of the mechanism. A small Golgi gives a small pale area or none; the image is most obvious where the Golgi is large.
+## answer_d
+both a & b
+## explanation_d
+Correct. Both A and B hold, and together they state the whole finding: which cells, and in which stain.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+State both the cells in which a negative Golgi image is seen and the stain that produces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q84. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A and B are each true — the negative image is the classical finding in the plasma cell and the osteoblast, both protein-forming cells, and it is an H&E finding — and the row offers their conjunction as option D.
+
+
+---
+
+# Item
+## id
+QM-101-A126CDD35B3B
+## title
+Regarding the cell membrane, the following is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cell membrane, the following is true:
+## answer_a
+Non.membranous organelle
+## explanation_a
+The plasma membrane is the first item on the department book's list of membranous organelles — being a membrane is what puts it there.
+## answer_b
+Its function is cell respiration
+## explanation_b
+Cell respiration is the mitochondrion's work. The membrane's functions are protection, selective permeability, absorption, secretion and reception.
+## answer_c
+Stained by H&E
+## explanation_c
+H&E does not resolve it. Silver or PAS is needed, and both act on the carbohydrate of its outer coat.
+## answer_d
+Appear by EM as 3 layers
+## explanation_d
+Correct. On electron microscopy it is trilaminar: two dark layers with a light one between them.
+## correct_answer
+D
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the plasma membrane from a set of classification and staining claims.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p18 q1; EOM first 2021 101 INT end of module.pdf p2 q8. Manifest src_d1414701d8fcb55932b6, src_9487fd713153c573087f.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-BF2FCD5307CC
+## title
+The following stains can be used to stain the cell membrane
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following stains can be used to stain the cell membrane
+## answer_a
+Silver stain
+## explanation_a
+Correct. Silver demonstrates the membrane, acting on the carbohydrate of its cell coat rather than on the lipid bilayer itself.
+## answer_b
+Trichrome stains
+## explanation_b
+Trichrome stains — Mallory among them — are fibre stains for connective tissue.
+## answer_c
+Orcein stain
+## explanation_c
+Orcein browns elastic fibres.
+## answer_d
+Indian ink
+## explanation_d
+India ink is a vital stain: it is injected and phagocytosed by macrophages, and it demonstrates a cell rather than a membrane.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Cytology
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Name the stain that demonstrates the plasma membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q5. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book names silver and PAS as the two ways of showing the plasma membrane by light microscopy, and silver is the only one of the four options offered.
+
+
+---
+
+# Item
+## id
+QM-101-7280A6CA52C3
+## title
+By Mallory stain, Collagen fibers are stained:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+By Mallory stain, Collagen fibers are stained:
+## answer_a
+Pink
+## explanation_a
+Pink is collagen in eosin. Every fibre stain question turns on which stain is named, because collagen has a different colour in each.
+## answer_b
+blue
+## explanation_b
+Correct. Mallory's trichrome stains collagen blue.
+## answer_c
+brown
+## explanation_c
+Brown is orcein on elastic fibres, or silver on reticular ones.
+## answer_d
+red
+## explanation_d
+Red is collagen with van Gieson, not with Mallory — the two trichrome-family stains give opposite ends of the spectrum on the same fibre.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Give the colour collagen takes with Mallory's trichrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q40. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CAECA4AA509
+## title
+Which of the following would be best suited to differentiate collagen fibers from other…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to differentiate collagen fibers from other fibers?
+## answer_a
+Mallory trichrome stain
+## explanation_a
+Correct, and keyed. Mallory's trichrome turns collagen blue and leaves the other fibres a different colour, which is what "differentiate" asks for.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E makes collagen and elastic fibres both pink, so it is the one stain that cannot separate them by colour.
+## answer_c
+Sudan stain
+## explanation_c
+Sudan shows fat and nothing else.
+## answer_d
+Silver stain
+## explanation_d
+Silver shows reticular fibres. It would identify those, but the question asks for collagen.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Choose the stain that best separates collagen from the other fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q6. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-89C6D7691810
+## title
+A young boy with unhealed leg wound was diagnosed as vitamin C deficiency which could b…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A young boy with unhealed leg wound was diagnosed as vitamin C deficiency which could be attributed to defective collagen synthesis. The best stain to differentiate collagen fibers from other fibers Is:
+## answer_a
+H&E
+## explanation_a
+H&E leaves collagen and elastic fibres both pink, so it differentiates nothing here — which is precisely why a special stain was invented.
+## answer_b
+Mallory's trichrome stain
+## explanation_b
+Correct. Mallory's trichrome stains collagen blue against the other fibres.
+## answer_c
+Sudan stain
+## explanation_c
+Sudan is the fat stain. The vitamin C vignette is about collagen, and collagen is protein.
+## answer_d
+Silver stain
+## explanation_d
+Silver demonstrates reticular fibres, which are type III collagen and are not the fibre failing in scurvy.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Choose the stain that best demonstrates collagen when a vignette points at collagen synthesis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q11. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The stem asks for the best stain to differentiate collagen from other fibres, and the department book gives Mallory's trichrome as the stain that turns collagen blue. The identically worded row `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed A for the same option in a different letter order, which corroborates it.
+
+
+---
+
+# Item
+## id
+QM-101-3595130DE3F5
+## title
+Elastic fibers can be stained brown by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic fibers can be stained brown by:
+## answer_a
+Orecin
+## explanation_a
+Correct. Orcein browns elastic fibres, and it leaves collagen unstained beside them.
+## answer_b
+Van Gieson
+## explanation_b
+Van Gieson does stain elastic fibres, but yellow, and collagen red — that is its whole use.
+## answer_c
+Mallory
+## explanation_c
+Mallory's trichrome turns collagen blue.
+## answer_d
+Eosin
+## explanation_d
+Eosin makes both collagen and elastic fibres pink, which is why neither can be identified in a routine section by colour.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Name the stain that browns elastic fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q140. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E1F7D04CB32B
+## title
+What color do elastic fibers stain with Van gieson stain?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What color do elastic fibers stain with Van gieson stain?
+## answer_a
+Red/Orange
+## explanation_a
+Red or orange is close to what collagen does in van Gieson, which is the swap this question is built on.
+## answer_b
+Pink/red
+## explanation_b
+Pink or red is collagen — in eosin and in van Gieson alike.
+## answer_c
+Purple/Red
+## explanation_c
+Purple and red is what a metachromatic dye does to a mast cell granule, not what van Gieson does to any fibre.
+## answer_d
+Yellow
+## explanation_d
+Correct, and keyed. Van Gieson stains elastic fibres yellow and collagen red, which is why it is the one stain that separates the two in a single field.
+## correct_answer
+D
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Give the colour elastic fibres take with van Gieson.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q14. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-15F1810ECECC
+## title
+Yellow elastic fibers are stained:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Yellow elastic fibers are stained:
+## answer_a
+brown by orecin
+## explanation_a
+True on its own. Orcein browns them.
+## answer_b
+yellow by van gieson
+## explanation_b
+True on its own. Van Gieson yellows them.
+## answer_c
+magenta red by PAS
+## explanation_c
+PAS gives magenta red on carbohydrate. Elastin is protein, and elastic fibres are not PAS-positive; reticular fibres are, which is where the confusion starts.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Both A and B hold, and the pair is the whole of what the book's table says about staining elastic fibres apart from eosin.
+## correct_answer
+D
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Give both colours elastic fibres take, in orcein and in van Gieson.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q94. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A7862D691599
+## title
+Which of the following would be best suited to visualize reticular fibers?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be best suited to visualize reticular fibers?
+## answer_a
+Mallory trichrome stain
+## explanation_a
+Mallory's trichrome is a collagen stain. Reticular fibres are collagen too — type III — but the trichrome does not resolve them.
+## answer_b
+Hematoxylin and eosin stain
+## explanation_b
+H&E does not show reticular fibres at all, which is the fact this whole question rests on.
+## answer_c
+Sudan ‏الا‎ stain
+## explanation_c
+Sudan shows fat.
+## answer_d
+Silver stain
+## explanation_d
+Correct, and keyed. Silver impregnation is the only way to see a reticular fibre, and it shows them as a fine brown branching network.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain choice
+## learning_objective
+Choose the stain that demonstrates reticular fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q28. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2FE2718245CD
+## title
+Reticular fibers can be stained by the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers can be stained by the following EXCEPT:
+## answer_a
+silver
+## explanation_a
+Silver does show them, brown, and gives them the name argyrophilic.
+## answer_b
+H&E
+## explanation_b
+Correct, and the exception. Reticular fibres are not visible in H&E — the single most examined negative fact about them.
+## answer_c
+PAS
+## explanation_c
+PAS does show them, red, because of the high sugar content of type III collagen.
+## answer_d
+both b & c are correct
+## explanation_d
+"Both b & c" cannot be the exception when C is a stain that works; pairing a true with a false makes the option false as a whole.
+## correct_answer
+B
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the stain that does not show reticular fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q109. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F93436337623
+## title
+Reticular fibers have the following characters EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers have the following characters EXCEPT:
+## answer_a
+Stained black with silver (argyrophilic)
+## explanation_a
+True. Silver blackens or browns them, and argyrophilic is the word for it.
+## answer_b
+Positive for PAS
+## explanation_b
+True. PAS is positive on them, because of their sugar.
+## answer_c
+From the stroma of various organs
+## explanation_c
+True. They form the stroma of spleen, lymph node and liver.
+## answer_d
+They are unbranched fibers
+## explanation_d
+Correct, and the exception. Reticular fibres branch and anastomose — that is what makes them a network, and unbranched is the one thing they are not.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of a reticular fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q51. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A3E12BDF9D80
+## title
+Concerning the reticular connective tissue:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular connective tissue:
+## answer_a
+Reticular fibers form branching bundles
+## explanation_a
+Bundles are collagen type I. Reticular fibres anastomose into a network instead.
+## answer_b
+Its fibres are demonstrated by silver stain
+## explanation_b
+Correct. Silver impregnation is what demonstrates them, and nothing else in a light microscope will.
+## answer_c
+Binds structures together
+## explanation_c
+Binding structures together is the function of loose areolar connective tissue. Reticular tissue supports the cells of an organ — stroma, not packing.
+## answer_d
+Is visible by H&E
+## explanation_d
+The opposite of the defining fact. H&E shows nothing of them.
+## correct_answer
+B
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p18 q25. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the department book's own statement — reticular fibres are demonstrated by silver — and the other three contradict it: the fibres form a network rather than bundles, binding structures together is the job of loose areolar tissue, and reticular fibres are explicitly not visible in H&E.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B08B30C6DD55
+## title
+Collagen fibers have the following characters EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen fibers have the following characters EXCEPT:
+## answer_a
+White in unstained preparation (when present in great number)
+## explanation_a
+True. Collagen is white in the fresh state when it is present in quantity — a tendon is the everyday example.
+## answer_b
+Acidophilic
+## explanation_b
+True. Collagen is acidophilic, which is why eosin colours it.
+## answer_c
+Stain pink with H/E
+## explanation_c
+True, and the same fact restated: acidophilic means it takes eosin pink.
+## answer_d
+Branched fibers
+## explanation_d
+Correct, and the exception. Collagen forms branching bundles of non-branching fibres; the individual fibre does not branch, and elastic fibres are the ones that do.
+## correct_answer
+D
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of a collagen fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q42. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-0BB26A538BF1
+## title
+Concerning collagen fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning collagen fibers:
+## answer_a
+Wavy branching bundles formed of non-branching fibers.
+## explanation_a
+Correct, and the book's own sentence. The bundle branches; the fibre within it does not.
+## answer_b
+Basophilic.
+## explanation_b
+Collagen is acidophilic — it takes the acidic dye eosin and turns pink. Basophilic is the nucleus, and the cytoplasm of a protein-forming cell.
+## answer_c
+Elastic
+## explanation_c
+Elastic is exactly what collagen is not. It is flexible, which is a different property: it bends but does not lengthen and recoil.
+## answer_d
+Stained yellow with Van Gieson stain.
+## explanation_d
+Yellow with van Gieson is the elastic fibre. Collagen with van Gieson is red, and this option swaps the two.
+## correct_answer
+A
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about collagen fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q16. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Option A is the department book's wording almost verbatim — collagen fibres are "wavy branching bundles formed of non-branching fibres" — and the other three contradict the book: collagen is acidophilic not basophilic, it is flexible but inelastic, and van Gieson stains it red while yellow is what van Gieson does to elastic fibres.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-581EE08A49CF
+## title
+All of the following are true about yellow elastic fibers EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are true about yellow elastic fibers EXCEPT:
+## answer_a
+Thin stretchable fibers
+## explanation_a
+True. Elastic fibres are thin and stretch, which is the property that names them.
+## answer_b
+Branching fibers
+## explanation_b
+True. They branch and run singly, unlike the bundled collagen beside them.
+## answer_c
+Stained by orcein stain
+## explanation_c
+True. Orcein is the elastic fibre stain and browns them.
+## answer_d
+They are deep basophilic
+## explanation_d
+Correct, and the exception. Elastic fibres are acidophilic and take eosin pink; deep basophilia belongs to nuclei and to ribosome-rich cytoplasm.
+## correct_answer
+D
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false character of an elastic fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q72. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1E589E39D960
+## title
+Elastic fibers are characterized by being:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic fibers are characterized by being:
+## answer_a
+Arranged into bundles
+## explanation_a
+Bundles are collagen. Elastic fibres run singly and branch.
+## answer_b
+Stained brown with orcein stain
+## explanation_b
+Correct, and keyed. Orcein is the elastic fibre stain and gives brown.
+## answer_c
+Not demonstrated with H&E
+## explanation_c
+They are demonstrated with H&E — pink, like collagen. It is the reticular fibre that H&E misses entirely.
+## answer_d
+Show transverse striations
+## explanation_d
+Transverse striations belong to skeletal and cardiac muscle fibres. The word "fibre" again names two different things in one option list.
+## correct_answer
+B
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about elastic fibres against three collagen characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q41; EOM first 2021 101 INT end of module.pdf p2 q15. Manifest src_c30d9391aa0861f41e44, src_9487fd713153c573087f.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-0E5368F72366
+## title
+After staining the C.T with toludin blue the cells which have magenta granules are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+After staining the C.T with toludin blue the cells which have magenta granules are:
+## answer_a
+Plasma cells
+## explanation_a
+The plasma cell is basophilic but diffusely, from its rough endoplasmic reticulum, and it is not metachromatic — it stays the colour of the dye.
+## answer_b
+Mast cells
+## explanation_b
+Correct. Metachromatic magenta granules in a connective tissue cell are the mast cell, and the heparin in the granule is why.
+## answer_c
+Phagocytic cells
+## explanation_c
+"Phagocytic cells" means the macrophage, demonstrated by trypan blue it has eaten, not by a change in a dye's colour.
+## answer_d
+Endothelial cells
+## explanation_d
+Endothelial cells line vessels and have no granules of this kind.
+## correct_answer
+B
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Name the connective tissue cell whose granules go magenta with toluidine blue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q37. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B256E2B2D2F
+## title
+About mast cell all are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About mast cell all are true EXCEPT:
+## answer_a
+Its granules are stained basophilic with H& E
+## explanation_a
+True. The granules are basophilic in H&E, which is what makes the cell recognisable before any special stain.
+## answer_b
+Its surface has receptors for IgE
+## explanation_b
+True. IgE receptors on the mast cell surface are what allergen binds to, and their binding is what discharges the granules.
+## answer_c
+Its surface has receptors for IgA
+## explanation_c
+Correct, and the exception. IgA is the antibody of secretions — saliva, tears, gut mucus — and the mast cell has no receptor for it.
+## answer_d
+Its granules are stained metachromatically with toluidine blue
+## explanation_d
+True. Toluidine blue on mast cell granules is the department book's own example of metachromasia.
+## correct_answer
+C
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Name the immunoglobulin the mast cell has receptors for, and reject the wrong one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q128. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F64073216E03
+## title
+both mast cells & basophilis share all of the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+both mast cells & basophilis share all of the following except:
+## answer_a
+Ig E surface receptors
+## explanation_a
+Shared. Both carry IgE receptors on the surface, and both discharge on allergen binding.
+## answer_b
+phagocytic activity
+## explanation_b
+Correct, and the exception, and keyed. Neither cell is the phagocyte of this pair — the department book's comparison lists phagocytic ability among the points on which the two differ, and it is the basophil that has a limited capacity the mast cell lacks.
+## answer_c
+metachromatic stained granules
+## explanation_c
+Shared. Both have metachromatic granules with toluidine blue, for the same reason: heparin.
+## answer_d
+secretion of eosinophils chemotactic factor
+## explanation_d
+Shared. Both secrete eosinophil chemotactic factor, which is how eosinophils arrive at an allergic site.
+## correct_answer
+B
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Name what the mast cell and the basophil do not share.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p9 q52. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2FBF2B1E175E
+## title
+Concerning mast cells:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning mast cells:
+## answer_a
+They are antibody forming cells.
+## explanation_a
+Antibodies come from the plasma cell. The mast cell binds antibody — IgE, on its surface — which is a different relation and the source of the confusion.
+## answer_b
+They secrete histaminase enzyme.
+## explanation_b
+Histaminase is the eosinophil's enzyme, and it exists to destroy the histamine the mast cell released. The two cells are on opposite sides of the same reaction.
+## answer_c
+Their granules are metachromatically stained.
+## explanation_c
+Correct. Mast cell granules stain metachromatically with toluidine blue.
+## answer_d
+They can be demonstrated with trypan blue stain.
+## explanation_d
+Trypan blue demonstrates the macrophage, which phagocytoses it. The mast cell is not phagocytic.
+## correct_answer
+C
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Histology-general
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the mast cell against the characters of its neighbours.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q14. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the department book's own statement about mast cell granules, and each of the other three belongs to a different cell: antibody formation to the plasma cell, histaminase secretion to the eosinophil, and trypan blue demonstration to the macrophage.
+
+
+---
+
+# Item
+## id
+QM-101-A27F4E1F21B5
+## title
+About macrophages all are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About macrophages all are true EXCEPT:
+## answer_a
+They are antigen presenting cells
+## explanation_a
+True. Presenting antigen to lymphocytes is one of the macrophage's four listed functions.
+## answer_b
+It originate from B lymphocytes
+## explanation_b
+Correct, and the exception. The macrophage comes from the blood monocyte. What comes from the B lymphocyte is the plasma cell, and the two derivations are the pair this question exists to separate.
+## answer_c
+Stained with vital staining using trypan blue
+## explanation_c
+True. Trypan blue is the vital stain the macrophage phagocytoses, and it is the cell's specific demonstration.
+## answer_d
+Stained histochemically using acid phosphatase technique
+## explanation_d
+True. Acid phosphatase histochemistry marks it, because it is rich in lysosomes.
+## correct_answer
+B
+## main_concept
+CON-FND-90E8073879B42A
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Give the origin of the macrophage and reject the lymphocytic one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q135. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-95DF5EC3E974
+## title
+nucleus of eosinophils is
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+nucleus of eosinophils is
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil, two to five lobes; the eosinophil stops at two.
+## answer_b
+bilobed horse show
+## explanation_b
+Correct. Bilobed, the two lobes joined by a thick chromatin thread so that the whole looks like a horse-shoe or a pair of spectacles.
+## answer_c
+S shaped
+## explanation_c
+The S-shaped nucleus is the basophil's, and it is usually hidden by the coarse granules over it.
+## answer_d
+large kidney shaped
+## explanation_d
+A large kidney-shaped nucleus is the monocyte.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Give the nuclear shape of the eosinophil.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q10. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F88BB0701D42
+## title
+All functions of eosinophils except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All functions of eosinophils except
+## answer_a
+secrete histaminase, sulfatase to end allergy
+## explanation_a
+True. Histaminase and sulphatase destroy histamine and heparin, which is how the eosinophil ends an allergic reaction.
+## answer_b
+Phagocytosis Ag-Ab Complex
+## explanation_b
+True. Phagocytosing antigen–antibody complexes is one of its listed functions.
+## answer_c
+Nervous dysfunction of Parasite
+## explanation_c
+True. Its granule protein is cytotoxic to parasites.
+## answer_d
+vasodilatation, anaphylaxis by histamine secretion
+## explanation_d
+Correct, and the exception. Releasing histamine to cause vasodilatation and anaphylaxis is the basophil and the mast cell. The eosinophil is the cell that stops it.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Separate what the eosinophil does in allergy from what the basophil does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q23. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-154A8B0268A7
+## title
+Functions of eosinophils include all except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Functions of eosinophils include all except:
+## answer_a
+destroy histamine by histaminase enzyme
+## explanation_a
+True. Histaminase destroys histamine.
+## answer_b
+engulf antigen - antibody complex
+## explanation_b
+True. It engulfs antigen–antibody complexes.
+## answer_c
+kill parasites
+## explanation_c
+True. Its granule protein kills parasites.
+## answer_d
+produce trephone substance
+## explanation_d
+Correct, and the exception, and keyed. Trephone substances are attributed to the lymphocyte, said to promote tissue growth and repair — not to the eosinophil.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the function that belongs to no leukocyte in this list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p1 q2. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-58837F01A5D9
+## title
+Eosinophils granules include all of the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils granules include all of the following except:
+## answer_a
+neurotoxins to parasites
+## explanation_a
+True. The granule protein is cytotoxic to parasites, and the books also call it a neurotoxin for that effect.
+## answer_b
+histaminase
+## explanation_b
+True. Histaminase destroys the histamine released by the basophil and mast cell.
+## answer_c
+sulfatase
+## explanation_c
+True. Sulphatase destroys heparin, the other main product of those cells.
+## answer_d
+leukotrienes
+## explanation_d
+Correct, and the exception. Leukotrienes are a basophil and mast cell product and cause bronchospasm; the eosinophil opposes their effects rather than releasing them.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Name the granule contents of the eosinophil and reject the basophil's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q58. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the eosinophil granule a basic protein cytotoxic to parasites, together with histaminase and sulphatase. Leukotrienes are listed among the basophil and mast cell secretions, not the eosinophil's, so D is the one item on this list that belongs to another cell.
+
+
+---
+
+# Item
+## id
+QM-101-132AD9EA8D50
+## title
+Eosinophils increase in number in case of :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils increase in number in case of :
+## answer_a
+Bacterial infection
+## explanation_a
+A bacterial infection raises the neutrophil count. The neutrophil is the first-line phagocyte against bacteria.
+## answer_b
+Parasitic infection
+## explanation_b
+True on its own — a parasitic infection raises eosinophils, and the granule protein is why.
+## answer_c
+Allergy
+## explanation_c
+True on its own — allergy raises them, because the eosinophil is drawn in to end the reaction.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Both B and C raise the eosinophil count, and both for reasons the cell's two functions explain.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the two conditions that raise the eosinophil count.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q17. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-741A75241B15
+## title
+Eosinophils are lowered 1% in the following
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Eosinophils are lowered 1% in the following
+## answer_a
+typhoid fever
+## explanation_a
+Typhoid fever is the classical cause of a low count in older texts, but the option this question is keyed against is the pharmacological one, and typhoid is not what the books teach here.
+## answer_b
+tuberculosis
+## explanation_b
+Tuberculosis is a chronic infection and does not characteristically drop the eosinophil count.
+## answer_c
+influenza virus
+## explanation_c
+A viral infection such as influenza raises lymphocytes; it does not define an eosinopenia.
+## answer_d
+treat with cortisone
+## explanation_d
+Correct. Corticosteroid treatment drops the eosinophil count below one per cent, which is the definition of eosinopenia, and it is the reason a steroid works in allergy.
+## correct_answer
+D
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name a cause of eosinopenia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q37; Blood | Module 101 questions.pdf.pdf p9 q18. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1C4AE156F76A
+## title
+One of the following is true about eosinophils:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true about eosinophils:
+## answer_a
+Secrete eosinophil chemotactic factor
+## explanation_a
+The direction of the arrow is reversed. Eosinophil chemotactic factor is what the mast cell and basophil release to summon eosinophils; the eosinophil receives the signal.
+## answer_b
+Have horse-shoe shaped nuclei
+## explanation_b
+Correct. The eosinophil nucleus is bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.
+## answer_c
+Represent about 60-70 % of circulating leucocytes
+## explanation_c
+60–70% is the neutrophil. The eosinophil is 1–4%.
+## answer_d
+Secrete histamine and heparin
+## explanation_d
+Histamine and heparin are basophil and mast cell secretions. The eosinophil secretes the two enzymes that destroy them.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about the eosinophil from a set built out of its neighbours' characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p6 q35. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the department book's own description of the eosinophil nucleus — bilobed, horse-shoe shaped — and each of the other three belongs to another cell: eosinophil chemotactic factor is secreted by the mast cell and the basophil to attract eosinophils rather than by eosinophils themselves, 60–70% is the neutrophil's share of the count, and histamine and heparin are basophil products.
+
+
+---
+
+# Item
+## id
+QM-101-C869B0771F72
+## title
+A7 year-old-school boy has a blood report with an eosinophil count | 6%. He is not suff…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A7 year-old-school boy has a blood report with an eosinophil count | 6%. He is not suffering from allergic problems. What would the | doctor probably advise his parents to perform: |
+## answer_a
+Urine analysis
+## explanation_a
+Urine analysis would be the answer for a urinary schistosomiasis, but the routine first test for the intestinal parasites that raise eosinophils in a schoolchild is the stool.
+## answer_b
+Stool analysis. 0
+## explanation_b
+Correct. Eosinophilia with allergy excluded means a parasite, and stool analysis is how a parasite is looked for.
+## answer_c
+Estimation of his bleeding time.
+## explanation_c
+Bleeding time tests platelet function. Eosinophils have no part in haemostasis.
+## answer_d
+Sensitivity tests to different allergens
+## explanation_d
+Allergy testing is what the stem has already excluded by saying the boy has no allergic problems.
+## correct_answer
+B
+## main_concept
+CON-HEM-CA78CC131E0236
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Choose the investigation a raised eosinophil count without allergy points to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Blood] (1).pdf p2 q14. Manifest src_995e491b2e22cc96d8ef.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The eosinophil has two causes of rise in this course, allergy and parasitic infection, and the stem removes the first by saying the child has no allergic problems. A stool analysis is the investigation for an intestinal parasite, so B is the only option the stem leaves open.
+
+
+---
+
+# Item
+## id
+QM-101-96648B52AA5A
+## title
+Which of the following is described as having a "central pallor"?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is described as having a "central pallor"?
+## answer_a
+Erythrocytes
+## explanation_a
+Correct, and keyed. The erythrocyte is biconcave, so its centre is thinner and holds less haemoglobin — a pale disc about a third of the diameter across.
+## answer_b
+Monocytes
+## explanation_b
+A monocyte is a large nucleated cell with a kidney-shaped nucleus and frosted-glass cytoplasm; nothing about it is centrally pale.
+## answer_c
+Eosinophils
+## explanation_c
+An eosinophil is packed edge to edge with coarse acidophilic granules.
+## answer_d
+Platelets
+## explanation_d
+A platelet is a small cell fragment with a pale hyalomere at the periphery and a granular chromomere in the centre — which is the exact reverse of a central pallor, and the reason it is offered here.
+## correct_answer
+A
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Blood
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Name the blood cell that shows a central pallor and say what causes it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q13. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-1225BE8C12AE
+## title
+Concerning the reticular cells, the followings are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular cells, the followings are true EXCEPT:
+## answer_a
+Present mainly in the stroma of the organs
+## explanation_a
+True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.
+## answer_b
+Considered as fibroblast
+## explanation_b
+True in the sense the books mean it: the reticular cell is a fibre-forming cell of the same family as the fibroblast, and both are grouped as connective-tissue-forming cells.
+## answer_c
+It is stained with iron HX
+## explanation_c
+Correct, and the exception. Iron haematoxylin is the stain for centrioles. What silver demonstrates around the reticular cell is its fibres, not the cell.
+## answer_d
+Has a phagocytic function
+## explanation_d
+True. The reticular cell turns phagocytic when antigen stimulates it, and it presents antigen as well.
+## correct_answer
+C
+## main_concept
+CON-FND-C75600D3D3B546
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+Connective Tissue
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Negative stem
+## learning_objective
+Identify the false statement about the reticular cell, including which stain does not apply to it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q29. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
 
@@ -62045,7 +78500,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -62057,9 +78512,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9; EOM ISK 101 195 Answers.pdf p11 q116. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, which is one of the three actions latissimus dorsi cannot perform. It extends, adducts and medially rotates the arm, so D is the only true statement offered.
 
@@ -63155,6 +79610,338 @@ Answer changed from the source's: The source printed no key. Latissimus dorsi, t
 
 # Item
 ## id
+QM-101-6D0265F28ED7
+## title
+The skeletal muscles are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The skeletal muscles are:
+## answer_a
+Involuntary
+## explanation_a
+Involuntary control belongs to smooth and cardiac muscle. Skeletal muscle is the voluntary one, supplied by somatic nerves.
+## answer_b
+Present in the heart
+## explanation_b
+The muscle of the heart is cardiac muscle — striated like skeletal muscle, which is why students who go by appearance put them together, but involuntary and autonomically supplied.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+The wall of a blood vessel holds smooth muscle.
+## answer_d
+Attached to the bones
+## explanation_d
+Correct. Skeletal muscle is defined by its attachment to the skeleton, and it is the only one of the three with that attachment.
+## correct_answer
+D
+## main_concept
+CON-MSK-229AAD0C8626CF
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Basis
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the property that belongs to skeletal and not to smooth or cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q37; Anatomy MCQ Book [2025] [first priority].pdf p7 q37. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EE5200A054DD
+## title
+The smooth muscles are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The smooth muscles are:
+## answer_a
+Voluntary
+## explanation_a
+Smooth muscle is involuntary. Voluntary control is skeletal muscle, and this option is the exact inversion the paired question about skeletal muscle uses.
+## answer_b
+Present in the heart
+## explanation_b
+The heart is cardiac muscle. It is involuntary like smooth muscle, so a student who has learnt only "involuntary means smooth" takes this one — the striations are what separate them.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+Correct. Smooth muscle is in the wall of blood vessels and of the viscera, has no striations, and is supplied by autonomic nerves.
+## answer_d
+Attached to the bones
+## explanation_d
+Attachment to bone is skeletal muscle.
+## correct_answer
+C
+## main_concept
+CON-MSK-229AAD0C8626CF
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Basis
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the site that belongs to smooth and not to skeletal or cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q38; Anatomy MCQ Book [2025] [first priority].pdf p7 q38. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AE2320D78167
+## title
+Deltoid muscle fibers are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Deltoid muscle fibers are:
+## answer_a
+Parallel muscle fibers
+## explanation_a
+Parallel or strap-like fibres run the whole length of the muscle, as in sartorius. Deltoid's fibres are short and set obliquely, which is why it is powerful over a short range rather than long-travelled.
+## answer_b
+Unipennate muscle fibers
+## explanation_b
+A unipennate muscle has its fibres on one side of a tendon, like the barbs on one edge of a feather — flexor pollicis longus is the example.
+## answer_c
+Multipennate muscle fibers
+## explanation_c
+Correct. Deltoid is the department book's example of a multipennate muscle: a series of bipennate units side by side, separated by tendinous septa, which is what lets a muscle of that size abduct the whole limb.
+## answer_d
+Circumpennate muscle fibers
+## explanation_d
+A circumpennate muscle is cylindrical, with a central tendon and bipennate units converging on it from all round — tibialis anterior. It is the closest class to multipennate, and the reason it is printed here.
+## correct_answer
+C
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Upper Limb
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the deltoid by the arrangement of its fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q17; Anatomy Question [Upper Limb] (1).pdf p20 q112; Anatomy MCQ Book [2025] [first priority].pdf p38 q112. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-449CEF02448A
+## title
+Which of the following terms describes a muscle that assists the prime mover in em em e…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following terms describes a muscle that assists the prime mover in em em em em em performing its action? (2024)
+## answer_a
+Agonist
+## explanation_a
+The agonist is the prime mover itself. The stem asks for a muscle that assists it, so a term meaning the same muscle cannot answer.
+## answer_b
+Antagonist
+## explanation_b
+The answer printed in this book, and the reason for the override. The antagonist opposes the prime mover; it is the exact opposite of a muscle assisting it, and choosing it inverts the chapter's definition.
+## answer_c
+Synergist
+## explanation_c
+Correct, and the override. The synergist contracts to eliminate unwanted movements at joints the prime mover crosses, so that the prime mover's action on the joint that matters becomes maximal — assistance by subtraction.
+## answer_d
+Fixator
+## explanation_d
+The fixator, or stabiliser, also assists — but by fixing the *origin* of the prime mover or the joint it acts on, not by working on the movement itself. It is the strongest distractor here and the reason this item is worth sitting.
+## correct_answer
+C
+## main_concept
+CON-MSK-F598AF39FBE297
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Muscular system
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the muscle role that assists the prime mover rather than opposing it or holding it steady.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, "Antagonist", which the department chapter contradicts in one line: the antagonist is defined as the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist is described by the chapter as acting so that the prime mover's action becomes maximal.
+
+
+---
+
+# Item
+## id
 QM-101-15D54BF1523A
 ## title
 myoepithelial cells are characterized by the following EXCEPT:
@@ -63310,9 +80097,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q14; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q18; Upper MCQ Dr.jalal (1).pdf p55 q18; Anatomy Question [Upper Limb] (1).pdf p6 q33; Anatomy MCQ Book [2025] [first priority].pdf p24 q33. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q14; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q18; Upper MCQ Dr.jalal (1).pdf p55 q18; Anatomy Question [Upper Limb] (1).pdf p6 q33; Anatomy MCQ Book [2025] [first priority].pdf p24 q33; EOM ISK 101 - 2023.pdf p8 q92. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 5 times across the question books.
+Asked 6 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -64045,7 +80832,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.5
+9.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -64057,9 +80844,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q18; Upper MCQ Dr.jalal (1).pdf p15 q18; Anatomy MCQ Book [2025] [first priority].pdf p22 q19. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q18; Upper MCQ Dr.jalal (1).pdf p15 q18; Anatomy MCQ Book [2025] [first priority].pdf p22 q19; EOM ISK 101 - 2023.pdf p7 q75. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 3 times across the question books.
+Asked 4 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the three copies of this question in the bank carry three different letters between them — A on `the-following-structure-is-a-content-of-the-cubital-fossa-de-17e185eb` and D on `the-followfng-structure-is-a-content-of-the-cubital-fossa-96e524e5`. The contents of the fossa are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; brachioradialis is the lateral boundary and the ulnar nerve is behind the medial epicondyle, so B is the only option that is a content.
 
@@ -66120,7 +82907,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -66132,9 +82919,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q3. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q3; EOM ISK EOM exam 2024.pdf p8 q84. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Winging brought out by pushing against a wall is the classic test of serratus anterior, whose nerve — the long thoracic — lies exposed on the muscle on the lateral chest wall, exactly where the stab is described.
 
@@ -66203,7 +82990,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -66215,9 +83002,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q4. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q4; EOM ISK EOM exam 2024.pdf p6 q66. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is D, the axillary nerve, which is wrong: the axillary nerve is at the surgical neck, not the mid-shaft. The radial nerve lies in the spiral groove directly against the mid-shaft, and the two other copies of this question in the bank both give the radial nerve.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -66286,7 +83073,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -66298,9 +83085,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q6; EOM ISK 101 195 Answers.pdf p11 q120. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Holding paper between two fingers is adduction, produced by the palmar interossei, and every interosseous muscle takes the deep branch of the ulnar nerve.
 
@@ -66369,7 +83156,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -66381,9 +83168,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q32. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q32; EOM ISK 101 195 Answers.pdf p7 q76. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Thumb adduction is adductor pollicis, the muscle in which the deep branch of the ulnar nerve terminates; a wound at the wrist that spares sensation and takes only this movement is a deep branch lesion.
 
@@ -66618,7 +83405,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -66630,9 +83417,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q6; EOM ISK 101 195 Answers.pdf p8 q83. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the median nerve, and it is wrong for the same reason as on the two sibling copies: the median nerve owns the lateral two-thirds of the palm, and the lateral two-thirds of the dorsum is superficial radial territory.
 
@@ -66867,7 +83654,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -66879,9 +83666,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q1; EOM ISK EOM exam 2024.pdf p4 q47. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy; the identically worded `after-drinking-heavily-on-a-saturday-night-a-man-fell-asleep-09f4ce28` is keyed C. The chair back compresses the radial nerve in the axilla, which is the named mechanism of Saturday night palsy.
 
@@ -67697,7 +84484,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -67709,9 +84496,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q5; EOM ISK 101 195 Answers.pdf p10 q101. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, claw hand, and it is wrong twice over: claw hand is the deformity of Klumpke’s paralysis and of ulnar injury, and Erb’s palsy spares the hand altogether because C8 and T1 are intact. The posture of Erb’s palsy is the policeman’s or porter’s tip position.
 
@@ -68361,7 +85148,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -68373,9 +85160,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q11. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q11; EOM ISK 101 195 Answers.pdf p7 q72. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, winging of the scapula, which belongs to the long thoracic nerve. The axillary nerve supplies deltoid, and deltoid is what gives the shoulder its rounded contour — so its wasting flattens the shoulder.
 
@@ -70610,7 +87397,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -70622,9 +87409,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q56. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q56; EOM ISK 101 - 2023.pdf p7 q80. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy; the sibling asked twice is keyed C. Clawing of the fourth and fifth fingers with the index and middle largely spared is the signature of an ulnar lesion, the sparing coming from the median supply of the lateral two lumbricals.
 
@@ -71357,7 +88144,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -71369,9 +88156,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q73. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q73; EOM ISK 101 - 2023.pdf p7 q77. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Three of the four statements are true of the ulnar nerve — it gives no branch in the arm, it enters the hand superficial to the flexor retinaculum, and its injury claws the hand partially — leaving the root value as the false one. The ulnar nerve is C8 and T1, from the medial cord; C6 belongs to the upper part of the plexus and never reaches it.
 
@@ -71606,7 +88393,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -71618,9 +88405,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q2. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q2; EOM ISK 101 - 2023.pdf p6 q66. Manifest src_b7301bfcd7d002317e40, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives the median nerve, which passes deep to the retinaculum rather than over it. The ulnar nerve is the structure that crosses superficial to it.
 
@@ -71938,7 +88725,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -71950,9 +88737,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q75. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q75; EOM ISK 101 - 2023.pdf p8 q87. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The deep branch is a branch in the hand and supplies the hypothenar muscles, the interossei, the medial two lumbricals and adductor pollicis. Flexor carpi ulnaris is a forearm muscle, supplied by the ulnar nerve trunk in the upper forearm long before the deep branch exists.
 
@@ -73017,7 +89804,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -73029,9 +89816,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q4. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q4; EOM ISK End 101 — 2022.pdf p7 q74. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The musculocutaneous nerve pierces the deep fascia about an inch above the elbow at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm — the two are the same nerve under two names.
 
@@ -73100,7 +89887,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -73112,9 +89899,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q35. Manifest src_69103a53ec28a93958d5.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q35; EOM ISK 101 - 2023.pdf p8 q93. Manifest src_69103a53ec28a93958d5, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -73266,7 +90053,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -73278,9 +90065,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q33. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q33; EOM ISK 101 195 Answers.pdf p11 q118. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The dorsum of the hand is divided between the superficial branch of the radial nerve over the lateral two-thirds and the dorsal branch of the ulnar nerve over the medial third.
 
@@ -73689,7 +90476,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -73701,9 +90488,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q11. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q11; EOM ISK 101 195 Answers.pdf p10 q107. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key on this copy, and the one keyed copy of the question gives C6 alone, which is wrong. The long thoracic nerve arises by three roots, from C5, C6 and C7, which is also why it is a root branch rather than a trunk or cord branch.
 
@@ -73946,7 +90733,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -73958,9 +90745,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q12. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q12; EOM ISK 101 195 Answers.pdf p10 q108. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Trapezius is the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus: its motor supply is the spinal root of the accessory nerve, with C3 and C4 carrying sensation.
 
@@ -74693,7 +91480,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 High
 ## reasoning_level
@@ -74705,9 +91492,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q79. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q79; EOM ISK 101 195 Answers.pdf p8 q86. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The median and ulnar nerves both cross the whole arm without giving a single branch — the median gives its first branches in the cubital fossa and the ulnar in the forearm — while the musculocutaneous supplies coracobrachialis, biceps and brachialis and the radial supplies triceps and anconeus.
 
@@ -74942,7 +91729,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -74954,9 +91741,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6; EOM ISK EOM exam 2024.pdf p8 q82. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the ulnar nerve, which is the one nerve at the wrist that does not enter the tunnel: it crosses superficial to the flexor retinaculum in the canal of Guyon. The structure in the tunnel is the median nerve, with the long flexor tendons.
 
@@ -77021,7 +93808,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -77033,9 +93820,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53; EOM ISK 101 - 2023.pdf p1 q9. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -81175,7 +97962,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -81187,9 +97974,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9; EOM ISK 101 195 Answers.pdf p4 q43. Manifest src_34c967631e388497dc35, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -82005,7 +98792,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -82017,9 +98804,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q26. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q26; EOM ISK 101 195 Answers.pdf p8 q81. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 
 
@@ -82171,7 +98958,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -82183,9 +98970,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q1. Manifest src_b7301bfcd7d002317e40.
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q1; EOM ISK EOM exam 2024.pdf p7 q73. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pectoralis major is the standard example of a doubly innervated muscle: the lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve, after passing through pectoralis minor, supplies the sternocostal head.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -82926,7 +99713,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -82938,9 +99725,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q8. Manifest src_3bc051c300a8e15045d8.
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q8; EOM ISK 101 195 Answers.pdf p10 q105. Manifest src_3bc051c300a8e15045d8, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Pectoralis major, pectoralis minor, subclavius and the clavipectoral fascia are the four components of the anterior wall; teres major is a posterior wall muscle and is the exception.
 
@@ -84918,7 +101705,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -84930,9 +101717,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90. Manifest src_1fb914ce96908301b7b1.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90; EOM ISK End 101 — 2022.pdf p3 q34. Manifest src_1fb914ce96908301b7b1, src_a54bbf7a625ba2b172fc.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -88690,23 +105477,23 @@ Normal RBCs are :
 ## answer_a
 oval in shape
 ## explanation_a
-Oval red cells are ovalocytes, one of the abnormal shapes the book lists — normal in camels and birds, abnormal in a human film.
+Oval red cells — ovalocytes — are one of the abnormal shapes the book lists, alongside spherocytes, sickle cells and poikilocytes.
 ## answer_b
 nucleated biconcave disks
 ## explanation_b
-Nucleated red cells are precursors still in the marrow, or a sign of disease if they reach the blood. The mature cell has extruded its nucleus.
+The shape is right and the nucleus is not. The mature mammalian red corpuscle has extruded its nucleus, and that is what leaves room for haemoglobin.
 ## answer_c
 non nucleated biconcave disks
 ## explanation_c
-Correct. A normal red cell is a non-nucleated biconcave disc.
+Correct. Non-nucleated biconcave discs — the two facts that between them define the cell.
 ## answer_d
 non nucleated biconvex disks
 ## explanation_d
-Biconvex is the profile with its curves reversed — thick in the middle instead of thin. It is the single commonest distractor in this chapter and turns on one letter.
+Biconvex is the reverse curvature, and it would reduce the surface area for the volume rather than increasing it.
 ## correct_answer
 C
 ## main_concept
-CON-HEM-623C790132C4D6
+CON-HEM-4F5347CC3664E0
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -88726,9 +105513,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Structure and function
+Structural identification
 ## learning_objective
-Give the shape and nuclear status of a normal red cell in one phrase.
+Give the shape of the normal red corpuscle and say whether it has a nucleus.
 ## setting
 Academic
 ## academic_relevance
@@ -88759,255 +105546,6 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-EF67D1CFAD27
-## title
-top view of RBCS is ……….. while side view is …………
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-top view of RBCS is ……….. while side view is …………
-## answer_a
-biconcave, rounded
-## explanation_a
-The two views the wrong way round. A disc seen edge-on is biconcave and seen from above is rounded, not the reverse; this option is the correct pair transposed and is the strongest distractor for that reason.
-## answer_b
-rounded, biconcave
-## explanation_b
-Correct. Rounded in top view, biconcave in side view.
-## answer_c
-oval, biconvex
-## explanation_c
-Both halves wrong. Oval belongs to the ovalocyte, an abnormal cell, and biconvex reverses the profile. It is the option the books key this question to.
-## answer_d
-biconvex, cylinder
-## explanation_d
-Biconvex and cylindrical describe no red cell at all — a cylinder has no view in which it looks like a disc.
-## correct_answer
-B
-## main_concept
-CON-HEM-623C790132C4D6
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Give the appearance of a red cell in each of the two views.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q1. Manifest src_34c967631e388497dc35.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence low; the answer came from the question book itself.
-Answer changed from the source's: The books key this to C, "oval, biconvex". The department book states that red cells are rounded in top view and biconcave in side view, and both halves of the printed key are wrong: oval is the ovalocyte, an abnormal shape, and biconvex is the inverse of the normal profile. The answer is B.
-
-
----
-
-# Item
-## id
-QM-101-B1EB72EF85A8
-## title
-The average size of RBCs
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-The average size of RBCs
-## answer_a
-7.0 um
-## explanation_a
-Correct. About 7 µm — the book gives a range of 6–9 µm with an average of 7.5 µm.
-## answer_b
-7.0 nm
-## explanation_b
-7 nm is a thousandfold too small: that is the order of a cell membrane's thickness, not a cell's diameter.
-## answer_c
-7.0 mm
-## explanation_c
-7 mm is a thousandfold too large and would make a red cell visible to the naked eye.
-## answer_d
-0.7 cm
-## explanation_d
-0.7 cm is 7 mm again in another unit. All three wrong options carry the right figure and the wrong prefix, which is the whole of the question.
-## correct_answer
-A
-## main_concept
-CON-HEM-623C790132C4D6
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Normal values
-## learning_objective
-Give the red cell diameter in the correct unit.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q77. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-E5A1EFDA2C8D
-## title
-Central pallor in RBCs is the:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-Central pallor in RBCs is the:
-## answer_a
-middle 1/3
-## explanation_a
-Correct. The pale centre occupies about the middle third of the diameter, and that is what "normochromic" means on a film.
-## answer_b
-middle 1/2
-## explanation_b
-A pallor half the diameter is what hypochromic cells show, as in iron deficiency — a real appearance, but not the normal one.
-## answer_c
-middle 2/3
-## explanation_c
-Two thirds pale would leave only a thin rim of haemoglobin, which is severe hypochromia.
-## answer_d
-middle 1/4
-## explanation_d
-A quarter is too small; a pallor that slight suggests a spherocyte, which has almost none because it has lost its biconcavity.
-## correct_answer
-A
-## main_concept
-CON-HEM-623C790132C4D6
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Normal values
-## learning_objective
-Give the size of the central pallor as a fraction of the cell.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q59. Manifest src_c6ab1b49dc16762227e1.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from a separate answer key, joined by question number.
-
-
-
----
-
-# Item
-## id
 QM-101-C0F568389EFD
 ## title
 RBCs are……………
@@ -89022,23 +105560,23 @@ RBCs are……………
 ## answer_a
 basophilic
 ## explanation_a
-Basophilic means taking the basic dye, which acidic components do. Haemoglobin is a basic protein and so does the opposite.
+Basophilic cytoplasm means RNA, and the mature red corpuscle has none — that is what the reticulocyte lost on its way to becoming one.
 ## answer_b
 need special stain
 ## explanation_b
-No special stain is needed: the red cell takes eosin in a routine film, and in an unstained film it is already coloured by its own haemoglobin.
+No special stain is needed: the routine Leishman's film shows the cell perfectly. A special stain is needed for the reticulocyte, which is a different cell.
 ## answer_c
 acidophilic
 ## explanation_c
-Correct. Red cells are acidophilic — they bind the acidic eosin, because haemoglobin is basic.
+Correct. Haemoglobin is a basic protein, so it binds the acidic dye eosin, and the corpuscle is acidophilic.
 ## answer_d
 All the above
 ## explanation_d
-"All the above" cannot hold when the first two options contradict each other and contradict the third.
+"All the above" cannot hold when A and C are opposites.
 ## correct_answer
 C
 ## main_concept
-CON-HEM-623C790132C4D6
+CON-HEM-4F5347CC3664E0
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89058,9 +105596,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Structure and function
+Staining
 ## learning_objective
-Give the staining reaction of the red cell and say what causes it.
+Say how a red corpuscle stains and why.
 ## setting
 Academic
 ## academic_relevance
@@ -89105,23 +105643,23 @@ Light microscopic features of red blood corpuscles Include:
 ## answer_a
 Variation in size
 ## explanation_a
-Variation in size is anisocytosis, which the book lists among the abnormalities. A normal film shows cells of one size.
+Variation in size is anisocytosis, and the book lists it among the abnormalities of size along with microcytes and macrocytes. A normal film is uniform.
 ## answer_b
 Acidophilic appearance
 ## explanation_b
-Correct. Red cells are acidophilic, taking the eosin of a Leishman or H&E preparation.
+Correct. The cell is acidophilic, because haemoglobin is a basic protein and binds the acidic dye.
 ## answer_c
 The presence of nuclei
 ## explanation_c
-The mature red cell has no nucleus. Nucleated red cells in the blood mean the marrow is releasing immature cells.
+The mature red corpuscle has no nucleus. A nucleated red cell in peripheral blood is a pathological finding.
 ## answer_d
 Dark central area
 ## explanation_d
-The centre is pale, not dark — the cell is thinnest there. A dark centre would mean the disc was biconvex, which is the shape error this chapter keeps testing.
+The exact inversion of the finding: the centre is pale, not dark, because the biconcavity thins it and it holds less haemoglobin.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-623C790132C4D6
+CON-HEM-4F5347CC3664E0
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89141,9 +105679,9 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Structure and function
+Structural identification
 ## learning_objective
-Pick the normal light-microscopic feature out of three abnormal ones.
+Pick the true light-microscopic feature of the red corpuscle.
 ## setting
 Academic
 ## academic_relevance
@@ -89167,8 +105705,340 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. Only B is a feature of normal red cells on light microscopy: they are acidophilic because haemoglobin is a basic protein. Variation in size is anisocytosis, an abnormality; nuclei are absent; and the centre is pale, not dark.
+Answer changed from the source's: The source printed no key. B is the department book's own account — the corpuscle is acidophilic because haemoglobin is a basic protein — and each of the other three contradicts the book: normal corpuscles are uniform in size (variation is anisocytosis, an abnormality), they have no nuclei, and the centre is pale rather than dark.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-E5A1EFDA2C8D
+## title
+Central pallor in RBCs is the:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Central pallor in RBCs is the:
+## answer_a
+middle 1/3
+## explanation_a
+Correct, and keyed. The pale centre is about one third of the diameter, which is the figure the book gives and the one a normochromic film is judged against.
+## answer_b
+middle 1/2
+## explanation_b
+A half would be a much paler cell than normal, and increased central pallor of that degree is what hypochromia means.
+## answer_c
+middle 2/3
+## explanation_c
+Two thirds would leave only a thin rim of haemoglobin — a severely hypochromic cell.
+## answer_d
+middle 1/4
+## explanation_d
+A quarter understates it, and would make a normal cell look denser than it is.
+## correct_answer
+A
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a number
+## learning_objective
+Give the size of the central pallor as a fraction of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q59. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-EF67D1CFAD27
+## title
+top view of RBCS is ……….. while side view is …………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+top view of RBCS is ……….. while side view is …………
+## answer_a
+biconcave, rounded
+## explanation_a
+The two halves are the right words in the wrong order. Biconcavity is what is seen from the side; from above the cell is a disc.
+## answer_b
+rounded, biconcave
+## explanation_b
+Correct on the department book's own figure: rounded seen face on, biconcave seen edge on.
+## answer_c
+oval, biconvex
+## explanation_c
+The answer the page carries, and the reason for this override. Oval is the ovalocyte, an abnormal shape, and biconvex is the curvature the cell does not have.
+## answer_d
+biconvex, cylinder
+## explanation_d
+Biconvex again, and a cylinder is no shape a red corpuscle takes in any view.
+## correct_answer
+B
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Give the outline of a red corpuscle seen face on and seen edge on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q1. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C — "oval, biconvex" — and both halves of it contradict the department book, whose figure on page 26 is captioned "Top view and Side view of the RBC" and whose text reads "rounded in top view, biconcave in side view to increase surface area for gas exchange". Oval is an abnormal shape (the ovalocyte) and biconvex is the opposite curvature to the one that gives the cell its surface area. B states the book's own pair.
+
+
+---
+
+# Item
+## id
+QM-101-791996902C08
+## title
+The following statements concerning erythrocytes are true EXCEPT
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statements concerning erythrocytes are true EXCEPT
+## answer_a
+Rounded biconcave non nucleated cells
+## explanation_a
+True. Rounded, biconcave and non-nucleated is the standard description.
+## answer_b
+6-9 µm in diameter
+## explanation_b
+True. The book gives the diameter as 6–9 µm, with an average of 7.5.
+## answer_c
+It is red because of its hemoglobin content
+## explanation_c
+True. The colour is haemoglobin, and it is why the cell is acidophilic.
+## answer_d
+It is very active cell
+## explanation_d
+Correct, and the exception. The mature red corpuscle is the least active cell in the body: no nucleus, no organelles, no division and no protein synthesis — it is a bag of haemoglobin with a membrane.
+## correct_answer
+D
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Identify the false statement about the erythrocyte from three true ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q75. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2F7D4DDEBC06
+## title
+The following are characters of RBCs except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are characters of RBCs except:
+## answer_a
+average diameter is 7.5 um
+## explanation_a
+True. The average diameter is 7.5 µm.
+## answer_b
+have a role in immunity
+## explanation_b
+Correct, and the exception. Immunity is the leukocyte's work. The red corpuscle carries gases and buffers acid, and it has neither the organelles nor the receptors for a defensive role.
+## answer_c
+have biconcave shape
+## explanation_c
+True, and the shape is what gives the cell its surface area.
+## answer_d
+can form rouleaux appearance
+## explanation_d
+True. Rouleaux is the reversible stacking that occurs in slow circulation.
+## correct_answer
+B
+## main_concept
+CON-HEM-4F5347CC3664E0
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Separate what the red corpuscle does from what the leukocytes do.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q76. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
@@ -89188,23 +106058,23 @@ The RBCs in adults:
 ## answer_a
 Are flexible biconcave discs
 ## explanation_a
-Correct. Flexible, because they must pass capillaries narrower than themselves, and biconcave, for surface area.
+Correct. Flexible biconcave discs: the flexibility lets them through the capillaries and the biconcavity gives them their surface area.
 ## answer_b
 Have a life span of about 3 weeks
 ## explanation_b
-Three weeks is about 21 days; the red cell lives 120. The figure belongs to no cell in this chapter.
+Three weeks is far short. The life span is about 120 days, after which macrophages in liver, spleen and marrow destroy them.
 ## answer_c
 Are nucleated cells
 ## explanation_c
-The mature red cell has no nucleus at all — that is the point of the ultrastructure question on the same page.
+The mature adult red corpuscle has no nucleus. Nucleated red cells belong to the developing stages in the marrow.
 ## answer_d
 Contain myoglobin
 ## explanation_d
-Myoglobin is the oxygen-binding protein of muscle. The red cell carries haemoglobin, and the two are close enough in name to be worth separating deliberately.
+Myoglobin is the oxygen-binding pigment of muscle. The red corpuscle carries haemoglobin, and the two are confused because both bind oxygen and both are red.
 ## correct_answer
 A
 ## main_concept
-CON-HEM-623C790132C4D6
+CON-HEM-4F5347CC3664E0
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89226,7 +106096,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Pick the true statement about adult red cells from three that fail on a single fact.
+Pick the true statement about the adult red corpuscle.
 ## setting
 Academic
 ## academic_relevance
@@ -89250,7 +106120,173 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key for either printing of this question. Only A is true: red cells are flexible biconcave discs. The life span is 120 days rather than three weeks, the cells are non-nucleated, and they contain haemoglobin, not myoglobin.
+Answer changed from the source's: The source printed no key. A is the department book's own description; the other three each contradict it, since the life span is about 120 days rather than three weeks, the mature cell is non-nucleated, and the oxygen-binding pigment of the red corpuscle is haemoglobin — myoglobin belongs to muscle.
+
+
+---
+
+# Item
+## id
+QM-101-81362E8178E1
+## title
+The following is character of the erythrocytes
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is character of the erythrocytes
+## answer_a
+its average diameter is 7.5 µm
+## explanation_a
+Correct. The average diameter is 7.5 µm, within a range of 6 to 9.
+## answer_b
+Is life span is about 20 days
+## explanation_b
+Twenty days is a leukocyte kind of figure. The red corpuscle lasts about 120 days.
+## answer_c
+its count ranges from 400 - 11000/mm3
+## explanation_c
+4000–11000 per cubic millimetre is the total leukocytic count, misprinted here as a range starting at 400. The red corpuscle count is in millions.
+## answer_d
+Decreased its number below 4 million/mm is called polyeythemia
+## explanation_d
+Below four million is anaemia, not polycythaemia. Polycythaemia is above six million, and this option swaps the two.
+## correct_answer
+A
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a number
+## learning_objective
+Pick the correct one of the red corpuscle's four standard numbers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q1. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B1EB72EF85A8
+## title
+The average size of RBCs
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The average size of RBCs
+## answer_a
+7.0 um
+## explanation_a
+Correct, and the only option in a plausible unit. The department book gives 7.5 µm as the average within a 6–9 µm range, so the printed 7.0 is a rounding of it; what this question is really testing is the micrometre.
+## answer_b
+7.0 nm
+## explanation_b
+Nanometres would make the cell smaller than a mitochondrion and far below the resolution of the light microscope that routinely shows it.
+## answer_c
+7.0 mm
+## explanation_c
+Millimetres would make a red corpuscle visible to the naked eye.
+## answer_d
+0.7 cm
+## explanation_d
+0.7 cm is seven millimetres — the size of a small bead.
+## correct_answer
+A
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a number
+## learning_objective
+Give the red corpuscle's diameter in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q77. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
@@ -89271,23 +106307,23 @@ blood elements are :
 ## answer_a
 erythrocytes
 ## explanation_a
-True but incomplete. Erythrocytes are one of the three formed elements.
+True on its own. Erythrocytes are the most numerous of the three.
 ## answer_b
 leukocytes
 ## explanation_b
-True but incomplete. Leukocytes are the second.
+True on its own. Leukocytes are the nucleated cells of blood.
 ## answer_c
 thrombocytes
 ## explanation_c
-True but incomplete. Thrombocytes — the platelets — are the third.
+True on its own. Thrombocytes — platelets — are the third element, even though the book says they are not true cells.
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three are the formed elements of blood, which make up 45 per cent of it against 55 per cent plasma.
+Correct. All three are formed elements of blood, suspended in the fluid matrix that is plasma.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-623C790132C4D6
+CON-HEM-0EBFB178160067
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89309,7 +106345,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Name the three formed elements of blood.
+Name the formed elements of blood.
 ## setting
 Academic
 ## academic_relevance
@@ -89354,23 +106390,23 @@ characteristic ultrastructural feature of RBCs includes:
 ## answer_a
 Well-developed rER
 ## explanation_a
-Well-developed rough endoplasmic reticulum belongs to a cell making protein for export — a plasma cell or a fibroblast. The red cell made its haemoglobin before it lost its ribosomes.
+Well-developed rough endoplasmic reticulum belongs to a protein-forming cell. The red corpuscle makes no protein at all.
 ## answer_b
 Heterochromatic nucleus
 ## explanation_b
-A heterochromatic nucleus is a nucleus, and the mature red cell has none.
+A heterochromatic nucleus is the small lymphocyte's. The mature red corpuscle has no nucleus of any kind.
 ## answer_c
 Cell membrane as the only organelle
 ## explanation_c
-Correct. The cell membrane is the only membranous structure the mature red cell retains; there is no nucleus and no organelle inside it, only haemoglobin.
+Correct. The cell membrane is the only membranous structure left; everything inside is homogeneous electron-dense haemoglobin.
 ## answer_d
 Euchromatic nucleus
 ## explanation_d
-A euchromatic nucleus is the pale active nucleus of a synthesising cell — twice wrong here, since the cell has neither a nucleus nor any synthesis left to do.
+A euchromatic nucleus is the active, protein-forming kind — twice wrong for a cell with no nucleus and no synthesis.
 ## correct_answer
 C
 ## main_concept
-CON-HEM-D5E793EE9EAC18
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89390,9 +106426,9 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Structure and function
+Ultrastructure
 ## learning_objective
-State what the red cell has left on electron microscopy.
+Say what an electron microscope finds inside a mature red corpuscle.
 ## setting
 Academic
 ## academic_relevance
@@ -89423,338 +106459,6 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-791996902C08
-## title
-The following statements concerning erythrocytes are true EXCEPT
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-The following statements concerning erythrocytes are true EXCEPT
-## answer_a
-Rounded biconcave non nucleated cells
-## explanation_a
-True, so not the exception. Rounded in top view, biconcave in profile, and non-nucleated.
-## answer_b
-6-9 µm in diameter
-## explanation_b
-True, so not the exception. 6–9 µm is the book's range.
-## answer_c
-It is red because of its hemoglobin content
-## explanation_c
-True, so not the exception. The red colour is the haemoglobin, which is also why the cell is acidophilic.
-## answer_d
-It is very active cell
-## explanation_d
-The exception, and the answer. A cell with no nucleus, no mitochondria and no ribosomes cannot be described as very active — it cannot divide, cannot repair itself and has about 120 days before it is eaten. Its one per cent of enzymes is all the metabolism it has.
-## correct_answer
-D
-## main_concept
-CON-HEM-D5E793EE9EAC18
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Recognise that a cell without organelles cannot be metabolically active.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q75. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-8B48DB3E87FA
-## title
-…………… Keep shape, stability of CM of RBCS
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-…………… Keep shape, stability of CM of RBCS
-## answer_a
-actin
-## explanation_a
-True but incomplete. Actin is one of the two.
-## answer_b
-spectrin
-## explanation_b
-True but incomplete. Spectrin is the other, and it is the one whose gene is defective in hereditary spherocytosis.
-## answer_c
-myosin
-## explanation_c
-Myosin is the motor protein of muscle and of the contractile machinery of other cells. The red cell does not contract and has none.
-## answer_d
-a, b
-## explanation_d
-Correct. Actin and spectrin together form the cytoskeleton on the inner surface of the membrane that keeps the shape and stabilises the membrane.
-## correct_answer
-D
-## main_concept
-CON-HEM-D5E793EE9EAC18
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Structure and function
-## learning_objective
-Name both proteins of the red cell membrane skeleton.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q27. Manifest src_34c967631e388497dc35.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence low; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-C18933DD5A93
-## title
-The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
-## answer_a
-blood grouping
-## explanation_a
-Blood grouping is decided by the antigens of the glycocalyx, on the *outer* surface. This question and the one about the outer surface are printed with the same four options and differ only in which surface they name.
-## answer_b
-maintainance of its shape
-## explanation_b
-Correct. The spectrin–actin network on the inner surface maintains the biconcave shape and the stability of the membrane.
-## answer_c
-maintainace of its color
-## explanation_c
-The colour comes from haemoglobin in the cytoplasm, not from anything attached to the membrane.
-## answer_d
-all of the above
-## explanation_d
-"All of the above" fails because the first and third belong elsewhere — one to the outer surface, one to the interior.
-## correct_answer
-B
-## main_concept
-CON-HEM-D5E793EE9EAC18
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Assign the inner surface of the red cell membrane to shape.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q73. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-18973A049B4E
-## title
-The outer surface of cell membrane of RBCs is responsible for:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-The outer surface of cell membrane of RBCs is responsible for:
-## answer_a
-blood grouping
-## explanation_a
-Correct. The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and of the Rh factor.
-## answer_b
-maintainance of its shape
-## explanation_b
-Shape is maintained from inside, by the spectrin–actin cytoskeleton. This is the paired question with the surfaces exchanged.
-## answer_c
-maintainace of its color
-## explanation_c
-The colour is the haemoglobin filling the cell and owes nothing to either surface.
-## answer_d
-all of the above
-## explanation_d
-"All of the above" collects three answers of which only one belongs to the outer surface.
-## correct_answer
-A
-## main_concept
-CON-HEM-D5E793EE9EAC18
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Assign the outer surface of the red cell membrane to the blood group antigens.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q6. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
 QM-101-6018619D0388
 ## title
 All characters of RBCs except
@@ -89769,23 +106473,23 @@ All characters of RBCs except
 ## answer_a
 flexible, can squeeze in narrow capillary
 ## explanation_a
-True, so not the exception. Flexibility lets the cell deform through capillaries narrower than itself.
+True. The flexible plasmalemma lets the cell squeeze through a capillary narrower than itself.
 ## answer_b
 high selective for gas exchange
 ## explanation_b
-True, so not the exception. The lipoprotein membrane is highly selective, which is what suits it to gas exchange.
+True. The lipoprotein membrane is highly selective, admitting the gases and holding the haemoglobin in.
 ## answer_c
 rounded, easy pass in vessels
 ## explanation_c
-True, so not the exception. The rounded edges ease passage through branched vessels.
+True. Rounded edges are what let it pass easily through branched vessels.
 ## answer_d
 low surface area for gas exchange
 ## explanation_d
-The exception, and the answer. A biconcave disc has a *large* surface area for its volume — that is the whole reason for the shape, and the option inverts it.
+Correct, and the exception. The biconcave shape exists precisely to give a large surface area for the volume; a low surface area would defeat the whole design.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89803,11 +106507,11 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-Easy
+Moderate
 ## question_type
-Structure and function
+Negative stem
 ## learning_objective
-Recognise that the biconcave shape exists to increase surface area.
+Identify the false statement in the book's adaptation table.
 ## setting
 Academic
 ## academic_relevance
@@ -89817,7 +106521,7 @@ Academic
 ## exam_relevance
 4.5
 ## cognitive_effort
-Low
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -89852,23 +106556,23 @@ The followings concerning RBC adaptation to its function ECXEPT
 ## answer_a
 Biconcave shape provides a large surface area
 ## explanation_a
-True, so not the exception. Biconcavity is for surface area.
+True. The biconcave shape gives a large surface area for gas exchange.
 ## answer_b
 Cell membrane is highly selective for gas exchange
 ## explanation_b
-True, so not the exception. The lipoprotein membrane is highly selective.
+True. The membrane is lipoprotein and therefore highly selective.
 ## answer_c
 Cell membrane is elastic to pass through the small capillaries
 ## explanation_c
-True, so not the exception. Elasticity lets the cell pass small capillaries.
+True. Its elasticity lets the cell through capillaries narrower than itself.
 ## answer_d
 The small nucleus provide a wide space for hemoglobin
 ## explanation_d
-The exception, and the answer. The space for haemoglobin comes from having *no* nucleus, not a small one. The option is written to be accepted by a student who has learnt the fact as "small nucleus, more haemoglobin" and never noticed that the nucleus is gone.
+Correct, and the exception, on one word. There is no nucleus at all, small or otherwise; the space for haemoglobin comes from having lost it entirely.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -89886,11 +106590,11 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-Easy
+Moderate
 ## question_type
-Structure and function
+Negative stem
 ## learning_objective
-Recall that the red cell has no nucleus at all, small or otherwise.
+Identify the false adaptation, where the falsehood is the presence of a nucleus.
 ## setting
 Academic
 ## academic_relevance
@@ -89900,7 +106604,7 @@ Academic
 ## exam_relevance
 4.5
 ## cognitive_effort
-Low
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -89921,9 +106625,9 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-2F7D4DDEBC06
+QM-101-AA8A3C30A596
 ## title
-The following are characters of RBCs except:
+Which of the following gives more space for Hb?
 ## subject
 haem
 ## status
@@ -89931,110 +106635,27 @@ Draft
 ## format
 single_best_answer
 ## question
-The following are characters of RBCs except:
+Which of the following gives more space for Hb?
 ## answer_a
-average diameter is 7.5 um
+Biconcave shape of RBCs
 ## explanation_a
-True, so not the exception. 7.5 µm is the average diameter.
+True on its own. The biconcave shape distributes the same volume over a larger surface, which is part of the same design.
 ## answer_b
-have a role in immunity
+absence of nuclei
 ## explanation_b
-The exception, and the answer. Immunity is the work of the leukocytes; the red cell transports gases and buffers acid, and has no defensive role. It is tempting because the red cell does carry surface antigens — but carrying an antigen is not mounting a defence.
+True on its own. Losing the nucleus frees the largest single volume in the cell.
 ## answer_c
-have biconcave shape
+absence of organelles
 ## explanation_c
-True, so not the exception. The biconcave shape is the red cell's defining feature.
+True on its own. Losing the organelles frees the rest.
 ## answer_d
-can form rouleaux appearance
+all of the above
 ## explanation_d
-True, so not the exception. Rouleaux is a property of red cells and of no other blood cell.
-## correct_answer
-B
-## main_concept
-CON-HEM-7BDD11341CD537
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Structure and function
-## learning_objective
-Keep immunity out of the red cell's job list.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q76. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-9E203966C00F
-## title
-function of RBCs is :
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-function of RBCs is :
-## answer_a
-transfer gases
-## explanation_a
-True but incomplete. Carrying oxygen and carbon dioxide is the first function.
-## answer_b
-acid base buffer
-## explanation_b
-True but incomplete. Through the carbonic anhydrase reaction the cell generates bicarbonate and acts as an acid–base buffer.
-## answer_c
-phagocytosis
-## explanation_c
-Phagocytosis needs lysosomes and pseudopodia. The red cell has neither; it is itself phagocytosed at the end of its 120 days.
-## answer_d
-both a & b are correct
-## explanation_d
-Correct. Gas transport and acid–base buffering, and a student who stops at the first has given half the answer.
+Correct. All three contribute, and together they are the "content" row of the book's adaptation table.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90056,7 +106677,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Give both functions of the red cell.
+Name everything about the red corpuscle that makes room for haemoglobin.
 ## setting
 Academic
 ## academic_relevance
@@ -90076,7 +106697,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q7. Manifest src_2944234d11e92ac4bbc8.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q67. Manifest src_2944234d11e92ac4bbc8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -90101,23 +106722,23 @@ Plasmalemma or RBCS is adapted for gas exchange due to high:
 ## answer_a
 Myoglobin content
 ## explanation_a
-Myoglobin is in muscle, not in any membrane, and it stores oxygen rather than letting it across.
+Myoglobin is muscle's oxygen store and is not a membrane component of anything.
 ## answer_b
 Cholesterol content
 ## explanation_b
-Cholesterol is present in every plasma membrane and stiffens it. It is not what the book credits with the selectivity for gases.
+Cholesterol does sit among the fatty acid tails and stabilise the membrane, but the book attributes the selectivity for gas exchange to the membrane's lipoprotein nature.
 ## answer_c
 Carbohydrate content
 ## explanation_c
-The carbohydrate of the glycocalyx carries the blood group antigens. It faces the plasma and identifies the cell rather than admitting gas.
+The carbohydrate of the outer coat carries the blood group antigens. It is on one face only and has nothing to do with letting gases across.
 ## answer_d
 Lipoprotein content
 ## explanation_d
-Correct. The membrane is lipoprotein and therefore highly selective, which is the property the book pairs with gas exchange.
+Correct. The plasmalemma is lipoprotein and therefore highly selective — permeable to the gases and not to the haemoglobin.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90139,7 +106760,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Name the membrane property that makes the red cell selective for gases.
+Name the property of the red corpuscle membrane that makes it selective for gases.
 ## setting
 Academic
 ## academic_relevance
@@ -90170,6 +106791,89 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-9E203966C00F
+## title
+function of RBCs is :
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+function of RBCs is :
+## answer_a
+transfer gases
+## explanation_a
+True on its own. Carrying oxygen and carbon dioxide is the cell's main work.
+## answer_b
+acid base buffer
+## explanation_b
+True on its own. Haemoglobin and the carbonic anhydrase inside the cell make it an acid–base buffer.
+## answer_c
+phagocytosis
+## explanation_c
+Phagocytosis needs lysosomes and a cytoskeleton capable of pseudopodia. The red corpuscle has neither.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Gas transport and buffering are both red corpuscle functions; phagocytosis is the leukocyte's.
+## correct_answer
+D
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what the red corpuscle does, and what it does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q7. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-CF7E64CD49BC
 ## title
 Adaptations of RBCS to function include:
@@ -90184,23 +106888,23 @@ Adaptations of RBCS to function include:
 ## answer_a
 flexible cell membrane to squeeze in capillaries
 ## explanation_a
-Correct. Flexibility of the plasmalemma is what lets the cell be squeezed through a capillary narrower than itself.
+Correct. Flexibility is what squeezing through a narrow capillary needs, and the book attributes it to the plasmalemma in exactly those words.
 ## answer_b
 lipoprotein cell membrane to squeeze in capillaries
 ## explanation_b
-The right property with the wrong purpose. Being lipoprotein makes the membrane highly selective and so suited to gas exchange; it is flexibility, not composition, that gets the cell through a capillary.
+The right property attached to the wrong consequence. Being lipoprotein is what makes the membrane selective for gases; being flexible is what lets it squeeze.
 ## answer_c
 rounded edges to help gaseous exchange
 ## explanation_c
-The right feature with the wrong purpose again. Rounded edges ease passage through branched vessels; surface area for gas exchange comes from the biconcavity.
+Swapped the other way. Rounded edges ease passage through branched vessels; it is the biconcave surface that serves gas exchange.
 ## answer_d
 biconcave surface to pass in branched vessels
 ## explanation_d
-And the fourth permutation. The biconcave surface gives the large surface area for exchange; passage through branched vessels is what the rounded edges are for. Each of these three options is built from two true halves joined wrongly, which is why the question is harder than the facts in it.
+And swapped again: the biconcave surface gives surface area for gas exchange, while the rounded edges are what the book credits with passage through branched vessels.
 ## correct_answer
 A
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90222,7 +106926,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Match each red cell feature to its own function rather than to a neighbouring one.
+Match each adaptation to the property it actually derives from.
 ## setting
 Academic
 ## academic_relevance
@@ -90246,16 +106950,16 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. All four options name a true feature, but three of them pair it with the wrong function: the lipoprotein membrane is for gas exchange rather than for squeezing, the rounded edges are for passing branched vessels rather than for exchange, and the biconcave surface is for surface area rather than for branched vessels. Only A pairs correctly — a flexible membrane to squeeze through capillaries.
+Answer changed from the source's: The source printed no key. The department book pairs each adaptation with its own property: the flexible membrane is what lets the cell squeeze through narrow capillaries, the lipoprotein membrane is what makes it selective for gas exchange, the rounded edges are what ease passage through branched vessels, and the biconcave shape is what gives the surface area. Options B, C and D each keep the right pairs but exchange their halves; only A pairs a property with the consequence the book gives it.
 
 
 ---
 
 # Item
 ## id
-QM-101-AA8A3C30A596
+QM-101-18973A049B4E
 ## title
-Which of the following gives more space for Hb?
+The outer surface of cell membrane of RBCs is responsible for:
 ## subject
 haem
 ## status
@@ -90263,27 +106967,27 @@ Draft
 ## format
 single_best_answer
 ## question
-Which of the following gives more space for Hb?
+The outer surface of cell membrane of RBCs is responsible for:
 ## answer_a
-Biconcave shape of RBCs
+blood grouping
 ## explanation_a
-The weakest member of the set. The department book credits the biconcave shape with surface area rather than with storage space, and a student who rejects this option has read the book correctly — but with B and C both plainly true, no single-option answer is available and the inclusive option is what the examiner intends.
+Correct. The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and the Rh factor.
 ## answer_b
-absence of nuclei
+maintainance of its shape
 ## explanation_b
-True. Extruding the nucleus frees the largest single volume in the cell, at the price of never dividing again.
+Shape is maintained from the inside, by the spectrin and actin cytoskeleton beneath the membrane.
 ## answer_c
-absence of organelles
+maintainace of its color
 ## explanation_c
-True. Losing the mitochondria and ribosomes frees the rest, which is why the mature cell is 33 per cent haemoglobin.
+Colour is haemoglobin, in the cytoplasm, and has nothing to do with either face of the membrane.
 ## answer_d
 all of the above
 ## explanation_d
-Correct as the question is set. B and C are both true and A is carried with them.
+"All of the above" fails because two of the three belong elsewhere — which is the point of asking the question by surface.
 ## correct_answer
-D
+A
 ## main_concept
-CON-HEM-7BDD11341CD537
+CON-HEM-77AC215885FD6B
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90301,11 +107005,11 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-Moderate
+Easy
 ## question_type
 Structure and function
 ## learning_objective
-Name what the red cell gave up in order to hold more haemoglobin.
+Say what the outer surface of the red corpuscle membrane carries.
 ## setting
 Academic
 ## academic_relevance
@@ -90315,7 +107019,7 @@ Academic
 ## exam_relevance
 4.5
 ## cognitive_effort
-Medium
+Low
 ## reasoning_level
 1
 ## estimated_seconds
@@ -90325,7 +107029,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q67. Manifest src_2944234d11e92ac4bbc8.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q6. Manifest src_2944234d11e92ac4bbc8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -90336,9 +107040,9 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-CB60E2330DFA
+QM-101-C18933DD5A93
 ## title
-average number of Normochromic RBCs is ………….. million / mm3
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
 ## subject
 haem
 ## status
@@ -90346,27 +107050,27 @@ Draft
 ## format
 single_best_answer
 ## question
-average number of Normochromic RBCs is ………….. million / mm3
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
 ## answer_a
-6
+blood grouping
 ## explanation_a
-6 million per mm³ is the threshold above which the count is called polycythaemia, not the average.
+Blood grouping is a property of the outer surface, the carbohydrate coat, not of the proteins beneath the inner one.
 ## answer_b
-5
+maintainance of its shape
 ## explanation_b
-Correct. About 5 million per mm³ on average — 4.5–5.5 in the male and 4–5 in the female.
+Correct. Spectrin and actin maintain the biconcave shape and give the membrane the elasticity and stability it needs to be deformed thousands of times.
 ## answer_c
-8
+maintainace of its color
 ## explanation_c
-8 million is well outside any range the book gives, normal or abnormal.
+Colour is haemoglobin.
 ## answer_d
-7
+all of the above
 ## explanation_d
-7 million is above the polycythaemia threshold. The figure 7.5 belongs to the diameter in micrometres, and confusing the two numbers is what produces this answer.
+"All of the above" would require the cytoskeleton to do the coat's job as well.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-FBE8CE60EE508C
+CON-HEM-77AC215885FD6B
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90386,9 +107090,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Normal values
+Structure and function
 ## learning_objective
-Give the average red cell count.
+Say what the cytoskeleton beneath the red corpuscle membrane does.
 ## setting
 Academic
 ## academic_relevance
@@ -90408,7 +107112,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q5. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q73. Manifest src_2944234d11e92ac4bbc8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -90419,9 +107123,9 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-60E1710C328D
+QM-101-8B48DB3E87FA
 ## title
-life span of RBCs is ……………
+…………… Keep shape, stability of CM of RBCS
 ## subject
 haem
 ## status
@@ -90429,27 +107133,27 @@ Draft
 ## format
 single_best_answer
 ## question
-life span of RBCs is ……………
+…………… Keep shape, stability of CM of RBCS
 ## answer_a
-90 days
+actin
 ## explanation_a
-90 days is short of the mark; no blood cell in this chapter is given that figure.
+True on its own. Actin is one of the two.
 ## answer_b
-100 days
+spectrin
 ## explanation_b
-100 days is the round number a student reaches for when the real one will not come, and it is the closest of the three wrong answers.
+True on its own. Spectrin is the other, and it is the one whose gene defect causes spherocytosis.
 ## answer_c
-120 days
+myosin
 ## explanation_c
-Correct. About 120 days, after which macrophages in liver, marrow and spleen phagocytose the cell.
+Myosin is the motor protein of muscle contraction and of the pericyte; the red corpuscle needs no motor, only a scaffold.
 ## answer_d
-150 days
+a, b
 ## explanation_d
-150 days is beyond the range. The book is specific because the figure is used to calculate how fast the marrow must work.
+Correct. Actin and spectrin together are the peripheral protein network beneath the inner surface.
 ## correct_answer
-C
+D
 ## main_concept
-CON-HEM-FBE8CE60EE508C
+CON-HEM-77AC215885FD6B
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90469,9 +107173,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Normal values
+Recall
 ## learning_objective
-Give the life span of the red cell.
+Name both proteins of the red corpuscle cytoskeleton.
 ## setting
 Academic
 ## academic_relevance
@@ -90491,7 +107195,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q24. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q27. Manifest src_34c967631e388497dc35.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from the question book itself.
@@ -90502,9 +107206,9 @@ Extraction confidence low; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-395997E37B4B
+QM-101-DEE245BAB068
 ## title
-male RBCs number is more than female due to …………
+Hereditary spherocytosis of RBCs is caused by: XXX
 ## subject
 haem
 ## status
@@ -90512,27 +107216,27 @@ Draft
 ## format
 single_best_answer
 ## question
-male RBCs number is more than female due to …………
+Hereditary spherocytosis of RBCs is caused by: XXX
 ## answer_a
-stimulatory effect of estrogen on B.M
+Abnormal type of hemoglobin (HbS)
 ## explanation_a
-Oestrogen does not stimulate the marrow; if it did, the female count would be the higher of the two.
+HbS is sickle cell anaemia — a haemoglobin defect that makes a crescent, not a sphere.
 ## answer_b
-inhibitory effect of estrogen on B.M
+Deficiency of hemoglobin reductase enzyme
 ## explanation_b
-An inhibitory effect of oestrogen would also produce a higher male count, which is why this option is the hardest to reject — but the book attributes the difference to what androgen does, not to what oestrogen fails to do.
+Haemoglobin reductase deficiency affects the oxidation state of the iron, not the shape of the cell.
 ## answer_c
-stimulatory effect of androgen on B.M
+Deficiency of carbonic anhydrase enzyme
 ## explanation_c
-Correct. Androgen stimulates the bone marrow, which is why the male range is 4.5–5.5 million against the female 4–5 million.
+Carbonic anhydrase carries carbon dioxide; losing it would impair gas transport, not deform the membrane.
 ## answer_d
-inhibitory effect of androgen on B.M
+Primary defect in spectrin gene expression
 ## explanation_d
-An inhibitory androgen would reverse the observed difference and make the male count the lower one.
+Correct. A primary defect in spectrin gene expression leaves the cytoskeleton unable to hold the biconcavity, so the cell rounds up into a sphere and is destroyed early.
 ## correct_answer
-C
+D
 ## main_concept
-CON-HEM-FBE8CE60EE508C
+CON-HEM-77AC215885FD6B
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90552,9 +107256,9 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Structure and function
+Clinical application
 ## learning_objective
-Name the hormone that accounts for the sex difference in the red cell count.
+Name the protein whose gene defect gives hereditary spherocytosis.
 ## setting
 Academic
 ## academic_relevance
@@ -90574,7 +107278,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q6. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q3. Manifest src_34c967631e388497dc35.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -90585,9 +107289,9 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-101-BA84CFEA6191
+QM-101-D50C56D1DFE2
 ## title
-polycythemia is:
+Rouleaux appearance is characteristic for :
 ## subject
 haem
 ## status
@@ -90595,27 +107299,27 @@ Draft
 ## format
 single_best_answer
 ## question
-polycythemia is:
+Rouleaux appearance is characteristic for :
 ## answer_a
-decreased Hb in RBCs
+RBCs
 ## explanation_a
-Decreased haemoglobin within the cells is hypochromia, and with a low count it is anaemia. Both are the opposite of this term.
+Correct. Only red corpuscles stack like coins, and the reason is their biconcave surfaces meeting face to face.
 ## answer_b
-decreased number of RBCs
+WBCs
 ## explanation_b
-A decreased number of red cells is anaemia — the exact converse, and the answer of a student who has the word without its prefix.
+Leukocytes are irregular nucleated cells and do not stack.
 ## answer_c
-increased number of RBCs
+monocytes
 ## explanation_c
-Correct. Polycythaemia is an increase in the number of red cells, above about 6 million per mm³.
+The monocyte is a leukocyte and does not stack either; it is offered separately here because its frosted-glass cytoplasm is asked about in the row beside this one.
 ## answer_d
-increase size of RBCs
+none of the above
 ## explanation_d
-Increased cell size is macrocytosis, a change in size rather than in number.
+"None of the above" cannot stand when the red corpuscle is on the list.
 ## correct_answer
-C
+A
 ## main_concept
-CON-HEM-FBE8CE60EE508C
+CON-HEM-C2A2C9AC2F59D5
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90635,9 +107339,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Definition
+Structural identification
 ## learning_objective
-Define polycythaemia by what is increased.
+Name the blood cell that forms rouleaux.
 ## setting
 Academic
 ## academic_relevance
@@ -90657,256 +107361,7 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q51. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-9B8AEE8EDE20
-## title
-Physiological increase of RBCs in the following except:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-Physiological increase of RBCs in the following except:
-## answer_a
-High altitude
-## explanation_a
-True, so not the exception. Thin air at altitude is hypoxic, and the marrow answers with more cells in a healthy person.
-## answer_b
-exercise
-## explanation_b
-True, so not the exception. Exercise raises the count physiologically.
-## answer_c
-new born
-## explanation_c
-True, so not the exception. The count is highest in the newborn and falls gradually afterwards.
-## answer_d
-lung disease
-## explanation_d
-The exception, and the answer. Chronic lung disease raises the count by the same hypoxic mechanism, but the hypoxia comes from a diseased lung rather than from thin air, so the polycythaemia is secondary and pathological. The mechanism being identical is exactly what makes this question worth asking.
-## correct_answer
-D
-## main_concept
-CON-HEM-FBE8CE60EE508C
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Clinical application
-## learning_objective
-Separate a physiological rise in the red cell count from a pathological one.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q31. Manifest src_34c967631e388497dc35.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-D1FDEE11072A
-## title
-One is true about RBCs:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-One is true about RBCs:
-## answer_a
-Contain azurophilic granules
-## explanation_a
-Azurophilic granules are primary lysosomes and belong to the granular leukocytes and to monocytes. The red cell has no granules of any kind.
-## answer_b
-The center is thicker than the periphery
-## explanation_b
-Reversed. The cell is 0.8 µm thick at the centre and 2.2 µm at the edge, which is why the centre is pale.
-## answer_c
-About 10-12 pm in diameter
-## explanation_c
-10–12 µm is the diameter of a neutrophil or a basophil. The red cell is 6–9 µm, and it is used as the ruler against which white cells are measured on a film.
-## answer_d
-Increase in number in chronic lung disease
-## explanation_d
-Correct. Chronic lung disease produces hypoxia and hypoxia stimulates the marrow — a secondary polycythaemia.
-## correct_answer
-D
-## main_concept
-CON-HEM-FBE8CE60EE508C
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Clinical application
-## learning_objective
-Recognise secondary polycythaemia among three false statements about red cell structure.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q37. Manifest src_c6ab1b49dc16762227e1.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. Only D is true: chronic lung disease causes hypoxia, which drives the marrow and raises the red cell count. Azurophilic granules belong to leukocytes, the red cell centre is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
-
-
----
-
-# Item
-## id
-QM-101-81362E8178E1
-## title
-The following is character of the erythrocytes
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-The following is character of the erythrocytes
-## answer_a
-its average diameter is 7.5 µm
-## explanation_a
-Correct. The average diameter is 7.5 µm.
-## answer_b
-Is life span is about 20 days
-## explanation_b
-20 days is not the red cell's life span; 120 days is. The figure has lost a digit rather than being a different fact.
-## answer_c
-its count ranges from 400 - 11000/mm3
-## explanation_c
-4,000–11,000 per mm³ is the total white cell count. The red cell count is in millions.
-## answer_d
-Decreased its number below 4 million/mm is called polyeythemia
-## explanation_d
-A count below 4 million is anaemia, not polycythaemia. The definition is right and the word attached to it is its opposite.
-## correct_answer
-A
-## main_concept
-CON-HEM-FBE8CE60EE508C
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Normal values
-## learning_objective
-Pick the correct red cell figure from three that belong to other cells or other words.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q1. Manifest src_34c967631e388497dc35.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q21. Manifest src_2944234d11e92ac4bbc8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -90931,23 +107386,23 @@ Concerning the rouleaux appearance , which is false?
 ## answer_a
 RBCs adhere to each other
 ## explanation_a
-True, so not the false one. The cells adhere face to face like a pile of coins.
+True. Rouleaux is adhesion of the corpuscles to each other.
 ## answer_b
 Occurs in slow circulation
 ## explanation_b
-True, so not the false one. Rouleaux needs slow flow; in normal circulation the cells are kept apart.
+True. It occurs in slow circulation, not in normal flow.
 ## answer_c
 its cause is high surface tension
 ## explanation_c
-True, so not the false one. The book attributes it to the high surface tension produced by the biconcave surface.
+True, and the book's own explanation: the surface tension of the biconcave surfaces is what makes them stick.
 ## answer_d
 its cause is low surface tension
 ## explanation_d
-The false one, and the answer. It is high surface tension, not low. Options C and D are the same statement with one word changed, so the question is decided entirely on that word.
+Correct, and the false statement. It is high surface tension, not low, that causes the stacking — this option is C with one word inverted, which is the whole item.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-2215D8A37A0AD1
+CON-HEM-C2A2C9AC2F59D5
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -90965,11 +107420,11 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-Moderate
+Hard
 ## question_type
-Structure and function
+Negative stem
 ## learning_objective
-Give the cause of rouleaux as high surface tension.
+Give the cause of rouleaux and reject the inverted version of it.
 ## setting
 Academic
 ## academic_relevance
@@ -90979,7 +107434,7 @@ Academic
 ## exam_relevance
 4.5
 ## cognitive_effort
-Medium
+High
 ## reasoning_level
 1
 ## estimated_seconds
@@ -91014,23 +107469,23 @@ Rolueux appearance:
 ## answer_a
 Occurs in normal circulation
 ## explanation_a
-Rouleaux occurs in slow circulation, and the book says explicitly that it is not a feature of normal circulation.
+It occurs in slow circulation. Normal flow keeps the cells apart.
 ## answer_b
 Reversible phenomena
 ## explanation_b
-Correct. It is a reversible phenomenon — the cells separate again when the flow speeds up.
+Correct, and keyed. Rouleaux is reversible: the stacks separate again when the circulation speeds up, and no cell is harmed.
 ## answer_c
 Causes damage of RBCs
 ## explanation_c
-It does no damage to the cells at all, which is the other half of what makes it reversible.
+No damage occurs, which is the point of calling it reversible.
 ## answer_d
 Decrease the erythrocyte sedimentation rate
 ## explanation_d
-It raises the erythrocyte sedimentation rate rather than lowering it: stacked cells are heavier for their surface area and fall faster, which is why the rate rises in inflammation.
+The opposite of the consequence. Long chains sediment faster than single cells, so rouleaux raises the ESR — which is why the ESR rises in inflammation.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-2215D8A37A0AD1
+CON-HEM-C2A2C9AC2F59D5
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91052,7 +107507,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-State that rouleaux is reversible and harmless.
+Pick the true statement about rouleaux, including its effect on the sedimentation rate.
 ## setting
 Academic
 ## academic_relevance
@@ -91083,89 +107538,6 @@ Extraction confidence medium; the answer came from a separate answer key, joined
 
 # Item
 ## id
-QM-101-D50C56D1DFE2
-## title
-Rouleaux appearance is characteristic for :
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-Rouleaux appearance is characteristic for :
-## answer_a
-RBCs
-## explanation_a
-Correct. Only red cells form rouleaux, because only they are biconcave discs that can stack face to face.
-## answer_b
-WBCs
-## explanation_b
-White cells are rounded and nucleated and do not stack. They also circulate in far smaller numbers.
-## answer_c
-monocytes
-## explanation_c
-The monocyte is a white cell, singled out here because it has its own named appearance — frosted glass — which is what the neighbouring question asks about.
-## answer_d
-none of the above
-## explanation_d
-"None of the above" would be true only if red cells did not form rouleaux, and they are the cells the phenomenon is named for.
-## correct_answer
-A
-## main_concept
-CON-HEM-2215D8A37A0AD1
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Structure and function
-## learning_objective
-Attribute rouleaux to the red cell alone.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q21. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
 QM-101-413DED498EA1
 ## title
 Regarding RBCs:
@@ -91180,23 +107552,23 @@ Regarding RBCs:
 ## answer_a
 Aged RBCs are destroyed in bone marrow by megakaryocytes
 ## explanation_a
-Aged red cells are destroyed by macrophages, in the liver, marrow and spleen. Megakaryocytes shed platelets and phagocytose nothing.
+The right places and the wrong cell. Aged red corpuscles are destroyed by macrophages in liver, spleen and bone marrow; the megakaryocyte is the platelet's parent and destroys nothing.
 ## answer_b
 Decreased number is called polycythemia
 ## explanation_b
-A decreased number is anaemia. Polycythaemia is the increase, and the two words are exchanged here.
+Inverted. A decreased number is anaemia; polycythaemia is an increase.
 ## answer_c
 Their biconvex shape is maintained by cytoskeleton
 ## explanation_c
-The cytoskeleton does maintain the shape, but the shape is biconcave, not biconvex. One letter carries the whole error.
+One word wrong. The cytoskeleton maintains the biconcave shape, not a biconvex one.
 ## answer_d
 They tend to form rouleaux appearance in slow circulation
 ## explanation_d
-Correct. Red cells form rouleaux in slow circulation, reversibly and without damage.
+Correct. Rouleaux forms in slow circulation, reversibly and without damage.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-2215D8A37A0AD1
+CON-HEM-C2A2C9AC2F59D5
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91218,7 +107590,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Find the one true statement among three that each fail on one word.
+Pick the true statement about the red corpuscle from a set of near-misses.
 ## setting
 Academic
 ## academic_relevance
@@ -91263,7 +107635,7 @@ RBCs are fragile, so maintained in …………. solution
 ## answer_a
 isotonic
 ## explanation_a
-Correct. Isotonic surroundings — plasma, equivalent to 0.9 per cent saline — leave the cell unchanged.
+Correct. The corpuscle keeps its normal shape in an isotonic medium, and plasma is isotonic — equal in osmotic pressure to 0.9% saline.
 ## answer_b
 hypertonic
 ## explanation_b
@@ -91271,15 +107643,15 @@ A hypertonic solution draws water out and crenates the cell.
 ## answer_c
 hypotonic
 ## explanation_c
-A hypotonic solution drives water in and bursts the cell, leaving a ghost.
+A hypotonic solution drives water in until the cell bursts and leaves a ghost.
 ## answer_d
 none of above
 ## explanation_d
-"None of the above" would require that no tonicity preserved the cell, which would make transfusion impossible.
+"None of the above" cannot stand while isotonic is offered.
 ## correct_answer
 A
 ## main_concept
-CON-HEM-CDB20863524BB2
+CON-HEM-BF988AB4E39366
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91301,7 +107673,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Name the tonicity in which red cells keep their shape.
+Name the tonicity in which a red corpuscle keeps its shape.
 ## setting
 Academic
 ## academic_relevance
@@ -91346,23 +107718,23 @@ RBCs if placed in hypertonic solution, it ……………
 ## answer_a
 remain the same
 ## explanation_a
-Remaining unchanged is what an isotonic solution produces.
+Only an isotonic medium leaves the cell unchanged.
 ## answer_b
 shrink crenate
 ## explanation_b
-Correct. Water leaves the cell, which shrinks and develops surface notches — crenation.
+Correct. Water leaves the cell, it shrinks, and its edge takes on the notches that give crenation its name.
 ## answer_c
 swell, burst
 ## explanation_c
-Swelling and bursting is the hypotonic result, the exact opposite direction of water movement.
+Swelling and bursting is what a hypotonic solution does — the opposite tonicity.
 ## answer_d
 lea of Hg, hemolysis
 ## explanation_d
-Leakage of haemoglobin and haemolysis is also hypotonic, and is the same event as C described from the haemoglobin's point of view. Two of the four options describe the opposite tonicity, which is the trap.
+Leakage of haemoglobin and haemolysis is again the hypotonic outcome, and what it leaves behind is the cell ghost.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-CDB20863524BB2
+CON-HEM-BF988AB4E39366
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91382,9 +107754,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Structure and function
+Prediction
 ## learning_objective
-Give what a hypertonic solution does to a red cell.
+Predict what a hypertonic medium does to a red corpuscle.
 ## setting
 Academic
 ## academic_relevance
@@ -91429,23 +107801,23 @@ Aplastic anemia is caused by:
 ## answer_a
 Deficiency of iron & vitamin B12
 ## explanation_a
-Iron deficiency gives microcytic anaemia and B12 deficiency gives pernicious anaemia. Both are deficiencies of a raw material, whereas aplastic anaemia is failure of the factory.
+Iron and vitamin B12 deficiencies give nutritional anaemias — microcytic and pernicious respectively — in which the marrow is present but under-supplied.
 ## answer_b
 Bone marrow depression by x-ray
 ## explanation_b
-Correct. Aplastic anaemia is depression of the bone marrow — by X-rays, as here, or by drugs.
+Correct. Aplastic anaemia is depression or destruction of the bone marrow itself, by irradiation or chemotherapy, and because the whole marrow fails all three cell lines fall together.
 ## answer_c
 Acute blood loss
 ## explanation_c
-Acute blood loss removes cells already made and does not stop the marrow making more; the marrow in fact responds by working harder, which is why the reticulocyte count rises.
+Acute blood loss gives a haemorrhagic anaemia with a marrow that responds by working harder — the reverse of aplasia.
 ## answer_d
 Spherocytosis or favism
 ## explanation_d
-Spherocytosis and favism are haemolytic anaemias — the cells are made normally in number and destroyed early.
+Spherocytosis and favism are haemolytic: the marrow is normal and the cells are destroyed in the circulation.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-AE93CC33D1374D
+CON-HEM-C79EA8644C0C9C
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91463,11 +107835,11 @@ Year 1
 ## question_only_for
 KAU_Y1
 ## difficulty
-Moderate
+Easy
 ## question_type
 Clinical application
 ## learning_objective
-Give the cause of aplastic anaemia and separate it from the other four.
+Name the cause of aplastic anaemia.
 ## setting
 Academic
 ## academic_relevance
@@ -91477,7 +107849,7 @@ Academic
 ## exam_relevance
 4.5
 ## cognitive_effort
-Medium
+Low
 ## reasoning_level
 1
 ## estimated_seconds
@@ -91512,23 +107884,23 @@ single_best_answer
 ## answer_a
 Aplastic anemia
 ## explanation_a
-Aplastic anaemia is marrow depression; the stomach is not involved and every cell line falls, not the red one alone.
+Aplastic anaemia is marrow failure from irradiation or chemotherapy, not a vitamin problem.
 ## answer_b
 Perinicious anemia
 ## explanation_b
-Correct. Pernicious anaemia is vitamin B12 deficiency caused by failure of the stomach to make intrinsic factor, without which B12 cannot be absorbed.
+Correct. Pernicious anaemia is vitamin B12 deficiency, and the deficiency arises because the stomach fails to make the intrinsic factor B12 needs to be absorbed.
 ## answer_c
 sickle cell anemia
 ## explanation_c
-Sickle cell anaemia is a mutation in the haemoglobin gene and has nothing to do with any vitamin.
+Sickle cell anaemia is a haemoglobin gene mutation.
 ## answer_d
 microcytic anemia
 ## explanation_d
-Microcytic anaemia is iron deficiency. The distinction matters clinically: iron deficiency gives small cells, B12 deficiency large ones.
+Microcytic anaemia is the small-cell anaemia of iron deficiency; B12 deficiency makes cells too large, not too small.
 ## correct_answer
 B
 ## main_concept
-CON-HEM-AE93CC33D1374D
+CON-HEM-C79EA8644C0C9C
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91550,7 +107922,7 @@ Easy
 ## question_type
 Clinical application
 ## learning_objective
-Name the anaemia that follows loss of intrinsic factor.
+Name the anaemia caused by failure of intrinsic factor.
 ## setting
 Academic
 ## academic_relevance
@@ -91595,23 +107967,23 @@ single_best_answer
 ## answer_a
 Aplastic anemia
 ## explanation_a
-Aplastic anaemia produces too few cells of normal shape, not misshapen ones.
+Aplastic anaemia has normal haemoglobin and no marrow to make cells with it.
 ## answer_b
 Perinicious anemia
 ## explanation_b
-Pernicious anaemia produces macrocytes — large cells, still round.
+Pernicious anaemia is a B12 deficiency; the haemoglobin molecule is normal.
 ## answer_c
 sickle cell anemia
 ## explanation_c
-Correct. Haemoglobin S is rigid and gathers at one side of the cell, drawing it into the crescent that names sickle cell anaemia.
+Correct. HbS is rigid and accumulates at one side of the cell, pulling it into the crescent that names sickle cell anaemia.
 ## answer_d
 microcytic anemia
 ## explanation_d
-Microcytic anaemia produces small pale cells from iron deficiency; the shape is unchanged.
+Microcytic anaemia is defined by cell size, not by an abnormal haemoglobin type.
 ## correct_answer
 C
 ## main_concept
-CON-HEM-AE93CC33D1374D
+CON-HEM-C79EA8644C0C9C
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91633,7 +108005,7 @@ Easy
 ## question_type
 Clinical application
 ## learning_objective
-Name the anaemia produced by haemoglobin S.
+Name the anaemia in which abnormal haemoglobin gathers at one side of the cell.
 ## setting
 Academic
 ## academic_relevance
@@ -91678,23 +108050,23 @@ Which statement typifies sickle cell anemia?
 ## answer_a
 Spherical cell
 ## explanation_a
-A spherical cell is the spherocyte, and its defect is in spectrin — a membrane protein — not in haemoglobin.
+A spherical cell is the spherocyte, and its defect is in spectrin — a membrane protein, not a haemoglobin.
 ## answer_b
 Crenated RBC's
 ## explanation_b
-Crenated cells are shrunken cells in a hypertonic solution. That is an osmotic artefact, not a disease.
+A crenated cell is an artefact of a hypertonic medium, not a disease.
 ## answer_c
 Abnormal RBC's nucleus
 ## explanation_c
-The mature red cell has no nucleus, so it can have no abnormal one. This is the option that catches students who reach for "genetic disease" and picture a nucleus.
+The mature red corpuscle has no nucleus, so no red cell disease can be an abnormality of one.
 ## answer_d
 Mutated DNA encoding Hb
 ## explanation_d
-Correct. A mutation in the DNA encoding haemoglobin produces haemoglobin S, and the abnormal haemoglobin deforms the cell.
+Correct, and keyed. A mutation in the DNA encoding the globin chain produces HbS, and everything else about the disease follows from that molecule.
 ## correct_answer
 D
 ## main_concept
-CON-HEM-AE93CC33D1374D
+CON-HEM-C79EA8644C0C9C
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -91716,7 +108088,7 @@ Moderate
 ## question_type
 Clinical application
 ## learning_objective
-Locate the defect of sickle cell anaemia in the haemoglobin gene.
+Place the defect of sickle cell anaemia at the right level.
 ## setting
 Academic
 ## academic_relevance
@@ -91747,9 +108119,9 @@ Extraction confidence medium; the answer came from a separate answer key, joined
 
 # Item
 ## id
-QM-101-DEE245BAB068
+QM-101-CB60E2330DFA
 ## title
-Hereditary spherocytosis of RBCs is caused by: XXX
+average number of Normochromic RBCs is ………….. million / mm3
 ## subject
 haem
 ## status
@@ -91757,359 +108129,27 @@ Draft
 ## format
 single_best_answer
 ## question
-Hereditary spherocytosis of RBCs is caused by: XXX
+average number of Normochromic RBCs is ………….. million / mm3
 ## answer_a
-Abnormal type of hemoglobin (HbS)
+6
 ## explanation_a
-Haemoglobin S is the sickle cell defect. Both diseases deform the cell, and which molecule is at fault is exactly what separates them.
+Six million is the threshold above which the count becomes polycythaemia, not the average.
 ## answer_b
-Deficiency of hemoglobin reductase enzyme
+5
 ## explanation_b
-Haemoglobin reductase keeps haemoglobin able to bind oxygen. Its deficiency would impair gas carriage without changing the shape.
+Correct. The average count is 5 million per cubic millimetre — 4.5–5.5 in the male, 4–5 in the female.
 ## answer_c
-Deficiency of carbonic anhydrase enzyme
+8
 ## explanation_c
-Carbonic anhydrase is the enzyme of carbon dioxide transport. Losing it would affect buffering, not shape.
+Eight million is far beyond even a pathological polycythaemia in this course.
 ## answer_d
-Primary defect in spectrin gene expression
+7
 ## explanation_d
-Correct. A primary defect in the spectrin gene loses the membrane skeleton that holds the biconcavity, and the cell rounds up into a sphere — which is more fragile and is haemolysed early.
+Seven million is above the polycythaemia threshold and is not a normal figure.
 ## correct_answer
-D
+B
 ## main_concept
-CON-HEM-AE93CC33D1374D
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Clinical application
-## learning_objective
-Trace the spherocyte to a membrane skeleton protein rather than to haemoglobin.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q3. Manifest src_34c967631e388497dc35.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
-
----
-
-# Item
-## id
-QM-101-CCD4DFE62201
-## title
-Regarding the reticulocyte, the following statement is correct:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-Regarding the reticulocyte, the following statement is correct:
-## answer_a
-Acidophilic cytoplasm with basophilic reticulum
-## explanation_a
-Correct. The cytoplasm is acidophilic, like a mature red cell, with a basophilic reticulum of residual ribosomal RNA that a supravital stain shows up.
-## answer_b
-Its size is 20 pm
-## explanation_b
-20 µm is the size of a monocyte, the largest leukocyte. A reticulocyte is the size of the red cell it is about to become, about 7.5 µm.
-## answer_c
-Their % increases in case of allergy
-## explanation_c
-The cell that rises in allergy is the eosinophil. The reticulocyte rises when the marrow is driven — after haemorrhage or haemolysis.
-## answer_d
-Its percentage is 60-70% of total leucocytic count
-## explanation_d
-60–70 per cent of the leucocytic count is the neutrophil. The reticulocyte is not a leukocyte at all and is counted as a percentage of red cells.
-## correct_answer
-A
-## main_concept
-CON-HEM-2893BEDA9ED167
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Describe the reticulocyte's staining and reject the leukocyte figures beside it.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q41. Manifest src_c6ab1b49dc16762227e1.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from a separate answer key, joined by question number.
-
-
-
----
-
-# Item
-## id
-QM-101-71E6CE280198
-## title
-A child arrived at the pediatric outpatient clinic complaining of bleeding gums, fallin…
-## subject
-fnd
-## status
-Draft
-## format
-single_best_answer
-## question
-A child arrived at the pediatric outpatient clinic complaining of bleeding gums, falling of teeth and persistent non-healing wounds. The attending resident suspected a disease related to connective tissue. The disease causing such symptoms could be:
-## answer_a
-Osteoporosis. —
-## explanation_a
-Osteoporosis is loss of bone mass, from resorption outpacing formation. It presents with fractures, not with bleeding gums, and it does not stop wounds healing.
-## answer_b
-Purpura
-## explanation_b
-Purpura is a low platelet count, and it does cause bleeding gums — which makes it the strongest distractor here. What it does not cause is non-healing wounds or loosening teeth, and those are the collagen signs.
-## answer_c
-Anemia
-## explanation_c
-Anaemia causes pallor, breathlessness and fatigue. It is a failure to carry oxygen, not a failure of connective tissue, and the stem says the disease is one of connective tissue.
-## answer_d
-Scurvy
-## explanation_d
-Correct. Scurvy — vitamin C deficiency — leaves the fibroblast unable to make sound collagen, so the periodontal ligament fails, the teeth loosen, the gums bleed and wounds do not close.
-## correct_answer
-D
-## main_concept
-CON-FND-0CBFF10055D50B
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Histology-general
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Clinical application
-## learning_objective
-Read bleeding gums with non-healing wounds as a collagen failure.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q14. Manifest src_bb081b0479f7a33666cd.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. The stem names a connective tissue disease with bleeding gums, loosening teeth and wounds that will not heal — the triad of scurvy, in which vitamin C deficiency prevents normal collagen synthesis. The other three options are diseases of bone, of platelets and of red cells.
-1 materially different wording of this question exist in the books and were not collapsed into it.
-
----
-
-# Item
-## id
-QM-101-685412AE2F91
-## title
-Basophils are characterized by:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-Basophils are characterized by:
-## answer_a
-Smaller diameter than RBCs
-## explanation_a
-The basophil is 10–12 µm and the red cell 6–9, so the basophil is the larger. Red cells are the ruler on a film, and every leukocyte is bigger than they are.
-## answer_b
-Presence of azurophilic granules onlv
-## explanation_b
-Azurophil granules alone, with no specific granules, describes no granular leukocyte. The basophil's defining granules are its coarse metachromatic specific granules.
-## answer_c
-S-shaped nuclei
-## explanation_c
-Correct. The basophil has an S-shaped nucleus, usually half hidden by the coarse granules lying over it.
-## answer_d
-Acidophilic coarse granules
-## explanation_d
-Coarse acidophilic granules are the eosinophil's. The basophil's granules are basophilic and stain metachromatically purple with toluidine blue because of their heparin.
-## correct_answer
-C
-## main_concept
-CON-HEM-607B783A16FBEB
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Blood
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Identify the basophil by its nuclear shape.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q65. Manifest src_2944234d11e92ac4bbc8.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-1 materially different wording of this question exist in the books and were not collapsed into it.
-
----
-
-# Item
-## id
-QM-101-1CD8AE57417B
-## title
-frosted glass appearance is characteristic for:
-## subject
-haem
-## status
-Draft
-## format
-single_best_answer
-## question
-frosted glass appearance is characteristic for:
-## answer_a
-RBCs
-## explanation_a
-Red cells have homogeneous haemoglobin and no granularity of any kind.
-## answer_b
-WBCs
-## explanation_b
-"WBCs" as a class is too broad: the granular leukocytes have visible granules and the lymphocyte a clear rim, and only one white cell earns this description.
-## answer_c
-monocytes
-## explanation_c
-Correct. The monocyte's pale basophilic cytoplasm is full of fine lysosomes, which give it a ground-glass or frosted-glass look.
-## answer_d
-none of the above
-## explanation_d
-"None of the above" fails because the appearance is a standard descriptive term for one of the listed cells.
-## correct_answer
-C
-## main_concept
-CON-HEM-719FA556594454
+CON-HEM-11ABCB9BFB7F06
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
@@ -92129,9 +108169,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Structure and function
+Recall of a number
 ## learning_objective
-Attribute the frosted-glass cytoplasm to the monocyte.
+Give the average red corpuscle count.
 ## setting
 Academic
 ## academic_relevance
@@ -92151,11 +108191,426 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q22. Manifest src_2944234d11e92ac4bbc8.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q5. Manifest src_34c967631e388497dc35.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-60E1710C328D
+## title
+life span of RBCs is ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+life span of RBCs is ……………
+## answer_a
+90 days
+## explanation_a
+Ninety days is short of the figure and is not a number this course gives for anything.
+## answer_b
+100 days
+## explanation_b
+A hundred days is close enough to be tempting, which is why it is here; the book's figure is not it.
+## answer_c
+120 days
+## explanation_c
+Correct. About 120 days, after which macrophages in liver, spleen and marrow remove the cell.
+## answer_d
+150 days
+## explanation_d
+A hundred and fifty days overshoots. The cell cannot repair itself, having no organelles, which is what limits it.
+## correct_answer
+C
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a number
+## learning_objective
+Give the life span of the red corpuscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q24. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-395997E37B4B
+## title
+male RBCs number is more than female due to …………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+male RBCs number is more than female due to …………
+## answer_a
+stimulatory effect of estrogen on B.M
+## explanation_a
+The book attributes the difference to the male hormones, not to oestrogen driving the marrow.
+## answer_b
+inhibitory effect of estrogen on B.M
+## explanation_b
+An inhibitory effect of oestrogen would give the same arithmetic by a different route, but it is not what the book states.
+## answer_c
+stimulatory effect of androgen on B.M
+## explanation_c
+Correct. The book gives the higher male count as the stimulatory effect of the male hormones — androgens — on the bone marrow.
+## answer_d
+inhibitory effect of androgen on B.M
+## explanation_d
+An inhibitory androgen effect would make the male count the lower of the two, which is the reverse of the observation.
+## correct_answer
+C
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the reason the male red corpuscle count exceeds the female.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q6. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BA84CFEA6191
+## title
+polycythemia is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+polycythemia is:
+## answer_a
+decreased Hb in RBCs
+## explanation_a
+Decreased haemoglobin in the corpuscles is hypochromia, one half of the definition of anaemia.
+## answer_b
+decreased number of RBCs
+## explanation_b
+A decreased number is anaemia — oligocythaemia — the opposite condition.
+## answer_c
+increased number of RBCs
+## explanation_c
+Correct. Polycythaemia is an increased number of red corpuscles, above six million per cubic millimetre, driven by hypoxia stimulating the marrow.
+## answer_d
+increase size of RBCs
+## explanation_d
+Increased size is macrocytosis, an abnormality of size rather than of number.
+## correct_answer
+C
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define polycythaemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q51. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9B8AEE8EDE20
+## title
+Physiological increase of RBCs in the following except:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Physiological increase of RBCs in the following except:
+## answer_a
+High altitude
+## explanation_a
+Physiological. Thin air means less oxygen, and the marrow answers by making more carriers.
+## answer_b
+exercise
+## explanation_b
+Physiological. Muscular exercise raises the count for the same reason.
+## answer_c
+new born
+## explanation_c
+Physiological. The newborn has the highest count of any age, and it falls gradually thereafter.
+## answer_d
+lung disease
+## explanation_d
+Correct, and the exception. Chronic lung disease raises the count by the same hypoxic mechanism, but the book files it under pathological polycythaemia because the hypoxia is disease rather than circumstance.
+## correct_answer
+D
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Separate physiological from pathological polycythaemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q31. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D1FDEE11072A
+## title
+One is true about RBCs:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+One is true about RBCs:
+## answer_a
+Contain azurophilic granules
+## explanation_a
+Azurophilic granules are lysosomes, and they are found in leukocytes. The red corpuscle has no organelles at all.
+## answer_b
+The center is thicker than the periphery
+## explanation_b
+The reverse. The centre is 0.8 µm thick and the edge 2.2 µm, which is what makes the centre pale.
+## answer_c
+About 10-12 pm in diameter
+## explanation_c
+10–12 µm is the basophil's size. The red corpuscle is 6–9 µm, averaging 7.5.
+## answer_d
+Increase in number in chronic lung disease
+## explanation_d
+Correct. Chronic lung disease causes hypoxia, hypoxia drives the marrow, and the count rises — the book's own example of pathological polycythaemia.
+## correct_answer
+D
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about red corpuscles from a set of near-misses on size, shape and number.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q37. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the department book's pathological polycythaemia — chronic lung disease raises the count through hypoxia — and the other three each contradict the book: azurophilic granules belong to leukocytes, the centre of the corpuscle is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
 
 
 ---
@@ -92176,19 +108631,19 @@ Concerning the red bone marrow which statement is correct:
 ## answer_a
 Reticular cells are among the free bone marrow cells
 ## explanation_a
-Reticular cells are stromal, not free — they and the reticular fibres are the supporting network the free cells lie in.
+Reticular cells are stromal, not free. The free cells of the marrow are the developing blood cells and the stem cells.
 ## answer_b
 Ratio of immature WBCs to immature RBCs is 5:1
 ## explanation_b
-Correct. Immature white cells outnumber immature red cells about five to one, because white cells are the shorter-lived and must be replaced faster.
+Correct. Immature white cells outnumber immature red cells about five to one, because most white cells are shorter-lived and need replacing faster.
 ## answer_c
 Blood sinusoid in its stroma has continuous basement membrane
 ## explanation_c
-The sinusoid's basement membrane is deliberately *not* continuous: the gaps are how a finished blood cell gets out of the marrow and into the blood.
+The marrow sinusoid has a non-continuous basement membrane, and it is the gaps in it that let a finished cell out into the blood.
 ## answer_d
 Present in shaft of long bone in adult
 ## explanation_d
-The shaft of a long bone in an adult holds yellow marrow. Red marrow in the adult is in the flat bones and the ends of the long bones.
+The shaft of an adult long bone holds yellow, fatty marrow. Red marrow in the adult is in the flat, short and irregular bones.
 ## correct_answer
 B
 ## main_concept
@@ -92214,7 +108669,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Separate the stroma of red marrow from its free cells and recall the sinusoid's discontinuous basement membrane.
+Pick the true statement about red bone marrow from four claims about its cells, its sinusoids and its site.
 ## setting
 Academic
 ## academic_relevance
@@ -92259,19 +108714,19 @@ ratio of immature wBCs to immature RBCs
 ## answer_a
 1:5
 ## explanation_a
-1:5 is the ratio inverted, and it would mean the marrow spent most of its effort on red cells — which is the intuition students bring, since red cells outnumber white ones in the blood a thousand to one.
+1:5 is the ratio inverted, and inverting it would say the marrow spends most of its effort on red cells — which the short life of the white cells makes untrue.
 ## answer_b
 5:1
 ## explanation_b
-Correct. About 5:1 in favour of immature white cells, because their life span is days against the red cell's 120.
+Correct. About five immature white cells to every immature red one.
 ## answer_c
 4:1
 ## explanation_c
-4:1 is the right direction and the wrong figure.
+4:1 is the right direction with the wrong figure.
 ## answer_d
 1:4
 ## explanation_d
-1:4 is the same wrong figure inverted as well.
+1:4 is inverted as well as wrong.
 ## correct_answer
 B
 ## main_concept
@@ -92295,9 +108750,9 @@ KAU_Y1
 ## difficulty
 Easy
 ## question_type
-Normal values
+Recall of a number
 ## learning_objective
-Give the ratio of immature white to immature red cells in the marrow, in the right order.
+Give the ratio of immature white to immature red cells in marrow.
 ## setting
 Academic
 ## academic_relevance
@@ -92328,6 +108783,255 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-685412AE2F91
+## title
+Basophils are characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Basophils are characterized by:
+## answer_a
+Smaller diameter than RBCs
+## explanation_a
+The basophil is 10–12 µm and the red corpuscle 6–9, so the basophil is the larger of the two.
+## answer_b
+Presence of azurophilic granules onlv
+## explanation_b
+Azurophilic granules are the non-specific lysosomal granules every granulocyte has. The basophil is defined by its specific granules in addition to them.
+## answer_c
+S-shaped nuclei
+## explanation_c
+Correct. The basophil nucleus is irregular and S-shaped, usually half hidden under the coarse granules lying over it.
+## answer_d
+Acidophilic coarse granules
+## explanation_d
+Acidophilic coarse granules are the eosinophil. Basophil granules are basophilic, and metachromatic with toluidine blue.
+## correct_answer
+C
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Give the nuclear shape and granule type of the basophil.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q65. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1CD8AE57417B
+## title
+frosted glass appearance is characteristic for:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+frosted glass appearance is characteristic for:
+## answer_a
+RBCs
+## explanation_a
+The red corpuscle has no cytoplasmic texture at all — it is homogeneous haemoglobin with a pale centre.
+## answer_b
+WBCs
+## explanation_b
+"WBCs" as a whole is too broad: neutrophils, eosinophils and basophils are all granular in different ways, and the lymphocyte's cytoplasm is a clear blue rim.
+## answer_c
+monocytes
+## explanation_c
+Correct. The monocyte's pale basophilic cytoplasm is finely stippled with lysosomes, and that gives the frosted-glass or ground-glass look.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" cannot stand while the monocyte is on the list.
+## correct_answer
+C
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structural identification
+## learning_objective
+Name the blood cell whose cytoplasm looks like frosted glass and say what causes it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q22. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AB1E2F5330FE
+## title
+Which of the following increases with age:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following increases with age:
+## answer_a
+lipofuscin
+## explanation_a
+Correct. Lipofuscin is undigested residue left in residual bodies, and in cells that never divide — cardiac muscle, nerve cells — it accumulates year on year, which is why it is called the age pigment.
+## answer_b
+carotene
+## explanation_b
+Carotene is an exogenous pigment taken in with food and dissolved in fat; its amount follows diet, not age.
+## answer_c
+hemoglobin
+## explanation_c
+Haemoglobin is an endogenous pigment but its concentration is set by the marrow, and if anything the count falls gradually from birth.
+## answer_d
+hemosedrin
+## explanation_d
+Haemosiderin accumulates where red cells have been broken down in quantity, which is a matter of haemolysis or bleeding rather than of years.
+## correct_answer
+A
+## main_concept
+CON-FND-2560DB7970AF40
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Cytology
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the pigment that accumulates with age and say why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q58. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-9546CA27293D
 ## title
 One is regarded as an endogenous pigment:
@@ -92342,19 +109046,19 @@ One is regarded as an endogenous pigment:
 ## answer_a
 Haemoglobin
 ## explanation_a
-Correct. Haemoglobin is made by the body, and it is listed with melanin and lipofuscin among the endogenous pigments.
+Correct. Haemoglobin is made by the body — the book's own first example of an endogenous pigment.
 ## answer_b
 Carbon
 ## explanation_b
-Carbon is inhaled — the dust of city air and of smoke — and is the classic exogenous pigment.
+Carbon is inhaled dust: exogenous, and the pigment of an anthracotic lung.
 ## answer_c
 Carotene
 ## explanation_c
-Carotene comes from food and colours fat and skin. It is made by plants, not by us.
+Carotene comes in with food and is dissolved in the fat of the adipocyte, which is what makes white fat white rather than colourless.
 ## answer_d
 Tattoo marks. |
 ## explanation_d
-Tattoo dye is introduced through the skin and taken up by macrophages, which is why it stays. Exogenous by the most literal route of all.
+Tattoo marks are dye injected under the skin — the book's own example of an exogenous pigment, and the most obviously so of the four.
 ## correct_answer
 A
 ## main_concept
@@ -92380,7 +109084,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Separate pigments the body makes from pigments it takes in.
+Separate endogenous from exogenous pigment inclusions.
 ## setting
 Academic
 ## academic_relevance
@@ -92404,91 +109108,8 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cy
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. The department book divides pigment inclusions into endogenous — haemoglobin, melanin and lipofuscin — and exogenous — carbon and dust, carotene, tattoo dyes. Only haemoglobin is on the endogenous list.
+Answer changed from the source's: The source printed no key. The department book's cytology chapter lists the endogenous pigments as haemoglobin, melanin and lipofuscin, and the exogenous ones as carbon and dust, carotene and tattoo dyes, which places three of these four options on the exogenous side and leaves haemoglobin.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
-
----
-
-# Item
-## id
-QM-101-AB1E2F5330FE
-## title
-Which of the following increases with age:
-## subject
-fnd
-## status
-Draft
-## format
-single_best_answer
-## question
-Which of the following increases with age:
-## answer_a
-lipofuscin
-## explanation_a
-Correct. Lipofuscin is the wear-and-tear pigment: the indigestible residue of secondary lysosomes, which builds up in long-lived cells such as neurons and cardiac muscle.
-## answer_b
-carotene
-## explanation_b
-Carotene is dietary and rises or falls with what is eaten, not with age.
-## answer_c
-hemoglobin
-## explanation_c
-Haemoglobin content is set by the marrow and does not accumulate in cells over a lifetime; the red cells carrying it are replaced every 120 days.
-## answer_d
-hemosedrin
-## explanation_d
-Haemosiderin accumulates where there has been bleeding or iron overload, which is a local or a pathological matter rather than a consequence of age.
-## correct_answer
-A
-## main_concept
-CON-FND-2560DB7970AF40
-## library_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## topic
-Cytology
-## subtopic
-Red Blood Corpuscles
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Name the pigment that accumulates as a cell ages.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q58. Manifest src_6846577508f49244d715.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
-
-
 
 ---
 
@@ -92508,19 +109129,19 @@ The pigment which is responsible for the brown color of brown adipose tissue is:
 ## answer_a
 melanin
 ## explanation_a
-Melanin colours skin, hair and the choroid. No fat cell makes it.
+Melanin is the pigment of skin, hair and the choroid, made by melanocytes; it plays no part in adipose tissue.
 ## answer_b
 cytochrome
 ## explanation_b
-Correct. The cytochrome pigments of the many mitochondria of the multilocular fat cell, together with a rich blood supply, are what make brown fat brown — and the mitochondria are there because the tissue burns fat for heat.
+Correct. The multilocular fat cell is packed with mitochondria, and their cytochrome pigment — with the tissue's richer blood supply — is what makes brown fat brown.
 ## answer_c
 hemosedrin
 ## explanation_c
-Haemosiderin is an iron-storage pigment left where blood has broken down. It gives a brown colour, which is what makes it plausible here, but not in fat.
+Haemosiderin is iron stored after red cells break down, and it is brown, which is why it is offered here.
 ## answer_d
 hemoglobin
 ## explanation_d
-Haemoglobin is in the blood within the tissue, and the richer blood supply does contribute to the colour — but the pigment the book names is the cytochrome of the mitochondria.
+Haemoglobin colours the blood in the tissue rather than the cells; the book attributes the colour to the cytochromes of the mitochondria.
 ## correct_answer
 B
 ## main_concept
@@ -92546,7 +109167,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Trace the colour of brown fat to the mitochondria that make it warm.
+Name the pigment that makes brown adipose tissue brown.
 ## setting
 Academic
 ## academic_relevance
@@ -92570,6 +109191,172 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-71E6CE280198
+## title
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, fallin…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, falling of teeth and persistent non-healing wounds. The attending resident suspected a disease related to connective tissue. The disease causing such symptoms could be:
+## answer_a
+Osteoporosis. —
+## explanation_a
+Osteoporosis is loss of bone mass, and it presents with fracture rather than with bleeding gums and open wounds.
+## answer_b
+Purpura
+## explanation_b
+Purpura is bleeding into the skin from a platelet or vessel problem; it would not explain teeth falling out or wounds failing to close.
+## answer_c
+Anemia
+## explanation_c
+Anaemia is a red corpuscle disorder. It causes pallor and breathlessness, not a failure of tissue repair.
+## answer_d
+Scurvy
+## explanation_d
+Correct. Bleeding gums, loss of teeth and non-healing wounds together are scurvy, and the underlying lesion is collagen that cannot be made properly.
+## correct_answer
+D
+## main_concept
+CON-FND-46C9A4425362B0
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Recognise the clinical triad of defective collagen synthesis and name the disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q14. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states that vitamin C deficiency — scurvy — is due to defective collagen synthesis and is characterised by unhealed wounds and bleeding gums, which is the stem's own description, and the stem adds that the resident suspected a connective tissue disease.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-CCD4DFE62201
+## title
+Regarding the reticulocyte, the following statement is correct:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the reticulocyte, the following statement is correct:
+## answer_a
+Acidophilic cytoplasm with basophilic reticulum
+## explanation_a
+Correct, and keyed. The cell is already acidophilic from its haemoglobin, and what a supravital stain adds is a basophilic reticulum precipitated from its remaining ribosomes.
+## answer_b
+Its size is 20 pm
+## explanation_b
+Twenty micrometres is monocyte size. The reticulocyte is a red cell and is red-cell sized.
+## answer_c
+Their % increases in case of allergy
+## explanation_c
+Allergy raises the eosinophil count. What raises the reticulocyte count is blood loss or haemolysis, because the marrow is releasing young cells early.
+## answer_d
+Its percentage is 60-70% of total leucocytic count
+## explanation_d
+60–70% of the total leukocytic count is the neutrophil. Reticulocytes do not exceed one per cent of the cells in peripheral blood.
+## correct_answer
+A
+## main_concept
+CON-HEM-C020FBF779203C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural identification
+## learning_objective
+Describe the reticulocyte's staining and reject the leukocyte figures offered beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q41. Manifest src_c6ab1b49dc16762227e1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
 
@@ -92803,7 +109590,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -92815,9 +109602,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19; EOM ISK EOM exam 2024.pdf p10 q410. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. Of the four cavities offered, only the amniotic cavity forms within the inner cell mass; the chorionic cavity forms in the extra-embryonic mesoderm, the blastocele is already there before the embryoblast divides, and the antrum belongs to the ovarian follicle.
 
@@ -93052,7 +109839,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -93064,9 +109851,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6; EOM ISK 101 195 Answers.pdf p5 q57. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -93467,7 +110254,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -93479,9 +110266,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7; EOM ISK 101 195 Answers.pdf p6 q58. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The books print no key. Three of the four statements are events the department book places in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
 
@@ -94214,7 +111001,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -94226,9 +111013,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5; EOM ISK 101 195 Answers.pdf p5 q52. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The books key this to B, that somites start forming during the second week. The department book puts the first pair of occipital somites on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
 
@@ -97119,7 +113906,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -97131,9 +113918,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1; EOM ISK EOM exam 2024.pdf p5 q57. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the second printing of the same case; abduction is the movement deltoid alone performs, so it is the one that confirms an axillary nerve lesion.
 
@@ -97302,6 +114089,1832 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Deltoid is the book's multipennate example; the sibling printing `an-example-of-multipennate-muscle-is-132e2b26`, asked twice, keys A.
+
+
+---
+
+# Item
+## id
+QM-101-01E33C2FDED9
+## title
+Appendicular skeleton is formed of:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Appendicular skeleton is formed of:
+## answer_a
+Skull and mandible
+## explanation_a
+The skull and mandible are the top of the axial skeleton — the central axis, not the appendages hung from it.
+## answer_b
+Bones of the upper and lower limbs
+## explanation_b
+Correct. Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
+## answer_c
+Ribs and stemum
+## explanation_c
+Ribs and sternum are axial. They form the thoracic cage around the axis; the fact that the upper limb attaches to the sternum through the clavicle does not make the sternum a limb bone.
+## answer_d
+Vertebral column
+## explanation_d
+The vertebral column is the axis itself, and the option a student picks by reading "appendicular" as "attached to".
+## correct_answer
+B
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+State what the appendicular skeleton is made of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q16. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the department book defines the appendicular (peripheral) skeleton as the bones of the upper and lower limbs.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-55623272E453
+## title
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle. P Vi b- Ulna
+## answer_a
+Clavicle.
+## explanation_a
+The clavicle is the anterior bar of the pectoral girdle and belongs to the upper limb, however much of it lies across the front of the chest.
+## answer_b
+Ulna.
+## explanation_b
+The ulna is a forearm bone, appendicular beyond argument.
+## answer_c
+Sternum.
+## explanation_c
+Correct. The sternum is one of the six components of the axial skeleton the book lists, with the skull, mandible, hyoid, ribs and vertebral column.
+## answer_d
+Scapula.
+## explanation_d
+The scapula is the posterior half of the pectoral girdle. It lies on the thoracic cage without joining it, which is exactly why it moves with the limb and not with the axis.
+## correct_answer
+C
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the axial bone from a list of three pectoral girdle and limb bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D03376567A9
+## title
+The patella is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The patella is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals — spongy bone in a thin compact shell, filling a region rather than sitting in a tendon. The patella is picked as short by students going on its size.
+## answer_b
+Long bone
+## explanation_b
+A long bone has two epiphyses and a shaft. The patella has neither.
+## answer_c
+Flat bone
+## explanation_c
+A flat bone is two compact plates with spongy bone between; the scapula and ribs are the examples. The patella is flattened in profile, which is the whole of the resemblance.
+## answer_d
+Seasamoid bone
+## explanation_d
+Correct. The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the patella by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q25; Anatomy MCQ Book [2025] [first priority].pdf p5 q25. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-776499738644
+## title
+The scapula is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The scapula is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are cuboidal and packed together in the wrist and ankle. The scapula is a broad plate.
+## answer_b
+Long bone
+## explanation_b
+A long bone has a shaft and two ends. The scapula has processes — spine, acromion, coracoid — but no shaft.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The scapula is one of the book's three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone lies inside a tendon. The scapula gives tendons their origin instead of being carried in one.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the scapula by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q22; Anatomy MCQ Book [2025] [first priority].pdf p5 q22. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9ED6E22DB0AC
+## title
+The ribs are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ribs are:
+## answer_a
+Short bone
+## explanation_a
+A short bone is roughly cubical. A rib is a long curved strip, and nothing about it is short except its thickness.
+## answer_b
+Long bone
+## explanation_b
+The commonest error here, because a rib is manifestly long. Length is not what defines a long bone: a long bone has two expanded epiphyses and a marrow-filled shaft, and a rib has neither.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone is embedded in a tendon. The ribs are joined to the vertebrae behind and the costal cartilages in front.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the ribs by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q23; Anatomy MCQ Book [2025] [first priority].pdf p5 q23. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DE819E32FB53
+## title
+Which of the following bones is a flat bone:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a flat bone:
+## answer_a
+Humerus
+## explanation_a
+The humerus is the type example of a long bone — two epiphyses and a shaft with a medullary cavity.
+## answer_b
+Scapula
+## explanation_b
+Correct. The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
+## answer_c
+Ulna
+## explanation_c
+The ulna is a long bone of the forearm.
+## answer_d
+Clavicle
+## explanation_d
+The clavicle is the trap. It is the one bone that ossifies in membrane like a flat bone of the skull, yet it is classed by shape as a long bone; membrane ossification and flat shape are two different classifications and this option asks for the second.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Upper Limb
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from four bones of the upper limb and its girdle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q1; Upper MCQ Dr.jalal (1).pdf p53 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Asked twice and keyed on neither page. The department book names the scapula as one of its three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
+
+
+---
+
+# Item
+## id
+QM-101-8CA22DC4F501
+## title
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## answer_a
+Vertebra.
+## explanation_a
+The vertebra is the book's example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
+## answer_b
+Cap of skull.
+## explanation_b
+Correct. The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
+## answer_c
+Humerus.
+## explanation_c
+The humerus is a long bone.
+## answer_d
+Scaphoid.
+## explanation_d
+The scaphoid is a carpal bone, and the carpals are the book's example of short bones.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from an irregular, a long and a short bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2017 source printed no key. The department book names the skull cap as one of its three flat bones, and files the other three options elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
+
+
+---
+
+# Item
+## id
+QM-101-885B5B1D9FA3
+## title
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## answer_a
+Clavicle
+## explanation_a
+The clavicle is classed as a long bone, and is the bone this leaf keeps using to separate ossification from shape.
+## answer_b
+Scapula. P
+## explanation_b
+The scapula is flat. It has an awkward outline, which is what makes students read "irregular" into it — but irregularity of outline is not the class; projecting processes on a solid, short-bone-like body are.
+## answer_c
+Metacarpus
+## explanation_c
+The metacarpals are miniature long bones, each with a base, a shaft and a head.
+## answer_d
+Vertebra
+## explanation_d
+Correct. The vertebra is the book's worked example of an irregular bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the irregular bone from a long, a flat and a group of long bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B3F8B23A6E70
+## title
+Which of the following bones is a sesamoid bone? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a sesamoid bone? (2024)
+## answer_a
+Pisiform
+## explanation_a
+Correct. The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
+## answer_b
+Scaphoid. P
+## explanation_b
+The scaphoid is a true carpal bone in the proximal row, articulating with the radius. Its being small and rounded is the whole of its resemblance to a sesamoid.
+## answer_c
+Triquetral
+## explanation_c
+The triquetral is a proximal-row carpal bone, articulating with the articular disc.
+## answer_d
+Hamate
+## explanation_d
+The hamate is a distal-row carpal bone. Its hook gives attachment to the flexor retinaculum, which is a tendon-related fact that makes it a tempting misread — but the bone lies in the carpus, not in a tendon.
+## correct_answer
+A
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise a sesamoid bone among the carpal bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C31D55E16279
+## title
+The sinuses are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The sinuses are:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals, and hold no air.
+## answer_b
+Long bone
+## explanation_b
+Long bones have a marrow cavity, not an air cavity, and none of them is pneumatic.
+## answer_c
+Flat bone
+## explanation_c
+The flat bones of the skull cap are the nearest true answer, and the reason this distractor works: the skull has both, but its air-filled bones surround the nose rather than roofing the brain.
+## answer_d
+Pneumatic bones
+## explanation_d
+Correct. A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the class of bone that contains the paranasal sinuses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q24. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E150494556CA
+## title
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## answer_a
+Warming of inspired air
+## explanation_a
+A genuine function. The sinus is lined by a highly vascular mucosa, and inspired air passing the nose is warmed by it.
+## answer_b
+Withstand forces and stresses
+## explanation_b
+Correct as the exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
+## answer_c
+Resonance of voice
+## explanation_c
+A genuine function. The air cavities resonate, and this is why the voice changes when a sinus fills during a cold.
+## answer_d
+Lighting the weight of skull
+## explanation_d
+A genuine function, and the one most often given first: the cavities decrease the weight of the skull that the neck has to balance.
+## correct_answer
+B
+## main_concept
+CON-MSK-6DCABD3AE947F5
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give what the air cavity of a pneumatic bone does, and identify the property it costs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22; EOM ISK End 101 — 2022.pdf p4 q46. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AA65C6DD5381
+## title
+The expanded upper and lower ends of the long bone are called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The expanded upper and lower ends of the long bone are called:
+## answer_a
+Epiphysis
+## explanation_a
+Correct. The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is the disc of hyaline cartilage *between* epiphysis and diaphysis in a growing bone, not the end itself. One letter of Greek separates them and the plate is inside the bone.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is the shaft between the two ends.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is the zone of the shaft immediately under the epiphyseal cartilage — close to the end, which is what makes it the strongest distractor, but not the end.
+## correct_answer
+A
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the expanded ends of a long bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q19; Anatomy MCQ Book [2025] [first priority].pdf p4 q19. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-73709561FFD6
+## title
+The compact bone with a central medullary cavity is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The compact bone with a central medullary cavity is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the expanded end. It is spongy bone under a shell, with no medullary cavity.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is cartilage, not bone at all.
+## answer_c
+Diaphysis
+## explanation_c
+Correct, and the override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
+## answer_d
+Metaphysis
+## explanation_d
+The answer printed in both copies of this question in the books, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
+## correct_answer
+C
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the region of a long bone that is a tube of compact bone around a medullary cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q20. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the department book, whose definition of the diaphysis is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-939E9C644E81
+## title
+The part which is responsible for the growth of long bones in length is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The part which is responsible for the growth of long bones in length is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the end that the plate pushes away; it is carried along by the growth rather than producing it.
+## answer_b
+Epiphyseal plate
+## explanation_b
+Correct. The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is what the growth adds to. It lengthens, but it does not do the lengthening.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is called the most active part of the long bone, which is exactly why it is chosen. Its activity is turning newly made cartilage into bone; the cell division that adds length happens in the plate above it.
+## correct_answer
+B
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the part of a long bone that lengthens it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q21. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-70A55CFAAC9B
+## title
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## answer_a
+Metaphysis.
+## explanation_a
+The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
+## answer_b
+Diaphysis.
+## explanation_b
+The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.
+## answer_c
+Epiphyseal plate.
+## explanation_c
+Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
+## answer_d
+Epiphyseal line.
+## explanation_d
+The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.
+## correct_answer
+C
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure through which a growing bone lengthens, and separate it from the scar it leaves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23; EOM ISK EOM exam 2024.pdf p9 q95. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
+
+
+---
+
+# Item
+## id
+QM-101-559EF0964155
+## title
+Intra-cartilagenous ossification occurs in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-cartilagenous ossification occurs in:
+## answer_a
+Roof of the skull
+## explanation_a
+The roof of the skull ossifies in membrane, directly from mesenchyme, with no cartilage model. It is printed twice in this question, as A and again as C.
+## answer_b
+Clavicle
+## explanation_b
+The clavicle is the book's other example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
+## answer_c
+Skull cap
+## explanation_c
+The skull cap is the same structure as option A under another name. Two identical options cannot both be the answer, which is a way to eliminate the pair.
+## answer_d
+Vertebrae
+## explanation_d
+Correct. The vertebrae are on the book's intra-cartilaginous list with the long bones, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a bone that ossifies by replacing a cartilage model.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q18; Anatomy MCQ Book [2025] [first priority].pdf p4 q18. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-79FF4E8557D4
+## title
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## answer_a
+Clavicle.
+## explanation_a
+Correct. The clavicle is one of the book's two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
+## answer_b
+Radius.
+## explanation_b
+The radius is a long bone and ossifies in cartilage, like every other bone of the limbs except the clavicle.
+## answer_c
+Humerus.
+## explanation_c
+The humerus ossifies in cartilage.
+## answer_d
+Ulna.
+## explanation_d
+The ulna ossifies in cartilage. A, B, C and D are all bones of the upper limb, which is what makes this question a test of the exception rather than of the rule.
+## correct_answer
+A
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the bone of the upper limb that ossifies in membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-875DE732590E
+## title
+Hyaline cartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Hyaline cartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage — the standing exception to "the larynx is hyaline", and the reason this option is printed first.
+## answer_b
+Aurice of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage, which is what lets it be folded and spring back.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Correct. The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
+## answer_d
+Intervertebral disc
+## explanation_d
+The intervertebral disc is white fibrocartilage — an opaque matrix packed with collagen bundles, built to take compression rather than to glide.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of hyaline cartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q15. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book lists the articular cartilage of joints among the sites of hyaline cartilage, and files the other three options elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-413433FF6722
+## title
+White fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White fibrocartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline. It is the most tempting wrong answer here because a joint surface takes load, and load is what fibrocartilage is for — but the surface has to be smooth, and collagen bundles are not.
+## answer_d
+Intervertebral disc
+## explanation_d
+Correct. The intervertebral disc is the department book's one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
+## correct_answer
+D
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q14. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3C68E0BE48EB
+## title
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P V…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P Vi b- Auricle of ear. y
+## answer_a
+Epiglottis.
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of ear.
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Intervertebral disc of cartilage.
+## explanation_c
+Correct. The intervertebral disc is the book's named site of white fibrocartilage.
+## answer_d
+Costal cartilage.
+## explanation_d
+Costal cartilage is hyaline, and it is the distractor that separates this printing from the others: a student who has learnt only "fibrocartilage takes load" will reach for the cartilage that carries the ribcage.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage when a hyaline site of the thoracic wall is offered alongside.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-02CE8E9E2ABF
+## title
+Yellow elastic fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Yellow elastic fibrocartilage is present in:
+## answer_a
+Developing bone of the fetus
+## explanation_a
+Developing bone in the fetus is a hyaline cartilage model, waiting to be replaced.
+## answer_b
+Auricle of the ear
+## explanation_b
+Correct. The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline.
+## answer_d
+Symphysis pubis
+## explanation_d
+The symphysis pubis is fibrous rather than elastic, and is offered here because "yellow elastic fibrocartilage" contains the word fibrocartilage — the classic misreading of the name.
+## correct_answer
+B
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of yellow elastic fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q13. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49DF99EE21D8
+## title
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## answer_a
+Hyaline cartilage
+## explanation_a
+Hyaline cartilage is in the developing bones, the epiphyseal plates, the joint surfaces, the costal cartilages and the larynx below the epiglottis — never in the nasal tip.
+## answer_b
+White ﬁbrocartilage
+## explanation_b
+White fibrocartilage is the intervertebral disc. It is built to resist compression, and a nose tip that resisted compression would not spring back.
+## answer_c
+Yellow elastic ﬁbrocartilage
+## explanation_c
+Correct. The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
+## answer_d
+No cartilage at all
+## explanation_d
+The tip of the nose is cartilage, which is exactly why it has no bony landmark and why it moves when pressed. Chosen by students who confuse the soft, mobile tip with the absence of a skeleton.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the type of cartilage at the tip of the nose.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
@@ -97534,7 +116147,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -97546,9 +116159,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47; EOM first 2021 101 INT end of module.pdf p4 q27. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_9487fd713153c573087f.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -97617,7 +116230,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -97629,9 +116242,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12; EOM ISK 101 - 2023.pdf p1 q6. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -99775,7 +118388,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -99787,9 +118400,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45. Manifest src_25ac512fb1cb23a6f696.
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45; EOM ISK 101 - 2023.pdf p3 q29. Manifest src_25ac512fb1cb23a6f696, src_ce4292e31edea7517e7b.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -109071,7 +127684,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -109083,9 +127696,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39. Manifest src_4e481d399b2ffd65b97a.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39; EOM first 2021 101 INT end of module.pdf p6 q41. Manifest src_4e481d399b2ffd65b97a, src_9487fd713153c573087f.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -109984,7 +128597,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -109996,9 +128609,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32; EOM ISK EOM exam 2024.pdf p10 q412. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_16f747e1171423933757.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -111229,7 +129842,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -111241,9 +129854,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53. Manifest src_c30d9391aa0861f41e44.
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53; EOM ISK 101 195 Answers.pdf p3 q23. Manifest src_c30d9391aa0861f41e44, src_9e6aad6c6af097e473d6.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -112727,7 +131340,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## cognitive_effort
 Low
 ## reasoning_level
@@ -112739,9 +131352,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2. Manifest src_08bc782553366518791e.
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2; EOM ISK EOM exam 2024.pdf p9 q91. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
 
