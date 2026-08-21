@@ -705,8 +705,20 @@ if (kind !== 'concept') {
       else {
         const record = corpusSources[id]
         if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
-          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+        else if (values.source_relative_path?.trim()) {
+          // A content-addressed ID can be filed under more than one name — fourteen in
+          // this corpus are. The index reports *every* path it holds for an ID, and any
+          // of them is a truthful answer, so the check accepts the set.
+          //
+          // It used to compare against a single `sourceRelativePath`. For an ambiguous
+          // ID that field is null, so both real paths were refused with `is "null" in
+          // the corpus` — worse than the arbitrary pick it replaced, because an
+          // arbitrary pick is right half the time and this was wrong every time.
+          const given = values.source_relative_path.trim()
+          const known = record.sourceRelativePaths ?? (record.sourceRelativePath ? [record.sourceRelativePath] : [])
+          if (known.length && !known.includes(given)) {
+            errors.push(`${where}: ${id} is ${known.map((path) => `"${path}"`).join(' or ')} in the corpus, not "${given}"`)
+          }
         }
       }
     }
