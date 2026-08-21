@@ -1,0 +1,861 @@
+{
+  "source": {
+    "id": "src_078450096f7b08eb1284",
+    "file": "EOY Final 104, 199 (2).pdf",
+    "module": "104 CPS",
+    "sittingYear": 2025,
+    "tier": "end_of_year",
+    "sections": ["Physiology", "Anatomy", "Histology"],
+    "solvedCopy": "src_8a47af73fcd1534ffc16"
+  },
+
+  "seeds": [
+    {
+      "q": 1, "section": "Physiology", "page": 2, "marks": 8,
+      "asked": "Describe the ionic bases of phase 1 and phase 2 in cardiac myocyte action potential",
+      "label": "Phase 1 of the cardiac myocyte action potential is a transient potassium efflux and phase 2 a plateau that balances potassium efflux against calcium entry",
+      "key": "cardiac-myocyte-action-potential.phase-1-and-2-ionic-basis",
+      "definition": "Phase 1 is the rapid small repolarization that follows the upstroke: transient outward potassium channels open and carry Ito, chloride enters, and the fast sodium channels inactivate. Phase 2 is the plateau, about 200 msec in a ventricular myocyte and held near zero millivolts by two opposing currents that cancel — a small outward potassium current through delayed rectifier channels, and an inward positive current made of calcium entering through long-lasting (L-type) channels together with the sodium-calcium exchanger, which moves one calcium ion out for three sodium ions in and so admits a net positive charge.",
+      "objective": "Name the ions and channels responsible for phase 1 and phase 2 of the non-pacemaker cardiac action potential, and say why the plateau stays flat.",
+      "pitfall": "Reading the plateau as a period without current. It is two large opposing currents cancelling, which is why a small change in either potassium or calcium conductance moves the whole plateau.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S01-M04"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      "type": "mechanism",
+      "aliases": ["Phase 1 and phase 2 of the ventricular action potential", "Ionic basis of the cardiac plateau"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "conflicts": ["The physiology department book p. 12 prints the L-type current as 'Efflux of Ca++' while listing it under 'Inward positive current'. The solved copy writes it as inward. The book's word is a slip; calcium enters."],
+      "rejectedMergeCandidateIds": ["CON-CVS-77AA16A0BD5F70"]
+    },
+    {
+      "q": 1, "section": "Physiology", "page": 2, "marks": 0,
+      "asked": "Compare between rapid ejection phase and reduced ejection phase regarding ventricular pressure, ventricular volume, semilunar valves and arterial pressure",
+      "label": "Rapid and reduced ejection differ in the pressure gradient and the rate of emptying, not in whether the semilunar valves are open",
+      "key": "cardiac-cycle.rapid-versus-reduced-ejection-phase",
+      "definition": "Both phases of ventricular ejection run with the semilunar valves open. In rapid ejection the ventricle is still developing force: ventricular pressure rises to its peak, about 120 mmHg on the left and 25 mmHg on the right, arterial pressure rises with it, and ventricular volume falls steeply. In reduced ejection the gradient has reversed and ejection continues only on the momentum of the moving column: ventricular and arterial pressure both fall, and ventricular volume falls slowly to the end-systolic volume of about 60 ml. When the momentum is spent a small backflow produces the dicrotic notch and the valves close.",
+      "objective": "Set the two ejection phases side by side for semilunar valve state, ventricular pressure, ventricular volume and arterial pressure.",
+      "pitfall": "Expecting ejection to stop the moment ventricular pressure falls below arterial pressure. It continues on momentum, and it is the loss of that momentum, not the crossing of the pressures, that ends it.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M01"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Cardiac Function",
+      "type": "mechanism",
+      "aliases": ["Phases of ventricular ejection"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "uncertainty": "The arterial-pressure row of the solved copy's table is contaminated by jugular-venous-pulse text (x and v waves) that belongs to another table; that row is taken from the department book p. 25 instead."
+    },
+    {
+      "q": 2, "section": "Physiology", "page": 3, "marks": 10,
+      "asked": "Illustrate the effect of increased in inotropy on left ventricle pressure-volume loop",
+      "label": "Increased inotropy shifts the end-systolic pressure-volume relation up and to the left, so the loop starts at the same end-diastolic volume and ends at a lower end-systolic volume",
+      "key": "ventricular-pressure-volume-loop.effect-of-increased-inotropy",
+      "definition": "The end-systolic pressure-volume relation is the line on which the upper left corner of every loop lies, and its slope is the ventricle's contractility. A positive inotropic intervention shifts that line upwards and to the left. Contraction still begins at the same end-diastolic volume, so the loop is unchanged on its right-hand edge, but the ventricle now empties to a lower end-systolic volume; the loop is therefore wider and the stroke volume larger at the same preload.",
+      "objective": "Draw what increased inotropy does to the ventricular pressure-volume loop, and say which corner of the loop moves and which does not.",
+      "pitfall": "Reading the wider loop as a preload effect. Preload moves the right-hand edge of the loop; inotropy moves the end-systolic relation and therefore the left-hand edge.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M01"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Cardiac Function",
+      "type": "mechanism",
+      "aliases": ["ESPVR shift with contractility", "Inotropy on the PV loop"],
+      "difficulty": "Hard",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"]
+    },
+    {
+      "q": 2, "section": "Physiology", "page": 3, "marks": 0,
+      "asked": "Explain heart rate reserve and stroke volume reserve",
+      "label": "Heart rate reserve runs from about 75/min to 220 minus age, and stroke volume reserve from about 70 ml to 200 ml",
+      "key": "cardiac-reserve.heart-rate-and-stroke-volume-reserve",
+      "definition": "Cardiac reserve is the maximum percentage by which cardiac output can rise above rest. Heart rate reserve is the span between the resting rate of about 75/min and the maximal rate, estimated as 220 minus age in years, about 200/min in a normal young adult. Stroke volume reserve is the span between about 70 ml at rest and up to 200 ml at maximal exercise, obtained by raising end-diastolic volume through Starling's mechanism and by lowering end-systolic volume through positive inotropy.",
+      "objective": "Give the range of each reserve and the mechanism by which stroke volume reserve is realised.",
+      "pitfall": "Treating maximal heart rate as trainable. Training raises stroke volume reserve and cardiac mass; maximal rate is set by age and does not rise with training.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M02"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Cardiac Function",
+      "type": "definition",
+      "aliases": ["Cardiac reserve"],
+      "difficulty": "Easy",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"]
+    },
+    {
+      "q": 3, "section": "Physiology", "page": 4, "marks": 10,
+      "asked": "Explain the changes on MSFP on venous return curve",
+      "label": "Raising mean systemic filling pressure shifts the venous return curve up and to the right without changing its slope",
+      "key": "venous-return-curve.effect-of-changing-mean-systemic-filling-pressure",
+      "definition": "Mean systemic filling pressure is the pressure throughout the systemic circulation when the heart has stopped and flow is zero, normally 6 to 8 mmHg, and it is the force that drives blood back to the right atrium. It reflects blood volume against the capacity of the circulation, which is mainly the capacity of the veins: it rises with increased blood volume, as in renal failure, or with reduced capacity, as in sympathetic venoconstriction, and falls with haemorrhage or with sympathetic withdrawal. On the venous return curve a rise in mean systemic filling pressure produces a parallel shift up and to the right, so at any right atrial pressure venous return is greater; a fall shifts the curve down and to the left.",
+      "objective": "Say what mean systemic filling pressure is, what changes it, and how a change in it moves the venous return curve.",
+      "pitfall": "Confusing this with a change in resistance to venous return, which pivots the curve by changing its slope rather than shifting it in parallel.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M02"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Vascular Function",
+      "type": "mechanism",
+      "aliases": ["MSFP", "Mean systemic filling pressure on the venous return curve"],
+      "difficulty": "Hard",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "relatedConceptIds": ["CON-CVS-245C56665C0240", "CON-CVS-59DE21D055FA34"]
+    },
+    {
+      "q": 3, "section": "Physiology", "page": 4, "marks": 0,
+      "asked": "Explain how thoracic pump helps in venous return",
+      "label": "Inspiration makes intrapleural pressure more negative, lowering right atrial pressure and widening the gradient for venous return",
+      "key": "venous-return.thoracic-pump",
+      "definition": "During inspiration intrapleural pressure falls from about -4 to -8 mmHg. That fall is transmitted to the intrathoracic great veins and the right atrium, so right atrial pressure falls, the gradient between the mean systemic filling pressure and the right atrium widens, and venous return increases. During expiration intrapleural pressure rises from about -8 back to -4 mmHg, right atrial and caval pressures rise with it, the gradient narrows and venous return decreases.",
+      "objective": "Explain how the respiratory swing in intrapleural pressure alters venous return in each phase of the breath.",
+      "pitfall": "Describing it as the chest sucking blood in. It works by lowering the downstream pressure at the right atrium; the driving pressure is still the mean systemic filling pressure upstream.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M02"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Vascular Function",
+      "type": "mechanism",
+      "aliases": ["Respiratory pump", "Thoracic pump"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"]
+    },
+    {
+      "q": 4, "section": "Physiology", "page": 5, "marks": 10,
+      "asked": "Explain function of baroreceptors when ABP increases and when it decreases",
+      "label": "Baroreceptor discharge rises and falls with arterial pressure and, through the nucleus of the tractus solitarius, opposes whichever change caused it",
+      "key": "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      "definition": "Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through the carotid sinus (Hering's) nerve and the aortic nerve. When arterial pressure rises their discharge increases: the vasomotor area is inhibited more, so sympathetic drive to heart and vessels falls, giving a lower heart rate, stroke volume and cardiac output with vasodilatation; and the cardiac inhibitory area is excited more, so vagal tone rises and the rate falls further. When arterial pressure falls the discharge decreases and every one of those changes reverses, raising the pressure back towards normal.",
+      "objective": "State where the arterial baroreceptors sit, which nerves they use, and what each limb of the reflex does when arterial pressure rises and when it falls.",
+      "pitfall": "Answering with the atrial volume receptors. Those are low-pressure receptors whose reflex is about volume, not arterial pressure — and that is the answer the solved copy of this paper actually gives.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M03"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      "type": "mechanism",
+      "aliases": ["Baroreceptor reflex", "Buffer reflex"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_a11a7faed67c95e2d636"],
+      "rejectedMergeCandidateIds": ["CON-CVS-A302CAFBD5028C", "CON-CVS-61D2DE3408AC86"]
+    },
+    {
+      "q": 4, "section": "Physiology", "page": 5, "marks": 0,
+      "asked": "Mention causes of chest wall to expand and lung to recoil",
+      "label": "The lung recoils inward from its elastic tissue and its alveolar surface tension; the chest wall springs outward from its own elasticity",
+      "key": "respiratory-mechanics.causes-of-lung-recoil-and-chest-wall-expansion",
+      "definition": "The lung's inward recoil has two sources: its collagen and elastin fibres, which account for about one third, and the surface tension of the fluid lining the alveoli, which accounts for about two thirds. The chest wall's outward tendency comes from the elasticity of its muscles, tendons and ligaments. Each has a relaxation volume of its own, about 1 litre for the lungs and 5 litres for the thorax, and at the end of a quiet expiration their combined volume is about 2.3 litres — so the lungs are partially stretched and pulling in while the thorax is partially compressed and pushing out. These two opposing pulls are what keep intrapleural pressure negative.",
+      "objective": "Give the causes of the lung's recoil tendency and the chest wall's expansion tendency, with the relaxation volume of each.",
+      "pitfall": "Giving elastic tissue alone. Surface tension is the larger of the two contributions, which is why surfactant matters so much to the work of breathing.",
+      "subject": "resp", "primary": "DIS-PHY-T03", "secondary": ["SYS-RES-T01-S02-M01"],
+      "modulePath": "104 CPS > Physiology > Respiratory System > Organization of the Respiratory System",
+      "type": "mechanism",
+      "aliases": ["Recoil tendency of the lung and expansion tendency of the chest wall"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "rejectedMergeCandidateIds": ["CON-RES-5D76C8ED496E54", "CON-RES-364A753569C12F"]
+    },
+    {
+      "q": 5, "section": "Physiology", "page": 6, "marks": 13,
+      "asked": "Mention functions of surfactants and 4 causes of deficiency of surfactant",
+      "label": "Surfactant lowers alveolar surface tension, which eases inflation, prevents alveolar collapse and prevents pulmonary oedema",
+      "key": "pulmonary-surfactant.functions-and-causes-of-deficiency",
+      "definition": "Pulmonary surfactant is secreted by type II alveolar cells and lowers the surface tension of the alveolar lining fluid. That does three things: it facilitates lung expansion, so less effort is needed in inspiration; it prevents alveolar collapse in expiration, because as an alveolus shrinks its surfactant molecules crowd closer and lower the surface tension faster than the falling radius raises the collapsing pressure P = 2T/r; and it prevents pulmonary oedema, because surface tension itself favours filtration of fluid from blood into the alveoli. It is deficient in infant respiratory distress syndrome of prematurity, after long inhalation of 100% oxygen or use of a pump oxygenator in cardiac surgery, when a branch of the pulmonary artery is occluded, in cigarette smoking, in hypothyroidism, in hypocorticism and in hyperinsulinism.",
+      "objective": "Give the three functions of surfactant and at least four conditions in which it is deficient.",
+      "pitfall": "Reading Laplace's law as making the small alveolus empty into the large one. Surfactant is more concentrated in the smaller alveolus, so its surface tension is lower and the law does not apply with a fixed T.",
+      "subject": "resp", "primary": "DIS-PHY-T03", "secondary": ["SYS-RES-T01-S02-M01"],
+      "modulePath": "104 CPS > Physiology > Respiratory System > Organization of the Respiratory System",
+      "type": "mechanism",
+      "aliases": ["Functions of pulmonary surfactant", "Causes of surfactant deficiency"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "rejectedMergeCandidateIds": ["CON-RES-FB2D4322FCC2EB", "CON-RES-364A753569C12F"]
+    },
+    {
+      "q": 6, "section": "Physiology", "page": 7, "marks": 12,
+      "asked": "Mention the factors that shift Hb-O2 dissociation curve to the left",
+      "label": "A fall in temperature, PCO2 or 2,3-DPG, a rise in pH, carbon monoxide and fetal haemoglobin all shift the curve to the left",
+      "key": "haemoglobin-oxygen-dissociation-curve.factors-shifting-it-to-the-left",
+      "definition": "A leftward shift is a lower P50 and a higher affinity of haemoglobin for oxygen, so at any given PO2 more oxygen stays bound and less is delivered. It is produced by a decrease in temperature, a decrease in PCO2 and an increase in pH — the Bohr effect run backwards — by a decrease in 2,3-diphosphoglycerate, by carbon monoxide, which occupies the oxygen-binding sites with more than two hundred times the affinity of oxygen and holds the remaining oxygen more tightly, and by fetal haemoglobin, whose two gamma chains cannot combine with 2,3-DPG.",
+      "objective": "List the factors that shift the haemoglobin-oxygen dissociation curve to the left and say what a left shift means for oxygen delivery.",
+      "pitfall": "Treating a left shift as good for the tissues. High affinity means the blood loads oxygen well and unloads it badly, which is exactly why carbon monoxide poisoning is dangerous at any measured saturation.",
+      "subject": "resp", "primary": "DIS-PHY-T03", "secondary": ["SYS-RES-T01-S02-M04"],
+      "modulePath": "104 CPS > Physiology > Respiratory System > Gas Transport by the Blood",
+      "type": "mechanism",
+      "aliases": ["Left shift of the oxygen dissociation curve", "Factors decreasing P50"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_a11a7faed67c95e2d636"],
+      "relatedConceptIds": ["CON-RES-AA4C315125E587"]
+    },
+
+    {
+      "q": 7, "section": "Anatomy", "page": 8, "marks": 6,
+      "asked": "Mention the end of posterior intercoastal and subcostal veins",
+      "label": "The posterior intercostal veins end differently on the two sides: on the right directly in the azygos system, on the left through the two hemiazygos veins",
+      "key": "posterior-intercostal-and-subcostal-veins.termination",
+      "definition": "There are eleven posterior intercostal veins and a subcostal vein on each side. On the right the first ends in the right brachiocephalic vein; the second, third and fourth unite as the right superior intercostal vein, which ends in the arch of the azygos vein; and the fifth to eleventh, with the subcostal vein, open separately into the azygos vein. On the left the first ends in the left brachiocephalic vein; the second, third and fourth unite as the left superior intercostal vein, which also ends in the left brachiocephalic vein; the fifth to eighth open into the superior hemiazygos vein, which begins as the continuation of the fifth; and the ninth, tenth and eleventh, with the subcostal vein, open into the inferior hemiazygos vein. Both hemiazygos veins cross the midline to end in the azygos vein.",
+      "objective": "Give the termination of each posterior intercostal vein and of the subcostal vein on both sides.",
+      "pitfall": "Forgetting the first vein on either side. It joins no part of the azygos system — it goes straight to the brachiocephalic vein, and the solved copy of this paper leaves it out.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M04"],
+      "modulePath": "104 CPS > Anatomy > Intercostal Spaces",
+      "type": "definition",
+      "aliases": ["Termination of the posterior intercostal veins", "Superior intercostal veins"],
+      "difficulty": "Hard",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"]
+    },
+    {
+      "q": 8, "section": "Anatomy", "page": 8, "marks": 6,
+      "asked": "Mention the nerve supply of pleura",
+      "label": "Visceral pleura takes autonomic fibres from the pulmonary plexuses and feels no pain; parietal pleura takes the somatic nerve of the wall it lines and does",
+      "key": "pleura.nerve-supply",
+      "definition": "The visceral (pulmonary) pleura is supplied by the same autonomic innervation as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to somatic stimuli such as pain and temperature. The parietal pleura takes the somatic innervation of the structure it lines: the cervical pleura from the first intercostal nerve, the costal pleura segmentally from the corresponding intercostal nerve, the mediastinal pleura and the central part of the diaphragmatic pleura from the phrenic nerve, and the peripheral part of the diaphragmatic pleura from the lower intercostal nerves.",
+      "objective": "Give the nerve supply of visceral and parietal pleura, naming the nerve for each part of the parietal pleura.",
+      "pitfall": "Giving the phrenic nerve the whole diaphragmatic pleura. Only its central part is phrenic; the periphery is intercostal, which is why diaphragmatic irritation refers to the shoulder in one case and to the abdominal wall in the other.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Thoracic Cavity",
+      "type": "definition",
+      "aliases": ["Innervation of the pleura"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"]
+    },
+    {
+      "q": 9, "section": "Anatomy", "page": 9, "marks": 6,
+      "asked": "Mention origin, end and branches of circumflex branch of left coronary artery",
+      "label": "The circumflex artery arises at the top of the anterior interventricular groove and ends by anastomosing with the right coronary artery behind",
+      "key": "circumflex-artery.origin-end-and-branches",
+      "definition": "The circumflex artery is one of the two terminal branches of the left coronary artery, arising at the upper end of the anterior interventricular groove. It passes left in the anterior part of the coronary sulcus, turns round the left border of the heart, and ends in the posterior part of the sulcus by anastomosing with the right coronary artery; the coronary sinus accompanies it, the blood in the two vessels running the same way. Its branches are the left marginal artery, which descends on the left aspect of the heart supplying the left ventricle down to the apex; branches to the left atrium; branches to the anterior and diaphragmatic surfaces of the left ventricle; the artery to the sinu-atrial node in 40% of people; and the artery to the atrioventricular node and bundle in 20%.",
+      "objective": "Give the origin, course, termination and named branches of the circumflex artery, including the proportion in which it supplies each node.",
+      "pitfall": "Assuming the nodal arteries are always right coronary. The circumflex supplies the sinu-atrial node in 40% and the atrioventricular node in 20%, which is why a circumflex occlusion can present as a bradyarrhythmia.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "definition",
+      "aliases": ["Left circumflex artery"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"],
+      "conflicts": ["The unsolved copy renders this question as 'Mention origin, end and branches of left covonary artery', without the words 'circumflex branch of'. The solved copy carries them, and its marked answer reproduces only item 2 of the department book's branch list — the circumflex — so the fuller reading is taken. OCR drops words; it does not invent three coherent ones."],
+      "rejectedMergeCandidateIds": ["CON-CVS-63D0C4219C40EA", "CON-CVS-7CD4CEA27DF356"]
+    },
+    {
+      "q": 10, "section": "Anatomy", "page": 9, "marks": 6,
+      "asked": "Mention the boundaries and contents of posterior medistinum",
+      "label": "The posterior mediastinum lies between pericardium and diaphragm in front and the lower eight thoracic vertebrae behind",
+      "key": "posterior-mediastinum.boundaries-and-contents",
+      "definition": "Its boundaries are the pericardium above and the diaphragm below in front, and the lower eight thoracic vertebrae, T5 to T12, behind. Its contents are five groups: the descending thoracic aorta and its branches; the azygos and hemiazygos venous system; the two vagi, which form the oesophageal plexuses, together with the sympathetic trunks and their splanchnic branches; the oesophagus and the thoracic duct, which runs along its right side; and the posterior mediastinal lymph nodes.",
+      "objective": "Give the boundaries of the posterior mediastinum and list its contents by group.",
+      "pitfall": "Stopping at four groups. The posterior mediastinal lymph nodes are the fifth, and they are the group the solved copy of this paper loses.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M04"],
+      "modulePath": "104 CPS > Anatomy > Mediastinum",
+      "type": "definition",
+      "aliases": ["Posterior mediastinum"],
+      "difficulty": "Easy",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"]
+    },
+    {
+      "q": 11, "section": "Anatomy", "page": 10, "marks": 6,
+      "asked": "Mention fate of aortic sac",
+      "label": "The right horn of the aortic sac becomes the brachiocephalic artery; the stem and left horn become the proximal part of the arch of the aorta",
+      "key": "aortic-sac.fate",
+      "definition": "The aortic sac forms when the two ventral aortae fuse after the heart tubes fuse, and consists of a stem with a right and a left horn. Its right horn becomes the brachiocephalic artery, which is continuous with the right common carotid artery from the third aortic arch and the right subclavian artery from the fourth. Its stem and left horn together form the proximal part of the arch of the aorta; the middle part of the arch comes from the left fourth aortic arch and the distal part from the left dorsal aorta.",
+      "objective": "Give the adult derivative of the right horn and of the stem and left horn of the aortic sac.",
+      "pitfall": "Handing the whole arch of the aorta to the aortic sac. Only its proximal part is sac-derived; the middle is the left fourth aortic arch and the distal is left dorsal aorta.",
+      "subject": "dev", "primary": "DIS-EMB-T03", "secondary": ["SYS-CVS-T01-S01"],
+      "modulePath": "104 CPS > Anatomy > Development of the Heart",
+      "type": "mechanism",
+      "aliases": ["Derivatives of the aortic sac"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"],
+      "uncertainty": "The unsolved copy's page 10 is a failed scan that repeats page 9, so this question's wording is attested only by the solved copy. The orientation's arithmetic — five SAQs of six marks plus a case of four, totalling 34 — requires a fifth anatomy SAQ and confirms one is there."
+    },
+    {
+      "q": 6, "section": "Anatomy", "page": 10, "marks": 4,
+      "asked": "An old man suffers from pulsatile retrosternal chest pain which increases following effort associated with irregular heartbeats, dysphagia and horsiness of voice. a. Name the affected organ and the diagnosis of the disease b. Explain the reason of the irregular heart beats c. Explain the reason of the dysphagia e. Why there is horsiness of voice",
+      "label": "An aneurysm of the arch of the aorta declares itself through the structures the arch is related to",
+      "key": "aortic-arch-aneurysm.compression-of-structures-related-to-the-arch",
+      "definition": "A localized dilatation of the arch of the aorta compresses the contents of the superior mediastinum and produces the mediastinal syndrome. The structures it stretches or presses are exactly those related to the arch: the superficial cardiac plexus, on its concavity, so pulling and stretching it gives irregular heartbeats; the oesophagus, behind the arch, so compression gives dysphagia; and the left recurrent laryngeal nerve, hooking under the arch beside the ligamentum arteriosum, so stretching it gives hoarseness of voice. The pain is retrosternal and pulsatile and is worse on effort.",
+      "objective": "Recognise an arch aneurysm from a triad of arrhythmia, dysphagia and hoarseness, and name the related structure that produces each.",
+      "pitfall": "Blaming the right recurrent laryngeal nerve. It hooks round the right subclavian artery in the neck; only the left one is related to the arch, so an arch lesion gives a left cord palsy.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T07-S02-M01"],
+      "modulePath": "104 CPS > Anatomy > Large Arteries of the Thorax",
+      "type": "clinical_feature",
+      "aliases": ["Aortic arch aneurysm", "Mediastinal syndrome"],
+      "difficulty": "Hard",
+      "resourceIds": ["src_8a47af73fcd1534ffc16", "src_4bd55e9eaf092282818c"],
+      "conflicts": ["The solved copy numbers this item '6-', which is its position within the anatomy section rather than in the paper's running numbering; the anatomy SAQs above it are numbered Q7 to Q11. It is recorded as Anatomy question 6, which is what the paper prints. The lettering also runs a, b, c, e with no d, and the solved copy carries a struck-through answer line where d would be."]
+    },
+
+    {
+      "q": 12, "section": "Histology", "page": 11, "marks": 7,
+      "asked": "Mention the difference between palatine and lingual tonsils as regard the site, epithelial covering and crypt",
+      "label": "Palatine and lingual tonsils share a non-keratinized stratified squamous covering but differ in site and in the number of crypts",
+      "key": "palatine-versus-lingual-tonsil.site-epithelium-and-crypts",
+      "definition": "The palatine tonsils are paired ovoid masses of lymphoid tissue in the lateral wall of the oropharynx; the lingual tonsils are multiple masses at the posterior third, the base, of the tongue. Both are covered by non-keratinized stratified squamous epithelium which dips into the lymphoid tissue as crypts. The palatine tonsil has multiple crypts and the ducts of its mucous glands open on the surface rather than at the crypt bases, so debris accumulates and tonsillitis is common; each lingual tonsil has a single crypt whose base receives the mucous gland ducts, so it is continuously washed and inflammation is uncommon.",
+      "objective": "Compare palatine and lingual tonsils by site, epithelial covering and crypts.",
+      "pitfall": "Trying to separate them by epithelium. Both are non-keratinized stratified squamous; it is the site and the crypts that tell them apart, and the pharyngeal tonsil is the one with a different epithelium and no crypts at all.",
+      "subject": "haem", "primary": "DIS-HIS-T03", "secondary": ["SYS-HEM"],
+      "modulePath": "104 CPS > Histology > Lymphatic and Macrophage System > Tonsils",
+      "type": "definition",
+      "aliases": ["Palatine tonsil", "Lingual tonsil"],
+      "difficulty": "Easy",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"],
+      "conflicts": ["The solved copy answers 'single crypt' for the lingual tonsil. The histology department book p. 21 writes only that the lingual epithelium 'dips down to form crypts' and gives no number, so the single crypt per lingual tonsillar unit rests on the marked answer rather than on the book."]
+    },
+    {
+      "q": 12, "section": "Histology", "page": 11, "marks": 0,
+      "asked": "Outline the zones of white pulp and state the cellular composition of each zone",
+      "label": "Splenic white pulp is four zones arranged concentrically around the central arteriole",
+      "key": "splenic-white-pulp.zones-and-cellular-composition",
+      "definition": "Each Malpighian corpuscle of the white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole, in four zones from inside outwards. The thymus-dependent zone, the periarteriolar lymphatic sheath, holds T lymphocytes ensheathing the arteriole. The germinal centre is a pale central area of B lymphocytes, large activated lymphocytes, plasma cells and macrophages. The follicular zone is the darkly stained ring around the germinal centre, mainly B lymphocytes. The marginal zone forms the periphery and contains T and B lymphocytes, plasma cells and macrophages.",
+      "objective": "Name the four zones of splenic white pulp in order from the central arteriole outwards and give the cells of each.",
+      "pitfall": "Taking the central arteriole to be central. It is eccentric in the corpuscle; the name describes the sheath wrapped around it, not its position.",
+      "subject": "haem", "primary": "DIS-HIS-T03", "secondary": ["SYS-HEM"],
+      "modulePath": "104 CPS > Histology > Lymphatic and Macrophage System > Spleen",
+      "type": "definition",
+      "aliases": ["Malpighian corpuscle", "Periarteriolar lymphatic sheath"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"]
+    },
+    {
+      "q": 13, "section": "Histology", "page": 12, "marks": 7,
+      "asked": "Classify the specialized cells according to their ability to reproduce and state one example for each",
+      "label": "Specialized cells are non-renewing, potentially renewable, or continuously renewing from stem cells",
+      "key": "specialized-cell-renewal.classification-by-ability-to-reproduce",
+      "definition": "Most working specialized cells spend a prolonged G1 and are not in active cycle. Non-renewing cells leave the cycle in G1 for G0 permanently and never divide again, and are not replaced when lost — cardiac muscle and nerve cells. Potentially renewable cells enter G0 but can re-enter the cycle when replacement is needed, a transient exit — liver cells after destruction or partial removal. Continuously renewing cells are end cells that cannot themselves divide but are replaced from stem cells — blood cells and sperms.",
+      "objective": "Classify specialized cells by their ability to reproduce and give one example of each class.",
+      "pitfall": "Reading 'continuously renewing' as continuously dividing. The end cell does not divide at all; it is the stem cell behind it that does.",
+      "subject": "fnd", "primary": "DIS-HIS-T01", "secondary": [],
+      "modulePath": "104 CPS > Histology > Cytogenetics > The Cell Cycle",
+      "type": "classification",
+      "aliases": ["Cell renewal", "Non-renewing, potentially renewable and continuously renewing cells"],
+      "difficulty": "Easy",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"]
+    },
+    {
+      "q": 13, "section": "Histology", "page": 12, "marks": 0,
+      "asked": "Outline the causes of aneuploidy",
+      "label": "Aneuploidy arises from non-disjunction, from failure of duplication, or from simple loss of a chromosome",
+      "key": "aneuploidy.causes",
+      "definition": "Aneuploidy is a chromosome number that is not an exact multiple of the haploid number, the karyotype having gained or lost a single chromosome. It arises from non-disjunction, primary when two homologous chromosomes fail to separate at the first meiotic division, giving four abnormal daughter cells, and secondary when two chromatids fail to separate at the centromere at the second meiotic division or in mitosis, giving two normal and two abnormal daughter cells in meiosis and two abnormal cells in mitosis; from failure of duplication, one chromatid failing to duplicate in S phase; and from simple loss, a chromosome failing to align at metaphase or lagging in anaphase. Secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype.",
+      "objective": "Give the causes of aneuploidy, distinguishing primary from secondary non-disjunction by the daughter cells each produces.",
+      "pitfall": "Treating aneuploidy as always meiotic. Mitotic non-disjunction after fertilisation gives mosaicism, which is why a karyotype from one tissue can read normal in an affected patient.",
+      "subject": "dev", "primary": "DIS-HIS-T01", "secondary": [],
+      "modulePath": "104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)",
+      "type": "mechanism",
+      "aliases": ["Non-disjunction", "Causes of aneuploidy"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"],
+      "relatedConceptIds": ["CON-DEV-B922919ED9D575"]
+    },
+    {
+      "q": 14, "section": "Histology", "page": 13, "marks": 8,
+      "asked": "Describe the histological characteristics of the somatic and sinusoidal capillaries regarding endothelium, junctions and basal lamina state one site for each",
+      "label": "Continuous capillaries are sealed tubes on a continuous basal lamina; sinusoids are wide, porous and discontinuous",
+      "key": "continuous-versus-sinusoidal-capillary.endothelium-junctions-and-basal-lamina",
+      "definition": "A continuous (somatic) capillary is small and regular in calibre; its endothelium is continuous with no pores, its endothelial cells are joined by tight junctions, and its basal lamina is continuous. It is found all over the body — connective tissue, bone, skin, exocrine glands. A sinusoidal capillary, or blood sinusoid, is large and irregular; its endothelium has pores without diaphragms, its endothelial cells are separated by wide intercellular spaces rather than sealed by tight junctions, and its basal lamina is non-continuous. It is found in the liver, carrying plasma proteins, in endocrine glands, carrying hormones, in bone marrow, carrying formed blood cells, and in the spleen, carrying stored blood cells.",
+      "objective": "Contrast continuous and sinusoidal capillaries by endothelium, intercellular junctions and basal lamina, and give one site for each.",
+      "pitfall": "Confusing a sinusoid with a fenestrated capillary. Both have pores, but the fenestrated capillary's pores are covered by diaphragms and its basal lamina is continuous.",
+      "subject": "cvs", "primary": "DIS-HIS-T03", "secondary": ["SYS-CVS-T01-S01"],
+      "modulePath": "104 CPS > Histology > Cardiovascular System > A-V Connections",
+      "type": "classification",
+      "aliases": ["Somatic capillary", "Blood sinusoid"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"],
+      "rejectedMergeCandidateIds": ["CON-CVS-2A37D5DDEB19DB", "CON-CVS-047FC0A529AFBA", "CON-HEM-C860EAA4417873"]
+    },
+    {
+      "q": 14, "section": "Histology", "page": 14, "marks": 0,
+      "asked": "Compare between respiratory mucosa and olfactory mucosa as regard the epithelial thickness, basement membrane. cilia and goblet cells",
+      "label": "Olfactory mucosa is the thicker epithelium on the thinner basement membrane, with few long immotile cilia and no goblet cells",
+      "key": "respiratory-versus-olfactory-mucosa.histological-differences",
+      "definition": "The olfactory mucosa covers the roof and the superior conchae of the nasal cavity. Its epithelium is much thicker than respiratory epithelium and rests on a thin basement membrane; it has no goblet cells, and its cilia are few, very long and non-motile, arising from the olfactory vesicle to enlarge the surface exposed to odorants. Respiratory mucosa has a thinner epithelium on a thick basement membrane, numerous true motile cilia, and goblet cells. Olfactory mucosa also carries Bowman's glands and the yellow lipofuscin pigment of its sustentacular cells; respiratory mucosa has neither.",
+      "objective": "Compare respiratory and olfactory mucosa by epithelial thickness, basement membrane, cilia and goblet cells.",
+      "pitfall": "Calling the olfactory cilia motile. They do not beat; they are receptive processes lying in the serous fluid of Bowman's glands, which is where odorants dissolve.",
+      "subject": "resp", "primary": "DIS-HIS-T03", "secondary": ["SYS-RES-T01-S01-M01"],
+      "modulePath": "104 CPS > Histology > Respiratory System > Conducting Portion",
+      "type": "definition",
+      "aliases": ["Olfactory mucosa", "Respiratory mucosa"],
+      "difficulty": "Moderate",
+      "resourceIds": ["src_078450096f7b08eb1284", "src_8a47af73fcd1534ffc16", "src_18d3a953df4ca83c4e74"],
+      "relatedConceptIds": ["CON-RES-F818BF7BB20E31", "CON-RES-CCE62F7217A235"]
+    }
+  ],
+
+  "schemes": {
+    "P1": {
+      "format": "multipart_written",
+      "prompt": "Describe the ionic bases of phase 1 and phase 2 of the cardiac myocyte action potential, and compare the rapid and reduced ejection phases by semilunar valve state, ventricular pressure, ventricular volume and arterial pressure.",
+      "expects": [
+        "Phase 1 is a rapid small initial repolarization",
+        "Phase 1 is caused by efflux of K+ through transient outward channels (Ito), influx of Cl-, and inactivation of the fast Na+ channels",
+        "Phase 2 is the plateau, near zero mV, lasting about 200 msec in a ventricular myocyte",
+        "Phase 2 is a balance between a small outward K+ current through delayed rectifier channels and an inward positive current",
+        "The inward positive current of phase 2 is Ca2+ through long-lasting (L-type) channels plus the Na+-Ca2+ exchanger, which moves 1 Ca2+ out for 3 Na+ in"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Describe the ionic bases of phase 1 and phase 2 in cardiac myocyte action potential (4 marks)",
+          "expects": [
+            "Phase 1: rapid small repolarization from inactivation of fast Na+ channels and transient outward K+ current (Ito)",
+            "Phase 2: plateau held near zero mV for about 200 msec",
+            "Outward positive current in phase 2 is K+ efflux through delayed rectifier channels",
+            "Inward positive current in phase 2 is Ca2+ through long-lasting channels and the Na+-Ca2+ exchanger, 1 Ca2+ out for 3 Na+ in"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Compare between rapid ejection phase and reduced ejection phase regarding ventricular pressure, ventricular volume, semilunar valves and arterial pressure (4 marks)",
+          "conceptKey": "cardiac-cycle.rapid-versus-reduced-ejection-phase",
+          "expects": [
+            "Semilunar valves are open in both phases",
+            "Ventricular pressure increases in rapid ejection, to about 120 mmHg in the left ventricle and 25 mmHg in the right, and decreases in reduced ejection",
+            "Ventricular volume falls rapidly in rapid ejection and slowly in reduced ejection, reaching an end-systolic volume of about 60 ml",
+            "Ejection continues in the reduced phase only because the momentum of the ejected blood keeps it moving forwards",
+            "Arterial pressure rises to its peak during rapid ejection and falls during reduced ejection, ending in the dicrotic notch as the valves close"
+          ]
+        }
+      ]
+    },
+    "P2": {
+      "format": "multipart_written",
+      "prompt": "Illustrate the effect of increased inotropy on the left ventricular pressure-volume loop, and explain heart rate reserve and stroke volume reserve.",
+      "expects": [
+        "Positive inotropy shifts the ESPVR upwards and to the left",
+        "Contraction begins at the same end-diastolic volume and reaches a lower end-systolic volume",
+        "The loop is therefore wider and stroke volume larger at unchanged preload",
+        "Heart rate reserve runs from a resting rate of about 75/min to a maximal rate of 220 minus age in years, about 200/min in a young adult",
+        "Stroke volume reserve runs from about 70 ml at rest to about 200 ml at maximal exercise",
+        "Stroke volume reserve is achieved by increasing EDV through Starling's mechanism and decreasing ESV through positive inotropy"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Illustrate the effect of increased in inotropy on left ventricle pressure-volume loop (6 marks)",
+          "expects": [
+            "Draw the loop with volume on the x-axis and left ventricular pressure on the y-axis",
+            "Positive inotropy shifts the ESPVR upwards and to the left",
+            "Ventricular contraction begins at the same EDV",
+            "The ventricle reaches a lower ESV, so stroke volume increases"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Explain heart rate reserve and stroke volume reserve (4 marks)",
+          "conceptKey": "cardiac-reserve.heart-rate-and-stroke-volume-reserve",
+          "expects": [
+            "Maximal heart rate = 220 - age in years",
+            "Heart rate reserve is the range from about 75/min at rest to about 200/min at maximal exercise",
+            "Stroke volume rises from about 70 ml to as much as 200 ml during maximal exercise",
+            "That rise comes from increased EDV (Starling's mechanism) and decreased ESV (positive inotropy)"
+          ]
+        }
+      ]
+    },
+    "P3": {
+      "format": "multipart_written",
+      "prompt": "Explain the effect of a change in mean systemic filling pressure on the venous return curve, and how the thoracic pump helps venous return.",
+      "expects": [
+        "MSFP is the pressure all over the systemic circulation if the heart stops pumping — the pressure at zero flow",
+        "When cardiac output is zero, arterial pressure equals right atrial pressure at 6-8 mmHg",
+        "MSFP reflects blood volume against the capacity of the circulation, mainly the capacity of the veins",
+        "Increased blood volume (renal failure) or decreased capacity (sympathetic stimulation) raises MSFP and shifts the venous return curve up and to the right",
+        "Decreased blood volume (haemorrhage) or increased capacity raises capacity and shifts the curve down and to the left",
+        "During inspiration intrapleural pressure falls from about -4 to -8 mmHg, lowering right atrial and caval pressure and increasing venous return",
+        "During expiration intrapleural pressure rises from about -8 to -4 mmHg, raising right atrial and caval pressure and decreasing venous return"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Explain the changes on MSFP on venous return curve (4 marks)",
+          "expects": [
+            "MSFP is the pressure throughout the systemic circulation at zero cardiac output, normally 6-8 mmHg",
+            "It reflects the relationship between blood volume and the capacity of the circulation, mainly venous capacity",
+            "Increasing MSFP shifts the venous return curve up and to the right in parallel, giving a higher VR at any RAP",
+            "Decreasing MSFP shifts the curve down and to the left"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Explain how thoracic pump helps in venous return (6 marks)",
+          "conceptKey": "venous-return.thoracic-pump",
+          "expects": [
+            "During inspiration intrapleural pressure falls from about -4 mmHg to -8 mmHg",
+            "That fall is transmitted to the right atrium and the venae cavae, lowering their pressure",
+            "The gradient between MSFP and right atrial pressure widens, so venous return increases",
+            "During expiration intrapleural pressure rises from about -8 mmHg back to -4 mmHg",
+            "Right atrial and caval pressure rise, the gradient narrows and venous return decreases"
+          ]
+        }
+      ]
+    },
+    "P4": {
+      "format": "multipart_written",
+      "prompt": "Explain what the arterial baroreceptors do when arterial blood pressure rises and when it falls, and give the causes of the chest wall's tendency to expand and the lung's tendency to recoil.",
+      "expects": [
+        "Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch",
+        "Their afferents are the carotid sinus (Hering's) nerve from the glossopharyngeal and the aortic nerve from the vagus, ending in the nucleus of the tractus solitarius",
+        "When ABP rises, discharge increases: more inhibition of the vasomotor area lowers sympathetic drive to heart and vessels, and more excitation of the cardiac inhibitory area raises vagal tone; heart rate, stroke volume, cardiac output and peripheral resistance all fall",
+        "When ABP falls, discharge decreases: less inhibition of the vasomotor area raises sympathetic drive and less vagal tone raises heart rate; cardiac output and peripheral resistance rise",
+        "The lung recoils because of its elastic tissue (about one third) and the surface tension of the alveolar lining fluid (about two thirds)",
+        "The chest wall expands because of the elasticity of its muscles, tendons and ligaments",
+        "Relaxation volume is about 1 litre for the lungs and 5 litres for the thorax",
+        "At the end of a quiet expiration the combined volume is about 2.3 litres, so the lungs are partially stretched and tend to recoil while the thorax is partially compressed and tends to expand"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Explain function of baroreceptors when ABP increases and when it decreases (4 marks)",
+          "expects": [
+            "Baroreceptors in carotid sinus and aortic arch send tonic impulses to the nucleus of the tractus solitarius",
+            "When ABP increases, discharge increases, the vasomotor area is inhibited and the cardiac inhibitory area excited, lowering heart rate, cardiac output and peripheral resistance",
+            "When ABP decreases, discharge decreases, sympathetic drive rises and vagal tone falls, raising heart rate, cardiac output and peripheral resistance",
+            "The reflex therefore buffers sudden changes in arterial pressure, as on standing or after haemorrhage"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Mention causes of chest wall to expand and lung to recoil (6 marks)",
+          "conceptKey": "respiratory-mechanics.causes-of-lung-recoil-and-chest-wall-expansion",
+          "expects": [
+            "Recoil tendency of the lung: elastic tissue (collagen and elastin), about one third",
+            "Recoil tendency of the lung: surface tension of the fluid lining the alveoli, about two thirds",
+            "Expansion tendency of the chest wall: elasticity of its muscles, tendons and ligaments",
+            "Relaxation volume of the lung is about 1 litre, of the thorax about 5 litres",
+            "At the end of expiration the combined volume is about 2.3 litres, so the lung is stretched and recoils and the thorax is compressed and expands",
+            "The two opposing tendencies are what make intrapleural pressure negative"
+          ]
+        }
+      ]
+    },
+    "P5": {
+      "format": "multipart_written",
+      "prompt": "Give the functions of surfactant and four causes of surfactant deficiency, and the causes of an increase in interstitial fluid volume and oedema.",
+      "expects": [
+        "Surfactant lowers the surface tension of the alveolar lining fluid",
+        "It facilitates lung expansion during inspiration",
+        "It prevents alveolar collapse during expiration, because P = 2T/r and surfactant molecules crowd closer as the alveolus shrinks",
+        "It prevents pulmonary oedema, because surface tension itself favours filtration of fluid into the alveoli",
+        "Causes of deficiency include infant respiratory distress syndrome of prematurity, long inhalation of 100% oxygen or use of a pump oxygenator, occlusion of a branch of the pulmonary artery, cigarette smoking, hypothyroidism, hypocorticism and hyperinsulinism",
+        "Increased filtration pressure raises ISF volume: arteriolar dilatation, venular constriction, increased venous pressure from gravity, volume, incompetent valves, obstruction or heart failure",
+        "A decreased osmotic gradient raises ISF volume: low plasma protein in malnutrition, liver cirrhosis or nephrosis, and accumulation of osmotically active substances in the interstitial space",
+        "Increased capillary permeability raises ISF volume: substance P, histamine, kinins",
+        "Inadequate lymph flow raises ISF volume: lymphatic obstruction gives a high-protein non-pitting oedema with inflammation and fibrosis, as in longstanding elephantiasis"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Mention functions of surfactants and 4 causes of deficiency of surfactant (7 marks)",
+          "expects": [
+            "Reduces surface tension of the alveolar lining fluid",
+            "Facilitates lung expansion during inspiration",
+            "Prevents alveolar collapse during expiration (Law of Laplace, P = 2T/r)",
+            "Prevents pulmonary oedema",
+            "Deficiency: infant respiratory distress syndrome (hyaline membrane disease) of prematurity",
+            "Deficiency: long-term inhalation of 100% oxygen or use of a pump oxygenator in cardiac surgery",
+            "Deficiency: obstruction of a branch of the pulmonary artery",
+            "Deficiency: cigarette smoking, hypothyroidism, hypocorticism, hyperinsulinism"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Mention causes of increasing ISF volume and edema (6 marks)",
+          "expects": [
+            "Arteriolar dilatation and venular constriction or obstruction",
+            "Increased venous pressure — gravity, increased ECF volume, incompetent valves, heart failure",
+            "Decreased plasma protein — nutritional, liver cirrhosis, nephrosis",
+            "Accumulation of osmotically active substances in the interstitial space",
+            "Increased capillary permeability — substance P, histamine, kinins",
+            "Inadequate lymph flow, as in longstanding elephantiasis, giving a non-pitting oedema with inflammation and fibrosis"
+          ]
+        }
+      ]
+    },
+    "P6": {
+      "format": "multipart_written",
+      "prompt": "Give the factors that shift the haemoglobin-oxygen dissociation curve to the left, and the characteristics of carbon monoxide poisoning with its treatment.",
+      "expects": [
+        "Decreased temperature shifts the curve to the left",
+        "Decreased PCO2 and increased pH shift the curve to the left",
+        "Decreased 2,3-diphosphoglycerate shifts the curve to the left",
+        "Carbon monoxide shifts the curve to the left",
+        "Fetal haemoglobin, with two alpha and two gamma chains that cannot combine with 2,3-DPG, shifts the curve to the left",
+        "A left shift is a lower P50 and a higher oxygen affinity, so oxygen is given up to the tissues with difficulty",
+        "Haemoglobin has more than 200 times the affinity for carbon monoxide as for oxygen, and CO binds at the same site",
+        "Carboxyhaemoglobin cannot carry oxygen, breaks down slowly, and shifts the remaining oxygen curve to the left",
+        "The amount formed depends on the amount of CO in the air and the duration of exposure; death follows if about 70% of haemoglobin is converted",
+        "The sign is a cherry-red colour of skin and mucous membranes",
+        "Treatment is termination of exposure, exchange blood transfusion, and hyperbaric oxygen"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Mention the factors that shift the Hb-O2 dissociation curve to the left (6 marks)",
+          "conceptKey": "haemoglobin-oxygen-dissociation-curve.factors-shifting-it-to-the-left",
+          "expects": [
+            "Decreased temperature",
+            "Decreased PCO2",
+            "Increased pH (decreased H+)",
+            "Decreased 2,3-DPG",
+            "Carbon monoxide",
+            "Fetal haemoglobin, whose gamma chains cannot combine with 2,3-DPG"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Mention the characteristics of CO poisoning and its treatment (6 marks)",
+          "expects": [
+            "Haemoglobin has about 210 times the affinity for CO as for O2, and CO binds the same site",
+            "Carboxyhaemoglobin cannot carry oxygen and breaks down slowly",
+            "Carboxyhaemoglobin shifts the oxygen dissociation curve to the left",
+            "The amount formed depends on the CO concentration in air and the duration of exposure",
+            "Death follows if about 70% of haemoglobin is converted to CO-Hb",
+            "Sign: cherry-red colour of skin and mucous membranes",
+            "Treatment: termination of exposure, exchange blood transfusion, hyperbaric oxygen"
+          ]
+        }
+      ]
+    },
+
+    "A6": {
+      "format": "multipart_written",
+      "prompt": "An old man has pulsatile retrosternal chest pain worse on effort, with irregular heartbeats, dysphagia and hoarseness of voice. Name the organ and the diagnosis, and explain each of the three accompanying features.",
+      "expects": [
+        "The affected organ is the arch of the aorta and the diagnosis is an aortic arch aneurysm",
+        "The irregular heartbeats come from pulling, stretching and pressing on the superficial cardiac plexus, which lies on the concavity of the arch",
+        "The dysphagia comes from compression of the oesophagus, which lies behind the arch",
+        "The hoarseness comes from pressing and stretching the left recurrent laryngeal nerve, which hooks under the arch beside the ligamentum arteriosum",
+        "Together these are the mediastinal syndrome — compression of the contents of the superior mediastinum by a space-occupying lesion"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Name the affected organ and the diagnosis of the disease",
+          "expects": ["Arch of the aorta", "Aortic arch aneurysm"]
+        },
+        {
+          "letter": "b",
+          "prompt": "Explain the reason of the irregular heart beats",
+          "expects": ["Pulling, stretching and pressing on the superficial cardiac plexus, related to the concavity of the arch"]
+        },
+        {
+          "letter": "c",
+          "prompt": "Explain the reason of the dysphagia",
+          "expects": ["Compression of the oesophagus, which lies behind the arch of the aorta"]
+        },
+        {
+          "letter": "e",
+          "prompt": "Why there is horsiness of voice",
+          "expects": ["Pressing and stretching of the left recurrent laryngeal nerve, which hooks round the arch beside the ligamentum arteriosum"]
+        }
+      ]
+    },
+    "A7": {
+      "format": "short_answer",
+      "prompt": "Give the termination of the posterior intercostal veins and the subcostal vein on each side.",
+      "expects": [
+        "Right 1st posterior intercostal vein ends in the right brachiocephalic vein",
+        "Right 2nd, 3rd and 4th veins form the right superior intercostal vein, which ends in the arch of the azygos vein",
+        "Right 5th to 11th veins and the right subcostal vein open separately into the azygos vein",
+        "Left 1st posterior intercostal vein ends in the left brachiocephalic vein",
+        "Left 2nd, 3rd and 4th veins form the left superior intercostal vein, which ends in the left brachiocephalic vein",
+        "Left 5th to 8th veins open into the superior hemiazygos vein, which begins as the continuation of the 5th",
+        "Left 9th, 10th and 11th veins and the left subcostal vein open into the inferior hemiazygos vein",
+        "Both hemiazygos veins cross the midline and end in the azygos vein"
+      ]
+    },
+    "A8": {
+      "format": "structured_written",
+      "prompt": "Give the nerve supply of the visceral and parietal pleura.",
+      "expects": [
+        "Visceral (pulmonary) pleura: the autonomic supply of the lung, through the anterior and posterior pulmonary plexuses",
+        "Visceral pleura is not sensitive to pain or temperature",
+        "Parietal pleura, cervical: 1st intercostal nerve",
+        "Parietal pleura, costal: the corresponding intercostal nerve, segmentally",
+        "Parietal pleura, mediastinal and central part of diaphragmatic: phrenic nerve",
+        "Parietal pleura, peripheral part of diaphragmatic: lower intercostal nerves"
+      ]
+    },
+    "A9": {
+      "format": "structured_written",
+      "prompt": "Give the origin, termination and branches of the circumflex artery, the branch of the left coronary artery.",
+      "expects": [
+        "Arises at the upper end of the anterior interventricular groove as one of the two terminal branches of the left coronary artery",
+        "Passes left in the anterior part of the coronary sulcus and curves around the left border of the heart",
+        "Ends in the posterior part of the coronary sulcus by anastomosing with the right coronary artery",
+        "It is accompanied by the coronary sinus, the blood in the two running in the same direction",
+        "Branch: left marginal artery, descending on the left aspect of the heart and supplying the left ventricle to the apex",
+        "Branch: branches to the left atrium",
+        "Branch: branches to the anterior and diaphragmatic surfaces of the left ventricle",
+        "Branch: artery to the S-A node in 40% of people",
+        "Branch: artery to the A-V node and bundle in 20% of people"
+      ]
+    },
+    "A10": {
+      "format": "structured_written",
+      "prompt": "Give the boundaries and the contents of the posterior mediastinum.",
+      "expects": [
+        "In front: pericardium above and diaphragm below",
+        "Behind: the lower 8 thoracic vertebrae, T5 to T12",
+        "Arteries: descending thoracic aorta and its branches",
+        "Veins: azygos and hemiazygos venous system",
+        "Nerves: the 2 vagi forming the oesophageal plexuses, and the sympathetic trunks with their splanchnic branches",
+        "Tubes: oesophagus, and thoracic duct along its right side",
+        "Lymph nodes: posterior mediastinal lymph nodes"
+      ]
+    },
+    "A11": {
+      "format": "short_answer",
+      "prompt": "Give the fate of the aortic sac.",
+      "expects": [
+        "The right horn forms the brachiocephalic artery",
+        "The brachiocephalic artery is continuous with the right common carotid artery (from the 3rd aortic arch) and the right subclavian artery (from the 4th aortic arch)",
+        "The stem and the left horn form the proximal part of the arch of the aorta"
+      ]
+    },
+
+    "H12": {
+      "format": "multipart_written",
+      "prompt": "Compare the palatine and lingual tonsils by site, epithelial covering and crypts, and outline the zones of the splenic white pulp with the cells of each.",
+      "expects": [
+        "Palatine tonsil: oropharynx; lingual tonsil: posterior third of the tongue",
+        "Both are covered by non-keratinized stratified squamous epithelium",
+        "Palatine tonsil has multiple crypts; each lingual tonsil has a single crypt",
+        "White pulp is reticular connective tissue whose cells are concentrically arranged around the central arteriole in 4 zones from inside outwards",
+        "Thymus-dependent zone (periarteriolar lymphatic sheath, PALS): T lymphocytes ensheathing the arteriole",
+        "Germinal centre: pale central area of B lymphocytes, large activated lymphocytes, plasma cells and macrophages",
+        "Follicular zone: darkly stained area around the germinal centre, mainly B lymphocytes",
+        "Marginal zone: the periphery of the white pulp, with T and B lymphocytes, plasma cells and macrophages"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Mention the difference between palatine and lingual tonsils as regard the site, epithelial covering and crypt (3 marks)",
+          "expects": [
+            "Site: palatine in the oropharynx, lingual in the posterior 1/3 of the tongue",
+            "Epithelial covering: non-keratinized stratified squamous epithelium in both",
+            "Crypts: multiple in the palatine tonsil, single in the lingual tonsil"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Outline the zones of white pulp and state the cellular composition of each zone (4 marks)",
+          "conceptKey": "splenic-white-pulp.zones-and-cellular-composition",
+          "expects": [
+            "Thymus-dependent zone (PALS): T lymphocytes ensheathing the central arteriole",
+            "Germinal centre: B lymphocytes, large activated lymphocytes, plasma cells and macrophages",
+            "Follicular zone: darkly stained ring around the germinal centre, mainly B lymphocytes",
+            "Marginal zone: periphery, with T and B lymphocytes, plasma cells and macrophages"
+          ]
+        }
+      ]
+    },
+    "H13": {
+      "format": "multipart_written",
+      "prompt": "Classify specialized cells by their ability to reproduce with one example of each, and outline the causes of aneuploidy.",
+      "expects": [
+        "Non-renewing cells leave the cycle in G1 for G0 permanently and never divide again, e.g. heart muscle and nerve cells",
+        "Potentially renewable cells enter G0 but can return to the cycle when replacement is needed, e.g. liver cells",
+        "Continuously renewing cells are end cells that cannot divide but are replaced from stem cells, e.g. blood cells and sperms",
+        "Primary non-disjunction: two homologous chromosomes fail to separate at the first meiotic division, giving four abnormal daughter cells",
+        "Secondary non-disjunction: two chromatids fail to separate at the centromere at the second meiotic division or in mitosis, giving two normal and two abnormal daughter cells in meiosis and two abnormal cells in mitosis",
+        "Mosaic: secondary non-disjunction in mitosis after many normal divisions, so body cells carry more than one karyotype",
+        "Failure of duplication: one chromatid fails to duplicate during S phase",
+        "Simple loss: a chromosome fails to align at metaphase or lags in anaphase"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Classify the specialized cells according to their ability to reproduce and state one example for each (3 marks)",
+          "expects": [
+            "Non-renewing cells — permanent exit to G0, never divide again, e.g. heart muscle and nerve cells",
+            "Potentially renewable cells — transient exit to G0, can return to the cycle, e.g. liver cells",
+            "Continuously renewing cells — end cells replaced from stem cells, e.g. blood cells and sperms"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Outline the causes of aneuploidy (4 marks)",
+          "conceptKey": "aneuploidy.causes",
+          "expects": [
+            "Primary non-disjunction at the first meiotic division, giving four abnormal daughter cells",
+            "Secondary non-disjunction at the second meiotic division or in mitosis, giving two normal and two abnormal daughter cells in meiosis and two abnormal in mitosis",
+            "Mosaicism when secondary non-disjunction occurs in mitosis after normal divisions",
+            "Failure of duplication of one chromatid during S phase",
+            "Simple loss from failure to align at metaphase or lagging in anaphase"
+          ]
+        }
+      ]
+    },
+    "H14": {
+      "format": "multipart_written",
+      "prompt": "Describe the continuous (somatic) and sinusoidal capillaries by endothelium, junctions and basal lamina with one site each, and compare respiratory with olfactory mucosa.",
+      "expects": [
+        "Continuous capillary: continuous endothelium with no pores; sinusoid: pores without diaphragms",
+        "Continuous capillary: tight junctions between endothelial cells; sinusoid: wide intercellular spaces",
+        "Continuous capillary: continuous basal lamina; sinusoid: non-continuous basal lamina",
+        "Continuous capillary sites: all over the body, e.g. skin, bone, exocrine glands",
+        "Sinusoid sites: liver (plasma proteins), endocrine glands (hormones), bone marrow (formed blood cells), spleen (stored blood cells)",
+        "Epithelial thickness: olfactory mucosa is thicker, respiratory mucosa thinner",
+        "Basement membrane: thin in olfactory mucosa, thick in respiratory mucosa",
+        "Cilia: few, long, non-motile in olfactory mucosa; numerous true motile cilia in respiratory mucosa",
+        "Goblet cells: absent from olfactory mucosa, present in respiratory mucosa"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Describe the histological characteristics of the somatic and sinusoidal capillaries regarding endothelium, junctions and basal lamina state one site for each (4 marks)",
+          "expects": [
+            "Endothelium: continuous with no pores in the somatic capillary; pores without diaphragms in the sinusoid",
+            "Junctions: tight junctions between endothelial cells in the somatic capillary; wide intercellular spaces in the sinusoid",
+            "Basal lamina: continuous in the somatic capillary; non-continuous in the sinusoid",
+            "Site: somatic capillary all over the body, e.g. skin, bone, exocrine glands",
+            "Site: sinusoid in liver, endocrine glands, bone marrow and spleen"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Compare between respiratory mucosa and olfactory mucosa as regard the epithelial thickness, basement membrane, cilia and goblet cells (4 marks)",
+          "conceptKey": "respiratory-versus-olfactory-mucosa.histological-differences",
+          "expects": [
+            "Epithelial thickness: olfactory thicker, respiratory thinner",
+            "Basement membrane: olfactory thin, respiratory thick",
+            "Cilia: olfactory cells have few long non-motile cilia; respiratory mucosa has numerous true motile cilia",
+            "Goblet cells: absent in olfactory mucosa, present in respiratory mucosa"
+          ]
+        }
+      ]
+    }
+  },
+
+  "mediaRequests": [
+    {
+      "forScheme": "P2",
+      "heading": "Left ventricular pressure-volume loop with increased inotropy",
+      "brief": "One pressure-volume loop with volume (ml) on the x-axis and left ventricular pressure (mmHg) on the y-axis. Draw the control loop with EDV about 130 ml and ESV about 60 ml, then the ESPVR line through the loop's upper left corner, and a second ESPVR shifted upwards and to the left with the loop it produces: same right-hand edge at the same EDV, left-hand edge moved to a lower ESV, so the loop is visibly wider.",
+      "purpose": "The question says 'illustrate', so the diagram is the answer rather than an ornament on it. Text alone cannot show that the right-hand edge of the loop does not move.",
+      "priority": "high",
+      "status": "requested",
+      "kind": "diagram",
+      "sourceDirection": "Redraw from the physiology department book src_a11a7faed67c95e2d636 p. 37, figure 3-15. Do not reuse the book's own image.",
+      "rights": "must be originally drawn; the department book is not licensed for redistribution"
+    }
+  ],
+
+  "unsat": [
+    {
+      "scheme": "P4",
+      "issue": "The solved copy's marked answer to Q4.a is not an answer to Q4.a. It describes the low-pressure atrial stretch receptors — the volume reflex, with ADH, aldosterone and ANP — rather than the arterial baroreceptors the question names. Every expects line for part (a) therefore comes from the physiology department book src_a11a7faed67c95e2d636 p. 77 ('Function of Baroreceptor Reflex'), not from the student's answer.",
+      "blockedOn": "src_a11a7faed67c95e2d636 p. 77"
+    },
+    {
+      "scheme": "H14",
+      "issue": "The answer to Q14.b is undecodable on both copies: the solved copy's page 14 renders as five lines of Arabic-script OCR noise where the comparison table sits, and the unsolved copy renders the same. The expects for part (b) come from the histology department book src_18d3a953df4ca83c4e74 p. 30 ('Differences between Respiratory & Olfactory Mucosa'), which prints the same four rows the question asks for.",
+      "blockedOn": "src_18d3a953df4ca83c4e74 p. 30"
+    },
+    {
+      "scheme": "P1",
+      "issue": "The arterial-pressure row of the solved copy's Q1.b table is contaminated: it carries jugular-venous-pulse text (a sharp negative x wave, a positive v wave, 'due to downward pull of cusps', 'gradual rise due to filling') that belongs to a different table in the same compilation. That row's expects come from the physiology department book src_a11a7faed67c95e2d636 p. 25 and from reading, not from the marked answer.",
+      "blockedOn": "src_a11a7faed67c95e2d636 p. 25"
+    },
+    {
+      "scheme": "A6",
+      "issue": "The case letters run a, b, c, e with no d, in the only copy that shows the case at all. The solved copy carries a struck-through line where a 'd' answer would be ('due to increase of frequency and force of the heartbeats'), so a part d may have been printed and withdrawn. Recorded as printed; not reconstructed.",
+      "blockedOn": "a legible scan of the paper's page 10"
+    },
+    {
+      "scheme": "A11",
+      "issue": "Q11's wording is attested only by the solved copy. The unsolved copy's page 10 is a failed scan that repeats page 9's Q10. The orientation's mark split — 5 SAQ of 6 marks plus 1 case of 4, totalling 34 — requires a fifth anatomy SAQ, which corroborates that a question is there and that it carries 6 marks.",
+      "blockedOn": "a legible scan of the unsolved copy's page 10"
+    },
+    {
+      "scheme": "P5",
+      "issue": "No concept was minted for part (b), causes of increased ISF volume and oedema. The pending concept CON-CVS-0CBD226F515D23 (canonical key 'oedema-starling-mechanism', 'Oedema forms when the Starling forces favour filtration or when lymphatic drainage fails') already covers it, in docs/import-ready/concept/SYS-CVS-CONCEPT-T02.md. The mark scheme is recorded; the concept is an update, not a mint.",
+      "blockedOn": "CON-CVS-0CBD226F515D23"
+    },
+    {
+      "scheme": "P6",
+      "issue": "No concept was minted for part (b), characteristics and treatment of CO poisoning. Six live concepts already decompose it: CON-RES-CDBFCE15A0F579 (cherry red), CON-RES-F6434978BBC927 (CO-Hb cannot carry oxygen), CON-RES-AA4C315125E587 (left shift), CON-RES-7AB0731A15AD7B (amount depends on exposure), CON-RES-71F421E3C883F6 (terminate exposure), CON-RES-D95BA1E8D505D9 (exchange transfusion). The mark scheme is recorded; hyperbaric oxygen and the 70% lethal fraction are the only points not already covered and belong as updates to those records.",
+      "blockedOn": "CON-RES-CDBFCE15A0F579, CON-RES-F6434978BBC927, CON-RES-AA4C315125E587, CON-RES-7AB0731A15AD7B, CON-RES-71F421E3C883F6, CON-RES-D95BA1E8D505D9"
+    }
+  ]
+}
