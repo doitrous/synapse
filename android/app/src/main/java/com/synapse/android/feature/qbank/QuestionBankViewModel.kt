@@ -61,6 +61,16 @@ data class QBankStats(
         private const val WEEK_DAYS = 7
 
         /**
+         * Marked answers a subject needs before its accuracy is shown at all
+         * (`QuestionBank.tsx:94`). One wrong answer is not a weakness, and one
+         * right one is not a mastered subject.
+         */
+        private const val WEAKNESS_EVIDENCE = 3
+
+        /** Rows the web shows, at most (`QuestionBank.tsx:132`). */
+        private const val SUBJECT_ROWS = 6
+
+        /**
          * [total] is the size of the projected question pool -- callers own
          * that read; this function only ever sees the attempt ledger.
          */
@@ -69,12 +79,25 @@ data class QBankStats(
             val week = AttemptStats.dailyCounts(qbankRecords, WEEK_DAYS, today)
 
             val bySubject = qbankRecords.groupBy { it.subjectId }
-                .mapNotNull { (subjectId, group) ->
+                .map { (subjectId, group) ->
                     val scored = AttemptStats.marked(group)
-                    if (scored.isEmpty()) return@mapNotNull null
-                    SubjectAccuracy(subjectId, marked = scored.size, correct = scored.count { it.correct == true })
+                    Triple(
+                        SubjectAccuracy(subjectId, marked = scored.size, correct = scored.count { it.correct == true }),
+                        group.size,
+                        subjectId,
+                    )
                 }
-                .sortedByDescending { it.correct.toDouble() / it.marked }
+                // The web's order, floor and cap, ported exactly
+                // (`QuestionBank.tsx:132`, `attemptStats.ts:60`): most-answered
+                // first -- by attempts, not by accuracy -- then only subjects
+                // with WEAKNESS_EVIDENCE marked answers behind them, then the
+                // first six. One lucky answer is not a 100% subject, and a
+                // student who has touched twenty subjects gets six rows here,
+                // not a wall.
+                .sortedByDescending { (_, attempts, _) -> attempts }
+                .map { (accuracy, _, _) -> accuracy }
+                .filter { it.marked >= WEAKNESS_EVIDENCE }
+                .take(SUBJECT_ROWS)
 
             return QBankStats(
                 seen = AttemptStats.distinctItems(qbankRecords),

@@ -94,14 +94,54 @@ class QBankStatsTest {
 
     @Test
     fun `subject accuracy omits subjects the student has never answered`() {
-        val records = listOf(
-            record(id = "a1", itemId = "q1", subjectId = "cardiology", correct = true),
-            record(id = "a2", itemId = "q2", subjectId = "cardiology", correct = false, sessionId = "s2"),
-        )
+        val records = marks("cardiology", correct = 2, wrong = 1)
 
         val stats = QBankStats.of(records, total = 10)
 
         assertEquals(listOf("cardiology"), stats.bySubject.map { it.subjectId })
         assertTrue(stats.bySubject.none { it.subjectId == "renal" })
     }
+
+    @Test
+    fun `a subject answered once is not a subject with an accuracy`() {
+        // The web's WEAKNESS_EVIDENCE floor (`QuestionBank.tsx:94`, `:132`).
+        // Without it a single lucky answer reports the subject at 100% and,
+        // being a perfect score, sits at the top of the student's list.
+        val records = marks("cardiology", correct = 3, wrong = 0) +
+            marks("renal", correct = 1, wrong = 0)
+
+        val stats = QBankStats.of(records, total = 10)
+
+        assertEquals(listOf("cardiology"), stats.bySubject.map { it.subjectId })
+    }
+
+    @Test
+    fun `subjects are ordered by how much of them was answered, not by score`() {
+        // `attemptStats.ts:60` sorts on attempts, descending. Sorting on
+        // accuracy instead puts the subject a student has barely touched
+        // above the one they have actually been working through.
+        val records = marks("renal", correct = 3, wrong = 0) +
+            marks("cardiology", correct = 5, wrong = 5)
+
+        val stats = QBankStats.of(records, total = 20)
+
+        assertEquals(listOf("cardiology", "renal"), stats.bySubject.map { it.subjectId })
+    }
+
+    @Test
+    fun `no more subjects are listed than the web lists`() {
+        val records = (1..9).flatMap { marks("subject-$it", correct = 3, wrong = 0) }
+
+        val stats = QBankStats.of(records, total = 40)
+
+        assertEquals(6, stats.bySubject.size)
+    }
+
+    /** [correct] right answers and [wrong] wrong ones in [subjectId], each its own item. */
+    private fun marks(subjectId: String, correct: Int, wrong: Int): List<AttemptRecord> =
+        (1..correct).map {
+            record(id = "$subjectId-c$it", itemId = "$subjectId-qc$it", subjectId = subjectId, correct = true)
+        } + (1..wrong).map {
+            record(id = "$subjectId-w$it", itemId = "$subjectId-qw$it", subjectId = subjectId, correct = false)
+        }
 }
