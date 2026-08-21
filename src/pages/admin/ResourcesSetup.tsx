@@ -8,6 +8,7 @@ import { useScopedItems } from '@/lib/useScopedContent'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, itemInScope, type ManagedContentItem } from '@/data/contentControl'
 import { Icon } from '@/components/ui/Icon'
 import { StorageLimitsPanel } from '@/components/admin/StorageLimitsPanel'
+import { MediaLibraryBrowser } from '@/components/admin/MediaLibraryBrowser'
 import { cn } from '@/lib/cn'
 
 type Selection = { universityId?: string; year?: string }
@@ -138,6 +139,7 @@ export function ResourcesSetup() {
             : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
         </div>
         <div className="px-5 pt-3">
+          <MediaLibraryBrowser />
           <StorageLimitsPanel />
         </div>
         <ControlDashboard key={`${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="resource" lockedKind scope={scope} />
