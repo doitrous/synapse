@@ -119,6 +119,7 @@ The second error is to attribute phase 1 to the closure of the calcium channels.
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Phase 1 is a small rapid repolarization carried by transient outward potassium channels (Ito), with chloride influx and inactivation of the fast sodium channels.
@@ -138,6 +139,7 @@ CON-CVS-818EC10C20A623
 ## related_articles
 ART-104-PHY-CARDIAC-PUMP-FUNCTION: the mechanical event the calcium entering during phase 2 triggers
 ## question_ids
+[clear]
 
 ## resource_ids
 src_a11a7faed67c95e2d636
@@ -311,6 +313,7 @@ The semilunar valves are sometimes offered as the thing that distinguishes rapid
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Both ejection phases run with the semilunar valves open; the phases differ in the pressure gradient and the rate of emptying, not in valve state.
@@ -335,6 +338,7 @@ CON-CVS-A70930DB23A5B4 | CON-CVS-C1D705743C07E3 | CON-CVS-A99309543A270D
 ART-104-PHY-CARDIAC-ACTION-POTENTIAL: the electrical event whose plateau supplies the calcium for this contraction
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX: where the end-diastolic volume on the right-hand edge of the loop comes from
 ## question_ids
+[clear]
 
 ## resource_ids
 src_a11a7faed67c95e2d636
@@ -404,6 +408,7 @@ No independent citation has been attached to any figure here; every number is tr
 The book gives peak right ventricular pressure of 25 mmHg in its cardiac cycle chapter but does not repeat it in the ejection section, so the two figures are joined by the reader rather than by the book.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -517,6 +522,7 @@ The baroreceptor question is frequently answered with the atrial volume receptor
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Venous return depends on mean systemic filling pressure minus right atrial pressure, divided by the resistance to venous return.
@@ -541,6 +547,7 @@ CON-CVS-B21C3D54DE291E | CON-CVS-08B8764A5D501B | CON-CVS-C3E60AC7A9EDB1
 ART-104-PHY-CARDIAC-PUMP-FUNCTION: venous return sets the end-diastolic volume this article's gradient delivers
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT: why intrapleural pressure is negative in the first place, and what makes it swing
 ## question_ids
+[clear]
 
 ## resource_ids
 src_a11a7faed67c95e2d636
@@ -611,6 +618,7 @@ No independent citation has been attached to any figure here; every number is tr
 The book gives the resistance to venous return as a worked example, 7-0 divided by 5, rather than as a quoted normal range, so the figure of about 1.4 mmHg/l/min is that worked example and not a stated normal.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -725,6 +733,7 @@ Laplace's law is often quoted to argue that a small alveolus must empty into a l
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Intrapleural pressure is negative because the lung continuously tends to recoil inwards while the chest wall continuously tends to expand outwards.
@@ -749,6 +758,7 @@ CON-RES-1BA6BE714676EC | CON-RES-4D4CBF3BB8AF1E
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX: the same intrapleural pressure, read from the circulation's side
 ART-104-ANA-PLEURA-AND-MEDIASTINUM: the membrane the pressure sits between, and what supplies it
 ## question_ids
+[clear]
 
 ## resource_ids
 src_a11a7faed67c95e2d636
@@ -810,6 +820,7 @@ No independent citation has been attached to any figure here; every other number
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 The one-third / two-thirds split of the lung's recoil between elastic tissue and surface tension is not in the department book. The evidence pass searched the whole physiology extraction for it and found nothing; the book names both sources on printed page 105 and nowhere apportions them. CLM-104-PHY-LUNG-RECOIL-SOURCES-01 therefore claims the two sources without the fractions, and the sentence in Mechanism carries a number no cited source supports.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -920,6 +931,7 @@ The second is to attribute the fetal left shift to something special about the g
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 P50 is the PO2 at which haemoglobin is 50% saturated; normal is 27 mmHg.
@@ -940,6 +952,7 @@ CON-RES-D95A9FD64ABF25
 ## related_articles
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT: the mechanical half of the same respiratory course
 ## question_ids
+[clear]
 
 ## resource_ids
 src_a11a7faed67c95e2d636
@@ -996,6 +1009,7 @@ No independent citation has been attached to any figure here; every number is tr
 The loss of 2,3-DPG in stored blood is standard transfusion physiology but is not stated on these pages of the department book, so it is offered as clinical context rather than as taught content.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1102,6 +1116,7 @@ The inferior hemiazygos vein begins in variable ways, and the department book sa
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 There are eleven posterior intercostal veins and a subcostal vein on each side, and the two sides terminate differently.
@@ -1123,6 +1138,7 @@ CON-CVS-19E63D8A8E7EDA
 ## related_articles
 ART-104-ANA-PLEURA-AND-MEDIASTINUM: the compartment the azygos system runs in, and what it shares it with
 ## question_ids
+[clear]
 
 ## resource_ids
 src_4bd55e9eaf092282818c
@@ -1179,6 +1195,7 @@ The Development section is general embryology of the cardinal venous system and 
 The radiographic appearance of the azygos arch is not covered by the department book's thorax chapter and is offered as clinical orientation only.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1305,6 +1322,7 @@ The origin of the inferior hemiazygos vein within this compartment is variable, 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Visceral pleura takes the same autonomic supply as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to pain or temperature.
@@ -1327,6 +1345,7 @@ CON-RES-3AB5ED388161A2 | CON-RES-03AB23DA654BAF
 ART-104-ANA-THORACIC-WALL-VEINS: the azygos system named in this compartment's contents, in full
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT: why the space between the two pleural layers is at sub-atmospheric pressure
 ## question_ids
+[clear]
 
 ## resource_ids
 src_4bd55e9eaf092282818c
@@ -1397,6 +1416,7 @@ The Development section is general embryology of the somatopleuric and splanchni
 The 2.5 cm the cervical pleura rises above the clavicle is standard surface anatomy but is not printed on the pages read for this article, so it is not sourced to the book.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1517,6 +1537,7 @@ The proportions are the variation. Whether the sinu-atrial and atrioventricular 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 The circumflex artery is one of the two terminal branches of the left coronary artery and arises at the upper end of the anterior interventricular groove.
@@ -1537,6 +1558,7 @@ CON-CVS-CFF45F193765C4
 ## related_articles
 ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT: the vessel the left coronary artery arises from, and where that vessel comes from
 ## question_ids
+[clear]
 
 ## resource_ids
 src_4bd55e9eaf092282818c
@@ -1720,6 +1742,7 @@ A right-sided aortic arch, a double aortic arch and an aberrant right subclavian
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 The aortic sac forms from fusion of the two ventral aortae and consists of a stem and a right and a left horn.
@@ -1744,6 +1767,7 @@ CON-DEV-9A66BF99D1BD3D | CON-CVS-4F6394A2A7C0C5
 ART-104-ANA-CORONARY-ARTERIES: the branches of the vessel immediately upstream of the arch
 ART-104-ANA-PLEURA-AND-MEDIASTINUM: the compartment behind this one, and the descending aorta the arch becomes
 ## question_ids
+[clear]
 
 ## resource_ids
 src_4bd55e9eaf092282818c
@@ -1956,6 +1980,7 @@ The thymus's septa are not the same thing as lobulation with follicles. The thym
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Primary lymphoid organs are the thymus and bone marrow; secondary are lymph nodes, spleen and tonsils.
@@ -1988,6 +2013,7 @@ CON-HEM-BA8773E5D84286 | CON-HEM-10B2E783E164FD | CON-HEM-02424D1AF8A169 | CON-H
 ART-104-HIS-CAPILLARY-TYPES: the sinusoid described here is the sinusoidal capillary of that article, in the organ that defines it
 ART-104-HIS-NASAL-MUCOSA: the pharyngeal tonsil sits under the same respiratory epithelium described there
 ## question_ids
+[clear]
 
 ## resource_ids
 src_18d3a953df4ca83c4e74
@@ -2155,6 +2181,7 @@ Histology
 ## primary_node_id
 DIS-HIS-T01
 ## secondary_node_ids
+[clear]
 
 ## template_id
 TPL-CONCEPT
@@ -2229,6 +2256,7 @@ Aneuploidy is also not the same as polyploidy. Polyploidy is an exact multiple o
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Specialized cells classify by ability to reproduce into non-renewing, potentially renewable and continuously renewing.
@@ -2254,6 +2282,7 @@ CON-FND-A2E40256517389 | CON-DEV-C2AC39B48A8F21
 ## related_articles
 ART-104-HIS-LYMPHOID-ORGANS: the thymus, where selection eliminates 80% of thymocytes by apoptosis rather than by a failure of division
 ## question_ids
+[clear]
 
 ## resource_ids
 src_18d3a953df4ca83c4e74
@@ -2315,6 +2344,7 @@ The Applied physiology section applies the book's three renewal classes to three
 No independent citation has been attached to any figure here; every other statement is traceable to one department book.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -2423,6 +2453,7 @@ A sinusoid is not a fenestrated capillary. Both have pores, but the fenestrated 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Continuous (somatic) capillary: small and regular, endothelium continuous with no pores, tight junctions present, basal lamina continuous, pericytes present, macrophages absent.
@@ -2443,6 +2474,7 @@ CON-CVS-9585A65D9EDA4D
 ## related_articles
 ART-104-HIS-LYMPHOID-ORGANS: the splenic sinusoid and its stave cells, which is this article's third type seen in one organ
 ## question_ids
+[clear]
 
 ## resource_ids
 src_18d3a953df4ca83c4e74
@@ -2498,6 +2530,7 @@ Kasr Alainy histology department book, "Book of Histology (CPS 104)", Chapter I,
 No independent citation has been attached to any statement here; all of it is traceable to one department book.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -2635,6 +2668,7 @@ Olfactory mucosa is not simply respiratory mucosa without goblet cells. It has t
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Olfactory mucosa covers the roof and superior conchae; the middle and inferior conchae carry respiratory epithelium.
@@ -2657,6 +2691,7 @@ CON-RES-B7F9FACECA4AFF
 ART-104-HIS-LYMPHOID-ORGANS: the pharyngeal tonsil lies beneath this same respiratory epithelium in the nasopharynx
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY: why the regeneration of olfactory neurons is worth noticing against the rule that nerve cells are non-renewing
 ## question_ids
+[clear]
 
 ## resource_ids
 src_18d3a953df4ca83c4e74
@@ -2712,6 +2747,7 @@ Kasr Alainy histology department book, "Book of Histology (CPS 104)", Chapter II
 No independent citation has been attached to any statement here; all of it is traceable to one department book.
 The Arabic title is composed from standard Arabic medical terminology and has not been checked by an Arabic-speaking reviewer.
 ## conflicts
+[clear]
 
 ## last_reviewed
 
