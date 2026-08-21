@@ -569,7 +569,16 @@ if (kind !== 'concept') {
   // tried and broke the moment a span batch and its claims lived in files with
   // different stems.
   const dir = dirname(file)
-  const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  // Siblings in this directory, plus anything named with `--with`. The
+  // directory rule is right for evidence batches that reference each other, and
+  // wrong for the one reference that crosses out of it: a claim names a
+  // concept, and concepts are authored in `concept/` because that is what they
+  // are. Without this every claim in a 1,253-claim batch failed with "Concept …
+  // does not exist" while the concept sat validated one directory away.
+  const siblings = [
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))

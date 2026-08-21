@@ -40,7 +40,14 @@ interface ManifestSource {
 }
 
 const MANIFEST = 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
-const OUT = 'docs/Kasr-Source-Imports/resource/101-ISK-resources.md'
+// Beside the claims and citations, not in a `resource/` folder of its own.
+// `validate-content-batch` resolves an evidence batch's references against the
+// other batches in its OWN directory — a citation names a claim, a claim names
+// a concept, a citation names a resource — so a resource batch filed anywhere
+// else is invisible to the citations that cite it, and every one of them fails
+// with "Resource … does not exist" while the resource sits validated one
+// directory away.
+const OUT = 'docs/Kasr-Source-Imports/evidence/101-ISK-resources.md'
 
 /** A sat paper is curriculum signal; everything else may carry medical weight. */
 const ASSESSMENT = new Set(['EOY', 'EOM', 'Baqoon', 'Written Questions'])
@@ -187,6 +194,6 @@ because everything quoted from it is an OCR transcription rather than the page.
 
 By category: ${Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([category, n]) => `${n} ${category}`).join(', ')}.`
 
-mkdirSync('docs/Kasr-Source-Imports/resource', { recursive: true })
+mkdirSync('docs/Kasr-Source-Imports/evidence', { recursive: true })
 writeFileSync(OUT, batchFile(header, blocks))
 console.log(`${blocks.length} resources -> ${OUT}`)
