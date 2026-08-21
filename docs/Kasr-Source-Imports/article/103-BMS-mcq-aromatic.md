@@ -307,3 +307,264 @@ lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 
 ---
+
+# Item
+
+## id
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## title
+Tryptophan and histidine: a vitamin, three amines, and a tumour that steals the branch point
+
+## arabic_title
+التربتوفان والهيستيدين: مشتقاتهما واضطراباتهما
+
+## aliases
+Tryptophan
+Histidine
+Serotonin
+Melatonin
+Nicotinic acid from tryptophan
+Carcinoid tumour
+5-HIAA
+Histamine
+Hartnup disease
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Individual amino acid Metabolism
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-NEU-T02 | SYS-GIT-T04
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+103 BMS > Biochemistry > Individual amino acid Metabolism > Histidine
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Tryptophan is the only amino acid in the course that yields a vitamin, and that single fact organises the whole of it. Everything else it makes — serotonin, then melatonin — comes off the same carbon skeleton, so anything that pulls flux down one branch starves the other. That is what a carcinoid tumour does, and it is why a tumour of the gut can present as a vitamin deficiency. Histidine is shorter work: one glucogenic skeleton that joins the glutamate pool, one amine made by a single chemical step, and one structural job inside haemoglobin. It is also the one part of this chapter the department has cancelled.
+
+## sections
+### Definition
+**Tryptophan is an essential amino acid** and a **mixed** one: its catabolism gives **alanine**, which is glucogenic, and **acetoacetate**, which is ketogenic. Tryptophan dioxygenase opens the ring, and kynurenine, made by way of the PLP enzyme kynureninase, sits on the route.
+
+**Histidine is an essential amino acid** and a **glucogenic** one. Its catabolism gives N-formimino-glutamate — Figlu — which hands its formimino group to tetrahydrofolate by formimino-transferase, producing N5-formimino-THF and leaving **glutamate**, which joins the glutamate metabolic pool.
+
+### Mechanism
+Tryptophan has five products, and the exam asks about them as a set.
+
+**Nicotinic acid (vitamin B3).** Tryptophan gives nicotinic acid **in the presence of pyridoxine, vitamin B6**. That dependency is the reason deficiency of *either* tryptophan or vitamin B6 produces pellagra-like manifestations.
+
+**Formyl-THF.** The formyl group derived from tryptophan catabolism goes into one-carbon metabolism.
+
+**Serotonin.** Tryptophan is hydroxylated by **BH4-dependent tryptophan hydroxylase** to 5-hydroxytryptophan, and then **decarboxylated** to serotonin, 5-hydroxytryptamine. It is made in nervous tissue and in the intestine by **argentaffin cells**. It is a chemical transmitter in the CNS, and it stimulates contraction of smooth muscle, causing vasoconstriction.
+
+**Melatonin.** In the **pineal body**, serotonin is acetylated to N-acetyl serotonin and then methylated to melatonin. Melatonin acts as an antioxidant, rises during the dark period of the day and falls in daylight, so it promotes sleep to some extent, and acts as an antidepressant.
+
+**Indole and skatole.** Tryptophan that reaches the large intestine undergoes putrefaction to indole or skatole, which are mainly excreted in stool.
+
+Histidine has two. **Histamine is the decarboxylation product of histidine** — the α-carboxyl leaves as CO2 and the nitrogen stays, which is what makes the product an amine. And histidine has a **special role in the binding of iron and oxygen to the globin of haemoglobin and the apomyoglobin of myoglobin**, which is a structural job rather than a metabolic one.
+
+### Key determinants
+Two rules make this chapter smaller than it looks.
+
+The first is that **a biogenic amine is a decarboxylation product**. Glutamate gives GABA, DOPA gives dopamine, 5-hydroxytryptophan gives serotonin, histidine gives histamine. Any option that *removes* the nitrogen — deamination — cannot give an amine, and any option that *adds* a carboxyl — carboxylation, as in the vitamin K–dependent γ-carboxylation of clotting factors — is running the reaction backwards.
+
+The second is that tryptophan's products all come out of one pool, so they compete. Nicotinic acid on one side, serotonin and everything downstream of it on the other. Pull hard on the serotonin branch and the vitamin branch thins.
+
+Two sorting rules are worth holding against the other aromatic amino acid. **Melanin belongs to tyrosine; melatonin belongs to tryptophan** — two letters apart, two different precursors. And the thyroid hormones, the catecholamines and adrenaline all belong to tyrosine, not to tryptophan, however plausible the family resemblance between two aromatic amino acids with BH4-dependent hydroxylases.
+
+### Clinical significance
+**Carcinoid tumour**, or argentaffinoma, is a tumour of the argentaffin cells of the gastrointestinal tract. It presents with increased levels of **serotonin and its metabolite 5-hydroxyindole-acetic acid (5-HIAA)** in both blood and urine; 5-HIAA is formed from serotonin by monoamine oxidase.
+
+The second consequence is the one the department asks students to explain on a biochemical basis. **Pellagra may develop in carcinoid tumour**, because tryptophan metabolism is shunted towards the synthesis of serotonin and its metabolites by the tumour cells, with a marked decrease in nicotinic acid synthesis. A tumour of one branch therefore produces a vitamin deficiency on the other — and it is why nicotinic acid is the option that moves in the *opposite* direction to 5-HIAA in this patient.
+
+**Hartnup disease** is a genetic decrease in the intestinal and renal tubular reabsorption of tryptophan. The manifestations are pellagra-like, for the same reason: less tryptophan absorbed means less nicotinic acid made. The tryptophan that is not absorbed passes in the stools or is putrefied into indole and skatole.
+
+Histamine's clinical face is short in this book: it causes vasodilatation and is named with allergic reactions.
+
+### Common misconceptions
+The first is answering "melanin" when asked what tryptophan is a precursor of. Melanin is tyrosine's, by way of DOPA and tyrosinase; melatonin is tryptophan's, by way of serotonin and the pineal body.
+
+The second is expecting nicotinic acid to be *raised* in carcinoid tumour on the reasoning that the tumour is doing more tryptophan metabolism. It is doing more of one branch at the expense of the other, which is exactly why pellagra appears.
+
+The third is answering "deamination" or "dehydrogenation" for the formation of histamine. Deamination removes the nitrogen and leaves a keto acid, so it cannot produce an amine at all; dehydrogenation is an oxidation, and histidine's route to histamine is not one. Histidine's *catabolic* route does begin with a lyase reaction to Figlu, which is a different pathway with a different product.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Tryptophan is essential and mixed, giving alanine (glucogenic) and acetoacetate (ketogenic).
+Tryptophan's derivatives are nicotinic acid, formyl-THF, serotonin, melatonin, and indole and skatole.
+Nicotinic acid is made from tryptophan only in the presence of vitamin B6, so deficiency of either gives pellagra-like manifestations.
+Serotonin is made by BH4-dependent hydroxylation then decarboxylation, in nervous tissue and in intestinal argentaffin cells.
+Melatonin is made from serotonin in the pineal body; it rises in the dark and promotes sleep.
+Carcinoid tumour raises serotonin and 5-HIAA in blood and urine, and 5-HIAA is made from serotonin by monoamine oxidase.
+Pellagra may develop in carcinoid tumour because tryptophan is shunted to serotonin and away from nicotinic acid.
+Histidine is essential and glucogenic; its skeleton joins the glutamate pool by way of Figlu.
+Histamine is the decarboxylation product of histidine, and histidine also binds iron and oxygen in globin and apomyoglobin.
+
+## lose_the_mark
+Answering melanin, thyroid hormones or adrenaline for a tryptophan derivative.
+Expecting nicotinic acid to rise in carcinoid tumour.
+Answering melatonin for the substance raised in carcinoid tumour — melatonin is made in the pineal body, not the intestine.
+Answering deamination, dehydrogenation or carboxylation for the formation of histamine.
+
+## callout_evidence
+
+## related_concepts
+CON-NEU-6C4A6BDA725F0E | CON-GIT-4952149F99782D | CON-FND-82BFCE60217493
+
+## related_articles
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE: the other aromatic amino acid, whose BH4-dependent hydroxylase and whose derivatives supply almost every distractor used against this article's questions
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: pellagra, vitamin B6 and the one-carbon pool that formyl-THF and N5-formimino-THF feed
+ART-103-BIO-PHENYLKETONURIA: the disease in which tryptophan, as well as tyrosine, is kept out of the brain
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
+
+## article_source_ids
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## university_notes
+kau: The Biochemistry department's orientation for 2025-2026 cancels "Histidine & proline (p105)" from both the end-of-module and the final exam. The histidine material in this article is therefore taught but not examined, and the weights on CON-FND-82BFCE60217493 claim no examination. The tryptophan material on printed pages 103 to 104 is not cancelled and is examined by six items of the department question book.
+
+## annotations
+### definition_of · CON-NEU-6C4A6BDA725F0E
+Quote: Tryptophan is hydroxylated by **BH4-dependent tryptophan hydroxylase** to 5-hydroxytryptophan, and then **decarboxylated** to serotonin, 5-hydroxytryptamine.
+Block: body
+
+### definition_of · CON-GIT-4952149F99782D
+Quote: **Pellagra may develop in carcinoid tumour**, because tryptophan metabolism is shunted towards the synthesis of serotonin and its metabolites by the tumour cells, with a marked decrease in nicotinic acid synthesis.
+Block: body
+
+### definition_of · CON-FND-82BFCE60217493
+Quote: **Histamine is the decarboxylation product of histidine** — the α-carboxyl leaves as CO2 and the nitrogen stays, which is what makes the product an amine.
+Block: body
+
+## media
+
+## media_recommendations
+### flowchart · The tryptophan branch point, with the carcinoid tumour pulling flux
+Brief: Tryptophan at the top; one branch to nicotinic acid labelled "needs vitamin B6"; the other through tryptophan hydroxylase to 5-hydroxytryptophan, decarboxylation to serotonin, then forking to melatonin in the pineal body and to 5-HIAA by monoamine oxidase; a third short branch to indole and skatole in the large intestine, and a fourth to formyl-THF. A second panel of the same figure redrawn for carcinoid tumour, with the serotonin arm thickened and the nicotinic acid arm thinned to the point of pellagra
+Purpose: Teaches CON-NEU-6C4A6BDA725F0E and CON-GIT-4952149F99782D. The two options a carcinoid question turns on — 5-HIAA up, nicotinic acid down — are the two ends of one branch point moving in opposite directions. A sentence saying tryptophan is "shunted" asserts the diversion; only a two-panel flux figure makes the loss on the other arm visible.
+Priority: required
+Status: needed
+Section: Clinical significance
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or an original figure built from the department book's own scheme on printed page 104
+Rights: must be CC-BY or public domain
+
+### comparison table · The four biogenic amines and the amino acids they are decarboxylated from
+Brief: Four rows — glutamate to GABA, DOPA to dopamine, 5-hydroxytryptophan to serotonin, histidine to histamine — with a column for the amino acid, the amine, and the single reaction type in every row, decarboxylation
+Purpose: Teaches CON-FND-82BFCE60217493. The histamine item is answered by a rule rather than by a memorised fact, and the rule is only visible when the four instances are put in one place. Students meet them in four different chapters and never see the pattern.
+Priority: strongly helpful
+Status: needed
+Section: Key determinants
+Kind: comparison table
+Source direction: original table built from the department book's own four statements
+Rights: original work
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS (src_300847a5fa64809d6c07), chapter "Individual Amino Acid Metabolism", printed pages 103 to 105 and the summary table on printed page 107 (file pages 104 to 106 and 108), read from the cached page text scripts/kasr/extract/pagetext/src_300847a5fa64809d6c07.json.
+Kasr Al Ainy Biochemistry department question book for modules 102 and 103 (src_07f0a0ff41addf826c7f), same chapter, printed page 124, for what is examined and in what form. It is curriculum signal only and is never cited as evidence that a statement is medically true.
+
+## evidence_gaps
+No claim or citation is attached to any sentence in this article yet; the evidence chain is owed and is named in the hand-off report.
+Every statement rests on one textbook, the department book. No independent verification against an international biochemistry reference has been attached.
+The book describes carcinoid tumour biochemically and gives it no clinical syndrome — no flushing, no diarrhoea, no wheezing, no treatment and no prognosis. None of that is taught here.
+The book does not say which enzyme decarboxylates 5-hydroxytryptophan or histidine, and never states that the decarboxylases are pyridoxal-phosphate dependent, although the question book's explanations assert it. The rule in Key determinants is drawn only from the four decarboxylations the book itself prints.
+The book gives Hartnup disease no inheritance pattern and no treatment, and does not name the transporter involved.
+It does not state that melatonin synthesis uses S-adenosylmethionine — it says only that N-acetyl serotonin "is methylated".
+
+## conflicts
+The department book prints, of histamine, "It causes vasodilatation and ameliorates allergic reactions". "Ameliorates" reverses the sense of the sentence and reads as a misprint for "mediates"; every other statement about histamine in the course is that it produces allergic manifestations rather than relieving them. The article says "is named with allergic reactions", which is what the book's sentence supports either way, and the discrepancy is recorded here for the faculty reviewer rather than silently corrected.
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry the six MCQs of the department question book's Individual Amino Acid Metabolism chapter that fall on tryptophan and histidine — printed page 124 questions 28, 29, 30, 31, 32 and 33 — together with the two earlier items on printed pages 120 and 121 that use tryptophan's derivatives as context. TPL-CONCEPT rather than TPL-CONDITION because the subject is two amino acids and their products, not a disease. Histidine is included although the department has cancelled it, because the item is still in the question book and a student may still meet it; the cancellation is carried by the weights on the concept rather than by omitting the material.
+
+## field_notes
+microtopicId: This article spans two children of the chapter — Tryptophan and Histidine — so the overlay subtopic stops at the chapter itself and no microtopic below it would be true of the whole record. Both child paths are carried by module_subject, one per line, which is finer than the overlay reaches.
+nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this article where nothing else lives.
+questionIds: Written [clear]. The eight MCQs in ../question/103-BMS-MCQ-protein-heme.md that touch this material name this article in their library_ids, but question IDs are assigned at import and naming them here before they exist would be inventing IDs. The back-reference is owed and is listed in the hand-off report.
+media: The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL and be reported as one that would be dropped. No rights-cleared asset exists for this material; what is needed is requested in media_recommendations.
+publishedSummary: Nothing is published yet. The published fields are filled by the publication step, not by the author.
+publishedSections: Nothing is published yet, for the same reason.
+calloutEvidence: Present and empty. Every callout in hold_these would need a claim and a citation to carry, and this lane authors neither; a callout naming an invented claim ID would be worse than none.
+claimIds: Written [clear] and owed. No claim in ../evidence/103-BMS-biochemistry-claims.md asserts any of this article's content — those claims were authored for the eleven concepts taken from the 2025 end-of-year paper, which never reached this chapter. This lane mints no claim or citation IDs.
+spanIds: Written [clear] and owed, for the same reason as claimIds. A span must name the claim and the citation it rests on, and neither exists yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---

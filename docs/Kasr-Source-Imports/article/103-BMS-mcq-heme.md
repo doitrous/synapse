@@ -572,3 +572,244 @@ publishedSummary: Nothing is published yet. The published fields are filled by t
 publishedSections: Nothing is published yet, for the same reason.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## title
+Named hyperbilirubinaemia syndromes: the newborn, Gilbert, and Crigler-Najjar
+
+## arabic_title
+متلازمات فرط بيليروبين الدم المسماة
+
+## aliases
+Hyperbilirubinaemia syndromes
+Physiological neonatal jaundice
+Neonatal jaundice
+Crigler-Najjar syndrome
+Gilbert syndrome
+Phototherapy
+Kernicterus
+Phenobarbital in jaundice
+
+## subject
+haem
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## microtopic
+Physiological neonatal jaundice
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-HEM-T01-S01 | SYS-GIT-T06
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Three named conditions raise unconjugated bilirubin without any obstruction and without any haemolytic disease worth the name, and all three are failures of the same step: conjugation. What separates them is how much glucuronyl transferase is left. In the newborn the enzyme is immature and will mature. In Gilbert syndrome uptake and conjugation are mildly defective and the condition is benign. In Crigler-Najjar the enzyme is deficient — partially in type II, essentially completely in type I — and that last distinction decides whether an inducing drug can do anything at all. Reading the group this way turns four remembered lists into one question asked four times: how much enzyme is there?
+
+## sections
+### Definition
+Jaundice is the yellow colour of skin, nails and sclerae due to elevation of serum bilirubin above 2 mg/dL, and the department book classifies it by the predominant form of bilirubin in serum: unconjugated, conjugated, or both. This article is about three named conditions that sit inside the first of those categories and are not caused by increased production. In each, bilirubin is made at a normal or near-normal rate and the liver cannot conjugate it fast enough.
+
+The book teaches two of them. Physiological neonatal jaundice is a transient condition that occurs in the first few days of life. Gilbert syndrome is a benign condition caused by a defect in the uptake of unconjugated bilirubin by the liver and in the conjugation pathways, and the book notes that newborns have mild hyperbilirubinaemia. The third, Crigler-Najjar, is set by the department question book and is not described in the department textbook at all — a gap this article states rather than papers over, and one recorded on the concept and in the evidence gaps below.
+
+### Mechanism
+Physiological neonatal jaundice has two causes running at once, and it is the pairing that makes it transient rather than either half alone. It results partly from increased hemolysis and partly from immaturity of the enzyme UDP-glucuronyltransferase. The newborn is breaking down the large fetal red cell mass, so production is high; the conjugating enzyme is not yet fully expressed, so disposal is slow. Neither state persists. Serum bilirubin usually does not reach 13 mg/dL.
+
+That threshold is the useful part, and it is useful because of a second number from the catabolism chapter. Unconjugated bilirubin is hydrophobic and albumin-bound, and if its plasma level exceeds the carrying capacity of albumin — about 20 mg/dL — it crosses the blood-brain barrier and produces kernicterus. So a transient jaundice appearing in the first few days and staying below about 13 mg/dL fits the physiological picture, while a bilirubin climbing past it is heading towards the line where brain damage begins and demands a cause.
+
+Crigler-Najjar is the same failure taken to its limit, and the pair of types is best read as a single question about how much enzyme survives. Type II is a partial deficiency of UDP-glucuronyl transferase with residual activity, and serum unconjugated bilirubin generally does not exceed 20 mg/dL, so kernicterus is unusual. Type I is a complete or near-complete absence, inherited as an autosomal recessive disease — which fits, since two defective alleles are needed to abolish activity where one working allele would leave the residual enzyme of type II — the bilirubin rises past the albumin threshold, and kernicterus is the expected outcome.
+
+### Key determinants
+One enzyme property decides the treatment of every condition in this article: glucuronyl transferase is induced by certain drugs, e.g., phenobarbital, and by glucose.
+
+Induction increases the amount of an enzyme the cell can still make. That is why phenobarbital may be used in physiological neonatal jaundice, to induce the synthesis of the enzyme whose immaturity is half the problem, and why it works in Crigler-Najjar type II, where some enzyme is present. It is also exactly why patients with Crigler-Najjar type I do not respond to phenobarbital therapy: there is essentially no functional enzyme to induce, and an inducer has nothing to work on. That single fact is the most useful discriminator between the two types, because it converts a memorised pair into a piece of reasoning — if the defect is complete, an inducer cannot help.
+
+The other treatment does not depend on the enzyme at all, which is why it still works when phenobarbital does not. Exposure to blue, fluorescent light — phototherapy — helps conversion of the insoluble form of unconjugated bilirubin to the more soluble photoisomers that can be excreted into the bile without conjugation to glucuronic acid. It bypasses the broken step rather than accelerating it.
+
+### Clinical significance
+The question worth asking of any jaundice in this group is not which syndrome it is but where the lesion sits relative to conjugation, because that fixes everything else. Any lesion before or at conjugation — increased production as in haemolysis, or failed uptake or conjugation as in Gilbert and Crigler-Najjar — gives unconjugated hyperbilirubinaemia, which cannot appear in urine because the pigment is albumin-bound. Any lesion after conjugation gives conjugated hyperbilirubinaemia, which can. The three-way classification of jaundice by bilirubin fraction and by serum enzyme is authored separately and is not restated here.
+
+Kernicterus is the outcome this whole group is watched for, and deciding whether a given jaundice can produce it takes two questions rather than a memorised list: does it raise the *unconjugated* fraction, and does it raise it far enough to pass the albumin carrying capacity of about 20 mg/dL? Crigler-Najjar type I answers yes to both, which is why it is the condition in this article that reliably causes it. Physiological neonatal jaundice usually answers no to the second, which is what the 13 mg/dL figure is telling a clinician.
+
+A note on what this article rests on. The department textbook supports the neonatal condition, Gilbert syndrome, the inducibility of glucuronyl transferase and the 20 mg/dL kernicterus threshold, and it says nothing whatever about Crigler-Najjar. The two types, their inheritance and their phenobarbital responses come from the department question book and its printed answer key. That is a real gap in the evidence for a topic the department nonetheless asks about, and it is recorded here, on the concept, and in the evidence gaps rather than presented as the book's teaching.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Physiological neonatal jaundice results partly from increased haemolysis and partly from immaturity of UDP-glucuronyl transferase.
+Serum bilirubin in physiological neonatal jaundice usually does not reach 13 mg/dL.
+Phototherapy converts insoluble unconjugated bilirubin into soluble photoisomers excreted in bile without conjugation, so it bypasses the broken step.
+Phenobarbital works by inducing glucuronyl transferase, so it helps only where some enzyme remains.
+Crigler-Najjar type I is a complete deficiency, autosomal recessive, bilirubin above 20 mg/dL, and does not respond to phenobarbital; type II is partial, stays below 20 mg/dL, and does respond.
+Kernicterus follows when unconjugated bilirubin exceeds the albumin carrying capacity of about 20 mg/dL.
+Gilbert syndrome is a benign defect of hepatic uptake and conjugation of unconjugated bilirubin.
+
+## lose_the_mark
+Reading the 13 mg/dL figure as a level physiological neonatal jaundice usually exceeds, rather than one it usually does not reach.
+Calling Crigler-Najjar type I autosomal dominant; a complete loss of activity needs two defective alleles.
+Attributing the partial enzyme deficiency to type I when it belongs to type II.
+Expecting phenobarbital to work in a complete enzyme deficiency, when induction can only increase an enzyme the cell can still make.
+Thinking phototherapy assists conjugation; it produces photoisomers excreted without conjugation at all.
+Expecting conjugated bilirubin to be the fraction that causes kernicterus.
+
+## callout_evidence
+
+
+## related_concepts
+CON-HEM-20178168A8FCF0 | CON-HEM-167E007FE3D9EC
+
+## related_articles
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN: the conjugation step these syndromes fail at, and where the 20 mg/dL albumin threshold comes from
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN: the three-way classification of jaundice by bilirubin fraction and serum enzyme, already authored from the 2025 end-of-year paper and deliberately not repeated here
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## university_notes
+kau: The Biochemistry department's cancelled-items orientation for 2025-2026 leaves this material examinable; the cancellation covers "Biosynthesis of heme & Porphyria (pp115-118)" only. Note separately that the department book teaches Gilbert syndrome and not Crigler-Najjar, while the department question book sets three items on Crigler-Najjar — a mismatch between the two departmental sources that a faculty reviewer should resolve before this article is published.
+
+## annotations
+### definition_of · CON-HEM-167E007FE3D9EC
+Quote: It results partly from increased hemolysis and partly from immaturity of the enzyme UDP-glucuronyltransferase.
+Block: body
+
+### definition_of · CON-HEM-20178168A8FCF0
+Quote: It is also exactly why patients with Crigler-Najjar type I do not respond to phenobarbital therapy: there is essentially no functional enzyme to induce, and an inducer has nothing to work on.
+Block: body
+
+## media
+
+
+## media_recommendations
+### comparison table · Crigler-Najjar type I, Crigler-Najjar type II and Gilbert syndrome
+Brief: Three columns with rows for the defect, the enzyme activity remaining, the usual serum bilirubin level, the inheritance, the response to phenobarbital and the risk of kernicterus. The Crigler-Najjar columns must be marked as sourced from the department question book rather than the department textbook.
+Purpose: Teaches CON-HEM-20178168A8FCF0. The concept is that every row is derived from the first one, and only a table read across shows a student that the six rows are one variable seen six ways. Read as prose it becomes eighteen facts.
+Priority: required
+Status: needed
+Section: Mechanism
+Kind: comparison table
+Source direction: original table built from the department question book's own compare-between item, with the two supporting mechanisms from the department textbook
+Rights: original work
+
+### diagram · Phototherapy bypasses conjugation; phenobarbital accelerates it
+Brief: Two parallel routes out of unconjugated bilirubin — one through glucuronyl transferase to conjugated bilirubin and bile, marked with an upward arrow labelled phenobarbital induction; the other from unconjugated bilirubin straight to photoisomers under blue light, marked as reaching bile without conjugation. The enzyme box crossed out on the second route.
+Purpose: Teaches CON-HEM-167E007FE3D9EC and answers the type I question in the Key determinants section. Students learn the two treatments as a pair of names and cannot say why phototherapy still works when the enzyme is absent; drawing the bypass is what makes that difference legible.
+Priority: required
+Status: needed
+Section: Key determinants
+Kind: diagram
+Source direction: original diagram built from the department book's own account of phototherapy and of enzyme induction
+Rights: original work
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS (src_300847a5fa64809d6c07), printed pages 119 and 122 — the inducibility of glucuronyl transferase, the 20 mg/dL albumin carrying capacity and kernicterus, physiological neonatal jaundice with its mechanism, threshold and both treatments, and Gilbert syndrome.
+The 391-item department question book (src_07f0a0ff41addf826c7f) is the only source held here for Crigler-Najjar itself. It establishes what the department asks and is not evidence that a statement is medically true; everything in this article that comes from it alone is marked as such in the prose and in evidence_gaps.
+
+## evidence_gaps
+No claim, citation or span is authored for this article; claim_ids and span_ids are deliberately empty and the evidence chain is owed before publication.
+The department textbook does not describe Crigler-Najjar syndrome at all. The two types, the completeness of each deficiency, the autosomal recessive inheritance of type I and the phenobarbital responses rest on the department question book and its printed key, and no clinical reference has been attached for them. This is the largest gap in the batch.
+The book gives 13 mg/dL as the level physiological neonatal jaundice usually does not reach, and gives no management threshold, so nothing here states when phototherapy should be started.
+The book says "the first few days of life" without a day of onset or a duration, and says nothing about preterm infants.
+The book's account of Gilbert syndrome is two sentences long and gives no bilirubin range, no inheritance and no trigger.
+
+## conflicts
+The department textbook and the department question book do not agree on what this topic contains. The textbook's list of inherited unconjugated hyperbilirubinaemias stops at Gilbert syndrome; the question book sets three items on Crigler-Najjar, including a compare-between item on its own printed page 133. Neither position is overruled here: the article teaches the question book's content, states that the textbook does not carry it, and leaves the reconciliation to a faculty reviewer.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to carry the Metabolism Of Heme MCQs on the named unconjugated hyperbilirubinaemia syndromes — Crigler-Najjar type I, physiological neonatal jaundice, and the kernicterus item that turns on both. Separated from ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN because the syndromes are conditions and the catabolism article is a pathway, and separated from the already-authored ART-103-BIO-JAUNDICE-AND-BILIRUBIN because that article owns the three-way laboratory classification and this one owns the named conditions. TPL-CONCEPT rather than TPL-CONDITION: TPL-CONDITION would require an epidemiology and a prognosis section for three conditions the department book gives no figures for at all, and filling them would mean inventing.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T07 for this material; the book's own chapter and section names are carried by module_subject, which is finer than any nanotopic here would be.
+questionIds: The MCQs that test this article are authored in ../question/103-BMS-MCQ-protein-heme.md and already name this article in their library_ids. The back-reference is owed and is listed in the hand-off report; it is left empty rather than filled with IDs before that file is applied.
+media: No rights-cleared asset exists for any of this material. What is needed is requested in media_recommendations. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL and be reported as one that would be dropped.
+calloutEvidence: Present and deliberately empty. Every hold_these and lose_the_mark line above would be gated on a claim, and no claim is authored for this batch — see claimIds. The Crigler-Najjar lines could not be gated in any case until a source for the syndrome is in the evidence store.
+claimIds: Deliberately empty. The evidence chain for this batch is a separate scope; no claim file is authored beside it, and inventing claim IDs is forbidden.
+spanIds: Deliberately empty for the same reason. A span ties one sentence to the claims that support it, so it cannot be authored before the claims are.
+publishedSummary: Nothing is published yet. The published fields are filled by the publication step, not by the author.
+publishedSections: Nothing is published yet, for the same reason.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.

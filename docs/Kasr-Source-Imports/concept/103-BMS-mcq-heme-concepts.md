@@ -992,7 +992,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
-canonicalKey: The ID is fixed — question QM-103-C7A4FB0C4A9E-class item on printed page 138 already names it in main_concept — so the key was written to describe the concept, not minted from. It does not hash to this ID under mint-concept-id.mjs. Do not re-mint from it.
+canonicalKey: The ID is fixed — question QM-103-A29E6566AF73, "In the liver, bilirubin is conjugated with:", already names it in main_concept — so the key was written to describe the concept, not minted from. It does not hash to this ID under mint-concept-id.mjs. Do not re-mint from it.
 microtopicId: The book's own section, "HEME CATABOLISM — B) Liver", is already the leaf named in module_subject; the canonical tree has nothing finer than DIS-BIO-T07 here.
 nanotopicId: No nanotopic exists below this level in the biochemistry branch.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
@@ -1386,3 +1386,378 @@ conflicts: None found. The three directional statements sit in three different s
 exclusionReason: Not excluded. Printed pages 120 to 122 are outside the cancelled range.
 rejectedMergeCandidateIds: CON-HEM-F2B664C215C912, live and updated in ./103-BMS-biochemistry-concepts.md, says haemolytic anaemia is excessive RBC haemolysis and often has jaundice, and its definition already mentions that stercobilin increases in the faeces. Not merged — that record is about the anaemia and its jaundice, and mentions the stool in passing, while this concept is about what governs stercobilinogen in all three directions, including the two in which it falls. Folding this into it would bury the obstructive and hepatocellular halves inside a haemolysis record. CON-GIT-A265DD7A7CC8EF says that in obstructive jaundice the stool is clay coloured and the urine dark. Also not merged, and deliberately not duplicated: it owns the obstructive picture, this concept owns the general rule, and the two are cross-linked instead.
 relationships: Walked the live CON-HEM- namespace by label text, including the twelve live anaemia records, both pending jaundice concepts, and the eight minted beside this one. Five loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file — and an investigated_by edge from CON-GIT-4A2A86832F1FF2 to this concept, plus a mechanism_step_before edge from CON-HEM-7A26AE75471EF8, are owed.
+
+---
+
+# Item
+
+## label
+Crigler-Najjar type I is a complete loss of glucuronyl transferase, and that completeness is why phenobarbital cannot help
+
+## id
+CON-HEM-20178168A8FCF0
+
+## canonical_key
+hyperbilirubinaemia.crigler-najjar.type-i-versus-type-ii
+
+## aliases
+Crigler-Najjar syndrome
+Crigler-Najjar syndrome type I
+Crigler-Najjar syndrome type II
+Crigler Najjar
+Inherited unconjugated hyperbilirubinaemia
+Gilbert syndrome
+
+## arabic_label
+متلازمة كريجلر-نجار من النوع الأول
+
+## arabic_aliases
+متلازمة كريجلر نجار النوع الثاني
+متلازمة جيلبرت
+
+## definition
+Crigler-Najjar type I is an autosomal recessive, complete or near-complete absence of UDP-glucuronyl transferase, so almost no bilirubin can be conjugated; serum unconjugated bilirubin climbs past the albumin carrying capacity of about 20 mg/dL and kernicterus is the expected outcome. Type II is a partial deficiency with residual enzyme activity, and the bilirubin generally stays below that threshold. The discriminator worth holding is the response to phenobarbital: the drug works by inducing glucuronyl transferase, and induction can only increase the amount of an enzyme the cell is still able to make, so patients with type I do not respond while patients with type II do.
+
+## explicit_objective
+Distinguish Crigler-Najjar type I from type II by completeness of enzyme deficiency, serum bilirubin level, inheritance and response to phenobarbital, and explain from the mechanism of induction why an inducer cannot rescue a complete deficiency.
+
+## pitfalls
+Learning the two types as an arbitrary pair of descriptions and then guessing at the phenobarbital row. The reasoning runs the other way: decide first whether any enzyme remains, and the drug response, the bilirubin level and the kernicterus risk all follow. The second error is calling type I autosomal dominant — a complete loss of activity needs two defective alleles, since one working allele would leave residual enzyme, which is type II.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+inferred
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-HEM-T01-S01 | SYS-GIT-T06
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## article_ids
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## related_article_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## related_concept_ids
+CON-HEM-167E007FE3D9EC | CON-HEM-7A26AE75471EF8 | CON-HEM-C87C15A849F158 | CON-GIT-4A2A86832F1FF2
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.6
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.7
+
+## exam_signal
+src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q12 and p139 q16, plus a compare-between item on p133 | 103 BMS
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+"Glucuronylansferase is induced by certain drugs, e.g., phenobarbital, and by glucose."
+"If the plasma level of this bilirubin exceeds the carrying capacity of albumin (about 20 mg/dL), it passes the blood brain barrier (due to its hydrophobic nature) and produces brain damage or 'kernicterus'."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## uncertainty
+The department textbook does not describe Crigler-Najjar at all. Its account of the inherited unconjugated hyperbilirubinaemias stops at Gilbert syndrome, which it calls a defect in the uptake of unconjugated bilirubin by the liver and in the conjugation pathways. Everything specific to Crigler-Najjar in this concept — the two types, the completeness of the deficiency, the autosomal recessive inheritance, the 20 mg/dL discriminator applied to type II, and the failure to respond to phenobarbital — comes from the question book and its printed answer key, not from the textbook. Whether the department expects the Gilbert-versus-Crigler-Najjar distinction in the written paper is therefore not settled by any source held here.
+
+## conflicts
+[clear]
+
+## evidence_gaps
+This is the largest source gap in the batch and it is stated rather than smoothed over. The textbook supports only the two mechanisms the concept turns on — that glucuronyl transferase is inducible by phenobarbital, and that unconjugated bilirubin above about 20 mg/dL crosses into the brain — and supports neither the syndrome nor its subtypes. No independent clinical reference has been attached and no evidence claim is authored for this concept in this batch. Support_mode is inferred because the concept is assembled from two textbook mechanisms plus a question book that states what is asked rather than what is true.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+canonicalKey: The ID is fixed — question "Crigler-Najjar Syndrome, type I is characterized by:" already names it in main_concept — so the key was written to describe the concept, not minted from. It does not hash to this ID under mint-concept-id.mjs. Do not re-mint from it.
+microtopicId: The book's own section, "Jaundice (Icterus or Hyperbilirubinemia)", is already the leaf named in module_subject; the canonical tree has nothing finer than DIS-BIO-T07 here.
+nanotopicId: No nanotopic exists below this level in the biochemistry branch.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+atomicClaimIds: Deliberately empty. The evidence chain for this batch is a separate scope and no claim is authored here. This concept in particular must not borrow one: the textbook does not teach the syndrome, so any claim attached to it would be about a neighbouring fact.
+resourceOccurrenceIds: Hand-authored from the department question book, with the two supporting mechanisms taken from the textbook; no corpus extraction record exists.
+sourceCandidateIds: Searched live state by label text for "Crigler", "Gilbert", "kernicterus" and "glucuronyl". "Gilbert" and "glucuronyl" return nothing at all, "kernicterus" returns only the pending question in this lane, and "Crigler" returns nothing live. No corpus candidate exists.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+mergeIds: Nothing was folded into this record.
+conflicts: None found. The textbook is silent on Crigler-Najjar rather than contradicting the question book, which is a gap and is recorded in uncertainty and evidence_gaps rather than as a conflict.
+exclusionReason: Not excluded. Jaundice on printed pages 121 to 123 is outside the cancelled range, and the question book sets three items that turn on this material.
+rejectedMergeCandidateIds: Deliberately empty. Searching live state by label text for "Crigler", "Gilbert", "kernicterus", "glucuronyl" and "conjugation" returned no live record close enough to be a merge candidate — inherited hyperbilirubinaemia is absent from live state. The nearest records are CON-HEM-7A26AE75471EF8, new in this batch and a prerequisite rather than a duplicate, and the pending CON-GIT-4A2A86832F1FF2, which classifies acquired jaundice by laboratory pattern and is recorded as a near-miss on CON-HEM-167E007FE3D9EC instead.
+relationships: Walked the live CON-HEM- namespace by label text, both pending jaundice concepts and the eight minted beside this one. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file — and a contrasts_with edge to CON-HEM-167E007FE3D9EC and a prerequisite_of edge from CON-HEM-7A26AE75471EF8 are the two most worth writing, since the pair is exactly the phenobarbital-responds-or-not comparison the question book sets.
+
+---
+
+# Item
+
+## label
+Physiological neonatal jaundice has two causes at once, is transient, and usually stays below 13 mg/dL
+
+## id
+CON-HEM-167E007FE3D9EC
+
+## canonical_key
+hyperbilirubinaemia.physiological-neonatal-jaundice.two-causes-and-threshold
+
+## aliases
+Physiological neonatal jaundice
+Physiologic neonatal jaundice
+Neonatal jaundice
+Phototherapy
+Blue fluorescent light
+Photoisomers of bilirubin
+
+## arabic_label
+اليرقان الفسيولوجي عند حديثي الولادة
+
+## arabic_aliases
+يرقان المواليد
+العلاج بالضوء الأزرق
+
+## definition
+Physiological neonatal jaundice is a transient condition of the first few days of life, and it results from two things happening together: increased haemolysis, as the large fetal red cell mass is broken down, and immaturity of the enzyme UDP-glucuronyl transferase, so that disposal is slow at the same time that production is high. It is transient because the enzyme matures. Serum bilirubin usually does not reach 13 mg/dL, and that ceiling is what makes the picture recognisable at the cot side. Treatment is exposure to blue fluorescent light — phototherapy — which converts the insoluble unconjugated bilirubin into more soluble photoisomers that can be excreted into bile without conjugation to glucuronic acid at all; phenobarbital may also be used, to induce the synthesis of glucuronyl transferase.
+
+## explicit_objective
+State the two mechanisms that produce physiological neonatal jaundice, give the serum bilirubin ceiling that fits the physiological picture, and explain why phototherapy still works when the conjugating enzyme is immature.
+
+## pitfalls
+Reversing the inequality and expecting serum bilirubin in physiological jaundice to *exceed* 13 mg/dL. It usually does not reach it; a bilirubin climbing past that figure demands a cause, because the albumin carrying capacity of about 20 mg/dL is the line beyond which kernicterus follows. A student who has this backwards will reassure a family about a baby who needs treating. The second error is thinking phototherapy works by helping conjugation — it bypasses conjugation entirely.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+haem
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-HEM-T01-S01 | SYS-GIT-T06
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## article_ids
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## related_article_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## related_concept_ids
+CON-HEM-20178168A8FCF0 | CON-HEM-7A26AE75471EF8 | CON-HEM-C87C15A849F158 | CON-GIT-4A2A86832F1FF2
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.8
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## exam_signal
+src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q15 | 103 BMS
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+"It results partly from increased hemolysis and partly from immaturity of the enzyme UDP-glucuronyltransferase."
+"Serum bilirubin usually does not reach 13 mg/dL."
+"Exposure to blue, fluorescent light (phototherapy) helps conversion of the insoluble form of unconjugated bilirubin to the more soluble photoisomers that can be excreted into the bile without conjugation to glucuronic acid."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+CON-GIT-4A2A86832F1FF2
+
+## uncertainty
+The book says "the first few days of life" without giving a day of onset or a duration, and gives 13 mg/dL as what the bilirubin usually does not reach without saying what to do when it does. It also does not say whether the figure differs for a preterm infant.
+
+## conflicts
+[clear]
+
+## evidence_gaps
+Supported by the department book only. No independent verification against a paediatrics or clinical chemistry reference has been attached, and no evidence claim is authored for this concept in this batch. The book gives no management threshold, so nothing here states when phototherapy should be started.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+canonicalKey: The ID is fixed — question "Which of the following is NOT a characteristic of physiologic neonatal jaundice:" already names it in main_concept — so the key was written to describe the concept, not minted from. It does not hash to this ID under mint-concept-id.mjs. Do not re-mint from it.
+microtopicId: The book's own section, "Jaundice (Icterus or Hyperbilirubinemia)", is already the leaf named in module_subject; the canonical tree has nothing finer than DIS-BIO-T07 here.
+nanotopicId: No nanotopic exists below this level in the biochemistry branch.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+atomicClaimIds: Deliberately empty. The evidence chain for this batch is a separate scope and no claim is authored here.
+resourceOccurrenceIds: Hand-authored from the department textbook and question book; no corpus extraction record exists.
+sourceCandidateIds: Searched live state by label text for "neonatal jaundice", "phototherapy", "kernicterus" and "neonatal". The "neonatal" hits are all Group-B streptococcus and gonococcal conjunctivitis records from the infectious-disease lane; nothing bears on bilirubin. No corpus candidate exists.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+mergeIds: Nothing was folded into this record.
+conflicts: None found. The book states the mechanism, the threshold and both treatments once each and does not contradict itself.
+exclusionReason: Not excluded. Jaundice on printed pages 121 to 123 is outside the cancelled range.
+rejectedMergeCandidateIds: CON-GIT-4A2A86832F1FF2, pending in ./103-BMS-biochemistry-concepts.md, says the three jaundices are told apart by which bilirubin rises and which enzyme rises with it. Not merged, and deliberately not duplicated — that concept is the laboratory classification of acquired jaundice in an adult, and this one is a named neonatal condition with its own mechanism, threshold and treatment. Physiological neonatal jaundice does sit inside that concept's unconjugated category, which is why the two are cross-linked; folding them together would put a paediatric management fact inside a table of serum patterns.
+relationships: Walked the live CON-HEM- namespace by label text, the three live neonatal records in the infectious-disease lane, both pending jaundice concepts and the eight minted beside this one. Four loose neighbours are in related_concept_ids. No typed edges are written — this batch authors no relations file — and a contrasts_with edge to CON-HEM-20178168A8FCF0, a causes edge from CON-HEM-7A26AE75471EF8 read in the negative, and a treated_by edge to phototherapy once that has a concept of its own, are all owed.

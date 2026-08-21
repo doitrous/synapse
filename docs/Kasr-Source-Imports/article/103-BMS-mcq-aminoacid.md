@@ -187,6 +187,7 @@ Calling glycine ketogenic.
 CON-FND-38F3A09255526F | CON-REN-339CFAB4C81D12 | CON-FND-58FAD64EEA965B | CON-NEU-46F59E9C3EA406
 
 ## related_articles
+ART-103-BIO-SULFUR-AMINO-ACIDS: the other half of this chapter — cysteine, which shares glutathione and bile salt conjugation with glycine, and methionine as the methyl donor
 ART-103-BIO-PHENYLKETONURIA: the other inborn error of amino acid metabolism this course teaches, and the one whose damage is neurological rather than renal
 ART-103-BIO-NITROGEN-BALANCE: where the amino group goes once transamination has moved it onto glutamate
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: the one-carbon pool glycine feeds, and the folate coenzymes that carry it
@@ -298,5 +299,278 @@ media: No rights-cleared asset exists for any of this material. What is needed i
 publishedSummary: Nothing is published yet. The published fields are filled by the publication step, not by the author.
 publishedSections: Nothing is published yet, for the same reason.
 moduleSubject: The article spans three of the book's sections and the field takes one path, so it carries Glycine, the section the first and largest group of concepts sits under. Each concept carries its own exact path.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## title
+The sulfur amino acids: cysteine's six derivatives, methionine as the methyl donor, and the two diseases whose names look alike
+
+## arabic_title
+الأحماض الأمينية الكبريتية: السيستئين والميثيونين
+
+## aliases
+Sulfur containing amino acids
+Cysteine
+Methionine
+S-adenosylmethionine
+Homocystinuria
+Cystinuria
+Trans-sulfuration pathway
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Individual amino acid Metabolism
+
+## microtopic
+Sulfur Containing Amino Acids (Cysteine and Methionine)
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Two amino acids, one sulfur atom passed between them, and two diseases whose names are close enough to be confused and whose mechanisms are opposites. Methionine is essential and carries the sulfur in; cysteine is non-essential and is built from methionine's sulfur and serine's carbon skeleton by the trans-sulfuration pathway. Everything the department examines follows from that arrangement. Cysteine's six derivatives are six different uses of a thiol group. Methionine's one great function is to donate a methyl group as S-adenosylmethionine, which turns it into homocysteine and makes the whole thing a cycle. Block the cycle's exit and you get homocystinuria, a metabolic disease with an abnormal plasma. Break the kidney's dibasic transporter and you get cystinuria, a transport disease with a normal plasma and a stone. Learn them as a pair or you will swap them in the exam.
+
+## sections
+### Definition
+The book groups cysteine and methionine together as the **sulfur containing amino acids**, and the grouping is not just chemical bookkeeping — the two are joined by a pathway that runs in one direction only.
+
+**Methionine is essential.** Nothing in the body makes it, so all its sulfur is dietary. It is glucogenic, and its catabolism runs through cystathionine, homoserine and α-ketobutyrate to propionyl-CoA, which becomes succinyl-CoA and then glucose.
+
+**Cysteine is non-essential**, because it is synthesised by the **trans-sulfuration pathway**: cystathionine synthase condenses homocysteine with serine to give cystathionine, and cystathionase splits cystathionine into homoserine and cysteine. Both enzymes require pyridoxal phosphate. Cysteine is glucogenic, being converted to pyruvate.
+
+Read the direction: methionine's sulfur can become cysteine's sulfur, but cysteine's sulfur can never become methionine's. That one-way arrow is why methionine is essential and cysteine is not — and why, when the pathway is blocked, cysteine becomes essential too.
+
+### Mechanism
+**Cysteine's derivatives are six uses of one thiol group**, and the department book lists them in order.
+
+Two molecules of cysteine are oxidised to form **cystine**, joined by a disulfide bond. The **thiol group** itself is a component of the active site of many enzymes. Cysteine provides the sulfate of **PAPS**, phosphoadenosyl-phosphosulfate or active sulfate, which is the sulfate donor for glycosaminoglycans, sulfolipids and detoxification reactions. It makes **thioethanolamine**, a component of coenzyme A. It makes **taurine**, mainly in liver cells, which — like glycine — is conjugated with bile acids and excreted in bile in the form of bile salts. And it is one of the three amino acids of **glutathione**, with glycine and glutamic acid.
+
+Glutathione earns its own paragraph in the book. It exists in an oxidised form, GS-SG, and a reduced form, GSH, and glutathione reductase converts one to the other. It matters for amino acid absorption through the mucosal cells of the intestine by the γ-glutamyl cycle; it is a powerful antioxidant, with glutathione peroxidase and glutathione reductase protecting the cell against hydrogen peroxide; and it is a cofactor in many enzymatic reactions, including methionine adenosyl transferase — the enzyme that makes SAM. So cysteine's last derivative is a cofactor for methionine's first reaction.
+
+**Methionine's function is to donate a methyl group.** Methionine adenosyl transferase, using ATP and glutathione, converts methionine to **S-adenosylmethionine**, the active form. A methyl transferase then hands SAM's methyl group to an acceptor, and the acceptor becomes the methylated product. The book's transmethylation examples are three: **ethanolamine → choline**, **noradrenaline → adrenaline**, and **N-acetylserotonin → melatonin**.
+
+Having given up its methyl group, SAM becomes S-adenosylhomocysteine, and a hydrolase releases adenosine from it to leave **homocysteine**. **Methionine synthase** then remethylates homocysteine back to methionine, using methylcobalamin and methyl-tetrahydrofolate — so the cycle closes, and the reason vitamin B12 and folate deficiency both raise homocysteine is that they both stall this one step. Methionine's other role is in the synthesis of protein and of the polyamines spermine and spermidine, which stabilise DNA and RNA by their multiple positive charges, participate in gene expression and act as growth factors in cell culture.
+
+### Key determinants
+Homocysteine sits at a **fork**, and everything clinical in this article is decided there. It can be remethylated back to methionine by methionine synthase, using B12 and THF. Or it can be committed onward down the trans-sulfuration pathway by cystathionine synthase, using PLP. Which arm fails decides which biochemical picture the patient has, and the discriminator is a single number.
+
+Block **cystathionine synthase** — by a defect in the enzyme, or by vitamin B6 deficiency — and homocysteine backs up. Because it cannot go forward, it is pushed back up the remethylation arm, so **methionine rises too**, and because the forward route is the only source of cysteine's carbon-plus-sulfur assembly, **cysteine falls** and becomes an essential amino acid in these patients.
+
+Block **methionine synthase** — by a defect in the enzyme, or by folate or B12 deficiency — and homocysteine also rises, but nothing pushes methionine up, so **plasma methionine is normal**. Both conditions excrete large amounts of homocystine, two homocysteine molecules joined by a disulfide linkage, and both are therefore called homocystinuria.
+
+For a SAM question the determinant is grammatical rather than metabolic: **name the acceptor, not the product**. Adrenaline, melatonin and choline are outputs; noradrenaline, N-acetylserotonin and ethanolamine are the inputs a question asking for "precursors" wants. A distractor list that mixes the two halves is the standard trap, and phosphatidylcholine offered as choline's precursor is the same error run backwards.
+
+### Clinical significance
+**Homocystinuria** is a group of autosomal recessive diseases involving defects in the metabolism of homocysteine, and the commonest cause is a cystathionine synthase defect. Raised homocysteine modifies LDL and collagen, and from those two modifications the book derives the whole clinical picture: endothelial injury, atherogenesis, coronary artery disease, thromboembolic disorders and hypertension; and osteoporosis, mental retardation, and dislocation or complete detachment of the eye lens. Treatment is restriction of methionine intake, a diet rich in cysteine, and supplementation with vitamins B6, B12 and folate — three vitamins because both arms of the fork are being supported at once. Homocysteinaemia short of the inherited disease carries the same vascular association, which is why the plasma level is measured at all.
+
+**Cystinuria** is the most common genetic error of amino acid transport, and it is not a disease of this pathway at all — it only looks like one. A genetic defect in the transporter of the **dibasic** amino acids means cystine, arginine, ornithine and lysine are not reabsorbed across the renal proximal tubules and are excreted in the urine. Cystine is the least soluble of the four, so it precipitates in the tubules, crystallises as the characteristic hexagonal crystals, and forms stones. The treatment is read straight off the mechanism: alkalinisation of the urine and plenty of fluids make cystine more soluble, so it is washed out rather than deposited.
+
+Hold the two side by side, because the exam does. **Homocystinuria is metabolic and the plasma is abnormal; cystinuria is transport and the plasma is normal.** Methionine is the amino acid behind the first and is the one amino acid conspicuously *absent* from the urine in the second — it is neutral, not dibasic, and a different transporter carries it. And a cystine stone forms because something soluble is not reabsorbed, which is the opposite of the oxalate and urate stones that form because something insoluble is overproduced.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Cysteine's six derivatives: cystine, enzyme thiol groups, the sulfate of PAPS, thioethanolamine of coenzyme A, taurine, and glutathione.
+Taurine and glycine are both conjugated with bile acids to make bile salts.
+Glutathione is glycine, cysteine and glutamic acid, and glutathione reductase interconverts GSH and GS-SG.
+SAM's three transmethylation examples: ethanolamine to choline, noradrenaline to adrenaline, N-acetylserotonin to melatonin.
+Methionine synthase remethylates homocysteine using vitamin B12 and methyl-THF, which is why B12 and folate deficiency raise homocysteine.
+Cystathionine synthase deficiency raises homocysteine AND methionine; methionine synthase deficiency raises homocysteine with methionine normal.
+Cystinuria is a defect of the dibasic amino acid transporter — cystine, arginine, ornithine and lysine in the urine, cystine stones, hexagonal crystals.
+Cystinuria is treated by alkalinising the urine and drinking plenty of fluids.
+
+## lose_the_mark
+Naming a methylated product where the question asks for the SAM acceptor.
+Confusing cystinuria with homocystinuria.
+Expecting methionine in the urine in cystinuria — it is neutral, not dibasic.
+Forgetting that plasma methionine is normal when the block is at methionine synthase.
+Choosing glutathione reductase as the enzyme behind raised homocysteine.
+Answering that cysteine is essential — it is essential only once the trans-sulfuration pathway is blocked.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-11F38A2B3E9B67 | CON-FND-3622E11F05032C | CON-FND-E8A570D41E7B8F | CON-REN-3DD1CADB68BB1B
+
+## related_articles
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN: the other half of this chapter — glycine, which shares glutathione and bile salt conjugation with cysteine, and the branched-chain group
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: B6, B12 and folate, the three vitamins this pathway fails without and the three the treatment supplies
+ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: where glutathione's antioxidant role is taught, with glutathione peroxidase and reductase
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Cysteine
+
+## university_notes
+kau: The Biochemistry department's 2025-2026 orientation cancels eleven items from the end-of-module and the final exam. Neither Cysteine (printed pages 96 to 97) nor Methionine (printed pages 98 to 99) is among them, and the department question book examines both heavily — nine of the chapter's sixteen items sit on this article. Two arms of the material touch cancelled ground and should not be revised as though examinable in their own right: serine, which supplies cysteine's carbon skeleton, is cancelled with alanine on printed page 92; and arginine and lysine, two of the four amino acids the cystinuria transporter carries, are cancelled on printed page 96. Neither cancellation reaches the disorders themselves.
+
+## annotations
+### definition_of · CON-FND-11F38A2B3E9B67
+Quote: It makes **taurine**, mainly in liver cells, which — like glycine — is conjugated with bile acids and excreted in bile in the form of bile salts. And it is one of the three amino acids of **glutathione**, with glycine and glutamic acid.
+Block: body
+
+### definition_of · CON-FND-3622E11F05032C
+Quote: A methyl transferase then hands SAM's methyl group to an acceptor, and the acceptor becomes the methylated product. The book's transmethylation examples are three: **ethanolamine → choline**, **noradrenaline → adrenaline**, and **N-acetylserotonin → melatonin**.
+Block: body
+
+### definition_of · CON-FND-E8A570D41E7B8F
+Quote: Block **cystathionine synthase** — by a defect in the enzyme, or by vitamin B6 deficiency — and homocysteine backs up.
+Block: body
+
+### definition_of · CON-REN-3DD1CADB68BB1B
+Quote: A genetic defect in the transporter of the **dibasic** amino acids means cystine, arginine, ornithine and lysine are not reabsorbed across the renal proximal tubules and are excreted in the urine.
+Block: body
+
+## media
+
+
+## media_recommendations
+### diagram · The methionine cycle with the fork at homocysteine
+Brief: A closed loop: methionine to SAM by methionine adenosyl transferase with ATP and glutathione; SAM to S-adenosylhomocysteine through a methyl transferase, with the three acceptor-product pairs branching off; SAH hydrolysed to homocysteine plus adenosine; and then the fork — one arrow back to methionine through methionine synthase labelled B12 and methyl-THF, one arrow forward to cystathionine through cystathionine synthase labelled PLP and serine. Each arm labelled with what its failure does to plasma methionine
+Purpose: Teaches CON-FND-3622E11F05032C and CON-FND-E8A570D41E7B8F together. That plasma methionine separates the two causes of homocystinuria is a consequence of where the block sits on a loop, and a reader who has only prose has to reconstruct the loop before the rule makes sense.
+Priority: required
+Status: needed
+Section: Key determinants
+Kind: diagram
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figures on printed pages 98 and 99, cited by locator
+Rights: must be CC-BY or public domain
+
+### comparison table · Cystinuria against homocystinuria
+Brief: Two columns with rows for mechanism (transport versus metabolic), plasma amino acids (normal versus abnormal), urine finding (cystine, arginine, ornithine, lysine with hexagonal crystals versus homocystine), organ damage (renal stones versus vascular, skeletal, ocular, neurological), and treatment (alkalinisation and fluids versus methionine restriction with B6, B12 and folate)
+Purpose: Teaches CON-REN-3DD1CADB68BB1B against CON-FND-E8A570D41E7B8F. The two are confused because of their names, and a side-by-side table is the only presentation in which the opposition of the mechanisms is the first thing a reader sees.
+Priority: required
+Status: needed
+Section: Clinical significance
+Kind: comparison table
+Source direction: original table built from the department book's own two disorder entries on printed pages 97 and 99
+Rights: original work
+
+### diagram · Cysteine's six derivatives from one thiol group
+Brief: Cysteine at the centre with six arrows: to cystine via a disulfide bond drawn between two cysteines; to an enzyme active-site SH; to PAPS labelled active sulfate, with GAGs, sulfolipids and detoxification beyond it; to thioethanolamine and on to coenzyme A; to taurine and on to bile salts, with glycine shown joining the same bile salt arrow; and to glutathione, drawn as the tripeptide with glycine and glutamic acid
+Purpose: Teaches CON-FND-11F38A2B3E9B67. The examined point is that six unrelated-looking molecules are all one atom's worth of chemistry, and a radial figure carries that where a numbered list reads as six things to memorise separately.
+Priority: strongly helpful
+Status: needed
+Section: Mechanism
+Kind: diagram
+Source direction: original diagram built from the department book's list on printed page 97
+Rights: original work
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS (src_300847a5fa64809d6c07), chapter VI "Individual Amino Acid Metabolism", the Sulfur Containing Amino Acids division, printed pages 96 to 99 (file pages 98 to 101), together with the Summary of Amino Acid Metabolism on printed pages 106 and 107.
+The 391-item department question book (src_07f0a0ff41addf826c7f) establishes which of this material is examined and how — printed pages 121 and 122, questions 8 to 16 — and is cited as curriculum signal only, never as evidence that a statement is medically true.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The book does not print guanidinoacetate anywhere, so the SAM reaction that makes creatine — which the question book asks and keys — is not in this article's transmethylation list. The book's list is the three reactions it prints, and the gap is recorded on CON-FND-3622E11F05032C rather than filled here.
+The book names cystinuria's transporter only as "the transporter of dibasic amino acids": no gene, no protein, no inheritance pattern, and no statement about the intestine.
+It gives no incidence for cystinuria despite calling it the most common genetic error of amino acid transport, and no incidence, age of presentation or genetic detail for homocystinuria beyond autosomal recessive.
+The claim that raised homocysteine causes atherogenesis is stated on the page and not evidenced there; no outcome data supports it in this source.
+The book does not say in words which atom of cysteine comes from serine and which from homocysteine; it prints the reaction and leaves the attribution to the reader.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to carry questions 8 to 16 of the Individual Amino Acid Metabolism chapter of the department question book — nine of the chapter's sixteen items, which is why this article is longer than its sibling. TPL-CONCEPT rather than TPL-CONDITION even though two named diseases sit in it: the article's subject is the sulfur pathway, and both disorders are taught by the book as consequences of it, under a "Metabolic Disorder of…" subheading rather than as chapters of their own. If the department later deepens either one, homocystinuria and cystinuria are each already carried by a concept and can be lifted into TPL-CONDITION articles without disturbing this one.
+
+## field_notes
+nanotopic: The canonical overlay stops at DIS-BIO-T05, whose only children are Core principles, Applied / clinical correlations and Practical and assessment. The book's own division and section names are carried by module_subject and microtopic, which are finer than anything the tree offers below this point.
+questionIds: The nine MCQs that test this article are authored in ../question/103-BMS-MCQ-protein-heme.md and already name this article in their library_ids. The back-reference is owed and is left as [clear] rather than filled with IDs before that file is applied.
+claimIds: Deliberately empty. The claim, citation and span chain for the Individual Amino Acid Metabolism chapter is a separate scope and is not authored in this batch; naming claim IDs here would point at records nothing creates.
+spanIds: Empty for the same reason as claimIds.
+calloutEvidence: Present and deliberately empty. Every line in hold_these and lose_the_mark is carried by the book pages named in evidence_basis, but a callout_evidence block must name a claim and a citation ID and this batch authors neither. Leaving the chain visibly owed is better than inventing IDs to fill it.
+media: No rights-cleared asset exists for any of this material. What is needed is requested in media_recommendations; the department book's own figures are faculty teaching material, cited by locator and not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL and be reported as one that would be dropped.
+publishedSummary: Nothing is published yet. The published fields are filled by the publication step, not by the author.
+publishedSections: Nothing is published yet, for the same reason.
+moduleSubject: The article spans the book's two sulfur amino acid sections and the field takes one path, so it carries Cysteine, the section the book opens the division with. Each concept carries its own exact path.
+spelling: British throughout — homocysteinaemia, cystinuria, alkalinisation, crystallises. The book itself prints American forms in places; the record follows house style rather than the book's orthography, and no quoted wording is altered.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
