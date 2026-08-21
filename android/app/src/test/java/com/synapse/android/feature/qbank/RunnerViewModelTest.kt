@@ -52,6 +52,16 @@ import org.robolectric.shadows.ShadowLog
  * read-modify-write path this task's brief describes actually works end to
  * end, not just that the right methods were called.
  */
+/**
+ * How long an `await*` helper waits for background writes to land. These are
+ * hang detectors, not deadlines -- every one of them polls a real database
+ * that a coroutine is writing to, so the only thing a tight bound buys is a
+ * failure on a loaded machine. [BULK_AWAIT_TIMEOUT] is for the waits that
+ * stand behind a couple of dozen writes rather than one or two.
+ */
+private const val AWAIT_TIMEOUT = 5_000L
+private const val BULK_AWAIT_TIMEOUT = 60_000L
+
 @RunWith(RobolectricTestRunner::class)
 class RunnerViewModelTest {
 
@@ -170,7 +180,7 @@ class RunnerViewModelTest {
      * so an existence check alone can return after only the first of
      * several async writes has landed.
      */
-    private suspend fun awaitIndex(minAttempts: Int = 1): AttemptIndex = withTimeout(5_000) {
+    private suspend fun awaitIndex(minAttempts: Int = 1, timeoutMillis: Long = AWAIT_TIMEOUT): AttemptIndex = withTimeout(timeoutMillis) {
         var index = store.document(AttemptStore.INDEX_KEY)?.json
             ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
         while (index == null || index.totals.attempts < minAttempts) {
@@ -182,7 +192,8 @@ class RunnerViewModelTest {
     }
 
     /** Same reasoning as [awaitIndex]: waits for a record count, not mere existence. */
-    private suspend fun awaitMonth(key: String, minRecords: Int): AttemptMonth = withTimeout(5_000) {
+    private suspend fun awaitMonth(key: String, minRecords: Int, timeoutMillis: Long = AWAIT_TIMEOUT): AttemptMonth =
+        withTimeout(timeoutMillis) {
         var month = store.document(key)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
         while (month == null || month.records.size < minRecords) {
             delay(5)
@@ -599,7 +610,14 @@ class RunnerViewModelTest {
             viewModel.commit()
         }
 
-        val month = runCatching { awaitMonth(monthKeyNow(), minRecords = questions.size) }.getOrNull()
+        // Twenty-four real read-modify-writes of the same shard, not the one
+        // or two every other await here waits on. The default budget is a
+        // hang detector at that size, not a deadline: this test has failed on
+        // a loaded machine with an empty shard purely because five seconds ran
+        // out. The assertion and the real I/O are unchanged -- only the bound.
+        val month = runCatching {
+            awaitMonth(monthKeyNow(), minRecords = questions.size, timeoutMillis = BULK_AWAIT_TIMEOUT)
+        }.getOrNull()
         assertEquals(
             "every checked answer must reach the shard; a lost one is a lost attempt",
             questions.map { it.id }.toSet(),
@@ -608,7 +626,7 @@ class RunnerViewModelTest {
         assertEquals(
             "the index folds once per record, so its total must match the shard",
             questions.size,
-            awaitIndex(minAttempts = questions.size).totals.attempts,
+            awaitIndex(minAttempts = questions.size, timeoutMillis = BULK_AWAIT_TIMEOUT).totals.attempts,
         )
     }
 }

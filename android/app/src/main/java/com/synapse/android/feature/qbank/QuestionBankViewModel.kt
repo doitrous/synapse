@@ -43,9 +43,8 @@ data class SubjectAccuracy(val subjectId: String, val marked: Int, val correct: 
  * The student's own standing in the bank -- a port of `YourQbank`
  * (`src/pages/student/QuestionBank.tsx:119-200`).
  *
- * Every figure here is derived from the attempt ledger, scoped to
- * `surface == "qbank"` -- Android carries no `"room"` surface, so [of] does
- * not fold one in the way the web's `YourQbank` does.
+ * Every figure here is derived from the attempt ledger, scoped to the
+ * surfaces a question can be answered on -- see [SURFACES].
  */
 data class QBankStats(
     val seen: Int,

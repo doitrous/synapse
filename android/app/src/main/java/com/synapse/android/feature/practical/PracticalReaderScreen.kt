@@ -109,7 +109,10 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
 
     // Re-runs after a configuration change. openStation refuses to re-seed a
     // run it already has open, which is what keeps the ticks and the clock.
-    LaunchedEffect(station.id) { viewModel.openStation(station.id, station.minutes) }
+    // A run already banked is not reopened at all: [finished] survives the
+    // rotation, so without this guard the effect would start a second clock
+    // behind the results the student is looking at.
+    LaunchedEffect(station.id) { if (!finished) viewModel.openStation(station.id, station.minutes) }
 
     val totalItems = station.markSections.sumOf { it.items.size }
 

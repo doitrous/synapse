@@ -278,6 +278,46 @@ class PracticalViewModelTest {
         assertEquals(setOf("sec1:0"), viewModel.ticks.value)
     }
 
+    /**
+     * The other half of the rotation guard: [PracticalViewModel.openStation]
+     * refuses a station it already has open, so banking a run has to close
+     * it -- otherwise the next open resumes the run the student just handed
+     * in, part-spent clock and all.
+     *
+     * What this can reach is the invariant, not the rotation. The way the
+     * two came apart was in the reader: `finished` survives a configuration
+     * change, its `LaunchedEffect` did not check it, and so turning the
+     * phone on the results screen reopened the banked run behind them. That
+     * is a Compose-layer fact, and the branch has no Compose test harness to
+     * put it in front of -- see the reader's own comment.
+     */
+    @Test
+    fun `finishing a station closes the run, so the next open starts a new one`() = runBlocking {
+        seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1","m2"]}]"""))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("sec1:0", true)
+        // Let the clock run, so a run-down one would be visible in the assertion.
+        withTimeout(5_000) { viewModel.remaining.first { it < 8 * 60 } }
+        viewModel.finishStation("os-1", marks = 1, outOf = 2)
+        awaitDocument(PRACTICAL_PROGRESS_KEY)
+        // Banking also logs the attempt, on a coroutine this test does not
+        // own. Wait for it here rather than letting teardown close the
+        // database underneath it and print a stack trace nothing asserts on.
+        awaitMonth(minRecords = 1)
+
+        // A tick that was never banked. If the next open re-seeds from disk
+        // it disappears; if the run is still thought to be open it does not.
+        viewModel.tick("sec1:1", true)
+
+        viewModel.openStation("os-1", minutes = 8)
+
+        assertEquals("a new run seeds from the banked one", setOf("sec1:0"), viewModel.ticks.value)
+        assertTrue("and starts on a full clock", viewModel.remaining.value >= 8 * 60 - 1)
+    }
+
     @Test
     fun `finishing a self-ticked station writes an attempt with a null mark`() = runBlocking {
         seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1"]}]"""))

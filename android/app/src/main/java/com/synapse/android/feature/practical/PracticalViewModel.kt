@@ -200,6 +200,11 @@ class PracticalViewModel(
         if (finishedStation == stationId) return
         finishedStation = stationId
         tickerJob?.cancel()
+        tickerJob = null
+        // Banking the run closes it. Leaving [openStationId] set would say a
+        // run is still open, and the next [openStation] for this station
+        // would then have to be told apart from a reopen by the ticker alone.
+        openStationId = null
 
         val checkedItems = _ticks.value.toList()
         val elapsedSeconds = maxOf(0, openStationMinutes * 60 - _remaining.value)

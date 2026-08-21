@@ -65,9 +65,9 @@ class SyncEngine(
      *
      * Order: the shared catalogue (manifest-diffed) → the per-student
      * documents the qbank and practical surfaces read, plus the attempt
-     * ledger's index and the two most recent month shards (precedence-
-     * checked, since these are the ones a student can also have edited
-     * offline) → whatever is still waiting in the outbox.
+     * ledger's index and its [AttemptStore.HISTORY_MONTHS] most recent month
+     * shards (precedence-checked, since these are the ones a student can also
+     * have edited offline) → whatever is still waiting in the outbox.
      */
     suspend fun refresh() {
         if (!refreshMutex.tryLock()) return
@@ -195,7 +195,8 @@ class SyncEngine(
 
     /**
      * Pulls the per-student documents the qbank and practical surfaces read,
-     * plus the attempt ledger's index and its two most recent month shards.
+     * plus the attempt ledger's index and its [AttemptStore.HISTORY_MONTHS]
+     * most recent month shards.
      * Unlike the catalogue there is no manifest for these — each is a
      * request of its own — so [StatePrecedence] is what keeps an offline
      * edit from being clobbered by a server copy that has not seen it yet.
