@@ -12,6 +12,14 @@
  * what decreases, one what increases — and they are kept as a pair, because a
  * student who has learnt that brown fat is a newborn's tissue should be able to
  * answer both and a student who has only memorised one answer should not.
+ *
+ * Two rows from the sat end-of-module papers are added at the end, both live. The
+ * tendon row is one of the few in the histology half of this batch whose answer was
+ * recovered from a marked script — high confidence, and agreeing with the
+ * department book — and the loose areolar row is worked from the book, which says
+ * the tissue is found everywhere in the body except the brain.
+ * `dense-white-fibrous-ct-regular-versus-irregular` is copied verbatim from
+ * `connective-tissue-cells.ts`, where it is minted.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -80,6 +88,19 @@ export const LEAF: McqLeafSeed = {
       subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
       modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
       type: 'classification',
+    },
+    {
+      key: 'dense-white-fibrous-ct-regular-versus-irregular',
+      label: 'Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction',
+      definition:
+        'Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance. It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland. Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.',
+      objective: 'Tell dense regular from dense irregular white fibrous connective tissue on a section and name a site of each.',
+      pitfall: 'Reading "densely packed collagen with few cells" as regular. That much is true of both; the word that decides it is whether the bundles run one way or many, and a capsule or a gland stroma is surrounded from all sides and so is irregular.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T02',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
+      type: 'comparison',
     },
   ],
 
@@ -298,6 +319,36 @@ export const LEAF: McqLeafSeed = {
         B: 'Yellow describes bone marrow and elastic connective tissue, not a type of fat cell.',
         C: 'Grey is not one of the department\'s two types of adipose tissue.',
         D: 'Correct. Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.',
+      },
+    },
+    {
+      key: 'the-followin-e-of-connective-tissue-c-t-is-widely-distribute-815ee14d',
+      conceptKey: 'loose-areolar-ct-sites-and-functions',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the type of connective tissue proper found everywhere in the body.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.',
+      explanations: {
+        a: 'Irregular white fibrous connective tissue is a dense type, sited in the reticular layer of the dermis, in ligaments, in the sclera and in organ capsules. It is widespread but it is not everywhere, and it is dense rather than loose.',
+        b: 'Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and the book says it is found everywhere in the body except the brain.',
+        c: 'Yellow elastic connective tissue is confined to places that must recoil: the aorta, the trachea and bronchi, the vocal cords and three named ligaments.',
+        d: 'Regular white fibrous connective tissue is tendon and cornea — collagen bundles laid parallel to withstand pull in one direction. Its whole point is that it is specialised to a site.',
+      },
+    },
+    {
+      key: 'the-type-of-c-t-in-tendons-is-tetaedseouserssides-olte-790b9105',
+      conceptKey: 'dense-white-fibrous-ct-regular-versus-irregular',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the connective tissue of a tendon and say how its fibres are arranged.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.',
+      explanations: {
+        a: 'Correct, and confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.',
+        b: 'Yellow elastic connective tissue recoils after stretching and is found in the aorta, the trachea and the ligamentum flavum. A tendon that stretched and recoiled would waste the muscle\'s pull.',
+        c: 'Mucoid connective tissue is the soft jelly of the umbilical cord, the vitreous and the dental pulp. It is the least resistant tissue in the chapter.',
+        d: 'Adipose connective tissue stores fat, insulates and supports organs. It is a packing tissue and carries no load.',
       },
     },
   ],

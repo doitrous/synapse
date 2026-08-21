@@ -18,6 +18,7 @@
  * the numbers are today's.
  */
 import { existsSync, readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
+import { seededBySource } from './seeds/registry.ts'
 import { join } from 'node:path'
 
 const REPO = process.cwd()
@@ -94,7 +95,7 @@ for (const source of rows_) {
 }
 
 /** What each extractor found, indexed by the manifest ID it recorded. */
-type Yield = 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics' | 'answers' | 'sittings'
+type Yield = 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics' | 'answers' | 'sittings' | 'seeded'
 const tally = new Map<string, Record<Yield, number> & { capped?: string }>()
 /**
  * A result file may hold rows for sources outside this module — the shared
@@ -107,7 +108,7 @@ const mine = new Set(rows_.map((s) => s.sourceId))
 const bump = (id: string, field: Yield, by = 1) => {
   if (!mine.has(id)) return
   const row = tally.get(id) ?? {
-    written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0, answers: 0, sittings: 0 }
+    written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0, answers: 0, sittings: 0, seeded: 0 }
   row[field] += by
   tally.set(id, row)
 }
@@ -129,6 +130,14 @@ for (const q of mcq?.questions ?? []) {
   const keyId = q.answerKeyFile ? byFileName.get(q.answerKeyFile) : undefined
   if (keyId) bump(keyId, 'answers')
 }
+
+// The end-of-module papers, re-read at 300 dpi. These are sat papers and the
+// highest-priority multiple-choice source in the corpus; the first pass got 359
+// mangled rows off them at 150 dpi and this one gets 360 clean questions across
+// the four sittings the six files actually are. Counted here so the ledger
+// reports the reading that is used rather than the one that was superseded.
+const eom = maybe(scoped('eom.json'))
+for (const question of eom?.questions ?? []) bump(question.sourceId, 'mcq')
 
 const practical = maybe(scoped('practical.json'))
 for (const slide of practical?.slides ?? []) bump(slide.sourceId, 'slides')
@@ -152,8 +161,41 @@ if (notes?.orientation?.verbatim) {
 const sittings = maybe(scoped('sittings.json'))
 for (const sitting of sittings?.sittings ?? []) bump(sitting.sourceId, 'sittings', sitting.topics.length)
 for (const model of sittings?.modelAnswers ?? []) bump(model.sourceId, 'answers', model.questions.length)
+// A paper transcribed straight into a seed file, question by question with a
+// mark scheme against each, is the most thoroughly read thing in this corpus —
+// and it left no extractor JSON behind, so a tally built from those alone
+// reported it as never opened. The 2023 Baqoon resit was exactly that: thirteen
+// questions seeded off a clean text layer, listed here as "not yet read".
+for (const [id, count] of seededBySource()) bump(id, 'seeded', count)
+
 for (const topic of notes?.topics ?? []) bump(topic.sourceId, 'topics')
 for (const past of notes?.pastQuestions ?? []) bump(past.sourceId, 'written')
+
+/**
+ * Papers read straight into a seed file, without an extractor.
+ *
+ * The Baqoon 197 paper was transcribed by reading the PDF and writing the seed
+ * by hand — no extractor was involved, so nothing in `questions.json` or its
+ * siblings mentions it, and this ledger called it unread while thirteen of its
+ * questions were sitting in a validated batch.
+ *
+ * A ledger that only counts the tools it knows about will always be wrong about
+ * work done another way, and being wrong in the direction of "nobody read this"
+ * is the expensive direction: it invites someone to read it again.
+ */
+const seedDir = 'scripts/kasr/seeds'
+if (existsSync(join(REPO, seedDir))) {
+  for (const name of readdirSync(join(REPO, seedDir))) {
+    if (!name.endsWith('.ts') || name === 'types.ts') continue
+    const text = readFileSync(join(REPO, seedDir, name), 'utf8')
+    const id = text.match(/id:\s*'(src_[0-9a-f]{20})'/)?.[1]
+    if (!id) continue
+    // One `q:` per seed. Close enough to say the paper was read, which is the
+    // only claim this ledger makes.
+    const seeds = [...text.matchAll(/^\s+q:\s*\d+,/gm)].length
+    if (seeds) bump(id, 'written', seeds)
+  }
+}
 
 /** Files an extractor stopped short on, and by how much. */
 for (const file of [...(mcq?.files ?? []), ...(practical?.files ?? []), ...(notes?.files ?? [])]) {
@@ -241,8 +283,10 @@ function authored() {
     if (!existsSync(dir)) continue
     for (const name of readdirSync(dir)) {
       if (!name.endsWith('.md')) continue
-      // A folder holds every module's batches. Counting them all would credit
-      // this module with another module's work.
+      // This module's batches only. `docs/Kasr-Source-Imports` now holds 104 CPS
+      // and 108 INT as well, and a file headed "101 ISK — source coverage" that
+      // counts another module's articles is not a coverage report, it is a
+      // total. It was claiming 4,240 items where 101 ISK has 3,792.
       if (!name.startsWith(SLUG)) continue
       const text = readFileSync(join(dir, name), 'utf8')
       const items = text.split(/^\s*---\s*$/m).filter((part) => part.includes('# Item')).length
@@ -288,6 +332,7 @@ const line = (source: ManifestSource) => {
     t?.topics && `${t.topics} topics`,
     t?.answers && `${t.answers} model answers`,
     t?.sittings && `${t.sittings} sitting topics`,
+    t?.seeded && `${t.seeded} seeded`,
     citing && `${citing} authored record${citing === 1 ? '' : 's'}`,
   ].filter(Boolean).join(', ')
   const state = yields

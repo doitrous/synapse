@@ -37,8 +37,35 @@ if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with
  * `--with` names those siblings explicitly. It widens what counts as existing;
  * it never suppresses an error, and a file not named here still has to be real.
  */
-const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
-  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+const rest = process.argv.slice(3)
+
+// A `--with` list built in a shell variable arrives as ONE argument, not many:
+// zsh does not word-split an unquoted expansion, and `npm run … -- $vars` has
+// the same effect. The old parser matched `arg === '--with'`, found nothing,
+// and validated against an empty sibling set — reporting hundreds of errors on
+// a batch that is clean, or none on one that is not, with nothing said either
+// way. It has now cost three sessions a wrong measurement, including mine.
+//
+// So this errors on anything it cannot read rather than skipping it. A parser
+// that silently ignores what it does not recognise loses the thing it was given.
+for (const arg of rest) {
+  if (arg === '--with' || rest[rest.indexOf(arg) - 1] === '--with') continue
+  if (arg.includes('--with')) {
+    throw new Error(
+      `Sibling list arrived as one argument:\n  ${arg.slice(0, 120)}${arg.length > 120 ? '…' : ''}\n\n`
+      + 'The shell did not split it. In zsh an unquoted `$vars` is a single word — build an array instead:\n'
+      + '  args=(); for f in docs/.../concept/*.md; do args+=(--with "$f"); done\n'
+      + '  node --experimental-strip-types scripts/validate-content-batch.mjs <batch> "${args[@]}"\n'
+      + 'and check the output says "N rows treated as pending import" before trusting an error count.')
+  }
+  throw new Error(`Unrecognised argument "${arg}". Only --with <file> is accepted after the batch path.`)
+}
+
+const alongside = rest.reduce((files, arg, index, argv) => {
+  if (arg === '--with') {
+    if (!argv[index + 1]) throw new Error('--with was given with no file after it')
+    files.push(argv[index + 1])
+  }
   return files
 }, [])
 
@@ -262,7 +289,15 @@ if (kind === 'question') {
       // against, and `markWritten` scores a part with no points as zero.
       const parts = data.writtenParts ?? []
       if (!parts.length) {
-        errors.push(`${where}: no written_parts — a written question with no parts cannot be marked`)
+        // Distinguish an empty column from one whose headings did not parse.
+        // Both leave a question unmarkable, but only one is an authoring
+        // omission — the other is a heading shape the parser does not know,
+        // and saying "no written_parts" about a column full of them sends the
+        // author looking in the wrong place.
+        const headings = (values.written_parts ?? '').split('\n').filter((line) => line.trim().startsWith('###')).length
+        errors.push(headings
+          ? `${where}: written_parts has ${headings} "###" heading${headings === 1 ? '' : 's'} and none of them parsed — check the label and marks format`
+          : `${where}: no written_parts — a written question with no parts cannot be marked`)
       }
       for (const part of parts) {
         if (!part.expectedPoints.length) {
@@ -544,17 +579,12 @@ if (kind !== 'concept') {
   // tried and broke the moment a span batch and its claims lived in files with
   // different stems.
   const dir = dirname(file)
-  //
-  // Reading the directory finds the claim a citation names, because both live in
-  // `evidence/`. It does not find the *concept* a claim names, because concepts
-  // live one directory over in `concept/` — so every claim in a batch authored
-  // before its concepts are imported failed with `Concept CON-… does not exist`
-  // for a concept sitting in the same batch, correctly written. `--with` is the
-  // documented answer to exactly that ("it widens what counts as existing; it
-  // never suppresses an error"), and it was wired into the question branch only.
-  // Naming a file here folds it in on the same terms: parsed with the same
-  // parser, classified by the same detector, so a file that is not what it
-  // claims to be still contributes nothing.
+  // Siblings in this directory, plus anything named with `--with`. The
+  // directory rule is right for evidence batches that reference each other, and
+  // wrong for the one reference that crosses out of it: a claim names a
+  // concept, and concepts are authored in `concept/` because that is what they
+  // are. Without this every claim in a 1,253-claim batch failed with "Concept …
+  // does not exist" while the concept sat validated one directory away.
   const siblings = [
     ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
     ...alongside,

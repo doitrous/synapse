@@ -89,6 +89,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -98,11 +99,51 @@ direct_statement
 [DPT Practical Histo 101 p.35, answer p.36] Structure outlined by red rectangle is ... / Give 1 visible character of A / Mention the structure marked by blue star / Green arrow point to ...
 [Answer page] 2 dark & 1 pale layers (trilamellar); cytoplasm (blue star); intercellular space (green arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-4A7294C9E808 | CLM-192992AB4F58
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -113,10 +154,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -133,6 +173,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -185,6 +226,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -194,11 +236,51 @@ direct_statement
 [DPT Practical Histo 101 p.43, answer p.44] Green arrow points to ..., name a stain for it & one visible feature
 [Answer page] green arrow: mitochondria; stain: iron hematoxylin or Janus green; cristae
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-A7EAA4FFE57A | CLM-8E03625DC54E
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -209,10 +291,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -229,6 +310,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -282,6 +364,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -291,11 +374,51 @@ direct_statement
 [DPT Practical Histo 101 p.37, answer p.38] The organelle is called ... / Blue arrows point to ... / Arrowhead points to ...
 [Answer page] blue arrows: cristae; red arrowhead: matrix
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-8BCF4C1A82D0
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -306,10 +429,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -326,6 +448,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -379,6 +502,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -388,11 +512,51 @@ direct_statement
 [DPT Practical Histo 101 p.51, answer p.52] Organelle is called ... & its nickname is ... / Yellow star marks ... & 1 visible feature ... / Red arrow points to ... green arrow points to ...
 [Answer page] Golgi saccules parallel / stacked (yellow star); cytoplasm (blue star); transfer vesicles (red arrow); secretory vesicles (green arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-AF4E6AD46EA2 | CLM-02442E6933D4
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -403,10 +567,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -423,6 +586,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -477,6 +641,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -487,11 +652,51 @@ direct_statement
 [Answer page] fine fibrils or granules; perinuclear position; nucleus central / rounded
 [DPT Practical Histo 101 p.49, answer p.50] Red arrows demonstrate ... in ... cells — apical position
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-AC5DD85957A8 | CLM-0013FE57E973
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -502,10 +707,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -522,6 +726,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -576,6 +781,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -585,11 +791,51 @@ direct_statement
 [DPT Practical Histo 101 p.9] Negative Golgi apparatus
 [DPT Practical Histo 101 p.151, answer p.152] Black arrow points to ... — negative Golgi image, on the plasma cell
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-CA090CD6BD21 | CLM-1F498C9A39D5
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -600,10 +846,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -620,6 +865,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -674,6 +920,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -684,11 +931,51 @@ direct_statement
 [Answer page] arrows: ribosomes; function: protein synthesis
 [DPT Practical Histo 101 p.39, answer p.40] Organelle pointed to by the yellow arrows is ... / Mention 1 visible character for C — rER: parallel tubules / covered by ribosomes
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-50CDBD05AC9D | CLM-F093E67B63A1
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -699,10 +986,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -719,6 +1005,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -772,6 +1059,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -781,11 +1069,51 @@ direct_statement
 [DPT Practical Histo 101 p.45, answer p.46] Name the organelle pointed to by the yellow arrow / Mention one visible feature
 [Answer page] smooth surface; no ribosomes; vesicles of different size and shape
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-B225441F16DE | CLM-6856A1B10E0E
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -796,10 +1124,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -816,6 +1143,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -869,6 +1197,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -878,11 +1207,51 @@ direct_statement
 [DPT Practical Histo 101 p.13] EM of Smooth & Rough Endoplasmic Reticulum
 [DPT Practical Histo 101 p.12] EM of Smooth Endoplasmic Reticulum & Mitochondrion
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-E0980A526ABD | CLM-235D7D9980D0 | CLM-46F220342DB0
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -893,10 +1262,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -913,6 +1281,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -965,6 +1334,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -973,11 +1343,51 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.18] Nissl's granules in nerve cell
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-F1FA7F00D06B | CLM-76E6418935A8
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -988,10 +1398,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1008,6 +1417,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1060,6 +1470,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1068,11 +1479,51 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.19] Ribosome (labelled diagram): large ribosomal subunit; small ribosomal subunit; P-site; A-site; amino acid chain (protein); tRNA; mRNA; codon
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-78572F33D7B4 | CLM-EF111D365BB3
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1083,10 +1534,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1103,6 +1553,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1157,6 +1608,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1166,11 +1618,51 @@ direct_statement
 [DPT Practical Histo 101 p.55, answer p.56] The organelle is called ... / Red arrows point to ..., arranged as ...
 [Answer page] red arrow: microtubules; arranged as 9 triplets
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-72DE1AE17BA1 | CLM-9AD1E185441F
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1181,10 +1673,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1201,6 +1692,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1255,6 +1747,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
@@ -1264,11 +1757,51 @@ direct_statement
 [DPT Practical Histo 101 p.59, answer p.60] Red square surrounds ..., give 1 character / Blue square surrounds ..., give 1 character / Yellow arrows point to ...
 [Answer page] shaft of cilium / axoneme formed of ~20 microtubules; microvilli: no microtubules, pale core, small; cell membrane
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-DC0E308A3C70 | CLM-6ADAF4EDEFB6 | CLM-BA80C6B966E8
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1279,10 +1812,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1299,6 +1831,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1353,6 +1886,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1362,11 +1896,51 @@ direct_statement
 [DPT Practical Histo 101 p.61, answer p.62] Identify inclusions in fig. a & b / Name the used stains for fig. a & b / Give visible character for fig. a & b / Name the cell in fig. a & b
 [Answer page] fig a: glycogen, red granules, liver cells
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-ABC6CA1FEC07 | CLM-7F681C2EFE6B
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1377,10 +1951,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1397,6 +1970,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1451,6 +2025,7 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
@@ -1461,11 +2036,51 @@ direct_statement
 [DPT Practical Histo 101 p.25] Inclusions - Fat cells, H&E
 [DPT Practical Histo 101 p.26] Inclusions - Fat cells, Sudan III
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-6A316C719A40 | CLM-9C45060F8E5E
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1476,10 +2091,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1496,6 +2110,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1548,19 +2163,61 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.27] LM of open & closed face nuclei: open face nucleus; closed face nucleus
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-F2FE38EB817F | CLM-96F0CAA58ECB
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1571,15 +2228,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1591,6 +2248,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1645,8 +2303,10 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
@@ -1655,11 +2315,51 @@ direct_statement
 [Answer page] blue arrow: nucleolus; red arrow: nuclear membrane
 [DPT Practical Histo 101 p.73] E.M. of Nucleus (labelled): outer nuclear layer; inner nuclear layer
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-C2EACD1B5515 | CLM-12F12C06B63D
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1670,15 +2370,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1690,6 +2390,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1745,8 +2446,10 @@ Histology
 ## subtopic
 Cytology
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
@@ -1755,11 +2458,51 @@ direct_statement
 [Answer page, heterochromatic] peripheral heterochromatin; chromatin island; nucleolus associated chromatin; nuclear sap / euchromatin; nuclear membrane
 [DPT Practical Histo 101 p.67, answer p.68, euchromatic] nucleolus (yellow arrow); nuclear pore (arrowhead)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-D96270215FDD | CLM-511C0120E363
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1770,15 +2513,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1790,6 +2533,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1846,8 +2590,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
 
 ## support_mode
 direct_statement
@@ -1855,11 +2601,51 @@ direct_statement
 [DPT Practical Histo 101 p.90, answer p.91] This is a ..., stained by ...
 [DPT Practical Histo 101 p.83] A blood film showing different blood elements: neutrophil; eosinophil; basophil
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-AC40AF522D56 | CLM-844A3696A9B4 | CLM-EE8CCAEBFDAF
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1870,15 +2656,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -1890,6 +2676,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: This slide spans red cells, granular leukocytes and platelets at once, and no single article teaches the film as a preparation; it is left untagged rather than attached to the one article that covers a third of it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1943,6 +2730,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
@@ -1952,11 +2740,51 @@ direct_statement
 [DPT Practical Histo 101 p.92, answer p.93] Red arrow points to ... characterized by ..., while the green arrow points to ...
 [Answer page] neutrophil: segmented / multilobed nucleus (red arrow); Barr body (green arrow); platelets (yellow arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-953E853A139F | CLM-094DC5EF7B2F
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -1967,10 +2795,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1987,6 +2814,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2041,6 +2869,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
@@ -2050,11 +2879,51 @@ direct_statement
 [DPT Practical Histo 101 p.96, answer p.97] Red arrow points to ..., characterized by ... granules & nucleus is ...
 [Answer page] basophil: basophilic granules, nucleus S-shaped / masked by granules
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-C5E18F755432 | CLM-A0CA91E5DB91
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2065,10 +2934,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2085,6 +2953,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2139,8 +3008,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-ID-LYMPHOCYTE-VERSUS-MONOCYTE
 
 ## support_mode
 direct_statement
@@ -2149,11 +3020,51 @@ direct_statement
 [Answer page] monocyte: kidney shaped nucleus, frosted glass cytoplasm; lymphocyte
 [DPT Practical Histo 101 p.100, answer p.101] Red arrow points to ..., characterized by ... nucleus surrounded by ... cytoplasm — lymphocyte: dark nucleus, thin rim / little cytoplasm
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-ID-BLOOD-FILM | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-0D36CBF7E1AB | CLM-BB3BC7B0813F | CLM-6CA73E077F84
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2164,15 +3075,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2184,6 +3095,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Non granular leukocytes yet; the granular-leukocyte article covers the other three cells and does not teach this one.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2238,6 +3150,7 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-BLOOD-PLATELETS
@@ -2247,11 +3160,51 @@ direct_statement
 [DPT Practical Histo 101 p.102, answer p.103] The arrow in A points to ... / The boxed area in B shows ...
 [Answer page] platelets (arrow in field A); lymphocytes (boxed area in field B)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-A85A8FEBB3FC | CLM-9EFE627A47B2
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2262,10 +3215,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2282,6 +3234,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2336,8 +3289,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
 
 ## support_mode
 direct_statement
@@ -2345,11 +3300,51 @@ direct_statement
 [DPT Practical Histo 101 p.90, answer p.91] Green arrow points to ..., characterized by ... / Blue arrow points to ...
 [Answer page] RBC with central pallor (green arrow); crenated RBC (blue arrow)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-418454C5625E | CLM-FB8B221EC344
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2360,15 +3355,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2380,6 +3375,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Red Blood Corpuscles yet; tagging this to the granular-leukocyte article would claim coverage that article does not give.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2433,8 +3429,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-ID-BONE-MARROW-AND-RETICULOCYTE
 
 ## support_mode
 direct_statement
@@ -2442,11 +3440,51 @@ direct_statement
 [DPT Practical Histo 101 p.114, answer p.115] This is a ... stained with ... which is a ... stain / Name the cell pointed out by red arrow
 [Answer page] reticulocyte; cresyl blue is a supravital stain
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-ID-BLOOD-FILM
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-175DE250251F | CLM-A783DF9C16BB | CLM-C02499778CF6
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2457,15 +3495,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -2477,6 +3515,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Haemopoiesis yet.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2531,8 +3570,10 @@ Histology
 ## subtopic
 Blood
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-ID-BONE-MARROW-AND-RETICULOCYTE
 
 ## support_mode
 direct_statement
@@ -2543,9 +3584,48 @@ direct_statement
 ## conflicts
 CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the largest cells in bone marrow. This concept does not dispute it: fat cells are the largest cells of the marrow stroma, and the megakaryocyte is named here by its 50-70 micrometre diameter and its single multilobed nucleus rather than as the largest cell in the marrow. Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3) p.13 is the source of the fat-cell statement and p.15 of the megakaryocyte measurement.
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-ID-BLOOD-FILM
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-E8609222DE56 | CLM-2FF5551348E8
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2556,15 +3636,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 uncertainty: Nothing about this identification is unclear in the source.
@@ -2575,6 +3655,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Haemopoiesis yet.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2629,6 +3710,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -2638,11 +3720,51 @@ direct_statement
 [DPT Practical Histo 101 p.143, answer p.144] Name cell pointed out by arrow / Arrowhead points to ...
 [Answer page] fibrocyte (or fibroblast) (arrow); collagen bundles (arrowhead)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-028422CC2117 | CLM-B3C48E4FB0FF
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2653,10 +3775,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2673,6 +3794,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2725,6 +3847,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -2733,11 +3856,51 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.120] Macrophage
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-3A0335A796EC | CLM-36F81F0B6929 | CLM-272BFA805017 | CLM-9EC02F6EEEF8 | CLM-D4724C34042D | CLM-C461FB8AA1B0
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2748,10 +3911,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2768,6 +3930,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2822,6 +3985,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -2831,11 +3995,51 @@ direct_statement
 [DPT Practical Histo 101 p.151, answer p.152] Cells surrounded by yellow circles ... & green circles ... / Black arrow points to ... / Mention 2 visible characters to nucleus pointed by red arrow
 [Answer page] mast cells (yellow circles); plasma cells (green circles); negative Golgi image (black arrow); plasma cell nucleus: eccentric, single, cart-wheel
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-409630D47C02 | CLM-0804C2DF54EB
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2846,10 +4050,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2866,6 +4069,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2921,6 +4125,7 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
@@ -2931,11 +4136,51 @@ direct_statement
 [Answer page] unilocular fat cells; large / oval, single fat droplet; thin rim of cytoplasm
 [DPT Practical Histo 101 p.155, answer p.156] multilocular fat cells; small / rounded, many fat droplets; nuclei; blood vessels
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-CC9470AE7C9A | CLM-3CC1741CE53B | CLM-62C427013E01
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -2946,10 +4191,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2966,6 +4210,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3021,8 +4266,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-ID-CONNECTIVE-TISSUE-FIBRES
 
 ## support_mode
 direct_statement
@@ -3030,11 +4277,51 @@ direct_statement
 [DPT Practical Histo 101 p.141, answer p.142] Name fiber pointed by blue arrow & 1 character / Name fiber pointed by green arrow & 1 character
 [Answer page] collagen fibers: condensed / bundles / acidophilic; elastic fibers: singly, thin, zigzag, acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-ID-CONNECTIVE-TISSUE-TYPES | ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-B71E5410B751 | CLM-0F1EFDEEB6C7 | CLM-FD3D151A2CCF
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3045,15 +4332,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3065,6 +4352,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Connective Tissue Fibres yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3119,8 +4407,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-ID-CONNECTIVE-TISSUE-FIBRES
 
 ## support_mode
 direct_statement
@@ -3128,11 +4418,51 @@ direct_statement
 [DPT Practical Histo 101 p.145, answer p.146] Identify the type of tissue / Mention a special stain for it / List 2 visible characters for the tissue
 [Answer page] brown; thin; branching / anastomosing fibers
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-ID-CONNECTIVE-TISSUE-TYPES | ART-101-HIS-MICROTECHNIQUES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-073310CA54A9 | CLM-78C99C71D6F5 | CLM-7BF739AF77E0
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3143,15 +4473,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3163,6 +4493,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Connective Tissue Fibres yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3217,8 +4548,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -3226,11 +4559,51 @@ direct_statement
 [DPT Practical Histo 101 p.141, answer p.142] Identify the tissue (be specific) / Arrow head points to ... & star marks ...
 [Answer page] fibroblast cell or nucleus (arrowhead); matrix (star)
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-DB463F8F93F8 | CLM-B219B60A4301
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3241,15 +4614,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3261,6 +4634,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3315,8 +4689,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -3324,11 +4700,51 @@ direct_statement
 [DPT Practical Histo 101 p.157, answer p.158] Identify type of C.T. ... & stain ... / Red arrows point to ... / Mention characters for B
 [Answer page] reticular fibers (red arrows); brown; thin; branch & anastomose
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-2C090FC11C7F | CLM-03C2C86731A5
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3339,15 +4755,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3359,6 +4775,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3413,8 +4830,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -3422,11 +4841,51 @@ direct_statement
 [DPT Practical Histo 101 p.159, answer p.160] Type of C.T. is ... & in fresh state is ... colour / It is stained ... colour with ... stain / Give 2 visible characters for C
 [Answer page] yellow in the fresh state; orcein (stains brown); singly / thin / zigzag / acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-1F5E874D820B | CLM-2F05853BA172
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3437,15 +4896,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3457,6 +4916,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3512,8 +4972,10 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -3522,11 +4984,51 @@ direct_statement
 [Answer page, regular] white in the fresh state; parallel / regular / thick bundles / acidophilic
 [DPT Practical Histo 101 p.163, answer p.164, irregular] irregularly arranged / thick bundles / acidophilic
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-00595A53E65D | CLM-0785D3FD3F0D
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3537,15 +5039,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3557,6 +5059,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3609,19 +5112,61 @@ Histology
 ## subtopic
 Connective tissue
 ## aliases
+[clear]
 
 ## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.137] Mucoid C.T.
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-5636F519D1CC | CLM-455AC71857D8
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3632,15 +5177,15 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
 sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
 conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
@@ -3652,6 +5197,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3707,6 +5253,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -3717,11 +5264,51 @@ direct_statement
 [Answer page] nucleus flat / single (arrowhead); basement membrane (yellow arrow)
 [DPT Practical Histo 101 p.197, answer p.198] simple squamous: flat cells, one layer; nuclei flat / single / central
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-D19467ED6115 | CLM-B5873445E798
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3732,10 +5319,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3752,6 +5338,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3808,6 +5395,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -3818,11 +5406,51 @@ direct_statement
 [Answer page] nuclei rounded / central / single (arrowheads); basement membrane (yellow arrow)
 [DPT Practical Histo 101 p.197, answer p.198] simple cubical: square shape, short cells, single layer
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-51A288E04048 | CLM-D3010F08C9FB
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3833,10 +5461,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3853,6 +5480,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3907,6 +5535,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -3916,11 +5545,51 @@ direct_statement
 [DPT Practical Histo 101 p.199, answer p.200] Identify type of epithelium / Mention 1 visible feature for A / Name the structure pointed to by yellow arrow / Mention 1 visible feature for B
 [Answer page] tall cells; one layer; oval basal nuclei
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-C2AF9483B8CE | CLM-B75EBF5DDD84
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -3931,10 +5600,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3951,6 +5619,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4006,6 +5675,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -4015,11 +5685,51 @@ direct_statement
 [DPT Practical Histo 101 p.201, answer p.202] Identify the epithelium / Mention 2 visible characters / Blue arrow points to ... & green arrow ... / Cell pointed by red arrow is ... & star marks ...
 [Answer page] tall cells; 1 cell layer; crowded nuclei; cilia; basement membrane; goblet cell; connective tissue
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-6F004981E420 | CLM-9EED68AF159A
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4030,10 +5740,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4050,6 +5759,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4102,6 +5812,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -4110,11 +5821,51 @@ direct_statement
 ## original_wording
 [DPT Practical Histo 101 p.177] Pseudostratified columnar ciliated epithelium with stereocilia
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-5498AD6516DE | CLM-47EDFE45053D
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4125,10 +5876,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4145,6 +5895,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4200,6 +5951,7 @@ Histology
 ## subtopic
 Epithelium
 ## aliases
+[clear]
 
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
@@ -4210,11 +5962,51 @@ direct_statement
 [Answer page, keratinized] horny layer / keratin, acidophilic condensed layers; intermediate layers, polyhedral cells, rounded nuclei; connective tissue
 [DPT Practical Histo 101 p.205, answer p.206, non-keratinized] superficial layer: flat cells / flat nuclei
 ## conflicts
+[clear]
 
 ## uncertainty
+[clear]
 
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-63C0F465AEAE | CLM-A2259B805595
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
 ## owner
 Claude
 ## publication_status
@@ -4225,10 +6017,9 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
 aliases: The practical book names each slide once and gives no alternate term; an alias invented here would not be one this faculty uses.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.

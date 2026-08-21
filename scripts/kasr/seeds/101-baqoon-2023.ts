@@ -85,7 +85,7 @@ export const SOURCE: SourceRef = {
   id: 'src_f3d7ac13bbc97156212f',
   file: 'EOY BAQOON 197 دور تاني.pdf',
   sittingYear: 2023,
-  tier: 'resit',
+  tier: 'baqoon',
   sections: ['Anatomy', 'Histology'],
   incomplete: 'Three sections are printed as bare headings with nothing under them: `cases :` at the foot of the Anatomy section (p12), and `match :` and `+MCQs` at the foot of the Histology section (p16). The paper prints no marks and no counts for them, so how many questions are missing is not known — only that they were set. The thirteen questions here are the whole of what this copy reproduces.',
 }

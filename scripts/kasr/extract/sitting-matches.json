@@ -1,0 +1,332 @@
+{
+ "whatThisIs": "Topics from the three question compilations, matched to the concepts they corroborate. Only unambiguous matches are taken; the rest are listed for a person to place.",
+ "threshold": {
+  "matches": 0.6,
+  "margin": 0.15
+ },
+ "matched": {
+  "radial-artery-course-and-relations-in-the-forearm": [
+   "src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK",
+   "src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK",
+   "src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK"
+  ],
+  "plasma-cell-vs-macrophage-comparison": [
+   "src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK"
+  ],
+  "scapular-anastomosis-arteries": [
+   "src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK"
+  ],
+  "clavipectoral-fascia-and-the-axillary-septum": [
+   "src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK"
+  ],
+  "cutaneous-supply-of-the-palm-and-the-dorsum-of-the-hand": [
+   "src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK"
+  ]
+ },
+ "unplaced": [
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Flexor retinaculum (attachment and relations)",
+   "best": "carpal-tunnel-median-nerve-compression",
+   "score": 1
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Elbow joint (movement, muscles and ligaments)",
+   "best": "elbow-joint-type-bones-ligaments",
+   "score": 0.6
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Muscles produces abduction of shoulder joint (attachments, nerve supply and action)",
+   "best": "shoulder-joint-movements-muscles",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Radial Nerve (Branches)",
+   "best": "radial-nerve-origin-root-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Functions of amniotic fluid in pregnancy",
+   "best": "amniotic-fluid-functions",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Abnormality of implantation",
+   "best": "implantation-abnormal-sites",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Development and deferentiation of paraxial mesoderm",
+   "best": "paraxial-mesoderm-somite-derivatives",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Characteristics and types of fibrous joint",
+   "best": "fibrous-joints-types-definition",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 196 ISK 101 - WRITTEN 2023 (3) (1).pdf",
+   "topic": "Functions of deep fascia B. Histology:-.",
+   "best": "deep-fascia-parts-functions",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Boundaries and contents of intermuscular spaces",
+   "best": "intermuscular-spaces-quadrangular-triangular-boundaries-contents",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Superficial palmar arch and deep palmar arch compare (site, formation, branches)",
+   "best": "palmar-arterial-arches-site-formation-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Extensor retinaculum (boundaries and compartments)",
+   "best": "extensor-retinaculum-attachments-compartments",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Cutaneous nerves of arm region (origin, supply)",
+   "best": "pectoralis-major-attachment-nerve-action",
+   "score": 0.33
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Nerve supply and action of muscles producing abduction of shoulder girdle (more than 90)",
+   "best": "shoulder-girdle-movements-muscles",
+   "score": 0.38
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Supination and pronation (def, axis, muscles producing)",
+   "best": "supination-pronation-muscles-attachments-nerve",
+   "score": 0.6
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Mechanism of fertilization",
+   "best": "fertilization-site-mechanism-results",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Analomies of placenta (regarding attachment of cord, abnormal sites of implantaion)",
+   "best": "implantation-abnormal-sites",
+   "score": 0.33
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Chorionic villi types and fate",
+   "best": "chorionic-villi-types-development",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Functions of deep fascia Cases:- Histology:-",
+   "best": "deep-fascia-parts-functions",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Outline LM and EM of sER"
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Types of 2ndry lysosome and their fates",
+   "best": "lysosome-types-secondary-fates",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Eosinphile (percentage, LM, function) + including MCQ and Matching ISK 101 - WRITTEN 2023 ",
+   "best": "b-lymphocyte-percentage-surface-receptors",
+   "score": 0.14
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Flexor retinaculum (attachment and relations)",
+   "best": "carpal-tunnel-median-nerve-compression",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Elbow joint (movement, muscles and ligaments)",
+   "best": "elbow-joint-type-bones-ligaments",
+   "score": 0.6
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Muscles produces abduction of shoulder joint (attachments, nerve supply and action)",
+   "best": "shoulder-joint-movements-muscles",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Radial Nerve (Branches)",
+   "best": "radial-nerve-origin-root-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Functions of amniotic fluid in pregnancy",
+   "best": "amniotic-fluid-functions",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Abnormality of implantation",
+   "best": "implantation-abnormal-sites",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Development and deferentiation of paraxial mesoderm",
+   "best": "paraxial-mesoderm-somite-derivatives",
+   "score": 0.5
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Characteristics and types of fibrous joint",
+   "best": "fibrous-joints-types-definition",
+   "score": 0.67
+  },
+  {
+   "file": "EOY 101 exams not answerd (1).pdf",
+   "topic": "Functions of deep fascia B. Histology:-. Anatomy | 2023 | 101 ‫الدور الثاني‬ Upper limb: -",
+   "best": "scapular-muscle-nerve-supply-accessory-dorsal-scapular-thoracodorsal",
+   "score": 0.16
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Flexor retinaculum (attachment and relations)",
+   "best": "carpal-tunnel-median-nerve-compression",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Radial Nerve (Branches)",
+   "best": "radial-nerve-origin-root-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Muscles produces abduction of shoulder joint (attachments, nerve supply and action)",
+   "best": "shoulder-joint-movements-muscles",
+   "score": 0.5
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Brachial artery (origin, course, end and branches)",
+   "best": "brachial-artery-origin-course-end-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Rotator muscle cuff (attachments, nerve supply and action)",
+   "best": "scapular-muscle-nerve-supply-accessory-dorsal-scapular-thoracodorsal",
+   "score": 0.5
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Brachial plexus (formation and branches)",
+   "best": "brachial-plexus-formation-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Wrist joint (movement, muscles and ligaments)",
+   "best": "shoulder-joint-movements-muscles",
+   "score": 0.6
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Summrize notochord",
+   "best": "notochord-formation-fate",
+   "score": 0.5
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Flexor digitorum Superficialis, Flexor digitorum Profundus (origin, insertion, nerve suppl",
+   "best": "carpal-tunnel-median-nerve-compression",
+   "score": 0.33
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Musculocutaneous nerve (origin, course and branches)",
+   "best": "musculocutaneous-nerve-origin-course-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Ant. Carpal arch & Post. Carpal arch (compare)",
+   "best": "palmar-arterial-arches-site-formation-branches",
+   "score": 0.33
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Shoulder joint (ligaments and its importance)",
+   "best": "shoulder-joint-type-ligaments-movements",
+   "score": 0.75
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Boundaries and contents of intermuscular spaces",
+   "best": "intermuscular-spaces-quadrangular-triangular-boundaries-contents",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Superficial palmar arch and deep palmar arch compare (site, formation, branches)",
+   "best": "palmar-arterial-arches-site-formation-branches",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Extensor retinaculum (boundaries and compartments)",
+   "best": "extensor-retinaculum-attachments-compartments",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Cutaneous nerves of arm region (origin, supply)",
+   "best": "pectoralis-major-attachment-nerve-action",
+   "score": 0.33
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Nerve supply and action of muscles producing abduction of shoulder girdle (more than 90)",
+   "best": "shoulder-girdle-movements-muscles",
+   "score": 0.38
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Supination and pronation (definition, axis, muscles producing)",
+   "best": "supination-pronation-muscles-attachments-nerve",
+   "score": 0.6
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Mechanism of fertilization",
+   "best": "fertilization-site-mechanism-results",
+   "score": 1
+  },
+  {
+   "file": "EOY ANATOMY Final anatomy 101 questions ( upper only )  (2).pdf",
+   "topic": "Anomalies of placenta (regarding attachment of cord, abnormal sites of implantation) Descr",
+   "best": "median-cubital-vein-connections-and-venepuncture",
+   "score": 0.16
+  }
+ ]
+}

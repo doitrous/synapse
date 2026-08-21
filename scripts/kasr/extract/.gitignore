@@ -15,3 +15,26 @@ status-*.json
 *.png
 *.ppm
 *.jpg
+
+# The end-of-module answer-key recovery caches two kinds of intermediate under
+# `eom-renders/`: page rasters, already covered by the image rules above, and
+# the per-page tesseract TSV that supplies the option boxes. Both regenerate
+# from the PDFs — the rasters in about a second a page, the OCR in about two —
+# and together they run to gigabytes. `eom-answers.json` is the result and is
+# tracked; these are not.
+eom-renders/
+pagetext-eom/
+pagetext-eom/
+
+# The 108 INT lane caches its renders in a directory rather than loose files,
+# so the extension rules above do not reach them.
+108-INT/renders/
+
+# Two more 108 INT caches, same reasoning as `pagetext/` above. The practical
+# atlas's text layer is undecodable so its pages are cached OCR'd, and the
+# pharmacology handout's PDF highlight annotations are cached as extracted
+# quads. Both rebuild from the corpus PDFs with `--force`; the JSON beside
+# them is the result and is tracked.
+108-INT/pagetext-ocr/
+108-INT/highlights/
+sitting-rows/

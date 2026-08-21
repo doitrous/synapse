@@ -1,7 +1,7 @@
 <!--
   EOY 195 first 2022  101 ISK  final module (1).pdf as sittable written questions.
 
-  Kasr Al Ainy, module 101 ISK, resit 2022.
+  Kasr Al Ainy, module 101 ISK, baqoon 2022.
   Manifest ID src_1641d3629225bb111726. 14 questions, 74 marks: 14 in Section A.
 
   NOT the whole paper: Section A only. The paper also prints Section B — 29 multiple-choice questions at half a mark each, pages 11–13 — and Section C — three extended-matching tables at half a mark a match, page 14, on cytoplasmic organelles, epithelial tissue and blood. Both are reproduced in full in this copy; neither is seeded here, because the multiple-choice bank is authored separately under seeds/mcq/. The paper is 96 marks; this file carries the 74 of Section A.
@@ -93,10 +93,12 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q1, p1. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q1, p1. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A- Describe electron microscopic picture (EM) of Golgi apparatus. (3 marks) B- Compare between microtubules & microfilaments regarding diameter, protein subunit & light microscope picture (L.M.). (3 marks) B- Compare between microtubules & microfilaments regarding diameter, protein subunit & light microscope picture (L.M.). (3 marks)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -167,10 +169,12 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q2, p2. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q2, p2. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Compare between mast cell and plasma cell regarding origin, site & LM (light microscopic picture) Compare between mast cell and plasma cell regarding origin, site & LM (light microscopic picture)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -240,10 +244,12 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q3, p3. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q3, p3. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Discuss the L.M., E.M., of blood monocytes and mention two functions.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -320,7 +326,7 @@ ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q4, p4. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q4, p4. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Give the attachment, nerve supply and action of the Deltoid muscle.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -395,7 +401,7 @@ ART-101-ANA-SHOULDER-JOINT
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q5, p4. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q5, p4. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “List the ligaments of the shoulder joint and their attachment.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -469,7 +475,7 @@ ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q6, p5. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q6, p5. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Name the arteries share in the anastomosis around the scapula and give their origin.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -546,7 +552,7 @@ ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q7, p5. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q7, p5. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mention the branches of the radial nerve.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -623,7 +629,7 @@ ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q8, p6. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q8, p6. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Point out the contents of the axilla.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -698,7 +704,7 @@ ART-101-ANA-FIBROUS-JOINTS
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q9, p6. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q9, p6. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Describe the characters and types of fibrous joint.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -772,7 +778,7 @@ ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q10, p7. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q10, p7. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “List the functions of the superficial fascia.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -848,7 +854,7 @@ ART-101-ANA-UMBILICAL-CORD
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q11, p7. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q11, p7. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Enumerate the abnormalities of the umbilical cord.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -923,7 +929,7 @@ ART-101-ANA-IMPLANTATION
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q12, p8. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q12, p8. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Give the abnormal sites of implantation.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1000,7 +1006,7 @@ ART-101-ANA-PARAXIAL-MESODERM
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q13, p8. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q13, p8. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Explain the differentiation of the somite.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1120,7 +1126,7 @@ ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
-EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy resit 2022, Section A Q14, p9. Manifest src_1641d3629225bb111726.
+EOY 195 first 2022  101 ISK  final module (1).pdf — Kasr Al Ainy baqoon 2022, Section A Q14, p9. Manifest src_1641d3629225bb111726.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Problem Solving Questions: I. A 16 years old girl fell on her outstretched hand and felt sudden pain in her right shoulder. On examination her shoulder was depressed. (5 marks) a. Which bone of the upper limb do you expect to be fractured? b. Which part of this bone is most commonly fractured? Why? c. Why is the shoulder region depressed? d. What structures are liable to be damaged in such a fracture? e. What is the procedure usually used for the fixation of such a fracture? II) Following an accident, a middle age man suffered from fracture of the medial epicondyle. (5 marks) a. What structure is liable to be injured? b. What are the muscles that would be paralyzed? c. What is the expected sensory loss? d. What is the name of the resulting deformity? e.Would this deformity be less severe if the nerve was injured at the wrist? Why? II) Following an accident, a middle age man suffered from fracture of the medial epicondyle. a. What structure is liable to be injured? b. What are the muscles that would be paralyzed? c. What is the expected sensory loss? d. What is the name of the resulting deformity? e.Would this deformity be less severe if the nerve was injured at the wrist? Why?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.

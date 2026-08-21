@@ -14,6 +14,36 @@
 import { createHash } from 'node:crypto'
 import { mintConceptId, mintQuestionId, partsKey, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
 import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
+import { readFileSync } from 'node:fs'
+
+/**
+ * The claims each concept asserts, by concept ID.
+ *
+ * Written by `build-evidence.ts`, which reads the concept batches and splits
+ * each definition into its sentences. That is a cycle — concepts, then claims,
+ * then concepts again — and it converges because a claim ID is minted from the
+ * concept ID and the sentence, both already fixed by the time the claim is
+ * made. Run the two in order twice and the second pass changes nothing.
+ *
+ * Empty on a first run, before any claims exist. That is the honest state and
+ * not an error: `atomic_claim_ids` then says `[clear]`, which is what a concept
+ * with no evidence chain should say.
+ */
+const CLAIMS_FOR_CONCEPT: Record<string, string[]> = (() => {
+  try { return JSON.parse(readFileSync('scripts/kasr/seeds/claim-links.json', 'utf8')) }
+  catch { return {} }
+})()
+
+/**
+ * The department's own textbook, which is what every definition here rests on.
+ *
+ * Not the exam paper the concept was found on. That paper is `is_assessment:
+ * yes` — evidence of what this faculty *asks*, never evidence that anything in
+ * it is *true* — and it is already recorded on `exam_signal`, which is the
+ * column for curriculum signal. Putting it in `resource_ids` would make a
+ * question its own justification.
+ */
+const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
 
 /** Where a concept was examined, in the `exam_signal` column's own grammar. */
 const occurrence = (source: SourceRef, seed: Seed) =>
@@ -32,7 +62,7 @@ const blueprintWeight = (seed: Seed, paperMarks: number, sittings: number) =>
 
 export function conceptBlock(
   source: SourceRef, seed: Seed, alsoSeenOn: string[] = [],
-  context: { paperMarks?: number; articleId?: string } = {},
+  context: { paperMarks?: number; articleId?: string; relatedArticleIds?: string[] } = {},
 ): string {
   const signals = [occurrence(source, seed), ...alsoSeenOn].join('\n')
   const weight = blueprintWeight(seed, context.paperMarks ?? 81, alsoSeenOn.length)
@@ -60,7 +90,7 @@ ${seed.subject}
 ## primary_node_id
 ${seed.primary}
 ## secondary_node_ids
-${seed.secondary.join(' | ')}
+${seed.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject
@@ -88,42 +118,125 @@ ${path[1] ?? seed.section}
 ## subtopic
 ${path[2] ?? path.at(-1) ?? ''}
 ## aliases
-${(seed.aliases ?? []).join(' | ')}
+${(seed.aliases ?? []).join(' | ') || '[clear]'}
 ${context.articleId ? `## article_ids\n${context.articleId}\n` : ''}## support_mode
 direct_statement
 ## original_wording
 [${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
 ## conflicts
-${(seed.conflicts ?? []).join('\n')}
+${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${seed.uncertainty ?? ''}
+${seed.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}`
+${conceptTail(context.relatedArticleIds ?? [], mintConceptId(seed.subject, seed.key))}`
 }
 
 /**
  * The columns every concept carries regardless of where it came from.
  *
  * Shared so a concept minted from a question book cannot end up describing
- * itself in fewer fields than one minted from a paper — the audit's complaint
- * is a blank *without a reason*, and a reason that exists for one kind of
- * concept and not another is an authoring accident, not a decision.
+ * itself in fewer fields than one minted from a paper — a reason that exists
+ * for one kind of concept and not another is an authoring accident, not a
+ * decision.
+ *
+ * `[clear]` means "present and deliberately empty" — **on a list column only**.
+ * On a text column the importer stores the literal string, so emitting it for
+ * `reviewer` gave every concept a reviewer named `[clear]`, which satisfies the
+ * audit by accident and tells a reader nothing. The six text columns here are a
+ * real value or nothing: `materialiseNewConcept` fills `arabicLabel`,
+ * `lastReviewed`, `reviewDue` and `exclusionReason` as null whether the key is
+ * written or not, so presence is satisfied without writing anything.
+ *
+ * `reviewer` and `finalPublisher` are different again: they are on
+ * `conceptPopulated`, which takes no `field_notes` excuse, so an empty one is an
+ * audit error — and §10's gate is the audit at zero, so `[clear]` there is not
+ * a worse metric, it is a batch that cannot ship.
+ *
+ * They carry the manual's documented defaults, which its own worked example
+ * writes verbatim (`02-concepts.md:214-216`, `:538-544`).
+ *
+ * I argued at length for a sentinel saying nobody had reviewed this, on the
+ * grounds that naming a team asserts a review that did not happen. The
+ * objection was right and the remedy was wrong: three other fields already say
+ * it, and say it where the product reads it — `status: under review`,
+ * `publication_status: needs_evidence`, and an `editorial_review_status` naming
+ * the gate not yet passed. **Only `published` reaches a student.** So these two
+ * are ownership, not a claim about work done, and the honesty belongs in the
+ * status fields rather than smuggled into a name.
+ *
+ * The wider point, which cost two lanes a detour: a convention agreed between
+ * lanes that contradicts the manual makes a half-migrated library, and that is
+ * worse than either convention, because a later reader cannot tell which
+ * records followed which rule. If a documented default is wrong, the manual
+ * changes first and everyone moves together.
+ *
+ * The rest carry `[clear]`, and that distinction is the whole point. `medical:audit` asks two questions of every field: is it populated,
+ * and does the key exist at all. Writing a `field_notes` reason answers the
+ * first and fails the second, because a key that was never emitted reports as
+ * *absent* rather than as deliberately empty — and an empty `## key` block
+ * parses as untouched, so it does not help either. `[clear]` is the only thing
+ * that says "present, and empty on purpose".
+ *
+ * `reviewer`, `final_publisher` and `last_reviewed` are `[clear]` and not a
+ * name. A parallel lane's version of this fills them with "Medical team, Admin
+ * team" and "Admin team", which would have every one of these concepts assert a
+ * review and a publication that have not happened. An empty field that says so
+ * is worth more than a filled one that lies, and this content is going to a
+ * faculty reviewer precisely because nobody has reviewed it.
  */
-function conceptTail(): string {
-  return `## owner
+function conceptTail(relatedArticleIds: string[] = [], conceptId?: string): string {
+  return `## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+${relatedArticleIds.join(' | ') || '[clear]'}
+## resource_ids
+${DEPARTMENT_BOOK}
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+${(conceptId ? CLAIMS_FOR_CONCEPT[conceptId] ?? [] : []).join(' | ') || '[clear]'}
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
 Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -263,7 +376,10 @@ export const batchFile = (header: string, blocks: string[]) =>
  * five times across three books is saying something about the blueprint that no
  * single paper says.
  */
-export function mcqConceptBlock(concept: McqConcept, signals: string[], articleId?: string): string {
+export function mcqConceptBlock(
+  concept: McqConcept, signals: string[], articleId?: string, asked?: string,
+  relatedArticleIds: string[] = [],
+): string {
   // Weight from how often the books ask it. A question book asking a thing five
   // times across three books is blueprint evidence no single paper can give.
   const weight = Math.min(1, 0.15 + 0.08 * signals.length).toFixed(2)
@@ -290,7 +406,7 @@ ${concept.subject}
 ## primary_node_id
 ${concept.primary}
 ## secondary_node_ids
-${concept.secondary.join(' | ')}
+${concept.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject
@@ -318,17 +434,19 @@ ${path[1] ?? ''}
 ## subtopic
 ${path[2] ?? path.at(-1) ?? ''}
 ## aliases
-${(concept.aliases ?? []).join(' | ')}
+${(concept.aliases ?? []).join(' | ') || '[clear]'}
 ${articleId ? `## article_ids\n${articleId}\n` : ''}## support_mode
 direct_statement
+## original_wording
+${asked ?? ''}
 ## conflicts
-${(concept.conflicts ?? []).join('\n')}
+${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${concept.uncertainty ?? ''}
+${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail()}
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.`
+${conceptTail(relatedArticleIds, mintConceptId(concept.subject, concept.key))}
+`
 }
 
 /**

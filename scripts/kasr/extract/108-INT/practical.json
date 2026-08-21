@@ -1,0 +1,1525 @@
+{
+ "moduleId": "108 INT",
+ "universityId": "kau",
+ "yearId": "KAU_Y1",
+ "subjects": [
+  "Pathology",
+  "Pharmacology"
+ ],
+ "contentClass": "practical",
+ "generatedBy": "scripts/kasr/extract/108-INT/practical.py",
+ "reRunCommand": "python3 scripts/kasr/extract/108-INT/practical.py",
+ "readsFrom": {
+  "manifest": "docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json",
+  "sharedPageText": "scripts/kasr/extract/pagetext/ (read only, never written)",
+  "ownOcrCache": "scripts/kasr/extract/108-INT/pagetext-ocr/",
+  "ownHighlightCache": "scripts/kasr/extract/108-INT/highlights/"
+ },
+ "sources": [
+  {
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "sha256": "a2ffe25e8362fe840cebb31d203b9d03b69359417acbd0c37c91899dd11d160c",
+   "title": "Atlas of Practical General Pathology, Modules INT-108 & INT-208, Faculty of Medicine Cairo University, 2025-2026",
+   "subject": "Pathology",
+   "category": "Practical",
+   "pages": 12,
+   "filedTwice": true,
+   "paths": [
+    {
+     "corpusRelativePath": "y1/108 INT/Practical/Dpt Book Pathology Practical [INT-108].pdf",
+     "fileName": "Dpt Book Pathology Practical [INT-108].pdf",
+     "crossModulePractical": false
+    },
+    {
+     "corpusRelativePath": "y1/PRACTICAL FIRST YEAR/PATHOLOGY/DPT BOOK Pathology Practical [INT-108] (4).pdf",
+     "fileName": "DPT BOOK Pathology Practical [INT-108] (4).pdf",
+     "crossModulePractical": true
+    }
+   ],
+   "note": "One file, two shelves: the module's own Practical folder and the year-wide PRACTICAL FIRST YEAR/PATHOLOGY folder. Same sha256, same sourceId, one set of records here. The second row is the one flagged crossModulePractical.",
+   "isExtract": true,
+   "extractNote": "The 12 PDF pages carry printed page numbers 1, 2, 3, 4 then 22, 23, 24. The book itself is longer and this file is an excerpt of it: the start of the histopathology section and the start of the gross section. The slide numbering agrees — the histology plates present are SLIDE (7) and SLIDE (9), so slides 1-6 and 8 are in pages nobody has supplied. Do not read the counts below as the practical's full syllabus."
+  },
+  {
+   "sourceId": "src_9aecfa4812d20259fe5a",
+   "sha256": "9aecfa4812d20259fe5a7ecbe214da046d70ad76cffca4c637345b05cd726727",
+   "title": "PHARMA WRITTEN Crash Kinetics Highlighted . 2026",
+   "subject": "Pharmacology",
+   "category": "Written Questions",
+   "pages": 4,
+   "filedTwice": false,
+   "paths": [
+    {
+     "corpusRelativePath": "y1/108 INT/Written Questions/PHARMA WRITTEN Crash Kinetics Highlighted . 2026 docx (2).pdf",
+     "fileName": "PHARMA WRITTEN Crash Kinetics Highlighted . 2026 docx (2).pdf",
+     "crossModulePractical": false
+    }
+   ],
+   "note": "Filed as Written Questions; is not written questions. See writtenQuestionsNote."
+  }
+ ],
+ "files": [
+  {
+   "file": "Dpt Book Pathology Practical [INT-108].pdf",
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "pages": 12,
+   "pagesRead": 12,
+   "method": "ocr at 300 dpi, psm 6, eng",
+   "whyNotNative": "The manifest calls the text layer `native` and pdftotext does return 6075 glyphs, but every one of them decodes to U+0001: the embedded fonts carry no usable ToUnicode map. The cached text is 8193 whitespace and control characters and zero readable ones. That is why this lane keeps its own OCR cache.",
+   "nativeGlyphCensus": [
+    {
+     "page": 1,
+     "undecodableGlyphs": 134,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 2,
+     "undecodableGlyphs": 153,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 3,
+     "undecodableGlyphs": 857,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 4,
+     "undecodableGlyphs": 731,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 5,
+     "undecodableGlyphs": 443,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 6,
+     "undecodableGlyphs": 795,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 7,
+     "undecodableGlyphs": 402,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 8,
+     "undecodableGlyphs": 458,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 9,
+     "undecodableGlyphs": 517,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 10,
+     "undecodableGlyphs": 1067,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 11,
+     "undecodableGlyphs": 518,
+     "readableCharacters": 0,
+     "verdict": "text present but no glyph decoded"
+    },
+    {
+     "page": 12,
+     "undecodableGlyphs": 0,
+     "readableCharacters": 0,
+     "verdict": "no text on the page"
+    }
+   ],
+   "teachingItemsFound": 10,
+   "guidanceItemsFound": 2,
+   "mediaRequestsRaised": 10,
+   "writtenQuestionsFound": 0,
+   "pagesYieldingNoItem": [
+    {
+     "page": 1,
+     "reason": "front matter, not a teaching item",
+     "detail": "Cover — \"ATLAS OF PRACTICAL GENERAL PATHOLOGY, Modules INT-108 & INT-208, For Medical Students, Faculty of Medicine Cairo University, 2025-2026\".",
+     "ocrSample": "Faculty of Medicine Cairo University — ATLAS OF PRACTICAL GENERAL PATHOLOGY Modules INT-108 & INT-208 | | | FOR MEDICAL STUDENTS Cn (i bs zy Pa sf meat Ones | a Px ls | | 2025 - 2026",
+     "ocrCharacters": 182,
+     "nativeUndecodableGlyphs": 134
+    },
+    {
+     "page": 2,
+     "reason": "front matter, not a teaching item",
+     "detail": "Title page, repeating the cover.",
+     "ocrSample": "Faculty of Medicine Cairo University Atlas of Practicak— General Pathology Module INT-108 & INT-208 For Medical Students 2025-2026",
+     "ocrCharacters": 130,
+     "nativeUndecodableGlyphs": 153
+    },
+    {
+     "page": 3,
+     "reason": "front matter, not a teaching item",
+     "detail": "Preface. States that the atlas shows histopathology slides and gross pictures; that some slides are provided as glass slides for the microscope and others demonstrated as a data show (DS) slide or picture; that most pictures are original departmental pictures and \"only few pictures are downloaded from websites\"; and that the museum, begun by the late Prof. Anwar Mahfouz Elwi (chair 1962-1973), holds around 1400 specimens.",
+     "ocrSample": "PREFACE This atlas demonstrates the pictures of histopathology slides and gross pictures representing common diseases to be a manual and guide for students to understand the macro & microscopic aspects of these diseases which will be studied in the pathology text book. | Some of ",
+     "ocrCharacters": 280,
+     "nativeUndecodableGlyphs": 857
+    },
+    {
+     "page": 4,
+     "reason": "front matter, not a teaching item",
+     "detail": "Acknowledgements — the histology and gross contributor lists, revised by Prof. Dr Ahmed Abdel Aziz.",
+     "ocrSample": "Special thanks to late PROFESSOR GAMAL NADA for his useful pointers on the specimens and thanks go to all those who gave effort and expertise to help publishing this book: Histo part: e PROF. DR. DALAL ELWI. e PROF. DR. GINA ASAAD. e PROF.DR. SAMIA MOHAMMAD GABAL. e PROF. DR. DIN",
+     "ocrCharacters": 280,
+     "nativeUndecodableGlyphs": 731
+    },
+    {
+     "page": 12,
+     "reason": "full-page photographs with no caption anywhere on the page",
+     "detail": "The page is a montage of gross photographs. The native text layer holds zero glyphs here — the only page in the file of which that is true — and OCR of the rendered page returns nothing but noise read off the photographs themselves. There is no caption to lose, so the specimens on this page cannot be identified from this file and are not guessed at.",
+     "ocrSample": "fh its: . ‘ a Btw * ; “ a i © | RSI |: q wy) ¥. en 5 eo -\" Breet, Ait Be ay Me ae (ae Sai sie Sroee- ~ in Wan re eat 7a r oe : 5 sare -. , *¥ 4 , a? 4 i. oa oo: eS > : ; ‘aie EES | Bs 3 ' se OT ee 2 : / . -. < « , ei» - = oy Mee sae ee — < a) aa 4 * —— mas ge oan Reg ae : ee Y I ",
+     "ocrCharacters": 280,
+     "nativeUndecodableGlyphs": 0
+    }
+   ],
+   "pagesYieldingNoItemCount": 5,
+   "coverage": {
+    "printedPagesHeld": [
+     1,
+     2,
+     3,
+     4,
+     22,
+     23,
+     24
+    ],
+    "printedPagesMissing": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "printedPagesMissingCount": 17,
+    "pdfToPrintedPageMap": {
+     "5": 1,
+     "6": 2,
+     "7": 3,
+     "8": 4,
+     "9": 22,
+     "10": 23,
+     "11": 24
+    },
+    "unnumberedPdfPages": [
+     1,
+     2,
+     3,
+     4,
+     12
+    ],
+    "teachingPagesHeld": [
+     2,
+     3,
+     4,
+     23,
+     24
+    ],
+    "itemsPerTeachingPage": 2.0,
+    "itemsHeld": 10,
+    "numberedSlidesSeen": [
+     7,
+     9
+    ],
+    "estimatedHistopathologyItems": 40,
+    "estimatedTotalItems": "at least 44",
+    "estimatedCoverage": "10 of at least 44, about 23%",
+    "howEstimated": "The printed page numbers run 1, 2, 3, 4 then 22, 23, 24 — so printed pages 5 to 21 (17 pages) are absent from this file entirely, and the book carries on past printed 24 by an unknown amount. Printed 1 and 22 are the two section introductions; the five teaching pages held (printed 2, 3, 4, 23, 24) carry exactly two items each, with no exceptions, which is what makes the per-page rate safe to project. Applying it to the 20 histopathology teaching pages (printed 2-21) gives roughly 40 histopathology items against the 6 held. The gross section cannot be projected at all: it begins at printed 23 and this file stops at 24, so its true length is unknown and the totals below are floors, not estimates.",
+    "whatToAskTheFacultyFor": "The complete Atlas of Practical General Pathology for INT-108 & INT-208 — specifically printed pages 5-21 and everything after printed page 24."
+   }
+  },
+  {
+   "file": "PHARMA WRITTEN Crash Kinetics Highlighted . 2026 docx (2).pdf",
+   "sourceId": "src_9aecfa4812d20259fe5a",
+   "pages": 4,
+   "pagesRead": 4,
+   "method": "native text layer from the shared pagetext cache, plus PDF annotation geometry for the highlights",
+   "teachingItemsFound": 0,
+   "writtenQuestionsFound": 0,
+   "highlightSpansFound": 31,
+   "pagesYieldingNoItem": [
+    {
+     "page": 1,
+     "reason": "revision prose, not questions — nothing here is extractable as a written question without inventing it",
+     "detail": "5147 characters of readable text, 0 highlight spans.",
+     "ocrSample": "General Pharmacology  “Kinetics” Medical pharmacology: N.B.:  Lipid/water partition coefficient is the ratio of - Making urine more alkaline would enhance excretion B) Factors related to the patient Science of substances used to diagnose, prevent & treat diseases drug concentra"
+    },
+    {
+     "page": 2,
+     "reason": "revision prose, not questions — nothing here is extractable as a written question without inventing it",
+     "detail": "4895 characters of readable text, 19 highlight spans.",
+     "ocrSample": "6. Gut contents (presence of food & other drugs): Factors affecting distribution C) Passage of drugs through breast milk II) Distribution - Presence of food: - After absorption from whatever route of 1. Physicochemical properties of the drug: - Most drugs administered to lactatin"
+    },
+    {
+     "page": 3,
+     "reason": "revision prose, not questions — nothing here is extractable as a written question without inventing it",
+     "detail": "4968 characters of readable text, 3 highlight spans.",
+     "ocrSample": "III) Metabolism (Biotransformation) B) Phase II (Synthetic & Conjugation) B) Hepatic microsomal enzyme inhibitors IV) Excretion - Removal of drug from body may occur by number of - The aim of drug metabolism in most of the cases is to - Usually leads to inactivation. - Drugs whic"
+    },
+    {
+     "page": 4,
+     "reason": "revision prose, not questions — nothing here is extractable as a written question without inventing it",
+     "detail": "3313 characters of readable text, 9 highlight spans.",
+     "ocrSample": "C) The lungs A) First-order (linear) i B) Zero-order (saturation) Plasma half-life (t1/2): Maintenance dose: kinetics kinetics -The dose needed to replace the drugs eliminated - Gases (CO2) & Volatile liquids (Halothane which is Def: Time needed for the plasma drug concentration "
+    }
+   ],
+   "pagesYieldingNoItemCount": 4
+  }
+ ],
+ "frontMatter": [
+  {
+   "page": 1,
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "description": "Cover — \"ATLAS OF PRACTICAL GENERAL PATHOLOGY, Modules INT-108 & INT-208, For Medical Students, Faculty of Medicine Cairo University, 2025-2026\"."
+  },
+  {
+   "page": 2,
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "description": "Title page, repeating the cover."
+  },
+  {
+   "page": 3,
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "description": "Preface. States that the atlas shows histopathology slides and gross pictures; that some slides are provided as glass slides for the microscope and others demonstrated as a data show (DS) slide or picture; that most pictures are original departmental pictures and \"only few pictures are downloaded from websites\"; and that the museum, begun by the late Prof. Anwar Mahfouz Elwi (chair 1962-1973), holds around 1400 specimens."
+  },
+  {
+   "page": 4,
+   "sourceId": "src_a2ffe25e8362fe840ceb",
+   "description": "Acknowledgements — the histology and gross contributor lists, revised by Prof. Dr Ahmed Abdel Aziz."
+  }
+ ],
+ "guidance": [
+  {
+   "itemId": "INT108-PRAC-PATHO-INTRO-HISTO",
+   "page": 5,
+   "printedPage": 1,
+   "title": "Practical histopathology — introduction",
+   "body": [
+    "Steps to examine a histopathology slide are: naked eye examination before looking into microscope; low power examination to identify tissue type, lesion and pattern; high power to determine specific cellular features.",
+    "For microscopic description of slides: Section in ....... (Tissue?); Lesion (Pattern, cells, fibers, blood vessels).",
+    "Final diagnosis includes pathological lesion and organ."
+   ],
+   "kind": "method guidance",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 5,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 1,
+    "sourceItemLabel": null,
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-INTRO-GROSS",
+   "page": 9,
+   "printedPage": 22,
+   "title": "Gross surgical pathology — introduction",
+   "body": [
+    "To make a pathological diagnosis, we should first identify and describe the lesion.",
+    "Gross educational specimens can be in jars or fresh samples. For gross description, we comment on: Specimen; Size (normal, increased or decreased); Shape; Surface (smooth, irregular, nodular); Consistency in fresh specimens (hard, firm, soft) / Borders in jars (round, sharp); Cut surface (color, cavity, cyst, mass).",
+    "Final diagnosis includes pathological lesion and organ."
+   ],
+   "kind": "method guidance",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 9,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 22,
+    "sourceItemLabel": null,
+    "sourceItemNumber": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "itemId": "INT108-PRAC-PATHO-S07",
+   "label": "SLIDE (7)",
+   "number": 7,
+   "delivery": "numbered slide",
+   "title": "Hyaline degeneration, spleen",
+   "page": 6,
+   "printedPage": 2,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section from the spleen.",
+   "features": [
+    "The splenic capsule and fibrous trabeculae show hyalinosis (thickened, structureless, homogenous pink).",
+    "Hyaline degeneration (hyalinosis) of the central arterioles of lymphoid follicles.",
+    "The arteriolar wall is thickened, and their lumen is narrowed."
+   ],
+   "diagnosis": "Hyaline degeneration (hyalinosis), spleen.",
+   "stain": null,
+   "stainReason": "the caption names no stain",
+   "stainEvidence": "the caption calls the hyalinosis \"homogenous pink\", a colour cue only",
+   "preparation": null,
+   "preparationReason": "the caption states no preparation",
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [
+    "a leader line from the caption to the splenic capsule on the photograph"
+   ],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 6,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 2,
+    "sourceItemLabel": "SLIDE (7)",
+    "sourceItemNumber": 7
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-S09",
+   "label": "SLIDE (9)",
+   "number": 9,
+   "delivery": "numbered slide",
+   "title": "Fatty degeneration (steatosis), liver",
+   "page": 6,
+   "printedPage": 2,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section from the liver.",
+   "features": [
+    "The hepatocytes are distended by empty cytoplasmic vacuoles which push the nucleus to one side giving the cell a signet ring appearance.",
+    "The vacuole is the site of fat accumulating in the hepatocytes and dissolved in xylol and alcohol during the preparation of the paraffin section, leaving these empty vacuoles."
+   ],
+   "diagnosis": "Fatty degeneration (steatosis), liver.",
+   "stain": null,
+   "stainReason": "the caption names no stain",
+   "stainEvidence": null,
+   "preparation": "paraffin section",
+   "preparationReason": null,
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 6,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 2,
+    "sourceItemLabel": "SLIDE (9)",
+    "sourceItemNumber": 9
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-DS01",
+   "label": "DATA SHOW",
+   "number": null,
+   "delivery": "data show",
+   "title": "Traumatic fat necrosis",
+   "page": 7,
+   "printedPage": 3,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section from adipose tissue.",
+   "features": [
+    "Ghosts of fat cells surrounded by foamy macrophages (engulf the fat) and multinucleated giant cells."
+   ],
+   "diagnosis": "Traumatic fat necrosis.",
+   "stain": null,
+   "stainReason": "the caption names no stain",
+   "stainEvidence": null,
+   "preparation": null,
+   "preparationReason": "the caption states no preparation",
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 7,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 3,
+    "sourceItemLabel": "DATA SHOW",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-DS02",
+   "label": "DATA SHOW",
+   "number": null,
+   "delivery": "data show",
+   "title": "Infarction, kidney",
+   "page": 7,
+   "printedPage": 3,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section of kidney tissue.",
+   "features": [
+    "A renal infarct with coagulative necrosis showing maintained architecture (arrow) and adjacent viable renal tissue.",
+    "Inflammatory cells are present at its margin."
+   ],
+   "diagnosis": "Renal infarction with coagulative necrosis.",
+   "stain": null,
+   "stainReason": "the caption names no stain",
+   "stainEvidence": null,
+   "preparation": null,
+   "preparationReason": "the caption states no preparation",
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [
+    "an arrow on the photograph indicating the zone of maintained architecture"
+   ],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 7,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 3,
+    "sourceItemLabel": "DATA SHOW",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-DS03",
+   "label": "DATA SHOW",
+   "number": null,
+   "delivery": "data show",
+   "title": "Dystrophic calcification",
+   "page": 8,
+   "printedPage": 4,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section in fibrotic tissue.",
+   "features": [
+    "It showed dystrophic calcification and some inflammatory cells.",
+    "Calcification is seen as blue basophilic deposition.",
+    "Ragged and torn foci are noted due to difficult cutting by microtome knife."
+   ],
+   "diagnosis": "Dystrophic calcification in fibrotic tissue.",
+   "stain": null,
+   "stainReason": "the caption names no stain",
+   "stainEvidence": "the caption calls the calcification \"blue basophilic\", a colour cue only",
+   "preparation": null,
+   "preparationReason": "the caption states no preparation, but notes microtome tearing at the calcified foci, which implies a cut section",
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 8,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 4,
+    "sourceItemLabel": "DATA SHOW",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-DS04",
+   "label": "DATA SHOW",
+   "number": null,
+   "delivery": "data show",
+   "title": "Prussian blue — hepatic haemochromatosis",
+   "page": 8,
+   "printedPage": 4,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Practical histopathology",
+   "depicts": "Section in hepatic hemochromatosis.",
+   "features": [
+    "In Prussian Blue stained section, the cells show blue stained hemosiderin pigments.",
+    "In H&E section, these pigments appear brown."
+   ],
+   "diagnosis": "Hepatic haemochromatosis — haemosiderin deposition.",
+   "stain": "Prussian blue, with H&E named as the comparison section",
+   "stainReason": null,
+   "stainEvidence": "the only plate in the extract that names its stain",
+   "preparation": null,
+   "preparationReason": "the caption states no preparation",
+   "magnification": null,
+   "magnificationReason": "the atlas prints no magnification on any plate",
+   "markers": [],
+   "kind": "microscopic slide",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 8,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 4,
+    "sourceItemLabel": "DATA SHOW",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-C18-1",
+   "label": "C18-1",
+   "number": null,
+   "delivery": "gross specimen",
+   "title": "Brown atrophy of the heart",
+   "page": 10,
+   "printedPage": 23,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Gross surgical pathology",
+   "depicts": "Heart with open left side.",
+   "features": [
+    "Heart is reduced in size (compare to the size of the aorta).",
+    "The myocardium is dark brown.",
+    "Coronaries (seen at the outer surface) are tortuous.",
+    "Pericardial fat is replaced by serous tissue (serous atrophy of fat).",
+    "Aorta shows yellow atherosclerotic patches."
+   ],
+   "diagnosis": "1. Brown atrophy of the heart and serous atrophy of pericardial fat. 2. Aortic atherosclerosis.",
+   "stain": null,
+   "stainReason": "a gross specimen is not stained",
+   "stainEvidence": null,
+   "preparation": "museum specimen — the preface records the Cairo University pathology museum of about 1400 specimens as the source of the gross material",
+   "preparationReason": null,
+   "magnification": null,
+   "magnificationReason": "a gross specimen has no magnification",
+   "markers": [
+    "the plate is headed with the specimen code \"C18-1\"",
+    "three pink arrows on the photograph, labelled \"Aorta\", \"Serous atrophy of fat\" and \"Deep brown myocardium\""
+   ],
+   "kind": "gross specimen",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 10,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 23,
+    "sourceItemLabel": "C18-1",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-C19-1",
+   "label": "C19-1",
+   "number": null,
+   "delivery": "gross specimen",
+   "title": "Fatty change of the heart (tabby cat)",
+   "page": 10,
+   "printedPage": 23,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Gross surgical pathology",
+   "depicts": "Heart with open chambers.",
+   "features": [
+    "The myocardium is yellow in color. The Columnae Carnae show brown dots alternating with yellow ones (Tabby cat appearance).",
+    "The left ventricle shows hypertrophy and dilatation.",
+    "The aorta and mitral valve shows yellow atherosclerotic patches."
+   ],
+   "diagnosis": "1. Fatty change of the heart (Tabby cat). 2. Hypertrophy and dilatation of right ventricle. 3. Atherosclerosis of aorta and mitral valve.",
+   "stain": null,
+   "stainReason": "a gross specimen is not stained",
+   "stainEvidence": null,
+   "preparation": "museum specimen",
+   "preparationReason": null,
+   "magnification": null,
+   "magnificationReason": "a gross specimen has no magnification",
+   "markers": [
+    "printed labels on the plate: \"Aorta\", \"Yellow atherosclerosis\", \"Tabby cat appearance\", \"L.V.\""
+   ],
+   "defect": "The description says the LEFT ventricle is hypertrophied and dilated; the diagnosis under it says the RIGHT ventricle. The plate's own label reads \"L.V.\". One of the two lines is wrong in the book and a pathologist must decide which before this specimen is published. The diagnosis list also ends with an empty numbered item \"4.\" — a fourth diagnosis was intended and never written. Both defects are in the source, not in the OCR: they were confirmed against the rendered page.",
+   "kind": "gross specimen",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 10,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 23,
+    "sourceItemLabel": "C19-1",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-D105-2",
+   "label": "D105-2",
+   "number": null,
+   "delivery": "gross specimen",
+   "title": "Liver steatosis (fatty change)",
+   "page": 11,
+   "printedPage": 24,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Gross surgical pathology",
+   "depicts": "Slice of liver.",
+   "features": [
+    "Cut surface of the liver slice shows diffuse yellow coloration.",
+    "The borders are rounded indicating soft consistency."
+   ],
+   "diagnosis": "Liver steatosis (fatty change).",
+   "stain": null,
+   "stainReason": "a gross specimen is not stained",
+   "stainEvidence": null,
+   "preparation": "museum specimen",
+   "preparationReason": null,
+   "magnification": null,
+   "magnificationReason": "a gross specimen has no magnification",
+   "markers": [
+    "printed labels on the plate: \"Yellow color\", \"Round border\""
+   ],
+   "kind": "gross specimen",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 11,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 24,
+    "sourceItemLabel": "D105-2",
+    "sourceItemNumber": null
+   }
+  },
+  {
+   "itemId": "INT108-PRAC-PATHO-S10-1",
+   "label": "S10-1",
+   "number": null,
+   "delivery": "gross specimen",
+   "title": "Subcutaneous fibroma with dystrophic calcification",
+   "page": 11,
+   "printedPage": 24,
+   "topic": "Cellular accumulation and deposition",
+   "section": "Gross surgical pathology",
+   "depicts": "Sectioned tumor mass.",
+   "features": [
+    "The tumor mass is rounded and capsulated.",
+    "Cut section of the mass is grayish white and shows granular chalky white foci of calcification."
+   ],
+   "diagnosis": "Subcutaneous fibroma with dystrophic calcification.",
+   "stain": null,
+   "stainReason": "a gross specimen is not stained",
+   "stainEvidence": null,
+   "preparation": "museum specimen",
+   "preparationReason": null,
+   "magnification": null,
+   "magnificationReason": "a gross specimen has no magnification",
+   "markers": [
+    "printed labels on the plate: \"Fibrous capsule\", \"Chalky white calcification\""
+   ],
+   "kind": "gross specimen",
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 11,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourcePageLabel": 24,
+    "sourceItemLabel": "S10-1",
+    "sourceItemNumber": null
+   }
+  }
+ ],
+ "mediaRequests": [
+  {
+   "requestId": "INT108-MEDIA-01",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-S07",
+   "label": "Hyaline degeneration, spleen",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Micrograph of spleen in which the capsule and a fibrous trabecula are both in frame and visibly thickened and structureless, together with a lymphoid follicle whose central arteriole shows a thickened wall and a narrowed lumen.",
+   "purpose": "The station asks the student to identify the lesion and the organ from the section. There is no text on the stem to read the answer off.",
+   "stain": null,
+   "stainNote": "the caption names no stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "splenic capsule showing hyalinosis",
+    "fibrous trabecula showing hyalinosis",
+    "lymphoid follicle",
+    "central arteriole with thickened wall and narrowed lumen"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 6,
+     "printedPage": 2
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 6,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "SLIDE (7)"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-02",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-S09",
+   "label": "Fatty degeneration (steatosis), liver",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Micrograph of liver in which hepatocytes are distended by large empty cytoplasmic vacuoles with the nucleus displaced to one side, so the signet-ring appearance is unmistakable at the printed size.",
+   "purpose": "Identify-the-lesion station; the empty vacuole is the whole teaching point and cannot be described into existence.",
+   "stain": null,
+   "stainNote": "the caption names no stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "hepatocytes with empty cytoplasmic vacuoles",
+    "nuclei pushed to one side (signet ring appearance)",
+    "adjacent unaffected hepatocytes for contrast"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 6,
+     "printedPage": 2
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 6,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "SLIDE (9)"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-03",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-DS01",
+   "label": "Traumatic fat necrosis",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Micrograph of adipose tissue showing ghost outlines of dead fat cells ringed by foamy macrophages, with at least one multinucleated giant cell in the same field.",
+   "purpose": "Identify-the-lesion station. The three named cell types are the mark scheme.",
+   "stain": null,
+   "stainNote": "the caption names no stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "ghosts of fat cells",
+    "foamy macrophages",
+    "multinucleated giant cells"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 7,
+     "printedPage": 3
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 7,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "DATA SHOW"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-04",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-DS02",
+   "label": "Infarction, kidney",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Micrograph of kidney containing both infarcted and viable tissue in one field, so the preserved outlines of coagulative necrosis can be compared directly with the living parenchyma beside them, with the inflammatory margin included.",
+   "purpose": "Identify-the-lesion station. The atlas's caption points at the necrotic zone with an arrow, so the replacement image must leave that marker placeable.",
+   "stain": null,
+   "stainNote": "the caption names no stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "zone of coagulative necrosis with maintained architecture",
+    "adjacent viable renal tissue",
+    "inflammatory cells at the margin",
+    "room for an arrow marker over the necrotic zone"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 7,
+     "printedPage": 3
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 7,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "DATA SHOW"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-05",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-DS03",
+   "label": "Dystrophic calcification",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Micrograph of fibrotic tissue carrying basophilic calcific deposits, with the characteristic ragged tearing at the calcified foci left visible rather than cropped out.",
+   "purpose": "Identify-the-lesion station, and the tearing artefact is itself examinable — the caption explains it, so the image must contain it.",
+   "stain": null,
+   "stainNote": "the caption names no stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "basophilic (blue) calcific deposits",
+    "surrounding fibrous tissue",
+    "inflammatory cells",
+    "ragged / torn foci from microtome cutting"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 8,
+     "printedPage": 4
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 8,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "DATA SHOW"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-06",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-DS04",
+   "label": "Prussian blue — hepatic haemochromatosis",
+   "medium": "micrograph",
+   "mediaRequestMedium": "image",
+   "kind": "histology",
+   "brief": "Paired plate of the same haemochromatotic liver: one Prussian-blue section in which the haemosiderin is blue, and one H&E section of comparable field in which the same pigment is brown. One image of the pair alone teaches half the caption.",
+   "purpose": "Identify-the-stain-and-the-pigment station. The caption's teaching point is the colour change between the two stains, which needs both sections in the plate.",
+   "stain": "Prussian blue, with H&E named as the comparison section",
+   "stainNote": "the only plate in the extract that names its stain",
+   "magnification": null,
+   "magnificationNote": "the atlas prints no magnification on any plate",
+   "structures": [
+    "blue haemosiderin granules in the Prussian-blue section",
+    "brown haemosiderin granules in the H&E section",
+    "hepatocytes in both sections"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original section photographed by the pathology department, Cairo University, or an openly licensed histopathology teaching collection.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 8,
+     "printedPage": 4
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 8,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "DATA SHOW"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-07",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-C18-1",
+   "label": "Brown atrophy of the heart",
+   "medium": "gross specimen",
+   "mediaRequestMedium": "image",
+   "kind": "clinical photograph",
+   "brief": "Photograph of a heart opened on the left side, framed with the aorta in shot so the reduced cardiac size can be judged against it, showing dark brown myocardium, tortuous surface coronaries and pericardial fat replaced by gelatinous serous tissue.",
+   "purpose": "Identify-the-specimen station. Every one of the five gross findings is read off the photograph; the size judgement in particular fails if the aorta is cropped out.",
+   "stain": null,
+   "stainNote": "a gross specimen is not stained",
+   "magnification": null,
+   "magnificationNote": "a gross specimen has no magnification",
+   "structures": [
+    "dark brown myocardium",
+    "heart small relative to the aorta in the same frame",
+    "tortuous coronary arteries on the outer surface",
+    "serous atrophy of pericardial fat",
+    "yellow atherosclerotic patches on the aorta"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original photograph of the numbered museum specimen held by the pathology department, Cairo University, or an openly licensed gross-pathology atlas.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 10,
+     "printedPage": 23
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 10,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "C18-1"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-08",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-C19-1",
+   "label": "Fatty change of the heart (tabby cat)",
+   "medium": "gross specimen",
+   "mediaRequestMedium": "image",
+   "kind": "clinical photograph",
+   "brief": "Photograph of a heart with the chambers opened, showing yellow myocardium and columnae carneae mottled with alternating brown and yellow bands (tabby cat striping), with the aorta and mitral valve in frame.",
+   "purpose": "Identify-the-specimen station. Note the source contradicts itself on left versus right ventricle; do not caption the sourced photograph until that is resolved.",
+   "stain": null,
+   "stainNote": "a gross specimen is not stained",
+   "magnification": null,
+   "magnificationNote": "a gross specimen has no magnification",
+   "structures": [
+    "yellow myocardium",
+    "brown-and-yellow banded columnae carneae (tabby cat)",
+    "hypertrophied and dilated ventricle, labelled to match whichever side the department confirms",
+    "yellow atherosclerotic patches on aorta and mitral valve"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original photograph of the numbered museum specimen held by the pathology department, Cairo University, or an openly licensed gross-pathology atlas.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 10,
+     "printedPage": 23
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 10,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "C19-1"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-09",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-D105-2",
+   "label": "Liver steatosis (fatty change)",
+   "medium": "gross specimen",
+   "mediaRequestMedium": "image",
+   "kind": "clinical photograph",
+   "brief": "Photograph of a liver slice whose cut surface is diffusely yellow, taken from an angle that keeps the rounded border of the slice visible, since the border is the evidence of soft consistency.",
+   "purpose": "Identify-the-specimen station. Both gross findings are visual and neither is recoverable from the caption alone.",
+   "stain": null,
+   "stainNote": "a gross specimen is not stained",
+   "magnification": null,
+   "magnificationNote": "a gross specimen has no magnification",
+   "structures": [
+    "diffusely yellow cut surface",
+    "rounded border of the slice"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original photograph of the numbered museum specimen held by the pathology department, Cairo University, or an openly licensed gross-pathology atlas.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 11,
+     "printedPage": 24
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 11,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "D105-2"
+   }
+  },
+  {
+   "requestId": "INT108-MEDIA-10",
+   "ownerKind": "practical",
+   "ownerItemId": "INT108-PRAC-PATHO-S10-1",
+   "label": "Subcutaneous fibroma with dystrophic calcification",
+   "medium": "gross specimen",
+   "mediaRequestMedium": "image",
+   "kind": "clinical photograph",
+   "brief": "Photograph of a sectioned rounded encapsulated soft-tissue tumour with a greyish white cut surface bearing granular chalky white calcific foci, with the capsule visible around the circumference.",
+   "purpose": "Identify-the-specimen station; the diagnosis is made from the capsule plus the chalky foci.",
+   "stain": null,
+   "stainNote": "a gross specimen is not stained",
+   "magnification": null,
+   "magnificationNote": "a gross specimen has no magnification",
+   "structures": [
+    "rounded capsulated mass",
+    "fibrous capsule",
+    "greyish white cut surface",
+    "granular chalky white foci of calcification"
+   ],
+   "priority": "required",
+   "status": "needed",
+   "sourceDirection": "An original photograph of the numbered museum specimen held by the pathology department, Cairo University, or an openly licensed gross-pathology atlas.",
+   "rights": "Must be CC-BY, CC0 or public domain, or carry written departmental permission. The atlas's own preface admits that a few of its pictures were downloaded from websites, so nothing may be traced back to this PDF and re-hosted without a licence check. Record the licence and the photographer before release.",
+   "dependsOn": [
+    {
+     "file": "Dpt Book Pathology Practical [INT-108].pdf",
+     "page": 11,
+     "printedPage": 24
+    }
+   ],
+   "provenance": {
+    "sourceId": "src_a2ffe25e8362fe840ceb",
+    "page": 11,
+    "moduleId": "108 INT",
+    "universityId": "kau",
+    "subject": "Pathology",
+    "sourceItemLabel": "S10-1"
+   }
+  }
+ ],
+ "mediaRequestSummary": {
+  "total": 10,
+  "byMedium": {
+   "gross specimen": 4,
+   "micrograph": 6
+  },
+  "byPriority": {
+   "required": 10
+  },
+  "note": "Every request is `required` because every item is an identify-this station: the caption in the atlas is the answer key, so an item shipped without its image is an answer with no question. Nothing here is `optional` — there is no schematic or redrawable diagram anywhere in the extract, and no item whose teaching point survives in prose.",
+  "destinationFiles": [
+   "docs/Kasr-Source-Imports/media-requests/108-INT-media-audit.md",
+   "docs/Kasr-Source-Imports/media-requests/108-INT-practical-media-requests.md"
+  ]
+ },
+ "writtenQuestions": [],
+ "writtenQuestionsNote": "Zero written questions. The file is named \"PHARMA WRITTEN Crash Kinetics Highlighted\" and the corpus files it under `Written Questions`, but its four pages contain no question of any kind: a scan of the full text layer finds no question number, no \"Give/Mention/Enumerate/Compare/Discuss/Define\" instruction, no mark allocation and no model answer; the only \"?\" characters in the file are the three in the authors' own aside \"4. pH within the gut:???\". What the file actually is, is a three-column crash revision summary of General Pharmacology \"Kinetics\" — absorption, distribution, metabolism, excretion, first-pass effects, Vd, order kinetics, t1/2, loading and maintenance dose — signed \"YAS\" in the corner of page 1. `Instruction Manual for Content Creation/05-questions.md` makes the rule absolute: a written question may only be derived from an existing written question, never from a textbook passage. Turning these notes into questions would produce items that look right and train a student for an exam nobody set, so none were written. The prose is worth importing — as notes or as concepts — but that is a different extractor's job.",
+ "writtenSourceEmphasis": {
+  "sourceId": "src_9aecfa4812d20259fe5a",
+  "note": "The filename promises highlighting and the text layer does not carry it: pdftotext returns identical characters whether or not a run is highlighted, so a reader of `pagetext/src_9aecfa4812d20259fe5a.json` alone would have to report the signal lost. It is not lost, and it is not one thing either. Rendering all four pages and looking at them shows TWO separate highlighting mechanisms, and only one of them is recoverable here.\n\n(1) Baked-in shading from the original .docx — yellow behind headings and behind individual claims, plus green and pink block tints and pink/yellow table-column tints. It is on all four pages and it is the document's own typography. It is not an annotation: it is drawn into the page content, so nothing below captures it. Page 1 is shaded this way and carries no annotation at all, which means a tool that reads only annotations will report page 1 as unhighlighted when in fact it is the page whose highlighting is purely baked in.\n\n(2) 31 cyan PDF highlight annotations added over the top by a reader, on pages 2, 3 and 4 only, all in one colour, accompanied by freehand Ink ticks. These ARE recoverable: the text each one covers has been read back through the annotation quad geometry and is recorded verbatim below.\n\nWhat the cyan marks, judged from the rendered pages, is whole self-contained topic blocks and definitions — Bioavailability, First pass effects, Factors affecting distribution, Passage across the BBB, Apparent volume of distribution, Plasma half-life, Loading dose, Maintenance dose. It marks neither individual key terms nor mark-scheme points, and it cannot mark answers, because the file contains no questions. It reads as one reader's revision emphasis: these are the blocks worth learning. That makes it useful for ranking topics and useless as `Expects:` lines, which have to hang off a question that exists. Nothing in the file says who highlighted it or why.",
+  "available": true,
+  "highlightCount": 31,
+  "otherAnnotationTypes": {
+   "Ink": 18
+  },
+  "otherAnnotationNote": "The file also carries freehand Ink annotations — someone's pen marks over the printed notes. Their geometry is recoverable but they cover no text, so there is nothing to transcribe and no way to know what they meant.",
+  "spans": [
+   {
+    "page": 2,
+    "index": 1,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Bioavailability - Fraction of a drug that reaches systemic circulation after administration by any route. - Bioavailability is 100% after IV administration and variable after oral administration.  Oral bioavailability = (AUC-oral/AUC-IV) × 100.  AUC = Area under the plasma – concentration time curve."
+   },
+   {
+    "page": 2,
+    "index": 2,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Factors affecting distribution"
+   },
+   {
+    "page": 2,
+    "index": 3,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "3. Passage across barriers: A) Passage to central nervous system across blood brain barrier (BBB)"
+   },
+   {
+    "page": 2,
+    "index": 4,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "B) Passage to fetus across placental barrier"
+   },
+   {
+    "page": 2,
+    "index": 5,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "non-ionized, lipid soluble drugs pass from the mother to the fetus more easily."
+   },
+   {
+    "page": 2,
+    "index": 6,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "C) Passage of drugs through breast mi"
+   },
+   {
+    "page": 2,
+    "index": 7,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "basic drugs ionize and accumulate in milk (ion trapping). - Milk contains more fat than plasma which favors retention of lipid soluble drugs."
+   },
+   {
+    "page": 2,
+    "index": 8,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Apparent volume of distribution (Vd)"
+   },
+   {
+    "page": 2,
+    "index": 9,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "If we assume that body consists of one big fluid compartment and that the total amount of drug (A) would be uniformly distributed in that compartment such that it would have the same concentration as in plasma (C). 𝑨𝒑𝒑𝒂𝒓𝒆𝒏𝒕 𝒗𝒐𝒍𝒖𝒎𝒆 𝒐𝒇 𝒅𝒊𝒔𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 (𝑽𝒅) = 𝑨 [𝒎𝒈] 𝑪 [𝒎𝒈/𝒎 𝑪 [𝒎𝒈/𝒎 𝒎𝒍]  A = total amount of drug in mg.  C = initial concentration of drug in plasma in mg/dl."
+   },
+   {
+    "page": 2,
+    "index": 10,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "1. Physicochemical properties of the drug:"
+   },
+   {
+    "page": 2,
+    "index": 11,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Molecular weight (MW)."
+   },
+   {
+    "page": 2,
+    "index": 12,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Degree of ionization. - Lipid solubility."
+   },
+   {
+    "page": 2,
+    "index": 13,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "2. Binding to plasma proteins:"
+   },
+   {
+    "page": 2,
+    "index": 14,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "So, drugs are carried in blood in 2 forms:"
+   },
+   {
+    "page": 2,
+    "index": 15,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "a) Free form: active – diffusible – metabolized – excreted. b) Bound form: inactive, non-diffusible, not metabolized - not excreted (act as reservoir)."
+   },
+   {
+    "page": 2,
+    "index": 16,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Non-ionized, lipid soluble drugs can pass the BBB"
+   },
+   {
+    "page": 2,
+    "index": 17,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Inflammation (Meningitis) increases permeability of"
+   },
+   {
+    "page": 2,
+    "index": 18,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "the B.B.B."
+   },
+   {
+    "page": 2,
+    "index": 19,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "7) First pass effects - Metabolism of a drug in the gut wall or the liver before reaching the systemic circulation. 1. Gut first pass effect: - Gastric acidity: destroys benzyl penicillin. - Digestive enzymes: destroy insulin. - Mucosal enzymes: destroy chlorpromazine. 2. Hepatic first pass effects: - Drugs extensively metabolized: e.g., Nitroglycerine  To avoid change route of administration. “Nitroglycerine is administered sublingually”. - Drugs metabolized to large extent: e.g., propranolol and nitroglycerine  To avoid  the oral dose."
+   },
+   {
+    "page": 3,
+    "index": 20,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Types of Metabolic reactions A) Phase I (Non-synthetic) (Oxidation, Reduction & Hydrolysis) 1) Oxidation: Alcohol  Acetaldehyde  Acetic acid 2) Reduction: Chloral hydrate (Active)  Tri-chloro- ethanol (more active). 3) Hydrolysis: Acetylcholine (Active)  Acetic acid + Choline (inactive). Results of phase I metabolism: 1) Inactivation (the commonest fate): Active drug  inactive metabolite. - Adrenaline & Noradrenaline  Vanil Mandilic Acid (VMA). 2) Activation: Inactive drug (prodrug)  Active metabolite. - Cortisone (Inactive)  Hydrocortisone = cortisol (Active). 3) Maintain activation: Active drug  active metabolite. - Diazepam (Active)  Nor-diazepam (active). 4) Toxification: Drug  Toxic metabolite. - Methyl alcohol  Formaldehyde  Blindness"
+   },
+   {
+    "page": 3,
+    "index": 21,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "nzymes responsible for drug metabolism: Microsomal enzymes enzymes Non-microsomal enzymes 1) Site Smooth endoplasmic reticulum Cytoplasm, Mitochondria…etc. 2) Organs Mainly hepatic All organs 3) Phase I Oxidation / Reduction (Cytochrome P-450) Oxidation / Reduction & Hydrolysis 4) Phase II Glucuronidation only only All except glucuronic acid 5) Induction Inducible NOT inducible 6) Substrates Usually lipophilic Lipophilic & hydrophili & hydrophili ic"
+   },
+   {
+    "page": 3,
+    "index": 22,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "B) Phase II (Synthetic & Conjugation) - Usually leads to inactivation. - May lead to activation e.g., Morphine  Morphine- 6-glucuronide (More active). - Glucuronidation of paracetamol  Inactivation – Acetylation of isoniazid  inactivation. - Methylation of adrenaline  active noradrenaline. - Glycine conjugation of aspirin  inactivation."
+   },
+   {
+    "page": 4,
+    "index": 23,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "iA A A A) First-order (linear) kinetics B) Zero-order (saturation) kinetics 1) Kinetics of drug are PROPORTIONAL to its concentration. 2) Fixed FRACTION (%) of the drug eliminated per unit time. 3) LINEAR drug disappearance curve. 4) CONSTANT t1/2. 5) AUC is PROPORTIONAL to drug concentration. 6) Repeated intake of drug at regular intervals  Css within 4-5 t1/2. 7) Examples: - Most drugs in therapeutic doses. - Small doses of aspirin & phenytoin. 1) Rate of kinetics is fixed and NOT proportional to drug concentration (due to SATURATION of involved enzyme &/or carrier 2) Fixed AMOUNT of the drug is eliminated per unit time. 3) NON-LINEAR drug disappearance curve. 4) t1/2 increases with increase in drug concentration. 5) AUC is NOT proportional to drug concentration. 6) If rate of intake of exceeds rate of elimination, this leads to accumulation of the drug leading to toxicity. 7) Examples: - L.D. of aspirin and phenytoin."
+   },
+   {
+    "page": 4,
+    "index": 24,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "To treat a certain disease, we need to maintain a steady state concentration (Css) or constant drug level. - To maintain a steady state concentration (Css), the dose regimen must be designed to replace the medication at approximately rate with which it is eliminated (rate of rug administration = rate of drug elimination). - The most accurate way to do this is with a constant intravenous infusion, but an attempt to maintain an approximate steady state can be reached with repeated doses."
+   },
+   {
+    "page": 4,
+    "index": 25,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Maintenance dose: -The dose needed to replace the drugs eliminated since the preceding dose to maintain steady state (Css)."
+   },
+   {
+    "page": 4,
+    "index": 26,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "2): D"
+   },
+   {
+    "page": 4,
+    "index": 27,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "kinetics 1) Kinetics of drug are PROPORTIONAL to its concentration. 2) Fixed FRACTION (%) of the drug eliminated per unit time. 3) LINEAR drug disappearance curve. 4) CONSTANT t1/2. 5) AUC is PROPORTIONAL to drug concentration. 6) Repeated intake of drug at regular intervals  Css within 4-5 t1/2. 7) Examples: - Most drugs in therapeutic doses. - Small doses of aspirin & phenytoin. 1) Rate of kinetics is fixed and NOT proportional to drug concentration (due to SATURATION of involved enzyme &/or carrier 2) Fixed AMOUNT of the drug is eliminated per unit time. 3) NON-LINEAR drug disappearance curve. 4) t1/2 increases with increase in drug concentration. 5) AUC is NOT proportional to drug concentration. 6) If rate of intake of exceeds rate of elimination, this leads to accumulation of the drug leading to toxicity. 7) Examples: - L.D. of aspirin and phenytoin. Plasma half-life (t1/2): Def: Time needed for th"
+   },
+   {
+    "page": 4,
+    "index": 28,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "2): Def:"
+   },
+   {
+    "page": 4,
+    "index": 29,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Def: Time needed for the plasma drug concentration to"
+   },
+   {
+    "page": 4,
+    "index": 30,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "inical importance of t1/2 1-Repeated administration of a drug (that follows first order kinetic elimination) at regular intervals will lead to achievement of a plateau (Steady state) plasma concentration Css within 4-5 t1/2. - Most of the drug (> 95%) disappears from the body within 4-5 t1/2 after stopping its intake. 2 - t1/2 is useful to determine the frequency & route of drug administration."
+   },
+   {
+    "page": 4,
+    "index": 31,
+    "colour": [
+     0.5608,
+     0.8706,
+     0.9765
+    ],
+    "text": "Loading dose The initial dose of drug which can raise its plasma level to the target concentration."
+   }
+  ],
+  "reasonIfUnavailable": null
+ },
+ "verification": {
+  "method": "every transcribed item carries an anchor phrase that must still appear in the OCR of the page it claims; this is what catches a transcription that has drifted from a re-exported source",
+  "checked": 12,
+  "failed": [],
+  "allPassed": true
+ },
+ "findings": [
+  {
+   "finding": "BUG IN SHARED TOOLING, not just a local problem with this file: `scripts/kasr/extract/pagetext.py` cannot tell an undecodable text layer from a decodable one, so it silently caches unreadable output as a healthy native extraction. Every lane that reads that cache has this hole, not only 108 INT. This lane worked around it inside its own directory and edited nothing shared.",
+   "evidence": "The condition that fails is the native-vs-OCR guard in `extract()`:\n    if mode == \"native\" and len(native_page(pdf, 1).strip()) < 20:\n        mode = \"ocr\"\nIt tests only how MANY characters came back, never whether any of them is a character a human could read. When a PDF's embedded fonts carry no usable ToUnicode map, pdftotext emits U+0001 for every glyph it cannot map. U+0001 is not whitespace, so `.strip()` does not remove it and each one counts toward the length. For src_a2ffe25e8362fe840ceb, page 1 returns well over 20 such characters, the guard passes, the file is cached as `mode: \"native\"` with a healthy-looking character count, and `emptyPages` lists only page 12 — the one page that genuinely has no glyphs. The cache therefore reports this book as successfully extracted while containing zero readable text: 6075 glyphs across 12 pages, every one U+0001, and 0 readable characters. OCR of the same pages returns the full captions, which is how we know the pages are not blank. Note the failure is silent and inverted — the more thoroughly a file is unreadable, the more characters it produces and the healthier it looks.",
+   "suggestedGuard": "Gate on the proportion of word-forming characters, not on length. Something of the shape:\n    def readable(text):\n        t = text.strip()\n        if len(t) < 20:\n            return False\n        good = sum(1 for c in t if c.isalnum() or c.isspace() or c in \".,;:!?()[]{}'\\\"/-\")\n        return good / len(t) >= 0.8\n    if mode == \"native\" and not readable(native_page(pdf, 1)):\n        mode = \"ocr\"\nThis keeps the existing length check as the first clause, so nothing that passes today for the right reason changes, and adds the missing question: are these characters letters.\n\nMeasured, not assumed. Against the 8 sources currently sitting in the shared cache with `mode: native`, the ratio separates cleanly with a wide margin: the broken atlas scores 0.283 on page 1 and 0.582 taking the best of its first three pages, while all 7 genuinely-native sources score between 0.993 and 1.000. A 0.8 threshold puts nothing near the line and reclassifies exactly one file — the broken one. That is a local check on the cache present here, not a corpus-wide sweep, so re-measure before rollout.\n\nTwo cautions for whoever implements it. Sample more than page 1 — a cover page is often a bare image and is the least representative page in any book; best-of-the-first-three is sturdier and still flags the atlas comfortably. And keep the threshold loose enough for Arabic, maths and the corpus's heavy use of arrows and box-drawing, all of which are legitimately non-alnum: `str.isalnum()` is Unicode-aware and returns True for Arabic letters, so the risk is punctuation-dense pages rather than Arabic ones. The two Arabic-bearing sources in the sample scored 0.993 and above, but that is a small sample and worth re-testing against a known-good Arabic-heavy source before it lands.",
+   "action": "Passed to the lane that owns `pagetext.py`; this lane must not edit it. Once fixed, re-run pagetext.py --force for src_a2ffe25e8362fe840ceb so the shared cache stops reporting this book as 12 pages of blank whitespace, and consider a sweep for other sources whose cache is `mode: native` with a low readable-character ratio — the same silent failure will be sitting in any file with a broken ToUnicode map. In the meantime the manifest's `textLayer` for this source reads `native` and would be more honest as `none`."
+  },
+  {
+   "finding": "This practical file is an excerpt, not the practical, and the shortfall is large enough to matter: it holds 10 teaching items out of at least 44 — under a quarter of the book, and the true denominator is higher because the gross section's length is unknown.",
+   "evidence": "The 12 PDF pages carry printed page numbers 1, 2, 3, 4, then 22, 23, 24 (the other five PDF pages are unnumbered front matter and one caption-less plate). Printed pages 5-21 — seventeen pages — are absent outright, and the book continues past printed 24 by an unknown amount. Printed 1 and 22 are the two section introductions. All five teaching pages held (printed 2, 3, 4, 23, 24) carry exactly two items each with no exceptions, so the histopathology section's twenty teaching pages (printed 2-21) imply about 40 histopathology items against the 6 held; the 4 gross items held are a floor with no ceiling. Separately, the atlas numbers its glass slides and the two it describes are SLIDE (7) and SLIDE (9), so the department's numbered slide set runs to at least 9 and this file documents 2 of those numbers. Note that both numbered slides sit on printed page 2, immediately after the introduction, which means the slide numbers index the department's physical slide box rather than a position in the book — do not read them as evidence that pages holding slides 1-6 were removed.",
+   "action": "Ask the department for the complete Atlas of Practical General Pathology for INT-108 & INT-208: printed pages 5-21, and everything after printed page 24. Until it arrives, this catalogue is a sample of the practical and must not be published or counted as the module's practical syllabus. The computed figures are in files[0].coverage."
+  },
+  {
+   "finding": "The C19-1 heart specimen contradicts itself: the gross description says the left ventricle is hypertrophied and dilated, the diagnosis beneath it says the right ventricle, and the plate is labelled \"L.V.\". The diagnosis list also ends with an empty item \"4.\".",
+   "evidence": "confirmed on the rendered page at 300 dpi, so it is a defect in the book and not an OCR error",
+   "action": "A pathologist must resolve it before C19-1 publishes. Do not pick one silently."
+  },
+  {
+   "finding": "The atlas covers both INT-108 and INT-208 and the corpus files it in two folders. The same 10 items belong to two modules and, if imported per folder, will be created twice.",
+   "evidence": "cover reads \"Modules INT-108 & INT-208\"; manifest carries two rows with one sha256, the second flagged crossModulePractical",
+   "action": "Import once and share, as the crossModulePractical flag intends."
+  },
+  {
+   "finding": "PDF page 12 is a caption-less montage of gross photographs. It is the only page in the file whose native text layer holds zero glyphs, and OCR returns nothing but noise off the photographs.",
+   "evidence": "0 undecodable glyphs and 0 readable characters natively; the shared cache already lists page 12 in emptyPages",
+   "action": "The specimens on it cannot be identified from this file. Recorded as unparseable rather than guessed."
+  },
+  {
+   "finding": "The manifest categorises `PHARMA WRITTEN Crash Kinetics Highlighted . 2026` as sourceCategory `Written Questions`. It is not a question set. It is a four-page colour-coded crash revision handout on general pharmacokinetics, and it contains no question of any kind. This is a manifest categorisation error, and it is the reason this module ends the run with zero written questions.",
+   "evidence": "All four pages were scanned for every marker a written paper leaves: no question number, no instruction verb (Give / Mention / Enumerate / Compare / Discuss / Define / List / Explain), no mark allocation, no model answer, no answer key. The only question marks in the entire file are the three in the authors' own aside \"4. pH within the gut:???\". What is there instead is continuous exposition — ADME, first-pass effects, Vd, order kinetics, t1/2, loading and maintenance dose — laid out in three columns and signed \"YAS\" in the corner of every page. The word \"WRITTEN\" in the filename describes the subject it revises for, not the file's own form.",
+   "action": "Three separate things. (1) Correct the manifest: this source's sourceCategory should be a notes/revision category, not `Written Questions`, so no later lane goes looking for questions in it. (2) Do not derive questions from it — `Instruction Manual for Content Creation/05-questions.md` makes it absolute that a written question may only come from an existing written question, never from a textbook passage, and manufacturing items here would train students for an exam nobody set. (3) Ask the faculty for the real 108 INT written paper; if the module is expected to ship written questions, they are in a file nobody has supplied. The handout itself is genuinely good material and is worth importing as notes or concepts by a different extractor."
+  },
+  {
+   "finding": "The atlas's preface admits that \"only few pictures are downloaded from websites\", so the department does not own every image in this book.",
+   "evidence": "preface, PDF page 3",
+   "action": "Never re-host an image traced back to this PDF without a licence check. Every media request below asks for a freshly licensed equivalent."
+  }
+ ]
+}
