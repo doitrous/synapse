@@ -12,10 +12,48 @@ const FIELDS: ImportField[] = [
   { key: 'id', label: 'ID', help: 'Optional. A matching ID updates that term in place instead of adding a second one.' },
 ]
 
-const MD = `| term | ar | category | def | defAr |
-| --- | --- | --- | --- | --- |
-| Tachycardia | تسرّع القلب | Signs & symptoms | A faster than normal heart rate. | تسارع ضربات القلب عن المعدل الطبيعي. |
-| Auscultation | تسمّع | Examination | Listening to body sounds with a stethoscope. | الاستماع إلى أصوات الجسم بالسماعة. |`
+// The wizard's markdown reader parses `# Item` / `## key` blocks; it has no table
+// branch, so the pipe table this example used to show was rejected on upload with
+// "No header row and data rows were detected". Note `definition_ar` — `defAr`
+// normalises to `defar`, matches no field, and silently arrives unmapped.
+const MD = `# Item
+
+## term
+Tachycardia
+
+## ar
+تسرّع القلب
+
+## category
+Signs & symptoms
+
+## def
+A faster than normal heart rate.
+
+## definition_ar
+تسارع ضربات القلب عن المعدل الطبيعي.
+
+## example
+The patient was tachycardic at 120 beats per minute.
+
+---
+
+# Item
+
+## term
+Psych- · psychology · psychiatry · psychologist
+
+## ar
+نفسي · علم النفس · الطب النفسي · عالِم نفس
+
+## category
+Word parts
+
+## def
+Mind. Add -ology for its study, -iatry for the branch of medicine, -ologist for the specialist.
+
+## definition_ar
+النفس أو العقل. تُضاف ology- لعلمه، وiatry- لفرع الطب المختص به، وologist- للمختص.`
 
 const CATEGORY_KEYS = new Set<string>(MED_CATEGORIES.map((entry) => entry.key))
 
@@ -79,7 +117,10 @@ export function GlossaryImportPage() {
       noun="terms"
       fields={FIELDS}
       markdownExample={MD}
-      aliases={{ english: 'term', arabic: 'ar', word: 'term', definition: 'def', definition_ar: 'defAr', meaning: 'def', group: 'category' }}
+      // `defAr` normalises to `defar`, which matched no field: the column the page
+      // itself advertises landed on "Ignore" and the Arabic definition imported
+      // blank. Both spellings map now.
+      aliases={{ english: 'term', arabic: 'ar', word: 'term', definition: 'def', definition_ar: 'defAr', defar: 'defAr', def_ar: 'defAr', meaning: 'def', group: 'category' }}
       previewSecondary={{ header: 'Category', get: (values) => values.category || '—' }}
       validateRow={(values) => {
         const errors: string[] = []

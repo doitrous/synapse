@@ -37,7 +37,11 @@ scope. Whoever owns it picks it up from here.
 
 | Finished | Agent | Scope | Output file | Result |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-08-17 | glossary-eg | glossary · word parts | docs/import-ready/glossary/GLOSSARY-WORD-PARTS-001.md | 65 terms, 7 fields, 0 problems |
+| 2026-08-17 | glossary-eg | glossary · anatomy & body fluids | docs/import-ready/glossary/GLOSSARY-ANATOMY-001.md | 53 terms, 7 fields, 0 problems |
+| 2026-08-17 | glossary-eg | glossary · body systems | docs/import-ready/glossary/GLOSSARY-SYSTEMS-001.md | 58 terms, 7 fields, 0 problems |
+| 2026-08-17 | glossary-eg | glossary · symptoms, examination, investigations | docs/import-ready/glossary/GLOSSARY-CLINICAL-001.md | 52 terms, 7 fields, 0 problems |
+| 2026-08-17 | glossary-eg | glossary · conditions & pharmacology | docs/import-ready/glossary/GLOSSARY-CLINICAL-002.md | 69 terms, 7 fields, 0 problems |
 
 ---
 

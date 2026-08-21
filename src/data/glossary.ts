@@ -111,6 +111,19 @@ export const GLOSSARY_SEED: MedicalTerm[] = [
   { id: 'indication', term: 'Indication', ar: 'استطباب (دواعي الاستعمال)', category: 'Pharmacology', def: 'A valid reason to use a treatment.', defAr: 'سبب مناسب لاستخدام علاج معيّن.' },
 ]
 
+/**
+ * A term cell may carry a whole word family rather than one word —
+ * `Psych- · psychology · psychiatry · psychologist`. One entry per family is how
+ * the dictionary is authored, because splitting the endings into separate cards
+ * teaches a student nothing and buries the root. The headword leads; the rest are
+ * the forms built on it, and they are shown as variants rather than run together
+ * on the title line.
+ */
+export function termForms(value: string): { head: string; variants: string[] } {
+  const parts = (value ?? '').split('·').map((part) => part.trim()).filter(Boolean)
+  return { head: parts[0] ?? '', variants: parts.slice(1) }
+}
+
 /** The whole glossary as one stored document. */
 export interface GlossaryDoc {
   version: 1

@@ -5,7 +5,7 @@ import { Panel } from '@/components/ui/Panel'
 import { SearchInput } from '@/components/ui/Field'
 import { FilterChip } from '@/components/ui/FilterChip'
 import { Icon } from '@/components/ui/Icon'
-import type { MedTermCategory } from '@/data/glossary'
+import { termForms, type MedTermCategory } from '@/data/glossary'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import { useT } from '@/lib/i18n'
 
@@ -78,12 +78,33 @@ export function MedicalTaxonomy() {
                 <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.terms.length}</span>
               </div>
               <div className="grid gap-3 md:grid-cols-2">
-                {group.terms.map((term) => (
+                {group.terms.map((term) => {
+                  const english = termForms(term.term)
+                  const arabic = termForms(term.ar)
+                  return (
                   <Panel key={term.id} className="p-4">
                     <div className="flex items-start justify-between gap-3">
-                      <p className="text-[15.5px] font-semibold text-ink">{term.term}</p>
-                      <p lang="ar" dir="rtl" className="text-[16px] font-semibold text-accent-strong">{term.ar}</p>
+                      <p className="text-[15.5px] font-semibold text-ink">{english.head}</p>
+                      <p lang="ar" dir="rtl" className="text-[16px] font-semibold text-accent-strong">{arabic.head}</p>
                     </div>
+                    {(english.variants.length > 0 || arabic.variants.length > 0) && (
+                      <div className="mt-2 space-y-1.5">
+                        {english.variants.length > 0 && (
+                          <ul className="flex flex-wrap gap-1">
+                            {english.variants.map((form) => (
+                              <li key={form} className="rounded-full border border-line bg-inset px-2 py-0.5 text-[11.5px] text-ink-2">{form}</li>
+                            ))}
+                          </ul>
+                        )}
+                        {arabic.variants.length > 0 && (
+                          <ul lang="ar" dir="rtl" className="flex flex-wrap gap-1">
+                            {arabic.variants.map((form) => (
+                              <li key={form} className="rounded-full border border-line bg-inset px-2 py-0.5 text-[12px] text-ink-2">{form}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    )}
                     <div className="mt-2.5 space-y-1.5 border-t border-line pt-2.5">
                       <p className="text-[13px] leading-relaxed text-ink-2">{term.def}</p>
                       <p lang="ar" dir="rtl" className="text-[13px] leading-relaxed text-ink-2">{term.defAr}</p>
@@ -94,7 +115,8 @@ export function MedicalTaxonomy() {
                       </p>
                     )}
                   </Panel>
-                ))}
+                  )
+                })}
               </div>
             </section>
           ))}

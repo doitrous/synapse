@@ -10,7 +10,7 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, SearchInput, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { FilterChip } from '@/components/ui/FilterChip'
 import { useMedicalGlossary } from '@/data/glossaryStore'
-import { MED_CATEGORIES, starterGlossary, type MedTermCategory, type MedicalTerm } from '@/data/glossary'
+import { MED_CATEGORIES, starterGlossary, termForms, type MedTermCategory, type MedicalTerm } from '@/data/glossary'
 
 function blankTerm(category: MedTermCategory): MedicalTerm {
   return { id: `term-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`, term: '', ar: '', category, def: '', defAr: '', example: '' }
@@ -136,10 +136,15 @@ export function GlossarySetup() {
                   <li key={term.id} className="flex items-center gap-3 px-4 py-3">
                     <button type="button" onClick={() => setEditingId(term.id)} className="min-w-0 flex-1 text-left">
                       <span className="flex items-center gap-2">
-                        <span className="truncate text-[13.5px] font-medium text-ink">{term.term || 'Untitled term'}</span>
-                        <span lang="ar" dir="rtl" className="truncate text-[13px] text-accent-strong">{term.ar}</span>
+                        <span className="truncate text-[13.5px] font-medium text-ink">{termForms(term.term).head || 'Untitled term'}</span>
+                        <span lang="ar" dir="rtl" className="truncate text-[13px] text-accent-strong">{termForms(term.ar).head}</span>
                       </span>
-                      <span className="mt-0.5 block truncate text-[12px] text-ink-3">{term.category}</span>
+                      <span className="mt-0.5 block truncate text-[12px] text-ink-3">
+                        {term.category}
+                        {/* A family row would otherwise truncate to an ellipsis mid-word. */}
+                        {termForms(term.term).variants.length > 0 &&
+                          ` · ${termForms(term.term).variants.length} more form${termForms(term.term).variants.length === 1 ? '' : 's'}`}
+                      </span>
                     </button>
                     {(!term.term.trim() || !term.ar.trim() || !term.def.trim()) && <Badge tone="warning">Incomplete</Badge>}
                     <IconButton icon={Trash2} label={`Delete ${term.term}`} size="sm" onClick={() => removeTerm(term.id)} />
