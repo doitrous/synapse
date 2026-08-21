@@ -1,5 +1,7 @@
 package com.synapse.android.feature.auth
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,9 +20,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
+import com.synapse.android.core.auth.AuthNotice
+import com.synapse.android.design.CortexRadius
+import com.synapse.android.design.LocalCortex
 import com.synapse.android.design.Wordmark
 import kotlinx.coroutines.launch
 
@@ -34,7 +40,7 @@ import kotlinx.coroutines.launch
  */
 @Composable
 fun SignInScreen(
-    message: String?,
+    message: AuthNotice?,
     isWorking: Boolean,
     onSignIn: suspend (email: String, password: String) -> Unit,
     onSignUp: suspend (email: String, password: String) -> Unit,
@@ -51,7 +57,7 @@ fun SignInScreen(
         Wordmark()
         Text("Welcome back", style = MaterialTheme.typography.headlineSmall)
 
-        message?.let { Text(it, color = MaterialTheme.colorScheme.error) }
+        message?.let { AuthNoticePanel(it) }
 
         OutlinedTextField(
             value = email,
@@ -88,4 +94,43 @@ fun SignInScreen(
             Text("Forgot your password?")
         }
     }
+}
+
+/**
+ * One notice, in the tone it carries.
+ *
+ * Both are ported from the site: the problem is `role="alert"` in
+ * `src/pages/auth/Login.tsx:93` -- `border-danger/30 bg-danger-tint
+ * text-danger` -- and the progress notice is `role="status"` in
+ * `src/pages/auth/ForgotPassword.tsx:22`, `border-line bg-surface-2
+ * text-ink-2`. Everything used to render as the first of these, which meant
+ * "your account was created" was delivered in the colour of a rejection.
+ */
+@Composable
+private fun AuthNoticePanel(notice: AuthNotice) {
+    val cortex = LocalCortex.current
+    val shape = RoundedCornerShape(CortexRadius.lg)
+    val border = when (notice.tone) {
+        AuthNotice.Tone.PROBLEM -> cortex.danger.copy(alpha = 0.30f)
+        AuthNotice.Tone.PROGRESS -> cortex.line
+    }
+    val fill = when (notice.tone) {
+        AuthNotice.Tone.PROBLEM -> cortex.dangerTint
+        AuthNotice.Tone.PROGRESS -> cortex.surface2
+    }
+    val ink = when (notice.tone) {
+        AuthNotice.Tone.PROBLEM -> cortex.danger
+        AuthNotice.Tone.PROGRESS -> cortex.ink2
+    }
+
+    Text(
+        notice.text,
+        color = ink,
+        style = MaterialTheme.typography.bodySmall,
+        modifier = Modifier
+            .fillMaxWidth()
+            .border(1.dp, border, shape)
+            .background(fill, shape)
+            .padding(horizontal = 14.dp, vertical = 12.dp),
+    )
 }

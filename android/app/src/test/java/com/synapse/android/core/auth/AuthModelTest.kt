@@ -157,6 +157,31 @@ class AuthModelTest {
         assertNotNull(model.message.value)
     }
 
+    @Test fun `a sign-up that worked does not arrive looking like a rejection`() = runBlocking {
+        val model = model()
+
+        model.signUp("student@example.com", "pw")
+
+        // Same channel as every failure, so without a tone on it the screen
+        // has no way to tell "your account was created, go and confirm it"
+        // apart from "your password was rejected", and it painted both red.
+        val notice = model.message.value
+        assertNotNull(notice)
+        assertEquals(AuthNotice.Tone.PROGRESS, notice!!.tone)
+    }
+
+    @Test fun `a reset that was sent reads as progress and a failed sign-in as a problem`() = runBlocking {
+        val sent = model()
+        sent.resetPassword("student@example.com")
+        assertEquals(AuthNotice.Tone.PROGRESS, sent.message.value!!.tone)
+
+        backend.accessTokenValue = "session-token"
+        server.enqueue(MockResponse().setResponseCode(401))
+        val refused = model()
+        refused.signIn("student@example.com", "pw")
+        assertEquals(AuthNotice.Tone.PROBLEM, refused.message.value!!.tone)
+    }
+
     @Test fun `a password reset says the same thing whether or not the account exists`() = runBlocking {
         val known = model()
         known.resetPassword("known@example.com")

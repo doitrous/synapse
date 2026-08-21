@@ -71,6 +71,38 @@ interface AuthBackend {
  * silently and leave the student looking at a form that appears to have done
  * nothing.
  */
+/**
+ * Something to tell the student, and whether it is bad news.
+ *
+ * The tone is carried on the message rather than inferred at the call site,
+ * because this one channel reports both halves of what can happen: a sign-in
+ * that failed, and a sign-up or a password reset that *worked*. The screen
+ * used to paint all of it in the error colour, so "Check your email to
+ * confirm the address" -- the notice that says the account was created --
+ * arrived looking exactly like a rejection.
+ *
+ * The two tones are the site's two notices: `role="alert"` in danger
+ * (`src/pages/auth/Login.tsx:93`) and `role="status"` in the quiet neutral
+ * panel (`src/pages/auth/ForgotPassword.tsx:22`). Neither of them is green;
+ * the progress notice is telling the student to go and do something else,
+ * not congratulating them.
+ */
+data class AuthNotice(val text: String, val tone: Tone) {
+    enum class Tone {
+        /** Something went wrong, or the account cannot be used as it stands. */
+        PROBLEM,
+
+        /** It worked, and the next step is somewhere other than this screen. */
+        PROGRESS,
+    }
+
+    companion object {
+        fun problem(text: String) = AuthNotice(text, Tone.PROBLEM)
+
+        fun progress(text: String) = AuthNotice(text, Tone.PROGRESS)
+    }
+}
+
 class AuthModel(
     private val config: AppConfig,
     private val api: SynapseApi,
@@ -83,8 +115,8 @@ class AuthModel(
     val isWorking: StateFlow<Boolean> = _isWorking.asStateFlow()
 
     /** Shown to the student. Null when there is nothing to say. */
-    private val _message = MutableStateFlow<String?>(null)
-    val message: StateFlow<String?> = _message.asStateFlow()
+    private val _message = MutableStateFlow<AuthNotice?>(null)
+    val message: StateFlow<AuthNotice?> = _message.asStateFlow()
 
     /** Restore a stored session, if there is one worth restoring. */
     suspend fun start() {
@@ -114,7 +146,7 @@ class AuthModel(
     suspend fun signUp(email: String, password: String) {
         perform {
             backend.signUp(tidy(email), password)
-            _message.value = "Check your email to confirm the address, then sign in."
+            _message.value = AuthNotice.progress("Check your email to confirm the address, then sign in.")
         }
     }
 
@@ -124,7 +156,7 @@ class AuthModel(
             // Deliberately the same wording whether or not the address
             // exists -- otherwise this screen answers "does this person have
             // an account?" to anyone who asks.
-            _message.value = "If that address has an account, a reset link is on its way."
+            _message.value = AuthNotice.progress("If that address has an account, a reset link is on its way.")
         }
     }
 
@@ -166,7 +198,8 @@ class AuthModel(
                 // no account for it yet.
                 _state.value = AuthState.SignedOut
                 if (explainFailure) {
-                    _message.value = "Signed in, but Connect Cortex has no account for this address yet."
+                    _message.value =
+                        AuthNotice.problem("Signed in, but Connect Cortex has no account for this address yet.")
                 }
             }
         } catch (e: ApiError.Unauthorized) {
@@ -189,7 +222,7 @@ class AuthModel(
                         text += "\n[token error: ${tokenError.take(180)}]"
                     }
                 }
-                _message.value = text
+                _message.value = AuthNotice.problem(text)
             }
         } catch (e: ApiError) {
             // Covers ApiError.Transient among others. The token may well be
@@ -197,7 +230,7 @@ class AuthModel(
             // session -- only the network's fault is being reported.
             _state.value = AuthState.SignedOut
             if (explainFailure) {
-                _message.value = describe(e)
+                _message.value = AuthNotice.problem(describe(e))
             }
         }
     }
@@ -215,7 +248,7 @@ class AuthModel(
             // coroutine machinery the job finished normally when it did not.
             throw e
         } catch (e: Exception) {
-            _message.value = describe(e)
+            _message.value = AuthNotice.problem(describe(e))
         } finally {
             _isWorking.value = false
         }
