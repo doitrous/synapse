@@ -18,6 +18,10 @@ pair, and never the same output file.
 | Claimed | Agent | Scope | Output file | Depends on |
 |---|---|---|---|---|
 | — | — | — | — | — |
+| 2026-08-21 | 103-bms | `103 BMS` · academic structure | docs/Kasr-Source-Imports/academic/103-BMS-structure.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · EOY 2025 · concepts | docs/Kasr-Source-Imports/concept/103-BMS-concepts.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · EOY 2025 · written questions | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-written.md | CON-* from the concepts row above |
+| 2026-08-21 | 103-bms | `103 BMS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/103-BMS-coverage.md | — |
 
 ---
 
@@ -30,6 +34,10 @@ scope. Whoever owns it picks it up from here.
 | Wanted by | What is needed | Why you cannot write it | Blocking |
 |---|---|---|---|
 | — | — | — | — |
+| 103-bms | `scripts/kasr/build-coverage.ts` taking `--module`, defaulting to `101 ISK` | Every lane needs it and five in-place edits is five conflicts; 103-bms is making the change once, per SHARED-TOOLCHAIN §2 — rebase onto it rather than writing a sixth | 103-BMS-coverage.md, and the same ledger for every other module |
+| 103-bms | `scripts/kasr/{types,emit,build-batches}.ts` taking a module parameter, defaulting to `101 ISK` | They hardcode `101 ISK` in the ID mint, the `exam_signal` grammar and the output paths. **102 holds this retrofit** — 103-bms rebases onto it rather than forking the field set, per SHARED-TOOLCHAIN §2 | 103-BMS-concepts.md, 103-BMS-EOY-2025-written.md |
+| 103-bms | The `103 BMS` slice of `DPT BOOK MCQ D book bio 102&103 mcq (1).pdf` (`src_07f0a0ff41addf826c7f`) | The file has exactly one manifest row and it is `102 INT`, so 102 owns and OCRs it once. Re-reading it here would mint the same questions twice under different IDs | 103 BMS biochemistry question coverage |
+| 103-bms | The `103 BMS` slice of `DPT BOOK 102, 103, 104 physiology question &answer (1).pdf` (`src_34deb8ce27268cb7e890`) | Same: one manifest row, `102 INT`. 102 tags each item with the module it teaches | 103 BMS physiology question coverage |
 
 ---
 
