@@ -1,1338 +1,1347 @@
 {
-  "module": "104 CPS",
-  "method": "read from rendered page images (pdftoppm -r 150, 400 dpi for marginalia crops); answers are handwritten ring/strike marks absent from the text layer",
-  "generatedOn": "2026-08-21",
-  "detection": {
-    "test": "character count in scripts/kasr/extract/pagetext/<sourceId>.json for a solved copy vs its unsolved twin; a ratio near 1.0 means the answers are not in the text layer",
-    "checked": [
-      {
-        "sourceId": "src_f1905b4b83def7d5642b",
-        "file": "y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
-        "chars": 28204,
-        "pairedWith": "src_5465875dc14a998b7b21 (26977)",
-        "ratio": 1.05,
-        "verdict": "pen-marked"
-      },
-      {
-        "sourceId": "src_5465875dc14a998b7b21",
-        "file": "y1/104 CPS/EOM/EOM 196 104 2023 No answers  (1).pdf",
-        "chars": 26977,
-        "verdict": "unsolved twin of the above; no marks"
-      },
-      {
-        "sourceId": "src_a80db7ee55cde84f8ec8",
-        "file": "y1/104 CPS/EOM/EOM 197 CPS 104 - 197 (1).pdf",
-        "chars": 31503,
-        "verdict": "clean native PDF, no marks of any kind (page 3 read)"
-      },
-      {
-        "sourceId": "src_bec3c6ec82688b141a26",
-        "file": "y1/104 CPS/EOM/EOM 198 CPS 198 no (1).pdf",
-        "chars": 28032,
-        "verdict": "scan carries a small identical hook mark before EVERY option letter (print/bleed artifact), which carries no answer information; no selection marks (page 3 read at 200 dpi)"
-      },
-      {
-        "sourceId": "src_d3160d222c8c55775511",
-        "file": "y1/104 CPS/EOM/EOM 2022 CPS 104 (1).pdf",
-        "chars": 28700,
-        "verdict": "clean scan, no marks (pages 3 and 6 read)"
-      },
-      {
-        "sourceId": "src_375227d5b7c819636151",
-        "file": "y1/104 CPS/EOY/EOY 104 FINALS (answered) (1) (1).pdf",
-        "chars": 94563,
-        "pairedWith": "src_f0dc974eca83c51623bc (60530)",
-        "ratio": 1.56,
-        "verdict": "answers are typed model answers in the text layer"
-      },
-      {
-        "sourceId": "src_f0dc974eca83c51623bc",
-        "file": "y1/104 CPS/EOY/EOY 104 exams Not answerd (1) (1).pdf",
-        "chars": 60530,
-        "verdict": "unsolved twin of the above"
-      },
-      {
-        "sourceId": "src_8a47af73fcd1534ffc16",
-        "file": "y1/104 CPS/EOY/EOY Final 104, 199 solved (1).pdf",
-        "chars": 11494,
-        "pairedWith": "src_078450096f7b08eb1284 (2525)",
-        "ratio": 4.55,
-        "verdict": "answers in the text layer"
-      },
-      {
-        "sourceId": "src_078450096f7b08eb1284",
-        "file": "y1/104 CPS/EOY/EOY Final 104, 199 (2).pdf",
-        "chars": 2525,
-        "verdict": "blank essay paper, no MCQs, no marks"
-      },
-      {
-        "sourceId": "src_c30d947377670cb99a40",
-        "file": "y1/104 CPS/EOY/EOY Anatomy MCQ [Thorax].pdf",
-        "chars": 50991,
-        "verdict": "no pen marks on the sampled page; answers not handwritten"
-      },
-      {
-        "sourceId": "src_cc9bea98272034c7521a",
-        "file": "y1/104 CPS/EOY/EOY Anatomy final 104 (question)   (1).pdf",
-        "chars": 2483,
-        "verdict": "blank essay paper, no MCQs, no marks"
-      },
-      {
-        "sourceId": "src_df6b7a7de75411dbb92b",
-        "file": "y1/104 CPS/EOY/EOY 104 Final (198 1st) (1).pdf",
-        "chars": 7878,
-        "verdict": "blank essay paper with ruled answer lines, no marks"
-      },
-      {
-        "sourceId": "src_ef6ca67a8e6e4b693696",
-        "file": "y1/104 CPS/EOY/EOY final 198 104 - دور مايو 2025 (2).pdf",
-        "chars": 923,
-        "verdict": "2-page topic list (not an exam paper), no marks"
-      },
-      {
-        "sourceId": "src_80590b23d1221c7e36e9",
-        "file": "y1/104 CPS/Baqoon/اختبار 104 دفعة 199 الدور الثاني EOY BAQOON.pdf",
-        "chars": 1531,
-        "verdict": "photos of lecture slides, not an MCQ paper"
-      },
-      {
-        "sourceId": "src_bc655a2ebebc4bf9d974",
-        "file": "y1/104 CPS/Baqoon/١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf",
-        "chars": 2211,
-        "verdict": "blank essay paper, no MCQs, no marks"
-      }
-    ]
-  },
-  "papers": [
-    {
-      "sourceId": "src_f1905b4b83def7d5642b",
-      "file": "y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
-      "absolutePath": "/Users/doitrous/Desktop/Kasr Alainy/y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
-      "pagesRead": 15,
-      "questionsInPaper": 120,
-      "answersRecovered": 120,
-      "questionNumberCrossCheck": "page->first-question mapping verified against scripts/kasr/extract/pagetext/src_f1905b4b83def7d5642b.json stems: p1=Q1, p5=Q31, p8=Q55, p10=Q71, p12=Q88, p15=Q113. No off-by-one.",
-      "markConvention": "correct option ringed in pen; wrong options struck with an X (recorded in struckThrough) or, on some pages, ticked as true statements for 'select the false/incorrect' stems (recorded in ticked)",
-      "answers": [
-        {
-          "q": 1,
-          "page": 1,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 2,
-          "page": 1,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 3,
-          "page": 1,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 4,
-          "page": 1,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a",
-            "c",
-            "d"
-          ]
-        },
-        {
-          "q": 5,
-          "page": 1,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a",
-            "b",
-            "d"
-          ]
-        },
-        {
-          "q": 6,
-          "page": 1,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a",
-            "b",
-            "d"
-          ]
-        },
-        {
-          "q": 7,
-          "page": 1,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 8,
-          "page": 1,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "2nd"
-        },
-        {
-          "q": 9,
-          "page": 2,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 10,
-          "page": 2,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 11,
-          "page": 2,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "middle 4th"
-        },
-        {
-          "q": 12,
-          "page": 2,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "7 inch (beside stem '17 cm from upper incisor'); T7 (beside option c); 10 inch (beside option d); 14 + 3.5 = 17.5cm (right margin)"
-        },
-        {
-          "q": 13,
-          "page": 2,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 14,
-          "page": 2,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 15,
-          "page": 2,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 16,
-          "page": 3,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 17,
-          "page": 3,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 18,
-          "page": 3,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 19,
-          "page": 3,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "aorta, azygos v."
-        },
-        {
-          "q": 20,
-          "page": 3,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 21,
-          "page": 3,
-          "answer": "b",
-          "struckThrough": [
-            "a",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 22,
-          "page": 3,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "Pleura 8 (10) 12"
-        },
-        {
-          "q": 23,
-          "page": 3,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 24,
-          "page": 4,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 25,
-          "page": 4,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 26,
-          "page": 4,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 27,
-          "page": 4,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 28,
-          "page": 4,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 29,
-          "page": 4,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 30,
-          "page": 4,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b"
-          ],
-          "confidence": "high",
-          "marginalia": "lower"
-        },
-        {
-          "q": 31,
-          "page": 5,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 32,
-          "page": 5,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "2 3 4"
-        },
-        {
-          "q": 33,
-          "page": 5,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 34,
-          "page": 5,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 35,
-          "page": 5,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 36,
-          "page": 5,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 37,
-          "page": 5,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 38,
-          "page": 5,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 39,
-          "page": 6,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "medium",
-          "marginalia": "Na+ funny & T-type ca+ ; NCX",
-          "note": "bold ring on option a; a fainter, incomplete ring-like mark also appears around option c. The bold ring is unambiguous, the second mark is not."
-        },
-        {
-          "q": 40,
-          "page": 6,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 41,
-          "page": 6,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "Symp"
-        },
-        {
-          "q": 42,
-          "page": 6,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "down-arrow gap junction"
-        },
-        {
-          "q": 43,
-          "page": 6,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 44,
-          "page": 6,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 45,
-          "page": 6,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "-30 -> +90"
-        },
-        {
-          "q": 46,
-          "page": 6,
-          "answer": "b",
-          "struckThrough": [
-            "a"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 47,
-          "page": 7,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "SR (beside option c); membrane (beside option d)"
-        },
-        {
-          "q": 48,
-          "page": 7,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 49,
-          "page": 7,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "stretch"
-        },
-        {
-          "q": 50,
-          "page": 7,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 51,
-          "page": 7,
-          "answer": "b",
-          "struckThrough": [
-            "a",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 52,
-          "page": 7,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "A-V (beside option a); semi (beside options b and c); Isovolumetric contraction (right margin)"
-        },
-        {
-          "q": 53,
-          "page": 7,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 54,
-          "page": 7,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "up-arrow 120"
-        },
-        {
-          "q": 55,
-          "page": 8,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "hand-drawn jugular venous pulse trace labelled A, C, X, V, Y above the options"
-        },
-        {
-          "q": 56,
-          "page": 8,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "1st a-v   2nd semi   3rd rapid filling   4th at."
-        },
-        {
-          "q": 57,
-          "page": 8,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 58,
-          "page": 8,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 59,
-          "page": 8,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 60,
-          "page": 8,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "SV/EDV ; 55%"
-        },
-        {
-          "q": 61,
-          "page": 8,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "67 %"
-        },
-        {
-          "q": 62,
-          "page": 8,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "25 (beside option a); 120 (beside option b); 37 (beside option c); 17 (beside option d)"
-        },
-        {
-          "q": 63,
-          "page": 9,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "VR = (MSFP - RAP) / TPR",
-          "ticked": [
-            "a",
-            "b",
-            "c"
-          ]
-        },
-        {
-          "q": 64,
-          "page": 9,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 65,
-          "page": 9,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "BV & capacity"
-        },
-        {
-          "q": 66,
-          "page": 9,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "up-arrow capacity -> down-arrow MSFP"
-        },
-        {
-          "q": 67,
-          "page": 9,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "VD ; Tissue shift",
-          "ticked": [
-            "a",
-            "b",
-            "c"
-          ]
-        },
-        {
-          "q": 68,
-          "page": 9,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 69,
-          "page": 9,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 70,
-          "page": 9,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "Lymph obstruction ; Non pitting: Ptn, pathogens ; down-arrow albumin -> pitting"
-        },
-        {
-          "q": 71,
-          "page": 10,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "b",
-            "c",
-            "d"
-          ]
-        },
-        {
-          "q": 72,
-          "page": 10,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "down-arrow HR"
-        },
-        {
-          "q": 73,
-          "page": 10,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "inhibit (beside option d)"
-        },
-        {
-          "q": 74,
-          "page": 10,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 75,
-          "page": 10,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a"
-          ]
-        },
-        {
-          "q": 76,
-          "page": 10,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "Noradrenaline -> B receptor -> up-arrow cAMP ; acetylcholine -> muscarinic -> down-arrow cAMP"
-        },
-        {
-          "q": 77,
-          "page": 10,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a",
-            "d"
-          ]
-        },
-        {
-          "q": 78,
-          "page": 10,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 79,
-          "page": 11,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "more negative"
-        },
-        {
-          "q": 80,
-          "page": 11,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "up-arrow lung to recoil",
-          "note": "ring is on option b (chest wall to expand); the adjacent marginalia refers to lung recoil, which is option d. Ring and marginalia are not obviously consistent."
-        },
-        {
-          "q": 81,
-          "page": 11,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "+30 +40"
-        },
-        {
-          "q": 82,
-          "page": 11,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 83,
-          "page": 11,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 84,
-          "page": 11,
-          "answer": "d",
-          "struckThrough": [
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 85,
-          "page": 11,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 86,
-          "page": 11,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null,
-          "note": "marginalia present to the right (arrows with V and P, and 'gas V>P ... base') but too faint/cursive to transcribe reliably; not recorded"
-        },
-        {
-          "q": 87,
-          "page": 11,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 88,
-          "page": 12,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "Sigmoidal (beside option a); down-arrow pH  up-arrow H+ (top right)"
-        },
-        {
-          "q": 89,
-          "page": 12,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "HCO3- out"
-        },
-        {
-          "q": 90,
-          "page": 12,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "Lower Pons (beside option c); upper (beside option d)"
-        },
-        {
-          "q": 91,
-          "page": 12,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 92,
-          "page": 12,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "PNC"
-        },
-        {
-          "q": 93,
-          "page": 12,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null,
-          "ticked": [
-            "a",
-            "b",
-            "c"
-          ]
-        },
-        {
-          "q": 94,
-          "page": 12,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "BBB (beside option b); medulla (beside option c)"
-        },
-        {
-          "q": 95,
-          "page": 12,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 96,
-          "page": 13,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "Histotoxic hypoxia (beside option c)"
-        },
-        {
-          "q": 97,
-          "page": 13,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "cherry red",
-          "ticked": [
-            "a",
-            "b"
-          ]
-        },
-        {
-          "q": 98,
-          "page": 13,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 99,
-          "page": 13,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 100,
-          "page": 13,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 101,
-          "page": 13,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "mesoderm   endoderm (beside option a); thymosin, thymopoietin (beside option d)"
-        },
-        {
-          "q": 102,
-          "page": 13,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 103,
-          "page": 13,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "Spleen  PALS"
-        },
-        {
-          "q": 104,
-          "page": 14,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": "stratified squamous"
-        },
-        {
-          "q": 105,
-          "page": 14,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "G1   S   G2   mitosis"
-        },
-        {
-          "q": 106,
-          "page": 14,
-          "answer": "b",
-          "struckThrough": [
-            "a",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 107,
-          "page": 14,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "Meiosis"
-        },
-        {
-          "q": 108,
-          "page": 14,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 109,
-          "page": 14,
-          "answer": "b",
-          "struckThrough": [
-            "a",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 110,
-          "page": 14,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "21 (beside option a); xo (beside option d)"
-        },
-        {
-          "q": 111,
-          "page": 14,
-          "answer": "a",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 112,
-          "page": 14,
-          "answer": "c",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 113,
-          "page": 15,
-          "answer": "b",
-          "struckThrough": [
-            "a",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "m s a"
-        },
-        {
-          "q": 114,
-          "page": 15,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 115,
-          "page": 15,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 116,
-          "page": 15,
-          "answer": "c",
-          "struckThrough": [
-            "a",
-            "b",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": "Bronchioles (beside option a); cartilage plates (beside option d)"
-        },
-        {
-          "q": 117,
-          "page": 15,
-          "answer": "d",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "nerve endings"
-        },
-        {
-          "q": 118,
-          "page": 15,
-          "answer": "b",
-          "struckThrough": [],
-          "confidence": "high",
-          "marginalia": "surfactant"
-        },
-        {
-          "q": 119,
-          "page": 15,
-          "answer": "d",
-          "struckThrough": [
-            "a",
-            "b",
-            "c"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        },
-        {
-          "q": 120,
-          "page": 15,
-          "answer": "a",
-          "struckThrough": [
-            "b",
-            "c",
-            "d"
-          ],
-          "confidence": "high",
-          "marginalia": null
-        }
-      ],
-      "unreadable": []
-    }
+ "module": "104 CPS",
+ "method": "read from rendered page images (pdftoppm -r 150, 400 dpi for marginalia crops); answers are handwritten ring/strike marks absent from the text layer",
+ "generatedOn": "2026-08-21",
+ "detection": {
+  "test": "character count in scripts/kasr/extract/pagetext/<sourceId>.json for a solved copy vs its unsolved twin; a ratio near 1.0 means the answers are not in the text layer",
+  "checked": [
+   {
+    "sourceId": "src_f1905b4b83def7d5642b",
+    "file": "y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
+    "chars": 28204,
+    "pairedWith": "src_5465875dc14a998b7b21 (26977)",
+    "ratio": 1.05,
+    "verdict": "pen-marked"
+   },
+   {
+    "sourceId": "src_5465875dc14a998b7b21",
+    "file": "y1/104 CPS/EOM/EOM 196 104 2023 No answers  (1).pdf",
+    "chars": 26977,
+    "verdict": "unsolved twin of the above; no marks"
+   },
+   {
+    "sourceId": "src_a80db7ee55cde84f8ec8",
+    "file": "y1/104 CPS/EOM/EOM 197 CPS 104 - 197 (1).pdf",
+    "chars": 31503,
+    "verdict": "clean native PDF, no marks of any kind (page 3 read)"
+   },
+   {
+    "sourceId": "src_bec3c6ec82688b141a26",
+    "file": "y1/104 CPS/EOM/EOM 198 CPS 198 no (1).pdf",
+    "chars": 28032,
+    "verdict": "scan carries a small identical hook mark before EVERY option letter (print/bleed artifact), which carries no answer information; no selection marks (page 3 read at 200 dpi)"
+   },
+   {
+    "sourceId": "src_d3160d222c8c55775511",
+    "file": "y1/104 CPS/EOM/EOM 2022 CPS 104 (1).pdf",
+    "chars": 28700,
+    "verdict": "clean scan, no marks (pages 3 and 6 read)"
+   },
+   {
+    "sourceId": "src_375227d5b7c819636151",
+    "file": "y1/104 CPS/EOY/EOY 104 FINALS (answered) (1) (1).pdf",
+    "chars": 94563,
+    "pairedWith": "src_f0dc974eca83c51623bc (60530)",
+    "ratio": 1.56,
+    "verdict": "answers are typed model answers in the text layer"
+   },
+   {
+    "sourceId": "src_f0dc974eca83c51623bc",
+    "file": "y1/104 CPS/EOY/EOY 104 exams Not answerd (1) (1).pdf",
+    "chars": 60530,
+    "verdict": "unsolved twin of the above"
+   },
+   {
+    "sourceId": "src_8a47af73fcd1534ffc16",
+    "file": "y1/104 CPS/EOY/EOY Final 104, 199 solved (1).pdf",
+    "chars": 11494,
+    "pairedWith": "src_078450096f7b08eb1284 (2525)",
+    "ratio": 4.55,
+    "verdict": "answers in the text layer"
+   },
+   {
+    "sourceId": "src_078450096f7b08eb1284",
+    "file": "y1/104 CPS/EOY/EOY Final 104, 199 (2).pdf",
+    "chars": 2525,
+    "verdict": "blank essay paper, no MCQs, no marks"
+   },
+   {
+    "sourceId": "src_c30d947377670cb99a40",
+    "file": "y1/104 CPS/EOY/EOY Anatomy MCQ [Thorax].pdf",
+    "chars": 50991,
+    "verdict": "no pen marks on the sampled page; answers not handwritten"
+   },
+   {
+    "sourceId": "src_cc9bea98272034c7521a",
+    "file": "y1/104 CPS/EOY/EOY Anatomy final 104 (question)   (1).pdf",
+    "chars": 2483,
+    "verdict": "blank essay paper, no MCQs, no marks"
+   },
+   {
+    "sourceId": "src_df6b7a7de75411dbb92b",
+    "file": "y1/104 CPS/EOY/EOY 104 Final (198 1st) (1).pdf",
+    "chars": 7878,
+    "verdict": "blank essay paper with ruled answer lines, no marks"
+   },
+   {
+    "sourceId": "src_ef6ca67a8e6e4b693696",
+    "file": "y1/104 CPS/EOY/EOY final 198 104 - دور مايو 2025 (2).pdf",
+    "chars": 923,
+    "verdict": "2-page topic list (not an exam paper), no marks"
+   },
+   {
+    "sourceId": "src_80590b23d1221c7e36e9",
+    "file": "y1/104 CPS/Baqoon/اختبار 104 دفعة 199 الدور الثاني EOY BAQOON.pdf",
+    "chars": 1531,
+    "verdict": "photos of lecture slides, not an MCQ paper"
+   },
+   {
+    "sourceId": "src_bc655a2ebebc4bf9d974",
+    "file": "y1/104 CPS/Baqoon/١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf",
+    "chars": 2211,
+    "verdict": "blank essay paper, no MCQs, no marks"
+   }
   ]
+ },
+ "papers": [
+  {
+   "sourceId": "src_f1905b4b83def7d5642b",
+   "file": "y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
+   "absolutePath": "/Users/doitrous/Desktop/Kasr Alainy/y1/104 CPS/EOM/EOM 196 104 - 2023 (1).pdf",
+   "pagesRead": 15,
+   "questionsInPaper": 120,
+   "answersRecovered": 120,
+   "questionNumberCrossCheck": "page->first-question mapping verified against scripts/kasr/extract/pagetext/src_f1905b4b83def7d5642b.json stems: p1=Q1, p5=Q31, p8=Q55, p10=Q71, p12=Q88, p15=Q113. No off-by-one.",
+   "markConvention": "correct option ringed in pen; wrong options struck with an X (recorded in struckThrough) or, on some pages, ticked as true statements for 'select the false/incorrect' stems (recorded in ticked)",
+   "answers": [
+    {
+     "q": 1,
+     "page": 1,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 2,
+     "page": 1,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 3,
+     "page": 1,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 4,
+     "page": 1,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a",
+      "c",
+      "d"
+     ]
+    },
+    {
+     "q": 5,
+     "page": 1,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a",
+      "b",
+      "d"
+     ]
+    },
+    {
+     "q": 6,
+     "page": 1,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a",
+      "b",
+      "d"
+     ]
+    },
+    {
+     "q": 7,
+     "page": 1,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 8,
+     "page": 1,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "2nd"
+    },
+    {
+     "q": 9,
+     "page": 2,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 10,
+     "page": 2,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 11,
+     "page": 2,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "middle 4th"
+    },
+    {
+     "q": 12,
+     "page": 2,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "7 inch (beside stem '17 cm from upper incisor'); T7 (beside option c); 10 inch (beside option d); 14 + 3.5 = 17.5cm (right margin)"
+    },
+    {
+     "q": 13,
+     "page": 2,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 14,
+     "page": 2,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 15,
+     "page": 2,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 16,
+     "page": 3,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 17,
+     "page": 3,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 18,
+     "page": 3,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 19,
+     "page": 3,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "aorta, azygos v."
+    },
+    {
+     "q": 20,
+     "page": 3,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 21,
+     "page": 3,
+     "answer": "b",
+     "struckThrough": [
+      "a",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 22,
+     "page": 3,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "Pleura 8 (10) 12"
+    },
+    {
+     "q": 23,
+     "page": 3,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 24,
+     "page": 4,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 25,
+     "page": 4,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 26,
+     "page": 4,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 27,
+     "page": 4,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 28,
+     "page": 4,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 29,
+     "page": 4,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 30,
+     "page": 4,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b"
+     ],
+     "confidence": "high",
+     "marginalia": "lower"
+    },
+    {
+     "q": 31,
+     "page": 5,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 32,
+     "page": 5,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "2 3 4"
+    },
+    {
+     "q": 33,
+     "page": 5,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 34,
+     "page": 5,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 35,
+     "page": 5,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 36,
+     "page": 5,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 37,
+     "page": 5,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 38,
+     "page": 5,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 39,
+     "page": 6,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "medium",
+     "marginalia": "Na+ funny & T-type ca+ ; NCX",
+     "note": "bold ring on option a; a fainter, incomplete ring-like mark also appears around option c. The bold ring is unambiguous, the second mark is not."
+    },
+    {
+     "q": 40,
+     "page": 6,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 41,
+     "page": 6,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "Symp"
+    },
+    {
+     "q": 42,
+     "page": 6,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "down-arrow gap junction"
+    },
+    {
+     "q": 43,
+     "page": 6,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 44,
+     "page": 6,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 45,
+     "page": 6,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "-30 -> +90"
+    },
+    {
+     "q": 46,
+     "page": 6,
+     "answer": "b",
+     "struckThrough": [
+      "a"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 47,
+     "page": 7,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "SR (beside option c); membrane (beside option d)"
+    },
+    {
+     "q": 48,
+     "page": 7,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 49,
+     "page": 7,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "stretch"
+    },
+    {
+     "q": 50,
+     "page": 7,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 51,
+     "page": 7,
+     "answer": "b",
+     "struckThrough": [
+      "a",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 52,
+     "page": 7,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "A-V (beside option a); semi (beside options b and c); Isovolumetric contraction (right margin)"
+    },
+    {
+     "q": 53,
+     "page": 7,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 54,
+     "page": 7,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "up-arrow 120"
+    },
+    {
+     "q": 55,
+     "page": 8,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "hand-drawn jugular venous pulse trace labelled A, C, X, V, Y above the options"
+    },
+    {
+     "q": 56,
+     "page": 8,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "1st a-v   2nd semi   3rd rapid filling   4th at."
+    },
+    {
+     "q": 57,
+     "page": 8,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 58,
+     "page": 8,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 59,
+     "page": 8,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 60,
+     "page": 8,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "SV/EDV ; 55%"
+    },
+    {
+     "q": 61,
+     "page": 8,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "67 %"
+    },
+    {
+     "q": 62,
+     "page": 8,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "25 (beside option a); 120 (beside option b); 37 (beside option c); 17 (beside option d)"
+    },
+    {
+     "q": 63,
+     "page": 9,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "VR = (MSFP - RAP) / TPR",
+     "ticked": [
+      "a",
+      "b",
+      "c"
+     ]
+    },
+    {
+     "q": 64,
+     "page": 9,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 65,
+     "page": 9,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "BV & capacity"
+    },
+    {
+     "q": 66,
+     "page": 9,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "up-arrow capacity -> down-arrow MSFP"
+    },
+    {
+     "q": 67,
+     "page": 9,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "VD ; Tissue shift",
+     "ticked": [
+      "a",
+      "b",
+      "c"
+     ]
+    },
+    {
+     "q": 68,
+     "page": 9,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 69,
+     "page": 9,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 70,
+     "page": 9,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "Lymph obstruction ; Non pitting: Ptn, pathogens ; down-arrow albumin -> pitting"
+    },
+    {
+     "q": 71,
+     "page": 10,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    {
+     "q": 72,
+     "page": 10,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "down-arrow HR"
+    },
+    {
+     "q": 73,
+     "page": 10,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "inhibit (beside option d)"
+    },
+    {
+     "q": 74,
+     "page": 10,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 75,
+     "page": 10,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a"
+     ]
+    },
+    {
+     "q": 76,
+     "page": 10,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "Noradrenaline -> B receptor -> up-arrow cAMP ; acetylcholine -> muscarinic -> down-arrow cAMP"
+    },
+    {
+     "q": 77,
+     "page": 10,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a",
+      "d"
+     ]
+    },
+    {
+     "q": 78,
+     "page": 10,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 79,
+     "page": 11,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "more negative"
+    },
+    {
+     "q": 80,
+     "page": 11,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "up-arrow lung to recoil",
+     "note": "ring is on option b (chest wall to expand); the adjacent marginalia refers to lung recoil, which is option d. Ring and marginalia are not obviously consistent."
+    },
+    {
+     "q": 81,
+     "page": 11,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "+30 +40"
+    },
+    {
+     "q": 82,
+     "page": 11,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 83,
+     "page": 11,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 84,
+     "page": 11,
+     "answer": "d",
+     "struckThrough": [
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 85,
+     "page": 11,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 86,
+     "page": 11,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null,
+     "note": "marginalia present to the right (arrows with V and P, and 'gas V>P ... base') but too faint/cursive to transcribe reliably; not recorded"
+    },
+    {
+     "q": 87,
+     "page": 11,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 88,
+     "page": 12,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "Sigmoidal (beside option a); down-arrow pH  up-arrow H+ (top right)"
+    },
+    {
+     "q": 89,
+     "page": 12,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "HCO3- out"
+    },
+    {
+     "q": 90,
+     "page": 12,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "Lower Pons (beside option c); upper (beside option d)"
+    },
+    {
+     "q": 91,
+     "page": 12,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 92,
+     "page": 12,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "PNC"
+    },
+    {
+     "q": 93,
+     "page": 12,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null,
+     "ticked": [
+      "a",
+      "b",
+      "c"
+     ]
+    },
+    {
+     "q": 94,
+     "page": 12,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "BBB (beside option b); medulla (beside option c)"
+    },
+    {
+     "q": 95,
+     "page": 12,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 96,
+     "page": 13,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "Histotoxic hypoxia (beside option c)"
+    },
+    {
+     "q": 97,
+     "page": 13,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "cherry red",
+     "ticked": [
+      "a",
+      "b"
+     ]
+    },
+    {
+     "q": 98,
+     "page": 13,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 99,
+     "page": 13,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 100,
+     "page": 13,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 101,
+     "page": 13,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "mesoderm   endoderm (beside option a); thymosin, thymopoietin (beside option d)"
+    },
+    {
+     "q": 102,
+     "page": 13,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 103,
+     "page": 13,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "Spleen  PALS"
+    },
+    {
+     "q": 104,
+     "page": 14,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": "stratified squamous"
+    },
+    {
+     "q": 105,
+     "page": 14,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "G1   S   G2   mitosis"
+    },
+    {
+     "q": 106,
+     "page": 14,
+     "answer": "b",
+     "struckThrough": [
+      "a",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 107,
+     "page": 14,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "Meiosis"
+    },
+    {
+     "q": 108,
+     "page": 14,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 109,
+     "page": 14,
+     "answer": "b",
+     "struckThrough": [
+      "a",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 110,
+     "page": 14,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "21 (beside option a); xo (beside option d)"
+    },
+    {
+     "q": 111,
+     "page": 14,
+     "answer": "a",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 112,
+     "page": 14,
+     "answer": "c",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 113,
+     "page": 15,
+     "answer": "b",
+     "struckThrough": [
+      "a",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "m s a"
+    },
+    {
+     "q": 114,
+     "page": 15,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 115,
+     "page": 15,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 116,
+     "page": 15,
+     "answer": "c",
+     "struckThrough": [
+      "a",
+      "b",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": "Bronchioles (beside option a); cartilage plates (beside option d)"
+    },
+    {
+     "q": 117,
+     "page": 15,
+     "answer": "d",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "nerve endings"
+    },
+    {
+     "q": 118,
+     "page": 15,
+     "answer": "b",
+     "struckThrough": [],
+     "confidence": "high",
+     "marginalia": "surfactant"
+    },
+    {
+     "q": 119,
+     "page": 15,
+     "answer": "d",
+     "struckThrough": [
+      "a",
+      "b",
+      "c"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    },
+    {
+     "q": 120,
+     "page": 15,
+     "answer": "a",
+     "struckThrough": [
+      "b",
+      "c",
+      "d"
+     ],
+     "confidence": "high",
+     "marginalia": null
+    }
+   ],
+   "unreadable": [],
+   "alsoAppliesTo": [
+    {
+     "sourceId": "src_5465875dc14a998b7b21",
+     "file": "y1/104 CPS/EOM/EOM 196 104 2023 No answers  (1).pdf",
+     "relation": "unsolved twin: the same 120-question paper, printed identically, with no pen on it",
+     "why": "The ring destroys the OCR of the very option it marks. Of 26 MCQ rows the marked copy yields, 22 come back missing exactly the lettered option the ring is drawn around, so the recovered letter names an option that is not in the transcribed text and cannot be asserted against it. The unmarked twin transcribes the same questions with their options intact, so the answers are attached there as well as here.",
+     "numberingCrossCheck": "Page->first-question mapping of the twin read from 104-CPS/pagetext/src_5465875dc14a998b7b21.json: p1=Q1, p5=Q31, p8=Q55, p10=Q71, p12=Q88, p15=Q113 -- identical, page for page, to the marked copy's verified mapping above. Stems were compared for the 21 question numbers both copies transcribe: 20 match, the exception being a spurious '1' the marked copy's OCR invented on a page carrying no Q1."
+    }
+   ]
+  }
+ ]
 }

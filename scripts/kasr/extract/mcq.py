@@ -8,8 +8,13 @@ paths; any other module writes into extract/<module-slug>/, caches included.
 
 Which manifest categories hold a module's question books is per-module data
 (MODULE_CATEGORIES), because it differs: 101 files them all as
-`Instructor material`, 104 keeps ten of seventeen under `Department Questions`.
-`--category` overrides the table for one run.
+`Instructor material`, 104 keeps ten under `Department Questions` and files its
+exam papers under `EOM` and `EOY`. `--category` overrides the table for one run.
+
+Answers that exist only as pen marks on a scan are read off the page images by
+eye into <module-slug>/handwritten-answers.json and attached here; they carry
+`answerSource: handwritten-recovered` so a reviewer can always tell them from an
+answer the paper printed.
 
 Transcription only: text is copied out of the PDFs, never authored or completed.
 Resumable -- each file's result is written to parts/<sourceId>.json and mcq.json
@@ -18,8 +23,8 @@ is re-merged after every file, so a kill loses at most one file of work.
 import json, os, re, subprocess, sys, tempfile, unicodedata
 from concurrent.futures import ThreadPoolExecutor
 
-from kasr_module import DEFAULT_MODULE, module_sources, out_path, parse_module, \
-    report_textlayer_fallback
+from kasr_module import DEFAULT_MODULE, module_sources, out_dir, out_path, \
+    parse_module, report_textlayer_fallback
 
 OCR_PAGE_CAP = 40
 DPI = 120
@@ -40,7 +45,14 @@ OUT = out_path(MODULE, "mcq.json")
 # only `Instructor material` would drop them without saying so.
 MODULE_CATEGORIES = {
     "101 ISK": ["Instructor material"],
-    "104 CPS": ["Instructor material", "Department Questions"],
+    # 104's exam papers are filed by sitting, not as instructor material, so
+    # `Instructor material` + `Department Questions` -- right for the department
+    # question books -- silently excluded every EOM and EOY paper the module
+    # has. `EOM 196 104 - 2023 (1).pdf` alone is a 120-question MCQ paper, and
+    # the written extractor took 36 rows from it because it is not a written
+    # paper. Exam questions outrank department-book questions for blueprint
+    # weight, so they belong in the bank.
+    "104 CPS": ["Instructor material", "Department Questions", "EOM", "EOY"],
 }
 DEFAULT_CATEGORIES = ["Instructor material"]
 CATEGORIES = DEFAULT_CATEGORIES
@@ -108,6 +120,61 @@ KEY_FILES = set(ANSWER_PAIRS.values())
 
 # Scans so degraded that OCR interleaves options between neighbouring questions.
 # Everything from these is forced to low confidence and flagged for manual work.
+# Answers that exist only as pen marks on a scan, recovered by reading the
+# rendered page images by eye. They are not in any text layer -- a solved copy
+# and its unsolved twin differ by 5% of characters -- so no parser will ever
+# find them, and without this table the paper banks 120 questions with no
+# answer. Recorded per module as <module-slug>/handwritten-answers.json and
+# attached in finalise() by (sourceId, question number).
+HANDWRITTEN_FILE = "handwritten-answers.json"
+HANDWRITTEN = {}
+
+
+def load_handwritten(module):
+    """(sourceId, question number) -> recovered answer record, or {}.
+
+    Absent file is not an error: only 104 has a pen-marked paper so far.
+    """
+    path = os.path.join(out_dir(module), HANDWRITTEN_FILE)
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        doc = json.load(fh)
+    table = {}
+    for paper in doc.get("papers", []):
+        # A pen-marked paper often has an unmarked twin in the corpus, and the
+        # answers belong to both: the ring destroys the OCR of the very option
+        # it marks, so the marked copy is the worse transcription of the two.
+        # A twin is only listed once its numbering has been checked against the
+        # marked copy page by page; the check is recorded beside it.
+        sids = [paper["sourceId"]] + [t["sourceId"] for t in paper.get("alsoAppliesTo", [])]
+        for a in paper.get("answers", []):
+            # Option keys are upper case everywhere in mcq.json; the recovered
+            # letters are written lower case. Compared as read, no recovered
+            # answer would ever match an option and all 120 would be discarded
+            # as naming an option the question does not have.
+            letter = (a.get("answer") or "").strip().upper()
+            if not letter:
+                continue
+            rec = {
+                "answer": letter,
+                "confidence": a.get("confidence") or "medium",
+                "page": a.get("page"),
+                # The mark convention differs by stem: X-strikes cross out the
+                # wrong options on most pages, but on "select the false" stems
+                # the examiner ticks the true distractors and rings the odd one
+                # out. The ring is the answer either way; which form was used is
+                # kept so a reviewer can check the page.
+                "markForm": "tick-the-true" if a.get("ticked") else (
+                    "strike-the-wrong" if a.get("struckThrough") else "ring-only"),
+                "marginalia": a.get("marginalia"),
+                "fromSourceId": paper["sourceId"],
+            }
+            for sid in sids:
+                table[(sid, int(a["q"]))] = rec
+    return table
+
+
 MODULE_POOR_OCR = {
     "101 ISK": {"Basis MCQ by Dr.Jalal (1).pdf"},
     # 104's scan lost the option labels of the "Without Answers" Thorax book
@@ -802,6 +869,17 @@ def finalise(info, questions, key, key_from, match_blocks=()):
             if k:
                 answer = k
                 asrc = "answer-key"
+        # A pen ring on the scan is an answer nothing in the text can supply, so
+        # it is taken when the text has none -- but it is never allowed to
+        # overwrite a printed one, and a disagreement is recorded, not resolved.
+        recovered = HANDWRITTEN.get((info["sourceId"], q["number"]))
+        disagrees = None
+        if recovered:
+            if not answer:
+                answer = recovered["answer"]
+                asrc = "handwritten-recovered"
+            elif answer != recovered["answer"]:
+                disagrees = recovered["answer"]
         stem = q["stem"]
         nr = max(noise_ratio(stem), noise_ratio(" ".join(opts.values())))
         ocr_noise = method == "ocr" and nr > 0.05
@@ -828,6 +906,27 @@ def finalise(info, questions, key, key_from, match_blocks=()):
         }
         if unresolved:
             row["unresolvedAnswerLetter"] = unresolved
+        if recovered:
+            # Provenance a reviewer can act on: this letter was read off a scan
+            # by eye, not printed by the paper. `handwrittenConfidence` is the
+            # reader's own confidence in the mark and is carried even when the
+            # mark lost to a printed answer -- one question in the 2023 EOM has
+            # a bold ring on one option and a fainter mark near another, and it
+            # must not enter the bank looking as certain as the other 119.
+            row["handwrittenAnswer"] = recovered["answer"]
+            row["handwrittenConfidence"] = recovered["confidence"]
+            row["handwrittenMarkForm"] = recovered["markForm"]
+            if recovered["fromSourceId"] != info["sourceId"]:
+                row["handwrittenReadFromSourceId"] = recovered["fromSourceId"]
+            if recovered.get("marginalia"):
+                row["handwrittenMarginalia"] = recovered["marginalia"]
+            if disagrees:
+                row["handwrittenDisagreesWithText"] = disagrees
+            if asrc == "handwritten-recovered" and recovered["confidence"] != "high":
+                # A medium-confidence ring is not a high-confidence question,
+                # whatever the option text and OCR quality say about the stem.
+                conf = "low" if recovered["confidence"] == "low" else "medium"
+                row["confidence"] = conf
         if info["file"] in POOR_OCR:
             row["needsManualTranscription"] = True
         if asrc == "answer-key":
@@ -846,6 +945,15 @@ def finalise(info, questions, key, key_from, match_blocks=()):
     info["matchingRows"] = sum(1 for r in rows if r["questionType"] == "matching")
     info["noOptionRows"] = sum(1 for r in rows if r["questionType"] == "no-options")
     info["withAnswer"] = sum(1 for r in rows if r["answer"])
+    recovered_rows = [r for r in rows if r["answerSource"] == "handwritten-recovered"]
+    if recovered_rows or any(r.get("handwrittenAnswer") for r in rows):
+        info["handwrittenAnswersAttached"] = len(recovered_rows)
+        info["handwrittenAnswersAvailable"] = sum(
+            1 for k in HANDWRITTEN if k[0] == info["sourceId"])
+        info["handwrittenNotHigh"] = sorted(
+            r["number"] for r in recovered_rows if r["handwrittenConfidence"] != "high")
+        info["handwrittenDisagreements"] = sorted(
+            r["number"] for r in rows if r.get("handwrittenDisagreesWithText"))
     return rows
 
 
@@ -904,7 +1012,7 @@ def parse_categories(argv):
 
 def main(argv):
     global MODULE, PARTS, TEXTCACHE, OUT, CATEGORIES, ANSWER_PAIRS, KEY_FILES, \
-        POOR_OCR, TOPIC_RULES, PROSE_SOURCES, YIELD_NOTES
+        POOR_OCR, TOPIC_RULES, PROSE_SOURCES, YIELD_NOTES, HANDWRITTEN
     if "--help" in argv or "-h" in argv:
         print(USAGE)
         return
@@ -919,6 +1027,10 @@ def main(argv):
     PROSE_SOURCES = MODULE_PROSE_SOURCES.get(MODULE, {})
     YIELD_NOTES = MODULE_YIELD_NOTES.get(MODULE, {})
     TOPIC_RULES = MODULE_TOPIC_RULES.get(MODULE, TOPIC_RULES_101)
+    HANDWRITTEN = load_handwritten(MODULE)
+    if HANDWRITTEN:
+        log("handwritten answers: %d recovered marks across %d paper(s)"
+            % (len(HANDWRITTEN), len({k[0] for k in HANDWRITTEN})))
     PARTS = out_path(MODULE, "parts")
     TEXTCACHE = out_path(MODULE, "pagetext")
     OUT = out_path(MODULE, "mcq.json")

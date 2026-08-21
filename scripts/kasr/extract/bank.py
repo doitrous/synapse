@@ -121,9 +121,23 @@ def main(argv=()):
                     break
             if answer is None and text.startswith("letter:"):
                 answer = text.split(":")[1]
-            conf = "keyed" if any(r["answerSource"] == "answer-key" for r in src) else "same-file"
+            # Where the answer came from, kept distinct because the reader's
+            # trust in it differs. An answer read off a pen ring on a scan is
+            # not an answer the paper printed, and a bank that called both
+            # "same-file" would hide that from every reviewer downstream.
+            asrcs = {r["answerSource"] for r in src}
+            if "answer-key" in asrcs:
+                conf = "keyed"
+            elif asrcs == {"handwritten-recovered"}:
+                conf = "handwritten-recovered"
+            elif "handwritten-recovered" in asrcs:
+                conf = "printed-and-handwritten-agree"
+            else:
+                conf = "same-file"
+            hand = [r for r in src if r.get("handwrittenAnswer")]
         elif len(seen) > 1:
             conf = "conflicting"
+            hand = [r for r in rows if r.get("handwrittenAnswer")]
             conflicting = []
             for text, rs in seen.items():
                 for r in rs:
@@ -133,6 +147,7 @@ def main(argv=()):
                                         "number": r["number"], "answerSource": r["answerSource"]})
         else:
             conf = "none"
+            hand = []
 
         topics = collections.Counter(r["topic"] for r in rows if r["topic"] != "unknown")
         subj, chap, leaf = leaves.classify(rep["stem"] + " " + " ".join(rep["options"].values()),
@@ -152,6 +167,17 @@ def main(argv=()):
             "variants": variants,
             "subject": subj, "chapter": chap, "leaf": leaf,
         }
+        if hand:
+            # The reader's own confidence in the mark, worst case across the
+            # copies that carry it: one question in the 2023 EOM has a bold ring
+            # on one option and a fainter mark near another, and it must not
+            # read as certainly as the other 119.
+            row["handwrittenConfidence"] = min(
+                (r["handwrittenConfidence"] for r in hand), key=lambda c: RANK[c])
+            row["handwrittenReadFrom"] = [
+                {"file": r["file"], "page": r["page"], "number": r["number"],
+                 "answer": r["handwrittenAnswer"], "markForm": r["handwrittenMarkForm"],
+                 "confidence": r["handwrittenConfidence"]} for r in hand]
         if conflicting:
             row["conflictingAnswers"] = conflicting
             conflicts.append(row)
@@ -170,6 +196,11 @@ def main(argv=()):
         "duplicateRowsCollapsed": len(mcqs) - len(bank),
         "answerConflicts": len(conflicts),
         "withAnswer": sum(1 for r in bank if r["answer"]),
+        "withHandwrittenRecoveredAnswer":
+            sum(1 for r in bank if r["answerConfidence"] == "handwritten-recovered"),
+        "handwrittenAnswersNotHighConfidence":
+            sum(1 for r in bank
+                if r.get("handwrittenConfidence") and r["handwrittenConfidence"] != "high"),
         "excludedNoOptionRows": {"total": len(noopt), **dict(blanks)},
         "excludedNotQuestionBooks": {"total": len(prose), **dict(excluded_files)},
         "distinctMatchingBlocks": len(match_bank),
@@ -248,6 +279,19 @@ def write_report(doc, out, bank, conflicts, blanks, noopt, match_bank=(), prose=
     L.append(f"- **{out['distinctQuestions']} distinct questions** from {out['fromRows']} extracted MCQ rows "
              f"({out['duplicateRowsCollapsed']} duplicate rows collapsed).")
     L.append(f"- {out['withAnswer']} carry an answer; **{out['answerConflicts']} have conflicting answers** across sources.")
+    # An answer someone read off a pen mark is not an answer the paper printed,
+    # and the totals line above cannot tell them apart. Named here so a reviewer
+    # knows how many of the answers rest on a person's reading of a scan.
+    recovered = out.get('withHandwrittenRecoveredAnswer') or 0
+    if recovered:
+        nothigh = out.get('handwrittenAnswersNotHighConfidence') or 0
+        L.append(f"- {recovered} of those answers exist only as **handwritten pen marks** on a scanned "
+                 "paper, read off the rendered page by eye — there is no text layer to parse them from. "
+                 "They carry `answerConfidence: handwritten-recovered` and a `handwrittenReadFrom` "
+                 "record naming the file, page, question number and the form of the mark. "
+                 + (f"{nothigh} of them is not high confidence and says so on the row."
+                    if nothigh else
+                    "Every one of them was read at high confidence."))
     L.append(f"- {sum(len(r['variants']) for r in bank)} option-set variants preserved on their parent question.")
     L.append(f"- {out['excludedNoOptionRows']['total']} option-less rows excluded from the bank: " +
              ", ".join(f"{v} {k}" for k, v in blanks.most_common()) + ".")
