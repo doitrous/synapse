@@ -1355,6 +1355,27 @@ export const LEAF: McqLeafSeed = {
     {
       key: 'intermediate-filam-a-a-ae-9348dba3',
       conceptKey: 'intermediate-filament-types-and-tumour-diagnosis',
+      // Excluded on the stem, not on the answer.
+      //
+      // Everything below is right and worth keeping: the recovered key resolves
+      // this to option a, the department book agrees, and all four options are
+      // identifiable under the scanner noise. What cannot be fixed by knowing
+      // the answer is the question. The stem is "Intermediate filam : é a A ae"
+      // — that is what a student would be shown, and no amount of correct
+      // marking makes it sittable. Retyping it here would be writing a new
+      // question and attributing it to the 2022 paper.
+      //
+      // A rescan of page 1 of that paper recovers it, and the analysis below
+      // tells whoever does that what the row should say.
+      exclude: true,
+      excludeReason:
+        'The stem is scanner-cut to "Intermediate filam : é a A ae" and three of '
+        + 'four options carry stray characters ("Form lamins. () (", "forested '
+        + 'Microvilli.", "Form mitotic spin ri | division."). The answer is not in '
+        + 'doubt — the recovered key gives a, and the book lists lamins among the '
+        + 'six intermediate filament proteins — but a question whose stem cannot '
+        + 'be read is not a question. Rescan page 1 of the 2022 end-of-module '
+        + 'paper; the explanations below are already written and correct.',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Recognise the lamins of the nuclear envelope as intermediate filaments, and keep microtubule and microfilament jobs off the class.',
       answerOverride: 'a',

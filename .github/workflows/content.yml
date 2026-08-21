@@ -45,6 +45,17 @@ jobs:
       - name: Manifest citations
         run: npm run medical:citations
 
+      # A batch that no longer exists passes every other check here: the batch
+      # validator inspects what it is handed, the citation check finds no
+      # unresolvable token in a file that is not there, and the field audit
+      # cannot report a blank field on an absent record. Two written batches
+      # were deleted from `main` by commits about other modules, naming
+      # neither, and both losses surfaced by accident. Each module's coverage
+      # ledger records the batches it had when it was known good; this fails
+      # when the tree is short of that.
+      - name: Every batch its ledger names
+        run: npm run medical:batches-present
+
       # Two ids that mean one concept. The mint hashes the canonical key alone
       # and the subject only picks the `CON-<SYS>-` prefix, so one key filed
       # under two subjects gives two ids that differ in three characters and
