@@ -2,11 +2,13 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Arm — 63 questions, 13 concepts
+    Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
+    Hand — 68 questions, 13 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
@@ -15,6 +17,7 @@
     Nucleus — 70 questions, 7 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Shoulder Region — 40 questions, 19 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
@@ -30,7 +33,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  163 questions were excluded and 0 held back for having no
+  185 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4462,6 +4465,4947 @@ Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1)
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the four-option printing of the same question; the tendon of the long head of biceps is the only structure that runs within the capsule of the shoulder joint while remaining outside the synovial cavity.
+
+
+---
+
+# Item
+## id
+QM-101-E69C84AABD56
+## title
+Regarding the axillary artery, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, choose the correct answer:
+## answer_a
+It begins at the inner border of the first rib
+## explanation_a
+One word wrong, and the word matters. The axillary artery begins at the outer border of the first rib — that crossing is the line at which the subclavian artery changes its name, and an inner border would put the change inside the thorax.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+The wrong teres. The artery ends at the lower border of teres major and becomes the brachial; teres minor is a rotator cuff muscle high on the posterior wall and nothing ends at it.
+## answer_c
+It is divided into three parts by the pectoralis minor muscle
+## explanation_c
+Correct. Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.
+## answer_d
+Its third part is related medially to the median nerve
+## explanation_d
+The wrong nerve on the right side. Medial to the third part lies the ulnar nerve; the median nerve lies in front of it, formed there by its two roots.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the beginning, the ending, the divisions and the relations of the axillary artery, and reject three near-misses on each.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q3; Anatomy Question [Upper Limb] (1).pdf p3 q17; Anatomy MCQ Book [2025] [first priority].pdf p21 q17. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis minor crossing the artery is what makes its three parts, so C is true; A puts the beginning at the inner instead of the outer border of the first rib, B ends the artery at teres minor instead of teres major, and D puts the median nerve medial to the third part where the ulnar nerve lies.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D2786C119A81
+## title
+The axillary sheath, mark the correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axillary sheath, mark the correct statement:
+## answer_a
+Is formed by the clavipectoral fascia
+## explanation_a
+Two sheets of fascia in the same region, doing different jobs. The clavipectoral fascia is local to the pectoral region and forms the deep layer of the anterior wall; the sheath descends from the neck as prevertebral fascia and lies inside the axilla.
+## answer_b
+Encloses the great nerves of the upper limb only
+## explanation_b
+The word "only" is what makes it false. The sheath encloses the artery as well as the nerves, and it is the artery inside it that makes the axillary approach to a plexus block reliable.
+## answer_c
+Encloses the axillary artery
+## explanation_c
+Correct. The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.
+## answer_d
+It encloses the axillary lymph nodes
+## explanation_d
+The lymph nodes lie in the axillary fat outside the sheath, which is what lets them be dissected out without opening the sheath and injuring the plexus.
+## correct_answer
+C
+## main_concept
+CON-MSK-F4D5605867D790
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the axillary sheath is derived from and exactly which structures it encloses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p26 q148; Anatomy MCQ Book [2025] [first priority].pdf p44 q148; Anatomy MCQ Book [2025] [first priority].pdf p46 q148. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The axillary sheath is prevertebral fascia carried down from the neck around the axillary artery and the cords of the plexus, so C is true; the vein, the nodes and the fat are outside it, and the clavipectoral fascia has nothing to do with its formation.
+
+
+---
+
+# Item
+## id
+QM-101-632C3509C2A9
+## title
+The upper trunk of brachial plexus gives origin to; select the correct answers:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The upper trunk of brachial plexus gives origin to; select the correct answers:
+## answer_a
+Suprascapular nerve
+## explanation_a
+Correct, and the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve comes off the roots, from C5, C6 and C7, before any trunk is formed. Students place it on a trunk because it is a long named nerve like the suprascapular.
+## answer_c
+Upper subscapular nerve
+## explanation_c
+The upper subscapular nerve comes from the posterior cord, two stages further along, with the lower subscapular and the thoracodorsal.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve is a terminal branch of the posterior cord, not a trunk branch — although its fibres are C5 and C6, the same as the upper trunk, which is exactly why it is a tempting option.
+## correct_answer
+A
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Name the two branches of the upper trunk and separate them from root and cord branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q29; Upper MCQ Dr.jalal (1).pdf p6 q29; Anatomy Question [Upper Limb] (1).pdf p19 q105. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A4232863BAAD
+## title
+One of the followings is a branch of axillary artery:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is a branch of axillary artery:
+## answer_a
+Profunda brachii artery
+## explanation_a
+Correct as a distractor because it is the other large branch in the region. The profunda brachii comes off the brachial artery just below teres major and runs with the radial nerve in the spiral groove.
+## answer_b
+Subscapular artery
+## explanation_b
+Correct, and the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.
+## answer_c
+Superior ulnar collateral
+## explanation_c
+The superior ulnar collateral is a branch of the brachial artery in the arm, running with the ulnar nerve behind the medial epicondyle.
+## answer_d
+Inferior ulnar collateral
+## explanation_d
+The inferior ulnar collateral is also a brachial artery branch, arising just above the elbow to join the anastomosis around the joint.
+## correct_answer
+B
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the branches of the axillary artery from those of the brachial artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q1; Anatomy Question [Upper Limb] (1).pdf p3 q15. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A82F01C61AFF
+## title
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer:
+## answer_a
+There is paralysis of the intrinsic muscles of the hand
+## explanation_a
+Correct. C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.
+## answer_b
+It results in ape hand deformity
+## explanation_b
+The wrong deformity, from the wrong lesion. Ape hand — a flat thenar eminence with the thumb pulled back into the plane of the palm — follows a median nerve injury; a lower trunk lesion gives a claw hand.
+## answer_c
+It can be due to fracture of clavicle
+## explanation_c
+The wrong mechanism. Fracture of the clavicle sits over the middle of the plexus and classically threatens the upper trunk or the cords; the lower trunk is torn by traction with the arm forced upwards, as in a fall while clutching at something.
+## answer_d
+There is loss of skin sensations along the lateral side of the arm
+## explanation_d
+The wrong side of the limb. C8 and T1 carry sensation from the medial side of the arm, forearm and hand; the lateral side of the arm is C5 and C6 and belongs to Erb's palsy.
+## correct_answer
+A
+## main_concept
+CON-MSK-528AA0580391C0
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the muscles, the deformity and the sensory territory of a C8–T1 lesion and separate them from a median nerve lesion and from Erb's palsy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p21 q20; Anatomy MCQ Book [2025] [first priority].pdf p22 q20. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `regarding-lesion-of-the-lower-root-of-the-brachial-plexus-th-729c03b6` is keyed A and A is the only true statement. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so their loss paralyses the intrinsics.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D1F6DF578EE8
+## title
+Regarding the axillary artery, one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, one is correct:
+## answer_a
+The largest of its branches is the superior thoracic artery
+## explanation_a
+The smallest branch offered as the largest. The superior thoracic is a twig to the first two intercostal spaces; the largest branch of the axillary artery is the subscapular, from the third part.
+## answer_b
+Its third part is crossed by the lateral root of the median nerve
+## explanation_b
+The right crossing given to the wrong root. The median nerve is formed in front of the third part of the artery, and it is the medial root that has to cross the artery to reach the lateral root — the lateral root is already on that side.
+## answer_c
+The pectoralis minor covers most of the artery
+## explanation_c
+Pectoralis minor covers only the second part. It crosses the artery rather than covering it, which is exactly why it can be used to divide the vessel into three.
+## answer_d
+The axillary vein lies medial to the artery
+## explanation_d
+Correct. The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.
+## correct_answer
+D
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the largest branch of the axillary artery, the root of the median nerve that crosses it, how much of it pectoralis minor covers, and the side the vein lies on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p35 q6; Anatomy MCQ Book [2025] [first priority].pdf p25 q38. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the keyed copy `regarding-the-axillary-artery-one-is-correct-dep-book-ad-y-y-60559964` marks B, which is wrong: it is the medial root of the median nerve that crosses in front of the third part, not the lateral. The axillary vein does lie medial to the artery along its whole length, so D is the only statement here that stands.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8B0F4AF61FAF
+## title
+The cervico-axillary canal, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The cervico-axillary canal, choose the correct answer:
+## answer_a
+Bounded medially by inner border first rib
+## explanation_a
+The wrong border of the right bone. The medial boundary is the outer border of the first rib — the same line at which the subclavian artery becomes the axillary — and the inner border faces into the thorax.
+## answer_b
+Bounded posteriorly by upper border of scapula
+## explanation_b
+Correct. The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.
+## answer_c
+The roots of brachial plexus pass through it
+## explanation_c
+The commonest error about this canal. The roots of the plexus lie in the neck between scalenus anterior and scalenus medius; by the time the canal is reached they have joined into trunks and divided into divisions.
+## answer_d
+Transmits subclavian vessels
+## explanation_d
+True only up to the moment of passage. The subclavian artery becomes the axillary artery as it crosses the outer border of the first rib, which is the medial edge of the canal — so what the canal transmits is the axillary vessels.
+## correct_answer
+B
+## main_concept
+CON-MSK-36F854FD651912
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the three boundaries of the cervico-axillary canal and say which stage of the brachial plexus and which vessels pass through it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q26; Anatomy Question [Upper Limb] (1).pdf p34 q194. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The upper border of the scapula is the posterior boundary of the canal, so B is true; A gives the inner instead of the outer border of the first rib, C sends the roots through when the roots stay in the neck, and D names the subclavian vessels when the vessels change their name at the canal itself.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F36CFA2753BD
+## title
+The dorsal scapular nerve arises from:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The dorsal scapular nerve arises from:
+## answer_a
+Posterior cord of brachial plexus
+## explanation_a
+The posterior cord gives the radial, axillary, upper and lower subscapular and thoracodorsal nerves. The rhomboids are on the back like the posterior cord's muscles, which is what makes this the strongest wrong answer.
+## answer_b
+Upper trunk of brachial plexus
+## explanation_b
+The upper trunk gives the nerve to subclavius and the suprascapular nerve, and both go forwards or laterally rather than to the vertebral border of the scapula.
+## answer_c
+Roots of brachial plexus
+## explanation_c
+Correct. The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.
+## answer_d
+Medial cord of brachial plexus
+## explanation_d
+The medial cord supplies the flexor side of the forearm and hand and reaches nothing on the back of the scapula.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Place the dorsal scapular nerve at the root stage of the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q6; Upper MCQ Dr.jalal (1).pdf p53 q6. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root, before any trunk is formed, alongside the long thoracic nerve — the two root branches of the plexus.
+
+
+---
+
+# Item
+## id
+QM-101-3B758D7507D3
+## title
+Which one of the following nerves arises from the roots of the brachial plexus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following nerves arises from the roots of the brachial plexus?
+## answer_a
+Medial pectoral nerve
+## explanation_a
+The medial pectoral nerve comes from the medial cord, alongside the ulnar and the medial cutaneous nerves.
+## answer_b
+Dorsal scapular nerve
+## explanation_b
+Correct. The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus's only two root branches.
+## answer_c
+Axillary nerve
+## explanation_c
+The axillary nerve is a terminal branch of the posterior cord, at the far end of the plexus.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+The thoracodorsal nerve also comes from the posterior cord. It is picked here because its muscle, latissimus dorsi, is on the back like the rhomboids of the true answer.
+## correct_answer
+B
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Identify the branch that leaves the plexus at the root stage rather than from a cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root; the medial pectoral, axillary and thoracodorsal nerves all arise from cords.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-40E3B24E0CA0
+## title
+A 55-year-old male ﬁre-ﬁghter was admitted to the hospital after blunt trauma to Ac ad …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 55-year-old male ﬁre-ﬁghter was admitted to the hospital after blunt trauma to Ac ad Ac ad ad ad his right axilla. Examination revealed winging of the scapula and partial paralysis of the right side of the diaphragm. Which of the following parts of the brachial plexus had been injured? (2018 - 2017) ad ad ViP a- Cords. ViP
+## answer_a
+Cords.
+## explanation_a
+The cords lie below and beyond both nerves. The long thoracic nerve has already left the roots by then and the phrenic nerve is not part of the brachial plexus at all, so no single cord lesion explains the pair.
+## answer_b
+Roots.
+## explanation_b
+Correct. The long thoracic nerve leaves C5, C6 and C7 and the phrenic nerve leaves C3, C4 and C5, so a lesion at the roots — where the two are neighbours in the neck — takes them both.
+## answer_c
+Trunks.
+## explanation_c
+The trunks lie distal to where the long thoracic nerve leaves the plexus, and the phrenic nerve never joins the plexus, so a trunk injury cannot produce either deficit in this combination.
+## answer_d
+Terminal branches.
+## explanation_d
+The answer the extractor read off this page, and the reason for the override. A terminal branch is one named nerve; two deficits in two territories that separate at the roots cannot come from a single terminal branch.
+## answer_e
+Musculocutaneous nerve.
+## explanation_e
+The musculocutaneous nerve supplies the flexors of the arm and the skin of the lateral forearm. It has nothing to do with either the scapula or the diaphragm.
+## correct_answer
+B
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Reason from two deficits with different nerves to the one level of the plexus both of them share.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but a lesion of terminal branches could not do this: the two deficits belong to two different nerves that separate before any cord. Winging is the long thoracic nerve, from the C5, C6 and C7 roots; hemidiaphragmatic paralysis is the phrenic nerve, from C3, C4 and C5. Only at the root stage do the two run close enough for one injury to take both.
+
+
+---
+
+# Item
+## id
+QM-101-85494D2E1F7A
+## title
+Concerning the axilla, the following statements are correct except: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the axilla, the following statements are correct except: (2022)
+## answer_a
+Its posterior wall is formed of subscapularis, teres major and latissimus dorsi
+## explanation_a
+True, so not the exception. Subscapularis above with teres major and latissimus dorsi below make the posterior wall.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+The exception, and the answer. The roots stay in the neck; the plexus reaches the axilla as cords, which is why the cords are named for their position round the second part of the axillary artery.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+True, so not the exception. The apex of the axilla is the cervico-axillary canal, between the clavicle, the scapula and the first rib.
+## answer_d
+The serratus anterior muscle shares in the formation of its medial wall
+## explanation_d
+True, so not the exception. Serratus anterior covers the upper ribs and their intercostal muscles to make the medial wall, and carries the long thoracic nerve on its surface.
+## correct_answer
+B
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p36 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The roots of the brachial plexus lie in the neck between the scalene muscles; what the axilla contains is the cords and their branches, so B is the exception. The other three statements are all true of the axilla.
+
+
+---
+
+# Item
+## id
+QM-101-7DE2FCEEF3E7
+## title
+Concerning the axilla, the following statements are correct except: (2022). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the axilla, the following statements are correct except: (2022). em em em em em
+## answer_a
+Its posterior wall is formed of subscapularis, teres major and latissimus dorsi
+## explanation_a
+True, so not the exception. That is the standard list for the posterior wall.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+The exception, and the answer. Roots in the neck, trunks and divisions in the cervico-axillary canal, cords in the axilla — the axilla holds the last of the three.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+True, so not the exception. The cervico-axillary canal is the apex, and it is the route by which everything enters.
+## answer_d
+The serratus anterior muscle shares in the formation of its medial wall. Ac ad
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Serratus anterior covering the upper ribs is the textbook medial wall of the axilla, and the long thoracic nerve on it is the reason axillary surgery has to know that.
+## correct_answer
+B
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but serratus anterior genuinely does form the medial wall of the axilla, so it cannot be the exception. The exception is B: the roots of the plexus lie in the neck and the axilla holds the cords.
+
+
+---
+
+# Item
+## id
+QM-101-3F4AB0451A8A
+## title
+Damage to this nerve results "in wrist drop" inability to extend hand at wrist: (DEP BO…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Damage to this nerve results "in wrist drop" inability to extend hand at wrist: (DEP BOOK - 2021) em em em
+## answer_a
+Obturator
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. The obturator nerve arises from the lumbar plexus and supplies the adductors of the thigh; nothing it does could affect a wrist.
+## answer_b
+Radial
+## explanation_b
+Correct. The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.
+## answer_c
+Axillary
+## explanation_c
+The axillary nerve supplies deltoid and teres minor and reaches no further than the shoulder. Its injury flattens the shoulder and loses abduction, not extension of the wrist.
+## answer_d
+Phrenic
+## explanation_d
+The phrenic nerve goes to the diaphragm. It is offered here because it is a familiar named nerve, not because it has any relation to the limb.
+## correct_answer
+B
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the nerve whose injury causes wrist drop.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, the obturator nerve, which is a nerve of the lower limb and does not enter the upper limb at all. Every extensor of the wrist and fingers is supplied by the radial nerve, so B is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-DAE43E357A43
+## title
+Injury of which of the following nerves results in winging of the scapula: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Injury of which of the following nerves results in winging of the scapula: (2018)
+## answer_a
+Dorsal scapular.
+## explanation_a
+The dorsal scapular nerve supplies the rhomboids and levator scapulae. Losing it weakens retraction, and any winging it produces is slight and not the classical sign.
+## answer_b
+Long thoracic.
+## explanation_b
+Correct, and the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.
+## answer_c
+Thoracodorsal.
+## explanation_c
+The thoracodorsal nerve supplies latissimus dorsi. It runs on the posterior wall of the axilla and is at risk in the same operation, but its loss costs extension and adduction of the arm.
+## answer_d
+Axillary.
+## explanation_d
+The axillary nerve supplies deltoid and teres minor; its injury flattens the shoulder and loses abduction between fifteen and ninety degrees.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the nerve whose injury wings the scapula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p20 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-58AA73470FF5
+## title
+Medial cord of brachial plexus gives, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial cord of brachial plexus gives, choose the correct answer:
+## answer_a
+Lateral cutaneous nerve of the forearm. :
+## explanation_a
+The lateral cutaneous nerve of the forearm is the continuation of the musculocutaneous nerve, and so belongs to the lateral cord. The word "lateral" in the name is the tell.
+## answer_b
+Musculocutaeous nerve. 1
+## explanation_b
+The musculocutaneous nerve is the lateral cord's own terminal branch, to the flexors of the arm.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+The lateral pectoral nerve is a lateral cord branch, going to the clavicular head of pectoralis major. Its medial counterpart is the one that belongs to the medial cord.
+## answer_d
+Ulnar nerve. ١
+## explanation_d
+Correct. The ulnar nerve is the medial cord's largest branch, carrying C8 and T1 down the medial side of the limb.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Separate the branches of the medial cord from those of the lateral cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p7 q33. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the largest branch of the medial cord; the other three options are all lateral cord branches or derived from one.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FEF8DF40BC24
+## title
+One of the following is a branch of axillary artery: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a branch of axillary artery: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Profunda brachii artery.
+## explanation_a
+The profunda brachii is the brachial artery's first and largest branch, arising just below the lower border of teres major — a centimetre or two past the point at which the axillary artery has already ended.
+## answer_b
+Subscapular artery.
+## explanation_b
+Correct, and the key. The subscapular artery is the largest branch of the axillary, from the third part.
+## answer_c
+Superior ulnar collateral.
+## explanation_c
+The superior ulnar collateral arises from the brachial artery and accompanies the ulnar nerve behind the medial epicondyle.
+## answer_d
+Inferior ulnar collateral.
+## explanation_d
+The inferior ulnar collateral also comes from the brachial artery, near the elbow, and feeds the anastomosis around the joint.
+## correct_answer
+B
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the branches of the axillary artery from those of the brachial artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A8CA069F4EB7
+## title
+One of the following is a branch of the second part of the axillary artery: (2016 – IPK…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a branch of the second part of the axillary artery: (2016 – IPKA – DEP BOOK) y y
+## answer_a
+Lateral thoracic artery
+## explanation_a
+Correct, and the key. The lateral thoracic artery comes off the second part and runs along the lower border of pectoralis minor to the chest wall and the breast.
+## answer_c
+Posterior circumﬂex humeral artery
+## explanation_c
+The posterior circumflex humeral comes from the third part, passing back through the quadrangular space with the axillary nerve.
+## answer_d
+Superior thoracic artery
+## explanation_d
+The superior thoracic is the single branch of the first part, above pectoralis minor.
+## answer_e
+Subscapular artery
+## explanation_e
+The subscapular artery is the largest branch, and it comes from the third part with the two circumflex humerals.
+## correct_answer
+A
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign each named branch of the axillary artery to its part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9FEAB2C6A5E6
+## title
+One of the following is a branch of the second part of the axillary artery:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a branch of the second part of the axillary artery:
+## answer_a
+Lateral thoracic artery
+## explanation_a
+Correct. The lateral thoracic artery is the second part's branch to the chest wall and the breast, running along the lower border of pectoralis minor.
+## answer_b
+Anterior circumflex humeral artery
+## explanation_b
+The anterior circumflex humeral comes from the third part, running laterally in front of the surgical neck of the humerus.
+## answer_c
+Posterior circumflex humeral artery
+## explanation_c
+The posterior circumflex humeral is its partner, also from the third part, going backwards through the quadrangular space.
+## answer_d
+Superior thoracic artery
+## explanation_d
+The superior thoracic is the first part's only branch and lies above pectoralis minor, not behind it.
+## answer_e
+Subscapular artery
+## explanation_e
+The subscapular artery is the largest of all the branches and comes from the third part. Size makes it a tempting answer to any question about a major branch.
+## correct_answer
+A
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign each named branch of the axillary artery to its part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q3. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-the-second-part-of-the-a-3304412e` marks A. The second part gives the thoraco-acromial and the lateral thoracic arteries, and of the five options only the lateral thoracic is one of them.
+
+
+---
+
+# Item
+## id
+QM-101-1BFE32624451
+## title
+One of the following structures pierces the clavipectoral fascia: (2018) em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures pierces the clavipectoral fascia: (2018) em em
+## answer_a
+First part of the axillary artery
+## explanation_a
+The first part of the axillary artery lies deep to the fascia rather than passing through it; it is the artery's branch, the thoraco-acromial, that pierces it.
+## answer_b
+Axillary vein
+## explanation_b
+The axillary vein also lies deep to the fascia. The vein that pierces it is the cephalic, coming the other way — from the deltopectoral groove inwards to join the axillary vein.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+Correct, and the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.
+## answer_d
+Medial pectoral nerve
+## explanation_d
+The medial pectoral nerve pierces pectoralis minor rather than the fascia, and supplies both that muscle and the sternocostal head of pectoralis major. One syllable separates it from the answer.
+## correct_answer
+C
+## main_concept
+CON-MSK-8DDA3D07A02813
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the four structures that pierce the clavipectoral fascia and reject the vessels that pass deep to it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p18 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-392BC77C6674
+## title
+Regarding axillary lymph nodes. one statement is wrong; (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding axillary lymph nodes. one statement is wrong; (IPKA)
+## answer_a
+Apical group lies at axilla apex, behind clavicle & subclavius
+## explanation_a
+True, so not the wrong statement. The apical group lies at the apex of the axilla behind the clavicle and subclavius, and receives from all the other groups.
+## answer_b
+Subscapular group lies on axilla anterior wall along subscapular artery
+## explanation_b
+The wrong statement, and the answer. The subscapular group is named for the muscle it lies on, and subscapularis is the posterior wall. Putting it on the anterior wall swaps it with the pectoral group — the one mistake that would send a surgeon to the wrong side of the armpit.
+## answer_c
+Central group lies in fat above axilla base
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. The central group does lie embedded in the fat near the base of the axilla, above the axillary fascia, and it is the group a clinician feels for first.
+## answer_d
+Humeral group lies near axilla lateral wall along axillary vein
+## explanation_d
+True, so not the wrong statement. The humeral or lateral group lies along the medial side of the axillary vein on the lateral wall and drains the whole upper limb.
+## correct_answer
+B
+## main_concept
+CON-MSK-552299E3126E53
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Assign each group of axillary nodes to its wall and its vessel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but the central group does lie in the axillary fat near the base of the axilla, so that statement stands. The wrong statement is B: the subscapular group lies on the posterior wall of the axilla, along the subscapular vessels — the anterior wall belongs to the pectoral group along the lateral thoracic vessels.
+
+
+---
+
+# Item
+## id
+QM-101-1918D8F23150
+## title
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer: (…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer: (DEP BOOK)
+## answer_a
+There Is paralysis of the Intrinsic muscles of the hand
+## explanation_a
+Correct. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so the intrinsics are what a lower trunk lesion costs.
+## answer_b
+It results in ape hand deformity
+## explanation_b
+Ape hand belongs to the median nerve, not to the lower trunk. The lower trunk gives a claw hand — the two are opposite in which joints are flexed.
+## answer_c
+It can be due to fracture of clavicle
+## explanation_c
+Fracture of the clavicle threatens the trunks and cords passing behind it, and the classical mechanism for the lower trunk is traction with the arm forced upwards instead.
+## answer_d
+There is loss of skin sensations along. the lateral side of the arm
+## explanation_d
+The wrong side of the limb: C8 and T1 carry the medial strip of skin, and the lateral side of the arm is C5 and C6.
+## correct_answer
+A
+## main_concept
+CON-MSK-528AA0580391C0
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the muscles, the deformity and the sensory territory of a C8–T1 lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p126 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `regarding-lesion-of-the-lower-root-of-the-brachial-plexus-th-729c03b6` marks A, and A is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-E39EEFFEDAC3
+## title
+Regarding lesion of the lower root of the brachial plexus, the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding lesion of the lower root of the brachial plexus, the correct answer:
+## answer_a
+There is paralysis of the intrinsic muscles of the hand
+## explanation_a
+Correct, and the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.
+## answer_b
+It results in ape hand deformity
+## explanation_b
+Ape hand — the thumb pulled back into the plane of the palm with a wasted thenar eminence — is a median nerve sign.
+## answer_c
+It can be due to fracture of clavicle
+## explanation_c
+A clavicular fracture lies over the trunks and cords rather than the lower trunk specifically; the lower trunk is torn by upward traction on the abducted arm.
+## answer_d
+There is loss of skin sensations along the lateral side of the arm
+## explanation_d
+C8 and T1 carry the medial strip of the arm, forearm and hand. The lateral strip is C5 and C6, and losing it is Erb's palsy.
+## correct_answer
+A
+## main_concept
+CON-MSK-528AA0580391C0
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the muscles, the deformity and the sensory territory of a C8–T1 lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p4 q20. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E664E79DB0F
+## title
+Regarding pectoralis major, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding pectoralis major, mark one correct statement:
+## answer_a
+Inserted into the lateral lip of the bicipital groove
+## explanation_a
+Correct. The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.
+## answer_b
+Receives nerve supply from posterior cord of brachial plexus
+## explanation_b
+The wrong cord. The pectoral nerves come from the lateral and medial cords; the posterior cord supplies the extensor side of the limb.
+## answer_c
+Forms the medial wall of axilla
+## explanation_c
+The wrong wall. Pectoralis major is the anterior wall of the axilla; the medial wall is serratus anterior over the upper ribs.
+## answer_d
+Is a powerful lateral rotator of the shoulder
+## explanation_d
+The wrong direction. Pectoralis major lies in front of the shoulder joint and rotates the arm medially.
+## correct_answer
+A
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p1 q4. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; two keyed copies of this question in the Pectoral Region leaf both mark A. Pectoralis major inserts into the lateral lip of the bicipital groove, and each of the other three statements reverses a fact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-215AF8855610
+## title
+Regarding pectoralis major muscle, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding pectoralis major muscle, mark one correct statement:
+## answer_a
+Inserted into the lateral lip of the bicipital groove
+## explanation_a
+Correct. Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.
+## answer_b
+Receives nerve supply from posterior cord of brachial plexus
+## explanation_b
+The pectoral nerves are lateral and medial cord branches, never posterior cord.
+## answer_c
+Forms the medial wall of axilla
+## explanation_c
+Pectoralis major forms the anterior wall of the axilla, not the medial.
+## answer_d
+Is a powerful lateral rotator of the shoulder
+## explanation_d
+Pectoralis major is a medial rotator; the lateral rotators are infraspinatus and teres minor, behind the joint.
+## correct_answer
+A
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p21 q116. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copies in the Pectoral Region leaf mark A, and the lateral lip of the bicipital groove is the muscle's insertion.
+
+
+---
+
+# Item
+## id
+QM-101-9F18E8059C25
+## title
+Regarding the axilla, the following statement is correct: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axilla, the following statement is correct: (2019)
+## answer_a
+Its posterior wall is formed of subscapularis only
+## explanation_a
+Incomplete rather than wrong, and incompleteness is what the word "only" makes fatal. The posterior wall is subscapularis with teres major and latissimus dorsi below it.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The roots of the plexus lie in the neck; the axilla holds the cords, which is why they are named for their positions round the second part of the axillary artery.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+Correct. The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.
+## answer_d
+The pectoralis major and minor muscles share in the formation of its medial wall
+## explanation_d
+The wrong pair of muscles for that wall. The pectoral muscles form the anterior wall; the medial wall is the upper ribs and intercostals covered by serratus anterior.
+## correct_answer
+C
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Pick the one true statement about the axilla from three that each misstate a wall or a content.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but the axilla contains the cords of the brachial plexus, not its roots, which lie in the neck between the scalene muscles. C is true as printed: the apex of the axilla is the cervico-axillary canal, through which the space communicates with the root of the neck.
+
+
+---
+
+# Item
+## id
+QM-101-B7B4DFF9D695
+## title
+Regarding the axillary artery, choose the correct answer: (2017 – DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, choose the correct answer: (2017 – DEP BOOK) em em em em em
+## answer_a
+It begins at the inner border of the ﬁrst rib
+## explanation_a
+The outer border of the first rib, not the inner. That crossing is the line at which the subclavian artery becomes the axillary.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+Teres major, not teres minor. The lower border of teres major is where the axillary artery becomes the brachial.
+## answer_c
+Its third part is related medially to the ulnar nerve
+## explanation_c
+Correct. The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.
+## answer_d
+Its second part is related posteriorly to the axillary nerve. Ac ad
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Behind the second part lies the posterior cord itself; the axillary nerve is one of that cord's two terminal branches and lies behind the third part instead. The option names a branch where the parent belongs.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the relations of the second and third parts of the axillary artery and the correct beginning and end of the vessel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but the second part is related posteriorly to the posterior cord, not to the axillary nerve — the axillary nerve is a branch of that cord and lies behind the third part. C is true: the ulnar nerve lies on the medial side of the third part, between the artery and the vein.
+
+
+---
+
+# Item
+## id
+QM-101-95A9FC1EAC88
+## title
+Regarding the axillary artery, choose the correct answer: (DEP BOOK) em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, choose the correct answer: (DEP BOOK) em em em
+## answer_a
+It begins at the inner border of the ﬁrst rib
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Outer border, not inner — and the difference is not pedantic, since the outer border of the first rib is exactly where the subclavian artery changes its name.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+Teres major ends the artery, not teres minor. The two names differ by one word and lie centimetres apart on the posterior wall.
+## answer_c
+It is divided into three parts by the pectoralis minor muscle
+## explanation_c
+Correct. Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.
+## answer_d
+Its third part is related medially to the median nerve
+## explanation_d
+Medial to the third part lies the ulnar nerve; the median nerve is in front of it, formed there by the union of its two roots.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the beginning, the ending, the divisions and the relations of the axillary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is the standard statement with one word changed: the axillary artery begins at the outer border of the first rib, not the inner. Pectoralis minor dividing the artery into three parts is the statement that is true, so the answer is C.
+
+
+---
+
+# Item
+## id
+QM-101-573E5A46A64E
+## title
+Regarding the axillary artery, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, choose the correct answer: (DEP BOOK)
+## answer_a
+It begins at the inner border of the first rib
+## explanation_a
+Outer border of the first rib, not inner.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+Lower border of teres major, not teres minor.
+## answer_c
+It is divided into three parts by the pectoralis minor muscle
+## explanation_c
+Correct. The three parts of the axillary artery are defined by pectoralis minor crossing it: above, behind and below the muscle.
+## answer_d
+Its third part is related medially to the median nerve
+## explanation_d
+The ulnar nerve lies medial to the third part; the median nerve lies in front.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the beginning, the ending, the divisions and the relations of the axillary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p46 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Of the four statements only C is true — pectoralis minor divides the artery into three parts; the other three misplace the beginning, the end and the relation of the third part in turn.
+
+
+---
+
+# Item
+## id
+QM-101-F579643A75EE
+## title
+Regarding the axillary artery, one is correct: (DEP BOOK) ad y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary artery, one is correct: (DEP BOOK) ad y y
+## answer_a
+The largest of its branches Is the superior thoracic artery.
+## explanation_a
+The smallest branch called the largest. The subscapular artery, from the third part, is the largest branch of the axillary; the superior thoracic is a twig from the first part.
+## answer_b
+Its third part is crossed by the lateral root of the median nerve.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The median nerve is formed in front of the third part by two roots, and only the medial root has to cross the artery to reach its partner.
+## answer_c
+The pectoralis minor covers most of the artery.
+## explanation_c
+Pectoralis minor crosses the artery over its second part alone. Calling it a cover for most of the vessel makes nonsense of the three-part division that same muscle produces.
+## answer_d
+The axillary vein lies medial to the artery.
+## explanation_d
+Correct. The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.
+## correct_answer
+D
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the largest branch, the root of the median nerve that crosses the third part, and the side the axillary vein lies on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but it is the medial root of the median nerve that crosses in front of the third part of the axillary artery — the lateral root is already on the lateral side and has no artery to cross. D is the statement that is true: the axillary vein lies medial to the artery throughout.
+
+
+---
+
+# Item
+## id
+QM-101-2621F43AF8FB
+## title
+Regarding the ulnar nerve: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar nerve: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+It is a branch of lateral cord of brachial plexus.
+## explanation_a
+The wrong cord, and the wrong side of the limb. The ulnar nerve is the largest branch of the medial cord, carrying C8 and T1 down the medial side.
+## answer_b
+It gives no branches in forearm.
+## explanation_b
+Inverted. The ulnar nerve gives no branches in the arm and several in the forearm — flexor carpi ulnaris, the medial half of flexor digitorum profundus, and the palmar and dorsal cutaneous branches. A student who has learnt "no branches in the arm" and misremembers which segment picks this.
+## answer_c
+It passes behind medial epicondyle of humerus.
+## explanation_c
+Correct. The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.
+## answer_d
+It supplies extensor carpi ulnaris.
+## explanation_d
+The name is the trap. Extensor carpi ulnaris lies on the ulnar side of the forearm but is an extensor, and every extensor of the forearm is supplied by the radial nerve.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the cord of origin, the branches in the forearm and the relation of the ulnar nerve to the medial epicondyle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q51. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `regarding-the-ulnar-nerve-d455c153`, asked twice, is keyed C. The ulnar nerve grooves the back of the medial epicondyle, and each of the other three statements is false.
+
+
+---
+
+# Item
+## id
+QM-101-5E7A6700116C
+## title
+Regarding veins of upper limb, one is correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding veins of upper limb, one is correct answer:
+## answer_a
+The bicipital aponeurosis separates the cephalic vein from the brachial
+## explanation_a
+Correct relationship, wrong vein. The bicipital aponeurosis separates the median cubital vein from the brachial artery, which is what makes venepuncture at the elbow safe.
+## answer_b
+The cephalic vein starts at lateral end of dorsal venous arch of the hand
+## explanation_b
+Correct, and the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.
+## answer_c
+The basilic vein pierces the clavipectoral fascia
+## explanation_c
+The two veins swapped. It is the cephalic that pierces the clavipectoral fascia; the basilic pierces the deep fascia about the middle of the arm.
+## answer_d
+Axillary artery is accompanied by two venae comitantes
+## explanation_d
+The brachial artery has two venae comitantes; the axillary artery has a single axillary vein, formed where those venae comitantes join the basilic.
+## correct_answer
+B
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p5 q27. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-75981A329C2A
+## title
+Regarding veins of upper limb, one is correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding veins of upper limb, one is correct answer: (DEP BOOK)
+## answer_a
+The bicipital aponeurosis separates the cephalic vein from the brachial artery
+## explanation_a
+The bicipital aponeurosis lies under the median cubital vein, not the cephalic, and that is what protects the brachial artery from a needle.
+## answer_b
+The cephalic vein starts at lateral end of dorsal venous arch of the hand
+## explanation_b
+Correct. Lateral end of the dorsal venous arch for the cephalic vein; the basilic takes the medial end.
+## answer_c
+The basilic vein pierces the clavipectoral fascia
+## explanation_c
+The cephalic vein pierces the clavipectoral fascia, and the basilic pierces the deep fascia of the arm. Both pierce something, which is what makes the pair easy to swap.
+## answer_d
+Axillary artery is accompanied by two venae comitantes
+## explanation_d
+Venae comitantes accompany the brachial artery and end by helping to form the single axillary vein.
+## correct_answer
+B
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p134 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `regarding-veins-of-upper-limb-one-is-correct-answer-6fe460c6` marks B, and B is the only true statement — the cephalic vein does begin at the lateral end of the dorsal venous arch.
+
+
+---
+
+# Item
+## id
+QM-101-11AC8B6C47E2
+## title
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA -…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA - 2016) ad Ac ad ad ad
+## answer_a
+Upper part of the axillary vein.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. The upper part of the axillary vein is where the apical group sits, behind the clavicle; the lateral group runs along the vein lower down. Neither is the pectoral group.
+## answer_b
+Lower part of the axillary vein.
+## explanation_b
+The lower part of the axillary vein is the territory of the lateral or humeral group, which drains the upper limb.
+## answer_c
+Lateral thoracic artery.
+## explanation_c
+Correct. The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.
+## answer_d
+Subscapular artery.
+## explanation_d
+The subscapular vessels carry the posterior (subscapular) group, on the posterior wall.
+## correct_answer
+C
+## main_concept
+CON-MSK-552299E3126E53
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the vessel the anterior group of axillary nodes lies along.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p95 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the axillary vein is the vessel of the lateral (humeral) group; the anterior or pectoral group lies along the lateral thoracic vessels at the lower border of pectoralis minor, and that is the group breast lymph reaches first.
+
+
+---
+
+# Item
+## id
+QM-101-7B695D09A278
+## title
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA -…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA - 2016)
+## answer_a
+Upper part of the axillary vein
+## explanation_a
+The upper part of the axillary vein belongs to the apical group, behind the clavicle and subclavius.
+## answer_b
+Lower part of the axillary vein
+## explanation_b
+The lower part of the axillary vein belongs to the lateral or humeral group, which drains the limb.
+## answer_c
+Lateral thoracic artery
+## explanation_c
+Correct. Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.
+## answer_d
+Subscapular artery
+## explanation_d
+The subscapular vessels carry the posterior group on the posterior wall of the axilla.
+## correct_answer
+C
+## main_concept
+CON-MSK-552299E3126E53
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the vessel the anterior group of axillary nodes lies along.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p138 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each group of axillary nodes is named for the wall it lies on and the vessel it accompanies, and the anterior or pectoral group accompanies the lateral thoracic vessels along the lower border of pectoralis minor.
+
+
+---
+
+# Item
+## id
+QM-101-89EBAE74FA8D
+## title
+The axilla contains all of the following EXCEPT:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axilla contains all of the following EXCEPT:
+## answer_a
+Axillary artery
+## explanation_a
+True, so not the exception. The axillary artery runs from apex to base along the lateral wall.
+## answer_b
+Axillary vein
+## explanation_b
+True, so not the exception. The axillary vein lies medial to the artery all the way.
+## answer_c
+Trunks of the brachial plexus
+## explanation_c
+The exception, and the answer. The plexus reaches the axilla as three cords, named for their position round the second part of the artery; the trunks are above, in the neck and the canal.
+## answer_d
+Fat
+## explanation_d
+True, so not the exception. Axillary fat fills the space between everything else and is what the nodes are embedded in.
+## answer_e
+Tail of the breast
+## explanation_e
+True, so not the exception. The axillary tail of the breast pierces the deep fascia and enters the axilla, which is why breast tissue can be felt in the armpit.
+## correct_answer
+C
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the plexus is present in the axilla as cords, not as trunks.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q2. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Artery, vein, fat and the tail of the breast are all axillary contents; the trunks of the brachial plexus are not, because the trunks lie in the neck and the cervico-axillary canal and have become cords by the time the axilla is reached.
+
+
+---
+
+# Item
+## id
+QM-101-85AD2EFF0692
+## title
+The axilla contains (contents) all of the following EXCEPT: (2024 - 2021) Vi P y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axilla contains (contents) all of the following EXCEPT: (2024 - 2021) Vi P y
+## answer_a
+Axillary artery
+## explanation_a
+True, so not the exception. The axillary artery is the central content of the space.
+## answer_b
+Axillary vein
+## explanation_b
+True, so not the exception. The axillary vein lies on its medial side.
+## answer_c
+Trunks of the brachial plexus
+## explanation_c
+The exception, and the answer. Roots in the neck, trunks and divisions passing through the cervico-axillary canal, cords in the axilla.
+## answer_d
+Fat
+## explanation_d
+The answer the extractor read off this page, and the reason for the override. Axillary fat is listed among the contents in every description of the space, and it is what the five groups of nodes are embedded in.
+## answer_e
+Tail of the breast. y
+## explanation_e
+True, so not the exception. The axillary tail of the breast is a genuine content, and the reason a breast lump can present in the armpit.
+## correct_answer
+C
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the plexus is present in the axilla as cords, not as trunks.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p32 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but axillary fat is one of the standard contents of the axilla and cannot be the exception — it is the medium the lymph nodes lie in. The exception is C: the trunks of the plexus lie above the axilla, and what the axilla contains is the cords.
+
+
+---
+
+# Item
+## id
+QM-101-7649CE263F0C
+## title
+The axilla contains (contents) all of the following EXCEPT: (2024 - 2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axilla contains (contents) all of the following EXCEPT: (2024 - 2021)
+## answer_a
+Axillary artery
+## explanation_a
+True, so not the exception. The axillary artery runs the length of the space.
+## answer_b
+Axillary vein
+## explanation_b
+True, so not the exception. The axillary vein accompanies it on the medial side.
+## answer_c
+Trunks of the brachiaI plexus
+## explanation_c
+The exception, and the answer. What lies in the axilla is the cords of the brachial plexus; the trunks are in the neck and the cervico-axillary canal above.
+## answer_d
+Fat
+## explanation_d
+True, so not the exception. Axillary fat fills the space and holds the lymph nodes.
+## answer_e
+Tail of the breast
+## explanation_e
+True, so not the exception. The axillary tail of the breast pierces the deep fascia to enter the axilla.
+## correct_answer
+C
+## main_concept
+CON-MSK-8AA227FAC19B41
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that the plexus is present in the axilla as cords, not as trunks.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p36 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Artery, vein, fat and the tail of the breast are all contents of the axilla; the trunks of the brachial plexus are not, because the plexus has become cords by the time it reaches the axilla, so C is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-4FD3C0CB0860
+## title
+The axillary nerve may be injured due to: (2019) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axillary nerve may be injured due to: (2019) Ac ad Ac ad ad ad
+## answer_a
+Surgical neck of the humerus fracture.
+## explanation_a
+Correct. The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.
+## answer_b
+Fracture of the mid shaft of the humerus.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The mid-shaft is the radial nerve's level, in the spiral groove, and the deformity there is wrist drop rather than a flat shoulder.
+## answer_c
+Fracture of the medial epicondyle of the humerus.
+## explanation_c
+The medial epicondyle is the ulnar nerve's level, and a fracture there gives a claw hand and numbness of the little finger.
+## answer_d
+Fracture of the trochlea.
+## explanation_d
+A fracture of the trochlea is at the elbow and threatens the median nerve in front and the ulnar behind. Nothing at the elbow can reach a nerve that ends at the shoulder.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Match each level of humeral fracture to the nerve that lies against the bone there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but a fracture of the mid-shaft of the humerus injures the radial nerve in the spiral groove. The axillary nerve winds round the surgical neck, so A is the fracture that endangers it.
+
+
+---
+
+# Item
+## id
+QM-101-1B282119B44C
+## title
+The bicipital groove of the humerus lodges (contains) the: (2017 – 2016 - 2021) Vi ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The bicipital groove of the humerus lodges (contains) the: (2017 – 2016 - 2021) Vi ad
+## answer_a
+Axillary artery.
+## explanation_a
+The axillary artery runs down the axilla medial to the humerus and ends at the lower border of teres major; it never lies in a bony groove of the humerus.
+## answer_b
+Long head of the biceps.
+## explanation_b
+Correct. The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.
+## answer_c
+Long head of the triceps.
+## explanation_c
+The answer the extractor read off this page, and the reason for the override. Long head of triceps, not biceps: it arises from the infraglenoid tubercle and passes down the back of the arm between teres major and teres minor.
+## answer_d
+Coracobrachialis.
+## explanation_d
+Coracobrachialis runs from the coracoid process to the middle of the medial side of the humeral shaft, well below and medial to the groove — a lateral wall structure of the axilla, but not a groove tenant.
+## correct_answer
+B
+## main_concept
+CON-MSK-EA4C451C8749B9
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the tendon that runs in the intertubercular groove of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but the long head of triceps arises from the infraglenoid tubercle of the scapula and runs down the back of the arm, nowhere near the groove. The intertubercular groove lodges the tendon of the long head of biceps, held there by the transverse humeral ligament.
+
+
+---
+
+# Item
+## id
+QM-101-AF804EE2E3CD
+## title
+The brachial plexus has:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The brachial plexus has:
+## answer_a
+8 rami (roots)
+## explanation_a
+Five roots, not eight — C5, C6, C7, C8 and T1. Eight is the number of cervical nerves altogether, which is where the figure comes from.
+## answer_b
+5 trunks
+## explanation_b
+Three trunks: upper from C5 and C6, middle from C7 alone, lower from C8 and T1.
+## answer_c
+6 divisions
+## explanation_c
+Correct. Three trunks each divide into an anterior and a posterior division behind the clavicle, giving six divisions — and it is that split which separates flexor supply from extensor supply for the rest of the limb.
+## answer_d
+4 cords
+## explanation_d
+Three cords, not four: lateral, medial and posterior, named for their relation to the second part of the axillary artery.
+## answer_e
+None of the above
+## explanation_e
+Chosen when a student has none of the four figures secure. One of them is right, and it is the divisions.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Count the roots, trunks, divisions and cords of the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q6. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `the-brachial-plexus-has-ipka-em-p-vi-a-8-rami-roots-ad-vi-p-7bcd1fb3` is keyed C. Each of the three trunks splits into an anterior and a posterior division, which makes six.
+
+
+---
+
+# Item
+## id
+QM-101-3C36627E6807
+## title
+The cervico-axillary canal, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The cervico-axillary canal, choose the correct answer: (DEP BOOK)
+## answer_a
+Bounded medially by inner border first rib
+## explanation_a
+Outer border of the first rib, not inner. The outer border is where the subclavian vessels change their names to axillary.
+## answer_b
+Bounded posteriorly by upper border of scapula
+## explanation_b
+Correct. Clavicle and subclavius in front, upper border of the scapula behind, outer border of the first rib medially.
+## answer_c
+The roots of brachia! plexus pass through It
+## explanation_c
+The roots stay in the neck between scalenus anterior and scalenus medius. Trunks and divisions are what traverse the canal.
+## answer_d
+Transmits subclavian vessels
+## explanation_d
+What passes through is the axillary artery and vein. The subclavian vessels become axillary at the medial edge of the canal, so naming them subclavian describes them a moment too early.
+## correct_answer
+B
+## main_concept
+CON-MSK-36F854FD651912
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the three boundaries of the cervico-axillary canal and say what passes through it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p36 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The upper border of the scapula forms the posterior boundary of the canal; A names the wrong border of the first rib, C sends the roots through when they remain in the neck, and D names the vessels by the name they lose at that very point.
+
+
+---
+
+# Item
+## id
+QM-101-D3C56823F763
+## title
+The cervico-axillary canal, choose the correct answer: (DEP BOOK) Ac P Vi a- Bounded me…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The cervico-axillary canal, choose the correct answer: (DEP BOOK) Ac P Vi a- Bounded medially by inner border ﬁrst rib. ad
+## answer_a
+Bounded medially by inner border ﬁrst rib.
+## explanation_a
+The option the scan has echoed into the stem, and it is false: the medial boundary is the outer border of the first rib.
+## answer_b
+Bounded posteriorly by upper border of scapula.
+## explanation_b
+Correct. The posterior boundary of the cervico-axillary canal is the upper border of the scapula.
+## answer_c
+The roots of brachial plexus pass through It.
+## explanation_c
+The roots of the plexus are in the neck; the canal transmits trunks and divisions.
+## answer_d
+Transmits subclavian vessels.
+## explanation_d
+The vessels are already becoming axillary as they cross the outer border of the first rib, which is the canal's own medial edge.
+## correct_answer
+B
+## main_concept
+CON-MSK-36F854FD651912
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the three boundaries of the cervico-axillary canal and say what passes through it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p33 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan, which is page furniture and not a key. The upper border of the scapula is the canal's posterior boundary, so B is the answer, as it is on the other two copies of this question.
+
+
+---
+
+# Item
+## id
+QM-101-7F9ACB3C12F7
+## title
+The dorsal scapular nerve arises from: (DEP BOOK) Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The dorsal scapular nerve arises from: (DEP BOOK) Vi
+## answer_a
+Posterior cord of brachial plexus.
+## explanation_a
+The posterior cord supplies the extensor side of the limb through the radial and axillary nerves and the three subscapular-group branches. The rhomboids being on the back makes this the tempting answer.
+## answer_b
+Upper trunk of brachial plexus.
+## explanation_b
+The upper trunk gives the suprascapular nerve and the nerve to subclavius only.
+## answer_c
+Roots of brachial plexus.
+## explanation_c
+Correct. The nerve leaves C5 before any trunk forms, which is what makes it a root branch.
+## answer_d
+Medial cord of brachial plexus.
+## explanation_d
+The medial cord's branches all run down the medial and flexor side of the limb.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Place the dorsal scapular nerve at the root stage of the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p36 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root and pierces scalenus medius; the long thoracic nerve is the only other root branch.
+
+
+---
+
+# Item
+## id
+QM-101-6AF5922F35A8
+## title
+The innervation of the serratus anterior muscle is done by: (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The innervation of the serratus anterior muscle is done by: (2021)
+## answer_a
+Medial pectoral nerve
+## explanation_a
+The medial pectoral nerve supplies pectoralis minor and the sternocostal head of pectoralis major, on the opposite wall of the axilla.
+## answer_b
+Lateral pectoral nerve
+## explanation_b
+The lateral pectoral nerve supplies the clavicular head of pectoralis major, also on the anterior wall.
+## answer_c
+Long thoracic nerve
+## explanation_c
+Correct, and the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.
+## answer_d
+Axilla nerve
+## explanation_d
+The axillary nerve supplies deltoid and teres minor and does not reach the chest wall. It is offered because the question is about a muscle in the axilla.
+## correct_answer
+C
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Name the nerve that supplies serratus anterior and where it runs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-968E5C7A364B
+## title
+The medial cord of brachial plexus gives, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The medial cord of brachial plexus gives, choose the correct answer:
+## answer_a
+Lateral cutaneous nerve of the forearm
+## explanation_a
+The lateral cutaneous nerve of the forearm is the terminal continuation of the musculocutaneous nerve, and so a lateral cord derivative.
+## answer_b
+Musculoc;utaeous nerve
+## explanation_b
+The musculocutaneous nerve is the lateral cord's own terminal branch.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+The lateral pectoral nerve belongs to the lateral cord; the medial cord's counterpart is the medial pectoral nerve.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Separate the branches of the medial cord from those of the lateral cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p33 q191. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the medial cord's largest branch; the lateral cutaneous nerve of the forearm, the musculocutaneous nerve and the lateral pectoral nerve all belong to the lateral cord.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6081307F84B3
+## title
+The radial nerve supplies the following muscle in the axilla: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial nerve supplies the following muscle in the axilla: (2019)
+## answer_a
+Long head of triceps.
+## explanation_a
+Correct, and the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.
+## answer_b
+Lateral head of triceps.
+## explanation_b
+The lateral head of triceps is supplied in the arm, after the nerve has left the axilla and entered the spiral groove. The muscle is right and the level is wrong, which is exactly what the stem is testing.
+## answer_c
+Long head of biceps.
+## explanation_c
+The long head of biceps is supplied by the musculocutaneous nerve, from the lateral cord. Its tendon runs in the intertubercular groove, which is why it comes to mind in any axillary question.
+## answer_d
+Anconeus.
+## explanation_d
+Anconeus is supplied by the radial nerve too, but at the far end of the arm, near the elbow.
+## correct_answer
+A
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Name the muscle the radial nerve supplies while still in the axilla, before it enters the spiral groove.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E8241D2D3E97
+## title
+The subscapular artery, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The subscapular artery, choose the correct answer:
+## answer_a
+Arises from the 2™ part of axillary artery
+## explanation_a
+The wrong part. The subscapular artery arises from the third part of the axillary artery, below pectoralis minor, along with the two circumflex humeral arteries.
+## answer_b
+Gives the posterior circumflex humeral artery
+## explanation_b
+The posterior circumflex humeral is a separate branch of the third part in its own right, not a branch of the subscapular. The two arise within a centimetre of each other, which is what makes this plausible.
+## answer_c
+Shares in anastomoses around surgical neck of humerus
+## explanation_c
+The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery's own contribution is to the scapular anastomosis, through its circumflex scapular branch. The books key this option as correct, and it is defensible only on that looser reading.
+## answer_d
+Gives circumflex scapular artery
+## explanation_d
+Correct. The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.
+## correct_answer
+D
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin and the branches of the subscapular artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p52 q186. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `the-subscapular-artery-choose-the-correct-answer-dep-book-d894ec7d` marks C, which is the loosest of the four. The subscapular artery gives the circumflex scapular and continues as the thoracodorsal, so D is true as printed and is the statement the anatomy supports without qualification.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-383C41D885BB
+## title
+The subscapular artery, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The subscapular artery, choose the correct answer: (DEP BOOK)
+## answer_a
+Arises from the 2nd part of axillary artery
+## explanation_a
+Third part, not second. The second part gives the thoraco-acromial and lateral thoracic arteries.
+## answer_b
+Gives the posterior circumﬂex humeral artery
+## explanation_b
+The posterior circumflex humeral arises directly from the third part alongside the subscapular, not from it.
+## answer_c
+Shares in anastomoses around surgical neck of humerus
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. It is the two circumflex humeral arteries that ring the surgical neck; the subscapular reaches the scapula, not the humeral neck, and belongs to the scapular anastomosis.
+## answer_d
+Gives circumﬂex scapular artery
+## explanation_d
+Correct. The circumflex scapular is the subscapular artery's branch, and the subscapular then continues as the thoracodorsal.
+## correct_answer
+D
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin and the branches of the subscapular artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C. The anastomosis around the surgical neck of the humerus is formed by the anterior and posterior circumflex humeral arteries, not by the subscapular; the subscapular feeds the scapular anastomosis instead. D is true without qualification — the circumflex scapular artery is the subscapular artery's own branch — so the answer is moved to it and the disagreement recorded here rather than absorbed.
+
+
+---
+
+# Item
+## id
+QM-101-16DA89268563
+## title
+The suprascapular nerve is a branch from the:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The suprascapular nerve is a branch from the:
+## answer_a
+Roots of the brachial plexus
+## explanation_a
+The root branches of the plexus are the dorsal scapular and the long thoracic nerves, and nothing else.
+## answer_b
+Upper trunk
+## explanation_b
+Correct. The upper trunk gives the nerve to subclavius and the suprascapular nerve, which passes through the suprascapular notch to supraspinatus and infraspinatus.
+## answer_c
+Middle trunk
+## explanation_c
+The middle trunk is C7 alone and gives no branches at all before it divides.
+## answer_d
+Posterior cord
+## explanation_d
+The muscles the suprascapular nerve supplies lie on the back of the scapula, which is why the posterior cord feels like the right home for it. The posterior cord's branches are the radial, axillary, two subscapular and thoracodorsal nerves.
+## answer_e
+Lateral cord
+## explanation_e
+The lateral cord supplies the flexor side of the arm and forearm through the musculocutaneous nerve and the lateral root of the median.
+## correct_answer
+B
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Place the suprascapular nerve on the upper trunk of the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q10. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `the-suprascapular-nerve-is-a-branch-from-the-ipka-2022-2021-54f34e95` marks D, the posterior cord, which is wrong. The suprascapular nerve is one of the two branches of the upper trunk, with the nerve to subclavius.
+
+
+---
+
+# Item
+## id
+QM-101-1EF82DD94751
+## title
+The suprascapular nerve is a branch from the: (IPKA – 2022 - 2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The suprascapular nerve is a branch from the: (IPKA – 2022 - 2021)
+## answer_a
+Roots of the brachial plexus
+## explanation_a
+Only the dorsal scapular and long thoracic nerves come from the roots.
+## answer_b
+Upper trunk
+## explanation_b
+Correct. The upper trunk, C5 and C6, gives the nerve to subclavius and the suprascapular nerve.
+## answer_c
+Middle trunk
+## explanation_c
+The middle trunk gives no branches; C7 passes straight through to its two divisions.
+## answer_d
+Posterior cord
+## explanation_d
+The answer the extractor read off this page, and the reason for the override. Supraspinatus and infraspinatus are on the back of the scapula, which makes the posterior cord an attractive guess — but the posterior cord is formed behind the clavicle, long after the suprascapular nerve has left.
+## answer_e
+Lateral cord
+## explanation_e
+The lateral cord's branches go to the flexors of the arm and to the median nerve, on the front of the limb.
+## correct_answer
+B
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Place the suprascapular nerve on the upper trunk of the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, the posterior cord, and it cannot stand: the suprascapular nerve is a branch of the upper trunk, given off in the posterior triangle of the neck before the divisions are formed. This is a question the books record as asked in three separate sittings, so the error is worth correcting rather than passing on.
+
+
+---
+
+# Item
+## id
+QM-101-F9D6EA66C3C4
+## title
+The thoracoacromial artery is a branch of the:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The thoracoacromial artery is a branch of the:
+## answer_a
+Subclavian artery
+## explanation_a
+The subclavian artery gives the vertebral, internal thoracic, thyro-cervical and costo-cervical trunks and the dorsal scapular. It has already become the axillary by the time this branch arises.
+## answer_b
+First part of the axillary artery
+## explanation_b
+The first part gives one branch only, the superior thoracic.
+## answer_c
+Second part of the axillary artery
+## explanation_c
+Correct. The second part gives the thoraco-acromial and the lateral thoracic arteries, and the thoraco-acromial turns forwards through the clavipectoral fascia.
+## answer_d
+Third part of the axillary artery
+## explanation_d
+The third part gives the subscapular and the two circumflex humeral arteries.
+## answer_e
+Brachial artery
+## explanation_e
+The brachial artery begins below teres major and gives the profunda brachii and the two ulnar collaterals.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign the thoraco-acromial artery to the second part of the axillary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q4. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The thoraco-acromial artery is one of the two branches of the second part of the axillary artery, and it is the one that pierces the clavipectoral fascia to divide into its pectoral, acromial, clavicular and deltoid branches.
+
+
+---
+
+# Item
+## id
+QM-101-BC0B86AED63C
+## title
+The thoracoacromial artery is a branch of the: (IPKA - 2022) y Ac a- Subclavian artery
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The thoracoacromial artery is a branch of the: (IPKA - 2022) y Ac a- Subclavian artery
+## answer_a
+Subclavian artery.
+## explanation_a
+The option the scan has echoed into the stem, and it is false: the subclavian artery has become the axillary before this branch is given.
+## answer_b
+First part of the axillary artery.
+## explanation_b
+The first part gives only the superior thoracic artery.
+## answer_c
+Second part of the axillary artery.
+## explanation_c
+Correct. The second part, behind pectoralis minor, gives the thoraco-acromial and the lateral thoracic.
+## answer_d
+Third part of the axillary artery.
+## explanation_d
+The third part gives the subscapular and the anterior and posterior circumflex humeral arteries.
+## answer_e
+Brachial artery.
+## explanation_e
+The brachial artery lies beyond the axilla altogether.
+## correct_answer
+C
+## main_concept
+CON-MSK-C608D59631E713
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign the thoraco-acromial artery to the second part of the axillary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan, which is page furniture and not an answer. The thoraco-acromial artery arises from the second part of the axillary artery, behind pectoralis minor.
+
+
+---
+
+# Item
+## id
+QM-101-E8A99FD76B5E
+## title
+The ulnar nerve: (2024) Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ulnar nerve: (2024) Ac em
+## answer_a
+It is a terminal branch of the lateral cord of the brachial plexus
+## explanation_a
+The wrong cord. The ulnar nerve is the largest branch of the medial cord; the lateral cord gives the musculocutaneous nerve and the lateral root of the median.
+## answer_b
+It lies behind the medial epicondyle of the humerus
+## explanation_b
+Correct. The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.
+## answer_c
+It descends with the long head of the triceps
+## explanation_c
+The wrong head. In the arm the ulnar nerve pierces the medial intermuscular septum and descends on the front of the medial head of triceps; the long head lies further back and laterally.
+## answer_d
+It innervates the triceps. y
+## explanation_d
+Triceps is supplied by the radial nerve throughout. The ulnar nerve gives no muscular branch at all in the arm.
+## correct_answer
+B
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the cord of origin, the course in the arm and the muscles of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q30. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, which is true and is the fact every clinical use of the nerve rests on; A gives it the wrong cord, C the wrong head of triceps, and D a muscle that belongs to the radial nerve.
+
+
+---
+
+# Item
+## id
+QM-101-4F77CC869CAA
+## title
+The upper trunk of brachial plexus gives origin to; select the correct answers: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The upper trunk of brachial plexus gives origin to; select the correct answers: (DEP BOOK)
+## answer_a
+Suprascapular nerve.
+## explanation_a
+Correct, and the key. The suprascapular nerve and the nerve to subclavius are the upper trunk's only two branches.
+## answer_b
+Long thoracic nerve.
+## explanation_b
+The long thoracic nerve is a root branch, from C5, C6 and C7.
+## answer_c
+Upper subscapular nerve.
+## explanation_c
+The upper subscapular nerve comes from the posterior cord.
+## answer_d
+Axillary nerve.
+## explanation_d
+The axillary nerve is a terminal branch of the posterior cord, although its fibres are the upper trunk's own C5 and C6 — which is exactly the resemblance the option trades on.
+## correct_answer
+A
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Name the two branches of the upper trunk and separate them from root and cord branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0EE75451A951
+## title
+The usual number of branches of the medial cord of the brachial plexus: (IPKA) Ac ad Ac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The usual number of branches of the medial cord of the brachial plexus: (IPKA) Ac ad Ac ad ad ad
+## answer_a
+1
+## explanation_a
+One branch would be the middle trunk's count, not a cord's. Every cord of the plexus gives several.
+## answer_b
+2
+## explanation_b
+Two is the upper trunk's number of branches — the suprascapular nerve and the nerve to subclavius — not the medial cord's.
+## answer_c
+3
+## explanation_c
+The answer the books print, and the reason for the override. Three is the number a student reaches by counting only the named nerves they use clinically — ulnar, medial pectoral, medial root of median — and dropping the two medial cutaneous nerves, which are easy to forget precisely because they are purely sensory.
+## answer_e
+5
+## explanation_e
+Correct. Ulnar, medial root of the median, medial pectoral, medial cutaneous nerve of the arm and medial cutaneous nerve of the forearm — five.
+## correct_answer
+E
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Count the branches of the medial cord by naming them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, three. The department's own description of the plexus gives the medial cord five branches — the ulnar nerve, the medial root of the median, the medial pectoral nerve, and the medial cutaneous nerves of the arm and of the forearm — so the answer is five. Recorded here rather than absorbed, because the printed key is high-confidence and a reviewer may want to say which list the faculty intends.
+
+
+---
+
+# Item
+## id
+QM-101-C19859C2C279
+## title
+The usual number of branches of the medial cord of the brachial plexus:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The usual number of branches of the medial cord of the brachial plexus:
+## answer_a
+1
+## explanation_a
+No cord of the plexus gives a single branch.
+## answer_b
+2
+## explanation_b
+Two is the upper trunk's count.
+## answer_c
+3
+## explanation_c
+The count a student reaches by naming only the three motor-bearing nerves and forgetting the two purely sensory medial cutaneous nerves. It is also what the books print as the key, which is why the answer here is set explicitly rather than left to the extraction.
+## answer_d
+4
+## explanation_d
+Four comes from remembering the two medial cutaneous nerves as one — "the medial cutaneous nerves" is often written as a single item in a list, and it stands for two nerves.
+## answer_e
+5
+## explanation_e
+Correct. Five: ulnar, medial root of the median, medial pectoral, medial cutaneous of the arm, medial cutaneous of the forearm.
+## correct_answer
+E
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Upper Limb
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Count the branches of the medial cord by naming them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q7. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the keyed copy marks three, which the department's own list contradicts: the medial cord gives the ulnar nerve, the medial root of the median, the medial pectoral nerve and the medial cutaneous nerves of the arm and forearm — five branches.
+
+
+---
+
+# Item
+## id
+QM-101-C25E9EDF5E0C
+## title
+Which is a branch of medial cord of brachial plexus: (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which is a branch of medial cord of brachial plexus: (2021)
+## answer_a
+Medial pectoral nerve.
+## explanation_a
+Correct. The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.
+## answer_b
+Lateral pectoral nerve.
+## explanation_b
+The lateral pectoral nerve is its counterpart from the lateral cord. The two nerves are named for their cords, which makes this pair the whole point of the item.
+## answer_c
+Dorsal scapular nerve.
+## explanation_c
+The dorsal scapular nerve arises from the C5 root, before the trunks form.
+## answer_d
+Axillary nerve.
+## explanation_d
+The axillary nerve is a terminal branch of the posterior cord.
+## correct_answer
+A
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Pick the medial cord branch from a list of one lateral cord, one root and one posterior cord branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p37 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The medial pectoral nerve is a branch of the medial cord; the lateral pectoral belongs to the lateral cord, the dorsal scapular to the C5 root and the axillary to the posterior cord.
+
+
+---
+
+# Item
+## id
+QM-101-7B1827A79C71
+## title
+Which nerve arises from a cord of the brachial plexus cords? (DEP BOOK) ad Ac a- Long t…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which nerve arises from a cord of the brachial plexus cords? (DEP BOOK) ad Ac a- Long thoracic nerve. y Ac
+## answer_a
+Long thoracic nerve.
+## explanation_a
+A root branch, from C5, C6 and C7, and the option the scan has echoed into the stem. The long thoracic nerve leaves the plexus before any trunk forms.
+## answer_b
+Nerve to subclavius.
+## explanation_b
+A branch of the upper trunk, running down in front of the subclavian vessels to subclavius.
+## answer_c
+Suprascapular nerve.
+## explanation_c
+Also a branch of the upper trunk, passing laterally to the suprascapular notch.
+## answer_d
+Thoracodorsal nerve.
+## explanation_d
+Correct. The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Distinguish the branches that leave the cords from those that leave the roots and the upper trunk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan rather than marked as an answer. The thoracodorsal nerve is a branch of the posterior cord; the long thoracic comes from the roots and the nerve to subclavius and the suprascapular nerve from the upper trunk.
+
+
+---
+
+# Item
+## id
+QM-101-BE5F8D0C64D7
+## title
+Which nerve is probably damaged if a patient cannot abduct arm beyond 15°:(DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which nerve is probably damaged if a patient cannot abduct arm beyond 15°:(DEP BOOK)
+## answer_a
+Axillary
+## explanation_a
+Correct, and the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve's muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.
+## answer_b
+Radial. P
+## explanation_b
+The radial nerve supplies triceps and all the extensors of the forearm; its injury drops the wrist and leaves abduction of the shoulder intact.
+## answer_c
+Musculocutaneous
+## explanation_c
+The musculocutaneous nerve supplies the flexors of the arm — biceps, brachialis and coracobrachialis — so its loss costs flexion of the elbow, not abduction of the shoulder.
+## answer_d
+Median
+## explanation_d
+The median nerve supplies most of the flexors of the forearm and the thenar muscles, and does not reach the shoulder at all.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## topic
+Axilla
+## subtopic
+Axilla
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Reason from the range of abduction lost to the nerve that supplies the muscle covering that range.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
@@ -31538,6 +36482,4820 @@ Extraction confidence medium; the answer came from a separate answer key, joined
 
 # Item
 ## id
+QM-101-7D2BB9F11F1F
+## title
+Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
+## answer_a
+Loss of thumb adduction and abduction
+## explanation_a
+Half of this is ulnar. Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, and it is preserved in carpal tunnel syndrome; only abduction, by abductor pollicis brevis, is lost — so the option is wrong as a pair.
+## answer_b
+Loss of writing position of the medial four fingers
+## explanation_b
+The writing position — metacarpophalangeal joints flexed with the interphalangeal joints extended — is the work of all four lumbricals and the interossei. The lateral two lumbricals do go, but the medial two and every interosseous are ulnar, so the position is not lost.
+## answer_c
+Loss of opposition of the thumb
+## explanation_c
+Correct. Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.
+## answer_d
+Loss of abduction and adduction of the medial 4 fingers
+## explanation_d
+Abduction and adduction of the fingers is the interossei, every one of which is supplied by the deep branch of the ulnar nerve and none of which passes through the carpal tunnel with the median.
+## correct_answer
+C
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the single movement whose loss in carpal tunnel syndrome disables the hand.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p13 q29; Upper MCQ Dr.jalal (1).pdf p17 q29; Anatomy Question [Upper Limb] (1).pdf p32 q184; Anatomy MCQ Book [2025] [first priority].pdf p52 q184. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve in the carpal tunnel supplies the three thenar muscles, so what it loses is opposition of the thumb; the other three options are all ulnar territory and survive the lesion untouched.
+
+
+---
+
+# Item
+## id
+QM-101-61D66E45A1E6
+## title
+The median nerve innervates the following muscles:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve innervates the following muscles:
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is an extensor of the forearm, and every extensor is radial. The word "radialis" invites the guess that it belongs to the radial side rather than the radial nerve — here they happen to agree, and the nerve is radial.
+## answer_b
+Dorsal and palmer interossei
+## explanation_b
+All seven interossei, dorsal and palmar, take the deep branch of the ulnar nerve.
+## answer_c
+Hypothenar muscles
+## explanation_c
+The hypothenar muscles are also ulnar, through the deep branch.
+## answer_d
+Lateral two lumbricals
+## explanation_d
+Correct, and the key. The lateral two lumbricals are the median nerve's only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.
+## correct_answer
+D
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q21; Upper MCQ Dr.jalal (1).pdf p16 q21; Anatomy Question [Upper Limb] (1).pdf p2 q9; Anatomy MCQ Book [2025] [first priority].pdf p20 q9. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DDA44E675CD6
+## title
+The radial artery gives the following branch in the hand:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery gives the following branch in the hand:
+## answer_a
+Principes pollicis
+## explanation_a
+Correct. Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.
+## answer_b
+Superficial palmar artery
+## explanation_b
+Given at the wrist, not in the hand. The superficial palmar branch leaves the radial artery before it turns back into the snuff box, and runs on to help complete the superficial arch.
+## answer_c
+Second dorsal metacarpal artery
+## explanation_c
+The second dorsal metacarpal artery comes from the dorsal carpal arch. Only the first dorsal metacarpal artery is a direct branch of the radial, given on the back of the hand before it dives into the palm.
+## answer_d
+Posterior carpal artery
+## explanation_d
+The posterior carpal artery is a wrist branch, and it is one of the vessels that forms the dorsal carpal arch from which option C then arises.
+## correct_answer
+A
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the radial artery's branches in the hand from those it gives at the wrist.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q12; Upper MCQ Dr.jalal (1).pdf p57 q12; Anatomy Question [Upper Limb] (1).pdf p28 q158; Anatomy MCQ Book [2025] [first priority].pdf p48 q158. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the second dorsal metacarpal artery, which comes off the dorsal carpal arch rather than the radial artery itself. Arteria princeps pollicis is given after the artery reaches the palm and is a radial branch in the hand, so A is the answer — and the books' own "except" version of this question lists princeps pollicis, radialis indicis and the first dorsal metacarpal as its hand branches.
+
+
+---
+
+# Item
+## id
+QM-101-59FBEA463C66
+## title
+A patient suffering from carpal tunnel syndrome, would present with one of the followin…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient suffering from carpal tunnel syndrome, would present with one of the following symptoms:
+## answer_a
+Parasthesia over the index finger
+## explanation_a
+Correct. The index finger lies squarely within the median nerve's palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.
+## answer_b
+Parasthesia over the little finger
+## explanation_b
+The little finger is ulnar, and its sparing is what distinguishes carpal tunnel syndrome from an ulnar lesion at the bedside.
+## answer_c
+Weakness in adduction of the thumb
+## explanation_c
+Adduction of the thumb is adductor pollicis, which takes the deep branch of the ulnar nerve and lies outside the carpal tunnel altogether.
+## answer_d
+Weakness in opposition of the little finger
+## explanation_d
+Opposition of the little finger is opponens digiti minimi, a hypothenar muscle and therefore ulnar.
+## correct_answer
+A
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p13 q28; Upper MCQ Dr.jalal (1).pdf p17 q28; Anatomy MCQ Book [2025] [first priority].pdf p31 q71. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve carries sensation from the palmar surface of the lateral three and a half fingers, so paraesthesia over the index finger is the presenting symptom; the other three options all name ulnar territory or ulnar muscles.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9413EFCEA11C
+## title
+The mid palmar space, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The mid palmar space, choose the correct answer:
+## answer_a
+It contains tendon of flexor polices longus
+## explanation_a
+The thenar space's content, not this one's. The intermediate septum runs back to the third metacarpal and keeps flexor pollicis longus on the lateral side of it.
+## answer_b
+It is bounded anteriorly by flexor retinaculum
+## explanation_b
+The flexor retinaculum is proximal to the space, at the wrist; what lies in front of the midpalmar space is the palmar aponeurosis with the flexor tendons and the superficial arch. The retinaculum matters here because the space passes under it into the forearm, which is how sepsis travels.
+## answer_c
+It contains deep palmar arch
+## explanation_c
+The deep palmar arch lies on the interossei and the metacarpal bases, behind the fascia that forms the posterior wall of this space — a centimetre away and on the wrong side of a boundary.
+## answer_d
+It contains tendons of the long flexors of medial 3 fingers
+## explanation_d
+Correct. The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.
+## correct_answer
+D
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the contents and boundaries of the midpalmar space and distinguish them from those of the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p17 q52; Anatomy Question [Upper Limb] (1).pdf p34 q199; Anatomy MCQ Book [2025] [first priority].pdf p54 q199. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The midpalmar space lies behind the flexor tendons of the medial three fingers with the medial two lumbricals, which are its contents; flexor pollicis longus belongs to the thenar space, the flexor retinaculum lies proximal to the space rather than in front of it, and the deep palmar arch lies behind its posterior wall on the interossei.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DD99E8CFD899
+## title
+The opponens pollicis; choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The opponens pollicis; choose the correct answer:
+## answer_a
+Arises from flexor retinaculum and capitate bone
+## explanation_a
+The wrong carpal bone. Opponens pollicis arises from the flexor retinaculum and the tubercle of the trapezium — the bone at the base of the thumb — not the capitate, which sits in the middle of the distal row.
+## answer_b
+Lies superficial to abductor pollicis brevis
+## explanation_b
+Inverted. Abductor pollicis brevis is the superficial muscle of the eminence and opponens pollicis lies deep to it, which is why the opponens has to be uncovered to be seen.
+## answer_c
+Is innervated by of twig from ulnar nerve
+## explanation_c
+The option the books key, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.
+## answer_d
+Is inserted into the lateral aspect of the first metacarpal bone
+## explanation_d
+Correct. Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin, depth, insertion and nerve of opponens pollicis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p16 q49; Upper MCQ Dr.jalal (1).pdf p20 q49; Anatomy Question [Upper Limb] (1).pdf p23 q129. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the ulnar nerve, which is a recognised variant rather than the rule: opponens pollicis is a thenar muscle supplied by the recurrent branch of the median nerve. Its insertion into the lateral border of the first metacarpal is true without qualification, so the answer is D.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-457EB1BA96CF
+## title
+The thenar eminence consists of, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The thenar eminence consists of, choose the correct answer:
+## answer_a
+Abductor pollicis brevis and adductor pollicis
+## explanation_a
+One thenar muscle and one impostor, and the impostor is the point of the item. Adductor pollicis lies deep in the adductor compartment and takes the deep branch of the ulnar nerve; abductor and adductor differ by two letters and by a whole nerve.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus is a forearm muscle whose tendon merely passes through the hand to the distal phalanx of the thumb. Nothing that arises in the forearm forms an eminence in the palm.
+## answer_c
+Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
+## explanation_c
+Correct. Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.
+## answer_d
+Flexor pollicis longus, abductor pollicis longus
+## explanation_d
+Both are long muscles of the forearm. Abductor pollicis longus does not even reach the palm; its tendon forms the anterior boundary of the anatomical snuff box on the back of the wrist.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the three muscles of the thenar eminence and exclude the long thumb muscles and adductor pollicis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q19; Upper MCQ Dr.jalal (1).pdf p15 q19; Anatomy MCQ Book [2025] [first priority].pdf p40 q122. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks A, which includes adductor pollicis — a deep, ulnar-supplied muscle that lies outside the eminence. The thenar eminence is abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, which is option C.
+
+
+---
+
+# Item
+## id
+QM-101-A1F450A021A4
+## title
+As regards the muscles of the upper limb, one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+As regards the muscles of the upper limb, one is correct:
+## answer_a
+The deltoid is supplied by the axillary nerve
+## explanation_a
+Correct, and the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.
+## answer_b
+All interossei are supplied by the median nerve
+## explanation_b
+Every interosseous muscle is supplied by the deep branch of the ulnar nerve. The median's only intrinsic muscles are the three thenar and the lateral two lumbricals.
+## answer_c
+Dorsal interossei are adductors of the fingers
+## explanation_c
+Inverted. Dorsal interossei abduct the fingers and palmar interossei adduct them — DAB and PAD — and reversing them is the commonest error in the hand.
+## answer_d
+The flexor digitorum superficialis flexes the terminal interphalangeal joints
+## explanation_d
+The wrong joint. Flexor digitorum superficialis inserts into the sides of the middle phalanx and flexes the proximal interphalangeal joint; the terminal joint belongs to flexor digitorum profundus, which passes through the split in the superficialis tendon to reach it.
+## correct_answer
+A
+## main_concept
+CON-MSK-82C4250560D1A1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Pick the one true statement about upper limb muscles from three that misassign a nerve or an action.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q42; Anatomy MCQ Book [2025] [first priority].pdf p26 q42. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6E63C45E560B
+## title
+Regarding the thenar space of the hand, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the thenar space of the hand, choose the correct answer:
+## answer_a
+It is bounded laterally by the medial septum of the palmar aponeurosis
+## explanation_a
+The wrong septum on the wrong side. The thenar space is bounded laterally by the lateral septum, which runs back to the first metacarpal; the intermediate septum, to the third, is its medial boundary.
+## answer_b
+It is bounded posteriorly by the fascia covering the adductor pollicis
+## explanation_b
+Correct, and the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space's posterior wall — which is why an abscess there points forwards into the palm rather than backwards.
+## answer_c
+It contains the tendon of the digitorum profundus
+## explanation_c
+The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space, on the other side of the intermediate septum. Only the index tendons reach the thenar space.
+## answer_d
+It contains the medial three lumbricals
+## explanation_d
+The medial three lumbricals lie in the midpalmar space. The thenar space holds the first lumbrical alone.
+## correct_answer
+B
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the thenar space and separate them from the midpalmar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q43; Anatomy Question [Upper Limb] (1).pdf p16 q92. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D56C95ECE00B
+## title
+Regarding the ulnar artery at the wrist and hand, mark the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar artery at the wrist and hand, mark the correct answer:
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.
+## answer_b
+Gives radialis indicis artery
+## explanation_b
+The radialis indicis is a radial artery branch, given in the palm alongside the arteria princeps pollicis.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The anterior carpal arch is formed by the anterior carpal branches of the radial and ulnar arteries meeting across the front of the carpus. The ulnar artery contributes to it but does not continue as it.
+## answer_d
+Continues as deep palmar arch
+## explanation_d
+The two arches swapped, which is the standard error in this leaf. The ulnar artery continues as the superficial arch; the radial artery ends as the deep one.
+## correct_answer
+A
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p28 q160; Anatomy MCQ Book [2025] [first priority].pdf p48 q160. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the radialis indicis, which is a radial artery branch. The ulnar artery does give a deep palmar branch that completes the deep arch, so A is true; it ends as the superficial arch, not the deep one.
+
+
+---
+
+# Item
+## id
+QM-101-FBA259E03D1E
+## title
+The lumbrical muscles, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The lumbrical muscles, choose the correct answer:
+## answer_a
+Arise from the tendons of flexor digitorum superficialis
+## explanation_a
+The wrong long flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deeper of the two, which is what lets them act on a moving origin.
+## answer_b
+Are inserted into the radial side of extensor expansion
+## explanation_b
+Correct. Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.
+## answer_c
+Are innervated by ulnar and radial nerves
+## explanation_c
+The wrong pair of nerves. It is the median and the ulnar that share the lumbricals — lateral two median, medial two ulnar; the radial nerve supplies no muscle in the hand at all.
+## answer_d
+In association with the interossei, extend the digits at the metacarpo
+## explanation_d
+The wrong direction at that joint. Lumbricals and interossei flex the metacarpophalangeal joints while extending the interphalangeal joints, which together give the writing position.
+## correct_answer
+B
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, insertion, nerve supply and action of the lumbricals.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p23 q131; Anatomy MCQ Book [2025] [first priority].pdf p41 q131. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `the-lumbrical-muscles-choose-the-correct-answer-dep-book-eb649e8d` is keyed B, and B is the only true statement here. The lumbricals arise from profundus not superficialis, are median and ulnar not ulnar and radial, and flex rather than extend the metacarpophalangeal joints.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6C8596EE5936
+## title
+A 32-year-old man was admitted to the hospital with a wound of the palm of his em em em…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 32-year-old man was admitted to the hospital with a wound of the palm of his em em em em em hand. He could not touch the pads of his lingers with his thumb but could grip a sheet of paper between all lingers and had no loss of sensation of the skin of his hand. Vi Which of the following nerves is most likely injured? (2019)
+## answer_a
+Deep branch of ulnar. P Ac ad
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. The deep branch of the ulnar nerve supplies all the interossei and adductor pollicis, so a patient with that branch cut cannot hold paper between the fingers — and this patient can.
+## answer_b
+Median
+## explanation_b
+The median nerve as a whole would fit the loss of opposition but not the intact sensation: the trunk carries sensation from the palmar surface of the lateral three and a half fingers, and the stem says there is none lost.
+## answer_c
+Recurrent branch of median
+## explanation_c
+Correct. The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.
+## answer_d
+Deep branch of radial
+## explanation_d
+The deep branch of the radial nerve is the posterior interosseous nerve, in the forearm, and it supplies no muscle in the hand. A wound of the palm cannot reach it.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Challenging
+## question_type
+Clinical application
+## learning_objective
+Reason from a preserved movement and preserved sensation to a purely motor branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p63 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, the deep branch of the ulnar nerve, and the stem rules it out: the patient can grip a sheet of paper between the fingers, which is adduction by the palmar interossei — precisely the deep branch's muscles. Loss of opposition with intact adduction and no sensory loss localises the injury to the recurrent branch of the median nerve, which is purely motor to the thenar muscles.
+
+
+---
+
+# Item
+## id
+QM-101-F66361DB3113
+## title
+A patient complaining of inability to ﬂex the proximal interphalangeal joints. Which of…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient complaining of inability to ﬂex the proximal interphalangeal joints. Which of the following muscles appear to be paralyzed? (IPKA) P Vi a- Palmar interossei. ad Vi P
+## answer_a
+Palmar interossei.
+## explanation_a
+The palmar interossei adduct the fingers and, with the lumbricals, flex the metacarpophalangeal joints while extending the interphalangeal joints — the opposite of the movement lost here.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Flexor digitorum profundus flexes the distal interphalangeal joint, since its tendon runs past the middle phalanx to the base of the terminal one. It will flex the proximal joint too as it passes, so its loss alone would not abolish the movement.
+## answer_c
+Flexor digitorum superﬁcialis.
+## explanation_c
+Correct, and the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.
+## answer_d
+Lumbricals.
+## explanation_d
+The lumbricals extend the interphalangeal joints rather than flexing them.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-89BABEE4F87A
+## title
+A patient complaining of inability to flex the proximal interphalangeal joints. Which o…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient complaining of inability to flex the proximal interphalangeal joints. Which of the following muscles appear to be paralyzed? (IPKA)
+## answer_a
+Palmar interossei
+## explanation_a
+The palmar interossei adduct the fingers and extend the interphalangeal joints.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus reaches the distal phalanx and flexes the terminal joint.
+## answer_c
+Flexor digitorum superficialis
+## explanation_c
+Correct. Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.
+## answer_d
+Lumbricals
+## explanation_d
+The lumbricals extend the interphalangeal joints as part of the writing position.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `a-patient-complaining-of-inability-to-ex-the-proximal-interp-78c7fc3c` is keyed C. Flexor digitorum superficialis inserts into the middle phalanx and is the only muscle of the four that acts primarily on the proximal interphalangeal joint.
+
+
+---
+
+# Item
+## id
+QM-101-FE2942F389E1
+## title
+A patient suffering from carpal tunnel syndrome would present with one of the P y follo…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient suffering from carpal tunnel syndrome would present with one of the P y following symptoms: (DEP BOOK) Ac em
+## answer_a
+Paresthesia over the index ﬁnger
+## explanation_a
+Correct. Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.
+## answer_b
+Paresthesia over the little ﬁnger
+## explanation_b
+The little finger is ulnar and is spared, which is the sign that separates this diagnosis from an ulnar lesion.
+## answer_c
+Weakness in adduction of the thumb
+## explanation_c
+Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, outside the tunnel.
+## answer_d
+Weakness in opposition of the little ﬁnger. y
+## explanation_d
+Opposition of the little finger is opponens digiti minimi, a hypothenar and therefore ulnar muscle.
+## correct_answer
+A
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p69 q49. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The index finger lies in the median nerve's palmar territory, and the other three options all name structures supplied by the ulnar nerve, which is unaffected by compression in the carpal tunnel.
+
+
+---
+
+# Item
+## id
+QM-101-D2CF97A2E936
+## title
+All of the following are branches of radial artery in the hand except:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following are branches of radial artery in the hand except:
+## answer_a
+Princips pollicis artery
+## explanation_a
+A radial branch, so not the exception. The arteria princeps pollicis leaves the radial artery in the palm and divides for the two sides of the thumb.
+## answer_b
+Palmar digital branch to medial side of little finger
+## explanation_b
+The exception, and the answer. The medial side of the little finger is the ulnar-most point of the hand and is supplied by a proper palmar digital branch of the ulnar artery, given off before the superficial arch is even complete.
+## answer_c
+Radialis indicis artery
+## explanation_c
+A radial branch, so not the exception. Radialis indicis runs along the radial side of the index finger.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+A radial branch, so not the exception. The first dorsal metacarpal artery is given on the back of the hand, before the artery dives between the heads of the first dorsal interosseous.
+## correct_answer
+B
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks A, princeps pollicis, which is a radial branch and cannot be the exception. The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, so B is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-D00809204199
+## title
+All the following are branches of radial artery in the hand except: (IPKA - 2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following are branches of radial artery in the hand except: (IPKA - 2022)
+## answer_a
+Princips pollicis artery
+## explanation_a
+A radial branch in the palm, so not the exception.
+## answer_b
+Palmar digital branch to medial side of little finger
+## explanation_b
+The exception, and the answer. That digital artery is the ulnar artery's own first branch in the hand, given at the medial edge of the palm.
+## answer_c
+Radialis indicis artery
+## explanation_c
+A radial branch, so not the exception — the artery to the radial side of the index.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+A radial branch, so not the exception, given on the dorsum before the artery enters the palm.
+## correct_answer
+B
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p100 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Princeps pollicis, radialis indicis and the first dorsal metacarpal artery are all radial branches in the hand; the palmar digital artery to the medial side of the little finger is ulnar, so it is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-F38CB1BAB89C
+## title
+All the following are branches of radial artery in the hand except: (IPKA - 2021) em em…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following are branches of radial artery in the hand except: (IPKA - 2021) em em em em em
+## answer_a
+Princips pollicis artery
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Princeps pollicis is the radial artery's branch to the thumb, given as soon as it enters the palm.
+## answer_b
+Palmar digital branch to medial side of little ﬁnger
+## explanation_b
+The exception, and the answer. The medial side of the little finger belongs to the ulnar artery, on the opposite edge of the hand from everything the radial reaches directly.
+## answer_c
+Radialis indicis artery
+## explanation_c
+Radialis indicis is a radial branch, so not the exception.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+The first dorsal metacarpal artery is a radial branch on the back of the hand, so not the exception.
+## correct_answer
+B
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but arteria princeps pollicis is one of the radial artery's two named digital branches in the palm and cannot be the exception. The exception is B, the palmar digital artery to the medial side of the little finger, which comes from the ulnar artery.
+
+
+---
+
+# Item
+## id
+QM-101-266ADB26FC43
+## title
+As a result of injury of the ulnar nerve at the wrist: (2022) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+As a result of injury of the ulnar nerve at the wrist: (2022) Ac ad Ac ad ad ad
+## answer_a
+Marked wasting (atrophy) of thenar eminence.
+## explanation_a
+The wrong eminence. An ulnar lesion flattens the hypothenar eminence and hollows the spaces between the metacarpals; a wasted thenar eminence is the ape hand of a median lesion.
+## answer_b
+Thumb cannot be adducted.
+## explanation_b
+Correct. Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, and its loss is what produces Froment's sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.
+## answer_c
+Thumb cannot be abducted.
+## explanation_c
+Abduction of the thumb is abductor pollicis brevis, a thenar muscle and therefore median.
+## answer_d
+Loss of sensation over the thumb.
+## explanation_d
+Sensation over the thumb is median and radial. The ulnar nerve's sensory territory is the medial one and a half fingers.
+## correct_answer
+B
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the motor and sensory consequences of an ulnar nerve injury at the wrist for the thumb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so adduction of the thumb is what is lost; wasting of the thenar eminence, loss of abduction and sensation over the thumb are all median.
+
+
+---
+
+# Item
+## id
+QM-101-A1E620638F28
+## title
+One of the following is a branch of superﬁcial palmar arch: (IPKA – 2022 - 2021) Ac P V…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a branch of superﬁcial palmar arch: (IPKA – 2022 - 2021) Ac P Vi a- Descending anastomotic branch
+## answer_a
+Descending anastomotic branch.
+## explanation_a
+The descending anastomotic branch belongs to the arteries around the elbow, not to a palmar arch.
+## answer_b
+Common palmar digital artery.
+## explanation_b
+Correct, and the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.
+## answer_c
+2nd Dorsal metacarpal artery.
+## explanation_c
+The second dorsal metacarpal artery arises from the dorsal carpal arch, on the back of the hand.
+## answer_d
+Radialis indicis artery.
+## explanation_d
+Radialis indicis is a branch of the radial artery in the palm, and therefore belongs with the deep arch's territory rather than the superficial.
+## correct_answer
+B
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q29. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0CB28D940541
+## title
+One of the followings is a branch of superficial palmar arch:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is a branch of superficial palmar arch:
+## answer_a
+Descending anastomotic branch
+## explanation_a
+A branch of the arteries around the elbow, not of any arch in the hand.
+## answer_b
+Common palmar digital
+## explanation_b
+Correct. The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.
+## answer_c
+2nd Dorsal metacarpal artery
+## explanation_c
+The dorsal carpal arch gives the second, third and fourth dorsal metacarpal arteries.
+## answer_d
+Radialis indicis artery
+## explanation_d
+Radialis indicis comes directly from the radial artery in the palm.
+## correct_answer
+B
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-super-cial-palmar-arch-i-25404826` marks B. The superficial arch gives four palmar digital arteries, of which the common palmar digitals are three.
+
+
+---
+
+# Item
+## id
+QM-101-BF7A2746FD60
+## title
+Regarding median nerve, all are correct except:(DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding median nerve, all are correct except:(DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Arises from both medial & lateral cords of brachial plexus.
+## explanation_a
+True, so not the exception. The median nerve is the only branch of the plexus formed by roots from two different cords, which is why it carries C5 to T1.
+## answer_b
+Enters hand in carpal tunnel.
+## explanation_b
+True, so not the exception. It passes deep to the flexor retinaculum with the long flexor tendons, and that is what makes carpal tunnel syndrome possible.
+## answer_c
+In cubital fossa it lies lateral to brachial artery.
+## explanation_c
+The exception, and the answer. In the cubital fossa the nerve is medial to the brachial artery, having crossed in front of it in the arm; it is the tendon of biceps that is lateral to the artery there.
+## answer_d
+Injury of the nerve causes ape like hand.
+## explanation_d
+True, so not the exception. Ape hand — a wasted thenar eminence with the thumb adducted and laterally rotated — is the deformity of a median lesion.
+## correct_answer
+C
+## main_concept
+CON-MSK-D81C4A38D695CF
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the formation, course and deformity of the median nerve and place it correctly against the brachial artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q65. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve crosses in front of the brachial artery about the middle of the arm and lies medial to it in the cubital fossa, so C is the exception; the other three statements are all true.
+
+
+---
+
+# Item
+## id
+QM-101-FEF50F1BA738
+## title
+Regarding the cutaneous supply of the upper limb, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cutaneous supply of the upper limb, choose the correct answer:
+## answer_a
+The skin of the medial side of the forearm is supplied by a branch of the post cord of
+## explanation_a
+The wrong cord. The medial cutaneous nerve of the forearm comes from the medial cord — its name says which — and the posterior cord's cutaneous branches are all on the back of the limb.
+## answer_b
+The skin of the lateral side of the arm is supplied by branches of the lateral cord of
+## explanation_b
+The wrong cord again. The lateral side of the arm is supplied by the upper and lower lateral cutaneous nerves of the arm, from the axillary and radial nerves, both posterior cord branches.
+## answer_c
+The skin of the dorsum of the hand is supplied by branches of radial and ulnar nerves
+## explanation_c
+Correct. The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.
+## answer_d
+The skin of the medial 11⁄2 fingers is supplied by branches of the median nerve
+## explanation_d
+The wrong nerve for that territory. The medial one and a half fingers are ulnar; the median takes the lateral three and a half.
+## correct_answer
+C
+## main_concept
+CON-MSK-F4FC0C323C654E
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Nerve supply
+## learning_objective
+Assign each strip of skin on the limb to the cord or the nerve that supplies it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p21 q17. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsum of the hand is shared between the radial and ulnar nerves, which is true as printed; the medial forearm is medial cord not posterior, the lateral arm is axillary and radial not lateral cord, and the medial one and a half fingers are ulnar not median.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-91E3ABAA6FD2
+## title
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022)
+## answer_a
+The skin of medial side of forearm is supplied by a branch from medial cord of brachial plexus
+## explanation_a
+True, so not the answer. The medial cutaneous nerve of the forearm is a medial cord branch.
+## answer_b
+The skin of the lateral side of arm is supplied by branches from lateral cord of brachial plexus
+## explanation_b
+The incorrect statement, and the answer. Nothing from the lateral cord reaches the skin of the arm at all — the lateral cord's only cutaneous territory is the lateral forearm, through the musculocutaneous nerve.
+## answer_c
+The skin of the dorsum of hand is supplied by branches of radial. median and ulnar nerves
+## explanation_c
+True, so not the answer, though it needs care. The dorsum of the hand proper is radial and ulnar; the median nerve's contribution is confined to the skin over the distal phalanges of the lateral three and a half fingers, which most descriptions include and which is why the median is named here.
+## answer_d
+The skin of the dorsal surface of medial 1 ½ fingers is supplied by branches of ulnar nerve
+## explanation_d
+True, so not the answer. The dorsal cutaneous branch of the ulnar nerve covers the back of the medial one and a half fingers.
+## correct_answer
+B
+## main_concept
+CON-MSK-F4FC0C323C654E
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Nerve supply
+## learning_objective
+Identify the one cutaneous territory in the list that is assigned to the wrong cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p130 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The lateral side of the arm is supplied by the axillary and radial nerves, both branches of the posterior cord, so B is the incorrect statement; the other three are true.
+
+
+---
+
+# Item
+## id
+QM-101-D10439B53CAC
+## title
+Regarding the hand, select the true statement: (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the hand, select the true statement: (2021)
+## answer_a
+Deep branch of ulnar nerve lies within the concavity of deep palmar arch.
+## explanation_a
+Correct. The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.
+## answer_b
+Deep palmar arch is level with the distal border of outstretched thumb web.
+## explanation_b
+The level of the wrong arch. The superficial arch lies at the level of the distal border of the fully extended thumb; the deep arch is a finger's breadth proximal to it.
+## answer_c
+Superﬁcial branch of the ulnar nerve supplies the hypothenar muscles.
+## explanation_c
+The wrong branch. The superficial branch of the ulnar nerve supplies palmaris brevis and the skin of the medial one and a half fingers; the hypothenar muscles belong to the deep branch.
+## answer_d
+Flexor digitorum superﬁcialis tendon inserts into the base of distal phalanx.
+## explanation_d
+The wrong phalanx. Superficialis inserts into the sides of the middle phalanx after splitting to let profundus through to the distal one.
+## correct_answer
+A
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Place the deep branch of the ulnar nerve against the deep arch and give the surface levels of the two arches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve accompanies the deep palmar arch and lies within its concavity, which is true as printed; the level in B belongs to the superficial arch, the hypothenar muscles in C are supplied by the deep branch not the superficial, and flexor digitorum superficialis inserts into the middle phalanx, not the distal.
+
+
+---
+
+# Item
+## id
+QM-101-8A4A34A49115
+## title
+Regarding the median nerve, one of the following statements is incorrect: (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the median nerve, one of the following statements is incorrect: (2021)
+## answer_a
+In the cubital fossa, it lies lateral to the brachial artery.
+## explanation_a
+The incorrect statement, and the answer. From medial to lateral the cubital fossa holds the median nerve, the brachial artery and the tendon of biceps — the nerve is the most medial of the three.
+## answer_b
+Arises from both the medial and lateral cords of the brachial plexus.
+## explanation_b
+True, so not the answer. The lateral root from the lateral cord and the medial root from the medial cord unite in front of the third part of the axillary artery.
+## answer_c
+It enters the hand in the carpal tunnel.
+## explanation_c
+True, so not the answer. It passes deep to the flexor retinaculum through the carpal tunnel.
+## answer_d
+Injury of the nerve causes ape-like hand.
+## explanation_d
+True, so not the answer. Ape hand is the median nerve's deformity.
+## correct_answer
+A
+## main_concept
+CON-MSK-D81C4A38D695CF
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the median nerve correctly against the brachial artery in the cubital fossa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q83. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve lies medial to the brachial artery in the cubital fossa, having crossed in front of it in the middle of the arm, so A is the incorrect statement; the other three are true.
+
+
+---
+
+# Item
+## id
+QM-101-6D8893DD1FAD
+## title
+Regarding the mid palmar space of the hand, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the mid palmar space of the hand, choose the correct answer: (DEP BOOK)
+## answer_a
+It contains the two lateral lumbricals.
+## explanation_a
+The lateral two lumbricals lie on the other side of the intermediate septum, in the thenar space. The midpalmar space holds the medial two.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar aponeurosis.
+## explanation_b
+The septum on the wrong side. The intermediate septum runs to the third metacarpal and forms the lateral boundary of this space; the medial boundary is the medial septum, to the fifth metacarpal.
+## answer_c
+It contains the superﬁcial palmar arch.
+## explanation_c
+Correct, and the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, and the department describes it among the space's anterior contents.
+## answer_d
+It contains the superﬁcial branch of the ulnar nerve.
+## explanation_d
+The superficial branch of the ulnar nerve runs forwards over the hypothenar muscles under the palmar aponeurosis, medial to the space rather than in it.
+## correct_answer
+C
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0DF45AD4C791
+## title
+Regarding the midpalmar space of the hand, choose the correct : answer: 1
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the midpalmar space of the hand, choose the correct : answer: 1
+## answer_a
+It contains the lateral two lumbricals
+## explanation_a
+The lateral two lumbricals belong to the thenar space, across the intermediate septum.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar
+## explanation_b
+The intermediate septum bounds this space laterally, not medially.
+## answer_c
+It contains the superficial palmar arch
+## explanation_c
+Correct. The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.
+## answer_d
+It contains the superficial branch of the ulnar nerve
+## explanation_d
+The superficial branch of the ulnar nerve runs over the hypothenar muscles medial to the space.
+## correct_answer
+C
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q44. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; two keyed copies of this question — `regarding-the-mid-palmar-space-of-the-hand-choose-the-correc-5320e62e` and `regarding-the-midpalmar-space-of-the-hand-the-correct-answer-4f784091` — both mark C. The lateral two lumbricals are thenar, the intermediate septum is the lateral not the medial boundary, and the superficial branch of the ulnar nerve lies medial to the space.
+
+
+---
+
+# Item
+## id
+QM-101-D2F3D28768F4
+## title
+Regarding the midpalmar space of the hand, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the midpalmar space of the hand, choose the correct answer:
+## answer_a
+It contains the lateral two lumbricals
+## explanation_a
+The lateral two lumbricals are in the thenar space; this one holds the medial two.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar
+## explanation_b
+The intermediate septum is the lateral boundary of the midpalmar space, not the medial.
+## answer_c
+It contains the superficial palmar arch
+## explanation_c
+Correct. The superficial arch lies in front of the flexor tendons that roof the space.
+## answer_d
+It contains the superficial branch of the ulnar nerve
+## explanation_d
+The superficial branch of the ulnar nerve is medial to the space, over the hypothenar muscles.
+## correct_answer
+C
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p34 q93. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the two keyed copies of this question both mark C, and the other three statements each misplace a lumbrical, a septum or a nerve.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7EDD3996F244
+## title
+Regarding the midpalmar space of the hand, the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the midpalmar space of the hand, the correct answer:
+## answer_a
+It contains the lateral two lumbricals
+## explanation_a
+The lateral two lumbricals lie in the thenar space, on the far side of the intermediate septum.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar
+## explanation_b
+The intermediate septum forms this space's lateral boundary; the medial boundary is the medial septum, to the fifth metacarpal.
+## answer_c
+It contains the superficial palmar arch
+## explanation_c
+Correct, and the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.
+## answer_d
+It contains the superficial branch of the ulnar nerve
+## explanation_d
+The superficial branch of the ulnar nerve lies medial to the space, on the hypothenar muscles.
+## correct_answer
+C
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q93. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B22CDEE8F2E1
+## title
+Regarding the thenar space of the hand, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the thenar space of the hand, choose the correct answer: (DEP BOOK)
+## answer_a
+It is bounded laterally by the medial septum of the palmar aponeurosis.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. The thenar space's lateral boundary is the lateral septum, to the first metacarpal; the medial septum is two spaces away, at the ulnar edge of the palm.
+## answer_b
+It is bounded posteriorly by the fascia covering the adductor pollicis.
+## explanation_b
+Correct. Adductor pollicis lies behind the thenar space and the fascia over it is the space's floor.
+## answer_c
+It contains the tendon of the digitorum profundus.
+## explanation_c
+The profundus tendons of the medial three fingers are in the midpalmar space.
+## answer_d
+It contains three medial lumbricals.
+## explanation_d
+The three medial lumbricals are in the midpalmar space; the thenar space holds the first.
+## correct_answer
+B
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the medial septum of the palmar aponeurosis runs to the fifth metacarpal and lies at the far side of the palm from the thenar space — the thenar space is bounded laterally by the lateral septum. B is true: the fascia over adductor pollicis forms its posterior wall.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D1BAD7053B10
+## title
+Regarding the thenar space of the hand, choose the correct answer: ‘a- It is bounded la…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the thenar space of the hand, choose the correct answer: ‘a- It is bounded laterally by the medial septum of the palmar aponeurosis
+## answer_a
+It is bounded laterally by the medial septum of the palmar aponeurosis.
+## explanation_a
+The option the scan has echoed into the stem, and it is false: the lateral boundary of the thenar space is the lateral septum, not the medial one.
+## answer_b
+It is bounded posteriorly by the fascia covering the adductor pollicis.
+## explanation_b
+Correct. The posterior wall of the thenar space is the fascia covering adductor pollicis.
+## answer_c
+It contains the tendon of the digitorum profundus.
+## explanation_c
+The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space.
+## answer_d
+It contains the medial three lumbricals.
+## explanation_d
+The medial three lumbricals are midpalmar; the thenar space contains only the first.
+## correct_answer
+B
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p34 q92. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan, which is page furniture rather than an answer. The keyed copy `regarding-the-thenar-space-of-the-hand-choose-the-correct-an-5c798469`, asked twice, marks B, and the fascia over adductor pollicis is the space's posterior boundary.
+
+
+---
+
+# Item
+## id
+QM-101-AD570E518C5B
+## title
+Regarding the ulnar nerve injury, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar nerve injury, choose the correct answer:
+## answer_a
+The patient can grip a piece of paper placed between the thumb and index
+## explanation_a
+The reverse of Froment's sign. Adductor pollicis is paralysed in an ulnar lesion, so the patient cannot grip paper between thumb and index by adduction and compensates by flexing the thumb's interphalangeal joint.
+## answer_b
+There is loss of sensation over the lateral 1/3 of the hand
+## explanation_b
+The wrong third of the hand. Ulnar sensory loss covers the medial third of the palm and dorsum; the lateral part is median and radial.
+## answer_c
+There is loss of sensation over the lateral 31⁄2 fingers
+## explanation_c
+The wrong fingers. The lateral three and a half fingers are median; the ulnar takes the medial one and a half.
+## answer_d
+If injured above the elbow, the clawing of the hand becomes less apparent than
+## explanation_d
+Correct. Clawing needs the long flexors intact to bend the fingers; a high lesion takes the medial half of flexor digitorum profundus as well, so the deformity is less obvious even though the injury is worse.
+## correct_answer
+D
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Give the sensory territory of an ulnar lesion and explain why a higher injury claws the hand less.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p14 q37. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar paradox — that a lesion above the elbow produces less clawing than one at the wrist, because the medial half of flexor digitorum profundus is paralysed too and cannot flex the interphalangeal joints — is true as printed; the other three each reverse a sign or a territory.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A102B9B61A2C
+## title
+Regarding ulnar artery at wrist & hand, mark the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding ulnar artery at wrist & hand, mark the correct answer:
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.
+## answer_b
+Gives radialis indicis artery
+## explanation_b
+Radialis indicis is a radial artery branch in the palm.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The ulnar artery contributes an anterior carpal branch to the anterior carpal arch but does not continue as it.
+## answer_d
+Continues as deep palmar arch
+## explanation_d
+The two arches swapped — the standard error in this leaf. Ulnar ends as superficial, radial ends as deep.
+## correct_answer
+A
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q14. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar artery gives a deep palmar branch that completes the deep arch and then continues as the superficial arch, so A is true and D reverses it; radialis indicis is radial and the anterior carpal arch is a contribution rather than a continuation.
+
+
+---
+
+# Item
+## id
+QM-101-3E8B8DEA9C53
+## title
+Regarding ulnar artery at wrist & hand, mark the correct answer: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding ulnar artery at wrist & hand, mark the correct answer: (DEP BOOK) em em em em em
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.
+## answer_b
+Gives radialis indices artery
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. Radialis indicis leaves the radial artery in the palm alongside princeps pollicis; the "radialis" in the name is the giveaway.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The ulnar artery gives an anterior carpal branch to the anterior carpal arch, but its own continuation is the superficial palmar arch.
+## answer_d
+Continues as deep palmar arch. Ac ad
+## explanation_d
+The arches reversed. The radial artery ends as the deep arch; the ulnar ends as the superficial.
+## correct_answer
+A
+## main_concept
+CON-MSK-BC95DAE3531583
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but radialis indicis is a branch of the radial artery in the palm, not of the ulnar. The ulnar artery does give a deep palmar branch to complete the deep arch, so A is the correct statement.
+
+
+---
+
+# Item
+## id
+QM-101-07139E44A9AE
+## title
+Saddle-shaped (biaxial) carpometacarpal, is joint of which finger:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Saddle-shaped (biaxial) carpometacarpal, is joint of which finger:
+## answer_a
+Thumb
+## explanation_a
+Correct. The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.
+## answer_b
+Index
+## explanation_b
+The carpometacarpal joints of the medial four fingers are plane joints with very little movement, which is what makes the palm a stable platform.
+## answer_c
+Middle
+## explanation_c
+The third carpometacarpal joint is the least mobile of all, since the capitate and the third metacarpal form the fixed axis of the hand.
+## answer_d
+Ring
+## explanation_d
+The fourth and fifth carpometacarpal joints allow a little flexion for cupping the palm, but they are plane joints and uniaxial at best.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the one carpometacarpal joint in the hand that is a saddle joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p29 q64. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `saddle-shaped-biaxial-carpometacarpal-is-the-joint-of-which-e8c6a60f` is keyed A. Only the thumb has a saddle carpometacarpal joint, between the trapezium and the first metacarpal; the other four are plane joints.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A0414192D5F1
+## title
+Saddle-shaped (biaxial) carpometacarpal, is the joint of which finger:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Saddle-shaped (biaxial) carpometacarpal, is the joint of which finger:
+## answer_a
+Thumb
+## explanation_a
+Correct, and the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.
+## answer_b
+Index
+## explanation_b
+A plane joint, like the carpometacarpal joints of all the medial four fingers.
+## answer_c
+Middle
+## explanation_c
+The most fixed of the carpometacarpal joints; the capitate and third metacarpal form the axis the hand is built around.
+## answer_d
+Ring
+## explanation_d
+A plane joint with a little mobility for cupping the palm, but not a saddle and not biaxial.
+## correct_answer
+A
+## main_concept
+CON-MSK-4D7492BC85C03D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the one carpometacarpal joint in the hand that is a saddle joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p19 q107. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B26BC84CB662
+## title
+The deep branch of the ulnar does NOT innervate which of the following? (2021) em em em…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The deep branch of the ulnar does NOT innervate which of the following? (2021) em em em em em
+## answer_a
+Abductor digiti minimi
+## explanation_a
+A hypothenar muscle, so it is supplied by the deep branch and is not the exception.
+## answer_b
+Flexer digiti minimi brevis
+## explanation_b
+Also hypothenar, and also deep branch — not the exception.
+## answer_c
+Lumbricals 1 and 2
+## explanation_c
+The exception, and the answer. The first and second lumbricals accompany the median nerve's digital branches to the index and middle fingers and take their supply from it.
+## answer_d
+Dorsal interossei 3 and 4
+## explanation_d
+All four dorsal interossei are supplied by the deep branch of the ulnar nerve, so these two are not the exception.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Identify the two lumbricals that are median rather than ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q80. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve supplies the hypothenar muscles, all the interossei, adductor pollicis and the medial two lumbricals; the first and second lumbricals are median, so C is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-C80CAC3396D1
+## title
+The deep branch of the ulnar does NOT innervate which of the following? (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The deep branch of the ulnar does NOT innervate which of the following? (IPKA)
+## answer_a
+Abductor digiti minimi.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Abductor digiti minimi is hypothenar and is supplied by the deep branch of the ulnar nerve, so it cannot be the exception.
+## answer_b
+Flexor digiti minimi brevis.
+## explanation_b
+Flexor digiti minimi brevis is hypothenar too, and also deep branch.
+## answer_c
+Lumbricals 1 and 2.
+## explanation_c
+The exception, and the answer. Lumbricals one and two travel with the median nerve's digital branches and are median; three and four are ulnar.
+## answer_d
+Dorsal interossei 3 and 4.
+## explanation_d
+Every dorsal interosseous is supplied by the deep branch.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Identify the two lumbricals that are median rather than ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, abductor digiti minimi, which is a hypothenar muscle and squarely within the deep branch's territory. The exception is C: the first and second lumbricals are supplied by the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-1B5042FF67A8
+## title
+The lumbrical muscles, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The lumbrical muscles, choose the correct answer: (DEP BOOK)
+## answer_a
+Arise from the tendons of ﬂexor digitorum superﬁcialis
+## explanation_a
+The lumbricals arise from the tendons of flexor digitorum profundus, the deeper flexor, not superficialis.
+## answer_b
+Are Inserted Into the radial side of extensor expansion
+## explanation_b
+Correct, and the key. Each lumbrical reaches the radial side of the extensor expansion of its own finger.
+## answer_c
+Are innervated by ulnar and radial nerves. y
+## explanation_c
+The radial nerve supplies no muscle in the hand. The lumbricals are shared between the median and the ulnar.
+## answer_d
+In association with the interossei, extend the digits at the metacarpophalangeal joints
+## explanation_d
+The wrong direction at the metacarpophalangeal joints, which the lumbricals and interossei flex while extending the interphalangeal joints.
+## correct_answer
+B
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, insertion, nerve supply and action of the lumbricals.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C01A4E8BC15D
+## title
+The median nerve innervates the following muscle: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve innervates the following muscle: (2019)
+## answer_a
+Extensor carpi ulnaris
+## explanation_a
+Extensor carpi ulnaris is an extensor of the forearm and therefore radial, twice over: every extensor is radial and this one lies in the sixth compartment under the extensor retinaculum.
+## answer_b
+Hypothenar muscles
+## explanation_b
+The hypothenar muscles take the deep branch of the ulnar nerve.
+## answer_c
+Lateral two lumbricals
+## explanation_c
+Correct. The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.
+## answer_d
+Adductor pollicis
+## explanation_d
+Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, despite acting on the thumb.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p80 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `the-median-nerve-innervates-the-following-muscle-2019-ac-0d7e3e6e` is keyed C. The lateral two lumbricals are the median nerve's only muscles in the hand apart from the thenar three.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2ED2097CD332
+## title
+The median nerve innervates the following muscle: (2019) Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median nerve innervates the following muscle: (2019) Ac
+## answer_a
+Extensor carpi ulnaris.
+## explanation_a
+An extensor of the forearm, and every extensor is radial.
+## answer_b
+Hypothenar muscles.
+## explanation_b
+The hypothenar muscles are ulnar, through the deep branch.
+## answer_c
+Lateral two lumbricals.
+## explanation_c
+Correct, and the key. Lumbricals one and two are median; three and four are ulnar.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Adductor pollicis is ulnar, which is the fact behind Froment's sign.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-281E3932CED4
+## title
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024) Vi P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024) Vi P
+## answer_a
+Abductor pollicis brevis
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Abductor pollicis brevis is one of the three thenar muscles and is median; abductor and adductor pollicis differ by a nerve as well as by a syllable.
+## answer_b
+Flexor pollicis brevis
+## explanation_b
+Flexor pollicis brevis is also thenar and median — although its deep head is sometimes supplied by the ulnar nerve, which is the variant that makes this the most defensible of the wrong options.
+## answer_c
+lateral two lumbricals
+## explanation_c
+The lateral two lumbricals are median; the medial two are the ulnar ones.
+## answer_d
+All interossei. P
+## explanation_d
+Correct. Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+List the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, abductor pollicis brevis, which is a thenar muscle supplied by the recurrent branch of the median nerve. All seven interossei take the deep branch of the ulnar, so D is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-CD4898E70FC6
+## title
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024)
+## answer_a
+Abductor pollicis brevis.
+## explanation_a
+Abductor pollicis brevis is thenar and median.
+## answer_b
+Flexor pollicis brevis.
+## explanation_b
+Flexor pollicis brevis is thenar and median, its deep head occasionally ulnar as a variant.
+## answer_c
+Lateral two lumbricals.
+## explanation_c
+The lateral two lumbricals are median; three and four are ulnar.
+## answer_d
+All interossei.
+## explanation_d
+Correct. All the interossei, dorsal and palmar, are deep branch of the ulnar.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+List the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p64 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The three thenar muscles and the lateral two lumbricals are median; everything else in the hand, including all seven interossei, is the deep branch of the ulnar nerve, so D is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-7B5E479DE144
+## title
+The opponens pollicis; choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The opponens pollicis; choose the correct answer: (DEP BOOK)
+## answer_a
+Arises from ﬂexor retinaculum and capitate bone
+## explanation_a
+The wrong carpal bone: the origin is the flexor retinaculum and the tubercle of the trapezium, not the capitate.
+## answer_b
+Lies superﬁcial to abductor pollicis brevis
+## explanation_b
+Inverted. Opponens pollicis lies deep to abductor pollicis brevis and has to be uncovered to be seen.
+## answer_c
+Is innervated by of twig from ulnar nerve
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. Opponens pollicis is a median muscle; an ulnar supply to it is a recorded variant, not the description a student is being examined on.
+## answer_d
+Is inserted into the lateral aspect of the ﬁrst metacarpal bone
+## explanation_d
+Correct. It inserts into the lateral border and anterior surface of the first metacarpal along its whole length — a muscle that moves a metacarpal rather than a phalanx, which is what opposition requires.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin, depth, insertion and nerve of opponens pollicis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, an ulnar supply to opponens pollicis. That occurs as an anatomical variant but is not the rule: the three thenar muscles are supplied by the recurrent branch of the median nerve. D is true without qualification and is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-0C50F4B57295
+## title
+The palmar thenar space contains, mark the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmar thenar space contains, mark the correct answer:
+## answer_a
+Flexor pollicis longus tendon. 1
+## explanation_a
+Correct. The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.
+## answer_b
+Flexor tendons of the middle 3 fingers
+## explanation_b
+The flexor tendons of the middle three fingers are on the other side of the intermediate septum, in the midpalmar space.
+## answer_c
+The 2"4 [umbrical muscle
+## explanation_c
+The second lumbrical is midpalmar. The thenar space holds the first alone.
+## answer_d
+Deep palmar arch
+## explanation_d
+The deep palmar arch lies behind the posterior wall of both spaces, on the interossei and the bases of the metacarpals.
+## correct_answer
+A
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons and muscles contained in the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q47. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `the-palmar-thenar-space-contains-mark-the-correct-answer-dep-6872c651` marks A. The thenar space lies lateral to the intermediate septum and holds the tendon of flexor pollicis longus with the index tendons and the first lumbrical.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-65E8C2B33519
+## title
+The palmar thenar space contains, mark the correct answer: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmar thenar space contains, mark the correct answer: (DEP BOOK) em em em em em
+## answer_a
+Flexor pollicis longus tendon
+## explanation_a
+Correct, and the key. Flexor pollicis longus passes to the thumb within the thenar space.
+## answer_b
+Flexor tendons of the middle 3 ﬁngers
+## explanation_b
+Those tendons lie in the midpalmar space, medial to the intermediate septum.
+## answer_c
+The 2nd lumbrical muscle
+## explanation_c
+The second lumbrical goes with them into the midpalmar space; the thenar space holds the first.
+## answer_d
+Deep palmar arch
+## explanation_d
+The deep palmar arch is behind both spaces, against the metacarpal bases.
+## correct_answer
+A
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tendons and muscles contained in the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-61AAC5CE31B1
+## title
+The palmar thenar space contains, mark the wrong answer:(2022) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmar thenar space contains, mark the wrong answer:(2022) Ac ad Ac ad ad ad
+## answer_a
+Flexer pollicis longus tendon.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; the department's own other version of this question keys it as the correct answer.
+## answer_b
+Flexor tendons of the index.
+## explanation_b
+A content, so not the wrong statement. The index flexor tendons lie in the thenar space, lateral to the intermediate septum.
+## answer_c
+The 1st lumbrical muscle.
+## explanation_c
+A content, so not the wrong statement. The first lumbrical accompanies the index tendon into the thenar space.
+## answer_d
+Flexer carpi radialis tendon.
+## explanation_d
+The wrong statement, and the answer. Flexor carpi radialis never enters the palmar spaces at all: it runs through a separate tunnel in the lateral attachment of the flexor retinaculum, grooving the trapezium, and inserts into the base of the second metacarpal.
+## correct_answer
+D
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the tendon that runs in its own compartment of the flexor retinaculum rather than in the thenar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q28. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but flexor pollicis longus is a content of the thenar space, as the keyed "mark the correct answer" version of this item states. The wrong statement is D: flexor carpi radialis runs in its own compartment in the groove on the trapezium, separate from the carpal tunnel and from the palmar spaces, and ends on the base of the second metacarpal.
+
+
+---
+
+# Item
+## id
+QM-101-77E8FFF8F66F
+## title
+The radial artery gives the following branch in the hand: (DEP BOOK) Ac P a- Principes …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial artery gives the following branch in the hand: (DEP BOOK) Ac P a- Principes pollicis. P Vi b- Superﬁcial palmar artery. y
+## answer_a
+Principes pollicis.
+## explanation_a
+Correct. Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.
+## answer_b
+Superﬁcial palmar artery.
+## explanation_b
+Given at the wrist, before the artery turns into the snuff box.
+## answer_c
+Second dorsal metacarpal artery.
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. The second, third and fourth dorsal metacarpal arteries all come from the dorsal carpal arch; only the first is the radial artery's own.
+## answer_d
+Posterior carpal artery.
+## explanation_d
+The posterior carpal artery is a wrist branch and one of the vessels that forms that arch.
+## correct_answer
+A
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the radial artery's branches in the hand from those it gives at the wrist.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, the second dorsal metacarpal artery, which arises from the dorsal carpal arch rather than from the radial artery itself; only the first dorsal metacarpal is a direct radial branch. Arteria princeps pollicis is a radial branch given in the palm, and the books' own "except" version of this question confirms it as one, so the answer is A.
+
+
+---
+
+# Item
+## id
+QM-101-202C37F8CE99
+## title
+The space of Parana, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The space of Parana, choose the correct answer:
+## answer_a
+Bounded posteriorly by the pronator quadratus muscle
+## explanation_a
+Correct. Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.
+## answer_b
+Continuous distally with the thenar space
+## explanation_b
+The wrong palmar space. Parona's space runs under the flexor retinaculum into the midpalmar space, which is why a midpalmar abscess can track up into the forearm.
+## answer_c
+Continuous distally with the pulp space
+## explanation_c
+The pulp space is a closed compartment in the fingertip, separated from everything proximal by the fibrous septa that anchor the skin to the distal phalanx.
+## answer_d
+Transmits sepsis to hand
+## explanation_d
+The direction of spread is the other way. Sepsis reaches Parona's space from the hand through the carpal tunnel; the space is where it collects, not what sends it.
+## correct_answer
+A
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries of the space of Parona and say which palmar space it communicates with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p35 q200. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The space of Parona lies in the lower forearm between the long flexor tendons in front and pronator quadratus behind, so A is true; distally it communicates with the midpalmar space, not the thenar space or the pulp space.
+
+
+---
+
+# Item
+## id
+QM-101-0089E8FD235F
+## title
+The space of Parona, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The space of Parona, choose the correct answer:
+## answer_a
+Bounded posteriorly by the pronator quadratus muscle. 1
+## explanation_a
+Correct. The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.
+## answer_b
+Continuous distally with the thenar space
+## explanation_b
+The midpalmar space, not the thenar. The communication is through the carpal tunnel under the flexor retinaculum.
+## answer_c
+Contains the end of the fibrous flexor sheath
+## explanation_c
+The fibrous flexor sheaths belong to the fingers, holding the long tendons against the phalanges. Nothing of them reaches the forearm.
+## answer_d
+Transmits sepsis to hand
+## explanation_d
+Sepsis travels into this space from the hand rather than out of it, which is why a neglected midpalmar infection is felt above the wrist.
+## correct_answer
+A
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries of the space of Parona and say which palmar space it communicates with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p21 q53. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pronator quadratus forms the posterior boundary of the space of Parona, which is true as printed; the space communicates distally with the midpalmar space rather than the thenar, contains no part of the fibrous flexor sheaths, and receives sepsis from the hand rather than sending it there.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3701D1BC1A02
+## title
+The thenar eminence consists of, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The thenar eminence consists of, choose the correct answer: (DEP BOOK)
+## answer_a
+Abductor pollicis brevis and adductor pollicis
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. One of the two is thenar and one is not, and the one that is not is the ulnar-supplied adductor pollicis.
+## answer_b
+Flexor pollicis longus. P
+## explanation_b
+A forearm muscle whose tendon only passes through the hand.
+## answer_c
+Abductor pollicis brevis, oppose pollicis, ﬂexor pollicis brevis
+## explanation_c
+Correct. Abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, all supplied by the recurrent branch of the median nerve.
+## answer_d
+Flexor pollicis longus, abductor pollicis longus. y ad
+## explanation_d
+Both are long muscles of the forearm; abductor pollicis longus does not even reach the palm.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the three muscles of the thenar eminence and exclude adductor pollicis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which pairs abductor pollicis brevis with adductor pollicis. Adductor pollicis is not a thenar muscle: it lies deep in the adductor compartment and is supplied by the deep branch of the ulnar nerve. The eminence is the three muscles named in C.
+
+
+---
+
+# Item
+## id
+QM-101-291774FF77BB
+## title
+The thenar eminence consists of, choose the correct
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The thenar eminence consists of, choose the correct
+## answer_a
+Abductor pollicis brevis and adductor pollicis
+## explanation_a
+Adductor pollicis is not part of the eminence — it is deep, in the adductor compartment, and supplied by the ulnar nerve.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus arises in the forearm and only sends a tendon through the hand.
+## answer_c
+Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
+## explanation_c
+Correct. Three short muscles, all median through the recurrent branch.
+## answer_d
+Flexor pollicis longus, abductor pollicis longus
+## explanation_d
+Both are forearm muscles, and abductor pollicis longus reaches only as far as the base of the first metacarpal on the back of the wrist.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Upper Limb
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the three muscles of the thenar eminence and exclude adductor pollicis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p22 q122. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The thenar eminence is abductor pollicis brevis, opponens pollicis and flexor pollicis brevis; adductor pollicis is ulnar and deep, and the long thumb muscles are in the forearm.
+
+
+---
+
+# Item
+## id
+QM-101-BF53D0E06E1C
+## title
+What is the innervation of the lumbrical muscles? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the innervation of the lumbrical muscles? (2024)
+## answer_a
+All ulnar n.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. All-ulnar is true of the interossei, not the lumbricals, and it is that neighbouring rule that makes the error easy.
+## answer_b
+All radial n.
+## explanation_b
+The radial nerve supplies no muscle in the hand at all; it stops at the wrist with the extensors.
+## answer_c
+All median n.
+## explanation_c
+All-median is true of the thenar eminence, not of the lumbricals.
+## answer_d
+Half median & half ulnar nerves.
+## explanation_d
+Correct. Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.
+## correct_answer
+D
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+State that the lumbricals are divided between the median and ulnar nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, all ulnar. The lumbricals are the one muscle group in the hand split between two nerves: the lateral two are median and the medial two ulnar, so D is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-630B4D57B1B9
+## title
+What is the innervation of the lumbrical muscles? (2024) y ad Ac a- All ulnar n
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the innervation of the lumbrical muscles? (2024) y ad Ac a- All ulnar n
+## answer_a
+All ulnar n.
+## explanation_a
+True of the interossei, not the lumbricals. It is also the key printed on the other copy of this question, which is why the item needs a faculty eye as well as an override.
+## answer_b
+All radial n.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The radial nerve ends at the wrist and its terminal branches are cutaneous; it supplies no intrinsic muscle of the hand.
+## answer_c
+All median n.
+## explanation_c
+All-median describes the thenar eminence.
+## answer_d
+Half median & half ulnar nerves.
+## explanation_d
+Correct. Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.
+## correct_answer
+D
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+State that the lumbricals are divided between the median and ulnar nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q29. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, all radial, which is impossible: the radial nerve supplies no muscle in the hand. The lumbricals are half median and half ulnar, so D is the answer — and the other copy of this question is keyed "all ulnar", so the two printed keys contradict each other as well as the anatomy.
+
+
+---
+
+# Item
+## id
+QM-101-26F6BEA85B32
+## title
+When the deep branch of the ulnar nerve has been destroyed by compression, the patient …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with: (2024) P Ac ad y y
+## answer_a
+Paralysis of abductor pollicis brevis.
+## explanation_a
+Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.
+## answer_b
+An ape-like deformity of the hand.
+## explanation_b
+Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.
+## answer_c
+Paralysis of adductor pollicis.
+## explanation_c
+Correct, and the key. Adductor pollicis is the deep branch's largest muscle, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
+## answer_d
+Loss of sensation over palmar surface of little ﬁnger.
+## explanation_d
+The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the motor loss of a deep branch lesion and explain why sensation is spared.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6A32C9B62B58
+## title
+Which of the following IS NOT true about the ﬂexor carpi ulnaris (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following IS NOT true about the ﬂexor carpi ulnaris (IPKA)
+## answer_a
+Acts as a synergist during wrist extension.
+## explanation_a
+The false statement, and the key. Flexor carpi ulnaris is a flexor of the wrist, so during wrist extension it is the antagonist, not a synergist; it acts as a synergist with extensor carpi ulnaris in ulnar deviation, which is the true version of the claim the option distorts.
+## answer_b
+Inserts into base of ﬁfth metacarpal.
+## explanation_b
+True, so not the answer. Its tendon reaches the base of the fifth metacarpal through the pisohamate and pisometacarpal ligaments, with the pisiform as a sesamoid in its course.
+## answer_c
+Most medial muscles arising from the common ﬂexor origin.
+## explanation_c
+True, so not the answer. It is the most medial of the muscles arising from the common flexor origin on the medial epicondyle.
+## answer_d
+Ulnar nerve passes between Its two heads.
+## explanation_d
+True, so not the answer. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of this muscle, which is exactly why a medial epicondylar fracture threatens it.
+## correct_answer
+A
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the origin, insertion and nerve relation of flexor carpi ulnaris and identify the false statement about its action.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8DB5BB2A91DA
+## title
+Which of the following muscles may be paralyzed as a result of fracture of the medial e…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles may be paralyzed as a result of fracture of the medial epicondyle of the humerus? (DEP BOOK)
+## answer_a
+First lumbrical.
+## explanation_a
+The first lumbrical is median. It is the one lumbrical a student is most likely to place on the ulnar nerve, because the other three fingers' lumbricals are split two-and-two.
+## answer_b
+Extensor digiti minimi.
+## explanation_b
+Extensor digiti minimi is radial, in the fifth compartment under the extensor retinaculum — on the back of the limb, where the medial epicondyle cannot reach it.
+## answer_c
+Adductor pollicis.
+## explanation_c
+Correct. Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis is median. Its name puts it on the radial side, but its nerve is the median, and neither is threatened at the medial epicondyle.
+## correct_answer
+C
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+Hand
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Reason from a fracture of the medial epicondyle to the nerve behind it and thence to a muscle in the hand.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q54. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, so a fracture there paralyses ulnar-supplied muscles; of the four offered only adductor pollicis is ulnar.
+
+
+---
+
+# Item
+## id
 QM-101-CBBE021ADCBF
 ## title
 The radial collateral ligament, choose the correct answer:
@@ -48243,6 +58001,3077 @@ Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 10
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-607AF78B4FD8
+## title
+Lateral rotation at the shoulder; is done by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lateral rotation at the shoulder; is done by:
+## answer_a
+Deltoid
+## explanation_a
+Correct, through its posterior fibres, which extend and laterally rotate the arm. Deltoid is the only muscle on this list that rotates the humerus laterally at all.
+## answer_b
+Subscapularis
+## explanation_b
+The exact opposite. Subscapularis is the anterior cuff muscle and the principal medial rotator; it is on the list because it is a rotator, but of the other kind.
+## answer_c
+Serratus anterior
+## explanation_c
+Serratus anterior acts on the scapula — protraction and upward rotation — and never touches the humerus.
+## answer_d
+Supraspinatus
+## explanation_d
+Supraspinatus is the one rotator cuff muscle that does not rotate. It initiates abduction and does nothing else.
+## correct_answer
+A
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the lateral rotator of the shoulder from a list of a medial rotator, a scapular muscle and an abductor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p24 q34; Upper MCQ Dr.jalal (1).pdf p35 q34; Anatomy Question [Upper Limb] (1).pdf p18 q101; Anatomy MCQ Book [2025] [first priority].pdf p36 q101. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-07B539E1E638
+## title
+Regarding the deltoid muscle, mark one correct statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the deltoid muscle, mark one correct statement:
+## answer_a
+Its middle fibers adduct the arm
+## explanation_a
+The middle fibres abduct. Adduction is pectoralis major, latissimus dorsi and teres major, none of which is part of deltoid.
+## answer_b
+Its posterior fibers flex and medially rotate the arm
+## explanation_b
+The anterior fibres flex and medially rotate; the posterior fibres do the opposite, extending and laterally rotating. This option gives the posterior fibres the anterior fibres' actions.
+## answer_c
+Its motor nerve arises from lateral cord of brachial plexus
+## explanation_c
+The axillary nerve comes from the posterior cord, not the lateral. The lateral cord gives the musculocutaneous nerve and the lateral pectoral nerve.
+## answer_d
+Its paralysis results in a flat shoulder
+## explanation_d
+Correct. Deltoid gives the shoulder its rounded contour, so when it wastes the acromion stands out and the shoulder looks flat — the sign of an axillary nerve lesion.
+## correct_answer
+D
+## main_concept
+CON-MSK-82C4250560D1A1
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the actions of each set of deltoid fibres, its cord of origin and the deformity of its paralysis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p4 q18; Upper MCQ Dr.jalal (1).pdf p4 q18; Anatomy Question [Upper Limb] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p20 q7. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-714785CBAD80
+## title
+The deltoid muscle, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The deltoid muscle, choose the correct answer:
+## answer_a
+Arises from clavicle, acromion and coracoid process
+## explanation_a
+Two of the three are right, which is what makes it dangerous. The third origin is the crest of the spine of the scapula, not the coracoid process — the coracoid gives pectoralis minor, coracobrachialis and the short head of biceps.
+## answer_b
+Is inserted into deltoid tuberosity
+## explanation_b
+Correct. All three sets of fibres converge on the deltoid tuberosity, on the lateral surface of the middle of the humeral shaft.
+## answer_c
+Is innervated by radial nerve
+## explanation_c
+The axillary nerve, not the radial. Both are branches of the posterior cord, which is why the swap is common; the radial nerve supplies the extensor compartments, and deltoid is not one of them.
+## answer_d
+Its middle fibers induce lateral rotation of scapula
+## explanation_d
+The middle fibres abduct the arm at the shoulder joint. Rotation of the scapula is trapezius and serratus anterior, acting on a different bone.
+## correct_answer
+B
+## main_concept
+CON-MSK-82C4250560D1A1
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, insertion, nerve supply and fibre actions of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p4 q19; Upper MCQ Dr.jalal (1).pdf p4 q19; Anatomy Question [Upper Limb] (1).pdf p30 q174; Anatomy MCQ Book [2025] [first priority].pdf p50 q174. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Deltoid is inserted into the deltoid tuberosity, so B is true; A substitutes the coracoid process for the spine of the scapula, C gives it the wrong nerve and D gives its middle fibres an action on the scapula that belongs to trapezius and serratus anterior.
+
+
+---
+
+# Item
+## id
+QM-101-E3C2E38A75D8
+## title
+The following muscles abducts the arm from 0-15°:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscles abducts the arm from 0-15°:
+## answer_a
+Upper and lower fibers of trapezius muscle
+## explanation_a
+Trapezius rotates the scapula and carries abduction past ninety degrees. It is the answer to the last stage of the movement, not the first.
+## answer_b
+Supraspinatus muscle
+## explanation_b
+Correct. Supraspinatus takes the arm through the first fifteen degrees, at which point deltoid's line of pull becomes effective.
+## answer_c
+Infraspinatus muscle
+## explanation_c
+Infraspinatus is a lateral rotator. It sits directly below supraspinatus on the scapula and directly below it in most option lists, which is exactly why it is here.
+## answer_d
+Deltoid muscle
+## explanation_d
+Deltoid takes over at fifteen degrees and carries the arm to ninety; it cannot start the movement, because at zero degrees its pull runs almost straight up the shaft of the humerus.
+## correct_answer
+B
+## main_concept
+CON-MSK-352E28DEA38DF7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the muscle that initiates abduction and give the range it covers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q12; Upper MCQ Dr.jalal (1).pdf p3 q12; Anatomy Question [Upper Limb] (1).pdf p2 q8; Anatomy MCQ Book [2025] [first priority].pdf p20 q8. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-423D1AAE8A49
+## title
+The glenohumeral ligaments, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The glenohumeral ligaments, choose the correct answer:
+## answer_a
+Strong ligaments of shoulder joint
+## explanation_a
+The book calls all three weak, and their weakness is the point: it is why the shoulder is the most commonly dislocated joint in the body.
+## answer_b
+Three in number
+## explanation_b
+Correct. Three gleno-humeral ligaments — superior, middle and inferior — thicken the front of the capsule.
+## answer_c
+All are attached to the whole margin of glenoid cavity
+## explanation_c
+They arise from the anterior margin of the glenoid cavity only, and run to the lesser tuberosity and the anatomical neck. A ligament attached round the whole margin would be a labrum, not a ligament.
+## answer_d
+Guard against posterior dislocation of the humeral head
+## explanation_d
+They lie in front, so what little they resist is anterior displacement. Nothing supports the capsule below, which is where the head actually escapes.
+## correct_answer
+B
+## main_concept
+CON-MSK-EA4C451C8749B9
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the number, strength and attachments of the gleno-humeral ligaments.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p23 q28; Upper MCQ Dr.jalal (1).pdf p34 q28; Anatomy Question [Upper Limb] (1).pdf p28 q161; Anatomy MCQ Book [2025] [first priority].pdf p48 q161. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. There are three gleno-humeral ligaments, so B is true; the department book calls them weak, attaches them to the anterior margin of the glenoid only, and the dislocation they fail to prevent is anterior and inferior, not posterior.
+
+
+---
+
+# Item
+## id
+QM-101-1182D9A273CA
+## title
+Which one of the following muscles that can extend the arm?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following muscles that can extend the arm?
+## answer_a
+Infraspinatus
+## explanation_a
+Infraspinatus is a lateral rotator of the humerus. It lies on the back of the scapula, which makes it look like an extensor, but its fibres run almost horizontally.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Correct. Latissimus dorsi is the principal extensor of the arm, and also adducts and medially rotates it.
+## answer_c
+Clavicular fibers of pectoralis major
+## explanation_c
+The clavicular fibres of pectoralis major flex the arm — the opposite movement. The sternocostal fibres are the ones that assist extension from the flexed position.
+## answer_d
+Anterior fibers of deltoid
+## explanation_d
+The anterior fibres of deltoid flex; it is the posterior fibres that extend, and the option names the wrong set.
+## correct_answer
+B
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the principal extensor of the arm at the shoulder joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q14; Upper MCQ Dr.jalal (1).pdf p4 q14; Anatomy Question [Upper Limb] (1).pdf p17 q98; Anatomy MCQ Book [2025] [first priority].pdf p35 q98. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B17A7CF5D954
+## title
+One of the following muscle is a rotator cuff muscle:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following muscle is a rotator cuff muscle:
+## answer_a
+Infraspinatus
+## explanation_a
+Correct. Infraspinatus is one of the four — subscapularis, supraspinatus, infraspinatus and teres minor — whose tendons blend with the capsule.
+## answer_b
+Pectoralis major
+## explanation_b
+Pectoralis major reaches the lateral lip of the intertubercular groove, in front of the joint but nowhere near the capsule it would have to blend with.
+## answer_c
+Serratus anterior
+## explanation_c
+Serratus anterior joins the scapula to the ribs and never crosses the shoulder joint at all.
+## answer_d
+Teres major
+## explanation_d
+The single commonest wrong answer here. Teres major sits immediately below teres minor on the lateral border of the scapula and differs by one word, but it goes to the medial lip of the groove and does not blend with the capsule.
+## correct_answer
+A
+## main_concept
+CON-MSK-E68EAACB7596AF
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise a rotator cuff muscle and reject the muscles that lie near the cuff without belonging to it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q16; Anatomy Question [Upper Limb] (1).pdf p12 q69; Anatomy MCQ Book [2025] [first priority].pdf p30 q69. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3C02F6C1ED1F
+## title
+Pronation and supination of the forearm occurs at:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronation and supination of the forearm occurs at:
+## answer_a
+Elbow joint
+## explanation_a
+The elbow is a uniaxial hinge and does flexion and extension only. It shares a capsule with the superior radio-ulnar joint, which is what makes this tempting.
+## answer_b
+Superior and inferior radio-ulnar joints
+## explanation_b
+Correct. Rotation of the radius on the ulna happens at the superior and inferior radio-ulnar joints, both pivot joints, working together.
+## answer_c
+Shoulder joint
+## explanation_c
+The shoulder rotates the whole limb medially and laterally, which looks like pronation when the elbow is extended but happens at a different joint entirely.
+## answer_d
+Radio-carpal joint
+## explanation_d
+The radio-carpal joint is ellipsoid and gives flexion, extension, abduction and adduction. The hand appears to turn over with the forearm only because it follows the radius.
+## correct_answer
+B
+## main_concept
+CON-MSK-B88F413E4536F9
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the joints at which pronation and supination occur.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p26 q48; Anatomy Question [Upper Limb] (1).pdf p2 q10; Anatomy MCQ Book [2025] [first priority].pdf p20 q10. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A4D2579077A1
+## title
+The axillary nerve innervates; select the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axillary nerve innervates; select the correct answer:
+## answer_a
+Deltoid and suprasinatus
+## explanation_a
+Supraspinatus belongs to the suprascapular nerve, from the upper trunk. Pairing it with deltoid mixes the two nerves that cross the top of the shoulder.
+## answer_b
+Deltoid and teres minor
+## explanation_b
+Correct. The axillary nerve supplies deltoid and teres minor, and nothing else.
+## answer_c
+Teres minor and teres major
+## explanation_c
+Teres major is supplied by the lower subscapular nerve, another posterior cord branch, and this option keeps only teres minor from the true pair.
+## answer_d
+Deltoid and teres major
+## explanation_d
+The same swap in the other direction: deltoid is right and teres major wrong.
+## correct_answer
+B
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the two muscles supplied by the axillary nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p7 q40; Upper MCQ Dr.jalal (1).pdf p8 q40; Anatomy Question [Upper Limb] (1).pdf p19 q106. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C73D8D4A163B
+## title
+Transverse humeral ligament:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Transverse humeral ligament:
+## answer_a
+Extends between lesser tuberosities and anatomical neck
+## explanation_a
+It runs from the lesser tuberosity to the greater tuberosity — from one tuberosity to the other, not from the tuberosity to the anatomical neck.
+## answer_b
+Fixes the long head of triceps inside the bicipital groove
+## explanation_b
+The wrong muscle by one word. What runs in the intertubercular groove is the tendon of the long head of *biceps*; the long head of triceps arises from the infraglenoid tubercle and goes the other way.
+## answer_c
+Help in stability of shoulder joint
+## explanation_c
+A retinaculum, not a stabiliser. It holds a tendon in its groove; the stability of the shoulder comes from the rotator cuff and the coraco-acromial arch.
+## answer_d
+Converts the bicipital groove into a tunnel
+## explanation_d
+Correct. Roofing the groove converts it into a canal through which the biceps tendon runs, and that is the ligament's whole purpose.
+## correct_answer
+D
+## main_concept
+CON-MSK-EA4C451C8749B9
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachments and the function of the transverse humeral ligament.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p23 q29; Anatomy Question [Upper Limb] (1).pdf p28 q162; Anatomy MCQ Book [2025] [first priority].pdf p48 q162. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The transverse humeral ligament bridges the two tuberosities and roofs the intertubercular groove, so D is true; A names the wrong second attachment, B names the wrong tendon and C credits it with a stabilising role it does not have.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7B94E41E6E31
+## title
+Which muscles are innervated by the axillary nerve?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which muscles are innervated by the axillary nerve?
+## answer_a
+Supraspinatus and infraspinatus muscles
+## explanation_a
+Supraspinatus and infraspinatus are the suprascapular nerve's two muscles — a genuine pair, but a different nerve's.
+## answer_b
+Deltoid and teres minor muscles
+## explanation_b
+Correct. Deltoid and teres minor are the axillary nerve's two muscles.
+## answer_c
+Pectoralis major and pectoralis minor muscles
+## explanation_c
+The pectoral muscles are supplied by the lateral and medial pectoral nerves, from the cords in front of the axillary artery.
+## answer_d
+Latissimus dorsi and teres major muscles
+## explanation_d
+Latissimus dorsi takes the thoracodorsal nerve and teres major the lower subscapular. Both are posterior cord branches, like the axillary, which is what makes them plausible.
+## correct_answer
+B
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the two muscles supplied by the axillary nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p7 q39; Anatomy Question [Upper Limb] (1).pdf p10 q53; Anatomy MCQ Book [2025] [first priority].pdf p28 q53. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C2D0DEE6B661
+## title
+An example of bipennate muscle is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of bipennate muscle is:
+## answer_a
+Rectus abdominis
+## explanation_a
+Rectus abdominis is a strap muscle, interrupted by tendinous intersections. Its fibres run the length of the muscle, not obliquely onto a tendon.
+## answer_b
+Rectus femoris
+## explanation_b
+Correct. Rectus femoris has a central tendon with fibres running into it from both sides, which is what bipennate means.
+## answer_c
+Sartorius
+## explanation_c
+Sartorius is the standard strap-like muscle — the longest in the body and entirely parallel-fibred.
+## answer_d
+Deltoid
+## explanation_d
+Deltoid is multipennate: several tendinous septa, not one. It is the next class up.
+## correct_answer
+B
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Basis
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the book's example of a bipennate muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q42; Anatomy MCQ Book [2025] [first priority].pdf p8 q42. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8509E740D975
+## title
+An example of multipennate muscle is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of multipennate muscle is:
+## answer_a
+Deltoid
+## explanation_a
+Correct. Deltoid has several tendinous septa with fibres passing obliquely to each, which packs the greatest number of fibres into the muscle and makes it powerful.
+## answer_b
+Tibialis anterior
+## explanation_b
+Tibialis anterior is unipennate — one tendon with fibres on a single side.
+## answer_c
+Rectus anterior
+## explanation_c
+There is no muscle called rectus anterior in this scheme; the name is built from rectus femoris and rectus abdominis, which are bipennate and strap-like.
+## answer_d
+Supinator
+## explanation_d
+Supinator wraps round the upper radius and is not classified by pennation at all.
+## correct_answer
+A
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Basis
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the book's example of a multipennate muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q41; Anatomy MCQ Book [2025] [first priority].pdf p8 q41. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BB1A51AC8E27
+## title
+An example of strap-like muscle is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of strap-like muscle is:
+## answer_a
+Rectus abdominis
+## explanation_a
+Rectus abdominis is a strap muscle too, but the book's example of a *plain* strap muscle is sartorius; rectus abdominis is the one with tendinous intersections, and that is the distinction the pair of questions is testing.
+## answer_b
+Sartorius
+## explanation_b
+Correct. Sartorius runs uninterrupted from the anterior superior iliac spine to the tibia, its fibres parallel throughout.
+## answer_c
+Deltoid
+## explanation_c
+Deltoid is multipennate, the opposite extreme — built for power rather than range.
+## answer_d
+Supinator
+## explanation_d
+Supinator is a short, flat muscle wrapped round the radius and is not the book's example of anything here.
+## correct_answer
+B
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Basis
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the book's example of a strap-like muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q39; Anatomy MCQ Book [2025] [first priority].pdf p8 q39. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-21134E9BA9A3
+## title
+An example of strap-like muscle with tendinous intersections is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of strap-like muscle with tendinous intersections is:
+## answer_a
+Sartorius
+## explanation_a
+Sartorius is the plain strap muscle, with no intersections. It is the answer to the companion question, and that is exactly why it is offered here.
+## answer_b
+Deltoid
+## explanation_b
+Deltoid is multipennate; its tendinous septa are not intersections crossing a strap but septa within a pennate muscle.
+## answer_c
+Rectus abdominis
+## explanation_c
+Correct. Rectus abdominis is a strap muscle crossed by three or more tendinous intersections, which is what makes the "six-pack" visible.
+## answer_d
+Tibialis anterior
+## explanation_d
+Tibialis anterior is unipennate.
+## correct_answer
+C
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Basis
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the book's example of a strap muscle with tendinous intersections.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q40; Anatomy MCQ Book [2025] [first priority].pdf p8 q40. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-582BAF736C3D
+## title
+Medial rotation of the shoulder joint can be performed by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial rotation of the shoulder joint can be performed by:
+## answer_a
+Posterior fibers of the deltoid
+## explanation_a
+The posterior fibres of deltoid extend and laterally rotate. Only its anterior fibres rotate medially, and the option names the wrong set.
+## answer_b
+Infraspinatus
+## explanation_b
+Infraspinatus is a lateral rotator, one of the two cuff muscles behind the joint.
+## answer_c
+Teres major
+## explanation_c
+Correct. Teres major adducts, extends and medially rotates the arm, going to the medial lip of the intertubercular groove.
+## answer_d
+Supraspinatus
+## explanation_d
+Supraspinatus abducts and does not rotate at all.
+## correct_answer
+C
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick a medial rotator of the shoulder from a list containing two lateral rotators and an abductor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p24 q33; Anatomy Question [Upper Limb] (1).pdf p7 q36. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-CEF1B1E7685B
+## title
+Principal muscle concerned in extension of the shoulder joint:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Principal muscle concerned in extension of the shoulder joint:
+## answer_a
+Anterior fibers of deltoid
+## explanation_a
+The anterior fibres flex the arm. It is the posterior fibres of deltoid that assist extension, and naming the wrong set is the trap.
+## answer_b
+Teres minor
+## explanation_b
+Teres minor is a lateral rotator and a cuff muscle. Being on the back of the joint is not the same as extending it.
+## answer_c
+Latissimus dorsi
+## explanation_c
+Correct. Latissimus dorsi is the principal extensor, and it also adducts and medially rotates.
+## answer_d
+Serratus anterior
+## explanation_d
+Serratus anterior protracts and upwardly rotates the scapula; it has no action at the shoulder joint itself.
+## correct_answer
+C
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the principal extensor of the shoulder joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p23 q31; Upper MCQ Dr.jalal (1).pdf p35 q31. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Latissimus dorsi is the principal extensor of the arm; the anterior fibres of deltoid flex, teres minor rotates laterally and serratus anterior acts on the scapula.
+
+
+---
+
+# Item
+## id
+QM-101-C4EA1D0FE66A
+## title
+Regarding Biceps brachii, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Biceps brachii, choose the correct answer:
+## answer_a
+Its short had lies inside the capsule of the shoulder joint
+## explanation_a
+The wrong head. It is the *long* head, from the supraglenoid tubercle, that runs inside the capsule; the short head arises outside the joint from the coracoid process.
+## answer_b
+It flexes the elbow joints
+## explanation_b
+Correct. Biceps crosses the elbow and flexes it — its most obvious action, and the only true statement here.
+## answer_c
+It pronates the forearm
+## explanation_c
+Reversed. Biceps is the powerful supinator; pronation is pronator teres and pronator quadratus.
+## answer_d
+It is supplied by median nerve
+## explanation_d
+The musculocutaneous nerve, not the median. The median nerve passes down the arm beside biceps without supplying it.
+## correct_answer
+B
+## main_concept
+CON-MSK-875049D4420AA4
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the head of biceps that lies within the shoulder capsule, its actions and its nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q4; Anatomy Question [Upper Limb] (1).pdf p11 q60. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F9959DA7CE93
+## title
+Regarding quadrangular space in axillary region; one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding quadrangular space in axillary region; one is correct:
+## answer_a
+It is bounded above by the supraspinatus
+## explanation_a
+Supraspinatus is above the spine of the scapula, far from this space. The upper boundary is subscapularis in front and teres minor behind.
+## answer_b
+It is bounded laterally by the surgical neck of the humerus
+## explanation_b
+Correct. The surgical neck closes the space laterally, which is why the axillary nerve winding through it is torn by a fracture there.
+## answer_c
+It is bounded below by the teres minor
+## explanation_c
+Teres minor is the upper boundary, not the lower; teres major is below. Getting the two the wrong way round is the standard error, because both are teres muscles on the same border of the scapula.
+## answer_d
+It contains the circumflex scapular artery
+## explanation_d
+The circumflex scapular artery passes through the *upper triangular* space, medial to the long head of triceps. The quadrangular space carries the axillary nerve and the posterior circumflex humeral vessels.
+## correct_answer
+B
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the four boundaries and the contents of the quadrangular space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p4 q21; Upper MCQ Dr.jalal (1).pdf p5 q21. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The surgical neck of the humerus is the lateral boundary of the quadrangular space, so B is true; the space is bounded above by subscapularis and teres minor, below by teres major, and it transmits the axillary nerve and posterior circumflex humeral vessels rather than the circumflex scapular artery.
+
+
+---
+
+# Item
+## id
+QM-101-768BD64B5F7F
+## title
+Regarding shoulder joint, one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding shoulder joint, one is correct:
+## answer_a
+Its entire capsule is attached to surgical neck of the humerus
+## explanation_a
+True of part of the capsule and therefore a trap. The capsule reaches the anatomical neck all round *except* medially, where it descends about a centimetre onto the surgical neck; "entire" turns a partial truth into a falsehood.
+## answer_b
+Its capsule is anteriorly connected to the subacromial bursa
+## explanation_b
+The wrong bursa and the wrong direction. The subscapular bursa lies anteriorly and does communicate with the cavity; the subacromial bursa lies above and does not.
+## answer_c
+Supraspinatus and deltoid muscles produce abduction of the joint
+## explanation_c
+Correct. Supraspinatus initiates abduction and the middle fibres of deltoid carry it to ninety degrees; between them they abduct the joint.
+## answer_d
+Tendon of short head of biceps takes origin within capsule of joint
+## explanation_d
+The long head, not the short. The short head of biceps arises from the coracoid process, entirely outside the joint.
+## correct_answer
+C
+## main_concept
+CON-MSK-DAF3D2128459B3
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the capsular attachment of the shoulder joint, which bursa communicates with it, and which head of biceps is intracapsular.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p22 q24; Upper MCQ Dr.jalal (1).pdf p34 q24. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Supraspinatus and deltoid are the two muscles that abduct the joint, so C is true; A is defeated by the word "entire", B names the wrong bursa and D the wrong head of biceps.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-5CB892F686FD
+## title
+Regarding the axillary nerve:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the axillary nerve:
+## answer_a
+It arises from the lateral cord of the brachial plexus
+## explanation_a
+The posterior cord. The axillary nerve is one of its two terminal branches, the other being the radial nerve, and both supply extensors.
+## answer_b
+It supplies the skin of the lower half of the lateral side of the arm
+## explanation_b
+Half a level out. The upper lateral cutaneous nerve of the arm, from the axillary, covers the skin over the lower half of the deltoid — the upper part of the lateral arm. The *lower* lateral side of the arm belongs to the radial nerve.
+## answer_c
+It passes through the triangular space
+## explanation_c
+The quadrangular space, not the triangular. This is the single most examined fact about the nerve, because it is the space bounded laterally by the surgical neck.
+## answer_d
+It supplies the deltoid and teres minor muscles
+## explanation_d
+Correct. Deltoid and teres minor are its two muscles, which is why its injury flattens the shoulder and weakens lateral rotation.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the cord of origin, the space it traverses, the muscles and the skin of the axillary nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p8 q42; Anatomy MCQ Book [2025] [first priority].pdf p33 q87. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The axillary nerve supplies deltoid and teres minor, which makes D true; it arises from the posterior cord, passes through the quadrangular space, and its cutaneous branch covers the skin over the lower half of the deltoid — the upper lateral arm, not the lower.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4106F13F8CD2
+## title
+Regarding the Shoulder joint:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the Shoulder joint:
+## answer_a
+The subscapular bursa doesn't communicates with the joint cavity
+## explanation_a
+The reverse of the truth. The subscapular bursa does communicate with the joint cavity, through a gap in the capsule beneath the tendon of subscapularis; it is the subacromial bursa that does not.
+## answer_b
+It is supplied by the axillary and suprascapular nerves
+## explanation_b
+Correct. The joint takes its nerve supply from the axillary and suprascapular nerves, with the lateral pectoral nerve — the nerves of the muscles that cross it, following Hilton's law.
+## answer_c
+The capsule is strengthened inferiorly by a strong ligament
+## explanation_c
+Inferiorly is precisely where the capsule has no support at all: no ligament and no muscle, which is why the head dislocates downwards.
+## answer_d
+The labrum glenoidale and the supraglenoid tubercle are extracapsular
+## explanation_d
+Both are inside. The capsule is attached outside the labrum, and the supraglenoid tubercle with the long head of biceps arising from it lies within the joint.
+## correct_answer
+B
+## main_concept
+CON-MSK-DAF3D2128459B3
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the nerve supply of the shoulder joint and the relation of the subscapular bursa and the labrum to its cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p14 q80; Anatomy MCQ Book [2025] [first priority].pdf p32 q80. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1FBB335FDC2F
+## title
+Select the most acceptable answer allowing free mobility of the shoulder:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Select the most acceptable answer allowing free mobility of the shoulder:
+## answer_a
+Head of humerus (ball) 3:4 times as much as the glenoid fossa (socket)
+## explanation_a
+Correct. Only about a third of the head is in contact with the glenoid at any time, so the head can roll and spin through a very wide arc before it runs out of socket.
+## answer_b
+The presence of 3 glenohumeral ligaments
+## explanation_b
+The gleno-humeral ligaments restrain movement, weakly. Adding ligaments to a joint reduces mobility; it does not create it.
+## answer_c
+The pattern of attachment of the shoulder joint capsule
+## explanation_c
+The capsule's attachment is lax, especially below, which permits movement — but laxity of the sleeve follows from the shape of the bones rather than causing the range.
+## answer_d
+The presence of the rotator cuff muscles
+## explanation_d
+The rotator cuff holds the head in the socket. It is the reason the joint does not dislocate during that range, not the reason the range exists.
+## correct_answer
+A
+## main_concept
+CON-MSK-EA4C451C8749B9
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Explain why the shoulder is the most mobile joint in the body, and separate the factors that free it from those that restrain it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p21 q118; Anatomy MCQ Book [2025] [first priority].pdf p39 q118. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The disproportion between a large humeral head and a small shallow glenoid is what allows the range, and it is the first factor the department book lists; the other three are restraining structures. The department printing `select-most-acceptable-answer-allowing-free-mobility-of-shou-051de2bf` keys A.
+
+
+---
+
+# Item
+## id
+QM-101-1A119C76378A
+## title
+The greater tuberosity of the humerus, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The greater tuberosity of the humerus, choose correct answer:
+## answer_a
+Gives attachment to subscapularis
+## explanation_a
+Subscapularis is the one cuff muscle in front of the joint, and it reaches the *lesser* tuberosity. It is the whole reason there are two tuberosities to tell apart.
+## answer_b
+Gives attachment to pectoralis major
+## explanation_b
+Pectoralis major goes to the lateral lip of the intertubercular groove, just beyond the greater tuberosity but not on it.
+## answer_c
+Gives attachment to teres minor
+## explanation_c
+Correct. Teres minor takes the lowest of the three impressions on the greater tuberosity, below supraspinatus and infraspinatus.
+## answer_d
+Gives attachment to teres major
+## explanation_d
+One word out. Teres major goes to the medial lip of the groove, with latissimus dorsi; teres minor is the cuff muscle on the tuberosity.
+## correct_answer
+C
+## main_concept
+CON-MSK-38A32E79B1412F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign each named muscle to the greater tuberosity, the lesser tuberosity or the intertubercular groove.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q11; Upper MCQ Dr.jalal (1).pdf p3 q11. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The greater tuberosity carries three impressions for supraspinatus, infraspinatus and teres minor, so C is true; subscapularis takes the lesser tuberosity, and pectoralis major and teres major take the lips of the groove between them.
+
+
+---
+
+# Item
+## id
+QM-101-99CAD455F202
+## title
+The principal muscle concerned in extension of the shoulder joint:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The principal muscle concerned in extension of the shoulder joint:
+## answer_a
+Anterior fibers of deltoid
+## explanation_a
+The anterior fibres of deltoid flex the arm. Extension is assisted by its posterior fibres.
+## answer_b
+Teres minor
+## explanation_b
+Teres minor rotates the arm laterally; lying behind the joint does not make a muscle an extensor.
+## answer_c
+Latissimus dorsi
+## explanation_c
+Correct. Latissimus dorsi extends, adducts and medially rotates the arm, and is the principal muscle of the first of those.
+## answer_d
+Serratus anterior
+## explanation_d
+Serratus anterior moves the scapula, not the humerus.
+## correct_answer
+C
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the principal extensor of the shoulder joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p29 q165; Anatomy MCQ Book [2025] [first priority].pdf p49 q165. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Latissimus dorsi is the principal extensor of the arm; this is the same question as `principal-muscle-concerned-in-extension-of-the-shoulder-join-06ce8e1c`, asked twice.
+
+
+---
+
+# Item
+## id
+QM-101-E15A8411B204
+## title
+The principal muscle concerned in medial rotation of the shoulder, choose the correct a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The principal muscle concerned in medial rotation of the shoulder, choose the correct answer:
+## answer_a
+Pectoralis major
+## explanation_a
+Correct. Pectoralis major, running from the front of the chest to the lateral lip of the intertubercular groove, adducts and medially rotates the arm powerfully.
+## answer_b
+Deltoid •. middle fibers
+## explanation_b
+The middle fibres of deltoid abduct. Only its anterior fibres rotate medially, and the option names the wrong set.
+## answer_c
+Supraspinatus
+## explanation_c
+Supraspinatus is the rotator cuff muscle that does not rotate; it initiates abduction.
+## answer_d
+Teres minor
+## explanation_d
+Teres minor rotates laterally — the opposite movement — and is offered because it is the neighbour of teres major, which does rotate medially.
+## correct_answer
+A
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the principal medial rotator of the shoulder from a list containing an abductor and a lateral rotator.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p29 q166; Anatomy MCQ Book [2025] [first priority].pdf p49 q166. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis major is the only medial rotator among the four: the middle fibres of deltoid abduct, supraspinatus does not rotate at all and teres minor rotates laterally. The department printing `principal-muscle-concerned-in-medial-rotation-of-the-shoulde-7f6c72cf` keys B, which is overridden there for the same reason.
+
+
+---
+
+# Item
+## id
+QM-101-B05D7559F32C
+## title
+Which muscles is supplied by the medial cord of the brachial plexus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which muscles is supplied by the medial cord of the brachial plexus?
+## answer_a
+Teres major
+## explanation_a
+Teres major is supplied by the lower subscapular nerve, a posterior cord branch — the extensor side of the plexus.
+## answer_b
+Deltoid
+## explanation_b
+Deltoid takes the axillary nerve, also from the posterior cord.
+## answer_c
+Anconeus
+## explanation_c
+Anconeus takes the radial nerve, the third posterior cord branch. Three of the four options are posterior cord, which is what the question is built on.
+## answer_d
+Pronator teres
+## explanation_d
+Correct. Pronator teres is supplied by the median nerve, which is formed by a medial root from the medial cord and a lateral root from the lateral cord — so the medial cord does contribute to it, and it is the only flexor here.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace a named muscle back to the cord of the brachial plexus that supplies it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p10 q56; Anatomy MCQ Book [2025] [first priority].pdf p28 q56. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EB9DFD364BD5
+## title
+Which one of the following muscles is inserted into the greater tuberosity of the humerus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following muscles is inserted into the greater tuberosity of the humerus?
+## answer_a
+Subscapularis muscle
+## explanation_a
+Subscapularis is inserted into the lesser tuberosity — the other one.
+## answer_b
+Teres minor muscle
+## explanation_b
+Correct. Teres minor takes the lowest impression on the greater tuberosity, with supraspinatus and infraspinatus above it.
+## answer_c
+Teres major muscle
+## explanation_c
+Teres major goes to the medial lip of the intertubercular groove; the single letter that separates it from teres minor separates two different bony attachments.
+## answer_d
+Latissimus dorsi muscle
+## explanation_d
+Latissimus dorsi is inserted into the floor of the intertubercular groove, between the two teres muscles' attachments.
+## correct_answer
+B
+## main_concept
+CON-MSK-38A32E79B1412F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the muscle inserted into the greater tuberosity from a list of groove and lesser-tuberosity muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p12 q67; Anatomy MCQ Book [2025] [first priority].pdf p30 q67. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FECCD15B4524
+## title
+Which tendon is intracapsular extrasynovial of the shoulder joint, mark the correct ans…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which tendon is intracapsular extrasynovial of the shoulder joint, mark the correct answer:
+## answer_a
+Long head of biceps brachii
+## explanation_a
+Correct. It crosses the head of the humerus inside the capsule, wrapped in its own synovial sheath, and leaves the joint through the intertubercular groove.
+## answer_b
+Short head of biceps brachii
+## explanation_b
+The short head arises from the coracoid process, outside the joint altogether.
+## answer_c
+Long head of triceps muscle
+## explanation_c
+The long head of triceps arises from the infraglenoid tubercle, which lies below and outside the capsular attachment.
+## answer_d
+Teres minor
+## explanation_d
+Teres minor blends with the outer surface of the capsule as part of the rotator cuff; blending with the capsule is not the same as running within it.
+## correct_answer
+A
+## main_concept
+CON-MSK-875049D4420AA4
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Explain why the tendon of the long head of biceps is inside the capsule of the shoulder joint but outside its synovial membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q5; Anatomy Question [Upper Limb] (1).pdf p27 q153. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The tendon of the long head of biceps arises from the supraglenoid tubercle within the capsule and is sleeved in synovial membrane, so it lies inside the capsule and outside the synovial cavity.
+
+
+---
+
+# Item
+## id
+QM-101-F5C4629FD92B
+## title
+Winging of scapula follows paralysis of which muscle?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Winging of scapula follows paralysis of which muscle?
+## answer_a
+Serratus anterior muscle
+## explanation_a
+Correct. Serratus anterior holds the medial border of the scapula against the chest wall; when it goes, the border stands off and the scapula wings.
+## answer_b
+Deltoid muscle
+## explanation_b
+Deltoid paralysis flattens the shoulder and costs abduction from fifteen to ninety degrees. It does not touch the scapula.
+## answer_c
+Trapezius muscle
+## explanation_c
+Trapezius paralysis drops the shoulder and weakens retraction. It produces a different deformity, and a genuinely tempting one, because both muscles rotate the scapula upward.
+## answer_d
+Teres minor muscle
+## explanation_d
+Teres major runs from the scapula to the humerus and moves the arm, not the scapula against the chest.
+## correct_answer
+A
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the muscle whose paralysis wings the scapula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q6; Anatomy Question [Upper Limb] (1).pdf p5 q24. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8C2AD7F19D15
+## title
+A 33-year-old man was admitted to the emergency department after an automobile collisio…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 33-year-old man was admitted to the emergency department after an automobile collision. Physical examination revealed weakness of the medial rotation and adduction at the shoulder joint. An X-ray examination showed a fracture of the lateral border of the scapula. Which nerve is most likely injured? (2018)
+## answer_a
+Lower subscapular
+## explanation_a
+Correct. The lower subscapular nerve, from the posterior cord, supplies the lower part of subscapularis and teres major — a medial rotator and an adductor — and teres major arises from the lateral border of the scapula, which is the bone that broke.
+## answer_b
+Axillary
+## explanation_b
+The axillary nerve would cost abduction from fifteen to ninety degrees and flatten the shoulder. Medial rotation would be largely preserved, because deltoid's anterior fibres are only one of five medial rotators.
+## answer_c
+Radial
+## explanation_c
+The radial nerve is an extensor nerve of the arm and forearm; a lesion gives wrist drop, not weak rotation at the shoulder.
+## answer_d
+Spinal accessory
+## explanation_d
+The spinal accessory nerve supplies trapezius, and its injury drops the shoulder and weakens retraction. It has nothing to do with rotation of the humerus.
+## correct_answer
+A
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Reason from a pair of lost movements back to the single nerve that supplies both muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p40 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Weakness of medial rotation and adduction after a fracture of the lateral border of the scapula points to subscapularis and teres major, and the lower subscapular nerve is the branch that supplies both.
+
+
+---
+
+# Item
+## id
+QM-101-C19D07D64E83
+## title
+A 33-year-old man was admitted to the emergency department after an automobile Vi P y c…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 33-year-old man was admitted to the emergency department after an automobile Vi P y collision. Physical examination revealed weakness of the medial rotation and Ac em adduction at the shoulder joint. An X-ray examination showed a fracture of the lateral border of the scapula. Which nerve is most likely injured? (2018)
+## answer_a
+Lower subscapular.
+## explanation_a
+Correct. Teres major arises from the lateral border of the scapula, and it and subscapularis share the lower subscapular nerve — the one branch whose loss weakens medial rotation and adduction together.
+## answer_b
+Axillary.
+## explanation_b
+The axillary nerve costs abduction and the contour of the shoulder, not adduction.
+## answer_c
+Radial.
+## explanation_c
+The radial nerve gives wrist drop and weak elbow extension; the shoulder is spared.
+## answer_d
+Spinal accessory.
+## explanation_d
+The spinal accessory nerve supplies trapezius, and a lesion drops the shoulder rather than weakening rotation.
+## correct_answer
+A
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Shoulder Region
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Reason from a pair of lost movements back to the single nerve that supplies both muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This is a second printing of the same case; subscapularis and teres major are the weakened muscles and the lower subscapular nerve supplies both.
+
+
+---
+
+# Item
+## id
+QM-101-3AB647118004
+## title
+A 47-year-old tennis professional female was informed by her physician that she Ac had …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 47-year-old tennis professional female was informed by her physician that she Ac had a rotator cuff injury that would require surgery. Her physician explained that over P Vi ad years of play a shoulder ligament had gradually caused severe damage to the Vi P underlying muscle. To which of the following ligaments was the physician most likely y referring? (2018) em
+## answer_a
+Acromioclavicular
+## explanation_a
+The acromioclavicular ligament joins the clavicle to the acromion above the joint and does not lie against any tendon.
+## answer_b
+Coracohumeral. P
+## explanation_b
+The coraco-humeral ligament strengthens the upper capsule and blends with supraspinatus rather than abrading it; it is the closest wrong answer here.
+## answer_c
+Glenohumeral
+## explanation_c
+The key the book prints. The three gleno-humeral ligaments are anterior thickenings of the capsule and lie deep to subscapularis, not against a tendon that moves beneath them.
+## answer_d
+Coracoacromial
+## explanation_d
+Correct. With the coracoid and the acromion the coraco-acromial ligament forms the coraco-acromial arch, and the supraspinatus tendon with the subacromial bursa slides beneath it every time the arm is raised.
+## correct_answer
+D
+## main_concept
+CON-MSK-E68EAACB7596AF
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Shoulder Region
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Name the ligament that impinges on the rotator cuff from above and say which cuff muscle it wears through.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p95 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is wrong: the gleno-humeral ligaments lie in front of the capsule and touch no cuff muscle. The coraco-acromial ligament roofs the joint, and repeated overhead movement grinds the supraspinatus tendon against it — the classic impingement that ends in a cuff tear.
+
+
+---
+
+# Item
+## id
+QM-101-03BF6DE9FB4D
+## title
+A man came with fracture of the surgical neck of the humerus, the first movement of the…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A man came with fracture of the surgical neck of the humerus, the first movement of the shoulder joint that you would test to confirm the nerve injury is (2024)
+## answer_a
+Flexion
+## explanation_a
+Flexion is anterior deltoid, pectoralis major, coracobrachialis and biceps together, so an axillary lesion barely weakens it.
+## answer_b
+Extension
+## explanation_b
+Extension is latissimus dorsi and teres major, neither of which is axillary; it would be normal.
+## answer_c
+Rotation
+## explanation_c
+Rotation is spread across five medial rotators and three lateral ones, so losing teres minor and part of deltoid leaves it nearly intact.
+## answer_d
+Abduction
+## explanation_d
+Correct. Deltoid is the only muscle that abducts from fifteen to ninety degrees, so abduction fails at once and unambiguously — which makes it the movement to test.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Upper Limb
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the movement to test when the axillary nerve is at risk, and say why it is that movement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p46 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A fracture of the surgical neck endangers the axillary nerve, whose muscle deltoid abducts the arm from fifteen to ninety degrees; abduction is therefore the movement that shows the lesion.
+
+
+---
+
+# Item
+## id
+QM-101-01C7E952AF60
+## title
+A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the shoulder joint that you would test to conﬁrm the nerve injury is (2024) y y P a- Flexion. P
+## answer_a
+Flexion.
+## explanation_a
+Flexion has four muscles behind it and is barely weakened.
+## answer_b
+Extension.
+## explanation_b
+Extension is latissimus dorsi and teres major, both unaffected.
+## answer_c
+Rotation.
+## explanation_c
+Rotation is shared by many muscles; losing teres minor alone will not abolish it.
+## answer_d
+Abduction.
+## explanation_d
+Correct. Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Shoulder Region
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the movement to test when the axillary nerve is at risk, and say why it is that movement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This is the second printing of the same case; abduction is the movement deltoid alone performs, so it is the one that confirms an axillary nerve lesion.
+
+
+---
+
+# Item
+## id
+QM-101-3883C1060704
+## title
+AII muscles attached to bicipital intertubercular groove can produce: (DEP BOOK) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+AII muscles attached to bicipital intertubercular groove can produce: (DEP BOOK) y
+## answer_a
+Abduction of arm (shoulder joint)
+## explanation_a
+None of the three abducts. All three pull the humerus towards the trunk, which is the opposite movement.
+## answer_b
+Adduction of arm
+## explanation_b
+Correct. Pectoralis major on the lateral lip, latissimus dorsi on the floor and teres major on the medial lip all adduct the arm, and all three also rotate it medially.
+## answer_c
+Extension of arm
+## explanation_c
+The near miss. Latissimus dorsi and teres major extend, but pectoralis major flexes, so extension is not common to all the groove muscles — and the word "all" in the stem is what decides it.
+## answer_d
+Lateral rotation of arm. P
+## explanation_d
+All three rotate the arm medially, not laterally; lateral rotation is infraspinatus, teres minor and the posterior fibres of deltoid.
+## correct_answer
+B
+## main_concept
+CON-MSK-38A32E79B1412F
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Shoulder Region
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the three muscles of the intertubercular groove and give the action they share.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p29 q36. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The three groove muscles are pectoralis major, latissimus dorsi and teres major, and the movement all three produce is adduction of the arm; extension is not shared, because pectoralis major flexes.
+
+
+---
+
+# Item
+## id
+QM-101-10301819BD9B
+## title
+An example of multipennate muscle is: (DEP BOOK). Vi P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of multipennate muscle is: (DEP BOOK). Vi P
+## answer_a
+Deltoid. y
+## explanation_a
+Correct. Deltoid's several tendinous septa with obliquely set fibres make it multipennate, which is what gives it its power.
+## answer_b
+Tibialis anterior
+## explanation_b
+Tibialis anterior is unipennate: one tendon with fibres on one side only.
+## answer_c
+Rectus anterior
+## explanation_c
+"Rectus anterior" is not a muscle in this classification; the rectus muscles named here are rectus femoris, which is bipennate, and rectus abdominis, which is a strap.
+## answer_d
+Supinator. P
+## explanation_d
+Supinator is a flat sheet wrapped round the radius, not a pennate muscle.
+## correct_answer
+A
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+Shoulder Region
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the book's example of a multipennate muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p13 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Deltoid is the book's multipennate example; the sibling printing `an-example-of-multipennate-muscle-is-132e2b26`, asked twice, keys A.
 
 
 ---

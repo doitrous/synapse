@@ -33,10 +33,14 @@
   `related_concepts` is what the coverage check reads. Each article lists every
   concept in ../concept/101-ISK-concepts.md and ../concept/101-ISK-mcq-concepts.md
   whose `module_subject` is that article's own subject path, copied rather than
-  re-derived, and every listed concept is taught in the prose. Five leaves carry
-  no concept at all yet — Muscles of the Back, Veins of the Upper Limb,
-  Introduction, Skeletal system, Cardiovascular system, Lymphatic system and
-  Nervous system — and their `field_notes` say so rather than borrowing one.
+  re-derived, and every listed concept is taught in the prose. The concept files
+  were re-read after the last article was written, and the concepts other lanes
+  had minted in the meantime — seven more on Arm, five on Muscles of the Back,
+  two on Veins of the Upper Limb — were folded in, with prose added where a new
+  concept asked for something the article had not yet taught. Five leaves carry
+  no concept at all yet — Introduction, Skeletal system, Cardiovascular system,
+  Lymphatic system and Nervous system — and their `field_notes` say so rather
+  than borrowing one from a neighbouring leaf.
 
   The repository holds zero medical images (../media-requests/media-audit.md).
   Every plate these articles need is written as an `image_recommendations` block
@@ -88,6 +92,13 @@ SYS-MSK-T01-S01-M03
 ## related_concepts
 CON-MSK-798DE81B6EE665
 CON-MSK-74BFAB9385B955
+CON-MSK-951D4DFF864245
+CON-MSK-875049D4420AA4
+CON-MSK-2D2E4341DC5990
+CON-MSK-34E34E10280236
+CON-MSK-7325E0613EC953
+CON-MSK-A4A49A26BA10E7
+CON-MSK-BAB2A859A2575C
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: The radial nerve's whole course, its branches level by level and the wrist-drop lesion are set out there; this article carries only what the nerve does inside the arm.
 ART-101-ANA-ELBOW-JOINT: The joint the arm's muscles move and the anastomosis that surrounds it are described there in the joint's own terms.
@@ -108,23 +119,23 @@ The **anterior (ventral, flexor) compartment** contains three muscles. The **pos
 
 The septa are not inert partitions. Each is crossed by exactly one named structure, and those two crossings are among the most heavily asked single facts on this leaf.
 
-- The **ulnar nerve** pierces the **medial** intermuscular septum, at the middle of the arm, and leaves the front of the arm for the back.
-- The **radial nerve** pierces the **lateral** intermuscular septum, in the lower third, with the radial collateral artery, and comes from the back of the arm to the front.
+- The **ulnar nerve** pierces the **medial** intermuscular septum, at the middle of the arm, accompanied by the **superior ulnar collateral artery**, and leaves the front of the arm for the back.
+- The **radial nerve** pierces the **lateral** intermuscular septum, in the lower third, accompanied by the **radial collateral artery**, and comes from the back of the arm to the front.
 
-Both septa also give attachment to muscle: the lateral to brachioradialis and extensor carpi radialis longus in front of it and to the triceps behind, the medial and lateral both to brachialis, which arises from the anterior aspect of both septa.
+Both septa are attached to the corresponding **supracondylar ridge** of the humerus, and both give attachment to muscle: in front, to **brachialis**, which arises from the anterior aspect of both, and to **brachioradialis and extensor carpi radialis longus** on the lateral septum only; behind, to the **medial head of triceps**.
 
 ### Structure
 **The flexor group** is three muscles in two layers: biceps and coracobrachialis superficially, brachialis deep to them. All three are supplied by the **musculocutaneous nerve**, with one qualification the department book states and the question books use — the small lateral part of brachialis is also supplied by a twig from the **radial nerve**, so brachialis has a double nerve supply.
 
-**Biceps brachii.** Origin by two heads: the **short head** from the tip of the coracoid process, in common with coracobrachialis; the **long head** from the **supraglenoid tubercle**, its tendon running down inside the shoulder joint and then in the bicipital groove. Insertion in two parts: the **bicipital tendon** into the **radial tuberosity**, and the **bicipital aponeurosis** into the deep fascia in the roof of the cubital fossa. Nerve supply musculocutaneous. Action: it is the **powerful supinator** of the forearm, acting when the elbow is flexed; it flexes the elbow; the long head tendon stabilises the head of the humerus; and the short head assists flexion at the shoulder.
+**Biceps brachii.** Origin by two heads: the **short head** from the **lateral part of the tip of the coracoid process**, in common with coracobrachialis and lying lateral to it; the **long head** from the **supraglenoid tubercle** of the scapula. The long head's tendon runs through the shoulder joint **inside the fibrous capsule but outside the synovial membrane** — it is the one tendon of the region that is intracapsular and extrasynovial, and it is asked in those words — and then descends in the bicipital groove. Insertion in two parts: the **bicipital tendon** into the **posterior rough part of the radial (bicipital) tuberosity**, and the **bicipital aponeurosis** into the deep fascia over the flexor muscles in the roof of the cubital fossa. Nerve supply musculocutaneous, from the lateral cord. Action: it is the **powerful supinator** of the forearm, acting when the elbow is flexed; it flexes the elbow; the long head tendon stabilises the head of the humerus; and the short head assists flexion at the shoulder. It is **not** a pronator and it does not extend the elbow.
 
 **Coracobrachialis.** Origin from the tip of the coracoid process, in common with the short head of biceps. Insertion into the middle of the medial border of the shaft of the humerus. Nerve supply musculocutaneous — the nerve pierces this muscle. Action: assists flexion and adduction at the shoulder joint.
 
-**Brachialis.** Origin from the lower half of the front of the shaft of the humerus and from the anterior aspects of both intermuscular septa. Insertion into the **coronoid process and the ulnar tuberosity**. Nerve supply musculocutaneous, plus a radial twig to its small lateral part. Action: it is the **primary flexor of the elbow**, and the one that still works when the forearm is pronated.
+**Brachialis.** Origin from the lower half of the front of the shaft of the humerus, embracing the insertion of deltoid above, and from the anterior aspects of both intermuscular septa. Insertion into the **coronoid process and the tuberosity of the ulna**. Nerve supply musculocutaneous, plus a radial twig to its small lateral part. Action: it is the **primary flexor of the elbow** and it does nothing else. It acts whatever the position of the forearm, which makes it the muscle that **flexes the pronated forearm**, where biceps is at a mechanical disadvantage.
 
 **The extensor group** is one muscle.
 
-**Triceps.** Origin by three heads: the **long head** from the **infraglenoid tubercle** of the scapula; the **lateral head** from the upper lip of the spiral groove on the back of the humerus; the **medial head** from the back of the shaft below the spiral groove. Insertion into the **upper surface of the olecranon process**, with a few deep fibres — **articularis cubiti** — inserting into the posterior part of the fibrous capsule of the elbow. Nerve supply **radial nerve**, given in two instalments: branches to the long and medial heads in the axilla, and branches to the lateral and medial heads in the spiral groove. Action: the powerful extensor of the elbow; articularis cubiti draws the back of the capsule upwards during extension so that it is not nipped inside the joint.
+**Triceps.** Origin by three heads: the **long head** from the **infraglenoid tubercle** of the scapula — the only head that crosses the shoulder joint as well as the elbow; the **lateral head** from the upper lip of the spiral groove on the back of the humerus; the **medial head** from the back of the shaft below the spiral groove and from both intermuscular septa. Insertion into the **upper surface of the olecranon process**, with a few deep fibres — **articularis cubiti** — inserting into the posterior part of the fibrous capsule of the elbow. Nerve supply **radial nerve** for every head, given in two instalments: branches to the long and medial heads in the axilla, and branches to the lateral and medial heads in the spiral groove. Action: the powerful extensor of the elbow; articularis cubiti draws the back of the capsule upwards during extension so that it is not nipped inside the joint. **Anconeus**, in the forearm, continues the muscle across the elbow, is also supplied by the radial nerve, and is described as the fourth head of triceps.
 
 **The cubital fossa** is the triangular hollow at the lower end of the arm, and the department book describes it at the head of the Forearm chapter while the papers file its question on this leaf. It is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
 
@@ -177,7 +188,13 @@ The department book gives no developmental account of the arm in this chapter, a
 ### Surface and imaging anatomy
 The **brachial artery** is represented by a line drawn between two points: a point at the **posterior fold of the axilla**, where the pulsation of the axillary artery can be felt, and a point **midway between the two epicondyles of the humerus, medial to the tendon of biceps**. The lower point is where the artery is compressed with a stethoscope for a blood pressure, and where its pulsation is sought in the cubital fossa.
 
-The **middle third of the humerus** carries the deltoid tuberosity on its lateral surface, the insertion of coracobrachialis on its medial border, and the spiral groove on its posterior surface. Those three are asked as a single-best-answer item that turns entirely on the surface each lies on, so learn them by surface rather than by name.
+The **shaft of the humerus** is read in thirds, and each third has its own markings.
+
+The **upper third** carries the **intertubercular (bicipital) groove** in front, with **pectoralis major on its lateral lip, teres major on its medial lip and latissimus dorsi on its floor**.
+
+The **middle third** carries the **deltoid tuberosity on its lateral surface**, the **insertion of coracobrachialis on its medial border**, and the **spiral (radial) groove running downwards and laterally across its posterior surface**, lodging the radial nerve and the profunda brachii vessels. Those three are asked as a single-best-answer item that turns entirely on the surface each lies on, so learn them by surface rather than by name.
+
+The **lower third** is flattened from before backwards and expands into the **medial and lateral supracondylar ridges**, the two **epicondyles** and the articular condyle.
 
 The **median cubital vein** is the most prominent superficial vein in the body and the standard site for venepuncture. Its safety is anatomical: the **bicipital aponeurosis** lies deep to it and separates it from the brachial artery and median nerve.
 
@@ -199,7 +216,10 @@ Beyond these two the sources describe no variant of the arm's vessels or muscles
 ## hold_these
 The arm has two compartments: an anterior flexor compartment with three muscles and a posterior extensor compartment with one.
 The ulnar nerve pierces the medial intermuscular septum; the radial nerve pierces the lateral intermuscular septum; the musculocutaneous nerve pierces coracobrachialis.
-Biceps has a long head from the supraglenoid tubercle and a short head from the tip of the coracoid, inserting by the bicipital tendon into the radial tuberosity and by the bicipital aponeurosis into the deep fascia.
+Biceps has a long head from the supraglenoid tubercle and a short head from the lateral part of the tip of the coracoid, inserting by the bicipital tendon into the radial tuberosity and by the bicipital aponeurosis into the deep fascia.
+The long head of biceps is the intracapsular, extrasynovial tendon of the shoulder joint.
+Brachialis inserts into the coronoid process and the tuberosity of the ulna and is the muscle that flexes the pronated forearm.
+The upper third of the humeral shaft carries the bicipital groove, the middle third the deltoid tuberosity, the coracobrachialis insertion and the spiral groove, and the lower third the supracondylar ridges and the epicondyles.
 Biceps is the powerful supinator, acting when the elbow is flexed; brachialis is the primary flexor of the elbow.
 Brachialis is supplied by the musculocutaneous nerve, with a twig from the radial nerve to its small lateral part.
 Triceps arises by a long head from the infraglenoid tubercle, a lateral head above the spiral groove and a medial head below it, and inserts into the upper surface of the olecranon.
@@ -216,6 +236,9 @@ The bicipital aponeurosis in the roof separates the median cubital vein from the
 Saying the brachial artery ends at the elbow joint. It ends 1 cm below the joint, at the level of the neck of the radius, which is why one vessel is still palpable where the fossa is entered.
 Putting the ulnar nerve through the lateral intermuscular septum. Ulnar pierces the medial septum and radial the lateral one; swapping them turns two marks into none.
 Giving biceps an insertion into the ulnar tuberosity. That is brachialis. Biceps goes to the radial tuberosity and to the deep fascia by its aponeurosis.
+Naming the short head of biceps as the intracapsular tendon of the shoulder. It is the long head that lies inside the capsule and outside the synovial membrane.
+Answering "biceps" for flexion of the pronated forearm. Brachialis flexes the elbow whatever the position of the forearm, and biceps is at a mechanical disadvantage in pronation.
+Giving triceps a short head, or a long head from the supraglenoid tubercle. Its heads are long, lateral and medial, and the long head arises from the infraglenoid tubercle.
 Naming supinator alone as the supinator. Biceps is the powerful one, and the question about why supination beats pronation is asking for biceps and supinator together.
 Answering "complete paralysis of triceps" for a radial nerve lesion in the spiral groove. The long and medial heads were already supplied in the axilla; elbow extension is impaired, not lost.
 Calling brachialis a purely musculocutaneous muscle. Its small lateral part takes a radial twig, and its double supply is a stock single-best-answer item.
@@ -947,7 +970,11 @@ DIS-ANA-T02
 SYS-MSK-T01-S03-M02
 SYS-MSK-T01-S01-M01
 ## related_concepts
-
+CON-MSK-49E1E587FB6ED6
+CON-MSK-84E91B4CD6B6DF
+CON-MSK-59453A6F6ACC2E
+CON-MSK-C89FCDA03E8C99
+CON-MSK-2BCDBB34965818
 ## related_articles
 ART-101-ANA-SHOULDER-REGION: The other half of the shoulder girdle's muscle list, and the abduction relay that trapezius completes above ninety degrees.
 ART-101-ANA-AXILLA-BREAST: Latissimus dorsi forms the posterior wall of the axilla with teres major and subscapularis, and the posterior axillary fold with teres major.
@@ -973,7 +1000,7 @@ Five muscles in all. A student who adds erector spinae or the intrinsic muscles 
 *Origin* — three regions of a continuous **U-shaped** line: the **back of the skull**, from the external occipital protuberance and the medial third of the superior nuchal line; the **back of the neck**, from the ligamentum nuchae and the spine of C7; and the **back of the thorax**, from the spines of **all** the thoracic vertebrae and their supraspinous ligaments.
 *Insertion* — three regions matching the three sets of fibres: **upper fibres** into the posterior border of the lateral third of the clavicle; **middle fibres** into the medial border of the acromion and the upper lip of the crest of the spine of the scapula; **lower fibres** into a rough tubercle on the crest of the spine of the scapula near its root.
 *Nerve supply* — **motor from the spinal root of the accessory nerve; sensory from the cervical nerves C3 and C4.**
-*Action* — the upper fibres **elevate** the shoulder girdle; the middle fibres, with the rhomboids, **retract** the scapula and brace back the shoulder; the upper and lower fibres together **rotate the scapula so that the glenoid cavity faces upward**, which is what allows the arm to be raised overhead.
+*Action* — the upper fibres **elevate** the shoulder girdle; the middle fibres, with the rhomboids, **retract** the scapula and brace back the shoulder; the **lower fibres depress** the scapula; and the upper and lower fibres together **rotate the scapula so that the glenoid cavity faces upward**, which is what allows the arm to be raised overhead. Because the muscle suspends the whole shoulder girdle from the skull and the vertebral column, its paralysis lets the shoulder sag.
 
 **Latissimus dorsi.** A large triangular flat muscle covering the lower half of the back down to the iliac crest, with a **wide origin and a narrow tendon of insertion**.
 
@@ -992,7 +1019,9 @@ Two relations of latissimus dorsi are examined in their own right. Its upper bor
 
 *Rhomboideus major* — origin from the **spines of T2 to T5 and their supraspinous ligaments**; insertion into the medial border **from the root of the spine to the inferior angle**; nerve **dorsal scapular nerve (C5)**; action: the same as rhomboideus minor.
 
-So the medial border of the scapula is read from above down: levator scapulae above the spine, rhomboideus minor at the spine, rhomboideus major below it — and, on the **ventral** surface of the same border, **serratus anterior**. Which surface a muscle reaches is the difference between the rhomboids and serratus anterior, and it is the reason they are antagonists.
+So the medial border of the scapula is read from above down: levator scapulae above the spine, rhomboideus minor at the spine, rhomboideus major below it — and, on the **ventral (costal)** surface of the same border, **serratus anterior**. Which surface a muscle reaches is the difference between the rhomboids and serratus anterior, and it is the reason they are antagonists.
+
+The **lateral border** belongs to a different set of muscles, and the papers ask the two borders against each other. **Teres minor** arises from the upper two-thirds of its dorsal surface and **teres major** from the lower third and the inferior angle, with the **long head of triceps** arising just above it from the **infraglenoid tubercle**. So a question that offers teres major among muscles of the medial border, or levator scapulae among those of the lateral border, is testing that split — four muscles on the medial border, two on the lateral.
 
 ### Relations
 Trapezius is the most superficial muscle of the region and covers the upper part of latissimus dorsi's origin, the rhomboids and levator scapulae. Latissimus dorsi covers the lower half of the back and is the muscle that wraps forwards around the lower border of the axilla.
@@ -1010,8 +1039,10 @@ The nerve supplies of this group carry a lesson that the whole shoulder girdle t
 
 **Trapezius is supplied by the spinal root of the accessory nerve** — a cranial nerve — with sensory fibres from C3 and C4. It is the one muscle acting on the shoulder girdle that is **not** supplied by a branch of the brachial plexus, and that exception is asked directly.
 
-**Latissimus dorsi** is supplied by the **thoraco-dorsal nerve**, a branch of the posterior cord.
+**Latissimus dorsi** is supplied by the **thoraco-dorsal nerve (C6, C7, C8)**, a branch of the posterior cord.
 **Levator scapulae and both rhomboids** are supplied by the **dorsal scapular nerve (C5)**, levator scapulae also receiving fibres from **C3 and C4**.
+
+The rest of the scapular set completes the same list and is worth reciting with it, because the examiners ask it as one question: **serratus anterior** takes the **long thoracic nerve (C5, C6, C7)**; **teres major** takes the **lower subscapular nerve**; **teres minor** takes the **axillary nerve**. Every one of those is a brachial plexus branch. Trapezius is the exception.
 
 The arterial supply of the region is not set out as a list in either Kasr source. What is named is the **anastomosis around the scapula**, whose vessels — the suprascapular artery, the deep branch of the transverse cervical artery, the subscapular and circumflex scapular arteries and the posterior intercostal arteries — run in this plane and supply the muscles they pass through.
 
@@ -1049,6 +1080,9 @@ Latissimus dorsi arises from the lower six thoracic spines, thoraco-lumbar fasci
 Latissimus dorsi is supplied by the thoraco-dorsal nerve and extends, medially rotates and adducts the arm.
 Latissimus dorsi has a triple relation to teres major — behind it, then below it, then in front of it at the insertion — and fuses with it to form the posterior axillary fold.
 Levator scapulae and both rhomboids are supplied by the dorsal scapular nerve (C5); levator scapulae also takes C3 and C4.
+The thoraco-dorsal nerve is C6, C7, C8; the long thoracic nerve to serratus anterior is C5, C6, C7; teres major takes the lower subscapular nerve and teres minor the axillary nerve.
+The lateral border of the scapula gives origin to teres minor above and teres major below, with the long head of triceps from the infraglenoid tubercle just above it.
+The lower fibres of trapezius depress the scapula.
 Levator scapulae inserts above the root of the spine of the scapula, rhomboideus minor opposite it, rhomboideus major below it — all on the dorsal surface of the medial border.
 Triangle of auscultation: trapezius above, latissimus dorsi below, medial border of scapula laterally; floor rhomboideus major with the sixth and seventh ribs.
 Lumbar triangle: iliac crest below, latissimus dorsi medially, external abdominal oblique laterally; floor internal oblique and transversus abdominis; a site of lumbar hernia.
@@ -1057,6 +1091,7 @@ Paralysis of trapezius gives shoulder drop.
 Answering with erector spinae or the intrinsic back muscles. This chapter's five muscles belong to the upper limb and take anterior primary rami; the true back muscles are a different group.
 Giving the brachial plexus as trapezius's nerve. It is the spinal root of the accessory nerve, and the exception is asked directly.
 Confusing shoulder drop with winging. Shoulder drop is trapezius; winging is serratus anterior. Both stop the arm below the head, and only the accompanying sign separates them.
+Putting teres major or teres minor on the medial border of the scapula. They take the lateral border; the medial border is levator scapulae, the two rhomboids and serratus anterior.
 Putting teres major in the triangle of auscultation. Its boundaries are trapezius, latissimus dorsi and the medial border of the scapula, with rhomboideus major in the floor.
 Attributing lateral rotation or flexion of the arm to latissimus dorsi. It extends, adducts and medially rotates.
 Giving latissimus dorsi an origin from the lumbar spines directly. The book gives the thoraco-lumbar fascia, not the lumbar spines, along with the lower six thoracic spines.
@@ -1097,12 +1132,13 @@ Section: Clinical correlations
 Rights: consented clinical photograph, or an anatomical illustration if no consented image is available
 ## conflicts
 Nerve supply of levator scapulae. The department book gives "dorsal scapular nerve (C5) + fibres from C3 and C4"; Dr. Galal's table gives "N. to rhomboids & C3, 4", which names the same nerve by a different name. Both are recorded, because a marker working from either wording should recognise the other.
+Which boundary of the triangle of auscultation trapezius forms. The department book puts the lateral border of trapezius **above** the triangle and the medial border of the scapula laterally; the concept record CON-MSK-2BCDBB34965818, drafted from the question books, puts trapezius **medially**. The triangle is the same triangle and the third boundary is the same in both, so the disagreement is one of how the sides are named rather than of what bounds them. The department book's naming is followed here.
 Insertion of the upper fibres of trapezius. The department book says "posterior border of lateral third of clavicle"; Dr. Galal says "post. border of lat. 1/3 clavicle". They agree, and the agreement is recorded because a third summary that says "outer third of the clavicle" is describing the same attachment in words the marker may not credit.
 ## evidence_gaps
 Neither source gives a developmental account of these muscles, and neither explains why a limb muscle comes to be supplied by a cranial nerve. A student asked to account for trapezius's innervation has nothing in the faculty's own text to reason from.
 Neither source sets out an arterial supply for this group as a list. What is given is the anastomosis around the scapula, whose vessels run in the plane; the muscles' individual arteries are not named anywhere in this module's material.
 The department book names the lumbar triangle as a site of hernia and asks for its boundaries, but describes neither the clinical presentation nor the management of a lumbar hernia.
-No concept has yet been minted on this leaf in either ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md, although the question books carry 29 distinct stems on it. The article's related_concepts is empty for that reason and not because the coverage was skipped; the concepts should be authored from these stems.
+The leaf had no concept at all when this article was drafted. Five were minted into ../concept/101-ISK-mcq-concepts.md by another lane while it was being written, and all five are now claimed and taught: trapezius, latissimus dorsi, the muscles of the two borders of the scapula, the nerve supply of the scapular muscles, and the triangle of auscultation. Prose was added for the lateral border of the scapula, the depressing action of the lower fibres of trapezius, and the root values of the scapular nerves, because those were the parts the new concepts asked for and the first draft did not carry.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Chapter 2 "Muscles of the Back", PDF pages 163-168 — the two layers and their five muscles with origin, insertion, nerve supply and action; the triple relation of latissimus dorsi to teres major; the posterior axillary fold; the triangle of auscultation and the lumbar triangle; shoulder drop.
@@ -1112,7 +1148,7 @@ scripts/kasr/extract/mcq-bank.json, leaf "Muscles of the Back" — 29 distinct q
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Upper Limb > Muscles of the Back" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps so the concept pass can close it.
+relatedConcepts: All five concepts whose module_subject is "101 ISK > Anatomy > Upper Limb > Muscles of the Back" are listed, copied from ../concept/101-ISK-mcq-concepts.md on a re-read after drafting. They did not exist when the article was first written.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
 microtopic: No microtopic level exists beneath this node.
@@ -1124,7 +1160,7 @@ lastReviewed: Never reviewed.
 sections.Blood supply, innervation and lymphatics: The arterial paragraph reports that the sources give no list, rather than assembling one from elsewhere.
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
 ## notes
-This leaf carries no concept yet. The article is written to the question books' stems and to Dr. Galal's two "Q." topics on the same page, so that the concepts minted from it later have prose already teaching them.
+The article was written to the question books' stems and to Dr. Galal's two "Q." topics on the same page, because the leaf had no concept at the time. Five concepts appeared on it during the same pass and are now claimed; the prose needed three additions to cover them, which are noted in evidence_gaps.
 
 ---
 
@@ -1169,7 +1205,8 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M03
 SYS-MSK-T01-S01-M02
 ## related_concepts
-
+CON-MSK-66A2E56C00F3A7
+CON-MSK-1F14D98DCE111B
 ## related_articles
 ART-101-ANA-ARM: The cubital fossa, whose roof carries the median cubital vein and whose bicipital aponeurosis is what makes venepuncture there safe.
 ART-101-ANA-AXILLA-BREAST: The axillary vein and the five groups of axillary lymph nodes that every lymphatic in this article ends in.
@@ -1202,6 +1239,8 @@ So the two veins end in different ways and the difference is examined: the cepha
 **The median cubital vein** connects the cephalic and basilic veins in the superficial fascia of the **roof of the cubital fossa**, crossing **superficial to the bicipital aponeurosis**, which separates it from the brachial artery and median nerve lying deep to the aponeurosis. It is the **most prominent superficial vein in the body** and is the standard vein for intravenous injection.
 
 **The deep veins** are two kinds. **Venae comitantes** accompany the main arteries, usually **two to each artery**, anastomosing with each other across it; the venae comitantes of the radial and ulnar arteries join those of the brachial artery. And the **axillary vein**, which begins at the lower border of teres major, ascends on the medial side of the axillary artery, and ends at the outer border of the first rib by becoming the subclavian vein.
+
+The paired arrangement stops at the axilla, and the stopping point is examined: the **axillary artery has a single axillary vein and no venae comitantes**. An option that gives the axillary artery two venae comitantes is wrong for that reason, and it appears in the question books repeatedly beside the true statement about the brachial artery.
 
 ### Relations
 The relation that carries the clinical weight is at the elbow. In the **roof of the cubital fossa**, from superficial to deep: skin, then superficial fascia carrying the **median cubital vein** with the medial and lateral cutaneous nerves of the forearm and the **supratrochlear lymph nodes**, then deep fascia **reinforced by the bicipital aponeurosis**, and only then the **brachial artery and median nerve**. A needle in the median cubital vein is separated from the artery and the nerve by that aponeurosis.
@@ -1322,7 +1361,7 @@ Whether the basilic vein pierces the clavipectoral fascia. One question-book ste
 Neither source gives a developmental account of the limb's veins or lymphatics.
 Neither source gives the valve arrangement of the superficial veins beyond the statement that they are provided with valves, so a question on the direction or number of valves cannot be answered from this faculty's own text.
 The department book states that the superficial veins are larger and more important than the deep veins but does not say why, and offers no account of the muscle pump or of venous return from the limb. The clinical paragraph here reasons from the book's own statement rather than adding a mechanism the book does not teach.
-No concept whose module_subject is this leaf exists yet in either concept batch, although the question books carry 9 distinct stems on it. The related_concepts field is empty for that reason.
+The leaf had no concept when this article was drafted. Two were minted into ../concept/101-ISK-mcq-concepts.md by another lane during the same pass and are now claimed and taught: the median cubital vein and its bicipital aponeurosis, and the cephalic and basilic veins with their beginnings and terminations. One sentence was added for the second — that the axillary artery has a single axillary vein and no venae comitantes — because the concept carries it and the first draft did not.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Chapter 8 "Veins of the Upper Limb", PDF pages 253-256 — superficial and deep groups; dorsal venous network; cephalic, basilic, median and median cubital veins; venae comitantes; deep and superficial lymph nodes; superficial and deep lymph vessels and their destinations.
@@ -1333,7 +1372,7 @@ scripts/kasr/extract/mcq-bank.json, leaf "Veins of the Upper Limb" — 9 distinc
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
+relatedConcepts: Both concepts whose module_subject is "101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb" are listed, copied from ../concept/101-ISK-mcq-concepts.md on a re-read after drafting. Neither existed when the article was first written.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
 microtopic: No microtopic level exists beneath this node.
@@ -1346,3 +1385,1355 @@ title: The leaf is named "Veins of the Upper Limb" but the department book's cha
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
 ## notes
 The chapter this article follows is short, and the leaf carries only nine question-book stems. It is written full-length anyway, because the lymphatic half of the chapter is what the axilla and breast questions rest on, and because five of the nine stems turn on one swap — cephalic lateral, basilic medial.
+
+---
+
+# Item
+## id
+ART-101-ANA-INTRODUCTION
+## title
+Anatomical position, planes and terms
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T01
+## related_concepts
+
+## related_articles
+ART-101-ANA-FASCIA: The first structure described in these terms — superficial and deep, and everything the two words mean.
+ART-101-ANA-SKELETAL-SYSTEM: The bony features named in this vocabulary, from process and tubercle to fossa and foramen.
+ART-101-ANA-MUSCLE-ATTACHMENTS: Origin, insertion, proximal and distal — the limb conventions this chapter's terms make usable.
+## aliases
+Introduction | Anatomical position | Anatomical planes | Terms of position | Anatomical terminology | Median plane | Coronal plane
+## reading_time
+7
+## summary
+Every anatomical description in the module is written from one starting posture, and if the posture changes the words change with it. Anatomical erect position fixes the palms facing forwards, which is why the radius is lateral and the ulna medial in every sentence you will read this year. Four planes, fourteen terms of position and six terms of number — a short closed list that is asked directly in the single-best-answer paper and used silently in every other question on it.
+## sections
+### Definition
+Anatomy is described from a fixed reference posture so that two people describing the same structure use the same words. That posture is the **anatomical erect position**, and the department book states it as five conditions together.
+
+- The human body is regarded as **standing erect**.
+- The **eyes are looking forwards**.
+- The **upper limbs are hanging by the sides**.
+- The **palms are facing forwards**.
+- The **thumbs are directed laterally**.
+
+Four other named positions are used in clinical description, and the book asks for them by name.
+
+**Supine** — the body lies on its **back**. **Prone** — the body lies on its **face**. **Lithotomy** — the body lies on its back with **flexion of the hip and knee and abduction of the hip joints**. **Lateral decubitus** — the body lies on its **side**, right or left.
+
+The anatomical position is not a description of how anyone stands. It is a convention chosen so that the two bones of the forearm are uncrossed, which is why the radius is described as lateral and the ulna as medial throughout the year even though the pronated hand puts the radius across the ulna.
+
+### Mechanism
+A plane is a flat surface passing through the body, and each is defined by what it separates.
+
+**Median (sagittal) plane** — the **vertical** plane passing through the **middle line**, dividing the body into **equal right and left halves**. It is the only plane that produces two equal parts, and "equal" is the word the answer turns on.
+
+**Paramedian plane** — a plane **parallel to and near** the median plane. It is vertical and it divides the body into right and left parts, but the parts are unequal.
+
+**Coronal (frontal) plane** — the plane cutting the body **vertically** into an **anterior** part towards the front and a **posterior** part towards the back.
+
+**Horizontal (transverse) plane** — the plane running **horizontally**, cutting the body into an **upper (superior)** and a **lower (inferior)** part.
+
+Two planes are vertical and divide right from left; one is vertical and divides front from back; one is horizontal and divides above from below. Sorting them that way is quicker than memorising four sentences, and it is what a stem asking "the plane which separates the body into an anterior and posterior part" is testing.
+
+### Key determinants
+**Terms of position** are the working vocabulary of every other chapter, and the department book gives them as a table of fourteen.
+
+*Anterior / ventral* — in front, nearer to the front of the body.
+*Posterior / dorsal / retro-* — behind, nearer to the back of the body.
+*Superior / upper / cranial* — nearer to the upper end of the body.
+*Inferior / lower / caudal* — nearer to the lower end of the body.
+*External / outer* — near or on the surface of the body or organ.
+*Internal / inner* — inside the organ or the body.
+*Median* — exactly in the middle line or median plane.
+*Medial* — **nearer to** the median plane.
+*Lateral* — **away from** the median plane.
+*Proximal* — **nearer to the root of the limb**.
+*Distal* — **away from the root of the limb**.
+*Superficial* — towards the skin or body surface.
+*Deep* — away from the skin or body surface.
+*Peri-* — around.
+
+Two pairs are asked as single-best-answer items almost every sitting: **medial versus lateral**, defined against the **median plane**, and **proximal versus distal**, defined against the **root of the limb**. Neither pair is defined against the observer, the midline of a limb, or the ground, and each of those is a distractor.
+
+**Terms of number** are a short prefix list.
+
+*Uni- / mono-* one. *Bi- / di-* two. *Tri-* three. *Quadri-* four. *Multi- / poly-* many. *Oligo-* little.
+
+These are what turn an unfamiliar muscle name into a readable one — bipennate, quadriceps, multifidus, polydactyly — and they are why the classification lists in later chapters can be reconstructed rather than memorised.
+
+### Clinical significance
+The vocabulary is not decoration; three practical things depend on it.
+
+**A description that ignores the anatomical position is ambiguous.** "The radius is lateral to the ulna" is true only in supination, and is stated as a permanent fact because the reference posture is supinated. A student who describes a pronated forearm's relations without saying so has written something the marker cannot check.
+
+**Imaging is reported in planes.** A cross-sectional image is read in the horizontal plane, a coronal reconstruction in the coronal plane, and a midline sagittal image in the median plane. The names come straight from this chapter.
+
+**Clinical positioning is named, not described.** A patient is put in the lithotomy position or the lateral decubitus position, and the words are expected to be understood without further explanation. The department book lists them for that reason.
+
+### Common misconceptions
+**Median and medial are not the same word.** Median means exactly in the middle line; medial means nearer to it. A structure can be medial without being median, and only one structure in a pair can be median at all.
+
+**The sagittal plane, in this faculty's usage, is the median plane.** The department book names them together — "Median plane (Sagittal)" — and calls a parallel plane beside it a **paramedian** plane. A student who has learned elsewhere that "sagittal" means any vertical antero-posterior plane will answer "which plane divides the body into two equal halves" wrongly, because on that usage both sagittal and median would qualify. Here they do not: **median is the equal one**.
+
+**Proximal and distal are limb words.** They are defined against the root of the limb and are not used for the trunk, where superior and inferior do that job.
+
+**Anatomical position is standing, not sitting or lying.** Options that describe the body sitting down, or with the eyes looking backwards, or with the palms facing backwards, appear in the question books and are wrong on the face of it once the five conditions are held together.
+## hold_these
+Anatomical erect position: standing erect, eyes forwards, upper limbs hanging by the sides, palms facing forwards, thumbs directed laterally.
+Supine is lying on the back; prone is lying on the face.
+Lithotomy position is on the back with the hips and knees flexed and the hips abducted; lateral decubitus is lying on one side.
+The median (sagittal) plane is vertical and divides the body into two equal right and left halves.
+The paramedian plane is parallel to and near the median plane, and its parts are unequal.
+The coronal (frontal) plane divides the body vertically into anterior and posterior parts.
+The horizontal (transverse) plane divides the body into upper and lower parts.
+Medial means nearer to the median plane; lateral means away from it.
+Proximal means nearer to the root of the limb; distal means away from it.
+Superficial is towards the skin; deep is away from it.
+Median means exactly in the middle line, which is not the same as medial.
+Terms of number: uni- and mono- one, bi- and di- two, tri- three, quadri- four, multi- and poly- many, oligo- little.
+## lose_the_mark
+Answering "sagittal" or "paramedian" to the plane that divides the body into two equal halves. This faculty's answer is the median plane, and it names sagittal as its synonym rather than as a wider class.
+Swapping medial and lateral. Medial is nearer to the median plane; the word to reason from is "median", not "middle of the limb".
+Defining proximal and distal against the body rather than the root of the limb. They are limb terms and nothing else.
+Describing the anatomical position with the palms facing backwards. The palms face forwards and the thumbs point laterally, which is what makes the forearm bones uncrossed.
+Using median where medial is meant. Only a midline structure is median.
+Giving the coronal plane an upper and lower division. It divides anterior from posterior; the horizontal plane divides upper from lower.
+Forgetting that lithotomy involves abduction as well as flexion. The book gives flexion of hip and knee and abduction of the hip joints together.
+## image_recommendations
+### diagram · A figure standing in the anatomical erect position with all five conditions annotated — erect, eyes forwards, limbs by the sides, palms forwards, thumbs lateral — with the three planes drawn through it as translucent sheets in three colours and each labelled by what it separates
+Purpose: The reference posture and the planes are one idea, and the whole chapter is a picture. A student who has seen the median plane as a sheet through a figure never confuses it with the coronal one; a student who has read four definitions often does.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 109-110, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
+### diagram · One outline figure carrying every term of position as a labelled arrow — anterior and posterior, superior and inferior, medial and lateral against a drawn median plane, proximal and distal along a limb with its root marked, superficial and deep on a cut through the arm
+Purpose: Each pair is defined against a reference the words do not name out loud. Drawing the reference — the median plane, the root of the limb, the skin — is what makes the definitions checkable rather than remembered.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's table on PDF page 111
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · The four clinical positions drawn as four small figures — supine, prone, lithotomy with hips and knees flexed and hips abducted, and lateral decubitus
+Purpose: These are names for postures, and a posture is a picture. Four small figures cost less page than four sentences and are recalled under exam pressure when the sentences are not.
+Priority: optional
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book PDF pages 109-110
+Rights: newly drawn for this product, or CC-BY / public domain
+## conflicts
+Sagittal as a synonym for median. The department book heads the first plane "Median plane (Sagittal)", treating the two as the same plane, and gives paramedian as the name for a parallel plane beside it. Most international texts use sagittal as the class name and midsagittal or median for the equal-halves plane. The department book's usage is followed here because it is what this faculty marks, and the divergence is recorded because a student reading around will meet the other convention.
+Which is the fourth plane. Dr. Galal's final revision does not cover this chapter at all — it opens at the Upper Limb and returns to the Basis chapters only for fascia, bone, joints and muscle. The department book is the only source of record for this leaf.
+## evidence_gaps
+Dr. Galal's revision does not cover this leaf. The department book is the sole source, so nothing in this article is corroborated by a second Kasr source.
+The department book gives no oblique plane, no term for rotation about an axis, and no movement vocabulary — flexion, extension, abduction, adduction, pronation, supination, circumduction — in this chapter. Those words are used from the very next chapter onwards and are never defined anywhere in the module's own text, although the question books use them in almost every stem.
+The department book gives no axes of movement, although the question books ask about the axis of pronation and supination directly.
+The MCQ bank's "Introduction" leaf is not a clean set: of its 54 stems, roughly half are upper-limb muscle and artery questions filed here by the extractor rather than questions on anatomical terminology. Only the terminology stems were used to shape this article, and the mis-filing is recorded so that a later pass re-files them rather than treating this leaf as unexpectedly large.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 1 "Introduction", PDF pages 109-111 — anatomical erect position and the four clinical positions; the four anatomical planes; the table of fourteen terms of position; the terms of number.
+scripts/kasr/extract/mcq-bank.json, leaf "Introduction" — 54 stems, of which the terminology items were used and the mis-filed upper-limb items were not.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here — and for this leaf in particular, because the whole article is vocabulary, an unreviewed Arabic title would be a claim about terminology rather than a label.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Introduction" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+## notes
+Three pages of department book support a leaf the question books return to every sitting, and every later chapter depends on the vocabulary. The article is short on purpose: there is nothing here that is not in the book, and padding it with movement terminology the book never defines would hide the gap that matters.
+
+---
+
+# Item
+## id
+ART-101-ANA-FASCIA
+## title
+Fascia
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T03-S02-M04
+## related_concepts
+CON-MSK-2145D2D62EC401
+CON-MSK-6CD9FFF51AE9CD
+## related_articles
+ART-101-ANA-DEEP-FASCIA: The deep half of this chapter taught on its own, with the five parts and their functions worked through one at a time.
+ART-101-ANA-ARM: The medial and lateral intermuscular septa, and the two nerves that pierce them, are what item two of the deep fascia list looks like in a real region.
+ART-101-ANA-FOREARM: The retinacula and the carpal tunnel are items three and one of the same list, and they are where fascia becomes a clinical problem.
+## aliases
+Fascia | Superficial fascia | Deep fascia | Internal fascia | Functions of superficial fascia | Parts of deep fascia | Fascia profunda
+## reading_time
+9
+## summary
+The department asks fascia as two lists that must not be mixed: six functions of the superficial fascia and five parts of the deep fascia, each part with its own function. Superficial fascia is loose connective tissue with fat and its list is about what a fatty mobile layer achieves. Deep fascia is compact regular collagen with no fat and its list is about what a strong sheet can be shaped into. Answering one question with the other list is the way most marks are lost here, and it is why the two are set out side by side below.
+## sections
+### Definition
+**Fascia** is a collection of connective tissue under the skin. It covers the body wall and the limbs, and it is of **three kinds**: **superficial**, **deep** and **internal**.
+
+**Superficial fascia** is a layer of **loose connective tissue** lying just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a **variable quantity of fat, more in females**: abundant in the **gluteal region, the anterior abdominal wall and the breast**; less in the **limbs**; and **absent in the eyelid, the penis and the scrotum**.
+
+**Deep fascia** is a **non-elastic membrane formed of compact and regular collagen fibres**. Its distribution is uneven and the unevenness is stated as fact to be learnt: it is **well defined in the limbs**, **very strong and thick in the palm and the sole**, and **absent in the face and in the anterior wall of the abdomen**.
+
+**Internal fascia** is named as the third kind and then never described. That is the source's own silence, recorded here rather than filled in.
+
+### Mechanism
+The difference between the two layers is a difference of tissue, and every item on both lists follows from it.
+
+Superficial fascia is **loose** connective tissue carrying **fat**. Loose tissue slides, so the skin moves over what lies beneath it. Fat insulates, so heat is kept in. Fat fills, so the surface of the body is smoothed and contoured. Loose tissue is easily traversed, so it is the layer nerves, vessels and lymphatics run through on their way to the skin. And because it is a roomy layer, structures can live in it — the muscles of facial expression, and the mammary gland.
+
+Deep fascia is **compact, regular collagen** and it is **non-elastic**. A sheet that does not stretch can hold things. So the deep fascia is not a layer with functions; it is a material that is shaped into **five different structures**, each of which has a function of its own. That is why the exam question is "parts **and** functions", and why an answer that describes deep fascia as a wrapping has answered one-fifth of it.
+
+The absence of fat from deep fascia and its presence in superficial fascia is also why fluid collects where it does. Oedema accumulates in the loose superficial layer, not in the compact deep one.
+
+### Key determinants
+**Six functions of the superficial fascia**, in the department book's own order.
+
+1. **Prevents heat loss** from the body — it acts as a **thermal insulator**.
+2. **Softens and smoothens the surface** of the body.
+3. **Facilitates the movement of the skin** over the underlying structures.
+4. Acts as the **medium conducting the nerves, vessels and lymphatics to the skin**.
+5. **Contains skin muscles**, as in the face — the muscles of expression.
+6. **Contains special types of glands**, as the **mammary gland**.
+
+Note what is *not* on the list: fat storage. The fat is the material the layer is made of; the functions are what the layer does with it. That distinction is the concept record's own stated pitfall for this leaf and it is worth stating twice.
+
+**Five parts of the deep fascia, each with its function.**
+
+1. **Formation of broad sheets** around groups of body muscles — to **give muscle attachment**, **fix the underlying structures in position**, and **help venous return**.
+2. **Formation of intermuscular septa and interosseous membranes** — they **separate different muscle groups having different actions and nerve supply**, and they **increase the surface area for muscle attachment**.
+3. **Formation of retinacula** — localised transverse thickened bands around the **wrist and ankle** joints, to **keep the tendons in position**.
+4. **Formation of the palmar aponeurosis** in the palm and the **plantar aponeurosis** in the sole — very thick strong layers that **protect the underlying vessels, nerves and tendons**.
+5. **Formation of fibrous sheaths around big vessels** — for example the **carotid sheath** in the neck, around the **common carotid artery, the internal jugular vein and the vagus nerve**.
+
+Four of the five are structural specialisations rather than coverings, and a question asking for parts and functions is asking for those four as much as for the first.
+
+The five parts are best learnt with one worked example each, because that is how the papers ask them: broad sheet — the **clavipectoral fascia**, pierced by the cephalic vein, the lateral pectoral nerve, the acromio-thoracic artery and the lymph vessels from the infraclavicular to the apical nodes; septum — the **medial and lateral intermuscular septa of the arm**, pierced by the ulnar and radial nerves respectively; interosseous membrane — the one between **radius and ulna**, which passes force from the radius to the ulna; retinaculum — the **flexor and extensor retinacula** at the wrist; aponeurosis — the **palmar aponeurosis**, into which palmaris longus inserts; vessel sheath — the **carotid sheath** with its three contents.
+
+### Clinical significance
+The department book gives four clinical points, and each is a consequence of one of the structural facts above.
+
+**Fascia decides where infection travels.** Knowledge of the arrangement of the deep fascia often explains the path an infection takes when it spreads from its primary site. The book's own example is in the neck, where infection can spread **from the floor of the mouth to the larynx**. The general rule is that a compartment bounded by non-elastic fascia confines pus until the pus finds the plane the fascia leaves open.
+
+**Fluid accumulates in the superficial fascia, and that is oedema.** The loose layer takes the fluid; the compact layer does not.
+
+**The plane of the superficial fascia is the surgical plane for mobilising skin.** Good mobilisation of the skin after an incision occurs at that plane, because it is where the skin is loosely attached to what lies beneath.
+
+**A surgical incision along a skin crease heals with minimal scar.**
+
+Two further consequences follow from the deep fascia's inelasticity and are named in this module's regional chapters rather than in this one. The **carpal tunnel** has a rigid bony floor and an inelastic fascial roof, so a rise of pressure inside it compresses the median nerve. And a **broad sheet around a muscle group helps venous return**, because a contracting muscle inside an unyielding sleeve squeezes the veins within it rather than simply bulging.
+
+### Common misconceptions
+**Answering a deep fascia question with the superficial fascia list.** Thermal insulation, smoothing the body contour and conducting nerves to the skin are the superficial layer's functions. Deep fascia insulates nothing; it has no fat.
+
+**Answering a superficial fascia question with "fat storage".** The fat is the material, not the function.
+
+**Treating deep fascia as a single wrapping.** Its examined content is five parts, four of them specialisations, and each carries a function of its own.
+
+**Assuming deep fascia is everywhere.** It is **absent in the face and in the anterior wall of the abdomen**, and its absence in the face is exactly why the muscles of facial expression live in the superficial fascia and insert into skin.
+
+**Assuming superficial fascia always contains fat.** Its fat is variable, more in females, and **absent in the eyelid, penis and scrotum**.
+
+**Calling the internal fascia the deep fascia.** They are named as separate kinds; the book describes only two of the three.
+## hold_these
+Fascia is connective tissue under the skin covering the body wall and limbs, of three kinds — superficial, deep and internal.
+Superficial fascia is loose connective tissue with a variable quantity of fat, more in females.
+Its fat is abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, and absent in the eyelid, penis and scrotum.
+The six functions of superficial fascia are thermal insulation, softening and smoothing the body surface, facilitating skin movement, conducting nerves, vessels and lymphatics to the skin, containing skin muscles, and containing special glands such as the mammary gland.
+Deep fascia is a non-elastic membrane of compact regular collagen fibres, well defined in the limbs, very strong and thick in palm and sole, and absent in the face and anterior abdominal wall.
+The five parts of deep fascia are broad sheets, intermuscular septa and interosseous membranes, retinacula, palmar and plantar aponeuroses, and fibrous sheaths around big vessels.
+Broad sheets give muscle attachment, fix underlying structures and help venous return.
+Septa and interosseous membranes separate muscle groups of different action and nerve supply and increase the area for attachment.
+Retinacula are localised transverse thickened bands at the wrist and ankle that keep the tendons in position.
+Palmar and plantar aponeuroses are thick strong layers protecting the underlying vessels, nerves and tendons.
+The carotid sheath is deep fascia round the common carotid artery, internal jugular vein and vagus nerve.
+Infection spreads along fascial planes; the book's example is the floor of the mouth to the larynx.
+Oedema accumulates in the superficial fascia; skin is mobilised surgically at that plane.
+## lose_the_mark
+Answering "parts and functions of deep fascia" with insulation and body contour. Those are superficial fascia's functions, and the two lists are the whole of this leaf.
+Giving fat storage as a function of superficial fascia. The fat is the material; the six functions are what the layer does with it.
+Describing deep fascia only as a wrapping. Four of its five parts are structural specialisations, and the marks are on those.
+Saying deep fascia is thick in the anterior abdominal wall. It is absent there, and absent in the face.
+Giving five functions of superficial fascia or six parts of deep fascia. The counts are six and five; a list of the wrong length loses the last item before it is read.
+Calling an aponeurosis a separate kind of fascia. It is one of the five things deep fascia forms.
+Listing the carotid sheath's contents as two. It has three: the common carotid artery, the internal jugular vein and the vagus nerve.
+Forgetting that the fat of the superficial fascia is absent in the eyelid, penis and scrotum. That absence is asked directly.
+## image_recommendations
+### comparison table · Superficial fascia against deep fascia in two columns — nature, distribution, fat content, what it forms, and its functions — with the six-item and five-item lists set side by side and the counts printed at the head of each
+Purpose: The whole leaf is two lists that students merge. Printing them side by side with their counts is the single most effective correction available, and it is a layout rather than a paragraph.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF pages 112-113 and Dr. Galal's revision page 62
+Rights: newly drawn for this product, or CC-BY / public domain
+Notes: Serves both concepts on this leaf — CON-MSK-2145D2D62EC401 ("List the functions of the superficial fascia", 5 marks) and CON-MSK-6CD9FFF51AE9CD ("Explain different parts and function of Deep fascia", 5 marks).
+### diagram · The five parts of deep fascia on one plate, one panel each — a limb cross-section with the encircling broad sheet and its intermuscular septa reaching bone, a radius and ulna with the interosseous membrane between them, a wrist with the retinaculum holding tendons down, a palm with the palmar aponeurosis, and a neck cross-section with the carotid sheath and its three contents labelled
+Purpose: The classification is by what the sheet is shaped into, and five shapes are five pictures. Five sentences produce answers of length four.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF page 113
+Rights: newly drawn for this product, or CC-BY / public domain
+Notes: Fulfils concept CON-MSK-6CD9FFF51AE9CD.
+### diagram · Transverse section through a limb showing skin, superficial fascia carrying fat with a cutaneous nerve and vein crossing it, deep fascia as a distinct encircling line with no fat in it, intermuscular septa running from its deep surface to bone, and the muscle compartments each septum creates tinted separately
+Purpose: Every functional difference between the two layers is a difference of tissue visible in one section — loose and fatty above, compact and fat-free below. The section makes the two lists derivable instead of memorable.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 112-113
+Rights: newly drawn for this product, or CC-BY / public domain
+Notes: Serves concept CON-MSK-2145D2D62EC401.
+## conflicts
+Order of the superficial fascia functions. The department book gives thermal insulation first, then softening and smoothing, then skin movement; Dr. Galal's table gives softening and smoothing first, then skin movement, then heat loss. The content is identical and order is not marked; the book's order is used.
+Coverage overlap with ART-101-ANA-DEEP-FASCIA. That article, in 101-ISK-anatomy.md, teaches the same leaf and claims the deep fascia concept CON-MSK-6CD9FFF51AE9CD. This article claims both concepts on the leaf, because the superficial fascia concept CON-MSK-2145D2D62EC401 was not claimed by any article before it, and because the department asks the two lists against each other. The overlap is deliberate and is recorded so a reviewer can decide whether to merge the two articles or keep the deep-fascia one as the long-form treatment.
+## evidence_gaps
+Neither source describes the internal fascia, although both name it as one of the three kinds. A student asked to contrast deep with internal fascia has nothing in the department text to answer from. This is the same gap the concept record CON-MSK-6CD9FFF51AE9CD already carries, restated here because it belongs to the article too.
+Neither source defines aponeurosis, tendon or synovial sheath, although the muscular-system chapter's own stated learning outcome promises to define all three.
+Neither source states why a broad sheet of deep fascia helps venous return; the function is asserted and not explained. The sentence here about a contracting muscle inside an unyielding sleeve is general anatomical reasoning and is named in field_notes.
+The department book's Fascia chapter gives no account of fascial spaces or of the named fascial planes of the limbs, although the question books ask the mid-palmar space and the suspensory ligament of the axilla under this leaf. Those are taught in the regional chapters instead, and a student revising this chapter alone would not meet them.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 2 "Fascia", PDF pages 112-114 — the three kinds of fascia; structure and six functions of superficial fascia; structure, distribution, five parts and their functions for deep fascia; the four clinical points.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 62 — "Fascia" table, "Q. Functions" for both layers, giving the same six and five items.
+scripts/kasr/extract/mcq-bank.json, leaf "Fascia" — 38 distinct question stems, of which the terminology and list items were used to shape the article and the regional retinaculum items were left to the forearm article.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+sections.Mechanism: The explanation of why each item on the superficial fascia list follows from the tissue being loose and fatty is reasoning added here to make the list learnable. The book states the functions without deriving them.
+sections.Clinical significance: The two closing paragraphs — the carpal tunnel as an inelastic roof over a rigid floor, and the muscle-pump account of venous return — draw on statements made in this module's regional chapters and on general anatomical reasoning. The Fascia chapter itself makes neither connection.
+## notes
+This leaf already has an article in 101-ISK-anatomy.md — ART-101-ANA-DEEP-FASCIA — which teaches the deep half in more depth. This one exists because the leaf's second concept, the superficial fascia's six functions, had no article claiming it, and because the department asks the two lists as a contrast. The overlap is recorded in conflicts for a reviewer to resolve.
+
+---
+
+# Item
+## id
+ART-101-ANA-SKELETAL-SYSTEM
+## title
+The skeletal system: bone and cartilage
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T05
+SYS-MSK-T01-S03-M01
+## related_concepts
+
+## related_articles
+ART-101-ANA-CARTILAGINOUS-JOINTS: The epiphyseal plate is a joint as well as a growth plate, and the classification of joints that follows from the cartilage types is set out there.
+ART-101-ANA-MUSCLE-ATTACHMENTS: Why a tendinous attachment raises a tubercle and a fleshy one does not — the reason the external features of bone are worth naming.
+ART-101-ANA-INTRODUCTION: The vocabulary of position that the terms for bony elevations and depressions are written in.
+## aliases
+Skeletal system | Bones | Classification of bones | Long bones | Growth of long bones | Arterial supply of bones | Cartilage | Hyaline cartilage | White fibrocartilage | Yellow elastic fibrocartilage
+## reading_time
+14
+## summary
+Three closed lists carry this leaf and each is asked as a separate five-mark question: eight functions of the skeleton, three ways of classifying bones — by position, by ossification, by shape — and four arteries of a long bone. The growth of a long bone is the thread that ties them together, because length comes from the epiphyseal plate, width comes from the periosteum, and the nutrient artery runs away from the growing end. Cartilage is a fourth list of three types, and the type is what a joint is named from.
+## sections
+### Definition
+**Bone** is a hard type of connective tissue which forms the **skeleton**. The department book opens with what the skeleton is for, and gives **eight functions**.
+
+1. Gives the **specific shape** to the body.
+2. Provides the **central axis** of the body, and the skeleton of both upper and lower limbs.
+3. **Protects the vital organs** — the skull protects the brain, the thoracic cage protects the heart and lungs.
+4. Provides **surface area for muscular attachment**.
+5. **Transmits and supports the body weight** — the vertebral column carries the weight of the head and trunk to the bony pelvis, then through the lower limb bones to the feet and to the ground.
+6. **Forms the joints**, making an important part of the locomotor system.
+7. **Forms the blood elements** in the bone marrow.
+8. **Stores calcium salts**.
+
+**Cartilage** is a rubbery type of connective tissue, tough and resilient, with **no blood vessels, nerves or lymphatics**, taking its nutrition **by diffusion from the vessels of the perichondrium**. It consists of mature cartilage cells (**chondrocytes**), fibres and matrix. It **resists compression forces and friction**, and has a **great capacity of growth by multiplication of the chondroblasts**, the immature cartilage cells.
+
+That avascularity is the whole of cartilage's clinical character: a tissue fed by diffusion heals slowly and grows by cell division rather than by deposition on a surface.
+
+### Mechanism
+**How a long bone grows** is the mechanism that organises the rest of the chapter, and it has two independent halves.
+
+**Growth in length** comes from the **epiphyseal plate**, a plate of **hyaline cartilage** lying between the epiphysis and the diaphysis, growing the bone by **proliferation of its cells**. When the bone becomes mature the plate stops dividing and **ossifies**, fusing epiphysis to diaphysis. Fusion is **under hormonal control** and occurs in **females about two years earlier** than in males. The plate at one end ossifies **two to three years earlier** than the plate at the other; the end that ossifies **last** is the **growing end**.
+
+**Growth in width** comes from the **periosteum**, the fibrous sheath around the shaft. Its **outer layer** is white fibrous tissue; its **inner layer** contains **osteoblasts** and is highly vascular. The osteoblasts of that inner layer lay bone down on the outside of the shaft, so the bone thickens.
+
+Two different tissues, two different mechanisms, two different directions — and a question that asks "how does a long bone grow" is asking for both.
+
+**How a long bone is supplied** follows the same geometry, and there are **four** arteries.
+
+*Nutrient artery* — enters the middle of the shaft through an **oblique nutrient foramen** and **runs away from the growing end**. It reaches the medullary cavity and divides into ascending and descending branches, and it supplies the **inner two-thirds of the shaft** and the bone marrow.
+*Metaphyseal arteries* — enter through minute foramina to supply the **metaphysis**, anastomosing with the nutrient artery and, **after ossification of the epiphyseal plate**, with the epiphyseal arteries.
+*Epiphyseal arteries* — many small arteries to the **epiphysis**, anastomosing with the metaphyseal arteries **after** the plate ossifies.
+*Periosteal arteries* — arise from the deep layer of the periosteum and supply the **outer third of the shaft**.
+
+The two-thirds and one-third split, and the fact that epiphyseal and metaphyseal circulations do not communicate until the plate has gone, are the parts of this list that are examined.
+
+### Key determinants
+**Classification of the skeleton** is asked three ways, and the three ways are independent of each other.
+
+**[I] By position in the body.** The **axial skeleton** is the skull, mandible, hyoid, sternum, ribs and vertebral column. The **appendicular (peripheral) skeleton** is the bones of the upper and lower limbs.
+
+**[II] By process of ossification.** **Intra-membranous ossification** — the bone develops directly from a connective tissue membrane (mesenchyme), beginning at one or more centres of ossification; examples are the **clavicle and the skull cap**. **Intra-cartilaginous ossification** — the mesenchyme first becomes a cartilage model, and the cartilage is then replaced by bone; examples are the **long bones, vertebrae, ribs and the base of the skull**.
+
+**[III] By shape**, six types.
+
+**Long bones** — in the upper and lower limbs. Two ends (**epiphyses**) and a shaft (**diaphysis**). The epiphysis is the expanded end, used for articulation and covered with a layer of **hyaline** articular cartilage. The diaphysis is a **tube of compact bone** with a central **medullary cavity** lined with **endosteum** and filled with **bone marrow**, covered by **periosteum**. In a growing bone the epiphysis and diaphysis are separated by the **epiphyseal cartilage**. The **metaphysis** lies just beneath the epiphyseal cartilage and is the **most active part** of the bone.
+
+**Short bones** — carpal and tarsal bones. **Spongy bone covered with a thin layer of compact bone.**
+
+**Flat bones** — the skull cap, the scapula and the ribs. **Two thin plates of compact bone with a middle layer of spongy bone**; in the skull the plates are the **outer and inner tables** and the spongy layer between them is the **diploe**.
+
+**Pneumatic bones** — bones containing air, mainly the skull bones around the nose (maxillary, frontal), whose air cavities are the **paranasal sinuses**. Structure: one air cavity, as the maxillary sinus, or multiple small air cells, as the mastoid air cells. **Three functions: they decrease the weight of the skull, they give resonance to the voice, and their highly vascular mucosa warms the inspired air.**
+
+**Irregular bones** — bones of irregular shape with projecting processes, such as the vertebrae. **Similar in structure to the short bones.**
+
+**Sesamoid bones** — small nodules of bone embedded in some muscle tendons; the **patella** is the largest, embedded in the tendon of quadriceps femoris in front of the knee. Function: they **diminish friction between tendons and the underlying bones**.
+
+**Terms of external features** are the vocabulary a dry bone is described in, and they are asked as definitions.
+
+*Elevations.* **Process** — an elongated projection with a **blunt** end. **Spine** — an elongated projection with a **pointed** tip. **Tubercle, tuberosity and trochanter** — localised roughly rounded elevations, the **tubercle smallest, the trochanter biggest, the tuberosity medium**. **Epicondyle** — a small elevation **above a condyle or articular surface**. **Hamulus** — a slender curved process resembling a **hook**. **Cornu** — a slender curved process resembling a **horn**. **Crest** — an elongated ridge usually on the top of a bone. **Ridge** — a linear elevation. **Line** — a slightly elevated or merely rough linear landmark. **Condyle** — a knuckle-shaped structure.
+
+*Depressions, grooves and canals.* **Fossa** — a depression on a surface; a **fovea** is a small fossa. **Notch** — a depression of limited size on a surface or border, with two limiting edges. **Incisura** — a cut or notch-like depression on a border. **Groove (sulcus)** — an elongated depression. **Fissure** — a long cleft between flat bones. **Hiatus** — a gap or cleft. **Foramen** — a hole through a bone. **Aperture** — a large hole. **Canal** — a track of some length with **open ends**. **Meatus** — a bony canal with **one closed end**. **Impression** — a slight indentation.
+
+**Sex differences in bones** are given as three.
+
+1. **Characters of bones** — male bones are heavy and thick, female bones light and thin.
+2. **Muscle attachment** — tubercles, tuberosities and ridges are more prominent in male bones.
+3. **The bony pelvis** — the cavity is **wider and shorter in the female**, adapted to pregnancy and delivery.
+
+**Three types of cartilage**, distinguished by matrix, cell number, site, and whether they ossify in old age.
+
+**Hyaline cartilage** (glass-like). The most widespread in the body. **Matrix translucent**; **cells numerous, small and rounded**. Sites: the **developing bones in the fetus**; the **epiphyseal plates**; the **articular cartilage** of joints; the **costal cartilages and xiphoid process**; the **larynx except the epiglottis**, and the tracheal rings. **Ossifies in old age** at certain sites — the larynx and the epiphyseal cartilages.
+
+**White fibrocartilage.** **Matrix opaque**, because it is rich in collagen bundles; **cells few in number**. Site: the **intervertebral discs**. **Does not ossify** in old age.
+
+**Yellow elastic fibrocartilage.** **Matrix yellow**, rich in yellow elastic fibres; **cells abundant**. Sites: the **tip of the nose**, the **auricle of the ear**, the **epiglottis**. **Does not ossify** in old age.
+
+Hold the three by matrix and by ossification, because those are the two columns that separate them cleanly: translucent and ossifying, opaque and permanent, yellow and permanent.
+
+### Clinical significance
+**The growing end and the nutrient foramen.** Because the nutrient artery runs **away from** the growing end, the direction of the oblique nutrient foramen on a dry bone tells you which end grew longest. It is a reading exercise, and it is asked as one.
+
+**The epiphyseal plate is a plane of weakness in a child.** A plate of hyaline cartilage crosses the whole width of a growing bone. That plane does not exist in an adult, which is why the pattern of injury at the end of a long bone differs between the two. The department book does not describe epiphyseal injury, and none is described here.
+
+**Why the metaphysis is the most active part.** It lies immediately beneath the epiphyseal plate, where the new bone is being made, and it is where the metaphyseal arteries enter. Activity and blood supply coincide.
+
+**Why an epiphysis can lose its blood supply.** Epiphyseal and metaphyseal arteries do not anastomose until the plate has ossified. Before that, an epiphysis has its own arteries and no collateral from the shaft. The department book states the timing of the anastomosis; it does not draw the clinical consequence, which is noted here as reasoning rather than as the book's teaching.
+
+**Why cartilage heals badly.** It has no blood vessels, nerves or lymphatics and is fed by diffusion from the perichondrium. The book states the avascularity; the consequence for repair is not in the text.
+
+**Why the pelvis is the bone that sexes a skeleton.** The three sex differences the book gives are size, muscle marking and pelvic shape, and only the third is a difference of function rather than of degree.
+
+**Why paranasal sinuses matter.** They lighten the skull, give resonance and warm inspired air. Their mucosa is continuous with that of the nose, which is why nasal infection reaches them — a connection the module's own text does not make, and which is left unasserted here.
+
+### Common misconceptions
+**"Long" does not mean long.** A long bone is defined by having two epiphyses and a diaphysis, not by its length. The **clavicle** is a long bone, and so are the metacarpals and phalanges.
+
+**The clavicle is a long bone that ossifies in membrane.** The two classifications are independent, and this is the standing example that proves it: shape says long, ossification says intra-membranous. Reading one classification off the other is the commonest error on this leaf.
+
+**Irregular bones are not a structural type of their own.** They are similar in structure to the short bones — spongy bone with a thin compact covering.
+
+**Growth in length and growth in width are not the same process.** Length is the epiphyseal plate, a cartilage; width is the periosteum, a fibrous sheath with osteoblasts. Answering "the epiphyseal plate" to a question about growth in width loses the whole item.
+
+**Hyaline is not only articular cartilage.** It is the most widespread type and appears in the fetal skeleton, the growth plates, the costal cartilages and most of the larynx as well as on joint surfaces.
+
+**Not all cartilage ossifies with age.** Only hyaline does, and only in certain sites; white fibrocartilage and yellow elastic fibrocartilage do not.
+## hold_these
+The eight functions of the skeleton: shape, central axis, protection of viscera, muscle attachment, transmission of weight, formation of joints, formation of blood elements, storage of calcium salts.
+Axial skeleton: skull, mandible, hyoid, sternum, ribs, vertebral column. Appendicular: the bones of the two limbs.
+Intra-membranous ossification is direct from connective tissue membrane — clavicle and skull cap. Intra-cartilaginous ossification passes through a cartilage model — long bones, vertebrae, ribs, base of skull.
+Six shapes of bone: long, short, flat, pneumatic, irregular, sesamoid.
+A long bone has two epiphyses and a diaphysis; the metaphysis lies just below the epiphyseal cartilage and is the most active part.
+Short bones are spongy bone with a thin compact covering; irregular bones are built the same way.
+Flat bones are two plates of compact bone with spongy bone between; in the skull the plates are the tables and the spongy layer is the diploe.
+Pneumatic bones decrease the weight of the skull, give resonance to the voice, and warm inspired air.
+The patella is the largest sesamoid bone, in the tendon of quadriceps femoris; sesamoid bones diminish friction between tendon and bone.
+A long bone grows in length from the epiphyseal plate of hyaline cartilage and in width from the osteoblasts of the inner layer of the periosteum.
+Epiphyseal fusion is under hormonal control and happens about two years earlier in females; the end that ossifies last is the growing end.
+The nutrient artery enters through an oblique foramen, runs away from the growing end, and supplies the inner two-thirds of the shaft; periosteal arteries supply the outer third.
+Epiphyseal and metaphyseal arteries anastomose only after the epiphyseal plate has ossified.
+Cartilage has no blood vessels, nerves or lymphatics and is nourished by diffusion from the perichondrium.
+Hyaline cartilage has a translucent matrix and numerous small rounded cells, is the most widespread type, and ossifies in old age in the larynx and epiphyseal cartilages.
+White fibrocartilage has an opaque matrix rich in collagen and few cells, is found in the intervertebral discs, and does not ossify.
+Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, is found in the tip of the nose, auricle and epiglottis, and does not ossify.
+## lose_the_mark
+Reading one classification of bone off another. The clavicle is a long bone that ossifies in membrane; shape and ossification are independent lists.
+Calling the clavicle a short bone because it is short. A long bone is defined by two epiphyses and a diaphysis, not by length.
+Answering "epiphyseal plate" for growth in width. Width comes from the periosteum's osteoblasts; the plate does length.
+Giving the nutrient artery the outer third of the shaft. It supplies the inner two-thirds; the periosteal arteries supply the outer third.
+Saying the nutrient foramen points towards the growing end. It runs away from it, which is how the growing end is identified on a dry bone.
+Naming articular cartilage as the only site of hyaline cartilage. It is also the fetal skeleton, the epiphyseal plates, the costal cartilages and most of the larynx.
+Saying cartilage ossifies in old age without qualification. Only hyaline does, and only at certain sites.
+Giving the intervertebral disc as elastic cartilage. It is white fibrocartilage — opaque matrix, few cells, no ossification.
+Listing seven functions of the skeleton. The book gives eight, and blood formation and calcium storage are the two most often dropped.
+Giving pneumatic bones two functions. There are three: weight, resonance, and warming inspired air.
+Describing the metaphysis as part of the epiphysis. It lies in the upper and lower parts of the diaphysis, just beneath the epiphyseal cartilage.
+## image_recommendations
+### diagram · Coronal section of a growing long bone with epiphysis, epiphyseal plate, metaphysis, diaphysis, medullary cavity, endosteum and periosteum labelled, drawn beside the same bone after fusion so the plate has become a line, with growth in length arrowed at the plate and growth in width arrowed at the periosteum
+Purpose: Growth is two mechanisms in two places and one drawing carries both arrows. The before-and-after pairing is also what makes the word "temporary" mean something.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 116-118 and Dr. Galal's revision pages 64 and 66
+Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
+### diagram · The four arteries of a long bone on one longitudinal section — nutrient artery entering obliquely through the mid-shaft and running away from the growing end, metaphyseal arteries at both metaphyses, epiphyseal arteries in both epiphyses, periosteal arteries entering the outer third — with the inner two-thirds and outer third of the shaft tinted differently and the epiphyseal plate drawn as a barrier between the epiphyseal and metaphyseal circulations
+Purpose: The examined content is a set of territories and one barrier, and the barrier is the reason the anastomosis waits for ossification. A drawing states it; a list of four arteries does not.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF page 118 and Dr. Galal's revision page 66
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · The six shapes of bone as six panels with a named example in each — long bone sectioned, carpal short bone, skull cap flat bone showing outer and inner tables with diploe, maxilla as a pneumatic bone with its sinus, vertebra as an irregular bone, patella in the quadriceps tendon
+Purpose: A six-item classification with a structural description each is a set of pictures pretending to be a list, and the panels also stop irregular and short bones being read as different in structure when the book says they are the same.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF pages 116-118 and Dr. Galal's revision page 64
+Rights: newly drawn for this product, or CC-BY / public domain
+### comparison table · The three cartilages in three columns — matrix, cell number, sites, ossification in old age — with a small histological sketch of each matrix at the head of its column
+Purpose: The three are told apart on two columns only, matrix and ossification, and printing all four rows side by side is what stops the sites being attached to the wrong type.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF pages 120-121
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · A plate of named bony features on one or two dry bones — process, spine, tubercle, tuberosity, trochanter, epicondyle, hamulus, cornu, crest, ridge, line, condyle, fossa, fovea, notch, groove, fissure, hiatus, foramen, aperture, canal, meatus, impression — each labelled where it actually occurs
+Purpose: These are definitions of shapes, and shapes are learnt by being pointed at. Twenty-three prose definitions are unusable; twenty-three labels on real bone are a single revision page.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF page 119
+Rights: newly drawn for this product, or CC-BY / public domain
+## conflicts
+Whether the cartilage model dissolves. The department book says the mesenchyme "is changed at first into a cartilage model, and then the cartilage is changed into bone"; Dr. Galal says the cartilage "dissolves & disappears to be replaced by bones". These describe the same process with different emphasis, and the book's wording is used.
+Where the metaphysis lies. The department book says it "lies in the upper and lower parts of the long bone just beneath the epiphyseal cartilage"; Dr. Galal says "upper & lower parts of diaphysis just below epiphyseal cartilage". Dr. Galal's is the more precise of the two and is followed, because "part of the long bone" would allow a student to place it in the epiphysis.
+Functions of the skeleton, counted. The department book gives eight lettered functions; Dr. Galal compresses them into five numbered ones by pairing joints with muscle attachment and blood formation with calcium storage. The book's eight are taught, because a five-mark question marked against eight items rewards the longer list.
+## evidence_gaps
+Neither source distinguishes red from yellow bone marrow, or says where each is found in the adult, although the question books ask that distinction repeatedly on this leaf — which bones hold red marrow in an adult, and what yellow marrow does under stress. The department book says only that the medullary cavity is "filled with bone marrow (soft vascular tissue)". A student revising this chapter has nothing to answer those items with.
+Neither source describes the microscopic structure of bone — osteon, lamella, canaliculus, osteocyte, osteoclast — anywhere in the Anatomy part. The histology part of the same book covers connective tissue but the two are not cross-referenced.
+Neither source describes epiphyseal injury, fracture healing or any bone disease, although the question books carry clinical stems on this leaf.
+The department book states that epiphyseal and metaphyseal arteries anastomose only after the plate ossifies but draws no consequence from it. The clinical paragraph here reasons from the statement and is named in field_notes.
+No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Skeletal system" exists yet in either concept batch, although the question books carry 101 distinct stems on this leaf — the largest count of any Basis leaf. related_concepts is empty for that reason.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 3 "Skeletal system", PDF pages 115-121 — functions of the skeleton; classification by position, by ossification and by shape with six types; growth of bones in length and width; arterial supply of bones; terms of external features; sex differences; properties and three types of cartilage.
+Dr. Galal final revision (src_fc7ea5960363431009ed), pages 62, 64 and 66 — "Q. Functions" of bone, "Q. Classification", the six-shape comparison table, "Q. Growth of long bones", "Q. Arterial supply of long bones".
+scripts/kasr/extract/mcq-bank.json, leaf "Skeletal system" — 101 distinct question stems, read for what the examiners ask; the marrow items are what surfaced the gap recorded in evidence_gaps.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+relatedConcepts: No concept whose module_subject is this leaf exists yet in either concept batch. The field is left empty rather than filled from the Articular system leaf next door, whose concepts belong to a different article, and the gap is named in evidence_gaps.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+sections.Clinical significance: Four paragraphs reason beyond the text — the epiphyseal plate as a plane of weakness, the epiphysis without collateral supply before ossification, the poor healing of an avascular cartilage, and the continuity of sinus mucosa with the nose. Each states a consequence of something the book asserts; the book itself draws none of them.
+## notes
+This leaf carries 101 question-book stems and no concept. The article is written to the book's own three classifications and four-artery list, because those are what the five-mark written questions ask, and the marrow gap is recorded because it is the single most-asked thing on the leaf that the faculty's own chapter never teaches.
+
+---
+
+# Item
+## id
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## title
+The cardiovascular system
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-CVS-T01-S01
+SYS-CVS-T01-S02-M02
+## related_articles
+ART-101-ANA-ELBOW-JOINT: The anastomosis around the elbow is the department book's own worked example of anastomosis by terminal arterioles.
+ART-101-ANA-SHOULDER-REGION: The anastomosis around the scapula, the collateral route that keeps the limb alive when the axillary artery is blocked.
+ART-101-ANA-VEINS-OF-UPPER-LIMB: The superficial and deep veins of a limb, and the venae comitantes this chapter's principles describe in general.
+## related_concepts
+
+## aliases
+Cardiovascular system | Heart | Blood circulation | Systemic circulation | Pulmonary circulation | Portal circulation | Arterial anastomosis | End arteries | Venous return | Arteriovenous shunt
+## reading_time
+13
+## summary
+This chapter is the general principle behind every named vessel in the module. Three circulations, three kinds of arterial anastomosis, one list of end arteries where anastomosis fails, and one list of the forces that push venous blood back to the heart. The examined heart of it is a single distinction: an anastomosis opens when the main artery closes **gradually** and does not open when it closes **suddenly** — which is why a slow block leaves a limb alive and a faulty ligature kills it.
+## sections
+### Definition
+The **cardiovascular system** consists of the **heart** and the **blood vessels**.
+
+**The heart** lies **behind the sternum and costal cartilages**, extending from the **second to the sixth costal cartilages**. About **two-thirds of it lies to the left** and **one-third to the right** of the median plane. It is covered by two kinds of pericardial sac, **fibrous and serous**.
+
+It has **four chambers**, two atria and two ventricles, and the sequence through them is the whole of the systemic and pulmonary circulations.
+
+*Right atrium* — receives **deoxygenated** blood from all parts of the body by the **superior and inferior venae cavae**, and passes it to the right ventricle through the **tricuspid valve**.
+*Right ventricle* — sends deoxygenated blood through the **pulmonary valve** to the **pulmonary trunk**, which divides into right and left pulmonary arteries, one for each lung, where the blood is oxygenated.
+*Left atrium* — receives **oxygenated** blood from both lungs through **four pulmonary veins** and pumps it to the left ventricle through the **mitral valve**.
+*Left ventricle* — pumps oxygenated blood to all parts of the body through the **aortic valve** into the aorta and its branches.
+
+The rule that follows is stated separately because it is asked separately: **the right half of the heart contains deoxygenated (venous) blood and the left half contains oxygenated (arterial) blood.**
+
+**Arteries** are the vessels which carry blood **from the heart** to other regions of the body. They carry oxygenated blood **except the pulmonary and umbilical arteries**, which carry deoxygenated blood. They are classified by size and structure into **large, medium-sized and small** arteries.
+
+### Mechanism
+**Three circulations** are named, and each is a closed loop described by where the exchange happens.
+
+**Systemic circulation.** Oxygenated blood in the **left ventricle** passes through the aorta and its branches to all the tissues, where exchange of gases and materials occurs. Deoxygenated blood is collected by small veins, then large veins, and finally by the **superior and inferior venae cavae** into the **right atrium**, and passes to the right ventricle, where this circulation ends and a new cycle starts.
+
+**Pulmonary circulation.** Deoxygenated blood from the **right ventricle** passes through the pulmonary artery and its two branches to both lungs, where exchange of gases occurs. Oxygenated blood returns to the **left atrium** by the **four pulmonary veins**, then to the left ventricle.
+
+**Portal circulation.** Venous blood from the **stomach, spleen, pancreas and intestine** is collected into the **portal vein**, which enters the liver **through the porta hepatis** and divides into many branches ending in **liver sinusoids**. Blood leaves the sinusoids by the **hepatic veins**, which end in the **inferior vena cava**. The purpose of the detour is stated: to **metabolise undigested nutrients and to detoxify the blood**.
+
+A portal circulation is therefore a venous system that begins in capillaries and ends in capillaries, and this is the one the module names.
+
+**Arterio-venous connections.** Arteries and veins are connected by one of three structures.
+
+**Capillaries** — narrow, of uniform diameter.
+**Sinusoids** — wide, of irregular diameter, with dilatations and constrictions.
+**Arteriovenous shunts** — direct connections between small arteries and the accompanying veins.
+
+The **arteriovenous shunt (anastomosis)** is asked in its own right. Its **sites** are the **external ear, the nail bed and the palmar aspects of the digits; the tongue; the thyroid gland; the penis; and the alimentary tract**. Its **characters** are that it is straight or coiled, surrounded by a **thick muscular coat**, and supplied by **sympathetic fibres** which control its opening and closure. Its **functions** are the **regulation of body temperature and local heat** — when it opens, blood passes from artery to vein, decreasing the local heat — the **regulation of food absorption**, and a role in **erection**.
+
+### Key determinants
+**Arterial anastomosis** is the connection between arteries, present **mainly around the joints**. Its **three functions** are given as a list.
+
+1. It **increases the blood supply** to some organs, for example the stomach.
+2. It **equalises pressure** in the communicating arteries.
+3. It **maintains blood flow** to a part if its main artery is obstructed.
+
+**Three types of arterial anastomosis** are named, each with its own example.
+
+**End-to-end anastomosis** — the two ends of two arteries are connected together forming an **arch**. Examples: the anastomoses in the **hand and foot**, between the **gastric arteries**, between the **arteries of the gut**, and between the **anterior and posterior intercostal arteries**.
+
+**Anastomosis by terminal arterioles** — it lies **around the joints**, between the branches of the main artery **above** the joint and its branches **below** it. In case of **gradual obstruction** it will open to maintain the blood supply below the obstruction. Example: the **anastomosis around the elbow joint**.
+
+**Anastomosis by conversion** — two arteries **converge and unite** together. Example: the two **vertebral arteries**.
+
+**End arteries** are arteries which **do not anastomose** with adjacent arteries, and their obstruction leads to **necrosis** of the tissue they supply. The book's list is five: the **central retinal artery** to the retina; the **renal artery** to the kidney; the **splenic artery** to the spleen; the **central branches of the cerebral arteries**; and the **pulmonary arteries**.
+
+**Factors helping venous return** are given by region, and the division is part of the answer.
+
+**From the upper part of the body**, venous blood is drained mainly by **gravity**.
+
+**From the lower limb**, five factors: **venous valves**; **arterial pulsations**; **muscular contractions (the muscle pump)**; the **deep fascia surrounding the muscle groups**; and **negative intrathoracic pressure**, drawing blood from the abdomen, head and neck into the thorax.
+
+**From the abdomen, pelvis and thorax**, venous return is by the **suction mechanism of negative intrathoracic pressure**.
+
+The deep fascia's appearance on that list is worth pausing on, because it ties this chapter to the fascia chapter: a muscle contracting inside a non-elastic sleeve squeezes the veins within it, and that is why the deep fascia is a factor in venous return rather than merely a covering.
+
+### Clinical significance
+**Why a joint can be bent without cutting off the limb.** All large arteries crossing a joint are liable to be **kinked** during movement, but distal flow is not interrupted, because an adequate anastomosis is usually present between branches arising **proximal and distal** to the joint.
+
+**Why a faulty ligature kills a limb and a slow block does not.** **Sudden closure** of the main artery proximal to an anastomosis — as in faulty ligation — leads to the **death of the part distal to it, because the anastomosis does not open in sudden closure**. Gradual obstruction gives the terminal arterioles time to open. This single contrast is the most examinable sentence in the chapter and the reason the anastomoses around the scapula and around the elbow are taught at all.
+
+**Why an end artery is different in kind.** It has no neighbour to open. Obstruction of the central retinal artery, the renal artery, the splenic artery, a central branch of a cerebral artery, or a pulmonary artery kills the territory outright, whatever the speed of the block.
+
+**Varicose veins.** A varicosed vein is one that has a **larger diameter than normal** and is **elongated and tortuous**. Causes named: **hereditary weakness of the vein walls**, **incompetent valves**, and **elevated intra-abdominal pressure** from multiple pregnancies or abdominal tumours. As a result of high pressure, **venous blood escapes from the deep to the superficial veins** and produces the varicosity. They occur commonly in the **lower limb**.
+
+**Stagnation and thrombosis.** Stagnation of blood in varicose veins may cause **thrombosis**, for example **deep venous thrombosis in the calf muscles**.
+
+**Why the arteriovenous shunt is a thermoregulator.** It is surrounded by a thick muscular coat under sympathetic control, and it sits in the ear, the nail bed, the pulp of the fingers and the tongue — the surfaces where heat is lost. Opening it short-circuits blood past the capillary bed and drops the local temperature.
+
+### Common misconceptions
+**Not all arteries carry oxygenated blood.** The **pulmonary and umbilical arteries** carry deoxygenated blood. An artery is defined by direction — away from the heart — not by content.
+
+**The three types of anastomosis are not three names for one thing.** End-to-end forms an arch, terminal-arteriole anastomosis lies around a joint and opens on gradual obstruction, and anastomosis by conversion is two vessels becoming one. The example fixes the type.
+
+**An anastomosis is not a guarantee.** It opens on gradual obstruction, not on sudden closure, and the exam question is usually about the sudden case.
+
+**A portal circulation is not "the circulation of the portal vein" only.** It is a venous system that starts and ends in capillaries; the hepatic portal system is the example this module names.
+
+**Venous return from the upper part of the body is not the muscle pump.** The book gives **gravity** for the upper part and reserves the five-factor list for the lower limb.
+
+**The spleen's artery is an end artery.** Students who have learned that the spleen has a rich blood supply are surprised by it; the book lists it with the retina and the kidney.
+## hold_these
+The heart lies behind the sternum and costal cartilages from the second to the sixth costal cartilage, two-thirds to the left of the median plane and one-third to the right.
+The right half of the heart carries deoxygenated blood and the left half oxygenated blood.
+Right atrium to right ventricle through the tricuspid valve; right ventricle to pulmonary trunk through the pulmonary valve; left atrium to left ventricle through the mitral valve; left ventricle to aorta through the aortic valve.
+The left atrium receives four pulmonary veins.
+Arteries carry blood away from the heart and carry oxygenated blood except the pulmonary and umbilical arteries.
+The three circulations are systemic, pulmonary and portal; the portal circulation carries blood from stomach, spleen, pancreas and intestine to the liver through the porta hepatis and out by the hepatic veins to the inferior vena cava.
+Arterial anastomosis increases blood supply, equalises pressure, and maintains flow past an obstruction.
+Three types of arterial anastomosis: end to end forming an arch, by terminal arterioles around a joint, and by conversion where two arteries unite.
+The anastomosis around the elbow joint is the example of anastomosis by terminal arterioles; the two vertebral arteries are the example of anastomosis by conversion.
+An anastomosis opens on gradual obstruction and does not open on sudden closure, which is why faulty ligation kills the part distal to it.
+End arteries: central retinal, renal, splenic, central branches of cerebral arteries, and the pulmonary arteries.
+Venous return from the upper body is mainly by gravity.
+Venous return from the lower limb is by venous valves, arterial pulsations, muscular contraction, deep fascia around the muscle groups, and negative intrathoracic pressure.
+Arteries and veins are connected by capillaries, sinusoids or arteriovenous shunts.
+Arteriovenous shunts lie in the external ear, nail bed and palmar aspects of the digits, tongue, thyroid, penis and alimentary tract, have a thick muscular coat under sympathetic control, and regulate local heat, food absorption and erection.
+A varicose vein is larger than normal, elongated and tortuous; causes are hereditary wall weakness, incompetent valves and raised intra-abdominal pressure.
+## lose_the_mark
+Saying all arteries carry oxygenated blood. The pulmonary and umbilical arteries do not, and an artery is defined by direction of flow.
+Answering that an anastomosis protects a limb from a sudden arterial occlusion. It opens on gradual obstruction only; the book says so explicitly and the exam asks the sudden case.
+Naming the three types of anastomosis without their examples. The type is identified by the example — arch, joint, or two vessels converging.
+Leaving the splenic artery or the pulmonary arteries off the end-artery list. Both are on the book's list of five.
+Giving the muscle pump as the reason venous blood returns from the head and neck. That is gravity; the five-factor list belongs to the lower limb.
+Forgetting the deep fascia in the venous return list. It is one of the five, and it links this chapter to the fascia chapter.
+Giving the left atrium two pulmonary veins. It receives four.
+Describing the portal vein as ending in the inferior vena cava. It ends in the liver sinusoids; it is the hepatic veins that end in the inferior vena cava.
+Calling a sinusoid a wide capillary of uniform diameter. Its defining feature is an irregular diameter with dilatations and constrictions.
+## image_recommendations
+### diagram · The three circulations on one figure — systemic, pulmonary and portal — drawn as three loops through a four-chambered heart, oxygenated blood in one colour and deoxygenated in another, with the four valves labelled at their crossings and the portal loop running from gut and spleen through the liver sinusoids to the hepatic veins
+Purpose: The chapter's whole content is a route with colour changes at fixed points, and a route is a diagram. Colouring the pulmonary artery as deoxygenated is what settles the misconception the question books test.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 141-143
+Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
+### diagram · The three types of arterial anastomosis as three panels — two arteries meeting end to end in an arch, a joint with branches from above and below meeting through terminal arterioles, and two arteries converging to unite — each labelled with the book's own example
+Purpose: These are three shapes, and the type is decided by the shape rather than by the words. Three panels also carry the examples where a list would drop them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF page 144
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · One artery crossing a joint drawn twice — gradual narrowing with the terminal arteriole anastomosis opened and flow maintained below, and sudden ligation with the anastomosis closed and the distal part shaded as dead
+Purpose: The single most examined sentence in the chapter is a contrast between two time courses, and two panels of the same vessel are the only way to show a time course in a still image.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn, following the department book PDF page 145
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · The factors helping venous return drawn on one lower limb and trunk — valves in a vein, an artery pulsating beside it, a calf muscle contracting inside its deep fascial sleeve, and the thorax with negative pressure arrowed — with a separate small panel for the head and neck labelled gravity
+Purpose: Five mechanisms acting on one column of blood is a picture of forces, and separating the upper body's single factor into its own panel prevents the two lists being merged.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF pages 145-146
+Rights: newly drawn for this product, or CC-BY / public domain
+## conflicts
+Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## evidence_gaps
+Dr. Galal's revision covers none of the Cardiovascular system chapter, so this leaf has one source only.
+The department book gives the heart's position, chambers and valves and nothing else: no surfaces, borders or apex beat, no coronary arteries, no conducting system, no cardiac veins. A question book stem on the coronary circulation has nothing in this chapter to answer from, and the module's own Histology part does not cover it either.
+The book names the fibrous and serous pericardium and does not describe either.
+The book states that arteries are classified by size and structure into large, medium and small, and then describes none of the three. A question asking how an elastic artery differs from a muscular one cannot be answered from this text.
+The book gives no account of capillary exchange, blood pressure, or the structure of a vein wall.
+The MCQ bank's "Cardiovascular system" leaf is not a clean set: of its 85 stems, most are upper-limb artery questions — the scapular anastomosis, the brachial artery, the carpal arches — filed here by the extractor rather than questions on the Basis chapter. Only the general-principle stems were used to shape this article, and the mis-filing is recorded so a later pass can re-file them.
+No concept whose module_subject is this leaf exists yet in either concept batch. related_concepts is empty for that reason.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 7 "Cardiovascular system", PDF pages 140-147 — site and chambers of the heart; the three circulations; arteries and their classification; arterial anastomosis, its functions and three types; end arteries; factors helping venous return; arterio-venous connections and the arteriovenous shunt; varicose veins and stagnation.
+Department Book Module 101, Chapter 4 "Axilla", PDF pages 189-190, and Chapter 5 "Arm", PDF page 204 — the scapular and elbow anastomoses, which are this chapter's principles worked out in a region and are taught in their own articles.
+scripts/kasr/extract/mcq-bank.json, leaf "Cardiovascular system" — 85 stems, of which the general-principle items were used and the mis-filed upper-limb items were not.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system" exists yet in either concept batch. The field is left empty rather than filled with an upper-limb vascular concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+subject: Filed under cvs rather than msk because the material is cardiovascular, even though the leaf sits inside an Anatomy module whose other Basis leaves are msk.
+sections.Common misconceptions: The remark that a portal circulation is a venous system beginning and ending in capillaries is general anatomical knowledge; the department book describes the hepatic portal system without defining the class.
+sections.Clinical significance: The closing paragraph explaining the arteriovenous shunt as a thermoregulator assembles the book's separate statements about site, muscular coat, sympathetic control and local heat; the book does not draw them together.
+## notes
+Eight pages of department book, no second Kasr source, and a leaf whose question-bank entries are mostly upper-limb vessels filed here in error. The article teaches the chapter's general principles in full, because those principles are what the regional anastomosis questions in the rest of the module rest on.
+
+---
+
+# Item
+## id
+ART-101-ANA-LYMPHATIC-SYSTEM
+## title
+The lymphatic system
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-IMM-T01
+SYS-HEM-T01
+## related_concepts
+
+## related_articles
+ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes and the lymphatic drainage of the breast — this chapter's principles in the region the papers ask them from.
+ART-101-ANA-VEINS-OF-UPPER-LIMB: The supratrochlear and infraclavicular nodes and the lymph vessels of the limb, which follow the two superficial veins.
+ART-101-ANA-CARDIOVASCULAR-SYSTEM: The venous system the two lymph ducts empty into, and the negative intrathoracic pressure that moves lymph as well as blood.
+## aliases
+Lymphatic system | Lymph vessels | Lymph nodes | Thoracic duct | Right lymphatic duct | Thymus | Spleen | Lymph
+## reading_time
+11
+## summary
+The lymphatic system is three parts — vessels, lymphoid tissue and free cells — and one drainage map with a lopsided split: the right lymphatic duct takes one quadrant of the body and the thoracic duct takes the other three. Everything else on this leaf is short closed lists: four characters of a lymph vessel, four places lymph vessels do not exist, four forces that move lymph, three functions of a lymph node, four functions of the spleen. The one sentence to carry away is the book's own: lymph nodes filter lymph, the spleen filters blood.
+## sections
+### Definition
+The **lymphatic system** is the system responsible for the circulation of **lymph** — a **clear, colourless fluid, rich in protein** — from the **tissue spaces (intercellular spaces)** to the **blood stream**.
+
+It consists of **three parts**.
+
+**(a) Lymph vessels.**
+**(b) Lymphoid tissues** — lymph nodes, spleen, tonsils and thymus.
+**(c) Free cells (lymphocytes)** — including B and T lymphocytes.
+
+That third item is the whole of what the Anatomy part of this book says about lymphocytes, and it matters for what follows.
+
+### Mechanism
+**Lymph vessels** are fine vessels present in the tissue spaces, uniting to form larger vessels that join the lymph nodes. **Two types** are named by their relation to a node.
+
+**Afferent lymph vessels** open into the **periphery of the lymph node at its convex border** and carry lymph **to** it.
+**Efferent lymph vessels** emerge from the **hilum** of the node and carry lymph **away** from it.
+
+All the lymph vessels in the body are collected into **two large lymph ducts at the root of the neck**, and the division between them is the map the whole chapter turns on.
+
+**The thoracic duct** drains the **left side of the head and neck, the left upper limb, the left half of the thorax, and the whole body below the diaphragm**.
+**The right lymphatic duct** drains the **right side of the head and neck, the right half of the thorax, and the right upper limb**.
+
+The two ducts open into two large veins at the root of the neck. Three quarters of the body to one duct and one quarter to the other is the asymmetry to hold, and the quadrant that goes right is the right upper quadrant above the diaphragm.
+
+**Four characters of the lymph vessels**, as the book gives them.
+
+1. They **begin blindly** in the tissue spaces.
+2. Their **walls contain wide pores** which allow the passage of **fat and proteins**.
+3. They have **many valves**, which make the flow of lymph **one-directional**.
+4. Lymph vessels are **absent** in the **brain and spinal cord (CNS)**, **bone marrow**, and **avascular structures** such as **cartilage, cornea and hair**.
+
+Every one of those four is a consequence of what lymph is for. A vessel that begins blindly can collect from a space rather than from another vessel; wide pores are what let protein and fat back into circulation when a capillary cannot take them; valves are needed because there is no pump; and tissues with no blood vessels have nothing to drain.
+
+**Four factors help the flow and movement of lymph**, and they are the venous-return list minus gravity and plus one.
+
+1. **Arterial pulsations.**
+2. **Muscular contractions.**
+3. **Intrathoracic negative pressure.**
+4. **Peristaltic movement of the intestine.**
+
+There is no lymphatic heart. Everything on that list is a force borrowed from something else that is already moving.
+
+### Key determinants
+**Lymph nodes.** **Shape** — oval or kidney-shaped small bodies. **Site** — along the course of the lymph vessels, in groups, in **fixed sites**.
+
+- At the **roots of the limbs**: **axillary** for the upper limb, **inguinal** for the lower limb.
+- In the **neck**, on both its sides and at its junction with the head.
+- In the **chest**: close to the trachea and bronchi, and in the chest wall.
+- Close to the **abdominal and pelvic organs**, near the big vessels.
+- Around the **abdominal aorta** and the blood vessels of the pelvis.
+
+**Three functions of a lymph node.**
+
+1. **Filtration** of lymph from bacteria and foreign bodies.
+2. **Formation and production of lymphocytes.**
+3. **Defence** — they are the sites of interaction between micro-organisms (antigens) and phagocytes and lymphocytes.
+
+**The thymus gland** is a lymphatic organ with an **endocrine function**: it secretes **thymosine**. It is formed of **two lobes** and lies in the **thorax just behind the sternum**. Its size **increases until puberty** and then **decreases with advancing age**.
+
+**The spleen** is a **hemolymphatic organ** in the **upper left part of the abdominal cavity**, beneath the **left dome of the diaphragm**, **behind the stomach**, protected by the **ninth, tenth and eleventh ribs**. Its **size**: it is **not palpable unless enlarged at least three times**.
+
+**Four functions of the spleen.**
+
+1. In the **fetus**, it has a role in the **formation of blood cells**.
+2. In the **adult**, it **stores and concentrates blood cells**, so that in haemorrhage it pours concentrated blood into the circulation.
+3. It **destroys old expired red cells**.
+4. It **filters the blood** from organisms and harmful substances.
+
+The department book closes the comparison itself, and it is worth quoting as the chapter's summary: **the lymph nodes filter the lymph, but the spleen filters the blood.**
+
+### Clinical significance
+**Why an enlarged node sends you looking elsewhere.** Lymph nodes may swell as the result of **inflammation, metastasis or primary tumour**. The book's instruction follows directly: because of this, the lymphatic drainage of all the major organs of the body, **including the skin**, should be known — and when a node is enlarged, **the area it drains should be examined**; when a lesion is found anywhere, **the nodes draining it should be examined**. That two-way rule is the reason lymphatic drainage is memorised region by region for the rest of the course.
+
+**Why destroying lymph vessels causes swelling.** **Extensive destruction of lymph vessels in surgery, or obstruction as in filariasis, leads to oedema of the drained part.** The most familiar example in this module is the arm after axillary clearance for breast carcinoma.
+
+**Why a spleen you can feel is already large.** It is not palpable unless enlarged at least three times, so any palpable spleen is an abnormal one — the point of the book's stating its size in those terms.
+
+**Why the spleen is injured by lower rib fractures.** It lies behind the ninth, tenth and eleventh ribs. The book gives the relation; it does not describe splenic rupture, and none is described here.
+
+**Why the thymus is a childhood organ.** It grows until puberty and involutes afterwards, which is why a mass behind the sternum means different things at different ages. The book gives the timing and no more.
+
+### Common misconceptions
+**Afferent and efferent are defined by the node, not by the direction of travel through the body.** Afferent vessels enter at the **convex border**; efferent vessels leave at the **hilum**. A vessel is afferent to one node and efferent from the one before it.
+
+**The two ducts do not split the body left and right.** The thoracic duct takes the **whole body below the diaphragm** as well as the left side above it. Only the **right head and neck, right thorax and right upper limb** go to the right lymphatic duct.
+
+**Lymph is not present everywhere.** It is absent from the **central nervous system, the bone marrow, and avascular structures** — cartilage, cornea and hair.
+
+**The spleen is not a lymph node.** It is a hemolymphatic organ, it filters **blood** rather than lymph, and it has functions — fetal haemopoiesis, storage, destruction of old red cells — that no lymph node has.
+
+**The thymus is not purely lymphatic.** The book calls it a lymphatic organ **with an endocrine function**, secreting thymosine.
+## hold_these
+Lymph is a clear colourless fluid rich in protein, carried from the tissue spaces to the blood stream.
+The lymphatic system has three parts: lymph vessels, lymphoid tissues (lymph nodes, spleen, tonsils, thymus) and free cells (B and T lymphocytes).
+Afferent lymph vessels enter a node at its convex border; efferent vessels leave at the hilum.
+The thoracic duct drains the left head and neck, left upper limb, left half of the thorax and the whole body below the diaphragm.
+The right lymphatic duct drains the right head and neck, right half of the thorax and right upper limb.
+Lymph vessels begin blindly, have wide pores that pass fat and protein, and have many valves making flow one-directional.
+Lymph vessels are absent in the brain and spinal cord, bone marrow, and avascular structures such as cartilage, cornea and hair.
+Lymph is moved by arterial pulsations, muscular contractions, negative intrathoracic pressure and intestinal peristalsis.
+Lymph nodes are oval or kidney-shaped and lie in fixed groups: limb roots, neck, chest, near abdominal and pelvic organs, and around the abdominal aorta and pelvic vessels.
+The three functions of a lymph node are filtration of lymph, production of lymphocytes, and defence.
+The thymus is a two-lobed lymphatic organ behind the sternum with an endocrine function, secreting thymosine; it grows until puberty and then involutes.
+The spleen lies in the upper left abdomen beneath the left dome of the diaphragm, behind the stomach, protected by the ninth, tenth and eleventh ribs, and is not palpable unless enlarged at least three times.
+The four functions of the spleen are fetal blood formation, storage and concentration of blood cells, destruction of old red cells, and filtration of the blood.
+Lymph nodes filter lymph; the spleen filters blood.
+Destruction of lymph vessels in surgery, or obstruction as in filariasis, causes oedema of the drained part.
+## lose_the_mark
+Splitting the body left and right between the two ducts. The thoracic duct takes everything below the diaphragm as well as the left side above it.
+Defining afferent and efferent by direction of body travel. They are defined against a node — in at the convex border, out at the hilum.
+Saying lymph vessels are present everywhere. They are absent in the CNS, in bone marrow, and in avascular tissues such as cartilage, cornea and hair.
+Putting gravity on the list of factors moving lymph. The four are arterial pulsation, muscular contraction, negative intrathoracic pressure and intestinal peristalsis.
+Giving the spleen the job of filtering lymph. It filters blood; the book states the contrast itself.
+Calling the thymus purely lymphatic. It has an endocrine function and secretes thymosine.
+Saying a palpable spleen is normal in a thin patient. The book's own criterion is that it is not palpable unless enlarged at least three times.
+Giving two functions of a lymph node. There are three, and defence is the one usually dropped.
+## image_recommendations
+### diagram · A whole-body outline shaded into two territories — the small right upper quadrant draining to the right lymphatic duct, everything else to the thoracic duct — with the two ducts drawn opening into the great veins at the root of the neck
+Purpose: The asymmetry of the two territories is the chapter's central fact and it is a map. Students who read the two sentences almost always answer that the split is left and right; a shaded body cannot be misread that way.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 148-149
+Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
+### diagram · A single lymph node in section with afferent vessels entering all round the convex border and one efferent vessel leaving at the hilum, drawn in a chain so the same vessel is afferent to one node and efferent from the last
+Purpose: The definition is relational, and the chain is what makes that visible. One node drawn alone teaches the words without the relation the exam item turns on.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF page 148
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · The fixed sites of lymph node groups on one whole-body outline — axillary and inguinal at the limb roots, cervical in the neck, tracheobronchial and chest wall in the thorax, groups beside the abdominal and pelvic organs and around the aorta — with the thymus behind the sternum and the spleen under the left ninth to eleventh ribs marked in a different colour as lymphoid organs rather than node groups
+Purpose: "Fixed sites" is a list of places, and the distinction between a node group and a lymphoid organ is what the last two labels teach. Both are spatial claims.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF pages 149-151
+Rights: newly drawn for this product, or CC-BY / public domain
+## conflicts
+Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## evidence_gaps
+Dr. Galal's revision covers none of the Lymphatic system chapter, so this leaf has one source only.
+**The book names B and T lymphocytes once, as "free cells", and never describes them.** The question books examine them constantly on this leaf — where each matures, which is responsible for humoral and which for cellular immunity, the proportion of T lymphocytes among circulating lymphocytes, CD markers, cytotoxic and helper subsets, natural killer cells, plasma cells and their cartwheel nucleus, life spans. None of it is anywhere in the Anatomy part of the department book. A student revising this chapter for those items has nothing to revise from, and a reviewer should decide whether they belong to the Histology half of the module instead.
+The book gives no structure of a lymph node — cortex, medulla, sinuses, germinal centres — although it asks the student to know the node's functions.
+The book gives no lymphatic drainage map for any organ other than what appears in the regional chapters, yet its own clinical paragraph instructs that the drainage of all major organs including the skin should be known.
+The book gives the spleen's site, size and functions and no surfaces, borders or peritoneal relations, although one of its own stated learning outcomes is to "determine the site, surfaces, size and functions of the spleen".
+The MCQ bank's "Lymphatic system" leaf is not a clean set: of its 71 stems, the majority are histology and immunology items on lymphocytes, plasma cells and connective tissue, plus a group of breast and axilla drainage questions. Only the stems answerable from this chapter shaped the article, and the mis-filing is recorded.
+No concept whose module_subject is this leaf exists yet in either concept batch. related_concepts is empty for that reason.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 8 "Lymphatic system", PDF pages 148-151 — definition and three parts of the system; two types of lymph vessel; the thoracic and right lymphatic ducts and their territories; four characters of lymph vessels; four factors moving lymph; shape, sites and three functions of lymph nodes; the thymus; the spleen's site, size and four functions; the clinical paragraph on enlarged nodes and on destruction or obstruction of lymph vessels.
+Department Book Module 101, Chapter 4 "Axilla", PDF pages 191-193, and Chapter 8 "Veins of the Upper Limb", PDF pages 255-256 — the regional application of these principles, taught in their own articles.
+scripts/kasr/extract/mcq-bank.json, leaf "Lymphatic system" — 71 stems, of which only those answerable from the Basis chapter were used; the remainder are histology and immunology items recorded in evidence_gaps.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system" exists yet in either concept batch. The field is left empty rather than filled with an axillary node concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+subject: Filed under msk to match the leaf's placement in the Anatomy module's Basis section, as specified for this batch, although the material is immunological.
+sections.Mechanism: The paragraph explaining why each of the four characters of a lymph vessel follows from what lymph is for is reasoning added here to make the list learnable. The book states the four characters without deriving them.
+## notes
+Four pages of department book against 71 question-bank stems, most of which this chapter cannot answer. The single most useful thing this article does for a faculty reviewer is name that mismatch precisely: the book mentions B and T lymphocytes once, in a bracket, and the papers examine them in detail.
+
+---
+
+# Item
+## id
+ART-101-ANA-NERVOUS-SYSTEM
+## title
+The nervous system
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-NEU-T01-S01
+SYS-NEU-T01-S02
+## related_concepts
+
+## related_articles
+ART-101-ANA-RADIAL-NERVE: A peripheral nerve followed from its roots to its territory — this chapter's classification worked out in one nerve.
+ART-101-ANA-ARM: Where the anterior primary rami of the brachial plexus end up, and why a nerve is described by the level its branches leave at.
+ART-101-ANA-MUSCLES-OF-THE-BACK: Trapezius, the module's one limb muscle supplied by a cranial nerve rather than by a spinal one.
+## aliases
+Nervous system | Central nervous system | Peripheral nervous system | Spinal cord | Spinal nerves | Cranial nerves | Meninges | Autonomic nervous system
+## reading_time
+9
+## summary
+This is a three-page chapter and the shortest in the Basis section, and everything in it is a classification: central against peripheral, spinal against cranial, sympathetic against parasympathetic. What is worth learning cold is the spinal cord — 45 cm, 31 segments in a fixed count, two enlargements where the plexuses arise, an H of grey matter with three pairs of horns, and lateral horns that carry sympathetic nuclei in the thoracic and upper two lumbar segments and parasympathetic nuclei in the second, third and fourth sacral segments. That last line is the only piece of autonomic anatomy the book gives.
+## sections
+### Definition
+The **nervous system** is classified into two.
+
+**1. Central nervous system** — the **brain**, inside the skull, and the **spinal cord**.
+
+**2. Peripheral nervous system** — divided in turn into
+ *(a) nerves*: **spinal nerves** and **cranial nerves**; and
+ *(b) the **autonomic nervous system***: **sympathetic** and **parasympathetic**.
+
+**Parts of the brain**, as the book gives them.
+
+- **Two cerebral hemispheres (cerebrum)**, each formed of four main lobes — **frontal, parietal, occipital and temporal**.
+- **Cerebellum.**
+- **Brain stem**, formed of **midbrain, pons and medulla oblongata**.
+- **Diencephalon**, divided into **thalamus, subthalamus, hypothalamus, epithalamus and metathalamus**.
+
+### Mechanism
+**The spinal cord** is the part of this chapter that carries detail, and the detail is examined.
+
+**Site** — a **45 cm** tube present **inside the vertebral column**.
+**Segments** — **31**: **8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal**.
+**Enlargements** — **two**, one **cervical** and one **lumbar**, **where the nerve plexuses arise**.
+**End** — tapering, and called the **conus medullaris**.
+
+**Structure**, in three parts.
+
+**[A] Outer white matter** — nerve fibres, containing the nervous **tracts**.
+**[B] Inner grey matter** — nerve cells, **H-shaped**, making horns:
+ - **two dorsal horns**, containing **sensory nuclei**;
+ - **two ventral horns**, containing **motor nuclei**;
+ - **two lateral horns**, containing **sympathetic nuclei in the thoracic and upper two lumbar segments** and **parasympathetic nuclei in the second, third and fourth sacral segments**.
+**[C] Central canal.**
+
+White outside and grey inside is the reverse of the arrangement in the cerebrum, and the reversal is a stock single-best-answer item.
+
+**Spinal nerves** — **31 pairs**, matching the segments: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal. Each nerve arises from the cord by **two roots**.
+
+1. **Anterior (ventral) root**, containing **motor** fibres.
+2. **Posterior (dorsal) root**, containing **sensory** fibres.
+3. The two roots **unite to form the nerve trunk**, which contains **mixed** fibres.
+4. The trunk divides into **two rami, both containing mixed fibres**: an **anterior (ventral) primary ramus** and a **posterior (dorsal) primary ramus**.
+
+That sequence — separate roots, mixed trunk, two mixed rami — is the reason the limbs are supplied by anterior primary rami and the true muscles of the back by posterior primary rami, which is a fact the Upper Limb chapters use without re-explaining.
+
+**Cranial nerves** — **12 pairs**, arising from the brain and leaving the skull through foramina.
+
+I olfactory. II optic. III oculomotor. IV trochlear. V trigeminal. VI abducent. VII facial. VIII auditory. IX glossopharyngeal. X vagus. XI accessory. XII hypoglossal.
+
+**Meninges** are the coverings of the central nervous system. Their layers, **from inside out**, are **pia mater, arachnoid mater, dura mater**.
+
+**The autonomic nervous system** is concerned with **involuntary activities** and is divided into **sympathetic** and **parasympathetic**. The department book says nothing further about either.
+
+### Key determinants
+Four counts carry most of the marks on this leaf, and they are worth separating from the prose.
+
+**45** — the length of the spinal cord in centimetres.
+**31** — the number of cord segments, and of pairs of spinal nerves, split 8 / 12 / 5 / 5 / 1.
+**12** — the number of pairs of cranial nerves.
+**3** — the number of meningeal layers, in the order pia, arachnoid, dura from inside out.
+
+Two spatial claims sit beside them.
+
+The **two enlargements** are cervical and lumbar, and their reason is given: they are **where the nerve plexuses arise**. Enlargement follows from the extra motor and sensory neurons a limb needs.
+
+The **lateral horn** exists only where the autonomic outflow leaves the cord: **T1 to L2 for the sympathetic** and **S2, S3, S4 for the parasympathetic**. The book states those levels as the location of the nuclei, and they are the only quantitative statement about the autonomic system anywhere in this module's Anatomy text.
+
+The **root rule** is the last determinant: **anterior root motor, posterior root sensory, trunk and both rami mixed**. Four statements, and each half of the pair is a distractor for the other.
+
+### Clinical significance
+The department book's Nervous system chapter offers no clinical section at all — no lesion, no level, no sign. What follows is the small number of consequences that follow directly from statements the chapter does make, and each is flagged as reasoning rather than as the book's teaching.
+
+**Why a root lesion and a nerve lesion differ.** The roots are separate and unmixed — anterior motor, posterior sensory — while the trunk and rami are mixed. A lesion of one root can therefore produce a pure motor or a pure sensory loss; a lesion of the trunk cannot.
+
+**Why the cord ends before the vertebral column does.** The cord is 45 cm long and tapers at the conus medullaris. The book gives the length and the name and does not say at which vertebral level the taper lies, so the standard clinical statement about the safe level for lumbar puncture cannot be made from this text.
+
+**Why the enlargements are where the plexuses are.** More neurons are needed where a limb is supplied, so the cord is thicker at the cervical and lumbar levels. The book states the association and leaves the reason implicit.
+
+**Why the meningeal order matters.** Pia is innermost and applied to the cord, dura outermost. Any collection named by its relation to the dura — above it or below it — takes its name from that order.
+
+**Why trapezius is the odd muscle out in the limb.** The accessory nerve is number XI on the cranial list, and trapezius is supplied by its spinal root. Everything else acting on the shoulder girdle comes from anterior primary rami by way of the brachial plexus.
+
+### Common misconceptions
+**Grey outside, white inside is the brain, not the cord.** In the spinal cord the white matter is **outer** and the grey matter **inner**.
+
+**There are 31 pairs of spinal nerves and 8 cervical ones, not 7.** The cervical count does not match the number of cervical vertebrae, and the mismatch is the point of the item.
+
+**The anterior root is motor and the posterior root sensory — but both primary rami are mixed.** A student who carries the motor/sensory split past the point where the roots unite will describe a posterior primary ramus as sensory, and it is not.
+
+**Lateral horns are not present at every level.** They exist where the autonomic nuclei are — thoracic and upper two lumbar for the sympathetic, second to fourth sacral for the parasympathetic.
+
+**Meninges are listed here from inside out.** Pia, arachnoid, dura. A list learned outside in from another book will be written in the reverse of the order this faculty prints.
+
+**The accessory nerve is a cranial nerve.** Its spinal root supplies a muscle of the limb, which is why it appears in the Upper Limb chapters, but it is number XI on the list of twelve.
+## hold_these
+The nervous system is central — brain and spinal cord — and peripheral, which comprises the spinal and cranial nerves and the autonomic nervous system.
+The brain is the two cerebral hemispheres with four lobes each, the cerebellum, the brain stem of midbrain, pons and medulla oblongata, and the diencephalon.
+The diencephalon is thalamus, subthalamus, hypothalamus, epithalamus and metathalamus.
+The spinal cord is a 45 cm tube inside the vertebral column with 31 segments — 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal.
+It has two enlargements, cervical and lumbar, where the nerve plexuses arise, and ends as the conus medullaris.
+White matter is outer and contains the tracts; grey matter is inner and H-shaped.
+Dorsal horns carry sensory nuclei, ventral horns motor nuclei, and lateral horns the sympathetic nuclei of the thoracic and upper two lumbar segments and the parasympathetic nuclei of the second, third and fourth sacral segments.
+Each spinal nerve has an anterior root carrying motor fibres and a posterior root carrying sensory fibres; the trunk and both primary rami are mixed.
+There are 31 pairs of spinal nerves and 12 pairs of cranial nerves.
+The twelve cranial nerves in order are olfactory, optic, oculomotor, trochlear, trigeminal, abducent, facial, auditory, glossopharyngeal, vagus, accessory, hypoglossal.
+The meninges from inside out are pia mater, arachnoid mater, dura mater.
+The autonomic nervous system governs involuntary activity and is sympathetic and parasympathetic.
+## lose_the_mark
+Putting grey matter on the outside of the spinal cord. In the cord white is outer and grey inner; the reverse is the cerebrum.
+Giving 7 cervical cord segments to match the 7 cervical vertebrae. There are 8.
+Calling the posterior primary ramus sensory. Only the posterior root is sensory; both rami are mixed.
+Saying lateral horns run the whole length of the cord. They are present in the thoracic and upper two lumbar segments and in S2, S3, S4.
+Listing the meninges dura first. This faculty prints them from inside out — pia, arachnoid, dura.
+Leaving the diencephalon out of the parts of the brain. The book gives four parts, and the diencephalon with its five subdivisions is the one most often dropped.
+Counting the accessory nerve among the spinal nerves. It is cranial nerve XI, even though its spinal root supplies trapezius.
+Giving the cord a length other than 45 cm. The book states the figure and the question books ask it.
+## image_recommendations
+### diagram · Classification of the nervous system as a single branching chart — central into brain and spinal cord, peripheral into nerves (spinal, cranial) and autonomic (sympathetic, parasympathetic) — with the parts of the brain hanging off the brain node and the four counts (45 cm, 31, 12, 3) printed beside the structures they belong to
+Purpose: The chapter is a classification and nothing else, so the deliverable is the tree itself. Printing the examined counts on the branches puts the numbers where the student will look for them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book PDF pages 137-139
+Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
+### diagram · Transverse section of the spinal cord with outer white matter and inner H-shaped grey matter, the three pairs of horns labelled with their nuclei, the central canal marked, and a spinal nerve drawn leaving by an anterior motor root and a posterior sensory root uniting into a mixed trunk that divides into two mixed rami
+Purpose: The root rule and the horn map are one picture, and the mixing of the trunk is a geometric event. Prose lets a student carry "posterior equals sensory" past the point where it stops being true.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book PDF pages 138-139
+Rights: newly drawn for this product, or CC-BY / public domain
+### diagram · The spinal cord drawn whole inside an outline of the vertebral column, its 31 segments blocked out by region with the counts printed, the cervical and lumbar enlargements shown as thickenings with the plexuses arising from them, the conus medullaris at the end, and the levels of the sympathetic and parasympathetic lateral-horn nuclei shaded in two colours
+Purpose: Segment counts, enlargements and autonomic outflow levels are three claims about the same axis, and one drawing holds all three where three sentences separate them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book PDF page 138
+Rights: newly drawn for this product, or CC-BY / public domain
+## conflicts
+Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+Name of the eighth cranial nerve. The department book prints "Auditory nerve"; most current texts call it the vestibulocochlear nerve. The book's name is used here, and the divergence is recorded because a student reading around will meet the other.
+## evidence_gaps
+Dr. Galal's revision covers none of the Nervous system chapter, so this leaf has one source only, and it is three pages long.
+The book classifies the autonomic nervous system into sympathetic and parasympathetic and then says nothing else about either — no outflow, no ganglia, no neurotransmitter, no distribution — although one of its own stated learning outcomes for the chapter is to "discuss the two parts of the autonomic nervous system". The only autonomic anatomy in the chapter is the segmental level of the lateral-horn nuclei.
+The chapter's stated outcomes also promise a comparison of spinal and cranial nerves. No comparison is made; the two are listed separately.
+The book gives no structure of a peripheral nerve — axon, myelin, Schwann cell, endoneurium, perineurium, epineurium — and no account of nerve injury or regeneration, although the Upper Limb chapters describe nerve injuries in detail and the question books examine them heavily.
+The book does not state the vertebral level at which the cord ends, so nothing about lumbar puncture can be derived from this text.
+The chapter has no clinical section at all; the Clinical significance section here reasons from the chapter's own statements and says so.
+The MCQ bank's "Nervous system" leaf is not a clean set: of its 16 stems, almost all are histology and embryology items — neural tube and neural crest derivatives, intermediate filaments in neurons and glia, derivatives of intra-embryonic mesoderm — that belong to the Histology part or to the General Embryology chapters, not to this three-page Anatomy chapter. Effectively none of the leaf's question-bank items are answerable from the chapter the leaf names.
+No concept whose module_subject is this leaf exists yet in either concept batch. related_concepts is empty for that reason.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Basis of Anatomy Chapter 6 "Nervous system", PDF pages 137-139 — classification of the nervous system; parts of the brain; site, segments, enlargements, end and structure of the spinal cord; spinal nerves and their roots and rami; the twelve cranial nerves; the meninges; the autonomic nervous system.
+scripts/kasr/extract/mcq-bank.json, leaf "Nervous system" — 16 stems, almost none of which are answerable from this chapter; the mismatch is recorded in evidence_gaps.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
+relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Nervous system" exists yet in either concept batch. The field is left empty rather than borrowed from the Upper Limb nerve-injury leaf, whose concepts belong to other articles, and the gap is named in evidence_gaps.
+questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+publishedSummary: Not published — this article has not passed the evidence gate.
+publishedSections: As above.
+lastReviewed: Never reviewed.
+subject: Filed under neuro, matching the material, although the leaf sits in an Anatomy module whose other Basis leaves are msk.
+sections.Clinical significance: The department book's chapter has no clinical section. Every paragraph in this one is a consequence drawn from a statement the chapter does make, and the section says so in its opening line rather than presenting the reasoning as the faculty's teaching.
+## notes
+The shortest chapter in the Basis section and, on the evidence of the question bank, the leaf whose stems least resemble its own content. The article teaches the chapter completely — it is short enough to teach completely — and spends most of its evidence_gaps saying which of the chapter's own stated learning outcomes the chapter does not deliver.
