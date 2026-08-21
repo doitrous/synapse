@@ -8,6 +8,7 @@
  */
 
 import { parseExamAppearances } from './examSignal.ts'
+import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import type { Concept, ConceptGraph, ConceptRelation, ConceptRelationType, ConceptStatus } from './conceptGraph.ts'
 import { CONCEPT_RELATIONS } from './conceptGraph.ts'
 import { optionalList, importList, mapList } from './importSemantics.ts'
@@ -54,6 +55,7 @@ export const CONCEPT_IMPORT_FIELDS: ConceptImportField[] = [
   { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: '' },
   { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: '' },
   { key: 'weight_confidence', label: 'Weight confidence (0–1)', help: 'How sure the weights are. Be honest; a guess is not a 1.' },
+  { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside each module this sits, e.g. 101 ISK > Anatomy > Upper Limb. One path per line.' },
   { key: 'exam_signal', label: 'Exam appearances', help: 'Which papers this concept came up on, one per line as "src_… | tier | year | p14". The blueprint weight is derived from these.' },
   { key: 'confidence', label: 'Confidence (0–1)', help: 'Extraction or authoring confidence. Never a substitute for verification.' },
   { key: 'support_mode', label: 'Support mode', help: 'How the concept is evidenced, e.g. direct_statement, inferred.' },
@@ -177,6 +179,12 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
     clinicalRelevance: number01(values.clinical_relevance),
     academicRelevance: number01(values.academic_relevance),
     weightConfidence: number01(values.weight_confidence),
+    // Absent when the column is, so a partial update that mentions only a
+    // definition does not wipe the curriculum position it says nothing about.
+    // Every optional list here is eager-or-absent for that reason.
+    moduleSubjectPaths: values.module_subject === undefined
+      ? undefined
+      : parseModuleSubjectPaths(values.module_subject),
     examSignal: (() => {
       const appearances = parseExamAppearances(values.exam_signal)
       // Absent rather than an empty signal, so a concept that has never been

@@ -125,6 +125,13 @@ export interface Concept {
    * can be recomputed when the rules change rather than re-gathered.
    */
   examSignal?: ExamSignal
+  /**
+   * Where inside a module this concept sits, as written:
+   * `101 ISK > Anatomy > Upper Limb`. The canonical placement is
+   * `primaryNodeId`; this is the curriculum's own, which is a different
+   * question and does not belong in the canonical tree.
+   */
+  moduleSubjectPaths?: string[]
   /** Field-specific reasons for values intentionally left empty. */
   fieldNotes?: Record<string, string>
 }

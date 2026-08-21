@@ -114,6 +114,7 @@ const CONCEPT_MAP = {
   reviewDue: 'review_due', publicationStatus: 'publication_status',
   editorialReviewStatus: 'editorial_review_status', exclusionReason: 'exclusion_reason',
   weightConfidence: 'weight_confidence', fieldNotes: 'field_notes',
+  moduleSubjectPaths: 'module_subject',
 }
 
 const RELATION_MAP = {

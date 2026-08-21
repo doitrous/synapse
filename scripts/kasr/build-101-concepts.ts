@@ -1,0 +1,329 @@
+/**
+ * Turn the 2025 end-of-year paper for 101 ISK into a concept batch.
+ *
+ * One concept per assessable objective, which for this paper is one per
+ * question: the faculty wrote sixteen questions and each asks for one thing.
+ * Where a question genuinely asks for two — the two cases, which want the
+ * anatomy *and* what it means clinically — that is recorded as two concepts and
+ * the question is co-primary on both, which the validator now permits.
+ *
+ * Every concept carries the source occurrence that produced it: the manifest's
+ * source ID, the page, and the question number, so a reviewer can open the
+ * paper at the right place and disagree.
+ *
+ * The batch is generated rather than typed so that the next twenty-seven papers
+ * can be added as data instead of as prose, and so the field set cannot drift
+ * between one concept and the next.
+ */
+import { writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+
+/** The manifest row this paper is. */
+const SOURCE = {
+  id: 'src_kau_y1_101_eoy_199',
+  file: 'EOY (ISK - 101) 199 (1).pdf',
+  sittingYear: 2025,
+  tier: 'end_of_year',
+}
+
+interface Seed {
+  /** The question number on the paper, and which section it sat in. */
+  q: number
+  section: 'Histology' | 'Anatomy'
+  page: number
+  marks: number
+  /** The question as the paper words it, kept for provenance. */
+  asked: string
+  label: string
+  key: string
+  definition: string
+  objective: string
+  pitfall: string
+  subject: 'msk' | 'fnd' | 'dev' | 'haem'
+  primary: string
+  secondary: string[]
+  modulePath: string
+  type: string
+}
+
+const SEEDS: Seed[] = [
+  {
+    q: 1, section: 'Histology', page: 1, marks: 3,
+    asked: 'Compare between Eosinophils & Neutrophils regarding (Differential count, Shape of nucleus and LM cytoplasmic granules).',
+    label: 'Eosinophils and neutrophils are told apart by count, nuclear lobes and granule staining',
+    key: 'eosinophil-versus-neutrophil-light-microscopy',
+    definition: 'Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 2–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.',
+    objective: 'Distinguish eosinophils from neutrophils on a stained film by differential count, nuclear shape and granule staining.',
+    pitfall: 'Counting lobes alone. A young neutrophil may be bilobed; the granules, not the nucleus, are what settle it.',
+    subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
+    modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
+    type: 'structural_description',
+  },
+  {
+    q: 2, section: 'Histology', page: 2, marks: 4,
+    asked: 'Explain how the structure (EM) of Hyalomere of Platelets correlate to its function.',
+    label: 'The hyalomere’s microtubules and canalicular system carry out the platelet’s shape change and release',
+    key: 'platelet-hyalomere-structure-function',
+    definition: 'The hyalomere is the peripheral, pale zone of the platelet. Its marginal bundle of microtubules holds the resting discoid shape and contracts to produce pseudopodia; its open canalicular system opens the granule contents to the exterior, and its dense tubular system stores the calcium that triggers them.',
+    objective: 'Explain how each structure of the hyalomere seen on electron microscopy produces a step of platelet function.',
+    pitfall: 'Treating the hyalomere as inert because it looks empty. The granules are in the granulomere; the machinery that acts on them is here.',
+    subject: 'haem', primary: 'DIS-HIS-T01', secondary: ['SYS-HEM-T01-S01-M03'],
+    modulePath: '101 ISK > Histology > Blood > Blood Platelets',
+    type: 'structure_function_relationship',
+  },
+  {
+    q: 3, section: 'Histology', page: 2, marks: 4,
+    asked: 'Discuss LM, EM, and Special staining regarding Mast cells.',
+    label: 'Mast cells are identified by metachromatic granules on light microscopy and by their granule ultrastructure',
+    key: 'mast-cell-identification',
+    definition: 'Mast cells are large connective-tissue cells with a central rounded nucleus and cytoplasm filled with coarse granules. The granules are metachromatic with toluidine blue, staining purple where the dye is blue, because of their heparin. On electron microscopy the granules show a scroll or lamellar internal structure.',
+    objective: 'Identify a mast cell by its light-microscopic appearance, its metachromatic staining and its granule ultrastructure.',
+    pitfall: 'Confusing it with a plasma cell. Both are basophilic, but the plasma cell has a cartwheel nucleus and a pale Golgi hof and is not metachromatic.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+    type: 'structural_description',
+  },
+  {
+    q: 4, section: 'Histology', page: 3, marks: 4,
+    asked: 'Mention EM of types of Lysosomes.',
+    label: 'Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate',
+    key: 'lysosome-types-electron-microscopy',
+    definition: 'A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.',
+    objective: 'Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.',
+    pitfall: 'Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.',
+    subject: 'fnd', primary: 'DIS-HIS-T01', secondary: [],
+    modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+    type: 'structural_description',
+  },
+  {
+    q: 5, section: 'Histology', page: 4, marks: 4,
+    asked: 'Describe origin and EM picture of Cilia.',
+    label: 'A cilium arises from a basal body and is built on a 9+2 axoneme',
+    key: 'cilium-origin-and-ultrastructure',
+    definition: 'A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface. On electron microscopy the shaft contains an axoneme of nine peripheral microtubule doublets around a central pair, with dynein arms on the doublets that produce the beat.',
+    objective: 'Describe where a cilium comes from and what its 9+2 axoneme looks like on electron microscopy.',
+    pitfall: 'Giving microvilli the same answer. A microvillus has an actin core and no axoneme, and does not beat.',
+    subject: 'fnd', primary: 'DIS-HIS-T01', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations',
+    type: 'structure_function_relationship',
+  },
+  {
+    q: 6, section: 'Histology', page: 5, marks: 4,
+    asked: 'Compare between Esophagus and Urinary bladder according to the following table.',
+    label: 'Oesophagus and urinary bladder are lined by different stratified epithelia suited to different stresses',
+    key: 'oesophagus-versus-bladder-epithelium',
+    definition: 'The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus. The bladder is lined by transitional epithelium (urothelium), whose dome-shaped superficial cells and plaque-bearing membrane let it stretch and stay impermeable to urine.',
+    objective: 'Compare the epithelium of oesophagus and urinary bladder and relate each to the mechanical demand on that organ.',
+    pitfall: 'Calling urothelium stratified squamous because its surface cells flatten when distended. It is transitional; the flattening is the point.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
+    type: 'structure_function_relationship',
+  },
+  {
+    q: 1, section: 'Anatomy', page: 7, marks: 6,
+    asked: 'Mention types of Muscle attachment.',
+    label: 'A muscle attaches either directly to bone or through a tendon or an aponeurosis',
+    key: 'muscle-attachment-types',
+    definition: 'A muscle may attach directly, its fibres inserting into the periosteum, or indirectly through a tendon, a cord of dense regular connective tissue, or an aponeurosis, a flattened sheet of the same. The attachments are named origin and insertion, the origin conventionally the more fixed end.',
+    objective: 'Name the types of muscle attachment and say how each differs in form.',
+    pitfall: 'Treating origin and insertion as fixed anatomical facts. Which end moves depends on which is stabilised, and the two reverse in ordinary movements.',
+    subject: 'msk', primary: 'DIS-ANA-T01', secondary: ['SYS-MSK-T03-S02-M03'],
+    modulePath: '101 ISK > Anatomy > Basis of Anatomy > Muscular system',
+    type: 'structural_description',
+  },
+  {
+    q: 2, section: 'Anatomy', page: 8, marks: 6,
+    asked: 'Compare between primary and secondary Cartilaginous joints.',
+    label: 'Primary cartilaginous joints are hyaline and temporary; secondary ones are fibrocartilaginous and midline',
+    key: 'primary-versus-secondary-cartilaginous-joints',
+    definition: 'A primary cartilaginous joint (synchondrosis) unites bones by hyaline cartilage, is usually temporary and ossifies with growth, and permits no movement — the epiphyseal plate is the type example. A secondary cartilaginous joint (symphysis) unites bones by fibrocartilage, lies in the midline, is permanent and permits slight movement, as at the pubic symphysis and intervertebral discs.',
+    objective: 'Compare primary and secondary cartilaginous joints by the cartilage involved, permanence, site and movement.',
+    pitfall: 'Assuming every cartilaginous joint disappears. Only the primary ones ossify; a symphysis is there for life.',
+    subject: 'msk', primary: 'DIS-ANA-T01', secondary: ['SYS-MSK-T06-S01-M01'],
+    modulePath: '101 ISK > Anatomy > Basis of Anatomy > Articular system',
+    type: 'classification',
+  },
+  {
+    q: 3, section: 'Anatomy', page: 9, marks: 6,
+    asked: 'Describe Decidua regarding definition, parts and fates.',
+    label: 'The decidua is the pregnant endometrium, in three parts named by their relation to the conceptus',
+    key: 'decidua-definition-parts-fates',
+    definition: 'The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth. Decidua basalis lies deep to the conceptus and becomes the maternal part of the placenta; decidua capsularis covers it and is stretched and lost as the sac grows; decidua parietalis lines the rest of the cavity and fuses with the capsularis by about the fourth month, obliterating the uterine cavity.',
+    objective: 'Define the decidua, name its three parts by their relation to the conceptus, and give the fate of each.',
+    pitfall: 'Swapping basalis and capsularis. Basalis is beneath and becomes placenta; capsularis is the covering and disappears.',
+    subject: 'dev', primary: 'DIS-EMB-T02', secondary: [],
+    modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+    type: 'structural_description',
+  },
+  {
+    q: 4, section: 'Anatomy', page: 10, marks: 6,
+    asked: 'Summarize types and causes of Folding.',
+    label: 'Embryonic folding is longitudinal and transverse, driven by unequal growth',
+    key: 'embryonic-folding-types-and-causes',
+    definition: 'Folding converts the flat trilaminar disc into a cylinder. Longitudinal (head and tail) folding is driven by the rapid growth of the neural tube, particularly the brain, and carries the septum transversum and heart ventrally. Transverse (lateral) folding is driven by growth of the somites, and brings the two lateral edges together to close the ventral body wall and pinch off the gut from the yolk sac.',
+    objective: 'Name the two planes of embryonic folding and give the growth that drives each.',
+    pitfall: 'Describing folding as something the embryo does actively. It is the consequence of parts growing at different rates, not a movement in itself.',
+    subject: 'dev', primary: 'DIS-EMB-T01', secondary: [],
+    modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
+    type: 'developmental_process',
+  },
+  {
+    q: 5, section: 'Anatomy', page: 11, marks: 7,
+    asked: 'Mention attachment, action and nerve supply of Pectoralis Major.',
+    label: 'Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves',
+    key: 'pectoralis-major-attachment-action-nerve',
+    definition: 'Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.',
+    objective: 'Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.',
+    pitfall: 'Giving one action for the whole muscle. The two heads oppose each other in flexion and extension, which is why the question asks for both.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T03-S02-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Pectoral Region',
+    type: 'structural_description',
+  },
+  {
+    q: 6, section: 'Anatomy', page: 12, marks: 7,
+    asked: 'Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm.',
+    label: 'The radial nerve arises from the posterior cord, C5–T1, and branches in axilla and arm',
+    key: 'radial-nerve-origin-roots-branches',
+    definition: 'The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1. In the axilla it gives muscular branches to the long and medial heads of triceps and the posterior cutaneous nerve of the arm. In the arm it gives branches to the lateral and medial heads of triceps and anconeus, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm, before dividing into superficial and deep terminal branches.',
+    objective: 'State the origin and root value of the radial nerve and list its branches in the axilla and the arm.',
+    pitfall: 'Giving the root value as C5–C8. The radial nerve carries T1, and dropping it changes which lesions are predicted to affect it.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries',
+    type: 'structural_description',
+  },
+  {
+    q: 7, section: 'Anatomy', page: 13, marks: 7,
+    asked: 'Describe site, formation and branches of the Deep Palmer Arch.',
+    label: 'The deep palmar arch is the radial artery’s termination, lying a finger’s breadth proximal to the superficial arch',
+    key: 'deep-palmar-arch-site-formation-branches',
+    definition: 'The deep palmar arch lies on the bases of the metacarpals deep to the long flexor tendons, about a finger’s breadth proximal to the superficial arch, at the level of the proximal border of the extended thumb. It is formed mainly by the terminal part of the radial artery, completed medially by the deep branch of the ulnar artery. It gives three palmar metacarpal arteries, perforating branches to the dorsal metacarpal arteries, and recurrent branches to the carpal arch.',
+    objective: 'Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.',
+    pitfall: 'Swapping the two arches. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-CVS-T01-S01'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
+    type: 'structural_description',
+  },
+  {
+    q: 8, section: 'Anatomy', page: 14, marks: 7,
+    asked: 'Regarding Elbow joint, Mention its type, bony parts and describe its ligaments.',
+    label: 'The elbow is a synovial hinge between humerus, ulna and radius, held by collateral ligaments',
+    key: 'elbow-joint-type-bones-ligaments',
+    definition: 'The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below. The radial collateral ligament runs from the lateral epicondyle to the anular ligament; the ulnar collateral ligament is triangular, running from the medial epicondyle in anterior, posterior and oblique bands to the coronoid process and olecranon.',
+    objective: 'Classify the elbow joint, name its articulating bony parts, and describe its collateral ligaments.',
+    pitfall: 'Including the superior radio-ulnar joint in the elbow. It shares the capsule but is a separate pivot joint, and the anular ligament belongs to it.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Joints of Upper Limb',
+    type: 'structural_description',
+  },
+  {
+    q: 9, section: 'Anatomy', page: 15, marks: 3,
+    asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.',
+    label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
+    key: 'breast-lymphatic-drainage-axillary',
+    definition: 'About three quarters of the lymph of the breast drains laterally to the axillary nodes, chiefly the anterior (pectoral) group, then to central and apical nodes. The medial quadrants drain to the internal thoracic (parasternal) nodes, and some drains to the opposite breast and to the abdomen. This is why carcinoma spreads first to the axilla and why the axillary nodes are sampled or cleared at operation.',
+    objective: 'Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes.',
+    pitfall: 'Forgetting the medial route. A medial-quadrant tumour can reach parasternal nodes with a clear axilla, so a negative axilla is not a clear chest.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-GYN-T06-S01-M01'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Axilla',
+    type: 'clinical_correlation',
+  },
+  {
+    q: 10, section: 'Anatomy', page: 15, marks: 3,
+    asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.',
+    label: 'Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise',
+    key: 'scaphoid-fracture-snuff-box-tenderness',
+    definition: 'The floor of the anatomical snuff box is the scaphoid, so tenderness there after a fall on the outstretched hand indicates scaphoid fracture. The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally, so a fracture across the waist may deprive the proximal fragment of its supply and cause avascular necrosis.',
+    objective: 'Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.',
+    pitfall: 'Excluding it on a normal first radiograph. A scaphoid fracture is often invisible for ten to fourteen days, and a normal early film does not clear it.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
+    type: 'clinical_correlation',
+  },
+]
+
+/** `CON-<SYS>-<14 hex>`, minted from the canonical key so it is stable. */
+function mintId(subject: Seed['subject'], key: string): string {
+  const system = { msk: 'MSK', fnd: 'FND', dev: 'DEV', haem: 'HEM' }[subject]
+  const hash = createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase()
+  return `CON-${system}-${hash.slice(0, 14)}`
+}
+
+const blocks = SEEDS.map((seed) => {
+  const id = mintId(seed.subject, seed.key)
+  return `# Item
+## label
+${seed.label}
+## id
+${id}
+## canonical_key
+${seed.key}
+## definition
+${seed.definition}
+## explicit_objective
+${seed.objective}
+## pitfalls
+${seed.pitfall}
+## concept_type
+${seed.type}
+## status
+under review
+## subject
+${seed.subject}
+## primary_node_id
+${seed.primary}
+## secondary_node_ids
+${seed.secondary.join(' | ')}
+## modules
+101 ISK
+## module_subject
+${seed.modulePath}
+## universities
+kau
+## learner_years
+1
+## exam_signal
+${SOURCE.id} | ${SOURCE.tier} | ${SOURCE.sittingYear} | p${seed.page} | 101 ISK
+## weight_confidence
+0.7
+## support_mode
+direct_statement
+## original_wording
+[${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.`
+})
+
+const header = `<!--
+  Concepts from the 2025 end-of-year paper for 101 ISK.
+
+  Source: ${SOURCE.file} — Kasr Al Ainy, module 101 ISK, end-of-year ${SOURCE.sittingYear}.
+  Manifest ID ${SOURCE.id}. Sixteen questions, sixteen concepts: the faculty
+  asked one thing per question.
+
+  The paper is eight short-answer questions and two cases in Anatomy, and six
+  short-answer questions in Histology — written questions throughout, exactly as
+  the orientation for this module states. None of it is multiple choice.
+
+  Placement is on the discipline view (DIS-ANA, DIS-HIS, DIS-EMB), which is
+  where basic-science material belongs; the system view is a secondary placement
+  where one genuinely applies. \`module_subject\` carries the curriculum
+  position, which is the Kasr-specific half and does not belong in the canonical
+  tree.
+
+  Every concept carries the source occurrence that produced it, so a reviewer
+  can open the paper at that page and disagree with the reading.
+
+  Generated by scripts/kasr/build-101-concepts.ts — edit the seeds there.
+-->
+
+`
+
+const out = 'docs/Kasr-Source-Imports/concept/101-ISK-EOY-2025.md'
+writeFileSync(out, header + blocks.join('\n\n---\n\n') + '\n')
+console.log(`${SEEDS.length} concepts -> ${out}`)

@@ -31,9 +31,9 @@
     {
       "contentType": "Concept",
       "model": "Concept",
-      "modelFields": 56,
-      "importFields": 53,
-      "ok": 55,
+      "modelFields": 57,
+      "importFields": 54,
+      "ok": 56,
       "missing": 1,
       "notApplicable": 0
     },
@@ -749,7 +749,7 @@
     {
       "contentType": "Concept",
       "model": "Concept",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -1078,6 +1078,12 @@
         {
           "field": "examSignal",
           "column": "exam_signal",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },

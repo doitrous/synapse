@@ -9,7 +9,7 @@ drift when a field is added.
 | Library article | `ArticleAuthoringData` | 46 | 54 | 46 | 0 | 0 |
 | Library article · statement annotation | `ConceptAnnotation` | 5 | 54 | 5 | 0 | 0 |
 | Library article · media request | `MediaRequest` | 18 | 54 | 14 | 2 | 2 |
-| Concept | `Concept` | 56 | 53 | 55 | 1 | 0 |
+| Concept | `Concept` | 57 | 54 | 56 | 1 | 0 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
 | Question | `QuestionAuthoringData` | 22 | 61 | 21 | 1 | 0 |
 | Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |

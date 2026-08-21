@@ -41,6 +41,7 @@ const FULL_CONCEPT: Record<string, string> = {
   academic_relevance: '0.8',
   weight_confidence: '0.5',
   exam_signal: 'src_1a2b3c4d5e6f | end_of_year | 2025 | p14 | 101 ISK\nsrc_9f8e7d6c5b4a | orientation | 2024',
+  module_subject: '101 ISK > Anatomy > Upper Limb',
   confidence: '0.9',
   support_mode: 'direct_statement',
   atomic_claim_ids: 'claim-ag-1',
@@ -396,4 +397,22 @@ test('a concept with no exam appearances has no signal at all', () => {
   // weighted at zero, and the blueprint treats them differently.
   const { exam_signal: _omitted, ...withoutSignal } = FULL_CONCEPT
   assert.equal(conceptFromRow(withoutSignal).examSignal, undefined)
+})
+
+test('a concept keeps the curriculum position it was taught at', () => {
+  // Distinct from `primaryNodeId`, which is the canonical placement. A concept
+  // sits in one place in the canonical tree and in as many curricula as teach it.
+  const concept = conceptFromRow(FULL_CONCEPT)
+  assert.deepEqual(concept.moduleSubjectPaths, ['101 ISK > Anatomy > Upper Limb'])
+})
+
+test('a partial update does not wipe the curriculum position it says nothing about', () => {
+  // The failure this prevents: an update row restating only a definition, and
+  // silently clearing where the concept is taught.
+  const created = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const patched = mergeConcept(created, conceptFromRow({
+    id: FULL_CONCEPT.id, label: FULL_CONCEPT.label, definition: 'A revised definition.',
+  }))
+  assert.equal(patched.definition, 'A revised definition.')
+  assert.deepEqual(patched.moduleSubjectPaths, ['101 ISK > Anatomy > Upper Limb'])
 })
