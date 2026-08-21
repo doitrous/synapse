@@ -396,7 +396,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B
+CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B | CON-FND-2030501B814D35 | CON-FND-90E8073879B42A | CON-FND-B83D7EAAF68D3B | CON-FND-97930723FE0D94
 ## related_articles
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte is described there as a blood cell, with its counts and its whole immunological family; here it is described as the macrophage's origin.
 ART-101-HIS-GRANULAR-LEUKOCYTES: The basophil is the mast cell's blood counterpart, sharing metachromatic granules and IgE receptors, and the book compares them directly.
@@ -430,6 +430,8 @@ The cell surface carries receptors for IgE, and binding of an antigen to that Ig
 The active fibroblast is branched, with many long thin processes, deeply basophilic cytoplasm, and a central large oval pale nucleus carrying a prominent nucleolus. On electron microscopy it is the picture of a protein-synthesising cell: well developed rough endoplasmic reticulum and Golgi apparatus, many mitochondria and a euchromatic nucleus. Every one of those features is what a cell exporting protein has to have, and the deep basophilia of the cytoplasm is the light-microscopic shadow of the rough endoplasmic reticulum the electron microscope finds.
 
 The inactive fibroblast, the fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm, and a smaller darker nucleus with more heterochromatin, and it has less rough endoplasmic reticulum, less Golgi and fewer mitochondria. In injury it becomes active again for wound healing, and between times it maintains the connective tissue by a continuous slow turnover of the extracellular components.
+
+On an ordinary section neither state looks like the description above, and that is worth saying plainly. The branches, the processes and the cytoplasm are the same colour as the collagen around them and blend into it, so what is actually visible is the nucleus and nothing else: oval, pale, with a prominent nucleolus in the active cell, and smaller, darker and more spindle-shaped in the fibrocyte. The identification is therefore made on a nucleus lying free among the fibre bundles, which is also what separates it from the other nucleus a student meets in the same field — an endothelial nucleus bulging into the lumen of one of the many small vessels that run through loose connective tissue.
 
 The fibroblast's functions are four: synthesis of the connective tissue fibres; synthesis of the ground substance of the matrix; production of growth factors for cell growth and differentiation; and healing and repair of connective tissue after injury. The first two are why the cell looks the way it does — the fibres and the ground substance are both exported products.
 
@@ -477,6 +479,18 @@ Two shapes and two nuclei, then: regular outline with a cart-wheel nucleus and n
 **Unilocular against multilocular fat cell**, the other comparison this leaf carries.
 
 Origin: both from the undifferentiated mesenchymal cell. Tissue formed: white adipose connective tissue against brown. Size: large, 50 to 150 µm, against smaller. Fat: one large droplet with dissolved carotenoids against multiple small droplets. Light microscopy: signet ring appearance after H&E, with the nucleus flattened at the periphery, against no signet ring, with a mostly eccentric round nucleus and a brown pigmentation. Electron microscopy: abundant smooth endoplasmic reticulum and few mitochondria against less smooth endoplasmic reticulum and many mitochondria rich in cytochrome oxidase. Function: synthesis and storage of fat, organ support, heat insulation and secretion of leptin, against thermogenesis through thermogenin.
+
+**What the department's plates mark, and what the answer page accepts.** The practical book sets these cells as marked plates and asks, of each, that the cell be named and that one or two visible characters be given. The stems are worth knowing in their own right, because several of them ask for the stain by name.
+
+The fibroblast. The arrow is on the cell and the answer page accepts fibrocyte or fibroblast for it; the arrowhead beside it is on the collagen bundles. The plate is a field of irregular white fibrous tissue, so the cell is being identified by a nucleus among bundles rather than by any feature of its own cytoplasm.
+
+The plasma cell and the mast cell together. The department circles the two on one plate: mast cells in one colour, plasma cells in another. The yellow arrow is the mast cell's granules, the green arrow its nucleus, and the black arrow is the negative Golgi image on the plasma cell. Two visible characters are asked of the plasma cell's nucleus, and the answer page gives three to draw from — eccentric, single, cart-wheel. On a separate mast cell plate the character wanted is numerous basophilic granules.
+
+White adipose tissue. The type is named, the cell is named — unilocular fat cells — and the stains asked for are two, H&E and Sudan III. Two visible characters are wanted: large or oval cells, and a single fat droplet. The blue stars mark the fat droplet and the red arrow the thin rim of cytoplasm around it, which is the signet ring taken apart into its two named pieces.
+
+Brown adipose tissue. The same plate design with the answers changed: multilocular fat cells, small or rounded, with many fat droplets; H&E and Sudan III again. The blue arrows are the nuclei and the black arrows are blood vessels — brown fat being the more vascular of the two tissues, which is one of the two reasons the book gives for its colour.
+
+The macrophage is the one cell on this leaf the department prints only as a captioned teaching plate, with no marked question and no answer page. What identifies it is set out above: an irregular outline, pale basophilic cytoplasm, a dark eccentric kidney-shaped nucleus, and ingested granules of trypan blue or India ink, which is a demonstration rather than a routine stain.
 
 ### Normal values
 The unilocular adipose cell is 50–150 µm across, the largest cell described in this chapter. The monocyte, described here as the macrophage's precursor, is 13–20 µm and 3–8% of the white cells, and lives three days in the blood and about three months in the connective tissue. The book names seven resident cell types and two transient cell types in connective tissue proper, and four functional classes. Where the granular leucocyte chapter compares the mast cell with the basophil, it gives the mast cell as 20–30 µm against the basophil's 10–12 µm, and a life span of weeks to months against the basophil's few days.
@@ -529,6 +543,10 @@ Fibroblast functions: synthesis of connective tissue fibres, synthesis of ground
 Lymphocytes are 20–30% of the leucocytes; T, B and natural killer cells look identical and differ only in their surface receptors.
 B lymphocytes are 20–30% of the lymphocytes, mature in the bone marrow in mammals, carry receptors for IgM and IgD, and mediate humoral immunity.
 An activated B lymphocyte becomes a plasmablast, then a plasma cell producing antibody, plus B memory cells.
+On an ordinary section a fibroblast's cytoplasm blends into the matrix and only its nucleus is visible: oval and pale with a prominent nucleolus when active, smaller, darker and spindle-shaped in the fibrocyte, and lying free among the fibre bundles.
+The department's plate answers for white adipose tissue are unilocular fat cells, large or oval, a single fat droplet, a thin rim of cytoplasm, stained by H&E and Sudan III.
+The department's plate answers for brown adipose tissue are multilocular fat cells, small or rounded, many fat droplets, with blood vessels between them.
+On the department's plate the plasma cell's nucleus is accepted as eccentric, single and cart-wheel, and the mast cell's visible character as numerous basophilic granules.
 ## lose_the_mark
 Confusing the mast cell with the plasma cell. Both are basophilic, but the plasma cell has a cart-wheel nucleus and a pale Golgi hof, and is not metachromatic.
 Saying the granules stain blue with toluidine blue. Metachromasia means the opposite: the granules take a colour different from the dye.
@@ -544,6 +562,9 @@ Calling the multilocular fat cell a small white fat cell. It forms brown adipose
 Describing the fibrocyte and calling it a fibroblast. The question asks the active cell — branched, deeply basophilic, pale euchromatic nucleus — and the inactive one is its opposite in every feature.
 Trying to recognise a B lymphocyte down the microscope. T, B and natural killer cells are identical by light and electron microscopy, and the surface receptors are the only thing that separates them.
 Giving the B lymphocyte's receptors as IgG. They are IgM and IgD.
+Naming an endothelial nucleus as a fibroblast. Loose connective tissue is full of small vessels; the fibroblast nucleus lies free among the fibre bundles and the endothelial one bulges into a lumen.
+Answering monocyte for a phagocytic cell full of vital dye sitting in connective tissue. The monocyte is the circulating form named on a blood film; in the tissue it is a macrophage.
+Reading the empty spaces in an adipose section as artefact holes. The fat dissolved in processing and the space is the droplet, which the Sudan III plate of the same tissue fills with orange.
 ## image_recommendations
 ### histology · Loose connective tissue spread stained with toluidine blue, mast cells showing purple metachromatic granules against a blue background, one cell at high power with the central pale nucleus visible
 Purpose: Metachromasia is a colour phenomenon and the single identifying feature of this cell. No description substitutes for seeing the granules take a colour the dye is not, and a student who has never seen it cannot recognise it in a practical.
@@ -635,12 +656,16 @@ The book does not state the life span of the plasma cell.
 The monocyte figures used here — 13 to 20 µm, 3 to 8 per cent, three days in blood and three months in tissue — come from the book's Blood chapter rather than from this one, and are cited to it in evidence_basis. The same is true of every B lymphocyte figure.
 The connective tissue chapter gives no life span for the fibroblast and no count for it, only that it is the commonest cell of connective tissue proper.
 The book does not name the chemical class of heparin or explain the physical basis of metachromasia beyond attributing it to heparin.
+The department book does not describe what a fibroblast looks like on an ordinary section as distinct from what the cell is. It gives the cell's shape, processes and cytoplasm; the statement here that only the nucleus is visible because the cytoplasm blends into the matrix follows from the practical book's own plate, where the answer to an arrow on the cell is "fibrocyte (or fibroblast)" and no cytoplasmic feature is asked for. The contrast drawn with an endothelial nucleus is the article's own reasoning from the two sources rather than a sentence either prints.
+The practical book prints no marked question for the macrophage — only a captioned teaching plate — so what an examiner accepts as its visible character is not on record. The characters given for it are the department book's own.
+The department book gives brown adipose tissue's higher vascularity as one cause of its colour; the practical book's plate marks blood vessels between the cells. Neither source gives a vessel density or any figure, so none is stated.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Connective Tissue Cells", printed pages 41-46. Extracted to scripts/kasr/extract/deptbook.json.
 Mast cell size and life span compared with the basophil are taken from the same book's "Granular Leucocytes" chapter, printed page 35.
 The monocyte's diameter, differential count, life span, light- and electron-microscopic picture and descendants are taken from the same book's "Non Granular Leucocytes" chapter, printed pages 36-38, and from Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), page 10, topic "Monocytes". Extracted to scripts/kasr/extract/deptbook.json and scripts/kasr/extract/notes.json.
 Prof. Dalia El Marakby's Connective Tissue handout (src_d56198df979fc164f6c6), page 6, topic "Mast cells, plasma cells and macrophages" — the same three cells with the same light- and electron-microscopic pictures and the same macrophage functions. Extracted to scripts/kasr/extract/notes.json.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json — the marked plates and facing answer pages for the fibroblast among collagen bundles (p. 143), the mast cell (p. 139), the mast cells and plasma cells on one plate with the negative Golgi image (p. 151), white adipose tissue with unilocular fat cells (p. 153) and brown adipose tissue with multilocular fat cells (p. 155); and the captioned teaching plates for the macrophage (p. 120), the mast cell (p. 121) and the plasma cell (pp. 122-123). Every marker, stain and accepted answer in "What the department's plates mark" is taken from those answer pages.
 The lymphocyte percentages, the three functional types, the B lymphocyte's maturation site, its IgM and IgD receptors and its pathway through the plasmablast to the plasma cell and the B memory cell are taken from the same department book's "Non Granular Leucocytes" chapter, printed pages 36-38, and from Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), topic "T, B and null lymphocytes".
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
@@ -650,6 +675,7 @@ subtopic: No SUB_ identifier has been assigned to this module in the canonical t
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-EE10AFCE944705 carries no secondary placement, and none is invented here.
+practicalIdentification: The paragraph on how a fibroblast reads on an ordinary section, and the contrast with an endothelial nucleus, are joined from the department book's description of the cell and the practical book's plate rather than quoted from either. It is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
 The Normal values section borrows the mast cell size and life span from the granular leucocyte chapter of the same book, because the connective tissue chapter gives neither. Both are the department's own figures.
@@ -1062,13 +1088,18 @@ The book gives no dimensions for the Golgi saccules, for a ribosome or for a mit
 The book does not state which detoxification reactions the smooth endoplasmic reticulum performs, only that it detoxifies drugs, alcohol and hormones.
 The book does not state how a ribosome is directed to the rough endoplasmic reticulum rather than remaining free; it states only that attached ribosomes bind by their large subunit at ribophorins.
 No independent citation has been attached to any statement in this article.
+The department book does not use the term "Nissl's granules" anywhere in the cytoplasm chapter, and neither does Prof. Dalia El Marakby's Cytology handout. The revision deck prints a captioned plate, "Nissl's granules in nerve cell", with no marked question and no answer page, so what an examiner accepts as the visible character is not on record. The identification stated here — coarse localised basophilic clumps that are aggregates of rough endoplasmic reticulum with free ribosomes — joins the plate's caption to the book's own statement that ribosomal basophilia may be focal, diffuse or localised. It is reasoning across two sources rather than a sentence either of them prints.
+The labelled ribosome plate in the practical book names a P site and an A site, and neither the department book nor the handout says what either site does. The article therefore names the parts the plate names and does not explain the sites.
+The practical book's plate of rough and smooth endoplasmic reticulum in one field is a titled teaching slide with no marked question, so the discriminator stated for it is taken from the book's own four-row comparative table rather than from a model answer page.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "The Cytoplasm", printed pages 7-21 — the two sortings of the cytoplasm, the endoplasmic reticulum in both forms with the book's own four-row comparison on page 12, the Golgi with its site, stains, negative image and electron-microscopic structure, the ribosomes in both types with their origin in the nucleolus and their two destinations, the mitochondrion with both membranes, the cristae, the elementary particles and the matrix, the three cytoskeletal elements with their diameters and subunits, the lysosome pathway with the three secondary lysosomes and the residual body, the peroxisome, and the inclusions. Extracted to scripts/kasr/extract/deptbook.json.
 Prof. Dalia El Marakby's Cytology handout (src_0abbf6bc25c43a087d36), pages 7 onwards, topics "Endoplasmic reticulum and Golgi apparatus", "Ribosomes and protein synthesis" and "Cytoskeleton — microtubules, microfilaments, intermediate filaments" — the same account of both forms of the reticulum with the basophilia and acidophilia stated the same way, the Golgi's two faces and its functions, and the same cytoskeletal subunits and functions. Extracted to scripts/kasr/extract/notes.json.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), and the revision deck "DPT 1- ISK 101 - Final Revision" (src_05a0b0c29acc94017b8f), catalogued as 170 slides in scripts/kasr/extract/practical.json — the marked plates and their facing answer pages for the cell membrane between two cells (pp. 33, 35), the mitochondrion (p. 37), the mitochondrion with rough reticulum (p. 39), the rough reticulum with ribosomes (p. 41), rough reticulum with mitochondria in iron haematoxylin or Janus green (p. 43), the smooth reticulum (p. 45), the Golgi in a nerve cell and in secretory cells in silver (pp. 47, 49), the Golgi by electron microscopy with its two vesicle populations (pp. 51, 53), the centriole (p. 55), the ciliary axoneme (p. 57), the glycogen and fat inclusions as figures a and b of one question (p. 61), and the plasma cell carrying the negative Golgi image (p. 151); and the captioned teaching plates for Nissl's granules (p. 18) and the labelled ribosome (p. 19). Every stain, marker and accepted answer in "What the department's plates mark" is taken from those answer pages.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every figure is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows.
+practicalIdentification: The Nissl's granules paragraph in Mechanism is the one place in this article where the two sources are joined rather than quoted. The department book names neither Nissl nor the nerve cell as an example of localised basophilia; the revision deck names the plate and prints no answer. The join is recorded in evidence_gaps.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
@@ -1076,6 +1107,8 @@ secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement,
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
 Extended from a lysosome article into an account of the whole cytoplasm chapter, and retitled to match, because six concepts sit on this leaf: the lysosome types, the smooth endoplasmic reticulum, the Golgi apparatus, the ribosomes, the mitochondrion and the cytoskeletal comparison. Every one of them is asked the same three ways — light microscopy, electron microscopy, function — and the article is organised around that, with the department book's own two comparative tables reproduced as prose in Key determinants.
+
+Extended a second time to close the practical gap on this leaf: fourteen identification concepts sat on the Cytoplasm leaf with no article claiming them. Nine of the fourteen the article already taught in full — both forms of the endoplasmic reticulum and the comparison between them, the Golgi by electron microscopy and in silver, the negative Golgi image, the mitochondrion by electron microscopy, and the ribosome — and needed only the department's own marker-by-marker answers written down, which is the new run in Key determinants. Five needed the article extended before they could honestly be declared: the trilaminar unit membrane, which the chapter had reduced to a thickness in Normal values; the centriole and the three microtubule counts, which existed only as the phrase "form the centrioles, cilia and flagella"; the inclusions, which the article named in its opening sorting and then never described; Nissl's granules; and the light-microscopic appearance of mitochondria, which had a stain but no picture.
 
 The Key determinants section draws the neutrophil azurophil granule and the basophil specific granule into the density trap. Both are the same book's own statements, from the granular leucocyte chapter, and the cross-reference is deliberate: it is where students actually meet a dense granule that is and is not a lysosome.
 
@@ -1316,7 +1349,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-89FBF21510F273
+CON-FND-89FBF21510F273 | CON-FND-CC0954729ED55F | CON-FND-8760847341DE80 | CON-FND-A214482F13AD8D | CON-FND-9715187C19E7FA | CON-FND-28F7FA711C1C1C | CON-FND-8EEA6972B77898
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: The clear against non-clear basement membrane, the desmosomes that hold stratified squamous epithelium together, and the cilia of the respiratory epithelium are all set out there.
 ## aliases
@@ -1342,7 +1375,11 @@ Simple epithelium is one layer of cells all resting on the basement membrane, an
 
 Pseudostratified columnar epithelium is actually simple. All its cells rest on the basement membrane, but some columnar cells do not reach the surface, and crowding places the nuclei at more than one level, giving a false appearance of stratification. It comes in three forms: non-ciliated, in the vas deferens and the membranous urethra; ciliated with motile cilia and goblet cells, which is the respiratory epithelium of nose, trachea and bronchi, the goblet cell being a mucous-secreting cell; and ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — in the epididymis.
 
+Stereocilia deserve the correction the name refuses to give. They are non-motile, solid, long microvilli with an actin filament core and no microtubules, so they have no axoneme and cannot beat; the book gives them an absorptive role in the male genital system, the epididymis being its example. On a section they are long apical processes, often clumped together at their tips, on a pseudostratified epithelium — which is why length is the worst thing to decide by. The book names goblet cells only in the respiratory, motile-ciliated variety, so a pseudostratified epithelium with long apical processes and no goblet cells, in a male genital duct, is the stereociliated one.
+
 Stratified epithelium is more than one layer, its main function is protection, and it is classified by the shape of its superficial cells into stratified squamous, transitional, stratified columnar and stratified cubical.
+
+Stratified squamous epithelium comes in two forms and they share everything except their surface. Both rest on a basement membrane over connective tissue, both have a basal layer of columnar cells with basal oval nuclei, and both have intermediate layers of polyhedral cells with rounded central nuclei that flatten as they approach the surface. In the non-keratinised form the superficial layer is flat cells that still carry flat nuclei. In the keratinised form those cells are gone, replaced by a horny layer of keratin: acidophilic, condensed and without nuclei. The presence or absence of nuclei at the very surface is therefore the whole decision, and it is a decision made at the top of the epithelium rather than across its thickness.
 
 ### Key determinants
 The comparison the exam sets is between the oesophagus and the urinary bladder, and the book's own table compares them column by column.
@@ -1352,6 +1389,22 @@ The oesophagus is lined by stratified squamous non-keratinised epithelium. Its b
 The urinary bladder is lined by transitional epithelium, also called urothelium. Its basement membrane is non-clear and not wavy. Its basal layer is cuboidal cells with central rounded nuclei. Its intermediate cells are polyhedral, and in the full bladder they are pushed laterally, which is how the epithelium thins. Its superficial cells are dome-shaped with an upper convex surface, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier; in the full bladder these superficial cells become flat. It is 6–8 layers in the empty bladder and 3–4 layers in the full bladder. It lines the whole urinary tract — prostatic urethra, pelvis of the ureter, ureter and urinary bladder. Its function is distensibility, and protection against the cytotoxic effect of urine.
 
 Three features, then, decide the answer: the basement membrane, clear and wavy against non-clear and flat; the shape of the superficial cell, flat against dome-shaped; and the layer count, which is fixed in the oesophagus and changes with filling in the bladder.
+
+**What the department's plates mark, and what the answer page accepts.** The practical book runs the epithelia as a series of marked plates and asks the same shape of question of each: name the epithelium, give one or two visible characters, and name the structures the arrows sit on. Two answers recur on almost every plate and are worth expecting — the basement membrane under the epithelium, and the connective tissue under that.
+
+Simple squamous. Flat cells, one layer; the nuclei are flat, single and central; the yellow arrow is the basement membrane. The department also sets it inside a blood vessel, where the endothelium is thin enough to be read as part of the wall and missed altogether.
+
+Simple cubical. Square shape, short cells, a single layer; the nuclei are rounded, central and single; again the arrow is the basement membrane. The book prints it as figures a and b of one question with simple squamous, so the two are answered against each other: the discriminator is cell height against width and a flat nucleus against a round one.
+
+Simple columnar. Tall cells, one layer, oval basal nuclei. The words that matter are "one layer" and "basal": the nuclei sit in a single row at the same level near the base, and the moment they are crowded at several levels the answer is pseudostratified.
+
+Pseudostratified columnar ciliated. Two visible characters are asked for, and the answer page gives three to choose from — tall cells, one cell layer, crowded nuclei. The arrows are then cilia, basement membrane, goblet cell and the underlying connective tissue. "One cell layer" is part of the model answer, which is the examiner's own statement that this epithelium is simple.
+
+Keratinised stratified squamous. The yellow arrow is the horny layer, or keratin, and the feature asked for is that it is acidophilic and condensed. The green arrow is the intermediate layers, polyhedral cells with rounded nuclei. The blue star is connective tissue.
+
+Non-keratinised stratified squamous. The same plate design with one answer changed: the yellow arrow is the superficial layer and the feature is flat cells with flat nuclei. On a second plate the two numbered markers are the superficial squamous cells and the basal columnar cells, which is the same epithelium read from the top and from the bottom.
+
+Transitional. The superficial layer is cuboidal or dome-shaped cells with rounded nuclei, the intermediate layers polyhedral cells with rounded nuclei, and the blue star is connective tissue. A separate plate asks for the nickname — transitional epithelium, for stratified cuboidal — and accepts dome-shaped cells or binucleated cells as the visible character.
 
 The two remaining stratified types are minor and the book treats them briefly. Stratified cubical epithelium is rare, usually two layers of cubical cells, as in the ducts of the sweat glands. Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra.
 
@@ -1371,6 +1424,14 @@ Both examples are worth carrying because they show the classification is not a t
 Calling urothelium stratified squamous because its surface cells flatten when the bladder is distended is the error the concept singles out. The flattening is the point. In the full bladder the superficial cells do become flat and the epithelium does thin to 3–4 layers, and it is still transitional epithelium, because what defines it is that the shape changes with filling.
 
 Calling pseudostratified epithelium stratified is the mirror error. Every one of its cells reaches the basement membrane, so it is simple epithelium with a false appearance, and the book classifies it among the simple types.
+
+Deciding keratinised against non-keratinised by thickness. A non-keratinised epithelium such as the oesophagus is thicker than thin skin. The answer is decided at the surface: nucleated flat cells means non-keratinised, an anuclear acidophilic horny layer means keratinised.
+
+Calling stereocilia cilia because they are long and apical. Length is precisely what makes them look like cilia. They have an actin core and no microtubules, so there is no axoneme and no beating, and the site is a male genital duct rather than an airway.
+
+Answering simple columnar for a pseudostratified epithelium, or the reverse. Both are tall cells on one basement membrane. One row of nuclei at the same level is simple columnar; nuclei crowded at several levels, with every cell still reaching the basement membrane, is pseudostratified.
+
+Missing a simple squamous epithelium in a vessel. The endothelium is a single line of flat nuclei on the luminal side of the wall, and a student looking for a recognisable cell layer reads past it.
 ## hold_these
 The oesophagus is lined by stratified squamous non-keratinised epithelium, 5-30 layers, on a clear wavy basement membrane, and it resists abrasion.
 The urinary bladder is lined by transitional epithelium, or urothelium, on a non-clear basement membrane that is not wavy, and it provides distensibility and protection against the cytotoxic effect of urine.
@@ -1380,6 +1441,13 @@ Stratified epithelium is classified by the shape of its superficial cells, simpl
 Pseudostratified columnar epithelium is simple, because all its cells rest on the basement membrane.
 Simple squamous epithelium is called endothelium in vessels and heart, pneumocytes in lung alveoli, and mesothelium on serous membranes.
 Metaplasia in bilharziasis can turn bladder epithelium into stratified squamous, and in heavy smokers can turn bronchial epithelium into stratified squamous.
+Simple squamous on a plate is flat cells in one layer with flat, single, central nuclei on a basement membrane.
+Simple cubical on a plate is square, short cells in a single layer with rounded, central, single nuclei.
+Simple columnar on a plate is tall cells in one layer with oval nuclei in a single row near the base.
+Pseudostratified columnar ciliated on a plate is tall cells, one cell layer and crowded nuclei, with cilia, goblet cells, a basement membrane and connective tissue beneath.
+Keratinised stratified squamous carries an acidophilic condensed horny layer with no nuclei; non-keratinised carries flat superficial cells that still have flat nuclei.
+Both forms of stratified squamous share a basal layer of columnar cells with basal oval nuclei and intermediate layers of polyhedral cells with rounded nuclei.
+Stereocilia are non-motile solid long microvilli with an actin core and no microtubules, absorptive, in the male genital system such as the epididymis.
 ## lose_the_mark
 Calling urothelium stratified squamous because the surface cells flatten when the bladder is distended. It is transitional, and the flattening is the point.
 Giving the same basement membrane for both. The oesophagus has a clear wavy one, the bladder a non-clear one that is not wavy.
@@ -1387,6 +1455,10 @@ Classifying pseudostratified columnar epithelium as stratified. All its cells re
 Writing that the oesophagus is keratinised. It is non-keratinised, and the keratinised form of the same epithelium is the epidermis of the skin.
 Giving one layer count for transitional epithelium. The book gives two, and which one applies depends on whether the bladder is full.
 Classifying stratified epithelium by the shape of its basal cells. The classification is on the superficial cells.
+Deciding keratinised against non-keratinised by how thick the epithelium is. The decision is whether the surface cells still have nuclei.
+Calling a long apical process a cilium. Stereocilia are long microvilli with an actin core and no microtubules, and the site is the male genital tract.
+Answering pseudostratified for tall cells with one row of nuclei at the same level. That is simple columnar.
+Answering stratified columnar for pseudostratified because the nuclei lie at several levels. Every cell here reaches the basement membrane.
 ## image_recommendations
 ### comparison table · Oesophagus and urinary bladder epithelium side by side at the same magnification, H&E, with basement membrane, basal layer, intermediate layers and superficial cells marked on each
 Purpose: The exam question is set as a table of features compared across two organs, and the features are all visual. One plate holding both at one magnification is the form the answer takes, and separate plates leave the student comparing two remembered images.
@@ -1407,6 +1479,32 @@ Source direction: openly licensed histology teaching set, or institutional slide
 Rights: must be CC-BY or public domain
 ### histology · Keratinised and non-keratinised stratified squamous epithelium side by side, the keratin layer clearly present on one and absent on the other
 Purpose: Keratinised against non-keratinised is a single visible layer, and students who have seen only the skin assume all stratified squamous epithelium looks like it.
+Priority: strongly helpful
+Status: needed
+Kind: histology
+Section: Key determinants
+Source direction: openly licensed histology teaching set
+Rights: must be CC-BY or public domain
+### histology · Pseudostratified epithelium of the epididymis showing long clumped stereocilia, beside pseudostratified ciliated respiratory epithelium at the same magnification
+Purpose: The stated pitfall is that both look like tall cells with long apical processes. Only two plates at one magnification make the difference visible — clumped stereocilia with no goblet cells against motile cilia with goblet cells between them.
+Priority: required
+Status: needed
+Kind: histology
+Section: Mechanism
+Source direction: openly licensed histology teaching set, or institutional slide scans
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-28F7FA711C1C1C. The department's own plate for this is a captioned teaching slide with no answer page.
+### histology · Simple squamous, simple cubical and simple columnar epithelium as three panels at the same magnification, each with its nucleus shape and its basement membrane visible
+Purpose: The three are separated by cell height and nucleus shape, and the department asks two of them as figures a and b of one question. Panels at one magnification are the only form in which "as tall as it is wide" against "tall" is a comparison rather than an assertion.
+Priority: required
+Status: needed
+Kind: histology
+Section: Key determinants
+Source direction: openly licensed histology teaching set, or institutional slide scans
+Rights: must be CC-BY or public domain
+Notes: Serves concepts CON-FND-CC0954729ED55F, CON-FND-8760847341DE80 and CON-FND-A214482F13AD8D.
+### histology · Endothelium of a blood vessel at a magnification where the single line of flat nuclei on the luminal surface is unmistakable, with the rest of the vessel wall in frame
+Purpose: The failure the department's vessel plate is set to catch is not misnaming this epithelium but not seeing it. The surrounding wall has to be in frame for the point to be made.
 Priority: strongly helpful
 Status: needed
 Kind: histology
@@ -1437,8 +1535,12 @@ The book does not describe the fusiform vesicles of the umbrella cell, nor give 
 The book gives no turnover time or regeneration rate for any epithelium, although it names high regenerative power as a general character.
 The book does not state the thickness of the oesophageal epithelium in micrometres, only in layers.
 No independent citation has been attached to any statement in this article.
+The department book does not state that the stereociliated pseudostratified epithelium has no goblet cells. It names goblet cells only in the respiratory, motile-ciliated variety, and this article says exactly that rather than turning a silence into a stated absence. The concept CON-FND-28F7FA711C1C1C states the absence outright, and it should be reconciled at the evidence pass.
+The practical book's stereocilia plate is a captioned teaching slide with no marked question and no answer page, so what an examiner accepts as its visible character is not on record. The characters given here are the book's own account of stereocilia in the Polarity and Membranous Specializations chapter.
+The book does not say how many layers a keratinised stratified squamous epithelium has, nor how thick its horny layer is; the layer count of 5-30 is given for the epithelium as a class.
 ## evidence_basis
-Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "I- Surface Epithelium", printed pages 52-56, including the page 55 comparison of stratified squamous with transitional epithelium. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "I- Surface Epithelium", printed pages 52-56, including the page 55 comparison of stratified squamous with transitional epithelium; and the chapter "Polarity and Membranous Specializations", printed pages 60-62, for the account of stereocilia as non-motile solid long microvilli with an actin core and no microtubules. Extracted to scripts/kasr/extract/deptbook.json.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json — the marked plates and facing answer pages for simple squamous (pp. 185, 193), simple cubical (pp. 187, 195), simple squamous against simple cubical as figures a and b of one question (p. 197), simple columnar (p. 199), pseudostratified columnar ciliated (pp. 191, 201), keratinised stratified squamous (p. 203), non-keratinised stratified squamous (pp. 205, 207) and transitional epithelium (pp. 189, 209); and the captioned teaching plate for stereocilia (p. 177). Every marker and accepted answer in "What the department's plates mark" is taken from those answer pages.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate is written as an image recommendation.
@@ -1449,4 +1551,6 @@ nanotopic: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-89FBF21510F273 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
+Extended to close the practical gap on this leaf: six identification concepts sat on the Surface Epithelium leaf with no article claiming them. Four the article already taught — simple squamous, simple cubical, simple columnar and pseudostratified columnar — and needed only the department's own marker-by-marker answers written down, which is the new run in Key determinants. Two needed the article extended first. Keratinised against non-keratinised stratified squamous existed here only as the sentence that the oesophagus is non-keratinised and the epidermis is keratinised, with nothing about the horny layer or about which end of the epithelium the decision is made at. Stereocilia existed as a nine-word parenthesis inside the pseudostratified list, which is not enough to answer a plate that asks what separates them from cilia.
+
 The exam question this article serves was set as a table to be filled in, so the Key determinants section is organised on the book's own page 55 column headings - number of layers, basement membrane, basal layer, intermediate layer, superficial layer, subtypes and sites, function - rather than on a narrative of each organ in turn.

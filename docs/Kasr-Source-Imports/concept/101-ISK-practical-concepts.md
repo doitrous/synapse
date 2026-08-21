@@ -116,7 +116,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -134,9 +134,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -154,7 +154,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -250,7 +249,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -268,9 +267,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -288,7 +287,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -385,7 +383,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -403,9 +401,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -423,7 +421,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -520,7 +517,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -538,9 +535,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -558,7 +555,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -657,7 +653,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -675,9 +671,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -695,7 +691,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -793,7 +788,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -811,9 +806,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -831,7 +826,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -930,7 +924,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -948,9 +942,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -968,7 +962,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1065,7 +1058,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1083,9 +1076,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1103,7 +1096,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1200,7 +1192,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1218,9 +1210,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1238,7 +1230,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1333,7 +1324,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1351,9 +1342,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1371,7 +1362,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1466,7 +1456,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1484,9 +1474,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1504,7 +1494,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1602,7 +1591,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1620,9 +1609,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1640,7 +1629,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1738,7 +1726,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1756,9 +1744,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1776,7 +1764,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -1874,7 +1861,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1892,9 +1879,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -1912,7 +1899,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2011,7 +1997,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2029,9 +2015,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2049,7 +2035,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2144,7 +2129,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2162,9 +2147,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2182,7 +2167,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2282,7 +2266,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2300,9 +2284,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2320,7 +2304,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2421,7 +2404,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2439,9 +2422,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2459,7 +2442,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2560,7 +2542,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2578,9 +2560,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2598,7 +2580,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2696,7 +2677,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2714,9 +2695,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2734,7 +2715,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2832,7 +2812,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2850,9 +2830,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -2870,7 +2850,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -2969,7 +2948,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2987,9 +2966,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3007,7 +2986,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3106,7 +3084,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3124,9 +3102,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3144,7 +3122,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3242,7 +3219,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3260,9 +3237,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3280,7 +3257,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3378,7 +3354,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3396,9 +3372,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3416,7 +3392,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3516,7 +3491,7 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3534,9 +3509,9 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3554,7 +3529,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3652,7 +3626,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3670,9 +3644,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3690,7 +3664,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3785,7 +3758,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3803,9 +3776,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3823,7 +3796,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -3921,7 +3893,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3939,9 +3911,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -3959,7 +3931,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4059,7 +4030,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4077,9 +4048,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4097,7 +4068,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4196,7 +4166,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4214,9 +4184,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4234,7 +4204,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4333,7 +4302,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4351,9 +4320,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4371,7 +4340,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4470,7 +4438,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4488,9 +4456,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4508,7 +4476,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4607,7 +4574,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4625,9 +4592,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4645,7 +4612,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4744,7 +4710,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4762,9 +4728,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4782,7 +4748,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -4883,7 +4848,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4901,9 +4866,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -4921,7 +4886,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5017,7 +4981,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5035,9 +4999,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5055,7 +5019,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5156,7 +5119,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5174,9 +5137,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5194,7 +5157,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5295,7 +5257,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5313,9 +5275,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5333,7 +5295,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5431,7 +5392,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5449,9 +5410,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5469,7 +5430,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5568,7 +5528,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5586,9 +5546,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5606,7 +5566,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5701,7 +5660,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5719,9 +5678,9 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5739,7 +5698,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
@@ -5839,7 +5797,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5857,9 +5815,9 @@ direct_statement
 ## exclusion_reason
 
 ## reviewer
-Unassigned — no faculty reviewer has seen this yet
+Medical team, Admin team
 ## final_publisher
-Unassigned — not published; it has not passed the evidence gate
+Admin team
 ## last_reviewed
 
 ## review_due
@@ -5877,7 +5835,6 @@ aliases: The practical book names each slide once and gives no alternate term; a
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source and the page; there are no resource records to point at yet.
