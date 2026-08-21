@@ -739,6 +739,31 @@ def confidence_word(x):
     return "high" if x >= 0.9 else ("medium" if x >= 0.7 else "low")
 
 
+def annot_diff(sid, pdf, page, dpi, force):
+    """How many pixels the page's annotations put on it — a diagnostic, not the
+    extractor. Ghostscript renders these files deterministically: on an unsolved
+    copy the annotations-on and annotations-off renders come out byte-identical,
+    so this number is an exact count of annotation ink rather than an estimate
+    of it, and it is the per-page margin that separates "this page carries no
+    marks" from "my colour threshold slipped". A flattened mark contributes
+    nothing to it, which is exactly why it cannot be the extractor.
+    """
+    on = os.path.join(CACHE, "%s-p%02d-r%d-gson.ppm" % (sid, page, dpi))
+    if not os.path.exists(on) or force:
+        subprocess.run(["gs", "-q", "-dNOPAUSE", "-dBATCH", "-sDEVICE=ppmraw",
+                        "-r%d" % dpi, "-dFirstPage=%d" % page, "-dLastPage=%d" % page,
+                        "-sOutputFile=" + on, pdf], check=True, capture_output=True)
+    off = render(sid, pdf, page, dpi, False, force)
+    _w, _h, a = read_ppm(on)
+    _w2, _h2, b = read_ppm(off)
+    if len(a) != len(b):
+        return None
+    if a == b:
+        return 0
+    return sum(1 for i in range(0, len(a), 3)
+               if a[i] != b[i] or a[i + 1] != b[i + 1] or a[i + 2] != b[i + 2])
+
+
 # ------------------------------------------------------------------ assembly
 def sources():
     with open(MANIFEST, encoding="utf-8") as fh:
@@ -809,6 +834,14 @@ def run_source(src, force):
                         % ", ".join(families))
                 if families:
                     note = "ink colour: " + ", ".join(families)
+            if block["merged"] and letter:
+                letter, reason = None, (
+                    "OCR read options %s as one box, so a mark on either would be "
+                    "credited to the first; refused rather than scored"
+                    % ", ".join(block["merged"]))
+            if len(block["options"]) < 4 and letter is None and reason:
+                reason += ("; OCR recovered only %d of the option boxes on this "
+                           "question" % len(block["options"]))
             else:
                 letter, share, per_option, hull, reason = score_stroke(block, hulls)
                 rule = "containment"
@@ -828,6 +861,8 @@ def run_source(src, force):
                 "ambiguous": letter is None,
                 "rule": rule,
                 "note": note,
+                "optionsFound": len(block["options"]),
+                "ocrMode": block["ocrMode"],
                 "unresolvedReason": reason,
                 "optionScores": per_option,
                 "optionBoxes": {o["letter"]: o["box"] for o in block["options"]},

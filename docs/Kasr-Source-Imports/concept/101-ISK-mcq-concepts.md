@@ -26,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  127 questions were excluded and 1 held back for having no
+  127 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 

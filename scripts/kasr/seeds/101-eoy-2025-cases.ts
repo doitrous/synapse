@@ -96,7 +96,7 @@ export const SEEDS: Seed[] = [
     q: 2, section: 'Upper Limb', page: 1, marks: 5,
     asked: 'A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a. What lymph nodes should be removed during mastectomy operation? b. What other areas do these lymph nodes drain? c. Should the physician examine the other breast? Why? d. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed?',
     label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
-    key: 'breast-lymphatic-drainage-axillary',
+    key: 'breast-lymphatic-drainage',
     definition: 'The axillary lymph nodes take the great majority of the lymph of the breast and are the nodes removed at mastectomy. They also drain the upper limb, the front and back of the chest, and the abdominal walls down to the level of the umbilicus. The lymphatics of the two breasts intercommunicate freely across the midline, which is why carcinoma of one breast is a reason to examine the other.',
     objective: 'Explain which nodes a mastectomy removes, what else those nodes drain, and why the opposite breast must be examined.',
     pitfall: 'Treating the axillary nodes as breast nodes only. They drain the whole upper limb and a wide field of trunk wall, which is why an enlarged axillary node is not by itself a breast finding.',
@@ -115,7 +115,7 @@ export const SEEDS: Seed[] = [
     q: 2, section: 'Upper Limb', page: 1, marks: 0,
     asked: 'd. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed?',
     label: 'Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula',
-    key: 'long-thoracic-nerve-injury-winged-scapula',
+    key: 'long-thoracic-nerve-serratus-anterior-winging',
     definition: 'The long thoracic nerve may be injured during dissection of the axillary lymph nodes at radical mastectomy. It supplies serratus anterior, whose paralysis gives winging of the scapula, difficulty in protraction of the shoulder girdle and difficulty in raising the arm above the head.',
     objective: 'Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.',
     pitfall: 'Blaming the axillary nerve. That would flatten the shoulder and numb the skin over the lower deltoid; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.',
@@ -232,7 +232,7 @@ export const SEEDS: Seed[] = [
     type: 'clinical_correlation',
     aliases: ['Snuffbox', 'Scaphoid fracture'],
     conflicts: [
-      'This model answer puts the tendons of extensor carpi radialis longus and brevis among the contents; the 2025 EOY seed puts the beginning of the cephalic vein among them and the extensor carpi radialis tendons in the floor. The department book\'s Hand chapter says the radial artery runs "over the tendons of extensor carpi radialis longus and brevis", which reads with the floor. All three readings are in this corpus.',
+      'This model answer puts the tendons of extensor carpi radialis longus and brevis among the contents; the 2025 EOY seed puts the beginning of the cephalic vein among them instead. The department book, in its Forearm chapter, does neither: it gives the contents as the radial artery, says the extensor carpi radialis longus and brevis tendons cross the floor, and puts the beginning of the cephalic vein in the roof. The model answer is kept here because this file\'s whole value is that its schemes are the examiner\'s own, and the book\'s reading is recorded against it.',
     ],
   },
 ]
@@ -295,7 +295,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'd',
         prompt: 'After the operation the patient was unable to abduct her arm above the shoulder. How can this be explained?',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: [
           'The long thoracic nerve could have been injured during dissection of the axillary lymph nodes',
           'This leads to paralysis of the serratus anterior muscle',
@@ -305,7 +305,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'e',
         prompt: 'What other deformity can be noticed?',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: ['Winging of the scapula'],
       },
     ],

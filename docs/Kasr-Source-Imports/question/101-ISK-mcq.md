@@ -26,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  127 questions were excluded and 1 held back for having no
+  127 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -14395,6 +14395,89 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-101-8CBF74769046
+## title
+Polysomes are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Polysomes are:
+## answer_a
+A bead like structures formed of the link of a group of ribosomes
+## explanation_a
+Correct. A group of ribosomes linked along one strand of messenger RNA, seen as bead-like rosettes or spiral chains — many ribosomes reading the same message at once.
+## answer_b
+A bead like structures formed of the link of a group of lysosomes
+## explanation_b
+Lysosomes are separate membrane-bound vesicles and never string together.
+## answer_c
+A bead like structures formed of the link of a group of peroxisomes
+## explanation_c
+Peroxisomes likewise are individual vesicles.
+## answer_d
+A bead like structures formed of the link of a group of secretory vesicles
+## explanation_d
+Secretory vesicles bud singly from the Golgi and travel singly to the surface. The three wrong options all substitute a membranous body for the particle, which is the shape of the guess this question catches.
+## correct_answer
+A
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Define a polysome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q92. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A polysome is a group of ribosomes linked by one strand of messenger RNA, which is option A; lysosomes, peroxisomes and secretory vesicles are separate membrane-bound bodies and never link into a chain.
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

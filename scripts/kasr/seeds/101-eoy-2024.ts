@@ -51,12 +51,12 @@
  * the mechanism as separate half-marks and joins alternatives within a point
  * with OR.
  *
- * Anatomy Q9 is the one gap: the book's Hand chapter describes the radial
- * artery crossing the anatomical snuff box but never lists the box's own
- * boundaries. That scheme is taken from this faculty's own case bank
- * (src_4ad2587114e7f1ba4811, upper-limb case 10), which prints a model answer
- * for exactly this question — and which disagrees with the 2025 paper's seed
- * about the contents. The disagreement is recorded on the seed rather than
+ * Anatomy Q9, the anatomical snuff box, is the one place three sources in this
+ * corpus disagree about the contents. The book carries the box in its Forearm
+ * chapter rather than its Hand chapter, which is where `clusters.json` files
+ * the objective; the faculty case bank (src_4ad2587114e7f1ba4811, upper-limb
+ * case 10) and the 2025 EOY seed each list the contents differently again. The
+ * book is followed and the disagreement recorded on the seed rather than
  * settled here.
  *
  * ## What this file does not carry
@@ -205,7 +205,7 @@ export const SEEDS: Seed[] = [
     asked: 'Regarding Anatomical snuff box, mention its site and boundaries.',
     label: 'The anatomical snuff box is a hollow on the lateral wrist bounded by three thumb tendons',
     key: 'anatomical-snuff-box-site-boundaries-contents',
-    definition: 'The anatomical snuff box is a triangular hollow on the lateral side of the wrist, best seen when the thumb is extended. Its lateral (anterior) boundary is the tendons of abductor pollicis longus and extensor pollicis brevis together; its medial (posterior) boundary is the tendon of extensor pollicis longus. Its floor is the styloid process of the radius with the scaphoid and the trapezium. The radial artery crosses it, winding backwards round the lateral side of the wrist deep to abductor pollicis longus and extensor pollicis brevis and over the tendons of extensor carpi radialis longus and brevis, where its pulsation can be felt, and leaving deep to extensor pollicis longus.',
+    definition: 'The anatomical snuff box is a triangular hollow at the lateral part of the dorsum of the wrist, clearly visible when the thumb is extended. It is bounded medially by the tendon of extensor pollicis longus and laterally by the tendons of abductor pollicis longus and extensor pollicis brevis. Its roof is skin, superficial fascia containing the beginning of the cephalic vein and the digital branches of the superficial radial nerve, and deep fascia; its floor is the styloid process of the radius, the scaphoid proximally and the trapezium distally. It contains the radial artery as it winds backwards round the lateral side of the wrist to the dorsum of the hand, where its pulsation can be felt, and the tendons of extensor carpi radialis longus and brevis cross its floor.',
     objective: 'Give the site of the anatomical snuff box, its two tendon boundaries and its bony floor.',
     pitfall: 'Making abductor pollicis longus and extensor pollicis brevis two separate boundaries. They form one boundary together; the opposite boundary is extensor pollicis longus alone.',
     subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
@@ -213,11 +213,9 @@ export const SEEDS: Seed[] = [
     type: 'structural_description',
     aliases: ['Snuffbox', 'Radial fossa of the wrist'],
     conflicts: [
-      'The faculty\'s own case bank (src_4ad2587114e7f1ba4811, upper-limb case 10) gives the contents as "Radial artery, tendons of extensor carpi radialis longus and brevis" and names the boundaries medial and lateral. The 2025 EOY seed for this box gives the contents as the radial artery and the beginning of the cephalic vein, and names the boundaries anterior and posterior. Both readings are in this corpus and neither is corrected here.',
+      'Three readings of the contents are in this corpus. The department book puts the radial artery in the box and says the tendons of extensor carpi radialis longus and brevis cross its floor, with the beginning of the cephalic vein in the roof. The faculty case bank (src_4ad2587114e7f1ba4811, upper-limb case 10) lists both the radial artery and those two tendons as contents. The 2025 EOY seed lists the radial artery and the beginning of the cephalic vein. The book is followed here and the other two recorded.',
       'The seed key used to be `anatomical-snuff-box-boundaries-contents-floor-roof`, minted from the 2025 paper. `clusters.json` carries `anatomical-snuff-box-site-boundaries-contents` across nine askings, and that is the key used here.',
-    ],
-    gaps: [
-      'The department book\'s Hand chapter describes the radial artery crossing the snuff box but never lists the box\'s own boundaries, floor or roof. This scheme is from the faculty case bank instead, which is a departmental source but not the book.',
+      '`clusters.json` files this objective under Upper Limb > Hand and that path is kept, but the department book carries the snuff box in its Forearm chapter, not its Hand chapter.',
     ],
   },
   {
@@ -439,13 +437,13 @@ export const SCHEMES: Record<string, Scheme> = {
     format: 'structured_written',
     prompt: 'Give the site and the boundaries of the anatomical snuff box.',
     expects: [
-      'A triangular hollow on the lateral side of the wrist, seen when the thumb is extended',
-      'Lateral (anterior) boundary: the tendons of abductor pollicis longus and extensor pollicis brevis, together',
-      'Medial (posterior) boundary: the tendon of extensor pollicis longus',
-      'Floor: the styloid process of the radius, the scaphoid and the trapezium',
-      'The radial artery crosses it, winding backwards round the lateral side of the wrist',
-      'It passes deep to abductor pollicis longus and extensor pollicis brevis and over the tendons of extensor carpi radialis longus and brevis, where its pulsation can be felt',
-      'It leaves the box deep to the tendon of extensor pollicis longus',
+      'Site: a triangular hollow at the lateral part of the dorsum of the wrist',
+      'It is clearly visible when the thumb is extended',
+      'Bounded medially by the tendon of extensor pollicis longus',
+      'Bounded laterally by the tendons of abductor pollicis longus and extensor pollicis brevis',
+      'Floor: the styloid process of the radius, the scaphoid proximally and the trapezium distally',
+      'Roof: skin, superficial fascia containing the beginning of the cephalic vein and digital branches of the superficial radial nerve, and deep fascia',
+      'It contains the radial artery, whose pulsation can be felt there as it crosses to the dorsum of the hand',
     ],
   },
   A10: {
