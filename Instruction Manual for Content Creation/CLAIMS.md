@@ -18,14 +18,6 @@ pair, and never the same output file.
 | Claimed | Agent | Scope | Output file | Depends on |
 |---|---|---|---|---|
 | — | — | — | — | — |
-| 2026-08-21 | 104-cps | `104 CPS` · module-subject structure | docs/Kasr-Source-Imports/academic/104-cps-structure.md | — |
-| 2026-08-21 | 104-cps | `104 CPS` · concepts | docs/Kasr-Source-Imports/concept/104-CPS-concepts.md | — |
-| 2026-08-21 | 104-cps | `104 CPS` · teaching articles | docs/Kasr-Source-Imports/article/104-CPS-articles.md | 104 CPS concepts |
-| 2026-08-21 | 104-cps | `104 CPS` · written questions | docs/Kasr-Source-Imports/written/104-CPS-written.md | 104 CPS concepts + articles |
-| 2026-08-21 | 104-cps | `104 CPS` · MCQ questions | docs/Kasr-Source-Imports/question/104-CPS-mcq.md | 104 CPS concepts + articles |
-| 2026-08-21 | 104-cps | `104 CPS` · practical items | docs/Kasr-Source-Imports/practical/104-CPS-practical.md | 104 CPS concepts |
-| 2026-08-21 | 104-cps | `104 CPS` · media requests | docs/Kasr-Source-Imports/media-requests/104-CPS-media-audit.md | — |
-| 2026-08-21 | 104-cps | `104 CPS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/104-CPS-coverage.md | — |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` question-book MCQs — every subject-tree leaf **except `Granular leukocytes`**, which the 101 lane holds | `scripts/kasr/seeds/mcq/**`, and its two generated outputs `docs/Kasr-Source-Imports/question/101-ISK-mcq.md` and `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | The article for each leaf. A leaf is not done until one exists and names its concepts in `related_concepts` |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` histology articles for the twelve leaves the 101 lane did not write | `docs/Kasr-Source-Imports/article/101-ISK-histology-2.md` | — |
 
@@ -49,6 +41,16 @@ scope. Whoever owns it picks it up from here.
 | Finished | Agent | Scope | Output file | Result |
 |---|---|---|---|---|
 | — | — | — | — | — |
+| 2026-08-21 | 104-cps | `104 CPS` · module-subject structure | docs/Kasr-Source-Imports/academic/104-cps-structure.md | 51 subject nodes, 0 parse errors |
+| 2026-08-21 | 104-cps | `104 CPS` · concepts | docs/Kasr-Source-Imports/concept/104-CPS-concepts.md | 22 concepts, fieldsUsed 54, 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · practical concepts | docs/Kasr-Source-Imports/concept/104-CPS-practical-concepts.md | 17 concepts, fieldsUsed 54, 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · teaching articles | docs/Kasr-Source-Imports/article/104-CPS-articles.md | 13 articles, fieldsUsed 52, 0 errors; all 39 concepts covered |
+| 2026-08-21 | 104-cps | `104 CPS` · corpus resources | docs/Kasr-Source-Imports/evidence/104-CPS-resources.md | 8 resources, 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · written questions | docs/Kasr-Source-Imports/written/104-CPS-EOY-2025-written.md | 15 questions, 119 marks, 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · MCQ and matching | docs/Kasr-Source-Imports/question/104-CPS-mcq.md | 40 items (36 SBA, 4 matching), 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · practical items | docs/Kasr-Source-Imports/practical/104-CPS-practical.md | 4 stations, 20 questions, 0 errors |
+| 2026-08-21 | 104-cps | `104 CPS` · media requests | docs/Kasr-Source-Imports/media-requests/104-CPS-media-audit.md | 14 requests, all with Purpose |
+| 2026-08-21 | 104-cps | `104 CPS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/104-CPS-coverage.md | 35 of 46 files read, 1540 pages |
 
 ---
 
