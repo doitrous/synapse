@@ -673,8 +673,14 @@ lanes to edit the wrong record. An article's **`related_concepts`** is what puts
 the concept (`validate-content-batch.mjs:120-131`); the check at `:280` then reads
 `concept.articleIds`, which was *derived* from that. A sibling concept folded in with `--with`
 starts at `articleIds: []` (`:110`) and is filled from the article side. So both halves are
-true — the check reads the concept, the link is written on the article — and only the second
-tells you where to type. One MCQ batch is red on **59 errors** — 14 of the form `library_ids
+true — the check reads the concept, the link is written on the article.
+
+**And you must write both.** `articleIds` is on the audit's `conceptPopulated` list
+(`audit-medical-content-fields.mjs:46`), so the concept has to carry it in its own right as
+well. The article's `related_concepts` satisfies the **validator's coverage check**; the
+concept's own `articleIds` satisfies the **audit**. §7's "every back-link exists in both
+directions, and you write both" is load-bearing rather than tidy — write only the concept side
+and coverage fails; write only the article side and the audit does. One MCQ batch is red on **59 errors** — 14 of the form `library_ids
 ART-… is not an article that exists`, the rest `main concept … is not covered by any article
 in library_ids`. That is the check working.
 
@@ -824,27 +830,43 @@ written, and the concept must not reference it.** Otherwise the audit fails with
 unknown claim` — and worse, the concept would *look* supported. Not hypothetical: some
 concepts come off exam questions the department book never states.
 
-### Two ways `--with` siblings are silently dropped
+### `--with` siblings vanish when the shell does not word-split
 
-Both invent errors on batches that are fine, and both have now cost more than one lane time.
+**Not an npm bug — I recorded that and it was wrong.** Two lanes failed to reproduce it and
+a direct probe passes all five arguments through `npm run -s … --` unchanged. There is one
+mechanism, and it is in the script:
 
-**1. npm swallows them.** `npm run -s medical:batch FILE -- --with A --with B` drops
-arguments when the `--with` list is built in a shell variable. Measured on one batch:
-**156 errors through npm, 67 through the script directly, identical arguments.**
-
-**Invoke the script directly whenever siblings are involved:**
-
-```bash
-node --experimental-strip-types scripts/validate-content-batch.mjs FILE --with A --with B
+```js
+// validate-content-batch.mjs:40-43
+const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
+  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+  return files
+}, [])
 ```
 
-**2. zsh does not word-split an unquoted expansion.** `npm run -s medical:batch -- "$file"
-$siblings` — the workflow's own line — passes `$siblings` as a **single argument** under zsh,
-so every `--with` after the first is lost. Reproduce `content.yml` under `bash -c`, or from a
-script.
+If a shell hands `" --with a.md --with b.md"` across as **one** argument, `arg === '--with'`
+is false for it and **every sibling is dropped with no warning and no unknown-argument
+error**:
 
-A run that reports **more** errors than the truth is as dangerous as one that reports fewer:
-a lane concludes its batch is broken, and starts fixing what was never wrong.
+```
+argc=5  siblings found: 2   ["a.md","b.md"]
+argc=2  siblings found: 0   []          <- one joined string, silent
+```
+
+So it fires wherever the shell does not word-split an unquoted expansion — **zsh** — and not
+otherwise. That is why one lane measured 156-against-67 and two others measured 40-against-40
+and 0-against-0.
+
+**Do not detect it by comparing error counts.** A count that matches another count proves
+nothing about either. **Check positively:** grep the output for `is not a concept that exists`
+and expect **0** — a direct observation that the sibling batch was folded in.
+
+**The real fix belongs in the script, not in how people call it.** An argument the parser does
+not recognise should be an **error**, not a silent no-op — today, `--with` taking a value that
+is never used is indistinguishable from not passing it. Two lines, and it retires the class
+rather than documenting around it. Note `.github/workflows/content.yml` builds exactly such a
+variable and passes it unquoted: safe because CI runs bash, but one shell away from silently
+validating nothing.
 
 ### The subject rule is enforced, not just agreed
 
