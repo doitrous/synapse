@@ -24,7 +24,7 @@ looks exactly like a file with nothing in it.
 | `concept/101-ISK-concepts.md` | 71 |
 | `concept/101-ISK-mcq-concepts.md` | 261 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
-| `question/101-ISK-mcq.md` | 1662 |
+| `question/101-ISK-mcq.md` | 1661 |
 | `article/101-ISK-anatomy-2.md` | 11 |
 | `article/101-ISK-anatomy.md` | 39 |
 | `article/101-ISK-histology-2.md` | 12 |

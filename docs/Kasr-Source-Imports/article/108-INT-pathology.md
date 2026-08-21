@@ -132,6 +132,7 @@ Congenital does not mean genetic. The book splits congenital disease into geneti
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Pathology is learned in two stages: general pathology, the main types of disease process, and systemic pathology, specific diseases in named organs.
@@ -337,6 +338,7 @@ Free radicals are not purely pathological. They are made routinely during mitoch
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 A cell answers stress with adaptation, reversible injury, or irreversible injury and death, and the three are one continuum.
@@ -576,6 +578,7 @@ Fat necrosis is not an accumulation of fat inside cells. It is death of adipose 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Necrosis is death of a group of cells within a living body.
@@ -823,6 +826,7 @@ A cell dying by apoptosis does not swell. It shrinks, and cell swelling was the 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Apoptosis is programmed, energy-dependent cell death that deletes individual cells with their membranes intact, so it provokes no inflammation.
@@ -1057,6 +1061,7 @@ Fat necrosis is not on this list. It is death of adipose tissue, taught in the n
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 A cell accumulates a substance by three routes: a normal endogenous substance not removed or defectively metabolised, an abnormal endogenous substance from a mutated gene, or an abnormal exogenous substance the cell cannot degrade.
@@ -1327,6 +1332,7 @@ Hemozoin containing iron does not make it Prussian blue positive.
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Inhaled carbon is carried by alveolar macrophages to tracheobronchial lymph nodes and blackens both — anthracosis; in coal miners it provokes fibrosis and becomes coal worker's pneumoconiosis.
@@ -1573,6 +1579,7 @@ Nephrocalcinosis is not a routine consequence. The book says deposits usually ca
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Pathological calcification is deposition of calcium salts in tissue other than teeth or bone.
@@ -1815,6 +1822,7 @@ A thickened firm myocardium in amyloidosis is not hypertrophy. It is deposit rep
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Amyloidosis is extracellular deposition of abnormal protein in beta-pleated configuration with the glycoprotein amyloid P, on basement membranes, reticulin fibres and small vessel walls; the tissue becomes hard and waxy.
