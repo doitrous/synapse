@@ -8,6 +8,7 @@ import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.cache.PendingDocument
 import com.synapse.android.core.model.LedgerDecoder
 import com.synapse.android.core.progress.AttemptStore
+import java.time.Duration
 import java.time.Instant
 import java.time.YearMonth
 import java.time.ZoneId
@@ -79,12 +80,44 @@ class SyncEngine(
             drain()
             _status.value = SyncStatus.Done(changed, Instant.now())
         } catch (e: CancellationException) {
+            // Nothing failed and nothing finished -- the caller's scope died
+            // mid-pass, which is what happens every time the student
+            // backgrounds the app while [refreshWhenStale] has one running.
+            // Leaving [_status] on [SyncStatus.Syncing] would leave Account
+            // showing a spinner that never resolves for the life of the
+            // process, and would tell the next [refreshWhenStale] that a
+            // pass is still in flight.
+            _status.value = SyncStatus.Idle
             throw e
         } catch (e: ApiError) {
             _status.value = SyncStatus.Failed(e.message ?: "sync failed")
         } finally {
             refreshMutex.unlock()
         }
+    }
+
+    /**
+     * [refresh], unless one finished less than [minAge] ago.
+     *
+     * The app used to refresh exactly once per process, from `RootScreen`'s
+     * arrival at `SignedIn`. An Android process outlives a great many
+     * sessions on the same account: a student who answers questions on the
+     * web at a desk and then picks their phone back up was reading a cache
+     * that had not been asked about since the app first opened, with no way
+     * to ask for one short of killing the app. So the foreground now
+     * refreshes, and this is the throttle that makes that affordable --
+     * without it, every task-switch, every rotation and every trip back from
+     * the camera is a full manifest diff.
+     *
+     * Only a *completed* pass counts. A [SyncStatus.Failed] carries no
+     * timestamp and a cancelled one resets to [SyncStatus.Idle], so coming
+     * back to the foreground after a failure tries again immediately, which
+     * is the moment it is most likely to work.
+     */
+    suspend fun refreshWhenStale(minAge: Duration) {
+        val lastCompleted = (_status.value as? SyncStatus.Done)?.at
+        if (lastCompleted != null && Duration.between(lastCompleted, Instant.now()) < minAge) return
+        refresh()
     }
 
     /**

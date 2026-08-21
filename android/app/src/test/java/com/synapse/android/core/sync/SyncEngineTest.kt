@@ -8,12 +8,14 @@ import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.progress.AttemptStore
+import java.time.Duration
 import java.time.Instant
 import java.time.YearMonth
 import java.time.ZoneId
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.CopyOnWriteArrayList
 import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
@@ -311,6 +313,83 @@ class SyncEngineTest {
 
         assertTrue(engine.status.value is SyncStatus.Failed)
         assertNull((engine.status.value as? SyncStatus.Done))
+    }
+
+    // -- Coming back to the foreground -----------------------------------
+
+    /**
+     * The app used to refresh exactly once per process. An Android process
+     * outlives many sessions on one account, so a student who worked on the
+     * web and then picked their phone back up read a cache nothing had asked
+     * about since the app first opened. `RootScreen` now refreshes on every
+     * arrival at STARTED, and this is the throttle that makes that
+     * affordable -- without it, each task-switch and each rotation is a full
+     * manifest diff.
+     */
+    @Test
+    fun `a foreground inside the window does not ask the server again`() = runBlocking {
+        engine.refresh()
+        val afterFirst = requests.size
+        assertTrue("the first pass must actually have gone out", afterFirst > 0)
+
+        engine.refreshWhenStale(Duration.ofMinutes(2))
+
+        assertEquals("nothing left the device", afterFirst, requests.size)
+    }
+
+    @Test
+    fun `a foreground once the window has passed asks again`() = runBlocking {
+        engine.refresh()
+        val afterFirst = requests.size
+
+        // Duration.ZERO rather than a sleep: it says "anything already
+        // finished counts as stale", which is the branch under test, and a
+        // test that waited out a real window would only be proving that
+        // clocks advance.
+        engine.refreshWhenStale(Duration.ZERO)
+
+        assertTrue("a second pass went out", requests.size > afterFirst)
+        assertTrue(engine.status.value is SyncStatus.Done)
+    }
+
+    /**
+     * A failure carries no completion time, so it never satisfies the
+     * window. Coming back to the foreground after a refresh that could not
+     * reach the server tries again straight away -- which is the moment it
+     * is most likely to work, since the usual reason for the failure is that
+     * the phone was somewhere without signal.
+     */
+    @Test
+    fun `a refresh that failed is retried on the next foreground, window or not`() = runBlocking {
+        overrides["GET /api/state/manifest"] = { MockResponse().setResponseCode(500) }
+        engine.refresh()
+        assertTrue(engine.status.value is SyncStatus.Failed)
+        val afterFailure = requests.size
+
+        overrides.remove("GET /api/state/manifest")
+        engine.refreshWhenStale(Duration.ofHours(1))
+
+        assertTrue("the retry went out despite the window", requests.size > afterFailure)
+        assertTrue(engine.status.value is SyncStatus.Done)
+    }
+
+    /**
+     * Backgrounding the app cancels whatever pass `repeatOnLifecycle` had
+     * running. Left on [SyncStatus.Syncing], that would show Account a
+     * spinner that never resolves for the life of the process, and would
+     * tell the next foreground that a pass was still in flight.
+     */
+    @Test
+    fun `a cancelled refresh does not leave the status stuck on Syncing`() = runBlocking {
+        overrides["GET /api/state/manifest"] = {
+            MockResponse().setBody(manifestBody(emptyMap())).setBodyDelay(2, TimeUnit.SECONDS)
+        }
+
+        val job = launch { engine.refresh() }
+        withTimeout(5_000) { while (engine.status.value !is SyncStatus.Syncing) delay(5) }
+        job.cancelAndJoin()
+
+        assertEquals(SyncStatus.Idle, engine.status.value)
     }
 
     // -- The attempt-shard window ----------------------------------------

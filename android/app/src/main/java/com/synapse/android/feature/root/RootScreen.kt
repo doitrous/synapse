@@ -18,6 +18,9 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
@@ -49,6 +52,7 @@ import com.synapse.android.feature.qbank.ResultsViewModel
 import com.synapse.android.feature.qbank.RunnerViewModel
 import com.synapse.android.feature.qbank.SessionBuilderScreen
 import com.synapse.android.feature.qbank.TopicChooserScreen
+import java.time.Duration
 import kotlinx.coroutines.flow.first
 
 private const val ROUTE_QBANK = "qbank"
@@ -74,6 +78,17 @@ private const val ROUTE_ACCOUNT = "account"
  * early here, without so much as naming `graph.auth`, is what keeps that
  * stack unreachable on this path rather than merely unlikely to run.
  */
+/**
+ * How stale the cache may be before returning to the foreground refreshes it.
+ *
+ * Two minutes is chosen against the thing this exists for: a student moving
+ * between the web and the phone on the same account. Long enough that
+ * flicking to a message and back, rotating the phone, or answering a call
+ * costs nothing; short enough that "I just did those on my laptop" is
+ * already true by the time they have opened the tab they wanted.
+ */
+private val FOREGROUND_REFRESH_INTERVAL: Duration = Duration.ofMinutes(2)
+
 @Composable
 fun RootScreen(graph: AppGraph) {
     if (!graph.config.isConfigured) {
@@ -112,14 +127,33 @@ fun RootScreen(graph: AppGraph) {
         }
 
         is AuthState.SignedIn -> {
-            // Once per arrival at SignedIn, not once per recomposition: a
-            // failure here is non-fatal (see SyncEngine's own class doc) --
-            // the app is offline-first and every screen reads LocalStore,
-            // so a refresh that fails simply leaves the student with what
-            // they already had, shown on Account rather than as a blocking
-            // dialog.
-            LaunchedEffect(state) {
-                graph.sync.refresh()
+            // Every time this app comes back to the foreground, not once per
+            // process.
+            //
+            // It used to be the latter -- a single refresh on arrival at
+            // SignedIn -- and an Android process outlives a great many
+            // sessions on the same account. A student who worked through a
+            // block of questions on the web at a desk and then picked their
+            // phone back up got the cache as it stood whenever the app had
+            // first opened, with no way to ask for a fresh one short of
+            // killing it from the task switcher. Same account, same
+            // documents, two clients disagreeing, and only one of them
+            // wrong.
+            //
+            // repeatOnLifecycle(STARTED) runs the block on each arrival at
+            // STARTED and cancels it on the way below, so a pass still in
+            // flight when the student leaves does not outlive the screen
+            // that wanted it. refreshWhenStale carries the throttle -- see
+            // its own doc for why the foreground alone is not a safe
+            // trigger. A failure remains non-fatal (see SyncEngine's class
+            // doc): the app is offline-first, every screen reads LocalStore,
+            // so a refresh that fails leaves the student with what they
+            // already had, reported on Account rather than as a dialog.
+            val lifecycleOwner = LocalLifecycleOwner.current
+            LaunchedEffect(state, lifecycleOwner) {
+                lifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
+                    graph.sync.refreshWhenStale(FOREGROUND_REFRESH_INTERVAL)
+                }
             }
             SignedInNavHost(graph)
         }
