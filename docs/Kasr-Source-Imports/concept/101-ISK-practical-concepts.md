@@ -117,7 +117,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -253,7 +253,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -390,7 +390,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -527,7 +527,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -666,7 +666,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -804,7 +804,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -943,7 +943,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1080,7 +1080,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1217,7 +1217,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1352,7 +1352,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1487,7 +1487,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1625,7 +1625,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1763,7 +1763,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-SURFACE-EPITHELIUM
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -1901,7 +1901,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2040,7 +2040,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2151,7 +2151,7 @@ Cytology
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
@@ -2176,7 +2176,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2290,7 +2290,7 @@ Cytology
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
@@ -2317,7 +2317,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2432,7 +2432,7 @@ Cytology
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-NUCLEUS
 
 ## support_mode
 direct_statement
@@ -2459,7 +2459,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-THE-CELL
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2575,7 +2575,7 @@ Blood
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-RED-BLOOD-CORPUSCLES
 
 ## support_mode
 direct_statement
@@ -2601,7 +2601,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2739,7 +2739,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2877,7 +2877,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -2990,7 +2990,7 @@ Blood
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-ID-LYMPHOCYTE-VERSUS-MONOCYTE
 
 ## support_mode
 direct_statement
@@ -3017,7 +3017,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-ID-BLOOD-FILM | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3156,7 +3156,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3269,7 +3269,7 @@ Blood
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-RED-BLOOD-CORPUSCLES
 
 ## support_mode
 direct_statement
@@ -3295,7 +3295,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-HAEMOPOIESIS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3408,7 +3408,7 @@ Blood
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-ID-BONE-MARROW-AND-RETICULOCYTE
 
 ## support_mode
 direct_statement
@@ -3434,7 +3434,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-ID-BLOOD-FILM
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3548,7 +3548,7 @@ Blood
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-ID-BONE-MARROW-AND-RETICULOCYTE
 
 ## support_mode
 direct_statement
@@ -3574,7 +3574,7 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-ID-BLOOD-FILM
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3712,7 +3712,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3847,7 +3847,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -3985,7 +3985,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4125,7 +4125,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4239,7 +4239,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-ID-CONNECTIVE-TISSUE-FIBRES
 
 ## support_mode
 direct_statement
@@ -4265,7 +4265,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-ID-CONNECTIVE-TISSUE-TYPES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4379,7 +4379,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-ID-CONNECTIVE-TISSUE-FIBRES
 
 ## support_mode
 direct_statement
@@ -4405,7 +4405,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-ID-CONNECTIVE-TISSUE-TYPES | ART-101-HIS-MICROTECHNIQUES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4519,7 +4519,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -4545,7 +4545,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4659,7 +4659,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -4685,7 +4685,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4799,7 +4799,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -4825,7 +4825,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -4940,7 +4940,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -4967,7 +4967,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5079,7 +5079,7 @@ Connective tissue
 [clear]
 
 ## article_ids
-[clear]
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 
 ## support_mode
 direct_statement
@@ -5104,7 +5104,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5245,7 +5245,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5386,7 +5386,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5524,7 +5524,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5663,7 +5663,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5798,7 +5798,7 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
@@ -5938,7 +5938,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-[clear]
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## resource_ids
 src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids

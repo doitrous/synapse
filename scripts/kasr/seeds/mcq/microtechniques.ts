@@ -1,48 +1,52 @@
 /**
  * `101 ISK > Histology > Introduction > Microtechniques` — the question books' MCQs.
  *
- * Eighty-seven rows, sixty-seven live: the highest survival rate of the eleven
- * leaves I have worked, and the cleanest scans. The exclusions are almost all
- * three-option rows rather than damage — this chapter's questions are short and
- * the books often print only three choices for them, which the four-option
- * contract cannot take.
+ * Eighty-seven rows, the largest histology leaf outside cytology, and almost
+ * none of it is about microtechniques. The extractor filed a row here whenever
+ * a stain was named in it, and the department's own chapter is two pages: three
+ * tissue-processing methods and a list of eight stains. What arrived is
+ * therefore the whole of first-year histology asked sideways — the Golgi
+ * apparatus (seven rows), the eosinophil (nine), the three connective tissue
+ * fibres (twelve), the mast cell (five), fat cells, mitochondria, centrioles,
+ * lysosomes, peroxisomes, the basement membrane, the plasma membrane — each
+ * arriving because the answer happens to be a stain.
  *
- * The leaf is not really about technique; it is about which stain shows what,
- * asked from both ends. Half its rows name a stain and want a target, half name
- * a target and want a stain, and a third of them are strays that the topic
- * clustering sent here because a stain appears in the option list — the
- * eosinophil questions, the mast cell questions, the fibre questions and the fat
- * cell questions all belong to other chapters and are examined here through
- * toluidine blue, orcein, silver and Sudan. The concepts follow the stains
- * rather than the chapters, except where an existing concept already carries the
- * cell: `eosinophil-granule-contents-and-role-in-allergy`,
- * `mast-cell-lm-em-metachromasia`,
- * `monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage`,
- * `golgi-apparatus-lm-appearance-and-position`,
- * `plasma-membrane-unit-membrane-em-and-thickness`,
- * `white-versus-brown-adipose-connective-tissue`,
- * `organelles-inclusions-and-the-membranous-classification` and my own
- * `rbc-shape-size-and-light-microscopic-appearance` are all repeated verbatim
- * with their own modulePaths, so that the merge is a no-op.
+ * That is not a fault in the extraction so much as a fact about how this
+ * faculty examines. A stain question is the cheapest way to ask whether a
+ * student knows what a structure is made of: silver browns the Golgi because
+ * the Golgi is a network, toluidine blue is metachromatic on the mast cell
+ * because the granule holds heparin, and reticular fibres need silver because
+ * they are invisible in H&E. The stain is the question's surface; the
+ * structure is what it tests.
  *
- * `pericyte-and-undifferentiated-mesenchymal-cell` is minted here under the
- * modulePath of `Connective Tissue > Connective Tissue Cells` for one excluded
- * row, and is repeated verbatim in `connective-tissue-cells.ts`, which is where
- * it belongs.
+ * So the concepts here divide on a line worth stating. A row asking what a
+ * technique or a class of stain *is* — what freezing is for, what a neutral
+ * stain is, what metachromasia means — takes one of the five concepts minted
+ * in this file. A row asking which stain shows a named structure takes the
+ * concept for that structure, reused verbatim from the leaf that teaches it:
+ * `golgi-apparatus-lm-appearance-and-position` and
+ * `mitochondrion-ultrastructure-and-staining` from `cytoplasm.ts`,
+ * `mast-cell-lm-em-metachromasia` from the 2022 papers,
+ * `eosinophil-granule-contents-and-role-in-allergy` from
+ * `granular-leukocytes.ts`, `connective-tissue-fibre-stains-by-fibre-type`
+ * from `connective-tissue-fibres.ts`. Every one of those already carries the
+ * staining fact in its own definition, because staining is how this book
+ * teaches structure. Minting a rival "silver stain" concept would have split a
+ * student's mastery of the Golgi across two ideas for no gain.
  *
- * Eighteen answers are overridden and four of those go against a printed key.
- * Two are worth naming. `fat-cells-are-stained-with` is keyed to PAS: it shares
- * its four options word for word with `glycogen-granules-are-stained-with` on
- * the same page, and the answer column has been carried across — fat is Sudan
- * III and glycogen is Best's carmine and PAS. `peroxisomes-are-stained-by` is
- * keyed to alkaline phosphatase where the option list also offers a
- * histochemical stain for catalase, and catalase is the peroxisome's own enzyme
- * — the phosphatases are the lysosome's. That override disagrees with the
- * department book's microtechniques page, which lists acid and alkaline
- * phosphatase together as lysosomal enzyme stains and never says what
- * demonstrates a peroxisome; the book's own cytoplasm chapter gives the
- * peroxisome oxidases and catalase, and the two halves of the book are what the
- * override is reconciling. A reviewer should look at it.
+ * Fifteen rows are excluded, and fourteen of the fifteen for the same reason:
+ * an option was lost and three remain where the contract is four to five. This
+ * leaf's questions are short — "Mitochondria can be stained with:" and four
+ * one-word options — and a short option is the easiest thing on a page for a
+ * scanner to drop.
+ *
+ * Five answers are overridden against the extracted key rather than for a
+ * missing one, and four of those five come off two facing pages of a single
+ * book — p25 numbers 31 to 33, and p21 number 7 — where the keys are shifted
+ * by one line: fat cells are keyed to PAS, mitochondria to Sudan III, and the
+ * peroxisome to alkaline phosphatase, each of which is the answer belonging to
+ * the row above or below it. Every one of the five names the department book
+ * statement it is being corrected against.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -52,224 +56,115 @@ export const LEAF: McqLeafSeed = {
   articleId: 'ART-101-HIS-MICROTECHNIQUES',
 
   concepts: [
+    // ---- minted here: the department's own two pages ----------------------
     {
-      key: 'h-and-e-basophilia-and-acidophilia',
-      label: 'Haematoxylin is a basic blue dye that binds acidic components, eosin an acidic pink dye that binds basic ones — so the nucleus is always blue and the cytoplasm may be either',
+      key: 'three-tissue-processing-techniques-compared',
+      label: 'Paraffin is the most common processing technique, celloidin the most perfect and freezing the most rapid, and each buys its advantage at a stated cost',
       definition:
-        'Haematoxylin and eosin is the stain used in routine histological slides and the commonest staining system in histology. Haematoxylin is a basic blue dye and binds the acidic components of the cell, which are therefore called basophilic: the nucleus, rich in DNA and RNA, and the ribosomes, whether free or attached to the rough endoplasmic reticulum. Eosin is an acidic pink or red dye and binds basic structures, which are called acidophilic — most cytoplasm, and collagen. It follows that the nucleus is always basophilic while the cytoplasm may be either: a protein-forming cell with abundant rough endoplasmic reticulum and many ribosomes is basophilic, and a steroid-forming cell full of smooth endoplasmic reticulum is acidophilic.',
+        'The department book teaches three ways of turning a piece of tissue into a section, and prints them as a table of advantages against disadvantages. The paraffin technique is the most common: short preparation time, serial sections for research, very thin sections and easy staining — but xylol dissolves the fat out of the tissue and the heat destroys its enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissues such as brain — but it takes a long time, gives thick sections, gives no serial sections and stains poorly. The freezing technique is the most rapid, which is why it is used to diagnose a tumour while the surgeon waits, and it preserves enzymes, which is why every histochemical stain is done on a frozen section — but its sections are thick, hard to cut, not serial and not easily stained.',
       objective:
-        'Say which of the two dyes is basic and which acidic, what each binds, and predict the staining of a cell from what its cytoplasm contains.',
+        'Name the three tissue-processing techniques, give the one advantage each is chosen for, and say which technique a named requirement — a serial section, a frozen enzyme, a rapid diagnosis — forces.',
       pitfall:
-        'Reading basophilic as "stained by a basic dye component". It means the opposite way round — a basophilic structure is acidic and takes the basic dye. Getting the direction wrong reverses every answer in the chapter at once.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
+        'Choosing paraffin because it is the routine one. Paraffin is the default and it is the wrong answer whenever the question involves fat or an enzyme, because the xylol and the heat destroy exactly those.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['H&E', 'Haematoxylin', 'Eosin', 'Basophilic', 'Acidophilic'],
-    },
-    {
-      key: 'tissue-processing-paraffin-celloidin-and-freezing',
-      label: 'Paraffin is the commonest technique, celloidin the most perfect and freezing the most rapid — and only freezing keeps the enzymes and the fat',
-      definition:
-        'The department book teaches three ways of processing tissue for light microscopy, each with its own advantages and disadvantages. The paraffin technique is the most common: short preparation, serial sections, very thin sections and easy staining — but its xylol solvent dissolves fat out and its heat destroys enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissue such as brain — but preparation is long, the sections are thick, no serial sections are possible and they do not stain easily. The freezing technique is the most rapid, which is why it is used to diagnose a tumour during an operation, and because no heat and no solvent are used it preserves both the enzymes and the fat, so it is the technique the histochemical stains require — but its sections are thick, hard to cut, not serial and not easily stained.',
-      objective:
-        'Give the advantage each technique is named for, and say which technique a histochemical or a fat stain requires and why.',
-      pitfall:
-        'Giving the freezing technique the paraffin technique\'s advantages. It is fast, and that is all it is fast at: the sections are thick, not serial and hard to stain, and every question in these books offers those three as its distractors.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'classification',
+      type: 'comparison',
       aliases: ['Paraffin technique', 'Celloidin technique', 'Freezing technique', 'Frozen section'],
     },
     {
-      key: 'pas-and-bests-carmine-show-carbohydrate',
-      label: 'PAS and Best\'s carmine both show carbohydrate — glycogen, goblet cell mucus, the basement membrane and the cell coat',
+      key: 'haematoxylin-and-eosin-basophilia-and-acidophilia',
+      label: 'Haematoxylin is a basic blue dye that binds acidic structures, eosin an acidic pink dye that binds basic ones, and the two together are the routine section',
       definition:
-        'Carbohydrate is demonstrated by two histochemical stains. Periodic acid–Schiff — PAS — stains glycogen magenta red, and stains any other carbohydrate-rich structure too: the mucus of the goblet cell, the basement membrane, and the glycocalyx of the cell membrane. Best\'s carmine stains glycogen red and is specific to it. Both need a frozen section for glycogen, because glycogen is water-soluble and dissolves out of a paraffin section, leaving vacuoles where it was. The basement membrane is shown by silver as well as by PAS; neither is visible in a routine H&E section.',
+        'Haematoxylin and eosin is the commonest staining system in histology and the one every routine slide is made with. Haematoxylin is a basic blue dye, so it binds the acidic components of the cell, which are therefore called basophilic — the nucleus above all, rich in DNA and RNA, and the cytoplasm of a protein-forming cell, whose ribosomes are RNA. Eosin is an acidic pink or red dye and binds the basic structures of the cell, which are called acidophilic — most cytoplasm, and haemoglobin. The rule that follows is the one the books ask over and over: the nucleus is always basophilic, while the cytoplasm may be either, and which it is depends on how much RNA the cell is carrying.',
       objective:
-        'Name the two carbohydrate stains and what each demonstrates, and say which processing technique glycogen needs.',
+        'Say which dye of H&E is basic and which acidic, and predict from a structure\'s chemistry whether it will be basophilic or acidophilic.',
       pitfall:
-        'Answering "PAS" for fat. PAS is for carbohydrate and Sudan for fat, and the two are offered in the same option list in half the questions of this leaf — one printing of the fat question in these books is keyed to PAS in error.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
+        'Reasoning from the name of the dye to the colour of the structure. An acidic structure binds the basic dye and is called basophilic — the term names what the structure loves, not what it is, and every step of that has to be run in the right direction.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
       type: 'structure_function_relationship',
-      aliases: ['PAS', 'Periodic acid-Schiff', 'Best\'s carmine', 'Glycogen stain'],
+      aliases: ['H&E', 'Haematoxylin', 'Eosin', 'Basophilia', 'Acidophilia'],
     },
     {
-      key: 'sudan-shows-fat-and-the-signet-ring-cell',
-      label: 'Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring',
+      key: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      label: 'A stain is classified by how it is applied and what it does, and neutral, vital, supravital and metachromatic each mean one particular thing',
       definition:
-        'Fat is demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away. In a routine H&E section the fat has therefore gone, and a unilocular fat cell appears as an empty vacuole with the cytoplasm squeezed into a thin rim and the nucleus flattened against one side — the signet ring appearance. The unilocular cell holds one large droplet, does not divide, and is the cell of white adipose tissue, which stores fat; heat generation belongs to the multilocular cell of brown fat.',
+        'Beyond H&E the department book names classes of stain, and the class is what the books examine. A neutral stain is a mixture of an acidic and a basic dye — Leishman\'s stain, eosin and methylene blue dissolved in methyl alcohol, which is also its fixative — and it is used for blood films, because a blood film holds both acidophilic and basophilic cells. A vital stain stains living cells inside the living animal, which the cell must take up itself: trypan blue and India ink demonstrate the macrophage because the macrophage phagocytoses them. A supravital stain stains living cells outside the body, and the standard example is brilliant cresyl blue on the reticulocyte. A metachromatic stain gives a colour different from the colour of the dye itself: toluidine blue, which is blue, stains the mucopolysaccharide granules of the mast cell and the blood basophil violet or purple.',
       objective:
-        'Name the fat stain and the technique it needs, and explain the signet ring appearance from what H&E does to fat.',
+        'Define neutral, vital, supravital and metachromatic staining, and name the cell or preparation that is the standard example of each.',
       pitfall:
-        'Attributing the signet ring to a fat stain. It is what H&E leaves behind — a hole where the droplet was. A Sudan-stained fat cell is a solid orange ball and looks nothing like a ring.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['Sudan III', 'Fat stain', 'Signet ring appearance'],
-    },
-    {
-      key: 'collagen-fibre-characters-and-its-stains',
-      label: 'Collagen is acidophilic, forms branching bundles of non-branching fibres, and Mallory stains it blue while van Gieson stains it red',
-      definition:
-        'Collagen fibres are white in the fresh state when they are present in great numbers, which is why the tissues built of them are called white fibrous. In section they are acidophilic and stain pink with haematoxylin and eosin. They are wavy, and they run as branching bundles made up of individual fibres that do not themselves branch — the bundle divides, the fibre does not. Where collagen has to be told apart from the other fibres, a trichrome stain is used: Mallory\'s trichrome stains collagen blue, and van Gieson stains it red while leaving elastic fibres yellow.',
-      objective:
-        'Give the staining reaction of collagen in H&E, Mallory and van Gieson, and describe the branching of bundle against fibre.',
-      pitfall:
-        'Saying collagen fibres branch. The bundles branch and the fibres inside them do not — and the reverse is true of elastic fibres, which branch individually and form no bundles, so the two questions are set against each other.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['Mallory trichrome', 'Van Gieson', 'White fibres', 'Collagen staining'],
-    },
-    {
-      key: 'elastic-fibre-characters-and-orcein',
-      label: 'Elastic fibres are thin, branching and stretchable, stain brown with orcein and yellow with van Gieson, and are acidophilic in H&E',
-      definition:
-        'Elastic fibres are thin, stretchable and branching, and they run singly rather than in bundles. They are yellow in the fresh state when abundant, which is why ligamentum nuchae and the ligamenta flava are called yellow elastic tissue. They are acidophilic and poorly seen in a routine H&E section, and they are demonstrated by orcein, which stains them brown, and by van Gieson, which stains them yellow while colouring collagen red. They show no transverse striations — that is a feature of skeletal muscle, not of a fibre.',
-      objective:
-        'Give the physical characters of the elastic fibre and the colour it takes with orcein, van Gieson and H&E.',
-      pitfall:
-        'Calling elastic fibres basophilic. They are acidophilic like collagen; what makes them hard to see in H&E is that they are thin and take the eosin weakly, not that they take the haematoxylin.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['Orcein', 'Yellow elastic fibres', 'Elastin staining'],
-    },
-    {
-      key: 'reticular-fibres-and-reticular-cells',
-      label: 'Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma',
-      definition:
-        'Reticular fibres are fine, branching fibres of type III collagen that form a network rather than bundles. They are stained black by silver — argyrophilic — and are PAS-positive because of the carbohydrate on them; they are not demonstrable in a routine H&E section at all. They form the supporting stroma of the parenchymatous organs, and the reticular cells that produce them lie along them. A reticular cell is regarded as a modified fibroblast, is found mainly in the stroma of organs, and in the lymphoid organs and bone marrow has a phagocytic function; it is not demonstrated by iron haematoxylin, which is the centriole stain.',
-      objective:
-        'Give the stains that show a reticular fibre and the one that does not, and describe the reticular cell and where it lives.',
-      pitfall:
-        'Saying reticular fibres form bundles. They branch and anastomose into a mesh — which is why the tissue is named for a net — while it is collagen that bundles.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['Argyrophilic', 'Silver stain', 'Reticular cell', 'Reticular tissue'],
-    },
-    {
-      key: 'vital-and-supravital-stains',
-      label: 'A vital stain stains living cells inside the living animal, a supravital stain stains living cells outside the body',
-      definition:
-        'A vital stain is one given to a living animal, whose cells then take it up while alive: trypan blue and Indian ink are injected, and the macrophages phagocytose them, which is how the macrophage is demonstrated. A supravital stain works on living cells outside the body — brilliant cresyl blue added to a drop of fresh blood shows the reticulum of the reticulocyte, which is residual ribosomal RNA and disappears as the cell matures. The distinction is where the cell is when it is stained, not what the dye is.',
-      objective:
-        'Define vital and supravital staining, and give the cell each is used to demonstrate.',
-      pitfall:
-        'Treating supra- as "better". It means outside — supravital staining happens outside the living body, on cells that are still alive, and the two words differ by that single fact.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
+        'Reading "vital" and "supravital" as strong and stronger. The whole difference is where the cell was when it took up the dye — inside the living animal, or alive on a slide outside it — and nothing else.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
       type: 'classification',
-      aliases: ['Trypan blue', 'Indian ink', 'Brilliant cresyl blue', 'Supravital'],
+      aliases: ['Leishman stain', 'Trypan blue', 'Brilliant cresyl blue', 'Toluidine blue', 'Metachromasia'],
     },
     {
-      key: 'neutral-stain-leishman-and-the-blood-film',
-      label: 'Leishman\'s stain is a neutral stain — an acidic and a basic dye together in methyl alcohol, which fixes the film as it stains it',
+      key: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      label: 'PAS and Best\'s carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike',
       definition:
-        'A neutral stain is a mixture of an acidic and a basic dye, so that acidophilic and basophilic structures are shown in one preparation. Leishman\'s stain is the example the department book gives, and it is what blood films are stained with: acidic red eosin and basic blue methylene blue dissolved in methyl alcohol, which serves as the fixative. That is why a blood film needs no separate fixation step — it is air-dried and then flooded with the stain. The mixture is what lets one slide show the acidophilic granules of the eosinophil, the basophilic granules of the basophil and the acidophilic haemoglobin of the red cell at once.',
-      objective:
-        'Classify Leishman\'s stain, name its two dyes and its solvent, and say why a blood film needs no separate fixative.',
+        'Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best\'s carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.',
+      objective: 'Name the two stains that demonstrate carbohydrate and list the structures they redden.',
       pitfall:
-        'Calling Leishman\'s a vital stain because it is used on blood. Vital and supravital describe living cells; a blood film is air-dried and dead before the stain reaches it, and the word for a mixture of two dyes is neutral.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
+        'Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
       type: 'structure_function_relationship',
-      aliases: ['Leishman stain', 'Neutral stain', 'Blood film'],
+      aliases: ['PAS', 'Periodic acid-Schiff', "Best's carmine"],
     },
     {
-      key: 'metachromatic-stain-toluidine-blue-and-heparin',
-      label: 'A metachromatic stain gives a colour that is not its own — toluidine blue turns violet-magenta on the heparin of mast cell and basophil granules',
+      key: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      label: 'Fat has to be stained with a fat-soluble dye on a frozen section, because routine processing dissolves it away',
       definition:
-        'A metachromatic stain is one that produces a colour different from the colour of the dye itself. Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red. The molecule responsible is heparin, which is why the same reaction identifies both cells and why no other connective tissue cell shows it — the plasma cell is basophilic but not metachromatic, the macrophage takes trypan blue, and the fat cell takes Sudan.',
-      objective:
-        'Define metachromasia, name the stain and the two cells it identifies, and give the granule component responsible.',
+        'Sudan III is the histochemical stain for fat and colours it orange; Sudan black does the same in black. Both are fat-soluble dyes that dissolve into the lipid droplet, and both need a frozen section, because the xylol of the paraffin technique dissolves the fat out of the tissue first. That is why an ordinary H&E section of adipose tissue shows an empty space with a rim of cytoplasm and a flattened nucleus — the signet ring appearance — rather than a droplet: the fat has gone, and the space is where it was.',
+      objective: 'Name the stains that demonstrate fat, say which processing technique they require, and explain what H&E does to fat instead.',
       pitfall:
-        'Reading metachromasia as simply "stains strongly". The point is that the colour changes — a granule that goes purple in a blue dye is metachromatic, and one that merely goes a deeper blue is not.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
+        'Reading the empty vacuole of an H&E adipocyte as an artefact hole. It is the fat droplet, dissolved; the signet ring is the evidence that the cell held one large droplet rather than many small ones.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
       type: 'structure_function_relationship',
-      aliases: ['Toluidine blue', 'Metachromasia', 'Metachromatic granules'],
+      aliases: ['Sudan III', 'Sudan black', 'Fat stain'],
     },
     {
-      key: 'special-stains-for-mitochondria-and-centrioles',
-      label: 'Janus green shows mitochondria, iron haematoxylin shows centrioles, and silver shows the Golgi — each organelle has its own dye',
+      key: 'reticular-cell-forms-the-stroma-and-turns-phagocytic',
+      label: 'The reticular cell is a stellate cell of an organ\'s stroma that secretes the reticular fibres it lies on and becomes phagocytic when antigen arrives',
       definition:
-        'Organelles too small or too pale for routine staining have their own dyes. Janus green B stains mitochondria, and it does so because it is a vital dye reduced by the respiratory enzymes of the living mitochondrion. Iron haematoxylin stains centrioles, which lie beside the nucleus and are otherwise invisible. Silver stains the Golgi apparatus as a network of brown granules and fibrils, and stains nerve cells and fibres brown and reticular fibres black. None of the three organelles is demonstrable in a routine haematoxylin and eosin section.',
-      objective:
-        'Match each of the three organelle stains to the organelle it shows.',
+        'The reticular cell arises from the undifferentiated mesenchymal cell and lies in the stroma of glands and organs — spleen, lymph node, endocrine glands. It is a small stellate cell with many long thin processes joined to its neighbours by cell junctions, and with the reticular fibres it secretes it forms the supporting network of the organ. It secretes those fibres, which are type III collagen; it turns phagocytic when stimulated by antigen; and it acts as an antigen-presenting cell. It is a resident, long-lived cell of connective tissue, and it is not demonstrated by any special stain of its own — it is the fibres around it that silver blackens.',
+      objective: 'Give the site, shape and three functions of the reticular cell, and name the fibre it secretes.',
       pitfall:
-        'Swapping Janus green and iron haematoxylin. Both are stains for a single small structure beside the nucleus, and the questions in these books offer them in the same option list every time; Janus is the green one and green goes with the mitochondrion.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'classification',
-      aliases: ['Janus green', 'Iron haematoxylin', 'Silver impregnation'],
-    },
-    {
-      key: 'enzyme-histochemistry-acid-phosphatase-and-catalase',
-      label: 'An enzyme is demonstrated by the reaction it catalyses — acid phosphatase marks the lysosome and catalase the peroxisome',
-      definition:
-        'Histochemical enzyme stains show an organelle by showing what its enzymes do, and they need a frozen section because heat and solvents destroy the enzyme. Acid phosphatase is the marker enzyme of the lysosome, and a histochemical reaction for it is the standard way of identifying a lysosome and of showing that a cell is phagocytic — it is how the macrophage is demonstrated histochemically. The peroxisome\'s own enzymes are the oxidases, which carry out beta-oxidation of long-chain fatty acids and generate hydrogen peroxide, and catalase, which destroys that peroxide; a reaction for catalase is therefore what marks a peroxisome.',
-      objective:
-        'Name the marker enzyme of the lysosome and of the peroxisome, and say why enzyme histochemistry needs a frozen section.',
-      pitfall:
-        'Giving the peroxisome a phosphatase. The phosphatases are the lysosome\'s; the peroxisome has oxidases and catalase, and the whole distinction between the two organelles is which enzymes they carry.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
-      type: 'structure_function_relationship',
-      aliases: ['Acid phosphatase', 'Alkaline phosphatase', 'Histochemical stain', 'Catalase'],
-      conflicts: [
-        'The department book\'s microtechniques page lists acid and alkaline phosphatase together as "lysosomal enzymes" demonstrated by enzyme stains, and says nothing about how a peroxisome is shown. Its cytoplasm chapter gives the peroxisome oxidases and catalase. The books ask which stain shows a peroxisome and one printing is keyed to alkaline phosphatase; catalase is what the book\'s own account of the organelle implies, and that is what is taught here.',
-      ],
-    },
-    {
-      key: 'pericyte-and-undifferentiated-mesenchymal-cell',
-      label: 'The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else',
-      definition:
-        'Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes. They are small cells with a dark, heterochromatic nucleus and few organelles, which is the picture of an undifferentiated cell rather than a working one — and they are indeed undifferentiated, able to give rise to fibroblasts, to smooth muscle and to new endothelium after injury. They carry a network of actin and myosin filaments, so they are contractile and can narrow the capillary they sit on. The undifferentiated mesenchymal cell of connective tissue proper is the same kind of reserve cell away from a vessel wall.',
-      objective:
-        'Describe the pericyte\'s position, its nucleus and organelle content, and give the two things its actin–myosin network and its undifferentiated state allow it to do.',
-      pitfall:
-        'Reading "few organelles and a dark nucleus" as a dying cell. It is the signature of a resting, undifferentiated one — the same picture as the fibrocyte — and it is what makes the pericyte a reserve the tissue can call on.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T02',
-      secondary: [],
+        'Treating "reticular cell" and "reticular fibre" as the same demonstration. Silver shows the fibre; the cell is seen in an ordinary section by its stellate shape and its position in the stroma.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
       modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
       type: 'structure_function_relationship',
-      aliases: ['Pericyte', 'Undifferentiated mesenchymal cell', 'Perivascular cell'],
+      aliases: ['Reticular cell', 'Stroma'],
+    },
+
+    // ---- reused verbatim from the leaves that teach them -------------------
+    {
+      key: 'free-versus-attached-ribosomes-and-cytoplasmic-basophilia',
+      label: 'Free ribosomes make protein the cell keeps; attached ribosomes make protein it exports — and both together are why cytoplasm is basophilic',
+      definition:
+        'A ribosome is either free in the cytoplasm, singly or as a polyribosome, or attached by its large subunit to the ribophorins of the rough endoplasmic reticulum. Free ribosomes form the proteins the cell uses within itself — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes. Attached ribosomes form the proteins the cell secretes: enzymes and hormones for export. Ribosomes are what make cytoplasm basophilic, because of the acidity of the phosphate groups of their RNA, and the pattern of that basophilia says where they are — localised or focal basophilia marks a site of rough endoplasmic reticulum, and diffuse basophilia free ribosomes scattered through the cytosol.',
+      objective:
+        'Predict from a cell\'s free-to-attached ribosome ratio what kind of protein it is making, and explain what cytoplasmic basophilia is caused by.',
+      pitfall:
+        'Reading basophilia as acidophilia because RNA is an acid. The RNA is acidic, so it binds the *basic* dye — that is what basophilic means, and the reasoning has to be run one step further than it feels like it should.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structure_function_relationship',
+      aliases: ['Free ribosomes', 'Attached ribosomes', 'Cytoplasmic basophilia'],
     },
     {
       key: 'golgi-apparatus-lm-appearance-and-position',
       label: 'The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes',
       definition:
         'The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell. It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils. Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.',
-      objective: 'Recognise the negative Golgi image, name the stain that shows the Golgi positively, and give its position in a secretory cell and in a nerve cell.',
-      pitfall: 'Expecting the pale supranuclear area to be empty. It is where the Golgi is; it looks pale because the Golgi takes neither dye, not because nothing is there.',
+      objective:
+        'Recognise the negative Golgi image, name the stain that shows the Golgi positively, and give its position in a secretory cell and in a nerve cell.',
+      pitfall:
+        'Expecting the pale supranuclear area to be empty. It is where the Golgi is; it looks pale because the Golgi takes neither dye, not because nothing is there.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
@@ -278,45 +173,68 @@ export const LEAF: McqLeafSeed = {
       aliases: ['Negative Golgi image', 'Golgi hof', 'Silver impregnation'],
     },
     {
-      key: 'eosinophil-granule-contents-and-role-in-allergy',
-      label: 'The eosinophil ends an allergic reaction with histaminase and sulphatase, and kills parasites with its granule protein',
+      key: 'mitochondrion-ultrastructure-and-staining',
+      label: 'A mitochondrion is two membranes — a smooth outer one with porins and an inner one folded into cristae — around a matrix that holds its own DNA',
       definition:
-        'Eosinophils are 1–4% of the count, 10–14 µm, with a bilobed horse-shoe nucleus joined by a thick chromatin thread and large acidophilic specific granules. On electron microscopy the granule is oval with an electron-dense crystalloid core of basic protein. The cell terminates allergy by secreting histaminase and sulphatase, which destroy histamine and heparin, and by phagocytosing antigen–antibody complexes; it defends against parasites by the cytotoxic effect of its granule protein. Eosinophilia is above 5%, eosinopenia below 1%.',
-      objective: 'Name the contents of the eosinophil granule and explain how each ends an allergic reaction or kills a parasite.',
-      pitfall: 'Confusing histaminase with histamine. The eosinophil destroys histamine; the basophil releases it. A question naming histaminase, sulphatase and neurotoxin is naming the eosinophil, and the same question with histamine and heparin is naming the basophil.',
-      subject: 'haem',
-      primary: 'DIS-HIS-T02',
-      secondary: ['SYS-HEM-T01-S01-M02'],
-      modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
-      type: 'structure_function_relationship',
-      aliases: ['Eosinophil granules', 'Acidophil', 'Eosinophilia'],
-    },
-    {
-      key: 'mast-cell-lm-em-metachromasia',
-      label: 'The mast cell and the plasma cell are both basophilic and share nothing else',
-      definition:
-        'The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube. It is a large oval cell, twenty to thirty micrometres, with a central spherical pale nucleus and cytoplasm full of basophilic granules that toluidine blue stains metachromatically purple or red. By electron microscopy it has a well developed Golgi, many mitochondria, few rough endoplasmic reticulum profiles and electron-dense membrane-bound granules.',
-      objective: 'Give the origin, site and light-microscopic picture of the mast cell, and distinguish it from the plasma cell.',
-      pitfall: 'Reading basophilia as one finding. The mast cell\'s basophilia is granular and metachromatic; the plasma cell\'s is diffuse cytoplasmic basophilia from rough endoplasmic reticulum and is not metachromatic at all.',
+        'A mitochondrion is bounded by two unit membranes. The outer membrane is smooth, carries porins and is permeable to small molecules. The inner membrane is selectively permeable and is thrown into folds — the cristae — which greatly increase its area and carry the elementary particles, globular structures attached by stalks with ATP synthase activity. Between them lies the intermembranous space, and within the inner membrane the matrix, which holds the oxidative enzymes of the citric acid cycle, mitochondrial DNA and mRNA, tRNA and rRNA, and dense calcium-rich granules that act as catalysts. Mitochondria are 0.5 µm across and up to 10 µm long, vary in number and shape with the cell, increase in number by simple division, and are sited in the most active part of the cell. They stain dark blue with iron haematoxylin and green with Janus green, and their cytoplasmic content makes them acidophilic in H&E.',
+      objective:
+        'Describe the two mitochondrial membranes and the matrix, say what is on the cristae, and give the two stains that demonstrate the organelle.',
+      pitfall:
+        'Putting the cristae on the outer membrane. The outer one is smooth; it is the inner membrane that folds, and the folds are where the ATP is made.',
       subject: 'fnd',
-      primary: 'DIS-HIS-T02',
+      primary: 'DIS-HIS-T01',
       secondary: [],
-      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
       type: 'structural_description',
-      aliases: ['Mastocyte', 'Tissue basophil'],
+      aliases: ['Cristae', 'Elementary particles', 'Mitochondrial matrix', 'Janus green'],
     },
     {
-      key: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
-      label: 'The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues',
+      key: 'centriole-structure-and-role-in-cell-division',
+      label: 'A centriole is a cylinder of nine microtubule triplets — 27 microtubules — and a pair of them organises the mitotic spindle',
       definition:
-        'The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look. It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months. It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.',
-      objective: 'Identify the monocyte by size and nuclear shape and name the tissue cells it gives rise to.',
-      pitfall: 'Calling the large lymphocyte the largest leukocyte. It reaches 10–15 µm; the monocyte reaches 20 µm, and it is the nuclear shape — kidney, not round — that settles it on a film.',
-      subject: 'haem',
-      primary: 'DIS-HIS-T02',
-      secondary: ['SYS-HEM-T01-S01-M02'],
-      modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
+        'A centriole is a short cylindrical structure whose wall is nine bundles of three microtubules each, twenty-seven microtubules in all, with no central pair and no membrane. In a non-dividing cell two lie perpendicular to one another surrounded by a tubulin matrix, the whole being the centrosome, which is the microtubule organising centre. The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles, where they organise the mitotic spindle, so the centriole is a self-replicating structure. Centrioles also duplicate thousands of times over to form the basal bodies of cilia and flagella, which have exactly a centriole\'s structure.',
+      objective:
+        'Give the microtubule arrangement of a centriole, describe the centrosome, and say what centrioles do in division and in ciliogenesis.',
+      pitfall:
+        'Counting nine and stopping. The centriole\'s nine bundles are triplets, so the count is twenty-seven; nine is the rootlet, eighteen the doublets of the shaft alone, and twenty the shaft with its central pair.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
       type: 'structure_function_relationship',
+      aliases: ['Centrosome', 'Diplosome', 'Basal body'],
+    },
+    {
+      key: 'lysosome-enzymes-origin-and-functions',
+      label: 'A lysosome is a single-membrane bag of hydrolytic enzymes made in the rER, packed by the Golgi, and shown only by histochemistry',
+      definition:
+        'A lysosome is a membranous organelle bounded by a single membrane and containing hydrolytic enzymes — acid phosphatase, protease, sulfatase, phospholipase, nuclease — for intracytoplasmic digestion. The enzymes are made on the rough endoplasmic reticulum, carried by transfer vesicles to the Golgi apparatus and released from it in lysosomes, so two organelles share in forming them. They are abundant in phagocytic cells: macrophages, neutrophils and monocytes. They cannot be seen in a routine section and need a histochemical reaction — the acid phosphatase reaction — to be identified. They digest nutrients and phagocytosed bacteria and viruses, remove excess and non-functional organelles, carry out postmortem autolysis, help the sperm head penetrate the ovum at fertilisation, and activate thyroid hormone by breaking the bond between the hormone and its protein.',
+      objective:
+        'Say what a lysosome contains, where its enzymes are made and packed, how it is demonstrated, and list what it does for the cell.',
+      pitfall:
+        'Naming alkaline phosphatase. The lysosomal marker is acid phosphatase, and the two differ by one word that decides the whole answer.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structure_function_relationship',
+      aliases: ['Acid phosphatase', 'Hydrolytic enzymes'],
+    },
+    {
+      key: 'peroxisome-oxidase-and-catalase',
+      label: 'A peroxisome holds oxidases that make hydrogen peroxide and catalase that destroys it',
+      definition:
+        'Peroxisomes, or microbodies, are spherical membranous vesicles bounded by a single membrane, budding off the rough endoplasmic reticulum, whose enzymes are made on free ribosomes rather than on attached ones. They hold two kinds of enzyme. The oxidases carry out beta-oxidation of long-chain fatty acids, which produces heat rather than ATP and generates hydrogen peroxide as a toxic by-product; catalase then breaks that hydrogen peroxide into water and oxygen. They are abundant in liver and kidney cells and they increase in number by division. Lack of peroxisomal enzymes affects the function of organs such as the liver.',
+      objective:
+        'Name the two enzyme groups of the peroxisome, say what each does, and distinguish the organelle from the lysosome by its enzymes.',
+      pitfall:
+        'Giving the peroxisome hydrolytic enzymes. It has oxidases and catalase; hydrolases are the lysosome\'s, and every "except" question about peroxisomes in these books is built on that one substitution.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structure_function_relationship',
+      aliases: ['Microbody', 'Catalase', 'Beta oxidation'],
     },
     {
       key: 'plasma-membrane-unit-membrane-em-and-thickness',
@@ -335,915 +253,1220 @@ export const LEAF: McqLeafSeed = {
       aliases: ['Plasmalemma', 'Unit membrane', 'Trilaminar membrane'],
     },
     {
-      key: 'white-versus-brown-adipose-connective-tissue',
-      label: 'White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat',
+      key: 'basement-membrane-two-layers-and-what-fixes-the-epithelium-to-it',
+      label: 'The basement membrane has an epithelial basal lamina and a connective-tissue reticular lamina, and hemidesmosomes fix the epithelium to it',
       definition:
-        'White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.',
-      objective: 'Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.',
-      pitfall: 'Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T02',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
-      type: 'comparison',
-    },
-    {
-      key: 'organelles-inclusions-and-the-membranous-classification',
-      label: 'Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous',
-      definition:
-        'Cytoplasm is cytosol, organelles and inclusions. Organelles are living, permanent, essential and active, and have vital functions; inclusions are non-living, temporary, usually not essential and inert, and result from the cell\'s activity. Organelles are classified by whether they have a limiting membrane. The membranous ones are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes; the non-membranous ones are the ribosomes and the cytoskeleton, with the centrioles, cilia and flagella that the microtubules build. The inclusions are stored food — glycogen, which dissolves out of an H&E section leaving vacuoles and is shown by Best\'s carmine or PAS, and fat, vacuolated in H&E and orange with Sudan III — and pigments, endogenous (haemoglobin, melanin, lipofuscin) or exogenous (carbon and dust, carotene, tattoo dyes).',
+        'Every epithelium rests on a basement membrane, and having one is what distinguishes epithelium from the tissues around it. On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium. On electron microscopy it is two layers named for the tissue that made each: the basal lamina, the epithelial component, an electron-dense sheet of type IV collagen and glycoproteins, itself resolvable into a lamina lucida and a lamina densa; and the reticular lamina, the connective-tissue component, of type III collagen — the reticular fibres — and ground substance. Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it. Its functions are support, attachment, and control of the passage of molecules, which in the kidney glomerulus and the lung alveolus is filtration and gas exchange.',
       objective:
-        'Separate organelles from inclusions by the five properties the book contrasts, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.',
+        'Name the two electron-microscopic layers of the basement membrane, say which tissue makes each and what collagen it contains, and name the structure that attaches the epithelium to it.',
       pitfall:
-        'Calling a coated vesicle or a centriole an organelle of the wrong class. A coated vesicle is a piece of membrane and is membranous; a centriole is built of microtubules and has no membrane at all.',
+        'Naming the basal lamina as the connective-tissue layer. The basal lamina is the epithelium\'s own contribution; the reticular lamina is the connective tissue\'s. The two-layer question is also asked twice with different answers depending on whether it names the basement membrane or the basal lamina, and the sub-layers of the basal lamina are lamina lucida and lamina densa.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
-      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
-      type: 'classification',
-      aliases: ['Cytoplasmic inclusions', 'Membranous organelles', 'Non-membranous organelles'],
+      modulePath: '101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations',
+      type: 'structure_function_relationship',
+      aliases: ['Basal lamina', 'Reticular lamina', 'Lamina densa', 'Lamina lucida', 'Hemidesmosome'],
     },
     {
-      key: 'rbc-shape-size-and-light-microscopic-appearance',
-      label: 'A red cell is a non-nucleated biconcave disc, 6–9 µm across, acidophilic with a pale centre one third of its diameter',
+      key: 'connective-tissue-fibre-stains-by-fibre-type',
+      label: 'Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart',
       definition:
-        'Blood is a special connective tissue circulating in vessels, 45 per cent cells and 55 per cent plasma, and its formed elements are erythrocytes, leukocytes and thrombocytes. On a Leishman-stained film the red cell is rounded in top view and biconcave in side view, non-nucleated, and acidophilic — it takes the acidic eosin because haemoglobin is a basic protein — with a pale centre about a third of its diameter, which is what "normochromic" describes. It is 6–9 µm across, averaging 7.5 µm, and 2.2 µm thick at the edge against 0.8 µm at the centre. Abnormal shapes follow from a changed membrane or haemoglobin content: spherocytes, ovalocytes, sickle cells and pear-shaped poikilocytes, all more fragile and more easily haemolysed. Abnormal sizes are microcytes under 6 µm, macrocytes over 9 µm, and anisocytosis, several sizes in one film.',
+        'The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.',
       objective:
-        'Describe a normal red cell on a stained film — shape in both views, size, staining and central pallor — and name the abnormalities of shape and size.',
+        'Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.',
       pitfall:
-        'Reading the two views the wrong way round. The disc is rounded seen from above and biconcave seen edge-on; a red cell described as biconvex is a normal cell with its profile inverted, and it is offered in these books as a distractor more often than any other single error.',
+        'Answering "brown" without asking which brown. Orcein browns elastic fibres and silver browns reticular fibres; naming the colour is not naming the stain, and the two fibres look nothing alike once shown.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: ['DIS-HIS-T02'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Fibres',
+      type: 'comparison',
+      aliases: ['Mallory trichrome', 'Van Gieson', 'Orcein', 'Silver impregnation'],
+    },
+    {
+      key: 'collagen-versus-elastic-fibre-identification',
+      label: 'Collagen and elastic fibres are told apart in one field by bundling and by outline',
+      definition:
+        'In loose areolar tissue both fibres are acidophilic and lie in the same field. Collagen runs as thick, wavy, condensed bundles that do not branch; elastic fibres run singly, thin, branching, in a zigzag course. Orcein stains elastic fibres brown and leaves collagen unstained, and in the fresh state collagen is white while elastic tissue is yellow.',
+      objective: 'Name each fibre when arrowed in a loose areolar section and give one visible character of each.',
+      pitfall:
+        'Using colour in a stained section to decide. Both are pink in H&E; what separates them is that collagen is bundled and wavy and elastic fibres are single, thin and zigzag. Colour only decides the answer in the fresh state or with orcein.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: ['DIS-HIS-T04'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Fibres',
+      type: 'structural_description',
+      aliases: ['White fibres', 'Yellow fibres', 'Elastin'],
+    },
+    {
+      key: 'reticular-fibre-silver-identification',
+      label: 'Reticular fibres are invisible in H&E and appear as a fine brown branching network after silver',
+      definition:
+        'Reticular fibres are type III collagen with a high sugar content. They do not show in H&E; silver impregnation stains them brown and PAS stains them red. On a silver preparation they form a fine network of thin fibres that branch and anastomose, which is what makes them the stroma of spleen, lymph node and liver.',
+      objective: 'Identify reticular fibres on a silver preparation, name the stain and give two visible characters.',
+      pitfall:
+        'Naming orcein, which is the elastic-fibre stain and gives brown as well. The colour is not the discriminator; a brown network that branches and anastomoses is reticular, a brown fibre that runs singly in a zigzag is elastic.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: ['DIS-HIS-T04'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Fibres',
+      type: 'structural_description',
+      aliases: ['Argyrophilic fibres', 'Reticulin'],
+    },
+    {
+      key: 'mast-cell-lm-em-metachromasia',
+      label: 'The mast cell and the plasma cell are both basophilic and share nothing else',
+      definition:
+        'The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube. It is a large oval cell, twenty to thirty micrometres, with a central spherical pale nucleus and cytoplasm full of basophilic granules that toluidine blue stains metachromatically purple or red. By electron microscopy it has a well developed Golgi, many mitochondria, few rough endoplasmic reticulum profiles and electron-dense membrane-bound granules. It carries surface receptors for IgE, and it secretes heparin, histamine, leukotrienes and eosinophil chemotactic factor.',
+      objective:
+        'Give the origin, site and light-microscopic picture of the mast cell, and distinguish it from the plasma cell.',
+      pitfall:
+        'Reading basophilia as one finding. The mast cell\'s basophilia is granular and metachromatic; the plasma cell\'s is diffuse cytoplasmic basophilia from rough endoplasmic reticulum and is not metachromatic at all.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      type: 'structural_description',
+      aliases: ['Mast cell granules', 'Metachromasia', 'Toluidine blue'],
+    },
+    {
+      key: 'macrophage-identification-vital-stain',
+      label: 'A macrophage is identified by an irregular outline, a dark kidney-shaped nucleus and ingested vital dye',
+      definition:
+        'The macrophage is a large irregular connective-tissue cell with pale basophilic cytoplasm and a dark kidney-shaped nucleus. It arises from the blood monocyte. Its specific demonstration is a vital stain — trypan blue or India ink — which the cell phagocytoses, so the granules of dye inside it are the identification. By electron microscopy it has pseudopodia and is rich in lysosomes, phagocytosed particles and residual bodies, which is why the acid phosphatase reaction also marks it. It phagocytoses foreign particles, microorganisms and dead cells, fuses into foreign body giant cells, presents antigen to lymphocytes and destroys old red cells in liver and spleen.',
+      objective: 'Identify a macrophage on a section, name the vital stain that demonstrates it, and give its origin.',
+      pitfall:
+        'Confusing it with a monocyte. They are the same lineage, but the monocyte is the circulating form named on a blood film; a phagocytic cell sitting in connective tissue full of dye is a macrophage.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: ['DIS-HIS-T04'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      type: 'structural_description',
+      aliases: ['Histiocyte', 'Trypan blue', 'India ink'],
+    },
+    {
+      key: 'eosinophil-granule-contents-and-role-in-allergy',
+      label: 'The eosinophil ends an allergic reaction with histaminase and sulphatase, and kills parasites with its granule protein',
+      definition:
+        'Eosinophils are 1–4% of the count, 10–14 µm, with a bilobed horse-shoe nucleus joined by a thick chromatin thread and large acidophilic specific granules. On electron microscopy the granule is oval with an electron-dense crystalloid core of basic protein. The cell terminates allergy by secreting histaminase and sulphatase, which destroy histamine and heparin, and by phagocytosing antigen–antibody complexes; it defends against parasites by the cytotoxic effect of its granule protein. Eosinophilia is above 5%, eosinopenia below 1%.',
+      objective:
+        'Name the contents of the eosinophil granule and explain how each ends an allergic reaction or kills a parasite.',
+      pitfall:
+        'Confusing histaminase with histamine. The eosinophil destroys histamine; the basophil releases it. A question naming histaminase, sulphatase and neurotoxin is naming the eosinophil, and the same question with histamine and heparin is naming the basophil.',
       subject: 'haem',
       primary: 'DIS-HIS-T02',
       secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
+      type: 'structure_function_relationship',
+      aliases: ['Eosinophil granules', 'Acidophil', 'Eosinophilia'],
+      conflicts: [
+        'The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.',
+      ],
+    },
+    {
+      key: 'basophil-granule-contents-and-anaphylaxis',
+      label: 'The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis',
+      definition:
+        'Basophils are 0–1% of the count, 10–12 µm, with an irregular segmented S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin. The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE. Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma. Basophilia is above 2%.',
+      objective:
+        'List what the basophil granule contains, and connect each substance to the clinical event it produces.',
+      pitfall:
+        'Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
+      type: 'structure_function_relationship',
+      aliases: ['Basophil granules', 'Anaphylaxis', 'Basophilia'],
+    },
+    {
+      key: 'erythrocyte-identification-blood-film',
+      label: 'An erythrocyte is identified by being non-nucleated, acidophilic and centrally pale',
+      definition:
+        'On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity. A crenated cell is the same cell shrunken in a hypertonic medium and shows notches at its edge.',
+      objective:
+        'Identify an erythrocyte in a blood film, give the character the answer page asks for, and tell a normal cell from a crenated one on the same plate.',
+      pitfall:
+        'Calling the central pallor a nucleus or a vacuole. It is thinning, not a hole; the mature red cell has no nucleus at all, which is the character the examiner is asking for.',
+      subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['DIS-HIS-T04', 'SYS-HEM-T01-S01-M01'],
       modulePath: '101 ISK > Histology > Blood > Red Blood Corpuscles',
       type: 'structural_description',
-      aliases: ['Erythrocyte', 'Normochromic', 'Anisocytosis', 'Poikilocyte', 'Central pallor'],
+      aliases: ['Central pallor', 'Crenation'],
+    },
+    {
+      key: 'unilocular-versus-multilocular-adipocyte',
+      label: 'White and brown fat are told apart by whether the cell holds one fat droplet or many',
+      definition:
+        'The unilocular (white) fat cell is large and oval and holds a single fat droplet that pushes nucleus and cytoplasm into a thin peripheral rim, the signet-ring appearance. The multilocular (brown) fat cell is smaller and rounded and holds many small droplets, so it has no signet ring and its rounded nucleus stays eccentric rather than flattened; brown fat is also the more vascular tissue, and it is the multilocular cell that generates heat.',
+      objective:
+        'Identify white and brown adipose tissue on section, name the cell type each is built from, give two visible characters, and name the stains that demonstrate the fat.',
+      pitfall:
+        'Reading the empty spaces as artefact holes. The fat dissolves in routine processing and the space is the droplet; Sudan III on the paired plate fills the same space with orange.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: ['DIS-HIS-T04'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      type: 'structural_description',
+      aliases: ['Signet ring appearance', 'Unilocular adipocyte', 'Multilocular adipocyte'],
+    },
+    {
+      key: 'undifferentiated-mesenchymal-cell-and-pericyte-are-the-stem-cells-of-connective-tissue',
+      label: 'The undifferentiated mesenchymal cell and the pericyte are the two stem cells connective tissue keeps into adult life',
+      definition:
+        'Connective tissue arises from mesoderm, and the mesenchymal cells that migrate from it do not all differentiate. The undifferentiated mesenchymal cell stays unspecialised in certain adult sites as a life-long source of cells — in bone marrow it is the source of the blood cells, around vessels the source of pericytes — and it is a small branched cell with pale basophilic cytoplasm, a large central pale nucleus with visible nucleoli, many free ribosomes and a euchromatic nucleus. It divides and can differentiate into every other connective tissue cell: the fibroblast, the fat cell, the reticular cell, the mast cell. The pericyte, or perivascular cell, is the adult mesenchymal stem cell wrapped around blood capillaries, branched with long processes and containing a network of actin and myosin; on injury it divides into endothelium, fibroblasts and smooth muscle cells, and by contracting it narrows the capillary.',
+      objective:
+        'State what the undifferentiated mesenchymal cell and the pericyte can each become, and give the light-microscopic features that mark a cell as still undifferentiated.',
+      pitfall:
+        'Crediting the mesenchymal cell with the work of its descendants. It does not lay down collagen or ground substance itself — the fibroblast it becomes does that; what the stem cell contributes is a new cell.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      type: 'structure_function_relationship',
+      aliases: ['UMC', 'Pericyte', 'Perivascular cell'],
     },
   ],
 
   questions: [
+    // ---- the three processing techniques ----------------------------------
     {
-      key: 'the-most-common-staining-system-in-the-histology-is-a8697490',
-      conceptKey: 'h-and-e-basophilia-and-acidophilia',
-      difficulty: 'Easy', questionType: 'Classification',
-      learningObjective: 'Name the routine stain of histology.',
-      answerOverride: 'C',
-      answerOverrideReason: 'The books print no key. The department book states that haematoxylin and eosin is the stain most commonly used in routine histological slides.',
+      key: 'freezing-technique-has-the-following-advantage-b5b7cb3c',
+      conceptKey: 'three-tissue-processing-techniques-compared',
+      difficulty: 'Moderate', questionType: 'Comparison',
+      learningObjective: 'Give the advantage the freezing technique is chosen for.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'The source printed no key. The department book calls the freezing technique "the most rapid" and lists the other three options — serial sections, thin sections, easy staining — as advantages of the paraffin technique and disadvantages of freezing.',
       explanations: {
-        A: 'Silver is a special stain, for the Golgi apparatus, nerve tissue and reticular fibres. It is used when H&E has already failed to show something.',
-        B: 'Orcein is a special stain for elastic fibres and nothing else.',
-        C: 'Correct. Haematoxylin and eosin is the routine system — a basic blue dye and an acidic pink one, which between them colour nucleus and cytoplasm.',
-        D: 'PAS is a histochemical stain for carbohydrate. Like the other three wrong answers it is a stain you reach for after the routine one.',
-      },
-    },
-    {
-      key: 'cytoplasm-of-ribosome-is-b531d7a0',
-      conceptKey: 'h-and-e-basophilia-and-acidophilia',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Explain why ribosome-rich cytoplasm takes the blue dye.',
-      explanations: {
-        A: 'Acidophilic cytoplasm is what a cell full of smooth endoplasmic reticulum shows — a steroid-forming cell. Ribosomes give the opposite reaction.',
-        B: 'Correct. Ribosomes are ribonucleoprotein, and their RNA is acidic, so they bind the basic haematoxylin and the cytoplasm is basophilic.',
-        C: 'No special stain is needed: cytoplasmic basophilia is one of the things a routine H&E shows best.',
-        D: '"None of the above" fails once B is true.',
+        A: 'Correct. Freezing is the most rapid method, which is why a frozen section is what a surgeon waits for while a tumour is diagnosed mid-operation.',
+        B: 'Serial sections are a paraffin advantage; the book lists "no serial sections" among the disadvantages of freezing.',
+        C: 'Thin sections are paraffin too. Frozen sections are thick and hard to cut.',
+        D: 'Frozen sections are explicitly "not easily stained" in the book\'s table — which is a separate matter from their being the only sections that keep enzymes to stain for.',
       },
     },
     {
       key: 'the-suitable-technique-to-stain-the-glycogen-inside-the-cell-7334a397',
-      conceptKey: 'tissue-processing-paraffin-celloidin-and-freezing',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Choose the processing technique a histochemical stain needs.',
+      conceptKey: 'three-tissue-processing-techniques-compared',
+      difficulty: 'Moderate', questionType: 'Technique choice',
+      learningObjective: 'Choose the processing technique that permits a histochemical stain.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The books print no key. The department book states that histochemical stains, including PAS for glycogen, need the frozen technique, because the paraffin technique\'s solvent and heat destroy the chemical components of the cell.',
+        'The source printed no key. The department book states that histochemical stains — PAS for glycogen among them — need the frozen technique, because the heat and solvents of paraffin processing destroy the chemical components of the cell.',
       explanations: {
-        A: 'The paraffin technique uses xylol and heat, which is exactly what a histochemical stain cannot survive — the book says it cannot show the chemical components of the cell.',
-        B: 'The celloidin technique avoids heat and gives the finest structural detail, but it is slow and its sections do not stain easily; it is chosen for structure, not for chemistry.',
-        C: 'Correct. The freezing technique uses neither heat nor solvent, so the enzymes and the soluble constituents survive and the histochemical stains work.',
-        D: 'The scanning electron microscope shows surfaces in three dimensions and applies no dye at all.',
+        A: 'Paraffin is the routine technique and the wrong one here for the reason the book gives: its xylol and heat destroy the cell\'s chemical components, which is exactly what a histochemical stain is looking for.',
+        B: 'Celloidin avoids heat and preserves fine structure, but it is the slowest technique and is used for large organs and soft tissue, not for histochemistry.',
+        C: 'Correct. Histochemical stains are done on frozen sections, because freezing preserves the chemistry the stain reacts with.',
+        D: 'Scanning electron microscopy shows surfaces in three dimensions. It is not a way of staining anything, and it is not a light-microscopic technique at all.',
       },
     },
+
+    // ---- H&E and basophilia -----------------------------------------------
     {
-      key: 'freezing-technique-has-the-following-advantage-b5b7cb3c',
-      conceptKey: 'tissue-processing-paraffin-celloidin-and-freezing',
-      difficulty: 'Moderate', questionType: 'Classification',
-      learningObjective: 'Give the one advantage the freezing technique has, and reject the paraffin technique\'s three.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The books print no key. The department book calls the freezing technique the most rapid method and lists thick sections, difficulty of cutting, absence of serial sections and poor staining among its disadvantages — so of the four options only speed is an advantage of it.',
-      explanations: {
-        A: 'Correct. It is the most rapid method, which is why a frozen section is what a surgeon waits for during an operation.',
-        B: 'Serial sections are an advantage of the paraffin technique. The freezing technique cannot give them.',
-        C: 'Very thin sections are again the paraffin technique. Frozen sections are thick and hard to cut.',
-        D: 'Easy staining is the paraffin technique too. Three of the four options here are the advantages of the wrong method, which is the whole design of the question.',
-      },
-    },
-    {
-      key: 'the-following-inclusion-can-be-stained-with-best-s-carmine-933220f4',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the inclusion Best\'s carmine is specific for.',
-      explanations: {
-        A: 'Haemoglobin is an endogenous pigment and is acidophilic — it needs no special stain, since it takes eosin in a routine section.',
-        B: 'Correct. Best\'s carmine stains glycogen, and glycogen is the only thing it is used for.',
-        C: 'Fat is shown by Sudan III, and only in a frozen section.',
-        D: 'Carotene is an exogenous pigment, taken in with food; it is already coloured and is not demonstrated by a carbohydrate stain.',
-      },
-    },
-    {
-      key: 'carbohydrates-are-stained-red-with-5278c6fa',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the carbohydrate stain among three organelle stains.',
-      explanations: {
-        A: 'Silver stains the Golgi apparatus brown and reticular fibres black — a metal impregnation, not a carbohydrate reaction.',
-        B: 'Janus green B stains mitochondria, and it is green.',
-        C: 'Iron haematoxylin stains centrioles and is blue-black.',
-        D: 'Correct. Best\'s carmine stains carbohydrate — glycogen — red.',
-      },
-    },
-    {
-      key: 'glycogen-can-be-stained-by-the-following-edc769e1',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name both carbohydrate stains rather than stopping at one.',
-      explanations: {
-        A: 'H&E does not show glycogen at all — worse, the paraffin technique it accompanies dissolves the glycogen out, leaving vacuoles where it was.',
-        B: 'True but incomplete. Best\'s carmine does stain glycogen.',
-        C: 'True but incomplete. PAS stains glycogen magenta red.',
-        D: 'Correct. Both Best\'s carmine and PAS demonstrate glycogen, and a student who stops at the first true option has given half the answer.',
-      },
-    },
-    {
-      key: 'glycogen-granules-are-stained-with-760dabb7',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name both carbohydrate stains rather than stopping at one.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'The books key this to A, Best\'s carmine alone. PAS stains glycogen too — the companion question `glycogen-can-be-stained-by-the-following-edc769e1` is keyed to the option naming both — so with "both a & b" on the list, A is incomplete and D is the answer.',
-      explanations: {
-        A: 'True but incomplete, and the option the books key this question to. Best\'s carmine does stain glycogen, but so does the next option.',
-        B: 'True but incomplete. PAS stains glycogen magenta red.',
-        C: 'Sudan III is for fat, not for carbohydrate. It is the one option here that is simply wrong.',
-        D: 'Correct. Both Best\'s carmine and PAS stain glycogen.',
-      },
-    },
-    {
-      key: 'in-light-microscopy-the-basement-membrane-is-stained-with-67deda39',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the stain that shows the basement membrane.',
-      explanations: {
-        A: 'Sudan III shows fat. There is no fat in a basement membrane.',
-        B: 'Haematoxylin alone would show the nuclei of the epithelium above it and leave the membrane invisible.',
-        C: 'Eosin colours the cytoplasm and collagen pink and does not resolve the basement membrane as a separate structure.',
-        D: 'Correct. The basement membrane is carbohydrate-rich and is PAS-positive; silver will also blacken it.',
-      },
-    },
-    {
-      key: 'the-basement-membrane-can-be-stained-by-0f26b009',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name both stains that show the basement membrane.',
-      explanations: {
-        A: 'Trypan blue is a vital stain taken up by macrophages in the living animal. It has nothing to do with a basement membrane.',
-        B: 'True but incomplete. Silver blackens the basement membrane, as it blackens reticular fibres — the two are chemically alike.',
-        C: 'True but incomplete. PAS stains it for its carbohydrate.',
-        D: 'Correct. Silver and PAS both demonstrate the basement membrane.',
-      },
-    },
-    {
-      key: 'fat-cells-are-stained-with-8f1f1a6a',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Keep the fat stain apart from the two carbohydrate stains.',
+      key: 'the-most-common-staining-system-in-the-histology-is-a8697490',
+      conceptKey: 'haematoxylin-and-eosin-basophilia-and-acidophilia',
+      difficulty: 'Easy', questionType: 'Recall',
+      learningObjective: 'Name the routine staining system of histology.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The books key this to PAS. PAS is a carbohydrate stain; fat is demonstrated by Sudan III, option C. This question shares its four options word for word with `glycogen-granules-are-stained-with-760dabb7` on the same page, and the answer column appears to have been carried across from one to the other — which is why the glycogen answer has been printed against the fat question.',
+        'The source printed no key. The department book states that haematoxylin and eosin is the most commonly used stain in routine histological slides; the other three are special stains used for one target each.',
       explanations: {
-        A: 'Best\'s carmine is specific for glycogen. It is the answer to the neighbouring question, not to this one.',
-        B: 'PAS demonstrates carbohydrate — glycogen, mucus, basement membrane. It is the option the books key this question to, and it is the other carbohydrate stain.',
-        C: 'Correct. Sudan III stains fat orange, in a frozen section.',
-        D: '"Both a & b" collects the two carbohydrate stains, which is the right answer to the glycogen version of this question and the wrong one here.',
+        A: 'Silver is a special stain, used for the Golgi apparatus, nerve cells and fibres, and reticular fibres. It is slow and selective, not routine.',
+        B: 'Orcein is a special stain with one job: browning elastic fibres.',
+        C: 'Correct. H&E is the routine system, and every slide a student is shown is H&E unless told otherwise.',
+        D: 'PAS is a histochemical reaction for carbohydrate. It is common, but it demonstrates one class of molecule rather than showing a section as a whole.',
       },
     },
     {
-      key: 'fat-cells-can-be-stained-by-c3fbaf71',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Pick the fat stain out of a list of cell-specific stains.',
+      key: 'cytoplasm-of-ribosome-is-b531d7a0',
+      conceptKey: 'free-versus-attached-ribosomes-and-cytoplasmic-basophilia',
+      difficulty: 'Easy', questionType: 'Staining',
+      learningObjective: 'Say how ribosomes make the cytoplasm stain, and why.',
       explanations: {
-        A: 'A metachromatic stain — toluidine blue — identifies the mast cell by its heparin.',
-        B: 'A histochemical stain shows an enzyme; acid phosphatase identifies the lysosome and so the macrophage.',
-        C: 'Trypan blue is the vital stain the macrophage takes up. These four options are one stain per cell, and this is the macrophage\'s.',
-        D: 'Correct. Sudan III is the fat cell\'s stain.',
+        A: 'Acidophilic is what cytoplasm poor in RNA looks like — smooth endoplasmic reticulum, or the haemoglobin of a red cell. Ribosomes push the staining the other way.',
+        B: 'Correct. Ribosomal RNA carries acidic phosphate groups, which bind the basic dye haematoxylin, so ribosome-rich cytoplasm is basophilic.',
+        C: 'Ribosomes need no special stain to make their presence felt: their effect on ordinary H&E is exactly the basophilia this question is about. Seeing an individual ribosome does need electron microscopy, which is a different claim.',
+        D: '"None of the above" cannot stand while B is the department book\'s own account of cytoplasmic basophilia.',
       },
     },
-    {
-      key: 'which-of-the-following-would-be-best-suited-to-visualize-lip-5681589f',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Choose the stain for lipid.',
-      explanations: {
-        A: 'Orcein is for elastic fibres, which it stains brown.',
-        B: 'H&E dissolves the lipid away with its solvents and leaves an empty vacuole, which is a clue to fat but not a demonstration of it.',
-        C: 'Correct. Sudan III stains lipid orange in a frozen section.',
-        D: 'Silver blackens reticular fibres and browns the Golgi and nerve tissue.',
-      },
-    },
-    {
-      key: 'signet-ring-appearance-is-a-descriptive-term-for-the-d9aa199c',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Attribute the signet ring to what H&E removes rather than to what a stain adds.',
-      explanations: {
-        A: 'A Sudan-stained fat cell is a solid orange ball. The droplet is there and coloured, so there is no ring.',
-        B: 'Sudan black colours the same droplet black. Again a filled cell, not a ring.',
-        C: 'Correct. In H&E the fat has been dissolved out, leaving an empty space with a thin rim of cytoplasm and the nucleus flattened against one side — the signet and its ring.',
-        D: 'Toluidine blue shows the mast cell metachromatically and does nothing to fat.',
-      },
-    },
-    {
-      key: 'lipids-e76d0a4d',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Reject three plausible statements about where lipid is stored and how it is shown.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'The books print no key. Lipid inclusions are stored chiefly in fat cells, not in muscle or liver cells; and lipid is shown by Sudan, not by PAS, which is a carbohydrate stain. None of the first three options is true, so the answer is D.',
-      explanations: {
-        A: 'Muscle cells store glycogen as their fuel reserve, not fat. Fat is stored in the adipocyte.',
-        B: 'PAS demonstrates carbohydrate. Confusing it with Sudan is the standard error of this chapter.',
-        C: 'The liver stores glycogen too, and it accumulates fat only in disease. The cell whose whole business is storing fat is the adipocyte.',
-        D: 'Correct. None of the three is true.',
-      },
-    },
-    {
-      key: 'concerning-unilocular-adipocytes-they-1051d1be',
-      conceptKey: 'white-versus-brown-adipose-connective-tissue',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Separate the unilocular from the multilocular fat cell.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The books print no key for either printing. Only A is true of a unilocular cell: it is stained by Sudan III like all fat. Heat generation and small droplets belong to the multilocular cell of brown fat, and a mature fat cell does not divide.',
-      explanations: {
-        A: 'Correct. Sudan III stains the fat of a unilocular cell orange, as it does any lipid.',
-        B: 'Heat generation is what brown, multilocular fat does, through the thermogenin of its many mitochondria. White fat insulates, which is not the same thing.',
-        C: 'Unilocular means one locule — a single large droplet filling the cell. Small droplets are what makes a cell multilocular, and the word in the stem rules the option out.',
-        D: 'A mature fat cell is filled by its droplet and does not divide; new fat cells come from undifferentiated mesenchymal cells.',
-      },
-    },
-    {
-      key: 'by-mallory-stain-collagen-fibers-are-stained-1107ffdd',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Give the colour collagen takes with Mallory\'s trichrome.',
-      explanations: {
-        A: 'Pink is collagen in H&E, from the eosin. Mallory is used precisely because it gives a different colour and so separates collagen from everything else.',
-        B: 'Correct. Mallory\'s trichrome stains collagen blue.',
-        C: 'Brown is orcein on elastic fibres, or silver on nerve tissue and the Golgi.',
-        D: 'Red is collagen with van Gieson — the other trichrome, and the one whose colours are the reverse way round.',
-      },
-    },
-    {
-      key: 'which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Choose the stain that separates collagen from the other fibres.',
-      explanations: {
-        A: 'Correct. Mallory\'s trichrome colours collagen blue while leaving the other elements different colours, which is what "differentiate" asks for.',
-        B: 'H&E stains collagen pink — and stains most cytoplasm pink as well, so it distinguishes nothing.',
-        C: 'Sudan is for fat and shows no fibre at all.',
-        D: 'Silver blackens reticular fibres. It differentiates those, not collagen — and reticular fibres are themselves collagen type III, which is what makes the option tempting.',
-      },
-    },
-    {
-      key: 'a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-bbc6ae4f',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Moderate', questionType: 'Clinical application',
-      learningObjective: 'Choose the stain that would show the fibre a scurvy case has failed to build.',
-      answerOverride: 'B',
-      answerOverrideReason:
-        'Neither printing of this question carries a key. The stem asks for the best stain to distinguish collagen from other fibres, which is the trichrome — Mallory\'s, option B — and the parallel question `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed to exactly that.',
-      explanations: {
-        A: 'H&E colours collagen pink and cytoplasm pink with it, so it cannot separate the fibre from its surroundings — which is the whole demand of the stem.',
-        B: 'Correct. Mallory\'s trichrome stains collagen blue against a differently coloured background, which is what makes a defect in it visible.',
-        C: 'Sudan shows fat. Vitamin C deficiency is a collagen disease and fat is not involved.',
-        D: 'Silver shows reticular fibres. They are type III collagen and would be affected too, but the stem asks for the stain that separates collagen from *other* fibres, and silver picks out the reticular ones instead.',
-      },
-    },
-    {
-      key: 'collagen-fibers-have-the-following-characters-except-c8113330',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recall that a collagen fibre does not branch even though its bundle does.',
-      explanations: {
-        A: 'True, so not the exception. In quantity, unstained collagen is white — hence white fibrous tissue.',
-        B: 'True, so not the exception. Collagen is acidophilic.',
-        C: 'True, so not the exception, and the same fact as B in the language of the slide.',
-        D: 'The exception, and the answer. The bundles branch; the individual fibres within them do not. Branching fibres are elastic fibres and reticular fibres, which is what makes this the trap.',
-      },
-    },
-    {
-      key: 'concerning-collagen-fibers-7652b65d',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'State the branching pattern of collagen precisely.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The books print no key. Only A is true: collagen forms wavy branching bundles made of fibres that do not branch. Collagen is acidophilic rather than basophilic, it is inextensible rather than elastic, and van Gieson stains it red — yellow is what van Gieson does to elastic fibres.',
-      explanations: {
-        A: 'Correct, and worth reading twice: the bundle branches, the fibre does not, and the option says both.',
-        B: 'Collagen is acidophilic — it takes eosin and stains pink. Basophilia belongs to the nucleus and to ribosome-rich cytoplasm.',
-        C: 'Collagen is strong and barely stretches; elasticity is the elastic fibre\'s property, and the two fibres are defined against each other.',
-        D: 'Van Gieson stains collagen red and elastic fibres yellow. The option has the two colours swapped, which is exactly the confusion the stain exists to prevent.',
-      },
-    },
-    {
-      key: 'elastic-fibers-can-be-stained-brown-by-3f14dea9',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the elastic fibre stain.',
-      explanations: {
-        A: 'Correct. Orcein stains elastic fibres brown.',
-        B: 'Van Gieson also shows elastic fibres, but yellow, and it is used to contrast them with the red collagen.',
-        C: 'Mallory stains collagen blue.',
-        D: 'Eosin is half of the routine stain and shows elastic fibres only faintly, as pale acidophilic threads.',
-      },
-    },
-    {
-      key: 'what-color-do-elastic-fibers-stain-with-van-gieson-stain-26a8714b',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Give the colour van Gieson gives to elastic fibres, against the colour it gives collagen.',
-      explanations: {
-        A: 'Red or orange is closer to what van Gieson does to collagen, and orange is Sudan on fat.',
-        B: 'Pink or red is collagen — in H&E and in van Gieson alike. This option is the other fibre\'s answer.',
-        C: 'Purple or red is metachromasia, what toluidine blue does to mast cell granules.',
-        D: 'Correct. Van Gieson stains elastic fibres yellow, which is why the tissue built of them is called yellow elastic tissue.',
-      },
-    },
-    {
-      key: 'yellow-elastic-fibers-are-stained-fa279de3',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Give both stains that demonstrate elastic fibres.',
-      explanations: {
-        A: 'True but incomplete. Orcein stains them brown.',
-        B: 'True but incomplete. Van Gieson stains them yellow.',
-        C: 'PAS gives magenta red on carbohydrate. Elastic fibres are protein, and PAS shows them nothing.',
-        D: 'Correct. Orcein and van Gieson both demonstrate elastic fibres, in different colours.',
-      },
-    },
-    {
-      key: 'elastic-fibers-are-characterized-by-being-df60ef40',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Pick the true statement about elastic fibres from three that belong to collagen or to muscle.',
-      explanations: {
-        A: 'Arrangement into bundles is collagen. Elastic fibres run singly and branch to form networks.',
-        B: 'Correct. Orcein stains them brown, and it is the stain the book names for them.',
-        C: 'They are poorly demonstrated in H&E, but not undemonstrable — they show as faint acidophilic threads, so the absolute statement is too strong.',
-        D: 'Transverse striations belong to skeletal and cardiac muscle fibres. The word "fibre" carries two meanings in histology, and this option trades on the other one.',
-      },
-    },
-    {
-      key: 'all-of-the-following-are-true-about-yellow-elastic-fibers-ex-e01e5f53',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recall that elastic fibres are acidophilic, not basophilic.',
-      explanations: {
-        A: 'True, so not the exception. Thin and stretchable is what they are for.',
-        B: 'True, so not the exception. They branch, which is how they form a network.',
-        C: 'True, so not the exception. Orcein is their stain.',
-        D: 'The exception, and the answer. Elastic fibres are acidophilic. Nothing extracellular in connective tissue is deeply basophilic except the metachromatic granules of the mast cell, which are inside a cell.',
-      },
-    },
-    {
-      key: 'reticular-fibers-have-the-following-characters-except-6d542c4a',
-      conceptKey: 'reticular-fibres-and-reticular-cells',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recall that reticular fibres branch — that is what makes them a reticulum.',
-      explanations: {
-        A: 'True, so not the exception. Silver blackens them, which is what argyrophilic means.',
-        B: 'True, so not the exception. They are PAS-positive because of the carbohydrate on them.',
-        C: 'True, so not the exception. They form the stroma of the parenchymatous organs.',
-        D: 'The exception, and the answer. They branch and anastomose into a net, which is where the name comes from. Unbranched fibres are collagen.',
-      },
-    },
-    {
-      key: 'reticular-fibers-can-be-stained-by-the-following-except-b899b4e9',
-      conceptKey: 'reticular-fibres-and-reticular-cells',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the stain that does not show reticular fibres.',
-      explanations: {
-        A: 'Silver does stain them, black, so it is not the exception.',
-        B: 'The exception, and the answer. Reticular fibres are not demonstrable in a routine H&E section at all — they are too fine and take neither dye appreciably.',
-        C: 'PAS does stain them, so it is not the exception.',
-        D: '"Both b & c" would make PAS an exception too, and PAS works. Half of a wrong pair is still wrong.',
-      },
-    },
-    {
-      key: 'which-of-the-following-would-be-best-suited-to-visualize-ret-61151fde',
-      conceptKey: 'reticular-fibres-and-reticular-cells',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Choose the stain for reticular fibres.',
-      explanations: {
-        A: 'Mallory\'s trichrome is the collagen stain, and reticular fibres are too fine for it to pick out.',
-        B: 'H&E does not show them at all.',
-        C: 'Sudan is for fat.',
-        D: 'Correct. Silver blackens reticular fibres, which is why they are called argyrophilic.',
-      },
-    },
-    {
-      key: 'concerning-the-reticular-connective-tissue-7270b748',
-      conceptKey: 'reticular-fibres-and-reticular-cells',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'State how reticular fibres are demonstrated and reject the bundle description.',
-      answerOverride: 'B',
-      answerOverrideReason:
-        'The books print no key. Only B is true: reticular fibres are demonstrated by silver. They form a branching network rather than bundles, they support rather than bind, and they are not visible in H&E.',
-      explanations: {
-        A: 'Bundles are collagen. Reticular fibres branch and anastomose into a mesh, which is the property their name records.',
-        B: 'Correct. Silver blackens them; without it they cannot be seen.',
-        C: 'Binding structures together is the job of loose areolar and of dense connective tissue. Reticular tissue supports the cells of an organ from within.',
-        D: 'They are not visible in H&E, which is exactly why silver is needed.',
-      },
-    },
-    {
-      key: 'concerning-the-reticular-cells-the-followings-are-true-excep-bc90693e',
-      conceptKey: 'reticular-fibres-and-reticular-cells',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Keep the centriole stain away from the reticular cell.',
-      explanations: {
-        A: 'True, so not the exception. Reticular cells lie in the stroma of organs, along the fibres they make.',
-        B: 'True, so not the exception. The reticular cell is regarded as a modified fibroblast — it makes fibres.',
-        C: 'The exception, and the answer. Iron haematoxylin is the centriole stain. The reticular *fibre* is shown by silver, and swapping the cell\'s stain for an organelle stain is the error the question is built on.',
-        D: 'True, so not the exception. In lymphoid organs and marrow the reticular cell has a phagocytic function.',
-      },
-    },
-    {
-      key: 'staining-of-the-macrophage-with-trypan-blue-is-an-example-of-58b869d4',
-      conceptKey: 'vital-and-supravital-stains',
-      difficulty: 'Easy', questionType: 'Classification',
-      learningObjective: 'Classify trypan blue staining of a macrophage.',
-      explanations: {
-        A: 'Correct. Trypan blue is injected into the living animal and the macrophage phagocytoses it there — staining of living cells inside the living body is vital staining.',
-        B: 'Supravital staining is of living cells outside the body, as with the reticulocyte.',
-        C: 'A fluorescent stain is read under ultraviolet light and is a different technique entirely.',
-        D: 'A histochemical stain demonstrates a chemical or an enzyme. The macrophage can also be shown that way — by acid phosphatase — but that is not what trypan blue does.',
-      },
-    },
-    {
-      key: 'macrophages-can-be-stained-by-e506ff16',
-      conceptKey: 'vital-and-supravital-stains',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Pick the macrophage\'s stain from a list of one stain per cell.',
-      explanations: {
-        A: 'A metachromatic stain identifies the mast cell.',
-        B: 'A histochemical stain for acid phosphatase does show the macrophage\'s lysosomes — but the option names the class without the reaction, and the stain the question is after is the one that is characteristic.',
-        C: 'Correct. Trypan blue is taken up by the macrophage, which is what makes it the classic demonstration of phagocytosis in the living animal.',
-        D: 'Sudan III is the fat cell\'s stain.',
-      },
-    },
-    {
-      key: 'reticulocytes-could-be-demonstrated-by-eb32930e',
-      conceptKey: 'vital-and-supravital-stains',
-      difficulty: 'Moderate', questionType: 'Classification',
-      learningObjective: 'Classify the stain that shows a reticulocyte.',
-      explanations: {
-        A: 'A vital stain works inside the living animal. Blood is taken out before a reticulocyte count is made.',
-        B: 'Correct. Brilliant cresyl blue on a fresh drop of blood is supravital staining — living cells outside the body — and it shows the reticulum of residual RNA.',
-        C: 'Toluidine blue is the metachromatic stain for mast cells and basophils.',
-        D: 'Metachromatic is what toluidine blue is; the reticulocyte reticulum is stained the dye\'s own colour, so nothing metachromatic happens.',
-      },
-    },
+
+    // ---- classes of stain ---------------------------------------------------
     {
       key: 'lishman-stain-is-1f2148f4',
-      conceptKey: 'neutral-stain-leishman-and-the-blood-film',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
       difficulty: 'Easy', questionType: 'Classification',
-      learningObjective: 'Classify Leishman\'s stain.',
+      learningObjective: 'Classify Leishman\'s stain among the classes of special stain.',
       explanations: {
-        A: 'Correct. It is a neutral stain — an acidic and a basic dye mixed, so both acidophilic and basophilic structures appear on one film.',
-        B: 'A vital stain acts in the living animal; a blood film is dried before it is stained.',
-        C: 'A supravital stain acts on living cells outside the body, as brilliant cresyl blue does on reticulocytes.',
-        D: 'A metachromatic stain gives a colour other than its own. Leishman\'s gives each component the colour of whichever of its two dyes it binds.',
+        A: 'Correct, and keyed. Leishman\'s stain is a neutral stain: a mixture of the acidic dye eosin and the basic dye methylene blue, which is what lets one preparation show both the acidophilic and the basophilic cells of a blood film.',
+        B: 'A vital stain is taken up by living cells inside the living animal. Leishman\'s is applied to a dried film of dead cells on a slide.',
+        C: 'Supravital staining is of living cells outside the body — brilliant cresyl blue on reticulocytes. Leishman\'s film is fixed with methyl alcohol first, so its cells are not alive.',
+        D: 'A metachromatic stain gives a colour different from its own. Leishman\'s components each give their own colour, which is the opposite property.',
       },
     },
     {
       key: 'stain-used-for-blood-film-bc6afbe9',
-      conceptKey: 'neutral-stain-leishman-and-the-blood-film',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the stain a blood film is made with.',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain used for a blood film and say why a mixture is needed.',
       explanations: {
-        A: 'Eosin alone would show the acidophilic elements — haemoglobin and eosinophil granules — and leave the nuclei invisible.',
-        B: 'Correct. Leishman\'s stain, a mixture of eosin and methylene blue in methyl alcohol.',
-        C: 'Methylene blue alone is the other half of the mixture and would show only the basophilic elements.',
-        D: 'Haematoxylin is the routine section stain and is not used for films.',
+        A: 'Eosin alone is acidic and would show the acidophilic structures — red cells and eosinophil granules — and leave the nuclei and basophilic granules unstained.',
+        B: 'Correct. Leishman\'s stain is the neutral stain for blood films, and being a mixture is the whole point of it.',
+        C: 'Methylene blue alone is basic and would stain nuclei and basophilic granules while leaving the red cells almost colourless.',
+        D: 'Haematoxylin is the basic dye of the routine tissue stain; it is not used on blood films, where Leishman\'s combined dyes in methyl alcohol both fix and stain in one step.',
       },
     },
     {
       key: 'staining-of-blood-film-is-done-by-5ab7e292',
-      conceptKey: 'neutral-stain-leishman-and-the-blood-film',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the blood film stain among three special stains.',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain used for a blood film against a set of special stains.',
       explanations: {
-        A: 'Orcein is for elastic fibres.',
-        B: 'Silver is for the Golgi, nerve tissue and reticular fibres.',
-        C: 'H&E is the routine stain for sections, not for films.',
-        D: 'Correct. Leishman\'s stain.',
+        A: 'Orcein browns elastic fibres and has no role in blood.',
+        B: 'Silver browns the Golgi and nerve fibres and blackens reticular fibres; it demonstrates none of the blood cells.',
+        C: 'H&E is the routine stain for a tissue section, not for a blood film — a film is air-dried and needs a stain that carries its own alcohol fixative.',
+        D: 'Correct. Leishman\'s stain is the blood film stain.',
       },
     },
     {
       key: 'fixative-material-that-used-in-blood-film-108f04be',
-      conceptKey: 'neutral-stain-leishman-and-the-blood-film',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the fixative in Leishman\'s stain.',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Moderate', questionType: 'Recall',
+      learningObjective: 'Name the fixative in which a blood film stain is dissolved.',
       explanations: {
-        A: 'Correct. The dyes are dissolved in methyl alcohol, which fixes the film as the stain is applied — which is why no separate fixation step is needed.',
-        B: 'Eosin is one of the two dyes, not the solvent.',
-        C: 'Ethylene glycol is an antifreeze and has no place in a histology laboratory.',
-        D: 'Glycerin is a mountant, used to hold a coverslip, not a fixative.',
+        A: 'Correct. Leishman\'s dyes are dissolved in methyl alcohol, which fixes the air-dried film as the stain is applied — one solution doing both jobs.',
+        B: 'Eosin is one of the two dyes in the mixture, not the fixative that carries them.',
+        C: 'Ethylene glycol is an antifreeze and has no place in this preparation.',
+        D: 'Glycerin is a mounting and clearing agent, not a fixative.',
       },
     },
     {
-      key: 'after-staining-the-c-t-with-toludin-blue-the-cells-which-hav-a2f2ac30',
-      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Identify the connective tissue cell that stains metachromatically.',
+      key: 'staining-of-the-macrophage-with-trypan-blue-is-an-example-of-58b869d4',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Classify the demonstration of a macrophage with trypan blue.',
       explanations: {
-        A: 'The plasma cell is deeply basophilic, but diffusely and in the dye\'s own blue — its basophilia comes from rough endoplasmic reticulum, not from sulphated granules.',
-        B: 'Correct. Magenta granules in a blue dye is metachromasia, and in connective tissue it identifies the mast cell.',
-        C: 'Phagocytic cells — macrophages — are shown by trypan blue in the living animal or by acid phosphatase histochemically.',
-        D: 'Endothelial cells are flat and unremarkable in H&E and have no metachromatic granules.',
+        A: 'Correct. A vital stain is one taken up by living cells inside the living animal — the dye is injected and the macrophage phagocytoses it, which is why this method identifies that cell and no other.',
+        B: 'Supravital staining is of living cells outside the body. The reticulocyte with brilliant cresyl blue is the example the book gives.',
+        C: 'A fluorescent stain is read under ultraviolet light; trypan blue is seen in an ordinary microscope as blue granules inside the cell.',
+        D: 'A histochemical stain demonstrates a chemical or an enzyme. Trypan blue demonstrates a behaviour — phagocytosis — which is a different kind of evidence.',
+      },
+    },
+    {
+      key: 'reticulocytes-could-be-demonstrated-by-eb32930e',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Classify the stain that demonstrates a reticulocyte.',
+      explanations: {
+        A: 'A vital stain works inside the living animal. The reticulocyte is stained on a slide, after the blood has been drawn.',
+        B: 'Correct, and keyed. Brilliant cresyl blue on living cells outside the body is supravital staining, and it precipitates the residual RNA of the young red cell into the visible reticulum that names it.',
+        C: 'Toluidine blue is the metachromatic stain for mast cell and basophil granules; it says nothing about a reticulocyte.',
+        D: 'Metachromasia is a property of a dye on a particular substrate. The reticulum of the reticulocyte is shown in the dye\'s own colour, which is the opposite.',
+      },
+    },
+    {
+      key: 'macrophages-can-be-stained-by-e506ff16',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Pick the class of stain that demonstrates the macrophage.',
+      explanations: {
+        A: 'A metachromatic stain demonstrates the mast cell and the basophil, whose granules hold heparin.',
+        B: 'A histochemical stain does mark the macrophage indirectly, through the acid phosphatase of its many lysosomes — but the specific demonstration named in the book is the vital stain, and the option offered here is unqualified.',
+        C: 'Correct. Trypan blue is the vital stain the macrophage phagocytoses, and finding blue granules inside a connective tissue cell is how the cell is identified.',
+        D: 'Sudan III demonstrates fat, which identifies the adipocyte.',
       },
     },
     {
       key: 'mast-cells-can-be-stained-by-3e5ca4af',
-      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Pick the mast cell\'s stain from a list of one stain per cell.',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Pick the class of stain that demonstrates the mast cell.',
       explanations: {
-        A: 'Correct. A metachromatic stain — toluidine blue — turns the mast cell\'s granules purple or magenta.',
-        B: 'A histochemical stain for acid phosphatase identifies the macrophage.',
-        C: 'Trypan blue is the macrophage\'s vital stain.',
-        D: 'Sudan III is the fat cell\'s. These four options recur through this leaf as a set, one stain per connective tissue cell.',
+        A: 'Correct. Toluidine blue is a metachromatic stain, and the heparin of the mast cell granule turns it purple — a colour the dye itself does not have.',
+        B: 'Histochemical stains demonstrate a named chemical or enzyme; the mast cell is not identified that way in this course.',
+        C: 'Trypan blue identifies the macrophage, by being eaten. Mast cells are not phagocytic, which is one of the differences the book draws between them and the basophil.',
+        D: 'Sudan III identifies the fat cell.',
       },
     },
     {
       key: 'basophils-stained-by-toluidine-blue-metachromatic-due-to-046ab3ff',
-      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
+      conceptKey: 'basophil-granule-contents-and-anaphylaxis',
       difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the granule component that produces metachromasia.',
+      learningObjective: 'Name the granule constituent that makes a basophil metachromatic.',
       explanations: {
-        A: 'Histamine is in the same granule and produces the vasodilatation of anaphylaxis, but it is not what changes the colour of the dye.',
-        B: 'Correct. Heparin, a sulphated mucopolysaccharide, is what makes the granules metachromatic.',
-        C: 'Sulphate is the chemical group that does the work, but it is a part of the heparin molecule rather than a granule constituent in its own right — the book names heparin.',
-        D: 'Collagenase is in the neutrophil\'s specific granules and has nothing to do with staining.',
+        A: 'Histamine is in the same granule and is what causes the vasodilatation of anaphylaxis, but it is not what turns the dye purple.',
+        B: 'Correct. Heparin is the sulphated glycosaminoglycan of the granule, and metachromasia is what a dye does on a densely charged polyanion like it.',
+        C: '"Sulfate" names the chemical group that carries the charge rather than the molecule that carries the group — a half-answer that only looks right because heparin is sulphated.',
+        D: 'Collagenase is not a basophil product at all.',
+      },
+    },
+
+    // ---- carbohydrate stains ----------------------------------------------
+    {
+      key: 'glycogen-can-be-stained-by-the-following-edc769e1',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stains that demonstrate glycogen.',
+      explanations: {
+        A: 'H&E does not show glycogen: the routine technique dissolves and washes much of it out, and what remains takes neither dye distinctively.',
+        B: 'True on its own — Best\'s carmine is the classical glycogen stain — but the stem allows a combined option.',
+        C: 'True on its own. PAS reacts with the sugar of glycogen and gives magenta red.',
+        D: 'Correct. Both B and C demonstrate glycogen, and they do so for the same reason: glycogen is a carbohydrate.',
       },
     },
     {
-      key: 'about-mast-cell-all-are-true-except-f4dafeec',
-      conceptKey: 'mast-cell-lm-em-metachromasia',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Give the immunoglobulin the mast cell carries receptors for.',
+      key: 'glycogen-granules-are-stained-with-760dabb7',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name the stains that demonstrate glycogen when a combined option is offered.',
+      answerOverride: 'D',
+      answerOverrideReason:
+        'The bank carries A. Best\'s carmine does stain glycogen, so A is a true statement — but so is B, since the department book states that PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.',
       explanations: {
-        A: 'True, so not the exception. The granules are basophilic in H&E.',
-        B: 'True, so not the exception. IgE receptors on the surface are what let an allergen trigger the cell.',
-        C: 'The exception, and the answer. IgA is the immunoglobulin of secretions — saliva, tears, milk — and no mast cell carries a receptor for it. One letter apart from the true statement above it.',
-        D: 'True, so not the exception. Toluidine blue turns the granules purple, which is metachromasia.',
+        A: 'True, and the answer the page carries. Best\'s carmine is the classical glycogen stain — but it is not the only one offered here.',
+        B: 'Also true. PAS reddens glycogen because glycogen is a carbohydrate, which is exactly what PAS reacts with.',
+        C: 'Sudan III is the fat stain. Fat and glycogen are the two cytoplasmic inclusions students most often swap, because both are storage products and both vanish in routine processing.',
+        D: 'Correct. A and B are both true, so the combined option is the one that stands.',
       },
     },
     {
-      key: 'both-mast-cells-basophilis-share-all-of-the-following-except-bbc3ee7a',
-      conceptKey: 'mast-cell-lm-em-metachromasia',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Name the property that separates the mast cell from the basophil.',
+      key: 'carbohydrates-are-stained-red-with-5278c6fa',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that reddens carbohydrate.',
       explanations: {
-        A: 'Shared, so not the exception. Both carry IgE receptors, which is why both are triggered by allergen.',
-        B: 'The exception, and the answer. Phagocytic ability is one of the four points on which the department book separates the two cells, along with life span, size and nuclear shape.',
-        C: 'Shared, so not the exception. Both have heparin-rich granules that toluidine blue stains metachromatically.',
-        D: 'Shared, so not the exception. Both secrete eosinophil chemotactic factor, which brings in the cell that will end the reaction.',
+        A: 'Silver browns the Golgi and nerve fibres and blackens reticular fibres. It does redden nothing, and its reticular target is chosen for its sugar only indirectly.',
+        B: 'Janus green is the vital stain for mitochondria and gives green, as its name says.',
+        C: 'Iron haematoxylin is the stain for centrioles and gives dark blue.',
+        D: 'Correct. Best\'s carmine reddens carbohydrate — glycogen above all — and PAS does the same in magenta.',
       },
     },
     {
-      key: 'concerning-mast-cells-433dd658',
-      conceptKey: 'mast-cell-lm-em-metachromasia',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Pick the mast cell\'s property from three that belong to its neighbours.',
+      key: 'the-following-inclusion-can-be-stained-with-best-s-carmine-933220f4',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the cytoplasmic inclusion that Best\'s carmine demonstrates.',
+      explanations: {
+        A: 'Haemoglobin is a protein and is acidophilic; it takes eosin in an ordinary film and needs no special stain.',
+        B: 'Correct. Best\'s carmine demonstrates glycogen, and glycogen is the carbohydrate inclusion of the liver and muscle cell.',
+        C: 'Fat needs a fat-soluble dye — Sudan III — on a frozen section, because a carbohydrate stain has nothing to react with in a lipid droplet.',
+        D: 'Carotene is the pigment dissolved in the fat droplet and is seen with the fat, not with a carbohydrate stain.',
+      },
+    },
+    {
+      key: 'in-light-microscopy-the-basement-membrane-is-stained-with-67deda39',
+      conceptKey: 'basement-membrane-two-layers-and-what-fixes-the-epithelium-to-it',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that shows the basement membrane by light microscopy.',
+      explanations: {
+        A: 'Sudan III shows fat. There is no fat in a basement membrane.',
+        B: 'Haematoxylin stains the acidic components of the cell; the basement membrane is not resolved as a distinct layer by it.',
+        C: 'Eosin makes it, at best, part of the general pink of the connective tissue below.',
+        D: 'Correct, and keyed. PAS reddens the basement membrane because its glycoproteins are carbohydrate — the same reason it reddens glycogen and mucus.',
+      },
+    },
+    {
+      key: 'the-basement-membrane-can-be-stained-by-0f26b009',
+      conceptKey: 'basement-membrane-two-layers-and-what-fixes-the-epithelium-to-it',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name both stains that demonstrate the basement membrane.',
+      explanations: {
+        A: 'Trypan blue is the vital stain for the macrophage; it is taken up by a living phagocyte and stains no extracellular sheet.',
+        B: 'True on its own — silver browns the basement membrane, as it browns the reticular fibres of the reticular lamina.',
+        C: 'True on its own — PAS reddens it, through its glycoprotein.',
+        D: 'Correct. Both B and C work, and they work on the same layer from its two sides: silver on the reticular fibres of the connective tissue half, PAS on the sugar of the whole.',
+      },
+    },
+
+    // ---- fat stains --------------------------------------------------------
+    {
+      key: 'fat-cells-can-be-stained-by-c3fbaf71',
+      conceptKey: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Pick the stain that demonstrates the fat cell.',
+      explanations: {
+        A: 'A metachromatic stain marks the mast cell and the basophil, through their heparin.',
+        B: 'A histochemical stain is the right family — Sudan III is one — but the option is unqualified, and the specific member is offered in D.',
+        C: 'Trypan blue is the vital stain for the macrophage.',
+        D: 'Correct. Sudan III dissolves into the fat droplet and colours it orange, and it is the stain that identifies the adipocyte.',
+      },
+    },
+    {
+      key: 'fat-cells-are-stained-with-8f1f1a6a',
+      conceptKey: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that demonstrates fat, against a set that also offers the glycogen stains.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The books print no key. Only C is true of the mast cell. Antibody formation is the plasma cell, histaminase is the eosinophil, and trypan blue demonstrates the macrophage.',
+        'The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. The department book gives Sudan III as the fat stain and PAS as the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best\'s carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.',
       explanations: {
-        A: 'Antibody is made by the plasma cell. The two cells share a deep basophilia in H&E and nothing else, which is why they are so often set against each other.',
-        B: 'Histaminase is secreted by the eosinophil, and it destroys the histamine the mast cell releases. The two cells are on opposite sides of the same reaction.',
-        C: 'Correct. The granules are metachromatic with toluidine blue, from their heparin.',
-        D: 'Trypan blue is taken up by phagocytes — the macrophage. The mast cell does not phagocytose, which is one of the points that separates it from the basophil.',
+        A: 'Best\'s carmine demonstrates glycogen, which is a carbohydrate.',
+        B: 'The answer the page carries, and the reason for this override. PAS reacts with sugar; a fat droplet has none, which is why PAS shows nothing where the fat was.',
+        C: 'Correct. Sudan III is a fat-soluble dye and stains the droplet orange, on a frozen section.',
+        D: '"Both a & b" pairs the two carbohydrate stains, so it is wrong twice over.',
       },
     },
     {
-      key: 'about-macrophages-all-are-true-except-06f23028',
-      conceptKey: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Trace the macrophage to the monocyte rather than to a lymphocyte.',
+      key: 'which-of-the-following-would-be-best-suited-to-visualize-lip-5681589f',
+      conceptKey: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Choose the stain best suited to showing lipid.',
       explanations: {
-        A: 'True, so not the exception. The macrophage presents antigen to the helper T cell, which is how both immune responses begin.',
-        B: 'The exception, and the answer. The macrophage comes from the monocyte. It is the *plasma* cell that comes from the B lymphocyte, and the two answers are traded here.',
-        C: 'True, so not the exception. Trypan blue injected into a living animal is taken up by macrophages — the classic vital stain demonstration.',
-        D: 'True, so not the exception. Acid phosphatase histochemistry shows its lysosomes and so identifies it as a phagocyte.',
+        A: 'Orcein browns elastic fibres and does nothing to lipid.',
+        B: 'H&E dissolves the lipid out during processing and leaves an empty space — the opposite of visualising it.',
+        C: 'Correct, and keyed. Sudan III is the fat-soluble dye that colours the droplet orange. The option is printed with the Roman numeral mangled by the scan, but the stain named is unambiguous.',
+        D: 'Silver browns the Golgi and nerve fibres and blackens reticular fibres; none of those is lipid.',
       },
     },
     {
-      key: 'mitochondria-can-be-stained-by-647ed7cf',
-      conceptKey: 'special-stains-for-mitochondria-and-centrioles',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the mitochondrial stain.',
-      explanations: {
-        A: 'Correct. Janus green B stains mitochondria — it is reduced by their respiratory enzymes, so only living mitochondria take it.',
-        B: 'Van Gieson is a connective tissue trichrome: collagen red, elastic yellow.',
-        C: 'H&E shows mitochondria only as a general cytoplasmic acidophilia in cells that have many of them; it does not resolve them.',
-        D: 'Orcein stains elastic fibres brown.',
-      },
-    },
-    {
-      key: 'mitochondria-can-be-stained-with-8dc54379',
-      conceptKey: 'special-stains-for-mitochondria-and-centrioles',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the mitochondrial stain among three stains for other things.',
-      answerOverride: 'B',
+      key: 'lipids-e76d0a4d',
+      conceptKey: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      difficulty: 'Hard', questionType: 'Negative reasoning',
+      learningObjective: 'Reject three false statements about where lipid is stored and what stains it.',
+      answerOverride: 'D',
       answerOverrideReason:
-        'The books key this to Sudan III, which is the fat stain. Janus green is the mitochondrial stain, and the parallel question `mitochondria-can-be-stained-by-647ed7cf` is keyed to it. Set to B.',
+        'The source printed no key, and each of the three substantive options fails against the department book: fat is stored in the adipocyte of adipose connective tissue rather than mainly in muscle or in liver cells, and PAS is a carbohydrate reaction that gives nothing on lipid. That leaves "none of the above", which is the only option this row can carry.',
       explanations: {
-        A: 'Best\'s carmine stains glycogen.',
-        B: 'Correct. Janus green B is the mitochondrial stain.',
-        C: 'Sudan III stains fat, and it is the option the books key this question to.',
-        D: 'Leishman\'s stain is for blood films.',
+        A: 'Muscle stores glycogen as its ready fuel, not fat as a depot. The fat depot is adipose tissue.',
+        B: 'PAS is the carbohydrate reaction. It reddens glycogen, mucus and basement membrane; a lipid droplet has no sugar for it to react with.',
+        C: 'The liver stores glycogen. Fat accumulates in it only in disease, which is a pathological finding rather than the normal store this option claims.',
+        D: 'Correct by elimination: no option offered is true, because fat is stored in the unilocular adipocyte and is demonstrated by Sudan III on a frozen section.',
       },
     },
     {
-      key: 'stain-used-for-centriole-e56e9242',
-      conceptKey: 'special-stains-for-mitochondria-and-centrioles',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the centriole stain.',
+      key: 'signet-ring-appearance-is-a-descriptive-term-for-the-d9aa199c',
+      conceptKey: 'unilocular-versus-multilocular-adipocyte',
+      difficulty: 'Moderate', questionType: 'Structural identification',
+      learningObjective: 'Say which preparation of a fat cell gives the signet ring appearance and why.',
       explanations: {
-        A: 'Correct. Iron haematoxylin demonstrates the centrioles, which lie beside the nucleus and are otherwise invisible by light microscopy.',
-        B: 'Janus green is for mitochondria. The two are the pair of organelle stains this leaf keeps setting against each other.',
-        C: 'Silver shows the Golgi apparatus, nerve tissue and reticular fibres.',
-        D: 'PAS shows carbohydrate.',
+        A: 'Sudan III fills the droplet with orange, so the cell looks full rather than empty. That is the opposite of a signet ring.',
+        B: 'Sudan black does the same in black; again the space is occupied.',
+        C: 'Correct. H&E dissolves the fat away, leaving a large empty space with the nucleus and a rim of cytoplasm flattened against one side — the stone and the band of a signet ring.',
+        D: 'Toluidine blue is the mast cell stain and does nothing to a fat cell.',
       },
     },
+    {
+      key: 'concerning-unilocular-adipocytes-they-1051d1be',
+      conceptKey: 'unilocular-versus-multilocular-adipocyte',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about the unilocular fat cell against the characters of the multilocular one.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'The source printed no key. A is true of the unilocular cell — Sudan III is the department book\'s stain for its fat — and the other three are each a character of the multilocular cell or of no cell: thermogenesis and multiple small droplets belong to the brown, multilocular adipocyte, and a mature fat cell does not divide.',
+      explanations: {
+        A: 'Correct. The single large droplet of the unilocular cell is fat, and Sudan III is what makes it visible.',
+        B: 'Heat generation is the multilocular, brown fat cell\'s work, through the thermogenin of its many mitochondria. White fat insulates against heat loss, which is a different job.',
+        C: 'One large droplet is what unilocular means. Many small droplets is the multilocular cell.',
+        D: 'A fat cell filled with its droplet does not divide; new fat cells come from the undifferentiated mesenchymal cell.',
+      },
+    },
+
+    // ---- enzyme histochemistry --------------------------------------------
     {
       key: 'lysosomes-are-stained-by-d73a1b30',
-      conceptKey: 'enzyme-histochemistry-acid-phosphatase-and-catalase',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the marker enzyme of the lysosome.',
+      conceptKey: 'lysosome-enzymes-origin-and-functions',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the histochemical reaction that identifies a lysosome.',
       explanations: {
-        A: 'H&E cannot resolve a lysosome; it is a small membranous vesicle with no distinctive dye affinity.',
-        B: 'A metachromatic stain shows sulphated mucopolysaccharide — mast cell granules, not lysosomes.',
-        C: 'Correct. Acid phosphatase is the lysosome\'s marker enzyme, and a histochemical reaction for it identifies both the organelle and the cells rich in it.',
-        D: 'Alkaline phosphatase works at an alkaline pH. The lysosome\'s interior is acid, which is the point of the word "acid" in the answer.',
+        A: 'A lysosome cannot be seen in a routine H&E section at all; it is below the useful limit and takes no distinctive colour.',
+        B: 'Metachromatic staining marks the heparin of mast cell and basophil granules, not a lysosome.',
+        C: 'Correct. Acid phosphatase is the lysosomal marker enzyme, and the histochemical reaction for it is how the organelle is identified by light microscopy.',
+        D: 'Alkaline phosphatase is the trap this pair of options exists for. It is not the lysosomal enzyme; acid is.',
       },
     },
     {
       key: 'peroxisomes-are-stained-by-898f81f2',
-      conceptKey: 'enzyme-histochemistry-acid-phosphatase-and-catalase',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Identify the peroxisome by the enzyme only it has.',
+      conceptKey: 'peroxisome-oxidase-and-catalase',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name the enzyme whose histochemical demonstration identifies a peroxisome.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The books key this to alkaline phosphatase. The department book\'s cytoplasm chapter gives the peroxisome oxidases and catalase and gives the phosphatases to the lysosome, so a histochemical reaction for catalase — option B — is what identifies a peroxisome. The book\'s microtechniques page lists acid and alkaline phosphatase together as lysosomal enzyme stains and says nothing about peroxisomes, so the two halves of the book have to be read together; this override reconciles them and a reviewer should confirm it.',
+        'The bank carries D, alkaline phosphatase, which is neither a lysosomal nor a peroxisomal enzyme. The department book gives the peroxisome two enzyme groups, the oxidases and catalase, and option B names catalase specifically. This row sits on the same book\'s page 21 among the same block of shifted keys as the fat cell and mitochondrion rows.',
       explanations: {
-        A: 'A metachromatic stain shows sulphated mucopolysaccharide — mast cell and basophil granules. No organelle of this kind is metachromatic.',
-        B: 'Correct. Catalase is the peroxisome\'s own enzyme, the one that destroys the hydrogen peroxide its oxidases generate, and a reaction for catalase marks the organelle.',
-        C: 'Acid phosphatase is the lysosome\'s marker. Confusing the two organelles is exactly what this question tests, since both are single-membrane vesicles of similar size.',
-        D: 'Alkaline phosphatase is the option the books key this question to. It is a phosphatase, and the phosphatases belong to the lysosome.',
+        A: 'A metachromatic stain marks heparin-rich granules; a peroxisome has none.',
+        B: 'Correct. Catalase is the peroxisome\'s defining enzyme — it destroys the hydrogen peroxide the organelle\'s own oxidases produce — and the histochemical reaction for it is what identifies the organelle.',
+        C: 'Acid phosphatase is the lysosomal marker. Substituting one single-membrane vesicle for the other is the standard error here.',
+        D: 'The answer the page carries, and the reason for this override. Alkaline phosphatase is a membrane enzyme of absorptive and osteogenic cells; it belongs to neither organelle in this pair.',
+      },
+    },
+
+    // ---- mitochondria and centrioles ---------------------------------------
+    {
+      key: 'mitochondria-can-be-stained-by-647ed7cf',
+      conceptKey: 'mitochondrion-ultrastructure-and-staining',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the vital stain for mitochondria.',
+      explanations: {
+        A: 'Correct. Janus green is the vital stain for mitochondria, and it colours them green.',
+        B: 'Van Gieson is a fibre stain: red for collagen, yellow for elastic fibres.',
+        C: 'H&E makes mitochondria part of the general acidophilia of the cytoplasm; it does not distinguish them.',
+        D: 'Orcein browns elastic fibres.',
       },
     },
     {
-      key: 'in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf',
-      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Describe what H&E shows of the Golgi in a plasma cell.',
-      explanations: {
-        A: 'Perinuclear is the Golgi\'s *position* in a nerve cell, and the question asks how it appears, not where it sits.',
-        B: 'Apical is its position in a secretory cell with a free surface. Again a position, not an appearance.',
-        C: 'Correct. It appears unstained — a pale gap in the otherwise deeply basophilic cytoplasm, which is the negative Golgi image.',
-        D: 'Basal is where the rough endoplasmic reticulum and the nucleus are in a secretory cell, and it is deeply basophilic rather than pale.',
-      },
-    },
-    {
-      key: 'in-h-e-stained-sections-of-protein-forming-cell-golgi-appear-03113d3c',
-      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recognise the negative Golgi image in a protein-forming cell.',
-      answerOverride: 'D',
+      key: 'mitochondria-can-be-stained-with-8dc54379',
+      conceptKey: 'mitochondrion-ultrastructure-and-staining',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name the stain for mitochondria against a set of other special stains.',
+      answerOverride: 'B',
       answerOverrideReason:
-        'The books print no key. The Golgi takes neither haematoxylin nor eosin, so in an H&E section of a protein-forming cell it appears as an unstained pale area beside the nucleus — the negative Golgi image, option D. The brown fibrils of option C are what silver shows, not H&E.',
+        'The bank carries C, Sudan III, which is the fat stain. The department book gives Janus green and iron haematoxylin as the mitochondrial stains, and Janus green is option B. This is the third row of the shifted block on the same printed page as `fat-cells-are-stained-with-8f1f1a6a` and `glycogen-granules-are-stained-with-760dabb7`.',
       explanations: {
-        A: 'The deeply basophilic cytoplasm around the Golgi is the rough endoplasmic reticulum. The Golgi itself is the interruption in it.',
-        B: 'Acidophilia beside the nucleus is what a mitochondria-rich or smooth-ER-rich region gives. The Golgi is neither.',
-        C: 'Brown fibrils and granules is what a silver preparation shows — a positive Golgi image. The stem specifies H&E.',
-        D: 'Correct. An unstained area near the nucleus: the negative Golgi image.',
+        A: 'Best\'s carmine demonstrates glycogen.',
+        B: 'Correct. Janus green is the vital stain for mitochondria; iron haematoxylin is the other stain the book names for them.',
+        C: 'The answer the page carries, and the reason for this override. Sudan III shows fat, which is a cytoplasmic inclusion rather than an organelle.',
+        D: 'Leishman\'s stain is the neutral stain for a blood film and demonstrates whole cells, not organelles.',
       },
     },
     {
-      key: 'negative-golgi-image-appears-ef77c5a4',
-      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Give both conditions under which a negative Golgi image is seen.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'The books print no key. The negative image needs two things at once — a routine H&E preparation, and a cell whose cytoplasm is basophilic enough for the unstained Golgi to show against it, which is what the plasma cell and the osteoblast provide. Both A and B are true, so the answer is D.',
+      key: 'stain-used-for-centriole-e56e9242',
+      conceptKey: 'centriole-structure-and-role-in-cell-division',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that shows centrioles by light microscopy.',
       explanations: {
-        A: 'True but incomplete. The plasma cell and the osteoblast are the standard examples, because their cytoplasm is deeply basophilic and the pale gap stands out.',
-        B: 'True but incomplete. It is an H&E appearance; silver gives a positive image instead.',
-        C: 'A small Golgi is harder to see, not easier. The image appears when the Golgi is well developed and the surrounding cytoplasm strongly stained.',
-        D: 'Correct. Both conditions are needed together.',
+        A: 'Correct. Iron haematoxylin is the stain for centrioles, which are otherwise below the useful resolution of the light microscope in a routine section.',
+        B: 'Janus green shows mitochondria.',
+        C: 'Silver browns the Golgi and nerve fibres and blackens reticular fibres.',
+        D: 'PAS is the carbohydrate reaction; a centriole is protein — tubulin — and holds no sugar.',
       },
     },
+
+    // ---- the Golgi ---------------------------------------------------------
     {
       key: 'golgi-complex-could-be-stained-as-brown-granules-fibrils-by-704fe7f8',
       conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Name the stain that gives a positive Golgi image.',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that shows the Golgi apparatus positively.',
       explanations: {
-        A: 'H&E gives the negative image — a pale gap — not brown granules.',
-        B: 'PAS stains carbohydrate magenta red. The Golgi handles carbohydrate but is not demonstrated this way.',
-        C: 'Correct. Silver impregnation shows the Golgi as a network of brown granules and fibrils.',
-        D: 'Integral membrane proteins are a molecular constituent, not a stain, and the option is not an answer to the stem at all.',
+        A: 'H&E shows the Golgi only as a negative image — a pale gap in otherwise basophilic cytoplasm — not as brown granules.',
+        B: 'PAS reddens carbohydrate. The Golgi does add sugar to proteins, but the reaction does not outline the organelle.',
+        C: 'Correct. Silver impregnation shows the Golgi as a network of brown granules and fibrils beside the nucleus.',
+        D: 'Integral membrane proteins are a component of a membrane, not a stain — the option is not the same kind of thing as the other three.',
       },
     },
     {
       key: 'golgi-apparatus-5389363c',
       conceptKey: 'golgi-apparatus-lm-appearance-and-position',
       difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Pick the true statement about the Golgi from three that invert its staining.',
+      learningObjective: 'Pick the true statement about the light-microscopic Golgi apparatus.',
       explanations: {
-        A: 'Reversed. Silver gives the *positive* image, brown granules and fibrils; the negative image is what H&E gives.',
-        B: 'Also reversed. H&E gives the negative image, a pale unstained area, not a granular network.',
-        C: 'Correct. The Golgi varies in size, shape and position from cell to cell, and its position tells you which way the cell secretes.',
-        D: 'It is not easy to see in routine sections at all — that is why the negative image, an absence, is what students are taught to look for.',
+        A: 'The two halves are swapped. Silver gives the positive image, brown granules and fibrils; it is H&E that gives the negative image.',
+        B: 'Also swapped. H&E gives no granular network — that is silver\'s picture — and what H&E gives is a pale unstained area.',
+        C: 'Correct. The Golgi varies in size, shape and position with the cell: apical in a secretory cell discharging at a surface, perinuclear in a nerve cell.',
+        D: 'The opposite of the fact. It is hard to see in a routine section, which is why the negative image and the silver stain both had to be learned.',
       },
     },
     {
       key: 'concerning-the-golgi-complex-all-the-statements-are-true-exc-766e5673',
       conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Recall that the protein-forming cell is where the Golgi is best developed.',
+      difficulty: 'Hard', questionType: 'Negative stem',
+      learningObjective: 'Identify the false statement about the Golgi apparatus in a set of three true ones.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The books key this to A, that the Golgi is stained with silver — which is true, and is the book\'s own statement. The false statement is D: the Golgi is not merely present in protein-synthesising cells, it is at its best developed in them, since it is where their product is packaged. Set to D.',
+        'The bank carries A, "stained with silver", but that is the department book\'s own positive demonstration of the Golgi and cannot be the false statement. D is false on the book\'s account and on this leaf\'s own evidence: the Golgi is best developed in protein-synthesising cells, and the plasma cell — the type example of one — is the cell in which the negative Golgi image is asked about three separate times in this same bank.',
       explanations: {
-        A: 'True, so not the exception, and the option the books key the question to. Silver shows the Golgi as brown granules and fibrils.',
-        B: 'True, so not the exception. What appears in an H&E section is the Golgi image — the pale negative one.',
-        C: 'True, so not the exception. Size, shape and position all vary with the cell.',
-        D: 'The exception, and the answer. The protein-forming cell is the one with the best developed Golgi of all — the plasma cell\'s negative Golgi image is the standard illustration of it, so the statement contradicts the example every student is taught.',
+        A: 'True, and the answer the page carries. Silver shows the Golgi as brown granules and fibrils; this is the reason the override was needed.',
+        B: 'True, with the book\'s own wording behind it: in an H&E section the Golgi appears as an image — the negative Golgi image, a pale area where the basophilic cytoplasm is interrupted.',
+        C: 'True. Size, shape and position all vary with the cell and with what it is secreting.',
+        D: 'Correct, and the exception. A protein-synthesising cell has a well developed Golgi — that is what packages the protein for export — and the plasma cell shows it as a clear negative image.',
       },
     },
     {
+      key: 'in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf',
+      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
+      difficulty: 'Easy', questionType: 'Structural identification',
+      learningObjective: 'Say how the Golgi apparatus of a plasma cell appears in an H&E section.',
+      explanations: {
+        A: 'Perinuclear is the Golgi\'s position in a nerve cell. The question asks how it appears, not where it lies, and in the plasma cell it is beside the nucleus rather than around it.',
+        B: 'Apical describes the position in a secretory epithelial cell discharging at a free surface. A plasma cell has no free surface.',
+        C: 'Correct. It appears unstained — the negative Golgi image, a pale gap in the plasma cell\'s otherwise deeply basophilic cytoplasm. Asked three times across three books, which makes it the most repeated question in this leaf.',
+        D: 'Basal is where the rough endoplasmic reticulum of a secretory cell lies, below the nucleus, and it is basophilic rather than pale.',
+      },
+    },
+    {
+      key: 'in-h-e-stained-sections-of-protein-forming-cell-golgi-appear-03113d3c',
+      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
+      difficulty: 'Moderate', questionType: 'Structural identification',
+      learningObjective: 'Say how the Golgi of any protein-forming cell appears in H&E.',
+      answerOverride: 'D',
+      answerOverrideReason:
+        'The source printed no key. The department book gives the H&E appearance of the Golgi as the negative Golgi image — an unstained area beside the nucleus — and the identical question asked of the plasma cell, `in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf`, is keyed to "unstained" in three separate books.',
+      explanations: {
+        A: 'Basophilic near the nucleus describes the rough endoplasmic reticulum that surrounds the Golgi, not the Golgi itself. Its basophilia is what makes the Golgi\'s pallor visible.',
+        B: 'Acidophilic describes cytoplasm poor in RNA — the opposite of a protein-forming cell\'s.',
+        C: 'Brown fibrils and granules is the silver picture, not the H&E one. The question names the stain, and that is the discriminator.',
+        D: 'Correct. The negative Golgi image: an unstained area beside the nucleus, where the Golgi takes neither dye.',
+      },
+    },
+    {
+      key: 'negative-golgi-image-appears-ef77c5a4',
+      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
+      difficulty: 'Moderate', questionType: 'Structural identification',
+      learningObjective: 'State both the cells in which a negative Golgi image is seen and the stain that produces it.',
+      answerOverride: 'D',
+      answerOverrideReason:
+        'The source printed no key. A and B are each true — the negative image is the classical finding in the plasma cell and the osteoblast, both protein-forming cells, and it is an H&E finding — and the row offers their conjunction as option D.',
+      explanations: {
+        A: 'True on its own. The plasma cell and the osteoblast are the two cells the books name for the negative Golgi image, because both have deeply basophilic cytoplasm for the pale area to stand out against.',
+        B: 'True on its own. The negative image is what H&E gives; silver gives the positive one.',
+        C: 'The reverse of the mechanism. A small Golgi gives a small pale area or none; the image is most obvious where the Golgi is large.',
+        D: 'Correct. Both A and B hold, and together they state the whole finding: which cells, and in which stain.',
+      },
+    },
+
+    // ---- the plasma membrane ------------------------------------------------
+    {
       key: 'regarding-the-cell-membrane-the-following-is-true-171f82d4',
       conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Pick the true statement about the cell membrane from three that misclassify it.',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about the plasma membrane from a set of classification and staining claims.',
       explanations: {
-        A: 'The plasma membrane is the first of the membranous organelles. Calling it non-membranous is a contradiction in terms.',
-        B: 'Cell respiration is the mitochondrion\'s work. The membrane\'s function is selective permeability and the reception of signals.',
-        C: 'At 7.5–10 nm it is far below the light microscope\'s resolution and is not shown by H&E; silver or PAS act on its carbohydrate coat instead.',
-        D: 'Correct. By electron microscopy it is trilaminar — two electron-dense layers with an electron-lucent layer between.',
+        A: 'The plasma membrane is the first item on the department book\'s list of membranous organelles — being a membrane is what puts it there.',
+        B: 'Cell respiration is the mitochondrion\'s work. The membrane\'s functions are protection, selective permeability, absorption, secretion and reception.',
+        C: 'H&E does not resolve it. Silver or PAS is needed, and both act on the carbohydrate of its outer coat.',
+        D: 'Correct. On electron microscopy it is trilaminar: two dark layers with a light one between them.',
       },
     },
     {
       key: 'the-following-stains-can-be-used-to-stain-the-cell-membrane-fb3d7be9',
       conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Name the stain that demonstrates the cell membrane by light microscopy.',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that demonstrates the plasma membrane by light microscopy.',
       answerOverride: 'A',
       answerOverrideReason:
-        'The books print no key. The department book states that the plasma membrane is hard to see by light microscopy and needs silver or PAS; of the four options offered here only silver is one of those two.',
+        'The source printed no key. The department book names silver and PAS as the two ways of showing the plasma membrane by light microscopy, and silver is the only one of the four options offered.',
       explanations: {
-        A: 'Correct. Silver, like PAS, acts on the carbohydrate of the cell coat and so outlines the membrane.',
-        B: 'Trichrome stains — Mallory, van Gieson — are for connective tissue fibres.',
-        C: 'Orcein is the elastic fibre stain.',
-        D: 'Indian ink is a vital stain, phagocytosed by macrophages. It marks a cell by filling it, not by outlining its membrane.',
+        A: 'Correct. Silver demonstrates the membrane, acting on the carbohydrate of its cell coat rather than on the lipid bilayer itself.',
+        B: 'Trichrome stains — Mallory among them — are fibre stains for connective tissue.',
+        C: 'Orcein browns elastic fibres.',
+        D: 'India ink is a vital stain: it is injected and phagocytosed by macrophages, and it demonstrates a cell rather than a membrane.',
+      },
+    },
+
+    // ---- the three fibres, asked through their stains -----------------------
+    {
+      key: 'by-mallory-stain-collagen-fibers-are-stained-1107ffdd',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Give the colour collagen takes with Mallory\'s trichrome.',
+      explanations: {
+        A: 'Pink is collagen in eosin. Every fibre stain question turns on which stain is named, because collagen has a different colour in each.',
+        B: 'Correct. Mallory\'s trichrome stains collagen blue.',
+        C: 'Brown is orcein on elastic fibres, or silver on reticular ones.',
+        D: 'Red is collagen with van Gieson, not with Mallory — the two trichrome-family stains give opposite ends of the spectrum on the same fibre.',
       },
     },
     {
-      key: 'eosinophils-are-lowered-1-in-the-following-3c216403',
-      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Moderate', questionType: 'Clinical application',
-      learningObjective: 'Name the cause of eosinopenia among three causes of a raised or altered count.',
+      key: 'which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Choose the stain that best separates collagen from the other fibres.',
       explanations: {
-        A: 'Typhoid fever does lower the eosinophil count, but the option most students reject last is the one the question is really about — the book names corticosteroid treatment as the cause of eosinopenia.',
-        B: 'Tuberculosis is a chronic bacterial infection and raises the lymphocyte and monocyte counts rather than lowering eosinophils.',
-        C: 'A viral infection such as influenza lowers the total white count through neutropenia, with a relative lymphocytosis; the eosinophil is not its target.',
-        D: 'Correct. Cortisone and the other corticosteroids drop the eosinophil count below 1 per cent, which is eosinopenia.',
+        A: 'Correct, and keyed. Mallory\'s trichrome turns collagen blue and leaves the other fibres a different colour, which is what "differentiate" asks for.',
+        B: 'H&E makes collagen and elastic fibres both pink, so it is the one stain that cannot separate them by colour.',
+        C: 'Sudan shows fat and nothing else.',
+        D: 'Silver shows reticular fibres. It would identify those, but the question asks for collagen.',
+      },
+    },
+    {
+      key: 'a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-bbc6ae4f',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Choose the stain that best demonstrates collagen when a vignette points at collagen synthesis.',
+      answerOverride: 'B',
+      answerOverrideReason:
+        'The source printed no key. The stem asks for the best stain to differentiate collagen from other fibres, and the department book gives Mallory\'s trichrome as the stain that turns collagen blue. The identically worded row `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed A for the same option in a different letter order, which corroborates it.',
+      explanations: {
+        A: 'H&E leaves collagen and elastic fibres both pink, so it differentiates nothing here — which is precisely why a special stain was invented.',
+        B: 'Correct. Mallory\'s trichrome stains collagen blue against the other fibres.',
+        C: 'Sudan is the fat stain. The vitamin C vignette is about collagen, and collagen is protein.',
+        D: 'Silver demonstrates reticular fibres, which are type III collagen and are not the fibre failing in scurvy.',
+      },
+    },
+    {
+      key: 'elastic-fibers-can-be-stained-brown-by-3f14dea9',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Name the stain that browns elastic fibres.',
+      explanations: {
+        A: 'Correct. Orcein browns elastic fibres, and it leaves collagen unstained beside them.',
+        B: 'Van Gieson does stain elastic fibres, but yellow, and collagen red — that is its whole use.',
+        C: 'Mallory\'s trichrome turns collagen blue.',
+        D: 'Eosin makes both collagen and elastic fibres pink, which is why neither can be identified in a routine section by colour.',
+      },
+    },
+    {
+      key: 'what-color-do-elastic-fibers-stain-with-van-gieson-stain-26a8714b',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Give the colour elastic fibres take with van Gieson.',
+      explanations: {
+        A: 'Red or orange is close to what collagen does in van Gieson, which is the swap this question is built on.',
+        B: 'Pink or red is collagen — in eosin and in van Gieson alike.',
+        C: 'Purple and red is what a metachromatic dye does to a mast cell granule, not what van Gieson does to any fibre.',
+        D: 'Correct, and keyed. Van Gieson stains elastic fibres yellow and collagen red, which is why it is the one stain that separates the two in a single field.',
+      },
+    },
+    {
+      key: 'yellow-elastic-fibers-are-stained-fa279de3',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Give both colours elastic fibres take, in orcein and in van Gieson.',
+      explanations: {
+        A: 'True on its own. Orcein browns them.',
+        B: 'True on its own. Van Gieson yellows them.',
+        C: 'PAS gives magenta red on carbohydrate. Elastin is protein, and elastic fibres are not PAS-positive; reticular fibres are, which is where the confusion starts.',
+        D: 'Correct. Both A and B hold, and the pair is the whole of what the book\'s table says about staining elastic fibres apart from eosin.',
+      },
+    },
+    {
+      key: 'which-of-the-following-would-be-best-suited-to-visualize-ret-61151fde',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Choose the stain that demonstrates reticular fibres.',
+      explanations: {
+        A: 'Mallory\'s trichrome is a collagen stain. Reticular fibres are collagen too — type III — but the trichrome does not resolve them.',
+        B: 'H&E does not show reticular fibres at all, which is the fact this whole question rests on.',
+        C: 'Sudan shows fat.',
+        D: 'Correct, and keyed. Silver impregnation is the only way to see a reticular fibre, and it shows them as a fine brown branching network.',
+      },
+    },
+    {
+      key: 'reticular-fibers-can-be-stained-by-the-following-except-b899b4e9',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Identify the stain that does not show reticular fibres.',
+      explanations: {
+        A: 'Silver does show them, brown, and gives them the name argyrophilic.',
+        B: 'Correct, and the exception. Reticular fibres are not visible in H&E — the single most examined negative fact about them.',
+        C: 'PAS does show them, red, because of the high sugar content of type III collagen.',
+        D: '"Both b & c" cannot be the exception when C is a stain that works; pairing a true with a false makes the option false as a whole.',
+      },
+    },
+    {
+      key: 'reticular-fibers-have-the-following-characters-except-6d542c4a',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Identify the false character of a reticular fibre.',
+      explanations: {
+        A: 'True. Silver blackens or browns them, and argyrophilic is the word for it.',
+        B: 'True. PAS is positive on them, because of their sugar.',
+        C: 'True. They form the stroma of spleen, lymph node and liver.',
+        D: 'Correct, and the exception. Reticular fibres branch and anastomose — that is what makes them a network, and unbranched is the one thing they are not.',
+      },
+    },
+    {
+      key: 'concerning-the-reticular-connective-tissue-7270b748',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about reticular connective tissue.',
+      answerOverride: 'B',
+      answerOverrideReason:
+        'The source printed no key. B is the department book\'s own statement — reticular fibres are demonstrated by silver — and the other three contradict it: the fibres form a network rather than bundles, binding structures together is the job of loose areolar tissue, and reticular fibres are explicitly not visible in H&E.',
+      explanations: {
+        A: 'Bundles are collagen type I. Reticular fibres anastomose into a network instead.',
+        B: 'Correct. Silver impregnation is what demonstrates them, and nothing else in a light microscope will.',
+        C: 'Binding structures together is the function of loose areolar connective tissue. Reticular tissue supports the cells of an organ — stroma, not packing.',
+        D: 'The opposite of the defining fact. H&E shows nothing of them.',
+      },
+    },
+    {
+      key: 'collagen-fibers-have-the-following-characters-except-c8113330',
+      conceptKey: 'collagen-versus-elastic-fibre-identification',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Identify the false character of a collagen fibre.',
+      explanations: {
+        A: 'True. Collagen is white in the fresh state when it is present in quantity — a tendon is the everyday example.',
+        B: 'True. Collagen is acidophilic, which is why eosin colours it.',
+        C: 'True, and the same fact restated: acidophilic means it takes eosin pink.',
+        D: 'Correct, and the exception. Collagen forms branching bundles of non-branching fibres; the individual fibre does not branch, and elastic fibres are the ones that do.',
+      },
+    },
+    {
+      key: 'concerning-collagen-fibers-7652b65d',
+      conceptKey: 'collagen-versus-elastic-fibre-identification',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about collagen fibres.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'The source printed no key. Option A is the department book\'s wording almost verbatim — collagen fibres are "wavy branching bundles formed of non-branching fibres" — and the other three contradict the book: collagen is acidophilic not basophilic, it is flexible but inelastic, and van Gieson stains it red while yellow is what van Gieson does to elastic fibres.',
+      explanations: {
+        A: 'Correct, and the book\'s own sentence. The bundle branches; the fibre within it does not.',
+        B: 'Collagen is acidophilic — it takes the acidic dye eosin and turns pink. Basophilic is the nucleus, and the cytoplasm of a protein-forming cell.',
+        C: 'Elastic is exactly what collagen is not. It is flexible, which is a different property: it bends but does not lengthen and recoil.',
+        D: 'Yellow with van Gieson is the elastic fibre. Collagen with van Gieson is red, and this option swaps the two.',
+      },
+    },
+    {
+      key: 'all-of-the-following-are-true-about-yellow-elastic-fibers-ex-e01e5f53',
+      conceptKey: 'collagen-versus-elastic-fibre-identification',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Identify the false character of an elastic fibre.',
+      explanations: {
+        A: 'True. Elastic fibres are thin and stretch, which is the property that names them.',
+        B: 'True. They branch and run singly, unlike the bundled collagen beside them.',
+        C: 'True. Orcein is the elastic fibre stain and browns them.',
+        D: 'Correct, and the exception. Elastic fibres are acidophilic and take eosin pink; deep basophilia belongs to nuclei and to ribosome-rich cytoplasm.',
+      },
+    },
+    {
+      key: 'elastic-fibers-are-characterized-by-being-df60ef40',
+      conceptKey: 'collagen-versus-elastic-fibre-identification',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about elastic fibres against three collagen characters.',
+      explanations: {
+        A: 'Bundles are collagen. Elastic fibres run singly and branch.',
+        B: 'Correct, and keyed. Orcein is the elastic fibre stain and gives brown.',
+        C: 'They are demonstrated with H&E — pink, like collagen. It is the reticular fibre that H&E misses entirely.',
+        D: 'Transverse striations belong to skeletal and cardiac muscle fibres. The word "fibre" again names two different things in one option list.',
+      },
+    },
+
+    // ---- the mast cell and the macrophage -----------------------------------
+    {
+      key: 'after-staining-the-c-t-with-toludin-blue-the-cells-which-hav-a2f2ac30',
+      conceptKey: 'mast-cell-lm-em-metachromasia',
+      difficulty: 'Easy', questionType: 'Structural identification',
+      learningObjective: 'Name the connective tissue cell whose granules go magenta with toluidine blue.',
+      explanations: {
+        A: 'The plasma cell is basophilic but diffusely, from its rough endoplasmic reticulum, and it is not metachromatic — it stays the colour of the dye.',
+        B: 'Correct. Metachromatic magenta granules in a connective tissue cell are the mast cell, and the heparin in the granule is why.',
+        C: '"Phagocytic cells" means the macrophage, demonstrated by trypan blue it has eaten, not by a change in a dye\'s colour.',
+        D: 'Endothelial cells line vessels and have no granules of this kind.',
+      },
+    },
+    {
+      key: 'about-mast-cell-all-are-true-except-f4dafeec',
+      conceptKey: 'mast-cell-lm-em-metachromasia',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Name the immunoglobulin the mast cell has receptors for, and reject the wrong one.',
+      explanations: {
+        A: 'True. The granules are basophilic in H&E, which is what makes the cell recognisable before any special stain.',
+        B: 'True. IgE receptors on the mast cell surface are what allergen binds to, and their binding is what discharges the granules.',
+        C: 'Correct, and the exception. IgA is the antibody of secretions — saliva, tears, gut mucus — and the mast cell has no receptor for it.',
+        D: 'True. Toluidine blue on mast cell granules is the department book\'s own example of metachromasia.',
+      },
+    },
+    {
+      key: 'both-mast-cells-basophilis-share-all-of-the-following-except-bbc3ee7a',
+      conceptKey: 'mast-cell-lm-em-metachromasia',
+      difficulty: 'Hard', questionType: 'Negative stem',
+      learningObjective: 'Name what the mast cell and the basophil do not share.',
+      explanations: {
+        A: 'Shared. Both carry IgE receptors on the surface, and both discharge on allergen binding.',
+        B: 'Correct, and the exception, and keyed. Neither cell is the phagocyte of this pair — the department book\'s comparison lists phagocytic ability among the points on which the two differ, and it is the basophil that has a limited capacity the mast cell lacks.',
+        C: 'Shared. Both have metachromatic granules with toluidine blue, for the same reason: heparin.',
+        D: 'Shared. Both secrete eosinophil chemotactic factor, which is how eosinophils arrive at an allergic site.',
+      },
+    },
+    {
+      key: 'concerning-mast-cells-433dd658',
+      conceptKey: 'mast-cell-lm-em-metachromasia',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about the mast cell against the characters of its neighbours.',
+      answerOverride: 'C',
+      answerOverrideReason:
+        'The source printed no key. C is the department book\'s own statement about mast cell granules, and each of the other three belongs to a different cell: antibody formation to the plasma cell, histaminase secretion to the eosinophil, and trypan blue demonstration to the macrophage.',
+      explanations: {
+        A: 'Antibodies come from the plasma cell. The mast cell binds antibody — IgE, on its surface — which is a different relation and the source of the confusion.',
+        B: 'Histaminase is the eosinophil\'s enzyme, and it exists to destroy the histamine the mast cell released. The two cells are on opposite sides of the same reaction.',
+        C: 'Correct. Mast cell granules stain metachromatically with toluidine blue.',
+        D: 'Trypan blue demonstrates the macrophage, which phagocytoses it. The mast cell is not phagocytic.',
+      },
+    },
+    {
+      key: 'about-macrophages-all-are-true-except-06f23028',
+      conceptKey: 'macrophage-identification-vital-stain',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Give the origin of the macrophage and reject the lymphocytic one.',
+      explanations: {
+        A: 'True. Presenting antigen to lymphocytes is one of the macrophage\'s four listed functions.',
+        B: 'Correct, and the exception. The macrophage comes from the blood monocyte. What comes from the B lymphocyte is the plasma cell, and the two derivations are the pair this question exists to separate.',
+        C: 'True. Trypan blue is the vital stain the macrophage phagocytoses, and it is the cell\'s specific demonstration.',
+        D: 'True. Acid phosphatase histochemistry marks it, because it is rich in lysosomes.',
+      },
+    },
+
+    // ---- the eosinophil ----------------------------------------------------
+    {
+      key: 'nucleus-of-eosinophils-is-6bd7d3b5',
+      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
+      difficulty: 'Easy', questionType: 'Structural identification',
+      learningObjective: 'Give the nuclear shape of the eosinophil.',
+      explanations: {
+        A: 'Multilobed and segmented is the neutrophil, two to five lobes; the eosinophil stops at two.',
+        B: 'Correct. Bilobed, the two lobes joined by a thick chromatin thread so that the whole looks like a horse-shoe or a pair of spectacles.',
+        C: 'The S-shaped nucleus is the basophil\'s, and it is usually hidden by the coarse granules over it.',
+        D: 'A large kidney-shaped nucleus is the monocyte.',
+      },
+    },
+    {
+      key: 'all-functions-of-eosinophils-except-b50122b0',
+      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Separate what the eosinophil does in allergy from what the basophil does.',
+      explanations: {
+        A: 'True. Histaminase and sulphatase destroy histamine and heparin, which is how the eosinophil ends an allergic reaction.',
+        B: 'True. Phagocytosing antigen–antibody complexes is one of its listed functions.',
+        C: 'True. Its granule protein is cytotoxic to parasites.',
+        D: 'Correct, and the exception. Releasing histamine to cause vasodilatation and anaphylaxis is the basophil and the mast cell. The eosinophil is the cell that stops it.',
+      },
+    },
+    {
+      key: 'functions-of-eosinophils-include-all-except-9b4cab42',
+      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Identify the function that belongs to no leukocyte in this list.',
+      explanations: {
+        A: 'True. Histaminase destroys histamine.',
+        B: 'True. It engulfs antigen–antibody complexes.',
+        C: 'True. Its granule protein kills parasites.',
+        D: 'Correct, and the exception, and keyed. Trephone substances are attributed to the lymphocyte, said to promote tissue growth and repair — not to the eosinophil.',
+      },
+    },
+    {
+      key: 'eosinophils-granules-include-all-of-the-following-except-8504d8a7',
+      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
+      difficulty: 'Hard', questionType: 'Negative stem',
+      learningObjective: 'Name the granule contents of the eosinophil and reject the basophil\'s.',
+      answerOverride: 'D',
+      answerOverrideReason:
+        'The source printed no key. The department book gives the eosinophil granule a basic protein cytotoxic to parasites, together with histaminase and sulphatase. Leukotrienes are listed among the basophil and mast cell secretions, not the eosinophil\'s, so D is the one item on this list that belongs to another cell.',
+      explanations: {
+        A: 'True. The granule protein is cytotoxic to parasites, and the books also call it a neurotoxin for that effect.',
+        B: 'True. Histaminase destroys the histamine released by the basophil and mast cell.',
+        C: 'True. Sulphatase destroys heparin, the other main product of those cells.',
+        D: 'Correct, and the exception. Leukotrienes are a basophil and mast cell product and cause bronchospasm; the eosinophil opposes their effects rather than releasing them.',
       },
     },
     {
       key: 'eosinophils-increase-in-number-in-case-of-7fad14b2',
       conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
       difficulty: 'Easy', questionType: 'Clinical application',
-      learningObjective: 'Give both causes of eosinophilia.',
+      learningObjective: 'Name the two conditions that raise the eosinophil count.',
       explanations: {
-        A: 'Bacterial infection raises the neutrophil count. The eosinophil has no part in it.',
-        B: 'True but incomplete. Parasitic infection raises eosinophils, which kill the parasite with their granule protein.',
-        C: 'True but incomplete. Allergy raises them too, and they act to end the reaction.',
-        D: 'Correct. Both parasites and allergy, and the two together are the whole clinical meaning of a raised eosinophil count.',
+        A: 'A bacterial infection raises the neutrophil count. The neutrophil is the first-line phagocyte against bacteria.',
+        B: 'True on its own — a parasitic infection raises eosinophils, and the granule protein is why.',
+        C: 'True on its own — allergy raises them, because the eosinophil is drawn in to end the reaction.',
+        D: 'Correct. Both B and C raise the eosinophil count, and both for reasons the cell\'s two functions explain.',
       },
     },
     {
-      key: 'nucleus-of-eosinophils-is-6bd7d3b5',
+      key: 'eosinophils-are-lowered-1-in-the-following-3c216403',
       conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Give the nuclear shape that identifies an eosinophil.',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Name a cause of eosinopenia.',
       explanations: {
-        A: 'A multilobed segmented nucleus, two to five lobes, is the neutrophil.',
-        B: 'Correct. Bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.',
-        C: 'An S-shaped nucleus is the basophil\'s, and it is usually hidden by the granules over it.',
-        D: 'A large kidney-shaped nucleus is the monocyte\'s.',
+        A: 'Typhoid fever is the classical cause of a low count in older texts, but the option this question is keyed against is the pharmacological one, and typhoid is not what the books teach here.',
+        B: 'Tuberculosis is a chronic infection and does not characteristically drop the eosinophil count.',
+        C: 'A viral infection such as influenza raises lymphocytes; it does not define an eosinopenia.',
+        D: 'Correct. Corticosteroid treatment drops the eosinophil count below one per cent, which is the definition of eosinopenia, and it is the reason a steroid works in allergy.',
       },
     },
     {
       key: 'one-of-the-following-is-true-about-eosinophils-d491deda',
       conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Pick the eosinophil\'s property from three that belong to the basophil or the neutrophil.',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Pick the one true statement about the eosinophil from a set built out of its neighbours\' characters.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The books print no key. Only B is true: the eosinophil has a bilobed horse-shoe nucleus. Eosinophil chemotactic factor and histamine with heparin are secreted by the basophil, and 60–70 per cent is the neutrophil\'s share of the white count.',
+        'The source printed no key. B is the department book\'s own description of the eosinophil nucleus — bilobed, horse-shoe shaped — and each of the other three belongs to another cell: eosinophil chemotactic factor is secreted by the mast cell and the basophil to attract eosinophils rather than by eosinophils themselves, 60–70% is the neutrophil\'s share of the count, and histamine and heparin are basophil products.',
       explanations: {
-        A: 'Eosinophil chemotactic factor is secreted *by* the basophil and mast cell, to summon the eosinophil. The name says who it acts on, not who makes it — which is the trap.',
-        B: 'Correct. A bilobed, horse-shoe nucleus with a thick chromatin thread between the lobes.',
-        C: '60–70 per cent is the neutrophil. The eosinophil is 1–4 per cent, and above 5 per cent is already eosinophilia.',
-        D: 'Histamine and heparin are the basophil\'s granule contents. The eosinophil secretes histamin*ase*, which destroys the first of them.',
-      },
-    },
-    {
-      key: 'all-functions-of-eosinophils-except-b50122b0',
-      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Separate what the eosinophil does from what the basophil does.',
-      explanations: {
-        A: 'True, so not the exception. Histaminase and sulphatase destroy histamine and heparin, which is how the eosinophil ends an allergic reaction.',
-        B: 'True, so not the exception. It phagocytoses antigen–antibody complexes.',
-        C: 'True, so not the exception. Its granule protein is cytotoxic and neurotoxic to parasites.',
-        D: 'The exception, and the answer. Vasodilatation and anaphylaxis through histamine are the basophil\'s doing. The eosinophil is the cell that stops it.',
-      },
-    },
-    {
-      key: 'functions-of-eosinophils-include-all-except-9b4cab42',
-      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recognise a fibroblast product offered as an eosinophil function.',
-      explanations: {
-        A: 'True, so not the exception. Histaminase destroys histamine.',
-        B: 'True, so not the exception. Antigen–antibody complexes are engulfed.',
-        C: 'True, so not the exception. Parasites are killed by the granule\'s basic protein.',
-        D: 'The exception, and the answer. Trephone substances are attributed to the fibroblast, which secretes them for the nutrition of neighbouring cells. Nothing in the blood makes them.',
-      },
-    },
-    {
-      key: 'eosinophils-granules-include-all-of-the-following-except-8504d8a7',
-      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Keep the basophil\'s leukotrienes out of the eosinophil granule.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'The books print no key. Neurotoxin, histaminase and sulphatase are all eosinophil granule contents in the department book\'s account; leukotrienes belong to the basophil, where they cause the bronchospasm of asthma.',
-      explanations: {
-        A: 'True, so not the exception. The granule protein is neurotoxic to parasites.',
-        B: 'True, so not the exception. Histaminase destroys histamine.',
-        C: 'True, so not the exception. Sulphatase destroys heparin.',
-        D: 'The exception, and the answer. Leukotrienes are a basophil product and cause bronchospasm. The eosinophil ends the reaction the leukotrienes started, so the two cells\' contents are opposites and are easily traded.',
+        A: 'The direction of the arrow is reversed. Eosinophil chemotactic factor is what the mast cell and basophil release to summon eosinophils; the eosinophil receives the signal.',
+        B: 'Correct. The eosinophil nucleus is bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.',
+        C: '60–70% is the neutrophil. The eosinophil is 1–4%.',
+        D: 'Histamine and heparin are basophil and mast cell secretions. The eosinophil secretes the two enzymes that destroy them.',
       },
     },
     {
       key: 'a7-year-old-school-boy-has-a-blood-report-with-an-eosinophil-3a9af4fe',
       conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
       difficulty: 'Moderate', questionType: 'Clinical application',
-      learningObjective: 'Read a raised eosinophil count without allergy as pointing to parasites.',
+      learningObjective: 'Choose the investigation a raised eosinophil count without allergy points to.',
       answerOverride: 'B',
       answerOverrideReason:
-        'Neither printing of this case carries a key. An eosinophil count above 5 per cent is eosinophilia, and the eosinophil rises for two reasons only — allergy and parasites. The stem excludes allergy, so the investigation to ask for is the one that finds a parasite: stool analysis.',
+        'The source printed no key. The eosinophil has two causes of rise in this course, allergy and parasitic infection, and the stem removes the first by saying the child has no allergic problems. A stool analysis is the investigation for an intestinal parasite, so B is the only option the stem leaves open.',
       explanations: {
-        A: 'Urine analysis would find a urinary parasite such as schistosome eggs in some settings, but the routine first test for intestinal parasites — much the commoner cause in a schoolchild — is the stool.',
-        B: 'Correct. Stool analysis, looking for the ova of an intestinal parasite.',
-        C: 'Bleeding time is a test of platelet function and has nothing to do with the eosinophil.',
-        D: 'Allergen sensitivity testing is exactly what the stem has ruled out by saying the boy has no allergic problems — which leaves one cause of eosinophilia standing.',
+        A: 'Urine analysis would be the answer for a urinary schistosomiasis, but the routine first test for the intestinal parasites that raise eosinophils in a schoolchild is the stool.',
+        B: 'Correct. Eosinophilia with allergy excluded means a parasite, and stool analysis is how a parasite is looked for.',
+        C: 'Bleeding time tests platelet function. Eosinophils have no part in haemostasis.',
+        D: 'Allergy testing is what the stem has already excluded by saying the boy has no allergic problems.',
       },
     },
+
+    // ---- one erythrocyte row ------------------------------------------------
     {
       key: 'which-of-the-following-is-described-as-having-a-central-pall-9e668638',
-      conceptKey: 'rbc-shape-size-and-light-microscopic-appearance',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Attribute the central pallor to the red cell.',
+      conceptKey: 'erythrocyte-identification-blood-film',
+      difficulty: 'Easy', questionType: 'Structural identification',
+      learningObjective: 'Name the blood cell that shows a central pallor and say what causes it.',
       explanations: {
-        A: 'Correct. The red cell is thinnest at its centre — 0.8 µm against 2.2 at the edge — so it holds less haemoglobin there and appears pale.',
-        B: 'The monocyte has a pale frosted-glass cytoplasm throughout and a kidney-shaped nucleus; nothing about it is centrally pale.',
-        C: 'The eosinophil is packed with coarse acidophilic granules and has no pale centre.',
-        D: 'The platelet does have a pale zone — the hyalomere — but it is peripheral, and its centre, the granulomere, is the dark part. The exact inverse, which is what makes it the best distractor.',
+        A: 'Correct, and keyed. The erythrocyte is biconcave, so its centre is thinner and holds less haemoglobin — a pale disc about a third of the diameter across.',
+        B: 'A monocyte is a large nucleated cell with a kidney-shaped nucleus and frosted-glass cytoplasm; nothing about it is centrally pale.',
+        C: 'An eosinophil is packed edge to edge with coarse acidophilic granules.',
+        D: 'A platelet is a small cell fragment with a pale hyalomere at the periphery and a granular chromomere in the centre — which is the exact reverse of a central pallor, and the reason it is offered here.',
       },
+    },
+
+    // ---- reticular cell ----------------------------------------------------
+    {
+      key: 'concerning-the-reticular-cells-the-followings-are-true-excep-bc90693e',
+      conceptKey: 'reticular-cell-forms-the-stroma-and-turns-phagocytic',
+      difficulty: 'Hard', questionType: 'Negative stem',
+      learningObjective: 'Identify the false statement about the reticular cell, including which stain does not apply to it.',
+      explanations: {
+        A: 'True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.',
+        B: 'True in the sense the books mean it: the reticular cell is a fibre-forming cell of the same family as the fibroblast, and both are grouped as connective-tissue-forming cells.',
+        C: 'Correct, and the exception. Iron haematoxylin is the stain for centrioles. What silver demonstrates around the reticular cell is its fibres, not the cell.',
+        D: 'True. The reticular cell turns phagocytic when antigen stimulates it, and it presents antigen as well.',
+      },
+    },
+
+    // ================= excluded ==============================================
+    {
+      key: 'nucleus-is-due-to-dna-rna-ff2f2e15',
+      conceptKey: 'haematoxylin-and-eosin-basophilia-and-acidophilia',
+      difficulty: 'Easy', questionType: 'Staining',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. The teaching survives in the concept and in `cytoplasm-of-ribosome-is-b531d7a0`, which asks the same rule about the cytoplasm with a full option set.',
+    },
+    {
+      key: 'cytoplasm-of-rer-is-7fb32b7f',
+      conceptKey: 'free-versus-attached-ribosomes-and-cytoplasmic-basophilia',
+      difficulty: 'Easy', questionType: 'Staining',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. One of a set of three short rows printed together in the same book — rough endoplasmic reticulum, smooth endoplasmic reticulum, ribosome — of which only the ribosome row kept a fourth option.',
+    },
+    {
+      key: 'cytoplasm-of-ser-is-8c46f480',
+      conceptKey: 'free-versus-attached-ribosomes-and-cytoplasmic-basophilia',
+      difficulty: 'Easy', questionType: 'Staining',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five — the second of the three short staining rows printed together, and truncated the same way.',
+    },
+    {
+      key: 'lishman-s-stain-is-5abe6459',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five, and a duplicate besides: `lishman-stain-is-1f2148f4` asks the same question in the same book with four options and a printed key. That is the copy imported.',
+    },
+    {
+      key: 'by-best-s-carmine-stains-glycogen-granules-appears-18101c1a',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. The colour it asks for — red — is stated in the concept and in `carbohydrates-are-stained-red-with-5278c6fa`, which survives intact.',
+    },
+    {
+      key: 'pas-stain-is-used-to-demonstrate-all-of-the-following-except-039b8a94',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Moderate', questionType: 'Negative stem',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option A has been swallowed into the stem — the row reads "PAS stain is used to demonstrate all of the following except: a-Cell membrane" — leaving three filled options. A negative stem missing an option is the shape in which the missing option may itself have been the answer, and here the surviving exception (fat) is right for a reason worth teaching, so the item is worth rescanning rather than reconstructing.',
+    },
+    {
+      key: 'goblet-cell-can-be-stained-by-9a3c3a95',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. The teaching — the goblet cell\'s mucus is carbohydrate and so is PAS-positive — is carried by the concept and belongs in any case to the glandular epithelium leaf.',
+    },
+    {
+      key: 'which-of-the-following-is-used-to-make-fat-visible-3b3ed7f4',
+      conceptKey: 'fat-is-shown-by-sudan-and-only-on-a-frozen-section',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option D — the correct one — has the page\'s printed answer key run into it, so it reads "Sudan Ill Key Answer | 8 8.1 Vee ee) 98 ‏لششتسا.ءن‎". Four options are filled and the emitter would accept the row, but the option a student would be shown is two lines of scanner noise attached to the right answer. The same question survives cleanly at `which-of-the-following-would-be-best-suited-to-visualize-lip-5681589f`.',
+    },
+    {
+      key: 'centrioles-need-special-stains-to-be-viewed-under-the-lm-lik-1044436c',
+      conceptKey: 'centriole-structure-and-role-in-cell-division',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. The intact copy is `stain-used-for-centriole-e56e9242`, which offers four and carries the same answer.',
+    },
+    {
+      key: 'to-demonstrate-the-golgi-apparatus-distinctly-they-need-534ed6f7',
+      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
+      difficulty: 'Easy', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five. `golgi-complex-could-be-stained-as-brown-granules-fibrils-by-704fe7f8` asks the same thing with four options and is the copy imported.',
+    },
+    {
+      key: 'a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-6d6b314e',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option B — which is the answer, Mallory\'s trichrome — never reached the bank, leaving three options, and the stem itself has lost the letter C to a scanner mark ("diagnosed as vitamin © | deficiency"). The clean copy from the other book is `a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-bbc6ae4f`, which is the one imported.',
+    },
+    {
+      key: 'after-staining-of-collagen-fibers-15de85ca',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Moderate', questionType: 'Stain choice',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five, and the surviving set is internally inconsistent: A ("with H/E it appears pink") is true, B ("stained green with van gieson") is false — van Gieson reds collagen — and C is "all of the above", which cannot hold while B is false. The extracted answer A is right, but a rescan is needed to know what the fourth option said before this item is worth sitting.',
+    },
+    {
+      key: 'matrix-18-elastic-fibers-are-characterized-by-being-80874871',
+      conceptKey: 'collagen-versus-elastic-fibre-identification',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem is the tail of the previous question run into the number of this one — "Matrix. ‏ظ‎ ‎18. Elastic fibers are characterized by being:" — so what a student would be shown opens with a fragment of a different item. The four options are intact and the intended answer is D, orcein brown, but the question is asked cleanly at `elastic-fibers-are-characterized-by-being-df60ef40` and that copy is imported.',
+    },
+    {
+      key: 'concerning-unilocular-adipocytes-i-370b161c',
+      conceptKey: 'unilocular-versus-multilocular-adipocyte',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The damaged twin of `concerning-unilocular-adipocytes-they-1051d1be`. Same four options, but every one of them carries a stray rule mark from the page ("They are stained by Sudan Ill. :", "They are concemed with heat generation. ١") and the stem ends in a loose "i". The clean copy is imported.',
+    },
+    {
+      key: 'among-the-characteristics-of-pericytes-ed77008a',
+      conceptKey: 'undifferentiated-mesenchymal-cell-and-pericyte-are-the-stem-cells-of-connective-tissue',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option B has fused with option A — "Having a network of actin and myosin. _b. Being differentiated cells" — leaving three filled options. What is lost is one half of the discrimination the question is built on, since A is true of the pericyte and B is false of it, and they are now printed as one option.',
+    },
+    {
+      key: 'basic-protein-b612b009',
+      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three options where the contract is four to five, and the stem is a two-word fragment. What survives — "internam of eosinophils", "externum of eosinophils", "induces pores in parasites" — is an internum/externum distinction in the eosinophil granule that the department book does not teach at all, so nothing here can be authored against a source this faculty would accept.',
     },
     {
       key: 'a-7-year-old-school-boy-has-a-blood-report-with-an-eosinophi-bcef3302',
@@ -1253,197 +1476,37 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason:
-        'Option C has swallowed option D — "Estimation of his bleeding time. _d. Sensitivity tests to different allergens" — leaving three readable choices, one of them two statements under one letter. The parallel printing at `a7-year-old-school-boy-has-a-blood-report-with-an-eosinophil-3a9af4fe` has the option set intact and is live; note that the two printings quote different counts, 9 per cent here and 6 per cent there, and both are above the 5 per cent threshold.',
-    },
-    {
-      key: 'a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-6d6b314e',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Moderate', questionType: 'Clinical application',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Option B was lost and option B is the answer — Mallory\'s trichrome. Three options remain, none of them correct, and the stem has lost the letter of the vitamin to a stray glyph. The complete printing at `a-young-boy-with-unhealed-leg-wound-was-diagnosed-as-vitamin-bbc6ae4f` is live.',
-    },
-    {
-      key: 'after-staining-of-collagen-fibers-15de85ca',
-      conceptKey: 'collagen-fibre-characters-and-its-stains',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Only three options survived, and the second of them is wrong as printed — van Gieson stains collagen red and elastic fibres yellow, not green. The key, A, is right about H&E. A rescan is needed both for the missing option and to see whether the books really printed "green" or whether that is the scanner.',
-    },
-    {
-      key: 'by-best-s-carmine-stains-glycogen-granules-appears-18101c1a',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, B for red, is right — Best\'s carmine stains glycogen red — and a rescan of the fourth option would make the row usable.',
-    },
-    {
-      key: 'goblet-cell-can-be-stained-by-9a3c3a95',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, B for PAS, is right: the goblet cell\'s mucus is carbohydrate-rich and PAS-positive. A rescan of the fourth option recovers it.',
-    },
-    {
-      key: 'pas-stain-is-used-to-demonstrate-all-of-the-following-except-039b8a94',
-      conceptKey: 'pas-and-bests-carmine-show-carbohydrate',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The stem has swallowed option A — "all of the following except: a-Cell membrane" — leaving three options. The question is a good one and the answer is fat, which PAS does not show; a rescan of the stem recovers it.',
-    },
-    {
-      key: 'cytoplasm-of-rer-is-7fb32b7f',
-      conceptKey: 'h-and-e-basophilia-and-acidophilia',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, B for basophilic, is right — the ribosomes on the rough endoplasmic reticulum are what make a protein-forming cell blue. The teaching survives in `cytoplasm-of-ribosome-is-b531d7a0`, which is live with four options.',
-    },
-    {
-      key: 'cytoplasm-of-ser-is-8c46f480',
-      conceptKey: 'h-and-e-basophilia-and-acidophilia',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, A for acidophilic, is right: smooth endoplasmic reticulum carries no ribosomes, so a cell full of it — a steroid-forming cell — is pink rather than blue. A rescan of the fourth option recovers a good contrast question.',
-    },
-    {
-      key: 'nucleus-is-due-to-dna-rna-ff2f2e15',
-      conceptKey: 'h-and-e-basophilia-and-acidophilia',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, A for basophilic, is right and is the anchor fact of the whole chapter: nucleic acid is acidic, so it binds the basic dye. A rescan of the fourth option recovers it.',
-    },
-    {
-      key: 'centrioles-need-special-stains-to-be-viewed-under-the-lm-lik-1044436c',
-      conceptKey: 'special-stains-for-mitochondria-and-centrioles',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. The key, C for iron haematoxylin, is right, and the same question survives with four options at `stain-used-for-centriole-e56e9242`, which is live.',
-    },
-    {
-      key: 'to-demonstrate-the-golgi-apparatus-distinctly-they-need-534ed6f7',
-      conceptKey: 'golgi-apparatus-lm-appearance-and-position',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only and no key. The answer is silver, and the same teaching is live at `golgi-complex-could-be-stained-as-brown-granules-fibrils-by-704fe7f8`. A rescan of the fourth option recovers this row.',
-    },
-    {
-      key: 'lishman-s-stain-is-5abe6459',
-      conceptKey: 'neutral-stain-leishman-and-the-blood-film',
-      difficulty: 'Easy', questionType: 'Classification',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only. Its key, C for a neutral stain, is right, and the four-option printing at `lishman-stain-is-1f2148f4` carries the same question and is live.',
-    },
-    {
-      key: 'concerning-unilocular-adipocytes-i-370b161c',
-      conceptKey: 'white-versus-brown-adipose-connective-tissue',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A duplicate with scan debris through the stem and all four options — "concemed with heat generation", "Sudan Ill" — and no key. The cleaner printing at `concerning-unilocular-adipocytes-they-1051d1be` is live with the answer supplied.',
-    },
-    {
-      key: 'matrix-18-elastic-fibers-are-characterized-by-being-80874871',
-      conceptKey: 'elastic-fibre-characters-and-orcein',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The stem has the tail of the previous question and the question number run into it — "Matrix. ظ 18. Elastic fibers are characterized by being:" — so what a student would read begins with a word from another item. The four options are intact and the answer is D, orcein brown; a rescan of the stem alone recovers a question that is not a duplicate of the other elastic-fibre item, since its option set is different.',
-    },
-    {
-      key: 'which-of-the-following-is-used-to-make-fat-visible-3b3ed7f4',
-      conceptKey: 'sudan-shows-fat-and-the-signet-ring-cell',
-      difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Option D — the answer — has a page footer and part of an answer key run into it: "Sudan Ill Key Answer | 8 8.1 Vee ee) 98 لششتسا.ءن". The same question is live and clean at `which-of-the-following-would-be-best-suited-to-visualize-lip-5681589f`.',
-    },
-    {
-      key: 'basic-protein-b612b009',
-      conceptKey: 'eosinophil-granule-contents-and-role-in-allergy',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Three options only, and two of them are damaged Latin — "internam of eosinophils" against "externum of eosinophils" — where the intended contrast is presumably major basic protein in the granule core against something on the outside. As extracted it cannot be read, let alone answered. Needs rescanning.',
-    },
-    {
-      key: 'among-the-characteristics-of-pericytes-ed77008a',
-      conceptKey: 'pericyte-and-undifferentiated-mesenchymal-cell',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Option A has swallowed option B — "Having a network of actin and myosin. _b. Being differentiated cells" — leaving three readable choices with two statements under the first letter. The question is a good one: the pericyte does have an actin–myosin network, and it is *un*differentiated, so the swallowed pair contains both the answer and its opposite. A rescan recovers it.',
+        'Option D has fused with option C — "Estimation of his bleeding time. _d. Sensitivity tests to different allergens" — leaving three filled options. The clean copy of the same vignette is `a7-year-old-school-boy-has-a-blood-report-with-an-eosinophil-3a9af4fe`, which is imported; the two books print it with different counts, nine per cent and six, and both are above the five per cent that defines eosinophilia.',
     },
     {
       key: 'lipofuscin-e-stains-glycogen-ssss-s-protects-from-ultraviole-4b0bb5d1',
-      conceptKey: 'organelles-inclusions-and-the-membranous-classification',
-      difficulty: 'Moderate', questionType: 'Classification',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Easy', questionType: 'Matching',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'Not a multiple-choice question at all. The row is what the extraction made of a matching exercise — a left column of pigments and inclusions against a right column of stains and properties — with both columns, the word "Answers", and several lines of dot leaders folded into one stem and four options. Options A and E are the same fragment printed twice. A matching question needs to be transcribed as a matching question; it cannot be repaired into a single-best-answer item.',
+        'Not a multiple-choice question. This is a matching exercise — a column of pigments and inclusions against a column of stains — that the extractor read as a stem with options, and both columns have been shredded by the scan ("Endogenous pigment in RBCS S.tronhaematoryin |e. Stainsfat SS SSSSSSSS~—S"). Matching is a different question format from the one this bank imports, so a rescan would not make it sittable here either.',
     },
     {
       key: 'the-stain-characteristic-for-the-cell-detected-in-the-previo-27435c6e',
-      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
-      difficulty: 'Moderate', questionType: 'Clinical application',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Moderate', questionType: 'Stain choice',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The stem refers to "the cell detected in the previous case" and the row does not contain the case. This is a follow-on question printed beneath a stem that the extraction filed as a separate row, so a student sitting it alone has nothing to reason from — a reviewer\'s problem rather than a scanner\'s, since rescanning will not join the two rows. The four options are the leaf\'s standard set of one stain per cell, and toluidine blue is the likeliest intended answer.',
+        'A follow-on stem whose case did not come with it. "The cell detected in the previous case" cannot be identified from anything in the row, and its four options — trypan blue, toluidine blue, silver, Sudan III — each name a different cell, so choosing between them would mean guessing which case was printed above it.',
     },
     {
       key: 'the-stain-characteristic-for-the-cell-detected-in-the-previo-7fc8427d',
-      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
-      difficulty: 'Moderate', questionType: 'Clinical application',
+      conceptKey: 'stain-classes-neutral-vital-supravital-and-metachromatic',
+      difficulty: 'Moderate', questionType: 'Stain choice',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The second printing of the same orphaned follow-on question, and worse: option A has swallowed option B as well. Both copies need the case they belong to, which is an editorial decision rather than a rescan.',
+        'The same orphan follow-on as `the-stain-characteristic-for-the-cell-detected-in-the-previo-27435c6e`, printed in a second book, and worse: option B has fused with option A ("Trypan blue. ‏.مط‎ Toluidine blue."), leaving three.',
     },
   ],
 }
