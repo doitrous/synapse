@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
 import { existsSync } from 'node:fs'
-import { readFile, rm, unlink } from 'node:fs/promises'
+import { mkdir, open, readFile, rename, rm, unlink } from 'node:fs/promises'
 import express from 'express'
 import compression from 'compression'
 import cors from 'cors'
@@ -13,6 +13,8 @@ import { createShare, deleteShare, listShares, readShare, updateShare } from './
 import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
+import { imageMeta } from './imageMeta.js'
+import { MEDIA_STATE_KEY, deleteRefusal, storageKeyFor } from './mediaLibrary.js'
 import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
   cancelSubscription,
@@ -71,6 +73,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
 const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/medical-library')
 const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
+/** Images share the resource volume; they are bounded far lower than a textbook. */
+const MEDIA_STORAGE_DIR = RESOURCE_STORAGE_DIR
+const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 20 * 1024 * 1024
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
 const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
@@ -89,7 +94,24 @@ function invalidateSnapshots(key) {
     medicalResourceSnapshot = null
     medicalResourceLoad = null
   }
+  if (key === MEDIA_STATE_KEY) mediaSnapshot = null
   invalidatePublishedQuestions(key)
+}
+
+/**
+ * Every media record, cached until the document is written.
+ *
+ * Read on every image request, so it cannot be a query per image. Dropped by
+ * `invalidateSnapshots` above, the same shape the medical-resource snapshot
+ * already uses.
+ */
+let mediaSnapshot = null
+
+async function mediaRecords() {
+  if (mediaSnapshot) return mediaSnapshot
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [MEDIA_STATE_KEY])
+  mediaSnapshot = rows.length ? JSON.parse(rows[0].v)?.records ?? [] : []
+  return mediaSnapshot
 }
 const app = express()
 /**
@@ -842,6 +864,9 @@ app.delete('/api/devices/:token', requireAuthenticated, wrap(async (req, res) =>
 // product. All other shared documents (reports, imports, email logs, settings)
 // remain admin-only even when a key is guessed.
 const STUDENT_READABLE_STATE = new Set([
+  // Alt text and dimensions for every image a student may be shown. The bytes
+  // are a separate, individually authenticated request.
+  MEDIA_STATE_KEY,
   'synapse-academic-universities-v1',
   'synapse-course-curricula-v1',
   'synapse-module-schedules-v1',
@@ -1467,6 +1492,102 @@ function resolvedChunkUploadPath(resourceId, uploadId) {
 }
 
 /** Remove interrupted upload work only after every stored resource is live. */
+/**
+ * Receive one image.
+ *
+ * A single request, unlike a medical resource: there the catalogue already
+ * knows the digest and the upload is checked against it, and here the digest is
+ * what the upload produces. So the bytes land in a staging file, are measured
+ * and identified from their own content, and only then move to the path their
+ * digest names.
+ */
+app.post('/api/media', requireTab('resources'), wrap(async (req, res) => {
+  const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', randomUUID()))
+  if (!staging) return res.status(500).json({ error: 'media staging path could not be resolved' })
+
+  let received
+  try {
+    received = await receiveStream(req, staging, { maxBytes: MEDIA_MAX_BYTES })
+  } catch (error) {
+    await rm(staging, { force: true })
+    return res.status(413).json({ error: error.message })
+  }
+
+  try {
+    // Identified from the file, never from the Content-Type the caller sent.
+    const head = Buffer.alloc(Math.min(64 * 1024, received.sizeBytes))
+    const handle = await open(staging, 'r')
+    try { await handle.read(head, 0, head.length, 0) } finally { await handle.close() }
+    const meta = imageMeta(head)
+    if (!meta) return res.status(415).json({ error: 'that file is not a PNG, JPEG, GIF or WebP image' })
+
+    const storageKey = storageKeyFor(received.sha256, meta.mimeType)
+    const fullPath = storageKey && resolveWithin(MEDIA_STORAGE_DIR, storageKey)
+    if (!fullPath) return res.status(500).json({ error: 'media path could not be resolved' })
+
+    // Two people uploading the same file store it once. They still each get
+    // their own record — the client is told about the match and offers the
+    // existing one rather than merging two people's alt text because the bytes
+    // happened to agree.
+    const alreadyStored = existsSync(fullPath)
+    if (!alreadyStored) {
+      await mkdir(dirname(fullPath), { recursive: true })
+      await rename(staging, fullPath)
+    }
+
+    return res.json({
+      ok: true,
+      storageKey,
+      sha256: received.sha256,
+      sizeBytes: received.sizeBytes,
+      mimeType: meta.mimeType,
+      width: meta.width,
+      height: meta.height,
+      alreadyStored,
+    })
+  } finally {
+    // Whatever happened above, nothing is left in staging. A rename has already
+    // moved it; every other path abandoned it.
+    await rm(staging, { force: true })
+  }
+}))
+
+/**
+ * Serve one image.
+ *
+ * Authenticated, like every other stored file here: these are a paying
+ * product's teaching assets. Cached immutably because the path is the digest —
+ * this URL cannot ever come to mean a different picture.
+ */
+app.get('/api/media/:id', requireAuthenticated, wrap(async (req, res) => {
+  const record = (await mediaRecords()).find((entry) => entry.id === req.params.id)
+  if (!record) return res.status(404).json({ error: 'media not found' })
+  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record.storageKey || '')
+  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'media file is pending upload' })
+  res.setHeader('Content-Type', record.mimeType || 'application/octet-stream')
+  res.setHeader('Cache-Control', 'private, max-age=31536000, immutable')
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.sendFile(fullPath)
+}))
+
+/**
+ * Whether this image may be removed.
+ *
+ * The record itself is removed by the client's write to the library document;
+ * this route exists to refuse, and to say who is still using it. The bytes stay
+ * where they are: they are content-addressed, so another record may
+ * legitimately name the same file.
+ */
+app.delete('/api/media/:id', requireTab('resources'), wrap(async (req, res) => {
+  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-admin-content-ledger-v4'])
+  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
+  const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
+  const concepts = graphRow.length ? (JSON.parse(graphRow[0].v)?.concepts ?? []) : []
+  const refusal = deleteRefusal(req.params.id, ledger, concepts)
+  if (refusal) return res.status(409).json({ error: refusal })
+  res.json({ ok: true })
+}))
+
 app.post('/api/medical-resources/cleanup-uploads', requireTab('resources'), wrap(async (_req, res) => {
   const storedResources = (await medicalResourceRecords()).filter((resource) => resource.storageKey)
   if (!storedResources.length) return res.status(409).json({ error: 'no qualified stored resources are registered' })
