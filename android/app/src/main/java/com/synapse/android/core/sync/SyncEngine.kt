@@ -191,10 +191,21 @@ class SyncEngine(
         return changed
     }
 
+    /**
+     * The user-state keys one refresh pulls: the fixed documents, the attempt
+     * index, and the last [AttemptStore.HISTORY_MONTHS] month shards.
+     *
+     * The window has to match the one [com.synapse.android.core.progress.AttemptLedger]
+     * reads back, which is why both take the number from the same constant.
+     * Fetching a shorter window than the ledger reads is invisible until a
+     * student opens a fresh install and finds months of their own work
+     * missing.
+     */
     private fun userStateKeys(): List<String> {
         val zone = ZoneId.systemDefault()
         val currentMonth = YearMonth.now(zone)
-        val months = listOf(currentMonth, currentMonth.minusMonths(1))
+        val months = (0 until AttemptStore.HISTORY_MONTHS)
+            .map { currentMonth.minusMonths(it.toLong()) }
             .map { "%04d-%02d".format(it.year, it.monthValue) }
             .distinct()
             .sorted()

@@ -13,18 +13,18 @@ import com.synapse.android.core.cache.LocalStore
  * same records, so this is the one place both read from.
  *
  * Reads only the shards [AttemptIndex.months] names, newest first, capped at
- * twelve -- the index exists precisely so headline figures cost no unbounded
- * shard reads. Never enumerates shards by guessing keys.
+ * [AttemptStore.HISTORY_MONTHS] -- the index exists precisely so headline
+ * figures cost no unbounded shard reads. Never enumerates shards by guessing
+ * keys.
  */
 object AttemptLedger {
-    private const val MAX_MONTHS = 12
 
     suspend fun records(store: LocalStore): List<AttemptRecord> {
         val index = store.document(AttemptStore.INDEX_KEY)?.json
             ?.let { CortexJson.decodeFromString(AttemptIndex.serializer(), it) }
             ?: AttemptIndex()
 
-        val months = index.months.sortedDescending().take(MAX_MONTHS)
+        val months = index.months.sortedDescending().take(AttemptStore.HISTORY_MONTHS)
         return months.flatMap { month ->
             store.document(AttemptStore.monthKey(month))?.json
                 ?.let { CortexJson.decodeFromString(AttemptMonth.serializer(), it).records }

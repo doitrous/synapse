@@ -7,7 +7,10 @@ import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
+import com.synapse.android.core.progress.AttemptStore
 import java.time.Instant
+import java.time.YearMonth
+import java.time.ZoneId
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.CopyOnWriteArrayList
 import java.util.concurrent.TimeUnit
@@ -308,6 +311,46 @@ class SyncEngineTest {
 
         assertTrue(engine.status.value is SyncStatus.Failed)
         assertNull((engine.status.value as? SyncStatus.Done))
+    }
+
+    // -- The attempt-shard window ----------------------------------------
+
+    /**
+     * One refresh must pull the same span of history the ledger reads back.
+     *
+     * These three numbers used to be three different numbers: the engine
+     * fetched two shards, `AttemptLedger` read twelve, and the web
+     * (`src/lib/useAttemptLog.ts:17`) loads six. Fetching fewer than the
+     * ledger reads is silent -- a fresh install just shows two months where
+     * the same student's laptop shows six -- but not harmless:
+     * `QuestionBankViewModel.build` counts previous sittings against that
+     * truncated ledger to auto-name "Test N", so it hands the student a name
+     * the web has already used.
+     */
+    @Test
+    fun `refresh fetches the same six months of shards the ledger reads`() = runBlocking {
+        assertEquals("website-first, from src/lib/useAttemptLog.ts:17", 6, AttemptStore.HISTORY_MONTHS)
+
+        engine.refresh()
+
+        val currentMonth = YearMonth.now(ZoneId.systemDefault())
+        val expected = (0 until AttemptStore.HISTORY_MONTHS)
+            .map { currentMonth.minusMonths(it.toLong()) }
+            .map { AttemptStore.monthKey("%04d-%02d".format(it.year, it.monthValue)) }
+            .map { StateOwnership.pathFor(it) }
+        val fetched = requests.filter { it.method == "GET" }.map { it.path }.toSet()
+
+        assertEquals(
+            "every month in the window the ledger reads must be fetched",
+            emptyList<String>(),
+            expected.filterNot { it in fetched },
+        )
+        // And no further back: a seventh shard is a request for a document no
+        // screen on any client reads.
+        val seventh = currentMonth.minusMonths(AttemptStore.HISTORY_MONTHS.toLong())
+        assertTrue(
+            StateOwnership.pathFor(AttemptStore.monthKey("%04d-%02d".format(seventh.year, seventh.monthValue))) !in fetched,
+        )
     }
 
     // -- Helpers -------------------------------------------------------

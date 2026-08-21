@@ -56,6 +56,24 @@ object AttemptStore {
     const val INDEX_KEY = "synapse.progress.attemptIndex.v1"
 
     /**
+     * How many month shards count as "the student's history", everywhere.
+     *
+     * Website-first, from `src/lib/useAttemptLog.ts:17`
+     * (`export const HISTORY_MONTHS = 6`), whose own comment explains the
+     * six: it covers every window the app shows, the longest being the
+     * seventeen-week heatmap.
+     *
+     * One constant because the number has to be the same in two places that
+     * are easy to drift apart -- what [com.synapse.android.core.sync.SyncEngine]
+     * *fetches* and what [AttemptLedger] *reads*. Fetch fewer than the ledger
+     * reads and a fresh install shows a shorter history than the same
+     * student's laptop; worse, `QuestionBankViewModel.build` counts previous
+     * sittings against that truncated ledger to auto-name "Test N", so it
+     * mints a name the web has already used.
+     */
+    const val HISTORY_MONTHS = 6
+
+    /**
      * `YYYY-MM` — the shard a timestamp belongs to.
      *
      * Local components, matching the web app's `getFullYear` and `getMonth`.

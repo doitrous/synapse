@@ -294,14 +294,17 @@ class ResultsTest {
     // -- AttemptLedger -------------------------------------------------------
 
     @Test
-    fun `the ledger caps at the newest twelve shards, never opening the thirteenth`() = runBlocking {
-        // Thirteen months in the index, 2025-01 (oldest) through 2026-01
-        // (newest, thirteen months later). The oldest is the thirteenth by
-        // recency, so the cap must exclude exactly it.
-        val months = (1..12).map { "2025-%02d".format(it) } + "2026-01"
+    fun `the ledger caps at the newest six shards, never opening the seventh`() = runBlocking {
+        // One month more than the window, so the oldest is exactly the shard
+        // the cap must exclude. Six is website-first, from
+        // `src/lib/useAttemptLog.ts:17`, and is the same constant the sync
+        // engine fetches by -- reading further back than it fetches would
+        // only ever find shards that were never downloaded.
+        assertEquals(6, AttemptStore.HISTORY_MONTHS)
+        val months = (1..AttemptStore.HISTORY_MONTHS + 1).map { "2025-%02d".format(it) }
         val oldest = months.first()
         val keptMonths = months.drop(1)
-        check(keptMonths.size == 12)
+        check(keptMonths.size == AttemptStore.HISTORY_MONTHS)
 
         store.putDocument(AttemptStore.INDEX_KEY, json.encodeToString(AttemptIndex.serializer(), AttemptIndex(months = months)), null)
 
@@ -322,7 +325,7 @@ class ResultsTest {
 
         val records = AttemptLedger.records(store)
 
-        assertEquals(12, records.size)
+        assertEquals(AttemptStore.HISTORY_MONTHS, records.size)
         assertTrue(records.none { it.id.startsWith(oldest) })
     }
 
