@@ -554,3 +554,863 @@ sections.Definition: The clause attributing the exaggerated secretory phase to a
 sections.Mechanism: The account of the capsularis being pushed outwards by a growing sac is reasoning added to connect the two dated events the department book gives. The books state the events, not the mechanism.
 ## notes
 Written from the four Kasr sources, which agree on definition, features, parts and fate. The one number they add beyond the concept - the end of the third month - comes from the department book's fetal-membranes chapter rather than its decidua paragraph, and is recorded in conflicts because the concept gives a different month.
+
+---
+
+# Item
+## id
+ART-101-ANA-EMBRYONIC-FOLDING
+## title
+Embryonic folding
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-72D21476F03993
+## related_articles
+ART-101-ANA-DECIDUA: The same expanding amniotic cavity that folds the disc is what presses decidua capsularis onto decidua parietalis and closes the uterine cavity.
+## aliases
+Folding of the embryonic disc | Cephalo-caudal and lateral folding | Head, tail and lateral folds
+## reading_time
+9
+## summary
+Folding is the process by which the flat embryonic disc becomes folded upon itself, and it turns a three-layered plate into a cylinder with a gut inside it. The department teaches it under five headings — definition, time, types, causes, and steps or results — and the causes are the half students get wrong: the neural tube and somites drive the head and tail folds only, and it is the expanding amniotic cavity that folds the disc in every direction.
+## sections
+### Definition
+Folding is the process by which the embryonic disc becomes folded upon itself. Both Kasr sources open with that sentence and both follow it immediately with a time, because the time is separately marked.
+
+Folding begins at the end of the third week and is completed at the end of the fourth week.
+
+There are two types, and they are named by plane.
+
+Cephalo-caudal, or longitudinal, folding produces the head fold, which is the folding of the cranial part of the disc, and the tail fold, which is the folding of the caudal part.
+
+Transverse, or lateral, folding produces the right lateral fold and the left lateral fold, which are the folding of the right and left margins of the disc.
+
+Each of the longitudinal folds is limited by something firm at its end. The head fold is limited by the relatively firm notochord, and the tail fold by the relatively firm primitive streak. That is the fate the notochord chapter promises when it lists, as one of the notochord's three uses, that during folding its firmness limits the head fold.
+
+### Mechanism
+Folding is not a movement the embryo makes. It is what happens to a flat plate when the things around it and inside it grow at different rates, and there are exactly two causes.
+
+The first is an increase in the longitudinal length of the embryonic disc, produced by the growth of the neural tube and the somites. A disc that lengthens in one axis while its edges are tethered has to buckle in that axis, and the buckling appears at the two ends. This cause produces cephalo-caudal folding, and only cephalo-caudal folding.
+
+The second is expansion of the amniotic cavity. The amnion enlarges around the disc from every side, and the department book states the consequence plainly: it leads to longitudinal and transverse folding. Dr. Galal's revision puts the same thing as folding in all directions. This is the cause that produces the lateral folds.
+
+The steps follow from the second cause first. Expansion of the amniotic cavity shifts the amnio-ectodermal junction ventrally, towards the endoderm, and the ring that junction now surrounds is the primitive umbilical ring, containing the connecting stalk, the allantois and the vitelline duct. The embryonic disc bulges dorsally into the amniotic cavity until it is completely surrounded by it. Cranio-caudal elongation then produces the head and tail folds, and when the lateral folds are complete the embryo has acquired a cylindrical shape with the three layers arranged, from outside inwards, ectoderm, mesoderm, endoderm.
+
+The gut is made in the same movement. Part of the yolk sac is incorporated inside the folded embryo, and its endoderm becomes the mucosa of the gut: foregut in the head fold, hindgut in the tail fold, and midgut in the middle, between the lateral folds. The part of the yolk sac left outside becomes the definitive yolk sac in the umbilical cord, still joined to the midgut by the vitelline, or vitello-intestinal, duct.
+
+### Key determinants
+The results of folding are a numbered list, and both sources give them in nearly the same order. The department book's list runs to ten and is the fuller of the two.
+
+The embryonic disc is transformed into a cylindrical shape that has a body cavity.
+
+The amniotic cavity surrounds the embryo.
+
+The primitive umbilical ring is formed. It is the defect in the ventral abdominal wall at which the lateral folds fail to fuse, because the connecting stalk, the allantois and the vitelline duct are passing through.
+
+The mucosa of the gut is formed from endoderm, divided into foregut in the head fold, hindgut in the tail fold, and midgut in the middle between the lateral folds.
+
+The secondary, or definitive, yolk sac is compressed from all directions, leaving the vitelline duct that connects it to the midgut.
+
+The forebrain bulge is formed in the head of the embryo by the growing forebrain.
+
+The pericardial bulge is formed by the growing heart and pericardium.
+
+The stomodeum is formed. It is an ectodermal depression between the forebrain and pericardial bulges, separated from the foregut by the bucco-pharyngeal membrane.
+
+Ventral and dorsal mesenteries are formed, because after folding the two peritoneal canals of the intra-embryonic coelom approach the gut and meet each other on its ventral and dorsal aspects.
+
+Reversal of position occurs, at both ends. In the head fold, the septum transversum becomes caudal instead of being the most cranial structure, and the bucco-pharyngeal membrane becomes the most cranial structure after folding; put the other way, as Dr. Galal does, the heart and pericardium come to lie cranial to the septum transversum. In the tail fold, the connecting stalk with the allantois becomes more cranial and ventral instead of being the most caudal structure, and the cloacal membrane becomes the most caudal after folding.
+
+### Clinical significance
+The primitive umbilical ring is a hole in the ventral body wall that folding deliberately leaves open, and the department's account of the umbilical cord follows what happens to it.
+
+During the fourth gestational week, expansion of the amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally around the ring. The ring contains the allantois and umbilical vessels inside the connecting stalk, and the vitelline duct with the vitelline vessels. Amnion then ensheathes those structures to form the primitive umbilical cord.
+
+In the sixth week the intestinal loops herniate into the proximal part of the primitive cord, which the book calls physiological umbilical hernia. The loops return to the abdominal cavity by the third month, and the definitive cord is formed as one umbilical vein and the extra-embryonic parts of the vitelline vessels obliterate, the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate, and Wharton's jelly forms from the mesoderm of the connecting stalk.
+
+Failure of that return is a named anomaly. Congenital umbilical hernia, or omphalocele, is the condition in which the proximal part of the cord still contains loops of intestine because the intestine failed to return to the abdominal cavity. It is the clearest reason to know that the ventral body wall closes late and closes around a ring that folding created.
+
+### Common misconceptions
+The two causes are not interchangeable, and this is the article's central correction. Both Kasr sources give the neural tube and somites as the cause of cephalo-caudal folding, and the expanding amniotic cavity as the cause that folds in all directions, including transversely. A student who attributes lateral folding to somite growth has answered the cause row of a marked table wrongly, and the concept as originally drafted contains that error.
+
+Folding is not something the embryo does. It is the consequence of parts growing at different rates, which is why the department asks for causes rather than for a mechanism of movement.
+
+The primitive umbilical ring is not a defect in the pathological sense. It is a normal gap, held open by three structures that have to pass through it, and it exists in every embryo.
+
+The definitive yolk sac is not a leftover that folding forgot. It is the part deliberately left outside the folded embryo, and the vitelline duct is the connection folding leaves behind between it and the midgut.
+## hold_these
+Folding is the process by which the embryonic disc becomes folded upon itself; it starts at the end of the third week and is completed at the end of the fourth week.
+There are two types: cephalo-caudal or longitudinal folding, giving head and tail folds, and transverse or lateral folding, giving right and left lateral folds.
+There are two causes: increased longitudinal length of the disc from growth of the neural tube and somites, which causes cephalo-caudal folding, and expansion of the amniotic cavity, which causes folding in all directions.
+The head fold is limited by the notochord and the tail fold by the primitive streak.
+The primitive umbilical ring is where the lateral folds fail to fuse, because the connecting stalk, allantois and vitelline duct pass through it.
+The gut is divided into foregut in the head fold, midgut in the middle between the lateral folds, and hindgut in the tail fold.
+The stomodeum is an ectodermal depression between the forebrain and pericardial bulges, separated from the foregut by the bucco-pharyngeal membrane.
+Reversal of position: the septum transversum becomes caudal and the bucco-pharyngeal membrane the most cranial structure; the connecting stalk and allantois become ventral and cranial, and the cloacal membrane the most caudal.
+Intestinal loops herniate into the cord in the sixth week and return by the third month; failure to return is omphalocele.
+## lose_the_mark
+Giving somite and neural tube growth as the cause of lateral folding. Both Kasr sources give it as the cause of cephalo-caudal folding only; the amniotic cavity is what folds the disc transversely.
+Describing folding as an active movement of the embryo. It is the consequence of parts growing at different rates, which is why the question asks for causes.
+Naming the types but not the time. Time is a separate marked heading in Dr. Galal's revision, and it is two facts, not one: end of the third week to end of the fourth.
+Swapping the limits of the two folds. The notochord limits the head fold; the primitive streak limits the tail fold.
+Giving the gut three parts without saying which fold each lies in. Foregut belongs to the head fold, hindgut to the tail fold, midgut to the middle between the lateral folds.
+Answering "reversal of position" with one clause. It has a head-fold half and a tail-fold half, and both are stated in the source.
+Forgetting the primitive umbilical ring's three contents. Connecting stalk, allantois and vitelline duct are why the lateral folds cannot close.
+## image_recommendations
+### diagram · Median sagittal sections of the embryo before and after cephalo-caudal folding, with septum transversum, pericardium and heart, bucco-pharyngeal membrane, connecting stalk, allantois and cloacal membrane labelled in both, so the reversal of position can be read off by comparing the two
+Purpose: Reversal of position is a change in the relative order of six named structures. Prose can only state the before and the after separately; two aligned sections let a student verify the reversal rather than memorise a sentence about it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Anatomy pages 26-27, figures 5.6 to 5.10, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-72D21476F03993, whose exam question was "Summarize types and causes of Folding", 6 marks.
+### diagram · A series of three transverse sections through the same embryo showing lateral folding — flat disc, partly folded, and closed — with the ventral body wall closing, the gut pinching off from the yolk sac, and the layer order ectoderm, mesoderm, endoderm from outside inwards
+Purpose: Lateral folding is the step that makes a cylinder and a gut out of a plate, and it can only be seen in cross-section. The layer order after folding is separately marked and is a spatial fact.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Anatomy page 26
+Rights: newly drawn for this product, or CC-BY
+### diagram · The primitive umbilical ring seen from the ventral surface of the folded embryo, with the connecting stalk carrying allantois and umbilical vessels, and the vitelline duct with vitelline vessels, drawn passing through it
+Purpose: The ring is defined as the place where the lateral folds fail to fuse and by the three structures that keep it open. A ventral view names the obstruction, which explains both the ring and, later, omphalocele.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn, following the department book Anatomy page 38, figure 6.11
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+What drives transverse folding. Concept CON-DEV-72D21476F03993 states that transverse or lateral folding "is driven by growth of the somites". Both Kasr sources state that growth of the neural tube and somites causes cephalo-caudal folding, and that expansion of the amniotic cavity is what causes folding in all directions, including transverse. This article follows the Kasr sources, and the concept should be corrected at the evidence pass.
+Where the topic sits in the curriculum. The concept and this article place folding under the third week of development, which is where the exam paper's question sat and where folding begins. Both the department book and Dr. Galal's revision teach it inside the Embryonic Period chapter, because it completes in the fourth week. A reader looking for the source chapter should look there.
+How many results are listed. The department book gives ten numbered results; Dr. Galal's revision gives nine steps that cover the same ground, merging the mesentery and coelom points. Neither list is wrong; the department book's is used here because it is the fuller.
+## evidence_gaps
+Neither source names gastroschisis, and it is deliberately not mentioned here. Omphalocele is stated because the department book names and defines it.
+Neither source gives a Meckel's diverticulum or any other named remnant of the vitelline duct, although both describe the duct's degeneration.
+Neither source states the fate of the bucco-pharyngeal or cloacal membranes after folding, only their positions.
+Neither source gives a crown-rump length or somite number at which folding is judged complete, only the end of the fourth week.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 5 "Embryonic Period", Anatomy pages 26-27 — definition, time, causes, types, limitations, steps and the ten results of folding; and chapter 6 "Fetal Membranes", Anatomy pages 38-40 — the primitive umbilical ring, the primitive and definitive umbilical cord, physiological umbilical hernia and omphalocele.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 54 — "Folding" under Def., *Q.Time, *Q.Types, *Q.Causes, Limitations of head & tail folds, and *Q.Steps (results); and page 50, where the notochord's importance includes limiting the head fold.
+VIP Academy revision book "Module 101 - General Embryology" (src_e84b7068de7e199d218f), page 32 — folding of the embryonic disc, extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 23 — the model answer for folding of the embryonic disc.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Folding" is a named embryology topic, and the two embryology short-answer questions carry 6 marks each.
+## field_notes
+arabicTitle: Arabic embryological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: The concept for this article carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation of why a lengthening plate must buckle at its ends is reasoning added to make the two causes separable. The sources state the causes without arguing them.
+## notes
+The two Kasr sources agree on time, types, causes, limitations and results, differing only in how finely they subdivide the results. The substantive divergence is from the concept record, over what drives transverse folding, and it is recorded in conflicts.
+
+---
+
+# Item
+## id
+ART-101-ANA-PECTORALIS-MAJOR
+## title
+Pectoralis major
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## related_concepts
+CON-MSK-097C0BDED777AB
+## related_articles
+ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal are what make the two heads of this muscle produce opposite movements.
+ART-101-ANA-AXILLA-BREAST: Pectoralis major is the superficial layer of the anterior wall of the axilla, and the breast lies on the pectoral fascia that covers it.
+## aliases
+Pec major | Musculus pectoralis major
+## reading_time
+10
+## summary
+Pectoralis major is asked as a four-column answer — origin, insertion, nerve supply, action — and the marks are lost in two places. The origin has three named parts under two heads, not two. And the action is not one movement but four: the whole muscle adducts and medially rotates, the clavicular head flexes the arm, and the sternocostal head extends the flexed arm.
+## sections
+### Overview and position
+Pectoralis major is the large superficial muscle of the pectoral region, the region on the upper part of the front of the chest wall down to the sixth rib. It is one of the four muscles connecting the upper limb with the thoracic wall, the others being pectoralis minor, subclavius and serratus anterior.
+
+It has two jobs of position before it has any of movement. Its lower border forms the anterior axillary fold, the fold a hand can pinch at the front of the armpit. And as the superficial layer of the anterior wall of the axilla it lies over the deep layer — subclavius, clavipectoral fascia, pectoralis minor and the suspensory ligament of the axilla — which together are called the axillary septum.
+
+The breast sits on it, not in it. The mammary gland lies in the superficial fascia, and its base lies on the deep fascia covering pectoralis major, which is the pectoral fascia, and on serratus anterior and the aponeurosis of the external oblique. That relationship is why a breast lump is tested for fixity by asking the patient to contract this muscle.
+
+### Structure
+The department book, Dr. Galal's revision and the VIP Academy book give the attachments in the same words, and the origin has two heads.
+
+The clavicular head arises from the anterior surface of the medial half of the clavicle.
+
+The sternocostal head arises from three places: the anterior surface of the sternum, the anterior surfaces of the upper six costal cartilages, and the aponeurosis of the external abdominal oblique.
+
+The insertion is single. The muscle inserts by a bilaminar tendon into the lateral lip of the intertubercular, or bicipital, groove of the humerus. Bilaminar means the tendon has two laminae, which is how a muscle with fibres running in from a clavicle above and an abdominal aponeurosis below can converge on one narrow lip of bone.
+
+The actions are four statements, and all four are marked.
+
+The muscle as a whole adducts the arm and medially rotates it.
+
+The clavicular head flexes the arm.
+
+The sternocostal head extends the flexed arm. The department book names the movements this is used for — swimming, rowing and climbing.
+
+The two heads therefore oppose each other in the sagittal plane while agreeing in the coronal one, which is the point of asking for the action of each head separately. A student who writes "adduction and medial rotation" has given half the answer to a seven-mark question.
+
+### Relations
+In front of the muscle lie the skin, the superficial fascia containing the mammary gland, and the pectoral fascia, which is the deep fascia of the region. The pectoral fascia has two extensions: the axillary fascia, which forms the floor of the axilla, and the clavipectoral fascia.
+
+Behind the upper part of the muscle lies the clavipectoral fascia, a strong fibrous sheet occupying the interval between subclavius above and pectoralis minor below, covering the axillary vessels and nerves. Four structures pierce it, and the list is separately examined: the cephalic vein, the lateral pectoral nerve, the acromio-thoracic artery, and lymph vessels running from the infraclavicular nodes to the apical group. Two of those four exist to reach pectoralis major or its neighbour.
+
+Laterally, the interval between pectoralis major and deltoid is the deltopectoral groove, which carries the cephalic vein and the deltoid branch of the acromio-thoracic artery.
+
+Below and behind, the lower border is the anterior axillary fold, and the axilla lies deep to it. The anterior wall of the axilla is shorter than the posterior wall, so the anterior fold sits at a slightly higher level than the posterior one.
+
+### Blood supply, innervation and lymphatics
+The nerve supply is two nerves, and the examiner expects both named.
+
+The lateral pectoral nerve (C5, 6, 7) is a branch of the lateral cord of the brachial plexus. It pierces the clavipectoral fascia and supplies pectoralis major.
+
+The medial pectoral nerve (C8, T1) is a branch of the medial cord. It pierces and supplies pectoralis minor, and ends by supplying pectoralis major.
+
+Naming only one loses the mark, and the two come from different cords with different root values, which is why a plexus lesion can weaken the muscle partially.
+
+The arterial supply comes from the second part of the axillary artery. The pectoral branch of the acromio-thoracic artery is the largest of that artery's four branches; it descends between the two pectoral muscles, supplying them and the breast. The deltoid branch of the same artery runs in the deltopectoral groove to deltoid and pectoralis major. The lateral thoracic artery, arising behind the lower border of pectoralis minor, also supplies the pectoral muscles as well as serratus anterior and subscapularis.
+
+The lymphatics of the region drain to the axillary nodes, and specifically the anterior (pectoral) group lies along the lower border of pectoralis minor with the lateral thoracic artery. The Kasr sources describe the lymph drainage of the breast that overlies this muscle in detail and do not separately describe the drainage of the muscle itself.
+
+### Development
+Neither Kasr source derives pectoralis major individually, and nothing is invented here. What the department book does state is the general rule, in the embryology part.
+
+Each somite divides obliquely into a ventromedial sclerotome and a dorsolateral dermomyotome. The dermomyotome subdivides into a dermatome, forming the dermis of the skin, and a myotome, forming the skeletal muscles of the body. The dermomyotome is then divided into a dorsal part, forming the skeletal muscle and dermis on the back of the vertebral column, and a ventral part, forming the skeletal muscles and dermis of the rest of the body. The spinal nerve divides into dorsal and ventral primary rami to supply the divided dermomyotome.
+
+Pectoralis major is supplied by the lateral and medial pectoral nerves, which are branches of the brachial plexus and therefore of ventral rami. On the book's own rule that places it with the derivatives of the ventral part of the dermomyotome. The book does not say so, and this article does not claim more than the rule allows.
+
+### Surface and imaging anatomy
+The muscle is palpable through its whole extent, and three landmarks belong to it.
+
+The anterior axillary fold is the lower border of the muscle. Pinching it between finger and thumb is the standard way to feel the muscle contract.
+
+The deltopectoral groove is the visible furrow between pectoralis major and deltoid, running down from below the middle of the clavicle. The cephalic vein lies in it.
+
+The base of the breast overlies the muscle from the second rib to the sixth costal cartilage, and from the lateral border of the sternum to the mid-axillary line, with the nipple usually over the fourth intercostal space. The mid-axillary line is the vertical line in the midline of the axilla, midway between the anterior and posterior folds.
+
+Neither Kasr source gives any radiological or ultrasound appearance for this muscle, and none is stated here.
+
+### Clinical correlations
+The clinical points the Kasr sources attach to this region are about the structures that lie on the muscle rather than about the muscle itself, and they are worth learning together because the case question in the 2025 paper was a breast case.
+
+Cooper's ligaments run from the skin to the deep fascia on the chest wall through the breast. A malignant tumour invading these fibrous septa may pull on the overlying skin and retract the nipple.
+
+Obstruction of the superficial lymphatics causes oedema of the skin, which is pitted by the attachments of the hair follicles, so the skin looks like orange peel — peau d'orange.
+
+A breast abscess should be drained by a radial incision, to avoid spreading infection into neighbouring lobes and to minimise damage to the radially arranged ducts.
+
+The point that belongs to the muscle itself is that the breast lies on the pectoral fascia covering it. Contracting pectoralis major tenses that fascia, which is why the muscle is the reference plane for judging whether a breast lump is fixed to the chest wall.
+
+### Variations and anomalies
+Neither Kasr source describes any variation or congenital absence of pectoralis major. Nothing is stated here.
+## hold_these
+Clavicular head: anterior surface of the medial half of the clavicle.
+Sternocostal head: anterior surface of the sternum, the upper six costal cartilages, and the aponeurosis of the external abdominal oblique.
+Insertion: by a bilaminar tendon into the lateral lip of the intertubercular (bicipital) groove of the humerus.
+Nerve supply: the lateral pectoral nerve (C5,6,7) from the lateral cord and the medial pectoral nerve (C8,T1) from the medial cord.
+Action of the whole muscle: adduction and medial rotation of the arm.
+Action of the clavicular head: flexion of the arm. Action of the sternocostal head: extension of the flexed arm, as in swimming, rowing and climbing.
+The lower border of pectoralis major is the anterior axillary fold, and the muscle is the superficial layer of the anterior wall of the axilla.
+Four structures pierce the clavipectoral fascia: cephalic vein, lateral pectoral nerve, acromio-thoracic artery, and lymph vessels from the infraclavicular to the apical nodes.
+The pectoral branch of the acromio-thoracic artery is its largest branch and descends between the two pectoral muscles, supplying them and the breast.
+## lose_the_mark
+Giving one action for the whole muscle. The two heads oppose each other in flexion and extension, which is why the question asks for both.
+Naming one pectoral nerve. Pectoralis major is supplied by both the lateral and the medial pectoral nerve, from two different cords.
+Omitting the external oblique aponeurosis from the origin. The sternocostal head has three named parts, and dropping one drops a mark on a seven-mark question.
+Writing "bicipital groove" without saying which lip. The insertion is the lateral lip; the medial lip takes teres major and the floor takes latissimus dorsi.
+Saying the breast lies in pectoralis major. It lies in the superficial fascia, on the pectoral fascia that covers the muscle.
+Confusing the medial pectoral nerve's targets. It pierces and supplies pectoralis minor first, then ends by supplying pectoralis major.
+Placing the anterior axillary fold lower than the posterior. The anterior wall is the shorter, so its fold lies higher.
+## image_recommendations
+### anatomy plate · Pectoralis major from the front with the clavicular and sternocostal heads separately tinted, their fibres converging on the bilaminar tendon at the lateral lip of the bicipital groove, and the twist of the tendon shown
+Purpose: The convergence of fibres from clavicle, sternum and abdominal aponeurosis onto one narrow lip of bone is what makes the two heads act oppositely. That is a geometry, and a paragraph naming the attachments does not show it.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas - Gray's public-domain plates, or a purpose-drawn figure following the department book Anatomy Fig. 11
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-097C0BDED777AB, whose exam question was "Mention attachment, action and nerve supply of Pectoralis Major", 7 marks.
+### diagram · Bony attachment map of pectoralis major, origin in one colour on clavicle, sternum and the upper six costal cartilages, insertion in another on the lateral lip of the bicipital groove, with teres major on the medial lip and latissimus dorsi on the floor marked for contrast
+Purpose: The three tenants of the bicipital groove are a classic confusion and the mark turns on which lip. One bone with three labelled strips settles it permanently.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · Parasagittal section of the anterior wall of the axilla showing the superficial layer of pectoralis major and the deep layer of subclavius, clavipectoral fascia, pectoralis minor and suspensory ligament, with the four structures piercing the clavipectoral fascia labelled where they cross it
+Purpose: The wall is a two-layer answer and the four piercing structures are defined by where they cross a sheet. Both are spatial and both are separately examined; prose gives two lists that do not obviously belong to one picture.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Anatomy Figs. 8-10 in the pectoral region chapter
+Rights: newly drawn for this product, or CC-BY
+### clinical photograph · A patient pressing both hands on the hips so that the anterior axillary folds stand out, with the deltopectoral groove visible
+Purpose: The two surface landmarks of this muscle are produced by a manoeuvre, and this is the manoeuvre used clinically to test a breast lump for fixity. A photograph teaches the action and the examination in one image.
+Priority: optional
+Status: needed
+Kind: clinical photograph
+Section: Surface and imaging anatomy
+Source direction: openly licensed clinical skills teaching set, or a consented photograph made for this product
+Rights: must be CC-BY or public domain, with model consent recorded
+## conflicts
+Wording of the clavicular origin. Dr. Galal's revision and the past-question summary give "medial half of the clavicle"; the department book and the VIP Upper Limb book give "anterior surface of the medial half of the clavicle". The fuller wording is used here and either is acceptable.
+Whether the external oblique aponeurosis is part of the sternocostal head. All four Kasr sources list it, but the VIP Upper Limb book prints it as a third item under the sternocostal head while the past-question summary prints it as a separate line. It is taught here as part of the sternocostal head, following the department book.
+## evidence_gaps
+No Kasr source in this corpus derives pectoralis major embryologically. The Development section states only the department book's general somite rule and says explicitly what it does not license.
+No Kasr source gives a radiographic, ultrasound or cross-sectional appearance of pectoralis major, so the imaging half of the Surface and imaging anatomy section is empty rather than filled from elsewhere.
+No Kasr source describes the lymphatic drainage of the muscle itself, as distinct from the breast overlying it.
+No Kasr source describes variation or congenital absence of the muscle, so Poland syndrome is deliberately not mentioned.
+No Kasr source states which muscles are preserved or removed in the different types of mastectomy, so no surgical classification is given here.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 1 "The Pectoral Region", PDF pages 153-162 — the muscle table, the pectoral and clavipectoral fascia, the mammary gland and its lymphatic drainage. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb "Axilla" chapter, PDF pages 178-193 — the pectoral nerves, the acromio-thoracic and lateral thoracic arteries, and the walls of the axilla; and General Embryology "Embryonic Period", PDF pages 87-93 — somite differentiation.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 2 — "Q.Pectoral muscles (muscles of ant. wall of axilla)" as a five-column table, and "Q Clavipectoral fascia (attachment & structures piercing)".
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 16-20 — pectoral region, mammary gland, and the muscles connecting the upper limb with the thoracic wall. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 2 — the model answer for pectoralis major, rotator cuff and deltoid.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Muscles: All muscles (attachment, nerve supply and action) except muscles of the hand", and the four upper-limb short-answer questions carry 7 marks each.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Development: The inference that pectoralis major belongs with the ventral dermomyotome derivatives, drawn from its ventral-ramus nerve supply, is reasoning from the department book's own general rule. The book does not state it for this muscle, and the section says so in its own text.
+sections.Clinical correlations: The last paragraph, on contracting the muscle to test a breast lump for fixity, is general clinical knowledge. The Kasr sources state the anatomical relation but do not describe the manoeuvre.
+sections.Relations: The naming of the deltopectoral groove is taken from the department book's account of the deltoid branch of the acromio-thoracic artery and of the infraclavicular (delto-pectoral) nodes; the book does not define the groove as a heading of its own.
+## notes
+All four Kasr sources agree on origin, insertion, nerve supply and the four action statements, which is unusually strong agreement for this corpus. The seven-mark question is answered by the Structure section and the first half of the innervation section.
+
+---
+
+# Item
+## id
+ART-101-ANA-RADIAL-NERVE
+## title
+The radial nerve
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-59B3B8AB2A2CFA
+## related_articles
+ART-101-ANA-AXILLA-BREAST: The radial nerve is a branch of the posterior cord, and the cords and their branches are contents of the axilla.
+ART-101-ANA-HAND-ARTERIES: The superficial radial nerve leaves the forearm through the roof of the anatomical snuff box, alongside the cephalic vein.
+## aliases
+Radial n. | Musculospiral nerve | N. radialis
+## reading_time
+12
+## summary
+The orientation sheet asks every named nerve for seven things: origin, root value, end, course, branches with the areas they supply, and the effect of injury. For the radial nerve the branches are grouped by level — axilla, spiral groove, lower third of the arm — and the injury is graded by level too, because a lesion in the spiral groove gives wrist drop and one in the posterior interosseous nerve gives finger drop alone.
+## sections
+### Overview and position
+The radial nerve is the largest branch of the brachial plexus and the larger of the two terminal branches of the posterior cord. Its root value is C5, C6, C7, C8 and T1 — all five roots, which is the point the concept's pitfall exists to protect.
+
+It begins in the axilla, spirals round the back of the humerus, returns to the front of the arm, and ends in front of the lateral epicondyle by dividing into a deep branch, the posterior interosseous nerve, which is mainly muscular, and a superficial continuation, the superficial radial nerve, which is mainly cutaneous.
+
+Because it is a posterior-cord nerve, everything it supplies is on the extensor side. The department book states the rule that makes this predictable: all branches of the lateral and medial cords supply the flexor side, while all branches of the posterior cord supply the extensor side of the upper limb.
+
+### Structure
+The course is taught in five stages, and it is worth learning as five because the branches are grouped by the same five.
+
+In the axilla, the nerve descends between the third part of the axillary artery and the posterior wall of the axilla.
+
+In the upper third of the arm, it passes downwards and laterally behind the proximal part of the brachial artery, separating it from the long head of triceps.
+
+In the middle third, it leaves the front of the arm by passing between the long and medial heads of triceps to reach the spiral groove, where it runs downwards and laterally between the lateral and medial heads, accompanied by the profunda brachii vessels.
+
+In the lower third, it pierces the lateral intermuscular septum, accompanied by the radial collateral artery, to reach the front of the arm again, and descends between brachialis and brachioradialis to the front of the lateral epicondyle.
+
+In front of the lateral epicondyle, it ends. It gives the posterior interosseous nerve, and the radial nerve itself continues as the superficial radial nerve. Dr. Galal's revision adds that the ending is in the cubital fossa; the department book puts it one centimetre below the elbow joint at the level of the neck of the radius when describing the artery that accompanies it.
+
+The branches are given in three groups plus the terminals, and this grouping is the shape of the seven-mark answer.
+
+In the axilla: muscular branches to the long and medial heads of triceps, and one cutaneous branch, the posterior cutaneous nerve of the arm.
+
+In the spiral groove: muscular branches to the lateral and medial heads of triceps and to anconeus, and two cutaneous branches, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm.
+
+In the lower third of the arm, in the groove between brachialis and brachioradialis: muscular branches to a small lateral part of brachialis, to brachioradialis, and to extensor carpi radialis longus.
+
+Terminal branches in front of the lateral epicondyle: the posterior interosseous nerve, and the continuation as the superficial radial nerve.
+
+Note that the medial head of triceps receives a branch twice, once in the axilla and once in the spiral groove. That is the source's own statement and not a duplication to be tidied away.
+
+### Relations
+The relations change at every stage and each one explains a vulnerability.
+
+In the axilla the nerve lies behind the third part of the axillary artery and in front of the posterior wall — subscapularis, teres major and latissimus dorsi. Anything pressed up into the armpit therefore reaches it.
+
+In the upper arm it lies behind the brachial artery, separating that artery from the long head of triceps.
+
+In the spiral groove it lies directly on the bone, between the lateral and medial heads of triceps, with the profunda brachii vessels. This is the only place in its course where nerve and periosteum are in contact, and it is where a fracture of the humeral shaft reaches it.
+
+In the lower third it lies between brachialis medially and brachioradialis laterally, having pierced the lateral intermuscular septum with the radial collateral artery.
+
+At its end it lies in front of the lateral epicondyle, in the lateral part of the cubital fossa, which the orientation sheet lists as one of the five named spaces.
+
+### Blood supply, innervation and lymphatics
+What the radial nerve supplies is asked as branch plus area, and the areas divide into muscle and skin.
+
+Muscles, in order down the arm: the long and medial heads of triceps from the axilla; the lateral and medial heads of triceps and anconeus in the spiral groove; and a small lateral part of brachialis, brachioradialis and extensor carpi radialis longus in the lower third. Everything below that is supplied through the posterior interosseous nerve, which supplies all the forearm extensors except brachioradialis, extensor carpi radialis longus and anconeus — the three the radial nerve had already taken itself.
+
+Skin, by branch: the posterior cutaneous nerve of the arm supplies the back of the arm from the deltoid tuberosity down to the elbow. The lower lateral cutaneous nerve of the arm supplies the skin on the lower half of the lateral side of the arm. The posterior cutaneous nerve of the forearm supplies the skin in the middle of the back of the forearm down to the wrist. The superficial radial nerve supplies the lateral two-thirds of the dorsum of the hand and the proximal halves of the dorsal aspects of the lateral three and a half fingers.
+
+One detail about that hand territory is separately marked. Branches of the median nerve overlap the whole area supplied by the superficial radial nerve, except a small triangular area on the dorsum of the web between thumb and index, which is supplied by the superficial radial nerve alone. That triangle is the nerve's autonomous zone, and it is why complete sensory loss after a radial lesion is so small.
+
+The arteries that accompany the nerve are the profunda brachii in the spiral groove and its anterior descending, or radial collateral, branch through the lateral intermuscular septum. Neither Kasr source describes the vasa nervorum of the nerve itself.
+
+### Development
+Neither Kasr source describes the development of a peripheral nerve, and nothing is invented here.
+
+What the department book does state is the general rule from the embryology part: each somite's dermomyotome divides into a dorsal part, forming the skeletal muscle and dermis on the back of the vertebral column, and a ventral part, forming the skeletal muscles and dermis of the rest of the body, and the spinal nerve divides into dorsal and ventral primary rami to supply the divided dermomyotome. The roots of the brachial plexus are formed by the ventral primary rami of C5 to T1, so the radial nerve and everything it supplies belong to the ventral division.
+
+The segmental map that would complete this account — the dermatomes of the upper limb — is on page 260 of the department book, where the section consists of two figures and no text. The values are inside the images and could not be extracted, so they are not stated here.
+
+### Surface and imaging anatomy
+The nerve is not directly palpable through most of its course, and no Kasr source gives a surface marking line for it.
+
+Two bony landmarks stand in for one. The spiral groove runs obliquely across the back of the shaft of the humerus, so the nerve crosses the mid-shaft from medial to lateral; a mid-shaft fracture is therefore the fracture that matters. And the front of the lateral epicondyle is where the nerve ends, in the groove between brachialis and brachioradialis, which can be found by resisting elbow flexion in the mid-prone position to make brachioradialis stand out.
+
+Neither Kasr source gives a radiographic or ultrasound appearance of the nerve. What the sources do give radiologically is the fracture: fracture of the shaft of the humerus, and fracture of the head, neck or upper part of the shaft of the radius.
+
+### Clinical correlations
+The orientation sheet asks for the effect of injury by name, and the department book devotes half a chapter to it.
+
+The causes are three, by site. In the axilla, from the pressure of a badly adjusted crutch, or from a drunkard falling asleep with one arm over the back of a chair — Saturday night palsy. In the spiral groove, from fracture of the shaft of the humerus. And for the posterior interosseous nerve alone, from fracture of the head, neck or upper part of the shaft of the radius, or downward dislocation of the radial head.
+
+The motor effects are three, and they follow the branches from above downwards. Extension of the elbow is impaired, because triceps is affected. Supination of the extended forearm fails, because supinator is affected — note the qualification, since biceps can still supinate the flexed elbow. And there is wrist drop and finger drop, from paralysis of all the extensors of the wrist and fingers. The department book explains why the last is so disabling: a firm grip is impossible while the wrist is flexed.
+
+The level changes the picture, and this is the discriminating question. In a posterior interosseous nerve injury there is finger drop only, without wrist drop, because extensor carpi radialis longus is supplied above the lesion and alone can maintain extension of the wrist.
+
+The sensory effects are stated as paraesthesia over a wide area and complete loss over a small one. Paraesthesia covers the back of the arm and forearm, the lower part of the lateral side of the arm, the lateral two-thirds of the dorsum of the hand, and the dorsum of the proximal phalanges of the lateral three and a half fingers. Complete sensory loss is confined to a small area on the dorsum of the hand between the first and second metacarpals, because the rest of the territory is overlapped by adjacent nerves. A lesion high in the axilla adds a patch of sensory loss over the lower half of the deltoid.
+## hold_these
+Origin: in the axilla, as the larger of the two terminal branches of the posterior cord of the brachial plexus.
+Root value: C5, C6, C7, C8 and T1.
+End: in front of the lateral epicondyle, by giving the posterior interosseous nerve and continuing as the superficial radial nerve.
+Branches in the axilla: muscular to the long and medial heads of triceps, and the posterior cutaneous nerve of the arm.
+Branches in the spiral groove: muscular to the lateral and medial heads of triceps and anconeus, plus the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm.
+Branches in the lower third of the arm: muscular to a small lateral part of brachialis, to brachioradialis and to extensor carpi radialis longus.
+In the spiral groove the nerve lies on bone between the lateral and medial heads of triceps with the profunda brachii vessels, which is why a humeral shaft fracture injures it.
+Motor effects of injury: impaired elbow extension, failure of supination of the extended forearm, and wrist drop with finger drop.
+Posterior interosseous injury gives finger drop without wrist drop, because extensor carpi radialis longus is intact.
+Complete sensory loss is confined to a small area on the dorsum of the hand between the 1st and 2nd metacarpals; the rest is overlapped.
+The posterior interosseous nerve supplies all the forearm extensors except brachioradialis, extensor carpi radialis longus and anconeus.
+## lose_the_mark
+Giving the root value as C5 to C8. The radial nerve carries T1, and the question asks for the root value by name.
+Listing the branches without grouping them by level. The department, Dr. Galal and the VIP book all group them as axilla, spiral groove and lower third, and the marks are laid out that way.
+Naming branches without the areas they supply. The orientation sheet asks for "name of branches with areas supplied by these branches", so a bare list answers half.
+Answering wrist drop for a posterior interosseous lesion. That lesion gives finger drop alone, because extensor carpi radialis longus is supplied above it.
+Writing that supination is lost. It is supination of the extended forearm that fails; biceps still supinates the flexed elbow.
+Claiming a large area of anaesthesia. Only the small area between the 1st and 2nd metacarpals is completely lost, because median branches overlap the rest.
+Forgetting that the medial head of triceps is supplied twice, in the axilla and again in the spiral groove.
+Omitting the effect of injury altogether. The orientation sheet lists it as one of the seven things every named nerve is examined on.
+## image_recommendations
+### anatomy plate · Whole course of the radial nerve on one figure, anterior and posterior views side by side, from the posterior cord through the axilla, behind the brachial artery, into the spiral groove with profunda brachii, through the lateral intermuscular septum, and down between brachialis and brachioradialis to the front of the lateral epicondyle
+Purpose: The nerve is examined on its course, and the course crosses from front to back and returns. That is a three-dimensional path which no single view can carry and no paragraph can make navigable.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 45 and 46
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-59B3B8AB2A2CFA, whose exam question was "Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm", 7 marks.
+### diagram · Branching chart of the radial nerve arranged by level in four bands - axilla, spiral groove, lower third of arm, terminal - with muscular branches on one side and cutaneous branches on the other, each cutaneous branch carrying its skin territory
+Purpose: The answer is a grouped list and students reproduce it ungrouped, which is where the marks go. A chart that is itself grouped by level is the revision artefact the mark scheme rewards.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn for this product, from the department book Anatomy pages on the arm
+Rights: newly drawn for this product, or CC-BY
+### diagram · Cutaneous territory of the radial nerve on arm, forearm and dorsum of hand, with the overlap from median branches shown as a hatched layer and the autonomous triangle in the first web space left unhatched
+Purpose: The examinable point is that a wide paraesthesia accompanies a tiny area of complete loss, and the reason is overlap. Overlap is exactly what a hatched map shows and a sentence does not.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book cutaneous nerve supply chapter Figs. 99-102
+Rights: newly drawn for this product, or CC-BY
+### clinical photograph · Wrist drop in a patient with a radial nerve lesion in the spiral groove, arm held forward with the wrist and fingers hanging
+Purpose: Wrist drop is a posture, and the reason it disables the hand - that a grip cannot be firm with the wrist flexed - is visible in the photograph and abstract in the text.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical teaching set, with consent recorded
+Rights: must be CC-BY or public domain, with patient consent recorded
+### imaging example · Antero-posterior radiograph of a mid-shaft humeral fracture, unlabelled, with the level of the spiral groove indicated in a companion drawing
+Purpose: The single most examined cause of this injury is a fracture at one level of one bone. Seeing the fracture beside the groove makes the association anatomical rather than memorised.
+Priority: optional
+Status: needed
+Kind: imaging example
+Section: Surface and imaging anatomy
+Source direction: openly licensed radiology teaching collection such as an open case repository
+Rights: must be CC-BY or public domain, fully de-identified
+## conflicts
+Where the nerve ends. Dr. Galal's revision and the VIP Upper Limb book say it ends in the cubital fossa in front of the lateral epicondyle. The department book says the same for the nerve but, when describing the accompanying radial artery, places the level one centimetre below the elbow joint at the neck of the radius. Both wordings are given above; nothing turns on the difference for the nerve.
+Whether the lower-third branches are counted as a separate group. Dr. Galal's revision and the VIP book give three groups plus terminals. The department book gives the same content but heads the third group "In the lower part of the arm (in the groove between brachialis and brachio-radialis)". The three-group structure is used here.
+## evidence_gaps
+The dermatome values of the upper limb are not stated anywhere in this article. The department book's "Segmental nerve supply of upper limb" section on page 260 consists of two figures with no text, so the values live only inside images the extraction could not read. They are a genuine gap rather than an omission.
+No Kasr source describes the vasa nervorum or the internal fascicular anatomy of the nerve.
+No Kasr source gives a surface marking line for the radial nerve, unlike the axillary and brachial arteries, for which surface anatomy is stated.
+No Kasr source gives a recovery time, a prognosis, or any management for radial nerve injury; only causes, motor effects and sensory effects are stated.
+No Kasr source names radial tunnel syndrome or Wartenberg's syndrome, and neither is mentioned here.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter on the Arm, PDF pages 194-204 — origin, root value, course, relations and branches of the radial nerve by level, with Figs. 45-47. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the cutaneous territories, the median overlap and the first-web-space exception, and the causes, motor effects and sensory effects of radial nerve injury; and the Axilla chapter, PDF pages 178-193, for the posterior cord and the flexor/extensor rule.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 16 — "Q. Radial n. in axilla & arm", the course and the three-column branch table; and page 34 — "Q Posterior interosseous N." and "Q. Radial n. injury" as a three-column causes, motor and sensory table.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 58, 124 and 128 — triceps and the radial nerve in axilla and arm, radial nerve injury, and the cutaneous innervation of the upper limb. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 5 — the model answer for the musculocutaneous and radial nerves in axilla and arm.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Nerves: Brachial plexus, Median, Radial, Ulnar, Axillary, Musculo-cutaneous nerves (origin, root value, end, course, name of branches with areas supplied by these branches and the effect of injury)", with four upper-limb short-answer questions at 7 marks each.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Development: The section states the department book's general somite and ventral-ramus rule and says in its own text that the book does not derive a peripheral nerve. The dermatome figures that would complete it are unreadable images on page 260, which is recorded in evidence_gaps.
+sections.Surface and imaging anatomy: The manoeuvre of resisting elbow flexion in the mid-prone position to raise brachioradialis is general clinical knowledge, used here only as a way of finding a groove the sources do describe.
+sections.Relations: The observation that the spiral groove is the one place where the nerve lies against periosteum is reasoning from the sources' own description, added to explain why the humeral shaft fracture is the classic cause.
+## notes
+Written to the orientation sheet's own seven-part specification for a named nerve: origin, root value, end, course, branches, areas supplied, effect of injury. All four Kasr sources agree on the branch grouping, and the department book alone supplies the injury detail.
+
+---
+
+# Item
+## id
+ART-101-ANA-HAND-ARTERIES
+## title
+Arteries of the hand and the anatomical snuff box
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-0F4A85CDF62557 | CON-MSK-0DC3FA5C012B3D
+## related_articles
+ART-101-ANA-RADIAL-NERVE: The superficial radial nerve crosses the roof of the snuff box on its way to the dorsum of the hand, beside the beginning of the cephalic vein.
+ART-101-ANA-ELBOW-JOINT: The radial and ulnar arteries begin as the terminal branches of the brachial artery in the cubital fossa, just below the elbow joint.
+## aliases
+Palmar arches | Superficial and deep palmar arch | Arterial arches of the hand | Snuffbox | Tabatiere anatomique
+## reading_time
+13
+## summary
+The radial artery reaches the palm the long way round, through the anatomical snuff box and across the dorsum, and ends as the deep palmar arch. The ulnar artery goes straight across the front of the wrist and ends as the superficial arch. That one fact sets the whole answer: which artery mainly forms which arch, which lies proximal, and why the pulse and the scaphoid share a hollow on the back of the wrist.
+## sections
+### Overview and position
+The arteries of the hand are the terminations of the radial and ulnar arteries, and the department book says so in one sentence: they end by forming the superficial and deep palmar arches respectively — the ulnar artery forming the superficial arch, the radial artery the deep one.
+
+There are four arterial arches in the hand, and the number is examined. Two lie on the carpus and two in the palm: the anterior carpal arch, the posterior carpal arch, the superficial palmar arch and the deep palmar arch.
+
+The anatomical snuff box belongs to this account rather than sitting beside it, because it is the doorway through which the radial artery leaves the front of the forearm for the back of the hand. It is a triangular hollow at the lateral part of the dorsum of the wrist, clearly visible when the thumb is extended, and the orientation sheet lists it as one of the five named spaces the paper examines.
+
+### Structure
+Both arteries are followed into the hand first, then the four arches, then the snuff box.
+
+The ulnar artery enters the palm superficial to the medial part of the flexor retinaculum, lateral to the ulnar nerve and the pisiform and covered by palmaris brevis, and divides in front of the retinaculum into a deep and a superficial division. The deep division passes backwards between abductor digiti minimi and flexor digiti minimi brevis, penetrates opponens digiti minimi, and anastomoses with the end of the deep palmar arch at the base of the fifth metacarpal, accompanied by the deep branch of the ulnar nerve. The superficial division curves laterally across the palm as the superficial palmar arch.
+
+The radial artery leaves the forearm by winding backwards round the lateral side of the wrist, superficial to the lateral ligament. It crosses the snuff box: in deep to abductor pollicis longus and extensor pollicis brevis, across the floor over the tendons of extensor carpi radialis longus and brevis, and out deep to the tendon of extensor pollicis longus. On the dorsum it descends to the proximal part of the first interosseous space, passes forwards between the two heads of the first dorsal interosseous into the palm, emerges between the oblique and transverse heads of adductor pollicis, and runs medially immediately distal to the bases of the metacarpals as the deep palmar arch. On the way it gives, on the dorsum, the posterior carpal artery, the first dorsal digital branch to the lateral border of the thumb, and the first dorsal metacarpal artery; and in the palm, the princeps pollicis artery, the radialis indicis artery, and the deep palmar arch itself.
+
+The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons and the digital branches of the median nerve. Its level is the midshaft of the metacarpals, distal to the deep arch. It is formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial artery at the thenar eminence. It gives four palmar digital arteries: one to the medial side of the little finger, arising from the medial end of the arch under cover of palmaris brevis, and three common palmar digital arteries from its convexity, running to the three clefts between the medial four fingers, each joined by the corresponding palmar metacarpal artery from the deep arch before dividing into a pair of proper palmar digital arteries.
+
+The deep palmar arch lies deep to the flexor tendons, crossing the palm immediately distal to the bases of the metacarpals, half an inch proximal to the superficial arch. It is formed mainly by the radial artery and completed by the deep palmar branch of the ulnar artery, the two meeting at the base of the fifth metacarpal. It is concave towards the wrist. Its branches are three groups: three palmar metacarpal arteries, which join the three common palmar digital branches of the superficial arch; three perforating branches, which pass dorsally through the proximal parts of the second, third and fourth intermetacarpal spaces to join the dorsal metacarpal arteries; and recurrent branches, which ascend in front of the wrist joint to end in the anterior carpal arch.
+
+The anterior carpal arch lies on the front of the carpus, deep to the flexor tendons. It is formed by four vessels, which together make a cruciate anastomosis: the anterior carpal branch of the radial artery, the anterior carpal branch of the ulnar artery, a descending branch from the anterior interosseous artery, and the recurrent branches from the deep palmar arch.
+
+The posterior carpal arch lies on the back of the carpus, deep to the extensor tendons. It is formed by four vessels: the posterior carpal branches of the radial and ulnar arteries and the anterior and posterior interosseous arteries. It gives the second, third and fourth dorsal metacarpal arteries, each bifurcating into two dorsal digital branches for the adjacent sides of the medial four fingers, and a dorsal digital branch to the medial border of the little finger. The first dorsal metacarpal artery is not from this arch — it arises from the radial artery on the dorsum of the hand.
+
+The anatomical snuff box is answered under four headings, and the 2025 paper asked for all four in four lettered subparts.
+
+Boundaries. Laterally, the tendons of abductor pollicis longus and extensor pollicis brevis, which act as one boundary together. Medially, the tendon of extensor pollicis longus alone.
+
+Floor. The styloid process of the radius, then the scaphoid proximally and the trapezium distally.
+
+Roof. Skin; superficial fascia containing the beginning of the cephalic vein and the digital branches of the superficial radial nerve; and deep fascia.
+
+Contents. The radial artery, crossing on its way to the dorsum of the hand, and the tendons of extensor carpi radialis longus and brevis crossing the floor.
+
+### Relations
+Each arch is defined by which layer of the palm it lies in, and the layers are the answer to "site".
+
+The superficial arch is between the palmar aponeurosis in front and the flexor tendons behind, with the digital branches of the median nerve also behind it. The deep arch is behind the flexor tendons, on the bases of the metacarpals, with the deep branch of the ulnar nerve running laterally across the palm in its concavity. A structure that is in front of the flexor tendons is superficial arch; a structure behind them is deep arch, and the ulnar nerve's deep branch travels with the deep one.
+
+At the wrist, the ulnar artery is superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform, and medial to the hook of hamate; the radial artery has already left the front of the wrist altogether.
+
+In the snuff box, the radial artery lies on the floor, so it is separated from the examining finger only by the roof — skin, superficial fascia and deep fascia — and separated from the scaphoid by nothing at all. The cephalic vein begins in the roof and the superficial radial nerve crosses it, which is why both are in the roof list and not in the contents list.
+
+### Blood supply, innervation and lymphatics
+This article is itself the blood supply of the hand, so what remains is what the arches supply, what nerves travel with them, and where the hand's lymph goes.
+
+The palmar surfaces of the adjacent sides of the medial four fingers are supplied by the proper palmar digital arteries, formed where each common palmar digital artery from the superficial arch is joined by a palmar metacarpal artery from the deep arch. The medial side of the little finger has its own palmar digital artery direct from the superficial arch. The thumb is supplied by the princeps pollicis from the radial artery in the palm, and the lateral side of the index by the radialis indicis. The dorsal surfaces are supplied by the dorsal metacarpal and dorsal digital arteries from the posterior carpal arch, except the thumb and the adjacent sides of thumb and index, which come from the radial artery on the dorsum directly.
+
+The nerves that accompany the arteries are the deep branch of the ulnar nerve, in the concavity of the deep arch, and the digital branches of the median nerve, lying behind the superficial arch. In the snuff box the superficial radial nerve is in the roof, not in the company of the artery.
+
+The lymph of the hand drains with the superficial and deep vessels of the limb to the lateral (humeral) group of axillary lymph nodes, except the vessels that follow the cephalic vein, some of which reach the infraclavicular nodes and then the apical group. No Kasr source describes a lymphatic plexus specific to the palm.
+
+### Development
+Neither Kasr source describes the development of the arteries of the hand, of the palmar arches, or of the carpal bones. Nothing is stated here.
+
+The only relevant developmental fact either book gives is general: the somite's dermomyotome forms the skeletal muscles and dermis of the body, and the ventral primary rami supply the ventral part. Nothing in the department book connects this to the vascular pattern of the hand, and no derivation is invented.
+
+### Surface and imaging anatomy
+Both palmar arches have a surface marking, and the two markings differ by one word.
+
+The superficial palmar arch is a curved line with its convexity directed distally, drawn across the hand from the distal border of the root of the extended thumb.
+
+The deep palmar arch is a curved line 4 cm long, drawn across the palm from a point just distal to the hook of hamate at the level of the proximal border of the fully extended thumb.
+
+Distal border for the superficial arch, proximal border for the deep arch. That is the whole mnemonic, and it encodes the anatomical fact that the deep arch is the more proximal of the two.
+
+The radial artery's surface line runs from a point midway between the two epicondyles, medial to the biceps tendon, to a point at the front of the lower end of the radius where the pulsation is felt, and is then continued round the radial side of the wrist to the proximal end of the first metacarpal interosseous space. The ulnar artery's line passes through three points: midway between the epicondyles medial to the biceps tendon; the medial side of the forearm at the junction of the upper third with the lower two-thirds; and just lateral to the pisiform at the wrist.
+
+The radial pulse can be felt in two places, and both are stated by the sources: at the front of the lower end of the radius, between the tendons of flexor carpi radialis medially and brachioradialis laterally, and again in the floor of the anatomical snuff box.
+
+### Clinical correlations
+Two clinical facts follow from this anatomy, and one of them was a case question on the 2025 paper.
+
+Tenderness in the anatomical snuff box after a fall on the outstretched hand points to the scaphoid, because the scaphoid is the proximal half of the floor. The VIP Upper Limb book states the reason it matters: the scaphoid is the commonest carpal bone to fracture after a fall on the outstretched hand, and it receives its blood supply through its distal part only, so a fracture at its middle deprives the proximal fragment of blood and it undergoes avascular necrosis. The examinable anatomy is the floor, the boundaries, the roof and the contents; the fracture is what makes a patient point at them.
+
+The two palmar arches anastomose with each other twice over — the palmar metacarpal arteries of the deep arch join the common palmar digital arteries of the superficial arch, and the deep branch of the ulnar artery completes the deep arch while the superficial palmar branch of the radial completes the superficial one. The consequence is that the hand has a double supply, and that is why the radial artery at the wrist can be cannulated or used as a graft when the ulnar supply is intact.
+
+The department book's clinical note for this chapter concerns the synovial sheaths rather than the arteries: infection of the second, third and fourth sheaths stays localised to those fingers, while infection of the thumb or little finger — the radial and ulnar bursae — may spread to the palm, the carpal tunnel and the forearm.
+
+### Variations and anomalies
+The department book records one variation directly: the radialis indicis artery has a variable origin, arising either from the radial artery itself or in common with the princeps pollicis. It also notes that the ulnar artery sometimes passes through the substance of the flexor retinaculum, between its superficial and deep parts, rather than crossing superficial to it. No other variation is described in any Kasr source, and none is added.
+## hold_these
+The radial and ulnar arteries end in the hand by forming the deep and superficial palmar arches respectively.
+The superficial palmar arch is formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial; it lies between the palmar aponeurosis and the flexor tendons, at the midshaft of the metacarpals.
+The deep palmar arch is formed mainly by the radial artery and completed by the deep palmar branch of the ulnar; it lies deep to the flexor tendons, immediately distal to the bases of the metacarpals, half an inch proximal to the superficial arch.
+The deep arch gives three palmar metacarpal arteries, three perforating branches, and recurrent branches to the anterior carpal arch.
+The deep branch of the ulnar nerve runs in the concavity of the deep palmar arch.
+Surface anatomy: superficial arch from the distal border of the root of the extended thumb; deep arch a 4 cm line from the proximal border.
+There are four arterial arches in the hand: anterior carpal, posterior carpal, superficial palmar and deep palmar.
+Snuff box boundaries: laterally the tendons of abductor pollicis longus and extensor pollicis brevis together, medially the tendon of extensor pollicis longus.
+Snuff box floor: styloid process of the radius, scaphoid proximally, trapezium distally.
+Snuff box roof: skin, superficial fascia containing the beginning of the cephalic vein and branches of the superficial radial nerve, and deep fascia.
+Snuff box contents: the radial artery, and the tendons of extensor carpi radialis longus and brevis crossing the floor.
+The scaphoid is supplied through its distal part only, so a fracture at its middle causes avascular necrosis of the proximal fragment.
+## lose_the_mark
+Swapping the two arches. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal.
+Giving abductor pollicis longus and extensor pollicis brevis as two separate boundaries. They form the lateral boundary together, and the medial boundary is extensor pollicis longus alone.
+Putting the cephalic vein and the superficial radial nerve in the contents of the snuff box. Both are in the roof; the contents are the radial artery and the two extensor carpi radialis tendons.
+Leaving the styloid process of the radius out of the floor. The floor has three named parts.
+Giving the deep arch two groups of branches. It has three: palmar metacarpal, perforating, and recurrent.
+Attributing the first dorsal metacarpal artery to the posterior carpal arch. That arch gives the second, third and fourth; the first comes from the radial artery on the dorsum.
+Answering the surface anatomy of both arches with the same landmark. The superficial arch takes the distal border of the extended thumb, the deep arch the proximal border.
+Writing that the scaphoid is supplied proximally. It is supplied through its distal part, which is why the proximal fragment is the one that dies.
+## image_recommendations
+### anatomy plate · Dissected palm with the palmar aponeurosis reflected, showing the superficial palmar arch on the flexor tendons and, in a second panel with the tendons removed, the deep palmar arch on the metacarpal bases, the half-inch interval between the two arches marked
+Purpose: Site and level are two separate marked rows and both are relations to the flexor tendons. Two panels of one hand at two depths carry the layering; a single plate flattens the two arches into one plane, which is precisely the confusion the concept records.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 93 and 94
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-0F4A85CDF62557, exam question "Describe site, formation and branches of the Deep Palmer Arch", 7 marks.
+### diagram · Palm outline with both arch surface markings drawn on it, the superficial arch springing from the distal border of the root of the extended thumb and the 4 cm deep arch from the proximal border, with the hook of hamate marked
+Purpose: The two markings differ by one word, distal against proximal, and students transpose them. Drawing both on one palm makes the difference a visible gap rather than a word to remember.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Surface and imaging anatomy
+Source direction: purpose-drawn for this product, from the department book's stated surface anatomy
+Rights: newly drawn for this product, or CC-BY
+### anatomy plate · The anatomical snuff box with the thumb extended, the three tendon boundaries labelled, the floor opened to show the styloid process, scaphoid and trapezium, and the radial artery crossing the floor over the tendons of extensor carpi radialis longus and brevis
+Purpose: The four-part answer - boundaries, floor, roof, contents - is a single small three-dimensional space, and the discriminations that carry marks are which tendon is on which side and what is roof versus content. One labelled plate settles all four.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas, or purpose-drawn following the department book Fig. 64
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-0DC3FA5C012B3D, exam question "a) boundaries b) contents c) floor d) roof of the anatomical snuff box", 3 marks across four subparts.
+### diagram · The scaphoid drawn alone with its blood supply entering distally, and a waist fracture drawn across it so the proximal fragment is left without a vessel
+Purpose: The reason snuff-box tenderness matters is a vascular argument about one small bone, and the direction of supply is the whole of it. A single bone with one arrow makes it obvious; the sentence has to be re-derived every time.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, following the VIP Upper Limb book page 12
+Rights: newly drawn for this product, or CC-BY
+### diagram · The four arterial arches of the hand on one figure, anterior carpal and posterior carpal on the carpus and the two palmar arches distal to them, with the vessels contributing to each arch labelled and the recurrent and perforating branches shown linking them
+Purpose: The four arches are a closed list that students merge into two, and the links between them - recurrent branches to the anterior carpal arch, perforating branches to the dorsal metacarpal arteries - are the reason the hand tolerates loss of one artery. Those links are a network and read as one only when drawn.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn, following the department book Fig. 95
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+The interval between the two palmar arches. The department book states it twice and does not agree with itself: describing the superficial arch it says the arch lies 1 cm distal to the deep arch, and describing the deep arch it says the deep arch lies half an inch proximal to the superficial one. Dr. Galal's revision and the VIP Upper Limb book both say half an inch, and half an inch is used here. Both figures are recorded because the department book prints both.
+Contents of the snuff box. Concept CON-MSK-0DC3FA5C012B3D names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
+Where the snuff box's boundaries are said to lie. The concept describes an anterior and a posterior boundary with the radial styloid as a base. All three Kasr sources describe a lateral and a medial boundary, the radial styloid being part of the floor. The Kasr wording is used.
+## evidence_gaps
+No Kasr source in this corpus describes the development of the arteries or arches of the hand, or of the carpal bones, so the Development section states nothing.
+No Kasr source describes Allen's test, arteriography of the hand, or any imaging of the palmar arches.
+No Kasr source gives a radiographic description of a scaphoid fracture, nor states that it may be invisible on an early film. The clinical account here stops at the blood supply, which is what the VIP book states.
+No Kasr source describes the incidence of an incomplete superficial palmar arch, which is a common variation elsewhere. Only the two variations the department book itself records are given.
+No Kasr source describes a lymphatic plexus specific to the palm or dorsum of the hand.
+Muscles of the hand and joints of the hand are outside the examinable syllabus by the department's own orientation sheet, and are deliberately not covered here even though the chapter this article draws on contains them.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter on the Hand, PDF pages 235-252 — the ulnar and radial arteries in the hand, both palmar arches, the four arterial arches, their branches and their surface anatomy, with Figs. 93-95. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter on the Forearm, PDF pages 205-234 — the anatomical snuff box under boundaries, roof, floor and contents with Fig. 64; the courses of the radial and ulnar arteries and their surface anatomy.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 26 — "Q.Ant. carpal arch", "Q.Post. arch arch", "Q.Superficial palmar arch" and "Q.Deep palmar arch" as a five-row table of arch, site, level, formation, branches and surface anatomy; and page 32 — "Anatomical snuff box" with Q.Boundaries and Q.Contents.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 12, 98 and 116 — bones of the hand including the scaphoid's distal blood supply and avascular necrosis; the arterial arches of the hand; the extensor retinaculum and anatomical snuff box. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 10 — the model answer for the arterial arches in the hand.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Vessels: All arteries of the upper limb (beginning, course, end and name of the branches and areas supplied by these branches with anastomosis or arches if present)"; "Spaces: ... Snuff box"; and "Muscles: ... except muscles of the hand", "Joints: All joints except joints of the hand".
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+scope: This article was widened from "Arteries of the hand" to cover the anatomical snuff box as a named space, because the 2025 paper's second case asks for its boundaries, contents, floor and roof in four subparts, and the orientation sheet lists the snuff box among the five examinable spaces. Widening rather than splitting was chosen because the radial artery reaches the deep palmar arch through the snuff box, so the two topics are one continuous course rather than two neighbouring ones.
+scope.excluded: The muscles of the hand and the joints of the hand are excluded by the department's own orientation sheet and are deliberately absent here. A later author should not add them; the omission is the syllabus, not an oversight. The hand chapter of the department book does contain them, which is why this note exists.
+sections.Development: Left substantively empty on purpose. No Kasr source derives the vessels or carpal bones, and nothing is filled in from general embryology.
+sections.Clinical correlations: The sentence about radial artery cannulation and grafting is general clinical knowledge, added to make the double supply mean something. The Kasr sources describe the anastomoses without naming a procedure.
+## notes
+Two concepts are taught here: the deep palmar arch and the anatomical snuff box. They share a chapter in the department book only loosely, but they share the radial artery, which is the thread the article follows. The department book's internal disagreement about the interval between the two arches is recorded in conflicts rather than silently resolved.

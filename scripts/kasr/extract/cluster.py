@@ -916,11 +916,19 @@ NEVER_HEADED_MUSCLES = ["coracobrachialis", "pectoralis minor", "subclavius",
 # The real end-of-year sittings that print per-question marks. Duplicate
 # "solved"/recollection copies of the same paper are deliberately excluded.
 CANONICAL_PAPERS = [
-    (2025, "EOY (ISK - 101) 199 (1).pdf"),
-    (2024, "EOY (ISK - 101) 198 (1).pdf"),
-    (2022, "EOY 195 first 2022 101 ISK final (1).pdf"),
-    (2022, "EOY 195 first 2022  101 ISK  final module (1).pdf"),
+    (2025, "EOY (ISK - 101) 199 (1).pdf", True),
+    (2024, "EOY (ISK - 101) 198 (1).pdf", True),
+    # The two 2022 sittings are one combined Histology+Anatomy paper each and the
+    # extractor caught only part of the Anatomy section, so their counts are not
+    # comparable with the two above.
+    (2022, "EOY 195 first 2022 101 ISK final (1).pdf", False),
+    (2022, "EOY 195 first 2022  101 ISK  final module (1).pdf", False),
 ]
+
+CASE_RE = re.compile(
+    r"^\s*(case\s*\(?\d|(a|an|during|following|after)\b.{0,90}?"
+    r"(year|man|woman|boy|girl|patient|lady|student|wife|labor|labour|game|accident|climb))",
+    re.I | re.S)
 
 
 def area_of(path):
@@ -1023,11 +1031,18 @@ def write_report(rows, objectives, unclustered, total):
     w("This is the most useful single fact here: material the department tells students to learn, and "
       "which no paper in the corpus has ever asked.")
     w("")
+    NEVER_EVIDENCE = {
+        "Joints -- acromioclavicular":
+            "the words \"acromioclavicular\" and \"acromio-clavicular\" do not occur in any of the "
+            "%d rows, in any spelling -- not as a question, not even as a wrong option" % total,
+        "Joints -- superior & inferior radio-ulnar":
+            "the radio-ulnar joints occur in five rows, every one of them as a wrong option inside a "
+            "question about something else (which joint is a gomphosis; which is the biaxial ellipsoid "
+            "joint) -- never as the subject of a question",
+    }
     for sec, item in never:
-        w("- **%s: %s** -- no cluster corresponds. In `questions.json` the acromioclavicular joint is not "
-          "mentioned in any of the %d rows at all; the radio-ulnar joints appear only as wrong options "
-          "inside questions about something else (gomphosis, the biaxial ellipsoid joint)." % (sec, item, total)
-          if "acromio" in item else "- **%s: %s** -- no cluster corresponds." % (sec, item))
+        w("- **%s: %s** -- no cluster corresponds; %s."
+          % (sec, item, NEVER_EVIDENCE.get(item, "no occurrence in the corpus")))
     w("")
     w("Both are declared twice over: the sheet says \"All joints except joints of the hand\", and the "
       "subject tree carries a `Joints of Upper Limb` leaf. Corroboration from the other two corpora "
@@ -1083,7 +1098,8 @@ def write_report(rows, objectives, unclustered, total):
         yrs = ", ".join(str(y) for y in o["yearsAsked"]) or "undated"
         w("| %s | %d | %s | %s |" % (o["label"][:110], o["timesAsked"], yrs, note))
     w("")
-    off_objs = [o for o in objectives if o["subjectPath"].startswith(OFF)]
+    off_objs = [o for o in objectives if "Lower Limb" in o["subjectPath"]
+                or "Thorax" in o["subjectPath"]]
     off_asks = sum(o["timesAsked"] for o in off_objs)
     w("The largest single block of undeclared material is the 2025 case bank, which examines **lower "
       "limb and thorax**: %d objectives across %d askings -- common peroneal nerve, femoral neck "
@@ -1091,8 +1107,7 @@ def write_report(rows, objectives, unclustered, total):
       "haemopericardium, the cardiac conducting system, inhaled foreign body and aortic aneurysm. None "
       "of this is on the orientation sheet and none of it exists anywhere in the 101 subject tree, whose "
       "only regional chapter is Upper Limb. A student revising module 101 from either document would not "
-      "know these were coming." % (len([o for o in off_objs if "Lower Limb" in o["subjectPath"]
-                                        or "Thorax" in o["subjectPath"]]), off_asks))
+      "know these were coming." % (len(off_objs), off_asks))
     w("")
     w("Two smaller overruns are worth naming. The sheet excludes muscles of the hand and joints of the "
       "hand, yet thumb movements and the extensor expansion are both examined. And lymphatics appear "
@@ -1113,7 +1128,7 @@ def write_report(rows, objectives, unclustered, total):
     for o in objectives:
         for oc in o["occurrences"]:
             idx_key[oc["index"]] = o
-    for year, fname in CANONICAL_PAPERS:
+    for year, fname, complete in CANONICAL_PAPERS:
         counts = defaultdict(int)
         cases = 0
         for i, r in enumerate(rows):
@@ -1124,15 +1139,17 @@ def write_report(rows, objectives, unclustered, total):
             o = idx_key.get(i)
             if not o:
                 continue
-            if o["key"].startswith("case-") or "case" in (r["text"][:12].lower()):
+            if o["key"].startswith("case-") or CASE_RE.match(r["text"]):
                 cases += 1
                 continue
             counts[area_of(o["subjectPath"])] += 1
         ok = (counts["Basis"] == 2 and counts["Embryology"] == 2
               and counts["Upper Limb"] == 4 and cases == 2)
+        verdict = ("**yes, exactly**" if ok else "no") if complete \
+            else "partial extraction -- not comparable"
         w("| %d | %s | %d | %d | %d | %d | %s |"
           % (year, fname[:40], counts["Basis"], counts["Embryology"], counts["Upper Limb"],
-             cases, "**yes, exactly**" if ok else "no"))
+             cases, verdict))
     w("")
     w("Only the 2025 paper obeys the declared structure, and it obeys it exactly: two basis questions "
       "(types of muscle attachment; primary against secondary cartilaginous joints), two embryology "
@@ -1140,7 +1157,8 @@ def write_report(rows, objectives, unclustered, total):
       "joint) and two cases. **2024** ran ten SAQs, not eight -- two basis, *three* embryology and "
       "*five* upper limb -- all at a flat 5 marks. **2022** is a different architecture again: a single "
       "combined Histology-and-Anatomy paper of fourteen short essays, twenty-nine MCQs and three "
-      "extended-matching questions. This is not a paper drifting from its orientation: the sheet is "
+      "extended-matching questions -- the two 2022 rows above are partial extractions, so the counts "
+      "in them are not the paper's shape. This is not a paper drifting from its orientation: the sheet is "
       "headed \"End of Year, 2025-2026\", so it describes the format that 2025 introduced, and the "
       "earlier papers predate it.")
     w("")

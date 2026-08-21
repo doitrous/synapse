@@ -11,7 +11,9 @@
  * occurrences. Getting this backwards splits a student's mastery across four
  * copies of the same idea.
  */
+import { createHash } from 'node:crypto'
 import { mintConceptId, mintQuestionId, partsKey, type Paper, type Seed, type SourceRef } from './seeds/types.ts'
+import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
 
 /** Where a concept was examined, in the `exam_signal` column's own grammar. */
 const occurrence = (source: SourceRef, seed: Seed) =>
@@ -178,3 +180,157 @@ No derived_from: transcribed rather than derived, so there is nothing to name.`
 export const batchFile = (header: string, blocks: string[]) =>
   `<!--\n${header.trim().split('\n').map((line) => `  ${line}`.trimEnd()).join('\n')}\n-->\n\n`
   + blocks.join('\n\n---\n\n') + '\n'
+
+/**
+ * A concept an author minted while reading a leaf's multiple-choice questions.
+ *
+ * Its exam signal is every occurrence of every question that tests it, which is
+ * what makes these worth minting at all: a question book asking the same thing
+ * five times across three books is saying something about the blueprint that no
+ * single paper says.
+ */
+export function mcqConceptBlock(concept: McqConcept, signals: string[]): string {
+  return `# Item
+## label
+${concept.label}
+## id
+${mintConceptId(concept.subject, concept.key)}
+## canonical_key
+${concept.key}
+## definition
+${concept.definition}
+## explicit_objective
+${concept.objective}
+## pitfalls
+${concept.pitfall}
+## concept_type
+${concept.type}
+## status
+under review
+## subject
+${concept.subject}
+## primary_node_id
+${concept.primary}
+## secondary_node_ids
+${concept.secondary.join(' | ')}
+## modules
+101 ISK
+## module_subject
+${concept.modulePath}
+## universities
+kau
+## learner_years
+1
+## exam_signal
+${signals.join('\n')}
+## weight_confidence
+${signals.length > 2 ? '0.8' : '0.6'}
+## support_mode
+direct_statement
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.`
+}
+
+/**
+ * One multiple-choice question, from a bank row plus what an author added.
+ *
+ * `QM-101-<12 hex>` from the bank's own key, so re-running the extraction
+ * cannot re-mint an item a student already has history against.
+ *
+ * The answer is the source's unless the author overrode it, and an override
+ * without a reason throws rather than importing: an answer changed silently is
+ * indistinguishable from an answer changed wrongly.
+ */
+export function mcqBlock(row: BankRow, authored: McqAuthored, leaf: McqLeafSeed): string {
+  if (authored.answerOverride && !authored.answerOverrideReason?.trim()) {
+    throw new Error(`${authored.key}: answerOverride without answerOverrideReason`)
+  }
+  const answer = authored.answerOverride ?? row.answer
+  if (!answer) throw new Error(`${authored.key}: no answer, and none supplied — exclude it instead`)
+
+  const letters = Object.keys(row.options).filter((letter) => row.options[letter]?.trim()).sort()
+  const missing = letters.filter((letter) => !authored.explanations[letter]?.trim())
+  if (missing.length) throw new Error(`${authored.key}: no explanation for option ${missing.join(', ')}`)
+  if (!letters.includes(answer)) throw new Error(`${authored.key}: answer ${answer} is not a filled option`)
+
+  const id = `QM-101-${createHash('sha256').update(`kau:101 ISK:mcq:${row.key}`).digest('hex').toUpperCase().slice(0, 12)}`
+  const concept = leaf.concepts.find((one) => one.key === authored.conceptKey)
+  if (!concept) throw new Error(`${authored.key}: conceptKey ${authored.conceptKey} is not in this leaf`)
+
+  const seen = row.occurrences
+    .map((where) => `${where.file} p${where.page} q${where.number}`)
+    .join('; ')
+
+  return `# Item
+## id
+${id}
+## title
+${row.stem.length > 90 ? `${row.stem.slice(0, 87)}…` : row.stem}
+## subject
+${concept.subject}
+## status
+Draft
+## format
+single_best_answer
+## question
+${row.stem}
+${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[letter]}\n## explanation_${letter.toLowerCase()}\n${authored.explanations[letter]}`).join('\n')}
+## correct_answer
+${answer}
+## main_concept
+${mintConceptId(concept.subject, concept.key)}
+## library_ids
+${leaf.articleId}
+## topic
+${row.topic === 'unknown' ? leaf.leaf : row.topic}
+## subtopic
+${leaf.leaf}
+## module
+101 ISK
+## module_subject
+${leaf.modulePath}
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+${authored.difficulty}
+## question_type
+${authored.questionType}
+## learning_objective
+${authored.learningObjective}
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+${Math.min(10, 3 + row.timesAsked * 1.5).toFixed(1)}
+## cognitive_effort
+${authored.difficulty === 'Easy' ? 'Low' : authored.difficulty === 'Moderate' ? 'Medium' : 'High'}
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. ${seen}. Manifest ${[...new Set(row.occurrences.map((where) => where.sourceId))].join(', ')}.
+## author_notes
+Asked ${row.timesAsked} time${row.timesAsked === 1 ? '' : 's'} across the question books.
+Extraction confidence ${row.confidence}; the answer came from ${row.answerConfidence === 'keyed' ? 'a separate answer key, joined by question number' : row.answerConfidence === 'same-file' ? 'the question book itself' : 'no source and was supplied by the author'}.
+${authored.answerOverrideReason ? `Answer changed from the source's: ${authored.answerOverrideReason}` : ''}
+${row.variants?.length ? `${row.variants.length} materially different wording${row.variants.length === 1 ? '' : 's'} of this question exist in the books and were not collapsed into it.` : ''}`
+}
