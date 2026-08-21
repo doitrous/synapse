@@ -1,0 +1,917 @@
+{
+ "source": {
+  "id": "src_f90429f7c288986e68b5",
+  "file": "EOY (INT - 102) 199 (2).pdf",
+  "module": "102 INT",
+  "sittingYear": 2025,
+  "tier": "end_of_year",
+  "sections": [
+   "Biochemistry",
+   "Physiology"
+  ],
+  "solvedCopy": "src_77300134fd057d61852c"
+ },
+ "seeds": [
+  {
+   "q": 1,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 1) Importance of cellulose {2 Marks}.",
+   "label": "Cellulose is undigestible because its glucose units are joined by β1,4 bonds, so it acts as dietary bulk that prevents constipation and delays fat absorption",
+   "key": "cellulose-dietary-importance",
+   "definition": "Cellulose is an unbranched chain of β-glucose units joined by β1,4-glucosidic linkages. Amylase hydrolyses only α-linkages, so cellulose passes through the gut undigested. It increases the bulk of food, which stimulates intestinal contractions and prevents constipation, and it delays fat absorption.",
+   "objective": "Explain why cellulose escapes digestion and state the two dietary consequences the department book gives for it.",
+   "pitfall": "Believing that humans secrete a cellulase and simply absorb cellulose slowly. Nothing in the human gut hydrolyses a β1,4 bond — the benefit comes from the cellulose that is never absorbed at all.",
+   "subject": "gi",
+   "primary": "DIS-BIO-T01",
+   "secondary": [
+    "SYS-GIT-T02-S02"
+   ],
+   "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+   "type": "structure_function_relationship",
+   "difficulty": "Easy",
+   "sourcePage": 1
+  },
+  {
+   "q": 2,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 2) Effects of denaturation of protein {2 Marks}.",
+   "label": "Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead",
+   "key": "protein-denaturation-effects",
+   "definition": "Denaturation breaks the bonds that stabilise the secondary, tertiary and quaternary orders, leaving only the primary structure. The protein loses solubility as its nonpolar groups become exposed, viscosity rises, digestibility by proteolytic enzymes rises because peptide bonds are exposed, biological activity is lost, and antigenic property is lost.",
+   "objective": "List the effects of denaturation on a protein and say which level of structure survives it.",
+   "pitfall": "Saying the peptide bonds are broken. Denaturation leaves the primary structure untouched — that is why a denatured protein is more digestible rather than already digested.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T05",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Proteins of Biological Importance",
+   "type": "mechanism",
+   "difficulty": "Easy",
+   "sourcePage": 1
+  },
+  {
+   "q": 3,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 3) Factors affecting the rate of enzyme catalyzed reaction {2 Marks}.",
+   "label": "The rate of an enzyme-catalysed reaction is set by substrate concentration, enzyme concentration, cofactor concentration, temperature and pH",
+   "key": "factors-affecting-enzyme-reaction-rate",
+   "definition": "Five factors govern the velocity of an enzyme-catalysed reaction: substrate concentration, which raises velocity to Vmax as the enzyme saturates; enzyme concentration, to which velocity is directly proportional until substrate becomes limiting; cofactor concentration, on the same terms; temperature, rising to an optimum near 37 °C and stopping near 70 °C as the enzyme denatures; and pH, most enzymes having an optimum between 5 and 9.",
+   "objective": "Name the five factors that affect the rate of an enzyme-catalysed reaction and say what limits the reaction once each is in excess.",
+   "pitfall": "Treating higher temperature as simply faster. Above the optimum the enzyme protein denatures and the catalytic site is disorganised, so velocity falls rather than rises.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T02",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Enzymes",
+   "type": "classification",
+   "difficulty": "Easy",
+   "sourcePage": 1
+  },
+  {
+   "q": 4,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 4) Nucleosides that act as a hydrogen carriers {2 Marks}.",
+   "label": "NAD+, NADP+, FMN and FAD are the nucleotide-derived coenzymes that carry hydrogen between oxidised and reduced forms",
+   "key": "nucleotide-coenzyme-hydrogen-carriers",
+   "definition": "Four nucleotide-derived coenzymes act as hydrogen carriers. NAD+ and NADP+ are nicotinamide dinucleotides reduced to NADH,H+ and NADPH,H+; FMN and FAD are flavin nucleotides reduced to FMNH2 and FADH2. FMN is the only one of the four that contains no adenine.",
+   "objective": "Name the nucleotide coenzymes that carry hydrogen and give the reduced form of each.",
+   "pitfall": "Adding coenzyme A to the list. Coenzyme A is a nucleotide coenzyme too, but it carries acyl groups on its thiol, not hydrogen.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T01",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+   "type": "classification",
+   "difficulty": "Moderate",
+   "sourcePage": 1
+  },
+  {
+   "q": 5,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 5) DNA polymerases and each one’s importance {2 Marks}.",
+   "label": "The five eukaryotic DNA polymerases divide the work of replication: α primes, β repairs, γ copies mitochondrial DNA, δ makes the lagging strand and ε makes the leading strand",
+   "key": "eukaryotic-dna-polymerases-and-roles",
+   "definition": "DNA polymerase α, as the α–primase complex, lays down the RNA primers and the short DNA attached to them. DNA polymerase β fills the gap in DNA repair. DNA polymerase γ synthesises mitochondrial DNA. DNA polymerase δ synthesises the lagging strand from many primers, discontinuously as Okazaki fragments. DNA polymerase ε synthesises the leading strand continuously from a single primer. Polymerases δ and ε also proofread by exonuclease activity.",
+   "objective": "Name the five eukaryotic DNA polymerases and give the specific job each one does.",
+   "pitfall": "Swapping δ and ε. Epsilon makes the leading strand and needs only one primer; delta makes the lagging strand and needs many.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T06",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+   "type": "classification",
+   "difficulty": "Hard",
+   "sourcePage": 1
+  },
+  {
+   "q": 6,
+   "section": "Biochemistry",
+   "page": 1,
+   "marks": 2,
+   "asked": "I) Enumerate two of the following: 6) Post-translational covalent modification, and an example each {2 Marks}.",
+   "label": "Covalent post-translational modification adds a functional group to an amino acid residue — phosphate, carbohydrate, acetyl or methyl, hydroxyl or carboxyl — and each has its own worked example",
+   "key": "post-translational-covalent-modification-types",
+   "definition": "Amino acid residues in a finished chain are modified enzymatically to alter activity or stability, to direct the protein to a compartment, or to prepare it for secretion. Phosphorylation and dephosphorylation on serine, threonine or tyrosine regulate the enzymes of glycogen metabolism and regulators of gene transcription. Glycosylation marks proteins destined for secretion, lysosomes or membranes. Acetylation or methylation of the N-terminal residue alters charge, as in chromatin remodelling by histone acetylation. Hydroxylation of prolyl and lysyl residues stabilises collagen. Carboxylation forms γ-carboxyglutamate, which lets clotting proteins bind calcium.",
+   "objective": "Name the types of covalent post-translational modification and give the department book's example for each.",
+   "pitfall": "Offering trimming — the conversion of pre-proinsulin to insulin — as a covalent modification. Trimming is proteolytic removal of a segment and is the other branch of post-translational modification, not this one.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T06",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+   "type": "classification",
+   "difficulty": "Moderate",
+   "sourcePage": 1
+  },
+  {
+   "q": 7,
+   "section": "Biochemistry",
+   "page": 2,
+   "marks": 3,
+   "asked": "II) Explain in biochemical basis: 1) GAGs have shock absorbing property {3 Marks}.",
+   "label": "GAGs absorb shock because their negatively charged carboxylate and sulfate groups trap water into a gel that is squeezed out under load and reabsorbed when the load is released",
+   "key": "gag-shock-absorption-mechanism",
+   "definition": "Glycosaminoglycans are long unbranched heteropolysaccharides of repeating amino sugar and uronic acid units, mostly bound to a protein core as proteoglycans. Their negatively charged carboxylate and sulfate groups trap water and create a hydrated gel. When the gel is compressed, water is squeezed out and the molecules occupy a smaller volume; when the compression is released, they regain their original hydrated size. That reversible compressibility is what absorbs shock in joints and makes the eyeball resilient.",
+   "objective": "Explain, from the charge on a proteoglycan, how glycosaminoglycans act as shock absorbers in a joint.",
+   "pitfall": "Attributing the cushioning to the protein core, or to the sugar chains being physically springy. It is the fixed negative charge holding water that does the work — take the water away and the gel does nothing.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T01",
+   "secondary": [
+    "SYS-MSK-T04-S02"
+   ],
+   "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+   "type": "structure_function_relationship",
+   "difficulty": "Moderate",
+   "sourcePage": 2
+  },
+  {
+   "q": 8,
+   "section": "Biochemistry",
+   "page": 2,
+   "marks": 3,
+   "asked": "II) Explain in biochemical basis: 2) Snake venom is toxic {3 Marks}.",
+   "label": "Snake venom is toxic because its lecithinase has phospholipase A2 activity, converting red cell membrane phospholipids to lysophospholipids and rupturing the membrane",
+   "key": "snake-venom-phospholipase-haemolysis",
+   "definition": "Snake venom toxins contain a lecithinase with phospholipase A2 activity. Injected into the blood, it hydrolyses the phospholipids of red cell membranes into lysophospholipids. Lysophospholipids do not hold a bilayer together, so the membrane ruptures and the cell haemolyses. Untreated, snake venom toxins cause death; the treatment is antitoxin.",
+   "objective": "Explain the enzymatic mechanism by which snake venom haemolyses red cells and name the class of enzyme responsible.",
+   "pitfall": "Naming phospholipase D. Phospholipase D is absent from humans and is a plant enzyme; the venom's activity is phospholipase A2, which is why the product is a lysophospholipid.",
+   "subject": "mul",
+   "primary": "DIS-BIO-T04",
+   "secondary": [
+    "SYS-MUL-T04-S01"
+   ],
+   "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 2
+  },
+  {
+   "q": 9,
+   "section": "Biochemistry",
+   "page": 3,
+   "marks": 3,
+   "asked": "II) Explain in biochemical basis: 3) HbA1c is used as a test to determine the diabetic control of the patients during the last 3 months {3 Marks}.",
+   "label": "HbA1c reports three months of glycaemic control because glucose binds haemoglobin non-enzymatically and irreversibly for the whole 120-day life of the red cell",
+   "key": "hba1c-three-month-glycaemic-window",
+   "definition": "Part of HbA1 binds blood glucose covalently at the N-terminal valine of the β chain, forming glycated haemoglobin, HbA1c. The reaction is non-enzymatic, so the amount formed depends only on how much glucose the red cell has been exposed to over its 120-day life span. HbA1c is 4 to 6.5% of HbA normally and higher in diabetes mellitus, which is why it reports average control over roughly the preceding three months rather than the glucose at the moment of sampling.",
+   "objective": "Explain why glycated haemoglobin reflects three months of glycaemic control rather than the current blood glucose.",
+   "pitfall": "Assuming an enzyme catalyses the glycation and can therefore be saturated or regulated. It is non-enzymatic, which is precisely why the result is a faithful integral of glucose exposure over the red cell's life.",
+   "subject": "endo",
+   "primary": "DIS-BIO-T07",
+   "secondary": [
+    "SYS-END-T06-S01"
+   ],
+   "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+   "type": "investigation",
+   "difficulty": "Moderate",
+   "sourcePage": 3
+  },
+  {
+   "q": 10,
+   "section": "Biochemistry",
+   "page": 3,
+   "marks": 3,
+   "asked": "II) Explain in biochemical basis: 4) Sulfonamides are bacteriostatic agents {3 Marks}.",
+   "label": "Sulfonamides are bacteriostatic because they are structural analogues of PABA and competitively inhibit the bacterial enzyme that builds folic acid from it",
+   "key": "sulfonamide-competitive-inhibition-of-folate-synthesis",
+   "definition": "Bacteria must synthesise their own folic acid, and they build it from para-aminobenzoic acid. Sulfonamides are structurally similar to PABA, so they compete with it for the active site of the enzyme that uses PABA as substrate. Folate synthesis stops, growth and multiplication stop, and the bacteria are held rather than killed — a bacteriostatic action.",
+   "objective": "Explain how the structural similarity of a sulfonamide to PABA produces a bacteriostatic effect, and classify the type of enzyme inhibition involved.",
+   "pitfall": "Calling it bactericidal, or expecting it to work on human cells too. Humans take folate in the diet rather than synthesising it from PABA, so the target enzyme is not there to inhibit — that selectivity is the whole point.",
+   "subject": "pharm",
+   "primary": "DIS-BIO-T02",
+   "secondary": [
+    "SYS-INF-T06-S01"
+   ],
+   "modulePath": "102 INT > Biochemistry > Enzymes",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 3,
+   "system": "INF"
+  },
+  {
+   "q": 11,
+   "section": "Biochemistry",
+   "page": 4,
+   "marks": 6,
+   "asked": "III) Diagrams: -Diagram (1) [Pathway of Eicosanoids synthesis]. {6 Marks} 1) ....……………….. {1 Mark} 2) ....……………….. {1 Mark} 3) ....……………….. {1 Mark} a) Explain how (SAIDs) can be anti-inflammatory. {1 Mark} b) Explain how (NSAIDs) can be anti-inflammatory. {1 Mark} c) Explain how (Singular) can treat bronchial asthmatic attacks. {1 Mark}",
+   "label": "Eicosanoid synthesis runs from membrane phospholipid through phospholipase A2 to arachidonic acid, which prostaglandin H synthase turns into the cyclic products and lipoxygenase into the acyclic ones",
+   "key": "eicosanoid-synthesis-pathway-enzymes",
+   "definition": "Eicosanoids are C20 polyunsaturated fatty acid derivatives. Phospholipase A2 liberates arachidonic acid from membrane phospholipids. Prostaglandin H synthase, which carries both cyclooxygenase and peroxidase activity, converts arachidonic acid into the cyclic compounds — prostaglandins, prostacyclins and thromboxanes. Lipoxygenase converts it into the acyclic compounds, the leukotrienes and lipoxins.",
+   "objective": "Name the three enzymes of the eicosanoid pathway and say which class of eicosanoid each one produces.",
+   "pitfall": "Treating cyclooxygenase and prostaglandin H synthase as two different enzymes at two points of the pathway. Cyclooxygenase is one of the two catalytic activities of prostaglandin H synthase; peroxidase is the other.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T04",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 4
+  },
+  {
+   "q": 11,
+   "section": "Biochemistry",
+   "page": 4,
+   "marks": 0,
+   "asked": "III) Diagram (1) a) Explain how (SAIDs) can be anti-inflammatory. {1 Mark} b) Explain how (NSAIDs) can be anti-inflammatory. {1 Mark} c) Explain how (Singular) can treat bronchial asthmatic attacks. {1 Mark}",
+   "label": "The three anti-inflammatory drug classes act at three different points of the eicosanoid pathway — steroids on phospholipase A2, NSAIDs on cyclooxygenase, and Singulair on the leukotriene receptor",
+   "key": "eicosanoid-pathway-drug-targets",
+   "definition": "Steroidal anti-inflammatory drugs such as hydrocortisone, prednisone and betamethasone inhibit phospholipase A2 and so reduce the supply of arachidonic acid to the whole pathway. Nonsteroidal anti-inflammatory drugs such as aspirin, indomethacin and ibuprofen inhibit cyclooxygenase activity and so block prostaglandin synthesis alone. Singulair is a leukotriene receptor antagonist: it does not inhibit an enzyme but blocks the receptor, relieving the bronchospasm that leukotrienes cause and inhibiting the allergic pathway.",
+   "objective": "Locate each anti-inflammatory drug class on the eicosanoid pathway and explain why blocking that point produces its particular effect.",
+   "pitfall": "Assuming an NSAID is simply a weaker steroid acting at the same place. A steroid shuts off arachidonic acid for both branches; an NSAID leaves the lipoxygenase branch running, which is why it does not relieve leukotriene-driven bronchospasm.",
+   "subject": "pharm",
+   "primary": "DIS-BIO-T04",
+   "secondary": [
+    "SYS-FND-T03-S02"
+   ],
+   "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 4,
+   "system": "FND"
+  },
+  {
+   "q": 12,
+   "section": "Biochemistry",
+   "page": 5,
+   "marks": 5,
+   "asked": "III) Diagrams: -Diagram (2) [Post-transcriptional modifications]. {5 Marks} 1) ....……………….. {1 Mark} 2) ....……………….. {1 Mark} a) Mention the ribonucleoproteins responsible. {0.5 Mark} b) Mention a disease related. {0.5 Mark} 3) ....……………….. {1 Mark} a) Mention its importance. {1 Mark}",
+   "label": "Splicing removes introns and joins exons using the snRNP spliceosome, and splicing the same primary transcript differently yields several proteins from one gene",
+   "key": "mrna-splicing-and-alternative-splicing",
+   "definition": "The primary transcript, hnRNA, contains introns that do not code for amino acids lying between the coding exons. Splicing removes the introns and joins the exons to give functional mRNA, and it requires a spliceosome made of small nuclear ribonucleoproteins — snRNPs, built of special proteins and small nuclear RNAs. Alternative splicing splices the same primary transcript in different ways to yield different proteins from one gene, which is why the number of proteins far exceeds the number of genes.",
+   "objective": "Identify the post-transcriptional steps on the pathway diagram, name the ribonucleoproteins that carry out splicing, and explain what alternative splicing achieves.",
+   "pitfall": "Thinking alternative splicing is a fault that produces a wrong protein. It is a normal, regulated route by which one gene legitimately encodes several different products — the antibody genes are the department book's example.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T06",
+   "secondary": [
+    "SYS-IMM-T03-S01"
+   ],
+   "modulePath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 5
+  },
+  {
+   "q": 13,
+   "section": "Biochemistry",
+   "page": 6,
+   "marks": 5,
+   "asked": "III) Diagrams: -Diagram (3) [Point mutation types]. {5 Marks} 1) ………………… {0.5 Mark} a) Explain how this type could produce severe damage. {1.5 Marks} 2) ………………… {0.5 Mark} a) Explain how this type could produce severe damage. {1.5 Marks} 3) ………………… {0.5 Mark} a) Mention its effect. {0.5 Mark}",
+   "label": "A base substitution in a coding region is nonsense if it creates a stop codon, missense if it changes the amino acid, and silent if the new codon is a synonym",
+   "key": "point-mutation-types-and-consequences",
+   "definition": "Base substitutions are the commonest gene mutations. A nonsense mutation converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional — thalassaemia is the example. A missense mutation changes the codon so a different amino acid is inserted; the effect ranges from none to very serious, as in sickle cell anaemia, where glutamate is replaced by valine at position six of the β chain. A silent mutation gives a synonym codon for the same amino acid, so the protein is unchanged.",
+   "objective": "Name the three types of point mutation in a coding region and explain how each affects the protein product.",
+   "pitfall": "Assuming every missense mutation is harmless because only one amino acid changes. Whether it matters depends on which amino acid — swapping polar glutamate for nonpolar valine creates the sticky patch that produces sickle cell anaemia.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T06",
+   "secondary": [
+    "SYS-FND-T02-S01"
+   ],
+   "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+   "type": "classification",
+   "difficulty": "Hard",
+   "sourcePage": 6
+  },
+  {
+   "q": 14,
+   "section": "Biochemistry",
+   "page": 7,
+   "marks": 5,
+   "asked": "IV) Match: 1): {1 Mark each} 1 Glycine 2 Lycine 3 Cystine 4 Isoleucine 5 Glutamate — Essential sulfur containing amino acid / Essential branched-chain amino acid / Non-essential smallest amino acid / Non-essential acidic amino acid / Essential basic amino acid / Non-essential sulfur containing amino acid / Essential acidic amino acid",
+   "label": "An amino acid is placed by holding two classifications at once — its chemical group and whether the body can make it — and no acidic amino acid is essential",
+   "key": "amino-acid-chemical-and-nutritional-classification",
+   "definition": "Chemically, glycine is the smallest neutral aliphatic amino acid, lysine is basic aliphatic, cystine is the disulfide-linked dimer of the sulfur-containing cysteine, isoleucine is branched-chain, and glutamate is acidic aliphatic. Nutritionally, the nine essential amino acids are valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine; arginine is half-essential; all the rest, including glycine, cysteine and cystine, and glutamate, are non-essential.",
+   "objective": "Classify a named amino acid simultaneously by its chemical group and by whether it is essential in the diet.",
+   "pitfall": "Calling cystine essential because methionine, the other sulfur-containing amino acid, is. Methionine is the essential one; cysteine and its dimer cystine are made in the body. There is no essential acidic amino acid at all.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T05",
+   "secondary": [],
+   "modulePath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+   "type": "classification",
+   "difficulty": "Hard",
+   "sourcePage": 7
+  },
+  {
+   "q": 15,
+   "section": "Biochemistry",
+   "page": 7,
+   "marks": 5,
+   "asked": "IV) Match: 2): {1 Mark each} 1 CDK 2 P53 3 Bax 4 TNF/FAS receptors 5 Bcl-2 — Anti-Aptotic / Apoptotic / Initiate extrinsic pathway of Apoptosis / Guardian of the Genome / Initiate intrinsic pathway of Apoptosis / Check cell size and cell damage / Regulatory protein in cell cycle",
+   "label": "The proteins of the cell cycle and apoptosis divide into cycle regulators, the p53 guardian, the pro-apoptotic and anti-apoptotic Bcl-2 family, and the death receptors that start the extrinsic pathway",
+   "key": "cell-cycle-and-apoptosis-regulatory-proteins",
+   "definition": "Cyclin-dependent kinases are the regulatory proteins that, complexed with cyclins, drive the cell from one phase of the cycle to the next. p53 is the guardian of the genome: it arrests the cycle in G1 through p21 after moderate DNA damage and triggers apoptosis through Bax after severe damage. Bax, Bak and Bok are the apoptotic members of the Bcl-2 family and control cytochrome c release; Bcl-2 and Bcl-x are the anti-apoptotic members. The TNF and FAS receptors initiate the extrinsic pathway when their ligands bind.",
+   "objective": "Assign each named protein of the cell cycle and apoptosis to the function it performs.",
+   "pitfall": "Reading Bcl-2 as pro-apoptotic because the whole family is named after it. Bcl-2 itself is the anti-apoptotic member; Bax is the apoptotic one, and under physiological conditions the two are in balance.",
+   "subject": "fnd",
+   "primary": "DIS-BIO-T06",
+   "secondary": [
+    "SYS-FND-T01-S02"
+   ],
+   "modulePath": "102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes",
+   "type": "classification",
+   "difficulty": "Moderate",
+   "sourcePage": 7
+  },
+  {
+   "q": 1,
+   "section": "Physiology",
+   "page": 8,
+   "marks": 7,
+   "asked": "1) Explain absorption of Vitamin B12 {3 Marks}, mentioning its importance {2 Marks} and the manifestations of its deficiency {2 Marks}.",
+   "label": "Vitamin B12 is absorbed only after intrinsic factor from the gastric parietal cells binds it and carries it to a receptor in the lower ileum",
+   "key": "vitamin-b12-absorption-intrinsic-factor",
+   "definition": "The parietal cells of the gastric glands secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from digestion. Intrinsic factor also binds the vitamin to a specific receptor on the brush border of the mucosal cells of the lower ileum. Trypsin from the pancreas is required, so pancreatic disease impairs absorption. The vitamin enters the intestinal cell with intrinsic factor by pinocytosis, is set free inside, crosses the epithelium, and travels in the blood bound to transcobalamin II; the excess is stored in the liver.",
+   "objective": "Describe the steps of vitamin B12 absorption from gastric secretion of intrinsic factor to storage in the liver.",
+   "pitfall": "Expecting a dietary deficiency. Except in vegetarians, B12 deficiency is a failure of absorption — no intrinsic factor, no ileum, or no trypsin — not a shortage in the diet, and the liver holds several years' store either way.",
+   "subject": "haem",
+   "primary": "DIS-PHY-T05",
+   "secondary": [
+    "SYS-HEM-T02-S02-M02"
+   ],
+   "modulePath": "102 INT > Physiology > Blood > Vitamin B12 and folic acid",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 8
+  },
+  {
+   "q": 1,
+   "section": "Physiology",
+   "page": 8,
+   "marks": 0,
+   "asked": "1) … mentioning its importance {2 Marks} and the manifestations of its deficiency {2 Marks}.",
+   "label": "Vitamin B12 is needed for DNA synthesis and for myelination, so its deficiency gives both a macrocytic anaemia and neurological signs",
+   "key": "vitamin-b12-importance-and-deficiency",
+   "definition": "Vitamin B12 is required to form thymidine triphosphate, a building block of DNA, so it is essential for the nuclear maturation and division of the rapidly dividing bone marrow cells and hence for erythropoiesis. It is also needed for the myelination of nerves. Its deficiency therefore gives a macrocytic anaemia — the red cells grow bigger, irregular in shape and very fragile because nuclear maturation and cell division fail while cytoplasm keeps growing — together with neurological manifestations.",
+   "objective": "State why vitamin B12 is needed for erythropoiesis and predict the two families of manifestation its deficiency produces.",
+   "pitfall": "Explaining the large cells as a sign that the marrow is working harder. The cells are large because the nucleus cannot mature and divide while the cytoplasm goes on growing — failure of division, not compensation.",
+   "subject": "haem",
+   "primary": "DIS-PHY-T02",
+   "secondary": [
+    "SYS-HEM-T02-S02-M02"
+   ],
+   "modulePath": "102 INT > Physiology > Blood > Vitamin B12 and folic acid",
+   "type": "clinical_feature",
+   "difficulty": "Easy",
+   "sourcePage": 8
+  },
+  {
+   "q": 2,
+   "section": "Physiology",
+   "page": 9,
+   "marks": 9,
+   "asked": "2) Explain physiological limitations of blood coagulation {9 Marks}.",
+   "label": "Coagulation is held in check by general limiting reactions — smooth endothelium, hepatic clearance of activated factors and natural heparin — and by three specific ones: the thromboxane–prostacyclin balance, antithrombin III, and the fibrinolytic system",
+   "key": "physiological-limitation-of-coagulation",
+   "definition": "The tendency of blood to clot is balanced in vivo by limiting reactions. The general ones are the smooth vascular endothelium, which activates neither factor XII nor platelets; removal and inactivation of activated clotting factors in the liver; and naturally occurring heparin. The specific ones are the balance between the aggregating, vasoconstrictor thromboxane A2 and the anti-aggregating, vasodilator prostacyclin, which confines the clot to the injury; antithrombin III, which inhibits activated factors IX, X, XI and XII and is facilitated by heparin; and the fibrinolytic system, in which thrombin bound to endothelial thrombomodulin activates protein C, which with protein S inactivates factors V and VIII and releases tissue plasminogen activator, so plasmin lyses fibrin to fibrin degradation products that themselves inhibit thrombin.",
+   "objective": "Explain the general and specific reactions that stop coagulation spreading beyond the site of injury, and name the factors each one inactivates.",
+   "pitfall": "Treating this as a list of anticoagulant drugs. These are the body's own limiting reactions; warfarin and administered heparin are the pharmacological answer to a different question.",
+   "subject": "haem",
+   "primary": "DIS-PHY-T02",
+   "secondary": [
+    "SYS-HEM-T03"
+   ],
+   "modulePath": "102 INT > Physiology > Blood > Physiological limitations of blood coagulation",
+   "type": "mechanism",
+   "difficulty": "Challenging",
+   "sourcePage": 9
+  },
+  {
+   "q": 3,
+   "section": "Physiology",
+   "page": 10,
+   "marks": 8,
+   "asked": "3) Mention types of autonomic ganglia {8 Marks}.",
+   "label": "There are four types of autonomic ganglion — the paravertebral sympathetic chain, the collateral ganglia, the terminal ganglia, and the adrenal medulla as a modified sympathetic ganglion",
+   "key": "autonomic-ganglia-types",
+   "definition": "The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, except the cervical region, which has only three — superior, middle and inferior; it relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the large branches of the abdominal aorta and are named after them: coeliac, superior mesenteric and inferior mesenteric relay sympathetic fibres, while the ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines into the blood.",
+   "objective": "Name the four types of autonomic ganglion, give the site of each, and say which division of the autonomic nervous system relays there.",
+   "pitfall": "Assuming every collateral ganglion is sympathetic because the abdominal ones are. The ciliary, sphenopalatine, submaxillary and otic ganglia are collateral ganglia that relay parasympathetic fibres.",
+   "subject": "neuro",
+   "primary": "DIS-PHY-T07",
+   "secondary": [
+    "SYS-NEU-T01-S02"
+   ],
+   "modulePath": "102 INT > Physiology > Autonomic nervous system > Autonomic ganglia",
+   "type": "classification",
+   "difficulty": "Easy",
+   "sourcePage": 10
+  },
+  {
+   "q": 4,
+   "section": "Physiology",
+   "page": 11,
+   "marks": 6,
+   "asked": "4) Explain function of parasympathetic system on Thoracic & Abdominal viscera {6 Marks}.",
+   "label": "The vagus carries the whole parasympathetic supply of the thoracic and abdominal viscera, slowing the atria, constricting bronchi, driving gut motility and secretion, and emptying the gall bladder",
+   "key": "parasympathetic-function-thoracic-abdominal-viscera",
+   "definition": "Preganglionic fibres arise from the vagal nucleus in the medulla oblongata, run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles; it inhibits all properties of atrial muscle only, and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilatation of the pulmonary vessels and stimulation of the bronchial glands. On the gastrointestinal tract it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.",
+   "objective": "Give the origin, course and relay of the vagal parasympathetic supply and state its effect on the heart, lungs, gastrointestinal tract and gall bladder.",
+   "pitfall": "Saying the vagus slows the whole heart. It does not supply the ventricles at all — it inhibits the properties of atrial muscle only.",
+   "subject": "neuro",
+   "primary": "DIS-PHY-T07",
+   "secondary": [
+    "SYS-NEU-T01-S02"
+   ],
+   "modulePath": "102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system",
+   "type": "mechanism",
+   "difficulty": "Moderate",
+   "sourcePage": 11
+  }
+ ],
+ "schemes": {
+  "B1": {
+   "format": "short_answer",
+   "prompt": "Enumerate the importance of cellulose. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "It is not hydrolysed by amylase, because amylase hydrolyses only α-linkages and cellulose is joined by β1,4-glucosidic linkages",
+    "Undigested cellulose increases the bulk of food, which stimulates intestinal contractions and so prevents constipation",
+    "Cellulose in the diet delays fat absorption"
+   ]
+  },
+  "B2": {
+   "format": "short_answer",
+   "prompt": "Enumerate the effects of denaturation on a protein. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "Loss of the secondary, tertiary and quaternary structure, leaving the primary structure",
+    "Increased viscosity",
+    "Decreased solubility, due to exposure of nonpolar hydrophobic groups",
+    "Increased digestibility by proteolytic enzymes, due to exposure of the peptide bonds",
+    "Loss of biological activity, for example inactivation of enzymes",
+    "Loss of antigenic property — denatured protein cannot induce antibody formation"
+   ]
+  },
+  "B3": {
+   "format": "short_answer",
+   "prompt": "Enumerate the factors affecting the rate of an enzyme-catalysed reaction. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "Effect of substrate concentration [S] — velocity rises to Vmax as the enzyme saturates",
+    "Effect of enzyme concentration [E] — velocity is directly proportional until substrate becomes limiting",
+    "Effect of concentration of cofactors [C] — directly proportional until every enzyme molecule has its cofactor",
+    "Effect of temperature — rising to an optimum near 37 °C for animal enzymes, activity virtually stopping near 70 °C as the enzyme denatures",
+    "Effect of pH — each enzyme has an optimum, most between 5 and 9"
+   ]
+  },
+  "B4": {
+   "format": "short_answer",
+   "prompt": "Enumerate the nucleotide coenzymes that act as hydrogen carriers. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "NAD+, reduced to NADH,H+",
+    "NADP+, reduced to NADPH,H+",
+    "FMN, reduced to FMNH2",
+    "FAD, reduced to FADH2"
+   ]
+  },
+  "B5": {
+   "format": "short_answer",
+   "prompt": "Enumerate the eukaryotic DNA polymerases and the importance of each. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "DNA polymerase α, as the α–primase complex: synthesis of the RNA primers and the short DNA attached to them",
+    "DNA polymerase β: DNA repair — it fills the gap after the damaged part is excised",
+    "DNA polymerase γ: mitochondrial DNA synthesis",
+    "DNA polymerase δ: synthesis of the lagging strand, discontinuously as Okazaki fragments from multiple primers",
+    "DNA polymerase ε: synthesis of the leading strand, continuously from a single primer",
+    "Polymerases δ and ε also proofread, removing a misplaced nucleotide as an exonuclease and replacing it"
+   ]
+  },
+  "B6": {
+   "format": "short_answer",
+   "prompt": "Enumerate the types of covalent post-translational modification, with an example of each. (One of six items on the paper, of which the student answers two.)",
+   "expects": [
+    "Phosphorylation/dephosphorylation on serine, threonine or tyrosine — the enzymes of glycogen metabolism and regulators of gene transcription",
+    "Glycosylation — proteins destined to be secreted or incorporated into lysosomes or cellular membranes",
+    "Acetylation or methylation of the N-terminal amino acid — chromatin remodelling by histone acetylation",
+    "Hydroxylation of prolyl and lysyl residues — collagen, where it stabilises the protein",
+    "Carboxylation — formation of γ-carboxyglutamate, which lets clotting proteins bind Ca2+"
+   ]
+  },
+  "B7": {
+   "format": "short_answer",
+   "prompt": "Explain, on a biochemical basis, why glycosaminoglycans have a shock-absorbing property.",
+   "expects": [
+    "GAGs are long unbranched heteropolysaccharides of repeating amino sugar and uronic acid units, mostly bound to a protein core as proteoglycans",
+    "Their carboxylate and sulfate groups carry a negative charge",
+    "That charge traps water molecules, creating a hydrated gel",
+    "When the gel is compressed, water is squeezed out and the GAGs occupy a smaller volume",
+    "When the compression is released, the molecules regain their original hydrated size",
+    "This reversible compression is what absorbs shock in joints and makes the eyeball resilient"
+   ]
+  },
+  "B8": {
+   "format": "short_answer",
+   "prompt": "Explain, on a biochemical basis, why snake venom is toxic.",
+   "expects": [
+    "Snake venom toxins contain a lecithinase with phospholipase A2 activity",
+    "Injected into the blood, it converts the phospholipids of red cell membranes into lysophospholipids",
+    "The membrane ruptures, causing haemolysis",
+    "Snake venom toxins therefore cause death if not treated with antitoxins"
+   ]
+  },
+  "B9": {
+   "format": "short_answer",
+   "prompt": "Explain, on a biochemical basis, why HbA1c is used as a test of a diabetic patient's control over the preceding three months.",
+   "expects": [
+    "Part of adult haemoglobin (HbA1) binds blood glucose, forming glycated haemoglobin, HbA1c",
+    "Glucose forms a covalent bond with the N-terminal valine of the β chain",
+    "The reaction is non-enzymatic",
+    "It therefore depends on the exposure of the red cells to blood glucose throughout their 120-day life span",
+    "HbA1c is 4 to 6.5% of HbA in normal individuals and higher in diabetes mellitus"
+   ]
+  },
+  "B10": {
+   "format": "short_answer",
+   "prompt": "Explain, on a biochemical basis, why sulfonamides are bacteriostatic agents.",
+   "expects": [
+    "Bacteria require folic acid for growth and multiplication",
+    "Bacteria synthesise their own folic acid using para-aminobenzoic acid (PABA)",
+    "Sulfonamides are structurally similar to PABA",
+    "They act as competitive inhibitors of the enzyme that forms folic acid from PABA",
+    "A competitive inhibitor binds reversibly at the active site and its effect is reversed by raising substrate concentration, so growth is halted rather than the organism killed"
+   ]
+  },
+  "B11": {
+   "format": "multipart_written",
+   "prompt": "Diagram (1): the pathway of eicosanoid synthesis. Name the three numbered enzymes on the diagram, then answer (a) to (c). [The figure is required to sit this question — see the media request for scheme B11.]",
+   "expects": [],
+   "parts": [
+    {
+     "letter": "1",
+     "prompt": "Name the enzyme at position 1 on the diagram. {1 Mark}",
+     "expects": [
+      "Phospholipase A2 — it liberates arachidonic acid from membrane phospholipids"
+     ]
+    },
+    {
+     "letter": "2",
+     "prompt": "Name the enzyme at position 2 on the diagram. {1 Mark}",
+     "expects": [
+      "Prostaglandin H synthase — its two catalytic activities are cyclooxygenase and peroxidase, and it forms the cyclic eicosanoids: prostaglandins, prostacyclins and thromboxanes"
+     ]
+    },
+    {
+     "letter": "3",
+     "prompt": "Name the enzyme at position 3 on the diagram. {1 Mark}",
+     "expects": [
+      "Lipoxygenase — it forms the acyclic eicosanoids: leukotrienes and lipoxins"
+     ]
+    },
+    {
+     "letter": "a",
+     "prompt": "Explain how steroidal anti-inflammatory drugs (SAIDs) can be anti-inflammatory. {1 Mark}",
+     "conceptKey": "eicosanoid-pathway-drug-targets",
+     "expects": [
+      "They inhibit phospholipase A2 activity",
+      "This decreases the availability of arachidonic acid, so both branches of the pathway are starved of substrate",
+      "For example hydrocortisone (cortisol), prednisone and betamethasone"
+     ]
+    },
+    {
+     "letter": "b",
+     "prompt": "Explain how nonsteroidal anti-inflammatory drugs (NSAIDs) can be anti-inflammatory. {1 Mark}",
+     "conceptKey": "eicosanoid-pathway-drug-targets",
+     "expects": [
+      "They inhibit cyclooxygenase activity",
+      "Prostaglandin synthesis is therefore inhibited, and it is PGE2 that mediates the hyperaemia, oedema, pain and fever of inflammation",
+      "They include aspirin, indomethacin and ibuprofen"
+     ]
+    },
+    {
+     "letter": "c",
+     "prompt": "Explain how Singulair can treat bronchial asthmatic attacks. {1 Mark}",
+     "conceptKey": "eicosanoid-pathway-drug-targets",
+     "expects": [
+      "It is a leukotriene receptor antagonist",
+      "Leukotrienes contribute to severe allergic reactions that cause bronchoconstriction",
+      "Blocking the receptor relieves the bronchospasm and inhibits the allergic pathway"
+     ]
+    }
+   ]
+  },
+  "B12": {
+   "format": "multipart_written",
+   "prompt": "Diagram (2): post-transcriptional modifications. Name the three numbered steps on the diagram and answer the sub-questions. [The figure is required to sit this question — see the media request for scheme B12.]",
+   "expects": [],
+   "parts": [
+    {
+     "letter": "1",
+     "prompt": "Name the process at position 1 on the diagram. {1 Mark}",
+     "expects": [
+      "Transcription — the gene is transcribed into the primary RNA transcript (hnRNA)"
+     ]
+    },
+    {
+     "letter": "2",
+     "prompt": "Name the process at position 2 on the diagram. {1 Mark}",
+     "expects": [
+      "Splicing — removal of the introns and joining of the exons to form functional mRNA"
+     ]
+    },
+    {
+     "letter": "2a",
+     "prompt": "Mention the ribonucleoproteins responsible. {0.5 Mark}",
+     "expects": [
+      "Small nuclear ribonucleoproteins (snRNPs), which form the spliceosome",
+      "They are made of special proteins and small nuclear RNAs (snRNAs)"
+     ]
+    },
+    {
+     "letter": "2b",
+     "prompt": "Mention a related disease. {0.5 Mark}",
+     "expects": [
+      "Systemic lupus erythematosus — an autoimmune disease in which snRNPs are one target of the autoantibodies"
+     ]
+    },
+    {
+     "letter": "3",
+     "prompt": "Name the process at position 3 on the diagram. {1 Mark}",
+     "expects": [
+      "Alternative splicing — the primary transcript of some genes is spliced differently to yield different proteins"
+     ]
+    },
+    {
+     "letter": "3a",
+     "prompt": "Mention its importance. {1 Mark}",
+     "expects": [
+      "Different proteins are produced from the same gene",
+      "This explains why the estimated number of proteins far exceeds the number of genes, for example the antibody genes"
+     ]
+    }
+   ]
+  },
+  "B13": {
+   "format": "multipart_written",
+   "prompt": "Diagram (3): types of point mutation. Name the three numbered types on the diagram and answer the sub-questions. [The figure is required to sit this question — see the media request for scheme B13.]",
+   "expects": [],
+   "parts": [
+    {
+     "letter": "1",
+     "prompt": "Name the type of point mutation at position 1 on the diagram. {0.5 Mark}",
+     "expects": [
+      "Nonsense mutation"
+     ]
+    },
+    {
+     "letter": "1a",
+     "prompt": "Explain how this type could produce severe damage. {1.5 Marks}",
+     "expects": [
+      "An amino acid codon is converted into a stop (non-sense) codon",
+      "Translation of the mRNA from that gene is prematurely terminated",
+      "The protein product is truncated and usually non-functional, for example thalassaemia"
+     ]
+    },
+    {
+     "letter": "2",
+     "prompt": "Name the type of point mutation at position 2 on the diagram. {0.5 Mark}",
+     "expects": [
+      "Missense mutation"
+     ]
+    },
+    {
+     "letter": "2a",
+     "prompt": "Explain how this type could produce severe damage. {1.5 Marks}",
+     "expects": [
+      "The codon is changed, so a different amino acid is inserted into the protein product",
+      "Depending on which amino acid is changed, the effect ranges from none to very serious",
+      "In sickle cell anaemia, polar glutamate at position six of the β-globin chain is replaced by nonpolar valine",
+      "That creates a hydrophobic sticky patch, so deoxy-HbS polymerises into long insoluble fibres and the cell sickles"
+     ]
+    },
+    {
+     "letter": "3",
+     "prompt": "Name the type of point mutation at position 3 on the diagram. {0.5 Mark}",
+     "expects": [
+      "Silent mutation"
+     ]
+    },
+    {
+     "letter": "3a",
+     "prompt": "Mention its effect. {0.5 Mark}",
+     "expects": [
+      "A synonym codon is formed that codes for the same amino acid",
+      "No change occurs in the amino acid sequence of the gene product"
+     ]
+    }
+   ]
+  },
+  "B14": {
+   "format": "matching",
+   "prompt": "Match each amino acid to its description. Not every description is used.",
+   "expects": [],
+   "matchingOptions": [
+    "A | Essential sulfur containing amino acid",
+    "B | Essential branched-chain amino acid",
+    "C | Non-essential smallest amino acid",
+    "D | Non-essential acidic amino acid",
+    "E | Essential basic amino acid",
+    "F | Non-essential sulfur containing amino acid",
+    "G | Essential acidic amino acid"
+   ],
+   "matchingPrompts": [
+    "Glycine = C",
+    "Lysine = E",
+    "Cystine = F",
+    "Isoleucine = B",
+    "Glutamate = D"
+   ]
+  },
+  "B15": {
+   "format": "matching",
+   "prompt": "Match each protein of the cell cycle and apoptosis to its function. Not every function is used.",
+   "expects": [],
+   "matchingOptions": [
+    "A | Anti-apoptotic",
+    "B | Apoptotic",
+    "C | Initiate extrinsic pathway of apoptosis",
+    "D | Guardian of the Genome",
+    "E | Initiate intrinsic pathway of apoptosis",
+    "F | Check cell size and cell damage",
+    "G | Regulatory protein in cell cycle"
+   ],
+   "matchingPrompts": [
+    "CDK = G",
+    "P53 = D",
+    "Bax = B",
+    "TNF/FAS receptors = C",
+    "Bcl-2 = A"
+   ]
+  },
+  "P1": {
+   "format": "multipart_written",
+   "prompt": "Explain the absorption of vitamin B12, mentioning its importance and the manifestations of its deficiency.",
+   "expects": [],
+   "parts": [
+    {
+     "letter": "a",
+     "prompt": "Absorption. {3 Marks}",
+     "expects": [
+      "The parietal cells of the gastric glands secrete a glycoprotein, intrinsic factor, which combines with vitamin B12 and protects it from being digested",
+      "Intrinsic factor also binds vitamin B12 to a specific receptor site on the brush border membrane of the mucosal cells of the lower ileum",
+      "Trypsin secreted by the pancreas is required, so pancreatic deficiency disease may cause defective absorption",
+      "Vitamin B12 with intrinsic factor enters the intestinal cell by pinocytosis; inside the cell the vitamin is set free and transferred across the epithelium",
+      "In the blood it is bound to the plasma protein transcobalamin II, distributed to the tissues, and the excess is stored in the liver"
+     ]
+    },
+    {
+     "letter": "b",
+     "prompt": "Importance. {2 Marks}",
+     "conceptKey": "vitamin-b12-importance-and-deficiency",
+     "expects": [
+      "It is required for the formation of thymidine triphosphate, one of the building blocks of DNA, so it is essential for DNA synthesis",
+      "The bone marrow cells are among the most rapidly growing and dividing in the body, and their nuclear maturation and division depend on it — so it is important for the division and final maturation of red cells",
+      "It is also needed for the myelination of nerves"
+     ]
+    },
+    {
+     "letter": "c",
+     "prompt": "Manifestations of deficiency. {2 Marks}",
+     "conceptKey": "vitamin-b12-importance-and-deficiency",
+     "expects": [
+      "Macrocytic anaemia, from diminished DNA and failure of nuclear maturation and cell division in the bone marrow",
+      "The cells grow bigger in size, irregular in shape, and are very fragile",
+      "Neurological manifestations, because the vitamin is needed for myelination of nerves",
+      "Deficiency is usually due to failure of absorption rather than a dietary shortage, except in vegetarians"
+     ]
+    }
+   ]
+  },
+  "P2": {
+   "format": "structured_written",
+   "prompt": "Explain the physiological limitations of blood coagulation.",
+   "expects": [
+    "The tendency of blood to clot is balanced in vivo by limiting reactions that prevent clotting inside the vessels and break down any clot that forms",
+    "General limiting reaction: the smooth vascular endothelium, so that neither factor XII nor the platelets are activated",
+    "General limiting reaction: removal of some activated clotting factors and their inactivation in the liver",
+    "General limiting reaction: the presence of heparin, a naturally occurring anticoagulant",
+    "Specific limiting reaction: the interaction between the platelet-aggregating, vasoconstrictor thromboxane A2 and the anti-aggregating, vasodilator prostacyclin, which forms a clot at the site of injury but keeps the vessel lumen free of clot",
+    "Specific limiting reaction: antithrombin III inhibits the active forms of factors IX, X, XI and XII, and heparin facilitates this action",
+    "Specific limiting reaction — the fibrinolytic system: all endothelial cells except those of the cerebral microcirculation produce thrombomodulin, a thrombin-binding protein",
+    "Thrombin bound to thrombomodulin activates protein C",
+    "Activated protein C, with its cofactor protein S, inactivates factors V and VIII, inactivates the inhibitor of tissue plasminogen activator, and increases the formation of plasmin",
+    "Activated tissue plasminogen activator and thrombin convert plasminogen into plasmin (fibrinolysin)",
+    "Plasmin lyses fibrin and fibrinogen into fibrinogen degradation products, which themselves inhibit thrombin"
+   ]
+  },
+  "P3": {
+   "format": "structured_written",
+   "prompt": "Mention the types of autonomic ganglia.",
+   "expects": [
+    "Paravertebral sympathetic chain: on both sides of the vertebral column, with a ganglion for each segment of the spinal cord",
+    "Only three ganglia serve the cervical region — superior, middle and inferior cervical — and the chain relays sympathetic fibres only",
+    "Collateral ganglia: midway between the spinal cord and the viscera, at the origin of the big vessels arising from the abdominal aorta, and named after those vessels",
+    "Collateral ganglia relaying sympathetic fibres: coeliac, superior mesenteric and inferior mesenteric",
+    "Collateral ganglia relaying parasympathetic fibres: ciliary, sphenopalatine, submaxillary and otic",
+    "Terminal ganglia: near or in the visceral organ itself, relaying parasympathetic fibres, whose postganglionic fibres are very short — 1 mm to several centimetres",
+    "The adrenal medulla: a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines directly into the blood stream",
+    "It is supplied by preganglionic cholinergic sympathetic fibres, and its stimulation releases adrenaline (80%) and noradrenaline (20%)"
+   ]
+  },
+  "P4": {
+   "format": "structured_written",
+   "prompt": "Explain the function of the parasympathetic system on the thoracic and abdominal viscera.",
+   "expects": [
+    "The supply is the vagus nerve (cranial nerve X); its preganglionic fibres arise from the vagal nucleus in the medulla oblongata",
+    "They run in the vagus to supply the entire thoracic and abdominal viscera and constitute about 75% of all parasympathetic fibres",
+    "They relay in terminal ganglia inside or close to the organ",
+    "Heart: the vagus does not supply the ventricles",
+    "Heart: inhibition of all the properties of atrial cardiac muscle only",
+    "Heart: decreased coronary blood flow and oxygen consumption",
+    "Lungs: bronchoconstriction, dilatation of the pulmonary blood vessels, and stimulation of the bronchial glands",
+    "Gastrointestinal tract: contraction of the plain muscle of the wall of oesophagus, stomach, small intestine and proximal part of the large intestine",
+    "Gastrointestinal tract: relaxation of the sphincters",
+    "Gastrointestinal tract: secretory to the gut glands, the liver and the pancreas",
+    "Gall bladder: evacuation, by contraction of the wall and relaxation of the sphincter of Oddi"
+   ]
+  }
+ },
+ "mediaRequests": [
+  {
+   "forScheme": "B11",
+   "heading": "flowchart · Pathway of eicosanoid synthesis, with three enzymes blanked",
+   "brief": "Redraw the department book's eicosanoid flowchart (Module 102 Department Book, printed p34): membrane phospholipids at the top, an arrow down to arachidonic acid, then the chart branching left to leukotrienes and lipoxins and right to prostaglandin H2 and on to prostacyclins, other prostaglandins and thromboxanes. Leave the three enzyme labels on the arrows blank and number them 1, 2 and 3 in the order the exam paper uses. Show the SAID inhibition mark on the first arrow and the NSAID inhibition mark on the branch to PGH2.",
+   "purpose": "The question asks the student to name three enzymes by their position on a pathway diagram. Without the figure there is nothing to name, and any prose restatement would have to say which enzyme sits where — which is the answer. The figure is also what makes parts (a) to (c) intelligible, because each drug is defined by the arrow it blocks.",
+   "priority": "required",
+   "status": "needed",
+   "kind": "flowchart",
+   "sourceDirection": "Redraw from the Module 102 Department Book eicosanoid figure (source src_a488633802ec053c6325, physical p38 / printed p34); an openly licensed arachidonic-acid cascade diagram would also serve if relabelled to the department's own terms.",
+   "rights": "Must be an original redraw or CC-BY / public domain. Do not lift the department book scan."
+  },
+  {
+   "forScheme": "B12",
+   "heading": "flowchart · Post-transcriptional modification of mRNA, with three steps blanked",
+   "brief": "Redraw the department book's figure (Module 102 Department Book, printed p87): a gene of five exons, an arrow to the primary RNA transcript, then two divergent arrows to a normally spliced mRNA (exons 1-2-3-4-5) and an alternatively spliced mRNA (exons 1-3-5). Blank the three process labels on the arrows and number them 1, 2 and 3 as the exam paper does.",
+   "purpose": "The student must name three steps by where they sit on the diagram, and must then read off which step the snRNP and SLE sub-questions attach to. Prose cannot present the branch point that distinguishes splicing from alternative splicing without naming both, which is the answer.",
+   "priority": "required",
+   "status": "needed",
+   "kind": "flowchart",
+   "sourceDirection": "Redraw from the Module 102 Department Book alternative-splicing figure (source src_a488633802ec053c6325, physical p91 / printed p87).",
+   "rights": "Must be an original redraw or CC-BY / public domain. Do not lift the department book scan."
+  },
+  {
+   "forScheme": "B13",
+   "heading": "diagram · Types of point mutation from a single codon, with three types blanked",
+   "brief": "Redraw the department book's figure (Module 102 Department Book, printed p97): the codon UCA (serine) at the centre, with three labelled arrows leading to UAA (stop codon), CCA (codon for proline) and UCU (codon for serine). Blank the three arrow labels and number them 1, 2 and 3 as the exam paper does.",
+   "purpose": "The question is to name a mutation type from the codon change shown on the arrow. Describing the codon changes in prose would give the answer away, since the type follows directly from whether the new codon is a stop, a different amino acid, or a synonym.",
+   "priority": "required",
+   "status": "needed",
+   "kind": "diagram",
+   "sourceDirection": "Redraw from the Module 102 Department Book point-mutation figure (source src_a488633802ec053c6325, physical p101 / printed p97).",
+   "rights": "Must be an original redraw or CC-BY / public domain. Do not lift the department book scan."
+  }
+ ],
+ "unsat": [
+  {
+   "scheme": "B11",
+   "issue": "Blocked on a missing figure. The exam's Diagram (1) did not extract, so the mapping of blanks 1, 2 and 3 to the three enzymes cannot be read off the paper. The set of three enzymes is certain from the department book (phospholipase A2, prostaglandin H synthase, lipoxygenase); the order recorded here follows the solved copy, corroborated by the order of sub-questions (a) SAID, (b) NSAID, (c) Singulair, which walks the pathway in that sequence. Confirm against the figure before this question is sat.",
+   "blockedOn": "mediaRequest B11"
+  },
+  {
+   "scheme": "B12",
+   "issue": "Blocked on a missing figure. The exam's Diagram (2) did not extract. Here the numbering IS recoverable from the sub-questions — blank 2 carries 'the ribonucleoproteins responsible' and 'a disease related', which can only be splicing; blank 3 carries 'mention its importance', which can only be alternative splicing; blank 1 is therefore transcription — and the solved copy agrees. The figure is still needed for a student to sit the question.",
+   "blockedOn": "mediaRequest B12"
+  },
+  {
+   "scheme": "B13",
+   "issue": "Blocked on a missing figure. The exam's Diagram (3) did not extract. Blank 3 is fixed as the silent mutation, because its sub-question asks only for 'its effect' at 0.5 marks rather than for severe damage. Blanks 1 and 2 carry identical sub-questions, so which is nonsense and which is missense cannot be determined from the text; the order recorded here is the solved copy's and is unverified.",
+   "blockedOn": "mediaRequest B13"
+  },
+  {
+   "scheme": "B14",
+   "issue": "The solved copy leaves this block unanswered in the extracted text — the student drew connecting lines, which do not extract. Every pairing recorded here is derived from the department book's chemical and nutritional classifications of amino acids (physical p5-p9), not from the solved copy."
+  },
+  {
+   "scheme": "B15",
+   "issue": "The solved copy leaves this block unanswered in the extracted text, for the same reason. Every pairing is derived from the department book's Cell Cycle and Apoptosis chapter (physical p107-p111). One pairing carries genuine residual doubt: Bax is recorded as 'Apoptotic', because the book's own heading for Bax, Bak and Bok is 'Apoptotic modulators' and because Bcl-2 then takes 'Anti-apoptotic' as its exact counterpart. Bax does control cytochrome c release, so 'Initiate intrinsic pathway of Apoptosis' is not absurd — but the book attributes intrinsic initiation to intracellular stress rather than to a listed protein, which makes that option a distractor."
+  },
+  {
+   "scheme": "B1",
+   "issue": "The paper's Section I says 'Enumerate two of the following' and then prints six items. All six are recorded as separate seeds; only two of the twelve printed marks' worth are obtainable by any one candidate. See the report for the reasoning and for the two mark totals that follow from it."
+  },
+  {
+   "scheme": "P2",
+   "issue": "The solved copy leaves the whole of Section 2 blank. Every expects line for P1 to P4 is derived from the Physiology department book, not from a student answer. The 9 marks for P2 do not divide evenly across the six named limiting reactions and the paper prints no per-item breakdown, so the mark scheme is recorded as an unweighted list."
+  }
+ ]
+}

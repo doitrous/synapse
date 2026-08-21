@@ -1,0 +1,306 @@
+[
+ {
+  "id": "CON-GIT-9589A7077392FD",
+  "label": "Cellulose is undigestible because its glucose units are joined by β1,4 bonds, so it acts as dietary bulk that prevents constipation and delays fat absorption",
+  "key": "cellulose-dietary-importance",
+  "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+  "subject": "gi",
+  "objective": "Explain why cellulose escapes digestion and state the two dietary consequences the department book gives for it."
+ },
+ {
+  "id": "CON-FND-2414B3639FD4D3",
+  "label": "Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead",
+  "key": "protein-denaturation-effects",
+  "modulePath": "102 INT > Biochemistry > Proteins of Biological Importance",
+  "subject": "fnd",
+  "objective": "List the effects of denaturation on a protein and say which level of structure survives it."
+ },
+ {
+  "id": "CON-FND-F29934C070A94C",
+  "label": "The rate of an enzyme-catalysed reaction is set by substrate concentration, enzyme concentration, cofactor concentration, temperature and pH",
+  "key": "factors-affecting-enzyme-reaction-rate",
+  "modulePath": "102 INT > Biochemistry > Enzymes",
+  "subject": "fnd",
+  "objective": "Name the five factors that affect the rate of an enzyme-catalysed reaction and say what limits the reaction once each is in excess."
+ },
+ {
+  "id": "CON-FND-534286EBBAC239",
+  "label": "NAD+, NADP+, FMN and FAD are the nucleotide-derived coenzymes that carry hydrogen between oxidised and reduced forms",
+  "key": "nucleotide-coenzyme-hydrogen-carriers",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+  "subject": "fnd",
+  "objective": "Name the nucleotide coenzymes that carry hydrogen and give the reduced form of each."
+ },
+ {
+  "id": "CON-FND-A73C06E0EC3C1D",
+  "label": "The five eukaryotic DNA polymerases divide the work of replication: α primes, β repairs, γ copies mitochondrial DNA, δ makes the lagging strand and ε makes the leading strand",
+  "key": "eukaryotic-dna-polymerases-and-roles",
+  "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+  "subject": "fnd",
+  "objective": "Name the five eukaryotic DNA polymerases and give the specific job each one does."
+ },
+ {
+  "id": "CON-FND-344140D2457FBB",
+  "label": "Covalent post-translational modification adds a functional group to an amino acid residue — phosphate, carbohydrate, acetyl or methyl, hydroxyl or carboxyl — and each has its own worked example",
+  "key": "post-translational-covalent-modification-types",
+  "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+  "subject": "fnd",
+  "objective": "Name the types of covalent post-translational modification and give the department book's example for each."
+ },
+ {
+  "id": "CON-FND-F32B7A523D305A",
+  "label": "GAGs absorb shock because their negatively charged carboxylate and sulfate groups trap water into a gel that is squeezed out under load and reabsorbed when the load is released",
+  "key": "gag-shock-absorption-mechanism",
+  "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+  "subject": "fnd",
+  "objective": "Explain, from the charge on a proteoglycan, how glycosaminoglycans act as shock absorbers in a joint."
+ },
+ {
+  "id": "CON-MUL-4749CA1B14B669",
+  "label": "Snake venom is toxic because its lecithinase has phospholipase A2 activity, converting red cell membrane phospholipids to lysophospholipids and rupturing the membrane",
+  "key": "snake-venom-phospholipase-haemolysis",
+  "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+  "subject": "mul",
+  "objective": "Explain the enzymatic mechanism by which snake venom haemolyses red cells and name the class of enzyme responsible."
+ },
+ {
+  "id": "CON-END-47313D5F26B03A",
+  "label": "HbA1c reports three months of glycaemic control because glucose binds haemoglobin non-enzymatically and irreversibly for the whole 120-day life of the red cell",
+  "key": "hba1c-three-month-glycaemic-window",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+  "subject": "endo",
+  "objective": "Explain why glycated haemoglobin reflects three months of glycaemic control rather than the current blood glucose."
+ },
+ {
+  "id": "CON-INF-5A15540CA80809",
+  "label": "Sulfonamides are bacteriostatic because they are structural analogues of PABA and competitively inhibit the bacterial enzyme that builds folic acid from it",
+  "key": "sulfonamide-competitive-inhibition-of-folate-synthesis",
+  "modulePath": "102 INT > Biochemistry > Enzymes",
+  "subject": "pharm",
+  "objective": "Explain how the structural similarity of a sulfonamide to PABA produces a bacteriostatic effect, and classify the type of enzyme inhibition involved."
+ },
+ {
+  "id": "CON-FND-588CA87354B099",
+  "label": "Eicosanoid synthesis runs from membrane phospholipid through phospholipase A2 to arachidonic acid, which prostaglandin H synthase turns into the cyclic products and lipoxygenase into the acyclic ones",
+  "key": "eicosanoid-synthesis-pathway-enzymes",
+  "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+  "subject": "fnd",
+  "objective": "Name the three enzymes of the eicosanoid pathway and say which class of eicosanoid each one produces."
+ },
+ {
+  "id": "CON-FND-445EEBE58E1F25",
+  "label": "The three anti-inflammatory drug classes act at three different points of the eicosanoid pathway — steroids on phospholipase A2, NSAIDs on cyclooxygenase, and Singulair on the leukotriene receptor",
+  "key": "eicosanoid-pathway-drug-targets",
+  "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+  "subject": "pharm",
+  "objective": "Locate each anti-inflammatory drug class on the eicosanoid pathway and explain why blocking that point produces its particular effect."
+ },
+ {
+  "id": "CON-FND-27013C64915C7E",
+  "label": "Splicing removes introns and joins exons using the snRNP spliceosome, and splicing the same primary transcript differently yields several proteins from one gene",
+  "key": "mrna-splicing-and-alternative-splicing",
+  "modulePath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+  "subject": "fnd",
+  "objective": "Identify the post-transcriptional steps on the pathway diagram, name the ribonucleoproteins that carry out splicing, and explain what alternative splicing achieves."
+ },
+ {
+  "id": "CON-FND-4508AC0EA86F86",
+  "label": "A base substitution in a coding region is nonsense if it creates a stop codon, missense if it changes the amino acid, and silent if the new codon is a synonym",
+  "key": "point-mutation-types-and-consequences",
+  "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+  "subject": "fnd",
+  "objective": "Name the three types of point mutation in a coding region and explain how each affects the protein product."
+ },
+ {
+  "id": "CON-FND-D0EDFFF1477094",
+  "label": "An amino acid is placed by holding two classifications at once — its chemical group and whether the body can make it — and no acidic amino acid is essential",
+  "key": "amino-acid-chemical-and-nutritional-classification",
+  "modulePath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+  "subject": "fnd",
+  "objective": "Classify a named amino acid simultaneously by its chemical group and by whether it is essential in the diet."
+ },
+ {
+  "id": "CON-FND-1F66060A9C2625",
+  "label": "The proteins of the cell cycle and apoptosis divide into cycle regulators, the p53 guardian, the pro-apoptotic and anti-apoptotic Bcl-2 family, and the death receptors that start the extrinsic pathway",
+  "key": "cell-cycle-and-apoptosis-regulatory-proteins",
+  "modulePath": "102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes",
+  "subject": "fnd",
+  "objective": "Assign each named protein of the cell cycle and apoptosis to the function it performs."
+ },
+ {
+  "id": "CON-HEM-D76C58506E52B7",
+  "label": "Vitamin B12 is absorbed only after intrinsic factor from the gastric parietal cells binds it and carries it to a receptor in the lower ileum",
+  "key": "vitamin-b12-absorption-intrinsic-factor",
+  "modulePath": "102 INT > Physiology > Blood > Vitamin B12 and folic acid",
+  "subject": "haem",
+  "objective": "Describe the steps of vitamin B12 absorption from gastric secretion of intrinsic factor to storage in the liver."
+ },
+ {
+  "id": "CON-HEM-DDAAF125FD2EBE",
+  "label": "Vitamin B12 is needed for DNA synthesis and for myelination, so its deficiency gives both a macrocytic anaemia and neurological signs",
+  "key": "vitamin-b12-importance-and-deficiency",
+  "modulePath": "102 INT > Physiology > Blood > Vitamin B12 and folic acid",
+  "subject": "haem",
+  "objective": "State why vitamin B12 is needed for erythropoiesis and predict the two families of manifestation its deficiency produces."
+ },
+ {
+  "id": "CON-HEM-87280E690F877F",
+  "label": "Coagulation is held in check by general limiting reactions — smooth endothelium, hepatic clearance of activated factors and natural heparin — and by three specific ones: the thromboxane–prostacyclin balance, antithrombin III, and the fibrinolytic system",
+  "key": "physiological-limitation-of-coagulation",
+  "modulePath": "102 INT > Physiology > Blood > Physiological limitations of blood coagulation",
+  "subject": "haem",
+  "objective": "Explain the general and specific reactions that stop coagulation spreading beyond the site of injury, and name the factors each one inactivates."
+ },
+ {
+  "id": "CON-NEU-FCFD384A1011F8",
+  "label": "There are four types of autonomic ganglion — the paravertebral sympathetic chain, the collateral ganglia, the terminal ganglia, and the adrenal medulla as a modified sympathetic ganglion",
+  "key": "autonomic-ganglia-types",
+  "modulePath": "102 INT > Physiology > Autonomic nervous system > Autonomic ganglia",
+  "subject": "neuro",
+  "objective": "Name the four types of autonomic ganglion, give the site of each, and say which division of the autonomic nervous system relays there."
+ },
+ {
+  "id": "CON-NEU-C3D7B209FB3260",
+  "label": "The vagus carries the whole parasympathetic supply of the thoracic and abdominal viscera, slowing the atria, constricting bronchi, driving gut motility and secretion, and emptying the gall bladder",
+  "key": "parasympathetic-function-thoracic-abdominal-viscera",
+  "modulePath": "102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system",
+  "subject": "neuro",
+  "objective": "Give the origin, course and relay of the vagal parasympathetic supply and state its effect on the heart, lungs, gastrointestinal tract and gall bladder."
+ },
+ {
+  "id": "CON-HEM-005D132395BF2F",
+  "label": "The liver makes albumin, fibrinogen, the clotting factors and half the globulins while plasma cells make the gamma globulins, and between them the plasma proteins hold water in the capillary, buffer the blood, defend it, clot it, thicken it, seal the capillary pores, carry small molecules and store amino acids",
+  "key": "plasma-proteins-formation-and-functions",
+  "modulePath": "102 INT > Physiology > Blood > Plasma proteins",
+  "subject": "haem",
+  "objective": "State where each class of plasma protein is formed and give six functions of the plasma proteins, naming which protein is responsible for each."
+ },
+ {
+  "id": "CON-HEM-543C749CEB67BF",
+  "label": "Thromboxane A2 from the platelet and prostacyclin from the endothelium are made by the same enzyme from the same substrate and do the opposite things, and that opposition is what keeps a platelet plug at the site of injury",
+  "key": "thromboxane-a2-and-prostacyclin-balance",
+  "modulePath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+  "subject": "haem",
+  "objective": "Compare thromboxane A2 and prostacyclin by their cell of origin and their three actions each, and explain what the balance between them achieves."
+ },
+ {
+  "id": "CON-FND-4C1A1DFB1C6FA2",
+  "label": "Aspirin prevents myocardial infarction because it inhibits cyclooxygenase in both cells but only the endothelial cell can make the enzyme again, so a small prolonged dose suppresses thromboxane A2 while prostacyclin recovers",
+  "key": "aspirin-cox-inhibition-mi-prevention",
+  "modulePath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+  "subject": "pharm",
+  "objective": "Explain why inhibiting an enzyme common to both platelet and endothelium produces a net antithrombotic effect, and why the dose has to be small and prolonged."
+ },
+ {
+  "id": "CON-NEU-F16D60268905BC",
+  "label": "Adrenergic receptors sit both on the effector organ and on the nerve ending that released the transmitter, and the two alpha and three beta subtypes are told apart by which second messenger they move and which plain muscle they act on",
+  "key": "adrenergic-receptor-distribution-and-actions",
+  "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+  "subject": "neuro",
+  "objective": "Give the presynaptic and postsynaptic distribution of adrenergic receptors, the second messenger each subtype uses, and the organ effect of each subtype."
+ },
+ {
+  "id": "CON-NEU-DCDACCB179C2A5",
+  "label": "The sympathetic system discharges as one unit in an emergency, and everything it does — dilating the pupil, accelerating the heart, constricting skin vessels, raising alertness, freeing glucose and fatty acids — is a preparation for flight, fear or fight",
+  "key": "sympathetic-alarm-stress-response",
+  "modulePath": "102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system",
+  "subject": "neuro",
+  "objective": "List the components of the sympathetic alarm response and say, for each, what advantage it gives in an emergency."
+ },
+ {
+  "id": "CON-NEU-1DB903AAE3D02A",
+  "label": "Autonomic fibres are named for the transmitter they release: cholinergic fibres are every preganglionic fibre, every postganglionic parasympathetic fibre and two sympathetic exceptions, and adrenergic fibres are all the remaining postganglionic sympathetic ones, which secrete noradrenaline",
+  "key": "cholinergic-and-adrenergic-fibre-transmitters",
+  "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+  "subject": "neuro",
+  "objective": "Say which autonomic fibres are cholinergic and which are adrenergic, and name the transmitter each releases."
+ },
+ {
+  "id": "CON-FND-38F8E2264D46B1",
+  "label": "Mannitol is the sugar alcohol of mannose, and because the body neither absorbs it well nor metabolises it, it stays osmotically active in the fluid it is given into and is excreted unchanged by the kidney",
+  "key": "mannitol-clinical-applications",
+  "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+  "subject": "fnd",
+  "objective": "Explain, from the fact that mannitol is neither metabolised nor reabsorbed, why it lowers intraocular and intracranial pressure and acts as a diuretic."
+ },
+ {
+  "id": "CON-FND-E77FD4A4D78884",
+  "label": "Cholesterol matters because almost nothing else can be made without it — the bile acids, every steroid hormone and vitamin D3 all come from it, and it is the constituent that controls the fluidity of the cell membrane",
+  "key": "cholesterol-importance-and-derivatives",
+  "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+  "subject": "fnd",
+  "objective": "Name the derivatives cholesterol gives rise to and state its structural role in the cell membrane."
+ },
+ {
+  "id": "CON-HEM-0E5FE994670D4A",
+  "label": "The globin chain is what makes haem usable: it dissolves it, keeps its iron from being oxidised, keeps it inside the red cell, and tilts carbon monoxide away from the orientation it would otherwise prefer",
+  "key": "globin-protein-part-functions",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+  "subject": "haem",
+  "objective": "Give the four functions the globin chain performs for the haem group it carries, and the structural feature responsible for each."
+ },
+ {
+  "id": "CON-FND-CB8584ED2F3C49",
+  "label": "A competitive inhibitor resembles the substrate closely enough to occupy the active site, so it raises the apparent Km without touching Vmax and is defeated by adding more substrate",
+  "key": "competitive-enzyme-inhibition-mechanism",
+  "modulePath": "102 INT > Biochemistry > Enzymes",
+  "subject": "fnd",
+  "objective": "Explain how structural similarity to the substrate produces reversible inhibition, state what it does to Km and Vmax, and give two worked examples."
+ },
+ {
+  "id": "CON-FND-14647EC60106E1",
+  "label": "Collagen is strong because every level of its structure is built for tightness — three residues per turn, glycine in every third position, a right-handed superhelix of left-handed chains, hydroxyproline hydrogen bonds, and covalent cross-links between chains",
+  "key": "collagen-structural-strength-basis",
+  "modulePath": "102 INT > Biochemistry > Proteins of Extracellular Matrix",
+  "subject": "fnd",
+  "objective": "Give the structural features, from the repeating triplet up to the fibre, that account for the tensile strength of collagen."
+ },
+ {
+  "id": "CON-FND-5BAF472E54A764",
+  "label": "The two strands of the DNA double helix run antiparallel and are held to each other only by hydrogen bonds between complementary bases — two for A-T and three for G-C",
+  "key": "dna-double-helix-antiparallel-strands",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+  "subject": "fnd",
+  "objective": "State the orientation of the two DNA strands relative to each other and name the bond that holds them together, with the number of bonds in each base pair."
+ },
+ {
+  "id": "CON-FND-87DC8A5CE668F7",
+  "label": "Mitochondrial DNA is a small double-stranded circular supercoil that codes for the machinery of oxidative phosphorylation and is inherited only from the mother, because the mitochondria come from the ovum",
+  "key": "mitochondrial-dna-characteristics",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+  "subject": "fnd",
+  "objective": "Give the shape, the coding content and the pattern of inheritance of mitochondrial DNA, and say what makes the inheritance maternal."
+ },
+ {
+  "id": "CON-FND-CC55F157021237",
+  "label": "The two promoter boxes divide the work — TATA says where transcription starts and CAAT and GC say how often — while TFIIH opens the strands, polyadenylation sets how long the message lives, and alternative splicing decides how many proteins the gene yields",
+  "key": "eukaryotic-transcription-elements-and-mrna-processing",
+  "modulePath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+  "subject": "fnd",
+  "objective": "Assign each promoter element, transcription factor and processing step to the specific job it does in the making of a mature messenger RNA."
+ },
+ {
+  "id": "CON-FND-D6DFABFBA0BA5E",
+  "label": "Free nucleotides do six different jobs — carry energy, signal as second messengers, donate methyl and sulfate groups, carry hydrogen and carry acyl groups — and which one a nucleotide does is fixed by the group hung on it, not by its base",
+  "key": "free-nucleotide-biological-functions",
+  "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+  "subject": "fnd",
+  "objective": "Match each free nucleotide or nucleotide derivative to the biochemical role the department book assigns it."
+ },
+ {
+  "id": "CON-FND-D1FDD52629718C",
+  "label": "Membrane fluidity is set by how closely the phospholipid tails can pack: a cis-double bond kinks the chain and keeps them apart, a saturated chain is straight and lets them pack, and cholesterol sits between them controlling the result",
+  "key": "membrane-fluidity-determinants",
+  "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+  "subject": "fnd",
+  "objective": "Identify cholesterol and the saturated and unsaturated fatty acid chains on a bilayer diagram and explain, from chain shape and packing, why each raises or lowers fluidity."
+ },
+ {
+  "id": "CON-FND-81A17C5BF7ED85",
+  "label": "A replication fork is made by two proteins working together — helicase breaks the hydrogen bonds to open the duplex, and single-strand binding proteins hold the separated strands apart and protect them",
+  "key": "replication-fork-strand-separation",
+  "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+  "subject": "fnd",
+  "objective": "Name the two proteins that open and hold open the parental duplex at a replication fork and state what each contributes."
+ }
+]

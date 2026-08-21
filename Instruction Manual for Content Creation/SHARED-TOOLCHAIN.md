@@ -2919,3 +2919,75 @@ reported are different facts**, and the gap between them is where all three land
 
 That the source ID genuinely appears in no manifest row is confirmed — so it was a real error
 while it existed, and reporting it was right. Only its tense was wrong.
+
+---
+
+## The module retrofit is on `main` — and `tsc -b clean` never covered the toolchain
+
+`origin/main` carries `MODULES`, `moduleOf` and `systemFor`; the only remaining
+`kau:101 ISK` in `seeds/types.ts` is **in a comment explaining the history**. Verified.
+
+**Consequence: the reproducibility defect is closed.** The lane that was deliberately shipping
+content without the generator that produced it — because committing a stale copy would have
+regressed another module's papers — can now commit its generator.
+
+### `npx tsc -b` says nothing about anything under `scripts/`
+
+```
+tsconfig.json        references → tsconfig.app.json, tsconfig.node.json
+tsconfig.node.json   include    → ['vite.config.ts']
+```
+
+**No tsconfig program includes `scripts/`.** So every generator, emitter, extractor and checker
+in this programme is **outside the type checker**, and a lane reporting *"`tsc -b` exit 0"*
+alongside its gate results has reported nothing at all about the files it changed.
+
+That is not hypothetical — it is how the next item survived.
+
+### Three duplicated keys in `SITTING_SIGNALS`, silently discarding evidence
+
+`scripts/kasr/seeds/sittings.ts` — confirmed on `main`:
+
+```
+elbow-joint-type-bones-ligaments
+lysosome-types-secondary-fates
+radial-nerve-origin-root-branches
+```
+
+In an object literal **the later key silently wins**, so the earlier entry's sitting signals are
+**discarded**. Those three concepts under-report the papers they were examined on and therefore
+carry a **lower `blueprint_weight`** — which is the number the whole programme exists to get
+right.
+
+TypeScript has an error for exactly this (**TS1117**). It never fired, because `scripts/` is in
+no program. **A duplicate key is the one bug a type checker would have caught for free**, and
+the checker was not looking.
+
+> **Adding `scripts/` to a tsconfig program is a small change with a large return** — and until
+> it happens, treat `tsc -b` as evidence about `src/` only.
+
+### Two lanes solved the orphan sweep from opposite ends, and the merge kept both
+
+Main scoped the sweep with a constant `MODULE_PREFIX = '101-ISK'`, after another module's
+written batch was deleted twice. The retrofit makes the module a **parameter**, so the prefix
+**derives from the module being built** — nothing to forget to edit when a sixth module arrives.
+
+The merge kept main's reasoning verbatim in the file and replaced the constant with the derived
+value. **Same problem from both ends:** main's sweep could not *reach* another module's files;
+the retrofit's cannot *produce a filename it does not own.*
+
+### The gate that caught a regression twice
+
+Run on the base actually landed on, after a re-merge — the first fetch showed **28 commits
+behind** despite a clean pre-gate fetch:
+
+```
+check-id-stability      exit 0        101 regenerated        no file changed
+101 concept fieldsUsed  54, 0 errors  102                    38 concepts, 19 + 15 written
+scoped build            101 builds with 102's seeds absent; 102 fails loudly
+npm test                1324 pass     citations              7,146 resolving
+```
+
+**Byte-identity alone would have passed while taking a module from 54 columns back to 35.** The
+gate had to name the property. And the pre-gate fetch was worthless: *fetch immediately before
+the push, not before you start verifying.*

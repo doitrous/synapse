@@ -1,0 +1,4244 @@
+{
+ "src_07f0a0ff41addf826c7f": {
+  "5": {
+   "cells": {
+    "1": {
+     "letter": "a",
+     "votes": 2
+    },
+    "2": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    }
+   },
+   "conflicts": {}
+  },
+  "15": {
+   "cells": {
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "21": {
+     "letter": "d",
+     "votes": 2
+    },
+    "31": {
+     "letter": "a",
+     "votes": 2
+    },
+    "41": {
+     "letter": "b",
+     "votes": 2
+    },
+    "51": {
+     "letter": "c",
+     "votes": 2
+    },
+    "61": {
+     "letter": "c",
+     "votes": 2
+    },
+    "2": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 2
+    },
+    "22": {
+     "letter": "d",
+     "votes": 2
+    },
+    "32": {
+     "letter": "a",
+     "votes": 2
+    },
+    "42": {
+     "letter": "a",
+     "votes": 2
+    },
+    "52": {
+     "letter": "b",
+     "votes": 2
+    },
+    "62": {
+     "letter": "b",
+     "votes": 2
+    },
+    "13": {
+     "letter": "b",
+     "votes": 2
+    },
+    "23": {
+     "letter": "b",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "43": {
+     "letter": "c",
+     "votes": 2
+    },
+    "53": {
+     "letter": "a",
+     "votes": 2
+    },
+    "63": {
+     "letter": "c",
+     "votes": 2
+    },
+    "4": {
+     "letter": "d",
+     "votes": 2
+    },
+    "14": {
+     "letter": "a",
+     "votes": 1
+    },
+    "24": {
+     "letter": "c",
+     "votes": 2
+    },
+    "34": {
+     "letter": "c",
+     "votes": 2
+    },
+    "44": {
+     "letter": "c",
+     "votes": 2
+    },
+    "54": {
+     "letter": "a",
+     "votes": 2
+    },
+    "64": {
+     "letter": "b",
+     "votes": 2
+    },
+    "5": {
+     "letter": "a",
+     "votes": 2
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "35": {
+     "letter": "c",
+     "votes": 2
+    },
+    "45": {
+     "letter": "c",
+     "votes": 2
+    },
+    "55": {
+     "letter": "b",
+     "votes": 2
+    },
+    "65": {
+     "letter": "b",
+     "votes": 2
+    },
+    "6": {
+     "letter": "d",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "26": {
+     "letter": "c",
+     "votes": 2
+    },
+    "36": {
+     "letter": "b",
+     "votes": 2
+    },
+    "46": {
+     "letter": "d",
+     "votes": 2
+    },
+    "56": {
+     "letter": "a",
+     "votes": 2
+    },
+    "66": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "c",
+     "votes": 2
+    },
+    "27": {
+     "letter": "a",
+     "votes": 2
+    },
+    "37": {
+     "letter": "d",
+     "votes": 2
+    },
+    "47": {
+     "letter": "b",
+     "votes": 2
+    },
+    "57": {
+     "letter": "b",
+     "votes": 2
+    },
+    "67": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "38": {
+     "letter": "b",
+     "votes": 2
+    },
+    "48": {
+     "letter": "b",
+     "votes": 2
+    },
+    "58": {
+     "letter": "a",
+     "votes": 2
+    },
+    "68": {
+     "letter": "d",
+     "votes": 2
+    },
+    "9": {
+     "letter": "d",
+     "votes": 2
+    },
+    "19": {
+     "letter": "a",
+     "votes": 2
+    },
+    "29": {
+     "letter": "d",
+     "votes": 2
+    },
+    "39": {
+     "letter": "a",
+     "votes": 2
+    },
+    "49": {
+     "letter": "c",
+     "votes": 2
+    },
+    "59": {
+     "letter": "a",
+     "votes": 1
+    },
+    "69": {
+     "letter": "a",
+     "votes": 2
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "c",
+     "votes": 2
+    },
+    "30": {
+     "letter": "a",
+     "votes": 2
+    },
+    "40": {
+     "letter": "d",
+     "votes": 2
+    },
+    "50": {
+     "letter": "a",
+     "votes": 2
+    },
+    "60": {
+     "letter": "c",
+     "votes": 2
+    },
+    "70": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "1": [
+     "b",
+     "e"
+    ]
+   }
+  },
+  "22": {
+   "cells": {
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "31": {
+     "letter": "b",
+     "votes": 1
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "22": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "b",
+     "votes": 1
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "23": {
+     "letter": "c",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 1
+    },
+    "4": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "c",
+     "votes": 2
+    },
+    "24": {
+     "letter": "a",
+     "votes": 2
+    },
+    "34": {
+     "letter": "d",
+     "votes": 1
+    },
+    "15": {
+     "letter": "c",
+     "votes": 1
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "35": {
+     "letter": "b",
+     "votes": 1
+    },
+    "6": {
+     "letter": "b",
+     "votes": 3
+    },
+    "16": {
+     "letter": "b",
+     "votes": 2
+    },
+    "26": {
+     "letter": "c",
+     "votes": 2
+    },
+    "36": {
+     "letter": "c",
+     "votes": 1
+    },
+    "7": {
+     "letter": "a",
+     "votes": 1
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "28": {
+     "letter": "c",
+     "votes": 2
+    },
+    "38": {
+     "letter": "d",
+     "votes": 1
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "a",
+     "votes": 2
+    },
+    "29": {
+     "letter": "d",
+     "votes": 2
+    },
+    "39": {
+     "letter": "c",
+     "votes": 1
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 2
+    },
+    "30": {
+     "letter": "c",
+     "votes": 2
+    },
+    "40": {
+     "letter": "a",
+     "votes": 1
+    },
+    "2": {
+     "letter": "a",
+     "votes": 1
+    },
+    "5": {
+     "letter": "b",
+     "votes": 2
+    }
+   },
+   "conflicts": {
+    "1": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  "29": {
+   "cells": {
+    "1": {
+     "letter": "b",
+     "votes": 1
+    },
+    "11": {
+     "letter": "a",
+     "votes": 1
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "31": {
+     "letter": "d",
+     "votes": 2
+    },
+    "2": {
+     "letter": "c",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 2
+    },
+    "22": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "23": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "d",
+     "votes": 2
+    },
+    "24": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "c",
+     "votes": 1
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "25": {
+     "letter": "a",
+     "votes": 2
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "16": {
+     "letter": "d",
+     "votes": 2
+    },
+    "26": {
+     "letter": "a",
+     "votes": 2
+    },
+    "17": {
+     "letter": "a",
+     "votes": 1
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "b",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "b",
+     "votes": 2
+    },
+    "29": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "b",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 2
+    },
+    "30": {
+     "letter": "b",
+     "votes": 2
+    },
+    "27": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "36": {
+   "cells": {
+    "11": {
+     "letter": "c",
+     "votes": 1
+    },
+    "21": {
+     "letter": "b",
+     "votes": 1
+    },
+    "31": {
+     "letter": "c",
+     "votes": 1
+    },
+    "12": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "23": {
+     "letter": "a",
+     "votes": 2
+    },
+    "33": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "24": {
+     "letter": "b",
+     "votes": 2
+    },
+    "34": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "25": {
+     "letter": "d",
+     "votes": 2
+    },
+    "35": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "b",
+     "votes": 2
+    },
+    "26": {
+     "letter": "b",
+     "votes": 2
+    },
+    "36": {
+     "letter": "c",
+     "votes": 1
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "17": {
+     "letter": "c",
+     "votes": 2
+    },
+    "27": {
+     "letter": "a",
+     "votes": 2
+    },
+    "37": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "b",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "28": {
+     "letter": "b",
+     "votes": 2
+    },
+    "38": {
+     "letter": "b",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "29": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 2
+    },
+    "30": {
+     "letter": "b",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "40": {
+   "cells": {
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "11": {
+     "letter": "c",
+     "votes": 2
+    },
+    "7": {
+     "letter": "b",
+     "votes": 1
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "9": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "a",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    },
+    "2": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "4": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "43": {
+   "cells": {
+    "1": {
+     "letter": "b",
+     "votes": 3
+    },
+    "6": {
+     "letter": "a",
+     "votes": 3
+    },
+    "11": {
+     "letter": "c",
+     "votes": 2
+    },
+    "16": {
+     "letter": "b",
+     "votes": 2
+    },
+    "2": {
+     "letter": "a",
+     "votes": 2
+    },
+    "7": {
+     "letter": "d",
+     "votes": 2
+    },
+    "12": {
+     "letter": "a",
+     "votes": 2
+    },
+    "17": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "c",
+     "votes": 2
+    },
+    "5": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "b",
+     "votes": 2
+    },
+    "15": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    }
+   },
+   "conflicts": {}
+  },
+  "49": {
+   "cells": {
+    "6": {
+     "letter": "a",
+     "votes": 3
+    },
+    "11": {
+     "letter": "c",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "21": {
+     "letter": "c",
+     "votes": 2
+    },
+    "26": {
+     "letter": "b",
+     "votes": 2
+    },
+    "2": {
+     "letter": "d",
+     "votes": 2
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "17": {
+     "letter": "c",
+     "votes": 1
+    },
+    "22": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "b",
+     "votes": 2
+    },
+    "23": {
+     "letter": "c",
+     "votes": 2
+    },
+    "4": {
+     "letter": "b",
+     "votes": 3
+    },
+    "9": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "a",
+     "votes": 2
+    },
+    "24": {
+     "letter": "a",
+     "votes": 2
+    },
+    "5": {
+     "letter": "c",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "20": {
+     "letter": "d",
+     "votes": 2
+    },
+    "25": {
+     "letter": "a",
+     "votes": 2
+    },
+    "1": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "51": {
+   "cells": {
+    "5": {
+     "letter": "d",
+     "votes": 2
+    },
+    "13": {
+     "letter": "b",
+     "votes": 2
+    },
+    "2": {
+     "letter": "a",
+     "votes": 2
+    },
+    "6": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 2
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "11": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "d",
+     "votes": 2
+    }
+   },
+   "conflicts": {
+    "9": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "55": {
+   "cells": {
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "11": {
+     "letter": "a",
+     "votes": 2
+    },
+    "16": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "a",
+     "votes": 2
+    },
+    "5": {
+     "letter": "a",
+     "votes": 1
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "15": {
+     "letter": "a",
+     "votes": 3
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    },
+    "1": {
+     "letter": "b",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "60": {
+   "cells": {
+    "1": {
+     "letter": "a",
+     "votes": 1
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "d",
+     "votes": 2
+    },
+    "21": {
+     "letter": "c",
+     "votes": 2
+    },
+    "2": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 3
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "23": {
+     "letter": "c",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "24": {
+     "letter": "d",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "d",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 3
+    },
+    "22": {
+     "letter": "b",
+     "votes": 1
+    },
+    "14": {
+     "letter": "b",
+     "votes": 1
+    },
+    "19": {
+     "letter": "b",
+     "votes": 1
+    },
+    "5": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "65": {
+   "cells": {
+    "6": {
+     "letter": "b",
+     "votes": 3
+    },
+    "11": {
+     "letter": "c",
+     "votes": 2
+    },
+    "21": {
+     "letter": "c",
+     "votes": 2
+    },
+    "7": {
+     "letter": "b",
+     "votes": 2
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "17": {
+     "letter": "d",
+     "votes": 2
+    },
+    "22": {
+     "letter": "c",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 2
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 2
+    },
+    "4": {
+     "letter": "b",
+     "votes": 2
+    },
+    "9": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "b",
+     "votes": 3
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    },
+    "20": {
+     "letter": "d",
+     "votes": 2
+    },
+    "1": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "16": [
+     "a",
+     "d"
+    ],
+    "2": [
+     "a",
+     "d"
+    ],
+    "8": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "67": {
+   "cells": {},
+   "conflicts": {}
+  },
+  "72": {
+   "cells": {
+    "6": {
+     "letter": "b",
+     "votes": 2
+    },
+    "111": {
+     "letter": "d",
+     "votes": 1
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "26": {
+     "letter": "b",
+     "votes": 2
+    },
+    "7": {
+     "letter": "d",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "c",
+     "votes": 2
+    },
+    "27": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 2
+    },
+    "28": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "b",
+     "votes": 2
+    },
+    "24": {
+     "letter": "a",
+     "votes": 2
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "15": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    },
+    "25": {
+     "letter": "c",
+     "votes": 2
+    },
+    "11": {
+     "letter": "d",
+     "votes": 1
+    },
+    "2": {
+     "letter": "d",
+     "votes": 1
+    },
+    "3": {
+     "letter": "d",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "76": {
+   "cells": {
+    "1": {
+     "letter": "e",
+     "votes": 2
+    },
+    "7": {
+     "letter": "d",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 1
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "a",
+     "votes": 2
+    },
+    "5": {
+     "letter": "a",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "11": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "79": {
+   "cells": {
+    "1": {
+     "letter": "b",
+     "votes": 2
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "a",
+     "votes": 2
+    },
+    "5": {
+     "letter": "c",
+     "votes": 1
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "15": {
+     "letter": "d",
+     "votes": 2
+    },
+    "2": {
+     "letter": "d",
+     "votes": 1
+    },
+    "7": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "86": {
+   "cells": {
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "d",
+     "votes": 2
+    },
+    "17": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "d",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "b",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 2
+    },
+    "14": {
+     "letter": "d",
+     "votes": 2
+    },
+    "19": {
+     "letter": "c",
+     "votes": 2
+    },
+    "5": {
+     "letter": "a",
+     "votes": 1
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    },
+    "20": {
+     "letter": "d",
+     "votes": 2
+    },
+    "1": {
+     "letter": "d",
+     "votes": 1
+    },
+    "10": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "89": {
+   "cells": {
+    "6": {
+     "letter": "d",
+     "votes": 2
+    },
+    "2": {
+     "letter": "d",
+     "votes": 2
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "b",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 1
+    },
+    "14": {
+     "letter": "c",
+     "votes": 2
+    },
+    "5": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    }
+   },
+   "conflicts": {}
+  },
+  "103": {
+   "cells": {
+    "1": {
+     "letter": "d",
+     "votes": 2
+    },
+    "11": {
+     "letter": "c",
+     "votes": 2
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "31": {
+     "letter": "d",
+     "votes": 2
+    },
+    "41": {
+     "letter": "c",
+     "votes": 2
+    },
+    "51": {
+     "letter": "c",
+     "votes": 2
+    },
+    "61": {
+     "letter": "c",
+     "votes": 2
+    },
+    "71": {
+     "letter": "b",
+     "votes": 2
+    },
+    "81": {
+     "letter": "a",
+     "votes": 2
+    },
+    "2": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "d",
+     "votes": 2
+    },
+    "32": {
+     "letter": "a",
+     "votes": 2
+    },
+    "42": {
+     "letter": "b",
+     "votes": 2
+    },
+    "52": {
+     "letter": "d",
+     "votes": 2
+    },
+    "62": {
+     "letter": "a",
+     "votes": 2
+    },
+    "72": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 1
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "43": {
+     "letter": "a",
+     "votes": 2
+    },
+    "53": {
+     "letter": "c",
+     "votes": 2
+    },
+    "63": {
+     "letter": "d",
+     "votes": 2
+    },
+    "73": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "d",
+     "votes": 2
+    },
+    "14": {
+     "letter": "d",
+     "votes": 2
+    },
+    "24": {
+     "letter": "d",
+     "votes": 2
+    },
+    "34": {
+     "letter": "d",
+     "votes": 2
+    },
+    "44": {
+     "letter": "a",
+     "votes": 2
+    },
+    "54": {
+     "letter": "a",
+     "votes": 2
+    },
+    "64": {
+     "letter": "c",
+     "votes": 2
+    },
+    "74": {
+     "letter": "b",
+     "votes": 2
+    },
+    "5": {
+     "letter": "c",
+     "votes": 1
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "25": {
+     "letter": "a",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "45": {
+     "letter": "a",
+     "votes": 2
+    },
+    "55": {
+     "letter": "b",
+     "votes": 2
+    },
+    "65": {
+     "letter": "d",
+     "votes": 1
+    },
+    "75": {
+     "letter": "d",
+     "votes": 2
+    },
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "36": {
+     "letter": "b",
+     "votes": 2
+    },
+    "46": {
+     "letter": "c",
+     "votes": 2
+    },
+    "56": {
+     "letter": "c",
+     "votes": 2
+    },
+    "66": {
+     "letter": "b",
+     "votes": 2
+    },
+    "76": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "d",
+     "votes": 2
+    },
+    "27": {
+     "letter": "c",
+     "votes": 2
+    },
+    "37": {
+     "letter": "a",
+     "votes": 2
+    },
+    "47": {
+     "letter": "a",
+     "votes": 2
+    },
+    "57": {
+     "letter": "a",
+     "votes": 2
+    },
+    "67": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "b",
+     "votes": 2
+    },
+    "28": {
+     "letter": "c",
+     "votes": 2
+    },
+    "38": {
+     "letter": "c",
+     "votes": 2
+    },
+    "48": {
+     "letter": "c",
+     "votes": 2
+    },
+    "58": {
+     "letter": "a",
+     "votes": 2
+    },
+    "68": {
+     "letter": "a",
+     "votes": 2
+    },
+    "78": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "b",
+     "votes": 2
+    },
+    "29": {
+     "letter": "a",
+     "votes": 2
+    },
+    "39": {
+     "letter": "b",
+     "votes": 2
+    },
+    "49": {
+     "letter": "d",
+     "votes": 2
+    },
+    "59": {
+     "letter": "a",
+     "votes": 2
+    },
+    "69": {
+     "letter": "c",
+     "votes": 2
+    },
+    "79": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "20": {
+     "letter": "c",
+     "votes": 2
+    },
+    "30": {
+     "letter": "a",
+     "votes": 2
+    },
+    "40": {
+     "letter": "b",
+     "votes": 2
+    },
+    "50": {
+     "letter": "c",
+     "votes": 2
+    },
+    "60": {
+     "letter": "a",
+     "votes": 2
+    },
+    "70": {
+     "letter": "d",
+     "votes": 2
+    },
+    "9": {
+     "letter": "b",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "26": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "114": {
+   "cells": {
+    "11": {
+     "letter": "b",
+     "votes": 1
+    },
+    "21": {
+     "letter": "b",
+     "votes": 2
+    },
+    "31": {
+     "letter": "a",
+     "votes": 2
+    },
+    "41": {
+     "letter": "c",
+     "votes": 2
+    },
+    "2": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "d",
+     "votes": 2
+    },
+    "22": {
+     "letter": "b",
+     "votes": 2
+    },
+    "32": {
+     "letter": "a",
+     "votes": 2
+    },
+    "42": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "23": {
+     "letter": "b",
+     "votes": 2
+    },
+    "33": {
+     "letter": "d",
+     "votes": 2
+    },
+    "43": {
+     "letter": "c",
+     "votes": 1
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "24": {
+     "letter": "a",
+     "votes": 2
+    },
+    "34": {
+     "letter": "a",
+     "votes": 2
+    },
+    "44": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "d",
+     "votes": 2
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "45": {
+     "letter": "d",
+     "votes": 2
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "16": {
+     "letter": "b",
+     "votes": 2
+    },
+    "36": {
+     "letter": "b",
+     "votes": 2
+    },
+    "46": {
+     "letter": "d",
+     "votes": 2
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "17": {
+     "letter": "d",
+     "votes": 2
+    },
+    "27": {
+     "letter": "b",
+     "votes": 2
+    },
+    "37": {
+     "letter": "c",
+     "votes": 2
+    },
+    "47": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "b",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "38": {
+     "letter": "c",
+     "votes": 2
+    },
+    "48": {
+     "letter": "d",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "c",
+     "votes": 2
+    },
+    "29": {
+     "letter": "c",
+     "votes": 2
+    },
+    "39": {
+     "letter": "a",
+     "votes": 2
+    },
+    "49": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    },
+    "30": {
+     "letter": "c",
+     "votes": 2
+    },
+    "40": {
+     "letter": "b",
+     "votes": 2
+    },
+    "50": {
+     "letter": "c",
+     "votes": 2
+    }
+   },
+   "conflicts": {
+    "3": [
+     "a",
+     "b"
+    ],
+    "4": [
+     "b",
+     "d"
+    ],
+    "26": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "119": {
+   "cells": {
+    "1": {
+     "letter": "b",
+     "votes": 2
+    },
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "11": {
+     "letter": "a",
+     "votes": 2
+    },
+    "16": {
+     "letter": "c",
+     "votes": 2
+    },
+    "21": {
+     "letter": "d",
+     "votes": 2
+    },
+    "2": {
+     "letter": "b",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "b",
+     "votes": 2
+    },
+    "22": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "a",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "a",
+     "votes": 2
+    },
+    "20": {
+     "letter": "c",
+     "votes": 2
+    },
+    "7": {
+     "letter": "b",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "126": {
+   "cells": {
+    "1": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "17": {
+     "letter": "b",
+     "votes": 2
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "33": {
+     "letter": "d",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "26": {
+     "letter": "c",
+     "votes": 2
+    },
+    "34": {
+     "letter": "c",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 3
+    },
+    "11": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "c",
+     "votes": 2
+    },
+    "27": {
+     "letter": "a",
+     "votes": 3
+    },
+    "4": {
+     "letter": "c",
+     "votes": 3
+    },
+    "12": {
+     "letter": "b",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    },
+    "28": {
+     "letter": "b",
+     "votes": 2
+    },
+    "5": {
+     "letter": "a",
+     "votes": 1
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "21": {
+     "letter": "d",
+     "votes": 2
+    },
+    "29": {
+     "letter": "d",
+     "votes": 2
+    },
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "c",
+     "votes": 2
+    },
+    "22": {
+     "letter": "d",
+     "votes": 2
+    },
+    "30": {
+     "letter": "a",
+     "votes": 2
+    },
+    "15": {
+     "letter": "c",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 3
+    },
+    "31": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "d",
+     "votes": 3
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "d",
+     "votes": 3
+    },
+    "7": {
+     "letter": "a",
+     "votes": 1
+    },
+    "2": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "24": [
+     "b",
+     "d"
+    ]
+   }
+  },
+  "132": {
+   "cells": {
+    "6": {
+     "letter": "b",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "b",
+     "votes": 2
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "26": {
+     "letter": "c",
+     "votes": 2
+    },
+    "3": {
+     "letter": "d",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "23": {
+     "letter": "b",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 4
+    },
+    "9": {
+     "letter": "d",
+     "votes": 3
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "24": {
+     "letter": "b",
+     "votes": 2
+    },
+    "29": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 1
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "15": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 2
+    },
+    "25": {
+     "letter": "d",
+     "votes": 2
+    },
+    "30": {
+     "letter": "d",
+     "votes": 2
+    },
+    "1": {
+     "letter": "c",
+     "votes": 1
+    },
+    "31": {
+     "letter": "c",
+     "votes": 1
+    },
+    "7": {
+     "letter": "d",
+     "votes": 1
+    },
+    "12": {
+     "letter": "c",
+     "votes": 1
+    },
+    "17": {
+     "letter": "b",
+     "votes": 1
+    },
+    "22": {
+     "letter": "c",
+     "votes": 1
+    },
+    "27": {
+     "letter": "c",
+     "votes": 1
+    },
+    "32": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "18": [
+     "a",
+     "d"
+    ],
+    "2": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  "136": {
+   "cells": {
+    "1": {
+     "letter": "c",
+     "votes": 2
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 2
+    }
+   },
+   "conflicts": {}
+  },
+  "140": {
+   "cells": {
+    "1": {
+     "letter": "b",
+     "votes": 2
+    },
+    "6": {
+     "letter": "b",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 1
+    },
+    "21": {
+     "letter": "c",
+     "votes": 2
+    },
+    "12": {
+     "letter": "d",
+     "votes": 2
+    },
+    "17": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "c",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "d",
+     "votes": 2
+    },
+    "14": {
+     "letter": "d",
+     "votes": 2
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "b",
+     "votes": 2
+    },
+    "10": {
+     "letter": "a",
+     "votes": 2
+    },
+    "15": {
+     "letter": "c",
+     "votes": 2
+    },
+    "20": {
+     "letter": "a",
+     "votes": 2
+    },
+    "116": {
+     "letter": "a",
+     "votes": 1
+    },
+    "2": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  },
+  "144": {
+   "cells": {
+    "6": {
+     "letter": "d",
+     "votes": 2
+    },
+    "11": {
+     "letter": "d",
+     "votes": 2
+    },
+    "16": {
+     "letter": "a",
+     "votes": 2
+    },
+    "2": {
+     "letter": "b",
+     "votes": 2
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "d",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "c",
+     "votes": 2
+    },
+    "14": {
+     "letter": "c",
+     "votes": 1
+    },
+    "5": {
+     "letter": "c",
+     "votes": 1
+    },
+    "10": {
+     "letter": "c",
+     "votes": 2
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    }
+   },
+   "conflicts": {
+    "1": [
+     "d",
+     "e"
+    ]
+   }
+  },
+  "152": {
+   "cells": {
+    "1": {
+     "letter": "d",
+     "votes": 2
+    },
+    "6": {
+     "letter": "c",
+     "votes": 2
+    },
+    "11": {
+     "letter": "b",
+     "votes": 2
+    },
+    "16": {
+     "letter": "c",
+     "votes": 2
+    },
+    "21": {
+     "letter": "b",
+     "votes": 2
+    },
+    "26": {
+     "letter": "a",
+     "votes": 2
+    },
+    "31": {
+     "letter": "c",
+     "votes": 2
+    },
+    "36": {
+     "letter": "d",
+     "votes": 2
+    },
+    "41": {
+     "letter": "c",
+     "votes": 2
+    },
+    "46": {
+     "letter": "b",
+     "votes": 2
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "b",
+     "votes": 2
+    },
+    "27": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "b",
+     "votes": 2
+    },
+    "37": {
+     "letter": "c",
+     "votes": 2
+    },
+    "42": {
+     "letter": "b",
+     "votes": 2
+    },
+    "3": {
+     "letter": "a",
+     "votes": 3
+    },
+    "8": {
+     "letter": "a",
+     "votes": 2
+    },
+    "13": {
+     "letter": "b",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "23": {
+     "letter": "a",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "38": {
+     "letter": "a",
+     "votes": 2
+    },
+    "43": {
+     "letter": "d",
+     "votes": 2
+    },
+    "9": {
+     "letter": "d",
+     "votes": 2
+    },
+    "14": {
+     "letter": "b",
+     "votes": 2
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "24": {
+     "letter": "d",
+     "votes": 2
+    },
+    "29": {
+     "letter": "a",
+     "votes": 2
+    },
+    "34": {
+     "letter": "d",
+     "votes": 2
+    },
+    "39": {
+     "letter": "b",
+     "votes": 2
+    },
+    "44": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "b",
+     "votes": 1
+    },
+    "15": {
+     "letter": "b",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 1
+    },
+    "25": {
+     "letter": "a",
+     "votes": 2
+    },
+    "30": {
+     "letter": "a",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "40": {
+     "letter": "b",
+     "votes": 2
+    },
+    "45": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "2": [
+     "a",
+     "b"
+    ]
+   }
+  }
+ },
+ "src_2093c80b1f9c25f9c0a4": {
+  "19": {
+   "cells": {
+    "31": {
+     "letter": "d",
+     "votes": 2
+    },
+    "41": {
+     "letter": "c",
+     "votes": 2
+    },
+    "2": {
+     "letter": "c",
+     "votes": 2
+    },
+    "32": {
+     "letter": "a",
+     "votes": 2
+    },
+    "42": {
+     "letter": "a",
+     "votes": 3
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "33": {
+     "letter": "d",
+     "votes": 3
+    },
+    "43": {
+     "letter": "d",
+     "votes": 2
+    },
+    "4": {
+     "letter": "a",
+     "votes": 3
+    },
+    "34": {
+     "letter": "a",
+     "votes": 2
+    },
+    "44": {
+     "letter": "c",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 3
+    },
+    "35": {
+     "letter": "b",
+     "votes": 4
+    },
+    "45": {
+     "letter": "a",
+     "votes": 3
+    },
+    "36": {
+     "letter": "c",
+     "votes": 4
+    },
+    "46": {
+     "letter": "d",
+     "votes": 3
+    },
+    "7": {
+     "letter": "d",
+     "votes": 2
+    },
+    "37": {
+     "letter": "d",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "38": {
+     "letter": "a",
+     "votes": 4
+    },
+    "48": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "d",
+     "votes": 3
+    },
+    "39": {
+     "letter": "c",
+     "votes": 1
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "30": {
+     "letter": "d",
+     "votes": 2
+    },
+    "40": {
+     "letter": "d",
+     "votes": 3
+    },
+    "50": {
+     "letter": "b",
+     "votes": 4
+    },
+    "1": {
+     "letter": "a",
+     "votes": 1
+    },
+    "21": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "c",
+     "votes": 3
+    },
+    "23": {
+     "letter": "b",
+     "votes": 3
+    },
+    "24": {
+     "letter": "b",
+     "votes": 3
+    },
+    "25": {
+     "letter": "d",
+     "votes": 3
+    },
+    "6": {
+     "letter": "b",
+     "votes": 3
+    },
+    "26": {
+     "letter": "d",
+     "votes": 3
+    },
+    "28": {
+     "letter": "b",
+     "votes": 2
+    },
+    "29": {
+     "letter": "b",
+     "votes": 3
+    },
+    "27": {
+     "letter": "b",
+     "votes": 2
+    },
+    "51": {
+     "letter": "d",
+     "votes": 2
+    },
+    "53": {
+     "letter": "d",
+     "votes": 2
+    },
+    "54": {
+     "letter": "b",
+     "votes": 2
+    },
+    "55": {
+     "letter": "d",
+     "votes": 2
+    },
+    "56": {
+     "letter": "b",
+     "votes": 2
+    },
+    "57": {
+     "letter": "d",
+     "votes": 2
+    },
+    "58": {
+     "letter": "a",
+     "votes": 2
+    },
+    "59": {
+     "letter": "c",
+     "votes": 1
+    },
+    "60": {
+     "letter": "c",
+     "votes": 2
+    },
+    "67": {
+     "letter": "b",
+     "votes": 2
+    },
+    "68": {
+     "letter": "d",
+     "votes": 1
+    },
+    "14": {
+     "letter": "d",
+     "votes": 1
+    },
+    "16": {
+     "letter": "a",
+     "votes": 1
+    },
+    "52": {
+     "letter": "d",
+     "votes": 1
+    },
+    "61": {
+     "letter": "d",
+     "votes": 1
+    },
+    "62": {
+     "letter": "a",
+     "votes": 1
+    },
+    "65": {
+     "letter": "a",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "49": [
+     "a",
+     "d"
+    ]
+   }
+  },
+  "30": {
+   "cells": {
+    "1": {
+     "letter": "d",
+     "votes": 2
+    },
+    "11": {
+     "letter": "c",
+     "votes": 1
+    },
+    "21": {
+     "letter": "d",
+     "votes": 2
+    },
+    "31": {
+     "letter": "a",
+     "votes": 2
+    },
+    "41": {
+     "letter": "c",
+     "votes": 1
+    },
+    "2": {
+     "letter": "c",
+     "votes": 2
+    },
+    "22": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "d",
+     "votes": 2
+    },
+    "42": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "43": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "d",
+     "votes": 2
+    },
+    "24": {
+     "letter": "b",
+     "votes": 2
+    },
+    "34": {
+     "letter": "a",
+     "votes": 2
+    },
+    "44": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "c",
+     "votes": 1
+    },
+    "15": {
+     "letter": "d",
+     "votes": 2
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "45": {
+     "letter": "a",
+     "votes": 2
+    },
+    "6": {
+     "letter": "b",
+     "votes": 4
+    },
+    "26": {
+     "letter": "a",
+     "votes": 4
+    },
+    "36": {
+     "letter": "b",
+     "votes": 4
+    },
+    "46": {
+     "letter": "a",
+     "votes": 4
+    },
+    "7": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "c",
+     "votes": 1
+    },
+    "37": {
+     "letter": "d",
+     "votes": 2
+    },
+    "47": {
+     "letter": "b",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 1
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "38": {
+     "letter": "b",
+     "votes": 2
+    },
+    "48": {
+     "letter": "b",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 3
+    },
+    "19": {
+     "letter": "a",
+     "votes": 3
+    },
+    "29": {
+     "letter": "d",
+     "votes": 3
+    },
+    "39": {
+     "letter": "b",
+     "votes": 2
+    },
+    "49": {
+     "letter": "d",
+     "votes": 3
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "20": {
+     "letter": "b",
+     "votes": 2
+    },
+    "40": {
+     "letter": "b",
+     "votes": 2
+    },
+    "12": {
+     "letter": "c",
+     "votes": 1
+    },
+    "14": {
+     "letter": "c",
+     "votes": 1
+    },
+    "16": {
+     "letter": "c",
+     "votes": 3
+    },
+    "118": {
+     "letter": "d",
+     "votes": 1
+    },
+    "70": {
+     "letter": "d",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "30": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  "44": {
+   "cells": {
+    "11": {
+     "letter": "d",
+     "votes": 4
+    },
+    "31": {
+     "letter": "b",
+     "votes": 4
+    },
+    "41": {
+     "letter": "a",
+     "votes": 4
+    },
+    "51": {
+     "letter": "b",
+     "votes": 3
+    },
+    "12": {
+     "letter": "a",
+     "votes": 4
+    },
+    "22": {
+     "letter": "b",
+     "votes": 4
+    },
+    "32": {
+     "letter": "c",
+     "votes": 4
+    },
+    "42": {
+     "letter": "c",
+     "votes": 4
+    },
+    "52": {
+     "letter": "d",
+     "votes": 3
+    },
+    "23": {
+     "letter": "d",
+     "votes": 3
+    },
+    "43": {
+     "letter": "d",
+     "votes": 4
+    },
+    "4": {
+     "letter": "d",
+     "votes": 4
+    },
+    "14": {
+     "letter": "a",
+     "votes": 4
+    },
+    "24": {
+     "letter": "b",
+     "votes": 4
+    },
+    "34": {
+     "letter": "a",
+     "votes": 4
+    },
+    "54": {
+     "letter": "a",
+     "votes": 4
+    },
+    "15": {
+     "letter": "d",
+     "votes": 4
+    },
+    "25": {
+     "letter": "d",
+     "votes": 4
+    },
+    "35": {
+     "letter": "c",
+     "votes": 4
+    },
+    "95": {
+     "letter": "c",
+     "votes": 2
+    },
+    "16": {
+     "letter": "b",
+     "votes": 6
+    },
+    "36": {
+     "letter": "b",
+     "votes": 6
+    },
+    "46": {
+     "letter": "d",
+     "votes": 6
+    },
+    "7": {
+     "letter": "c",
+     "votes": 2
+    },
+    "17": {
+     "letter": "a",
+     "votes": 4
+    },
+    "27": {
+     "letter": "b",
+     "votes": 3
+    },
+    "37": {
+     "letter": "a",
+     "votes": 5
+    },
+    "47": {
+     "letter": "c",
+     "votes": 2
+    },
+    "8": {
+     "letter": "b",
+     "votes": 3
+    },
+    "18": {
+     "letter": "d",
+     "votes": 4
+    },
+    "28": {
+     "letter": "d",
+     "votes": 6
+    },
+    "38": {
+     "letter": "d",
+     "votes": 6
+    },
+    "48": {
+     "letter": "d",
+     "votes": 3
+    },
+    "9": {
+     "letter": "b",
+     "votes": 4
+    },
+    "19": {
+     "letter": "c",
+     "votes": 2
+    },
+    "29": {
+     "letter": "a",
+     "votes": 4
+    },
+    "39": {
+     "letter": "a",
+     "votes": 4
+    },
+    "49": {
+     "letter": "a",
+     "votes": 4
+    },
+    "10": {
+     "letter": "c",
+     "votes": 4
+    },
+    "20": {
+     "letter": "c",
+     "votes": 3
+    },
+    "30": {
+     "letter": "d",
+     "votes": 6
+    },
+    "40": {
+     "letter": "d",
+     "votes": 6
+    },
+    "21": {
+     "letter": "c",
+     "votes": 2
+    },
+    "91": {
+     "letter": "b",
+     "votes": 1
+    },
+    "33": {
+     "letter": "c",
+     "votes": 3
+    },
+    "44": {
+     "letter": "c",
+     "votes": 2
+    },
+    "45": {
+     "letter": "c",
+     "votes": 2
+    },
+    "26": {
+     "letter": "c",
+     "votes": 4
+    },
+    "3": {
+     "letter": "d",
+     "votes": 4
+    },
+    "6": {
+     "letter": "a",
+     "votes": 2
+    },
+    "56": {
+     "letter": "c",
+     "votes": 3
+    },
+    "88": {
+     "letter": "a",
+     "votes": 1
+    },
+    "13": {
+     "letter": "c",
+     "votes": 1
+    },
+    "50": {
+     "letter": "c",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "2": [
+     "a",
+     "d"
+    ],
+    "5": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  "58": {
+   "cells": {
+    "1": {
+     "letter": "d",
+     "votes": 2
+    },
+    "21": {
+     "letter": "d",
+     "votes": 3
+    },
+    "2": {
+     "letter": "d",
+     "votes": 4
+    },
+    "23": {
+     "letter": "b",
+     "votes": 4
+    },
+    "4": {
+     "letter": "a",
+     "votes": 3
+    },
+    "24": {
+     "letter": "d",
+     "votes": 3
+    },
+    "5": {
+     "letter": "b",
+     "votes": 3
+    },
+    "25": {
+     "letter": "d",
+     "votes": 3
+    },
+    "26": {
+     "letter": "c",
+     "votes": 3
+    },
+    "7": {
+     "letter": "a",
+     "votes": 2
+    },
+    "8": {
+     "letter": "d",
+     "votes": 3
+    },
+    "28": {
+     "letter": "b",
+     "votes": 3
+    },
+    "10": {
+     "letter": "b",
+     "votes": 2
+    },
+    "30": {
+     "letter": "b",
+     "votes": 3
+    },
+    "22": {
+     "letter": "c",
+     "votes": 1
+    },
+    "3": {
+     "letter": "c",
+     "votes": 1
+    },
+    "27": {
+     "letter": "a",
+     "votes": 2
+    },
+    "29": {
+     "letter": "c",
+     "votes": 2
+    },
+    "9": {
+     "letter": "c",
+     "votes": 1
+    },
+    "16": {
+     "letter": "d",
+     "votes": 1
+    },
+    "19": {
+     "letter": "d",
+     "votes": 1
+    },
+    "33": {
+     "letter": "a",
+     "votes": 1
+    },
+    "36": {
+     "letter": "b",
+     "votes": 1
+    },
+    "42": {
+     "letter": "a",
+     "votes": 1
+    },
+    "45": {
+     "letter": "a",
+     "votes": 2
+    },
+    "46": {
+     "letter": "d",
+     "votes": 2
+    },
+    "47": {
+     "letter": "d",
+     "votes": 1
+    },
+    "50": {
+     "letter": "b",
+     "votes": 2
+    },
+    "48": {
+     "letter": "c",
+     "votes": 1
+    },
+    "49": {
+     "letter": "d",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "6": [
+     "b",
+     "c"
+    ]
+   }
+  },
+  "70": {
+   "cells": {
+    "4": {
+     "letter": "a",
+     "votes": 3
+    },
+    "21": {
+     "letter": "d",
+     "votes": 3
+    },
+    "2": {
+     "letter": "a",
+     "votes": 3
+    },
+    "22": {
+     "letter": "b",
+     "votes": 3
+    },
+    "23": {
+     "letter": "a",
+     "votes": 4
+    },
+    "24": {
+     "letter": "a",
+     "votes": 3
+    },
+    "25": {
+     "letter": "c",
+     "votes": 2
+    },
+    "6": {
+     "letter": "d",
+     "votes": 4
+    },
+    "26": {
+     "letter": "b",
+     "votes": 4
+    },
+    "7": {
+     "letter": "c",
+     "votes": 2
+    },
+    "27": {
+     "letter": "c",
+     "votes": 1
+    },
+    "9": {
+     "letter": "d",
+     "votes": 3
+    },
+    "10": {
+     "letter": "b",
+     "votes": 3
+    },
+    "30": {
+     "letter": "a",
+     "votes": 4
+    },
+    "1": {
+     "letter": "a",
+     "votes": 1
+    },
+    "3": {
+     "letter": "d",
+     "votes": 3
+    },
+    "5": {
+     "letter": "c",
+     "votes": 3
+    },
+    "8": {
+     "letter": "c",
+     "votes": 2
+    },
+    "28": {
+     "letter": "d",
+     "votes": 3
+    },
+    "12": {
+     "letter": "b",
+     "votes": 1
+    },
+    "13": {
+     "letter": "d",
+     "votes": 1
+    },
+    "15": {
+     "letter": "b",
+     "votes": 1
+    },
+    "16": {
+     "letter": "c",
+     "votes": 1
+    },
+    "19": {
+     "letter": "d",
+     "votes": 2
+    },
+    "31": {
+     "letter": "d",
+     "votes": 2
+    },
+    "33": {
+     "letter": "a",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "36": {
+     "letter": "a",
+     "votes": 1
+    },
+    "37": {
+     "letter": "a",
+     "votes": 1
+    },
+    "38": {
+     "letter": "a",
+     "votes": 2
+    },
+    "41": {
+     "letter": "d",
+     "votes": 2
+    },
+    "43": {
+     "letter": "a",
+     "votes": 2
+    },
+    "45": {
+     "letter": "d",
+     "votes": 1
+    },
+    "46": {
+     "letter": "a",
+     "votes": 2
+    },
+    "49": {
+     "letter": "d",
+     "votes": 2
+    },
+    "14": {
+     "letter": "d",
+     "votes": 1
+    },
+    "18": {
+     "letter": "d",
+     "votes": 1
+    },
+    "20": {
+     "letter": "d",
+     "votes": 1
+    },
+    "29": {
+     "letter": "d",
+     "votes": 1
+    },
+    "39": {
+     "letter": "d",
+     "votes": 1
+    },
+    "40": {
+     "letter": "b",
+     "votes": 1
+    }
+   },
+   "conflicts": {}
+  }
+ },
+ "src_439c87aadd2a449415d2": {
+  "13": {
+   "cells": {
+    "31": {
+     "letter": "d",
+     "votes": 2
+    },
+    "2": {
+     "letter": "c",
+     "votes": 2
+    },
+    "32": {
+     "letter": "a",
+     "votes": 2
+    },
+    "42": {
+     "letter": "a",
+     "votes": 3
+    },
+    "3": {
+     "letter": "b",
+     "votes": 3
+    },
+    "4": {
+     "letter": "a",
+     "votes": 2
+    },
+    "34": {
+     "letter": "a",
+     "votes": 2
+    },
+    "35": {
+     "letter": "b",
+     "votes": 4
+    },
+    "36": {
+     "letter": "c",
+     "votes": 4
+    },
+    "7": {
+     "letter": "d",
+     "votes": 2
+    },
+    "8": {
+     "letter": "c",
+     "votes": 3
+    },
+    "38": {
+     "letter": "a",
+     "votes": 3
+    },
+    "9": {
+     "letter": "d",
+     "votes": 3
+    },
+    "39": {
+     "letter": "c",
+     "votes": 1
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "40": {
+     "letter": "d",
+     "votes": 3
+    },
+    "1": {
+     "letter": "a",
+     "votes": 1
+    },
+    "33": {
+     "letter": "d",
+     "votes": 2
+    },
+    "5": {
+     "letter": "d",
+     "votes": 3
+    },
+    "6": {
+     "letter": "b",
+     "votes": 3
+    },
+    "149": {
+     "letter": "d",
+     "votes": 1
+    },
+    "26": {
+     "letter": "d",
+     "votes": 1
+    },
+    "27": {
+     "letter": "b",
+     "votes": 1
+    },
+    "41": {
+     "letter": "c",
+     "votes": 1
+    },
+    "43": {
+     "letter": "d",
+     "votes": 2
+    },
+    "45": {
+     "letter": "a",
+     "votes": 2
+    },
+    "46": {
+     "letter": "d",
+     "votes": 2
+    },
+    "47": {
+     "letter": "d",
+     "votes": 2
+    },
+    "49": {
+     "letter": "d",
+     "votes": 2
+    },
+    "50": {
+     "letter": "b",
+     "votes": 1
+    },
+    "51": {
+     "letter": "d",
+     "votes": 2
+    },
+    "52": {
+     "letter": "d",
+     "votes": 2
+    },
+    "53": {
+     "letter": "d",
+     "votes": 2
+    },
+    "54": {
+     "letter": "b",
+     "votes": 2
+    },
+    "55": {
+     "letter": "d",
+     "votes": 2
+    },
+    "56": {
+     "letter": "b",
+     "votes": 2
+    },
+    "57": {
+     "letter": "d",
+     "votes": 2
+    },
+    "58": {
+     "letter": "a",
+     "votes": 2
+    },
+    "59": {
+     "letter": "c",
+     "votes": 1
+    },
+    "60": {
+     "letter": "c",
+     "votes": 2
+    },
+    "62": {
+     "letter": "a",
+     "votes": 2
+    },
+    "65": {
+     "letter": "a",
+     "votes": 2
+    },
+    "67": {
+     "letter": "b",
+     "votes": 2
+    },
+    "68": {
+     "letter": "d",
+     "votes": 2
+    },
+    "69": {
+     "letter": "d",
+     "votes": 2
+    },
+    "70": {
+     "letter": "c",
+     "votes": 1
+    },
+    "14": {
+     "letter": "d",
+     "votes": 1
+    },
+    "21": {
+     "letter": "a",
+     "votes": 1
+    },
+    "24": {
+     "letter": "b",
+     "votes": 1
+    },
+    "37": {
+     "letter": "d",
+     "votes": 1
+    },
+    "44": {
+     "letter": "c",
+     "votes": 1
+    },
+    "61": {
+     "letter": "d",
+     "votes": 1
+    },
+    "64": {
+     "letter": "d",
+     "votes": 1
+    },
+    "66": {
+     "letter": "d",
+     "votes": 1
+    }
+   },
+   "conflicts": {
+    "30": [
+     "c",
+     "d"
+    ]
+   }
+  }
+ },
+ "src_b21bbb801aed8c932206": {
+  "9": {
+   "cells": {
+    "21": {
+     "letter": "d",
+     "votes": 2
+    },
+    "31": {
+     "letter": "a",
+     "votes": 2
+    },
+    "22": {
+     "letter": "a",
+     "votes": 2
+    },
+    "32": {
+     "letter": "d",
+     "votes": 2
+    },
+    "42": {
+     "letter": "d",
+     "votes": 2
+    },
+    "3": {
+     "letter": "b",
+     "votes": 2
+    },
+    "13": {
+     "letter": "a",
+     "votes": 2
+    },
+    "23": {
+     "letter": "d",
+     "votes": 2
+    },
+    "33": {
+     "letter": "c",
+     "votes": 2
+    },
+    "43": {
+     "letter": "b",
+     "votes": 2
+    },
+    "4": {
+     "letter": "d",
+     "votes": 3
+    },
+    "14": {
+     "letter": "c",
+     "votes": 1
+    },
+    "24": {
+     "letter": "b",
+     "votes": 2
+    },
+    "34": {
+     "letter": "a",
+     "votes": 2
+    },
+    "44": {
+     "letter": "d",
+     "votes": 2
+    },
+    "15": {
+     "letter": "d",
+     "votes": 2
+    },
+    "25": {
+     "letter": "b",
+     "votes": 2
+    },
+    "35": {
+     "letter": "a",
+     "votes": 2
+    },
+    "45": {
+     "letter": "a",
+     "votes": 2
+    },
+    "6": {
+     "letter": "b",
+     "votes": 4
+    },
+    "26": {
+     "letter": "a",
+     "votes": 4
+    },
+    "36": {
+     "letter": "b",
+     "votes": 4
+    },
+    "46": {
+     "letter": "a",
+     "votes": 4
+    },
+    "27": {
+     "letter": "c",
+     "votes": 2
+    },
+    "7": {
+     "letter": "d",
+     "votes": 1
+    },
+    "47": {
+     "letter": "b",
+     "votes": 2
+    },
+    "18": {
+     "letter": "d",
+     "votes": 2
+    },
+    "28": {
+     "letter": "a",
+     "votes": 2
+    },
+    "38": {
+     "letter": "b",
+     "votes": 2
+    },
+    "48": {
+     "letter": "b",
+     "votes": 2
+    },
+    "9": {
+     "letter": "a",
+     "votes": 2
+    },
+    "19": {
+     "letter": "a",
+     "votes": 3
+    },
+    "29": {
+     "letter": "d",
+     "votes": 2
+    },
+    "39": {
+     "letter": "b",
+     "votes": 2
+    },
+    "49": {
+     "letter": "d",
+     "votes": 2
+    },
+    "10": {
+     "letter": "d",
+     "votes": 2
+    },
+    "40": {
+     "letter": "b",
+     "votes": 2
+    },
+    "11": {
+     "letter": "c",
+     "votes": 1
+    },
+    "12": {
+     "letter": "c",
+     "votes": 1
+    },
+    "17": {
+     "letter": "c",
+     "votes": 1
+    },
+    "16": {
+     "letter": "c",
+     "votes": 2
+    }
+   },
+   "conflicts": {
+    "2": [
+     "c",
+     "d"
+    ],
+    "8": [
+     "a",
+     "c"
+    ],
+    "20": [
+     "b",
+     "d"
+    ],
+    "30": [
+     "a",
+     "b"
+    ],
+    "1": [
+     "a",
+     "d"
+    ]
+   }
+  }
+ }
+}
