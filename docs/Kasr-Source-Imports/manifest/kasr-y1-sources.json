@@ -1359,7 +1359,8 @@
    "textLayer": "none",
    "processingStatus": "ocr_required",
    "extractionDisposition": null,
-   "correction": "Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed."
+   "correction": "Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed.",
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_9487fd713153c573087f",
@@ -1465,7 +1466,7 @@
    "yearConflict": null,
    "examSittingYear": 2024,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": "unsolved",
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -1474,7 +1475,9 @@
    "textLayer": "native",
    "processingStatus": "pending",
    "extractionDisposition": null,
-   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is",
+   "solvedStatusClaimed": "solved",
+   "solvedStatusChecked": "the filename claims solved; the file is blank — 2 of 217 answer rules carry any text, over 26 questions"
   },
   {
    "sourceId": "src_8cb257f4b6a6dcd730d0",
@@ -1541,7 +1544,7 @@
    "yearConflict": null,
    "examSittingYear": 2025,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": "unsolved",
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -1550,7 +1553,9 @@
    "textLayer": "native",
    "processingStatus": "pending",
    "extractionDisposition": null,
-   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is",
+   "solvedStatusClaimed": "solved",
+   "solvedStatusChecked": "the filename claims solved; the file is blank — 0 of 422 answer rules carry any text, over 16 questions"
   },
   {
    "sourceId": "src_c58336a4f2f0a172b4fe",
@@ -1587,7 +1592,8 @@
    "pageCount": 89,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_1641d3629225bb111726",
@@ -2200,7 +2206,8 @@
    "pageCount": 3,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_c6ab1b49dc16762227e1",
@@ -2312,7 +2319,8 @@
    "pageCount": 3,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_49219d03df20225ca11a",
@@ -2462,7 +2470,8 @@
    "textLayer": "native",
    "processingStatus": "pending",
    "extractionDisposition": null,
-   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is",
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_450c71dc6273b2e64ca3",
@@ -3108,7 +3117,8 @@
    "pageCount": 5,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_1a0a73970f7cfa6dbc8c",
@@ -3256,7 +3266,8 @@
    "pageCount": 1,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_c6ce0ceffea34cb6b393",
@@ -3703,7 +3714,8 @@
    "pageCount": 44,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 1 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_2f7ee10613cdb43781cc",
@@ -4007,7 +4019,8 @@
    "pageCount": 15,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_0210fe49baedc57d233d",
@@ -4086,7 +4099,8 @@
    "pageCount": 16,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_aa69bb3b549517fbd6d9",
@@ -4160,7 +4174,8 @@
    "pageCount": 16,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_d6b0a2e395dcd5e7110d",
@@ -4308,7 +4323,8 @@
    "pageCount": 11,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 7 of 209 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_f90429f7c288986e68b5",
@@ -4382,7 +4398,8 @@
    "pageCount": 11,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 9 of 219 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_af2f3821c0e2ba83d28f",
@@ -4572,7 +4589,8 @@
    "pageCount": 50,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_c786d1a6a892f7fca4ea",
@@ -4609,7 +4627,8 @@
    "pageCount": 75,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_a1c9b307c0fa78dc8724",
@@ -5056,7 +5075,8 @@
    "pageCount": 18,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_aea4f203786caf15e183",
@@ -5093,7 +5113,8 @@
    "pageCount": 20,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_1de2c3ea295b8706d246",
@@ -5130,7 +5151,8 @@
    "pageCount": 24,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_6ec445bc69f69cfa5ef4",
@@ -5167,7 +5189,8 @@
    "pageCount": 25,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_f2730f45d1c1aa1dcddd",
@@ -5241,7 +5264,8 @@
    "pageCount": 3,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_6ca3fcffebc33baa2c92",
@@ -5278,7 +5302,8 @@
    "pageCount": 3,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_0578951df98dbf8e74ec",
@@ -5352,7 +5377,8 @@
    "pageCount": 6,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_38cd0b9a56f1e9035527",
@@ -5389,7 +5415,8 @@
    "pageCount": 5,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_ce4b27d68db2cdc9e569",
@@ -5426,7 +5453,8 @@
    "pageCount": 7,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_ba9b90db6e154acec08d",
@@ -5463,7 +5491,8 @@
    "pageCount": 9,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_59643edb9d371bcefa2c",
@@ -5870,7 +5899,8 @@
    "pageCount": 14,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 11 of 277 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_37f6c0daf3436096af19",
@@ -5944,7 +5974,8 @@
    "pageCount": 21,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 8 of 473 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_556aa714f638af772cfe",
@@ -5981,7 +6012,8 @@
    "pageCount": 16,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_63815605d37c6a354426",
@@ -6055,7 +6087,8 @@
    "pageCount": 18,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_2c88cec45715f106375c",
@@ -6092,7 +6125,8 @@
    "pageCount": 16,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_276d2aaab46f564b4b49",
@@ -6129,7 +6163,8 @@
    "pageCount": 5,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_120a632946013b7e5f55",
@@ -6166,7 +6201,8 @@
    "pageCount": 4,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_639973a736278469f8d1",
@@ -6203,7 +6239,8 @@
    "pageCount": 14,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 11 of 277 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_963b6acc12dd1ebe5d0c",
@@ -6277,7 +6314,8 @@
    "pageCount": 61,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_f0eee47e545f3cbb996d",
@@ -6351,7 +6389,8 @@
    "pageCount": 25,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_b162ed799281e5558abe",
@@ -6388,7 +6427,8 @@
    "pageCount": 25,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_94a67eb0bd8e3a1c10c4",
@@ -7279,7 +7319,8 @@
    "pageCount": 44,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_b2b20b3b22954ea7843a",
@@ -7474,7 +7515,8 @@
    "pageCount": 15,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -7622,7 +7664,8 @@
    "pageCount": 58,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_df6b7a7de75411dbb92b",
@@ -7696,7 +7739,8 @@
    "pageCount": 69,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_c30d947377670cb99a40",
@@ -7887,7 +7931,8 @@
    "pageCount": 14,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_ef6ca67a8e6e4b693696",
@@ -8488,7 +8533,7 @@
    "yearConflict": null,
    "examSittingYear": 2025,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": "unsolved",
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -8496,7 +8541,9 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusClaimed": "solved",
+   "solvedStatusChecked": "the filename claims solved; the file is blank — 0 of 102 answer rules carry any text, over 34 questions"
   },
   {
    "sourceId": "src_26907f7ae5f2763e89f0",
@@ -8533,7 +8580,8 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: inconclusive. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_a2e82550c5fffe1b8bfd",
@@ -8599,7 +8647,7 @@
    "yearConflict": null,
    "examSittingYear": 2024,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": "unsolved",
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -8607,7 +8655,9 @@
    "pageCount": 11,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusClaimed": "solved",
+   "solvedStatusChecked": "the filename claims solved; the file is blank — 0 of 148 answer rules carry any text, over 40 questions"
   },
   {
    "sourceId": "src_b4f736e3bd809dbee187",
@@ -9879,7 +9929,8 @@
    "pageCount": 8,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_9bdac4085a047a0447c1",
@@ -10662,7 +10713,8 @@
    "pageCount": 4,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_1fabd817ab618b214f1a",
@@ -10736,7 +10788,8 @@
    "pageCount": 20,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 40 of 3 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_7d9311ec953d77c43a49",
@@ -11257,7 +11310,8 @@
    "pageCount": 8,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: fewer than three numbered questions found — the layout was not understood well enough to judge. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_1fc77adc5f020ac11cd5",
@@ -12669,7 +12723,8 @@
    "pageCount": 175,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 3 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_f445e5a4b3f64a5b93ad",
@@ -12706,7 +12761,8 @@
    "pageCount": 175,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 3 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_4401c76accb5e8369b16",
@@ -12743,7 +12799,8 @@
    "pageCount": 212,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 3 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_dc25fa0cc4e14d020adf",
@@ -12780,7 +12837,8 @@
    "pageCount": 212,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 3 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_f0b21568e72738be2bd2",
@@ -12854,7 +12912,8 @@
    "pageCount": 5,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_7c6ac6c5d91efdd3e4b1",
@@ -13150,7 +13209,8 @@
    "pageCount": 66,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_8f3c6151a8a61306ed0b",
@@ -13224,7 +13284,8 @@
    "pageCount": 14,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_56c2aa4e9cc0c3427c4c",
@@ -14830,7 +14891,8 @@
    "pageCount": 143,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_6a3bfc5d425332728c15",
@@ -14904,7 +14966,8 @@
    "pageCount": 6,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: 0 of 0 answer rules carry text — not separable from a blank paper by reading alone. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_bf6247c212dc686e86e5",
@@ -14941,7 +15004,8 @@
    "pageCount": 66,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_efc9fc596482537b597b",
@@ -15163,7 +15227,8 @@
    "pageCount": 62,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "solvedStatusChecked": "not verified by reading: no text layer to read. solvedStatus is still the filename's claim."
   },
   {
    "sourceId": "src_16f17db97710b11bab2d",
