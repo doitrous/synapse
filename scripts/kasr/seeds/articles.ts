@@ -103,4 +103,66 @@ export const ARTICLE_FOR_CONCEPT: Record<string, string> = {
   'CON-FND-9EA7F8E2898EB7': 'ART-101-HIS-CT-CELLS-COMPARED',
   'CON-HEM-9F3C4150F1076B': 'ART-101-HIS-NON-GRANULAR-LEUKOCYTES',
   'CON-FND-834F212F6343CE': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  // Practical (spot) identification concepts. These do not fail the validator
+  // the way a question's concept does — nothing refuses a practical concept no
+  // article teaches — so the gap they closed was a content gap and not a red
+  // check: a student who failed a spot had nowhere to go and read.
+  //
+  // Cytoplasm. Nine of these the article already taught and only needed
+  // claiming; five arrived with the article extended first — the trilaminar
+  // unit membrane, the centriole's nine triplets, the glycogen and fat
+  // inclusions with their stains, and Nissl's granules. The reason each of the
+  // five was written rather than merely declared is in that article's `notes`.
+  'CON-FND-8BD70C3ED36B79': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-ED156BF8FBFD46': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-E0B130AC5EC939': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-89F4A730D095B7': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-F4DF782C697CCF': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-0492C40A7F76E7': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-08378767774524': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-369A1D27DFE0DD': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-82768007A697F1': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-4AE74C678A6F64': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-ACF503263BA7D7': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-759499A4A27938': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-7650D31963FEBD': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  'CON-FND-53E16F5D4E3538': 'ART-101-HIS-CYTOPLASMIC-ORGANELLES',
+  // Surface epithelium. Four were already taught; the keratinised-against-
+  // non-keratinised decision and the stereocilia arrived with the article
+  // extended first.
+  'CON-FND-CC0954729ED55F': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-8760847341DE80': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-A214482F13AD8D': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-9715187C19E7FA': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-28F7FA711C1C1C': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-8EEA6972B77898': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  // Types of connective tissue proper. All five needed the article extended
+  // first: it carried composition, sites and function for every type and
+  // almost nothing about what any of them looks like on a section.
+  'CON-FND-3E3303864A3CE8': 'ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE',
+  'CON-FND-49D5829AC3DCA1': 'ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE',
+  'CON-FND-7FB8290199B237': 'ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE',
+  'CON-FND-B33D27A8517527': 'ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE',
+  'CON-FND-4671C4D2911392': 'ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE',
+  // Connective tissue cells. Three of the four the article already taught in
+  // full — the macrophage with its vital stain, the plasma cell against the
+  // mast cell, and the two fat cells. Only the fibroblast needed writing: the
+  // article described the cell, and the spot exam asks for a nucleus among
+  // fibre bundles, which is not the same picture.
+  'CON-FND-2030501B814D35': 'ART-101-HIS-CONNECTIVE-TISSUE-CELLS',
+  'CON-FND-90E8073879B42A': 'ART-101-HIS-CONNECTIVE-TISSUE-CELLS',
+  'CON-FND-B83D7EAAF68D3B': 'ART-101-HIS-CONNECTIVE-TISSUE-CELLS',
+  'CON-FND-97930723FE0D94': 'ART-101-HIS-CONNECTIVE-TISSUE-CELLS',
+  // Nucleus. The envelope and the chromatin comparison were already taught;
+  // the open-face-against-closed-face concept needed the article extended,
+  // because the article carried that idea under the book's names (pale
+  // vesicular, dark condensed) and the spot exam asks it under the plate's.
+  'CON-FND-E2DE55693981A7': 'ART-101-HIS-NUCLEUS',
+  'CON-FND-C81FD3E574D3AA': 'ART-101-HIS-NUCLEUS',
+  'CON-FND-BAABF179A898ED': 'ART-101-HIS-NUCLEUS',
+  // Red blood corpuscles. Both were taught in substance; what the article
+  // lacked was the shape of the spot question — the preparation and the stain
+  // are asked before any cell is, and they carry marks of their own.
+  'CON-HEM-1935D59A1D2839': 'ART-101-HIS-RED-BLOOD-CORPUSCLES',
+  'CON-HEM-4F5347CC3664E0': 'ART-101-HIS-RED-BLOOD-CORPUSCLES',
 }

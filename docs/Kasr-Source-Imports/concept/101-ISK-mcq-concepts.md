@@ -2,30 +2,30 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Arm — 63 questions, 13 concepts
+    Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
-    Embryonic Period — 9 questions, 1 concepts
-    Fascia — 14 questions, 2 concepts
-    Fetal Period — 6 questions, 2 concepts
-    First Week of Development — 24 questions, 5 concepts
+    Embryonic Period — 9 questions, 2 concepts
+    Fetal Period — 6 questions, 3 concepts
+    First Week of Development — 24 questions, 6 concepts
     Gametes — 31 questions, 4 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
-    Introduction — 16 questions, 3 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Microscopes — 7 questions, 2 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
+    Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
+    Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
     Shoulder Region — 40 questions, 19 concepts
-    Skeletal system — 43 questions, 7 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  262 questions were excluded and 0 held back for having no
+  257 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -117,7 +117,7 @@ ART-101-ANA-ARM | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Biceps brachii:
 ## conflicts
 [clear]
 ## uncertainty
@@ -125,7 +125,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -137,7 +137,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -153,15 +153,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -175,7 +175,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -189,7 +188,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -253,7 +252,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] One of the following muscles produces ﬂexion of the pronated forearm: (2017) y
 ## conflicts
 [clear]
 ## uncertainty
@@ -261,7 +260,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -273,7 +272,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -289,15 +288,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -311,7 +310,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -325,7 +323,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -385,7 +383,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding the triceps brachii muscle: (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -393,7 +391,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -405,7 +403,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -421,15 +419,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -443,7 +441,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -457,7 +454,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -499,12 +496,14 @@ src_69103a53ec28a93958d5 | question_book | | p26 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p44 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p46 | 101 ISK
 src_08bc782553366518791e | question_book | | p43 | 101 ISK
+src_a38c7a9672971718ccdb | question_book | | p1 | 101 ISK
+src_08bc782553366518791e | question_book | | p67 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -518,11 +517,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 5x across the question books] The lateral intermuscular septum, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -530,7 +529,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -542,7 +541,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -558,15 +557,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -580,7 +579,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -594,7 +592,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -657,7 +655,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The middle third of the humerus shows the following features, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -665,7 +663,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -677,7 +675,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -693,15 +691,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -715,7 +713,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -729,7 +726,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -791,7 +788,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Profunda brachii artery, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -799,7 +796,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -811,7 +808,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -827,15 +824,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -849,7 +846,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -863,7 +859,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -925,7 +921,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] One of the following is correct regarding the brachial artery (IPKA). Ac P Vi a- Lies lateral to the basilic vein
 ## conflicts
 [clear]
 ## uncertainty
@@ -933,7 +929,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -945,7 +941,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -961,15 +957,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -983,7 +979,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -997,7 +992,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1036,12 +1031,20 @@ kau
 src_08bc782553366518791e | question_book | | p73 | 101 ISK
 src_08bc782553366518791e | question_book | | p55 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p70 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p11 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p15 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p22 | 101 ISK
+src_08bc782553366518791e | question_book | | p75 | 101 ISK
+src_08bc782553366518791e | question_book | | p71 | 101 ISK
+src_08bc782553366518791e | question_book | | p63 | 101 ISK
+src_08bc782553366518791e | question_book | | p56 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1055,11 +1058,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The following structure is a content of the cubital fossa:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1067,7 +1070,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1079,7 +1082,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1095,15 +1098,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1117,7 +1120,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1131,7 +1133,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1190,11 +1192,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-ARM | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Select the correct statement; the musculocutaneous nerve: (2024)
 ## conflicts
 [clear]
 ## uncertainty
@@ -1202,7 +1204,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1214,7 +1216,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1230,15 +1232,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1252,7 +1254,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1266,7 +1267,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1310,12 +1311,13 @@ src_08bc782553366518791e | question_book | | p48 | 101 ISK
 src_08bc782553366518791e | question_book | | p81 | 101 ISK
 src_08bc782553366518791e | question_book | | p50 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p60 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1329,11 +1331,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST
+ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The radial nerve, around the elbow, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1341,7 +1343,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1353,7 +1355,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1369,15 +1371,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1391,7 +1393,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1405,7 +1406,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1445,12 +1446,21 @@ src_0f1171705349e98b44e6 | question_book | | p20 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p32 | 101 ISK
 src_08bc782553366518791e | question_book | | p88 | 101 ISK
 src_08bc782553366518791e | question_book | | p89 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p55 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p6 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p24 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p122 | 101 ISK
+src_08bc782553366518791e | question_book | | p48 | 101 ISK
+src_08bc782553366518791e | question_book | | p49 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1464,11 +1474,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST
+ART-101-ANA-ARM | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 5x across the question books] Wrist drop deformity results from injury of which one of the following nerves?
 ## conflicts
 [clear]
 ## uncertainty
@@ -1476,7 +1486,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1488,7 +1498,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1504,15 +1514,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1526,7 +1536,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1540,7 +1549,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1581,13 +1590,16 @@ src_69103a53ec28a93958d5 | question_book | | p29 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p49 | 101 ISK
 src_08bc782553366518791e | question_book | | p100 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p13 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p31 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p160 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p37 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1601,11 +1613,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-ARM | ART-101-ANA-ELBOW-JOINT
+ART-101-ANA-ARM | ART-101-ANA-SYNOVIAL-JOINTS | ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The radial collateral ligament, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1613,7 +1625,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1625,7 +1637,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1641,15 +1653,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1663,7 +1675,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1677,7 +1688,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -1739,7 +1750,7 @@ ART-101-ANA-ARM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Supination is more powerful than pronation due to; mark the most suitable answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1747,7 +1758,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1759,7 +1770,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1775,15 +1786,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1797,7 +1808,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1811,7 +1821,402 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+
+---
+
+# Item
+## label
+A synovial joint is seven named components around a potential cavity
+## id
+CON-MSK-1E40050F141F4C
+## canonical_key
+synovial-joint-structure-characters
+## definition
+A synovial joint is freely mobile and present mostly in the limbs. It is formed of a fibrous capsule surrounding the joint, lined by synovial membrane and strengthened by strong ligaments; articular cartilage, hyaline cartilage covering the articular surfaces, smooth, lubricated by synovial fluid, with no blood vessels or nerves and nourished from the fluid; a joint cavity which is potential, holding only a thin film of fluid and becoming manifest if fluid, blood or pus collects; a synovial membrane, thin, moist and glistening, covering everything inside the joint except the articular surfaces and secreting and absorbing the fluid; synovial fluid, pale yellow and viscous like egg albumin, containing synovial cells, macrophages and lymphocytes; ligaments, capsular, extracapsular and intracapsular; and intra-articular structures such as a fibrocartilaginous disc, menisci, ligaments or a tendon.
+## explicit_objective
+Name the seven components of a synovial joint and describe what each contributes.
+## pitfalls
+Calling the joint cavity a space. It is a potential cavity with only a film of fluid; it becomes an actual space only when disease fills it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p11 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding characters of the synovial joint, one is wrong : (2022)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A fibrous joint is an immobile union by fibrous tissue, in three named types
+## id
+CON-MSK-17E2267FB4758F
+## canonical_key
+fibrous-joints-types-definition
+## definition
+A fibrous joint is a joint in which the bone surfaces are connected by fibrous tissue and which is fixed or immobile. There are three types: syndesmosis, where the bones are held by an interosseous ligament, as at the inferior tibio-fibular joint; gomphosis, where a tooth root is held in its socket by the periodontal ligament; and suture, where skull bones are held by a thin sutural ligament, obliterated in old age.
+## explicit_objective
+Define a fibrous joint and name its three types with the ligament and example of each.
+## pitfalls
+Naming the three types without the connecting tissue. It is the named ligament — interosseous, periodontal, sutural — that distinguishes them, not the site alone.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p12 | 101 ISK
+src_08bc782553366518791e | question_book | | p11 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] In what joint is the root of the tooth attached to a periodontal ligament and held into a tooth socket (2024). y y
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Primary cartilaginous joints are hyaline and temporary; secondary ones are fibrocartilaginous and midline
+## id
+CON-MSK-8863ACD7E8D790
+## canonical_key
+primary-versus-secondary-cartilaginous-joints
+## definition
+A primary cartilaginous joint (synchondrosis) unites bones by hyaline cartilage, is usually temporary and ossifies with growth, and permits no movement — the epiphyseal plate is the type example. A secondary cartilaginous joint (symphysis) unites bones by fibrocartilage, lies in the midline, is permanent and permits slight movement, as at the pubic symphysis and intervertebral discs.
+## explicit_objective
+Compare primary and secondary cartilaginous joints by the cartilage involved, permanence, site and movement.
+## pitfalls
+Assuming every cartilaginous joint disappears. Only the primary ones ossify; a symphysis is there for life.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p12 | 101 ISK
+src_08bc782553366518791e | question_book | | p10 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] An example of a secondary cartilaginous joint (DEP BOOK – 2016). Ac P Vi a- Intervertebral
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
 
 ---
 
@@ -1881,7 +2286,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Regarding the axillary artery, choose the correct answer:
 ## conflicts
 The books ask "the superior thoracic artery … arises behind the pectoralis minor" and key it as correct. Strictly it is not: the artery arises from the first part of the axillary artery, which lies above the upper border of pectoralis minor, and only then passes behind the muscle. The option is the examiner's answer by elimination — the other three name the thoraco-acromial and the lateral thoracic — but the wording needs a faculty eye before students sit it.
 ## uncertainty
@@ -1889,7 +2294,7 @@ The books ask "the superior thoracic artery … arises behind the pectoralis min
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1901,7 +2306,7 @@ The books ask "the superior thoracic artery … arises behind the pectoralis min
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1917,15 +2322,15 @@ The books ask "the superior thoracic artery … arises behind the pectoralis min
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1939,7 +2344,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -1953,7 +2357,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2015,7 +2419,7 @@ ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The axillary sheath, mark the correct statement:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2023,7 +2427,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2035,7 +2439,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2051,15 +2455,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2073,7 +2477,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2087,7 +2490,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2150,7 +2553,7 @@ ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The cervico-axillary canal, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2158,7 +2561,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2170,7 +2573,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2186,15 +2589,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2208,7 +2611,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2222,7 +2624,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2284,7 +2686,7 @@ ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding axillary lymph nodes. one statement is wrong; (IPKA)
 ## conflicts
 [clear]
 ## uncertainty
@@ -2292,7 +2694,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2304,7 +2706,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2320,15 +2722,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2342,7 +2744,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2356,7 +2757,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2395,12 +2796,20 @@ kau
 src_08bc782553366518791e | question_book | | p70 | 101 ISK
 src_08bc782553366518791e | question_book | | p66 | 101 ISK
 src_08bc782553366518791e | question_book | | p51 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p13 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p17 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p15 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p33 | 101 ISK
+src_08bc782553366518791e | question_book | | p71 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p36 | 101 ISK
+src_08bc782553366518791e | question_book | | p73 | 101 ISK
+src_08bc782553366518791e | question_book | | p64 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2414,11 +2823,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] One of the following structures pass behind the medial epicondyle:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2426,7 +2835,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2438,7 +2847,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2454,15 +2863,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2476,7 +2885,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2490,7 +2898,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2553,7 +2961,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Concerning the axilla, the following statements are correct except: (2022)
 ## conflicts
 [clear]
 ## uncertainty
@@ -2561,7 +2969,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2573,7 +2981,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2589,15 +2997,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2611,7 +3019,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2625,7 +3032,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2688,7 +3095,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Choose the correct answer, which of the following muscles forms the anterior fold of axilla:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2696,7 +3103,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2708,7 +3115,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2724,15 +3131,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2746,7 +3153,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2760,7 +3166,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2825,7 +3231,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The axillary septum doesn't includes:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2833,7 +3239,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2845,7 +3251,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2861,15 +3267,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2883,7 +3289,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -2897,7 +3302,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -2947,6 +3352,10 @@ src_69103a53ec28a93958d5 | question_book | | p33 | 101 ISK
 src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
 src_08bc782553366518791e | question_book | | p35 | 101 ISK
 src_08bc782553366518791e | question_book | | p37 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p6 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p9 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p27 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p53 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p40 | 101 ISK
@@ -2970,11 +3379,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] Which nerve arises from a cord of the brachial plexus cords?
 ## conflicts
 [clear]
 ## uncertainty
@@ -2982,7 +3391,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2994,7 +3403,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3010,15 +3419,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3032,7 +3441,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3046,7 +3454,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3105,11 +3513,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-AXILLA-BREAST
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Regarding lesion of the lower root of the brachial plexus, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3117,7 +3525,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3129,7 +3537,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3145,15 +3553,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3167,7 +3575,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3181,7 +3588,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3220,6 +3627,11 @@ kau
 src_08bc782553366518791e | question_book | | p20 | 101 ISK
 src_08bc782553366518791e | question_book | | p22 | 101 ISK
 src_08bc782553366518791e | question_book | | p21 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p1 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p32 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p52 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p22 | 101 ISK
+src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
@@ -3227,9 +3639,9 @@ src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -3243,11 +3655,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The serratus anterior muscle:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3255,7 +3667,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3267,7 +3679,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3283,15 +3695,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3305,7 +3717,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3319,7 +3730,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3360,14 +3771,24 @@ src_08bc782553366518791e | question_book | | p39 | 101 ISK
 src_08bc782553366518791e | question_book | | p28 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p32 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p7 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p8 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p7 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p13 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p31 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p15 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p10 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p28 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p8 | 101 ISK
+src_08bc782553366518791e | question_book | | p25 | 101 ISK
+src_08bc782553366518791e | question_book | | p38 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p19 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p8 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p33 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p46 | 101 ISK
-src_08bc782553366518791e | question_book | | p38 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -3387,11 +3808,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-AXILLA-BREAST | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The axillary nerve innervates; select the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3399,7 +3820,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3411,7 +3832,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3427,15 +3848,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3449,7 +3870,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3463,7 +3883,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3527,7 +3947,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding pectoralis major, mark one correct statement:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3535,7 +3955,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3547,7 +3967,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3563,15 +3983,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3585,7 +4005,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3599,7 +4018,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3664,7 +4083,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Regarding veins of upper limb, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3672,7 +4091,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3684,7 +4103,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3700,15 +4119,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3722,7 +4141,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3736,7 +4154,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3802,7 +4220,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The glenohumeral ligaments, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3810,7 +4228,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3822,7 +4240,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3838,15 +4256,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3860,7 +4278,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -3874,7 +4291,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -3935,7 +4352,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] E/M picture of blood platelets shows:
 ## conflicts
 [clear]
 ## uncertainty
@@ -3943,7 +4360,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3955,7 +4372,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -3971,15 +4388,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3993,7 +4410,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4007,7 +4423,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4070,7 +4486,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All characters of platelet xpt:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4078,7 +4494,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4090,7 +4506,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4106,15 +4522,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4128,7 +4544,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4142,7 +4557,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4203,7 +4618,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Granulomere of blood platelets contains:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4211,7 +4626,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4223,7 +4638,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4239,15 +4654,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4261,7 +4676,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4275,7 +4689,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4339,7 +4753,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] As regard demarcation channels in megakaryocytes all of the following are true except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4347,7 +4761,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4359,7 +4773,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4375,15 +4789,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4397,7 +4811,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4411,7 +4824,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4472,7 +4885,7 @@ ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] number of platelets are ……………
 ## conflicts
 [clear]
 ## uncertainty
@@ -4480,7 +4893,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4492,7 +4905,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4508,15 +4921,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4530,7 +4943,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4544,7 +4956,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4613,7 +5025,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] One of the following is a non membranous organelles:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4621,7 +5033,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4633,7 +5045,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4649,15 +5061,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4671,7 +5083,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4685,7 +5096,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4759,7 +5170,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] A protein forming cell has ONE of these characters:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4767,7 +5178,7 @@ direct_statement
 ## evidence_gaps
 Several cells used in these rows have concepts of their own that already belong to sibling leaves of this batch — `fibroblast-active-and-fibrocyte-inactive` in `haemopoiesis.ts`, the macrophage and plasma cell in the connective-tissue leaves, and the erythrocyte in a leaf not yet seeded. None of them could be declared again here without emitting a duplicate concept id, so the cell-specific facts are carried in the option explanations. When those leaves are authored, these rows should be re-homed to them.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4779,7 +5190,7 @@ Several cells used in these rows have concepts of their own that already belong 
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4795,15 +5206,15 @@ Several cells used in these rows have concepts of their own that already belong 
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4817,7 +5228,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4831,7 +5241,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -4902,7 +5312,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The cytoplasmic organelle which contains DNA & RNA is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4910,7 +5320,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4922,7 +5332,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -4938,15 +5348,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4960,7 +5370,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -4974,7 +5383,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5049,7 +5458,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] One item is a feature of defective mitochondria:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5057,7 +5466,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5069,7 +5478,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5085,15 +5494,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5107,7 +5516,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5121,7 +5529,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5194,7 +5602,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Concerning rER:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5202,7 +5610,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5214,7 +5622,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5230,15 +5638,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5252,7 +5660,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5266,7 +5673,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5338,7 +5745,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] A newborn presenting with yellow coloration of skin and eyes by examination is expected to have:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5346,7 +5753,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5358,7 +5765,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5374,15 +5781,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5396,7 +5803,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5410,7 +5816,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5476,7 +5882,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] A brown fibrillar network in the cytoplasm represents:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5484,7 +5890,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5496,7 +5902,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5512,15 +5918,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5534,7 +5940,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5548,7 +5953,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5623,7 +6028,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] all functions of golgi except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5631,7 +6036,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5643,7 +6048,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5659,15 +6064,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5681,7 +6086,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5695,7 +6099,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5762,7 +6166,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Among features of medical conditions related to defective lysosomes:
 ## conflicts
 [clear]
 ## uncertainty
@@ -5770,7 +6174,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5782,7 +6186,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5798,15 +6202,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5820,7 +6224,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5834,7 +6237,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -5896,7 +6299,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] A lysosome measures 0.4 pm in diameter. What is the diameter in nm?
 ## conflicts
 [clear]
 ## uncertainty
@@ -5904,7 +6307,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5916,7 +6319,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -5932,15 +6335,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5954,7 +6357,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -5968,7 +6370,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6036,7 +6438,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All of the following are types of secondary lysosomes EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6044,7 +6446,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6056,7 +6458,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6072,15 +6474,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6094,7 +6496,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6108,7 +6509,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6176,11 +6577,11 @@ Cytology
 ## aliases
 Microbody | Catalase | Beta oxidation
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Peroxisomes are characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6188,7 +6589,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6200,7 +6601,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6216,15 +6617,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6238,7 +6639,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6252,7 +6652,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6320,7 +6720,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] As regards ribosomes:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6328,7 +6728,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6340,7 +6740,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6356,15 +6756,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6378,7 +6778,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6392,7 +6791,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6467,7 +6866,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The organelle responsible for synthesis of secreted proteins is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6475,7 +6874,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6487,7 +6886,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6503,15 +6902,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6525,7 +6924,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6539,7 +6937,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6606,7 +7004,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] all of the following are cytoskeleton except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6614,7 +7012,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6626,7 +7024,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6642,15 +7040,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6664,7 +7062,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6678,7 +7075,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6749,7 +7146,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Microtubules are characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6757,7 +7154,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6769,7 +7166,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6785,15 +7182,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6807,7 +7204,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6821,7 +7217,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6886,7 +7282,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] all function of microfilament except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6894,7 +7290,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6906,7 +7302,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -6922,15 +7318,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6944,7 +7340,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -6958,7 +7353,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -6997,12 +7392,15 @@ kau
 src_6846577508f49244d715 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p28 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7016,11 +7414,11 @@ Cytology
 ## aliases
 Cytokeratin | Vimentin | Desmin | Neurofilament | GFAP | Lamins
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-NERVOUS-SYSTEM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Desmin intermediate filaments are present:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7028,7 +7426,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7040,7 +7438,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7056,15 +7454,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7078,7 +7476,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7092,7 +7489,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -7161,7 +7558,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] the wall of centrioles is composed of:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7169,7 +7566,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7181,7 +7578,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7197,15 +7594,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7219,7 +7616,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7233,7 +7629,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -7301,11 +7697,11 @@ Epithelial Tissues
 ## aliases
 [clear]
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-GAMETES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] One of the following is a character of the shaft of cilia:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7313,7 +7709,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7325,7 +7721,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7341,15 +7737,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7363,7 +7759,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7377,7 +7772,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -7439,7 +7834,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] microvilli:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7447,7 +7842,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7459,7 +7854,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7475,15 +7870,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7497,7 +7892,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7511,7 +7905,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -7585,7 +7979,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] cell membrane extrudes vesicles from the cytoplasm to Outside by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7593,7 +7987,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7605,7 +7999,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7621,15 +8015,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7643,7 +8037,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7657,7 +8050,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -7718,7 +8111,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Abnormal short lived proteins are degraded by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7726,7 +8119,7 @@ direct_statement
 ## evidence_gaps
 The department book's cytology chapter does not mention proteasomes at all — it names ribosomes and the cytoskeleton as the only non-membranous organelles. The question books nevertheless examine the proteasome as a distractor and, in two rows, as the answer. The concept is minted because it is examined, and this note records that no statement in the faculty's own text supports it.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7738,7 +8131,7 @@ The department book's cytology chapter does not mention proteasomes at all — i
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7754,15 +8147,15 @@ The department book's cytology chapter does not mention proteasomes at all — i
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7776,7 +8169,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7790,23 +8182,23 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-Somites appear first at the occipital region and spread caudally at three pairs a day, which is what lets their number date the embryo
+Somites segment from the occipital region caudally, and there are 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8–10 coccygeal pairs
 ## id
-CON-DEV-DAF7FB6BF109D5
+CON-DEV-8F17D9869A6D15
 ## canonical_key
-somite-segmentation-sequence-regional-count-and-age-formula
+somite-segmentation-craniocaudal-order-and-regional-counts
 ## definition
-The paraxial mesoderm divides transversely into somites, and the segmentation is orderly enough to be used as a clock. The first pair separates at the occipital region on the twentieth gestational day and further pairs appear caudally at a rate of three pairs a day until the thirtieth day — the somite period — after which segmentation continues more slowly and irregularly to the thirty-fifth or fortieth day, by which time there are forty-two to forty-four pairs. Cephalic to the first occipital somite the segments are smaller and are called somitomeres. Regionally the somites are four occipital, eight cervical, twelve thoracic, five lumbar, five sacral and eight to ten coccygeal pairs. Because the rate is fixed, the department book gives the age of an embryo in the somite period as: age in days = (number of somites − 1) / 3 + 20.
+The paraxial mesoderm, lying on both sides of the notochord and the neural tube, divides transversely into segments called somites. Segmentation begins at the occipital region and extends caudally to the coccygeal region, so the occipital somites are the oldest and the coccygeal the youngest. Cephalic to the first occipital somite the paraxial mesoderm forms smaller unsegmented masses called somitomeres. The somites are classified regionally from cranial to caudal into 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8–10 coccygeal pairs, and 42–44 pairs are present in all by the 40th day.
 ## explicit_objective
-State where somite segmentation begins and in which direction it proceeds, give the number of pairs in each region, and use the department book's formula to date an embryo from its somite count.
+Name the region where somite segmentation begins and the direction it proceeds, and give the number of pairs in each region.
 ## pitfalls
-Starting the count at the cervical region because that is where the first vertebra is. Segmentation starts one region higher, at the occipital, and those four pairs go into the base of the skull rather than into the vertebral column — which is also why the formula subtracts one rather than starting from zero.
+Starting the count at the cervical region because that is where the vertebral column is usually described from. Segmentation starts one region higher, at the occipital, and the four occipital pairs are the ones that go on to build the base of the skull rather than vertebrae — which is why they are easy to forget and easy to examine.
 ## concept_type
 developmental_process
 ## status
@@ -7845,21 +8237,21 @@ Anatomy
 ## subtopic
 General Embryology
 ## aliases
-Somites | Somitomeres | Somite period
+Occipital somites | Somitomeres | Segmentation of paraxial mesoderm
 ## article_ids
-ART-101-ANA-PARAXIAL-MESODERM
+ART-101-ANA-EMBRYONIC-PERIOD
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Segmentation of somites starts at
 ## conflicts
 [clear]
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book gives the somite age formula and the regional counts, but neither the question books nor the book itself works an example. The 25-day answer authored here is the formula applied to sixteen somites — (16 − 1) / 3 + 20 — and no printed key in the corpus confirms it.
-## arabic_label
 [clear]
+## arabic_label
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7871,7 +8263,7 @@ The department book gives the somite age formula and the regional counts, but ne
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -7887,15 +8279,15 @@ The department book gives the somite age formula and the regional counts, but ne
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7909,7 +8301,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -7923,50 +8314,49 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-Superficial fascia insulates, smooths, mobilises, conducts, and carries muscles and glands
+The first somite pair appears on day 20 and three pairs are added each day, so the number of somites gives the embryo's age
 ## id
-CON-MSK-2145D2D62EC401
+CON-DEV-3AB7E19B99F387
 ## canonical_key
-superficial-fascia-features
+somite-period-dates-and-the-age-from-somite-number-formula
 ## definition
-Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum. Its functions are to prevent heat loss as a thermal insulator; to soften and smooth the body surface; to facilitate movement of the skin over underlying structures; to act as the medium conducting nerves, vessels and lymphatics to the skin; to contain skin muscles, as the muscles of expression in the face; and to contain special glands such as the mammary glands.
+The intra-embryonic mesoderm divides into its three parts on the 17th gestational day. The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period. Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present. Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the department book gives the arithmetic: age in days = (number of somites − 1) / 3 + 20.
 ## explicit_objective
-List the six functions of the superficial fascia the department book gives.
+Give the day the first somite appears and the rate at which pairs are added, and use the book's formula to date an embryo from its somite count.
 ## pitfalls
-Giving fat storage as the function. The fat is the material; the functions are what the layer does with it — insulation, contour, mobility, conduction, and housing muscles and glands.
+Guessing the age instead of using the formula. Sixteen somites is not sixteen days or twenty-plus-sixteen; it is (16 − 1)/3 + 20 = 25 days, and the distractors are set one day either side so that only the arithmetic separates them.
 ## concept_type
-structure_function_relationship
+developmental_process
 ## status
 under review
 ## subject
-msk
+dev
 ## primary_node_id
-DIS-ANA-T01
+DIS-EMB-T01
 ## secondary_node_ids
 
 ## modules
 101 ISK
 ## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Fascia
+101 ISK > Anatomy > General Embryology > Embryonic Period
 ## universities
 kau
 ## learner_years
 1
 ## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
-src_08bc782553366518791e | question_book | | p4 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p93 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.31
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7976,15 +8366,15 @@ KAU_Y1=0.31
 ## topic
 Anatomy
 ## subtopic
-Basis of Anatomy
+General Embryology
 ## aliases
-Subcutaneous tissue | Hypodermis
+Somite period | Age of the embryo | Somite number
 ## article_ids
-ART-101-ANA-FASCIA
+ART-101-ANA-EMBRYONIC-PERIOD
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The age of an embryo with 16 pairs of somites is
 ## conflicts
 [clear]
 ## uncertainty
@@ -7992,7 +8382,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8004,7 +8394,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8020,15 +8410,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8042,7 +8432,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8056,156 +8445,23 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-Deep fascia is one non-elastic collagen membrane that takes five different forms, each with its own job
+The fetal period runs from the beginning of the 9th week — the start of the 3rd month — until birth, and is maturation and growth rather than organ formation
 ## id
-CON-MSK-6CD9FFF51AE9CD
+CON-DEV-E273F775E9CB77
 ## canonical_key
-deep-fascia-parts-functions
+fetal-period-begins-at-the-ninth-week-and-is-growth-not-organogenesis
 ## definition
-Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall. It forms broad sheets around groups of muscles, which fix underlying structures in position, give attachment to muscles and help venous return; intermuscular septa and interosseous membranes, which separate muscle groups of different action and nerve supply and add surface for attachment; retinacula, thickened transverse bands at wrist and ankle that hold the tendons in place; the palmar and plantar aponeuroses, thick layers protecting the vessels, nerves and tendons beneath; and fibrous sheaths around large vessels, such as the carotid sheath around the carotid arteries, internal jugular vein and vagus nerve.
+The fetal period is the period from the beginning of the 9th week until birth. It is characterised by maturation of the tissues and organs already laid down, and by rapid growth of the body — not by the formation of new organs, which is the work of the embryonic period that precedes it. Pregnancy lasts about 280 days, or 40 weeks, counted from the first day of the last menstrual period, and about 266 days, or 38 weeks, counted from fertilisation, which is the more accurate of the two. The external features change on a fixed schedule within the period: the face becomes human-looking and the limbs lengthen in the 3rd month, the external genitalia are differentiated at the end of the 3rd month, lanugo hair appears from the 4th month, vernix caseosa covers the skin at the 5th month, fetal movements are clearly felt from the 5th month, the skin stays wrinkled until the end of the 6th month for want of subcutaneous fat, and the testes descend into the scrotum just before birth.
 ## explicit_objective
-List the functions of deep fascia by naming the structures it forms and what each achieves.
+State when the fetal period begins, in weeks and in months, and say what distinguishes it from the embryonic period.
 ## pitfalls
-Answering with the functions of superficial fascia — insulation, smoothing the contour, carrying vessels to the skin. Those belong to the other layer, and deep fascia is where the question is.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Fascia
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
-src_08bc782553366518791e | question_book | | p4 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-FASCIA
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The fetal period runs from the beginning of the ninth week until birth and is a period of maturation and rapid growth, not of organ formation
-## id
-CON-DEV-6C38692F7890F4
-## canonical_key
-fetal-period-timing-and-its-features
-## definition
-The fetal period is the period from the beginning of the 9th week of development — that is, the beginning of the third month — until birth. Organogenesis is already over: what characterises the fetal period is maturation of the tissues and organs that the embryonic period laid down, together with rapid growth of the body. The face becomes human-looking and the limbs lengthen during the third month, and the external genitalia are differentiated by the end of it. Lanugo hair covers the fetus from the fourth month and vernix caseosa covers the skin at the fifth; the skin stays wrinkled until the end of the sixth month because there is no subcutaneous fat under it. Fetal movements are clearly recognised from the fifth month, and the testes descend into the scrotum just before birth. Pregnancy lasts about 280 days or forty weeks counted from the first day of the last menstruation, or 266 days — thirty-eight weeks — counted more accurately from fertilisation.
-## explicit_objective
-State when the fetal period begins and ends, and say what distinguishes it from the embryonic period that precedes it.
-## pitfalls
-Counting the fetal period from the second month because the embryonic period is remembered as "the first month". The embryonic period is the fourth to the eighth week, so the fetal period begins at the ninth — the third month, not the second.
+Counting in months when the book counts in weeks, and landing a month early. The 9th week is the beginning of the 3rd month, not of the 2nd: weeks 1–4 are the first month and weeks 5–8 the second, so the eight weeks of the embryonic period fill two whole months and the fetal period starts as the third begins.
 ## concept_type
 developmental_process
 ## status
@@ -8243,21 +8499,21 @@ Anatomy
 ## subtopic
 General Embryology
 ## aliases
-Lanugo hair | Vernix caseosa
+Fetal life | Ninth week | Third month of pregnancy
 ## article_ids
-ART-101-ANA-AMNIOTIC-FLUID
+ART-101-ANA-FETAL-PERIOD
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Fetal period starts at the beginning of
 ## conflicts
-The books carry two keyed copies of "the weight of fetus at full term ranges between", and they disagree: the 2025 question book keys 3000-3400 grams, and the department-book copy keys 1400-2100 grams. The department book's own figure is inside Table 1, which is printed as an image, so the book cannot be quoted against either key. 3000-3400 grams is the copy imported here, because it is the term birth weight every other source this faculty uses gives and because the losing key is a DEP BOOK row whose answers are read off the page margin rather than from a key.
+[clear]
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book states no full-term weight in extractable text. Its growth data — crown-rump and crown-heel length against age in weeks, and weight — is carried entirely inside Table 1 on page 106 as an image.
-## arabic_label
 [clear]
+## arabic_label
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8269,7 +8525,7 @@ The department book states no full-term weight in extractable text. Its growth d
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8285,15 +8541,15 @@ The department book states no full-term weight in extractable text. Its growth d
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8307,7 +8563,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8321,25 +8576,25 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-A fetus is measured by crown-rump or crown-heel length, and the head falls from half the crown-rump length to a quarter of the crown-heel length at birth
+The head falls from half the crown-rump length in the 3rd month to a third of crown-heel length in the 5th and a quarter of it at birth
 ## id
-CON-DEV-3409538816E2FD
+CON-DEV-869FD1A9D3AEB7
 ## canonical_key
-fetal-measurements-and-head-to-body-proportion
+fetal-head-to-body-proportion-changes-through-the-fetal-period
 ## definition
-Fetal length is given either as crown-rump length (CRL), the sitting height, or as crown-heel length (CHL), measured from the vertex of the skull to the heel — the standing height. The two are used at different stages and are not interchangeable. The proportion of the body that the head occupies falls steadily through the fetal period: at the beginning of the third month the head is about one half of the crown-rump length, at the beginning of the fifth month about one third of the crown-heel length, and at birth about one quarter of the crown-heel length. The head is still disproportionately large at term, which is why the fetal skull is the part that determines whether labour obstructs.
+The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height. The head grows more slowly than the rest of the body through the fetal period, so its share of the whole falls on a schedule the book tabulates: at the beginning of the 3rd month the head is one half of the crown-rump length, at the beginning of the 5th month one third of the crown-heel length, and at birth one quarter of the crown-heel length. The head is still disproportionately large at birth by adult standards — an adult head is about one eighth of standing height — which is why the proportion is examined at all.
 ## explicit_objective
-Name the two measurements used for a fetus and give the fraction of body length the head occupies at the third month, the fifth month and at birth.
+Give the head's fraction of body length at the beginning of the 3rd month, the beginning of the 5th month and at birth, and say which measurement each fraction is taken against.
 ## pitfalls
-Reading the three fractions off the same measurement. The one-half figure is of the crown-rump length and the one-third and one-quarter figures are of the crown-heel length, so the head shrinks relative to the body faster than the three numbers alone suggest.
+Answering with the fraction from the neighbouring stage. One third is the 5th month and one half is the 3rd month, and both are printed as distractors beside the correct one quarter; a student who has learnt the three numbers as a list without their dates will pick whichever comes to mind first.
 ## concept_type
-structural_description
+developmental_process
 ## status
 under review
 ## subject
@@ -8377,11 +8632,11 @@ General Embryology
 ## aliases
 Crown-rump length | Crown-heel length | CRL | CHL
 ## article_ids
-ART-101-ANA-AMNIOTIC-FLUID
+ART-101-ANA-FETAL-PERIOD
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] At full term, the head of the fetus represent about
 ## conflicts
 [clear]
 ## uncertainty
@@ -8389,7 +8644,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8401,7 +8656,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8417,15 +8672,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8439,7 +8694,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8453,7 +8707,139 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+
+---
+
+# Item
+## label
+A full-term fetus weighs 3000–3400 g, and the smaller figures in the growth table belong to the preterm weeks
+## id
+CON-DEV-B9581AAE767D2F
+## canonical_key
+fetal-weight-at-full-term
+## definition
+At full term — 38 weeks after fertilisation — the fetus weighs about 3000 to 3400 grams. The figure sits at the end of the growth table that runs through the fetal period, and the rows above it are the weights of a fetus that is not yet term: roughly 900–1300 g at 25–28 weeks and 1400–2100 g at 28–32 weeks. Weight rises fastest in the last two months, when subcutaneous fat is laid down and the wrinkled skin of the 6th month fills out.
+## explicit_objective
+Give the weight of the fetus at full term, and place the smaller weights in the table at the preterm weeks they belong to.
+## pitfalls
+Reading the answer off the wrong row of the growth table. 1400–2100 g is a real figure from that table and belongs to 28–32 weeks, which is why it is the distractor that catches most students — and why one printing of this question in the books is keyed to it in error.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p12 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p98 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Birth weight | Full term weight
+## article_ids
+ART-101-ANA-FETAL-PERIOD
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The weight of fetus at full tern'l ranges between
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
 
 ---
 
@@ -8493,12 +8879,13 @@ src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
 src_08bc782553366518791e | question_book | | p114 | 101 ISK
 src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+src_08bc782553366518791e | question_book | | p115 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8512,19 +8899,19 @@ General Embryology
 ## aliases
 Conception
 ## article_ids
-ART-101-ANA-FERTILIZATION
+ART-101-ANA-FERTILIZATION | ART-101-ANA-GAMETES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Fertilization occurs in the
 ## conflicts
-The 2023 and 2022 sittings, as reprinted in the department question book, key "Fertilization occurs in the following site of fallopian tube" to the isthmus. The department book states the ampullary part, the lateral third, both in its text and in the caption of figure 2.1. The question is imported with the answer the book gives and the disagreement recorded, because a paper keyed against the book has been sat twice and a student may meet it again.
+[clear]
 ## uncertainty
-The paper prints "Fertlization". The misspelling is the paper's and is kept in `asked` unedited.
+[clear]
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8536,7 +8923,7 @@ The paper prints "Fertlization". The misspelling is the paper's and is kept in `
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8552,15 +8939,15 @@ The paper prints "Fertlization". The misspelling is the paper's and is kept in `
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8574,7 +8961,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8588,23 +8974,155 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-The blastocyst is a trophoblast wall around a blastocele, with the embryoblast heaped against one side and defining the embryonic pole
+Cleavage divides the zygote inside the zona pellucida, giving a 16-cell morula in the tube by the third day
 ## id
-CON-DEV-CDC94B6FDAD75A
+CON-DEV-F5A87FDF5D911C
 ## canonical_key
-blastocyst-structure-poles-and-cavity
+cleavage-morula-and-migration-to-the-uterine-cavity
 ## definition
-The blastocyst forms once the morula reaches the uterine cavity: the zona pellucida begins to degenerate at the end of the fifth day, uterine fluid passes through it and opens spaces between the cells which fuse into a single cavity, and the blastocyst is complete at the end of the sixth day. It has an outer cell mass, the trophoblast, forming its wall — a single layer of cells; an inner cell mass, the embryoblast, lying against the inside of one side of that wall; and the cavity itself, the blastocele. The side of the trophoblast that lies outside the embryoblast is the embryonic pole, and the opposite side is the abembryonic pole. Implantation begins at the embryonic pole, normally in the endometrium of the upper part of the posterior wall of the uterus just below the fundus.
+After fertilisation the zygote divides mitotically inside the zona pellucida, which holds the daughter cells together as they compact; the cells get smaller at each division rather than the whole growing, and they are called blastomeres. There are 2 blastomeres on the first day, 4 on the second and 8 on the third, and at 16 cells the ball is called the morula, which is formed in the uterine tube within three days of the zygote. The morula has no cavity and its zona pellucida is intact. It is carried to the uterine cavity, which it reaches on the fourth day, by three things together: peristalsis of the muscular wall of the tube, the beating of the tubal cilia, and tubal mucus, which both eases the passage and feeds the embryo. The zona pellucida only begins to degenerate at the end of the fifth day, after the morula has arrived.
 ## explicit_objective
-Name the parts of the blastocyst, say which pole is which and which of them begins implantation.
+Give the cell count and the day at which the morula forms, name the structure that bounds the cleaving cells, and say how the embryo reaches the uterine cavity.
 ## pitfalls
-Placing the inner cell mass at the abembryonic pole. The pole is named after the embryoblast — the embryonic pole is by definition the trophoblast outside it — so the two cannot be at opposite ends, and this is the false statement the books build a question around.
+Attaching the blastocyst's features to the morula. The cavity, the loss of the zona pellucida and the start of implantation all belong to the next stage, and every "regarding morula" question in these books offers at least two of them as distractors.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+src_08bc782553366518791e | question_book | | p116 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Cleavage | Blastomere | Morula | Zona pellucida
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding morula
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The blastocyst is a trophoblast wall around a blastocele with the embryoblast at one pole, and it implants by that embryonic pole
+## id
+CON-DEV-28CF4D241BE607
+## canonical_key
+blastocyst-structure-poles-and-the-start-of-implantation
+## definition
+Once the morula reaches the uterine cavity the zona pellucida begins to degenerate, uterine fluid seeps between its cells, and the spaces run together into one cavity — the blastocele. The blastocyst is complete at the end of the sixth day. Its wall is a single layer of cells, the outer cell mass or trophoblast; the inner cell mass, or embryoblast, lies inside that wall against one side. The trophoblast covering the embryoblast is the embryonic pole and the opposite side is the abembryonic pole, and it is by the embryonic pole that the blastocyst attaches and begins to implant, normally into the posterior wall of the fundus of the uterus, at the end of the first week.
+## explicit_objective
+Name the wall, the cavity and the inner cell mass of the blastocyst, place the embryonic and abembryonic poles, and say which pole implants and where.
+## pitfalls
+Putting the inner cell mass, or the start of implantation, at the abembryonic pole. The embryonic pole is defined as the trophoblast over the embryoblast, so the two are on the same side by definition — and it is that side which goes into the endometrium first.
 ## concept_type
 structural_description
 ## status
@@ -8644,13 +9162,13 @@ Anatomy
 ## subtopic
 General Embryology
 ## aliases
-Trophoblast | Embryoblast | Blastocele | Embryonic pole | Abembryonic pole
+Blastocele | Trophoblast | Embryoblast | Embryonic pole | Abembryonic pole
 ## article_ids
 ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] One of the following.is true about blastocyst
 ## conflicts
 [clear]
 ## uncertainty
@@ -8658,7 +9176,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8670,7 +9188,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8686,15 +9204,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8708,7 +9226,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8722,141 +9239,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-Cleavage divides the zygote inside the zona pellucida into a sixteen-cell morula by the third day, while the tube carries it to the uterus by the fourth
-## id
-CON-DEV-5F0D89A63C847E
-## canonical_key
-cleavage-morula-and-migration-to-the-uterus
-## definition
-Cleavage is mitotic division of the zygote into smaller and smaller blastomeres, all of it happening inside the zona pellucida, which is why the embryo does not grow as its cell number rises. There are two blastomeres on the first day, four on the second, and eight on the third, after which sixteen cells make the morula and division continues to thirty-two and sixty-four. While this is going on the embryo is carried along the uterine tube by three things at once: muscular peristalsis of the tube, the beat of its cilia, and its mucus secretion, which both eases the passage and feeds the embryo. The embryo reaches the uterine cavity on the fourth day, and the zona pellucida only starts to degenerate at the end of the fifth — after arrival, not before.
-## explicit_objective
-Give the cell numbers of cleavage day by day, name the stage that reaches the uterus, and state what confines the dividing cells and what moves them.
-## pitfalls
-Believing the zona is shed early so that the morula can implant. The zona holds the blastomeres together through the whole journey and degenerates only in the uterine cavity; the stage that starts implantation is the blastocyst, never the morula.
-## concept_type
-developmental_process
-## status
-under review
-## subject
-dev
-## primary_node_id
-DIS-EMB-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > General Embryology > First Week of Development
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
-src_08bc782553366518791e | question_book | | p116 | 101 ISK
-src_08bc782553366518791e | question_book | | p114 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-General Embryology
-## aliases
-Cleavage | Blastomere | Morula
-## article_ids
-ART-101-ANA-FERTILIZATION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -8916,15 +9299,15 @@ ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Placenta previa
 ## conflicts
-The department book carries abnormal sites of implantation in its Second Week chapter, while `clusters.json` places this objective under First Week of Development. The cluster path is used here so the key stays the one the corpus deduplicates on; the book chapter is the Second Week one.
+[clear]
 ## uncertainty
 [clear]
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8936,7 +9319,7 @@ The department book carries abnormal sites of implantation in its Second Week ch
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -8952,15 +9335,15 @@ The department book carries abnormal sites of implantation in its Second Week ch
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8974,7 +9357,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -8988,7 +9370,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -9048,7 +9430,7 @@ ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Decidua basalis (DEP BOOK) em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -9056,7 +9438,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9068,7 +9450,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -9084,15 +9466,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9106,7 +9488,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -9120,7 +9501,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -9179,11 +9560,11 @@ General Embryology
 ## aliases
 Sperm | Ovum | Corona radiata | Zona pellucida
 ## article_ids
-ART-101-ANA-FERTILIZATION | ART-101-HIS-NUCLEUS
+ART-101-ANA-GAMETES | ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Sperm receptors are present on
 ## conflicts
 [clear]
 ## uncertainty
@@ -9191,7 +9572,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9203,7 +9584,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -9219,15 +9600,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9241,7 +9622,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -9255,170 +9635,23 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
+Spermatogenesis runs continuously from puberty to old age, while oogenesis starts before birth, arrests, and resumes from puberty to the menopause
 ## id
-CON-FND-5114283D5309E5
+CON-DEV-623698E111AA4B
 ## canonical_key
-microvillus-and-stereocilium-against-the-cilium
+gametogenesis-timing-in-male-and-female
 ## definition
-The apical specialisations differ in their core and in what they do. A microvillus is a short finger-like projection whose core is actin filaments inserted into a terminal web; it has no axoneme, no basal body and no rootlets, it does not move, and it increases the surface area for absorption. Seen by light microscopy a carpet of microvilli is the brush or striated border of the absorptive columnar cell of the intestine. A stereocilium is not a cilium at all: it is a long, non-motile microvillus with an actin core, and it helps absorption in the epididymis. A cilium is a motile process with a microtubular core, and a flagellum has the same axoneme but is far longer and moves the cell itself.
+Gametogenesis is the formation of gametes from primordial germ cells and takes place in the gonads. The two sexes run it on opposite schedules. In the male it begins at puberty and continues without interruption into old age, so sperm are made afresh throughout adult life. In the female it begins in intrauterine life — the oocytes a woman will ever have are already present before she is born — is then arrested, and resumes at puberty, continuing through the ovarian cycles until the menopause; ovulation falls on the 14th day of each cycle.
 ## explicit_objective
-Tell a microvillus, a stereocilium and a cilium apart by their core filament, their motility and their function, and name the light-microscopic appearance of each.
+Give the start and end of gametogenesis in each sex, and name the arrest that interrupts it in the female.
 ## pitfalls
-Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and the book says so explicitly.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_6846577508f49244d715 | question_book | | p8 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
-src_6846577508f49244d715 | question_book | | p11 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
-src_6846577508f49244d715 | question_book | | p23 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Epithelial Tissues
-## aliases
-Microvilli | Brush border | Striated border | Stereocilia | Terminal web
-## article_ids
-ART-101-ANA-FERTILIZATION | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-Fertilisation runs in four named steps — capacitation, then phase I through the corona radiata, phase II through the zona pellucida, phase III through the oocyte membrane
-## id
-CON-DEV-7DC9EC16B34924
-## canonical_key
-fertilization-steps-capacitation-and-three-phases
-## definition
-The department book gives fertilisation as four steps in a fixed order, and the question books ask them by their numbers. Capacitation comes first and is not one of the numbered phases: it is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm, and it takes about seven hours. Phase I is dispersion of the corona radiata: of the two to three hundred million sperms in an ejaculate only three to five hundred reach the ovum, and they release hyaluronidase to open passages between the follicular cells. Phase II is penetration of the zona pellucida, also called the acrosomal reaction: the sperm head binds the zona through its specific receptors, which triggers release of acrosin and trypsin-like material from the acrosomal cap and dissolves a path the tail then drives the sperm along. Phase III is opening of the cell membrane of the oocyte: the two cell membranes fuse and open, and the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte cytoplasm.
-## explicit_objective
-Name capacitation and the three numbered phases of fertilisation in order, and say what the sperm crosses in each.
-## pitfalls
-Counting capacitation as phase I. It happens in the female tract long before the sperm meets the ovum and is not numbered, so calling it phase I shifts every later phase by one — which is exactly what the question books test by asking for phase II and phase III with the same four options.
+Reading "starts at birth" as the female answer. Oogenesis starts before birth, in intrauterine life, and that word is what the four options in every printing of this question turn on; a student who has learnt it as "starts early" will accept birth, puberty or menopause as the boundary and get it wrong three ways.
 ## concept_type
 developmental_process
 ## status
@@ -9432,14 +9665,14 @@ DIS-EMB-T01
 ## modules
 101 ISK
 ## module_subject
-101 ISK > Anatomy > General Embryology > First Week of Development
+101 ISK > Anatomy > General Embryology > Gametes
 ## universities
 kau
 ## learner_years
 1
 ## exam_signal
-src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
+src_12d639a625d8305c4454 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p87 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
@@ -9457,13 +9690,13 @@ Anatomy
 ## subtopic
 General Embryology
 ## aliases
-Capacitation | Acrosomal reaction | Phases of fertilization
+Spermatogenesis | Oogenesis | Gametogenesis
 ## article_ids
-ART-101-ANA-FERTILIZATION
+ART-101-ANA-GAMETES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Regarding formation of sperms
 ## conflicts
 [clear]
 ## uncertainty
@@ -9471,7 +9704,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9483,7 +9716,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -9499,15 +9732,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9521,7 +9754,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -9535,140 +9767,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-The cortical and zona reaction is the block to polyspermy, and it fires only once the sperm is already inside the oocyte cytoplasm
-## id
-CON-DEV-79E0801E11BA09
-## canonical_key
-cortical-and-zona-reaction-blocks-polyspermy
-## definition
-The cortical and zona reaction is the mechanism that prevents polyspermy. Once the fertilising sperm has entered the cytoplasm of the oocyte, lysosomal enzymes are released from the cortical granules that lie immediately inside the oocyte cell membrane. Those enzymes do two things: they change the structure of the sperm receptors in the zona pellucida so that it stops attracting further sperms, and they make the oocyte cell membrane and the zona pellucida impenetrable to any other sperm. It is therefore a consequence of successful fertilisation rather than a step towards it, and it is the ovum, not the sperm, that supplies the enzymes.
-## explicit_objective
-State what the cortical and zona reaction is for, where its enzymes come from, and at what moment in fertilisation it occurs.
-## pitfalls
-Placing it during penetration of the zona pellucida, because that is the structure it changes. The trigger is the sperm arriving in the cytoplasm; a block that fired while the sperm was still crossing the zona would shut out the sperm that set it off.
-## concept_type
-developmental_process
-## status
-under review
-## subject
-dev
-## primary_node_id
-DIS-EMB-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > General Embryology > First Week of Development
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-General Embryology
-## aliases
-Zona reaction | Cortical reaction | Block to polyspermy | Polyspermy
-## article_ids
-ART-101-ANA-FERTILIZATION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -9738,7 +9837,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Exocrine glands:
 ## conflicts
 [clear]
 ## uncertainty
@@ -9746,7 +9845,7 @@ direct_statement
 ## evidence_gaps
 The department book names no example of a mixed gland. The question books answer "pancreas" consistently, and the pancreas does have both exocrine acini with a duct system and the islets of Langerhans without, so the example is taught here; it is not this faculty's stated wording.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9758,7 +9857,7 @@ The department book names no example of a mixed gland. The question books answer
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -9774,15 +9873,15 @@ The department book names no example of a mixed gland. The question books answer
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9796,7 +9895,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -9810,7 +9908,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -9881,7 +9979,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] According to the mode of secretion the exocrine glands classified into:
 ## conflicts
 Some question books offer "eccrine" as a fourth mode alongside merocrine. The department book recognises three modes only, and eccrine is not one of them; where a book uses it, it means merocrine.
 ## uncertainty
@@ -9889,7 +9987,7 @@ Some question books offer "eccrine" as a fourth mode alongside merocrine. The de
 ## evidence_gaps
 The department book describes the three mechanisms and states explicitly that no named gland is given for any of them. Sebaceous for holocrine, lactating mammary for apocrine and salivary for merocrine come from the question books, are consistent across them and agree with general histology, but are not sourced to this faculty's own text.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9901,7 +9999,7 @@ The department book describes the three mechanisms and states explicitly that no
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -9917,15 +10015,15 @@ The department book describes the three mechanisms and states explicitly that no
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9939,7 +10037,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -9953,7 +10050,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10018,7 +10115,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Simple branched tubular glands:
 ## conflicts
 [clear]
 ## uncertainty
@@ -10026,7 +10123,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10038,7 +10135,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10054,15 +10151,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10076,7 +10173,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10090,7 +10186,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10152,7 +10248,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Sebaceous gland is considered as:
 ## conflicts
 [clear]
 ## uncertainty
@@ -10160,7 +10256,7 @@ direct_statement
 ## evidence_gaps
 The department book prints the nine-way classification as diagrams with no organ named against any of them. Every organ example here comes from the question books, which are consistent with each other on all six.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10172,7 +10268,7 @@ The department book prints the nine-way classification as diagrams with no organ
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10188,15 +10284,15 @@ The department book prints the nine-way classification as diagrams with no organ
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10210,7 +10306,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10224,7 +10319,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10285,7 +10380,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All are true about goblet cell Except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -10293,7 +10388,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10305,7 +10400,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10321,15 +10416,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10343,7 +10438,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10357,7 +10451,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10417,7 +10511,7 @@ ART-101-HIS-GLANDULAR-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Parotid gland is considered:
 ## conflicts
 [clear]
 ## uncertainty
@@ -10425,7 +10519,7 @@ direct_statement
 ## evidence_gaps
 The department book names no gland against watery, serous or mucous. That the parotid is serous comes from the question books.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10437,7 +10531,7 @@ The department book names no gland against watery, serous or mucous. That the pa
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10453,15 +10547,15 @@ The department book names no gland against watery, serous or mucous. That the pa
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10475,7 +10569,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10489,7 +10582,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10553,7 +10646,7 @@ ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Percent of Neutrophils
 ## conflicts
 [clear]
 ## uncertainty
@@ -10561,7 +10654,7 @@ direct_statement
 ## evidence_gaps
 The department book states dead neutrophils form pus cells and that pus raises body temperature by stimulating the heat-regulating centre. No physiology source in this corpus supports the mechanism as stated; it is recorded because the book states it and it is examinable, not because it is verified.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10573,7 +10666,7 @@ The department book states dead neutrophils form pus cells and that pus raises b
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10589,15 +10682,15 @@ The department book states dead neutrophils form pus cells and that pus raises b
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10611,7 +10704,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10625,7 +10717,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10686,7 +10778,7 @@ ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] ……………. contain histaminase, sulfatase, Neurotoxin
 ## conflicts
 The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
 ## uncertainty
@@ -10694,7 +10786,7 @@ The department book puts eosinophils at 1–4% of the differential count. Severa
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10706,7 +10798,7 @@ The department book puts eosinophils at 1–4% of the differential count. Severa
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10722,15 +10814,15 @@ The department book puts eosinophils at 1–4% of the differential count. Severa
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10744,7 +10836,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10758,7 +10849,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10821,7 +10912,7 @@ ART-101-HIS-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] basophil membrane contain receptor for
 ## conflicts
 [clear]
 ## uncertainty
@@ -10829,7 +10920,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10841,7 +10932,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10857,15 +10948,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -10879,7 +10970,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -10893,7 +10983,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -10953,7 +11043,7 @@ ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Which bone marrow component increases markedly as hematopoietic activity decreases?
 ## conflicts
 [clear]
 ## uncertainty
@@ -10961,7 +11051,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -10973,7 +11063,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -10989,15 +11079,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11011,7 +11101,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11025,7 +11114,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11085,7 +11174,7 @@ ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Bone marrow component which can be transplanted into Patients suffering from leukemia is ………..:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11093,7 +11182,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11105,7 +11194,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11121,15 +11210,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11143,7 +11232,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11157,7 +11245,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11217,7 +11305,7 @@ ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] C.T mesenchymal cells have the following charcters EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11225,7 +11313,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11237,7 +11325,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11253,15 +11341,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11275,7 +11363,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11289,7 +11376,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11349,7 +11436,7 @@ ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Fibroblast in the histology is a good example for:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11357,7 +11444,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11369,7 +11456,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11385,15 +11472,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11407,7 +11494,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11421,7 +11507,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11492,7 +11578,7 @@ ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The palmar aponeurosis; choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11500,7 +11586,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11512,7 +11598,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11528,15 +11614,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11550,7 +11636,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11564,7 +11649,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11613,6 +11698,16 @@ src_08bc782553366518791e | question_book | | p59 | 101 ISK
 src_08bc782553366518791e | question_book | | p58 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p22 | 101 ISK
 src_08bc782553366518791e | question_book | | p66 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p17 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p21 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p41 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p24 | 101 ISK
+src_08bc782553366518791e | question_book | | p67 | 101 ISK
+src_08bc782553366518791e | question_book | | p70 | 101 ISK
+src_08bc782553366518791e | question_book | | p60 | 101 ISK
+src_08bc782553366518791e | question_book | | p72 | 101 ISK
+src_08bc782553366518791e | question_book | | p74 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -11632,11 +11727,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] Palmaris brevis; one is correct:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11644,7 +11739,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11656,7 +11751,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11672,15 +11767,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11694,7 +11789,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11708,7 +11802,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11759,6 +11853,16 @@ src_b7301bfcd7d002317e40 | question_book | | p80 | 101 ISK
 src_08bc782553366518791e | question_book | | p57 | 101 ISK
 src_08bc782553366518791e | question_book | | p58 | 101 ISK
 src_08bc782553366518791e | question_book | | p66 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p14 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p18 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p4 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p22 | 101 ISK
+src_08bc782553366518791e | question_book | | p64 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p90 | 101 ISK
+src_08bc782553366518791e | question_book | | p70 | 101 ISK
+src_08bc782553366518791e | question_book | | p60 | 101 ISK
+src_08bc782553366518791e | question_book | | p71 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p54 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -11778,11 +11882,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The median nerve innervates the following muscles:
 ## conflicts
 [clear]
 ## uncertainty
@@ -11790,7 +11894,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11802,7 +11906,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11818,15 +11922,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11840,7 +11944,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11854,7 +11957,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -11892,18 +11995,21 @@ kau
 ## exam_signal
 src_08bc782553366518791e | question_book | | p72 | 101 ISK
 src_08bc782553366518791e | question_book | | p74 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p66 | 101 ISK
+src_08bc782553366518791e | question_book | | p53 | 101 ISK
+src_6c62090ee8d9969a8c5b | question_book | | p1 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -11911,11 +12017,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding median nerve, all are correct except:(DEP BOOK) Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -11923,7 +12029,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -11935,7 +12041,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -11951,15 +12057,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -11973,7 +12079,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -11987,7 +12092,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -12054,7 +12159,7 @@ ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] The radial artery gives the following branch in the hand:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12062,7 +12167,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12074,7 +12179,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12090,15 +12195,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12112,7 +12217,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12126,7 +12230,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -12192,7 +12296,7 @@ ART-101-ANA-HAND-ARTERIES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Regarding the ulnar artery at the wrist and hand, mark the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12200,7 +12304,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12212,7 +12316,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12228,15 +12332,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12250,7 +12354,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12264,139 +12367,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-The ulnar artery is the larger terminal branch of the brachial, and it ends as the superficial palmar arch
-## id
-CON-MSK-25C6698A72A982
-## canonical_key
-ulnar-artery-course-relations-branches
-## definition
-The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery. It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of its front, and at the wrist descends superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, ending in the hand as the superficial palmar arch. Near the elbow it gives the anterior ulnar recurrent artery, the posterior ulnar recurrent artery and the common interosseous artery, a short trunk arising about an inch below its beginning which divides into anterior and posterior interosseous arteries. In the forearm it gives muscular branches to the ulnar-side muscles, and at the wrist the anterior and posterior carpal arteries that form the two carpal arches.
-## explicit_objective
-Give the origin, course, relations and branches of the ulnar artery in the forearm.
-## pitfalls
-Placing the ulnar artery under the flexor retinaculum. It passes superficial to it, with the ulnar nerve, which is why both are cut by a wound across the front of the wrist.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-CVS-T01-S01
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Forearm
-## universities
-kau
-## learner_years
-1
-## exam_signal
-
-## weight_confidence
-0.6
-## blueprint_weight
-0.15
-## exam_weight_by_year
-KAU_Y1=0.15
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-HAND-ARTERIES
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -12438,12 +12409,19 @@ src_69103a53ec28a93958d5 | question_book | | p32 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p52 | 101 ISK
 src_764a2521809818b8abdc | question_book | | p31 | 101 ISK
 src_08bc782553366518791e | question_book | | p69 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p33 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
+src_08bc782553366518791e | question_book | | p65 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p80 | 101 ISK
+src_08bc782553366518791e | question_book | | p71 | 101 ISK
+src_08bc782553366518791e | question_book | | p62 | 101 ISK
+src_08bc782553366518791e | question_book | | p58 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12457,11 +12435,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12469,7 +12447,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12481,7 +12459,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12497,15 +12475,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12519,7 +12497,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12533,7 +12510,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -12572,12 +12549,16 @@ kau
 src_08bc782553366518791e | question_book | | p73 | 101 ISK
 src_0f1171705349e98b44e6 | question_book | | p14 | 101 ISK
 src_08bc782553366518791e | question_book | | p70 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p5 | 101 ISK
+src_08bc782553366518791e | question_book | | p65 | 101 ISK
+src_08bc782553366518791e | question_book | | p74 | 101 ISK
+src_08bc782553366518791e | question_book | | p71 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12591,11 +12572,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Partial claw hand deformity results from injury of which one of the following nerves?
 ## conflicts
 [clear]
 ## uncertainty
@@ -12603,7 +12584,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12615,7 +12596,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12631,15 +12612,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12653,7 +12634,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12667,7 +12647,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -12705,18 +12685,19 @@ kau
 ## exam_signal
 src_0f1171705349e98b44e6 | question_book | | p21 | 101 ISK
 src_b7301bfcd7d002317e40 | question_book | | p130 | 101 ISK
+src_08bc782553366518791e | question_book | | p91 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -12724,11 +12705,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-HAND-ARTERIES
+ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding the cutaneous supply of the upper limb, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12736,7 +12717,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12748,7 +12729,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12764,15 +12745,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12786,7 +12767,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12800,7 +12780,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -12869,7 +12849,7 @@ ART-101-ANA-HAND-ARTERIES | ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The wrist joint is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -12877,7 +12857,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -12889,7 +12869,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -12905,15 +12885,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -12927,7 +12907,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -12941,7 +12920,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -13008,7 +12987,7 @@ ART-101-ANA-HAND-ARTERIES | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] Regarding the deltoid muscle, mark one correct statement:
 ## conflicts
 [clear]
 ## uncertainty
@@ -13016,7 +12995,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -13028,7 +13007,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -13044,15 +13023,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -13066,7 +13045,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -13080,410 +13058,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-Every anatomical description assumes the erect position: standing, eyes forward, arms at the sides, palms facing forwards
-## id
-CON-MSK-D193498AB94D21
-## canonical_key
-anatomical-erect-position-is-the-reference-for-all-description
-## definition
-The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions the book names are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.
-## explicit_objective
-State the anatomical erect position in full and name the four other positions the department book defines.
-## pitfalls
-Forgetting the palms. Every other element of the position is the posture a person naturally stands in; supinated forearms are the one deliberate part, and it is the part examiners test.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Introduction
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_08bc782553366518791e | question_book | | p2 | 101 ISK
-src_51fef9b6234c5d381f59 | question_book | | p1 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Anatomical position
-## article_ids
-ART-101-ANA-INTRODUCTION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The three anatomical planes are named by the two parts each one leaves behind
-## id
-CON-MSK-EE7CDEF8ACA587
-## canonical_key
-anatomical-planes-median-coronal-horizontal
-## definition
-The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves. The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
-## explicit_objective
-Name each anatomical plane, say in which direction it runs and which two parts it divides the body into.
-## pitfalls
-Reading "vertical" as identifying the plane. Both the median and the coronal plane are vertical; what separates them is the pair of parts left behind — right and left for the median, front and back for the coronal.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Introduction
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_08bc782553366518791e | question_book | | p2 | 101 ISK
-src_08bc782553366518791e | question_book | | p3 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Planes of the body | Sagittal plane | Frontal plane | Transverse plane
-## article_ids
-ART-101-ANA-INTRODUCTION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-Medial and lateral are measured from the median plane; proximal and distal from the root of the limb
-## id
-CON-MSK-A0C1F50FABDC0F
-## canonical_key
-terms-of-position-medial-lateral-proximal-distal
-## definition
-The department book tabulates fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.
-## explicit_objective
-Give the term for a stated relation, and name the reference — the median plane, the root of the limb, or the skin — that each pair is measured from.
-## pitfalls
-Using medial and proximal interchangeably because both mean "towards the middle of something". They measure from different things: medial from the median plane of the body, proximal from where the limb joins the trunk.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Introduction
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p1 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
-src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
-src_08bc782553366518791e | question_book | | p3 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.47
-## exam_weight_by_year
-KAU_Y1=0.47
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Terms of position | Anatomical terminology
-## article_ids
-ART-101-ANA-INTRODUCTION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -13551,7 +13126,7 @@ ART-101-ANA-ELBOW-JOINT | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Regarding movements of joints:
 ## conflicts
 [clear]
 ## uncertainty
@@ -13559,7 +13134,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -13571,7 +13146,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -13587,15 +13162,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -13609,7 +13184,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -13623,7 +13197,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -13686,7 +13260,7 @@ ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Annular ligament, choose the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -13694,7 +13268,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -13706,7 +13280,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -13722,15 +13296,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -13744,7 +13318,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -13758,7 +13331,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -13818,7 +13391,7 @@ ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Sternoclavicular joint, choose the. correct answer: (DEP BOOK) Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -13826,7 +13399,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -13838,7 +13411,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -13854,15 +13427,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -13876,7 +13449,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -13890,31 +13462,31 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
 # Item
 ## label
-Magnification is how much bigger a microscope makes a thing look; resolution is how close two points may lie and still be seen as two
+Magnification is how much bigger, resolution is how much finer — and the two microscopes are separated by resolution, not by magnification
 ## id
-CON-FND-B26B5864907F95
+CON-FND-DACB83532148D6
 ## canonical_key
-magnification-and-resolution-of-the-light-and-electron-microscope
+magnification-and-resolution-power-and-the-limits-of-each-microscope
 ## definition
-Magnification power is the degree of enlargement, the power of the objective lens multiplied by the power of the eyepiece; the light microscope reaches 15 × 100 = 1500 times, and the transmission electron microscope 1000 to 100,000 times or more. Resolution power is a different quantity: the least distance between two points at which they can still be seen as two points and not one. It is 0.2 mm for the naked eye, 0.2 µm for the light microscope and 0.2 nm for the electron microscope — the same figure in three units, each a thousandfold apart, since 1 mm = 1000 µm and 1 µm = 1000 nm. The transmission electron microscope illuminates with an electron beam, magnifies with electromagnetic coils and shows its image on a fluorescent screen; the scanning electron microscope gives a three-dimensional image of surfaces only.
+Magnification power is the degree of enlargement, and equals the power of the objective lens multiplied by the power of the eyepiece: 15 × 100 gives the light microscope its maximum of 1500 times. Resolution power is the least distance between two points at which they can still be seen as two points and not one, and it is what actually limits a microscope. The naked eye resolves 0.2 mm, the light microscope 0.2 µm, and the electron microscope 0.2 nm; the units descend by a thousand at each step, since 1 mm = 1000 µm and 1 µm = 1000 nm, and 1 nm = 10 Å. The transmission electron microscope illuminates with an electron beam, magnifies with electromagnetic coils, magnifies 1000 to over 100,000 times and shows the interior of the specimen on a fluorescent screen. The scanning electron microscope shows only surfaces, and it is the one that gives a three-dimensional image.
 ## explicit_objective
-Define magnification and resolution power separately, and give the resolution of the naked eye, the light microscope and the electron microscope in the correct unit.
+Define magnification power and resolution power, give the resolution of the naked eye, the light microscope and the electron microscope in the correct unit, and say which microscope gives a three-dimensional image of a surface.
 ## pitfalls
-Reading the unit rather than the digits. Every one of the three resolutions is 0.2 — what distinguishes the eye from the electron microscope is entirely whether that 0.2 is in millimetres, micrometres or nanometres, and an option list that keeps the digits and swaps the units is the standard trap in this chapter.
+Swapping the two definitions, and swapping the units within them. Resolution is the small number and gets smaller as the microscope gets better, so a resolution quoted in millimetres belongs to the naked eye and one quoted in nanometres to the electron microscope; a student who reads 0.2 as the answer without reading its unit gets all three questions wrong at once.
 ## concept_type
-comparison
+structural_description
 ## status
 under review
 ## subject
 fnd
 ## primary_node_id
-DIS-HIS-T04
+DIS-HIS-T01
 ## secondary_node_ids
 
 ## modules
@@ -13927,13 +13499,12 @@ kau
 1
 ## exam_signal
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.31
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -13945,13 +13516,13 @@ Histology
 ## subtopic
 Introduction
 ## aliases
-Resolving power | Magnifying power | TEM | SEM
+Resolving power | Magnification power | TEM | SEM | Light microscope
 ## article_ids
 ART-101-HIS-MICROSCOPES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The resolution of TEM is about
 ## conflicts
 [clear]
 ## uncertainty
@@ -13959,7 +13530,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -13971,7 +13542,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -13987,15 +13558,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14009,7 +13580,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14023,7 +13593,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14059,6 +13629,7 @@ kau
 ## learner_years
 1
 ## exam_signal
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
@@ -14070,9 +13641,9 @@ src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -14090,7 +13661,7 @@ ART-101-HIS-MICROSCOPES | ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All the statements concerned to the cell membrane are true EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14098,7 +13669,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14110,7 +13681,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14126,15 +13697,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14148,7 +13719,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14162,7 +13732,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14224,7 +13794,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Paralysis of the following muscle leads to shoulder drop:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14232,7 +13802,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14244,7 +13814,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14260,15 +13830,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14282,7 +13852,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14296,7 +13865,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14358,7 +13927,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Actions of the latissimus dorsi:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14366,7 +13935,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14378,7 +13947,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14394,15 +13963,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14416,7 +13985,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14430,7 +13998,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14496,7 +14064,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The following muscle is attached to lateral border of scapula:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14504,7 +14072,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14516,7 +14084,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14532,15 +14100,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14554,7 +14122,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14568,7 +14135,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14629,7 +14196,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
 ## conflicts
 [clear]
 ## uncertainty
@@ -14637,7 +14204,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14649,7 +14216,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14665,15 +14232,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14687,7 +14254,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14701,7 +14267,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14740,12 +14306,13 @@ kau
 src_08bc782553366518791e | question_book | | p36 | 101 ISK
 src_08bc782553366518791e | question_book | | p24 | 101 ISK
 src_08bc782553366518791e | question_book | | p23 | 101 ISK
+src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -14759,11 +14326,11 @@ Upper Limb
 ## aliases
 [clear]
 ## article_ids
-ART-101-ANA-MUSCLES-OF-THE-BACK
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branches of brachial plexus except: (DEP BOOK) Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -14771,7 +14338,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14783,7 +14350,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14799,15 +14366,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14821,7 +14388,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14835,7 +14401,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -14900,7 +14466,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-SHO
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Upward rotation of the scapula in raising the arm above head, due to contraction of; mark the correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14908,7 +14474,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -14920,7 +14486,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -14936,15 +14502,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -14958,7 +14524,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -14972,7 +14537,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15034,7 +14599,7 @@ ART-101-ANA-MUSCLES-OF-THE-BACK
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] One of the following muscles elevates the shoulder at the shoulder girdle: (2019) em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -15042,7 +14607,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15054,7 +14619,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15070,15 +14635,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15092,7 +14657,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15106,7 +14670,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15166,7 +14730,7 @@ ART-101-HIS-MYO-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] myoepithelial cells are characterized by the following EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15174,7 +14738,7 @@ direct_statement
 ## evidence_gaps
 The department book does not say whether myo-epithelial cells are ectodermal in origin, nor whether they contain smooth-muscle actin. Both are standard in general histology and neither is stated by this faculty's own source, so neither is taught here.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15186,7 +14750,7 @@ The department book does not say whether myo-epithelial cells are ectodermal in 
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15202,15 +14766,15 @@ The department book does not say whether myo-epithelial cells are ectodermal in 
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15224,7 +14788,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15238,7 +14801,1765 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+
+---
+
+# Item
+## label
+The radial nerve ends as a deep motor branch and a superficial sensory one, and each lesion looks different
+## id
+CON-MSK-1FC89E36FFD98E
+## canonical_key
+radial-nerve-terminal-branches-and-what-each-injury-costs
+## definition
+At the level of the lateral epicondyle the radial nerve divides into two terminal branches with entirely separate jobs. The deep branch is wholly motor: it pierces supinator, becomes the posterior interosseous nerve, and supplies the deep extensor group — the extensors of the fingers and thumb, abductor pollicis longus and extensor indicis. Its injury gives finger drop with no wrist drop, because extensor carpi radialis longus is supplied above the division and still extends the wrist, and it gives no sensory loss at all. The superficial branch is wholly sensory: it runs under brachioradialis, winds round to the back of the wrist and supplies the skin of the lateral two-thirds of the dorsum of the hand and the backs of the lateral three and a half fingers as far as the nail beds. Its injury gives numbness over that area with no weakness whatever.
+## explicit_objective
+Name the two terminal branches of the radial nerve, say what each supplies, and predict the picture produced by cutting either one.
+## pitfalls
+Expecting wrist drop from a posterior interosseous lesion. Wrist drop needs the radial nerve cut above its division, where extensor carpi radialis longus is still upstream; below it the wrist extends and only the fingers drop.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_69103a53ec28a93958d5 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p19 | 101 ISK
+src_08bc782553366518791e | question_book | | p88 | 101 ISK
+src_08bc782553366518791e | question_book | | p89 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Posterior interosseous nerve | Superficial radial nerve | Finger drop
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Regarding radial nerve injury, choose the correct answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A median nerve cut above the elbow costs the forearm flexors as well as the hand, and the wrist deviates to the ulnar side
+## id
+CON-MSK-B119CC808D3E81
+## canonical_key
+median-nerve-injury-above-the-elbow
+## definition
+A median nerve injury above the elbow — a supracondylar fracture, a wound in the cubital fossa, or an elbow dislocation — paralyses everything the nerve supplies. In the forearm the pronators and all the flexors except flexor carpi ulnaris and the medial half of flexor digitorum profundus are lost, so pronation of the forearm is abolished, flexion of the wrist is weak and deviates to the ulnar side because only flexor carpi ulnaris is left to pull, and the index and middle fingers cannot be flexed at all. In the hand the thenar muscles and the lateral two lumbricals are lost, so opposition of the thumb goes and the thenar eminence wastes into the ape hand. Sensation is lost over the lateral two-thirds of the palm and the palmar surface of the lateral three and a half fingers, together with the backs of their distal phalanges.
+## explicit_objective
+Predict the motor loss, the direction of wrist deviation and the sensory territory of a median nerve injury above the elbow, and separate them from those of a lesion at the wrist.
+## pitfalls
+Expecting radial deviation of the wrist. The surviving wrist flexor is flexor carpi ulnaris, on the medial side, so the hand deviates towards the ulna — the mirror of what a student guesses from the nerve’s own lateral position.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p12 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p17 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p35 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p9 | 101 ISK
+src_08bc782553366518791e | question_book | | p69 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p27 | 101 ISK
+src_08bc782553366518791e | question_book | | p68 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+High median nerve lesion | Pointing index
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Regarding the median nerve injury, choose the correct answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The flexor retinaculum sorts the front of the wrist into three groups — deep to it, superficial to it, and within its substance
+## id
+CON-MSK-10423E16E36186
+## canonical_key
+flexor-retinaculum-what-passes-deep-superficial-and-through-it
+## definition
+The flexor retinaculum is a thick fibrous band bridging the concavity of the carpus, attached medially to the pisiform and the hook of the hamate and laterally to the tubercle of the scaphoid and the crest of the trapezium, and converting the carpal groove into the carpal tunnel. Deep to it, in the tunnel, pass the median nerve, the four tendons of flexor digitorum superficialis and the four of flexor digitorum profundus in a common synovial sheath, and the tendon of flexor pollicis longus in its own. Superficial to it pass the ulnar nerve and the ulnar vessels, the palmar cutaneous branches of the median and ulnar nerves, and the tendon of palmaris longus, which is partly inserted into it. The tendon of flexor carpi radialis is the exception to both: it runs through a compartment made by a split in the lateral attachment of the retinaculum itself.
+## explicit_objective
+Sort the structures at the front of the wrist into those passing deep to the flexor retinaculum, those passing superficial to it, and the one that passes through it.
+## pitfalls
+Putting the ulnar nerve in the carpal tunnel because it is a nerve at the wrist. Only the median nerve goes under the retinaculum; the ulnar nerve crosses over it, which is why carpal tunnel syndrome spares the little finger entirely.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p15 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p2 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p20 | 101 ISK
+src_08bc782553366518791e | question_book | | p80 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p106 | 101 ISK
+src_08bc782553366518791e | question_book | | p81 | 101 ISK
+src_08bc782553366518791e | question_book | | p61 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Carpal tunnel contents | Transverse carpal ligament
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] The following structure passes deep to the flexor retinaculum:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The hand is divided front and back between median, ulnar and radial, and the fractions are two-thirds and one-third
+## id
+CON-MSK-37D3C3219F9806
+## canonical_key
+cutaneous-supply-of-the-palm-and-the-dorsum-of-the-hand
+## definition
+The skin of the palm is supplied over its lateral two-thirds by the median nerve — by its palmar cutaneous branch, which arises in the forearm and crosses superficial to the flexor retinaculum, and by its palmar digital branches — and over its medial third by the ulnar nerve through its own palmar cutaneous branch and digital branches; the lateral cutaneous nerve of the forearm, from the musculocutaneous, reaches the upper part of the ball of the thumb, and the medial cutaneous nerve of the forearm the skin just proximal to the medial part of the palm. The radial nerve supplies no part of the palm at all. On the dorsum the division is the mirror image with a different pair of nerves: the superficial branch of the radial nerve supplies the lateral two-thirds and the dorsal branch of the ulnar nerve the medial third, while the dorsum of the terminal phalanges of the lateral three and a half fingers is median, carried there by the palmar digital branches.
+## explicit_objective
+Give the nerve supplying each part of the skin of the palm and of the dorsum of the hand, with the fraction each covers.
+## pitfalls
+Giving the dorsum of the lateral fingers wholly to the radial nerve. The nail beds and terminal phalanges of the lateral three and a half fingers are median, which is why a median lesion numbs the pulp of the index finger — the surface that does the feeling.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p21 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p33 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p20 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p38 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p122 | 101 ISK
+src_08bc782553366518791e | question_book | | p88 | 101 ISK
+src_08bc782553366518791e | question_book | | p92 | 101 ISK
+src_08bc782553366518791e | question_book | | p91 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p130 | 101 ISK
+src_08bc782553366518791e | question_book | | p66 | 101 ISK
+src_08bc782553366518791e | question_book | | p75 | 101 ISK
+src_08bc782553366518791e | question_book | | p67 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Cutaneous nerves of the hand | Palmar cutaneous branches
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 4x across the question books] Cutaneous innervation of the palm, choose the correct answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Traction on the head at delivery tears the upper trunk and gives the porter’s tip posture
+## id
+CON-MSK-FD238B6D305E22
+## canonical_key
+erb-palsy-upper-trunk-injury
+## definition
+Duchenne-Erb’s paralysis is injury of the upper trunk of the brachial plexus, C5 and C6, from excessive displacement of the head to one side with depression of the shoulder on the other — in infants, a birth injury during delivery. The muscles paralysed are those of C5 and C6: deltoid and teres minor through the axillary nerve, subscapularis and teres major through the subscapular nerves, supraspinatus and infraspinatus through the suprascapular nerve, and biceps, brachialis and coracobrachialis through the musculocutaneous nerve. The limb takes the porter’s tip posture — the shoulder adducted and medially rotated, the elbow extended and the forearm pronated — and sensation is lost along the lateral aspect of the arm and forearm.
+## explicit_objective
+Recognise Erb’s palsy from its obstetric mechanism, name the roots, list the paralysed muscles by their nerves, and describe the resulting posture.
+## pitfalls
+Learning the posture without the muscles behind it. Each component of the porter’s tip is a named paralysis — adduction from deltoid and supraspinatus, medial rotation from infraspinatus and teres minor, extension and pronation from biceps — and the question asks for five muscles for that reason.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p90 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p126 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Duchenne-Erb’s paralysis | Porter’s tip deformity | Waiter’s tip
+## article_ids
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Regarding lesions of the upper trunk or upper roots of the brachial plexus (Erb's Duchenne palsy), one is correct:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The quadrangular and two triangular spaces below the shoulder each have set boundaries and their own contents
+## id
+CON-MSK-8533FCB18D819B
+## canonical_key
+intermuscular-spaces-quadrangular-triangular-boundaries-contents
+## definition
+Three intermuscular spaces lie just below the shoulder joint. The quadrangular space, laterally, is bounded above by teres minor behind and subscapularis in front, below by teres major, medially by the long head of triceps and laterally by the surgical neck of the humerus; it transmits the posterior circumflex humeral vessels and the axillary (circumflex) nerve. The upper triangular space, medially, has the same upper and lower boundaries with the long head of triceps laterally, and transmits only the circumflex scapular artery. The lower triangular space (triangular interval) lies lateral to the long head of triceps, bounded above by teres major and laterally by the lateral head of triceps and the shaft of the humerus, and transmits the radial nerve and the profunda brachii vessels.
+## explicit_objective
+Give the boundaries and contents of the quadrangular, upper triangular and lower triangular spaces.
+## pitfalls
+Treating the long head of triceps as one boundary throughout. It is the medial boundary of the quadrangular space and the lateral boundary of the upper triangular space — which side of it a structure lies on is what separates the axillary nerve from the circumflex scapular artery.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p4 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p24 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p42 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p5 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p5 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p27 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p47 | 101 ISK
+src_08bc782553366518791e | question_book | | p29 | 101 ISK
+src_08bc782553366518791e | question_book | | p39 | 101 ISK
+src_08bc782553366518791e | question_book | | p31 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.95
+## exam_weight_by_year
+KAU_Y1=0.95
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Quadrangular space | Triangular interval | Spaces below the shoulder joint
+## article_ids
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Structures passing through the quadrangular space of the axilla; mark the correct answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Supraspinatus starts abduction and deltoid carries it to ninety degrees
+## id
+CON-MSK-352E28DEA38DF7
+## canonical_key
+shoulder-abduction-first-ninety-degrees-supraspinatus-and-deltoid
+## definition
+Abduction of the arm at the shoulder joint happens in two stages before the scapula moves. Supraspinatus initiates it and carries the arm through the first fifteen degrees, working from a position in which deltoid’s pull is almost vertical and useless. The middle fibres of deltoid then take it from fifteen to ninety degrees, where the greater tuberosity meets the coraco-acromial arch and movement at the joint stops. Paralysis of deltoid therefore costs the fifteen-to-ninety range and no more; paralysis of supraspinatus costs the initiation.
+## explicit_objective
+Give the muscle responsible for each stage of abduction to ninety degrees and state the range each covers.
+## pitfalls
+Saying deltoid abducts the arm and stopping. It cannot start the movement, and it cannot finish it: the first fifteen degrees are supraspinatus and everything past ninety is scapular rotation.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f68f0c75a8effe74782 | question_book | | p5 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p7 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p25 | 101 ISK
+src_08bc782553366518791e | question_book | | p33 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p3 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p2 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p20 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
+## support_mode
+direct_statement
+## original_wording
+[asked 4x across the question books] The following muscles abducts the arm from 0-15°:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The shoulder capsule is lax below, its subscapular bursa opens into the joint and its subacromial bursa does not
+## id
+CON-MSK-DAF3D2128459B3
+## canonical_key
+shoulder-joint-capsule-bursae-and-nerve-supply
+## definition
+The capsule of the shoulder joint is attached above round the margin of the glenoid cavity outside the labrum and below to the anatomical neck of the humerus, except medially where it descends about a centimetre onto the surgical neck. It is lax, and it is weakest inferiorly, where no muscle supports it — which is why the head dislocates downwards. The subscapular bursa lies anteriorly beneath the tendon of subscapularis and communicates with the joint cavity through a gap in the capsule; the subacromial (subdeltoid) bursa lies above between the acromion and supraspinatus and does not communicate with it. The joint is supplied by the axillary, suprascapular and lateral pectoral nerves.
+## explicit_objective
+Give the attachments of the shoulder capsule, say which of its bursae communicates with the joint cavity, and name its nerve supply.
+## pitfalls
+Making the subacromial bursa communicate with the joint. It is the subscapular bursa that does; the subacromial bursa is separated from the cavity by supraspinatus, which is exactly what an impinging coraco-acromial arch wears through.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p22 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p34 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p32 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-REGION
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] The shoulder joint is innervated by twigs from:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The elbow takes twigs from the four nerves that cross it, and the axillary nerve is not one of them
+## id
+CON-MSK-CBB4C433F2F81E
+## canonical_key
+elbow-joint-nerve-supply-and-hiltons-law
+## definition
+A synovial joint is supplied by the nerves that supply the muscles acting on it and the skin over it — Hilton’s law. The elbow is crossed by the musculocutaneous nerve to brachialis, the radial nerve to triceps and the extensors, the median nerve to the forearm flexors and the ulnar nerve behind the medial epicondyle, and it receives articular twigs from all four. The axillary nerve does not reach below the shoulder: it ends in deltoid and teres minor and supplies the shoulder joint, not the elbow. The same law explains why pain from a diseased hip is felt at the knee, both being supplied by the obturator and femoral nerves.
+## explicit_objective
+State Hilton’s law, name the four nerves that supply the elbow joint, and say which upper limb nerve cannot supply it.
+## pitfalls
+Assuming a nerve that supplies a joint must run inside it. Articular twigs come from the nerves of the muscles that move the joint, which is why the elbow has four supplies and the axillary nerve — whose muscles both stop at the shoulder — has none of them.
+## concept_type
+functional_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p25 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p19 | 101 ISK
+src_08bc782553366518791e | question_book | | p100 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Hilton’s law | Nerve supply of the elbow joint
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] The following nerve doesn't innervate the elbow joint:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The radial nerve supplies every extensor of the limb and the median and ulnar nerves every flexor
+## id
+CON-MSK-44131E0EDEACA2
+## canonical_key
+flexor-and-extensor-compartments-take-different-nerves
+## definition
+The upper limb below the shoulder is divided into a flexor and an extensor compartment, and the division is also a division of nerves. Everything in the posterior compartment of the arm and the posterior compartment of the forearm — triceps, anconeus, brachioradialis, the wrist and finger extensors, supinator, abductor pollicis longus — is supplied by the radial nerve or its posterior interosseous branch, and the radial nerve supplies no flexor of the wrist or fingers. Everything in the anterior compartment of the arm is musculocutaneous; everything in the anterior compartment of the forearm is median, except flexor carpi ulnaris and the medial half of flexor digitorum profundus, which are ulnar. The rule follows from the plexus: the posterior cord takes the posterior divisions and supplies the extensor side, the lateral and medial cords take the anterior divisions and supply the flexor side.
+## explicit_objective
+Assign any named muscle of the arm or forearm to its compartment and thence to the radial, musculocutaneous, median or ulnar nerve.
+## pitfalls
+Reading a muscle’s name as its compartment. Brachioradialis is a flexor of the elbow but lies in the extensor compartment and is radial; extensor carpi ulnaris is named for the ulna but is radial; flexor carpi ulnaris is one of only two forearm flexors that are not median.
+## concept_type
+functional_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p10 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p32 | 101 ISK
+src_08bc782553366518791e | question_book | | p48 | 101 ISK
+src_08bc782553366518791e | question_book | | p74 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Compartment rule of nerve supply
+## article_ids
+ART-101-ANA-RADIAL-NERVE
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Pronator muscles of forearm are supplied by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The spinal cord is 31 segments — 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal — around an H of grey matter
+## id
+CON-MSK-59F41C4BAF6181
+## canonical_key
+spinal-cord-segments-and-structure
+## definition
+The spinal cord is a tube about 45 cm long lying inside the vertebral column, with a cervical and a lumbar enlargement where the limb plexuses arise and a tapering lower end, the conus medullaris. It is divided into 31 segments — 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal — each giving one pair of spinal nerves. In section it has outer white matter carrying the nervous tracts, inner H-shaped grey matter of nerve cells, and a central canal. The grey matter forms two dorsal horns with sensory nuclei, two ventral horns with motor nuclei, and two lateral horns holding sympathetic nuclei in the thoracic and upper two lumbar segments and parasympathetic nuclei in the second, third and fourth sacral segments.
+## explicit_objective
+Give the number of spinal cord segments region by region, and name what the white and grey matter contain.
+## pitfalls
+Counting eight cervical vertebrae to match the eight cervical segments. There are seven cervical vertebrae and eight cervical cord segments, and the mismatch is the reason the numbers have to be learnt rather than derived.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p9 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The segments of the spinal cord are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The neural tube becomes the central nervous system; the neural crest beside it becomes almost everything peripheral
+## id
+CON-DEV-785CE84F7C03DB
+## canonical_key
+neural-tube-and-neural-crest-derivatives
+## definition
+The neural plate of ectoderm, induced by the underlying notochord, sinks as a neural groove whose lips are the neural folds. The folds meet and fuse, beginning in the cervical region and closing towards both ends, to give the neural tube; the tube becomes the brain and the spinal cord — that is, the whole central nervous system, grey matter and white matter alike. As the folds fuse, cells at their crests separate as the neural crest and migrate. The neural crest gives the sensory, sympathetic and parasympathetic ganglia, the Schwann cells, the melanocytes and the suprarenal medulla. Both are ectodermal in origin, and neither gives rise to any mesodermal structure.
+## explicit_objective
+Separate the derivatives of the neural tube from those of the neural crest, and name the germ layer both come from.
+## pitfalls
+Giving the peripheral nerves to the neural tube because the central nervous system is its derivative and nerves look like an extension of it. The tube gives only the central nervous system; the peripheral ganglia and Schwann cells come from the crest.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p6 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p92 | 101 ISK
+src_08bc782553366518791e | question_book | | p123 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Neural tube gives rise to
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Intra-embryonic mesoderm divides into paraxial, intermediate and lateral plate, and each division has its own derivatives
+## id
+CON-DEV-2E3E3098D90C0C
+## canonical_key
+intra-embryonic-mesoderm-divisions-and-derivatives
+## definition
+The intra-embryonic mesoderm arises from the primitive streak and divides into three on each side of the midline: paraxial mesoderm beside the notochord and neural tube, from the cranial part of the streak, which segments into somites and so into the vertebrae, the dermis and the skeletal muscles; intermediate mesoderm, from the middle of the streak, which forms the urogenital system; and lateral plate mesoderm, from the caudal part, which the coelom splits into somatopleuric mesoderm forming the trunk wall connective tissue and the parietal serous layers and splanchnopleuric mesoderm forming the connective tissue and smooth muscle of gut and respiratory tract, cardiac muscle and the visceral serous layers. The lining epithelium of the gut is endodermal and the central nervous system ectodermal, so neither is a mesodermal derivative.
+## explicit_objective
+Name the three divisions of intra-embryonic mesoderm and give what each forms, and reject the endodermal and ectodermal structures offered beside them.
+## pitfalls
+Reading "urogenital system" as endodermal because the bladder is. The kidney and gonad come from intermediate mesoderm; only the lining epithelium of the bladder and urethra is endodermal.
+## concept_type
+classification
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p8 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p94 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] One of the following is a derivative of intra-embryonic mesoderm
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
 
 ---
 
@@ -15299,7 +16620,7 @@ ART-101-HIS-NEURO-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] One statement is true:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15307,7 +16628,7 @@ direct_statement
 ## evidence_gaps
 The department book names only the taste bud. It does not extend neuro-epithelium to the olfactory mucosa, the retina or the hair cells of the inner ear, all of which general histology includes. Only the taste bud is taught here, because only the taste bud is this faculty's stated example.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15319,7 +16640,7 @@ The department book names only the taste bud. It does not extend neuro-epitheliu
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15335,15 +16656,15 @@ The department book names only the taste bud. It does not extend neuro-epitheliu
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15357,7 +16678,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15371,7 +16691,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15434,7 +16754,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Cells increased in chronic infection:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15442,7 +16762,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15454,7 +16774,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15470,15 +16790,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15492,7 +16812,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15506,7 +16825,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15569,7 +16888,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Which of these blood elements can differentiate into plasma cells?
 ## conflicts
 [clear]
 ## uncertainty
@@ -15577,7 +16896,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15589,7 +16908,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15605,15 +16924,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15627,7 +16946,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15641,7 +16959,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15702,7 +17020,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Cells are required for Initiation of cellular & humoral immunity:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15710,7 +17028,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15722,7 +17040,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15738,15 +17056,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15760,7 +17078,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15774,7 +17091,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15834,7 +17151,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Which cell can divide
 ## conflicts
 [clear]
 ## uncertainty
@@ -15842,7 +17159,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15854,7 +17171,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -15870,15 +17187,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -15892,7 +17209,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -15906,7 +17222,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -15966,7 +17282,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Which feature is true for specific granules?
 ## conflicts
 [clear]
 ## uncertainty
@@ -15974,7 +17290,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -15986,7 +17302,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16002,15 +17318,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16024,7 +17340,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16038,7 +17353,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16103,7 +17418,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All of the following about nuclear envelope are true EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16111,7 +17426,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16123,7 +17438,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16139,15 +17454,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16161,7 +17476,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16175,7 +17489,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16252,7 +17566,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Concerning euchromatin:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16260,7 +17574,7 @@ One book asks which granulocyte shows most euchromatin and which most heterochro
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16272,7 +17586,7 @@ One book asks which granulocyte shows most euchromatin and which most heterochro
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16288,15 +17602,15 @@ One book asks which granulocyte shows most euchromatin and which most heterochro
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16310,7 +17624,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16324,7 +17637,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16391,7 +17704,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Pars fibrosa of the nucleolus:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16399,7 +17712,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16411,7 +17724,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16427,15 +17740,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16449,7 +17762,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16463,7 +17775,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16523,7 +17835,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] colloid solution, fills space between chromatin and nucleolus:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16531,7 +17843,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16543,7 +17855,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16559,15 +17871,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16581,7 +17893,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16595,7 +17906,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16666,7 +17977,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] About neutrophil , all true except:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16674,7 +17985,7 @@ direct_statement
 ## evidence_gaps
 Four adipocyte rows were filed under this leaf and are authored against this concept because the flattened peripheral nucleus of the unilocular cell is one of the options in each. Their fuller concept, `white-versus-brown-adipose-connective-tissue`, is already minted in `types-of-connective-tissue-proper.ts`; it could not be reused here without emitting a duplicate concept id, so the adipose facts are taught in the option explanations instead. The same applies to two granulocyte rows whose concepts live in `granular-leukocytes.ts`.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16686,7 +17997,7 @@ Four adipocyte rows were filed under this leaf and are authored against this con
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16702,15 +18013,15 @@ Four adipocyte rows were filed under this leaf and are authored against this con
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16724,7 +18035,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16738,7 +18048,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16800,7 +18110,7 @@ ART-101-HIS-NUCLEUS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Regarding Turner syndrome
 ## conflicts
 [clear]
 ## uncertainty
@@ -16808,7 +18118,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16820,7 +18130,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16836,15 +18146,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16858,7 +18168,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -16872,7 +18181,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -16932,7 +18241,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Regarding the breast:
 ## conflicts
 [clear]
 ## uncertainty
@@ -16940,7 +18249,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -16952,7 +18261,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -16968,15 +18277,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -16990,7 +18299,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17004,7 +18312,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17064,7 +18372,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Principal muscle concerned in lateral rotation of the shoulder: (DEP BOOK) Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -17072,7 +18380,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17084,7 +18392,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17100,15 +18408,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17122,7 +18430,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17136,7 +18443,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17202,7 +18509,7 @@ ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Brown adipose C.T. is present in the following site in adults:
 ## conflicts
 [clear]
 ## uncertainty
@@ -17210,7 +18517,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17222,7 +18529,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17238,15 +18545,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17260,7 +18567,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17274,7 +18580,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17334,7 +18640,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] A 43-year-old woman presented with a breast mass, examination of the biopsy revealed a normal lobule of mammary gland surrounded by densely packed collagen fibers oriented in different directions | with few cells in between. This area is primarily composed of which | of the following types of C.T.:
 ## conflicts
 [clear]
 ## uncertainty
@@ -17342,7 +18648,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17354,7 +18660,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17370,15 +18676,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17392,7 +18698,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17406,7 +18711,152 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+
+---
+
+# Item
+## label
+A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
+## id
+CON-FND-5114283D5309E5
+## canonical_key
+microvillus-and-stereocilium-against-the-cilium
+## definition
+The apical specialisations differ in their core and in what they do. A microvillus is a short finger-like projection whose core is actin filaments inserted into a terminal web; it has no axoneme, no basal body and no rootlets, it does not move, and it increases the surface area for absorption. Seen by light microscopy a carpet of microvilli is the brush or striated border of the absorptive columnar cell of the intestine. A stereocilium is not a cilium at all: it is a long, non-motile microvillus with an actin core, and it helps absorption in the epididymis. A cilium is a motile process with a microtubular core, and a flagellum has the same axoneme but is far longer and moves the cell itself.
+## explicit_objective
+Tell a microvillus, a stereocilium and a cilium apart by their core filament, their motility and their function, and name the light-microscopic appearance of each.
+## pitfalls
+Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and the book says so explicitly.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
+src_6846577508f49244d715 | question_book | | p23 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Microvilli | Brush border | Striated border | Stereocilia | Terminal web
+## article_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] In absorbing columnar cell, the brush border seen by L/M is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
 
 ---
 
@@ -17471,7 +18921,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] cell junction that prevent leakage (passage of fluids) is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -17479,7 +18929,7 @@ direct_statement
 ## evidence_gaps
 The department book names no transmembrane protein family for any junction — no occludin or claudin appears — and describes them only as transmembrane protein molecules.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17491,7 +18941,7 @@ The department book names no transmembrane protein family for any junction — n
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17507,15 +18957,15 @@ The department book names no transmembrane protein family for any junction — n
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17529,7 +18979,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17543,7 +18992,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17609,7 +19058,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Concerning the zonula adherens, one statement Is true:
 ## conflicts
 [clear]
 ## uncertainty
@@ -17617,7 +19066,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17629,7 +19078,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17645,15 +19094,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17667,7 +19116,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17681,7 +19129,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17745,7 +19193,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] which of the following is involved in cell to cell communication??
 ## conflicts
 [clear]
 ## uncertainty
@@ -17753,7 +19201,7 @@ direct_statement
 ## evidence_gaps
 The department book does not use the word connexin or connexon, describing the channel only as six symmetrical transmembrane protein molecules. Question books that ask for connexin are asking beyond this faculty's stated source.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17765,7 +19213,7 @@ The department book does not use the word connexin or connexon, describing the c
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17781,15 +19229,15 @@ The department book does not use the word connexin or connexon, describing the c
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17803,7 +19251,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17817,7 +19264,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -17880,7 +19327,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Glia f Push fiuids in one direction g. Digestion Table Ill 4. Tight junction a Intestinal cells 2. Adherens junction b. Narrow intercellular space
 ## conflicts
 [clear]
 ## uncertainty
@@ -17888,7 +19335,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -17900,7 +19347,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -17916,15 +19363,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -17938,7 +19385,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -17952,7 +19398,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -18019,7 +19465,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Basal lamina by EM is formed of two layers:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18027,7 +19473,7 @@ direct_statement
 ## evidence_gaps
 The lamina lucida and lamina densa subdivision of the basal lamina is asked by the question books but is not stated in the department book, which resolves the basement membrane into basal lamina and reticular lamina and stops there.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18039,7 +19485,7 @@ The lamina lucida and lamina densa subdivision of the basal lamina is asked by t
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18055,15 +19501,15 @@ The lamina lucida and lamina densa subdivision of the basal lamina is asked by t
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18077,7 +19523,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18091,7 +19536,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -18151,7 +19596,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] lon transporting cells are characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18159,7 +19604,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18171,7 +19616,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18187,15 +19632,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18209,7 +19654,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18223,7 +19667,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -18285,7 +19729,7 @@ ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] A male patient complains of repeated upper respiratory tract infections and not responding well to usual medications, the case to be due to:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18293,7 +19737,7 @@ direct_statement
 ## evidence_gaps
 The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty's text does.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18305,7 +19749,7 @@ The department book describes the consequences without naming the disease. "Immo
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18321,15 +19765,15 @@ The department book describes the consequences without naming the disease. "Immo
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18343,7 +19787,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18357,7 +19800,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -18420,7 +19863,7 @@ ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] One of the following muscle is a rotator cuff muscle:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18428,7 +19871,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18440,7 +19883,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18456,15 +19899,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18478,7 +19921,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18492,7 +19934,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -18556,7 +19998,7 @@ ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The greater tuberosity of the humerus, choose correct answer:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18564,7 +20006,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18576,7 +20018,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18592,15 +20034,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18614,7 +20056,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18628,142 +20069,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-Supraspinatus starts abduction and deltoid carries it to ninety degrees
-## id
-CON-MSK-352E28DEA38DF7
-## canonical_key
-shoulder-abduction-first-ninety-degrees-supraspinatus-and-deltoid
-## definition
-Abduction of the arm at the shoulder joint happens in two stages before the scapula moves. Supraspinatus initiates it and carries the arm through the first fifteen degrees, working from a position in which deltoid's pull is almost vertical and useless. The middle fibres of deltoid then take it from fifteen to ninety degrees, where the greater tuberosity meets the coraco-acromial arch and movement at the joint stops. Paralysis of deltoid therefore costs the fifteen-to-ninety range and no more; paralysis of supraspinatus costs the initiation.
-## explicit_objective
-Give the muscle responsible for each stage of abduction to ninety degrees and state the range each covers.
-## pitfalls
-Saying deltoid abducts the arm and stopping. It cannot start the movement, and it cannot finish it: the first fifteen degrees are supraspinatus and everything past ninety is scapular rotation.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T03-S02-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Shoulder Region
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p3 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p2 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p20 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.47
-## exam_weight_by_year
-KAU_Y1=0.47
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -18834,7 +20140,7 @@ ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 4x across the question books] Lateral rotation at the shoulder; is done by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18842,7 +20148,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -18854,7 +20160,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -18870,15 +20176,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -18892,7 +20198,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -18906,142 +20211,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-The shoulder capsule is lax below, its subscapular bursa opens into the joint and its subacromial bursa does not
-## id
-CON-MSK-DAF3D2128459B3
-## canonical_key
-shoulder-joint-capsule-bursae-and-nerve-supply
-## definition
-The capsule of the shoulder joint is attached above round the margin of the glenoid cavity outside the labrum and below to the anatomical neck of the humerus, except medially where it descends about a centimetre onto the surgical neck. It is lax, and it is weakest inferiorly, where no muscle supports it — which is why the head dislocates downwards. The subscapular bursa lies anteriorly beneath the tendon of subscapularis and communicates with the joint cavity through a gap in the capsule; the subacromial (subdeltoid) bursa lies above between the acromion and supraspinatus and does not communicate with it. The joint is supplied by the axillary, suprascapular and lateral pectoral nerves.
-## explicit_objective
-Give the attachments of the shoulder capsule, say which of its bursae communicates with the joint cavity, and name its nerve supply.
-## pitfalls
-Making the subacromial bursa communicate with the joint. It is the subscapular bursa that does; the subacromial bursa is separated from the cavity by supraspinatus, which is exactly what an impinging coraco-acromial arch wears through.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Shoulder Region
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_0f1171705349e98b44e6 | question_book | | p22 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p34 | 101 ISK
-src_69103a53ec28a93958d5 | question_book | | p14 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p32 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.47
-## exam_weight_by_year
-KAU_Y1=0.47
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -19103,7 +20273,7 @@ ART-101-ANA-SHOULDER-REGION
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] An example of bipennate muscle is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -19111,7 +20281,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -19123,7 +20293,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -19139,15 +20309,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -19161,7 +20331,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -19175,1341 +20344,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
----
-
-# Item
-## label
-The quadrangular and two triangular spaces below the shoulder each have set boundaries and their own contents
-## id
-CON-MSK-8533FCB18D819B
-## canonical_key
-intermuscular-spaces-quadrangular-triangular-boundaries-contents
-## definition
-Three intermuscular spaces lie just below the shoulder joint. The quadrangular space, laterally, is bounded above by teres minor behind and subscapularis in front, below by teres major, medially by the long head of triceps and laterally by the surgical neck of the humerus; it transmits the posterior circumflex humeral vessels and the axillary (circumflex) nerve. The upper triangular space, medially, has the same upper and lower boundaries with the long head of triceps laterally, and transmits only the circumflex scapular artery. The lower triangular space (triangular interval) lies lateral to the long head of triceps, bounded above by teres major and laterally by the lateral head of triceps and the shaft of the humerus, and transmits the radial nerve and the profunda brachii vessels.
-## explicit_objective
-Give the boundaries and contents of the quadrangular, upper triangular and lower triangular spaces.
-## pitfalls
-Treating the long head of triceps as one boundary throughout. It is the medial boundary of the quadrangular space and the lateral boundary of the upper triangular space — which side of it a structure lies on is what separates the axillary nerve from the circumflex scapular artery.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Shoulder Region
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_0f1171705349e98b44e6 | question_book | | p4 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p5 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-Traction on the head at delivery tears the upper trunk and gives the porter's tip posture
-## id
-CON-MSK-FD238B6D305E22
-## canonical_key
-erb-palsy-upper-trunk-injury
-## definition
-Duchenne-Erb's paralysis is injury of the upper trunk of the brachial plexus, C5 and C6, from excessive displacement of the head to one side with depression of the shoulder on the other — in infants, a birth injury during delivery. The muscles paralysed are those of C5 and C6: deltoid and teres minor through the axillary nerve, subscapularis and teres major through the subscapular nerves, supraspinatus and infraspinatus through the suprascapular nerve, and biceps, brachialis and coracobrachialis through the musculocutaneous nerve. The limb takes the porter's tip posture — the shoulder adducted and medially rotated, the elbow extended and the forearm pronated — and sensation is lost along the lateral aspect of the arm and forearm.
-## explicit_objective
-Recognise Erb's palsy from its obstetric mechanism, name the roots, list the paralysed muscles by their nerves, and describe the resulting posture.
-## pitfalls
-Learning the posture without the muscles behind it. Each component of the porter's tip is a named paralysis — adduction from deltoid and supraspinatus, medial rotation from infraspinatus and teres minor, extension and pronation from biceps — and the question asks for five muscles for that reason.
-## concept_type
-clinical_correlation
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Axilla
-## universities
-kau
-## learner_years
-1
-## exam_signal
-
-## weight_confidence
-0.6
-## blueprint_weight
-0.15
-## exam_weight_by_year
-KAU_Y1=0.15
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The clavicle breaks where its curvature changes, and the shoulder then drops because the limb hangs from it
-## id
-CON-MSK-26E6BC06A6079C
-## canonical_key
-case-clavicle-fracture-middle-third
-## definition
-The clavicle fractures most often at the junction between its lateral and middle thirds, the site at which its curvature changes — the lateral third is convex posteriorly and the medial two thirds convex anteriorly. The shoulder drops because the weight of the upper limb is suspended from the lateral third of the clavicle through the coraco-clavicular ligament, which the department book calls the main medium by which the scapula and upper limb are suspended; the book adds that a fracture medial to that ligament's attachment lets the upper limb drop. The subclavian vessels and the divisions of the brachial plexus lie behind the bone and are liable to be damaged, and the fracture is treated with an arm sling to support the sagging limb.
-## explicit_objective
-Explain why the clavicle fractures at the junction of its lateral and middle thirds, why the shoulder is then depressed, and what lies at risk behind it.
-## pitfalls
-Attributing the drop to muscle spasm. The limb is suspended from the clavicle by the coraco-clavicular ligament, so a break medial to that attachment simply lets the weight of the arm pull the shoulder down.
-## concept_type
-clinical_correlation
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Pectoral Region
-## universities
-kau
-## learner_years
-1
-## exam_signal
-
-## weight_confidence
-0.6
-## blueprint_weight
-0.15
-## exam_weight_by_year
-KAU_Y1=0.15
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-SHOULDER-REGION
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The axial skeleton is the skull, hyoid, sternum, ribs and vertebral column; the appendicular skeleton is the limbs and their girdles
-## id
-CON-MSK-9A22BB8909AF29
-## canonical_key
-skeleton-axial-versus-appendicular
-## definition
-By position the skeleton divides in two. The axial skeleton is the skull, the mandible, the hyoid bone, the sternum, the ribs and the vertebral column — the central axis of the body. The appendicular or peripheral skeleton is the bones of the upper and lower limbs, and includes the girdles by which the limbs hang from the axis: the clavicle and scapula above, the hip bone below.
-## explicit_objective
-Assign a named bone to the axial or the appendicular skeleton.
-## pitfalls
-Putting the clavicle and scapula with the axial skeleton because they lie on the trunk. They are the pectoral girdle, part of the upper limb; the sternum they meet is the axial bone.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
-src_08bc782553366518791e | question_book | | p8 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Peripheral skeleton
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-Bones fall into six shape classes, and the department book names one worked example of each
-## id
-CON-MSK-00B4A0D32A6420
-## canonical_key
-bone-shapes-six-classes-with-examples
-## definition
-By shape there are six classes of bone. A long bone has two expanded ends and a shaft. A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone. A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe. A pneumatic bone contains air cavities, chiefly the skull bones around the nose. An irregular bone, such as a vertebra, has an irregular shape with projecting processes and is built like a short bone. A sesamoid bone is a small nodule of bone embedded in a muscle tendon; the patella, in the tendon of quadriceps femoris, is the largest.
-## explicit_objective
-Classify a named bone into one of the six shape classes, and give the book's example of each class.
-## pitfalls
-Calling the patella a short bone because it is small and rounded. Its class is decided by where it sits — inside a tendon — not by its size.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p5 | 101 ISK
-src_0f1171705349e98b44e6 | question_book | | p30 | 101 ISK
-src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
-src_08bc782553366518791e | question_book | | p8 | 101 ISK
-src_08bc782553366518791e | question_book | | p7 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.63
-## exam_weight_by_year
-KAU_Y1=0.63
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Classification of bones by shape
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The air cavities of a pneumatic bone lighten the skull, give the voice resonance and warm inspired air — they do not strengthen it
-## id
-CON-MSK-6DCABD3AE947F5
-## canonical_key
-pneumatic-bone-air-cavities-and-their-uses
-## definition
-A pneumatic bone contains air. The bones concerned are mainly the skull bones surrounding the nose — the maxilla, the frontal — so their air cavities are called the paranasal sinuses. A bone may hold one large cavity, as the maxillary sinus does, or many small air cells, as the mastoid does. The cavities decrease the weight of the skull, give resonance to the voice, and are lined by a highly vascular mucosa that warms inspired air.
-## explicit_objective
-State the three uses of the air cavity in a pneumatic bone, and say what it does not do.
-## pitfalls
-Adding strength to the list. A cavity can only take bone away; what air buys is lightness, resonance and a warm airway, and strength is what it costs.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_08bc782553366518791e | question_book | | p8 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Paranasal sinuses
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-A long bone is an epiphysis at each end, a diaphysis between them, and a metaphysis where the two meet
-## id
-CON-MSK-EFD497A9922A4D
-## canonical_key
-long-bone-regions-epiphysis-diaphysis-metaphysis
-## definition
-The epiphyses are the expanded upper and lower ends of a long bone; they carry the articular surfaces and are covered with hyaline cartilage. The diaphysis is the shaft — a tube of compact bone with a central medullary cavity, lined by endosteum, filled with bone marrow and covered by the periosteum. In a growing bone the two are separated by a disc of hyaline cartilage, the epiphyseal cartilage. The metaphysis lies just beneath that cartilage and is the most active part of the long bone.
-## explicit_objective
-Name the region of a long bone from a description of it, and give what each region contains.
-## pitfalls
-Confusing the metaphysis with the diaphysis. The metaphysis is the narrow, highly active zone under the growth plate; the diaphysis is the whole hollow shaft below it.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
-src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Parts of a long bone
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-A long bone lengthens at its epiphyseal plates and widens from the periosteum, and the end that ossifies later is the growing end
-## id
-CON-MSK-C30E73A5353ABB
-## canonical_key
-long-bone-grows-in-length-at-the-epiphyseal-plate
-## definition
-A long bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells, and increases in width from the osteoblasts in the inner layer of the periosteum. The epiphyseal plate at one end ossifies earlier than the other; the end whose plate ossifies later goes on growing longer and is called the growing end. The nutrient artery enters the shaft obliquely and runs away from the growing end. Fusion of epiphysis with diaphysis is under hormonal control and happens in females about two years earlier than in males.
-## explicit_objective
-Name the structure that lengthens a long bone, the one that widens it, and say what makes one end the growing end.
-## pitfalls
-Answering "metaphysis" because the book calls it the most active part of the bone. Activity is not the same as growth: the cartilage cells of the plate divide, and the metaphysis is the bone left behind as they do.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
-src_08bc782553366518791e | question_book | | p8 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Growing end | Epiphysial plate
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-A bone forms either directly in a connective tissue membrane or by replacing a cartilage model, and which one it did is fixed for each bone
-## id
-CON-MSK-2C78EFB16CA67F
-## canonical_key
-ossification-membranous-versus-cartilaginous
-## definition
-Bones form by one of two processes. In intra-membranous ossification bone develops directly from a connective tissue membrane of mesenchyme, beginning at one or more centres; the clavicle and the skull cap form this way. In intra-cartilaginous (endochondral) ossification the mesenchyme first becomes a cartilage model, which is then changed into bone; the long bones, the vertebrae, the ribs and the base of the skull form this way.
-## explicit_objective
-Say by which of the two processes a named bone ossifies, and give the book's examples of each.
-## pitfalls
-Reading the clavicle as a long bone and therefore cartilaginous. It is the standing exception the examiner uses: shaped like a long bone, but ossified in membrane.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
-src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
-src_08bc782553366518791e | question_book | | p19 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Endochondral ossification | Intramembranous ossification
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The three cartilages are told apart by their matrix, and each has its own list of sites
-## id
-CON-MSK-AEB62E99182AEE
-## canonical_key
-cartilage-three-types-and-their-sites
-## definition
-Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium. Hyaline cartilage has a translucent, glass-like matrix with numerous small rounded cells and is the most widespread: developing bones in the fetus, the epiphyseal plates, the articular cartilage of joints, the costal cartilages and xiphoid process, and the larynx except the epiglottis together with the tracheal rings. It is the only one that ossifies in old age. White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs. Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
-## explicit_objective
-Name the type of cartilage at a given site, and give the matrix that distinguishes each type.
-## pitfalls
-Putting the epiglottis with the rest of the larynx. The larynx is hyaline except the epiglottis, which is yellow elastic — and the exception is what gets asked.
-## concept_type
-classification
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Basis of Anatomy > Skeletal system
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
-src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
-src_08bc782553366518791e | question_book | | p7 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.39
-## exam_weight_by_year
-KAU_Y1=0.39
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Anatomy
-## subtopic
-Basis of Anatomy
-## aliases
-Hyaline cartilage | White fibrocartilage | Yellow elastic fibrocartilage
-## article_ids
-ART-101-ANA-SKELETAL-SYSTEM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
 
@@ -20572,7 +20407,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] Taste bud is an example of
 ## conflicts
 [clear]
 ## uncertainty
@@ -20580,7 +20415,7 @@ direct_statement
 ## evidence_gaps
 The question books extend neuro-epithelium to the organ of Corti. The department book names only the taste bud, so the organ of Corti is taught here because a keyed question uses it and not because this faculty's text supports it.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -20592,7 +20427,7 @@ The question books extend neuro-epithelium to the organ of Corti. The department
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -20608,15 +20443,15 @@ The question books extend neuro-epithelium to the organ of Corti. The department
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -20630,7 +20465,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -20644,7 +20478,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -20706,7 +20540,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All of the followings are examples of stratified epithelium EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -20714,7 +20548,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -20726,7 +20560,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -20742,15 +20576,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -20764,7 +20598,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -20778,7 +20611,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -20853,7 +20686,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] One statement is true about simple squamous epithelium:
 ## conflicts
 [clear]
 ## uncertainty
@@ -20861,7 +20694,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -20873,7 +20706,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -20889,15 +20722,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -20911,7 +20744,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -20925,7 +20757,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -20996,7 +20828,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 3x across the question books] The function of simple columnar epithelium is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21004,7 +20836,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21016,7 +20848,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21032,15 +20864,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21054,7 +20886,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21068,7 +20899,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21138,7 +20969,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] all, thin epithelial cells that have the appearance of two or more layers, but with all cells touching the basement membrane is
 ## conflicts
 [clear]
 ## uncertainty
@@ -21146,7 +20977,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21158,7 +20989,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21174,15 +21005,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21196,7 +21027,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21210,7 +21040,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21283,7 +21113,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] The stratified squamous epithelium is characterized by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21291,7 +21121,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21303,7 +21133,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21319,15 +21149,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21341,7 +21171,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21355,7 +21184,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21426,7 +21255,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All the statements concerning the transitional epithelium is true EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21434,7 +21263,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21446,7 +21275,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21462,15 +21291,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21484,7 +21313,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21498,7 +21326,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21561,7 +21389,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] esophagus is lined with:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21569,7 +21397,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21581,7 +21409,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21597,15 +21425,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21619,7 +21447,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21633,7 +21460,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21697,7 +21524,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] One statement is true about stratified columnar epithelium:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21705,7 +21532,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21717,7 +21544,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21733,15 +21560,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21755,7 +21582,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21769,7 +21595,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21831,7 +21657,7 @@ ART-101-HIS-SURFACE-EPITHELIUM
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] An Egyptian farmer suffers from blood in urine as a complication of | bilharziasis. Bladder biopsy could show change of epithelium into: |
 ## conflicts
 [clear]
 ## uncertainty
@@ -21839,7 +21665,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21851,7 +21677,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -21867,15 +21693,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -21889,7 +21715,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -21903,7 +21728,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -21971,7 +21796,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] Integral proteins are represented by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21979,7 +21804,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -21991,7 +21816,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22007,15 +21832,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22029,7 +21854,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22043,7 +21867,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22115,7 +21939,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] A teen ager presenting with slower growth rate than expected for age and delayed sexual development, investigations may show:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22123,7 +21947,7 @@ direct_statement
 ## evidence_gaps
 Two rows filed under this leaf name the immunoglobulin the basophil and the mast cell have membrane receptors for. The cell-specific facts belong to `basophil-granule-contents-and-anaphylaxis` and `mast-cell-identification`, both already minted in other batches; they are taught in the option explanations here rather than duplicated as a concept, because a concept already declared by a sibling leaf of this batch cannot be declared again without emitting a duplicate id.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22135,7 +21959,7 @@ Two rows filed under this leaf name the immunoglobulin the basophil and the mast
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22151,15 +21975,15 @@ Two rows filed under this leaf name the immunoglobulin the basophil and the mast
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22173,7 +21997,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22187,7 +22010,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22249,7 +22072,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] All the following statements concerning gap junction (nexus) are true EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22257,7 +22080,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22269,7 +22092,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22285,15 +22108,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22307,7 +22130,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22321,7 +22143,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22383,7 +22205,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The most common type of connective tissue (C.T.) Is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22391,7 +22213,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22403,7 +22225,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22419,15 +22241,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22441,7 +22263,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22455,7 +22276,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22516,7 +22337,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Among the functions of the loose areolar connective tissue: |
 ## conflicts
 [clear]
 ## uncertainty
@@ -22524,7 +22345,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22536,7 +22357,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22552,15 +22373,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22574,7 +22395,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22588,7 +22408,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22648,7 +22468,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The followings are functions for adipose C.T EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22656,7 +22476,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22668,7 +22488,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22684,15 +22504,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22706,7 +22526,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22720,7 +22539,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22780,7 +22599,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Ground substance is jelly like and formed mainly of hyaluronic acids in:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22788,7 +22607,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22800,7 +22619,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22816,15 +22635,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22838,7 +22657,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22852,7 +22670,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -22913,7 +22731,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] Reticular fibers e. Anchoring fibres f. Capsule of organs g. Orcein stain Table Ill [Concerning Types of Connective Tissue Proper]: Column (B) 4- Loose areolar C.T. a. Mediastinal region 2- Yellow elastic C.T. b. Large arteries 3- Regular white fibrous c. Tendons 4- oa adipose C.T. d. Pulp of teeth 5- Mucoid C,T. 6, Ear pinna f. Sclera g. Most abundant type 21 Answers of Connective Tissue ١
 ## conflicts
 [clear]
 ## uncertainty
@@ -22921,7 +22739,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -22933,7 +22751,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -22949,15 +22767,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -22971,7 +22789,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -22985,7 +22802,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -23045,7 +22862,7 @@ ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 1x across the question books] The median cubital vein: (DEP BOOK) y y
 ## conflicts
 [clear]
 ## uncertainty
@@ -23053,7 +22870,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -23065,7 +22882,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -23081,15 +22898,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -23103,7 +22920,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -23117,7 +22933,7 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
 
 ---
 
@@ -23179,7 +22995,7 @@ ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[clear]
+[asked 2x across the question books] One of the following structures lies deep to the extensor retinaculum:
 ## conflicts
 [clear]
 ## uncertainty
@@ -23187,7 +23003,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -23199,7 +23015,7 @@ direct_statement
 ## related_article_ids
 [clear]
 ## resource_ids
-[clear]
+src_b1e6dc481eaf337268d0
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -23215,15 +23031,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Medical team, Admin team
 ## final_publisher
-[clear]
+Admin team
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -23237,7 +23053,6 @@ arabicAliases: Same — no Arabic terminology has been reviewed for this concept
 microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
 nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
 approvedVideoResourceIds: This faculty distributes no video for this module.
 resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
@@ -23251,4 +23066,4 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
