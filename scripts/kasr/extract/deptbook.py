@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Helper for extracting the teaching content of `Department Book Module 101.pdf`.
+"""Helper for extracting the teaching content of a module's Department Book.
+
+    python3 scripts/kasr/extract/deptbook.py [--module "104 CPS"] [--source-id ID] <command> [args]
+
+Defaults to module 101 ISK — `Department Book Module 101.pdf`, whose results are
+committed at scripts/kasr/extract/deptbook.json. Any other module resolves its
+book from the manifest and writes into extract/<module-slug>/.
 
 The summarisation judgement is human/model work; this script only does the
 mechanical parts:
@@ -23,14 +29,18 @@ import re
 import subprocess
 import sys
 
-PDF = ("/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/"
-       "Department Book/Department Book Module 101.pdf")
-HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "deptbook.json")
+from kasr_module import DEFAULT_MODULE, module_sources, out_path, parse_module
+
+DEFAULT_PDF = ("/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/"
+               "Department Book/Department Book Module 101.pdf")
+DEFAULT_SOURCE_ID = "src_b1e6dc481eaf337268d0"
+DEFAULT_PAGES = 291
 
 # Physical page ranges, derived from Part I's LIST OF CONTENTS (physical 3)
-# and Part II's running heads. subjectPath -> (bookTitle, start, end)
-CHAPTERS = [
+# and Part II's running heads. subjectPath -> (bookTitle, start, end).
+# The map is authored per book, so a module without one maps no chapters
+# rather than silently reusing 101's.
+CHAPTERS_101 = [
     ("101 ISK > Histology > Introduction > Microscopes", "MICROSCOPES", 4, 5),
     ("101 ISK > Histology > Introduction > Microtechniques",
      "Tissue Processing Methods (Microtechniques) for L.M. examination", 5, 6),
@@ -99,6 +109,16 @@ CHAPTERS = [
      "Joints of Upper Limb", 270, 291),
 ]
 
+CHAPTERS_BY_MODULE = {DEFAULT_MODULE: CHAPTERS_101}
+
+# Set from --module in main().
+MODULE = DEFAULT_MODULE
+PDF = DEFAULT_PDF
+SOURCE_ID = DEFAULT_SOURCE_ID
+PAGES = DEFAULT_PAGES
+CHAPTERS = CHAPTERS_101
+OUT = out_path(MODULE, "deptbook.json")
+
 CAPTION = re.compile(
     r"(fig(ure)?\.?\s*\(?\d|plate\s*\d|table\s*\(?\d|^\s*[A-Z][^.]{4,70}$)", re.I)
 
@@ -132,18 +152,29 @@ def load():
     if os.path.exists(OUT):
         with open(OUT, encoding="utf-8") as fh:
             return json.load(fh)
+    if MODULE == DEFAULT_MODULE:
+        return {
+            "file": PDF,
+            "sourceId": "src_b1e6dc481eaf337268d0",
+            "manifestSourceId": "src_b1e6dc481eaf337268d0",
+            "sourceIdNote": ("The subject-tree note and the extraction request both cite "
+                             "src_b1e6dc481eaf337268d0, but kasr-y1-sources.json records this "
+                             "PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0. "
+                             "Both are recorded here; the manifest one is authoritative."),
+            "pages": 291,
+            "pageNumbering": ("All startPage/endPage/figure page values are PHYSICAL PDF pages "
+                              "(1-based). The book's printed numbers differ: Part I printed = "
+                              "physical - 1; Part II restarts its own numbering."),
+            "chapters": [],
+        }
     return {
         "file": PDF,
-        "sourceId": "src_b1e6dc481eaf337268d0",
-        "manifestSourceId": "src_b1e6dc481eaf337268d0",
-        "sourceIdNote": ("The subject-tree note and the extraction request both cite "
-                         "src_b1e6dc481eaf337268d0, but kasr-y1-sources.json records this "
-                         "PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0. "
-                         "Both are recorded here; the manifest one is authoritative."),
-        "pages": 291,
+        "sourceId": SOURCE_ID,
+        "manifestSourceId": SOURCE_ID,
+        "moduleId": MODULE,
+        "pages": PAGES,
         "pageNumbering": ("All startPage/endPage/figure page values are PHYSICAL PDF pages "
-                          "(1-based). The book's printed numbers differ: Part I printed = "
-                          "physical - 1; Part II restarts its own numbering."),
+                          "(1-based); the book's own printed numbers may differ."),
         "chapters": [],
     }
 
@@ -178,7 +209,46 @@ def cmd_validate():
     print(f"{len(have)}/{len(want)} chapters, {nfig} figures")
 
 
-if __name__ == "__main__":
+def resolve_book(module):
+    """The module's Department Book, from the manifest. Never a new hardcoded path."""
+    books = module_sources(module, category="Department Book", file_type="pdf")
+    if not books:
+        raise SystemExit("no Department Book in the manifest for module %r" % module)
+    if len(books) > 1:
+        names = "\n".join("  %s  %s" % (b["sourceId"], b["fileName"]) for b in books)
+        raise SystemExit("module %r has %d Department Book files; name one with "
+                         "--source-id:\n%s" % (module, len(books), names))
+    return books[0]
+
+
+def main(argv):
+    global MODULE, PDF, SOURCE_ID, PAGES, CHAPTERS, OUT
+    if not argv or "--help" in argv or "-h" in argv:
+        print(__doc__)
+        return
+    MODULE, argv = parse_module(argv)
+    source_id = None
+    if "--source-id" in argv:
+        i = argv.index("--source-id")
+        source_id, argv = argv[i + 1], argv[:i] + argv[i + 2:]
+    if MODULE != DEFAULT_MODULE:
+        books = module_sources(MODULE, category="Department Book", file_type="pdf")
+        book = next((b for b in books if b["sourceId"] == source_id), None) \
+            if source_id else resolve_book(MODULE)
+        if book is None:
+            raise SystemExit("no Department Book %r in module %r" % (source_id, MODULE))
+        PDF, SOURCE_ID = book["absolutePath"], book["sourceId"]
+        PAGES = book.get("pageCount")
+        CHAPTERS = CHAPTERS_BY_MODULE.get(MODULE, [])
+    OUT = out_path(MODULE, "deptbook.json")
+
     cmds = {"map": cmd_map, "text": cmd_text, "figures": cmd_figures,
             "add": cmd_add, "validate": cmd_validate}
-    cmds[sys.argv[1]](*sys.argv[2:])
+    if not argv or argv[0] not in cmds:
+        raise SystemExit("unknown command %r\n%s" % (argv[0] if argv else "", __doc__))
+    print("# module %s | %s" % (MODULE, os.path.basename(PDF)), file=sys.stderr)
+    cmds[argv[0]](*argv[1:])
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
