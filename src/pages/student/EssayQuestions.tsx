@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { BookOpen, ChevronRight, FileText, PenLine } from 'lucide-react'
+import { BookOpen, ChevronRight, FileText, PenLine, Shuffle } from 'lucide-react'
 import { WRITTEN_GUIDE } from '@/data/writtenGuide'
 import { coveredCount, type EssayQuestion as EssayQuestionData } from '@/data/essay'
 import { useLiveEssays } from '@/lib/useLiveEssays'
@@ -17,7 +17,9 @@ import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { EssayRunner } from '@/components/essay/EssayRunner'
 import { WrittenRunner } from '@/components/written/WrittenRunner'
-import { useLiveWrittenQuestions } from '@/lib/useLiveWrittenQuestions'
+import { useLiveMatchingQuestions, useLiveWrittenQuestions } from '@/lib/useLiveWrittenQuestions'
+import { MatchingRunner } from '@/components/written/MatchingRunner'
+import type { MatchingQuestionView } from '@/data/matchingQuestion'
 import { useWrittenAnswers } from '@/lib/useWrittenAnswers'
 import { markWritten, writtenFullyMarked, type WrittenQuestion } from '@/data/writtenQuestion'
 import { cn } from '@/lib/cn'
@@ -208,9 +210,11 @@ export function EssayQuestions() {
   const t = useT()
   const essays = useLiveEssays()
   const written = useLiveWrittenQuestions()
-  const availability = useCatalogueAvailability(essays.length + written.length)
+  const matching = useLiveMatchingQuestions()
+  const availability = useCatalogueAvailability(essays.length + written.length + matching.length)
   const [active, setActive] = useState<EssayQuestionData | null>(null)
   const [activeWritten, setActiveWritten] = useState<WrittenQuestion | null>(null)
+  const [activeMatching, setActiveMatching] = useState<MatchingQuestionView | null>(null)
 
   if (active) {
     // Keyed by question: without it, a future "next question" control would
@@ -221,6 +225,10 @@ export function EssayQuestions() {
 
   if (activeWritten) {
     return <WrittenRunner key={activeWritten.id} question={activeWritten} onExit={() => setActiveWritten(null)} />
+  }
+
+  if (activeMatching) {
+    return <MatchingRunner key={activeMatching.id} question={activeMatching} onExit={() => setActiveMatching(null)} />
   }
 
   return (
@@ -262,9 +270,48 @@ export function EssayQuestions() {
             </section>
           )}
 
+          {matching.length > 0 && (
+            <section>
+              <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Matching questions')}</h2>
+              <p className="mb-3 text-[12.5px] leading-relaxed text-ink-2">
+                {t('Match every prompt to an option, then check the block as a whole.')}
+              </p>
+              <Panel className="overflow-hidden">
+                <ul className="divide-y divide-line">
+                  {matching.map((question) => (
+                    <li key={question.id}>
+                      <div
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => setActiveMatching(question)}
+                        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setActiveMatching(question) } }}
+                        className="flex cursor-pointer flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3.5 transition-colors hover:bg-inset/60 focus-visible:bg-inset focus-visible:outline-none"
+                      >
+                        <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
+                          <Icon icon={Shuffle} size={18} />
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <p className="text-[14px] font-medium text-ink">{question.title}</p>
+                          <p className="mt-0.5 tnum text-[12px] text-ink-3">
+                            {t('{prompts} prompts · {options} options')
+                              .replace('{prompts}', String(question.matching.prompts.length))
+                              .replace('{options}', String(question.matching.options.length))}
+                          </p>
+                        </div>
+                        <Button variant="primary" size="sm" onClick={(e) => { e.stopPropagation(); setActiveMatching(question) }}>
+                          {t('Start')}
+                        </Button>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </Panel>
+            </section>
+          )}
+
           {essays.length > 0 && (
             <section>
-              {written.length > 0 && (
+              {(written.length > 0 || matching.length > 0) && (
                 <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Practice essays')}</h2>
               )}
               <EssayList essays={essays} onOpen={setActive} />

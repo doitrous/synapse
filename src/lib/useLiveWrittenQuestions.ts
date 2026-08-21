@@ -4,7 +4,10 @@ import {
   initialManagedContent,
   type ManagedContentItem,
 } from '@/data/contentControl'
-import { managedWrittenToStudentWritten, type WrittenQuestion } from '@/data/writtenQuestion'
+import {
+  managedMatchingToStudentMatching, managedWrittenToStudentWritten, type WrittenQuestion,
+} from '@/data/writtenQuestion'
+import type { MatchingQuestionView } from '@/data/matchingQuestion'
 import { usePersistentState } from './usePersistentState'
 
 export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): WrittenQuestion[] {
@@ -24,4 +27,16 @@ export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): 
 export function useLiveWrittenQuestions() {
   const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   return useMemo(() => publishedWrittenFromCatalogue(catalogue), [catalogue])
+}
+
+export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]): MatchingQuestionView[] {
+  return catalogue
+    .map((item) => managedMatchingToStudentMatching(item))
+    .filter((question): question is MatchingQuestionView => question !== null)
+}
+
+/** Every published matching question. */
+export function useLiveMatchingQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue])
 }

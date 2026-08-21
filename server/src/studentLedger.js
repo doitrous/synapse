@@ -108,6 +108,10 @@ export const PUBLIC_FIELDS = new Set([
   // scheme in `writtenParts` is what they self-mark against, exactly as an
   // essay's `modelAnswer` already is.
   'format', 'writtenParts',
+  // A matching question's option bank and its prompts. The answers are in
+  // there, exactly as a single-best-answer question's correct letter already
+  // is — the bank marks in the browser, so it cannot work otherwise.
+  'matching',
   // Question tags. Curriculum placement, blueprint weighting and the difficulty
   // signals the adaptive engine runs on — all of which run on the student's own
   // screen, so withholding them would break the feature rather than protect

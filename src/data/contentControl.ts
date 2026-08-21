@@ -12,6 +12,7 @@ export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
 
 import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
+import type { MatchingPayload } from './matchingQuestion.ts'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -229,6 +230,11 @@ export interface QuestionAuthoringData {
    * formats, where the marks and expected components *are* the question.
    */
   writtenParts?: WrittenPart[]
+  /**
+   * The option bank and prompts of a matching question. Present only on
+   * `format: 'matching'`.
+   */
+  matching?: MatchingPayload
   /**
    * What this was derived from, when it was derived rather than transcribed.
    * A written question may only be derived from another written question; the

@@ -884,15 +884,42 @@ test('a written question derived from a concept alone is refused', () => {
   assert.match(errors[0], /only be derived from an existing written question/)
 })
 
-test('a matching question may be derived from an MCQ', () => {
+test('a matching question imports its option bank and prompts', () => {
+  // Shaped after the EPE paper that is twenty matching items out of thirty-two.
   const row = {
     id: 'Q-EPE-M1', title: 'Match each consultation skill to its description',
     subject: 'msk', format: 'matching', question: 'Match each item.',
-    correct_answer: 'A', answer_a: 'Open-ended question', answer_b: 'Showing empathy',
+    correct_answer: 'A',
+    matching_options: 'A | Open-ended question\nB | Showing empathy\nC | Closed question',
+    matching_prompts: '"Tell me more about that" = A\nDealing with a patient\'s pain = B',
     derived_from: 'mcq_single_best · Q-EPE-004', main_concept: 'CON-COM-0001',
   }
   assert.deepEqual(validateImportRow('question', row), [])
-  assert.equal(importRowToContent('question', row, 'row-m1').questionData!.format, 'matching')
+
+  const data = importRowToContent('question', row, 'row-m1').questionData!
+  assert.equal(data.format, 'matching')
+  assert.equal(data.matching?.options.length, 3)
+  assert.equal(data.matching?.prompts.length, 2)
+  assert.equal(data.matching?.prompts[0].answerId, 'A')
+  assert.equal(data.matching?.options[2].text, 'Closed question',
+    'the third option answers nothing — it is the distractor, and it must survive')
+})
+
+test('a matching question whose prompt names a missing option is refused', () => {
+  const errors = validateImportRow('question', {
+    id: 'Q-EPE-M2', title: 'Broken matching', subject: 'msk', format: 'matching',
+    question: 'Match each item.', correct_answer: 'A', main_concept: 'CON-COM-0001',
+    matching_options: 'A | One\nB | Two',
+    matching_prompts: 'Something = Z',
+  })
+  assert.ok(errors.some((error) => /answered by Z, which is not one of the options/.test(error)))
+})
+
+test('a matching block on a non-matching format is refused', () => {
+  const errors = validateImportRow('question', {
+    ...FULL_QUESTION, matching_options: 'A | One\nB | Two',
+  })
+  assert.ok(errors.some((error) => /only a matching question carries one/.test(error)))
 })
 
 test('an unknown format is refused rather than silently defaulted', () => {

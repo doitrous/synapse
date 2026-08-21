@@ -1,5 +1,6 @@
 import type { ManagedContentItem } from './contentControl.ts'
 import { isWrittenFormat, writtenTotalMarks, type WrittenPart } from './questionFormat.ts'
+import type { MatchingQuestionView } from './matchingQuestion.ts'
 
 /**
  * A written question as a student sits it.
@@ -151,4 +152,29 @@ export function writtenPartsInOrder(parts: readonly WrittenPart[]): WrittenPart[
   // parts fall back to the order the paper listed them in.
   for (const part of parts) place(part, new Set())
   return out
+}
+
+/**
+ * A matching question, for the same surface the written ones use.
+ *
+ * Matching sits beside written rather than in the question bank because the
+ * bank runs one stem and one set of options at a time, and a matching block is
+ * several prompts marked together. Splitting it into bank items would change
+ * what it tests.
+ */
+export function managedMatchingToStudentMatching(item: ManagedContentItem): MatchingQuestionView | null {
+  if (item.kind !== 'question' || item.status !== 'Published') return null
+  const data = item.questionData
+  if (data?.format !== 'matching') return null
+  const matching = data.matching
+  if (!matching || matching.options.length < 2 || !matching.prompts.length) return null
+
+  return {
+    id: item.id,
+    title: item.title,
+    subjectId: item.subjectId,
+    stem: item.fields.Vignette?.trim() || item.title,
+    matching,
+    learningObjective: data.learningObjective?.trim() || undefined,
+  }
 }

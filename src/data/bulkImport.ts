@@ -14,6 +14,7 @@ import {
   DEFAULT_QUESTION_FORMAT, QUESTION_FORMATS, derivationRefusal, isChoiceFormat,
   isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
 } from './questionFormat.ts'
+import { matchingErrors, parseMatching } from './matchingQuestion.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
@@ -52,6 +53,8 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'question', label: 'Question', required: true, help: 'The main question, kept separate from its context.' },
       { key: 'format', label: 'Question format', help: 'single best answer (default), multiple response, true or false, matching, completion, labelling, image-based, short answer, structured written, essay, comparison table, or multipart written.' },
       { key: 'written_parts', label: 'Written parts', help: 'The marked subparts of a written question. One "### (a) 5 marks" heading per part, then the prompt, then "Expects:" lines for the mark scheme and an optional "Concept:" line.' },
+      { key: 'matching_options', label: 'Matching options', help: 'The option bank of a matching question, one per line as "A | text".' },
+      { key: 'matching_prompts', label: 'Matching prompts', help: 'The prompts of a matching question, one per line as "prompt = A". An option may answer several prompts, and some may answer none.' },
       { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
@@ -796,6 +799,15 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
     }
 
+    if (format === 'matching') {
+      errors.push(...matchingErrors(
+        parseMatching(values.matching_options, values.matching_prompts),
+        values.matching_options, values.matching_prompts,
+      ))
+    } else if (values.matching_options?.trim() || values.matching_prompts?.trim()) {
+      errors.push(`A matching block was given, but the format is ${format} — only a matching question carries one`)
+    }
+
     if (written) {
       const parts = parseWrittenParts(values.written_parts)
       if (!parts.length) {
@@ -1027,6 +1039,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     // existed keeps its meaning without being migrated.
     const format = parseQuestionFormat(values.format) ?? DEFAULT_QUESTION_FORMAT
     const writtenParts = parseWrittenParts(values.written_parts)
+    const matching = parseMatching(values.matching_options, values.matching_prompts)
     const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
@@ -1046,6 +1059,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         answers,
         format,
         writtenParts: writtenParts.length ? writtenParts : undefined,
+        matching: format === 'matching' ? matching : undefined,
         derivedFromFormat: derivedFrom.format,
         derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,

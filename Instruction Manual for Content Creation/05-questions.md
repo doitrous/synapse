@@ -135,6 +135,8 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 |---|---|---|---|
 | `format` | Question format | `single best answer` (default) · `multiple response` · `true or false` · `matching` · `completion` · `labelling` · `image-based` · `short answer` · `structured written` · `essay` · `comparison table` · `multipart written` | `single best answer` |
 | `written_parts` | Written parts | The marked subparts of a written question. **Required on a written format, refused on any other.** | `[]` |
+| `matching_options` | Matching options | The option bank, one per line as `A \| text`. **Required on `matching`, refused on any other.** | `[]` |
+| `matching_prompts` | Matching prompts | The prompts, one per line as `prompt = A`. | `[]` |
 | `derived_from` | Derived from | What this was derived from, when it was derived rather than transcribed. | — |
 | `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
@@ -605,3 +607,33 @@ that looks right and trains a student for an exam nobody sets.
 Everything else is free. An MCQ may become a matching item; a concept taken from
 a department book may become a true/false item; a written source question may
 inspire a non-written one — as long as the written original is captured too.
+
+### Matching questions
+
+Not a niche format here: one Kasr Al Ainy EPE paper is twenty matching items out
+of thirty-two, and the department question books use them throughout.
+
+```
+## matching_options
+A | Open-ended question
+B | Showing empathy
+C | Closed question
+
+## matching_prompts
+"Tell me more about that" = A
+The best way to deal with a patient's pain = B
+```
+
+An option may answer **several** prompts, and some options answer **none** —
+the unused ones are the distractors, and they must survive import. Nothing
+requires a one-to-one pairing.
+
+Do not split a matching block into one single-best-answer question per prompt.
+It changes what is being tested: a matching block asks a student to tell several
+near neighbours apart *against each other*, and splitting it hands them a fresh
+set of distractors each time.
+
+Options may be written `A | text`, `A. text` or `A) text`, and prompts may use
+`=`, `->` or `:`. Any line that cannot be read is an error naming how many were
+lost — a block must never arrive half-imported in silence. A letter written
+twice is reported as the repeat it is, since only the first is ever reachable.
