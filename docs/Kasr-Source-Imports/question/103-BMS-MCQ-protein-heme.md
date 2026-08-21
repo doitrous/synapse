@@ -13859,3 +13859,1200 @@ Extracted by the 102 INT lane from the shared 102/103 biochemistry question book
 
 ## randomise_answers
 yes
+
+---
+
+# Item
+
+## id
+QM-103-0A6F834957E6
+
+## title
+An allosteric inhibitor of adenylosuccinate synthetase is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+IMP is a branch point: one route leads to AMP through adenylosuccinate, the other to GMP through XMP. Each branch is restrained by the nucleotide it produces.
+
+## question
+An allosteric inhibitor of adenylosuccinate synthetase is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 8. Transcribed; the option list was truncated in extraction and has been restored from the printed page, as described in author_notes.
+
+## correct_answer
+A
+
+## answer_a
+AMP
+
+## explanation_a
+Correct, and it is end-product inhibition applied to a branch rather than to a whole pathway. Adenylosuccinate synthetase is the first committed enzyme of the route from IMP to AMP, so the nucleotide that restrains it is AMP itself. The mirror-image arrangement governs the other branch: IMP dehydrogenase, the first committed enzyme of the route from IMP to XMP and on to GMP, is inhibited by GMP. Two independent brakes on two branches sharing one substrate is what keeps adenine and guanine nucleotides in proportion — if only one branch were regulated, the cell would accumulate one and starve of the other. Layered on top is a cross-regulation: GTP supplies the energy for the AMP branch and ATP for the GMP branch, so an excess of one purine actively drives production of the other.
+
+## answer_b
+GMP
+
+## explanation_b
+Incorrect for this enzyme, and it is the answer to the neighbouring question. GMP is the allosteric inhibitor of **IMP dehydrogenase**, the enzyme on the other branch. Swapping the two branches is the single error this item is built to detect.
+
+## answer_c
+ADP
+
+## explanation_c
+Incorrect. ADP does feature in purine regulation — it is one of the five nucleotides that feedback-inhibit PRPP synthetase and glutamine:PRPP amidotransferase — but that is regulation of the *shared* early pathway, not of the AMP branch specifically.
+
+## answer_d
+GDP
+
+## explanation_d
+Incorrect, for the same reason as ADP and on the other branch. GDP appears in the general feedback list, not as the branch-specific brake.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Challenging
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-71EF720F840CA4
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+4
+
+## inferred_difficulty
+34
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+CON-REN-091F22B55D3081
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Assign AMP to adenylosuccinate synthetase and GMP to IMP dehydrogenase as branch-specific inhibitors, and explain why each branch needs its own brake.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 143 (printed 136), question 8. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. The department textbook (Dpt book Biochemistry 103, printed pages 125–126) gives the IMP branch point and the general feedback list but does not name the branch-specific allosteric inhibitors; those rest on the question book's printed key and on standard references, with the ATP/GTP cross-regulation carried by the live concept CON-REN-091F22B55D3081.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p143-q8. correctSource verbatim: "printed key (p144)". SUSPECT FLAG RESOLVED — the bank flags this item "option ran on": its option d carried the whole of printed questions 9 and 10 appended to it, and a spurious option e was fabricated from the overflow. PDF page 143 was opened with the Read tool: the book prints exactly four options for question 8 — a) AMP, b) GMP, c) ADP, d) GDP. The options have been restored to those four and the fabricated option e removed. The overflow belongs to two further printed questions: question 9, "………… is an allosteric inhibitor of IMP-dehydrogenase", printed key c, GMP; and question 10, "……….. is the end product of purine metabolism in human is", printed key c, uric acid. Neither has a row of its own in the extraction bank, so neither is imported here, and both are reported to the lead as recoverable. SOURCE GAP: the branch-specific inhibitors are not in the department textbook and rest on the question book; recorded on CON-FND-71EF720F840CA4. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-8E2C4197783B
+
+## title
+Plasma uric acid level in males is ………, whereas its level in females is ……..
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Reference ranges for plasma urate are quoted during fasting and differ between the sexes, which matters when deciding whether a given value is raised.
+
+## question
+Plasma uric acid level in males is ………, whereas its level in females is ……..
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 11. Transcribed; the stem was truncated in extraction and has been restored from the printed page, as described in author_notes.
+
+## correct_answer
+D
+
+## answer_a
+4-7, 1-3 mg/dL respectively
+
+## explanation_a
+Incorrect on the female range. The male figure is right, but 1–3 mg/dL is far too low — that is closer to a hypouricaemic value than a normal one, and a student using it would call a healthy woman abnormal.
+
+## answer_b
+3-6, 8-10 mg/dL respectively
+
+## explanation_b
+Incorrect, and it has the sexes reversed as well as the numbers wrong. It puts the female range above the male one and takes it into frankly hyperuricaemic territory.
+
+## answer_c
+2-4, 4-7 mg/dL respectively
+
+## explanation_c
+Incorrect, and it is the neat inversion: it gives the male value 2–4 and hands the true male range to females. The direction of the difference is what this option tests, and it is backwards.
+
+## answer_d
+4-7, 3-6 mg/dL respectively
+
+## explanation_d
+Correct. The department book states that plasma uric acid, or urate, is 4–7 mg/dL for males and 3–6 mg/dL for females during fasting. Two further numbers belong with these: daily urinary excretion of uric acid in a normal adult is about 400–600 mg, and the solubility of uric acid depends steeply on urine pH — urine at pH 5 dissolves only about one tenth as much as urine at pH 7. That last figure is not a curiosity; it is the reason alkalinisation of the urine is part of managing both gout and cystinuria, and the reason uricosuric drugs must be given with plenty of fluid and alkalinisation to avoid precipitating stones. Learning the reference range alongside the solubility behaviour turns three isolated numbers into one clinical argument.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Catabolism of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## main_concept
+CON-REN-4AAF042ABFB67E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Catabolism of Purine Nucleotides
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.75
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+1
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-D940C9B3140A40 | CON-REN-3DD1CADB68BB1B
+
+## library_ids
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## resource_ids
+
+## learning_objective
+State the male and female fasting plasma urate ranges, and relate the pH dependence of uric acid solubility to the management of gout.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 143 (printed 136), question 11. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 127: "Plasma uric acid (urate) levels are 4-7 mg/dL for males and 3-6 mg/dL for females during fasting", with the excretion and pH figures on the same page.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p143-q11. correctSource verbatim: "printed key (p144)". STEM REPAIR: the bank stem reads only "Plasma uric acid level in males is", losing the second half of the sentence, which makes the paired options unreadable. PDF page 143 was opened with the Read tool: the book prints "Plasma uric acid level in males is ………, whereas its level in females is ……..". The stem has been restored to the printed wording, including the book's own ellipsis dots. No option was altered. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-669BBCF6F728
+
+## title
+One of the following disorders cannot be considered a cause of gout:
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Hyperuricaemia arises either because too much urate is produced or because too little is excreted. Three of the four disorders below sit under one of those headings. The fourth moves urate the other way.
+
+## question
+One of the following disorders cannot be considered a cause of gout:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 12. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Congenital renal disease.
+
+## explanation_a
+A genuine cause, so not the answer. The book lists primary renal gout as due to primary or congenital renal disease — decreased excretion of uric acid rather than increased production.
+
+## answer_b
+Lesch-Nyhan Syndrome
+
+## explanation_b
+A genuine cause, so not the answer. Complete deficiency of HGPRT is listed under primary metabolic gout: salvage fails, so bases are oxidised to urate instead, and the PRPP that salvage would have consumed remains available to drive de novo synthesis.
+
+## answer_c
+Xanthine oxidase deficiency
+
+## explanation_c
+Correct — this is the one that **cannot** cause gout, and it is the only option that moves urate downwards. Xanthine oxidase is the enzyme that oxidises hypoxanthine to xanthine and xanthine to uric acid, so it is the last step of purine catabolism. Remove it and uric acid cannot be formed at all: the result is **hypouricaemia**, the opposite of the disease. This is also why allopurinol treats gout — it is oxidised by xanthine oxidase to oxypurinol, which binds the enzyme tightly and inhibits it, deliberately producing a partial version of the same deficiency. An enzyme block that a drug is designed to imitate cannot be a cause of the disease that drug treats, and spotting that relationship answers the item without recalling the list.
+
+## answer_d
+Von Gierke's disease
+
+## explanation_d
+A genuine cause, so not the answer. Glucose-6-phosphatase deficiency is listed under primary metabolic gout because it enhances synthesis and degradation of purine and decreases excretion of uric acid.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-REN-D940C9B3140A40
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-BE40BFF23F3E76
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-E5BAEF03791C8F
+
+## library_ids
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## resource_ids
+
+## learning_objective
+Classify the causes of gout as overproduction or underexcretion, and explain why xanthine oxidase deficiency produces hypouricaemia rather than gout.
+
+## media_recommendations
+### flowchart · Question stem
+Brief: The causes of gout as a two-branch tree — increased production (dietary; primary metabolic gout with PRPP synthetase defects, partial HGPRT deficiency, Lesch-Nyhan and Von Gierke's; secondary metabolic gout from cancer, leukaemia and psoriasis) and decreased excretion (primary and secondary renal gout, alcohol) — with xanthine oxidase deficiency shown outside the tree as a cause of hypouricaemia
+Purpose: The item is answered by seeing that one option sits outside the classification entirely. A tree with the exception drawn outside it makes that structural, where a flat list of causes invites a student to guess which one is missing.
+Priority: required
+Status: needed
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 143 (printed 136), question 12. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 128, "Causes of Gout — A) Increased Production of uric acid" and "B) Decreased Excretion of uric acid (Renal Gout)", and printed page 129 for allopurinol's mechanism.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p143-q12. correctSource verbatim: "none" — no OCR pass read a key for this item. NULL KEY RECOVERED FROM THE PAGE: PDF page 144 was opened with the Read tool and the printed key table read visually — row 12 reads "12. c", and every other row on that page matches the bank exactly. The key is c, which the department book supports: xanthine oxidase deficiency appears nowhere in its causes of gout, and the enzyme is the target allopurinol inhibits to lower urate. The trailing full stop on option a is the book's own. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-6138C0E7FF99
+
+## title
+Which gene is defective in patients with Lesch-Nyhan syndrome?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A boy has severe hyperuricaemia, dystonia, developmental delay and compulsive self-injurious biting of the lips and fingers.
+
+## question
+Which gene is defective in patients with Lesch-Nyhan syndrome?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 13. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+PRPP synthetase
+
+## explanation_a
+Incorrect for Lesch-Nyhan, though it is a real cause of primary metabolic gout — the book lists defects of PRPP synthetase in which the enzyme is either superactive or resistant to feedback inhibition. That is a *gain* of function driving overproduction, not the loss of function seen here.
+
+## answer_b
+Adenosine deaminase
+
+## explanation_b
+Incorrect. Adenosine deaminase deficiency causes **hypouricaemia**, not hyperuricaemia, and its clinical consequence is severe combined immunodeficiency: dATP accumulates, inhibits ribonucleotide reductase, DNA synthesis stops and lymphocytes cannot proliferate. Opposite urate direction, different organ system.
+
+## answer_c
+Purine nucleoside phosphorylase
+
+## explanation_c
+Incorrect, and it belongs with adenosine deaminase rather than with HGPRT. PNP deficiency also impairs lymphocyte function, and it too lowers rather than raises uric acid, because it blocks catabolism upstream of xanthine oxidase.
+
+## answer_d
+Hypoxanthine-guanine phosphoribosyl transferase
+
+## explanation_d
+Correct. Lesch-Nyhan syndrome is **complete** deficiency of HGPRT, and the book lists it under primary metabolic gout alongside partial HGPRT deficiency — the same enzyme, the difference being how much activity remains. Losing HGPRT raises urate two ways at once: hypoxanthine and guanine that would have been salvaged are instead oxidised by xanthine oxidase to uric acid, and the PRPP that salvage would have consumed stays available to drive de novo synthesis. That double mechanism is why the hyperuricaemia is so severe. The neurological features in the vignette — dystonia, developmental delay and the characteristic self-injurious behaviour — are not explained by urate at all, and they are the reason the syndrome is more than very early gout: the brain depends on salvage for its purine nucleotides, so it is the tissue that suffers most when the salvage route is abolished.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-REN-D940C9B3140A40
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-DB8B4EFEB287DA
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-IMM-10470076F1AF95
+
+## library_ids
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## resource_ids
+
+## learning_objective
+Attribute Lesch-Nyhan syndrome to complete HGPRT deficiency, give the two mechanisms by which it raises urate, and explain why the brain is the tissue most affected.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 143 (printed 136), question 13. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 128, "c- Lesch-Nyhan Syndrome: Complete deficiency of HGPRTase", printed page 126 for salvage in the brain, and printed page 129 for adenosine deaminase deficiency.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p143-q13. correctSource verbatim: "printed key (p144)". OCR REPAIR: option d reads "phosphoribosy] transferase" in the bank — a closing bracket for the letter l — repaired to "phosphoribosyl transferase". The vignette's dystonia, developmental delay and self-injurious behaviour are authored clinical framing from standard descriptions of the syndrome; the department book gives only the enzyme defect, and the explanation is careful to say the neurological features are not explained by urate. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-E79C0060D2A4
+
+## title
+Which one of the following enzymes can be inhibited by Allopurinol?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Allopurinol is a structural analogue of one of the substrates in purine catabolism, and it is the enzyme that would normally act on that substrate which the drug ends up inhibiting.
+
+## question
+Which one of the following enzymes can be inhibited by Allopurinol?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 14. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Glucose 6-phosphatase
+
+## explanation_a
+Incorrect. Glucose-6-phosphatase is the enzyme deficient in Von Gierke's disease, which is one of the causes of primary metabolic gout listed in this chapter — so it is connected to the disease but not to the drug. Sharing a chapter is not sharing a mechanism.
+
+## answer_b
+Adenosine deaminase
+
+## explanation_b
+Incorrect. Adenosine deaminase converts adenosine to inosine early in purine catabolism, and its *deficiency* causes hypouricaemia with severe combined immunodeficiency. Inhibiting it would lower urate too, but it is not what allopurinol does.
+
+## answer_c
+Xanthine oxidase
+
+## explanation_c
+Correct. Allopurinol has a structural similarity to hypoxanthine, so xanthine oxidase accepts it as a substrate and oxidises it to oxypurinol — and oxypurinol then binds tightly to xanthine oxidase, inhibiting its ability to oxidise hypoxanthine and xanthine and so decreasing uric acid formation. The drug is therefore its own activator: the target enzyme converts it into the inhibitor that shuts the target down. There is a second mechanism the book gives as well: the reaction of allopurinol with PRPP lowers the PRPP pool, and that decreases de novo purine synthesis. So allopurinol reduces urate from two directions, and this is why the book calls it the drug of choice among the agents that decrease uric acid production. The alternative therapeutic strategy — uricosuric drugs that increase excretion — must be given with plenty of fluid and alkalinisation of the urine to avoid precipitating renal stones.
+
+## answer_d
+Purine nucleoside phosphorylase
+
+## explanation_d
+Incorrect. PNP converts inosine to hypoxanthine and guanosine to guanine, one step before the reactions allopurinol blocks. Its deficiency, like that of adenosine deaminase, causes immunodeficiency with low urate. Being adjacent in the pathway is what makes it a fair distractor.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Pharmacology
+
+## main_concept
+CON-REN-E5BAEF03791C8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-B3AEE6F22A046A | CON-REN-42ED4D5025FB7B
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-REN-BE40BFF23F3E76
+
+## library_ids
+ART-REN-TOP-AD3B2EA126
+
+## resource_ids
+
+## learning_objective
+Name xanthine oxidase as allopurinol's target, describe the oxypurinol mechanism, and give the second PRPP-depleting mechanism the book adds.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 144 (printed 137), question 14. Answer key on the same page. Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 129, "Allopurinol is the drug of choice", and printed page 127, the catabolic pathway diagram showing xanthine oxidase inhibited by allopurinol at both steps.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p144-q14. correctSource verbatim: "printed key (p144)". No OCR repair was needed. MAPPED TO LIVE CONCEPTS: searching live state by label text rather than by subject returned three already-live allopurinol concepts — CON-REN-E5BAEF03791C8F on the mechanism and cautious use in renal impairment, CON-REN-B3AEE6F22A046A on its structural similarity to hypoxanthine, and CON-REN-42ED4D5025FB7B on the PRPP-depleting second mechanism — all taught by the live article ART-REN-TOP-AD3B2EA126. Nothing was minted, and library_ids names that live article because it is the article that lists the main concept. This is drug content and stays Draft; no dose is given anywhere in the item. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-61C882EAE289
+
+## title
+Allopurinol can be used to treat gout because of its ability to inhibit which one of the following reactions?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Xanthine oxidase catalyses two consecutive oxidations near the end of purine catabolism. Blocking it stops both, and the substrates that build up behind it are more soluble than the product that does not form.
+
+## question
+Allopurinol can be used to treat gout because of its ability to inhibit which one of the following reactions?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 15. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+AMP to XMP
+
+## explanation_a
+Incorrect, and no such single reaction exists. AMP and XMP are on opposite branches of the IMP branch point — IMP goes to XMP on the way to GMP, and separately to adenylosuccinate on the way to AMP. This is a synthetic route in any case, not the catabolic one allopurinol blocks.
+
+## answer_b
+Xanthine to uric acid
+
+## explanation_b
+Correct. Xanthine oxidase catalyses the last two steps of purine catabolism — hypoxanthine to xanthine, and xanthine to uric acid — and allopurinol inhibits both. Blocking the final step is what lowers plasma urate, and the therapeutic logic is a solubility argument rather than simply a "less of a bad thing" argument: uric acid is the least soluble molecule in this pathway, so it is the one that crystallises as tophi in joints and soft tissue and as stones in the urinary tract. Xanthine and hypoxanthine, which accumulate instead, are considerably more soluble and are excreted without precipitating. Allopurinol therefore does not stop purine catabolism; it stops it one molecule short of the insoluble end product. The mechanism is that xanthine oxidase itself oxidises allopurinol to oxypurinol, which then binds the enzyme tightly.
+
+## answer_c
+Inosine to hypoxanthine
+
+## explanation_c
+Incorrect. That reaction is catalysed by purine nucleoside phosphorylase, which releases ribose-1-phosphate. It is one step upstream of xanthine oxidase's first substrate, and allopurinol does not touch it.
+
+## answer_d
+IMP to XMP
+
+## explanation_d
+Incorrect. IMP to XMP is catalysed by IMP dehydrogenase on the synthetic route towards GMP — the branch inhibited allosterically by GMP. It is a biosynthetic step, not a catabolic one, and it is a fair distractor because XMP and xanthine sound alike while belonging to different halves of purine metabolism.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Pharmacology
+
+## main_concept
+CON-REN-E5BAEF03791C8F
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-B3AEE6F22A046A
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+64
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-REN-31708150F8B722 | CON-FND-71EF720F840CA4
+
+## library_ids
+ART-REN-TOP-AD3B2EA126
+
+## resource_ids
+
+## learning_objective
+Identify the xanthine-to-uric-acid reaction as allopurinol's target and explain why blocking it is therapeutic in terms of the solubility of what accumulates instead.
+
+## media_recommendations
+### diagram · Explanation for answer B
+Brief: The purine catabolic pathway from AMP and GMP through adenosine, inosine, guanosine, hypoxanthine, guanine and xanthine to uric acid, with each enzyme named and allopurinol's inhibition marked at both xanthine oxidase steps
+Purpose: All four options are reactions from purine metabolism, two catabolic and two synthetic, and answering means locating the drug on the pathway rather than recalling a name. One labelled pathway distinguishes the halves and shows why the block sits at the last step.
+Priority: required
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 144 (printed 137), question 15. Answer key on the same page. Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 127, the catabolism diagram, and printed page 129, "inhibiting its ability to oxidize hypoxanthine and xanthine and decreases uric acid formation".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p144-q15. correctSource verbatim: "printed key (p144)". No OCR repair was needed. MAPPED TO LIVE CONCEPTS as for question 14; nothing was minted. The relative solubility of xanthine and hypoxanthine compared with uric acid is standard pharmacology and is not stated in the department book, which gives only the pH dependence of uric acid solubility on printed page 127; it is offered as explanation, not as a claim attributed to the book. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-6DA5125112D0
+
+## title
+Hypouricemia can occur in:
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Most of this chapter is about urate being too high. One enzyme deficiency drives it the other way, and the same enzyme is the one a drug is designed to inhibit.
+
+## question
+Hypouricemia can occur in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 16. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Xanthine oxidase deficiency
+
+## explanation_a
+Correct. Xanthine oxidase catalyses the final two oxidations of purine catabolism — hypoxanthine to xanthine and xanthine to uric acid — so losing it means uric acid cannot be formed and plasma urate falls. Xanthine and hypoxanthine accumulate and are excreted instead; both are more soluble than uric acid, though xanthine stones are a recognised complication when the load is high. The same logic explains allopurinol, which inhibits this enzyme deliberately to treat gout: the drug produces a controlled, partial version of this deficiency. Note that the department textbook gives a *different* primary answer to this question — it names adenosine deaminase deficiency as the main cause of hypouricaemia, because accumulating dATP inhibits ribonucleotide reductase, blocking DNA synthesis and giving severe combined immunodeficiency. Both enzyme deficiencies genuinely lower urate; the question book's key names xanthine oxidase, and the disagreement between the two departmental sources is recorded on the concept rather than resolved silently.
+
+## answer_b
+Congenital renal disease
+
+## explanation_b
+Incorrect, and it moves urate the wrong way. Congenital renal disease is the book's cause of **primary renal gout** — decreased excretion of uric acid, so plasma urate rises.
+
+## answer_c
+Leukemia
+
+## explanation_c
+Incorrect, and again the wrong direction. Leukaemia is listed under secondary metabolic gout: rapid cell turnover increases purine catabolism, so more uric acid is produced. This is the mechanism behind tumour lysis, in which treating a leukaemia releases a large purine load at once.
+
+## answer_d
+Von Gierke's disease
+
+## explanation_d
+Incorrect. Glucose-6-phosphatase deficiency is listed under primary metabolic gout, enhancing purine synthesis and degradation while decreasing uric acid excretion — so urate rises on both counts.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Challenging
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-REN-BE40BFF23F3E76
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-D940C9B3140A40
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-E5BAEF03791C8F | CON-REN-B9E0531973510E
+
+## library_ids
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## resource_ids
+
+## learning_objective
+Name the enzyme deficiencies that lower plasma urate, distinguish them from the causes of gout, and state where the department's two sources disagree.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 144 (printed 137), question 16. Answer key on the same page. Manifest src_07f0a0ff41addf826c7f. Content compared against Dpt book Biochemistry 103, printed page 129, "II- Hypouricemia — It is caused mainly by adenosine deaminase (ADA) deficiency", and printed page 128 for the causes of gout.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p144-q16. correctSource verbatim: "printed key (p144)". No OCR repair was needed. SOURCE CONFLICT, recorded not resolved: the department **textbook** states that hypouricaemia "is caused mainly by adenosine deaminase (ADA) deficiency", while the department **question book's** printed key for this item is a, xanthine oxidase deficiency — and ADA deficiency is not among the four options offered. Both are true causes of a low plasma urate, so the key is defensible; but a student who has learned the textbook sentence will look for ADA and not find it. The conflict is recorded in the `conflicts` list of CON-REN-BE40BFF23F3E76, one position per line, and is flagged here for the faculty reviewer. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-215D2D8BBC6B
+
+## title
+Immune dysfunctions are associated with a defective of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+An infant has recurrent severe infections from birth, with profoundly low lymphocyte counts. The defect turns out to lie in purine catabolism rather than in the immune system itself.
+
+## question
+Immune dysfunctions are associated with a defective of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 17. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+PRPP synthetase
+
+## explanation_a
+Incorrect. Defects of PRPP synthetase, where the enzyme is superactive or resistant to feedback inhibition, cause primary metabolic **gout** through overproduction of urate. There is no immunodeficiency.
+
+## answer_b
+Glutamine:PRPP amidotransferase
+
+## explanation_b
+Incorrect. This is the committed step of de novo purine synthesis. No named immunodeficiency is attributed to it in this syllabus.
+
+## answer_c
+Both adenosine deaminase and purine nucleoside phosphorylase
+
+## explanation_c
+Correct, and the mechanism is the same for both because they sit one step apart on the same catabolic route. Adenosine deaminase converts adenosine to inosine; when it is deficient, deoxyadenosine accumulates and is phosphorylated to **dATP**. High dATP inhibits ribonucleotide reductase, the enzyme complex that makes deoxyribonucleotides and is active only during DNA synthesis. Without deoxyribonucleotides, DNA cannot be replicated, so white blood cells cannot proliferate — T-cell and B-cell function fails and the result is severe combined immunodeficiency. Purine nucleoside phosphorylase acts on the very next reaction, converting inosine to hypoxanthine and guanosine to guanine, and its deficiency causes a comparable block by an analogous nucleotide accumulation, with a predominantly T-cell defect. The general lesson is that lymphocytes are the cells most sensitive to any interruption of nucleotide supply, because clonal expansion demands rapid DNA synthesis. Both deficiencies also lower plasma urate, since catabolism is blocked before uric acid can be formed.
+
+## answer_d
+Hypoxanthine-guanine phosphoribosyl transferase
+
+## explanation_d
+Incorrect, and it is the sharpest distractor because HGPRT deficiency is also a purine enzyme defect with severe non-articular consequences. But those consequences are **neurological** — the dystonia, developmental delay and self-injury of Lesch-Nyhan — and the urate goes up rather than down. Immune function is not affected.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Disorders of Purine Metabolism
+
+## difficulty
+Challenging
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-IMM-10470076F1AF95
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-BE40BFF23F3E76
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+4
+
+## inferred_difficulty
+48
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-D940C9B3140A40
+
+## library_ids
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## resource_ids
+
+## learning_objective
+Explain how adenosine deaminase and purine nucleoside phosphorylase deficiency cause immunodeficiency through dATP inhibition of ribonucleotide reductase, and contrast them with HGPRT deficiency.
+
+## media_recommendations
+### flowchart · Explanation for answer C
+Brief: The purine catabolic route with adenosine deaminase and purine nucleoside phosphorylase marked, a side branch showing deoxyadenosine phosphorylated to dATP, dATP inhibiting ribonucleotide reductase, and the consequence traced to blocked DNA synthesis and failed lymphocyte proliferation
+Purpose: The chain from an enzyme in purine catabolism to a failure of immunity is four steps long, and students who cannot reconstruct it fall back on memorising the association. The flowchart is what makes the causal chain recallable, and it also explains why urate is low in the same patient.
+Priority: required
+Status: needed
+Section: Explanation C
+Source direction: openly licensed biochemistry or immunology text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 144 (printed 137), question 17. Answer key on the same page. Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 129: "It is caused mainly by adenosine deaminase (ADA) deficiency. The high levels of dATP inhibit ribonucleotide reductase, which inhibits DNA synthesis. Therefore, white blood cells cannot proliferate resulting in impairment of T-cell and B-cell functions. It is associated with severe combined immunodeficiency (SCID)"; and printed page 126 for ribonucleotide reductase.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p144-q17. correctSource verbatim: "none" — no OCR pass read a key for this item. NULL KEY RECOVERED FROM THE PAGE: PDF page 144 was opened with the Read tool and the printed key table read visually — row 17 reads "17. c", and every other row on that page matches the bank exactly. The key is c. SOURCE GAP: the department textbook gives the adenosine deaminase half of this answer in full but does not mention purine nucleoside phosphorylase deficiency; the PNP half rests on the question book's key and on standard references, and is recorded on CON-IMM-10470076F1AF95. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes

@@ -50,8 +50,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"1- Myelinated Nerve Fibers: The axon is surrounded by a myelin sheath (Fig 12) secreted by Schwann cells. It is an excellent insulator that decreases ion flow across the membrane. Myelin sheath is interrupted at “nodes of Ranvier” where ions can move across the membrane with little resistance. 2- Non - myelinated Nerve Fibers: The axon is simply surrounded by Schwann cells without formation of myelin sheath."
-
+"1- Myelinated Nerve Fibers: • The axon is surrounded by a myelin sheath (Fig 12) secreted by Schwann cells. It is an excellent insulator that decreases ion flow across the membrane. • Myelin sheath is interrupted at “nodes of Ranvier” where ions can move across the membrane with little resistance. 2- Non - myelinated Nerve Fibers: The axon is simply surrounded by Schwann cells without formation of myelin sheath."
 ## locator_type
 page
 
@@ -90,8 +89,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"The propagation of the AP from node to node is called saltatory conduction. The speed of propagation is proportional to the diameter of the axon and the internodal distance. Importance of the saltatory conduction: a. It increases the velocity of conduction of nerve impulse up to 50-fold. b. It conserves energy, little energy for reestablishing the Na+ and K+ concentration differences by Na+-K+ pump mechanisms."
-
+"The propagation of the AP from node to node is called saltatory conduction. 6. The speed of propagation is proportional to the diameter of the axon and the internodal distance. In general, as the diameter of the axon increases the internodal distance increases. Importance of the saltatory conduction: a. It increases the velocity of conduction of nerve impulse up to 50-fold. b. It conserves energy, little energy for reestablishing the Na + and K+ concentration differences by Na+-K+ pump mechanisms."
 ## locator_type
 page
 
@@ -130,8 +128,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"2. During Repolarization: Inactivation of Na+ channels and activation of K+ channels produce repolarization as follows: a. Inactivation of Na⁺ channels: -Stops Na⁺ influx. -Terminates depolarization. b. Activation of K⁺ channels: Gates open shortly after Na⁺ channels. Opening is slower and more prolonged than Na⁺ channels. K⁺ efflux continues after Na⁺ channel inactivation. K⁺ efflux completes repolarization."
-
+"2. During Repolarization: Inactivation of Na+ channels and activation of K+ channels produce repolarization as follows: a. Inactivation of Na⁺ channels: -Stops Na⁺ influx. -Terminates depolarization. b. Activation of K⁺ channels: ▪ Gates open shortly after Na⁺ channels. ▪ Opening is slower and more prolonged than Na⁺ channels. ▪ K⁺ efflux continues after Na⁺ channel inactivation. ▪ K⁺ efflux completes repolarization."
 ## locator_type
 page
 
@@ -171,7 +168,6 @@ local_curriculum
 
 ## support_span
 "Characters of Local Response: a. It does not obey All or None law. b. It is non-propagated i.e its magnitude is insufficient to generate another local response nearby and it fades away within 1-2 mm. c. It is graded i.e the magnitude and duration of the local response vary with the size and strength of the stimulus. d. It has no refractory period. e. It can be summated by rapid repeated sub-threshold stimuli to reach firing level, and generate an action potential. f. During local response, the nerve excitability is increased, as membrane potential moves towards firing level."
-
 ## locator_type
 page
 
@@ -210,8 +206,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"2. Conditions that decrease the membrane permeability to Na + decrease the nerve excitability i.e. slowly depolarized “membrane stabilizers” e.g.: a. High Ca++ concentration in the extracellular fluid (Hypercalcemia) b. Local anesthetics as cocaine. ... B. Role of K+: The resting membrane potential is primarily dependent on the concentration gradient of K+. a. Increase in extracellular K+ [hyperkalemia] makes the resting membrane potential to depolarize and increases its excitability. b. Decrease in extracellular K+ concentration makes the resting membrane potential to hyperpolarize and decreases its excitability."
-
+"2. Conditions that decrease the membrane permeability to Na + decrease the nerve excitability i.e. slowly depolarized "membrane stabilizers" e.g.: a. High Ca++ concentration in the extracellular fluid (Hypercalcemia) b. Local anesthetics as cocaine. ... B. Role of K+: The resting membrane potential is primarily dependent on the concentration gradient of K+. a. Increase in extracellular K+ [hyperkalemia] makes the resting membrane potential to depolarize and increases its excitability. b. Decrease in extracellular K+ concentration makes the resting membrane potential to hyperpolarize and decreases its excitability."
 ## locator_type
 page
 
@@ -251,7 +246,6 @@ local_curriculum
 
 ## support_span
 "2- Sodium-Potassium Pump: Na+-K+ pump actively transports 3 Na+ out and 2 K+ into the cell. Therefore, more positive charges are pumped to the outside than to the inside leaving a net excess of positive ions on the outside (Fig 17)."
-
 ## locator_type
 page
 
@@ -290,8 +284,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"1. Arrival of nerve impulse at nerve ending opens voltage-gated Ca++ channels. 2. Ca2+ enters the nerve endings and causes rupture of vesicles and exocytosis of acetylcholine. 3. Acetylcholine crosses the synaptic cleft and binds to its receptor (which is a ligand-gated channel) in the MEP. 4. The channel is opened and leads to Na + ions influx and depolarization of MEP. The response is called end-plate potential (EPP). 5. The EPP is a graded, non -propagated response that acts as a stimulus and depolarizes the adjacent muscle membrane to its firing level. ... 7. Acetylcholine then dissociates from its receptor and is hydrolyzed by acetylcholine esterase in the synaptic cleft. Degradation of acetylcholine is necessary to prevent it from causing multiple muscle contractions."
-
+"1. Arrival of nerve impulse at nerve ending opens voltage-gated Ca++ channels. 2. Ca2+ enters the nerve endings and causes rupture of vesicles and exocytosis of acetylcholine. 3. Acetylcholine crosses the synaptic cleft and binds to its receptor (which is a ligand-gated channel) in the MEP. (Fig37) 4. The channel is opened and leads to Na + ions influx and depolarization of MEP. The response is called end-plate potential (EPP). 5. The EPP is a graded, non -propagated response that acts as a stimulus and depolarizes the adjacent muscle membrane to its firing level. Thus, the EPP depolarizes the muscle membrane to threshold. ... 7. Acetylcholine then dissociates from its receptor and is hydrolyzed by acetylcholine esterase in the synaptic cleft. Degradation of acetylcholine is necessary to prevent it from causing multiple muscle contractions."
 ## locator_type
 page
 
@@ -330,8 +323,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"Myasthenia gravis is a serious and sometimes fatal disease in which skeletal muscles are weak and tire easily. Muscle paralysis may occur due to inability of the neuromuscular junctions to transmit enough signals from the nerve fibers to the muscle (Fig 38). It is an autoimmune disease due to antibodies against acetylcholine receptors. In severe form of the disease, the patient dies of respiratory muscles paralysis. The disease can be treated by administration of anticholinesterase drugs, such as neostigmine to accumulate adequate amounts of acetylcholine."
-
+"Myasthenia gravis is a serious and sometimes fatal disease in which skeletal muscles are weak and tire easily. Muscle paralysis may occur due to inability of the neuromuscular junctions to transmit enough signals from the nerve fibers to the muscle (Fig 38). • It is an autoimmune disease due to antibodies against acetylcholine receptors. In severe form of the disease, the patient dies of respiratory muscles paralysis. • The disease can be treated by administration of anticholinesterase drugs, such as neostigmine to accumulate adequate amounts of acetylcholine."
 ## locator_type
 page
 
@@ -370,8 +362,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"1- Release of Ca2+: The propagation of the action potential into the T-tubule causes the Ca2+ channels on the terminal cisternae (TC) to open. Ca2+ flows out of the TC and into the cytoplasm. 2- Activation of muscle proteins: Ca2+ binds to troponin-C on actin. Troponin undergoes a conformational change in which tropomyosin moves away from its position covering the myosin-binding site on actin. Once uncovered, the binding site on actin combines with the myosin cross-bridges and contraction begins."
-
+"1- Release of Ca2+: • The propagation of the action potential into the T-tubule causes the Ca2+ channels on the terminal cisternae (TC) to open. • Ca2+ flows out of the TC and into the cytoplasm. 2- Activation of muscle proteins: • Ca2+ binds to troponin-C on actin. • Troponin undergoes a conformational change in which tropomyosin moves away from its position covering the myosin-binding site on actin. • Once uncovered, the binding site on actin combines with the myosin cross- bridges and contraction begins."
 ## locator_type
 page
 
@@ -410,8 +401,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"2. Fast Fibers (pale = type II b) characterized by the following: Larger fibers innervated by large rapidly - conducting motor neurons. Contain extensive sarcoplasmic reticulum for rapid release of calcium ions. Have large amounts of glycolytic enzymes for rapid release of energy by the glycolytic process. Have high ATPase activity. Contain less blood supply, less myoglobin content, and fewer mitochondria. These characters provide type II b fibers with rapid contractile mechanisms and less resistance to fatigue."
-
+"2. Fast Fibers (pale = type II b) characterized by the following: • Larger fibers innervated by large rapidly - conducting motor neurons. • Contain extensive sarcoplasmic reticulum for rapid release of calcium ions. • Have large amounts of glycolytic enzymes for rapid release of energy by the glycolytic process. • Have high ATPase activity. • Contain less blood supply, less myoglobin content, and fewer mitochondria. ➢ These characters provide type II b fibers with rapid contractile mechanisms and less resistance to fatigue."
 ## locator_type
 page
 
@@ -450,8 +440,7 @@ src_59643edb9d371bcefa2c
 local_curriculum
 
 ## support_span
-"The action potential recorded from such nerves is a compound action potential: 1. It has many peaks (Fig 32): this is due to the fact that the fibers vary in: a. Their threshold of stimulation b. Their distance from stimulating electrodes. c. Their speed of conduction according to their thickness. ... 2. Compound AP is graded a. Subthreshold stimuli → no response. b. Threshold stimulus → nerve fibers of low threshold respond → small AP is recorded. c. Suprathreshold stimulus → ↑the amplitude of AP, up to a maximum at maximal stimulation. d. Increasing the intensity of the stimulus above maximum “Supramaximal stimuli” → no further increase in the amplitude of the AP"
-
+"The action potential recorded from such nerves is a compound action potential: 1. It has many peaks (Fig 32): this is due to the fact that the fibers vary in: a. Their threshold of stimulation b. Their distance from stimulating electrodes. c. Their speed of conduction according to their thickness. ... 2. Compound AP is graded a. Subthreshold stimuli → no response. b. Threshold stimulus → nerve fibers of low threshold respond → small AP is recorded. c. Suprathreshold stimulus → ↑the amplitude of AP, up to a maximum at maximal stimulation. d. Increasing the intensity of the stimulus above maximum "Supramaximal stimuli" → no further increase in the amplitude of the AP"
 ## locator_type
 page
 
@@ -491,7 +480,6 @@ local_curriculum
 
 ## support_span
 "Monophasic action potential is recorded while inserting an electrode into the interior of the fiber and an indifferent electrode is put on the outer surface (Fig 30). Biphasic action potential is recorded while the two recording electrodes are placed on the outer surface of the nerve fiber."
-
 ## locator_type
 page
 
