@@ -56,13 +56,13 @@ Electrical Activity of the Heart
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -128,7 +128,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -186,13 +185,13 @@ Cardiac Function
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -258,7 +257,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -317,13 +315,13 @@ Cardiac Function
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -389,7 +387,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -449,13 +446,13 @@ Cardiac Function
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -521,7 +518,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -581,13 +577,13 @@ Vascular Function
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
 [clear]
 ## related_concept_ids
 CON-CVS-245C56665C0240 | CON-CVS-59DE21D055FA34
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -653,7 +649,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
@@ -712,13 +707,13 @@ Vascular Function
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -784,7 +779,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -844,13 +838,13 @@ Basic Mechanisms of Circulatory Control
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -916,7 +910,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -975,13 +968,13 @@ Organization of the Respiratory System
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1047,7 +1040,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1106,13 +1098,13 @@ Organization of the Respiratory System
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1178,7 +1170,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1237,13 +1228,13 @@ Gas Transport by the Blood
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
 ## related_article_ids
 [clear]
 ## related_concept_ids
 CON-RES-AA4C315125E587
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_a11a7faed67c95e2d636
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1309,7 +1300,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
@@ -1368,13 +1358,13 @@ Intercostal Spaces
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-THORACIC-WALL-VEINS
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1440,7 +1430,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1500,13 +1489,13 @@ Thoracic Cavity
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1572,7 +1561,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1632,13 +1620,13 @@ Heart
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-CORONARY-ARTERIES
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1704,7 +1692,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1762,13 +1749,13 @@ Mediastinum
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1834,7 +1821,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -1894,13 +1880,13 @@ Development of the Heart
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1966,7 +1952,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2025,13 +2010,13 @@ Large Arteries of the Thorax
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_8a47af73fcd1534ffc16 | src_4bd55e9eaf092282818c
+src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2097,7 +2082,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2156,13 +2140,13 @@ Tonsils
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2228,7 +2212,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2287,13 +2270,13 @@ Spleen
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2359,7 +2342,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2419,13 +2401,13 @@ The Cell Cycle
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2491,7 +2473,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2551,13 +2532,13 @@ Chromosomal Aberrations (Abnormalities)
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_article_ids
 [clear]
 ## related_concept_ids
 CON-DEV-B922919ED9D575
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2623,7 +2604,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
@@ -2682,13 +2662,13 @@ A-V Connections
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES
 ## related_article_ids
 [clear]
 ## related_concept_ids
 [clear]
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2754,7 +2734,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
@@ -2813,13 +2792,13 @@ Conducting Portion
 ## nanotopic
 [clear]
 ## article_ids
-[clear]
+ART-104-HIS-NASAL-MUCOSA
 ## related_article_ids
 [clear]
 ## related_concept_ids
 CON-RES-F818BF7BB20E31 | CON-RES-CCE62F7217A235
 ## resource_ids
-src_078450096f7b08eb1284 | src_8a47af73fcd1534ffc16 | src_18d3a953df4ca83c4e74
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2885,7 +2864,6 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-articleIds: AUTHORING ERROR: a concept with no article is an orphan and the question testing it cannot validate. Name the article.
 relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
