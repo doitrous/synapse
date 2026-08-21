@@ -4,6 +4,9 @@
   Kasr Al Ainy, module 101 ISK, end of year 2025.
   Manifest ID src_8cb257f4b6a6dcd730d0. 16 questions, 81 marks: 6 in Histology, 10 in Anatomy.
 
+  What this copy is missing: The Histology section ends "+26 MCQ {½ Mark each}". This copy reproduces none of those twenty-six questions, so thirteen of the paper's ninety-four marks are not represented here.
+  The questions below are every written question on the paper, not every question.
+
   Transcribed, not derived — `derived_from` is blank throughout. The rule that a
   written question may only be derived from another written question governs the
   practice variants that come later, not these.

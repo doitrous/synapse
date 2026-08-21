@@ -23,6 +23,16 @@ export interface SourceRef {
   tier: 'end_of_year' | 'end_of_module' | 'resit' | 'formative'
   /** Which section headings this paper uses, in the order it prints them. */
   sections: readonly string[]
+  /**
+   * What this copy of the paper does not reproduce.
+   *
+   * These are student-collected copies, and a collector who typed out the
+   * written questions may not have typed the multiple-choice ones. The paper
+   * says how many there were; we simply do not have them. Recording that is the
+   * difference between a paper with no MCQs and a paper whose MCQs we are
+   * missing, and only one of those is true of the 2025 sitting.
+   */
+  incomplete?: string
 }
 
 /**

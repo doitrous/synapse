@@ -1,10 +1,15 @@
 /**
  * The 2025 end-of-year paper for 101 ISK, as data.
  *
- * `EOY (ISK - 101) 199` — sixteen questions, eighty-one marks: six in Histology
- * and ten in Anatomy, of which the last two are cases. Written questions
- * throughout; not one multiple-choice item on it, which is what the module's
- * orientation says the paper is.
+ * `EOY (ISK - 101) 199` — sixteen written questions, eighty-one marks: six in
+ * Histology and ten in Anatomy, of which the last two are cases.
+ *
+ * Not the whole paper. Its Histology section ends "+26 MCQ {½ Mark each}", so
+ * the sitting also carried twenty-six multiple-choice questions worth thirteen
+ * marks, and this student-collected copy does not reproduce a single one of
+ * them. The written half is complete; the paper is not. An earlier version of
+ * this file said the paper had no multiple-choice items on it, which was
+ * reading the absence of the questions as the absence of a section.
  */
 import type { Paper, Scheme, Seed, SourceRef } from './types.ts'
 
@@ -15,6 +20,7 @@ export const SOURCE: SourceRef = {
   sittingYear: 2025,
   tier: 'end_of_year',
   sections: ['Histology', 'Anatomy'],
+  incomplete: 'The Histology section ends "+26 MCQ {½ Mark each}". This copy reproduces none of those twenty-six questions, so thirteen of the paper\'s ninety-four marks are not represented here.',
 }
 
 
