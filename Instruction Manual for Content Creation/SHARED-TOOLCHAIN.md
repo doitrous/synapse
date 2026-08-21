@@ -1165,3 +1165,43 @@ difference.
 This is the same refusal as not rewriting a diagram question into prose, and not filling
 `atomic_claim_ids` to clear an audit. The pattern in all three: **a plausible reconstruction is
 worse than an admitted gap, because the gap is visible and the reconstruction is not.**
+
+### A live bug in `repair-options.py`: a mangled leading label steals the next question's stem
+
+Found by porting one lane's line-level cases onto main's copy. `options_after` reads a mangled
+glyph at the **head** of a block as this question's option A, so **the next question's stem is
+filed as an option of the previous question**:
+
+```
+FAIL  a mangled label leading the block is declined, not guessed
+        wanted {'A': 'The first.', 'B': 'The seventh.'}
+        got    {'A': 'Which of the following is a typical intercostal nerve:', 'B': 'The seventh.'}
+```
+
+That is a **wrong** answer rather than a missing one — precisely the failure mode
+position-resolution exists to prevent, and the same objection that killed shape-mapping
+`0`→`d`. The guard declines a mangled label with nothing before it, and returns early when one
+carries a stem's terminal `:` or `?` and runs past 40 characters. **18 self-tests pass**,
+including main's originals and the five destructive-sentence assertions.
+
+Also worth taking: the widened `OPTION`/`INLINE` accepting a **comma** separator — **78 option
+lines in one physiology book** that were previously invisible rather than mislabelled.
+
+### An overlay is only worth removing where it breaks a parse
+
+One corpus registers its watermark entry as an explicit `None` **with a reason**, rather than
+leaving it blank: `ViP`/`VIP`/`Vi` appear zero times across its 46 sources, and the
+`DOCTOR HOUSE` overlay found there is deliberately **not** stripped — 15 tokens in one file,
+never landing on an option label, and stripping `DOCTOR` or `HOUSE` as whole tokens would
+delete those words wherever a paper legitimately uses them.
+
+So the table's entries are not "watermark or not" but "does this overlay break a parse". A
+checked-and-declined entry carries more information than an empty one, and stops the next lane
+re-deriving it.
+
+### Asymmetry between the two `foldInSiblings` call sites
+
+`:194` (question) passes `concepts, articles, resources`. `:338` (practical) passes
+**`concepts` alone**, so `articles` and `resources` stay undefined on that path — a practical
+referencing an article cannot resolve it from a sibling batch. Concepts do fold in, so a
+practical batch **can** ship alongside concepts authored in the same pass.
