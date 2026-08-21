@@ -2133,3 +2133,41 @@ document whose own argument is that counts should be checkable.
 > **Cross-check every OWED figure against a tool's own output, not against your own count of
 > the same thing — and say which tool produced each number**, so the next reader can re-run it
 > rather than trust it.
+
+### The probe covers concepts only — articles need the stored state, or the gap reads as a pass
+
+**`conceptFromRow` takes a bare row, so a single-column probe works.** `importRowToContent`
+needs enough context to materialise, so the same probe **reaches almost nothing** for articles —
+it returned *"neither"* for all six columns asked about.
+
+> **If the probe is wired into `medical:presence` or CI for concepts, articles need a second
+> method beside it — otherwise the uncovered half reads as a pass.** That is the
+> errs-toward-green failure in its most likely form: a real check whose silence about what it
+> does not cover is indistinguishable from a clean result.
+
+**For articles, check the simulated state.** That is where it was hiding: one lane's **eight
+physiology articles stored `subtopicId`, `microtopicId` and `nanotopicId` as the literal
+`'[clear]'` — 24 records.** Invisible in the file, invisible to `medical:batch` (0 errors,
+`fieldsUsed` 52), and it would have shipped.
+
+On those same eight records `conflicts`, `secondary_node_ids` and `question_ids` store `[]`
+correctly — **so a per-column rule derived from the concept batch would have "confirmed" them.**
+Its other thirteen articles were clean: two agents, same brief, different habits. **The check
+catches what the convention did not reach.**
+
+### Write the negative control before trusting the checker's zero
+
+The probe's author built one first, on the grounds that **a checker that cannot fail proves
+nothing**: a probe batch carrying `[clear]` on a text column and a blank list column returns
+`sentinelInTextColumn: 1, blankInListColumn: 1` and exits 1. **So a zero from it means
+something.**
+
+That is the null-result rule applied to tooling rather than to a measurement — and it is why a
+*measured* classification beats a *read* one. The probe found **21 list columns and 18 text**
+where the same author's hand-map said 20 and 16, catching that `module_subject` is a list.
+Harmless there only because that column always carries a value. **Exactly the drift a reading
+produces.**
+
+`scripts/kasr/check-column-parsers.ts` sends `KASRPROBEALPHA | KASRPROBEBETA` through
+`conceptFromRow` for every column, classifies by whether an array or a string comes back, then
+walks a batch and reports both error kinds. Exits non-zero. Takes any concept batch.
