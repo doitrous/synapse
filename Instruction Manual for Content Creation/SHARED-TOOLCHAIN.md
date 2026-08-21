@@ -593,3 +593,38 @@ Hand-resolving would have hidden it.
 
 Corollary: **never hand-edit a generated batch.** The edit is lost on the next build, and
 silently.
+
+### Taking the retrofitted emitter: the whole import set, or it will not resolve
+
+Six files, as one change — `emit.ts` will not compile against the old `types.ts`:
+
+```
+scripts/kasr/seeds/types.ts        scripts/kasr/seeds/from-json.ts
+scripts/kasr/emit.ts               scripts/kasr/seeds/articles.ts
+scripts/kasr/build-batches.ts      scripts/kasr/seeds/101-eoy-2025.ts
+```
+
+Verify with `node --experimental-strip-types scripts/kasr/check-id-stability.ts` — two lines,
+exit 0. It asserts 101's concept and question IDs mint unchanged and that `pharm` refuses
+without an explicit code, and it passes from another lane's worktree, so the byte-identity
+property survives the move.
+
+**Always pass your module: `build-batches.ts "104 CPS"`.** A bare run rebuilds every
+registered module, and the retrofitted `conceptBlock` emits **54 columns** where the
+committed 101 batches have 23. That is an improvement — 23 cannot pass `medical:audit` and
+54 clears the 50-of-52 floor — but it is 101's file and 101's decision when to take it.
+
+**Known bug: a scoped build still fails outside the owning worktree.** `PAPERS` is a
+module-level array whose entries call `paperFromJson(...)` **eagerly**, so every registered
+paper loads at import time — before `process.argv[2]` is read, and long before the `only`
+filter:
+
+```
+$ node --experimental-strip-types scripts/kasr/build-batches.ts "104 CPS"
+Error: ENOENT: … 'scripts/kasr/extract/102-INT/eoy-2025-199.json'
+```
+
+The single eager registry is what makes a bare build dangerous *and* a scoped build
+impossible. The fix is lazy registration — hold `{module, path}` records and call
+`paperFromJson` only on entries surviving the filter. Tolerating a missing file is weaker: a
+paper missing from **your own** module should still be loud.
