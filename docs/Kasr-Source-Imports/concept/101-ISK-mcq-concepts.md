@@ -7,6 +7,7 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
@@ -15,6 +16,7 @@
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
+    Veins of the Upper Limb — 9 questions, 3 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -26,7 +28,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  139 questions were excluded and 0 held back for having no
+  145 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4499,6 +4501,844 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
+Trapezius suspends the shoulder girdle, and its three sets of fibres each move the scapula differently
+## id
+CON-MSK-49E1E587FB6ED6
+## canonical_key
+trapezius-attachments-actions-and-shoulder-drop
+## definition
+Trapezius is a flat triangular muscle of the back arising from the external occipital protuberance, the medial third of the superior nuchal line, the ligamentum nuchae and the spines of the seventh cervical and all the thoracic vertebrae with their supraspinous ligaments. It is inserted into the lateral third of the clavicle, the acromion and the upper border of the crest of the spine of the scapula. Its upper fibres elevate the scapula, its middle fibres retract it, its lower fibres depress it, and its upper and lower fibres together rotate the glenoid cavity upwards. Because the muscle suspends the shoulder girdle from the skull and the vertebral column, its paralysis lets the whole shoulder sag — a dropped shoulder.
+## explicit_objective
+Give the attachments of trapezius, the action of each of its three sets of fibres, and the deformity its paralysis produces.
+## pitfalls
+Expecting a paralysed trapezius to flatten the shoulder. It drops the shoulder; flattening is deltoid wasting after an axillary nerve injury, and the two deformities are asked side by side in these books.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p30 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p26 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Latissimus dorsi reaches from the iliac crest to the floor of the bicipital groove, and it extends, adducts and medially rotates the arm
+## id
+CON-MSK-84E91B4CD6B6DF
+## canonical_key
+latissimus-dorsi-attachments-and-actions
+## definition
+Latissimus dorsi arises from the spines of the lower six thoracic vertebrae, from the thoracolumbar fascia and through it from the lumbar and sacral spines, from the posterior third of the outer lip of the iliac crest, from the lower three or four ribs and from the inferior angle of the scapula. Its fibres converge and twist to insert into the floor of the bicipital groove of the humerus. It extends, adducts and medially rotates the arm, and with the arm fixed above the head it raises the trunk — which is why it is called the climbing muscle. It takes no part in flexion, abduction or lateral rotation.
+## explicit_objective
+Give the origins and insertion of latissimus dorsi and state its three actions on the arm.
+## pitfalls
+Giving the nuchal ligament as an origin. That belongs to trapezius, which overlaps latissimus dorsi on the back; latissimus dorsi never reaches above the sixth thoracic spine.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p26 | 101 ISK
+src_08bc782553366518791e | question_book | | p24 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Four muscles grip the medial border of the scapula and the teres muscles take the lateral border
+## id
+CON-MSK-59453A6F6ACC2E
+## canonical_key
+scapular-border-muscle-attachments-medial-versus-lateral
+## definition
+The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor at the root of the spine and rhomboideus major below it on the dorsal aspect, and serratus anterior along the whole length of its costal aspect. The lateral border gives origin to teres minor from the upper two thirds of its dorsal surface and to teres major from the lower third and the inferior angle, with the long head of triceps arising just above it from the infraglenoid tubercle.
+## explicit_objective
+Name the muscles attached to the medial border of the scapula and those attached to the lateral border, and assign any named muscle to the correct one.
+## pitfalls
+Placing serratus anterior on the lateral border because it runs laterally round the chest. It attaches along the costal surface of the medial border, and it is that grip which lets it hold the medial border against the chest wall.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p3 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p8 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p26 | 101 ISK
+src_08bc782553366518791e | question_book | | p29 | 101 ISK
+src_08bc782553366518791e | question_book | | p24 | 101 ISK
+src_08bc782553366518791e | question_book | | p27 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The triangle of auscultation is bounded by trapezius, latissimus dorsi and the medial border of the scapula
+## id
+CON-MSK-2BCDBB34965818
+## canonical_key
+triangle-of-auscultation-boundaries
+## definition
+The triangle of auscultation lies on the back below and medial to the scapula. It is bounded medially by the lateral border of trapezius, below by the upper border of latissimus dorsi and laterally by the medial border of the scapula. Its floor is formed by rhomboideus major and the sixth and seventh ribs with the intercostal space between them, and because so little muscle covers the chest wall there, breath sounds are unusually clear over it — which is what names it. The lumbar triangle is a separate space lower down, bounded by latissimus dorsi, external oblique and the iliac crest.
+## explicit_objective
+Name the three boundaries and the floor of the triangle of auscultation and explain why it is named for listening.
+## pitfalls
+Bringing teres major into it. Teres major is a lateral-border muscle running to the humerus and forms the lower boundary of the triangular spaces of the axilla instead — a different triangle on a different aspect of the scapula.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p22 | 101 ISK
+src_3bc051c300a8e15045d8 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Every muscle that moves the scapula takes a named nerve, and only trapezius takes one from outside the brachial plexus
+## id
+CON-MSK-C89FCDA03E8C99
+## canonical_key
+scapular-muscle-nerve-supply-accessory-dorsal-scapular-thoracodorsal
+## definition
+Trapezius is supplied motor by the spinal root of the accessory nerve, the eleventh cranial nerve, with C3 and C4 carrying sensation — the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus. Levator scapulae and the two rhomboids take the dorsal scapular nerve from the C5 root; levator scapulae also receives C3 and C4 directly. Serratus anterior takes the long thoracic nerve, C5, C6 and C7. Latissimus dorsi takes the thoracodorsal nerve, C6, C7 and C8, from the posterior cord. Teres major takes the lower subscapular nerve and teres minor the axillary nerve.
+## explicit_objective
+Name the nerve supplying each muscle that acts on the scapula, and identify the one that does not come from the brachial plexus.
+## pitfalls
+Answering the accessory nerve without saying which root. It is the spinal root that supplies trapezius; the cranial root joins the vagus and goes to the larynx and the pharynx, and both roots are offered as options in these books.
+## concept_type
+functional_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p36 | 101 ISK
+src_08bc782553366518791e | question_book | | p24 | 101 ISK
+src_08bc782553366518791e | question_book | | p23 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Beyond ninety degrees the scapula rotates, by trapezius and serratus anterior
+## id
+CON-MSK-04D3ACA71DC025
+## canonical_key
+scapular-rotation-abduction-beyond-90-muscles
+## definition
+Abduction of the arm beyond about ninety degrees cannot happen at the shoulder joint, because the greater tuberosity meets the coraco-acromial ligament; the arm is raised further by the scapula rotating on the chest wall so the glenoid cavity faces upwards. That rotation is produced by the upper and lower fibres of trapezius, supplied motor by the spinal root of the accessory nerve with sensory C3 and C4, acting with the lower five digitations of serratus anterior, supplied by the nerve to serratus anterior (long thoracic nerve, nerve of Bell). Serratus anterior is also the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
+## explicit_objective
+Name the muscles that rotate the scapula to carry abduction beyond ninety degrees, and give the nerve supply and action of each.
+## pitfalls
+Answering with deltoid and supraspinatus. Those carry abduction to ninety degrees; past it the question is about the shoulder girdle, and the answer is trapezius and serratus anterior.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p3 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p25 | 101 ISK
+src_08bc782553366518791e | question_book | | p23 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The shoulder girdle elevates, depresses, protracts, retracts and rotates, each by a named set of muscles
+## id
+CON-MSK-1CA86BE843A07C
+## canonical_key
+shoulder-girdle-movements-muscles
+## definition
+The shoulder girdle moves at the acromio-clavicular and sterno-clavicular joints. Elevation is by the upper fibres of trapezius with levator scapulae. Depression is by pectoralis minor, with subclavius steadying the clavicle and preventing excessive movement. Protraction is by serratus anterior, the main and powerful protractor, assisted by pectoralis minor. Retraction is by the middle fibres of trapezius with the rhomboids. Rotation so the glenoid cavity faces upward is by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior, which is what lets the arm be raised overhead; rotation so the glenoid faces downward is by levator scapulae with rhomboideus minor.
+## explicit_objective
+Name the movements of the shoulder girdle and the muscles that produce each, including both directions of scapular rotation.
+## pitfalls
+Treating rotation as one movement. Upward and downward rotation of the glenoid have different muscles, and it is upward rotation — trapezius with serratus anterior — that carries abduction past ninety degrees.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p24 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p26 | 101 ISK
+src_08bc782553366518791e | question_book | | p23 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula
+## id
+CON-MSK-24E318F2E3F18E
+## canonical_key
+long-thoracic-nerve-serratus-anterior-winging
+## definition
+The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.
+## explicit_objective
+Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.
+## pitfalls
+Blaming the axillary nerve. That would weaken abduction to ninety degrees and numb the regimental badge area; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p21 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Shoulder dislocation endangers the axillary nerve, costing deltoid and teres minor
+## id
+CON-MSK-EE022A2043C10F
+## canonical_key
+axillary-nerve-injury-shoulder-dislocation
+## definition
+The axillary (circumflex) nerve, C5 and C6, winds round the surgical neck of the humerus through the quadrangular space, where dislocation of the shoulder, fracture of the surgical neck and crutch pressure all endanger it. It supplies deltoid and teres minor. Its injury loses abduction of the shoulder through the range deltoid provides, from fifteen to ninety degrees, flattens the rounded contour of the shoulder as deltoid wastes, and numbs a patch of skin over the lower half of the deltoid.
+## explicit_objective
+Name the nerve endangered by shoulder dislocation, the muscles it supplies, and the movement, deformity and sensory loss its injury produces.
+## pitfalls
+Reporting total loss of abduction. Supraspinatus still initiates the first fifteen degrees and the scapular rotators still act above ninety; it is the middle range that goes.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p28 | 101 ISK
+src_b7301bfcd7d002317e40 | question_book | | p32 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
 Myo-epithelial cells lie between the base of the secretory cells and the basement membrane, and contract to squeeze secretion into the duct
 ## id
 CON-FND-38ABCC4E4E4E68
@@ -8482,6 +9322,284 @@ Connective Tissue
 
 ## article_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The cephalic vein starts laterally and ends in the axillary vein; the basilic starts medially and helps form it
+## id
+CON-MSK-66A2E56C00F3A7
+## canonical_key
+upper-limb-superficial-veins-origin-course-termination
+## definition
+The cephalic vein begins at the lateral end of the dorsal venous arch of the hand, ascends on the lateral (radial) side of the forearm and arm, runs in the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein. The basilic vein begins at the medial end of the same arch, ascends on the medial (ulnar) side, pierces the deep fascia about the middle of the arm and, at the lower border of teres major, joins the venae comitantes of the brachial artery to form the axillary vein. The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## explicit_objective
+Give the origin, course and termination of the cephalic and basilic veins, and say which artery of the limb has venae comitantes and which does not.
+## pitfalls
+Swapping the two ends of the dorsal venous arch. Cephalic is lateral and basilic is medial, at their origin and along their whole course — and it is the cephalic, not the basilic, that pierces the clavipectoral fascia.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_69103a53ec28a93958d5 | question_book | | p12 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p30 | 101 ISK
+src_08bc782553366518791e | question_book | | p92 | 101 ISK
+src_08bc782553366518791e | question_book | | p93 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The median cubital vein links cephalic to basilic across the cubital fossa, lying on the bicipital aponeurosis that protects the brachial artery
+## id
+CON-MSK-1F14D98DCE111B
+## canonical_key
+median-cubital-vein-connections-and-venepuncture
+## definition
+The median cubital vein is a large superficial vein running upwards and medially in front of the cubital fossa, connecting the cephalic vein below and laterally to the basilic vein above and medially. It lies on the bicipital aponeurosis, which separates it from the brachial artery and the median nerve beneath. Its size, its superficial position and that protective aponeurosis make it the usual vein for venepuncture and intravenous injection.
+## explicit_objective
+Say which two veins the median cubital vein connects, what lies deep to it, and why it is the vein chosen for venepuncture.
+## pitfalls
+Calling it a deep vein because it is the one a needle is put into. It is superficial, in the superficial fascia; what makes it safe is that the bicipital aponeurosis lies between it and the brachial artery.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p93 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The extensor retinaculum is anchored to radius and to pisiform and triquetral, and its septa make six tendon compartments
+## id
+CON-MSK-44234D1863CE8E
+## canonical_key
+extensor-retinaculum-attachments-compartments
+## definition
+The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral. Five septa passing to ridges on the back of the lower end of the radius divide the space beneath it into six compartments, holding from lateral to medial: abductor pollicis longus with extensor pollicis brevis; extensor carpi radialis longus and brevis; extensor pollicis longus; the tendons of extensor digitorum and extensor indicis with the posterior interosseous nerve and anterior interosseous artery; extensor digiti minimi; and extensor carpi ulnaris.
+## explicit_objective
+Give the attachments of the extensor retinaculum and name the contents of each of its six compartments in order.
+## pitfalls
+Losing the order by naming the compartments from a list of tendons rather than from Lister’s tubercle. The second compartment lies lateral to the tubercle and the third medial to it, which is what fixes the sequence.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_69103a53ec28a93958d5 | question_book | | p16 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p34 | 101 ISK
+src_08bc782553366518791e | question_book | | p86 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## conflicts

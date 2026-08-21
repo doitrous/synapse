@@ -82,6 +82,13 @@ CATEGORY = "EOM"
 # answer, because the mark is a different physical object.
 PINK = (310.0, 20.0)     # wraps through 360
 BLUE = (190.0, 250.0)
+# The blue correction ink is a fully saturated marker, not a pale highlighter,
+# and it needs its own floor. At the pink paper's saturation of 0.03 the blue
+# window catches 15,000 pixels a page of scan cast on the *unsolved* 2021 twin —
+# more, page for page, than it catches on the solved copy — which is the
+# signature of noise rather than ink. The real blue mark measures saturation
+# 0.26-0.29, so the floor is set at 0.20 and the control falls to nothing.
+BLUE_SAT = 0.20
 
 PAPERS = {
     # 18/12/2021 sitting, solved. Pale pink highlighter, one blue correction.
@@ -123,7 +130,8 @@ PAPERS = {
         "twinOf": "src_a54bbf7a625ba2b172fc",
         "markPath": "fill",
     },
-    # 2024 sitting. No coloured ink anywhere; grey pencil strokes only.
+    # 5/12/2024 sitting. No coloured ink anywhere; grey pen strokes only, and
+    # they are a candidate's working rather than a key — see the report.
     "src_16f747e1171423933757": {
         "role": "hand",
         "dpi": 300,
@@ -133,9 +141,12 @@ PAPERS = {
                         "paper's page 2 yields under 100 coloured pixels, all of "
                         "them below value 180. Its marks are grey graphite."),
     },
-    # 24/12/2020 sitting, 48 MCQs over 6 pages. Reads clean on every page.
+    # 24/12/2020 sitting, 48 MCQs over 6 pages. Read at 110 dpi and again at 200:
+    # it carries no mark of any kind, so it is a control for the stroke path in
+    # the same way the twins are controls for the colour path. There is no
+    # solved copy of this sitting in the corpus.
     "src_9487fd713153c573087f": {
-        "role": "hand",
+        "role": "control",
         "dpi": 200,
         "sat": 0.05, "val": 180,
         "markPath": "stroke",
@@ -238,7 +249,7 @@ _NUMBER = re.compile(r"^(\d{1,3})\s*[-.)]$")
 _LETTER = re.compile(r"^([a-dA-D])\s*[.)]$")
 
 
-PSMS = (6, 11)
+PSMS = (4, 6, 11)
 
 
 def ocr_words(sid, pdf, page, dpi, psm=6, force=False):
@@ -554,11 +565,12 @@ def fill_page(sid, pdf, page, cfg, force):
     off = render(sid, pdf, page, cfg["dpi"], False, force)
     out = {"families": {}, "noise": {}}
     for name, window in (("pink", PINK), ("blue", BLUE)):
-        w, h, flags, npx, hues = colour_mask(on, cfg["sat"], cfg["val"], window)
+        sat = cfg["sat"] if name == "pink" else max(cfg["sat"], BLUE_SAT)
+        w, h, flags, npx, hues = colour_mask(on, sat, cfg["val"], window)
         close = int(round(cfg["dpi"] * CLOSE_IN))
         runs = runs_from_flags(flags, w, h, MIN_RUN, close)
         regs, dropped, dropped_px = regions(runs)
-        _w2, _h2, _f2, nref, _hu = colour_mask(off, cfg["sat"], cfg["val"], window)
+        _w2, _h2, _f2, nref, _hu = colour_mask(off, sat, cfg["val"], window)
         out["families"][name] = {
             "regions": regs, "pixels": npx, "referencePixels": nref,
             "regionsDroppedAsTooSmall": dropped, "pixelsDroppedAsTooSmall": dropped_px,
@@ -766,6 +778,60 @@ def confidence_word(x):
     return "high" if x >= 0.9 else ("medium" if x >= 0.7 else "low")
 
 
+
+# ------------------------------------------------------- what a mark means
+#
+# A marked option is not automatically the answer. On a negative stem — "all of
+# the following EXCEPT", "which is NOT" — an examiner may instead tick the true
+# distractors and leave the odd one out bare, and keying on "marked means
+# correct" inverts every such question without erroring. So the polarity of each
+# stem is recorded, and the convention a paper uses is *inferred from that
+# paper's own marks* rather than assumed: if no negative stem on the paper
+# carries more than one mark, the paper marks answers; if negative stems
+# routinely carry several marks, it marks distractors. A paper that does both is
+# reported as mixed and its negative stems are refused rather than resolved by
+# majority.
+_NEGATIVE = re.compile(r"\b(except|not\b|isn'?t|aren'?t|false|incorrect|untrue|"
+                       r"wrong|least likely)\b", re.I)
+
+
+def stem_polarity(stem):
+    return "negative" if _NEGATIVE.search(stem or "") else "positive"
+
+
+def mark_convention(rows):
+    """Which convention this paper's marks follow, read off its own marks.
+
+    The test is not "do negative stems carry several marks" on its own — a paper
+    where a fifth of *every* question carries two overlapping bands would fail
+    that test for a reason that has nothing to do with polarity. It is whether
+    negative stems carry several marks *at a materially higher rate than
+    positive ones do*. On the 2022 paper the two rates are 13% and 11%, which is
+    no signal at all, so its double marks are double marks and not a distractor
+    convention; on the 2021 paper they are 0% and 1%. A paper where the negative
+    rate genuinely runs away from the positive rate is reported as marking
+    distractors, and one in between is reported unknown and its negative stems
+    refused rather than settled by a majority vote.
+    """
+    neg = [r for r in rows if r["stemPolarity"] == "negative"]
+    pos = [r for r in rows if r["stemPolarity"] == "positive"]
+    if not neg:
+        return ("marks-answer" if pos else "unknown",
+                "no negative stem on this paper; %d positive stems" % len(pos))
+    neg_rate = sum(1 for r in neg if r["marksOnQuestion"] > 1) / len(neg)
+    pos_rate = (sum(1 for r in pos if r["marksOnQuestion"] > 1) / len(pos)
+                if pos else 0.0)
+    basis = ("%.0f%% of the %d negative stems carry more than one mark against "
+             "%.0f%% of the %d positive stems" % (
+                 neg_rate * 100, len(neg), pos_rate * 100, len(pos)))
+    if neg_rate >= 0.5 and neg_rate >= 2 * max(pos_rate, 0.05):
+        return "marks-distractors", basis
+    if neg_rate <= max(2 * pos_rate, pos_rate + 0.10):
+        return "marks-answer", basis
+    return "unknown", basis + "; the gap is too large to call one convention and "\
+                              "too small to call the other"
+
+
 def annot_diff(sid, pdf, page, dpi, force):
     """How many pixels the page's annotations put on it — a diagnostic, not the
     extractor. Ghostscript renders these files deterministically: on an unsolved
@@ -889,6 +955,12 @@ def run_source(src, force):
                 "rule": rule,
                 "note": note,
                 "optionsFound": len(block["options"]),
+                "stemPolarity": stem_polarity(block["stemText"]),
+                "marksOnQuestion": sum(1 for o in per_option
+                                       if o.get("overlapFraction",
+                                                o.get("containedFraction", 0.0))
+                                       >= MIN_FRAC),
+                "markConvention": "unknown",
                 "ocrMode": block["ocrMode"],
                 "unresolvedReason": reason,
                 "optionScores": per_option,
@@ -898,6 +970,29 @@ def run_source(src, force):
             if geometry:
                 row["geometry"] = geometry
             answers.append(row)
+
+    convention, basis = mark_convention(answers)
+    for row in answers:
+        row["markConvention"] = convention
+        row["markConventionBasis"] = basis
+        if row["answer"] is None:
+            continue
+        if convention == "marks-answer":
+            continue
+        if convention == "marks-distractors" and row["stemPolarity"] == "negative":
+            row["note"] = (row["note"] + "; " if row["note"] else "") + (
+                "this paper marks the distractors on negative stems, so the "
+                "marked option is not the answer")
+            row["answer"], row["ambiguous"] = None, True
+            row["unresolvedReason"] = (
+                "negative stem on a paper whose marks indicate distractors; the "
+                "unmarked option is not identifiable from one mark")
+        elif convention == "unknown" and row["stemPolarity"] == "negative":
+            row["answer"], row["ambiguous"] = None, True
+            row["unresolvedReason"] = (
+                "negative stem on a paper that does not use one convention "
+                "consistently (%s); refused rather than resolved by majority"
+                % basis)
     return answers, page_stats, npages
 
 
@@ -982,6 +1077,7 @@ def main():
         entry = {
             "file": os.path.basename(src["absolutePath"]),
             "sourceId": sid,
+            "role": cfg["role"],
             "pages": npages,
             "mechanism": "raster",
             "markPath": cfg["markPath"],
@@ -993,11 +1089,23 @@ def main():
             "isControl": control,
             "controlHighlightPixels": (sum(s.get("markPixels", 0) for s in stats)
                                        if control else 0),
-            "controlMarkRegions": (sum(s.get("markRegions", 0) for s in stats)
+            "controlMarkRegions": (sum(s.get("markRegions", 0) or 0 for s in stats)
                                    if control else 0),
+            "controlStrokeHulls": (sum(s.get("strokeHulls", 0) or 0 for s in stats)
+                                   if control else 0),
+            "controlAnswersAttributed": (sum(1 for r in rows if r["answer"])
+                                         if control else 0),
+            "annotationInkPixels": sum(s.get("annotationDiffPixels") or 0
+                                       for s in stats),
+            "colourReferencePixels": sum(
+                (s.get("noise") or {}).get(fam, {}).get("annotationsOffPixels") or 0
+                for s in stats for fam in ("pink", "blue")),
             "questions": len(rows),
             "recovered": sum(1 for r in rows if r["answer"]),
             "ambiguous": sum(1 for r in rows if r["ambiguous"]),
+            "markConvention": rows[0]["markConvention"] if rows else "unknown",
+            "markConventionBasis": rows[0].get("markConventionBasis") if rows else None,
+            "negativeStems": sum(1 for r in rows if r["stemPolarity"] == "negative"),
             "recoveredByRule": {
                 "intersection": sum(1 for r in rows
                                     if r["answer"] and r["rule"] == "intersection"),

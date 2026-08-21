@@ -7,6 +7,7 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
@@ -15,6 +16,7 @@
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
+    Veins of the Upper Limb — 9 questions, 3 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -26,7 +28,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  139 questions were excluded and 0 held back for having no
+  145 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -28767,6 +28769,2014 @@ Answer changed from the source's: The bank carries A, but the sternoclavicular j
 
 # Item
 ## id
+QM-101-854F82F2D4A8
+## title
+Upward rotation of the scapula in raising the arm above head, due to contraction of; ma…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Upward rotation of the scapula in raising the arm above head, due to contraction of; mark the correct answer:
+## answer_a
+Trapezius and latissimus dorsi muscles
+## explanation_a
+Latissimus dorsi pulls the arm and the inferior angle of the scapula downwards; it opposes this movement rather than producing it. Students pick it because it is the other large back muscle and because it does attach to the scapula.
+## answer_b
+Serratus anterior and rhomboid muscles
+## explanation_b
+Serratus anterior is half right, which is what makes this the strongest distractor. The rhomboids are the wrong partner — they rotate the glenoid cavity downwards, so they would undo exactly what serratus anterior is doing.
+## answer_c
+Trapezius and serratus anterior muscles
+## explanation_c
+Correct. Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.
+## answer_d
+Trapezius and teres minor muscles
+## explanation_d
+Teres minor is a rotator cuff muscle acting on the humerus at the shoulder joint, not on the scapula. Nothing that inserts into the humerus can rotate the scapula it arises from.
+## correct_answer
+C
+## main_concept
+CON-MSK-04D3ACA71DC025
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q7; Upper MCQ Dr.jalal (1).pdf p3 q7; Anatomy Question [Upper Limb] (1).pdf p25 q141. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Upward rotation of the scapula is produced by the upper and lower fibres of trapezius acting with the lower digitations of serratus anterior, so C is the only pairing that can raise the arm above the head.
+
+
+---
+
+# Item
+## id
+QM-101-61135965145A
+## title
+Paralysis of the following muscle leads to shoulder drop:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the following muscle leads to shoulder drop:
+## answer_a
+Pectoralis major
+## explanation_a
+Pectoralis major runs from the chest wall to the humerus and never reaches the scapula or the clavicle in a way that supports them. Losing it weakens adduction and medial rotation of the arm, not the height of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi pulls the shoulder down when it acts. Its paralysis would if anything raise the shoulder slightly, which is the opposite of what the question describes.
+## answer_c
+trapezius
+## explanation_c
+Correct. Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.
+## answer_d
+deltoid
+## explanation_d
+Deltoid hangs from the girdle rather than supporting it. Its paralysis flattens the rounded contour of the shoulder — a different sign, and the one these books ask about immediately alongside this question.
+## correct_answer
+C
+## main_concept
+CON-MSK-49E1E587FB6ED6
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute a dropped shoulder to loss of the muscle that suspends the shoulder girdle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q5; Upper MCQ Dr.jalal (1).pdf p53 q5. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Trapezius suspends the shoulder girdle from the skull and the vertebral spines, so it is the only one of the four whose paralysis lets the shoulder sag.
+
+
+---
+
+# Item
+## id
+QM-101-C7354455FFAB
+## title
+The following muscle is attached to lateral border of scapula:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is attached to lateral border of scapula:
+## answer_a
+The serratus anterior muscle
+## explanation_a
+Serratus anterior runs laterally round the chest, which is why students place it on the lateral border. Its attachment is along the costal surface of the medial border, and that grip is what holds the medial border flat against the ribs.
+## answer_b
+The teres major muscle
+## explanation_b
+Correct. Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.
+## answer_c
+The levator scapulae muscle
+## explanation_c
+Levator scapulae attaches to the medial border above the root of the spine — the top of the medial border, not the lateral one.
+## answer_d
+The rhomboid major muscle
+## explanation_d
+Rhomboideus major attaches to the medial border below the root of the spine, immediately beneath rhomboideus minor.
+## correct_answer
+B
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign each named scapular muscle to the medial or the lateral border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p2 q8; Upper MCQ Dr.jalal (1).pdf p3 q8. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Teres major arises from the lower third of the lateral border and the inferior angle; the other three all take the medial border, so B is the only possible answer.
+
+
+---
+
+# Item
+## id
+QM-101-8A6824A3FCEA
+## title
+The following muscle is attached to the lateral border of the scapula:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is attached to the lateral border of the scapula:
+## answer_a
+The serratus anterior muscle
+## explanation_a
+Serratus anterior is a medial-border muscle despite running laterally round the chest. It attaches along the costal surface of the medial border.
+## answer_b
+The teres major muscle
+## explanation_b
+Correct, and the key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.
+## answer_c
+The levator scapulae muscle
+## explanation_c
+Levator scapulae takes the upper part of the medial border, above the root of the spine.
+## answer_d
+The rhomboid major muscle
+## explanation_d
+Rhomboideus major takes the medial border below the root of the spine.
+## correct_answer
+B
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign each named scapular muscle to the medial or the lateral border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q41; Anatomy MCQ Book [2025] [first priority].pdf p26 q41. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2E6EB42511F4
+## title
+A physical sign known as winged scapula tests loss of function to which of the followin…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A physical sign known as winged scapula tests loss of function to which of the following muscles:(DEP BOOK) Vi y ad Ac a- Rhomboid major
+## answer_a
+Rhomboid major.
+## explanation_a
+Rhomboid major does hold the medial border towards the vertebral column, so its loss can produce a slight winging — but the classical, examinable winged scapula is serratus anterior, and the two are told apart by the movement lost: rhomboid weakness costs retraction, serratus weakness costs abduction above the shoulder.
+## answer_b
+Levator scapulae.
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. Its loss weakens shrugging, not the flat contact of the medial border with the chest.
+## answer_c
+Latissimus dorsi.
+## explanation_c
+Latissimus dorsi attaches to the inferior angle only in passing on its way to the humerus, and its paralysis costs extension and adduction of the arm.
+## answer_d
+Serratus anterior.
+## explanation_d
+Correct, and the key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.
+## correct_answer
+D
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the muscle whose paralysis wings the scapula and say what it normally does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p21 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C192EABA1C21
+## title
+Actions of the latissimus dorsi:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Actions of the latissimus dorsi:
+## answer_a
+Flexes the arm
+## explanation_a
+The opposite action. Latissimus dorsi extends the arm — its insertion into the floor of the bicipital groove lies in front of the joint but its whole belly lies behind it, and it pulls the humerus backwards and downwards.
+## answer_b
+Abducts the arm
+## explanation_b
+The opposite again. It adducts the arm powerfully, bringing it against the trunk, which is what makes it the climbing muscle.
+## answer_c
+Laterally rotates the arm
+## explanation_c
+The opposite a third time. The fibres twist as they converge so that the muscle medially rotates the humerus.
+## answer_d
+All of the above
+## explanation_d
+Attractive to a student who is not sure of any single option and hopes the inclusive answer is safest. It cannot be right when all three of the statements it gathers are false.
+## answer_e
+None of the above
+## explanation_e
+Correct. None of the three actions offered belongs to latissimus dorsi; it extends, adducts and medially rotates.
+## correct_answer
+E
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+State the three actions of latissimus dorsi and recognise that flexion, abduction and lateral rotation are none of them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q14. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Latissimus dorsi extends, adducts and medially rotates the arm; each of A, B and C names the exact opposite of one of those, so D cannot stand and E is the only possible answer.
+
+
+---
+
+# Item
+## id
+QM-101-75E0D387F6D4
+## title
+Actions of the latissimus dorsi: (IPKA)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Actions of the latissimus dorsi: (IPKA)
+## answer_a
+Flexes the arm
+## explanation_a
+Latissimus dorsi extends the arm rather than flexing it; the belly lies behind the shoulder joint and pulls the humerus backwards.
+## answer_b
+Abducts the arm
+## explanation_b
+It adducts rather than abducts — pulling the raised arm down against the trunk is exactly what it is built for.
+## answer_c
+Laterally rotates the arm
+## explanation_c
+It medially rotates, because its fibres twist through a right angle before reaching the floor of the bicipital groove.
+## answer_d
+All of the above
+## explanation_d
+The refuge of a student unsure of any single statement. Three false statements do not become true by being gathered together.
+## answer_e
+None of the above
+## explanation_e
+Correct. Not one of the three offered actions belongs to this muscle.
+## correct_answer
+E
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+State the three actions of latissimus dorsi and recognise that flexion, abduction and lateral rotation are none of them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p26 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Latissimus dorsi extends, adducts and medially rotates the arm, so each of A, B and C is the reverse of a true action, D is impossible, and E stands.
+
+
+---
+
+# Item
+## id
+QM-101-33421C536350
+## title
+AII of the following muscles attach to medial border of scapula except: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+AII of the following muscles attach to medial border of scapula except: (DEP BOOK)
+## answer_a
+Levator scapulae.
+## explanation_a
+True, so not the exception. Levator scapulae attaches to the medial border above the root of the spine.
+## answer_b
+Rhomboideus major.
+## explanation_b
+True, so not the exception. Rhomboideus major attaches to the medial border below the root of the spine.
+## answer_c
+Teres major.
+## explanation_c
+The exception, and the answer. Teres major arises from the lower third of the lateral border and the inferior angle, and runs forwards to the humerus.
+## answer_d
+Serratus anterior.
+## explanation_d
+True, so not the exception, and the option most often mistaken for the answer because the muscle is named for the ribs rather than the scapula. Serratus anterior attaches along the whole costal surface of the medial border.
+## correct_answer
+C
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the one muscle among four that takes the lateral border of the scapula rather than the medial.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p29 q33. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Levator scapulae, rhomboideus major and serratus anterior all attach to the medial border; teres major arises from the lateral border and the inferior angle, so it is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-3DA56E554881
+## title
+Mark one true origin of latissimus dorsi muscle: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Mark one true origin of latissimus dorsi muscle: (2019)
+## answer_a
+Spine of all lumbar vertebrae
+## explanation_a
+Half true and therefore the hardest distractor. Latissimus dorsi reaches the lumbar spines through the thoracolumbar fascia rather than directly, and its own vertebral origin is the spines of the lower six thoracic vertebrae — not the lumbar spines as a direct attachment, and not all of them.
+## answer_b
+Middle four ribs. P
+## explanation_b
+The wrong ribs. The muscle arises from the lower three or four ribs, interdigitating there with external oblique; the middle four ribs belong to serratus anterior territory.
+## answer_c
+Nuchal ligament
+## explanation_c
+The answer the bank carries, and the reason for the override. The ligamentum nuchae is an origin of trapezius, the muscle that overlies latissimus dorsi on the upper back — which is precisely why the two get exchanged.
+## answer_d
+Outer lip of iliac crest
+## explanation_d
+Correct. Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.
+## correct_answer
+D
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give a true bony origin of latissimus dorsi and separate it from the origins of trapezius.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, and C is trapezius's origin, not this muscle's: latissimus dorsi has no attachment to the ligamentum nuchae and does not reach above the sixth thoracic spine. The posterior third of the outer lip of the iliac crest is a direct, standard origin of latissimus dorsi, so D is the true statement.
+
+
+---
+
+# Item
+## id
+QM-101-0FF2B42F7CEB
+## title
+Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branc…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Most muscles acting on shoulder girdle & upper limb joints are supplied by Vi P y branches of brachial plexus except: (DEP BOOK) Ac em
+## answer_a
+Trapezius
+## explanation_a
+The exception, and the answer. Trapezius takes its motor supply from the spinal root of the accessory nerve, the eleventh cranial nerve, which reaches it through the posterior triangle of the neck; C3 and C4 add only sensation.
+## answer_b
+Teres minor
+## explanation_b
+Teres minor is supplied by the axillary nerve from the posterior cord — a brachial plexus branch, so not the exception.
+## answer_c
+Latissimus dorsi
+## explanation_c
+Latissimus dorsi is supplied by the thoracodorsal nerve, also from the posterior cord, so not the exception.
+## answer_d
+Rhomboid major. y
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Rhomboid major takes the dorsal scapular nerve, which arises from the C5 root of the brachial plexus itself — students mark it because a nerve named for the scapula sounds unlike the named cords and trunks they have memorised.
+## correct_answer
+A
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Identify the one shoulder-girdle muscle supplied from outside the brachial plexus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p36 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but rhomboid major takes the dorsal scapular nerve, which is a branch of the C5 root of the brachial plexus. Trapezius alone among the four is supplied by a cranial nerve — the spinal root of the accessory — so A is the exception the stem asks for.
+
+
+---
+
+# Item
+## id
+QM-101-B9E89388FD71
+## title
+One of the following actions is done by the latissimus dorsi muscle: (2021) Ac ad Ac ad…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following actions is done by the latissimus dorsi muscle: (2021) Ac ad Ac ad ad ad
+## answer_a
+Flexes the arm.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Latissimus dorsi is an extensor: its bulk lies behind the shoulder joint and it drags the humerus backwards and down.
+## answer_b
+Abducts the arm.
+## explanation_b
+Abduction belongs to supraspinatus and deltoid. Latissimus dorsi does the reverse and adducts the arm forcibly against the trunk.
+## answer_c
+Laterally rotates the arm.
+## explanation_c
+Lateral rotation belongs to infraspinatus and teres minor. The twist in the latissimus tendon makes it a medial rotator instead.
+## answer_d
+Extend the arm.
+## explanation_d
+Correct. Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.
+## correct_answer
+D
+## main_concept
+CON-MSK-84E91B4CD6B6DF
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Movements
+## learning_objective
+Pick the action latissimus dorsi actually performs from among its three opposites.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is one of the three actions latissimus dorsi cannot perform. It extends, adducts and medially rotates the arm, so D is the only true statement offered.
+
+
+---
+
+# Item
+## id
+QM-101-13839AC14BE6
+## title
+One of the following is not attached to the medial border of the scapula: (2021) ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not attached to the medial border of the scapula: (2021) ad
+## answer_a
+Levator scapulae.
+## explanation_a
+Attached to the medial border, above the root of the spine, so not the answer.
+## answer_b
+Teres minor.
+## explanation_b
+Correct. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.
+## answer_c
+Serratus anterior.
+## explanation_c
+Attached to the medial border along the whole of its costal surface, so not the answer, even though the muscle itself lies on the side of the chest.
+## answer_d
+Rhomboideus major.
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Rhomboideus major is attached to the medial border below the root of the spine; it is one of the four muscles the stem is testing, not the exception to them.
+## correct_answer
+B
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the medial-border muscles of the scapula from the lateral-border ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but rhomboideus major is one of the classic medial-border attachments, below the root of the spine. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border, so B is the muscle that is not attached to the medial border.
+
+
+---
+
+# Item
+## id
+QM-101-D2A44F486FAB
+## title
+One of the following muscles elevates the shoulder at the shoulder girdle: (2019) em em…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following muscles elevates the shoulder at the shoulder girdle: (2019) em em em em em
+## answer_a
+Latissimus dorsi
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Latissimus dorsi pulls the shoulder downwards and backwards; it is a depressor, not an elevator.
+## answer_b
+Upper ﬁber of trapezius
+## explanation_b
+Correct. The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.
+## answer_c
+Rhomboid minor
+## explanation_c
+Rhomboid minor retracts the scapula and rotates the glenoid cavity downwards. It runs almost horizontally, so it cannot lift.
+## answer_d
+Middle ﬁber of trapezius
+## explanation_d
+The middle fibres of trapezius run horizontally from the spines to the acromion and spine of the scapula and therefore retract rather than elevate. This is the sharpest distractor in the item, because it is the same muscle with a different fibre direction.
+## correct_answer
+B
+## main_concept
+CON-MSK-1CA86BE843A07C
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Name the fibres of trapezius that elevate the shoulder girdle and distinguish them from those that retract it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but latissimus dorsi depresses the shoulder rather than elevating it. Elevation of the shoulder girdle is by the upper fibres of trapezius with levator scapulae, so B is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-1BE0AEE349FB
+## title
+Paralysis of the following muscle leads to ﬂat shoulder: (DEP BOOK) em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the following muscle leads to ﬂat shoulder: (DEP BOOK) em
+## answer_a
+Pectoralis major
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Pectoralis major forms the anterior axillary fold; losing it hollows the front of the chest and the armpit, not the top of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi forms the posterior axillary fold. Its paralysis costs extension and adduction of the arm and leaves the shoulder contour untouched.
+## answer_c
+Trapezius. P
+## explanation_c
+Trapezius paralysis drops the shoulder — the shoulder sits lower but keeps its rounded outline. These books ask both signs in adjacent questions and the pair is exactly what the item tests.
+## answer_d
+Deltoid. Vi Acad
+## explanation_d
+Correct. Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p28 q28. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, taken from this copy's margin. Deltoid is the muscle that gives the shoulder its rounded contour, so it is the only one whose paralysis flattens it; pectoralis major lies on the front of the chest and its loss changes the axillary fold, not the shoulder's outline.
+
+
+---
+
+# Item
+## id
+QM-101-B0E5B40AA9F2
+## title
+Paralysis of the following muscle leads to flat shoulder: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the following muscle leads to flat shoulder: (DEP BOOK)
+## answer_a
+Pectoralis major
+## explanation_a
+Pectoralis major forms the anterior axillary fold at the front of the chest, not the cap of the shoulder.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi forms the posterior axillary fold; its loss is felt in extension and adduction of the arm.
+## answer_c
+Trapezius
+## explanation_c
+Trapezius paralysis drops the whole shoulder without changing its shape — the neighbouring sign, asked in the neighbouring question.
+## answer_d
+Deltoid
+## explanation_d
+Correct. Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute a flattened shoulder contour to wasting of the muscle that makes that contour.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p32 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Deltoid gives the shoulder its rounded contour, so its wasting after an axillary nerve injury is what flattens it; none of the other three contributes to that outline.
+
+
+---
+
+# Item
+## id
+QM-101-BDFDC578BE4D
+## title
+Paralysis of the following muscle leads to shoulder drop: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the following muscle leads to shoulder drop: (DEP BOOK)
+## answer_a
+Pectoralis major
+## explanation_a
+Pectoralis major runs from the chest wall to the humerus and takes no part in holding the girdle up.
+## answer_b
+Latissimus dorsi
+## explanation_b
+Latissimus dorsi pulls the shoulder down when it acts, so its loss cannot be the cause of a drooping shoulder.
+## answer_c
+Trapezius
+## explanation_c
+Correct. Trapezius suspends the clavicle and scapula from the occiput and the vertebral spines; when the spinal accessory nerve is divided the shoulder sags.
+## answer_d
+Deltoid 3-c 2-e 1-c
+## explanation_d
+Deltoid hangs from the girdle rather than carrying it. Its paralysis flattens the shoulder instead of dropping it.
+## correct_answer
+C
+## main_concept
+CON-MSK-49E1E587FB6ED6
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute a dropped shoulder to loss of the muscle that suspends the shoulder girdle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p26 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key in a form the extractor could read; option D carries the tail of a margin answer list, "3-c 2-e 1-c", which is page furniture rather than this item's key and has been ignored. Trapezius suspends the shoulder girdle from the skull and the vertebral spines, so C is the answer on the anatomy alone.
+
+
+---
+
+# Item
+## id
+QM-101-3D086B3F7FE0
+## title
+Patient was unable to retract his scapula because of paralysis of trapezius and .....: …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Patient was unable to retract his scapula because of paralysis of trapezius and .....: (2024)
+## answer_a
+Infraspinatus
+## explanation_a
+Infraspinatus is a rotator cuff muscle running from the scapula to the humerus. It laterally rotates the arm and moves the scapula not at all.
+## answer_b
+Levator scapula
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. It runs too vertically to draw the scapula backwards.
+## answer_c
+Rhomboids
+## explanation_c
+Correct. The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.
+## answer_d
+Serratus posterior superior
+## explanation_d
+Serratus posterior superior is a muscle of respiration attached to the ribs, not to the scapula. It is offered because its name contains "serratus" and because it lies in this region.
+## correct_answer
+C
+## main_concept
+CON-MSK-1CA86BE843A07C
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p26 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Retraction of the scapula is by the middle fibres of trapezius with the rhomboids; the stem names trapezius and asks for its partner, which can only be C.
+
+
+---
+
+# Item
+## id
+QM-101-4D0C53CEACCB
+## title
+Patient was unable to retract his scapula because of paralysis of trapezius and …….. (2…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Patient was unable to retract his scapula because of paralysis of trapezius and …….. (2024)Ac ad Ac ad ad ad
+## answer_a
+Infraspinatus.
+## explanation_a
+Infraspinatus acts on the humerus, laterally rotating the arm; it does not move the scapula.
+## answer_b
+Levator scapula.
+## explanation_b
+Levator scapulae elevates the scapula and rotates the glenoid downwards, and its line of pull is nearly vertical.
+## answer_c
+Rhomboids.
+## explanation_c
+Correct, and the key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.
+## answer_d
+Serratus posterior superior.
+## explanation_d
+Serratus posterior superior attaches to the ribs and belongs to respiration. It is offered for its name and its position, not for anything it does to the scapula.
+## correct_answer
+C
+## main_concept
+CON-MSK-1CA86BE843A07C
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the muscles that retract the scapula alongside the middle fibres of trapezius.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p23 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-130BFD355B75
+## title
+Rotation of the scapula in raising the arm above head upward due to contraction of; P m…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Rotation of the scapula in raising the arm above head upward due to contraction of; P mark the correct answer: (DEP BOOK) Vi
+## answer_a
+Trapezius and latissimus dorsi muscles.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Latissimus dorsi drags the inferior angle of the scapula downwards and the arm with it — the reverse of the movement in the stem.
+## answer_b
+Serratus anterior and rhomboid muscles.
+## explanation_b
+Serratus anterior is the right half of the pair, which makes this the strongest distractor. The rhomboids rotate the glenoid cavity downwards, so they cancel rather than assist it.
+## answer_c
+Trapezius and serratus anterior muscles.
+## explanation_c
+Correct. Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.
+## answer_d
+Trapezius and teres minor muscles.
+## explanation_d
+Teres minor inserts into the humerus and acts at the shoulder joint. It cannot rotate the bone it arises from.
+## correct_answer
+C
+## main_concept
+CON-MSK-04D3ACA71DC025
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Movements
+## learning_objective
+Name the pair of muscles that rotates the glenoid cavity upwards to let the arm be raised overhead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p23 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, read off this copy's margin, and latissimus dorsi opposes upward rotation rather than producing it. The identical question at `upward-rotation-of-the-scapula-in-raising-the-arm-above-head-d361147f`, asked three times, printed no key; the anatomy gives C, trapezius with serratus anterior.
+
+
+---
+
+# Item
+## id
+QM-101-329D2575F4C5
+## title
+The following muscle is attached to lateral border of scapula: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is attached to lateral border of scapula: (DEP BOOK)
+## answer_a
+The serratus anterior muscle
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Serratus anterior runs laterally round the chest but grips the costal surface of the medial border — which is exactly how it holds that border flat against the ribs.
+## answer_b
+The teres major muscle. Vi
+## explanation_b
+Correct. Teres major arises from the lower third of the lateral border and from the inferior angle.
+## answer_c
+The levator scapulae muscle.P Ac ad
+## explanation_c
+Levator scapulae takes the medial border above the root of the spine.
+## answer_d
+The rhomboid major muscle
+## explanation_d
+Rhomboid major takes the medial border below the root of the spine.
+## correct_answer
+B
+## main_concept
+CON-MSK-59453A6F6ACC2E
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign each named scapular muscle to the medial or the lateral border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p27 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but serratus anterior attaches along the costal surface of the medial border, not the lateral. The identical row `the-following-muscle-is-attached-to-the-lateral-border-of-th-5793f03c`, asked twice, is keyed B, and teres major is the lateral-border muscle.
+
+
+---
+
+# Item
+## id
+QM-101-D729E448C207
+## title
+The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The trapezius and latissimus dorsi muscles share in the boundaries of: (2018)
+## answer_a
+Upper triangular space.
+## explanation_a
+The upper triangular space is in the axilla, bounded by teres minor, teres major and the long head of triceps, and it transmits the circumflex scapular vessels. Neither named muscle reaches it.
+## answer_b
+Auscultation triangle.
+## explanation_b
+Correct. Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.
+## answer_c
+Lumbar triangle.
+## explanation_c
+The lumbar triangle does have latissimus dorsi as a boundary, which is what makes this the strongest distractor. Its other boundaries are external oblique and the iliac crest — far below anything trapezius reaches.
+## answer_d
+Lower triangular space.
+## explanation_d
+The lower triangular space is also in the axilla, bounded by teres major, the long head of triceps and the humerus, and it transmits the radial nerve and profunda brachii vessels.
+## correct_answer
+B
+## main_concept
+CON-MSK-2BCDBB34965818
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the space on the back bounded by trapezius, latissimus dorsi and the medial border of the scapula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The triangle of auscultation is the only one of the four bounded by both named muscles: trapezius medially, latissimus dorsi below and the medial border of the scapula laterally.
+
+
+---
+
+# Item
+## id
+QM-101-8C5349850B8A
+## title
+Thoracodorsal nerve supply the following muscle: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Thoracodorsal nerve supply the following muscle: (2019)
+## answer_a
+Teres major.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Teres major is supplied by the lower subscapular nerve. The confusion is understandable: all three nerves — upper subscapular, thoracodorsal and lower subscapular — arise in that order from the posterior cord and run within centimetres of each other on the posterior axillary wall.
+## answer_b
+Trapezius.
+## explanation_b
+Trapezius takes the spinal root of the accessory nerve, from outside the brachial plexus altogether.
+## answer_c
+Latissimus dorsi.
+## explanation_c
+Correct. The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.
+## answer_d
+Rhomboid minor.
+## explanation_d
+Rhomboid minor takes the dorsal scapular nerve from the C5 root.
+## correct_answer
+C
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Match the thoracodorsal nerve to the one muscle it supplies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p24 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but teres major is supplied by the lower subscapular nerve. The thoracodorsal nerve is the nerve to latissimus dorsi — it is named for that muscle's position on the back — so C is the answer.
+
+
+---
+
+# Item
+## id
+QM-101-5628EA4F40B3
+## title
+Trapezius muscle is supplied by the …. Nerve (2024 – IPKA – DEP BOOK – 2022 – 2021- 202…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Trapezius muscle is supplied by the …. Nerve (2024 – IPKA – DEP BOOK – 2022 – 2021- 2021 - 2019) em em em
+## answer_a
+Cranial accessory
+## explanation_a
+The trap the item is built around, and the reason both accessory options are offered. The cranial root of the accessory nerve joins the vagus and is distributed to the muscles of the larynx and pharynx; it never reaches trapezius.
+## answer_b
+Spinal accessory
+## explanation_b
+Correct. The spinal root of the accessory nerve arises from the upper five cervical segments, enters the skull through the foramen magnum, leaves through the jugular foramen and crosses the posterior triangle of the neck to supply sternomastoid and trapezius.
+## answer_c
+Long thoracic
+## explanation_c
+The long thoracic nerve supplies serratus anterior, which lies on the opposite wall of the axilla.
+## answer_d
+Dorsal scapular
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. The dorsal scapular nerve supplies the rhomboids and levator scapulae — the muscles lying deep to trapezius, which is very likely how the two came to be exchanged.
+## answer_e
+Thoracodorsal nerve
+## explanation_e
+The thoracodorsal nerve supplies latissimus dorsi, the muscle immediately below trapezius on the back.
+## correct_answer
+B
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Muscles of the Back
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## learning_objective
+Name the nerve supplying trapezius and specify which root of the accessory nerve it is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p23 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but the dorsal scapular nerve supplies the rhomboids and levator scapulae, not trapezius. Trapezius takes the spinal root of the accessory nerve, so B is the answer; the stem records this item as asked in six separate books, which makes getting it right worth the override.
+
+
+---
+
+# Item
+## id
+QM-101-960E363676E1
+## title
+Triangle of auscultation is associated with all of the following EXCEPT:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Triangle of auscultation is associated with all of the following EXCEPT:
+## answer_a
+Latissimus dorsi
+## explanation_a
+True, so not the exception. The upper border of latissimus dorsi forms the lower boundary of the triangle.
+## answer_b
+Teres major
+## explanation_b
+The exception, and the answer. Teres major runs from the lateral border of the scapula to the humerus and bounds the triangular spaces of the axilla instead — a different set of triangles on the other aspect of the scapula, which is what makes the option tempting.
+## answer_c
+Rhomboid major
+## explanation_c
+True, so not the exception. Rhomboid major forms part of the floor of the triangle, beneath the space rather than around it.
+## answer_d
+Trapezius
+## explanation_d
+True, so not the exception. The lateral border of trapezius forms the medial boundary.
+## answer_e
+Medial border of the scapula
+## explanation_e
+True, so not the exception. The medial border of the scapula forms the lateral boundary, and it is the scapula being drawn forwards that opens the triangle enough to listen through.
+## correct_answer
+B
+## main_concept
+CON-MSK-2BCDBB34965818
+## library_ids
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## topic
+Upper Limb
+## subtopic
+Muscles of the Back
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the boundaries and floor of the triangle of auscultation and identify the structure that has nothing to do with it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q15. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Latissimus dorsi, trapezius and the medial border of the scapula are its three boundaries and rhomboid major is its floor; teres major belongs to the axillary triangular spaces and is the exception.
+
+
+---
+
+# Item
+## id
 QM-101-15D54BF1523A
 ## title
 myoepithelial cells are characterized by the following EXCEPT:
@@ -53171,4 +55181,668 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-1AA322BD3AE4
+## title
+One of the following structures lies deep to the extensor retinaculum:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures lies deep to the extensor retinaculum:
+## answer_a
+The basilic vein
+## explanation_a
+The basilic vein is not at the wrist at all — it begins at the medial end of the dorsal venous arch and is already in the forearm by the time the retinaculum is reached. Superficial veins never dive beneath a retinaculum; they lie in the superficial fascia.
+## answer_b
+The dorsal cutaneous branch of the ulnar nerve
+## explanation_b
+A cutaneous nerve, and cutaneous nerves cross superficial to a retinaculum by definition — they are on their way to the skin, and the retinaculum lies deep to the skin. The dorsal cutaneous branch of the ulnar nerve crosses over it to reach the back of the medial fingers.
+## answer_c
+Extensor indices
+## explanation_c
+Correct. Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.
+## answer_d
+The beginning of the cephalic vein
+## explanation_d
+The beginning of the cephalic vein lies in the anatomical snuff box, in the superficial fascia over the retinaculum, which is exactly why it can be cannulated there. Students pick it because the snuff box and the retinaculum are neighbours, but neighbouring is not the same as deep to.
+## correct_answer
+C
+## main_concept
+CON-MSK-44234D1863CE8E
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the tendons that pass through the compartments of the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q91; Anatomy MCQ Book [2025] [first priority].pdf p34 q91. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-85B2B6238587
+## title
+Regarding veins of upper limb, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding veins of upper limb, choose the correct answer:
+## answer_a
+The basilic vein starts at the lateral end of the dorsal venous arch
+## explanation_a
+The two veins swapped. Lateral belongs to the cephalic; the basilic starts at the medial end of the dorsal venous arch and stays medial the whole way up.
+## answer_b
+The cephalic vein starts at the medial end of the dorsal venous arch
+## explanation_b
+The same swap in the other direction, and the commonest single error in this leaf. Cephalic is the lateral vein, from its origin at the lateral end of the arch to the deltopectoral groove.
+## answer_c
+The median cubital vein connects cephalic and basilic veins
+## explanation_c
+Correct. The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.
+## answer_d
+The axillary artery is accompanied by two venae comitantes
+## explanation_d
+Tempting because the brachial artery does have two venae comitantes and the axillary is its continuation upwards. It is not: the venae comitantes end by joining the basilic vein to form a single axillary vein, and from there up there is one vein, not two.
+## correct_answer
+C
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p12 q65; Anatomy MCQ Book [2025] [first priority].pdf p30 q65. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4026BEDFB964
+## title
+One of the following structures lies deep to extensor retinaculum: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures lies deep to extensor retinaculum: (DEP BOOK)
+## answer_a
+The basilic vein
+## explanation_a
+The basilic vein is a superficial vein of the medial forearm and arm and never passes under a retinaculum.
+## answer_b
+The dorsal cutaneous branch of the ulnar nerve
+## explanation_b
+A cutaneous nerve on its way to skin, so it crosses superficial to the retinaculum rather than under it.
+## answer_c
+Extensor indices. P Ac ad
+## explanation_c
+Correct. Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.
+## answer_d
+The beginning of the cephalic vein
+## explanation_d
+The answer the extractor read off this page, and the reason for the override. The cephalic vein does begin at the wrist, in the snuff box — but in the superficial fascia above the retinaculum, which is what makes it accessible to a cannula there.
+## correct_answer
+C
+## main_concept
+CON-MSK-44234D1863CE8E
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the tendons that pass beneath the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p86 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, taken from this copy's page margin rather than a key, and D cannot stand: the cephalic vein begins in the superficial fascia over the anatomical snuff box, superficial to the retinaculum. The identical row `one-of-the-following-structures-lies-deep-to-the-extensor-re-3a476aa5`, asked twice, is keyed C, and C is the only tendon among the four options.
+
+
+---
+
+# Item
+## id
+QM-101-34E6F28D0E84
+## title
+Regarding veins of upper limb, choose the correct answer: (DEP BOOK) Vi P y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding veins of upper limb, choose the correct answer: (DEP BOOK) Vi P y
+## answer_a
+The basilic vein starts at the lateral end of the dorsal venous arch
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Lateral is the cephalic vein's end of the arch; the basilic starts medially.
+## answer_b
+The cephalic vein starts at the medial end of the dorsal venous arch
+## explanation_b
+The same swap read the other way round. The cephalic vein is the lateral one throughout its course.
+## answer_c
+The median cubital vein connects cephalic and basilic veins
+## explanation_c
+Correct. The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.
+## answer_d
+The axillary artery is accompanied by two venae comitantes
+## explanation_d
+The brachial artery has two venae comitantes; the axillary artery does not. Those venae comitantes join the basilic vein at the lower border of teres major and the result is one axillary vein.
+## correct_answer
+C
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is the cephalic vein's origin written under the basilic vein's name. The identical row `regarding-veins-of-upper-limb-choose-the-correct-answer-d354d95f`, asked twice, is keyed C, and C is the only statement of the four that is true.
+
+
+---
+
+# Item
+## id
+QM-101-F93B3D5F2692
+## title
+Regarding veins of upper limb, one is correct answer: (DEP BOOK) Vi y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding veins of upper limb, one is correct answer: (DEP BOOK) Vi y
+## answer_a
+The bicipital aponeurosis separates the cephalic vein from the brachial artery.
+## explanation_a
+The right relationship attached to the wrong vein. It is the median cubital vein, not the cephalic, that lies on the bicipital aponeurosis and is separated by it from the brachial artery — which is the whole reason the cubital fossa is a safe place for a needle.
+## answer_b
+The cephalic vein starts at lateral end of dorsal venous arch of the hand.
+## explanation_b
+Correct. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.
+## answer_c
+The basilic vein pierces the clavipectoral fascia.
+## explanation_c
+The two superficial veins swapped at the point where each leaves the superficial fascia. The cephalic vein pierces the clavipectoral fascia to reach the axillary vein; the basilic pierces the deep fascia far lower, about the middle of the arm.
+## answer_d
+Axillary artery is accompanied by two venae comitantes,
+## explanation_d
+A reasonable extrapolation from the brachial artery, which does have two venae comitantes. They end by joining the basilic vein to form a single axillary vein, so above the lower border of teres major there is one vein and not a pair.
+## correct_answer
+B
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein, and give the cephalic vein its correct origin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only statement of the four that is true: the cephalic vein does start at the lateral end of the dorsal venous arch. A names the wrong vein under the bicipital aponeurosis, C names the wrong vein piercing the clavipectoral fascia, and D gives the axillary artery venae comitantes it does not have.
+
+
+---
+
+# Item
+## id
+QM-101-0A50430DCF18
+## title
+The cephalic vein ends in: (DEP BOOK) P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The cephalic vein ends in: (DEP BOOK) P
+## answer_a
+The axillary vein.
+## explanation_a
+Correct. The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.
+## answer_b
+Median cubital vein.
+## explanation_b
+Backwards. The median cubital vein arises from the cephalic vein at the elbow and carries blood away from it into the basilic; it is a tributary relationship, not a termination.
+## answer_c
+The subclavian vein.
+## explanation_c
+One vein too far. The axillary vein becomes the subclavian only at the outer border of the first rib, by which point the cephalic vein has already joined it.
+## answer_d
+The basilic vein.
+## explanation_d
+Chosen by students who remember the two veins being connected and settle on the connection they know. They are connected — by the median cubital vein at the elbow — but the cephalic vein's own ending is higher and is into the axillary vein.
+## correct_answer
+A
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the vein the cephalic vein drains into and where it does so.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9CF1D1FA5C29
+## title
+The cephalic vein is located on which aspect of the upper limb? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The cephalic vein is located on which aspect of the upper limb? (2024)
+## answer_a
+Lateral.
+## explanation_a
+Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.
+## answer_b
+Medial.
+## explanation_b
+The basilic vein's side, and the answer given by every student who has the two names the wrong way round.
+## answer_c
+Anterior.
+## explanation_c
+The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.
+## answer_d
+Posterior.
+## explanation_d
+The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.
+## correct_answer
+A
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the cephalic vein on the correct side of the limb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
+
+
+---
+
+# Item
+## id
+QM-101-048F476765A4
+## title
+The median cubital vein: (DEP BOOK) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The median cubital vein: (DEP BOOK) y y
+## answer_a
+Connects the axillary and cephalic veins
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. The median cubital vein connects the cephalic vein to the basilic at the elbow. The axillary vein is at the top of the limb and has no connection with it.
+## answer_c
+It is a common vein for intravenous injection
+## explanation_c
+Correct. It is large, superficial and fixed in place, and the bicipital aponeurosis lies between it and the brachial artery — which is why it is the standard vein for venepuncture and intravenous injection.
+## answer_d
+It is one of the deep veins in the upper limb
+## explanation_d
+The reason a student picks this is the needle: the vein a drip goes into feels as though it must be an important, deep one. It lies in the superficial fascia, and every vein that can be seen through the skin at the elbow is superficial by definition.
+## answer_e
+It has many valves
+## explanation_e
+Valves are a general property of the superficial veins of the limb rather than a feature that identifies this one, so the statement singles out nothing and does not discriminate. If a faculty reviewer reads it as true as printed, the item has two defensible answers and needs rewording rather than rescanning.
+## correct_answer
+C
+## main_concept
+CON-MSK-1F14D98DCE111B
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Say which veins the median cubital vein connects and why it is the vein chosen for intravenous injection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, read off this copy's margin, and A is wrong: the median cubital vein connects the cephalic to the basilic, not the axillary to the cephalic. C is unambiguously true and is the clinically relevant statement the item is built around. Option B was lost in extraction, so if a rescan recovers a fifth option that is also defensible, this override should be revisited before the item is sat.
 
