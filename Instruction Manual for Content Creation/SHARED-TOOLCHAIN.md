@@ -1428,3 +1428,75 @@ error counts.
 The right response to it was the one taken: diagnose the cause, prove the batch is fine by
 running `main`'s validator from a scratchpad shim, confirm the merge is clean with
 `git merge-tree` — and **change nothing**, rather than "fixing" work that was already correct.
+
+### A probe tells you the shape it wants, not just whether it works
+
+The third argument for probing over reading. A first matching probe returned **six** errors —
+and crucially **not** "Correct answer is required", which is what a real block would have
+looked like. The errors were grammar, and they handed over the exact contract:
+
+```
+A matching question needs at least two options, written as "A | text"
+A matching question needs at least one prompt, written as "prompt = A"
+```
+
+**The matching grammar, verbatim, so no lane has to guess it:**
+
+```
+## matching_options
+A | Has afferent lymphatics and a subcapsular sinus
+B | Has Hassall's corpuscles and no afferent lymphatics
+## matching_prompts
+Lymph node = A
+Thymus = B
+```
+
+Options are `LETTER | text`, prompts are `text = LETTER`, and **`matching` needs no
+`correct_answer`.** A lane that guesses gets six errors reading like a broken format rather
+than a mistyped field. Reading the source would not have produced this.
+
+### A category list that decides which files an extractor opens is a silent filter
+
+`mcq.py`'s per-module categories gave one lane `Instructor material` and `Department
+Questions` — correct for the department books, and it **silently excluded the exam papers**.
+`EOM 196 104 - 2023` is a **120-question MCQ paper**. It was invisible to the MCQ extractor,
+while the *written* extractor took 36 rows out of it because it is not a written paper.
+**Miscategorised in both directions, and nothing errored.**
+
+Those 120 questions are a **37% increase** on a bank of 328 answered — and they are *exam*
+questions, which outrank department-book questions for blueprint weight.
+
+**Check yours: cross-tabulate the manifest by `sourceCategory` and ask whether every file that
+*contains* MCQs sits in a category the MCQ extractor reads.** That lane's were spread across
+three categories and it was reading two. **The symptom is not an error — it is a smaller
+bank.**
+
+Flag recovered answers distinctly (`handwritten-recovered`) so a reviewer can always tell an
+answer read off a scan from one the paper printed.
+
+### `content.yml` cannot express an update batch — and update-plus-mint makes that everyone's problem
+
+`medical:batch` judges every row as a **new** record, so an update row that reuses a live ID
+and adds a module fails on fields that exist on the live record:
+
+```
+Item 1 (Loading dose): no definition
+Item 1 (Loading dose): no explicit objective — a concept without one cannot be assessed
+```
+
+The batch is correct — `medical:simulate` reports `created 0, updated 9, 0 errors`, and a diff
+against live state showed **138 fields changed, 0 emptied**. **A correct batch fails the
+gate**, and the workflow has no way to say "this one is an update".
+
+**The interim workaround, and its limits.** Restate the required fields on each update row,
+taking the values **verbatim from live state programmatically** — never by hand. The row then
+asserts what is already true and both gates pass. But it is redundant data, it does not scale
+(200 records would restate two paragraphs 200 times), and later drift between batch and live
+state becomes a **silent revert**. **A mistyped restatement is a silent overwrite of live
+content.**
+
+**The real fix needs an owner — one of:**
+1. `content.yml` routes files matching an update convention (filename suffix, or a
+   front-matter marker) to `medical:simulate` instead of `medical:batch`; or
+2. `medical:batch` grows a `--update` flag that relaxes the new-record required-field set and
+   resolves IDs against live state.
