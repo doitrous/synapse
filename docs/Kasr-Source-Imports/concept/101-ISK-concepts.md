@@ -1,9 +1,9 @@
 <!--
   Concepts for 101 ISK, from every paper read so far.
 
-    EOY (ISK - 101) 199 (1).pdf — end of year 2025, 16 questions
+    EOY (ISK - 101) 199 (1).pdf — end of year 2025, 17 questions
 
-  16 concepts from 16 questions.
+  17 concepts from 17 questions.
   0 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
@@ -754,7 +754,7 @@ src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 ## support_mode
 direct_statement
 ## original_wording
-[Anatomy Q9, 3 marks] Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.
+[Anatomy Q9, 3 marks] Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?
 ## owner
 Claude
 ## publication_status
@@ -768,19 +768,19 @@ arabicLabel: Arabic terminology for this concept has not been researched yet; it
 
 # Item
 ## label
-Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise
+The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery
 ## id
-CON-MSK-53D952D6FB4265
+CON-MSK-0DC3FA5C012B3D
 ## canonical_key
-scaphoid-fracture-snuff-box-tenderness
+anatomical-snuff-box-boundaries-contents-floor-roof
 ## definition
-The floor of the anatomical snuff box is the scaphoid, so tenderness there after a fall on the outstretched hand indicates scaphoid fracture. The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally, so a fracture across the waist may deprive the proximal fragment of its supply and cause avascular necrosis.
+The anatomical snuff box is a triangular hollow on the lateral wrist. Its anterior boundary is the tendons of abductor pollicis longus and extensor pollicis brevis; its posterior boundary is the tendon of extensor pollicis longus; its base is the styloid process of the radius. Its floor is the scaphoid and trapezium with the base of the first metacarpal and the styloid process of the radius, and its roof is skin and fascia crossed by the cephalic vein and the superficial branch of the radial nerve. Its contents are the radial artery and the beginning of the cephalic vein.
 ## explicit_objective
-Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.
+Give the boundaries, contents, floor and roof of the anatomical snuff box.
 ## pitfalls
-Excluding it on a normal first radiograph. A scaphoid fracture is often invisible for ten to fourteen days, and a normal early film does not clear it.
+Giving abductor pollicis longus and extensor pollicis brevis as two separate boundaries. They form the anterior boundary together, and the posterior boundary is extensor pollicis longus alone.
 ## concept_type
-clinical_correlation
+structural_description
 ## status
 under review
 ## subject
@@ -804,7 +804,57 @@ src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 ## support_mode
 direct_statement
 ## original_wording
-[Anatomy Q10, 3 marks] Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.
+[Anatomy Q10, 3 marks] Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+
+---
+
+# Item
+## label
+Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula
+## id
+CON-MSK-8D52E127159B80
+## canonical_key
+long-thoracic-nerve-injury-winged-scapula
+## definition
+The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.
+## explicit_objective
+Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.
+## pitfalls
+Blaming the axillary nerve. That would weaken abduction to ninety degrees and numb the regimental badge area; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
+## weight_confidence
+0.7
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q9, 0 marks] Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?
 ## owner
 Claude
 ## publication_status

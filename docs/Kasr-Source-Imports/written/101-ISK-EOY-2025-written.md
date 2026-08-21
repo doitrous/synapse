@@ -74,7 +74,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -146,7 +146,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -218,7 +218,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -290,7 +290,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -362,7 +362,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -434,7 +434,7 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -1046,19 +1046,33 @@ msk
 ## status
 Draft
 ## format
-structured_written
+multipart_written
 ## question
-A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.
+A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed.
 ## written_parts
-### (a) 3 marks
-A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.
-Expects: About three quarters of the lymph of the breast drains to the axillary nodes
+### (a) 0.75 marks
+What lymph nodes should be removed during the mastectomy operation?
+Expects: The axillary nodes, which receive about three quarters of the lymph of the breast
 Expects: Chiefly the anterior (pectoral) group, then the central and apical nodes
-Expects: The medial quadrants drain to the internal thoracic (parasternal) nodes
-Expects: Carcinoma therefore spreads first to the axilla, which is why the axilla is sampled or cleared at operation
 Concept: CON-MSK-C8C7E857552F4C
+### (b) 0.75 marks
+Should the physician examine the other breast? Why?
+Expects: Yes
+Expects: Lymphatics cross the midline, so carcinoma can reach the opposite breast
+Expects: The medial quadrants also drain to the internal thoracic (parasternal) nodes, so a clear axilla is not a clear chest
+Concept: CON-MSK-C8C7E857552F4C
+### (c) 0.75 marks
+After the operation the patient was unable to abduct her arm above the shoulder. Account for this.
+Expects: The long thoracic nerve (C5, C6, C7) was injured during axillary clearance
+Expects: It lies on the surface of serratus anterior on the medial wall of the axilla
+Expects: Serratus anterior rotates the scapula upward, which abduction above the shoulder requires
+Concept: CON-MSK-8D52E127159B80
+### (d) 0.75 marks
+What other deformity can be noticed?
+Expects: Winging of the scapula — its medial border stands off the chest wall
+Concept: CON-MSK-8D52E127159B80
 ## main_concept
-CON-MSK-C8C7E857552F4C
+CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
 ## topic
 Anatomy
 ## subtopic
@@ -1078,7 +1092,7 @@ Moderate
 ## question_type
 Clinical application
 ## learning_objective
-Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes.
+Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes. Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.
 ## setting
 Academic
 ## academic_relevance
@@ -1086,7 +1100,7 @@ Academic
 ## clinical_relevance
 0.8
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -1098,10 +1112,10 @@ Claude
 ## source_citation
 EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q9, p15. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
-Transcribed from the paper, not derived. The examiner's wording was: “Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.”
+Transcribed from the paper, not derived. The examiner's wording was: “Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed? Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
-Per-element marks are not the examiner's — the paper gave 3 for the whole question and named the elements. The scheme apportions.
-No vignette: this paper states its cases inside the question itself, so there is no separate stem.
+The paper printed 4 lettered subparts and one total of 3 marks, so the letters divide it evenly. The per-letter figure is not the examiner's.
+This question is co-primary on 2 concepts: its subparts test things a student can know separately.
 No derived_from: transcribed rather than derived, so there is nothing to name.
 
 ---
@@ -1110,25 +1124,40 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-101-E4CC79B21E30
 ## title
-Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise
+The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery
 ## subject
 msk
 ## status
 Draft
 ## format
-structured_written
+multipart_written
 ## question
-A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.
+A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box.
 ## written_parts
-### (a) 3 marks
-A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.
-Expects: The floor of the anatomical snuff box is the scaphoid
-Expects: Tenderness there after a fall on the outstretched hand indicates a scaphoid fracture
-Expects: The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally
-Expects: A fracture across the waist may cut off the proximal fragment’s supply and cause avascular necrosis
-Concept: CON-MSK-53D952D6FB4265
+### (a) 0.75 marks
+What are the boundaries of the anatomical snuff box?
+Expects: Anteriorly, the tendons of abductor pollicis longus and extensor pollicis brevis together
+Expects: Posteriorly, the tendon of extensor pollicis longus
+Expects: Its base is the styloid process of the radius
+Concept: CON-MSK-0DC3FA5C012B3D
+### (b) 0.75 marks
+What are the contents of the anatomical snuff box?
+Expects: The radial artery, crossing the floor
+Expects: The beginning of the cephalic vein
+Concept: CON-MSK-0DC3FA5C012B3D
+### (c) 0.75 marks
+What makes the floor of the anatomical snuff box?
+Expects: The scaphoid and the trapezium
+Expects: With the styloid process of the radius and the base of the first metacarpal
+Expects: Which is why tenderness here after a fall on the outstretched hand means a scaphoid fracture
+Concept: CON-MSK-0DC3FA5C012B3D
+### (d) 0.75 marks
+What makes the roof of the anatomical snuff box?
+Expects: Skin and fascia
+Expects: Crossed by the cephalic vein and the superficial branch of the radial nerve
+Concept: CON-MSK-0DC3FA5C012B3D
 ## main_concept
-CON-MSK-53D952D6FB4265
+CON-MSK-0DC3FA5C012B3D
 ## topic
 Anatomy
 ## subtopic
@@ -1146,21 +1175,21 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Clinical application
+Structure and function
 ## learning_objective
-Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.
+Give the boundaries, contents, floor and roof of the anatomical snuff box.
 ## setting
 Academic
 ## academic_relevance
 0.9
 ## clinical_relevance
-0.8
+0.3
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
-3
+1
 ## estimated_seconds
 180
 ## owner
@@ -1168,8 +1197,8 @@ Claude
 ## source_citation
 EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q10, p15. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
-Transcribed from the paper, not derived. The examiner's wording was: “Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.”
+Transcribed from the paper, not derived. The examiner's wording was: “Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
-Per-element marks are not the examiner's — the paper gave 3 for the whole question and named the elements. The scheme apportions.
+The paper printed 4 lettered subparts and one total of 3 marks, so the letters divide it evenly. The per-letter figure is not the examiner's.
 No vignette: this paper states its cases inside the question itself, so there is no separate stem.
 No derived_from: transcribed rather than derived, so there is nothing to name.

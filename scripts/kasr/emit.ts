@@ -68,17 +68,46 @@ authored_needs_independent_evidence
 arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.`
 }
 
-export function writtenBlock(paper: Paper, seed: Seed, articleId?: string): string {
+/**
+ * The written question for one number on the paper.
+ *
+ * Takes every seed sharing that number, because a question can test more than
+ * one concept: the cases on this paper each ask four lettered things, and case
+ * 1 moves from the lymphatic drainage of the breast to a nerve injured during
+ * the operation. A student can know one and not the other, so the question is
+ * co-primary on both and mastery is credited to whichever the subpart tested.
+ */
+export function writtenBlock(paper: Paper, seeds: Seed[], articleFor: (conceptId: string) => string | undefined): string {
   const { source } = paper
+  const [seed] = seeds
   const scheme = paper.schemes[partsKey(seed)]
   if (!scheme) throw new Error(`${source.file}: no mark scheme for ${partsKey(seed)}`)
-  const conceptId = mintConceptId(seed.subject, seed.key)
+
+  const byKey = new Map(seeds.map((one) => [one.key, mintConceptId(one.subject, one.key)]))
+  const conceptId = byKey.get(seed.key)!
   const total = paper.seeds.reduce((sum, other) => sum + other.marks, 0)
+
+  // The paper prints a total for the question and letters beneath it, so the
+  // letters divide it evenly. Kept fractional rather than rounded: rounding
+  // each part and totalling drifts from the mark on the page.
+  const parts = scheme.parts?.length
+    ? scheme.parts.map((part) => {
+      const marks = seed.marks / scheme.parts!.length
+      const partConcept = part.conceptKey ? byKey.get(part.conceptKey) ?? conceptId : conceptId
+      return `### (${part.letter}) ${Number(marks.toFixed(2))} marks\n${part.prompt}\n`
+        + part.expects.map((point) => `Expects: ${point}`).join('\n')
+        + `\nConcept: ${partConcept}`
+    }).join('\n')
+    : `### (a) ${seed.marks} marks\n${scheme.prompt}\n`
+      + scheme.expects.map((point) => `Expects: ${point}`).join('\n')
+      + `\nConcept: ${conceptId}`
 
   // What this question is worth out of the paper, on the field's 0–10 scale,
   // taken from the marks the examiner gave it rather than from an opinion.
   const relevance = Math.min(10, (seed.marks / total) * 10 * paper.seeds.length).toFixed(1)
-  const clinical = seed.type === 'clinical_correlation'
+  const clinical = seeds.some((one) => one.type === 'clinical_correlation')
+  const articles = [...new Set([...byKey.values()].map(articleFor).filter(Boolean))]
+  const askedAll = seeds.map((one) => one.asked).join(' ')
 
   return `# Item
 ## id
@@ -94,12 +123,9 @@ ${scheme.format}
 ## question
 ${scheme.prompt}
 ## written_parts
-### (a) ${seed.marks} marks
-${scheme.prompt}
-${scheme.expects.map((point) => `Expects: ${point}`).join('\n')}
-Concept: ${conceptId}
+${parts}
 ## main_concept
-${conceptId}
+${[...byKey.values()].join(' | ')}
 ## topic
 ${seed.section}
 ## subtopic
@@ -107,7 +133,7 @@ ${seed.modulePath.split(' > ').slice(-1)[0]}
 ## module
 101 ISK
 ## module_subject
-${seed.modulePath}
+${[...new Set(seeds.map((one) => one.modulePath))].join('\n')}
 ## universities
 kau
 ## years
@@ -119,7 +145,7 @@ ${seed.marks >= 6 ? 'Hard' : 'Moderate'}
 ## question_type
 ${clinical ? 'Clinical application' : 'Structure and function'}
 ## learning_objective
-${seed.objective}
+${seeds.map((one) => one.objective).join(' ')}
 ## setting
 Academic
 ## academic_relevance
@@ -134,15 +160,17 @@ ${seed.marks >= 6 ? 'High' : 'Medium'}
 ${clinical ? '3' : '1'}
 ## estimated_seconds
 ${seed.marks * 60}
-${articleId ? `## library_ids\n${articleId}\n` : ''}## owner
+${articles.length ? `## library_ids\n${articles.join('\n')}\n` : ''}## owner
 Claude
 ## source_citation
 ${source.file} — Kasr Al Ainy ${source.tier.replace(/_/g, ' ')} ${source.sittingYear}, ${seed.section} Q${seed.q}, p${seed.page}. Manifest ${source.id}.
 ## author_notes
-Transcribed from the paper, not derived. The examiner's wording was: “${seed.asked}”
+Transcribed from the paper, not derived. The examiner's wording was: “${askedAll}”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
-Per-element marks are not the examiner's — the paper gave ${seed.marks} for the whole question and named the elements. The scheme apportions.
-No vignette: this paper states its cases inside the question itself, so there is no separate stem.
+${scheme.parts?.length
+  ? `The paper printed ${scheme.parts.length} lettered subparts and one total of ${seed.marks} marks, so the letters divide it evenly. The per-letter figure is not the examiner's.`
+  : `Per-element marks are not the examiner's — the paper gave ${seed.marks} for the whole question and named the elements. The scheme apportions.`}
+${byKey.size > 1 ? `This question is co-primary on ${byKey.size} concepts: its subparts test things a student can know separately.` : 'No vignette: this paper states its cases inside the question itself, so there is no separate stem.'}
 No derived_from: transcribed rather than derived, so there is nothing to name.`
 }
 

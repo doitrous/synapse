@@ -57,11 +57,40 @@ export interface Seed {
 export type WrittenFormat =
   | 'short_answer' | 'structured_written' | 'comparison_table' | 'essay' | 'multipart_written'
 
+/** One lettered subpart, where the paper printed lettered subparts. */
+export interface SchemePart {
+  /** `a`, `b`, `c` — the paper's own letter. */
+  letter: string
+  prompt: string
+  expects: string[]
+  /**
+   * The concept this subpart tests, when it is not the question's first.
+   *
+   * The two cases on the 2025 paper each ask four lettered things, and they are
+   * not four askings of one idea: case 1 goes from the lymphatic drainage of
+   * the breast to a nerve injured at operation, which a student can know one of
+   * and not the other. A subpart that tests its own concept says so here, and
+   * the question becomes co-primary on both.
+   */
+  conceptKey?: string
+}
+
 export interface Scheme {
   format: WrittenFormat
   /** The prompt as the student sits it, and what earns the marks. */
   prompt: string
   expects: string[]
+  /**
+   * The paper's lettered subparts, where it printed them.
+   *
+   * Absent on most questions, which state one demand in one sentence. Present
+   * on the cases, and flattening those into a single prompt lost the structure
+   * the examiner actually set — which is how a case asking for the boundaries,
+   * contents, floor and roof of the snuff box was first read as a question
+   * about scaphoid fracture. The marks divide evenly across the letters,
+   * because the paper gives a total for the case and letters beneath it.
+   */
+  parts?: SchemePart[]
 }
 
 /** One paper, as a module a generator can pick up. */
