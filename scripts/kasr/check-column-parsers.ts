@@ -36,7 +36,11 @@ const PROBE = 'KASRPROBEALPHA | KASRPROBEBETA'
 const lists = new Set<string>()
 const texts = new Set<string>()
 for (const field of CONCEPT_IMPORT_FIELDS) {
-  const stored = conceptFromRow({ [field.key]: PROBE } as Record<string, string>) as Record<string, unknown>
+  // Through `unknown`: `Concept` has no index signature, so the direct cast is
+  // an error the type checker only started reporting once `scripts/` was put
+  // into a program at all. Reading its values generically is the point of the
+  // probe, and this is the sanctioned way to say so.
+  const stored = conceptFromRow({ [field.key]: PROBE } as Record<string, string>) as unknown as Record<string, unknown>
   const value = Object.values(stored).find((one) =>
     (Array.isArray(one) && one.some((item) => String(item).includes('KASRPROBE')))
     || (typeof one === 'string' && one.includes('KASRPROBE')))

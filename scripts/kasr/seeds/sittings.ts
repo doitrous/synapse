@@ -45,6 +45,7 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
     'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
     'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
     'src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK',
+    'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
   ],
   'extensor-retinaculum-attachments-compartments': [
     'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
@@ -73,6 +74,7 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
   ],
   'lysosome-types-secondary-fates': [
     'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
+    'src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK',
   ],
   'musculocutaneous-nerve-origin-course-branches': [
     'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
@@ -94,6 +96,7 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
     'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
     'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
     'src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK',
+    'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
   ],
   'rotator-cuff-four-muscles-and-shoulder-stability': [
     'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
@@ -125,19 +128,10 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
     'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
     'src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK',
   ],
-  'elbow-joint-type-bones-ligaments': [
-    'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
-  ],
-  'radial-nerve-origin-root-branches': [
-    'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
-  ],
   'embryonic-folding-types-and-causes': [
     'src_ec930bfde4ad26924402 | baqoon | 2023 | p1 | 101 ISK',
     'src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK',
   ],
   // The July 2023 model answer covers this objective, and it is the department's
   // own mark scheme rather than one authored from the book.
-  'lysosome-types-secondary-fates': [
-    'src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK',
-  ],
 }
