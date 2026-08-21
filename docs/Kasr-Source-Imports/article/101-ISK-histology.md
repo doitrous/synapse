@@ -276,6 +276,7 @@ CON-HEM-A2BE134E34EB83
 CON-HEM-B000CE18F93F83
 CON-HEM-2AD9D05B2B6947
 CON-HEM-5E948BE9C94615
+CON-HEM-9A7C4752AA21E3
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The platelet's lambda granules are lysosomes, and its microtubules and actin microfilaments are the cytoskeletal elements described in the cytology chapter.
 ## aliases
@@ -313,6 +314,14 @@ The hyalomere is peripheral, pale and basophilic, and contains no granules. It c
 The granulomere is central, dark and granular. It contains the mitochondria, ribosomes and glycogen, and the alpha, delta and lambda granules. It is the stored part of the platelet.
 
 An answer that puts the granules in the hyalomere, or the canalicular system in the granulomere, has lost the distinction the question is built on. The rule to hold is that the hyalomere is machinery and the granulomere is cargo.
+
+**What the department's plates mark, and what the answer page accepts.** The platelet is arrowed on nearly every Leishman blood film in the practical book, and it is arrowed alongside the cell it has to be told from. The stem always opens with the preparation and the stain — a blood film, stained by Leishman's — before any arrow is answered.
+
+What identifies a platelet on the film is what it is not. It has no nucleus, which is the character the answer page rests on: the department calls it a fragment, and the book states outright that platelets, like red corpuscles, are not true cells. It is also the smallest thing on the plate at 2 to 4 µm, smaller than a red corpuscle at 7.5 µm and far smaller than any leucocyte, the smallest of which — the small lymphocyte — is 6 to 8 µm and carries a nucleus that fills it.
+
+The department presses that comparison directly. One plate is set as two fields and asks both at once: the arrow in field A is on platelets, and the boxed area in field B is lymphocytes. On the single-cell films the markers for platelets are usually plural — several arrowheads, or one arrow on a group — so a student should expect to name a small group rather than one isolated fragment. At the magnification of an oil-immersion film the two zones can be made out in a well spread platelet: a pale peripheral hyalomere and a darker central granulomere.
+
+The failure this is set to catch is reading a group of platelets as one nucleated cell. Nothing in a platelet is a nucleus. The granulomere is dark and central and can be mistaken for one, and the distinction is that it is granular rather than a single stained mass, and that the fragment carrying it is smaller than any leucocyte on the field.
 
 ### Normal values
 Platelet count is 200,000–400,000 per cubic millimetre. Platelet diameter is 2–4 µm. There are three types of granule in the granulomere. Purpura is diagnosed when the platelet count falls below 50,000 per cubic millimetre.
@@ -371,10 +380,13 @@ Rights: newly drawn for this product, or CC-BY
 The book does not use the term "marginal bundle" for the platelet's microtubules, although the concept definition does. This article uses the book's own wording, "microtubules maintaining cell shape".
 The book does not describe the platelet's role in coagulation beyond naming the alpha granule contents as "clotting factors". No named factor, no cascade and no adhesion receptor is given, so none is stated here.
 The book does not state a platelet life span.
+The book does not say what a platelet looks like against a small leucocyte on a film, nor that platelets appear in groups on a stained preparation. The size comparison in Key determinants is made from the book's own diameters, given in three different chapters — 2 to 4 µm for the platelet, 7.5 µm for the red corpuscle, 6 to 8 µm for the small lymphocyte — and the statement that the department's markers are usually plural is a reading of the practical plates rather than a claim either source makes about how platelets behave on a film.
 The book does not describe the sequence of adhesion, activation and aggregation as named steps. The ordering given in the Mechanism section is assembled from the book's own statements about each structure, and is presented as a reading of them rather than as a numbered sequence the book states.
 No independent citation has been attached. Every figure here rests on the department book alone.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Platelets (Thrombocytes)", printed pages 29-31. Extracted to scripts/kasr/extract/deptbook.json.
+The red corpuscle and small lymphocyte diameters used in the size comparison are from the same book's "Red Blood Corpuscles" and "Non Granular Leucocytes" chapters, printed pages 26-28 and 36-38.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json — the marked plates and facing answer pages on which the platelet is arrowed within a Leishman film (pp. 90, 92, 94, 96, 100), and the two-field plate that asks platelets in field A against lymphocytes in field B (p. 102).
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. The figures this article needs are written as image recommendations.
@@ -383,7 +395,12 @@ subtopic: No SUB_ identifier has been assigned to this module in the canonical t
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+practicalIdentification: The size comparison against the small lymphocyte is assembled from three chapters of the book, and the note that the department's platelet markers are usually plural is a reading of the plates. Both are recorded in evidence_gaps.
 ## notes
+Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught what a platelet is — a non-nucleated fragment, 2 to 4 µm, with a pale hyalomere and a dark granulomere — but it was written for a written paper and said nothing about finding one on a film among cells that are all larger than it. That is what the department's plates actually ask, and it is now in Key determinants.
+
+Note for the evidence pass: ART-101-HIS-ID-BLOOD-FILM, in ../article/101-ISK-identification.md, is the recognition article for the blood film as a preparation and names the platelet as the third element of that survey. This article claims only the platelet's own identification concept, CON-HEM-9A7C4752AA21E3, which sits on the Blood Platelets leaf rather than on the blood film one. If the two accounts are consolidated, the leaf placement should decide which way.
+
 The Mechanism section deliberately assembles the book's separate statements into one sequence, because the exam question asks the student to correlate structure with function rather than to list contents. The assembly is flagged in evidence_gaps so a reviewer can see what is the book's ordering and what is this article's.
 
 ---
@@ -1182,7 +1199,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-0FAE59E00B748E
+CON-FND-0FAE59E00B748E | CON-FND-942169C7CEC1CA
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The department book teaches cilia, flagella, microvilli and stereocilia in the cytology chapter and cross-refers to it from here, so the ultrastructure in this article is drawn from there.
 ART-101-HIS-SURFACE-EPITHELIUM: Ciliated epithelia, and the clear against non-clear basement membrane that separates stratified squamous from transitional epithelium, are described in the surface epithelium chapter.
@@ -1226,6 +1243,10 @@ Basal body: twenty-seven microtubules in nine triplets, the same as a centriole,
 
 For the distinction that the exam sets, the comparison is with the microvillus. A microvillus is a finger-like projection shorter than a cilium, seen by light microscopy as an apical striated brush border. Its core is actin filaments inserted into a terminal web, not microtubules. It has no axoneme, no basal body and no rootlets, it does not beat, and its function is to increase surface area for absorption, as in the small intestine. A stereocilium is not a cilium at all despite the name: it is a long, non-motile microvillus with an actin core and no microtubules, and it helps absorption in the male genital system, in the epididymis.
 
+**What the department's plate marks, and what the answer page accepts.** The practical book sets the two projections in one electron-microscopic field and asks one character of each. The red square is drawn around the shaft, or axoneme, of a cilium, and the character is that it is formed of about twenty microtubules; the red arrow inside it is on the peripheral doublets and the blue arrow on the two central singlets, marked as separate answers. The blue square is drawn around microvilli, and the characters the answer page gives are three: no microtubules, a pale core, and small. The yellow arrows fall on the cell membrane, which covers both projections and is the reason neither can be identified from its outline.
+
+Two things follow that a written account of the same material does not force. The first is that the microvillus is identified by an absence — the pale core is pale because there is nothing in it that a heavy-metal stain will hold, the actin filaments of its core being far finer than a microtubule. The second is that length is the worst discriminator available, because stereocilia are long microvilli and are longer than many cilia. What settles it is what is in the core, on the plate as in the chapter.
+
 For the junctions, three properties separate them: whether the junction encircles the cell or is a spot, what it anchors to inside the cell, and whether anything passes through it. The zonula occludens encircles and seals. The zonula adherens encircles and anchors actin. The macula adherens is a spot and anchors intermediate filaments, and it is the strongest of the junctions, which is why it is commonest in stratified squamous epithelium, where the surface is subjected to friction. The gap junction lets material through, which none of the other three does. Where the first three occur together between adjacent cells — as between the simple columnar cells lining the small intestine — the arrangement is called the junctional complex.
 
 For the basement membrane, the two electron-microscopic layers are named by which tissue made them. The basal lamina is the epithelial component: an electron-dense sheet of type IV collagen granules and glycoproteins. The reticular lamina is the connective tissue component: type III collagen, which is the reticular fibres, and ground substance. Both are attached to the underlying connective tissue by structures including type VII collagen anchoring fibrils. On light microscopy the basement membrane is an amorphous dense layer next to the basal surface of the epithelium, seen as a red line with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
@@ -1257,6 +1278,8 @@ The four lateral junctions are zonula occludens, zonula adherens, macula adheren
 The desmosome anchors intermediate filaments to an attachment plaque, does not encircle the cell, and is the strongest junction.
 The basement membrane has two EM layers: basal lamina of type IV collagen from the epithelium, and reticular lamina of type III collagen from the connective tissue.
 Basal infoldings increase surface area with vertically arranged mitochondria between them, and occur in ion-transporting cells such as kidney tubules.
+On the department's electron micrograph the shaft of the cilium is accepted as an axoneme of about twenty microtubules, with the peripheral doublets and the two central singlets arrowed separately, and the microvilli as small, with a pale core and no microtubules; the cell membrane covers both.
+Length does not separate a microvillus from a cilium. Stereocilia are long microvilli, and the core is what decides.
 ## lose_the_mark
 Giving microvilli the same answer as cilia. A microvillus has an actin core and no axoneme, and does not beat.
 Calling stereocilia cilia. They are long non-motile microvilli with an actin core and no microtubules.
@@ -1265,6 +1288,7 @@ Saying the cilium arises from the Golgi or from the nucleus. It arises from a ce
 Swapping the two adherens junctions. Zonula adherens is a belt anchoring actin, macula adherens is a spot anchoring intermediate filaments.
 Putting four junctions in the junctional complex. The gap junction is not one of the three.
 Naming the basal lamina as the connective tissue layer. The basal lamina is the epithelial component, the reticular lamina the connective tissue one.
+Deciding between a microvillus and a cilium by length. Stereocilia are long microvilli and are longer than many cilia; the microtubule content of the core is the discriminator.
 ## image_recommendations
 ### diagram · Cilium in longitudinal section and in transverse section on one plate, the LS showing basal body, shaft and rootlets, the TS through the shaft showing 9 doublets and 2 central singlets and the TS through the basal body showing 9 triplets
 Purpose: The examinable content is two different microtubule counts in two parts of one structure, and the counts only make sense when the plane of section that produced each is visible. Prose gives 27 and 20 as two numbers to memorise; the plate gives them as two views of one object.
@@ -1321,12 +1345,14 @@ Rights: must be CC-BY or public domain
 The department book does not mention dynein arms, nexin links or radial spokes. It attributes the beat to "bending of adjacent doublets" and stops there. The dynein arms named in concept CON-FND-0FAE59E00B748E are therefore not supported by this source, are not stated in this article, and need either an independent citation or removal from the concept.
 The book does not name the disease of immotile cilia, describing only chronic respiratory infection and male infertility as consequences. No syndrome name is given here.
 The book gives no length or diameter for a cilium, a microvillus or a flagellum.
+The book does not explain why the microvillus core appears pale on an electron micrograph. It states that the core is actin filaments and that the cilium's is microtubules; the sentence in Key determinants relating the pallor to the finer calibre of an actin filament is this article's own reading of those two statements, and neither source prints it.
 The book does not name the transmembrane protein families of the junctions - no claudin, occludin, cadherin or connexin appears - so this article describes them as the book does, as transmembrane protein molecules.
 The Polarity and Membranous Specializations chapter itself covers no apical specialisation. Its apical section is a cross-reference reading "Cilia, flagella, microvilli and stereocilia: See the cytology" and nothing more. All apical content in this article comes from the same book's cytology chapter.
 No independent citation has been attached to any statement in this article.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Cell Polarity and Membranous Specializations", printed pages 60-62. Extracted to scripts/kasr/extract/deptbook.json.
 Apical specialisations - cilia, flagella, microvilli, stereocilia and the centriole they derive from - are taken from the same book's chapter "The Cytoplasm", printed pages 19-20, to which the epithelial chapter explicitly cross-refers.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json - the marked plate and facing answer page showing cilia and microvilli in one electron-microscopic field (p. 59), and the plate of the ciliary axoneme alone (p. 57). Every marker and accepted character in "What the department's plate marks" is taken from those answer pages.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every figure is written as an image recommendation.
@@ -1335,8 +1361,11 @@ subtopic: No SUB_ identifier has been assigned to this module in the canonical t
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-0FAE59E00B748E carries no secondary placement, and none is invented here.
+practicalIdentification: The explanation of why the microvillus core is pale is this article's reading of two of the book's statements rather than a sentence either source prints, and it is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
+Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught both structures and the discriminator between them, so what was added is the department's own marker-by-marker answers and the two things a marked plate forces that a written account does not - that the microvillus is identified by an absence, and that length is the worst discriminator available because stereocilia are longer than many cilia.
+
 This leaf's own chapter contains no apical content at all - it cross-refers to cytology - so the cilium material that the exam question depends on is drawn from the cytology chapter of the same book. That crossing is recorded in evidence_basis and evidence_gaps so a reviewer can see it was deliberate. Nothing is taken from outside the department book.
 
 ---

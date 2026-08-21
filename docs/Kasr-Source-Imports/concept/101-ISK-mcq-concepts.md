@@ -11281,7 +11281,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-[clear]
+
 ## weight_confidence
 0.6
 ## blueprint_weight

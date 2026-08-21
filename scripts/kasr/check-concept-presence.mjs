@@ -37,6 +37,8 @@
  */
 import { readFileSync } from 'node:fs'
 import { conceptFromRow, materialiseNewConcept, resolvePlacement, CONCEPT_IMPORT_FIELDS } from '../../src/data/conceptImport.ts'
+import { IMPORT_SCHEMAS, importRowToContent } from '../../src/data/bulkImport.ts'
+import { materialiseNewItem } from '../../src/data/importMerge.ts'
 import { CURRICULUM_CATALOG } from '../../src/data/curriculumCatalog.ts'
 
 /** Kept identical to `audit-medical-content-fields.mjs`; drift here is silent. */
@@ -91,6 +93,34 @@ const SHAPE = {}
   }
 }
 
+/**
+ * The same measurement for an article, which needs a different probe.
+ *
+ * `conceptFromRow` takes a bare row; `importRowToContent` needs enough context
+ * to materialise, so a single-column probe reaches nothing and every column
+ * comes back unclassified. A check that cannot see half its subject reports
+ * that half as clean — the errs-toward-green failure, in the fix built to stop
+ * it.
+ */
+const ARTICLE_SHAPE = {}
+{
+  const base = {
+    id: 'ART-PROBE', title: 'T', subject: 'fnd', topic: 'X',
+    summary: 'S', sections: '### Definition\nBody',
+  }
+  const build = (row) => materialiseNewItem(importRowToContent('article', row, 'probe'))
+  const before = build(base)
+  for (const { key } of IMPORT_SCHEMAS.article.fields) {
+    if (base[key] !== undefined) continue
+    const probe = build({ ...base, [key]: 'AAA | BBB' })
+    for (const prop of Object.keys(probe.articleData ?? {})) {
+      if (JSON.stringify(probe.articleData[prop]) !== JSON.stringify(before.articleData?.[prop])) {
+        ARTICLE_SHAPE[key] = Array.isArray(probe.articleData[prop]) ? 'list' : 'text'
+      }
+    }
+  }
+}
+
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
 /** The import wizard's parser, kept identical on purpose. */
@@ -106,13 +136,40 @@ const isEmpty = (value) => value === undefined || value === null || value === ''
   || (Array.isArray(value) && !value.length)
   || (typeof value === 'object' && !Array.isArray(value) && !Object.keys(value).length)
 
+/**
+ * A checker that cannot fail proves nothing.
+ *
+ * Both mistakes are fed through deliberately before any real file is read, and
+ * if either comes back clean the run aborts — because at that point a zero from
+ * this script would mean the probe stopped working, not that the batches are
+ * right, and those look identical from outside.
+ */
+{
+  const wrongWay = { id: 'CON-CTRL', label: 'L', canonical_key: 'k', definition: 'd' }
+  const textCol = Object.keys(SHAPE).find((key) => SHAPE[key] === 'text')
+  const listCol = Object.keys(SHAPE).find((key) => SHAPE[key] === 'list')
+  if (!textCol || !listCol) {
+    console.error('control failed: the probe classified no text or no list column — it is not working')
+    process.exit(2)
+  }
+  const built = materialiseNewConcept(conceptFromRow({ ...wrongWay, [textCol]: '[clear]' }))
+  const stored = Object.values(built).some((value) => value === '[clear]')
+  if (!stored) {
+    console.error(`control failed: "[clear]" in the text column ${textCol} did not survive as a literal, `
+      + 'so this script can no longer detect the bug it exists for')
+    process.exit(2)
+  }
+}
+
 let failed = 0
 for (const file of process.argv.slice(2)) {
   const rows = parse(readFileSync(file, 'utf8')).filter((row) => row.id || row.label)
+  const isArticle = rows.some((row) => row.summary !== undefined && row.sections !== undefined)
+  const shapeOf = isArticle ? ARTICLE_SHAPE : SHAPE
   const absent = {}
   const unpopulated = {}
 
-  for (const row of rows) {
+  for (const row of isArticle ? [] : rows) {
     // Placement is resolved the way the importer resolves it. Without the
     // catalogue `subjectId` comes back undefined and every concept looks
     // broken — a check that cries wolf is worse than no check.
@@ -130,10 +187,10 @@ for (const file of process.argv.slice(2)) {
   const shape = {}
   for (const row of rows) {
     for (const [col, value] of Object.entries(row)) {
-      if (SHAPE[col] === 'list' && value === '') {
+      if (shapeOf[col] === 'list' && value === '') {
         (shape[`${col} is a list column emitted empty — needs [clear], or it stores null where [] was meant`] ??= []).push(row.id)
       }
-      if (SHAPE[col] === 'text' && value === '[clear]') {
+      if (shapeOf[col] === 'text' && value === '[clear]') {
         (shape[`${col} is a text column holding the literal string "[clear]"`] ??= []).push(row.id)
       }
     }
@@ -142,7 +199,7 @@ for (const file of process.argv.slice(2)) {
   const gaps = [...Object.entries(shape),
                 ...Object.entries(absent).map(([k, v]) => [`absent: ${k}`, v]),
                 ...Object.entries(unpopulated).map(([k, v]) => [`unpopulated with no reason: ${k}`, v])]
-  console.log(`${file.split('/').pop()} — ${rows.length} concepts`)
+  console.log(`${file.split('/').pop()} — ${rows.length} ${isArticle ? 'articles' : 'concepts'}`)
   if (!gaps.length) console.log('   both questions answered for every field')
   for (const [what, ids] of gaps) {
     failed += 1

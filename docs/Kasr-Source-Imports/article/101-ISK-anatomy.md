@@ -7301,3 +7301,205 @@ sections.Surface and imaging anatomy: The statement that the dorsal venous netwo
 Written for the whole leaf, veins and lymphatics together, because the department book's chapter 8 carries both under a title that names only the veins and the subject tree offers no other home for the lymph drainage. Eight of the module's multiple-choice questions point at this leaf and two of them are lymph-drainage questions, so an article that stopped at the veins would have left them untaught while still appearing to cover them.
 
 One further concept is named as the main concept of a question on this leaf but is not declared here, because this article does not teach it and another article does: CON-MSK-44234D1863CE8E, the extensor retinaculum and its six compartments, taught by ART-101-ANA-FOREARM-RETINACULUM-ROTATION. Its question rows reach this leaf through the question books' own filing, not through the anatomy.
+
+---
+
+# Item
+## id
+ART-101-ANA-GAMETES
+## title
+The male and female gametes
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-0BA870DF2C2E13 | CON-DEV-623698E111AA4B
+## related_articles
+ART-101-ANA-FERTILIZATION: Every part named here is used there — hyaluronidase in phase I, acrosin in phase II, the zona receptors that select one sperm, and the middle piece and axial filament that pass into the oocyte in phase III.
+ART-101-ANA-IMPLANTATION: The zona pellucida described here is the coat that must degenerate before the blastocyst can implant.
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: The corona radiata's follicular cells come from the ovarian follicle whose cycle this chapter dates ovulation within.
+## aliases
+Gametes | Gametogenesis | Sperm morphology | Spermatozoon | Mature ovum | Secondary oocyte | Zona pellucida | Corona radiata | Acrosomal cap
+## reading_time
+9
+## summary
+This is the chapter that names the parts, and the exam reads the names back. Two lists carry almost all of it: the sperm has four parts, head, neck, middle piece and tail, and the ovum has three coverings, cell membrane, zona pellucida and corona radiata, given from inside outwards. The third thing asked is a pair of timetables. Spermatogenesis runs from puberty into old age without a break; oogenesis begins in intrauterine life, is arrested, and resumes from puberty to the menopause — and "starts at birth" is the answer written to catch a student who knows only that it starts early.
+## sections
+### Definition
+Gametes are the reproductive cells — the sperm in the male and the ovum in the female. Gametogenesis is the process by which they are formed from primordial germ cells, and it takes place in the gonads: the testis in the male, the ovary in the female.
+
+The department book opens the chapter with the two schedules, and it opens with them because they are the thing the two sexes do differently.
+
+In the male, gametogenesis starts at puberty and continues till old age. There is no interruption in it. A man who is fertile at fifty is making sperm that were not there a month earlier.
+
+In the female, it starts in intrauterine life — before the girl is born — is then arrested, and continues from puberty till the menopause through the ovarian cycles. Ovulation occurs on the 14th day of the ovarian cycle.
+
+Read the two together and the contrast is a comparison table with three rows: when it begins, whether it is interrupted, and when it ends. Puberty against intrauterine life. Continuous against arrested. Old age against the menopause. The examiner asks one column at a time.
+
+### Mechanism
+**The sperm.** The human sperm is 55 microns long and is described in four parts, from front to back.
+
+The **head** is 4 microns long and carries four things. A condensed nucleus, holding the father's hereditary material — 22 autosomes and either an X or a Y chromosome. An acrosomal cap containing hyaluronidase and acrosin, which surrounds most of the nucleus. Minimal cytoplasm. And a cell membrane surrounding the whole.
+
+The **neck** is the narrow part between the head and the middle piece. The book gives it no length and no contents; it is a name in a list, and it is still a name that must be written.
+
+The **middle piece** is 6 microns long and is composed of a mitochondrial sheath wrapped around the proximal part of the axial filament. It is the source of energy for sperm motility. It is the part that pays.
+
+The **tail** is 45 microns long and is composed of an axial filament surrounded by minimal cytoplasm and a cell membrane. It directs the movement of the sperm towards the ovum during fertilization. It is the part that spends.
+
+Two of those numbers matter beyond their own sake. The acrosomal cap holds hyaluronidase and acrosin, and both are enzymes with a named target one chapter later: hyaluronidase opens passages between the corona radiata cells in phase I of fertilization, and acrosin dissolves a path through the zona pellucida in phase II. The acrosome is loaded, in the testis, for two jobs it will do in the uterine tube.
+
+**The ovum.** The mature ovum is a secondary oocyte. It carries the mother's hereditary material — 22 autosomes and an X chromosome, never a Y — and a large cytoplasm which is the initial source of nutrition of the zygote. Its diameter is about 120 microns, which makes it a little over twice the whole length of the sperm and by far the largest cell in the body.
+
+The ovum is surrounded by three coverings, and the book gives them from inner to outer. First the **cell membrane**. Then the **zona pellucida**, a glycoprotein coat surrounding the cell membrane, which carries the sperm receptors. Then the **corona radiata**, the outer cover, formed of follicular cells adherent to each other by hyaluronic acid.
+
+Those three are the answer to more than one question. The receptors that select a single sperm are on the middle layer, not the outer one and not the inner one. The outer layer is held together by hyaluronic acid, which is why the enzyme that disperses it is a hyaluronidase — the sperm carries the solvent for the cement.
+
+### Key determinants
+The three closed lists, in the book's own order, with nothing added and nothing dropped.
+
+**Parts of the sperm — four.** Head. Neck. Middle piece. Tail.
+
+**Contents of the sperm head — four.** Condensed nucleus. Acrosomal cap, containing hyaluronidase and acrosin. Minimal cytoplasm. Cell membrane.
+
+**Coverings of the ovum, inner to outer — three.** Cell membrane. Zona pellucida. Corona radiata.
+
+The department's numbers, exactly as printed. Sperm 55 microns long. Head 4 microns. Middle piece 6 microns. Tail 45 microns. Ovum about 120 microns in diameter. Sperm nucleus: 22 autosomes and an X or a Y. Oocyte nucleus: 22 autosomes and an X. Ovulation on the 14th day of the ovarian cycle.
+
+The two schedules, side by side. Male: begins at puberty, continues without arrest, ends in old age. Female: begins in intrauterine life, is arrested, resumes at puberty, ends at the menopause.
+
+Function attached to part, because that is the axis the multiple-choice questions are written on. Energy is made in the middle piece, by the mitochondrial sheath. Movement is done by the tail, an axial filament. Chemical penetration is done by the acrosomal cap, by hyaluronidase and acrosin. Heredity is carried by the condensed nucleus. Nutrition of the early zygote is provided by the ovum's large cytoplasm. Sperm binding is done by the zona pellucida's receptors.
+
+### Clinical significance
+The chapter carries no clinical or applied note of its own. Its stated intended learning outcomes are to identify the morphology of the mature male gamete and of the mature female gamete, and nothing further is claimed here; the silence is recorded in `evidence_gaps`.
+
+What the morphology does carry is one consequence the department's own next chapter states. Because the oocyte nucleus can only hold an X chromosome and the sperm nucleus holds an X or a Y, the sex of the zygote is determined by the type of the fertilising sperm. That is not a fact about the ovum's contribution being smaller; it is a fact about which of the two nuclei has a choice to make.
+
+One structural point sits at the boundary with histology and is examined from that side. The sperm's tail is the only flagellum in the human body. A flagellum and a cilium are built on the same axoneme, and they differ in number and length: a ciliated cell carries many short cilia that move the fluid past a stationary cell, while the sperm carries one long flagellum that moves the cell itself. Two questions filed on this leaf turn on exactly that, and their concept — cilium origin and ultrastructure — is taught in the histology article on polarity and membranous specializations rather than here, because that is the chapter that describes the axoneme.
+
+### Common misconceptions
+The ovum does not carry "either an X or a Y". Its nucleus carries 22 autosomes and an X. Only the sperm has the choice, and the same option is printed in the sperm question and the ovum question, true in one and false in the other.
+
+The outer cover of the mature ovum is the corona radiata, not the zona pellucida. The zona is the middle covering. Students name it first because it is the one with the sperm receptors, and land one layer short.
+
+The sperm receptors are on the zona pellucida, not on the corona radiata and not on the oocyte cell membrane. The corona is passed by dissolving the cement between its cells; the cell membrane is where fusion happens, after selection is already over.
+
+Energy is produced in the middle piece, not in the tail. The tail is what the energy is spent on. A question that asks which part is *responsible for production of energy* and offers "tail" is asking for that distinction and nothing else.
+
+Oogenesis does not start at birth. It starts in intrauterine life, before birth. "Starts at birth and continues to the menopause" is half right, which is what makes it the strongest wrong answer on the page.
+
+Spermatogenesis does not stop at puberty. Puberty is where it begins.
+
+The sperm has four parts, not three. The neck carries nothing the book describes and is the one that gets dropped.
+## hold_these
+Gametogenesis is the formation of gametes from primordial germ cells, and it takes place in the gonads — testis and ovary.
+In the male, gametogenesis starts at puberty and continues till old age, without arrest.
+In the female, it starts in intrauterine life, is arrested, and continues from puberty till the menopause through the ovarian cycles.
+Ovulation occurs on the 14th day of the ovarian cycle.
+The human sperm is 55 microns long, with four parts: head (4 microns), neck, middle piece (6 microns) and tail (45 microns).
+The sperm head contains a condensed nucleus, an acrosomal cap holding hyaluronidase and acrosin, minimal cytoplasm and a cell membrane.
+The middle piece is a mitochondrial sheath around the proximal part of the axial filament and is the source of energy for sperm motility.
+The tail is an axial filament with minimal cytoplasm and cell membrane, and it directs the movement of the sperm towards the ovum.
+The sperm nucleus carries 22 autosomes and an X or a Y chromosome; the oocyte nucleus carries 22 autosomes and an X.
+The mature ovum is a secondary oocyte about 120 microns in diameter, whose large cytoplasm is the initial source of nutrition of the zygote.
+The ovum has three coverings, inner to outer: cell membrane, zona pellucida, corona radiata.
+The zona pellucida is a glycoprotein coat carrying the sperm receptors; the corona radiata is follicular cells adherent by hyaluronic acid.
+## lose_the_mark
+Giving the ovum "an X or a Y chromosome". The oocyte nucleus carries an X only, which is why the sperm determines the sex.
+Naming the zona pellucida as the outer cover of the ovum. It is the middle one; the corona radiata is outermost.
+Putting the sperm receptors on the corona radiata. They are on the zona pellucida.
+Saying the tail produces the energy. The mitochondrial sheath of the middle piece produces it; the tail uses it.
+Writing that oogenesis starts at birth. It starts in intrauterine life, before birth.
+Writing that spermatogenesis stops at puberty. Puberty is when it starts.
+Giving three parts of the sperm. There are four, and the neck is the one that goes missing.
+Giving the coverings of the ovum in the wrong direction. The book lists them from inner to outer, and a question that asks for the outer cover is testing the direction as much as the names.
+## image_recommendations
+### diagram · Longitudinal diagram of a human sperm with the four parts bracketed and labelled to scale — head 4 microns, neck unlabelled for length, middle piece 6 microns, tail 45 microns, total 55 microns — and the head shown in cutaway with condensed nucleus, acrosomal cap over most of it, minimal cytoplasm and cell membrane
+Purpose: The four parts and the four contents of the head are two nested lists that a student has to hold in order, and the lengths only make sense drawn to scale — the tail is more than four-fifths of the cell. A labelled figure makes the count and the proportion visible at once, which prose cannot.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 1.1 on Anatomy page 66, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-0BA870DF2C2E13. An unlabelled variant would also carry a labelling question on this leaf.
+### diagram · The mature ovum in section, about 120 microns across, with its three coverings drawn as concentric layers labelled from inside outwards — cell membrane, zona pellucida with sperm receptors marked on it, corona radiata as a ring of follicular cells with the hyaluronic acid between them indicated
+Purpose: The one thing examined here is the order of three layers and which one carries the receptors, and both are spatial facts. A concentric drawing makes "inner to outer" a picture rather than a sentence a student can reverse.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Figure 1.2 on Anatomy page 66, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-0BA870DF2C2E13.
+### comparison table · Two timelines drawn one above the other on the same axis from intrauterine life to old age — spermatogenesis as one unbroken bar from puberty onwards, oogenesis as a bar starting before birth, breaking at the arrest, resuming at puberty and ending at the menopause
+Purpose: The whole of this concept is two schedules that differ at three points, and a student who learns them as two sentences transposes them. Drawn on a shared axis, the arrest and the two different end points are the only things that stand out, which is exactly what the questions ask.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Definition
+Source direction: purpose-drawn for this product from the department book's text on Anatomy page 66; the book prints no such figure
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-623698E111AA4B.
+## conflicts
+Whether the mature ovum is a secondary oocyte or the product of a completed second meiotic division. The department book's Gametes chapter says the mature ovum consists of a secondary oocyte; its own First Week chapter says the secondary oocyte completes the second meiotic division only after the sperm contents have entered, forming the nucleus of the ootid and the second polar body. Both are the same book. This article follows the Gametes chapter's wording, because that is the chapter this leaf is examined from, and names the ovum a secondary oocyte while recording that the division it is arrested in is completed at fertilization.
+## evidence_gaps
+The department book gives no length for the neck of the sperm, and none is supplied here. The three lengths it does give — 4, 6 and 45 microns — sum to the stated total of 55, which leaves the neck without a measured length rather than with a length of zero; the book does not comment on this and neither does this article.
+No Kasr source in the extracted corpus describes the stages of spermatogenesis or of oogenesis — spermatogonium to spermatid, oogonium to primary oocyte — nor spermiogenesis. The chapter examines the finished gametes and the two schedules only.
+No Kasr source states how many oocytes are present at birth, at puberty or at the menopause, nor the stage the female arrest is held at. "Arrested" is the book's whole statement and is all this article claims.
+No Kasr source states the lifespan of a sperm or of an ovum, or how long either remains capable of fertilization.
+No Kasr source in this chapter carries any clinical, applied or Egyptian note. The chapter's applied material is its intended learning outcomes only.
+No Kasr source describes the ultrastructure of the axial filament. The flagellum-against-cilium point in Clinical significance is carried by the histology chapter on polarity and membranous specializations, not by this one.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 1 "Male & Female Gametes", PDF pages 66-67 — the definition of gametogenesis and its site, the two schedules in male and female, the day of ovulation, the four parts of the sperm with their lengths, the four contents of the sperm head, the composition and function of the middle piece and tail, the chromosome content of both gamete nuclei, the diameter of the ovum, the ovum's cytoplasm as the zygote's first nutrition, and the three coverings from inner to outer with Figures 1.1 and 1.2. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 2 "First Week of Development", PDF pages 68-71 — the use hyaluronidase and acrosin are put to in phases I and II, the zona's sperm receptors, the determination of sex by the fertilising sperm, and the completion of the second meiotic division after sperm entry. Cited here only where this article states the onward use of a structure it has named.
+Anatomy MCQ Book 2025, Anatomy Department (src_764a2521809818b8abdc) — the question book that carries the sperm-part, ovum-covering and gametogenesis-timing questions filed on this leaf. Recorded as exam signal on concepts CON-DEV-0BA870DF2C2E13 and CON-DEV-623698E111AA4B.
+Anatomy Question [Embryo], Anatomy Department (src_12d639a625d8305c4454) — a second printing of the same questions, recorded as exam signal on both concepts.
+VIP Academy 101 MCQ collection (src_08bc782553366518791e) and Dr. Galal's embryology MCQs (src_f32859b80fb79d668010) — further printings of the gamete-morphology questions, recorded as exam signal on CON-DEV-0BA870DF2C2E13.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The thirteen questions filed on this leaf are authored in scripts/kasr/seeds/mcq/gametes.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Neither CON-DEV-0BA870DF2C2E13 nor CON-DEV-623698E111AA4B carries a secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+relatedConcepts: Two concepts are declared, and both are taught above — the gamete morphology and the two haploid nuclei in Mechanism and Key determinants, the two gametogenesis schedules in Definition and Key determinants. Two further concepts are reached by questions filed on this leaf and are deliberately not declared here, because each is taught in full in another article and declaring it twice would make a coverage check read as taught what this article only mentions. CON-DEV-F33BB68138377B, the site, mechanism and results of fertilization, is taught by ART-101-ANA-FERTILIZATION and carries five of this leaf's questions; this article names the gamete-side facts those questions turn on and links to it. CON-FND-0FAE59E00B748E, cilium origin and ultrastructure, is taught by the histology article on polarity and membranous specializations and carries two; this article states the flagellum-against-cilium distinction and names where the axoneme is described.
+sections.Mechanism: The pairing of hyaluronidase with the hyaluronic acid of the corona radiata — "the sperm carries the solvent for the cement" — is this article's own way of joining two of the book's own statements, made a chapter apart. Neither statement is altered.
+sections.Mechanism: The comparison of the ovum's 120 microns with the sperm's 55, and the remark that the ovum is the largest cell in the body, is arithmetic on the book's two figures plus general knowledge. The book states neither comparison.
+sections.Clinical significance: The section is short because the corpus gives this chapter no clinical material at all, and it says so in its own text rather than importing a fertility topic from a general textbook.
+sections.Common misconceptions: Each misconception is drawn from a distractor that a question book actually prints on this leaf, not from a general list of student errors.
+## notes
+Written as one article for the whole Gametes leaf rather than split into a sperm article and an ovum article, because the department chapter is two pages, the exam asks the two side by side, and the two schedules of gametogenesis belong to neither gamete alone. The chapter is the shortest in the Anatomy part after the Fetal Period, and the article is longer than the chapter because the chapter is a list of names and the marks are lost in the order and the pairing of those names rather than in their recall.

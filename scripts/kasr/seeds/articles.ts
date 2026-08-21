@@ -170,4 +170,11 @@ export const ARTICLE_FOR_CONCEPT: Record<string, string> = {
   // spot question is entirely about how a drumstick differs from a lobe.
   'CON-HEM-DD758E69648658': 'ART-101-HIS-GRANULAR-LEUKOCYTES',
   'CON-HEM-1F7D2D1717F91A': 'ART-101-HIS-GRANULAR-LEUKOCYTES',
+  // Blood platelets. The article knew what a platelet is and not how to find
+  // one on a film among cells that are all bigger than it.
+  'CON-HEM-9A7C4752AA21E3': 'ART-101-HIS-BLOOD-PLATELETS',
+  // Polarity and membranous specialisations. Both structures and the
+  // discriminator between them were already taught; the plate's own markers
+  // and the length trap were not.
+  'CON-FND-942169C7CEC1CA': 'ART-101-HIS-MEMBRANOUS-SPECIALISATIONS',
 }

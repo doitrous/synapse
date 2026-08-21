@@ -396,7 +396,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-${signals.join('\n') || '[clear]'}
+${signals.join('\n')}
 ## weight_confidence
 ${signals.length > 2 ? '0.8' : '0.6'}
 ## blueprint_weight

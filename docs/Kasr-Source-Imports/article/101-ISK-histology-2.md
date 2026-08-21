@@ -82,7 +82,7 @@ DIS-HIS-T02
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M02
 ## related_concepts
-CON-HEM-1935D59A1D2839 | CON-HEM-4F5347CC3664E0
+[clear]
 ## related_articles
 ART-101-HIS-HAEMOPOIESIS: The reticulocyte that replaces a lost red corpuscle, and the marrow that makes it, are described there.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The cell coat and the cytoskeleton this article relies on are set out in the cytology chapter, and the red corpuscle is the book's own worked example of both.
@@ -1260,7 +1260,7 @@ DIS-HIS-T01
 ## secondary_node_ids
 SYS-FND-T01-S01-M03
 ## related_concepts
-CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-DEV-0BA870DF2C2E13 | CON-FND-E2DE55693981A7 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
+CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
 ## related_articles
 ART-101-HIS-THE-CELL: The cell's other basic component, and the plasma membrane whose trilaminar profile the nuclear envelope repeats twice over.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rough endoplasmic reticulum the outer nuclear membrane is continuous with, and the ribosomes whose subunits leave through the nuclear pores, are described there.
@@ -1750,7 +1750,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 DIS-HIS-T03
 ## related_concepts
-CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-3E3303864A3CE8 | CON-FND-49D5829AC3DCA1 | CON-FND-7FB8290199B237 | CON-FND-B33D27A8517527 | CON-FND-4671C4D2911392
+CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-49D5829AC3DCA1
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: Every cell named here — the fibroblast, the fat cell, the reticular cell, the mast cell, the macrophage, the plasma cell — is described there, along with the ground substance.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Which fibre predominates is what names most of these types, and the three fibres and their stains are set out there.
