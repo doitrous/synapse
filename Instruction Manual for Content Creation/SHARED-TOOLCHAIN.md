@@ -2171,3 +2171,50 @@ produces.**
 `scripts/kasr/check-column-parsers.ts` sends `KASRPROBEALPHA | KASRPROBEBETA` through
 `conceptFromRow` for every column, classifies by whether an array or a string comes back, then
 walks a batch and reports both error kinds. Exits non-zero. Takes any concept batch.
+
+### `exclusionReason = "[clear]"` — the case that shows what the class costs
+
+Of everything the sentinel poisoned, this is the one to remember. **A non-null
+`exclusionReason` says the concept was excluded**, and the reason it gave was `[clear]`.
+
+**Thirty-nine concepts that had passed validation, simulation and audit — all green — every one
+carrying a field asserting it should not be used.**
+
+That is the class in one line: not a missing value, not a malformed one, but a **field that
+confidently states the opposite of the truth**, through three gates, invisible in the source.
+
+### Fix the generator, not just the output
+
+**The generator writes these, so a fixed batch is not a fixed module.** One lane corrected its
+emitted files and deliberately left the generator alone because it belongs to another lane —
+which is right on ownership and means **the next regeneration reintroduces all four columns.**
+
+> **Any lane that regenerates a concept batch will reintroduce this, and a lane that has never
+> simulated its own output will not know.**
+
+So the standing instruction for every lane, generated or hand-authored:
+
+```
+npm run medical:simulate -- --emit   # then grep the emitted state for [clear]
+```
+
+**Grep the emitted state, not the batch file, and do not trust a green validator.** Three gates
+passed all thirty-nine of those records.
+
+And the per-parser check is what separates the real cases from the false ones: in that same
+sweep `conflicts` and `uncertainty` *read* like prose and were **already correct** (list
+parser), while `microtopicId` and `nanotopicId` came back `null` and needed nothing. Four real,
+two false, and only the stored state distinguishes them.
+
+### Why a half-migrated convention is worse than either state
+
+Sharper than I put it, from the lane that received the reversal:
+
+> **The damage is not the wrong value — it is the ambiguity.** A later reader cannot tell which
+> records followed which rule, or when the rule changed, **so every record becomes suspect
+> rather than just the wrong ones.**
+
+Same for the lenient-check rule, which is worst in a specific case:
+
+> A check that errs toward green is worst when it is **local and fast** — because that is
+> exactly the one people run most often, and trust most.
