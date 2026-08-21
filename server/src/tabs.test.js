@@ -74,6 +74,7 @@ test('a state key resolves to the tabs that may write it', () => {
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
   assert.deepEqual(tabsForStateKey('synapse-media-library-v1'), ['resources'])
+  assert.deepEqual(tabsForStateKey('synapse-library-trees-v1'), ['library'])
 })
 
 test('an unregistered key belongs to no tab, so only a super admin may write it', () => {

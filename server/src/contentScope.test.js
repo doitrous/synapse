@@ -100,6 +100,19 @@ test('a change is refused when either side of it is out of scope', () => {
   assert.equal(changeWritableBy(scope, 'question', theirs, null), false)
 })
 
+test('a library tree is scoped by the module or year it is a tree of', () => {
+  // The key *is* the placement. Nothing else about a tree says where it belongs.
+  assert.equal(itemWritableBy(scope, 'libraryTree', { id: 'module:MOD_CVS' }), true)
+  assert.equal(itemWritableBy(scope, 'libraryTree', { id: 'year:OMS_Y2' }), true)
+  assert.equal(itemWritableBy(scope, 'libraryTree', { id: 'year:OMS_Y4' }), false)
+  assert.equal(itemWritableBy(scope, 'libraryTree', { id: 'module:MOD_RES' }), false)
+  assert.equal(itemWritableBy(null, 'libraryTree', { id: 'year:OMS_Y4' }), true)
+})
+
+test('a tree whose key is not a scope belongs to nobody', () => {
+  assert.equal(itemWritableBy(scope, 'libraryTree', { id: 'nonsense' }), false)
+})
+
 test('years are read from the block each kind actually keeps them in', () => {
   assert.deepEqual(itemYears('question', question({ years: ['Year 1', 'Year 3'] })), [1, 3])
   assert.deepEqual(itemYears('article', article({ yearIds: ['OMS_Y5'] })), [5])

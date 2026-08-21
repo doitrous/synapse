@@ -867,6 +867,8 @@ const STUDENT_READABLE_STATE = new Set([
   // Alt text and dimensions for every image a student may be shown. The bytes
   // are a separate, individually authenticated request.
   MEDIA_STATE_KEY,
+  // The faculty's own by-module and by-year structures. Students browse them.
+  'synapse-library-trees-v1',
   'synapse-academic-universities-v1',
   'synapse-course-curricula-v1',
   'synapse-module-schedules-v1',

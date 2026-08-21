@@ -34,6 +34,7 @@ export const ADMIN_TABS = [
       'synapse-medical-evidence-v1',
       'synapse-medical-evidence-published-v1',
       'synapse-import-journal-v1',
+      'synapse-library-trees-v1',
     ],
     apiPrefixes: ['/api/medical-library/coverage'] },
   { id: 'questions', to: '/admin/questions', group: 'Content',
