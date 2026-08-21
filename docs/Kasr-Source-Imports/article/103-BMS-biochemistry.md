@@ -1243,3 +1243,1553 @@ questionIds: No question record tests this article yet. The written question for
 media: No rights-cleared asset exists for any of this material. Three are requested in media_recommendations; the department book's own figures and its page 80 table are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-KETOSIS
+
+## title
+Ketone bodies and the causes of ketosis
+
+## arabic_title
+الأجسام الكيتونية وأسباب الكيتوزية
+
+## aliases
+Causes of ketosis
+Ketonaemia and ketonuria
+Ketogenesis and ketolysis
+Diabetic ketoacidosis
+Starvation ketosis
+
+## subject
+endo
+
+## topic
+Lipid metabolism
+
+## subtopic
+Metabolism of Ketone Bodies
+
+## microtopic
+Causes of Ketosis
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T04
+
+## secondary_node_ids
+SYS-END-T06 | DIS-BIO-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Ketone bodies are the liver's way of sending fuel to tissues that cannot use fatty acids, and the brain lives on them after several days of starvation. Ketosis is what happens when the liver makes them faster than the tissues use them. The five causes the book lists look unrelated — starving, a fat-heavy diet, uncontrolled diabetes, anti-insulin hormones, hard prolonged exercise — until you notice that every one of them is a state in which the anti-insulin to insulin ratio is high. Learn the ratio and the list comes with it.
+
+## sections
+### Definition
+Ketosis is a condition characterised by increased ketone bodies in the blood, which is ketonaemia, and in the urine, which is ketonuria. Blood ketone bodies are normally 0.5 to 3 mg/dL, and urinary output is normally less than 15 mg/day. Ketosis occurs in conditions where the rate of ketogenesis exceeds the rate of ketolysis.
+
+### Mechanism
+An increased anti-insulin to insulin ratio activates ketogenesis by three routes at once, and the book sets them out in order.
+
+It increases the rate of lipolysis, releasing excess free fatty acids to the liver. It stimulates β-oxidation, which increases the availability of acetyl-CoA, NADH+H⁺, FADH₂ and ATP — and those in turn inhibit glycolysis and the TCA cycle. And the decrease in glucose oxidation together with the stimulation of gluconeogenesis decreases the availability of oxaloacetate for citrate synthase, so acetyl-CoA cannot enter the cycle and is diverted towards ketogenesis.
+
+That third route is the one worth holding, because it explains why fasting and uncontrolled diabetes produce the same biochemistry: in both, the liver is making glucose, oxaloacetate is being consumed to do it, and the acetyl-CoA arriving from β-oxidation has nowhere else to go.
+
+The causes follow from it. Ketosis occurs in starvation; on a low-carbohydrate, high-fat diet; in severe uncontrolled diabetes mellitus; on prolonged administration of anti-insulin hormones; and in prolonged and severe muscular exercise.
+
+### Key determinants
+The book divides substances into ketogenic and anti-ketogenic, which is a useful way to check any proposed cause. Ketogenic substances are fatty acids, ketogenic amino acids and anti-insulin hormones. Anti-ketogenic substances are carbohydrates, glucogenic amino acids, glycerol and insulin. A cause of ketosis is therefore anything that raises the first group or removes the second, and "low carbohydrate high fat diet" is one condition rather than two because it does both.
+
+Ketone bodies are worth energy, which is why the body bothers. Oxidising one molecule of acetoacetate generates 19 ATP: 20 from two acetyl-CoA through the TCA cycle, minus one for activating the acetoacetate. Oxidising one molecule of 3-hydroxybutyrate generates one extra NADH, so 21.5 ATP.
+
+### Clinical significance
+After five to six days of starvation the brain adapts to use ketone bodies, which it cannot do with fatty acids, because those are bound to plasma albumin and cannot cross the blood-brain barrier. That adaptation reduces the need for gluconeogenesis and therefore the breakdown of tissue protein — ketosis in starvation is a protective mechanism before it is a pathological one.
+
+The pathological end is acidosis. Increased production of 3-hydroxybutyrate and acetoacetate leads to acidosis and may lead to coma and death. The book states that and no more; the management of diabetic ketoacidosis is not in any 103 BMS source and is deliberately absent from this article.
+
+### Common misconceptions
+Writing "diabetes" without the qualifier. The book says severe uncontrolled diabetes mellitus, and a controlled diabetic is not in ketosis. Writing "high fat diet" alone is the other, because it is the absence of carbohydrate that permits the ketosis, not the presence of fat. And treating any ketosis as pathological misses that a starving person's brain is being kept alive by it.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Ketosis occurs whenever the rate of ketogenesis exceeds the rate of ketolysis.
+The five causes are starvation, a low-carbohydrate high-fat diet, severe uncontrolled diabetes mellitus, prolonged anti-insulin hormones, and prolonged severe muscular exercise.
+All five are states of high anti-insulin to insulin ratio.
+Gluconeogenesis consumes oxaloacetate, so acetyl-CoA cannot enter the TCA cycle and goes to ketone bodies instead.
+After five to six days of starvation the brain runs on ketone bodies, which spares tissue protein.
+
+## lose_the_mark
+Writing "diabetes mellitus" without "severe" and "uncontrolled".
+Writing "high fat diet" and leaving out the low carbohydrate.
+Treating ketosis as always pathological, when in starvation it is what protects the brain and the muscle.
+
+## callout_evidence
+### Ketosis occurs whenever the rate of ketogenesis exceeds the rate of ketolysis.
+Claims: CLM-END-KETOSIS-CAUSES-01
+Citations: CIT-KA-BIO103-KETOSIS-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-END-CC450A236ABF50
+
+## related_articles
+ART-103-BIO-TCA-KEY-ENZYMES: the cycle that stops for want of oxaloacetate, which is what diverts acetyl-CoA into ketogenesis
+ART-103-BIO-NITROGEN-BALANCE: starvation appears in both, as a cause of ketosis and as a cause of negative nitrogen balance
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-END-KETOSIS-CAUSES-01
+
+## span_ids
+SPN-BIO-KETOSIS-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Lipid Metabolism > Metabolism of Ketone Bodies (Ketogenesis and Ketolysis)
+
+## university_notes
+kau: Three of the twenty-two diagrams the Biochemistry department names as examinable come from this section — Ketogenesis (67), Ketolysis (68) and Metabolism of Ketone Bodies (70) — and the 2025 end-of-year paper examined the causes of ketosis as one of the five enumerate items rather than as a diagram.
+
+## annotations
+### definition_of · CON-END-CC450A236ABF50
+Quote: Ketosis occurs in conditions where the rate of ketogenesis exceeds the rate of ketolysis.
+Block: body
+
+## media
+
+## media_recommendations
+### diagram · Metabolism of ketone bodies between adipose tissue, liver and extrahepatic tissue
+Brief: Three labelled compartments — adipose tissue, blood, liver and extrahepatic tissue — with lipolysis releasing free fatty acids, β-oxidation to acetyl-CoA in the liver, ketogenesis producing ketone bodies, transport in blood, and ketolysis back to acetyl-CoA in muscle and brain; the increased anti-insulin to insulin ratio marked as the trigger on the adipose step
+Purpose: Teaches CON-END-CC450A236ABF50. The causes of ketosis are only memorable as one hormonal state acting on a three-organ circuit, and prose has to describe the organs one at a time, which is exactly what hides the circuit. The department names this figure as examinable in its own right.
+Priority: required
+Status: needed
+Section: Mechanism
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure cited by locator
+Rights: must be CC-BY or public domain
+
+### comparison table · Ketogenic against anti-ketogenic substances
+Brief: Two columns — fatty acids, ketogenic amino acids and anti-insulin hormones on one side; carbohydrates, glucogenic amino acids, glycerol and insulin on the other
+Purpose: The check that catches a wrong answer: any proposed cause of ketosis must raise the left column or remove the right. The section format forbids tables in prose, and a two-column list read as a sentence loses the pairing that makes it useful.
+Priority: strongly helpful
+Status: needed
+Section: Key determinants
+Kind: comparison table
+Source direction: redraw from the department book's own note on page 70, cited by locator
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter IV "Lipid Metabolism", pages 69 to 70.
+Section 1 question I-5 of the 2025 end-of-year paper for module 103 BMS establishes that the causes of ketosis are examined, and is cited as curriculum signal only.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The book gives no threshold at which ketonaemia becomes ketoacidosis, and no definition of how prolonged or how severe the exercise must be. Neither is inferred.
+No treatment is stated. Management of diabetic ketoacidosis is emergency content, is not in any 103 BMS source, and is not written here.
+
+## conflicts
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 question I-5 of the 2025 end-of-year paper. A single-concept article: the enumerate question asks for a list, and the value this article adds is the single hormonal state that makes the list one idea rather than five.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T04; the book's own section name is carried in module_subject and the microtopic carries its sub-heading.
+questionIds: No question record tests this article yet. The written question for Section 1 is a separate scope in CLAIMS.md and will add its ID.
+media: No rights-cleared asset exists for this material. Two are requested in media_recommendations; the department book's own figures are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-NITROGEN-BALANCE
+
+## title
+Nitrogen balance and the three ways it goes negative
+
+## arabic_title
+الميزان النيتروجيني وأسباب سلبيته
+
+## aliases
+Nitrogen balance
+Negative nitrogen balance
+Reasons for negative protein balance
+Protein turnover
+Biological value of proteins
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## microtopic
+Nitrogen Balance
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+DIS-BIO-T08 | SYS-FND-T06
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Nitrogen is about 16 per cent of protein, and almost all the nitrogen a person eats is protein while almost all the nitrogen they excrete comes from protein breakdown. So comparing the two measures whether the body is building protein or losing it. Three states exist, and the negative one has exactly three causes: too little coming in, too much leaking out, too much being broken down. Every clinical example the book gives fits under one of those three headings, which is what makes the answer to this question a structure rather than a list.
+
+## sections
+### Definition
+Nitrogen forms about 16 per cent of proteins. Nitrogen balance is the quantitative difference between nitrogen intake and nitrogen output, and since most dietary nitrogen is protein nitrogen and most nitrogenous excretory products derive from protein catabolism, the balance between the two represents the balance between protein anabolism and catabolism.
+
+Three states exist. Nitrogen equilibrium, where output equals intake, which is the normal healthy adult on an adequate diet. Positive nitrogen balance, where intake exceeds output, which occurs whenever new tissue is being built — growth, pregnancy, muscular training, and convalescence from a state of negative balance. And negative nitrogen balance, where output exceeds intake.
+
+### Mechanism
+Negative nitrogen balance has three causes, and the book gives clinical examples under each.
+
+Inadequate protein intake. This occurs in starvation, in malnutrition, in deficiency of one or more of the essential amino acids, and in gastrointestinal disease.
+
+Loss of protein. This occurs in chronic haemorrhage, in albuminuria, and during lactation on an inadequate diet.
+
+Increased protein catabolism. This occurs in diabetes mellitus, Cushing's syndrome, hyperthyroidism, and infectious fevers.
+
+The reason a deficiency of a single essential amino acid produces the same picture as eating no protein at all is that protein synthesis needs every one of its amino acids present at once; a diet lacking one cannot build protein, whatever the total nitrogen it delivers.
+
+### Key determinants
+Biological value is what sets whether an intake is adequate. A high biological value protein is easily digested and contains all the essential amino acids in adequate amounts. Animal proteins — eggs, milk and its products, meat, fish, poultry — are generally of high biological value. Plant proteins — legumes, cereals, nuts — are generally lower, but a mixture of low biological value proteins may give a diet of high biological value. That last clause matters where animal protein is expensive.
+
+The caloric value of protein is 4 kcal/g, close to carbohydrate and less than half that of fat at 9 kcal/g. Carbohydrate and fat in the diet spare protein from being oxidised for energy, which is why an adequate protein intake is not sufficient on its own if total energy is short.
+
+Protein turnover runs continuously: cellular proteins are degraded and resynthesised, about 75 per cent of amino acids are reutilised, and the rest are rapidly degraded. That is the background against which balance is measured.
+
+### Clinical significance
+Every cause on the list is met on the wards. Chronic haemorrhage and albuminuria are the two protein-losing states a first-year student will see soonest, in a bleeding gastrointestinal lesion and in nephrotic-range proteinuria. Diabetes mellitus, Cushing's syndrome and hyperthyroidism are the three endocrine catabolic states, and infectious fever is the commonest of all.
+
+The book's own connection is between negative balance and the fate of the nitrogen removed: catabolism cleaves amino acids into ammonia and a carbon skeleton, the ammonia is converted mostly to urea and excreted in urine, and the carbon skeleton becomes glucose, ketone bodies, or carbon dioxide and water. A rising urea in a catabolic patient is that pathway made visible.
+
+Local context is worth stating plainly. Where animal protein is costly, the book's own note that a mixture of low biological value plant proteins can together be of high biological value is the practical teaching point, not a footnote.
+
+### Common misconceptions
+Answering with examples rather than causes — "starvation, bleeding, fever" — which is six items in no order where the mark scheme wants three headings. The other is treating positive balance as always desirable and negative as always pathological: convalescence is positive, and a growing child in positive balance and an adult in equilibrium are both normal.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Negative nitrogen balance exists when output exceeds intake, and it has three causes: inadequate intake, loss of protein, and increased catabolism.
+Nitrogen is about 16 per cent of protein, which is what makes the comparison possible at all.
+Deficiency of one essential amino acid produces negative balance even when total protein intake looks adequate.
+A mixture of low biological value plant proteins can together give a diet of high biological value.
+Carbohydrate and fat spare protein from oxidation, so an adequate protein intake still fails if total energy is short.
+
+## lose_the_mark
+Listing clinical examples instead of the three causes they belong under.
+Forgetting that lactation on an inadequate diet is a protein-losing state.
+Assuming negative balance always means the patient is not eating.
+
+## callout_evidence
+### Negative nitrogen balance exists when output exceeds intake, and it has three causes: inadequate intake, loss of protein, and increased catabolism.
+Claims: CLM-FND-NEGATIVE-NITROGEN-BALANCE-01
+Citations: CIT-KA-BIO103-NITROGEN-BALANCE-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-FND-B320D24EC35D30
+
+## related_articles
+ART-103-BIO-KETOSIS: starvation appears in both, and the ketone bodies are what spare the tissue protein
+ART-103-BIO-PHENYLKETONURIA: the case where restricting one amino acid is the treatment rather than the disease
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-FND-NEGATIVE-NITROGEN-BALANCE-01
+
+## span_ids
+SPN-BIO-NITROGEN-BALANCE-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## university_notes
+kau: The subject tree lists General protein Metabolism with three children — Removal of Amino Acid Nitrogen, Metabolism of Ammonia and Urea Cycle — and nitrogen balance is not among them, because the book prints it as a run-in heading before those sections begin. A module_subject path for this material therefore stops at the chapter, and the microtopic field carries the run-in heading.
+
+## annotations
+### definition_of · CON-FND-B320D24EC35D30
+Quote: Nitrogen balance is the quantitative difference between nitrogen intake and nitrogen output, and since most dietary nitrogen is protein nitrogen and most nitrogenous excretory products derive from protein catabolism, the balance between the two represents the balance between protein anabolism and catabolism.
+Block: body
+
+## media
+
+## media_recommendations
+### diagram · Overall protein metabolism, from dietary protein to the amino acid pool and out
+Brief: Dietary protein and body protein feeding one amino acid pool, with anabolic arrows to tissue and plasma proteins and to haem, creatine, purines, pyrimidines, neurotransmitters and hormones, and catabolic arrows to ammonia and urea and to the carbon skeleton splitting into glucogenic and ketogenic routes
+Purpose: Teaches CON-FND-B320D24EC35D30 by showing what "intake" and "output" actually name. Balance is a statement about a pool with arrows in and arrows out, and a student who has only read the definition cannot say which arrows count. The department names this figure as examinable in its own right.
+Priority: required
+Status: needed
+Section: Definition
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure cited by locator
+Rights: must be CC-BY or public domain
+
+### comparison table · The three states of nitrogen balance with their causes
+Brief: Three rows — equilibrium, positive, negative — against the relation of intake to output and the conditions in which each occurs, with the negative row broken into the three causes and their clinical examples
+Purpose: The examiner's mark scheme is a structure of three headings with examples underneath, and the section format forbids tables in prose. A student revising this needs to see the three-under-one shape, which running text flattens.
+Priority: strongly helpful
+Status: needed
+Section: Mechanism
+Kind: comparison table
+Source direction: redraw from the department book's own text on pages 81 to 82, cited by locator
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter V "General Aspects of Protein Metabolism", pages 81 to 82.
+Section 1 question I-3 of the 2025 end-of-year paper for module 103 BMS establishes that the reasons for negative protein balance are examined, and is cited as curriculum signal only.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry or nutrition reference has been attached.
+The book gives no figure for an adequate protein intake and no Egyptian reference intake exists in the corpus, so none is quoted.
+The book lists lactation under loss of protein while listing pregnancy under positive balance, without reconciling the two. That is left as the book has it.
+
+## conflicts
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 question I-3 of the 2025 end-of-year paper. Biological value and the protein-sparing effect are included although the paper did not ask for them, because "inadequate intake" is not a usable cause without them.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T05, and the subject tree's children of this chapter do not include nitrogen balance, so there is nothing finer to record than the microtopic.
+questionIds: No question record tests this article yet. The written question for Section 1 is a separate scope in CLAIMS.md and will add its ID.
+media: No rights-cleared asset exists for this material. Two are requested in media_recommendations; the department book's own figure is faculty teaching material and is cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-PHENYLKETONURIA
+
+## title
+Phenylketonuria: one missing enzyme followed to the clinic
+
+## arabic_title
+بيلة الفينيل كيتون
+
+## aliases
+Phenylketonuria
+PKU
+Phenylalanine hydroxylase deficiency
+Mousy urine odour
+Hypopigmentation in PKU
+Metabolic disorder of phenylalanine metabolism
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aromatic Amino Acids
+
+## microtopic
+Metabolic Disorder of Phenylalanine and Tyrosine Metabolism
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T02 | SYS-NEU-T02
+
+## template_id
+TPL-CONDITION
+
+## archetype
+condition
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Phenylalanine hydroxylase turns phenylalanine into tyrosine. Take it away and two things happen at once: phenylalanine piles up and is diverted into metabolites that give the urine a mousy smell, and tyrosine is never made, so everything downstream of tyrosine fails. That single fork explains the whole presentation — the mental retardation, the pale skin, the smell — and it explains the treatment, which is to take the substrate out of the diet and put the product back in.
+
+## sections
+### Definition
+Phenylketonuria is a metabolic disorder of phenylalanine and tyrosine metabolism in which phenylalanine cannot be hydroxylated to tyrosine. Phenylalanine is an essential amino acid; tyrosine is non-essential only because it is normally made from phenylalanine, by phenylalanine hydroxylase (PAH), which requires tetrahydrobiopterin (BH4) as its coenzyme and hydrogen donor.
+
+### Classification
+The book divides cases by which molecule is missing. Most cases of PKU are due to deficiency of the enzyme phenylalanine hydroxylase itself. About 1 to 2 per cent are due to deficiency of tetrahydrobiopterin, the coenzyme. The distinction is not academic: it changes the treatment.
+
+### Epidemiology
+The department book gives no incidence for phenylketonuria, in Egypt or anywhere, and no statement about newborn screening. Neither figure is supplied here, and neither should be imported from a foreign source without a local review. What the book does say is that early diagnosis is important to avoid mental retardation, which presupposes that cases are found before they present — how that happens in practice in Egypt is not addressed by any source in this corpus.
+
+### Aetiology and risk factors
+Deficiency of phenylalanine hydroxylase, or in the minority of cases deficiency of its coenzyme tetrahydrobiopterin. The book describes PKU as one of the metabolic disorders of this pathway alongside alkaptonuria, which is deficiency of homogentisate oxidase, and albinism, which is lack of tyrosinase. It gives no other risk factor.
+
+### Pathophysiology
+Everything follows from the blocked step, and it is worth tracing in the book's own order.
+
+Phenylalanine accumulates. Since it cannot be converted to tyrosine, it is metabolised instead to phenylpyruvate and phenyl-lactate, and the pathway diagram also carries phenylacetate and phenyl-acetylglutamine. Phenylalanine and its metabolites appear in elevated concentration in tissues, plasma and urine, and these metabolites give urine a characteristic musty, mousy odour.
+
+The nervous system is damaged in two ways, neither of them direct toxicity. The elevated phenylalanine and its metabolites interfere with the transport of tyrosine and tryptophan to the brain, leading to their deficiency there. And the low tyrosine leads to impaired neurotransmitter synthesis in the brain — tyrosine is hydroxylated to DOPA, and DOPA is the precursor of dopamine, noradrenaline and adrenaline. The book offers this as the explanation for why an untreated patient shows mental retardation, manifest by the age of one year, and it hedges the claim with "may explain".
+
+The skin, hair and iris are hypopigmented, and here too there are two mechanisms. Melanin is made from DOPA in melanocytes by tyrosinase, so a shortage of tyrosine is a shortage of the substrate. On top of that, high levels of phenylalanine competitively inhibit tyrosinase itself.
+
+### Clinical picture
+The 2025 case describes it exactly: an infant with hypopigmented skin compared with the siblings, a mousy urine odour, elevated phenylpyruvate and phenylacetate, and mental retardation. Pallor relative to unaffected siblings is the useful clinical detail, because it makes hypopigmentation a comparison rather than an absolute.
+
+### Investigation
+The book names the biochemical findings rather than a test protocol: phenylalanine and its metabolites elevated in tissues, plasma and urine. It gives no assay, no cut-off, and no screening method, and none is invented here.
+
+### Management
+Early diagnosis of PKU is important to avoid mental retardation, as the disease is treatable by dietary means.
+
+The treatment of classic PKU consists of dietary restriction of phenylalanine, using a phenylalanine-free milk formula, with tyrosine supplementation. Tyrosine has to be supplied because this patient cannot make it — for them it has become an essential amino acid.
+
+In the rare cases due to BH4 deficiency, the treatment is both dietary and supplementation of BH4.
+
+That is the whole of what the department book says about treatment, and this article says no more. No target blood level, no age at which the diet may be relaxed, no statement about diet in pregnancy, and no product name: the availability and cost of a phenylalanine-free formula in Egypt is not stated in any source in this corpus.
+
+### Complications and prognosis
+Untreated, the mental retardation is manifest by the age of one year, which is the book's own statement of the time available. It gives no prognosis for treated patients and no long-term outcome data, so none is stated.
+
+### Prevention
+The book's only preventive statement is that early diagnosis avoids the mental retardation. It does not describe a screening programme.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The deficient enzyme is phenylalanine hydroxylase, and its coenzyme is tetrahydrobiopterin.
+The mousy odour comes from the metabolites phenylalanine is diverted into when it cannot become tyrosine.
+The neurological damage is deprivation, not toxicity: tyrosine and tryptophan are kept out of the brain and tyrosine is low to begin with.
+Hypopigmentation has two causes at once — too little tyrosine to make melanin from, and phenylalanine competitively inhibiting tyrosinase.
+Treatment is dietary restriction of phenylalanine with tyrosine supplementation, and BH4 as well in the rare coenzyme-deficient cases.
+
+## lose_the_mark
+Naming tyrosinase as the deficient enzyme because the child is pale; that is albinism.
+Saying phenylalanine is directly toxic to neurones instead of giving the transport and neurotransmitter mechanism.
+Giving only the tyrosine-deficiency half of the hypopigmentation and leaving out tyrosinase inhibition.
+Writing "protein-free diet" when the restriction is of one amino acid, which an infant still needs some of.
+
+## callout_evidence
+### The deficient enzyme is phenylalanine hydroxylase, and its coenzyme is tetrahydrobiopterin.
+Claims: CLM-FND-PKU-ENZYME-DEFECT-01
+Citations: CIT-KA-BIO103-PKU-ENZYME-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### The neurological damage is deprivation, not toxicity: tyrosine and tryptophan are kept out of the brain and tyrosine is low to begin with.
+Claims: CLM-FND-PKU-NEUROLOGICAL-01
+Citations: CIT-KA-BIO103-PKU-CNS-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Hypopigmentation has two causes at once — too little tyrosine to make melanin from, and phenylalanine competitively inhibiting tyrosinase.
+Claims: CLM-FND-PKU-HYPOPIGMENTATION-01
+Citations: CIT-KA-BIO103-PKU-PIGMENT-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Treatment is dietary restriction of phenylalanine with tyrosine supplementation, and BH4 as well in the rare coenzyme-deficient cases.
+Claims: CLM-FND-PKU-DIETARY-TREATMENT-01
+Citations: CIT-KA-BIO103-PKU-TREATMENT-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-FND-D7BB8C3AFB54CC | CON-FND-587B0A39D3C0BD | CON-FND-1DF6B985CB77A1 | CON-FND-81A4F3A9C51B7B
+
+## related_articles
+ART-103-BIO-NITROGEN-BALANCE: why removing one essential amino acid from a diet is a serious intervention rather than a simple one
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: tetrahydrobiopterin is a coenzyme like the vitamin-derived ones, and the same distinction between missing enzyme and missing coenzyme applies
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-FND-PKU-ENZYME-DEFECT-01 | CLM-FND-PKU-NEUROLOGICAL-01 | CLM-FND-PKU-HYPOPIGMENTATION-01 | CLM-FND-PKU-DIETARY-TREATMENT-01
+
+## span_ids
+SPN-BIO-PKU-ENZYME-01 | SPN-BIO-PKU-TREATMENT-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## university_notes
+kau: The Biochemistry department cancels eight of the individual amino acids from both exams — alanine, serine, threonine, aspartic acid, arginine, lysine, histidine and proline — but not the aromatic amino acids, and the 2025 end-of-year paper set PKU as Case (1). The paper letters that case a, b, b, c, d, with the letter b used twice and no e; the question record for it must decide whether to reproduce the mislettering or renumber, and must not assume five cleanly lettered subparts.
+
+## annotations
+### definition_of · CON-FND-D7BB8C3AFB54CC
+Quote: Phenylketonuria is a metabolic disorder of phenylalanine and tyrosine metabolism in which phenylalanine cannot be hydroxylated to tyrosine.
+Block: body
+
+### definition_of · CON-FND-1DF6B985CB77A1
+Quote: On top of that, high levels of phenylalanine competitively inhibit tyrosinase itself.
+Block: body
+
+### definition_of · CON-FND-81A4F3A9C51B7B
+Quote: The treatment of classic PKU consists of dietary restriction of phenylalanine, using a phenylalanine-free milk formula, with tyrosine supplementation.
+Block: body
+
+## media
+
+## media_recommendations
+### diagram · The phenylalanine to tyrosine fork, with the PKU block and both branches marked
+Brief: Phenylalanine at the top with phenylalanine hydroxylase and BH4 to tyrosine on one branch, marked "blocked in phenylketonuria"; the diverted branch to phenylpyruvate, phenyl-lactate, phenylacetate and phenyl-acetylglutamine below it; and from tyrosine the three downstream products — DOPA to catecholamines, DOPA to melanin by tyrosinase, and thyroid hormones
+Purpose: Teaches CON-FND-D7BB8C3AFB54CC, CON-FND-587B0A39D3C0BD and CON-FND-1DF6B985CB77A1 at once. Every symptom of PKU is a branch of this fork, and the whole point of the disease is that one block has consequences in three directions. Prose has to walk the branches one at a time, which is precisely what stops a student seeing that they share a cause.
+Priority: required
+Status: needed
+Section: Pathophysiology
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figures on pages 100 and 101 cited by locator
+Rights: must be CC-BY or public domain
+
+### clinical photograph · Hypopigmentation in an affected infant beside an unaffected sibling
+Brief: A child with PKU photographed with an unaffected sibling, showing the relative difference in skin, hair and iris pigmentation, with consent and identity protection
+Purpose: Teaches CON-FND-1DF6B985CB77A1. The presentation is comparative — "hypopigmented skin compared to siblings", as the exam stem puts it — and a comparison is not conveyable in words to a student who has never seen one. Priority is deliberately not "required": this is a photograph of an identifiable child and it must not be sourced without proper consent.
+Priority: optional
+Status: needed
+Section: Clinical picture
+Kind: clinical photograph
+Source direction: openly licensed paediatric or metabolic medicine atlas, consent documented
+Rights: must be CC-BY or public domain, and consent for publication must be on record
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VI "Individual Amino Acid Metabolism", pages 100 to 102.
+Section 1 Case (1) of the 2025 end-of-year paper for module 103 BMS establishes that the diagnosis, the enzyme, both mechanisms and the treatment are examined, and is cited as curriculum signal only. The model answers to that case do not extract from the solved copy's text layer and were read visually from the render; they reproduce the book's sentences word for word.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry or metabolic medicine reference has been attached.
+Epidemiology is absent entirely: the book gives no incidence and no screening statement, and no foreign figure is substituted.
+The Management section is treatment content and must not auto-publish. CLM-FND-PKU-DIETARY-TREATMENT-01 is to be written with risk_class treatment_or_action. No dose, no target level and no product name is given, because the book gives none and local availability could not be verified.
+The book states the neurological mechanism tentatively — "this may explain why" — and the article keeps that hedge rather than reporting it as settled.
+
+## conflicts
+The exam stem names phenylacetate among the raised metabolites; the book's prose names phenylpyruvate and phenyl-lactate and shows phenylacetate only on its pathway diagram. The two agree in substance and differ in which metabolites each chooses to name. Both are recorded rather than one being preferred silently.
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 Case (1) of the 2025 end-of-year paper. TPL-CONDITION rather than TPL-CONCEPT because the examiner asked it as a case, with a diagnosis, two mechanisms and a treatment, which is the shape of a condition article. Epidemiology and Investigation are present and say what the book does not cover, rather than being filled from elsewhere.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T05; the book's section title is carried by the microtopic and the subject tree's leaf by module_subject.
+questionIds: No question record tests this article yet. The written question for Section 1 Case (1) is a separate scope in CLAIMS.md and will add its ID.
+media: No rights-cleared asset exists for this material. Two are requested in media_recommendations, one of them deliberately at low priority because it would be a photograph of an identifiable child. The department book's own figures are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-GOUT-AND-HYPERURICAEMIA
+
+## title
+Gout and hyperuricaemia: too much made, or too little excreted
+
+## arabic_title
+النقرس وفرط حمض البوليك في الدم
+
+## aliases
+Gout
+Hyperuricaemia
+Tophi
+Uric acid
+Allopurinol
+Uricosuric drugs
+Disorders of purine metabolism
+
+## subject
+renal
+
+## topic
+Molecular biology
+
+## subtopic
+Disorders of Purine Metabolism
+
+## microtopic
+Hyperuricemia
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T06
+
+## secondary_node_ids
+SYS-MSK-T04 | SYS-REN-T06
+
+## template_id
+TPL-CONDITION
+
+## archetype
+condition
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Uric acid is the end product of purine catabolism in the human liver, and it is barely soluble. Raise it and it crystallises — in a joint as gout, in soft tissue as a tophus, in the urinary tract as a stone. There are only two ways to raise it: make more, or excrete less. Every cause the book lists, including the alcohol one the 2025 paper asked about, sorts into one of those two, and so does every drug that lowers it.
+
+## sections
+### Definition
+Uric acid is the main end product of purine catabolism in the human liver. Plasma urate is 4 to 7 mg/dL in men and 3 to 6 mg/dL in women during fasting, and normal adults excrete about 400 to 600 mg a day.
+
+Hyperuricaemia is an elevated serum urate, resulting from overproduction, which the book calls metabolic, or from decreased excretion, which it calls renal.
+
+Gout is a painful inflammation in one or more joints, characterised by deposition of nodular masses of uric acid crystals — tophi — in different soft-tissue areas of the body. In the joints they are found most often as hard nodules around the fingers, at the tips of the elbows, and around the big toe, causing arthritis. Precipitation of urates in the urinary tract may lead to renal stones.
+
+### Classification
+Increased production has two branches. Dietary, from excess intake of a nucleoprotein-rich diet — meat, liver, kidney. And metabolic, which is primary when genetic and secondary when driven by disease. Primary metabolic gout covers defects of PRPP synthetase, where mutation makes the enzyme superactive or resistant to feedback inhibition; partial deficiency of HGPRTase of the purine salvage system; Lesch-Nyhan syndrome, which is complete HGPRTase deficiency; and Von Gierke's disease, glucose 6-phosphatase deficiency, through enhanced purine synthesis and degradation with decreased urate excretion. Secondary metabolic gout is due to diseases that increase purine catabolism — cancer, leukaemia and psoriasis.
+
+Decreased excretion, renal gout, is primary when the renal disease is congenital, secondary when acquired, and also occurs with alcohol intake.
+
+### Epidemiology
+The department book gives no prevalence for gout, in Egypt or anywhere, and no age or sex distribution beyond the different normal urate ranges for men and women. No figure is imported. Alcohol intake, which is the mechanism the 2025 paper asked about, is uncommon in much of the Egyptian patient population, and the same mechanism — a raised blood lactate competing for the renal transporter — reaches a patient through exercise or hypoxia without any alcohol at all.
+
+### Aetiology and risk factors
+The alcohol route is worth following step by step, because the paper asked for it twice, once as alcohol and once as lactate.
+
+Oxidation of alcohol to acetaldehyde generates a significant amount of NADH. The increase in the NADH/NAD⁺ ratio shifts the lactate dehydrogenase reaction toward lactate formation. The elevation of blood lactate decreases the excretion of uric acid from the kidneys, because both lactic acid and uric acid occupy the same transporter in the renal tubules. Lactate, being higher in concentration and more soluble, succeeds in binding the transporter in favour of uric acid, which is retained, causing gout. Alcohol intake also causes dehydration.
+
+Note where the mechanism sits: this is decreased excretion, not increased production. It is a renal cause with a hepatic first step.
+
+### Pathophysiology
+Solubility is the whole of it. Urate salts are more soluble than uric acid, so the pH of the urine influences how much dissolves: urine at pH 5 can dissolve only about a tenth as much as urine at pH 7, and alkalinisation of urine markedly increases the solubility of uric acid. That single fact explains the stones, and it explains why alkalinisation is part of the advice attached to the uricosuric drugs.
+
+Upstream, uric acid comes from AMP and GMP through the nucleotidases to adenosine and guanosine, then to inosine and guanine, then to hypoxanthine and xanthine, and finally to uric acid — the last two steps both catalysed by xanthine oxidase. That enzyme is the target of the drug.
+
+### Clinical picture
+The 2025 case gives it: inflammation around joints, especially the big toe, a high blood uric acid concentration, and tophi. Podagra — the big toe — is the presentation to recognise.
+
+### Investigation
+The book's investigation is the plasma urate against its reference range, and the daily urinary excretion. It describes no joint aspiration and no crystal microscopy, so neither is claimed here.
+
+### Management
+Diet first. Restriction of a nucleoprotein-rich diet — meat, liver and kidney — with non-cellular proteins such as milk and its products being the best. Maintaining adequate fluid intake, which helps decrease the risk of kidney stone formation. And avoiding alcohol intake.
+
+Then drugs, in three groups.
+
+Anti-inflammatory agents are used to decrease joint inflammation and to relieve pain. They do not lower urate, and the examiner's question excludes them.
+
+Drugs decreasing the production of uric acid. Allopurinol is the drug of choice. It has a structural similarity to hypoxanthine; it is oxidised by xanthine oxidase to oxypurinol, and oxypurinol binds tightly to xanthine oxidase, inhibiting its ability to oxidise hypoxanthine and xanthine, and so decreasing uric acid formation. The reaction of allopurinol with PRPP also decreases PRPP levels and therefore de-novo purine synthesis. Two points of action, one drug.
+
+Drugs increasing the excretion of uric acid, the uricosuric drugs. These medications should be taken with plenty of fluid accompanied by alkalinisation of urine, to prevent the formation of renal stones.
+
+The department book names no member of that last class, and neither does the examiner's own model answer, which had to be read visually because it does not extract from the solved copy. No drug name is supplied here from any other source, and no dose and no brand name appears anywhere in this article: availability in Egypt could not be verified from any source in this corpus.
+
+### Complications and prognosis
+Precipitation of urates in the urinary tract may lead to renal stones, and chronic deposition gives the tophi that define chronic gout. The book states no prognosis and no rate of progression, so none is given.
+
+### Prevention
+The dietary and fluid measures above are the book's only preventive statements, and it makes no distinction between preventing a first attack and preventing recurrence.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Hyperuricaemia is either overproduction (metabolic) or decreased excretion (renal), and every cause sorts into one of the two.
+Alcohol raises urate through lactate: NADH rises, lactate rises, and lactate takes the shared renal transporter in preference to uric acid.
+Allopurinol is a xanthine oxidase inhibitor that acts through its metabolite oxypurinol, and it also lowers PRPP.
+Urine at pH 5 dissolves about a tenth as much uric acid as urine at pH 7, which is why alkalinisation matters.
+Anti-inflammatory drugs treat the attack and do not lower the urate.
+
+## lose_the_mark
+Explaining alcohol's effect as a purine load from the drink, when the book's mechanism is entirely renal.
+Offering colchicine as a urate-lowering drug.
+Answering "hyperuricaemia" alone when asked for the diagnosis in a patient with an inflamed toe and tophi.
+Saying allopurinol increases urate excretion.
+
+## callout_evidence
+### Alcohol raises urate through lactate: NADH rises, lactate rises, and lactate takes the shared renal transporter in preference to uric acid.
+Claims: CLM-REN-ALCOHOL-LACTATE-URATE-01
+Citations: CIT-KA-BIO103-ALCOHOL-URATE-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Allopurinol is a xanthine oxidase inhibitor that acts through its metabolite oxypurinol, and it also lowers PRPP.
+Claims: CLM-REN-ALLOPURINOL-MECHANISM-01
+Citations: CIT-KA-BIO103-ALLOPURINOL-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-REN-0460ED67059E66 | CON-REN-38B4BED80BC671 | CON-REN-31708150F8B722 | CON-REN-E5BAEF03791C8F
+
+## related_articles
+ART-REN-TOP-AD3B2EA126: the live purine and pyrimidine metabolism article, which carries the synthesis and salvage pathways this one only summarises
+ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: uric acid is an antioxidant as well as a crystal, which is the same molecule seen from the other end
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-REN-ALCOHOL-LACTATE-URATE-01 | CLM-REN-URICOSURIC-DRUGS-01 | CLM-REN-GOUT-TOPHI-DIAGNOSIS-01 | CLM-REN-ALLOPURINOL-MECHANISM-01
+
+## span_ids
+SPN-BIO-ALCOHOL-URATE-01 | SPN-BIO-GOUT-DRUGS-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Disorders of Purine Metabolism
+
+## university_notes
+kau: Nothing in the purines and pyrimidines chapter appears in the Biochemistry department's cancelled-items table, and the 2025 end-of-year paper set gout as Case (2) with four parts, including the mechanism of the alcohol effect and the drugs that lower urate. The department's own model answer for the drug part names allopurinol and reproduces the bare heading for the uricosuric class without naming a member.
+
+## annotations
+### definition_of · CON-REN-31708150F8B722
+Quote: Gout is a painful inflammation in one or more joints, characterised by deposition of nodular masses of uric acid crystals — tophi — in different soft-tissue areas of the body.
+Block: body
+
+### definition_of · CON-REN-0460ED67059E66
+Quote: The elevation of blood lactate decreases the excretion of uric acid from the kidneys, because both lactic acid and uric acid occupy the same transporter in the renal tubules.
+Block: body
+
+### treated_by · CON-REN-E5BAEF03791C8F
+Quote: It has a structural similarity to hypoxanthine; it is oxidised by xanthine oxidase to oxypurinol, and oxypurinol binds tightly to xanthine oxidase, inhibiting its ability to oxidise hypoxanthine and xanthine, and so decreasing uric acid formation.
+Block: body
+
+## media
+
+## media_recommendations
+### diagram · Catabolism of purine nucleotides to uric acid, with the allopurinol block marked
+Brief: AMP and GMP down through the nucleotidases, adenosine and guanosine, inosine and guanine, to hypoxanthine and xanthine and finally uric acid, with xanthine oxidase labelled on both of its steps and allopurinol drawn inhibiting it at both
+Purpose: Teaches CON-REN-E5BAEF03791C8F. Xanthine oxidase catalyses two consecutive steps, and that is why inhibiting it works so well — a fact about position in a pathway that a sentence cannot show. The book's own figure marks the inhibition twice, and the double mark is the teaching point.
+Priority: required
+Status: needed
+Section: Pathophysiology
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure on page 127 cited by locator
+Rights: must be CC-BY or public domain
+
+### clinical photograph · Tophi around the first metatarsophalangeal joint and the elbow
+Brief: Tophaceous deposits photographed at the big toe and at the tip of the elbow, the two sites the book names, with identity protected
+Purpose: Teaches CON-REN-31708150F8B722. "Nodular masses in soft tissue" is a description a student cannot convert into recognition, and the diagnosis in the 2025 case turns on recognising the sign. The distribution — big toe, finger, elbow tip — is itself diagnostic and is a spatial fact.
+Priority: strongly helpful
+Status: needed
+Section: Clinical picture
+Kind: clinical photograph
+Source direction: openly licensed rheumatology atlas, consent documented
+Rights: must be CC-BY or public domain
+
+### flowchart · Causes of hyperuricaemia sorted into overproduction and decreased excretion
+Brief: A two-branch tree, increased production against decreased excretion, with dietary and primary and secondary metabolic causes under the first, and primary renal, secondary renal and alcohol under the second
+Purpose: The classification is the answer to most of what this topic asks, and the section format forbids a table or a nested list in prose. Written out as sentences the two-level structure disappears, and it is exactly the structure a mark scheme rewards.
+Priority: required
+Status: needed
+Section: Classification
+Kind: flowchart
+Source direction: redraw from the department book's own text on page 128, cited by locator
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter IX "Metabolism of Purines and Pyrimidines", pages 127 to 129.
+Section 1 Case (2) of the 2025 end-of-year paper for module 103 BMS establishes that the diagnosis, the alcohol and lactate mechanisms and the urate-lowering drugs are examined, and is cited as curriculum signal only. Its model answers do not extract from the solved copy's text layer and were read visually from the render.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry or rheumatology reference has been attached.
+The Management section is treatment content and must not auto-publish. CLM-REN-ALLOPURINOL-MECHANISM-01 and CLM-REN-URICOSURIC-DRUGS-01 are both to be written with risk_class treatment_or_action.
+No member of the uricosuric class is named, because neither the department book nor the examiner's own model answer names one. Nothing is supplied from elsewhere.
+No dose appears for any drug, because the book states none. No brand name appears, because availability in Egypt could not be verified from any source in this corpus.
+The book does not identify the shared renal transporter that lactate and urate compete for, so it is not named.
+Epidemiology is absent: no prevalence, and no local data on alcohol-related gout in Egypt.
+The live concept CON-REN-E5BAEF03791C8F carries a caution about impaired kidney function that this book does not state. It is retained from the live record and its source should be traced before publication.
+
+## conflicts
+The exam stem places the tophi crystals "in urine", while the book describes tophi as soft-tissue deposits and says that urate precipitating in the urinary tract forms renal stones. The paper's wording is recorded as printed in the concept's original_wording; the book's account is what this article teaches.
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 Case (2) of the 2025 end-of-year paper. Two of its four concepts are live records this batch updates rather than duplicates, and both list ART-REN-TOP-AD3B2EA126 beside this article; medical:batch will report that live ID as authored nowhere in the batch directory. The purine synthesis and salvage pathways are deliberately left to the live article rather than restated here.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T06, which is where every live purine concept sits; the book's own section names are carried by the microtopic and by module_subject.
+questionIds: No question record tests this article yet. The written question for Section 1 Case (2) is a separate scope in CLAIMS.md and will add its ID.
+media: No rights-cleared asset exists for this material. Three are requested in media_recommendations; the department book's own figures are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## title
+Jaundice: reading the stool, the urine and the enzymes
+
+## arabic_title
+اليرقان: قراءة البراز والبول والإنزيمات
+
+## aliases
+Jaundice
+Icterus
+Hyperbilirubinaemia
+Obstructive jaundice
+Haemolytic jaundice
+Hepatocellular jaundice
+Conjugated and unconjugated bilirubin
+
+## subject
+gi
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice
+
+## microtopic
+Blood Bilirubin
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T07
+
+## secondary_node_ids
+SYS-GIT-T07 | SYS-HEM-T02
+
+## template_id
+TPL-CONDITION
+
+## archetype
+condition
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Bilirubin leaves the reticuloendothelial system unconjugated and albumin-bound, is conjugated in the liver, and leaves in bile to become the pigment that colours stool. Everything you can observe in a jaundiced patient follows from where that journey was interrupted. Before the liver, the unconjugated fraction rises and the urine stays clear. After it, the conjugated fraction rises, the urine darkens and the stool pales. In the liver, both rise. Add the enzymes — ALP for obstruction, ALT and AST for cell damage — and the three-by-three table on the 2025 paper writes itself.
+
+## sections
+### Definition
+Jaundice, or icterus, is the yellow colour of skin, nails and sclerae due to elevation of serum bilirubin above 2 mg/dL. Normally total serum bilirubin is 0.2 to 1.2 mg/dL, indirect 0.2 to 0.9, and direct less than 0.3.
+
+### Classification
+Jaundice is classified by the predominant form of bilirubin in serum: unconjugated hyperbilirubinaemia, conjugated hyperbilirubinaemia, or both together, which is the mixed type.
+
+Unconjugated hyperbilirubinaemia covers haemolytic jaundice, physiological neonatal jaundice and Gilbert syndrome. Conjugated hyperbilirubinaemia is obstructive jaundice. The mixed type is hepatocellular jaundice, which the book also calls toxic hyperbilirubinaemia and, in its summary table, hepatotoxic jaundice.
+
+### Epidemiology
+The department book gives no incidence for any type of jaundice and no local data. None is imported. The only quantitative statements it makes are the reference ranges above, the 20 mg/dL albumin-binding threshold above which unconjugated bilirubin crosses the blood-brain barrier, and the 13 mg/dL that physiological neonatal jaundice usually does not reach.
+
+### Aetiology and risk factors
+Haemolytic jaundice follows increased haemolysis, and the book's causes are abnormal haemoglobin, in sickle cell anaemia and the thalassaemias; red cell enzyme deficiency, G6PD and pyruvate kinase; red cell antibodies, in incompatible transfusion and erythroblastosis fetalis; and some infections, such as malaria.
+
+Obstructive jaundice follows obstruction of the biliary passages — gallstones, cancer of the head of the pancreas, or inflammation of the pancreas or of the passages.
+
+Hepatocellular jaundice is usually due to viral hepatitis, and may be caused by toxins such as paracetamol and chloroform.
+
+### Pathophysiology
+Start with the normal journey, because every abnormality is a break in it.
+
+After about 120 days the erythrocyte is taken up by reticuloendothelial cells. Haem oxygenase, with NADPH and oxygen, releases ferric iron and carbon monoxide and produces the green pigment biliverdin; biliverdin reductase reduces that to yellow bilirubin. This bilirubin is only slightly soluble in plasma, so it travels on albumin. It is the chief bilirubin in blood, called hemobilirubin or unconjugated bilirubin, and it cannot be excreted in urine. If it exceeds the carrying capacity of albumin, about 20 mg/dL, it crosses the blood-brain barrier and produces kernicterus.
+
+In the liver, unconjugated bilirubin dissociates from albumin and glucuronyltransferase conjugates it with glucuronic acid. Conjugation increases polarity and water solubility. Conjugated bilirubin, or cholebilirubin, is excreted principally in bile; being water-soluble and not protein-bound, it can be excreted in urine and does not cross the blood-brain barrier.
+
+In the large intestine, bacterial enzymes release bilirubin from glucuronic acid and reduce it to stercobilinogen. Most is excreted in stool and oxidised by air to brown stercobilin, which gives stool its colour. About 10 per cent is reabsorbed to the liver and re-excreted in bile — the enterohepatic circulation. A very little escapes to the systemic circulation and the kidneys as colourless urobilinogen, oxidised in air to yellow urobilin, which gives urine its normal colour.
+
+Now the three interruptions.
+
+In haemolytic jaundice there is increased haemolysis, producing bilirubin beyond the liver's excretory capacity. Serum bilirubin rises, mainly unconjugated. Stercobilin increases in the faeces, which becomes dark brown. Since unconjugated bilirubin is bound to plasma albumin, it cannot be excreted in the urine, hence the name acholuric jaundice.
+
+In obstructive jaundice, conjugated bilirubin regurgitates into the blood. Serum bilirubin rises, mainly conjugated. Stercobilin disappears from the faeces leading to clay coloured stool. Conjugated bilirubin becomes excreted in the urine, which becomes dark brown in colour, and the urine also contains bile salts. Due to biliary obstruction, serum alkaline phosphatase is elevated.
+
+In hepatocellular jaundice the capacity of the liver to conjugate decreases, giving unconjugated hyperbilirubinaemia, and swollen liver cells block the biliary canaliculi, giving conjugated hyperbilirubinaemia as well. Stercobilin in the faeces usually decreases, so the stool is faint rather than clay coloured. Conjugated bilirubin appears in the urine, which becomes dark brown. Due to liver cell damage, serum ALT and AST are elevated.
+
+### Clinical picture
+The 2025 case is the classic obstructive presentation: an older woman who ate a fatty meal, then abdominal pain proven to be gallstones, yellow skin and sclerae, dark brown urine and clay coloured stool. Each of those four findings is a step of the pathophysiology made visible, which is why the case can be answered from the mechanism rather than from memory.
+
+### Investigation
+Serum bilirubin is estimated by the Van den Bergh reaction, in which bilirubin is coupled with a reagent to yield a violet dye. The water-soluble conjugated bilirubin, not being protein-bound, reacts rapidly within one minute and is called direct reacting. The less soluble unconjugated bilirubin, bound to albumin, reacts only after a solvent such as methanol is added, at which point both fractions react and give the total bilirubin. Indirect-reacting bilirubin, which corresponds to the unconjugated fraction, is obtained by subtracting the direct from the total.
+
+That is why "direct" and "conjugated" are the same thing, and why "indirect" is a subtraction rather than a measurement.
+
+The enzymes complete the picture. Alkaline phosphatase is raised in obstruction. ALT and AST are raised in hepatocellular damage. The book records no enzyme change for haemolytic jaundice, and none is invented to fill that cell of the table.
+
+### Management
+The department book states treatment only for physiological neonatal jaundice: exposure to blue fluorescent light, which converts insoluble unconjugated bilirubin to more soluble photoisomers that can be excreted in bile without conjugation, and phenobarbital, which induces glucuronyltransferase. It states no treatment for obstructive or hepatocellular jaundice, and none is supplied here. Anything beyond phototherapy and enzyme induction is outside what any 103 BMS source says.
+
+### Complications and prognosis
+Kernicterus is the complication the book names: unconjugated bilirubin above about 20 mg/dL crosses the blood-brain barrier and produces brain damage. Conjugated bilirubin does not cross it and does not cause brain damage. No prognosis is given for any type.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Unconjugated bilirubin is albumin-bound and cannot appear in urine; conjugated bilirubin is water-soluble and can.
+Clay coloured stool means no stercobilin is reaching the gut, which means the bile is not getting there.
+Alkaline phosphatase rises in obstruction; ALT and AST rise in liver cell damage; the book records no enzyme change in haemolytic jaundice.
+Direct-reacting and conjugated are the same fraction; indirect is the total minus the direct.
+Only unconjugated bilirubin crosses the blood-brain barrier, and only above about 20 mg/dL, which is why kernicterus is a disease of the unconjugated fraction.
+
+## lose_the_mark
+Explaining dark urine in any jaundice as unconjugated bilirubin being excreted.
+Filling the enzyme cell for haemolytic jaundice with something the book does not state.
+Writing ALP for every jaundice that involves the biliary tree, when it marks obstruction specifically.
+Calling the hepatocellular stool clay coloured; the book says faint, because some stercobilin still gets through.
+
+## callout_evidence
+### Clay coloured stool means no stercobilin is reaching the gut, which means the bile is not getting there.
+Claims: CLM-GIT-OBSTRUCTIVE-JAUNDICE-STOOL-URINE-01
+Citations: CIT-KA-BIO103-OBSTRUCTIVE-JAUNDICE-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Alkaline phosphatase rises in obstruction; ALT and AST rise in liver cell damage; the book records no enzyme change in haemolytic jaundice.
+Claims: CLM-GIT-JAUNDICE-CLASSIFICATION-01
+Citations: CIT-KA-BIO103-JAUNDICE-TABLE-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Unconjugated bilirubin is albumin-bound and cannot appear in urine; conjugated bilirubin is water-soluble and can.
+Claims: CLM-HEM-HAEMOLYTIC-JAUNDICE-BILIRUBIN-01
+Citations: CIT-KA-BIO103-HAEMOLYTIC-JAUNDICE-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-GIT-A265DD7A7CC8EF | CON-GIT-4A2A86832F1FF2 | CON-HEM-F2B664C215C912
+
+## related_articles
+ART-HEM-TOP-B697DE3AAD: the live anaemia classification article, where the haemolysis that causes the first row of the table is set out
+ART-103-BIO-HMP-PATHWAY-AND-G6PD: G6PD deficiency is one of the book's own causes of haemolytic jaundice, and the point at which the two articles meet
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-GIT-OBSTRUCTIVE-JAUNDICE-STOOL-URINE-01 | CLM-GIT-JAUNDICE-CLASSIFICATION-01 | CLM-HEM-HAEMOLYTIC-JAUNDICE-BILIRUBIN-01
+
+## span_ids
+SPN-BIO-OBSTRUCTIVE-JAUNDICE-01 | SPN-BIO-JAUNDICE-TABLE-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+103 BMS > Biochemistry > Heme Metabolism > Blood Bilirubin
+
+## university_notes
+kau: The Biochemistry department cancels "Biosynthesis of heme & Porphyria" on pages 115 to 118 from both exams, which is the first half of the Heme Metabolism chapter. Heme catabolism, blood bilirubin and jaundice on pages 119 to 123 are not cancelled, "Different stages of heme catabolism (120)" is named among the examinable diagrams, and the 2025 end-of-year paper set jaundice as Case (3). The paper spells the rows "Obstructive juandice" and "Hepatocelluler juandice"; the book's summary table calls the third one "Hepatotoxic Jaundice" and its prose calls it hepatocellular.
+
+## annotations
+### definition_of · CON-GIT-4A2A86832F1FF2
+Quote: Jaundice is classified by the predominant form of bilirubin in serum: unconjugated hyperbilirubinaemia, conjugated hyperbilirubinaemia, or both together, which is the mixed type.
+Block: body
+
+### definition_of · CON-GIT-A265DD7A7CC8EF
+Quote: Stercobilin disappears from the faeces leading to clay coloured stool.
+Block: body
+
+### definition_of · CON-HEM-F2B664C215C912
+Quote: Since unconjugated bilirubin is bound to plasma albumin, it cannot be excreted in the urine, hence the name acholuric jaundice.
+Block: body
+
+## media
+
+## media_recommendations
+### diagram · The stages of haem catabolism across the three compartments
+Brief: Reticuloendothelial system, blood, liver and intestine drawn as bands: haem through haem oxygenase to biliverdin and biliverdin reductase to bilirubin; albumin-bound hemobilirubin in blood; glucuronyl transferase in the liver to cholebilirubin; stercobilinogen in the gut splitting to stercobilin in stool, enterohepatic recirculation, and urobilinogen to the kidney and urobilin in urine
+Purpose: Teaches CON-GIT-4A2A86832F1FF2 and CON-GIT-A265DD7A7CC8EF. Where a jaundice sits is literally a position on this diagram, and the pale stool and dark urine are two endpoints of it. A student who has read the sequence as prose can recite the steps and still not say which one an obstruction blocks. The department names this figure as examinable in its own right.
+Priority: required
+Status: needed
+Section: Pathophysiology
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure on page 120 cited by locator
+Rights: must be CC-BY or public domain
+
+### comparison table · Conjugated against unconjugated bilirubin on nine properties
+Brief: Two columns, unconjugated and conjugated, against serum level, other name, Van den Bergh reaction, polarity, water solubility, renal excretion, albumin binding, blood-brain barrier, and the direction of change in haemolytic, obstructive and hepatotoxic jaundice
+Purpose: Teaches CON-GIT-4A2A86832F1FF2, and it is the shape of the answer the 2025 paper asked for — a table. The section format forbids tables in prose, so without this asset the article has to narrate nine paired contrasts in sentences, which is exactly the form that loses the pairing.
+Priority: required
+Status: needed
+Section: Investigation
+Kind: comparison table
+Source direction: redraw from the department book's own table on page 123, cited by locator
+Rights: must be CC-BY or public domain
+
+### clinical photograph · Scleral icterus, clay coloured stool and dark urine
+Brief: Three panels — yellow sclera, a pale stool sample, and dark brown urine beside a normal one for comparison
+Purpose: All three findings are colours, and colour is the one thing prose can never carry. The 2025 case names all three, and a student who has only read the words "clay coloured" will not recognise the sample.
+Priority: strongly helpful
+Status: needed
+Section: Clinical picture
+Kind: clinical photograph
+Source direction: openly licensed gastroenterology or hepatology atlas, consent documented
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VIII "Heme Metabolism", pages 119 to 123.
+Section 1 Case (3) of the 2025 end-of-year paper for module 103 BMS establishes that the diagnosis, the stool and urine mechanism and the three-by-three table are examined, and is cited as curriculum signal only.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry or hepatology reference has been attached.
+The book leaves the enzyme cell for haemolytic jaundice empty rather than writing "no change" or naming LDH. Nothing is supplied to fill it.
+No epidemiology of any kind, and no local data on gallstone disease or on viral hepatitis in Egypt, which matters here because hepatitis C prevalence is materially different from Western figures and the book offers nothing.
+Treatment is stated only for physiological neonatal jaundice. Nothing is written about the management of biliary obstruction, which is surgical and outside every 103 BMS source.
+
+## conflicts
+The book's summary table on page 123 labels the mixed type "Hepatotoxic Jaundice"; its prose on page 122 calls the same entity hepatocellular jaundice and toxic hyperbilirubinaemia; and the exam paper prints "Hepatocelluler juandice". All three name one thing. The article uses hepatocellular, which is the book's prose term and the closest to the paper's spelling, and records the other two rather than choosing silently.
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 Case (3) of the 2025 end-of-year paper. One of its three concepts, CON-HEM-F2B664C215C912, is a live record this batch updates rather than duplicates, and it lists ART-HEM-TOP-B697DE3AAD beside this article. The physiological neonatal and Gilbert types are included although the paper did not ask for them, because the classification is not usable with two of its five members missing.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T07; the book's two sections are both named in module_subject and the microtopic carries the second of them.
+questionIds: No question record tests this article yet. The written question for Section 1 Case (3) is a separate scope in CLAIMS.md and will add its ID.
+media: No rights-cleared asset exists for this material. Three are requested in media_recommendations; the department book's own figure and its page 123 table are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## title
+Vitamins: the active form, the reaction, the deficiency
+
+## arabic_title
+الفيتامينات: الشكل النشط والتفاعل ونقصه
+
+## aliases
+Vitamins
+Fat soluble vitamins
+Water soluble vitamins
+Summary table for vitamins
+Folate antagonists
+Folate trap
+Coenzyme forms of the B vitamins
+
+## subject
+fnd
+
+## topic
+Nutrition
+
+## subtopic
+Vitamins
+
+## microtopic
+Summary Table for Vitamins
+
+## nanotopic
+
+## primary_node_id
+DIS-BIO-T08
+
+## secondary_node_ids
+SYS-HEM-T02 | SYS-FND-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+A vitamin is examined as a triple: the active form, the reaction it runs, and what goes wrong without it. Learn the triple and a matching question is arithmetic. The division into fat-soluble and water-soluble is not a filing convenience either — it predicts storage, toxicity, and how fast a deficiency shows. Two vitamins in this chapter also have drugs built against them, and folate is the one where blocking the vitamin is the whole point of the treatment.
+
+## sections
+### Definition
+Vitamins are organic compounds present in small quantities in natural food, as such or as precursors, required in trace amounts, essential for normal growth and health, mostly not synthesisable in the animal body, and not energy substrates although they may be required for energy generation. Their deficiency is manifested by characteristic clinical symptoms and signs. The recommended dietary allowance is the average daily intake sufficient to meet the requirements of healthy individuals.
+
+They divide by solubility. Fat-soluble: A, D, E and K. Water-soluble: C and the B complex.
+
+### Mechanism
+The division predicts almost everything else. Fat-soluble vitamins are absorbed with dietary fats in chylomicrons, require a carrier protein in blood, are stored in liver and adipose tissue, carry a higher toxicity risk because they are stored and cannot be excreted in urine, and their deficiencies appear late, only when stores are depleted. Water-soluble vitamins are absorbed directly into the blood, need no carrier, are not stored except folate and B12, carry a lower toxicity risk because excess is excreted in urine, and their deficiencies appear rapidly.
+
+Now the individual triples, which is what a matching question tests.
+
+Vitamin A, active as retinol, retinal and retinoic acid, maintains healthy epithelium, vision, reproduction and gene expression. Deficiency gives night blindness, in which the dark adaptation time is increased, and xerophthalmia and impaired growth.
+
+Vitamin D is hydroxylated in the liver by 25-hydroxylase to calcidiol and in the kidney by 1-hydroxylase to calcitriol, which is the active form. It maintains plasma calcium and the calcification of bone. Deficiency gives rickets in children and osteomalacia in adults.
+
+Vitamin E, active as α-tocopherol, is the antioxidant. Deficiency increases red cell fragility and leads to anaemia.
+
+Vitamin K, active as the hydroquinone, γ-carboxylates glutamate residues of the blood clotting factors and other proteins. Deficiency gives bleeding.
+
+Vitamin C, active as L-ascorbic acid, is a coenzyme for prolyl and lysyl hydroxylases in collagen synthesis, for homogentisate oxidase, for 7-α-hydroxylase in bile acid synthesis, for steroid hydroxylases and for dihydrofolate reductase; it is a reducing agent that keeps iron ferrous for absorption; and it is a highly efficient water-soluble antioxidant. Deficiency is scurvy.
+
+Thiamine, active as thiamine pyrophosphate, runs the oxidative decarboxylation of α-keto acids and the transketolase reaction. Deficiency is beriberi.
+
+Riboflavin, as FMN and FAD, and niacin, as NAD⁺ and NADP⁺, are hydrogen carriers. Niacin deficiency is pellagra — dermatitis, diarrhoea and dementia.
+
+Pantothenic acid is the vitamin of coenzyme A and is the acyl carrier. Deficiency is rare and manifests as fatty liver.
+
+Pyridoxine, active as pyridoxal phosphate, is the coenzyme of amino acid metabolism — transamination, all amino acid decarboxylations, ALA synthase, kynureninase — and muscle glycogen phosphorylase has a pyridoxal phosphate at each catalytic site. Deficiency gives hypochromic anaemia, peripheral neuritis, convulsions and pellagra-like manifestations.
+
+Biotin, as enzyme-bound biotin, runs carboxylation reactions, which is CO₂ fixation. Deficiency gives dermatitis, atrophic glossitis, anorexia and loss of hair.
+
+Folic acid, as tetrahydrofolate, transfers one-carbon units for the synthesis of methionine, purines and pyrimidines. Deficiency gives megaloblastic anaemia and neural tube defects.
+
+Cobalamin, as methylcobalamin and deoxyadenosylcobalamin, converts homocysteine to methionine and methylmalonyl-CoA to succinyl-CoA. Deficiency gives pernicious anaemia with gastrointestinal and neurological manifestations, including subacute combined degeneration of the lateral and posterior columns of the spinal cord.
+
+### Key determinants
+Folate and B12 are locked together, and it is the one pairing worth the effort. The different forms of folate are interconvertible except methyl-THF, whose production is irreversible; the only way to regenerate THF from it is mediated by cobalamin. So in B12 deficiency, folate is trapped as methyl-THF — the folate trap — and the patient has a functional folate deficiency on top of the B12 one. That is why B12 deficiency produces a megaloblastic anaemia indistinguishable from folate deficiency, and why treating such a patient with folic acid alone corrects the anaemia while the neurological damage goes on and becomes irreversible.
+
+The neurological damage itself is explained by the other B12 reaction. Methylmalonyl-CoA accumulates; it competes with malonyl-CoA and inhibits fatty acid biosynthesis, which the myelin sheath needs; and it can substitute for malonyl-CoA, producing branched-chain fatty acids that disrupt membrane structure.
+
+Two drug classes are built on folate. Sulfonamides are competitive inhibitors of the enzyme that incorporates PABA to form folic acid in bacteria, so bacterial multiplication stops; they do not affect human DNA or RNA synthesis, because mammalian cells cannot synthesise folic acid at all. Methotrexate is an anticancer drug and a competitive inhibitor of dihydrofolate reductase, so folic acid is not activated, and DNA synthesis and cell division of malignant cells stop — the conversion of dUMP to dTMP requires methylene-THF. Treatment with methotrexate is itself one of the book's listed causes of folate deficiency, which is the same mechanism seen as a side effect.
+
+### Clinical significance
+B12 absorption is where the clinical cases come from. B12 needs intrinsic factor, a glycoprotein from gastric parietal cells, because of its size; the complex binds receptors on ileal mucosa. So failure of absorption — malabsorption disease, gastrectomy, or autoimmune destruction of parietal cells — is far commoner than dietary deficiency, which is rare except among vegetarians. Any patient with megaloblastic anaemia should have a neurological examination and a B12 assessment before folate is given.
+
+Vitamin K deficiency and the coumarin anticoagulants are the same biochemistry from two directions: the vitamin γ-carboxylates the clotting factors, and coumarins competitively inhibit it.
+
+Local context matters for two of these. Vitamin D deficiency is common in Egypt despite the sunshine, and the book supplies no local figure. And a diet built on legumes and cereals rather than animal protein raises the question of B12 status, which the book raises only in the abstract phrase "except among vegetarians".
+
+### Common misconceptions
+Three recur. Choosing niacin for the oxidative decarboxylation of α-keto acids because both involve NAD⁺ — the coenzyme there is thiamine pyrophosphate, and niacin's answer is pellagra. Pairing folate with the spinal cord option — folate's neurological answer is neural tube defects in the newborn, and subacute combined degeneration is B12. And treating "antioxidant" as one answer when there are two, separated only by the words lipid-soluble, which is vitamin E, and water-soluble, which is vitamin C.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+A vitamin is examined as a triple: active form, reaction, deficiency.
+Fat-soluble vitamins are stored, so they are more toxic and their deficiencies appear late; water-soluble ones are not stored except folate and B12, so their deficiencies appear fast.
+Calcitriol is the active form of vitamin D and it is made in the kidney by 1-hydroxylase.
+Thiamine pyrophosphate runs the oxidative decarboxylation of α-keto acids; biotin runs carboxylation; pantothenic acid is the vitamin of coenzyme A.
+In B12 deficiency folate is trapped as methyl-THF, so folate alone corrects the anaemia and lets the neurological damage continue.
+Sulfonamides block bacterial folate synthesis, which humans do not have; methotrexate blocks dihydrofolate reductase, which humans do.
+
+## lose_the_mark
+Choosing niacin for oxidative decarboxylation of α-keto acids because both involve NAD⁺.
+Pairing folate with subacute combined degeneration of the cord instead of B12.
+Answering "antioxidant" without checking whether the option says lipid-soluble or water-soluble.
+Explaining the selectivity of sulfonamides as poor uptake by human cells rather than as an absent pathway.
+
+## callout_evidence
+### Calcitriol is the active form of vitamin D and it is made in the kidney by 1-hydroxylase.
+Claims: CLM-FND-FAT-SOLUBLE-VITAMINS-01
+Citations: CIT-KA-BIO103-FAT-SOLUBLE-VIT-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### In B12 deficiency folate is trapped as methyl-THF, so folate alone corrects the anaemia and lets the neurological damage continue.
+Claims: CLM-FND-WATER-SOLUBLE-VITAMINS-01
+Citations: CIT-KA-BIO103-WATER-SOLUBLE-VIT-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+### Sulfonamides block bacterial folate synthesis, which humans do not have; methotrexate blocks dihydrofolate reductase, which humans do.
+Claims: CLM-FND-FOLATE-ANTAGONISTS-01
+Citations: CIT-KA-BIO103-FOLATE-ANTAGONISTS-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-21
+
+## related_concepts
+CON-FND-46B9F239340ED9 | CON-FND-C9E5128193029E | CON-FND-1A4A49607783A9
+
+## related_articles
+ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: where vitamins C and E appear as scavenger antioxidants, and where the two are told apart
+ART-103-BIO-PHENYLKETONURIA: tetrahydrobiopterin is a coenzyme like these, and the same distinction between a missing enzyme and a missing coenzyme decides the treatment
+
+## question_ids
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-FND-FAT-SOLUBLE-VITAMINS-01 | CLM-FND-WATER-SOLUBLE-VITAMINS-01 | CLM-FND-FOLATE-ANTAGONISTS-01
+
+## span_ids
+SPN-BIO-VITAMINS-SUMMARY-01 | SPN-BIO-FOLATE-ANTAGONISTS-01
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Vitamins > Summary Table for Vitamins
+103 BMS > Biochemistry > Vitamins > Vitamin B9 (Folic acid, Pteroyl glutamate)
+
+## university_notes
+kau: The Biochemistry final exam covers "All chapters from Bioenergetics to vitamins" except the cancelled items, and no vitamin appears in the cancelled table. The 2025 end-of-year paper set an extended matching question of ten vitamins against twelve functions; the solved copy leaves exactly two options unnumbered — "Water soluble antioxidant" and "Muscle glycogen phosphorylase" — which are the functions of vitamin C and of pyridoxine, neither of which is among the ten stems. They are the distractors, and the department's own key is what establishes that.
+
+## annotations
+### definition_of · CON-FND-46B9F239340ED9
+Quote: Vitamin D is hydroxylated in the liver by 25-hydroxylase to calcidiol and in the kidney by 1-hydroxylase to calcitriol, which is the active form.
+Block: body
+
+### definition_of · CON-FND-C9E5128193029E
+Quote: Thiamine, active as thiamine pyrophosphate, runs the oxidative decarboxylation of α-keto acids and the transketolase reaction.
+Block: body
+
+### definition_of · CON-FND-1A4A49607783A9
+Quote: Methotrexate is an anticancer drug and a competitive inhibitor of dihydrofolate reductase, so folic acid is not activated, and DNA synthesis and cell division of malignant cells stop — the conversion of dUMP to dTMP requires methylene-THF.
+Block: body
+
+## media
+
+## media_recommendations
+### comparison table · Summary table of all thirteen vitamins
+Brief: One table of vitamin, active form, main function and deficiency manifestations, split into fat-soluble and water-soluble halves, covering A, D, E, K, C, thiamine, riboflavin, niacin, pantothenic acid, pyridoxine, biotin, folic acid and cobalamin
+Purpose: Teaches CON-FND-46B9F239340ED9 and CON-FND-C9E5128193029E, and it is the exact form the 2025 matching question tests. Thirteen vitamins times three attributes is thirty-nine facts, and the section format forbids tables in prose, so without this asset the article must narrate them as thirty-nine sentences — which is the form in which nobody can revise them or match across them.
+Priority: required
+Status: needed
+Section: Mechanism
+Kind: comparison table
+Source direction: redraw from the department book's own summary table on pages 157 to 158, cited by locator
+Rights: must be CC-BY or public domain
+
+### diagram · The folate trap in B12 deficiency
+Brief: Methylene-THF through reductase to methyl-THF, and methyl-THF back to THF only via cobalamin and methylcobalamin, with the homocysteine to methionine conversion on the same step and the return arrow marked as blocked when B12 is absent
+Purpose: Teaches CON-FND-C9E5128193029E. The trap is a one-way arrow with only one exit, and that is a fact about the shape of the pathway. It explains in one picture why B12 deficiency looks like folate deficiency and why giving folate is dangerous — the clinical point the book warns about in a note.
+Priority: required
+Status: needed
+Section: Key determinants
+Kind: flowchart
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure on page 153 cited by locator
+Rights: must be CC-BY or public domain
+
+### diagram · Where sulfonamides and methotrexate block the folate pathway
+Brief: Two panels side by side — pteridine plus PABA to folic acid in bacteria, with sulfonamide inhibiting that step and its structural similarity to PABA shown; and folic acid to THF in humans by DHF reductase, with methotrexate inhibiting that step and the THF outputs to amino acid, purine and TMP synthesis
+Purpose: Teaches CON-FND-1A4A49607783A9. The selectivity of sulfonamides is entirely a matter of which step exists in which organism, and putting the two pathways side by side is the only way to show that the human panel simply has no left-hand half.
+Priority: required
+Status: needed
+Section: Key determinants
+Kind: diagram
+Source direction: openly licensed biochemistry or pharmacology text, or a redraw commissioned from the department figure on page 154 cited by locator
+Rights: must be CC-BY or public domain
+
+### diagram · One-carbon metabolism and where each source and sink connects
+Brief: The THF one-carbon carousel — formimino-THF, methenyl-THF, methylene-THF, methyl-THF, formyl-THF — with serine, glycine, histidine and tryptophan feeding in and pyrimidine (TMP), purine C2 and C8, and methionine coming out
+Purpose: Folate's function is "transfer of one-carbon units", which is a phrase rather than an explanation until the units are seen going somewhere. This also shows why a folate deficiency hits dividing cells first, which is the link to the megaloblastic anaemia.
+Priority: strongly helpful
+Status: needed
+Section: Mechanism
+Kind: flowchart
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter X "Vitamins", pages 130 to 158, with the summary table on pages 157 to 158 and the folate antagonists on page 154.
+Section 1 question I-4 and Section 1 IV, the extended matching question, of the 2025 end-of-year paper for module 103 BMS establish that the folate antagonists and the vitamin functions are examined, and are cited as curriculum signal only. The matching key does not extract from the solved copy's text layer and was read visually from the render.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry or nutrition reference has been attached.
+The book's RDA figures are given without stating whose recommendation they are, or for what age and sex, so they are not reproduced as authoritative.
+No Egyptian prevalence data exists in the corpus for any vitamin deficiency, and vitamin D and B12 are the two where a local figure would change what a student should expect. None is imported.
+The book names the bacterial enzyme sulfonamides inhibit only as "the enzyme needed to incorporate PABA to form folic acid", so no enzyme name is given. No dose is stated for either drug and none is written.
+
+## conflicts
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to carry Section 1 question I-4 and the whole of Section 1 IV, the extended matching question, of the 2025 end-of-year paper. The matching question is not authored by this scope, but its answers are all concepts and all needed an article, which is why the article covers thirteen vitamins rather than the ten in the stem — the two distractors are only recognisable as distractors if vitamin C and pyridoxine are taught too.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T08; the book's per-vitamin sections are carried by module_subject and the microtopic.
+questionIds: No question record tests this article yet. The extended matching question is a separate scope in CLAIMS.md, "103 BMS · Biochemistry · EOY 2025 matching", and will add its ID; this file must not append to a file that scope owns.
+media: No rights-cleared asset exists for any of this material. Four are requested in media_recommendations; the department book's own summary table and figures are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
