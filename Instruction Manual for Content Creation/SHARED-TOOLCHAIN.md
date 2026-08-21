@@ -500,10 +500,22 @@ The live record whose `canonicalKey` is exactly that string is **`CON-FND-3CC86C
 *canonical-key* collision. It mints a second ID for a concept that already exists and
 affirmatively confirms it. There is no warning to miss — there is a green light to trust.
 
-**This is total, not occasional.** Of the 210 `CON-CVS-*` and `CON-RES-*` concepts carrying
-a `canonicalKey`, **210 fail to reproduce their live ID** — every one. Sampling twelve
-directly: every one mismatched, and four minted **nothing at all**. The live IDs came from
-an earlier scheme, so the tool's `ok` is **meaningless for anything already in the graph**.
+**It reproduces none of them. Measured across the whole graph:**
+
+```
+live concepts: 1718 | with a canonicalKey: 1718
+mint reproduces the live ID:      0
+mint produces a DIFFERENT id:  1718
+```
+
+**The reason is not a collision-check gap — the two never agreed.** `mint-concept-id.mjs:55`
+hashes `sha256(canonicalKey)` **alone**. `seeds/types.ts:134` hashes
+`sha256("kau:<module>:" + key)`. Different inputs, so they cannot agree on any input, and the
+live IDs were never minted from the canonical key in the first place.
+
+Say it as **"reproduces none of them"**, never as "sometimes collides". The weaker phrasing
+invites an agent to derive-and-verify — a check that fails 100% of the time and prints `ok`
+every time.
 
 **For an existing concept, look the ID up in the graph by canonical key or label. Never
 compute it.** A lane that assumes the mint is stable across history will silently fork every
@@ -628,3 +640,59 @@ The single eager registry is what makes a bare build dangerous *and* a scoped bu
 impossible. The fix is lazy registration — hold `{module, path}` records and call
 `paperFromJson` only on entries surviving the filter. Tolerating a missing file is weaker: a
 paper missing from **your own** module should still be loud.
+
+### 101 ISK is split between two sessions
+
+Agreed by both, 2026-08-21. Each writes its **own** `CLAIMS.md` row — one agent, one row.
+
+| Holder | Scope |
+|---|---|
+| `101-isk` (`claude/synapse-content-extraction-plan-1ae3e0`) | sat papers, their concepts, articles, practical |
+| `101-isk-mcq` (`claude/sad-solomon-4bb999`) | `scripts/kasr/seeds/mcq/**`, `question/101-ISK-mcq.md`, `concept/101-ISK-mcq-concepts.md` |
+
+`101-isk` holds exactly one MCQ leaf — **`granular-leukocytes`** — and will add no more.
+Every other leaf is `101-isk-mcq`'s. 37 leaves and ~2,600 questions remain.
+
+**Subject per leaf**, since the hash ignores `subject` and only the prefix would diverge:
+
+> `haem` for anything under *Histology > Blood*; `fnd` for the rest of Histology; `dev` for
+> General Embryology; `msk` for Basis of Anatomy and Upper Limb.
+
+That is what the paper concepts already use, so it keeps one subject per objective across
+both halves.
+
+**Neither side hand-edits a generated batch.** Both MCQ outputs are built from the seeds.
+
+### An article is part of a leaf, not a later phase
+
+A question batch validates only if every `main_concept` is covered by an article the concept
+itself links back to. One MCQ batch is red on **59 errors** — 14 of the form `library_ids
+ART-… is not an article that exists`, the rest `main concept … is not covered by any article
+in library_ids`. That is the check working.
+
+**A leaf is not done until its article exists** — a question a student gets wrong with
+nowhere to read is a dead end.
+
+### Two article defects every lane will hit
+
+- **`## media` written as `[clear]`** is reported as *"media block with no URL and would be
+  dropped"*. For that one field the manual wants **present-but-empty plus a `field_notes`
+  reason** — the single place `[clear]` is the wrong value.
+- **An annotation's `Quote:` must match the body character for character.** One failed on
+  *fiber* against *fibre*. A single letter, and the error message does not name the cause.
+
+### A canonical key can move — check before you reference one
+
+Three keys moved in a merge, and anything referencing the old ones dangles:
+
+```
+deep-palmar-arch-site-formation-branches        → palmar-arterial-arches-site-formation-branches
+anatomical-snuff-box-boundaries-contents-floor-roof → anatomical-snuff-box-site-boundaries-contents
+lysosome-types-electron-microscopy              → lysosome-types-secondary-fates
+```
+
+They now match `clusters.json`, which is the canonical dedup source for the remaining papers.
+The lysosome concept also **broadened** — it carries the three secondary subtypes, because
+five papers and the department's own model answer ask for them where an EM-only reading
+omitted them. So an MCQ about heterolysosomes or multivesicular bodies belongs to **that**
+concept rather than a new one.
