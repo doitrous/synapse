@@ -4,10 +4,10 @@
     EOY (ISK - 101) 199 (1).pdf — end of year 2025, 17 questions
     EOY (ISK - 101) 198 (1).pdf — end of year 2024, 16 questions
     EOY 195 first 2022 101 ISK final (1).pdf — end of year 2022, 19 questions
-    EOY 195 first 2022  101 ISK  final module (1).pdf — resit 2022, 17 questions
-    EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — resit 2024, 16 questions
-    EOY BAQOON 197 دور تاني.pdf — resit 2023, 13 questions
-    EOY Anatomy cases 1st year 2025-1 (2).pdf — formative 2025, 11 questions
+    EOY 195 first 2022  101 ISK  final module (1).pdf — baqoon 2022, 17 questions
+    EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — baqoon 2024, 16 questions
+    EOY BAQOON 197 دور تاني.pdf — baqoon 2023, 13 questions
+    EOY Anatomy cases 1st year 2025-1 (2).pdf — other 2025, 11 questions
 
   71 concepts from 109 questions.
   31 of them were asked on more than one paper, and carry an exam_signal
@@ -84,6 +84,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -177,6 +215,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -269,6 +345,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -332,7 +446,7 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p3 | 101 ISK
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p1 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p6 | 101 ISK
 src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
@@ -363,6 +477,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -456,6 +608,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -547,6 +737,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -640,6 +868,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -731,6 +997,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -824,6 +1128,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -886,7 +1228,7 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p10 | 101 ISK
-src_ec930bfde4ad26924402 | resit | 2023 | p1 | 101 ISK
+src_ec930bfde4ad26924402 | baqoon | 2023 | p1 | 101 ISK
 src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
@@ -917,6 +1259,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -980,7 +1360,7 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p11 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p2 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p2 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1010,6 +1390,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1073,7 +1491,7 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p12 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p5 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p5 | 101 ISK
 src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
@@ -1104,6 +1522,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1167,7 +1623,7 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p13 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1197,6 +1653,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1291,6 +1785,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1354,7 +1886,7 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p13 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p1 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1384,6 +1916,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1448,8 +2018,8 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p4 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p5 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p5 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p5 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1479,6 +2049,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1543,7 +2151,7 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p13 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p1 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1573,6 +2181,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1636,7 +2282,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p4 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p4 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1667,6 +2313,44 @@ direct_statement
 
 ## evidence_gaps
 The book names internal fascia as a third kind of fascia and then does not describe it, so a student asked to contrast deep with internal fascia has nothing in the department text to answer from.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1729,8 +2413,8 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p6 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p8 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p6 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p8 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1760,6 +2444,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1823,8 +2545,8 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p9 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p9 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1854,6 +2576,44 @@ direct_statement
 ## uncertainty
 The paper prints "Fertlization". The misspelling is the paper's and is kept in `asked` unedited.
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1917,8 +2677,8 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p8 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p10 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p8 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p10 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -1948,6 +2708,44 @@ The department book carries abnormal sites of implantation in its Second Week ch
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2011,7 +2809,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p2 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p7 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p7 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2041,6 +2839,44 @@ direct_statement
 ## uncertainty
 The paper prints its mark marker twice on this question — "{5 Marks}. {5 Marks}". It is one five-mark question; the duplication is a typesetting slip in the paper and appears in both the solved and the unsolved copy.
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2104,7 +2940,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p2 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p4 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p4 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2134,6 +2970,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2227,6 +3101,44 @@ The book's own chapter note says the ILO promises the course and branches of the
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2289,7 +3201,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p3 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p6 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p6 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2319,6 +3231,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2412,6 +3362,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2475,7 +3463,7 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p5 | 101 ISK
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p13 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p2 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p2 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2505,6 +3493,44 @@ direct_statement
 ## uncertainty
 Subpart (b) asks what movements would be affected "following paralysis of these muscles", but no muscles were named — subpart (a) asked for a nerve. The paper's own wording is inconsistent and is kept unedited; the solved copy answers it as the movements lost when that nerve is cut.
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2568,7 +3594,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p5 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p3 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p3 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2598,6 +3624,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2661,7 +3725,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p6 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p1 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2692,6 +3756,44 @@ direct_statement
 
 ## evidence_gaps
 The book's Golgi section carries its "Functions:" heading with the content entirely inside an unextractable figure, so the functions of the Golgi are not available as department text. This question asks only for site, stains and light-microscopic picture, all of which are in the text.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2783,6 +3885,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2876,6 +4016,44 @@ direct_statement
 
 ## evidence_gaps
 The paper's table asks for Origin, Site and L.M. The book gives the origin (both from the undifferentiated mesenchymal cell) and the light-microscopic pictures, and gives the "site" only as the tissue each cell forms — white adipose connective tissue against brown adipose connective tissue. It names no body sites for brown fat, so the Site row is answered at the level the book supports and no further.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2938,7 +4116,7 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p7 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p3 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p3 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -2968,6 +4146,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3061,6 +4277,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3123,7 +4377,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p2 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p2 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p2 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3153,6 +4407,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3216,7 +4508,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p2 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p2 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p2 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3246,6 +4538,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3309,7 +4639,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p3 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p8 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p8 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3339,6 +4669,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3432,6 +4800,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3494,7 +4900,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p4 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p5 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p5 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3525,6 +4931,44 @@ direct_statement
 
 ## evidence_gaps
 The book defines the cubital fossa and gives its floor, roof and contents, and its classification list names "Boundaries of the cubital fossa", but the three boundaries themselves — brachioradialis, pronator teres and the line between the epicondyles — are not present as text in the extracted chapter. The scheme asks for them and marks the parts the book supports.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3616,6 +5060,44 @@ New key, minted here. `clusters.json` has no objective for the movements of the 
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3709,6 +5191,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3771,7 +5291,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p7 | 101 ISK
-src_f3d7ac13bbc97156212f | resit | 2023 | p4 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p4 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3801,6 +5321,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3864,7 +5422,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p8 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -3894,6 +5452,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3987,6 +5583,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -4049,7 +5683,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p10 | 101 ISK
-src_1641d3629225bb111726 | resit | 2022 | p7 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p7 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -4079,6 +5713,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4172,6 +5844,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -4264,6 +5974,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -4326,7 +6074,7 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p12 | 101 ISK
-src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -4356,6 +6104,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4418,7 +6204,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p1 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p1 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -4448,6 +6234,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4510,7 +6334,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p4 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p4 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -4540,6 +6364,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4602,7 +6464,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p5 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p5 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -4632,6 +6494,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4694,7 +6594,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p6 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p6 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -4724,6 +6624,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4786,7 +6724,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p8 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p8 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -4816,6 +6754,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4878,8 +6854,8 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p9 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p1 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p9 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -4909,6 +6885,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4971,8 +6985,8 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_1641d3629225bb111726 | resit | 2022 | p9 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p4 | 101 ISK
+src_1641d3629225bb111726 | baqoon | 2022 | p9 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p4 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -5002,6 +7016,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5064,7 +7116,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5094,6 +7146,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5156,7 +7246,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5186,6 +7276,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5248,7 +7376,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p2 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5278,6 +7406,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5340,7 +7506,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p2 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5370,6 +7536,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5432,7 +7636,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p4 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p4 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5462,6 +7666,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5524,8 +7766,8 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
-src_4ad2587114e7f1ba4811 | formative | 2025 | p3 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p5 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p3 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
@@ -5555,6 +7797,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5617,7 +7897,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p6 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5647,6 +7927,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5709,7 +8027,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p7 | 101 ISK
+src_530685004e73e670a4ed | baqoon | 2024 | p7 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5739,6 +8057,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5801,7 +8157,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p3 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p3 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5831,6 +8187,44 @@ New key, minted here. `clusters.json` has no objective for the anastomosis aroun
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5893,7 +8287,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p7 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p7 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -5923,6 +8317,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -5985,7 +8417,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p11 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p11 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6015,6 +8447,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6077,7 +8547,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p13 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p13 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6107,6 +8577,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6169,7 +8677,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p14 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p14 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6199,6 +8707,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6261,7 +8807,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_f3d7ac13bbc97156212f | resit | 2023 | p15 | 101 ISK
+src_f3d7ac13bbc97156212f | baqoon | 2023 | p15 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6291,6 +8837,44 @@ New key, minted here. `clusters.json` has an objective for the T lymphocyte (`t-
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6353,7 +8937,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_4ad2587114e7f1ba4811 | formative | 2025 | p2 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6383,6 +8967,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6445,7 +9067,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_4ad2587114e7f1ba4811 | formative | 2025 | p2 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6475,6 +9097,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -6537,7 +9197,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_4ad2587114e7f1ba4811 | formative | 2025 | p4 | 101 ISK
+src_4ad2587114e7f1ba4811 | other | 2025 | p4 | 101 ISK
 ## weight_confidence
 0.7
 ## blueprint_weight
@@ -6567,6 +9227,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude

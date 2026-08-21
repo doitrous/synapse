@@ -103,6 +103,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -198,6 +236,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -296,6 +372,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -392,6 +506,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -492,6 +644,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -589,6 +779,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -689,6 +917,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -785,6 +1051,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -883,6 +1187,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -978,6 +1320,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1073,6 +1453,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1170,6 +1588,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1269,6 +1725,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1366,6 +1860,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1466,6 +1998,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1561,6 +2131,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1659,6 +2267,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -1760,6 +2406,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1860,6 +2544,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1956,6 +2678,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2054,6 +2814,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2154,6 +2952,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2251,6 +3087,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2350,6 +3224,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2446,6 +3358,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2546,6 +3496,44 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2643,6 +3631,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2738,6 +3764,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -2835,6 +3899,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -2936,6 +4038,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3035,6 +4175,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3132,6 +4310,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3231,6 +4447,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3329,6 +4583,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3426,6 +4718,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3527,6 +4857,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3622,6 +4990,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3721,6 +5127,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -3823,6 +5267,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -3920,6 +5402,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude
@@ -4020,6 +5540,44 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -4115,6 +5673,44 @@ direct_statement
 
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -4214,6 +5810,44 @@ direct_statement
 ## uncertainty
 
 ## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
 [clear]
 ## owner
 Claude

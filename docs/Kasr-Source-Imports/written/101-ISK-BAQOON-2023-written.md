@@ -1,7 +1,7 @@
 <!--
   EOY BAQOON 197 دور تاني.pdf as sittable written questions.
 
-  Kasr Al Ainy, module 101 ISK, resit 2023.
+  Kasr Al Ainy, module 101 ISK, baqoon 2023.
   Manifest ID src_f3d7ac13bbc97156212f. 13 questions, 65 marks: 10 in Anatomy, 3 in Histology.
 
   NOT the whole paper: Three sections are printed as bare headings with nothing under them: `cases :` at the foot of the Anatomy section (p12), and `match :` and `+MCQs` at the foot of the Histology section (p16). The paper prints no marks and no counts for them, so how many questions are missing is not known — only that they were set. The thirteen questions here are the whole of what this copy reproduces.
@@ -88,7 +88,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q1, p2. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q1, p2. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “compare : Pectoralis major | Pectoralis minor — origin, insertion, Action”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -163,7 +163,7 @@ ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q2, p3. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q2, p3. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “name the arteries share in anastomosis around elbow and give their origin”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -240,7 +240,7 @@ ART-101-ANA-BRACHIAL-PLEXUS
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q3, p4. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q3, p4. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “mention the origin and branches of brachial plexus”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -317,7 +317,7 @@ ART-101-ANA-CUBITAL-FOSSA
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q4, p5. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q4, p5. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “describe the anatomy of cubital fossa ( site, boundries, floor and contents )”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -392,7 +392,7 @@ ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q5, p6. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q5, p6. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mention beginning, end and branches of Brachial artery”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -468,7 +468,7 @@ ART-101-ANA-SHOULDER-JOINT
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q6, p7. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q6, p7. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “list. movements of shoulder joint and mention muscles produce it”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -542,7 +542,7 @@ ART-101-ANA-FIBROUS-JOINTS
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q7, p8. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q7, p8. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “describe the characters and types of fibrous joint.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -615,7 +615,7 @@ ART-101-ANA-FERTILIZATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q8, p9. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q8, p9. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “mention results of fertilization”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -689,7 +689,7 @@ ART-101-ANA-IMPLANTATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q9, p10. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q9, p10. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “give abnormal sites of implantation”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -764,7 +764,7 @@ ART-101-ANA-NOTOCHORD
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Anatomy Q10, p11. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Anatomy Q10, p11. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “summrize notochrod”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -839,7 +839,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Histology Q1, p13. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Histology Q1, p13. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “discribe the histological structure of rER (LM, EM and function)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -914,7 +914,7 @@ ART-101-HIS-CT-CELLS-COMPARED
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Histology Q2, p14. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Histology Q2, p14. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “state the origin and describe the LM, EM of active fibroblast”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -988,7 +988,7 @@ ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy resit 2023, Histology Q3, p15. Manifest src_f3d7ac13bbc97156212f.
+EOY BAQOON 197 دور تاني.pdf — Kasr Al Ainy baqoon 2023, Histology Q3, p15. Manifest src_f3d7ac13bbc97156212f.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “describe Large B-lymphocyte regarding percentage, surface receptors”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.

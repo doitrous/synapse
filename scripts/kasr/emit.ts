@@ -60,7 +60,7 @@ ${seed.subject}
 ## primary_node_id
 ${seed.primary}
 ## secondary_node_ids
-${seed.secondary.join(' | ')}
+${seed.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject
@@ -88,15 +88,15 @@ ${path[1] ?? seed.section}
 ## subtopic
 ${path[2] ?? path.at(-1) ?? ''}
 ## aliases
-${(seed.aliases ?? []).join(' | ')}
+${(seed.aliases ?? []).join(' | ') || '[clear]'}
 ${context.articleId ? `## article_ids\n${context.articleId}\n` : ''}## support_mode
 direct_statement
 ## original_wording
 [${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
 ## conflicts
-${(seed.conflicts ?? []).join('\n')}
+${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${seed.uncertainty ?? ''}
+${seed.uncertainty ?? '' || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
 ${conceptTail()}`
@@ -106,22 +106,76 @@ ${conceptTail()}`
  * The columns every concept carries regardless of where it came from.
  *
  * Shared so a concept minted from a question book cannot end up describing
- * itself in fewer fields than one minted from a paper — the audit's complaint
- * is a blank *without a reason*, and a reason that exists for one kind of
- * concept and not another is an authoring accident, not a decision.
+ * itself in fewer fields than one minted from a paper — a reason that exists
+ * for one kind of concept and not another is an authoring accident, not a
+ * decision.
+ *
+ * Nineteen of these keys carry `[clear]`, and the distinction is the whole
+ * point. `medical:audit` asks two questions of every field: is it populated,
+ * and does the key exist at all. Writing a `field_notes` reason answers the
+ * first and fails the second, because a key that was never emitted reports as
+ * *absent* rather than as deliberately empty — and an empty `## key` block
+ * parses as untouched, so it does not help either. `[clear]` is the only thing
+ * that says "present, and empty on purpose".
+ *
+ * `reviewer`, `final_publisher` and `last_reviewed` are `[clear]` and not a
+ * name. A parallel lane's version of this fills them with "Medical team, Admin
+ * team" and "Admin team", which would have every one of these concepts assert a
+ * review and a publication that have not happened. An empty field that says so
+ * is worth more than a filled one that lies, and this content is going to a
+ * faculty reviewer precisely because nobody has reviewed it.
  */
 function conceptTail(): string {
-  return `## owner
+  return `## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
 Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
 arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
 arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
 atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
 resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
 approvedFileResourceIds: As above — no approved file resources exist for this module.
@@ -318,13 +372,15 @@ ${path[1] ?? ''}
 ## subtopic
 ${path[2] ?? path.at(-1) ?? ''}
 ## aliases
-${(concept.aliases ?? []).join(' | ')}
+${(concept.aliases ?? []).join(' | ') || '[clear]'}
 ${articleId ? `## article_ids\n${articleId}\n` : ''}## support_mode
 direct_statement
+## original_wording
+[clear]
 ## conflicts
-${(concept.conflicts ?? []).join('\n')}
+${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${concept.uncertainty ?? ''}
+${concept.uncertainty ?? '' || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
 ${conceptTail()}

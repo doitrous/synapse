@@ -11,6 +11,7 @@
  * `page` and say so.
  */
 import { createHash } from 'node:crypto'
+import type { ExamSourceTier } from '../../../src/data/examSignal.ts'
 
 /** The manifest row a paper is. */
 export interface SourceRef {
@@ -19,8 +20,21 @@ export interface SourceRef {
   file: string
   /** The calendar year the paper was sat, not the batch code on its cover. */
   sittingYear: number
-  /** How the blueprint weights it: an end-of-year paper outranks an end-of-module. */
-  tier: 'end_of_year' | 'end_of_module' | 'resit' | 'formative'
+  /**
+   * How the blueprint weights it — and it must be a tier the importer knows.
+   *
+   * This was its own four-word vocabulary (`end_of_year`, `end_of_module`,
+   * `resit`, `formative`) and only two of those words existed in
+   * `EXAM_SOURCE_TIERS`. `examSignal.ts:193` coerces anything it does not
+   * recognise to `other`, silently, so four of the seven papers seeded here
+   * carried a blueprint weight of 0.3 where they had earned 0.8 or 0.9. A resit
+   * counted for less than a random handout, and nothing said so.
+   *
+   * Typed against the importer's own list now, because two vocabularies for one
+   * concept is the bug, not the mapping between them. `baqoon` is this
+   * faculty's word for a resit and is what the importer already calls it.
+   */
+  tier: ExamSourceTier
   /** Which section headings this paper uses, in the order it prints them. */
   sections: readonly string[]
   /**

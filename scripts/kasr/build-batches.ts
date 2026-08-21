@@ -35,11 +35,21 @@ const OUT = 'docs/Kasr-Source-Imports'
  * `EOM-2024` would have overwritten the resit sitting under the same name with
  * nothing reporting it.
  */
+/**
+ * The filename each tier gets. Exhaustive over the importer's vocabulary, so a
+ * tier this map has never heard of is a type error rather than a file called
+ * `101-ISK-undefined-2022-written.md` — which is exactly what the previous
+ * version produced the moment the tiers were corrected, and which the orphan
+ * sweep then dutifully deleted the real files to make room for.
+ */
 const TIER_PREFIX: Record<SourceRef['tier'], string> = {
+  orientation: 'ORIENTATION',
   end_of_year: 'EOY',
   end_of_module: 'EOM',
-  resit: 'BAQOON',
-  formative: 'FORMATIVE',
+  baqoon: 'BAQOON',
+  department_book: 'DEPTBOOK',
+  department_questions: 'DEPTQ',
+  other: 'FORMATIVE',
 }
 
 const slug = (paper: Paper) =>

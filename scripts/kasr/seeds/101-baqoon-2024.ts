@@ -82,7 +82,7 @@ export const SOURCE: SourceRef = {
   id: 'src_530685004e73e670a4ed',
   file: 'EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf',
   sittingYear: 2024,
-  tier: 'resit',
+  tier: 'baqoon',
   sections: ['Anatomy', 'Cases', 'Histology'],
 }
 
