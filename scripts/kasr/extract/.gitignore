@@ -23,3 +23,4 @@ status-*.json
 # and together they run to gigabytes. `eom-answers.json` is the result and is
 # tracked; these are not.
 eom-renders/
+pagetext-eom/

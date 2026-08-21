@@ -33,18 +33,10 @@ function furtherReading(): Map<string, string[]> {
   return out
 }
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
-import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
-import { PAPER as EOY_2024 } from './seeds/101-eoy-2024.ts'
-import { PAPER as EOY_2022 } from './seeds/101-eoy-2022.ts'
-import { PAPER as EOY_2022_SECOND } from './seeds/101-eoy-2022-second.ts'
-import { PAPER as CASES_2025 } from './seeds/101-eoy-2025-cases.ts'
-import { PAPER as BAQOON_2024 } from './seeds/101-baqoon-2024.ts'
-import { PAPER as BAQOON_2023 } from './seeds/101-baqoon-2023.ts'
+import { PAPERS } from './seeds/registry.ts'
 import { ARTICLE_FOR_CONCEPT } from './seeds/articles.ts'
 import { SITTING_SIGNALS } from './seeds/sittings.ts'
 
-/** Every paper that has been read. Order is priority order, highest first. */
-const PAPERS: Paper[] = [EOY_2025, EOY_2024, EOY_2022, EOY_2022_SECOND, BAQOON_2024, BAQOON_2023, CASES_2025]
 
 const OUT = 'docs/Kasr-Source-Imports'
 const OUT_ROOT = 'docs/Kasr-Source-Imports'

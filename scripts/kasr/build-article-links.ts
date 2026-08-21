@@ -27,8 +27,21 @@ const CONCEPTS = 'docs/Kasr-Source-Imports/concept'
 const OUT = 'scripts/kasr/seeds/article-links.json'
 const LEDGER = 'docs/Kasr-Source-Imports/coverage/101-ISK-untaught-concepts.md'
 
+/**
+ * One `## label` field out of a batch block, or the empty string.
+ *
+ * `[ \t]*` after the label rather than `\s*`, which was the bug: `\s` matches a
+ * newline, so on a field whose value is genuinely blank the pattern ate the
+ * blank line as well and began capturing at the *next* heading. Every concept
+ * with an empty `article_ids` came back holding the literal text
+ * `## support_mode`, and `build-article-links` duly reported fifteen links to
+ * "an article that is authored nowhere" whose names were field headers.
+ *
+ * Harmless here only because the bogus targets were filtered out downstream.
+ * The same shape would silently mis-read any blank field anywhere.
+ */
 const field = (block: string, label: string) =>
-  block.match(new RegExp(`^## ${label}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`, 'm'))?.[1].trim() ?? ''
+  block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |$)`, 'm'))?.[1].trim() ?? ''
 
 const list = (value: string) =>
   value.split(/[|;\n]/).map((one) => one.trim()).filter(Boolean)
