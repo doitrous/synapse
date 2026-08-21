@@ -3,10 +3,24 @@
 Batches extracted from Cairo University's Kasr Al Ainy corpus, on their way into
 the canonical library. University `kau`; Year 1 is `KAU_Y1`.
 
-Extraction has started, on module **101 ISK** first. The
-[coverage ledger](coverage/101-ISK-coverage.md) says exactly which of its source
-files have been read and which have not; rerun
-`scripts/kasr/build-coverage.ts` and its numbers are today's.
+Extraction has started. Each module has a coverage ledger saying exactly which
+of its source files have been read and which have not — rerun
+`scripts/kasr/build-coverage.ts --module "<id>"` and the numbers are today's.
+
+| Module | Sources | Ledger |
+|---|--:|---|
+| `101 ISK` | 76 | [101-ISK-coverage.md](coverage/101-ISK-coverage.md) |
+| `103 BMS` | 51 | [103-BMS-coverage.md](coverage/103-BMS-coverage.md) |
+
+`101 ISK` has two subjects and one department book; `103 BMS` has **four** of
+each, so its batches are split per subject — one file per `(subject, kind)`
+rather than one per kind. A module with four departments cannot have one
+concept file without four agents writing to it at once.
+
+> **`build-coverage.ts` defaults to `101 ISK`**, so the bare command still
+> produces exactly what it always did. Two things it will not do any more: read
+> another module's extraction results through the unprefixed fallback paths,
+> which are 101's; or count another module's batch files as this module's work.
 
 ## Import order
 
@@ -40,12 +54,12 @@ names a real file. Both run on every pull request that touches this folder.
 | Folder | Holds |
 |---|---|
 | [`manifest/`](manifest/) | **Done** — every source file, its module, exam type, priority and year signals. [Readable index](manifest/README.md). |
-| [`coverage/`](coverage/101-ISK-coverage.md) | Per-source coverage ledgers: what each file yielded, and which have not been read |
+| [`coverage/`](coverage/) | Per-source coverage ledgers, one per module: what each file yielded, what text was extracted, and which files nobody has read |
 | `academic/` | Year, term, module and module-subject structure |
 | `subjects/` | Module-subject trees mirroring each department book's chapters |
 | `taxonomy/` | Canonical taxonomy placements |
 | `resource/` | Resource records |
-| `evidence/` | Claims, citations, sources, article spans |
+| `evidence/` | Claims, citations, sources, article spans — and [`corpus-source-index.json`](evidence/corpus-source-index.json), which is what lets a citation name a Kasr `src_…` at all. See below. |
 | `concept/` | Canonical concepts |
 | `relations/` | Typed concept relations |
 | `article/` | Library articles |
@@ -54,6 +68,36 @@ names a real file. Both run on every pull request that touches this folder.
 | `practical/` | Practical and OSCE items |
 | `glossary/` | Glossary terms |
 | [`media-requests/`](media-requests/) | Admin-only media requests, and the [audit](media-requests/media-audit.md) of how media is modelled. The repository holds **zero** medical images |
+
+## Why there is a second corpus source index here
+
+`scripts/build-corpus-source-index.mjs` walks `corpus/01-explicitly-taught/` and
+indexes 267 sources. The Kasr Al Ainy Year 1 corpus came in through
+`scripts/corpus-intake/` instead and lives in [`manifest/`](manifest/), so **none
+of its 401 sources are in that index** — and `validate-content-batch.mjs` refuses
+any citation naming one with *"is not a source the corpus contains"*, for files
+that are real, checksummed and on disk.
+
+That refusal blocks `resource → claim → citation → concept` outright, because a
+concept's `atomic_claim_ids` must carry a value and no `field_notes` reason can
+excuse it. It is why the first concept batches here carry no evidence at all.
+
+[`evidence/corpus-source-index.json`](evidence/corpus-source-index.json) is the
+index the validator actually looks for — it reads the one in the `evidence/`
+folder beside the batch being validated, so a Kasr batch resolves against this
+Kasr-rooted index while `docs/import-ready/` keeps resolving against the old one.
+Two indexes, no merge, nothing to normalise.
+
+Regenerate it with:
+
+```
+node --experimental-strip-types scripts/kasr/build-source-index.ts
+```
+
+It mints nothing: every ID, path and hash is copied from the manifest, and an ID
+absent from the manifest is refused exactly as before. It carries
+`exclusionReason` through, so a citation to a deliberately excluded file fails on
+the exclusion rather than on a false claim that the file does not exist.
 
 ## Module IDs are exact
 
