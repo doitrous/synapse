@@ -59,7 +59,7 @@ names a real file. Both run on every pull request that touches this folder.
 | `subjects/` | Module-subject trees mirroring each department book's chapters |
 | `taxonomy/` | Canonical taxonomy placements |
 | `resource/` | Resource records |
-| `evidence/` | Claims, citations, sources, article spans — and [`corpus-source-index.json`](evidence/corpus-source-index.json), which is what lets a citation name a Kasr `src_…` at all. See below. |
+| [`evidence/`](evidence/) | Claims, citations, sources, article spans — and [`corpus-source-index.json`](evidence/corpus-source-index.json), which the validator needs. See below |
 | `concept/` | Canonical concepts |
 | `relations/` | Typed concept relations |
 | `article/` | Library articles |
@@ -69,35 +69,42 @@ names a real file. Both run on every pull request that touches this folder.
 | `glossary/` | Glossary terms |
 | [`media-requests/`](media-requests/) | Admin-only media requests, and the [audit](media-requests/media-audit.md) of how media is modelled. The repository holds **zero** medical images |
 
-## Why there is a second corpus source index here
+## The corpus index is what makes a `src_` citation checkable
 
-`scripts/build-corpus-source-index.mjs` walks `corpus/01-explicitly-taught/` and
-indexes 267 sources. The Kasr Al Ainy Year 1 corpus came in through
-`scripts/corpus-intake/` instead and lives in [`manifest/`](manifest/), so **none
-of its 401 sources are in that index** — and `validate-content-batch.mjs` refuses
-any citation naming one with *"is not a source the corpus contains"*, for files
-that are real, checksummed and on disk.
+`validate-content-batch.mjs` refuses a `src_…` it cannot verify, and it looks
+for the index **beside the batch** — `evidence/corpus-source-index.json`, in
+this folder, not the one under `docs/medical-library-program/`.
 
-That refusal blocks `resource → claim → citation → concept` outright, because a
-concept's `atomic_claim_ids` must carry a value and no `field_notes` reason can
-excuse it. It is why the first concept batches here carry no evidence at all.
+That distinction is not cosmetic. The programme-level index holds 267 sources
+and **not one of them is from this corpus**. Before this file existed, a Kasr
+resource batch was not failing its source check — *it had no check to fail*, and
+every row came back "cannot be checked", which is the right refusal for the
+wrong reason.
 
-[`evidence/corpus-source-index.json`](evidence/corpus-source-index.json) is the
-index the validator actually looks for — it reads the one in the `evidence/`
-folder beside the batch being validated, so a Kasr batch resolves against this
-Kasr-rooted index while `docs/import-ready/` keeps resolving against the old one.
-Two indexes, no merge, nothing to normalise.
+Regenerate it from the manifest, so the two cannot disagree:
 
-Regenerate it with:
-
-```
+```bash
 node --experimental-strip-types scripts/kasr/build-source-index.ts
 ```
 
-It mints nothing: every ID, path and hash is copied from the manifest, and an ID
-absent from the manifest is refused exactly as before. It carries
-`exclusionReason` through, so a citation to a deliberately excluded file fails on
-the exclusion rather than on a false claim that the file does not exist.
+One entry per **file**, keyed by source ID. The manifest holds one row per
+*path* and IDs are content-addressed, so the same bytes filed under two names —
+or under two modules — give two manifest rows and one index entry.
+
+**Fourteen source IDs are in that position, and for them the index reports no
+single path.** `sourceRelativePath` is `null` and `sourceRelativePaths` carries
+all of them; the validator accepts any path the corpus genuinely holds for that
+ID and still refuses one it does not. Earlier advice here said to take the path
+from the index rather than a manifest row — that was wrong, because the index
+was picking whichever row was written last, and nothing about manifest order
+survives a regeneration. A lane corrected a record to match the index,
+regenerated, and the same record failed again with the error reversed: same
+file, same ID, same bytes. An arbitrary answer is worse than none, and a
+*stable* arbitrary answer only hides that it was arbitrary.
+
+An excluded file stays in the index. Leaving it out would make a batch naming
+it fail as "not a source the corpus contains", which is a different and false
+statement from "excluded on purpose".
 
 ## Module IDs are exact
 

@@ -500,7 +500,14 @@ ${mintConceptId(concept.subject, concept.key)}
 ## library_ids
 ${leaf.articleId}
 ## topic
-${row.topic === 'unknown' ? leaf.leaf : row.topic}
+${/* The bank's topic where it has one, and the leaf otherwise.
+     This tested `=== 'unknown'` alone, which was true of every row the
+     question books produced and false of the rows that came off the sat
+     papers — those carry `topic: null`, because a paper does not print
+     one. `null` interpolates as the four characters `null`, so eighty-two
+     questions went out with the literal string "null" as their topic and
+     nothing flagged it: it is a free-text column, so it was valid, and it
+     was wrong. */ ''}${row.topic && row.topic !== 'unknown' ? row.topic : leaf.leaf}
 ## subtopic
 ${leaf.leaf}
 ## module

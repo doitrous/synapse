@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  556 questions were excluded and 0 held back for having no
+  557 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -11723,13 +11723,12 @@ src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p5 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p28 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
-src_a54bbf7a625ba2b172fc | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance

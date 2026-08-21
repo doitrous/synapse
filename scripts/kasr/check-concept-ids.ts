@@ -122,7 +122,35 @@ if (problems.length) {
   for (const problem of problems) console.error(`  ${problem}`)
   console.error('\nOne idea must be one concept. Agree the subject per key and rebuild;'
     + ' the key decides the concept, the subject only picks its prefix.')
-  process.exit(1)
+
+  // Whose problems are these?
+  //
+  // The scan is global on purpose — a rival id is by nature a thing between two
+  // files, and checking one batch alone could never find one. But the exit code
+  // was global too, so a lane could not tell its own files were clean while
+  // another lane's were broken: every concept lane in the repo read the same
+  // red gate and had no way to measure its own work. That is worse than noise,
+  // because it stops the check being usable by the people it is for.
+  //
+  // Naming files still scans everything and still reports everything. It only
+  // narrows what this exit code is *about*. With no arguments the behaviour is
+  // exactly as before, which is what CI runs.
+  const mine = process.argv.slice(2)
+    .map((path) => path.split('/').pop() ?? path)
+    .filter((name) => name.endsWith('.md'))
+
+  if (!mine.length) process.exit(1)
+
+  const involving = problems.filter((problem) => mine.some((name) => problem.includes(name)))
+  const elsewhere = problems.length - involving.length
+  if (involving.length) {
+    console.error(`\n${involving.length} of these involve the file(s) you named:`)
+    for (const problem of involving) console.error(`  ${problem}`)
+    process.exit(1)
+  }
+  console.error(`\nNone of the ${elsewhere} problems above involve ${mine.join(', ')}. `
+    + 'Those files are clean; the failures belong to another lane and this exit code says so.')
+  process.exit(0)
 }
 
 // A key in two batch files is fine and often deliberate: same key, same id, so
