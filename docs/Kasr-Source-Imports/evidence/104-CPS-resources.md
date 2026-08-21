@@ -141,8 +141,6 @@ EOY Final 104, 199 (2) copy
 Kasr Al Ainy Faculty of Medicine, Cairo University
 ## collection_id
 kau-y1
-## source_relative_path
-y1/104 CPS/EOY/EOY Final 104, 199 (2).pdf
 ## media_type
 application/pdf
 ## languages
@@ -156,7 +154,7 @@ ocr_required
 ## rights
 University teaching material held for internal extraction only. Not redistributable; no page image or verbatim passage is published from it.
 ## qualification
-assessment paper for module 104 CPS, 2025
+assessment paper for module 104 CPS, 2025. Indexed in the corpus under two names — `EOY Final 104, 199 (2).pdf` and `EOY Final 104, 199 (2) copy.pdf` — with one content-addressed id, because the two are byte-identical. Which name the index reports depends on which manifest row was written last, so this record states no relative path: the id resolves the file, and asserting one of two arbitrary names is a claim that breaks on the next rebuild
 ## is_assessment
 true
 
