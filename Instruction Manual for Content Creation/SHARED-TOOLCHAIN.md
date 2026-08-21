@@ -2444,3 +2444,57 @@ The reason to prefer the quoted grep, stated better than "it is noisy":
 
 > That is the same failure as a lenient checker, one step further along — **not wrong, just
 > untrustworthy, which in practice is worse, because it still gets run.**
+
+### CORRECTION: a null index makes the failure unconditional, not unreachable
+
+**I endorsed and circulated the argument that because the equality check runs only when the
+batch supplies the field, a `null` index makes the failure unreachable. That is wrong, and it
+was found by testing it rather than reasoning about it.**
+
+It makes the failure **unconditional for anyone who fills the column.** A probe asserting the
+real, correct path against the fixed index:
+
+```
+src_701b6db49a7c01d79428 is "null" in the corpus, not "y1/103 BMS/Orientation/..."
+```
+
+**Both legitimate paths now failed.** That is worse than the coin flip it replaced — *a coin
+flip is right half the time; this is confidently unhelpful every time.* And it turned the
+omission from **merely correct** into **mandatory**, which is the opposite of the intent.
+
+**The fix that actually closes it, in two halves:**
+
+1. **The index reports no single path for an ambiguous id** — `sourceRelativePath` null,
+   `sourceRelativePaths` carrying all of them sorted. *A stable arbitrary pick would only have
+   hidden that it was a pick.*
+2. **The validator accepts any path the corpus actually holds for that id**, and still refuses
+   one it does not — proved three ways: the `103 BMS` path accepted, the `102 INT` path
+   accepted, an invented path refused **and told both real ones**.
+
+**Now** the failure is genuinely unreachable for a truthful record, and a lane that fills the
+column is not punished for it. **Omitting the field still works and is no longer required.**
+
+The general lesson is the one this file keeps re-learning from the other side: *"the check only
+runs when the field is present"* is a fact about the code, and **"therefore the failure is
+unreachable" is a claim about behaviour.** Only the second one needed testing, and only the
+second one was wrong.
+
+### The same stand-in, in a test harness
+
+The sharpest instance yet of *the bug is always the stand-in*, and it is not in the data at all:
+
+```bash
+printf "%s exit=%d" "$(basename $f)" "$?"
+```
+
+The command substitution **runs before `printf` reads `$?`**, so `$?` is `basename`'s exit code,
+not the checker's. Three controls all reported `exit=0` and the checker looked broken. It was
+fine. **A zero that came from `basename`, standing in for the exit code it meant to read.**
+
+Which is why that lane's `check-sentinels.ts` exits **2 when it inspected nothing** — controls:
+planted sentinel exits 1, empty state exits 2, real state exits 0 **having inspected 550,208
+strings.** Its reason: *"I would not have trusted it otherwise, having just been fooled by my
+own harness."*
+
+**Verify the harness before you believe the result it reports** — a green from a broken harness
+and a green from a clean run are the same three characters.
