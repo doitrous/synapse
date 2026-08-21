@@ -12,6 +12,7 @@ import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
 import { ARTICLE_FOR_CONCEPT } from './seeds/articles.ts'
+import { SITTING_SIGNALS } from './seeds/sittings.ts'
 
 /** Every paper that has been read. Order is priority order, highest first. */
 const PAPERS: Paper[] = [EOY_2025]
@@ -39,6 +40,14 @@ function concepts() {
       found.repeats.push(
         `${paper.source.id} | ${paper.source.tier} | ${paper.source.sittingYear} | p${seed.page} | 101 ISK`)
     }
+  }
+
+  // Sittings known from an index rather than from a paper. They carry no
+  // wording and no marks, so they can never be a question — but they are
+  // evidence the thing was asked, which is what the blueprint weight is for.
+  for (const [key, signals] of Object.entries(SITTING_SIGNALS)) {
+    const found = byKey.get(key)
+    if (found) found.repeats.push(...signals)
   }
 
   const blocks = [...byKey.values()].map(({ paper, seed, repeats }) =>
