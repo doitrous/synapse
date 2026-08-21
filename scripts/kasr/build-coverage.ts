@@ -155,6 +155,32 @@ for (const model of sittings?.modelAnswers ?? []) bump(model.sourceId, 'answers'
 for (const topic of notes?.topics ?? []) bump(topic.sourceId, 'topics')
 for (const past of notes?.pastQuestions ?? []) bump(past.sourceId, 'written')
 
+/**
+ * Papers read straight into a seed file, without an extractor.
+ *
+ * The Baqoon 197 paper was transcribed by reading the PDF and writing the seed
+ * by hand — no extractor was involved, so nothing in `questions.json` or its
+ * siblings mentions it, and this ledger called it unread while thirteen of its
+ * questions were sitting in a validated batch.
+ *
+ * A ledger that only counts the tools it knows about will always be wrong about
+ * work done another way, and being wrong in the direction of "nobody read this"
+ * is the expensive direction: it invites someone to read it again.
+ */
+const seedDir = 'scripts/kasr/seeds'
+if (existsSync(join(REPO, seedDir))) {
+  for (const name of readdirSync(join(REPO, seedDir))) {
+    if (!name.endsWith('.ts') || name === 'types.ts') continue
+    const text = readFileSync(join(REPO, seedDir, name), 'utf8')
+    const id = text.match(/id:\s*'(src_[0-9a-f]{20})'/)?.[1]
+    if (!id) continue
+    // One `q:` per seed. Close enough to say the paper was read, which is the
+    // only claim this ledger makes.
+    const seeds = [...text.matchAll(/^\s+q:\s*\d+,/gm)].length
+    if (seeds) bump(id, 'written', seeds)
+  }
+}
+
 /** Files an extractor stopped short on, and by how much. */
 for (const file of [...(mcq?.files ?? []), ...(practical?.files ?? []), ...(notes?.files ?? [])]) {
   if (!file.capped) continue
