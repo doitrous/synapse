@@ -372,7 +372,7 @@ Medium
 ## estimated_seconds
 240
 ## library_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## owner
 Claude
 ## source_citation
@@ -890,7 +890,7 @@ High
 ## estimated_seconds
 420
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -1040,7 +1040,7 @@ High
 ## estimated_seconds
 420
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-ELBOW-JOINT
 ## owner
 Claude
 ## source_citation

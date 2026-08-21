@@ -8269,17 +8269,17 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
-The superior thoracic artery is the sole branch of the first part of the axillary artery
+Pectoralis minor divides the axillary artery into three parts, and each part gives its own branches
 ## id
-CON-MSK-6D4B3D478A4931
+CON-MSK-C608D59631E713
 ## canonical_key
-superior-thoracic-artery-origin-and-course
+axillary-artery-parts-relations-and-branches
 ## definition
-The axillary artery is divided into three parts by pectoralis minor. Its first part, above the upper border of the muscle, gives one branch — the superior (highest) thoracic artery, a small vessel that runs downwards and medially, behind pectoralis minor and in front of serratus anterior, to supply the first and second intercostal spaces and the upper part of serratus anterior. The second part, behind the muscle, gives the thoraco-acromial artery, which pierces the clavipectoral fascia, and the lateral thoracic artery, which runs along the lower border of pectoralis minor and supplies the breast. The third part gives the subscapular and the two circumflex humeral arteries.
+The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery. Pectoralis minor divides it into three parts: the first above the muscle, the second behind it and the third below it. The first part gives one branch, the superior (highest) thoracic artery, a small vessel running downwards and medially behind pectoralis minor and in front of serratus anterior to the first two intercostal spaces. The second part gives the thoraco-acromial artery, which pierces the clavipectoral fascia, and the lateral thoracic artery, which runs along the lower border of pectoralis minor and supplies the breast. The third part gives the subscapular artery — the largest branch of all, which gives the circumflex scapular artery and continues as the thoracodorsal — with the anterior and posterior circumflex humeral arteries. The axillary vein lies medial to the artery throughout; the cords of the plexus are named for their position around the second part, and the third part is crossed in front by the medial root of the median nerve and has the ulnar nerve on its medial side.
 ## explicit_objective
-Name the branch of each part of the axillary artery and give the course and territory of the superior thoracic artery.
+Give the extent of the axillary artery, the three parts pectoralis minor divides it into, the branches of each part, and the relation of each part to the vein and the plexus.
 ## pitfalls
-Giving the superior thoracic artery the breast. The vessel that supplies the breast from the axilla is the lateral thoracic, from the second part; the superior thoracic goes no lower than the second intercostal space.
+Giving the superior thoracic artery the breast, or calling it the largest branch. The vessel that supplies the breast from the axilla is the lateral thoracic, from the second part, and the largest branch of all is the subscapular, from the third; the superior thoracic is the smallest and goes no lower than the second intercostal space.
 ## concept_type
 structural_description
 ## status

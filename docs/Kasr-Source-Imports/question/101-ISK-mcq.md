@@ -42884,7 +42884,7 @@ The lateral thoracic artery supplies the breast, running along the lower border 
 ## correct_answer
 B
 ## main_concept
-CON-MSK-6D4B3D478A4931
+CON-MSK-C608D59631E713
 ## library_ids
 ART-101-ANA-PECTORALIS-MAJOR
 ## topic
@@ -42967,7 +42967,7 @@ Supplying the breast belongs to the lateral thoracic artery, along the lower bor
 ## correct_answer
 B
 ## main_concept
-CON-MSK-6D4B3D478A4931
+CON-MSK-C608D59631E713
 ## library_ids
 ART-101-ANA-PECTORALIS-MAJOR
 ## topic

@@ -460,7 +460,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation

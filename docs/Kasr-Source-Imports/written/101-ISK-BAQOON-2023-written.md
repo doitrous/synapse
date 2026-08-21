@@ -313,7 +313,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-CUBITAL-FOSSA
 ## owner
 Claude
 ## source_citation
@@ -388,7 +388,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation

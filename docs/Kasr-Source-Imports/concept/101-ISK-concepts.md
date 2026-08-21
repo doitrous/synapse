@@ -445,7 +445,7 @@ Epithelial Tissues
 ## aliases
 
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## support_mode
 direct_statement
 ## original_wording
@@ -1094,7 +1094,7 @@ Upper Limb
 ## aliases
 
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -1280,7 +1280,7 @@ Upper Limb
 ## aliases
 
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
@@ -2124,7 +2124,7 @@ Upper Limb
 ## aliases
 Deltoideus
 ## article_ids
-ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -2216,7 +2216,7 @@ Upper Limb
 ## aliases
 Lateral cutaneous nerve of the forearm
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -2309,7 +2309,7 @@ Upper Limb
 ## aliases
 Arteria brachialis
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-BRACHIAL-ARTERY
 ## support_mode
 direct_statement
 ## original_wording
@@ -2495,7 +2495,7 @@ Upper Limb
 ## aliases
 Wrist drop | Saturday night palsy
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -3514,7 +3514,7 @@ Upper Limb
 ## aliases
 Antecubital fossa
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-CUBITAL-FOSSA
 ## support_mode
 direct_statement
 ## original_wording
@@ -3698,7 +3698,7 @@ Upper Limb
 ## aliases
 Arteria ulnaris
 ## article_ids
-ART-101-ANA-FOREARM
+ART-101-ANA-ULNAR-ARTERY
 ## support_mode
 direct_statement
 ## original_wording
@@ -3884,7 +3884,7 @@ Upper Limb
 ## aliases
 Supinator | Biceps brachii
 ## article_ids
-ART-101-ANA-ARM
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -5360,7 +5360,7 @@ Upper Limb
 ## aliases
 Upward rotation of the scapula
 ## article_ids
-ART-101-ANA-PECTORALIS-MAJOR
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording

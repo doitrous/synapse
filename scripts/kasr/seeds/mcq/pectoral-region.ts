@@ -19,12 +19,20 @@
  * `exocrine-gland-classification-by-duct-branching-and-secretory-shape` from
  * the histology leaves of this same bank.
  *
- * Three keys are minted here that the neighbouring leaves should reuse rather
- * than re-mint: `axilla-four-walls-and-the-axillary-folds` and
- * `breast-extent-bed-and-nipple-position` are used again by the Axilla leaf,
- * and `dense-white-fibrous-ct-regular-versus-irregular` belongs by rights to
- * Connective Tissue Fibres, which no lane has authored yet. `shoulder-rotators-
- * medial-and-lateral` is likewise offered to the Shoulder Region lane.
+ * Four keys are minted here that the neighbouring leaves should reuse rather
+ * than re-mint: `axilla-four-walls-and-the-axillary-folds`,
+ * `breast-extent-bed-and-nipple-position` and
+ * `axillary-artery-parts-relations-and-branches` are all used again by the
+ * Axilla leaf, and `dense-white-fibrous-ct-regular-versus-irregular` belongs
+ * by rights to Connective Tissue Fibres, which no lane has authored yet.
+ * `shoulder-rotators-medial-and-lateral` is likewise offered to the Shoulder
+ * Region lane.
+ *
+ * `axillary-artery-parts-relations-and-branches` deliberately covers the whole
+ * artery rather than only the superior thoracic branch the questions here ask
+ * about. "Which branch comes from which part" is one objective, and the Axilla
+ * leaf asks it eight more times; two concepts for it would split a student's
+ * mastery between the two leaves.
  *
  * Fifteen answers are overridden — eleven where the books printed no key, four
  * against a key that is wrong. One item is kept with a caveat rather than an
@@ -92,11 +100,11 @@ export const LEAF: McqLeafSeed = {
       type: 'functional_relationship',
     },
     {
-      key: 'superior-thoracic-artery-origin-and-course',
-      label: 'The superior thoracic artery is the sole branch of the first part of the axillary artery',
-      definition: 'The axillary artery is divided into three parts by pectoralis minor. Its first part, above the upper border of the muscle, gives one branch — the superior (highest) thoracic artery, a small vessel that runs downwards and medially, behind pectoralis minor and in front of serratus anterior, to supply the first and second intercostal spaces and the upper part of serratus anterior. The second part, behind the muscle, gives the thoraco-acromial artery, which pierces the clavipectoral fascia, and the lateral thoracic artery, which runs along the lower border of pectoralis minor and supplies the breast. The third part gives the subscapular and the two circumflex humeral arteries.',
-      objective: 'Name the branch of each part of the axillary artery and give the course and territory of the superior thoracic artery.',
-      pitfall: 'Giving the superior thoracic artery the breast. The vessel that supplies the breast from the axilla is the lateral thoracic, from the second part; the superior thoracic goes no lower than the second intercostal space.',
+      key: 'axillary-artery-parts-relations-and-branches',
+      label: 'Pectoralis minor divides the axillary artery into three parts, and each part gives its own branches',
+      definition: 'The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery. Pectoralis minor divides it into three parts: the first above the muscle, the second behind it and the third below it. The first part gives one branch, the superior (highest) thoracic artery, a small vessel running downwards and medially behind pectoralis minor and in front of serratus anterior to the first two intercostal spaces. The second part gives the thoraco-acromial artery, which pierces the clavipectoral fascia, and the lateral thoracic artery, which runs along the lower border of pectoralis minor and supplies the breast. The third part gives the subscapular artery — the largest branch of all, which gives the circumflex scapular artery and continues as the thoracodorsal — with the anterior and posterior circumflex humeral arteries. The axillary vein lies medial to the artery throughout; the cords of the plexus are named for their position around the second part, and the third part is crossed in front by the medial root of the median nerve and has the ulnar nerve on its medial side.',
+      objective: 'Give the extent of the axillary artery, the three parts pectoralis minor divides it into, the branches of each part, and the relation of each part to the vein and the plexus.',
+      pitfall: 'Giving the superior thoracic artery the breast, or calling it the largest branch. The vessel that supplies the breast from the axilla is the lateral thoracic, from the second part, and the largest branch of all is the subscapular, from the third; the superior thoracic is the smallest and goes no lower than the second intercostal space.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-CVS-T02-S01-M01'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Pectoral Region',
       type: 'structural_description',
@@ -451,7 +459,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'the-superior-thoracic-artery-choose-the-correct-answer-dep-b-680dd9e1',
-      conceptKey: 'superior-thoracic-artery-origin-and-course',
+      conceptKey: 'axillary-artery-parts-relations-and-branches',
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Assign each branch of the axillary artery to its part, and separate the superior thoracic from the thoraco-acromial and the lateral thoracic.',
       explanations: {
@@ -463,7 +471,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'the-superior-thoracic-artery-choose-the-correct-answer-f735dff5',
-      conceptKey: 'superior-thoracic-artery-origin-and-course',
+      conceptKey: 'axillary-artery-parts-relations-and-branches',
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Assign each branch of the axillary artery to its part, and separate the superior thoracic from the thoraco-acromial and the lateral thoracic.',
       answerOverride: 'B',
@@ -540,7 +548,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'profunda-brachil-artery-69-thoracic-artery-choose-the-correc-47eb0d3f',
-      conceptKey: 'superior-thoracic-artery-origin-and-course',
+      conceptKey: 'axillary-artery-parts-relations-and-branches',
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
@@ -576,7 +584,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'the-superior-thoracic-artery-choose-the-correct-answer-arise-3230d338',
-      conceptKey: 'superior-thoracic-artery-origin-and-course',
+      conceptKey: 'axillary-artery-parts-relations-and-branches',
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},

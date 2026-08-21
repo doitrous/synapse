@@ -466,7 +466,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-SHOULDER-REGION
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -542,7 +542,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
 ## owner
 Claude
 ## source_citation
@@ -620,7 +620,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
@@ -860,7 +860,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ARM
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
