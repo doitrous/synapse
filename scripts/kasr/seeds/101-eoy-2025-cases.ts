@@ -232,7 +232,7 @@ export const SEEDS: Seed[] = [
     type: 'clinical_correlation',
     aliases: ['Snuffbox', 'Scaphoid fracture'],
     conflicts: [
-      'This model answer puts the tendons of extensor carpi radialis longus and brevis among the contents; the 2025 EOY seed puts the beginning of the cephalic vein among them and the extensor carpi radialis tendons in the floor. The department book\'s Hand chapter says the radial artery runs "over the tendons of extensor carpi radialis longus and brevis", which reads with the floor. All three readings are in this corpus.',
+      'This model answer puts the tendons of extensor carpi radialis longus and brevis among the contents; the 2025 EOY seed puts the beginning of the cephalic vein among them instead. The department book, in its Forearm chapter, does neither: it gives the contents as the radial artery, says the extensor carpi radialis longus and brevis tendons cross the floor, and puts the beginning of the cephalic vein in the roof. The model answer is kept here because this file\'s whole value is that its schemes are the examiner\'s own, and the book\'s reading is recorded against it.',
     ],
   },
 ]
