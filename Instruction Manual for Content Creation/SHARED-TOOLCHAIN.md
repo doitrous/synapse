@@ -665,8 +665,16 @@ both halves.
 
 ### An article is part of a leaf, not a later phase
 
-A question batch validates only if every `main_concept` is covered by an article the concept
-itself links back to. One MCQ batch is red on **59 errors** — 14 of the form `library_ids
+A question batch validates only if every `main_concept` is covered by an article in the
+question's `library_ids`.
+
+**Author the link on the ARTICLE, not on the concept.** I had this backwards and told four
+lanes to edit the wrong record. An article's **`related_concepts`** is what puts its ID onto
+the concept (`validate-content-batch.mjs:120-131`); the check at `:280` then reads
+`concept.articleIds`, which was *derived* from that. A sibling concept folded in with `--with`
+starts at `articleIds: []` (`:110`) and is filled from the article side. So both halves are
+true — the check reads the concept, the link is written on the article — and only the second
+tells you where to type. One MCQ batch is red on **59 errors** — 14 of the form `library_ids
 ART-… is not an article that exists`, the rest `main concept … is not covered by any article
 in library_ids`. That is the check working.
 
@@ -815,3 +823,40 @@ Carry an `unsupportedClaims` list alongside: **a claim with no verbatim span fou
 written, and the concept must not reference it.** Otherwise the audit fails with `references
 unknown claim` — and worse, the concept would *look* supported. Not hypothetical: some
 concepts come off exam questions the department book never states.
+
+### Two ways `--with` siblings are silently dropped
+
+Both invent errors on batches that are fine, and both have now cost more than one lane time.
+
+**1. npm swallows them.** `npm run -s medical:batch FILE -- --with A --with B` drops
+arguments when the `--with` list is built in a shell variable. Measured on one batch:
+**156 errors through npm, 67 through the script directly, identical arguments.**
+
+**Invoke the script directly whenever siblings are involved:**
+
+```bash
+node --experimental-strip-types scripts/validate-content-batch.mjs FILE --with A --with B
+```
+
+**2. zsh does not word-split an unquoted expansion.** `npm run -s medical:batch -- "$file"
+$siblings` — the workflow's own line — passes `$siblings` as a **single argument** under zsh,
+so every `--with` after the first is lost. Reproduce `content.yml` under `bash -c`, or from a
+script.
+
+A run that reports **more** errors than the truth is as dangerous as one that reports fewer:
+a lane concludes its batch is broken, and starts fixing what was never wrong.
+
+### The subject rule is enforced, not just agreed
+
+`subjectForPath` in `seeds/types.ts` maps a curriculum path to its subject, and
+`build-batches.ts` refuses a concept whose subject disagrees with where it sits. It returns
+**null outside the four branches rather than defaulting** — a path the rule does not cover is
+a question for a person, not a value to guess.
+
+Every seed already in the tree passed unchanged, from both 101 lanes, so the rule **describes
+what was already being done** rather than imposing something new. Negative-tested by filing
+`bone-marrow-red-and-yellow` under `fnd`: the build stops and names the key, both subjects and
+the file.
+
+That is the pattern worth copying — an agreement that cannot be forgotten beats one written
+down, and a rule that already matches practice costs nothing to adopt.
