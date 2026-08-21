@@ -11762,3 +11762,2100 @@ Extracted by the 102 INT lane from the shared 102/103 biochemistry question book
 
 ## randomise_answers
 yes
+
+---
+
+# Item
+
+## id
+QM-103-AE5865B3B02C
+
+## title
+Which of the following is a cause of conjugated hyperbilirubinemia:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Jaundice is classified by which form of bilirubin predominates in serum. Three of the four conditions below share one classification; the fourth does not.
+
+## question
+Which of the following is a cause of conjugated hyperbilirubinemia:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 14. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Crigler-Najjar Syndrome, type I
+
+## explanation_a
+Incorrect — this is an **unconjugated** hyperbilirubinaemia. The defect is a complete deficiency of glucuronyl transferase, so bilirubin cannot be conjugated at all and the unconjugated fraction accumulates.
+
+## answer_b
+Crigler-Najjar Syndrome, type II
+
+## explanation_b
+Incorrect, for the same reason as A and to a lesser degree. A partial deficiency of glucuronyl transferase still limits conjugation, so the unconjugated fraction rises.
+
+## answer_c
+Gilbert Syndrome
+
+## explanation_c
+Incorrect. Gilbert syndrome is a benign condition caused by a defect in the **uptake** of unconjugated bilirubin by the liver and in the conjugation pathways, so again the unconjugated fraction is the one that rises. Notice that the first three options are all failures at or before conjugation, which is what makes the fourth stand out once the rule is understood.
+
+## answer_d
+Obstructive jaundice
+
+## explanation_d
+Correct, and it is the only option in which bilirubin has been successfully conjugated. Obstruction of the biliary passages — by gallstones, carcinoma of the head of the pancreas, or inflammation of the pancreas or biliary tree — blocks the pathway *after* conjugation, so conjugated bilirubin regurgitates from the hepatocyte back into the blood. The rule that makes this whole classification easy is positional: any lesion **before or at** conjugation gives unconjugated hyperbilirubinaemia — increased production, as in haemolysis, or failed uptake or conjugation, as in Gilbert and Crigler-Najjar — while any lesion **after** conjugation gives conjugated hyperbilirubinaemia. From that one rule the rest of the picture follows: stercobilin disappears from the faeces so the stool is clay coloured, conjugated bilirubin appears in the urine which becomes dark brown, bile salts appear in the urine, and alkaline phosphatase rises in serum.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-GIT-4A2A86832F1FF2
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.9
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-20178168A8FCF0
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+68
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-GIT-A265DD7A7CC8EF
+
+## library_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Classify a named cause of jaundice as conjugated or unconjugated hyperbilirubinaemia by the position of the lesion relative to conjugation.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 14. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 121–122, "Jaundice — Classification", "A) Unconjugated Hyperbilirubinemia" and "B) Conjugated Hyperbilirubinemia (Obstructive Jaundice)".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q14. correctSource verbatim: "printed key (p140)". OCR REPAIR: option a reads "Crigler-Najjar Syndrome, type |" in the bank — a pipe character for the Roman numeral I — repaired to "type I". MAPPED TO AN EXISTING CONCEPT: CON-GIT-4A2A86832F1FF2, "The three jaundices are told apart by which bilirubin rises and which enzyme rises with it", was already authored from the 2025 end-of-year paper and is exactly what this item tests, so nothing was minted; the same concept serves questions 18 and 19 of this chapter. Three questions from the question book plus the 2025 paper testing one concept is the repeated-appearance evidence its exam_signal records. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-48ED6469A467
+
+## title
+Which of the following is NOT a characteristic of physiologic neonatal jaundice:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A term newborn becomes visibly jaundiced on the third day of life. The paediatrician is deciding whether this is the transient physiological picture or something that needs investigating.
+
+## question
+Which of the following is NOT a characteristic of physiologic neonatal jaundice:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 15. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Partly results from increased hemolysis
+
+## explanation_a
+A true characteristic, so not the answer. The newborn is breaking down the large fetal red cell mass, so bilirubin production is high — one of the two halves of the mechanism.
+
+## answer_b
+Partly results from immaturity of the enzyme UDP-glucuronyltransferase.
+
+## explanation_b
+A true characteristic, so not the answer. The other half of the mechanism is that the conjugating enzyme is not yet fully expressed, so disposal is slow at the same time that production is high. Increased supply meeting immature clearance is why the jaundice is transient — it resolves as the enzyme matures.
+
+## answer_c
+Serum bilirubin usually exceeds 13 mg/dL
+
+## explanation_c
+Correct — this is the statement that is **not** true, and it is the one that matters clinically. The department book states that in physiological neonatal jaundice serum bilirubin usually does *not* reach 13 mg/dL. That threshold is what makes the concept useful at the cot side: a transient jaundice appearing in the first few days and staying below about 13 mg/dL fits the physiological picture, whereas a bilirubin climbing beyond it demands a cause — haemolytic disease, an inherited conjugation defect such as Crigler-Najjar, or sepsis — because the albumin carrying capacity of roughly 20 mg/dL is the line beyond which kernicterus follows. A student who reverses this inequality will reassure a family about a baby who needs treating.
+
+## answer_d
+Can be treated by Phenobarbital
+
+## explanation_d
+A true characteristic, so not the answer. Phenobarbital induces glucuronyl transferase, so it accelerates exactly the step that is immature. The other treatment is phototherapy with blue fluorescent light, which converts insoluble unconjugated bilirubin into more soluble photoisomers that can be excreted into bile without conjugation at all.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-HEM-167E007FE3D9EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-7A26AE75471EF8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-HEM-20178168A8FCF0
+
+## library_ids
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## resource_ids
+
+## learning_objective
+Give the two mechanisms of physiological neonatal jaundice, state the bilirubin level it does not usually exceed, and explain how phototherapy and phenobarbital each work.
+
+## media_recommendations
+### diagram · Explanation for answer D
+Brief: The two treatments of neonatal jaundice acting at different points — phenobarbital inducing glucuronyl transferase on the conjugation step, phototherapy converting unconjugated bilirubin directly into excretable photoisomers and bypassing conjugation altogether
+Purpose: Students learn the two treatments as a pair of names and cannot say why phototherapy still works when the enzyme is absent. Drawing the bypass is what makes that difference legible, and it also explains the Crigler-Najjar type I answer in question 12.
+Priority: strongly helpful
+Status: needed
+Section: Explanation D
+Source direction: openly licensed paediatrics or biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 15. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 122, "2) Physiological neonatal jaundice", including "Serum bilirubin usually does not reach 13 mg/dL" and the treatment paragraph.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q15. correctSource verbatim: "printed key (p140)". No OCR repair was needed; the trailing full stop on option b is the book's own. This item touches treatment, so it stays Draft for faculty review; the two treatments named are the department book's own and no dose is given. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-4D97C68F2CD2
+
+## title
+Kernicterus is characterized by:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Kernicterus is bilirubin staining and damage of the basal ganglia. Only one form of bilirubin can reach the brain, which narrows the list of conditions that can cause it.
+
+## question
+Kernicterus is characterized by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 16. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Can be caused by Crigler-Najjar Syndrome, type I
+
+## explanation_a
+Correct, and it follows from two facts held together. Kernicterus occurs when unconjugated bilirubin exceeds the carrying capacity of albumin — about 20 mg/dL — and the free, hydrophobic pigment crosses the blood–brain barrier to damage the brain. Crigler-Najjar type I is a complete deficiency of glucuronyl transferase, so almost no bilirubin can be conjugated, the unconjugated level climbs past that threshold, and the patient does not respond to phenobarbital because there is no enzyme to induce. It is therefore the one condition in this list that reliably produces kernicterus. The reasoning generalises: to decide whether any jaundice can cause kernicterus, ask whether it raises the *unconjugated* fraction and whether it raises it far enough.
+
+## answer_b
+Conjugated hyperbilirubinemia
+
+## explanation_b
+Incorrect, and it is the error with the greatest clinical cost. Conjugated bilirubin is water-soluble and not protein-bound, and the book states explicitly that it does not pass the blood–brain barrier and does not cause brain damage. A deeply jaundiced patient with an obstructive picture is not at risk of kernicterus, however high the total bilirubin.
+
+## answer_c
+Can be caused by Gilbert syndrome
+
+## explanation_c
+Incorrect. Gilbert syndrome is a **benign** condition caused by a defect in hepatic uptake of unconjugated bilirubin and in the conjugation pathways; the hyperbilirubinaemia is mild and nowhere near the 20 mg/dL threshold. The word "benign" in the book's own description is the discriminator.
+
+## answer_d
+Can be caused by Dubin-Johnson syndrome
+
+## explanation_d
+Incorrect. Dubin-Johnson is a defect of the secretion of **conjugated** bilirubin into bile, so it produces a conjugated hyperbilirubinaemia — and conjugated bilirubin cannot cross the blood–brain barrier. It is a fair distractor because it is an inherited hyperbilirubinaemia like the other three, and only knowing which fraction it raises rules it out.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Hard
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-HEM-20178168A8FCF0
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-C87C15A849F158
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+46
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-GIT-4A2A86832F1FF2
+
+## library_ids
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## resource_ids
+
+## learning_objective
+State the mechanism and threshold of kernicterus, and decide from the bilirubin fraction which inherited hyperbilirubinaemias can and cannot cause it.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 16. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 119 (the 20 mg/dL threshold and kernicterus), printed page 122 (Gilbert syndrome, benign) and printed page 123 (conjugated bilirubin does not pass the blood–brain barrier).
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q16. correctSource verbatim: "printed key (p140)". No OCR repair was needed. SOURCE GAP: the department textbook covers Gilbert syndrome but neither Crigler-Najjar nor Dubin-Johnson; those two rest on the question book and on standard clinical biochemistry references, and the gap is recorded on CON-HEM-20178168A8FCF0. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-C1E24BDBC940
+
+## title
+Conjugated hyperbilirubinemia is characterized by:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+When bile cannot reach the intestine, two pigments are affected at once — the one that colours the stool and the one that colours the urine — and they move in opposite directions.
+
+## question
+Conjugated hyperbilirubinemia is characterized by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 17. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Acholuric urine
+
+## explanation_a
+Incorrect, and it names the opposite. "Acholuric" means bilirubin-free urine, and it is the term the book applies to **haemolytic** jaundice, where the excess bilirubin is unconjugated, albumin-bound and therefore unfilterable. In conjugated hyperbilirubinaemia the pigment is water-soluble and unbound, so it is excreted and the urine becomes dark brown.
+
+## answer_b
+Stercobilin in the feces usually decreases
+
+## explanation_b
+Correct. Conjugated bilirubin reaches the gut only through the bile, and it is the intestinal bacteria that reduce it to stercobilinogen, which is oxidised in air to the brown stercobilin that gives stool its colour. When the biliary passages are obstructed, that supply is cut off: stercobilin disappears from the faeces and the stool becomes clay coloured. The two-pigment logic is worth learning as one movement — less pigment reaching the gut means a pale stool, and the pigment that cannot get out through the bile regurgitates into the blood and leaves in the urine instead, making it dark. Pale stool with dark urine is therefore not a coincidence but a single diverted flow, and it is the pattern that identifies an obstructive picture at the bedside.
+
+## answer_c
+Urobilin in the urine usually increases
+
+## explanation_c
+Incorrect, and it moves the wrong way. Urobilinogen is made in the intestine from bilirubin that arrived in bile; if bile is obstructed, less stercobilinogen is formed, less is reabsorbed into the enterohepatic circulation, and less urobilinogen escapes to the kidney. Urinary urobilinogen therefore **falls**. What darkens the urine is conjugated bilirubin itself, not urobilin — and telling those two brown urinary pigments apart is precisely what this option tests.
+
+## answer_d
+Normal liver function tests
+
+## explanation_d
+Incorrect. Biliary obstruction raises serum **alkaline phosphatase**, which the book names as the enzyme elevated in obstructive jaundice; and where the cause is hepatocellular rather than obstructive, ALT and AST rise from liver cell damage. Either way the liver function tests are abnormal.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-GIT-A265DD7A7CC8EF
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-GIT-4A2A86832F1FF2
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Explain the clay-coloured stool and dark urine of conjugated hyperbilirubinaemia as one diverted flow, and distinguish urinary conjugated bilirubin from urinary urobilin.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 17. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 122, "B) Conjugated Hyperbilirubinemia (Obstructive Jaundice)", and printed page 120 for the fates of stercobilinogen.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q17. correctSource verbatim: "printed key (p140)". No OCR repair was needed. MAPPED TO AN EXISTING CONCEPT: CON-GIT-A265DD7A7CC8EF, "In obstructive jaundice the stool is clay coloured because no stercobilin reaches it, and the urine is dark because conjugated bilirubin does", was already authored from the 2025 end-of-year paper and states exactly what this item tests, so nothing was minted. NOTE FOR REVIEW: the book gives "Stercobilin in the feces usually decreases (faint stool)" under *hepatocellular* jaundice and "Stercobilin disappears from the feces leading to clay colored stool" under obstructive jaundice. The printed key is b, and both readings of "conjugated hyperbilirubinaemia" — obstructive, or the mixed hepatocellular type — support a decrease, so the key holds either way; the wording "usually decreases" is the book's hepatocellular phrasing. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-90592D1FDD1F
+
+## title
+Which serum enzyme elevation is most diagnostic of obstructive jaundice?
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Serum enzymes leak from damaged or stressed tissue, and which enzyme rises says which tissue is in trouble. Three of the four below are markers of hepatocellular or generalised cell damage.
+
+## question
+Which serum enzyme elevation is most diagnostic of obstructive jaundice?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 18. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Alanine amino transferase (ALT)
+
+## explanation_a
+Incorrect for obstruction. ALT is elevated in nearly all liver diseases as a marker of **hepatocyte damage** — the book pairs it with AST for severe viral hepatitis and toxic injury, and names both as rising in hepatocellular jaundice. A rise in ALT says the liver cells are injured, not that the duct is blocked.
+
+## answer_b
+Aspartate amino transferase (AST)
+
+## explanation_b
+Incorrect for obstruction, and less specific still. AST is raised in liver disease but also in non-hepatic disease such as myocardial infarction and muscle disorders, because it leaks from any cell rich in it.
+
+## answer_c
+Lactate dehydrogenase (LDH)
+
+## explanation_c
+Incorrect. LDH is present in almost every tissue, so a rise localises nothing on its own. Its relevance in this chapter is that it rises in haemolysis, which is a different jaundice altogether.
+
+## answer_d
+Alkaline phosphatase (ALP)
+
+## explanation_d
+Correct. Due to biliary obstruction, the serum level of alkaline phosphatase is elevated — the book states it directly under obstructive jaundice. ALP is concentrated in the canalicular membrane of the hepatocyte and the epithelium of the bile ducts, so obstruction, with the back-pressure and induction that follow, releases it into serum in a way that hepatocyte injury alone does not. The clean way to hold the whole picture is by pattern rather than by single enzyme: **ALP up out of proportion** points to obstruction, **ALT and AST up out of proportion** point to hepatocellular damage, and the jaundice's bilirubin fraction and the stool and urine colour then confirm which. That triad — bilirubin fraction, stool and urine, enzyme pattern — is what the department asks a student to enumerate.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## main_concept
+CON-GIT-4A2A86832F1FF2
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.9
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-GIT-A265DD7A7CC8EF
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-FND-861450E9BAAA11
+
+## library_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Name alkaline phosphatase as the enzyme of biliary obstruction and contrast the obstructive enzyme pattern with the hepatocellular one.
+
+## media_recommendations
+### comparison table · Explanation for answer D
+Brief: Haemolytic, hepatocellular and obstructive jaundice in three columns, with rows for the bilirubin fraction that rises, urine bilirubin, urine urobilinogen, stool colour and the serum enzyme pattern
+Purpose: Four questions in this chapter are single cells of this grid, and the department's own "Enumerate" list asks for the enzymes of obstructive and hepatocellular jaundice separately. One three-column table answers all of them and shows the enzyme pattern as part of a picture rather than an isolated fact.
+Priority: required
+Status: needed
+Section: Explanation D
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 18. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 122: "Due to biliary obstruction, the serum level of the enzyme alkaline phosphatase (ALP) is elevated", and "Due to liver cell damage, the serum levels of the enzymes ALT and AST are elevated"; also printed page 84 for the diagnostic value of the aminotransferases.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q18. correctSource verbatim: "printed key (p140)". No OCR repair was needed. MAPPED TO AN EXISTING CONCEPT: CON-GIT-4A2A86832F1FF2 already covers which enzyme rises with which jaundice, so nothing was minted. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-2BE4D7C73810
+
+## title
+A rise in serum direct bilirubin would be expected in:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+"Direct" and "indirect" are Van den Bergh reaction terms, not anatomical ones. Direct-reacting bilirubin reacts with the reagent within a minute because it is water-soluble and unbound.
+
+## question
+A rise in serum direct bilirubin would be expected in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 19. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Hemolytic jaundice
+
+## explanation_a
+Incorrect. Haemolysis produces bilirubin faster than the liver can conjugate it, so the **indirect**, unconjugated fraction rises while the direct fraction stays normal — which is what the book's comparison table records.
+
+## answer_b
+Absence of glucuronyl transferase as in the newborn
+
+## explanation_b
+Incorrect. Without the conjugating enzyme, no direct bilirubin can be made; the block is at conjugation, so the indirect fraction rises. This option is worded to sound like a serious liver problem, and the seriousness is what tempts a student who has not asked which side of conjugation the lesion sits on.
+
+## answer_c
+Decreased hepatic uptake of bilirubin (Gilbert's Disease)
+
+## explanation_c
+Incorrect. Gilbert syndrome is a defect in the uptake of unconjugated bilirubin by the liver, and in the conjugation pathways, so it too is a pre-conjugation lesion and raises the indirect fraction. All three of the wrong options here are lesions at or before conjugation.
+
+## answer_d
+Biliary obstruction
+
+## explanation_d
+Correct. Direct bilirubin is conjugated bilirubin: water-soluble, not bound to plasma protein, and therefore reacting with the Van den Bergh reagent within one minute without added methanol. Only a lesion **after** conjugation can raise it, and biliary obstruction is exactly that — the conjugated pigment cannot leave through the bile and regurgitates into the blood. Normal values give the scale of what counts as a rise: total serum bilirubin 0.2–1.2 mg/dL, indirect 0.2–0.9, direct below 0.3, and jaundice becomes visible above about 2 mg/dL. The reasoning to keep is a single question — is the block before conjugation or after it? — because it decides the fraction, the urine colour, the stool colour and the enzyme pattern all at once.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Blood Bilirubin
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## main_concept
+CON-GIT-4A2A86832F1FF2
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Blood Bilirubin
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-C87C15A849F158
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-HEM-20178168A8FCF0
+
+## library_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Equate direct bilirubin with the conjugated fraction, give the normal ranges, and predict which fraction rises from the position of the lesion relative to conjugation.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 19. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 121, "BLOOD BILIRUBIN" including the Van den Bergh reaction and reference ranges, and printed page 123, the comparison table.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q19. correctSource verbatim: "printed key (p140)". OCR REPAIR: option b reads "glucurony! transferase" in the bank — an exclamation mark for the letter l — repaired to "glucuronyl transferase". MAPPED TO AN EXISTING CONCEPT: CON-GIT-4A2A86832F1FF2 again, the third question of this chapter to test it. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-C9AD7AD3F752
+
+## title
+Fecal stercobilinogen is increased in:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Stercobilinogen is made in the large intestine from the bilirubin that arrives in bile. How much appears in the stool therefore tracks how much bilirubin reached the gut.
+
+## question
+Fecal stercobilinogen is increased in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 20. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Hemolytic anemia
+
+## explanation_a
+Correct. In haemolytic jaundice, red cells are destroyed faster than normal, so far more heme is degraded and far more bilirubin is produced. The liver conjugates and secretes as much as it can, so an increased load of conjugated bilirubin reaches the intestine, more is reduced to stercobilinogen, and the book records that stercobilin increases in the faeces, which become dark brown. The pattern completes itself in the urine: because the excess *serum* bilirubin is unconjugated and albumin-bound, none appears in urine — the jaundice is acholuric — but the extra stercobilinogen absorbed from the gut means more urobilinogen escapes to the kidney, so urinary urobilinogen rises. Dark stool, urobilinogen-positive but bilirubin-negative urine: that combination is the fingerprint of haemolysis.
+
+## answer_b
+Hepatic jaundice
+
+## explanation_b
+Incorrect. In hepatocellular jaundice the damaged liver conjugates and secretes less, and swollen liver cells block the canaliculi, so less bilirubin reaches the gut. The book states that stercobilin in the faeces usually decreases, giving a faint stool.
+
+## answer_c
+Viral hepatitis
+
+## explanation_c
+Incorrect, and it is the same answer as B by another name — viral hepatitis is the book's commonest cause of the mixed, hepatocellular picture. That two options are the same condition is a clue in itself: neither can be the single best answer.
+
+## answer_d
+Obstructive jaundice
+
+## explanation_d
+Incorrect, and it is the extreme opposite. With the biliary passages blocked, no conjugated bilirubin reaches the intestine at all, so stercobilin disappears and the stool becomes clay coloured.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## main_concept
+CON-HEM-22375197AEE80D
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-GIT-4A2A86832F1FF2
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-HEM-F2B664C215C912
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Predict faecal stercobilinogen from the amount of bilirubin reaching the gut, and give the stool and urine pattern of haemolytic jaundice.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 139 (printed 132), question 20. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 121, "1) Hemolytic jaundice — Stercobilin increases in feces, which becomes dark brown", and printed page 122 for the hepatocellular and obstructive stools.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p139-q20. correctSource verbatim: "printed key (p140)". No OCR repair was needed. NOTE FOR REVIEW: options b and c are effectively the same condition, since the book gives viral hepatitis as the usual cause of hepatocellular jaundice. The item is transcribed as the department set it rather than repaired, because both options are wrong under the printed key and collapsing them would change what was asked. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-3E1DAE4B4653
+
+## title
+In hemolytic jaundice, urine shows:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Two things can colour a jaundiced patient's urine: conjugated bilirubin, and urobilinogen oxidised to urobilin. Which of the two appears depends on which bilirubin fraction is raised in the blood.
+
+## question
+In hemolytic jaundice, urine shows:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 21. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Absence of bilirubin and urobilinogen
+
+## explanation_a
+Incorrect on the second half. Bilirubin is indeed absent — that part is right — but urobilinogen is not. Haemolysis delivers an increased load of conjugated bilirubin to the gut, so more stercobilinogen is formed, more is reabsorbed into the enterohepatic circulation, and more escapes into the systemic circulation and the urine.
+
+## answer_b
+Presence of bilirubin and urobilinogen.
+
+## explanation_b
+Incorrect on the first half, and this is the pattern of **hepatocellular** jaundice, where both fractions are raised: conjugated bilirubin regurgitates into the blood and appears in urine, and some bilirubin still reaches the gut to make urobilinogen. Choosing it means the unconjugated nature of the haemolytic excess has not been applied.
+
+## answer_c
+Absence of bilirubin and presence of urobilinogen.
+
+## explanation_c
+Correct, and both halves follow from one fact. The excess bilirubin in haemolysis is **unconjugated**: it is water-insoluble and bound to albumin, so it cannot be filtered by the glomerulus and never reaches the urine — which is why the book calls this "acholuric jaundice". Meanwhile the liver is conjugating and secreting at full capacity, so an increased amount of bilirubin reaches the intestine, stercobilinogen production rises, the stool darkens, and the fraction that is reabsorbed and escapes to the kidney raises urinary urobilinogen. So the urine has no bilirubin but plenty of urobilinogen. Set the three jaundices side by side on these two urinary tests and they separate cleanly: haemolytic gives bilirubin-negative, urobilinogen-high; obstructive gives bilirubin-positive, urobilinogen-low or absent; hepatocellular gives bilirubin-positive with urobilinogen present.
+
+## answer_d
+Presence of bilirubin and absence of urobilinogen
+
+## explanation_d
+Incorrect, and it is the exact inverse of the answer — this is the **obstructive** pattern. Conjugated bilirubin regurgitates into blood and is excreted in urine, while nothing reaches the gut to make urobilinogen. A student who has the two patterns but attaches them to the wrong diseases lands here.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Challenging
+
+## question_type
+Investigation
+
+## main_concept
+CON-HEM-22375197AEE80D
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-GIT-4A2A86832F1FF2 | CON-HEM-C87C15A849F158
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+4
+
+## inferred_difficulty
+38
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-GIT-A265DD7A7CC8EF
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Derive the urinary bilirubin and urobilinogen findings of haemolytic jaundice from the solubility and protein binding of unconjugated bilirubin, and contrast them with the obstructive and hepatocellular patterns.
+
+## media_recommendations
+### comparison table · Explanation for answer C
+Brief: The three jaundices against two urinary tests — urine bilirubin and urine urobilinogen — with a third row for stool colour, each cell annotated with the one-line reason rather than just the direction
+Purpose: All four options here are combinations of the same two tests, so the item is unanswerable by recall of a single fact and demands the whole grid. Annotating each cell with its reason is what stops a student memorising four patterns they cannot reconstruct under pressure.
+Priority: required
+Status: needed
+Section: Explanation C
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 140 (printed 133), question 21. Answer key on the same page. Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 121, "Since unconjugated bilirubin is bound to the plasma albumin, it cannot be excreted in the urine, and hence the name 'acholuric jaundice'", and printed page 120 for the fates of stercobilinogen and urobilinogen.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p140-q21. correctSource verbatim: "printed key (p140)". No OCR repair was needed; the inconsistent trailing full stops on options b and c are the book's own. TWO MAIN CONCEPTS: the item cannot be answered without both the haemolytic urine-and-stool pattern and the solubility properties of the two bilirubin fractions, so both earn mastery evidence. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-426D2F572155
+
+## title
+In de novo synthesis of purine nucleotides, the donors of nitrogen atoms are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The purine ring is built atom by atom onto a ribose phosphate. Four of its nine ring atoms are nitrogen, and they do not all come from the same place.
+
+## question
+In de novo synthesis of purine nucleotides, the donors of nitrogen atoms are:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 1. Transcribed; the option list was truncated in extraction and has been restored from the printed page, as described in author_notes.
+
+## correct_answer
+D
+
+## answer_a
+Aspartate and glutamate
+
+## explanation_a
+Incorrect twice over: it names glutamate instead of glutamine, and it omits glycine. Glutamate is the collector of amino acid nitrogen generally, so it is the name a student reaches for when the specific donor has not been learned.
+
+## answer_b
+Aspartate and glycine
+
+## explanation_b
+Incorrect because it omits the most important donor. Both named are genuine — aspartate gives N1 and glycine contributes an intact N-C-C unit — but glutamine gives two of the four nitrogens, including the very first one.
+
+## answer_c
+Aspartate, glutamate, and glycine
+
+## explanation_c
+Incorrect on one word, and it is the sharpest distractor because it is right about the count and about two of the three names. The donor is **glutamine**, not glutamate: it is the amide group of glutamine that is transferred, in the glutamine:PRPP amidotransferase reaction. Amide nitrogen and α-amino nitrogen are different chemistry, and only the amide is used here.
+
+## answer_d
+Aspartate, glutamine, and glycine
+
+## explanation_d
+Correct. The nine atoms of the purine ring come from five sources, and the book's diagram names them: the **amide group of glutamine** gives N3 and N9, **aspartate** gives N1, **glycine** contributes N7 with C4 and C5 as an intact unit, **respiratory CO2** gives C6, and **N10-formyl-THF** gives C2 and C8. Only three of those five donate nitrogen, and they are the three in this option. Two things are worth extracting. Glutamine's first donation is the committed step — glutamine:PRPP amidotransferase converts PRPP to 5-phosphoribosylamine, and the book calls it the key step of de novo purine synthesis. And the folate contribution at C2 and C8 is why folate antagonists such as methotrexate block purine and nucleic acid synthesis, inhibiting cell division, which is the basis of their use in cancer.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-265D369FD41B85
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-1A4A49607783A9 | CON-NEU-46F59E9C3EA406
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Name the five sources of the purine ring atoms, identify the three that donate nitrogen, and distinguish the amide nitrogen of glutamine from the α-amino nitrogen of glutamate.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The purine ring with each of its nine atoms labelled by its donor — amide of glutamine at N3 and N9, aspartate at N1, glycine at N7-C4-C5, CO2 at C6, N10-formyl-THF at C2 and C8
+Purpose: The item asks which donors give nitrogen specifically, and that cannot be answered from a list of five donors without knowing which atom each supplies. The labelled ring is the only presentation that carries atom-by-atom provenance, and it also shows why folate antagonists work.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 142 (printed 135), question 1. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 125, "Sources of different atoms of purine ring" and the note on folic acid and methotrexate.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p142-q1. correctSource verbatim: "printed key (p144) read differently by different OCR passes (d/e)". TWO PROBLEMS, BOTH RESOLVED FROM THE PAGE. First, the bank flags the item "option ran on": its option d carried the whole of printed question 2 appended to it and a spurious option e was fabricated from the overflow. PDF page 142 was opened with the Read tool: the book prints exactly four options, ending "d) Aspartate, glutamine, and glycine". The options have been restored to those four and the fabricated option e removed. Second, the bank recorded correct as null because the OCR could not decide between d and a non-existent e — an artefact of that same fabricated option. PDF page 144 was opened and the printed key read visually: row 1 reads "1. d". The overflow text belongs to printed question 2, "………. is the committed step in de nonvo purine nucleotide", whose printed key is b, Glutamine:PRPP amidotransferase; that question has no row of its own in the extraction bank, so it is not imported here and is reported to the lead as recoverable. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-AA07DC499B1E
+
+## title
+Which of the following cells uses salvage of free bases as its major form of nucleotide generation?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+De novo purine synthesis is long and expensive. Some tissues run it well; others rely almost entirely on recycling bases that other cells have already made.
+
+## question
+Which of the following cells uses salvage of free bases as its major form of nucleotide generation?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 3. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Nephron cell
+
+## explanation_a
+Incorrect. The kidney's prominence in this chapter is as the organ that *excretes* uric acid, and as the site where urate handling can fail and cause renal gout. Excreting the end product is not the same as generating nucleotides.
+
+## answer_b
+RBCs
+
+## explanation_b
+Correct. The department book states that the significance of the purine salvage system is to supply purine nucleotides to tissues where de novo synthesis is not active, and names two: the **brain** and the **precursors of red blood cells**. Salvage is a two-enzyme business — adenine phosphoribosyl transferase (APRT) rescues adenine to AMP, and hypoxanthine-guanine phosphoribosyl transferase (HGPRT) rescues hypoxanthine to IMP and guanine to GMP, both using PRPP — plus adenosine kinase, which salvages the nucleoside adenosine directly with ATP. The clinical weight of this fact is Lesch-Nyhan syndrome: because salvage is the dominant route in these tissues, complete loss of HGPRT is catastrophic there, and the neurological features of the disease sit alongside the hyperuricaemia rather than being explained by it.
+
+## answer_c
+Hepatocyte
+
+## explanation_c
+Incorrect, and it is the near-opposite. The liver is the organ *most* capable of de novo synthesis, and it is also where absorbed dietary purines are oxidised to uric acid. A cell that can build from scratch does not depend on salvage.
+
+## answer_d
+Osteoclasts
+
+## explanation_d
+Incorrect. Osteoclasts have no special place in purine metabolism, and the book names none. The option is included as a plausible-sounding cell type with no basis.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-DB8B4EFEB287DA
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-HEM-095C9C97B56CCA
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Name the two tissues that depend on purine salvage and explain why complete HGPRT deficiency has neurological consequences there.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 142 (printed 135), question 3. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 126: "The significance of the purine salvage system is to supply purine nucleotides to tissues where the de novo synthesis is not active e.g. brain and precursors of red blood cells."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p142-q3. correctSource verbatim: "none" — no OCR pass read a key for this item. NULL KEY RECOVERED FROM THE PAGE: PDF page 144 was opened with the Read tool and the printed key table read visually — row 3 reads "3. b", and every other row on that page matches the bank exactly. The key is b, which the department book supports directly. NOTE FOR REVIEW: the book says "precursors of red blood cells", and a mature erythrocyte has no nucleus and makes no nucleic acid; the option as printed says "RBCs". The item is transcribed as set, and the explanation states the book's own wording. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-F0F2C0FB8AFC
+
+## title
+Which one of the following enzymes is important for free purine salvage system?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The salvage system has two arms — one that rescues free bases and one that rescues nucleosides — and each uses a different phosphate donor.
+
+## question
+Which one of the following enzymes is important for free purine salvage system?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 4. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+PRPP synthetase
+
+## explanation_a
+Incorrect as the salvage enzyme, although it supplies what salvage needs. PRPP synthetase makes 5-phosphoribosyl-1-pyrophosphate from the ribose-5-phosphate that the hexose monophosphate pathway provides. PRPP is the substrate both of de novo synthesis and of base salvage, so it is upstream of both rather than characteristic of either.
+
+## answer_b
+Glutamine:PRPP amidotransferase
+
+## explanation_b
+Incorrect — this is the committed step of **de novo** synthesis, not of salvage. It consumes PRPP to make 5-phosphoribosylamine, building a new ring from scratch. Salvage exists precisely to avoid this route.
+
+## answer_c
+Hypoxanthine-guanine phosphoribosyl transferase (HGPRT)
+
+## explanation_c
+Correct. HGPRT attaches the ribose phosphate of PRPP directly onto a free purine base: hypoxanthine becomes IMP and guanine becomes GMP, releasing pyrophosphate. Its partner in the free-base arm is adenine phosphoribosyl transferase, which converts adenine to AMP. Both are one-step reactions, which is the whole economy of salvage — a base that would otherwise be oxidised to uric acid and excreted is returned to the nucleotide pool for the cost of one PRPP. Because HGPRT covers two of the three salvageable bases, it is the more important of the pair, and its complete deficiency is Lesch-Nyhan syndrome while its partial deficiency is a cause of primary metabolic gout. Both consequences follow from the same arithmetic: bases that cannot be salvaged go to uric acid instead, and PRPP that is not consumed by salvage remains available to drive de novo synthesis.
+
+## answer_d
+Adenosine kinase
+
+## explanation_d
+Incorrect for the *free base* arm, and this is the discrimination the stem is testing. Adenosine kinase belongs to the second arm — salvage of purine **nucleosides** — phosphorylating adenosine to AMP and deoxyadenosine to dAMP using ATP as the phosphate donor. A nucleoside already has its ribose; a free base does not, which is why the two arms need different chemistry.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-DB8B4EFEB287DA
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-265D369FD41B85 | CON-FND-B928DE79E08882
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Distinguish the free-base arm of purine salvage from the nucleoside arm by enzyme and phosphate donor, and name HGPRT and APRT as the two phosphoribosyl transferases.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The two arms of purine salvage side by side — free bases adenine, hypoxanthine and guanine rescued by APRT and HGPRT using PRPP, and nucleosides adenosine and deoxyadenosine rescued by adenosine kinase using ATP — with de novo synthesis shown as the alternative that PRPP also feeds
+Purpose: Three of this chapter's questions turn on which enzyme belongs to which arm, and the distractors are always the enzyme from the other arm or from de novo synthesis. One diagram separating the three routes that all draw on PRPP answers all of them.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 142 (printed 135), question 4. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 126, "B) Purine Salvage System — I- Salvage of free purines" and "II- Salvage of purine nucleosides", and printed page 124 for PRPP synthetase.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p142-q4. correctSource verbatim: "printed key (p144)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-D2A456C7FF6E
+
+## title
+Salvage of Hypoxanthine to IMP is catalyzed by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Naming a salvage enzyme correctly means matching the base to the transferase that accepts it. The two phosphoribosyl transferases divide the three salvageable bases between them.
+
+## question
+Salvage of Hypoxanthine to IMP is catalyzed by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 5. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Adenosine phosphoribosyl transferase
+
+## explanation_a
+Incorrect, and note that the name as printed conflates two enzymes. The free-base transferase for adenine is **adenine** phosphoribosyl transferase (APRT), which makes AMP from adenine; adenosine is a nucleoside and is handled by adenosine kinase. Either way, neither accepts hypoxanthine.
+
+## answer_b
+Deoxycytidine kinase
+
+## explanation_b
+Incorrect. Deoxycytidine is a pyrimidine deoxynucleoside, and the enzyme belongs to pyrimidine salvage. Purines and pyrimidines are salvaged by different enzymes, and the stem names a purine.
+
+## answer_c
+Hypoxanthine-guanine phosphoribosyl transferase
+
+## explanation_c
+Correct, and the enzyme's name states the reaction. HGPRT transfers the ribose phosphate of PRPP onto hypoxanthine to give IMP, or onto guanine to give GMP, releasing pyrophosphate in either case. IMP is the branch point of purine metabolism — it can be converted onward to AMP through adenylosuccinate, or to GMP through XMP — so salvaging hypoxanthine to IMP returns a base to the pool in the most versatile possible form. That is part of why HGPRT loss matters so much: the tissues that depend on salvage lose access to both adenine and guanine nucleotides at once, and the unsalvaged hypoxanthine is oxidised by xanthine oxidase to xanthine and then to uric acid instead.
+
+## answer_d
+Adenylosuccinate synthetase
+
+## explanation_d
+Incorrect. Adenylosuccinate synthetase is a *de novo* pathway enzyme, converting IMP towards AMP. It acts on IMP rather than producing it, so it is one step downstream of the reaction described.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-DB8B4EFEB287DA
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-265D369FD41B85
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Match hypoxanthine and guanine to HGPRT and adenine to APRT, and explain why IMP is the most useful product to salvage back to.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 142 (printed 135), question 5. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 126, the salvage diagrams, and printed page 125, "IMP acts as a precursor of other purine nucleotides".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p142-q5. correctSource verbatim: "printed key (p144)". OCR REPAIR: option c reads "Hypoxanthine-guanine phosphoribosy] transferase" in the bank — a closing bracket for the letter l — repaired to "phosphoribosyl". NOTE FOR REVIEW: option a as printed reads "Adenosine phosphoribosyl transferase", which is not a real enzyme name — the book's own diagram gives "Adenine phosphoribosyl transferase (APRT)". The option is transcribed as the department set it rather than silently corrected, and the discrepancy is named in explanation_a so the student is not taught the wrong name. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-B1875C48DEE4
+
+## title
+Free purine bases which can be salvaged are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Two phosphoribosyl transferases between them cover the free bases that the salvage pathway can rescue. Counting how many bases they cover answers this question.
+
+## question
+Free purine bases which can be salvaged are:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 6. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Adenine and guanine
+
+## explanation_a
+Incomplete, so not the best answer. Both are salvaged — adenine by APRT and guanine by HGPRT — but hypoxanthine is missing, and it is the base that matters most clinically because it is the one that would otherwise be oxidised straight on towards uric acid.
+
+## answer_b
+Adenine and hypoxanthine
+
+## explanation_b
+Incomplete. Both are salvaged, but guanine is missing; HGPRT's name contains both of the bases it handles, so leaving one out usually means the enzyme name has not been read carefully.
+
+## answer_c
+Guanine and hypoxanthine
+
+## explanation_c
+Incomplete, and it names exactly the two bases HGPRT covers while forgetting that a second enzyme exists. It is the answer of a student who knows HGPRT well and has not met APRT.
+
+## answer_d
+Adenine, guanine, and hypoxanthine
+
+## explanation_d
+Correct. The free-base salvage arm has two enzymes: adenine phosphoribosyl transferase converts **adenine** to AMP, and hypoxanthine-guanine phosphoribosyl transferase converts **hypoxanthine** to IMP and **guanine** to GMP. Three bases, two enzymes, one shared substrate — PRPP — and pyrophosphate released each time. Two consequences are worth carrying. Because hypoxanthine is salvageable, anything that blocks salvage sends it down the catabolic route instead: xanthine oxidase oxidises hypoxanthine to xanthine and xanthine to uric acid, which is why HGPRT deficiency raises urate. And because salvage consumes PRPP, losing it leaves more PRPP available to drive de novo synthesis, so urate rises from both ends at once — less recycling and more manufacture.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-DB8B4EFEB287DA
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-REN-D940C9B3140A40
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+List the three salvageable free purine bases with their enzymes and products, and explain why failed salvage raises urate by two mechanisms.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 142 (printed 135), question 6. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 126, "I- Salvage of free purines", and printed pages 127–128 for xanthine oxidase and the PRPP mechanism in metabolic gout.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p142-q6. correctSource verbatim: "printed key (p144)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-8CB2CF8AEC82
+
+## title
+One of the following does not produce feedback inhibition of PRPP synthetase:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+De novo purine synthesis is regulated by multiple feedback loops acting at two sites. The book names the nucleotides that inhibit, and one nucleotide in the list below is not among them.
+
+## question
+One of the following does not produce feedback inhibition of PRPP synthetase:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Purines And Pyrimidines, multiple choice question 7. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+AMP
+
+## explanation_a
+An inhibitor, so not the answer. AMP is one of the five nucleotides the book names as producing feedback inhibition at both PRPP synthetase and glutamine:PRPP amidotransferase.
+
+## answer_b
+ADP
+
+## explanation_b
+An inhibitor, so not the answer. ADP is named alongside AMP in the same list.
+
+## answer_c
+GMP
+
+## explanation_c
+An inhibitor, so not the answer. GMP represents the guanine branch in the inhibitor list, which is what makes the regulation balanced — both end products report back to the shared beginning.
+
+## answer_d
+GTP
+
+## explanation_d
+Correct — GTP is the one **not** named. The department book's list is precise: "High concentration of IMP, AMP, ADP, GMP and GDP produce feedback inhibition of conversion of ribose-5-phosphate to IMP at two sites, PRPP synthetase and glutamine:PRPP-amidotransferase." IMP, AMP, ADP, GMP and GDP — mono- and diphosphates, and the branch-point nucleotide. GTP is absent from it, and the reason is worth noticing rather than memorising: GTP has a different regulatory job in this pathway. It is the energy source that drives IMP towards AMP through adenylosuccinate synthetase, while ATP drives IMP towards GMP — a cross-regulation that keeps the two branches in balance. A molecule that is a *substrate* of one branch is not used as a general brake on the whole pathway.
+
+## topic
+Molecular biology
+
+## subtopic
+Biosynthesis of Purine Nucleotides
+
+## difficulty
+Challenging
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-71EF720F840CA4
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Biosynthesis of Purine Nucleotides
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+CON-REN-091F22B55D3081
+
+## library_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE
+
+## resource_ids
+
+## learning_objective
+Recall the five nucleotides that feedback-inhibit purine synthesis and the two sites they act at, and explain why GTP is a driver of the AMP branch rather than a general inhibitor.
+
+## media_recommendations
+### diagram · Explanation for answer D
+Brief: Ribose-5-phosphate to PRPP to phosphoribosylamine to IMP, then branching to AMP and GMP, with the five inhibitors IMP, AMP, ADP, GMP and GDP drawn as feedback arrows onto the two regulated sites, and GTP and ATP drawn instead as the drivers of the opposite branches
+Purpose: The item is answered by seeing that GTP appears on the diagram in a different role, not that it is absent from it. Only a figure showing inhibitors as feedback arrows and GTP as a branch driver makes that distinction; a memorised list of five names does not survive a distractor this close.
+Priority: required
+Status: needed
+Section: Explanation D
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Purines And Pyrimidines, PDF page 143 (printed 136), question 7. Answer key on PDF page 144 (printed 137). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 126, "Regulation of Biosynthesis of Purine Nucleotides — A) Feedback regulation".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p143-q7. correctSource verbatim: "none" — no OCR pass read a key for this item. NULL KEY RECOVERED FROM THE PAGE: PDF page 144 was opened with the Read tool and the printed key table read visually — row 7 reads "7. d", and every other row on that page matches the bank exactly. The key is d, which the department book's own inhibitor list supports: IMP, AMP, ADP, GMP and GDP are named and GTP is not. The ATP/GTP cross-regulation cited in the explanation is not in the department book; it is carried by the live concept CON-REN-091F22B55D3081, which states it, and that concept is tagged contextual here rather than assessed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
