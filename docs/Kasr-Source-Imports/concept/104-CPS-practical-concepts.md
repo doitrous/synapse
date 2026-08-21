@@ -113,7 +113,7 @@ Lymph node
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -124,7 +124,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-LYMPH-NODE-ARCHITECTURE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -185,11 +185,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "lymph node" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -246,7 +246,7 @@ Lymph node
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -257,7 +257,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-SECONDARY-FOLLICLE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -318,11 +318,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "germinal" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -379,7 +379,7 @@ Lymph node
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -390,7 +390,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-PARACORTEX-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -451,11 +451,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "paracortex" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -511,7 +511,7 @@ Lymph node
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -522,7 +522,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-LYMPH-NODE-MEDULLA-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -583,11 +583,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "medullary" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -644,7 +644,7 @@ Spleen
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -655,7 +655,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-NODE-VS-SPLEEN-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -718,11 +718,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -779,7 +779,7 @@ Spleen
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -790,7 +790,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-SPLEEN-STROMA-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -851,11 +851,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "spleen" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -912,7 +912,7 @@ Spleen
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -923,7 +923,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-RED-PULP-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -984,11 +984,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "stave" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1044,7 +1044,7 @@ Spleen
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1054,7 +1054,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-SPLENIC-CIRCULATION-THEORIES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1114,11 +1114,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "closed" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1175,7 +1175,7 @@ Tonsils
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1186,7 +1186,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-PALATINE-TONSIL-STRUCTURE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1247,11 +1247,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "crypt" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1308,7 +1308,7 @@ Tonsils
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1319,7 +1319,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-TONSIL-CAPSULE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1380,11 +1380,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "encapsulat" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1440,7 +1440,7 @@ Tonsils
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1451,7 +1451,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-PHARYNGEAL-TONSIL-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1512,11 +1512,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "adenoid" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1572,7 +1572,7 @@ Tonsils
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1582,7 +1582,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-TONSIL-FUNCTION-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1642,11 +1642,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "invader" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1703,7 +1703,7 @@ Thymus
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1714,7 +1714,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-THYMUS-LOBULATION-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1775,11 +1775,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "thymus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1836,7 +1836,7 @@ Thymus
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1847,7 +1847,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-HASSALL-CORPUSCLE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1908,11 +1908,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "hassall" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -1969,7 +1969,7 @@ Thymus
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1980,7 +1980,7 @@ src_5adcc001e9c3bb86bb75
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-THYMIC-EPITHELIAL-RETICULAR-CELLS-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2041,11 +2041,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "reticular" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -2101,7 +2101,7 @@ Thymus
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2111,7 +2111,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-THYMUS-ABSENCES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2171,11 +2171,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "afferent" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.
@@ -2232,7 +2232,7 @@ Thymus
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2242,7 +2242,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-BLOOD-THYMIC-BARRIER-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2302,11 +2302,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf, and this concept's leaf is taught by ART-104-HIS-LYMPHOID-ORGANS.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the department book and the practical atlas by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "barrier" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one station question and the department book pages behind it.

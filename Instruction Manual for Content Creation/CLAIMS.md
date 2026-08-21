@@ -51,6 +51,9 @@ scope. Whoever owns it picks it up from here.
 | 2026-08-21 | 104-cps | `104 CPS` · practical items | docs/Kasr-Source-Imports/practical/104-CPS-practical.md | 4 stations, 20 questions, 0 errors |
 | 2026-08-21 | 104-cps | `104 CPS` · media requests | docs/Kasr-Source-Imports/media-requests/104-CPS-media-audit.md | 14 requests, all with Purpose |
 | 2026-08-21 | 104-cps | `104 CPS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/104-CPS-coverage.md | 35 of 46 files read, 1540 pages |
+| 2026-08-21 | 104-cps | `104 CPS` · atomic claims | docs/Kasr-Source-Imports/evidence/104-CPS-claims.md | 52 claims covering all 39 concepts, fieldsUsed 13, 0 errors; 50 needs_evidence, 2 conflicted, 0 verified |
+| 2026-08-21 | 104-cps | `104 CPS` · citations | docs/Kasr-Source-Imports/evidence/104-CPS-citations.md | 62 citations, fieldsUsed 12, 0 errors; every support_span checked back against the cached page text |
+| 2026-08-21 | 104-cps | `104 CPS` · article spans | docs/Kasr-Source-Imports/evidence/104-CPS-spans.md | 58 spans across all 13 articles, fieldsUsed 6, 0 errors |
 
 ---
 

@@ -58,7 +58,7 @@ Electrical Activity of the Heart
 ## article_ids
 ART-104-PHY-CARDIAC-ACTION-POTENTIAL
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -68,7 +68,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-AP-PHASE1-01 | CLM-104-PHY-AP-PHASE2-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -128,11 +128,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION — the article the teaching article ART-104-PHY-CARDIAC-ACTION-POTENTIAL names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "cardiac myocyte" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -187,7 +187,7 @@ Cardiac Function
 ## article_ids
 ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -197,7 +197,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-EJECTION-PHASES-01 | CLM-104-PHY-STROKE-VOLUME-ARITHMETIC-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -257,11 +257,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "cardiac cycle.rapid" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -317,7 +317,7 @@ Cardiac Function
 ## article_ids
 ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -327,7 +327,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-INOTROPY-ESPVR-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -387,11 +387,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "ventricular pressure" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -448,7 +448,7 @@ Cardiac Function
 ## article_ids
 ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -458,7 +458,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-CARDIAC-RESERVE-01 | CLM-104-PHY-STROKE-VOLUME-RESERVE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -518,11 +518,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "cardiac reserve.heart" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -579,7 +579,7 @@ Vascular Function
 ## article_ids
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 CON-CVS-245C56665C0240 | CON-CVS-59DE21D055FA34
 ## resource_ids
@@ -589,7 +589,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-MSFP-VALUE-01 | CLM-104-PHY-MSFP-VR-CURVE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -649,10 +649,10 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "venous return" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -709,7 +709,7 @@ Vascular Function
 ## article_ids
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -719,7 +719,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-THORACIC-PUMP-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -779,11 +779,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "venous return.thoracic" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -840,7 +840,7 @@ Basic Mechanisms of Circulatory Control
 ## article_ids
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_article_ids
-[clear]
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -850,7 +850,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-BARORECEPTOR-SITE-01 | CLM-104-PHY-BAROREFLEX-OPPOSES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -910,11 +910,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "arterial baroreceptor" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -970,7 +970,7 @@ Organization of the Respiratory System
 ## article_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_article_ids
-[clear]
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -980,7 +980,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-LUNG-RECOIL-SOURCES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1040,11 +1040,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "respiratory mechanics.causes" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1100,7 +1100,7 @@ Organization of the Respiratory System
 ## article_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_article_ids
-[clear]
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1110,7 +1110,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-SURFACTANT-SOURCE-01 | CLM-104-PHY-SURFACTANT-FUNCTIONS-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1170,11 +1170,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "pulmonary surfactant.functions" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1230,7 +1230,7 @@ Gas Transport by the Blood
 ## article_ids
 ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
 ## related_article_ids
-[clear]
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 CON-RES-AA4C315125E587
 ## resource_ids
@@ -1240,7 +1240,7 @@ src_a11a7faed67c95e2d636
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-PHY-ODC-P50-01 | CLM-104-PHY-ODC-LEFT-SHIFT-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1300,10 +1300,10 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the article the teaching article ART-104-PHY-OXYGEN-DISSOCIATION-CURVE names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "haemoglobin oxygen" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1360,7 +1360,7 @@ Intercostal Spaces
 ## article_ids
 ART-104-ANA-THORACIC-WALL-VEINS
 ## related_article_ids
-[clear]
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1370,7 +1370,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-POST-INTERCOSTAL-VEINS-RIGHT-01 | CLM-104-ANA-POST-INTERCOSTAL-VEINS-LEFT-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1430,11 +1430,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-PLEURA-AND-MEDIASTINUM — the article the teaching article ART-104-ANA-THORACIC-WALL-VEINS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "posterior intercostal" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1491,7 +1491,7 @@ Thoracic Cavity
 ## article_ids
 ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_article_ids
-[clear]
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1501,7 +1501,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-PLEURA-NERVE-SUPPLY-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1561,11 +1561,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-THORACIC-WALL-VEINS and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-ANA-PLEURA-AND-MEDIASTINUM names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "pleura.nerve supply" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1622,7 +1622,7 @@ Heart
 ## article_ids
 ART-104-ANA-CORONARY-ARTERIES
 ## related_article_ids
-[clear]
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1632,7 +1632,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-CIRCUMFLEX-ORIGIN-END-01 | CLM-104-ANA-CIRCUMFLEX-BRANCHES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1692,11 +1692,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT — the article the teaching article ART-104-ANA-CORONARY-ARTERIES names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "circumflex artery.origin" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1751,7 +1751,7 @@ Mediastinum
 ## article_ids
 ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_article_ids
-[clear]
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1761,7 +1761,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-POSTERIOR-MEDIASTINUM-BOUNDARIES-01 | CLM-104-ANA-POSTERIOR-MEDIASTINUM-CONTENTS-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1821,11 +1821,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-THORACIC-WALL-VEINS and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-ANA-PLEURA-AND-MEDIASTINUM names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "posterior mediastinum.boundaries" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -1882,7 +1882,7 @@ Development of the Heart
 ## article_ids
 ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_article_ids
-[clear]
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -1892,7 +1892,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-AORTIC-SAC-FATE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1952,11 +1952,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-CORONARY-ARTERIES and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "aortic sac.fate" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2012,7 +2012,7 @@ Large Arteries of the Thorax
 ## article_ids
 ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_article_ids
-[clear]
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2022,7 +2022,7 @@ src_4bd55e9eaf092282818c
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-ANA-AORTIC-ANEURYSM-MEDIASTINAL-SYNDROME-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2082,11 +2082,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-ANA-CORONARY-ARTERIES and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "aortic arch" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2142,7 +2142,7 @@ Tonsils
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2152,7 +2152,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-TONSIL-PALATINE-LINGUAL-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2212,11 +2212,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "palatine versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2272,7 +2272,7 @@ Spleen
 ## article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## related_article_ids
-[clear]
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2282,7 +2282,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-WHITE-PULP-ZONES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2342,11 +2342,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "splenic white" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2403,7 +2403,7 @@ The Cell Cycle
 ## article_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2413,7 +2413,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-CELL-RENEWAL-TYPES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2473,11 +2473,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "specialized cell" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2534,7 +2534,7 @@ Chromosomal Aberrations (Abnormalities)
 ## article_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 CON-DEV-B922919ED9D575
 ## resource_ids
@@ -2544,7 +2544,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-ANEUPLOIDY-DEFINITION-01 | CLM-104-HIS-ANEUPLOIDY-CAUSES-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2604,10 +2604,10 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "aneuploidy.causes" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2664,7 +2664,7 @@ A-V Connections
 ## article_ids
 ART-104-HIS-CAPILLARY-TYPES
 ## related_article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 [clear]
 ## resource_ids
@@ -2674,7 +2674,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-CAPILLARY-CONTINUOUS-01 | CLM-104-HIS-CAPILLARY-SINUSOID-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2734,11 +2734,11 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CAPILLARY-TYPES names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "continuous versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
@@ -2794,7 +2794,7 @@ Conducting Portion
 ## article_ids
 ART-104-HIS-NASAL-MUCOSA
 ## related_article_ids
-[clear]
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_concept_ids
 CON-RES-F818BF7BB20E31 | CON-RES-CCE62F7217A235
 ## resource_ids
@@ -2804,7 +2804,7 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-104-HIS-OLFACTORY-EPITHELIUM-01 | CLM-104-HIS-OLFACTORY-BASEMENT-MEMBRANE-01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2864,10 +2864,10 @@ arabicLabel: Teaching at Kasr Alainy is in English and the department book print
 arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
 microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
 nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: No other article in this module discusses this concept without teaching it; the module has one article per subject-tree leaf.
+relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS and ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY — the articles the teaching article ART-104-HIS-NASAL-MUCOSA names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
 approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: AUTHORING ERROR: the audit requires a claim. Author it in the evidence batch rather than leaving this blank.
+atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
 resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
 sourceCandidateIds: Searched the corpus index for "respiratory versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
 mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
