@@ -1759,3 +1759,36 @@ It had given three lanes a wrong measurement — most recently **481 errors read
 has none**, half an hour after that lane had warned two others about the same trap. zsh does
 not word-split an unquoted expansion; bash does. **CI was always right; the people checking it
 by hand were not.**
+
+### Deriving a statement of intent is not the same as inferring one
+
+A refinement to *derive what cannot be wrong*. The two article maps are not the same kind of
+object, and the difference decides whether derivation is safe:
+
+| | What it is | Derivable? |
+|---|---|---|
+| A map over a **large existing corpus** | a record of **decisions with reasons** — why the notochord gets its own article rather than one that mentions it twelve times | **No.** Deriving keeps the links and discards the reasoning. |
+| A map over articles **authored in the same pass, by the same author, to teach these concepts** | a **statement of intent**, written deliberately as *"this article teaches these"* | **Yes**, once. |
+
+In the second case the derivation is not inferring intent from proximity — it is **reading an
+intent that was stated**. The check that matters (all 22 concepts covered, 0 strays) was done
+by the author, not by the deriver.
+
+**And the boundary is sharp.** The moment a fourteenth article arrives, or one of those
+concepts is taught by an article from another module, *related* and *teaches* can diverge and
+nothing records which was meant. So treat such a map as **generated once from a deliberate
+statement, not as a standing generator** — if the module gains articles, write the map rather
+than re-derive it.
+
+### Before recording an answer, check the mark is not on every option
+
+Two instances now, different corpora and different causes, both of which would have produced
+fabricated data:
+
+- a **candidate's working copy** — at 1200 dpi the stroke is on *every* option letter;
+- a **print or bleed artifact** — the same hook before all four letters of every question.
+
+> **If a mark appears on options that cannot all be correct, the marks are not a key.**
+
+Both were recorded as **findings** rather than as failures or as unreadable questions. That is
+the right disposition: the paper is telling you what it is.
