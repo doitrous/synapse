@@ -956,3 +956,82 @@ could not take another's validator wholesale — doing so would have reverted it
 identical, file not.
 
 **Diff before copying.** If both lanes have touched it, port the change, not the file.
+
+### A subagent's edit to a shared file is a silent revert waiting to happen
+
+**When a subagent reports editing a shared script, diff that file against `origin/main`
+before accepting the change.** Do not read the agent's account of what it did.
+
+A subagent's `Write` is a **whole-file write against whatever it last read**. In a checkout
+that moves under it, that silently reverts everything landed in between. One lane's agent
+fixed the evidence branch from a pre-merge copy and, in the same write, undid **main's
+format fix** — the `isChoiceFormat` change that stops `matching`/`completion`/`labeling`
+falling through to the lettered-option check. It was caught only by diffing. The commit would
+have fixed one thing and quietly broken another, and that lane's own biochemistry section
+ends in a matching question.
+
+Nothing about the agent's report would have revealed it. The account was accurate about what
+it *changed*; it said nothing about what it *overwrote*.
+
+### `--with` did not reach the evidence branch either
+
+It was wired into the question branch only. The evidence branch resolved references by reading
+its own directory — which finds the **claim** a citation names (both live in `evidence/`) and
+**cannot** find the **concept** a claim names, because concepts are one directory over.
+
+So a claim batch authored alongside its concepts — exactly what the import order
+`resource → article → concept → claim → citation` requires — failed with `Concept CON-… does
+not exist` for concepts sitting correctly in the same batch. The only green route was to
+import the concepts first, which is the thing being validated.
+
+Fixed: the evidence branch folds in `--with` on the same terms as the question branch, same
+parser and same kind detector, so a file that is not what it claims still contributes nothing.
+**29 errors without the flag, zero with it** — and nothing is suppressed, because the
+un-flagged run still reports all 29.
+
+```bash
+git checkout claude/content-creation-task-103-315a10 -- scripts/validate-content-batch.mjs
+```
+
+### `fieldsUsed` has a per-format ceiling — do not pad to reach a floor
+
+A written batch came in at **41 with zero errors**, and 41 is the **ceiling** for that format,
+not a shortfall: **20 of the question schema's columns are format-exclusive to choice
+questions.** Reaching 46 would have meant emitting empty `answer_a` blocks — declaring that a
+written question has lettered options.
+
+**The manual's 46-of-50 floor is stated for the single-best-answer contract and should say
+so.** A metric that can only be reached by asserting something false is the wrong gate for
+that format. Report the ceiling and why, rather than padding to the number.
+
+### Three ways an answer key hides, and the two-second test for which
+
+**Test first, then pick a technique.** Compare extracted character counts between a
+solved/unsolved pair:
+
+```
+EOY 104 FINALS (answered)   94620 vs 60598   x1.56   answers in text
+EOY Final 104, 199 solved   11507 vs  2538   x4.53   answers in text
+EOM 196 104 - 2023          28218 vs 26991   x1.05   ** SUSPECT **
+```
+
+**A ratio near 1.0 between a copy called "answered" and one called "no answers" means the
+answers are not in the text layer.** Two seconds, works on any pair, and it would have caught
+the highlight case too.
+
+| Variant | Found by | Not found by |
+|---|---|---|
+| Answers in the text | extraction | — |
+| Pink highlight over the option | rasterise, intersect highlight rects with text bboxes — 48/48, 0 false positives | `pdftotext` |
+| **Handwritten grey biro, X through wrong options** | **reading the render** | text extraction **and** a colour check — 177 coloured pixels on a page, 0.02% |
+
+Hand-circles need a different shape rule from filled highlights: a hollow annulus may group as
+two thin regions, or none.
+
+### A second watermark publisher, which is the argument for the table
+
+One corpus carries `DOCTOR HOUSE`, reaching the text as 8 `DOCTOR` and 7 `HOUSE` tokens —
+neither in the other publisher's fragment list. So the 101 stripper **removes exactly the
+tokens that corpus needs (`P`, `y`) and keeps exactly the ones it should remove.** Per module,
+defaulting to `None`, and **list a checked corpus explicitly** — a corpus checked and found
+clean is a different fact from one nobody has looked at.
