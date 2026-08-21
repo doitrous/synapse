@@ -1299,3 +1299,59 @@ twice.**
 
 A lane that authored directly rather than generating has no re-slug exposure at all — there is
 no second run to re-mint anything. The hazard is a property of generation, not of authoring.
+
+---
+
+## Recovering an answer key: one decision procedure
+
+Four variants have turned up. Do not pick a technique before running the test.
+
+**1. Ratio test, per page, on every solved/unsolved pair.** Two seconds, no PDF opened.
+
+| Ratio | Meaning | Next step |
+|---|---|---|
+| **≥ 1.3** | answers are in the text layer | extract normally |
+| **near 1.0** | they are not | render a page and look |
+| **0 / 0** | no text layer at all | OCR for word boxes before any intersection |
+
+**2. Once you are looking at a render:**
+
+- **Annotation objects** (`/Stamp`, `/Square`, `/Highlight`) — exact vector data. Render
+  annots-on and annots-off and **diff**. A grep keyed on `/Subtype /Highlight` alone misses
+  iPad ink and Preview rectangles.
+- **Pink highlight burned into the page** — rasterise, intersect highlight rectangles with
+  text bounding boxes. Recovers in bulk: 48/48, zero false positives on unsolved controls.
+- **Grey pen on a greyscale scan** — only the eye works. 177 coloured pixels on a whole page
+  (0.02%) means no colour check will find it.
+
+**3. Confirm any suspected mark at 200 dpi, not 150.** This is the near-miss that would have
+cost most. `EOM 198 CPS 198 no` looks pen-marked at 150 dpi — every option appears to carry a
+mark. At **200 dpi with a crop** it is the *same hook before all four letters of every
+question*: a print or bleed artifact carrying no answer information. Recorded as **unmarked**
+rather than as 120 unreadable questions.
+
+> **150 dpi is enough to read a real mark and not enough to tell a real mark from an
+> artifact.** Confirm at 200 before recording either an answer **or** a gap.
+
+**4. Expect more than one mark convention in the same paper.** X-strikes on wrong options
+usually — but on *"select the **false**"* stems one examiner **ticks the true distractors and
+rings the odd one out**. Ten questions did that. A recovery keyed on *"the marked option is the
+answer"* inverts all ten. **The ring is the thing to trust**: both conventions agree with it
+everywhere.
+
+**5. Sanity-check the recovered key before believing it.** A plausible distribution
+(a:26 b:26 c:39 d:29) is evidence; a degenerate run is not. Cross-check the numbering against
+cached stems at several points across the paper, or an off-by-one silently mislabels
+everything after the page it starts on.
+
+**6. The marginalia are content, not just a key.** 48 questions carried examiner working that
+exists nowhere in the text — `VR = (MSFP − RAP) / TPR`, a hand-drawn jugular trace labelled
+A, C, X, V, Y, per-option pressures `25 / 120 / 37 / 17`. That is teaching material.
+
+**7. Record disagreement rather than resolving it.** One ring disagreeing with its own
+marginalia is recorded with both and flagged; a faint second ring is flagged, not resolved; an
+illegible note is `null`, not transcribed.
+
+Result on the hardest variant: **120 questions, 120 answers, zero unreadable** — 119 high
+confidence, 1 medium — verified 8/8 against answers a human had read off a page independently
+beforehand.
