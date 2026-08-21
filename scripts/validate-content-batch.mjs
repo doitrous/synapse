@@ -141,9 +141,19 @@ if (kind === 'relation') {
   const concepts = []
   const claims = []
   const citations = []
-  for (const name of await readdir(dir)) {
-    if (!name.endsWith('.md')) continue
-    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+  // Same hole the evidence branch had, and wider. A relation names two concepts
+  // *and* a claim *and* a citation, and a batch keeps each kind in its own
+  // folder — `concept/`, `evidence/`, `relations/` — so reading only this
+  // directory finds none of them. `--with` is the documented way to say "these
+  // are being imported alongside", and it was wired into the question branch
+  // only, so a correctly ordered batch could not be validated without first
+  // performing the import it was validating.
+  const nearby = [
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ]
+  for (const name of nearby) {
+    for (const row of parseMarkdown(await readFile(name, 'utf8'))) {
       const k = detectKind(row)
       if (k === 'concept') concepts.push({ id: row.id?.trim() })
       if (k === 'claim') claims.push({ id: row.id?.trim() })
