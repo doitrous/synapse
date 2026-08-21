@@ -595,7 +595,7 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-72D21476F03993
+CON-DEV-72D21476F03993 | CON-DEV-44A219B862FFD5
 ## related_articles
 ART-101-ANA-DECIDUA: The same expanding amniotic cavity that folds the disc is what presses decidua capsularis onto decidua parietalis and closes the uterine cavity.
 ## aliases
@@ -784,7 +784,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## related_articles
 ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal are what make the two heads of this muscle produce opposite movements.
 ART-101-ANA-AXILLA-BREAST: Pectoralis major is the superficial layer of the anterior wall of the axilla, and the breast lies on the pectoral fascia that covers it.
@@ -901,7 +901,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates, or a purpose-drawn figure following the department book Anatomy Fig. 11
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-097C0BDED777AB, whose exam question was "Mention attachment, action and nerve supply of Pectoralis Major", 7 marks.
+Notes: Serves concept CON-MSK-2B9F47FC205689, whose exam question was "Mention attachment, action and nerve supply of Pectoralis Major", 7 marks.
 ### diagram · Bony attachment map of pectoralis major, origin in one colour on clavicle, sternum and the upper six costal cartilages, insertion in another on the lateral lip of the bicipital groove, with teres major on the medial lip and latissimus dorsi on the floor marked for contrast
 Purpose: The three tenants of the bicipital groove are a classic confusion and the mark turns on which lip. One bone with three labelled strips settles it permanently.
 Priority: strongly helpful
@@ -999,7 +999,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The radial nerve is a branch of the posterior cord, and the cords and their branches are contents of the axilla.
 ART-101-ANA-HAND-ARTERIES: The superficial radial nerve leaves the forearm through the roof of the anatomical snuff box, alongside the cephalic vein.
@@ -1120,7 +1120,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 45 and 46
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-59B3B8AB2A2CFA, whose exam question was "Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm", 7 marks.
+Notes: Serves concept CON-MSK-A49B57B03A3610, whose exam question was "Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm", 7 marks.
 ### diagram · Branching chart of the radial nerve arranged by level in four bands - axilla, spiral groove, lower third of arm, terminal - with muscular branches on one side and cutaneous branches on the other, each cutaneous branch carrying its skin territory
 Purpose: The answer is a grouped list and students reproduce it ungrouped, which is where the marks go. A chart that is itself grouped by level is the revision artefact the mark scheme rewards.
 Priority: required
@@ -1682,7 +1682,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-GYN-T06-S01-M01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E | CON-MSK-8AA227FAC19B41
 ## related_articles
 ART-101-ANA-PECTORALIS-MAJOR: Pectoralis major and minor are the anterior wall of the axilla, and pectoralis minor is what the surgical levels of the nodes are numbered against.
 ART-101-ANA-RADIAL-NERVE: The other nerve of the posterior cord, and the other lesion this faculty asks by its deformity.
@@ -1830,7 +1830,7 @@ questionIds: The questions that test this article are authored in the same pass 
 ## id
 ART-101-ANA-DEEP-FASCIA
 ## title
-Deep fascia
+Fascia: superficial and deep
 ## subject
 msk
 ## status
@@ -1864,16 +1864,16 @@ Year 1
 ## primary_node_id
 DIS-ANA-T01
 ## related_concepts
-CON-MSK-6CD9FFF51AE9CD
+CON-MSK-6CD9FFF51AE9CD | CON-MSK-2145D2D62EC401
 ## related_articles
 ART-101-ANA-MUSCLE-ATTACHMENTS: Deep fascia gives attachment to muscles and forms the intermuscular septa and interosseous membranes they arise from, which is one of the four ways a muscle is anchored.
 ART-101-ANA-AXILLA-BREAST: The clavipectoral fascia is a named sheet of deep fascia with four structures piercing it, and it is the worked example of the first item on this list.
 ## aliases
-Fascia | Superficial and deep fascia | Fascia profunda | Functions of deep fascia
+Fascia | Superficial and deep fascia | Fascia profunda | Functions of deep fascia | Superficial fascia | Fascia superficialis
 ## reading_time
 8
 ## summary
-Deep fascia has no function of its own. It has five functions because it makes five things — broad sheets, septa and interosseous membranes, retinacula, the palmar and plantar aponeuroses, and sheaths round big vessels — and the exam question is the list of those five with what each achieves. The trap is the layer above it: superficial fascia has its own six-item list, and answering with insulation and body contour answers the wrong question.
+One leaf, two layers, two closed lists. Superficial fascia is loose and fatty and has six functions of its own. Deep fascia has no function of its own. It has five functions because it makes five things — broad sheets, septa and interosseous membranes, retinacula, the palmar and plantar aponeuroses, and sheaths round big vessels — and the exam question is the list of those five with what each achieves. The trap is the layer above it: superficial fascia has its own six-item list, and answering with insulation and body contour answers the wrong question.
 ## sections
 ### Definition
 Fascia is a collection of connective tissue under the skin covering the body wall and the limbs. It is of three kinds: superficial, deep and internal.
@@ -1993,6 +1993,8 @@ reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence fo
 sections.Mechanism: The argument that each of the five products is one inelastic membrane anchored differently is this article's own organising claim, written to make a five-item list derivable rather than memorised. The five items and their stated effects are the sources'; the connective reasoning between them is not, and neither source offers a mechanism.
 sections.Common misconceptions: The link drawn between the absence of deep fascia in the face and the insertion of facial muscles into skin is reasoning across two chapters of the same book — the fascia chapter states the absence, the muscular chapter states the skin insertion — and neither states the connection.
 ## notes
+Retitled from "Deep fascia" once the leaf was found to carry a superficial-fascia concept as well. The article already taught both layers in full — the department book defines them in one sentence and the Kasr past-question summary asks them as a comparison — so the title was made to match what the article does, rather than a second article being written for a layer this one already covers.
+
 The examinable core of this leaf is two closed lists that a student can reproduce onto the wrong layer. The article is built around that failure: the two lists are given in full in Key determinants, and the misconception section names the confusion outright rather than trusting the reader to notice it.
 
 ---
@@ -2419,13 +2421,13 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03 | SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-8533FCB18D819B | CON-MSK-04D3ACA71DC025
+CON-MSK-8533FCB18D819B | CON-MSK-04D3ACA71DC025 | CON-MSK-82C4250560D1A1 | CON-MSK-1CA86BE843A07C
 ## related_articles
 ART-101-ANA-AXILLARY-NERVE: The axillary nerve is what the quadrangular space transmits, and the space is the reason a dislocated shoulder injures that nerve and no other.
 ART-101-ANA-RADIAL-NERVE: The radial nerve leaves the axilla through the lower triangular space, which is where its course as taught in the arm begins.
 ART-101-ANA-AXILLA-BREAST: Serratus anterior forms the medial wall of the axilla, and the long thoracic nerve that supplies it runs on that wall — which is where a radical mastectomy can reach it.
 ## aliases
-Quadrangular space | Triangular interval | Upper and lower triangular spaces | Abduction beyond 90 degrees | Scapular rotation
+Quadrangular space | Triangular interval | Upper and lower triangular spaces | Abduction beyond 90 degrees | Scapular rotation | Deltoid | Movements of the shoulder girdle
 ## reading_time
 11
 ## summary
@@ -2460,11 +2462,19 @@ The upper triangular space, medially. Above: teres minor from behind and subscap
 
 The lower triangular space, the triangular interval, lying just lateral to the long head of triceps and separated from the quadrangular space by teres major. Above: teres major. Medially: the long head of triceps. Laterally: the lateral head of triceps and the shaft of the humerus. Contents: the radial nerve and the profunda brachii vessels.
 
-The muscles of abduction, by range. Supraspinatus initiates abduction, from zero to fifteen degrees; it arises from the medial two-thirds of the supraspinous fossa, inserts into the highest impression on the greater tuberosity, and is supplied by the suprascapular nerve. The middle or acromial fibres of deltoid carry it from fifteen to ninety degrees; deltoid arises by a V-shaped origin from the anterior border of the lateral third of the clavicle, the lateral border of the acromion and the lower lip of the crest of the spine of the scapula, inserts into the deltoid tuberosity, and is supplied by the axillary nerve. From ninety to a hundred and eighty degrees the scapula rotates.
+The muscles of abduction, by range. Supraspinatus initiates abduction, from zero to fifteen degrees; it arises from the medial two-thirds of the supraspinous fossa, inserts into the highest impression on the greater tuberosity, and is supplied by the suprascapular nerve. The middle or acromial fibres of deltoid carry it from fifteen to ninety degrees. From ninety to a hundred and eighty degrees the scapula rotates.
+
+Deltoid is asked in its own right and is worth setting out in full, because its three sets of fibres have three different actions and only one of them abducts. It is a thick triangular muscle and it forms the rounded contour of the shoulder. Its origin is V-shaped and has three parts: the anterior border of the lateral third of the clavicle, giving the anterior fibres; the lateral border of the acromion, giving the middle fibres; and the lower lip of the crest of the spine of the scapula, giving the posterior fibres. It inserts into the deltoid tuberosity, at the middle of the lateral surface of the shaft of the humerus. It is supplied by the circumflex, or axillary, nerve.
+
+Its actions divide by fibre group. The anterior fibres flex and medially rotate the arm. The posterior fibres extend and laterally rotate the arm. The middle fibres abduct the arm, through the middle range of abduction, from fifteen to ninety degrees. The anterior and posterior groups therefore oppose each other in both flexion-extension and rotation, and the muscle as a whole abducts only because its middle third does.
 
 The two rotators, with the attachments and nerve supply the question asks for.
 
 Trapezius arises from the external occipital protuberance and the medial third of the superior nuchal line, from the ligamentum nuchae and the spine of C7, and from the spines of all the thoracic vertebrae and their supraspinous ligaments. It has a U-shaped insertion: upper fibres into the posterior border of the lateral third of the clavicle, middle fibres into the medial border of the acromion and the upper lip of the crest of the spine of the scapula, lower fibres into a rough tubercle on the crest of the spine near its root. It is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4. Its upper fibres elevate the shoulder girdle, its middle fibres retract the scapula, and its upper and lower fibres together rotate the scapula so the glenoid cavity faces upward.
+
+Upward rotation is one of six movements of the shoulder girdle, and the examiner can ask for all six with the muscles producing each. They occur at the two shoulder girdle joints, the acromio-clavicular and the sterno-clavicular. Elevation is by the upper fibres of trapezius with levator scapulae. Depression is by pectoralis minor with the lower fibres of trapezius, subclavius steadying the clavicle and preventing excessive movement of the girdle. Protraction is by serratus anterior, the main and powerful protractor, assisted by pectoralis minor. Retraction is by the middle fibres of trapezius with rhomboideus major and minor. Upward rotation, so the glenoid cavity faces upwards, is by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior — the movement this article is about. Downward rotation, so the glenoid faces downwards, is by levator scapulae with the rhomboids.
+
+The two rotations are not one movement with a direction. They have different muscles, and only the upward one carries abduction past ninety degrees.
 
 Serratus anterior arises by eight digitations from the outer surfaces of the upper eight ribs, midway between their angles and their costal cartilages, the first digitation being the largest and arising from the first and second ribs. It inserts into the ventral surface of the medial border of the scapula: the first digitation into the superior angle, the second and third fanning out along the whole length of the medial border, and the lower five converging into the inferior angle. It is supplied by the nerve to serratus anterior, the long thoracic nerve, the nerve of Bell, from the roots of the brachial plexus, C5, C6 and C7, which descends vertically on the outer surface of the muscle in the mid-axillary line. It is the main and powerful protractor of the shoulder; its lower five digitations, acting with the upper and lower fibres of trapezius, rotate the scapula so the glenoid cavity looks upwards; it fixes the scapula to the chest wall; and with the scapula fixed it pulls on the ribs in forced inspiration.
 
@@ -2498,6 +2508,13 @@ Scapular rotation is by the upper and lower fibres of trapezius with the lower f
 Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4; serratus anterior by the long thoracic nerve, C5, C6 and C7.
 Serratus anterior is the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
 Every ten degrees of shoulder abduction adds five degrees of upward rotation of the scapula, up to ninety degrees.
+Deltoid has a V-shaped origin from the lateral third of the clavicle, the lateral border of the acromion and the lower lip of the crest of the scapular spine, and inserts into the deltoid tuberosity.
+Deltoid is supplied by the circumflex (axillary) nerve, and forms the rounded contour of the shoulder.
+Deltoid's anterior fibres flex and medially rotate the arm, its posterior fibres extend and laterally rotate it, and only its middle fibres abduct.
+The shoulder girdle moves at the acromio-clavicular and sterno-clavicular joints, with six movements: elevation, depression, protraction, retraction, upward rotation and downward rotation.
+Elevation is by upper trapezius and levator scapulae; depression by pectoralis minor and lower trapezius, with subclavius steadying the clavicle.
+Protraction is by serratus anterior with pectoralis minor; retraction by middle trapezius with the rhomboids.
+Upward rotation is by upper and lower trapezius with serratus anterior; downward rotation by levator scapulae with the rhomboids.
 ## lose_the_mark
 Naming the long head of triceps as a boundary without saying which side. It is medial in the quadrangular space and lateral in the upper triangular space, and the side is the answer.
 Answering deltoid and supraspinatus for abduction beyond ninety degrees. They act up to ninety; past it the answer is trapezius and serratus anterior.
@@ -2507,6 +2524,10 @@ Saying the arm stops at ninety degrees because of the capsule or because deltoid
 Naming trapezius without its nerve supply. The motor supply is the spinal root of the accessory nerve, and C3 and C4 are sensory only.
 Attributing scapular rotation to the whole of serratus anterior. It is the lower five digitations that rotate; the muscle as a whole protracts and fixes.
 Forgetting that teres major, not the long head of triceps, separates the quadrangular space from the lower triangular one.
+Giving abduction as deltoid's action and stopping. The anterior fibres flex and medially rotate, the posterior fibres extend and laterally rotate, and only the middle fibres abduct.
+Giving deltoid one origin. The origin is V-shaped and has three parts, one for each group of fibres, and the question asks for all three.
+Treating rotation of the scapula as one movement. Upward and downward rotation have different muscles, and only upward rotation carries abduction past ninety degrees.
+Giving five movements of the shoulder girdle. There are six, and downward rotation is the one usually dropped.
 ## image_recommendations
 ### anatomy plate · Posterior view of the shoulder region with teres minor, teres major, the long head of triceps and the lateral head of triceps in place and separately tinted, the three spaces outlined and labelled, and the structures passing through each drawn in — circumflex scapular artery in the upper triangular, axillary nerve and posterior circumflex humeral vessels in the quadrangular, radial nerve and profunda brachii in the lower triangular
 Purpose: The three spaces are three windows between the same four muscles, and the answer depends on which side of one muscle each window lies. One plate showing all three at once is the only form in which "medial to the long head" and "lateral to the long head" stop being interchangeable words.
@@ -2526,6 +2547,15 @@ Section: Mechanism
 Source direction: purpose-drawn, following the department book's account of the mechanism of abduction in the Joints chapter, Anatomy pages 270-287
 Rights: newly drawn for this product, or CC-BY
 Notes: Serves concept CON-MSK-04D3ACA71DC025.
+### diagram · Deltoid drawn on the humerus and scapula with its three fibre groups separately tinted from their three origins, and an arrow on each group showing its own action — flexion and medial rotation in front, abduction in the middle, extension and lateral rotation behind
+Purpose: The examinable point is that one muscle does three different things depending on which third of it contracts, and that only the middle third abducts. Colouring the groups and arrowing each action makes the three-part answer a property of the drawing.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Fig. 19 on Anatomy page 170, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-82C4250560D1A1.
 ### diagram · The scapula seen from behind with the force couple drawn on it — upper and lower fibres of trapezius pulling at the acromion and the root of the spine, the lower five digitations of serratus anterior pulling the inferior angle forwards — and the resulting rotation of the glenoid arrowed
 Purpose: Two muscles rotating one bone is a mechanical relation between two lines of pull and a centre of turn. Drawing the two pulls on the bone shows why these two muscles and not others, which the list of attachments alone does not.
 Priority: strongly helpful
@@ -2534,6 +2564,14 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn, following the department book Fig. 23 on Anatomy page 175 and Fig. 13 in the Muscles of the Back chapter
 Rights: newly drawn for this product, or CC-BY
+### comparison table · The six movements of the shoulder girdle in two columns, movement against the muscles producing it, with the two directions of rotation on separate rows
+Purpose: The answer is a six-row correspondence between movements and muscle sets, and the two rotations are the rows students merge. A table with them on separate rows is the shape of the mark scheme.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 163-177 and 270-291, and the VIP Academy Upper Limb revision page 140
+Rights: newly drawn for this product
 ### photograph · A patient pushing against a wall with the medial border and inferior angle of one scapula standing away from the chest wall, shown beside the normal side
 Purpose: Winging is a posture produced by a manoeuvre, and both the manoeuvre and the result have to be seen to be recognised in a clinical examination.
 Priority: strongly helpful
@@ -2557,6 +2595,8 @@ Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Li
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 2 "Muscles of the Back", PDF pages 163-168 — trapezius in full, its accessory nerve supply and its three actions including upward rotation of the scapula.
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the coraco-acromial arch, the mechanism of abduction, the impingement of the greater tuberosity on the coraco-acromial ligament, the ten-to-five ratio, and the relation of the lax inferior capsule to the axillary nerve.
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — long thoracic nerve injury during radical mastectomy and its three consequences.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the six movements of the shoulder girdle with the muscles producing each, and the statement that they occur at the acromio-clavicular and sterno-clavicular joints.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 140, topic "Joints of the shoulder girdle" — the same six movements with the same muscles, and subclavius's role in depression. Extracted to scripts/kasr/extract/notes.json.
 VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 30, topic "Triangles related to latissimus dorsi; rotator cuff; quadrangular and triangular spaces" — the same three spaces with the same boundaries and contents. Extracted to scripts/kasr/extract/notes.json.
 Kasr past-question summary (src_647a13d829db0d2a6584), pages 3 and 17 — "Model answer: muscles producing abduction of the shoulder girdle beyond 90 degrees", giving trapezius and serratus anterior with attachments, nerve supply and action, and "Model answer: anatomical snuff box, carpal tunnel, cubital fossa, intermuscular spaces and axilla", giving the three spaces as a model answer.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, with four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
@@ -2572,4 +2612,4692 @@ sections.Mechanism: The device of sorting the three spaces by which side of the 
 sections.Mechanism: The remark that the axillary and radial nerves are two branches of the same posterior cord that separate at teres major draws together the Axilla chapter and the Shoulder Region chapter of the same book. Neither chapter makes the point.
 sections.Clinical significance: Grouping deltoid paralysis beside the two rotator paralyses for contrast is this article's arrangement; the three statements are separately the book's own.
 ## notes
-Two concepts on one leaf, written as one article because they share the same six muscles and the same figure. A student who has learnt the boundaries of the three spaces has already learnt teres major, teres minor, subscapularis and the two heads of triceps, and the abduction question then adds only trapezius and serratus anterior.
+Four concepts on one leaf, written as one article because they share the same muscles and the same figures. A student who has learnt the boundaries of the three spaces has already learnt teres major, teres minor, subscapularis and the two heads of triceps; the abduction question then adds only trapezius and serratus anterior; and deltoid is both the muscle that bounds nothing and the muscle that carries the middle range, so it belongs beside both.
+
+---
+
+# Item
+## id
+ART-101-ANA-FIBROUS-JOINTS
+## title
+Fibrous joints
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## related_concepts
+CON-MSK-17E2267FB4758F
+## related_articles
+ART-101-ANA-CARTILAGINOUS-JOINTS: The second of the three classes, sharing the same classification and the same axis — what tissue lies between the bones.
+ART-101-ANA-ELBOW-JOINT: The third class, the synovial joint, worked as an example, and the one that has a cavity where these two have tissue.
+## aliases
+Syndesmosis | Gomphosis | Suture | Immobile joints | Fixed joints
+## reading_time
+6
+## summary
+A fibrous joint is the first of the department's three classes of joint and the shortest to learn: bone joined to bone by fibrous tissue, and therefore fixed. There are three types and the examiner marks the named ligament in each — interosseous, periodontal, sutural. Naming the sites without the ligaments answers half the question, because the site is where the joint is and the ligament is what the joint is made of.
+## sections
+### Definition
+A joint is the contact between two bones or more. Joints are classified into three groups, and the axis of the classification is what lies between the bones: fibrous tissue gives a fibrous joint, cartilaginous tissue gives a cartilaginous joint, and a cavity gives a synovial joint.
+
+A fibrous joint is therefore a joint in which the bone surfaces are connected by fibrous tissue. It is fixed, or immobile.
+
+There are three types, and the department book names them in this order: syndesmosis, gomphosis, and sutures.
+
+### Mechanism
+Fibrous tissue is strong in tension and will not stretch. A joint made of it can transmit force between two bones and hold them at a fixed distance, and that is all it can do; there is no cavity to move in and no deformable cushion to move against. Immobility is not an accident of these three joints' shapes but a consequence of their material, which is why the class is defined by the tissue and the immobility follows.
+
+Each of the three types is the same tissue put to a different job, and each carries its own name for the fibrous tissue involved.
+
+A syndesmosis holds two long bones side by side. The department's example is the inferior tibio-fibular joint, where the lower ends of the tibia and the fibula are connected by fibrous tissue called the interosseous ligament. The bones stay a fixed distance apart, which is what a mortise needs.
+
+A gomphosis holds a peg in a socket. The example is the teeth, where the roots are connected to their sockets in the mandible and the maxilla by fibrous tissue called the periodontal ligament. A tooth is anchored rather than articulated.
+
+A suture holds plates edge to edge. The example is the skull, where the bones are connected by a thin layer of fibrous tissue called the sutural ligament. Sutures are obliterated in old age — the ligament is replaced and the two bones become continuous, which is the only one of the three with a stated fate.
+
+### Key determinants
+Three types, each as name, connecting tissue and example. This is the whole answer and the department book gives it in three sentences.
+
+Syndesmosis. Connecting tissue: the interosseous ligament. Example: the inferior tibio-fibular joint, between the lower ends of the tibia and the fibula.
+
+Gomphosis. Connecting tissue: the periodontal ligament. Example: the teeth, the roots held in their sockets in the mandible and the maxilla.
+
+Suture. Connecting tissue: a thin layer of fibrous tissue, the sutural ligament. Example: the bones of the skull. Obliterated in old age.
+
+The class as a whole sits beside two others, and the examiner can ask for all three classes in one question. Cartilaginous joints are primary, united by hyaline cartilage, and secondary, united by white fibrocartilage. A synovial joint is freely mobile, present mostly in the limbs, and formed of a fibrous capsule, articular cartilage, a joint cavity, a synovial membrane, synovial fluid, ligaments and intra-articular structures.
+
+### Clinical significance
+The department book's Articular System chapter carries its clinical material on the synovial joint rather than on this class, and nothing clinical is stated about the fibrous joints themselves. Two facts inside the description nevertheless carry consequences the examiner can reach for.
+
+The obliteration of sutures in old age is an age change stated by the book: a suture is a joint for as long as the skull is growing, and then it stops being one.
+
+The periodontal ligament is the whole of a tooth's attachment. Because the joint is fibrous and immobile, a tooth that moves in its socket has a diseased ligament rather than a mobile joint.
+
+### Common misconceptions
+The three types are not distinguished by their sites. They are distinguished by the named ligament in each — interosseous, periodontal, sutural — and an answer that gives only "leg", "teeth" and "skull" has named where to look rather than what is there.
+
+A fibrous joint is not simply a joint that does not move. Immobility is the consequence of the definition, not the definition: the joint is fibrous because fibrous tissue unites the bones.
+
+A syndesmosis is not the same thing as an interosseous membrane. The department's example of a syndesmosis is the inferior tibio-fibular joint and its interosseous ligament; the interosseous membranes of forearm and leg are described in this book as products of deep fascia, and are not among the three types of fibrous joint.
+
+Not every union in the skull is a suture for life. The book states that sutures are obliterated in old age, and it states it as part of the definition rather than as a clinical aside.
+## hold_these
+A joint is the contact between two bones or more, and joints are classified as fibrous, cartilaginous or synovial by what lies between the bones.
+A fibrous joint is one in which the bone surfaces are connected by fibrous tissue, and it is fixed or immobile.
+There are three types of fibrous joint: syndesmosis, gomphosis and suture.
+Syndesmosis: the bones are connected by the interosseous ligament; the example is the inferior tibio-fibular joint.
+Gomphosis: the roots of the teeth are connected to their sockets in mandible and maxilla by the periodontal ligament.
+Suture: skull bones are connected by a thin sutural ligament, and sutures are obliterated in old age.
+A synovial joint is freely mobile and is formed of fibrous capsule, articular cartilage, joint cavity, synovial membrane, synovial fluid, ligaments and intra-articular structures.
+## lose_the_mark
+Naming the three types without the connecting tissue. Interosseous, periodontal and sutural are the words the mark scheme looks for.
+Giving the example without the type name, or the type name without the example. The question asks for both.
+Adding a fourth type. The list is closed at three, and the extra usually comes from the cartilaginous group.
+Calling the forearm's interosseous membrane a syndesmosis. The book's example is the inferior tibio-fibular joint, and it treats interosseous membranes under deep fascia.
+Omitting the obliteration of sutures in old age. It is stated as part of the definition of the type.
+Defining a fibrous joint as an immobile joint. It is defined by the uniting tissue; immobility is what follows.
+## image_recommendations
+### diagram · The three fibrous joints on one plate, panel per type — the lower ends of tibia and fibula with the interosseous ligament between them, a tooth root in its socket with the periodontal ligament drawn as fibres crossing the space, and two skull plates edge to edge with the sutural ligament between them, each ligament labelled by name
+Purpose: The examinable point is the named ligament in each type, and each is a differently shaped span of the same tissue. Three labelled panels make the ligament the visible subject; a sentence per type makes the site the visible subject, which is the error this article corrects.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Articular System chapter figures on Anatomy pages 122-131, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-17E2267FB4758F.
+### comparison table · The three classes of joint in three columns — uniting structure, mobility, types, examples — with fibrous, cartilaginous and synovial side by side
+Purpose: The class is only meaningful against the other two, and the examiner can ask for the whole classification. One table is the shape of that answer and prevents the drift into the cartilaginous list that produces a fourth fibrous type.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Definition
+Source direction: purpose-drawn from the department book Anatomy pages 122-131
+Rights: newly drawn for this product
+## conflicts
+[clear]
+## evidence_gaps
+The department book gives no clinical statement about any fibrous joint. The Clinical significance section of this article says so, and draws only on consequences of facts stated inside the description.
+The book does not state at what age sutures obliterate, nor by what process. "Obliterated in old age" is the whole of it.
+The book does not state the composition of the fibrous tissue in any of the three types beyond calling it fibrous, and gives no fibre orientation for the periodontal ligament.
+The book does not say whether the syndesmosis at the inferior tibio-fibular joint permits any movement at all; it classes all fibrous joints as fixed or immobile without qualification, which other textbooks do not.
+No independent citation has been attached to any statement in this article, and only the department book covers this class in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, chapter 4 "Articular System", PDF pages 122-131 — the definition of a joint, the three-class classification, the definition of a fibrous joint, the three types with their named ligaments and examples, the obliteration of sutures in old age, and the components of a synovial joint for contrast. Extracted to scripts/kasr/extract/deptbook.json.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Joints" is one of the named basis topics, and the basis short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The argument that immobility follows from the material rather than from the shape is this article's own, written to make the class definition mean something. The book states the tissue and the immobility side by side and does not connect them.
+sections.Clinical significance: The remark that a mobile tooth means a diseased periodontal ligament is general clinical reasoning from the book's own statement that the ligament is the tooth's attachment. It is not in any Kasr source.
+## notes
+Written as a separate article rather than folded into ART-101-ANA-CARTILAGINOUS-JOINTS, which is a focused piece about the second class and does not teach this one — it names the three fibrous types in a single clause of its Definition, as the boundary of its own subject, which is not teaching them. Two short articles on one leaf is the honest arrangement here.
+
+---
+
+# Item
+## id
+ART-101-ANA-IMPLANTATION
+## title
+Implantation and its abnormal sites
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-89FC3BBB3C9BCE
+## related_articles
+ART-101-ANA-FERTILIZATION: Fertilization is where this embryo starts and its last result — cleavage and migration — is what delivers the blastocyst to the site this article is about.
+ART-101-ANA-DECIDUA: The endometrium the blastocyst embeds in becomes the decidua, and its three parts are named from where this conceptus ends up.
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: Placenta praevia is an abnormal site of implantation and also, once the placenta has formed, an anomaly of its position — the same fact reached from two chapters.
+## aliases
+Abnormal implantation | Ectopic pregnancy | Placenta previa | Placenta praevia | Low-lying placenta
+## reading_time
+9
+## summary
+Implantation goes wrong in two ways and the classification turns on one question: is the conceptus still inside the uterine cavity? If it is, the fault is that it is too low — placenta praevia and low-lying placenta. If it is not, it is an ectopic pregnancy, and the department names three sites. Calling placenta praevia ectopic collapses the distinction the classification exists to make.
+## sections
+### Definition
+Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium. It starts on the seventh day and is complete on the eleventh.
+
+The normal site is the endometrium of the upper part of the posterior wall of the uterus, just below the fundus, and less frequently the upper part of the anterior wall. Everything called abnormal is measured against that.
+
+The abnormal sites divide into two groups. Abnormal intrauterine implantation is implantation inside the uterine cavity but in the lower uterine segment, and gives placenta praevia and low-lying placenta. Ectopic pregnancy is implantation outside the uterine cavity altogether, and the department names three sites: tubal, ovarian and omental.
+
+### Mechanism
+Implantation begins with the endometrium already prepared. At the beginning of implantation the endometrium is in the secretory phase of the menstrual cycle, characterised by increased thickness, an increased number and size of endometrial cells, spiral glands filled with secretion, and spiral arteries with increased arterio-venous anastomosis. A blastocyst arriving before that preparation has nothing to embed in.
+
+The blastocyst adheres by its embryonic pole — the part of the trophoblast lying outside the inner cell mass — so the embryo faces the wall it will burrow into.
+
+The trophoblast cells at the embryonic pole then proliferate into a new outer layer that has no cell membranes between its cells: the syncytiotrophoblast. It grows as implantation progresses, and it is the invasive tissue. It forms proteolytic enzyme which erodes the endometrium and creates the implantation cavity. The blastocyst enters that cavity and becomes completely embedded, and the hole it made in the endometrial epithelium is blocked by a fibrin clot; two days later the endometrial epithelium proliferates over the clot and implantation is complete.
+
+Three things happen to the blastocyst itself while this is going on. The trophoblast differentiates into an outer syncytiotrophoblast and an inner cytotrophoblast. The amniotic cavity and the yolk sac form. And the embryoblast becomes the bilaminar embryonic disc, epiblast and hypoblast.
+
+The abnormalities are the same process happening in the wrong place, and the two groups fail for different reasons. In the lower uterine segment the endometrium is thin and the segment stretches and thins further in late pregnancy; a placenta implanted there ends up lying across the way out. Outside the uterus there is no endometrium at all, and the syncytiotrophoblast erodes whatever it finds — which in the uterine tube is a thin muscular wall that cannot accommodate a growing conceptus, so rupture with internal haemorrhage is expected.
+
+### Key determinants
+The classification, in the department book's own two groups.
+
+Abnormal intrauterine implantation. Placenta praevia is implantation in the lower uterine segment with the placenta related to the internal os, and it has three forms: complete or total, where the placenta covers the internal os completely; partial, where it covers it partially; and marginal, where the lower edge lies at the margin of the internal os. Low-lying placenta is implantation in the lower segment where the lower edge lies within two centimetres of the margin of the internal os. The internal os is the upper opening of the cervical canal.
+
+Ectopic pregnancy, implantation outside the uterine cavity. Tubal, in the ampulla, the isthmus or the intramural part of the uterine tube. Ovarian, on the surface of the ovary. Omental, on the surface of the peritoneum.
+
+The department's own timings and figures belong with them. Implantation starts on the seventh day and is completed on the eleventh. The blastocyst is fully embedded by the ninth day and the fibrin clot is covered by the eleventh. The amniotic cavity appears on the eighth day and the yolk sac on the ninth. In tubal ectopic pregnancy, rupture is expected at about the eighth week.
+
+### Clinical significance
+The department book states one consequence directly and it is the one that kills: in tubal ectopic pregnancy, rupture of the tube with internal haemorrhage is expected. The tube is a thin-walled structure invaded by tissue whose job is to erode, and it has no capacity to enlarge.
+
+Placenta praevia is dangerous for the opposite reason: nothing ruptures, but the placenta is in the way. A placenta related to the internal os lies between the fetus and the cervical canal, and the lower uterine segment stretches as term approaches.
+
+The distinction between the two groups is therefore a distinction between two clinical problems, not a taxonomic nicety. One is a surgical emergency of bleeding into the abdomen; the other is a problem of position discovered before delivery and managed by the route of delivery.
+
+### Common misconceptions
+Placenta praevia is not an ectopic pregnancy. It is inside the uterus; what is abnormal is how low. Grouping it with the ectopics loses the whole point of the two-group classification.
+
+The three forms of placenta praevia are graded by how much of the internal os the placenta covers — completely, partially, or only reaching its margin — and a low-lying placenta covers none of it, its edge lying within two centimetres. Four positions, one measurement.
+
+The syncytiotrophoblast is not a membrane the blastocyst pushes through the endometrium. It is a layer of trophoblast without cell membranes, formed at the embryonic pole during implantation, and it digests its way in with proteolytic enzyme.
+
+Implantation is not a single event on a single day. It starts on the seventh day and is completed on the eleventh, and both dates are examinable.
+
+The endometrium is not passive. It is in the secretory phase and prepared before the blastocyst arrives, and the four features of that phase are stated by the book as part of the account of implantation.
+## hold_these
+Implantation is the embedding of the blastocyst in the superficial layers of the endometrium; it starts on the 7th day and is complete on the 11th.
+The normal site is the upper part of the posterior wall of the uterus just below the fundus, less often the upper anterior wall.
+The endometrium at implantation is in the secretory phase — thickened, with more and larger cells, spiral glands full of secretion, and spiral arteries with arterio-venous anastomosis.
+The blastocyst adheres by its embryonic pole, and the syncytiotrophoblast forms there and secretes proteolytic enzyme that erodes the endometrium.
+The penetration site is sealed by a fibrin clot, which the endometrial epithelium grows over two days later.
+Abnormal implantation is either intrauterine in the lower segment, or ectopic outside the uterine cavity.
+Placenta praevia has three forms — complete or total, partial and marginal — graded by how much of the internal os the placenta covers.
+A low-lying placenta has its lower edge within 2 cm of the margin of the internal os.
+Ectopic sites are tubal — ampulla, isthmus or intramural part — ovarian, and omental.
+Tubal ectopic pregnancy is expected to rupture, with severe internal haemorrhage.
+## lose_the_mark
+Listing placenta praevia among the ectopic pregnancies. It is intrauterine; the fault is that it is low, not that it is outside.
+Giving ectopic sites without subdividing the tubal one. The book names ampulla, isthmus and intramural part.
+Naming placenta praevia without its three forms. Complete or total, partial and marginal are graded by how much of the internal os is covered.
+Confusing low-lying placenta with marginal praevia. Marginal reaches the margin of the os; low-lying stops within two centimetres of it.
+Giving one date for implantation. It starts on the 7th day and is completed on the 11th.
+Saying the blastocyst implants by its abembryonic pole. It adheres by the embryonic pole, which is why the embryo faces the uterine wall.
+Omitting the secretory phase of the endometrium. The four features of the prepared endometrium are part of the answer to how implantation happens.
+## image_recommendations
+### diagram · Coronal section of the uterus with four placental positions drawn on one outline — normal fundal implantation, complete praevia covering the internal os, partial praevia, marginal praevia, and a low-lying placenta with its edge two centimetres short — with the internal os marked and the two-centimetre distance shown
+Purpose: The four abnormal intrauterine positions differ only by how far the placental edge is from one landmark. One outline carrying all of them turns four definitions into one measurement read off a scale, which is what the examiner is actually testing.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn for this product, following the department book's account in the Second Week chapter, Anatomy pages 72-79
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-89FC3BBB3C9BCE.
+### diagram · Uterus and both tubes with the ectopic sites marked and labelled — ampullary, isthmic and intramural in the tube, ovarian on the ovary surface, omental on the peritoneum — beside the normal fundal site, so inside and outside the cavity are visibly two different classes
+Purpose: The classification's whole logic is inside the cavity against outside it, and that is a spatial fact. One figure showing all the sites at once makes the boundary the eye's first impression rather than a sentence's claim.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · Four-panel sequence of implantation on days 7, 9 and 11 through the endometrium — adhesion by the embryonic pole, syncytiotrophoblast eroding the implantation cavity, blastocyst embedded with a fibrin clot at the entry point, and the epithelium grown over the clot — with the secretory-phase endometrium drawn in each panel
+Purpose: Implantation is a dated process with a start and an end, and the two dates are examinable. A sequence carries the dates on the images and shows the fibrin clot, which is the detail a student meets once as a phrase and cannot place.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Second Week chapter figures, Anatomy pages 72-79
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which chapter this material belongs to. Concept CON-DEV-89FC3BBB3C9BCE is placed on the First Week of Development leaf, and the exam paper asked it there. The department book teaches implantation and its abnormal sites in the Second Week of Development chapter, PDF pages 72-79, because implantation begins on the seventh day and ends on the eleventh. This article carries the concept's placement, which is where a student will look for it, and its evidence basis names the chapter the material actually comes from.
+Grading vocabulary for placenta praevia. The department book, the VIP Academy embryology revision and the Kasr past-question summary all give complete or total, partial and marginal. Concept CON-DEV-723B31B1B9ED2E, drafted from a different exam paper, grades it as parietalis, marginalis and centralis. This article uses the sources' vocabulary and the disagreement is recorded in full on ART-101-ANA-CHORIONIC-VILLI-PLACENTA, where the competing grading is taught.
+## evidence_gaps
+No Kasr source states an incidence for ectopic pregnancy, for placenta praevia, or for any of their subtypes.
+No Kasr source gives the presentation, diagnosis or management of either abnormality. Rupture of a tubal pregnancy with internal haemorrhage is stated as expected, and nothing is said about what is done about it.
+No Kasr source explains why implantation in the lower uterine segment happens, nor what predisposes to an ectopic pregnancy.
+The account in Mechanism of why the lower uterine segment and the uterine tube are each a bad site — thin endometrium and a stretching segment in one, a thin muscular wall in the other — is reasoning from stated facts and is named in field_notes. Neither source gives it.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 3 "Second Week of Development", PDF pages 72-79 — the definition and mechanism of implantation, the secretory endometrium, the syncytiotrophoblast and its proteolytic enzyme, the fibrin clot, the changes in the blastocyst, the day-by-day timetable, and the classification of abnormal sites of implantation. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 14, topic "Implantation and its abnormal sites" — the same definition, the normal site, the same mechanism with dates, and the same two groups of abnormal site with the three grades of praevia, the two-centimetre definition of a low-lying placenta and the eighth-week tubal rupture. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: abnormal sites of implantation" — the model answer to a past paper on this exact classification.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-89FC3BBB3C9BCE carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The final paragraph, explaining why each abnormal site fails, is reasoning built from facts the sources state separately — that the lower segment is where praevia sits, that the tube is expected to rupture, and that the syncytiotrophoblast erodes. No Kasr source argues it.
+sections.Clinical significance: The contrast drawn between the two groups as two different kinds of clinical problem is this article's own framing. The book states the tubal rupture; it says nothing about how either is managed, which is recorded in evidence_gaps.
+## notes
+Placed on the First Week leaf because that is where the concept and the paper put it, while the material comes from the book's Second Week chapter. Both facts are recorded in conflicts so nobody later reads the mismatch as an extraction error.
+
+---
+
+# Item
+## id
+ART-101-ANA-UMBILICAL-CORD
+## title
+The umbilical cord
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## primary_node_id
+DIS-EMB-T02
+## related_concepts
+CON-DEV-3E918A4C74B56D
+## related_articles
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: Two of the cord anomalies — battledore and velamentous — are also anomalies of the placenta, and the department book lists them under both.
+ART-101-ANA-EMBRYONIC-FOLDING: The primitive umbilical ring is made by the folding of the embryonic disc, and the cord is what the amnion wraps round its contents.
+## aliases
+Umbilical cord | Anomalies of the umbilical cord | Omphalocele | Wharton's jelly | True knot
+## reading_time
+9
+## summary
+The cord is a short list of contents wrapped in one jelly, and its anomalies are that list going wrong item by item: the cord too short, the cord too long, the wrong thing inside it, one artery instead of two, and the wrong end attached to the placenta. Five anomalies, each with a stated consequence. The trap is the false knot, which is not an anomaly at all — the book says it causes no fetal stress.
+## sections
+### Definition
+The umbilical cord connects the fetus with the placenta. It extends between the fetal surface of the placenta and the ventral aspect of the fetal abdominal wall.
+
+It is fifty to sixty centimetres long and two centimetres in diameter, and it is tortuous rather than straight because of the wavy course of the umbilical arteries within it. Where one of those waves takes a wider curve than usual, the cord shows a false knot, and the department book states that a false knot causes no fetal stress.
+
+The cord contains two umbilical arteries and one umbilical vein, embedded in Wharton's jelly and ensheathed with amnion. It transmits fetal blood between fetus and placenta, and it allows the fetus free mobility.
+
+The congenital anomalies of the cord are five, and the department book names them as a closed list.
+
+### Mechanism
+The cord is built in three stages, and every anomaly is a fault in one of them.
+
+The primitive umbilical ring forms during the fourth week. As the amniotic cavity expands it folds the embryonic disc and shifts the amnio-ectodermal junction ventrally, and the ring is what the folded ventral surface leaves open. Its contents are the allantois and the umbilical vessels inside the connecting stalk, and the vitelline duct with the vitelline vessels.
+
+The primitive umbilical cord forms when the amnion ensheathes the structures passing through the ring. Its contents are the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and — from the sixth week — the herniated intestinal loops, the physiological umbilical hernia.
+
+The definitive umbilical cord forms when the intestinal loop returns to the abdominal cavity by the third month. One umbilical vein and the extra-embryonic part of the vitelline vessels obliterate; the vitelline duct, the secondary yolk sac and the extra-embryonic part of the allantois degenerate; and Wharton's jelly forms from the mesoderm of the connecting stalk.
+
+Read the anomalies against that. Omphalocele is the third stage failing: the intestine did not come back, so the proximal cord contains intestinal loops. A single umbilical artery is the third stage over-running: one of the two arteries degenerated where only one vein should have. The abnormal attachments — battledore and velamentous — are faults in where the cord meets the placenta rather than in the cord itself. And the two length anomalies are faults of amount, one in each direction, each with a mechanical consequence.
+
+A short cord tethers the fetus. It limits fetal movement, and at delivery, when the fetus descends and the cord cannot pay out, it pulls on the placenta and can separate it prematurely.
+
+A long cord gives the fetus enough slack to get into trouble with it. It may encircle the fetal neck, or it may form a true knot, and the book calls both serious and life-threatening. That is what distinguishes a true knot from a false one: a true knot is the cord tied on itself, and it needs length to happen.
+
+### Key determinants
+The five anomalies, each with the consequence the book states. This is the answer.
+
+Short cord. Limits fetal movement, and causes premature separation of the placenta during delivery.
+
+Long cord. May encircle the fetal neck, or form a true knot. Both are serious, life-threatening conditions.
+
+Congenital umbilical hernia, omphalocele. The proximal part of the cord contains loops of intestine, because the intestine failed to return to the abdominal cavity.
+
+Presence of one umbilical artery, from degeneration of the other.
+
+Abnormal attachment to the placenta. Battledore, where the cord is attached at the margin of the placenta; velamentous, where the cord is attached through the amniotic membrane so the vessels run in the membranes before they reach the placenta. The book adds, under the cord, a form ending outside the placenta with the vessels running through the amnion.
+
+The normal cord, against which each of those is measured: length 50 to 60 centimetres, diameter 2 centimetres, two umbilical arteries and one umbilical vein in Wharton's jelly under amnion, tortuous because of the wavy umbilical arteries. Intestinal loops herniate into it in the sixth week and return by the third month.
+
+### Clinical significance
+Three of the five carry a stated danger and the book grades them.
+
+A long cord that encircles the fetal neck or forms a true knot is the one the department book calls life-threatening outright.
+
+A short cord's danger is at delivery, and it is to the placenta rather than to the cord: premature separation.
+
+Omphalocele is a defect the newborn is delivered with, the intestine lying in the proximal cord instead of in the abdomen. It is the failure of the physiological umbilical hernia to reduce, and the physiological hernia is normal — the sixth week to the third month — which is why the diagnosis is about timing.
+
+The two abnormal attachments matter because the umbilical vessels are only protected where Wharton's jelly surrounds them. In a velamentous attachment they run through the amniotic membrane before they reach the placenta, without that protection.
+
+### Common misconceptions
+A false knot is not an anomaly. It is a wider curve of an umbilical artery within a tortuous cord, and the department book says it causes no fetal stress. The true knot, which needs a long cord, is the one that matters, and answering with the false knot spends a mark on a normal finding.
+
+A short cord does not damage itself. Its stated consequence is on the placenta: premature separation during delivery.
+
+Omphalocele is not a hernia through the umbilicus in the ordinary sense. It is intestine that never left the cord, and the herniation into the cord was normal at six weeks.
+
+Two arteries and one vein, not the reverse. The anomaly is one artery, from degeneration of the other; the single vein is normal, and it is normal because the right umbilical vein obliterates while the cord is being made.
+
+Battledore and velamentous appear twice in this syllabus, once as cord anomalies and once as placental anomalies of cord attachment. They are the same two facts and the examiner may ask them from either side.
+## hold_these
+The umbilical cord runs between the fetal surface of the placenta and the ventral abdominal wall of the fetus; it is 50 to 60 cm long and 2 cm in diameter.
+It contains two umbilical arteries and one umbilical vein embedded in Wharton's jelly and ensheathed by amnion.
+The cord is tortuous because of the wavy course of the umbilical arteries, and a wider curve is a false knot, which causes no fetal stress.
+A short cord limits fetal movement and can separate the placenta prematurely during delivery.
+A long cord may encircle the fetal neck or form a true knot; both are life-threatening.
+Omphalocele is failure of the intestine to return to the abdominal cavity, so the proximal cord contains intestinal loops.
+One umbilical artery instead of two, from degeneration of the other, is a named anomaly.
+Battledore attachment is at the margin of the placenta; velamentous attachment is through the amniotic membrane.
+The intestinal loops herniate into the cord in the 6th week and return by the 3rd month — the physiological umbilical hernia.
+Wharton's jelly forms from the mesoderm of the connecting stalk when the definitive cord forms.
+## lose_the_mark
+Listing the false knot as an anomaly. The book says it causes no fetal stress; the true knot, in a long cord, is the one that matters.
+Giving the anomalies without their consequences. The question asks what each one does, and every item on the list has a stated result.
+Saying a short cord strangles the fetus. Its stated consequence is premature separation of the placenta at delivery.
+Giving two veins and one artery. The cord has two arteries and one vein.
+Describing omphalocele as a hernia acquired after birth. It is intestine that failed to return by the third month.
+Naming battledore and velamentous without saying which is which. Battledore is at the margin; velamentous is through the membranes.
+Omitting Wharton's jelly from the contents. It is what the vessels are embedded in and it is examinable.
+## image_recommendations
+### diagram · The five cord anomalies as a labelled set on one plate — a short cord tethering the fetus, a long cord round the neck and a long cord with a true knot, an omphalocele with intestinal loops in the proximal cord, a cord with a single artery in cross-section beside a normal two-artery section, and battledore and velamentous attachments drawn on a placental disc
+Purpose: The answer is a five-item list of shapes, and two of the items — true knot and single artery — are told apart from normal findings only by looking. One plate that puts each anomaly beside its normal counterpart makes the list countable and the false-knot trap visible.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Figure 6.12 on Anatomy page 104, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-3E918A4C74B56D.
+### diagram · Transverse section of a normal cord at full term, showing two umbilical arteries and one umbilical vein embedded in Wharton's jelly with the amniotic sheath outside, all four labelled
+Purpose: The contents are a four-item list arranged concentrically, and the arrangement is what makes the count memorable. A student who has seen the section does not write two veins.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book Figure 6.10 on Anatomy page 102
+Rights: newly drawn for this product, or CC-BY
+### diagram · Three stages of cord development side by side — the primitive umbilical ring in the fourth week with its two sets of contents labelled, the primitive cord at six weeks with the intestinal loops herniated into it, and the definitive cord after the third month with the degenerated structures shown greyed out
+Purpose: Every anomaly of the cord is a fault at one of these three stages, and omphalocele in particular is only intelligible once the physiological hernia at stage two is seen as normal. Three panels make the normal sequence available to argue from.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figure 6.11 on Anatomy page 103
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which umbilical vein obliterates. The department book states that "one umbilical vein" obliterates as the definitive cord forms, without saying which. The VIP Academy embryology revision names it as the right umbilical vein. The book's wording is used in the body and the revision's identification is recorded here, because the sentence in Common misconceptions depends on it.
+## evidence_gaps
+No Kasr source states the incidence of any cord anomaly, nor how any of them is detected before birth or managed after it.
+No Kasr source states what a single umbilical artery is associated with, only that it results from degeneration of the other artery.
+No Kasr source gives a length below which a cord counts as short or above which it counts as long. Short and long are stated as categories without a figure, and none is invented here.
+No Kasr source describes the composition of Wharton's jelly beyond its origin from the mesoderm of the connecting stalk.
+The reading of the five anomalies as faults of the three developmental stages, in Mechanism, is this article's own organising argument and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 6 "Fetal Membranes", PDF pages 94-105 — the definition, dimensions, contents and functions of the cord, the false knot, the three stages of its development, and the five congenital anomalies with the consequence of each, with Figures 6.10 to 6.12. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 44, topic "Amniotic fluid abnormalities and the umbilical cord" — the same dimensions, contents, three stages and five anomalies, and the identification of the right umbilical vein recorded in conflicts. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 19, "Model answer: amniotic fluid, umbilical cord anomalies and placental abnormalities" — the model answer to a past paper, giving the same five anomalies with the same consequences.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: fetal membranes are within the General Embryology scope, whose short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-3E918A4C74B56D carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The device of reading each anomaly as a fault at one of the three developmental stages is this article's own. The stages and the anomalies are both the department book's, listed in separate places; the book does not connect them.
+sections.Clinical significance: The remark that the umbilical vessels are protected only where Wharton's jelly surrounds them, and are therefore unprotected in a velamentous attachment, is general embryological reasoning from the book's own description of the cord's structure. No Kasr source states it.
+## notes
+Written as its own article rather than folded into ART-101-ANA-CHORIONIC-VILLI-PLACENTA, because the department book teaches the cord as a fetal membrane in its own right with its own development, contents and anomaly list, and the two anomalies the lists share are the only overlap. Both articles state that overlap rather than leaving it to be noticed.
+
+---
+
+# Item
+## id
+ART-101-ANA-CLAVICLE
+## title
+The clavicle and its fracture
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-26E6BC06A6079C
+## related_articles
+ART-101-ANA-STERNOCLAVICULAR-JOINT: The medial end of the clavicle makes that joint, and the coraco-clavicular ligament that suspends the limb is described there with the joints of the shoulder girdle.
+ART-101-ANA-AXILLA-BREAST: The apex of the axilla passes behind the clavicle, which is what puts the axillary vessels and the brachial plexus behind the bone.
+ART-101-ANA-PECTORALIS-MAJOR: The clavicular head of pectoralis major arises from the anterior surface of the medial half of the clavicle.
+## aliases
+Clavicle | Collar bone | Fracture of the clavicle | Coraco-clavicular ligament
+## reading_time
+9
+## summary
+The clavicle is the only horizontal long bone and the only one that ossifies in membrane, and its fracture is asked as a chain of three anatomical facts: it breaks where its curvature reverses, the shoulder drops because the limb hangs from the bone by the coraco-clavicular ligament, and what is at risk lies behind it because the axilla's apex passes there. Learn the suspension and the deformity stops being something to memorise.
+## sections
+### Overview and position
+The clavicle is the anterior bone of the shoulder girdle. It lies horizontally at the root of the neck, subcutaneous along its whole length, extending from the sternum medially to the shoulder laterally.
+
+It is classified as a long bone, but it differs from every other long bone in four ways the sources state together. Its lateral third has no medullary cavity. It is formed by membranous ossification. It is the first long bone to ossify in the embryo. And it is the only long bone that lies horizontally.
+
+Its medial, sternal end is enlarged and prismatic and articulates with the manubrium sterni and the first costal cartilage at the sterno-clavicular joint. Its lateral, acromial end is flattened and articulates with a facet on the medial border of the acromion at the acromio-clavicular joint.
+
+### Structure
+The shaft is S-shaped, and the shape is the whole of the fracture question.
+
+The medial two-thirds are cylindrical and convex forwards. They carry four surfaces: an anterior surface convex forwards, a posterior surface concave backwards, a smooth superior surface and a rough inferior surface.
+
+The lateral third is flattened and convex backwards. It carries two surfaces, a smooth superior and a rough inferior, and two borders: an anterior border concave forwards, carrying the deltoid tubercle, and a posterior border convex backwards.
+
+So the bone reverses its curvature at the junction of the medial two-thirds with the lateral third, and that junction is the point at which its two curves meet.
+
+The rough inferior surface carries the markings. Medially there is a rough impression for the costo-clavicular ligament. Laterally there is the conoid tubercle, which sits exactly at the junction of the medial two-thirds and the lateral third, and the trapezoid line running from it towards the lateral end. Between them, in the middle third, is the subclavius groove for the insertion of subclavius.
+
+The bone can be sided by three features: the medial end is the large one, the medial two-thirds are convex forwards, and the superior surface is smooth.
+
+### Relations
+The clavicle is subcutaneous in front and along its whole length, which is why it is palpable from end to end and why a fracture is usually obvious.
+
+Behind it is the apex of the axilla. The department book gives the apex, the cervico-axillary canal, as the passage connecting the axilla with the root of the neck, bounded in front by the back of the clavicle, behind by the upper border of the scapula and medially by the outer border of the first rib, and transmitting the axillary vessels and nerves. What lies behind the middle of the clavicle is therefore the great vessels and the brachial plexus on their way into the limb.
+
+Below its lower surface, in the middle third, lies subclavius in its groove, and the clavipectoral fascia splits to enclose that muscle and attaches to the margins of the subclavian groove.
+
+Muscles attached to it include the clavicular head of pectoralis major from the anterior surface of the medial half, the anterior fibres of deltoid from the anterior border of the lateral third, and the upper fibres of trapezius into the posterior border of the lateral third.
+
+### Blood supply, innervation and lymphatics
+No Kasr source states the arterial supply, venous drainage, lymph drainage or nerve supply of the clavicle itself. That is a genuine silence in the corpus rather than an omission here, and it is recorded in `evidence_gaps`.
+
+What the sources do give is the skin over it: the supraclavicular nerves, C3 and C4 — medial, intermediate and lateral — are branches of the cervical plexus and supply the skin between the clavicle and the second rib, including the skin over the upper half of the deltoid. That is the sensory territory a patient with a broken clavicle points to.
+
+### Development
+The clavicle is formed by membranous ossification, and it is the first long bone in the embryo to ossify. Both facts are given by the source as the ways in which this long bone is not like the others, and they belong together: a bone that ossifies in membrane has no cartilaginous model to grow through, which is consistent with its lateral third having no medullary cavity.
+
+No Kasr source gives the ossification centres of the clavicle, their dates, or the age at which its epiphysis fuses. Those are not stated and are not supplied here.
+
+### Surface and imaging anatomy
+The clavicle is subcutaneous along its whole length, so it is its own surface marking: the bone can be followed by the finger from the sternal end to the acromion, and the junction of the medial two-thirds with the lateral third — the fracture site — is found at the point where the finger crosses from a forward convexity to a backward one.
+
+The conoid tubercle lies on the under-surface at that same junction, and the deltoid tubercle on the anterior border of the lateral third.
+
+No Kasr source gives a radiographic description of the clavicle or of its fracture.
+
+### Clinical correlations
+The department book carries one statement about the clavicle and it is the one the case turns on: if the clavicle is fractured medial to the attachment of the coraco-clavicular ligament, the upper limb drops.
+
+That sentence has to be read with the ligament's own description. The coraco-clavicular ligament is a very strong bond connecting the clavicle to the coracoid process, in two incompletely separated parts — a quadrilateral trapezoid part running from the upper surface of the coracoid process to the trapezoid line on the lower surface of the lateral third of the clavicle, and a conoid part, a dense band from the bend of the coracoid process to the conoid tubercle. The book states three functions for it: it limits the movements of the acromio-clavicular joint, it prevents dislocation of the acromial end of the clavicle, and it is the main medium by which the scapula and the upper limb are suspended from the clavicle.
+
+That last function is the answer to why the shoulder drops. The whole upper limb hangs from the lateral third of the clavicle through this ligament. A break medial to the ligament's attachment leaves the lateral fragment still carrying the limb but no longer connected to the trunk, so the weight of the arm pulls the shoulder down. The deformity is a mechanical consequence of a suspension, not a muscle spasm.
+
+What is at risk behind the bone follows from the relations. The axillary vessels and the nerves of the brachial plexus pass behind the clavicle through the cervico-axillary canal, so a fracture at the middle of the bone has them immediately deep to it.
+
+### Variations and anomalies
+No Kasr source describes any variation or congenital anomaly of the clavicle.
+## hold_these
+The clavicle is the anterior bone of the shoulder girdle, horizontal at the root of the neck and subcutaneous throughout.
+It is a long bone that differs in four ways: its lateral third has no medullary cavity, it ossifies in membrane, it is the first long bone to ossify, and it is the only horizontal long bone.
+The medial two-thirds are cylindrical and convex forwards; the lateral third is flattened and convex backwards.
+The curvature reverses at the junction of the medial two-thirds and the lateral third, where the conoid tubercle lies.
+The rough inferior surface carries the impression for the costo-clavicular ligament medially, the conoid tubercle and trapezoid line laterally, and the subclavius groove between.
+The coraco-clavicular ligament has a trapezoid and a conoid part and is the main medium by which the scapula and upper limb are suspended from the clavicle.
+If the clavicle is fractured medial to the attachment of the coraco-clavicular ligament, the upper limb drops.
+The apex of the axilla, the cervico-axillary canal, passes behind the clavicle carrying the axillary vessels and nerves.
+The skin over the clavicle and the upper half of deltoid is supplied by the supraclavicular nerves, C3 and C4.
+The bone is sided by its large medial end, its forward-convex medial two-thirds and its smooth superior surface.
+## lose_the_mark
+Attributing the dropped shoulder to muscle spasm. The limb hangs from the clavicle by the coraco-clavicular ligament, and a break medial to that ligament simply lets the arm's weight pull the shoulder down.
+Naming the coraco-clavicular ligament without its suspending function. Limiting the acromio-clavicular joint and preventing dislocation are its other two functions and neither explains the deformity.
+Saying the clavicle ossifies in cartilage like other long bones. It ossifies in membrane and is the first long bone to ossify.
+Describing the whole shaft as convex forwards. Only the medial two-thirds are; the lateral third is convex backwards, and the reversal is where the bone is asked about.
+Placing the conoid tubercle at the lateral end. It sits at the junction of the medial two-thirds with the lateral third.
+Forgetting what lies behind the bone. The axillary vessels and the brachial plexus pass behind the clavicle through the apex of the axilla.
+Giving the costo-clavicular impression and the conoid tubercle on the superior surface. Both are on the rough inferior surface.
+## image_recommendations
+### diagram · The clavicle from above and from below on one plate, the medial two-thirds tinted for its forward convexity and the lateral third for its backward convexity, with the reversal point arrowed, and the inferior surface labelled with the costo-clavicular impression, the subclavius groove, the conoid tubercle and the trapezoid line
+Purpose: The whole case rests on a change of curvature at a point that also carries a named marking, and both facts live on the shape of the bone. Two views with the two curves separately tinted make the reversal point a place rather than a phrase.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn for this product, following the VIP Academy Upper Limb osteology plate for the clavicle
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-26E6BC06A6079C.
+### diagram · Anterior view of the shoulder girdle with the coraco-clavicular ligament drawn in its two parts between coracoid process and clavicle, the whole upper limb shown hanging from it, and a fracture line drawn medial to the ligament with an arrow showing the lateral fragment and the limb dropping
+Purpose: The deformity is a mechanical consequence of a suspension point, and no sentence makes a suspension obvious. Drawing the load path and then cutting it is the argument itself.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn, following the department book's Joints of Upper Limb chapter account of the coraco-clavicular ligament, Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+### anatomy plate · Parasagittal view through the root of the neck showing the cervico-axillary canal, with the back of the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially, and the axillary vessels and the brachial plexus passing through it
+Purpose: What is endangered by a clavicular fracture is endangered because of where it runs, and that is a relation in three dimensions. Showing the canal makes "behind the clavicle" a specific place with specific contents.
+Priority: strongly helpful
+Status: needed
+Kind: anatomy plate
+Section: Relations
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Axilla chapter, Anatomy pages 178-193
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+## conflicts
+[clear]
+## evidence_gaps
+No Kasr source states the site at which the clavicle most commonly fractures. Concept CON-MSK-26E6BC06A6079C gives the junction of the lateral and middle thirds. The sources give the change of curvature and the position of the conoid tubercle at that junction, and the department book gives the consequence of a fracture medial to the coraco-clavicular ligament, but none of them names a commonest fracture site. The article states the anatomy and does not assert the epidemiology.
+No Kasr source states any treatment for a fractured clavicle. The arm sling named in the concept record is not in the corpus and is not stated here.
+No Kasr source states in so many words that the divisions of the brachial plexus lie behind the clavicle. What the department book gives is the apex of the axilla, bounded in front by the back of the clavicle and transmitting the axillary vessels and nerves. This article states that and reasons no further, which is named in field_notes.
+No Kasr source gives the arterial supply, venous drainage, lymph drainage or nerve supply of the clavicle as a bone.
+No Kasr source gives the ossification centres of the clavicle or their dates, although it names the bone as the first long bone to ossify.
+No Kasr source describes any variation or anomaly of the clavicle, and none is invented.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 6, topic "Clavicle" — the site, the four ways it differs from other long bones, both ends, the S-shaped shaft with its surfaces and borders, the markings of the rough inferior surface, and the features used to side it. Extracted to scripts/kasr/extract/notes.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the coraco-clavicular ligament in its two parts with its three functions, and the statement that a fracture medial to its attachment drops the upper limb. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the apex of the axilla as the cervico-axillary canal, bounded in front by the back of the clavicle and transmitting the axillary vessels and nerves.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 1 "Pectoral Region", PDF pages 153-162 — the supraclavicular nerves and the skin they supply, the clavipectoral fascia's attachment to the margins of the subclavian groove, subclavius, and the clavicular head of pectoralis major.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 17 — the model answer for the axilla, which gives the boundaries and contents of the cervico-axillary canal.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, with four upper-limb short-answer questions at 7 marks each and a clinical case among them. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unsourced fracture site recorded in evidence_gaps is a second reason.
+sections.Structure: The observation that the bone reverses its curvature at the junction of the medial two-thirds with the lateral third, and that the conoid tubercle sits at that same junction, puts together two statements the source makes separately. Neither source says the two coincide.
+sections.Development: The remark that a bone ossifying in membrane has no cartilaginous model, and that this is consistent with the lateral third having no medullary cavity, is general osteological reasoning. The source lists the four differences without connecting them.
+sections.Relations: The inference that the brachial plexus lies immediately behind the middle of the clavicle rests on the department book's description of the cervico-axillary canal. No source states the relation as a relation of the clavicle, and the limit of what is claimed here is the canal's own boundaries and contents.
+sections.Surface and imaging anatomy: The manoeuvre of following the bone with a finger to find where the convexity reverses is general clinical practice, offered as a way of locating a point the sources do describe.
+## notes
+Written from the osteology of the bone outwards to the case, because the case's three parts — where it breaks, why the shoulder drops, what is behind it — are three different chapters of the same corpus. The one thing the sources do not supply is the fracture site itself, which is recorded as a gap rather than asserted.
+
+---
+
+# Item
+## id
+ART-101-ANA-STERNOCLAVICULAR-JOINT
+## title
+The sterno-clavicular joint
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-D5589ECD8F3C27
+## related_articles
+ART-101-ANA-ELBOW-JOINT: The other named synovial joint on this leaf, worked to the same specification — surfaces, type, capsule, ligaments, movements.
+ART-101-ANA-CLAVICLE: The medial end of the clavicle is one of this joint's two articular surfaces, and the costo-clavicular impression on its lower surface is where the joint's strongest ligament attaches.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: The scapular rotation that carries abduction past ninety degrees happens at the two shoulder girdle joints, of which this is the mobile one.
+## aliases
+Sternoclavicular joint | Sterno-clavicular joint | Shoulder girdle joints | Costo-clavicular ligament
+## reading_time
+8
+## summary
+The sterno-clavicular joint is the only joint between the upper limb and the axial skeleton, and it is a joint whose articular surfaces do not fit. The department book calls it stable anyway, and says why: the strength is in four ligaments and an intra-articular disc, not in the shape of the bones. Answering "saddle joint" and stopping loses the word "modified" and the whole of the explanation.
+## sections
+### Definition
+The sterno-clavicular joint is a synovial joint of the modified saddle variety.
+
+Its articular surfaces are, on one side, the clavicular notch of the manubrium sterni together with the first costal cartilage, and on the other, the sternal, or medial, end of the clavicle.
+
+Its capsule surrounds the joint completely. It is thicker in front and behind, and thin above and below.
+
+It has four ligaments — anterior sterno-clavicular, posterior sterno-clavicular, interclavicular and costo-clavicular — and one intra-articular disc, and the department book states that the joint is stable, its strength depending on its ligaments and its intra-articular disc.
+
+### Mechanism
+Two facts have to sit together: the joint is the sole bony link between the upper limb and the axial skeleton, and its surfaces are a poor fit. Everything about its construction follows from having to be both mobile and secure without help from the shape of the bones.
+
+The intra-articular disc is the first answer. It is a flat circular fibrocartilaginous disc attached by its circumference to the fibrous capsule, and it divides the joint cavity into two separate compartments. It does two jobs the book names: it absorbs the forces transmitted from the shoulder region through the clavicle, and it prevents dislocation of the sternal end of the clavicle. A disc between two poorly matched surfaces gives each of them a surface that does fit.
+
+The ligaments are the second answer, and they are arranged where the capsule is thin. The anterior and posterior sterno-clavicular ligaments cover the front and back of the joint, which is also where the capsule is already thickest — the two reinforcements coincide. The interclavicular ligament runs from the upper aspect of the sternal end of one clavicle to the other, across and attached to the upper margin of the manubrium, so the two clavicles hold each other up over the top of the joint, where the capsule is thin.
+
+The costo-clavicular ligament is the strongest and the one with a stated action. It is a short inverted cone attached below to the upper aspect of the first costo-chondral junction and above to the margins of the impression on the lower surface of the medial end of the clavicle. It prevents excessive elevation and protraction of the clavicle. That is a ligament placed below the joint, tethering the clavicle down to the first rib just lateral to the joint, so that the medial end cannot ride up. The department book adds that subclavius performs the same function actively, and calls it a dynamic ligament.
+
+The joint's purpose is movement, and the shoulder girdle's movements are shared between this joint and the acromio-clavicular joint. The book states the division: the scapula moves on the clavicle at the acromio-clavicular joint but movement there is limited, while movement at the sterno-clavicular joint is what increases the range of scapular movement. The two work as a chain, and this end of the chain is the mobile one.
+
+### Key determinants
+The answer, in the order the examiner asks it.
+
+Type. Synovial, of the modified saddle variety.
+
+Articular surfaces. The clavicular notch of the manubrium sterni with the first costal cartilage, articulating with the sternal end of the clavicle.
+
+Capsule. Surrounds the joint completely; thicker in front and behind, thin above and below.
+
+Intra-articular disc. A flat circular fibrocartilaginous disc, attached by its circumference to the fibrous capsule, dividing the cavity into two separate compartments. It absorbs the forces transmitted from the shoulder region through the clavicle and prevents dislocation of the sternal end of the clavicle.
+
+Ligaments, four of them. Anterior sterno-clavicular, covering the anterior surface. Posterior sterno-clavicular, covering the posterior surface. Interclavicular, from the upper aspect of the sternal end of one clavicle to the other, along and attached to the upper margin of the manubrium. Costo-clavicular, from the first costo-chondral junction below to the impression on the lower surface of the medial end of the clavicle above, preventing excessive elevation and protraction of the clavicle — the same function as subclavius, which acts as a dynamic ligament.
+
+Stability. The joint is stable, and its strength depends on its ligaments and its intra-articular disc.
+
+Beside it, the other joint of the shoulder girdle, because the examiner can ask both. The acromio-clavicular joint is a synovial joint of the plane variety, between the acromial end of the clavicle and the medial margin of the acromion. Its capsule is strengthened above by the acromio-clavicular ligament, and it usually contains an articular disc dividing its cavity into two incomplete compartments. It shares a little in the movements of the shoulder girdle and in transmitting force from the upper limb to the clavicle, but the main medium for that transmission is the coraco-clavicular ligament.
+
+The movements of the shoulder girdle, which occur at both joints, and the muscles producing each: elevation by the upper fibres of trapezius and levator scapulae; depression by pectoralis minor and the lower fibres of trapezius; protraction by serratus anterior and pectoralis minor; retraction by the middle fibres of trapezius and the rhomboids; upward rotation by serratus anterior with the upper and lower fibres of trapezius; downward rotation by levator scapulae and the rhomboids.
+
+### Clinical significance
+The department book states the joint's clinical importance as a property rather than as a lesion: it is a stable joint, and its stability comes from its ligaments and its disc. Two consequences follow directly from statements the book does make.
+
+The disc prevents dislocation of the sternal end of the clavicle. A structure named as preventing a dislocation is named because that dislocation is what would otherwise happen at a joint whose surfaces do not interlock.
+
+The costo-clavicular ligament prevents excessive elevation and protraction of the clavicle, and subclavius does the same actively. The clavicle is therefore held down at its medial end by a ligament and by a muscle, and both are stated as doing the same job.
+
+The book's own applied note for this leaf concerns the clavicle rather than either joint: if the clavicle is fractured medial to the attachment of the coraco-clavicular ligament, the upper limb drops. That is taught in ART-101-ANA-CLAVICLE.
+
+### Common misconceptions
+It is a modified saddle joint, not a saddle joint. The department book, the VIP Academy revision and the Kasr past-question summary all use the word "modified", and it is the word that acknowledges the poor fit of the surfaces.
+
+The joint is not stable because the bones fit. It is stable because of its ligaments and its intra-articular disc, and the book says so in that order.
+
+The disc divides this joint's cavity into two separate compartments. The acromio-clavicular joint's disc divides its cavity into two incomplete compartments. The two words are different and both are the book's.
+
+The first costal cartilage is part of an articular surface here, not merely a neighbour. The manubrial side of the joint is the clavicular notch together with the first costal cartilage.
+
+The costo-clavicular ligament does not attach to the joint. It runs from the first costo-chondral junction to the lower surface of the medial end of the clavicle, lateral to the joint, which is exactly why it can act as a tether against elevation.
+## hold_these
+The sterno-clavicular joint is a synovial joint of the modified saddle variety.
+Its articular surfaces are the clavicular notch of the manubrium sterni with the first costal cartilage, and the sternal end of the clavicle.
+Its capsule surrounds the joint completely, thicker in front and behind and thin above and below.
+Its intra-articular disc is flat, circular and fibrocartilaginous, attached by its circumference to the capsule, and divides the cavity into two separate compartments.
+The disc absorbs the forces transmitted from the shoulder region through the clavicle and prevents dislocation of the sternal end of the clavicle.
+The four ligaments are the anterior and posterior sterno-clavicular, the interclavicular and the costo-clavicular.
+The interclavicular ligament runs between the upper aspects of the sternal ends of both clavicles across the upper margin of the manubrium.
+The costo-clavicular ligament runs from the first costo-chondral junction to the impression on the lower surface of the medial end of the clavicle and prevents excessive elevation and protraction.
+Subclavius performs the same function as the costo-clavicular ligament and is called a dynamic ligament.
+The joint is stable, its strength depending on its ligaments and its intra-articular disc.
+Movement at the sterno-clavicular joint is what increases the range of scapular movement; movement at the acromio-clavicular joint is limited.
+## lose_the_mark
+Calling it a saddle joint and stopping. The book calls it a modified saddle joint, and the qualifier is marked.
+Attributing its stability to the fit of the articular surfaces. Its strength depends on its ligaments and its intra-articular disc.
+Giving three ligaments. There are four, and the interclavicular is the one usually dropped.
+Omitting the first costal cartilage from the articular surfaces. The manubrial side is the clavicular notch together with the first costal cartilage.
+Saying the disc divides the cavity into two incomplete compartments. That is the acromio-clavicular joint; here the two compartments are separate.
+Naming the costo-clavicular ligament without its action. Preventing excessive elevation and protraction of the clavicle is what the mark is for.
+Forgetting subclavius as the dynamic equivalent of the costo-clavicular ligament. The book pairs them explicitly.
+## image_recommendations
+### diagram · Coronal section through both sterno-clavicular joints, the near one opened to show the intra-articular disc attached to the capsule and dividing the cavity into two separate compartments, with all four ligaments drawn and labelled — anterior and posterior sterno-clavicular on the capsule, interclavicular arching over the manubrium between the two clavicles, and costo-clavicular running down to the first costo-chondral junction
+Purpose: The answer is a construction whose four ligaments sit in four different planes and whose disc is inside. One section carrying all five structures shows why each is where it is, which four sentences of attachments cannot.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Joints of Upper Limb chapter figures, Anatomy pages 270-291, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-D5589ECD8F3C27.
+### comparison table · The two shoulder girdle joints side by side — articular surfaces, type, capsule, disc, ligaments, share in movement — sterno-clavicular against acromio-clavicular
+Purpose: The two joints are learnt as a pair and are told apart by details that sound alike, including two discs described with two different words. A two-column table is the form in which "separate compartments" and "incomplete compartments" stop being interchangeable.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 270-291 and the VIP Academy Upper Limb revision page 140
+Rights: newly drawn for this product
+### diagram · The shoulder girdle as a chain seen from above — sternum, sterno-clavicular joint, clavicle, acromio-clavicular joint, scapula — with the range of movement at each joint indicated, showing that the medial joint is the mobile one and the lateral joint the limited one
+Purpose: The examinable point about function is a division of labour between two joints in series, which is a fact about the whole girdle rather than about either joint. A single diagram of the chain is where that becomes obvious.
+Priority: optional
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the capsule is described as thin above and below. The department book states the capsule surrounds the joint completely, thicker in front and behind and thin above and below. The VIP Academy Upper Limb revision gives only "thicker in front and behind". The fuller wording is used and the shorter one recorded, because a student revising from the shorter source has not been told the capsule is thin anywhere.
+## evidence_gaps
+No Kasr source states the movements permitted at the sterno-clavicular joint as a named list with ranges. What is given is the movements of the shoulder girdle as a whole, occurring at both joints, and the statement that the sterno-clavicular joint is what increases the range of scapular movement.
+No Kasr source describes dislocation of the sterno-clavicular joint, its causes or its management. The disc is said to prevent dislocation of the sternal end of the clavicle, and nothing follows from that in the corpus.
+No Kasr source gives the blood supply or nerve supply of this joint.
+No Kasr source states the age at which the intra-articular disc appears or any change in it with age.
+The reasoning in Mechanism that the joint is built to compensate for surfaces that do not fit is this article's own, named in field_notes. The sources state the type, the disc and the stability separately.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the sterno-clavicular joint's type, articular surfaces, capsule, intra-articular disc with its two functions, four ligaments with the costo-clavicular ligament's action and its pairing with subclavius, and the statement about its stability; the acromio-clavicular joint and the coraco-clavicular ligament; and the division of shoulder girdle movement between the two joints. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 140, topic "Joints of the shoulder girdle" — the same surfaces, type, capsule, disc and four ligaments, and the muscles producing each movement of the shoulder girdle. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 13, "Model answer: elbow joint, sterno-clavicular joint and supination/pronation" — the model answer to a past paper, giving the articular surfaces, the modified saddle type and the four ligaments with the costo-clavicular ligament's action.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, whose upper-limb short-answer questions carry 7 marks each and name the joints of the upper limb. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Definition: The description of this joint as the only bony link between the upper limb and the axial skeleton is general anatomical knowledge. No Kasr source says it, although every fact used to reach it is theirs.
+sections.Mechanism: The argument that the disc and the ligaments together compensate for articular surfaces that do not interlock is this article's own reading. The sources state the modified saddle type, the disc's two functions and the source of the joint's stability, and do not join them.
+sections.Mechanism: The observation that the interclavicular ligament reinforces the joint where the capsule is thin is reasoning from two of the book's own statements, which the book makes in separate sentences.
+## notes
+Written as a separate article on the Joints of Upper Limb leaf rather than as a section of ART-101-ANA-ELBOW-JOINT, which is a complete and focused piece about a different joint and does not mention this one. The two are peers on one leaf and each teaches the joint it is named for.
+
+---
+
+# Item
+## id
+ART-101-ANA-BRACHIAL-ARTERY
+## title
+The brachial artery
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-798DE81B6EE665
+## related_articles
+ART-101-ANA-RADIAL-NERVE: The radial nerve lies behind the upper part of this artery and leaves it with the profunda brachii, which is the artery's largest branch.
+ART-101-ANA-ELBOW-JOINT: The anastomosis around the elbow is built from this artery's collateral branches above and the recurrent branches of the radial and ulnar arteries below.
+ART-101-ANA-AXILLA-BREAST: The brachial artery is the continuation of the axillary artery, which begins at the outer border of the first rib and ends at the lower border of teres major.
+## aliases
+Brachial artery | Arteria brachialis | Profunda brachii | Anastomosis around the elbow
+## reading_time
+10
+## summary
+The brachial artery is asked to a fixed specification — beginning, course, end, relations and branches — and three of its answers are precise in a way students round off. It begins at the lower border of teres major, not at the axilla in general. It ends one centimetre below the elbow joint at the level of the neck of the radius, not at the joint. And its branches are six groups, of which the profunda brachii is the largest and highest.
+## sections
+### Overview and position
+The brachial artery is the artery of the arm, the continuation of the axillary artery, and it runs the whole length of the arm from armpit to elbow.
+
+It begins at the lower border of teres major. That is the same landmark at which the axillary artery ends, and the two are one continuous vessel with a change of name at a muscle border.
+
+It descends first on the medial side of the shaft of the humerus, then passes to the front of the arm and descends midway between the two epicondyles into the cubital fossa.
+
+It ends one centimetre below the elbow joint, at the level of the neck of the radius, by dividing into its two terminal branches, the radial and the ulnar arteries. The radial is the smaller of the two and the ulnar the larger.
+
+### Structure
+The single most repeated statement about this vessel is that it is superficial throughout its course. It is covered only by skin and by the superficial and deep fasciae, and it is slightly overlapped by coracobrachialis and by the medial edge of biceps. It is accompanied by two venae comitantes.
+
+The branches are given in six groups, and the grouping is the shape of the answer.
+
+The profunda brachii artery, the largest and highest branch. It arises from the posteromedial aspect of the brachial artery just below the lower border of teres major, accompanies the radial nerve backwards between the long and medial heads of triceps through the lower triangular space to the spiral groove, and is covered there by the lateral head of triceps. Its own branches are five: muscular branches to triceps; a small nutrient artery to the humerus, which may be absent; an ascending branch, which anastomoses with the descending branch of the posterior circumflex humeral artery in the cruciate anastomosis on the back of the surgical neck; and two terminal descending branches, the anterior descending or radial collateral, which pierces the lateral intermuscular septum with the radial nerve to reach the front of the lateral epicondyle, and the posterior descending or middle collateral, which reaches the back of the lateral epicondyle.
+
+The superior ulnar collateral artery. It arises about the middle of the arm, opposite the insertion of coracobrachialis, pierces the medial intermuscular septum with the ulnar nerve, and accompanies that nerve to the back of the medial epicondyle.
+
+The inferior ulnar collateral artery. It arises five centimetres above the elbow joint and divides into an anterior branch, which descends to the front of the medial epicondyle, and a posterior branch, which pierces the medial intermuscular septum to reach the back of the medial epicondyle.
+
+The nutrient artery to the humerus, which arises at the middle of the arm and enters the nutrient foramen near the insertion of coracobrachialis.
+
+Muscular branches, to biceps, brachialis and coracobrachialis.
+
+The terminal radial and ulnar arteries.
+
+### Relations
+The relations change at one place, and that place is the middle of the arm, opposite the insertion of coracobrachialis. Four things happen there at once, and the department book lists them together because they are one event in the arm's arrangement.
+
+The median nerve crosses the brachial artery from lateral to medial. Above that point the nerve is lateral to the artery; below it, medial.
+
+The ulnar nerve leaves the artery by piercing the medial intermuscular septum into the posterior compartment, taking the superior ulnar collateral artery with it.
+
+The basilic vein and the medial cutaneous nerve of the forearm leave the artery by piercing the deep fascia to become superficial.
+
+Behind the upper part of the artery lies the radial nerve, which separates it from the long head of triceps before leaving with the profunda brachii into the spiral groove.
+
+In the cubital fossa the artery lies with the tendon of biceps on its lateral side and the median nerve on its medial side, and the bicipital aponeurosis crosses in front of it, separating it from the median cubital vein.
+
+### Blood supply, innervation and lymphatics
+An artery's own supply is its vasa vasorum, and no Kasr source describes the vasa vasorum or the innervation of the brachial artery. That is recorded in `evidence_gaps`.
+
+What the sources give instead, and what is examined, is the anastomosis the artery's branches build around the elbow: a network between the brachial artery above and the radial and ulnar arteries below, described in four groups around the two epicondyles, plus a transverse link.
+
+Behind the medial epicondyle: the superior ulnar collateral and the posterior branch of the inferior ulnar collateral, both from the brachial, meet the posterior ulnar recurrent artery from the ulnar.
+
+In front of the medial epicondyle: the anterior branch of the inferior ulnar collateral, from the brachial, meets the anterior ulnar recurrent artery from the ulnar.
+
+Behind the lateral epicondyle: the posterior descending or middle collateral branch of the profunda brachii meets the posterior interosseous recurrent artery.
+
+In front of the lateral epicondyle: the anterior descending or radial collateral branch of the profunda brachii meets the radial recurrent artery from the radial.
+
+And a transverse anastomosis lies above the olecranon fossa, between the inferior ulnar collateral and the posterior descending branch of the profunda brachii.
+
+The pattern is worth reading rather than memorising: every one of the four groups is a descending branch from above meeting a recurrent branch from below, and the collateral branches are named for the side of the arm they run down.
+
+### Development
+No Kasr source describes the development of the brachial artery or of the arterial pattern of the upper limb, and nothing is invented here.
+
+### Surface and imaging anatomy
+The department book gives the surface marking of the brachial artery as a line. It is a vertical line drawn between a point at the posterior fold of the axilla, where the axillary artery's pulsation is felt, and a point midway between the two epicondyles of the humerus, medial to the biceps tendon.
+
+That lower point is where the artery is palpated and where a blood pressure cuff auscultates it, because the artery is superficial there with only skin and fascia over it and the bicipital aponeurosis separating it from the vein in front.
+
+No Kasr source gives an angiographic or ultrasound appearance of the artery.
+
+### Clinical correlations
+The department book states no lesion of the brachial artery, and that silence is recorded in `evidence_gaps`. Three of its statements nevertheless carry direct clinical weight.
+
+The artery is superficial throughout its course, covered only by skin and fascia. A vessel with nothing over it is a vessel that can be felt, listened to, punctured — and cut.
+
+It runs on the medial side of the shaft of the humerus for the upper part of its course, with only the medial edge of biceps overlapping it, so it can be compressed backwards against the bone along that stretch.
+
+Its collateral branches build a continuous anastomosis around the elbow with the recurrent branches of the two forearm arteries, which is a ready-made bypass around the elbow joint.
+
+### Variations and anomalies
+No Kasr source describes any variation of the brachial artery, its level of division, or a superficial ulnar artery. None is invented here.
+## hold_these
+The brachial artery begins at the lower border of teres major as the continuation of the axillary artery.
+It ends 1 cm below the elbow joint at the level of the neck of the radius, dividing into the radial and ulnar arteries.
+It is superficial throughout its course, covered only by skin and superficial and deep fasciae, slightly overlapped by coracobrachialis and the medial edge of biceps.
+It is accompanied by two venae comitantes.
+Its six groups of branches are the profunda brachii, the superior ulnar collateral, the inferior ulnar collateral, the nutrient artery to the humerus, muscular branches, and the terminal radial and ulnar arteries.
+The profunda brachii is the largest and highest branch, arising from the posteromedial aspect just below teres major and accompanying the radial nerve to the spiral groove.
+At the middle of the arm, opposite the insertion of coracobrachialis, the median nerve crosses the artery from lateral to medial.
+At the same point the ulnar nerve pierces the medial intermuscular septum, and the basilic vein and medial cutaneous nerve of the forearm pierce the deep fascia.
+The superior ulnar collateral artery arises at the middle of the arm; the inferior ulnar collateral arises 5 cm above the elbow.
+The anastomosis around the elbow pairs a descending collateral branch from above with a recurrent branch from below, in four groups around the two epicondyles plus a transverse link above the olecranon fossa.
+The surface marking is a line from the posterior axillary fold to a point midway between the epicondyles, medial to the biceps tendon.
+## lose_the_mark
+Ending the artery at the elbow joint. It divides one centimetre below the joint, at the level of the neck of the radius.
+Beginning it "in the axilla". It begins at the lower border of teres major, which is the landmark the mark scheme names.
+Giving the branches ungrouped. The six groups are how the answer is laid out and how the marks are apportioned.
+Forgetting the nutrient artery to the humerus. It is one of the six groups and is the one most often dropped.
+Naming the profunda brachii without saying it is the largest and highest branch, or without its course with the radial nerve to the spiral groove.
+Saying the median nerve is medial to the artery throughout. It is lateral above and medial below, crossing at the middle of the arm.
+Describing the artery as deep. Every source states it is superficial throughout, covered only by skin and fascia.
+Giving the anastomosis around the elbow as a list of vessels rather than as pairs. Each pair is one descending branch meeting one recurrent branch, and the pairing is the answer.
+## image_recommendations
+### anatomy plate · Anterior view of the whole arm with the brachial artery drawn from the lower border of teres major to its division one centimetre below the elbow, all six groups of branches labelled at the level each arises, and the median nerve drawn crossing it from lateral to medial at the middle of the arm
+Purpose: The artery is examined on a course with branches at named levels, and the one relation students reverse is a crossing that happens at a specific point. One figure carrying both makes level and relation a single spatial fact.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Arm chapter Figs. 48 and 49
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-798DE81B6EE665, which asks for the beginning, ending and six groups of branches.
+### diagram · The anastomosis around the elbow drawn as a network on the two epicondyles, the four groups labelled — behind and in front of the medial epicondyle, behind and in front of the lateral epicondyle — plus the transverse anastomosis above the olecranon fossa, each vessel tagged with its parent artery and descending branches drawn in one colour against recurrent branches in another
+Purpose: The pattern is four repetitions of one rule, a descending branch meeting a recurrent branch, and colouring by direction makes the rule visible. A list of eight vessel names hides it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Arm chapter, Anatomy pages 194-204
+Rights: newly drawn for this product, or CC-BY
+Notes: The same plate is requested by ART-101-ANA-ELBOW-JOINT. One drawing serves both.
+### diagram · Surface projection of the brachial artery on a photographed or outlined arm — the line from the posterior axillary fold to a point midway between the epicondyles medial to the biceps tendon — with the palpation point at the cubital fossa marked and the level of the division marked one centimetre below the joint
+Purpose: A surface marking is a line on a body and is learnt by seeing it drawn there. The same figure fixes the two levels students round off, the beginning and the division.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Surface and imaging anatomy
+Source direction: purpose-drawn for this product from the department book's stated surface anatomy
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Where the profunda brachii arises. The department book says it arises from the posteromedial aspect of the brachial artery just below the lower border of teres major; the VIP Academy Upper Limb revision says "near its beginning". These agree, and the book's more precise wording is used.
+Which terminal branch is the larger. The department book, describing the forearm arteries, states that the radial artery is the smaller of the two terminal branches of the brachial and the ulnar the larger. Nothing in the corpus disagrees, and it is recorded because the radial is the one that is palpated and is therefore assumed to be the main vessel.
+## evidence_gaps
+No Kasr source describes any lesion, injury or occlusion of the brachial artery, nor Volkmann's ischaemic contracture, nor the relation of a supracondylar fracture to this vessel. The clinical section says so and reasons only from stated anatomy.
+No Kasr source describes the vasa vasorum or the nerve supply of the artery.
+No Kasr source describes the development of the upper limb arterial pattern.
+No Kasr source describes any variation in the level at which the brachial artery divides, or any anomalous course.
+No Kasr source states that the artery can be compressed against the humerus to arrest bleeding. The statement in Clinical correlations that it lies on the medial side of the shaft with only the medial edge of biceps over it is the sources'; the inference that it can therefore be compressed there is named in field_notes.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 5 "Arm", PDF pages 194-204 — the beginning, course, end and superficial character of the brachial artery, the two venae comitantes, the four events at the middle of the arm, the six groups of branches, the profunda brachii with its five branches, both ulnar collateral arteries, the anastomosis around the elbow in four groups with its transverse link, and the artery's surface marking. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 52 and 54, topics "Musculocutaneous nerve and brachial artery" and "Branches of the brachial artery and anastomosis around the elbow" — the same beginning, course, end and relations, and the same branches and anastomosis with the same pairings. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 15, "Model answer: brachial artery, profunda brachii and the anastomosis around the scapula" — the model answer to a past paper on this vessel.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the arteries of the upper limb and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Blood supply, innervation and lymphatics: The observation that every group of the elbow anastomosis pairs a descending branch with a recurrent branch is this article's own reading of the book's four-group list. The book gives the pairs and does not name the pattern.
+sections.Clinical correlations: The three consequences drawn there — that a superficial artery can be felt, punctured and cut; that it can be compressed against the humerus; and that the elbow anastomosis is a ready-made bypass — are reasoning from the sources' own anatomical statements. None of the three is stated in any Kasr source, and the corpus contains no clinical material on this artery at all.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers limb angiogenesis.
+## notes
+The three facts this article exists to protect are two levels and a count: the artery begins at the lower border of teres major, it ends one centimetre below the elbow joint at the neck of the radius, and its branches are six groups. All three are places where a nearly-right answer is marked wrong.
+
+---
+
+# Item
+## id
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
+## title
+Erb's and Klumpke's paralysis
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-FD238B6D305E22 | CON-MSK-528AA0580391C0
+## related_articles
+ART-101-ANA-AXILLA-BREAST: The cords and branches of the brachial plexus are contents of the axilla, and the plexus's formation from roots through trunks and divisions to cords is described there.
+ART-101-ANA-AXILLARY-NERVE: The axillary nerve is one of the five nerves paralysed in Erb's palsy, and its own isolated injury gives a much smaller version of the same shoulder picture.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: Deltoid, supraspinatus, infraspinatus and teres minor are four of the muscles Erb's palsy takes, and their attachments and actions are set out there.
+## aliases
+Duchenne-Erb's paralysis | Erb's palsy | Porter's tip deformity | Klumpke's paralysis | Claw hand | Brachial plexus injury
+## reading_time
+10
+## summary
+Two injuries at two ends of one plexus, and everything about them is opposite. Erb's is the upper trunk, C5 and C6, from the head being pushed away while the shoulder is pushed down; it costs the proximal limb and the lateral strip of skin. Klumpke's is the lower trunk, C8 and T1, from the arm being pulled up; it costs the small muscles of the hand and the medial strip. Learn the mechanism and the rest follows from it.
+## sections
+### Definition
+The brachial plexus is formed from the ventral rami of C5 to T1, which unite into three trunks — upper, middle and lower — each of which divides into an anterior and a posterior division, and the six divisions then form three cords. An injury of the plexus is named by the level at which it happens, and the department book teaches two, both at the level of a trunk.
+
+Duchenne-Erb's paralysis is injury of the upper trunk, which carries C5 and C6.
+
+Klumpke's paralysis is injury of the lower trunk, which carries C8 and T1.
+
+Because C5 and C6 supply the shoulder and the front of the arm while C8 and T1 run mainly into the hand, the two injuries produce two pictures that share almost nothing.
+
+### Mechanism
+Each injury is a traction injury, and the direction of the traction is what selects the trunk.
+
+Erb's paralysis follows excessive displacement of the head to one side with depression of the shoulder on the other. That manoeuvre increases the distance between the neck and the shoulder, which stretches the roots that run most directly between them — the upper ones. The department book names the obstetric version: it may occur in infants during delivery, as a birth injury.
+
+Klumpke's paralysis follows excessive abduction of the arm, with traction on or tearing of the C8 and T1 roots. Raising the arm above the head pulls the lowest roots taut over the first rib, so the traction selects the bottom of the plexus. The book gives three more causes besides the classic fall from a height clutching an object: traction on an infant's arm during delivery, a cervical rib, and malignant lower deep cervical lymph nodes.
+
+The deformity in each case is not a list to memorise but a posture the surviving muscles produce, because every joint takes the position dictated by whatever still works.
+
+In Erb's palsy the C5 and C6 muscles are gone. The book names them by their nerves. Through the axillary nerve, deltoid and teres minor. Through the subscapular nerves, subscapularis and teres major. Through the suprascapular nerve, supraspinatus and infraspinatus. Through the musculocutaneous nerve, biceps, brachialis and coracobrachialis. Read the posture off that list: abduction is lost because deltoid and supraspinatus are gone, so the shoulder is adducted by the intact adductors. Lateral rotation is lost because infraspinatus and teres minor are gone, so the arm is medially rotated by the intact medial rotators. Elbow flexion is lost because biceps and most of brachialis are gone, so the elbow is extended by the intact triceps. And supination is lost because biceps is gone, so the forearm is pronated by the intact pronators. Four losses, four unopposed opposites — the porter's tip.
+
+In Klumpke's paralysis it is the hand that is gone, because C8 and T1 fibres are mainly distributed through the ulnar nerve to the lumbricals and the interossei. Those are the muscles that flex the metacarpophalangeal joints and extend the interphalangeal joints. Without them, extensor digitorum acts unopposed at the metacarpophalangeal joints and hyperextends them, while flexor digitorum superficialis and profundus act unopposed at the interphalangeal joints and flex them. That posture is the claw hand. Abduction and adduction of the fingers go with the interossei.
+
+### Key determinants
+The two injuries, answered to the same five headings.
+
+Erb's paralysis. Level: upper trunk. Roots: C5 and C6. Mechanism: excessive displacement of the head to one side with depression of the shoulder on the other; in infants, a birth injury during delivery. Muscles paralysed, by nerve: deltoid and teres minor through the axillary nerve; subscapularis and teres major through the subscapular nerves; supraspinatus and infraspinatus through the suprascapular nerve; biceps, brachialis and coracobrachialis through the musculocutaneous nerve. Deformity: the porter's tip posture — the shoulder adducted, from paralysis of deltoid and supraspinatus, and medially rotated, from paralysis of infraspinatus and teres minor; the elbow extended, from paralysis of biceps and most of brachialis; the forearm pronated, from paralysis of biceps. Sensory loss: the lateral side of the upper limb.
+
+Klumpke's paralysis. Level: lower trunk. Roots: C8 and T1. Mechanism: excessive abduction of the arm with traction or tearing of the roots — falling from a height clutching an object, traction of an infant's arm during delivery, a cervical rib, or malignant lower deep cervical lymph nodes. Muscles paralysed: the small muscles of the hand, because C8 and T1 fibres are mainly distributed through the ulnar nerve to the lumbricals and interossei. Deformity: claw hand — hyperextension of the metacarpophalangeal joints from the unopposed extensor digitorum, with flexion of the interphalangeal joints from the unopposed flexor digitorum superficialis and profundus, and loss of abduction and adduction of the fingers. Sensory loss: the medial side of the arm and forearm, the medial third of the palm and the medial one and a half fingers.
+
+### Clinical significance
+Both injuries are obstetric in the version the department book emphasises, and the two mechanisms are the two things that can go wrong in the same delivery. If the head is pulled away from the shoulder, the upper trunk tears. If the arm is pulled, the lower trunk tears. The book names both as birth injuries and gives no other paediatric cause.
+
+Klumpke's paralysis has three causes the book gives that Erb's does not, and they matter because two of them are not injuries at all. A cervical rib and malignant lower deep cervical lymph nodes both compress the lower trunk from below and in front, and both produce the same picture without any history of trauma. A claw hand with no injury is therefore a reason to look at the root of the neck.
+
+The sensory territories are the practical test at the bedside, and they are the two edges of the limb: lateral for Erb's, medial for Klumpke's. That is the fastest way to separate them in a patient whose deformity is partial.
+
+### Common misconceptions
+Erb's and Klumpke's are not two grades of one injury. They are two different trunks, from two different mechanisms, with two different pictures and two different sensory strips.
+
+The porter's tip posture is not a list of positions to memorise. Each component is a named paralysis with a named unopposed antagonist, and the exam asks for the muscles behind it — which is why five nerves and nine muscles are named in the answer.
+
+The forearm is pronated in Erb's palsy because biceps is paralysed, not because the pronators are overactive. Biceps is the powerful supinator of the flexed elbow, and its loss shows as pronation.
+
+Claw hand is not caused by paralysed flexors. It is caused by paralysed lumbricals and interossei, which leaves the long extensors and the long flexors each acting unopposed at a different joint.
+
+Klumpke's paralysis does not require a fall. A cervical rib and malignant lower deep cervical nodes are two of the book's own causes.
+
+Neither injury is a nerve injury in the ordinary sense. Both are injuries of a trunk of the plexus, above the level at which any named nerve has been formed, which is why the muscles are listed by the nerves they will eventually be reached through rather than by one nerve.
+## hold_these
+Erb's paralysis is injury of the upper trunk of the brachial plexus, C5 and C6.
+Its mechanism is excessive displacement of the head to one side with depression of the shoulder on the other; in infants it is a birth injury.
+The muscles paralysed in Erb's palsy are deltoid and teres minor (axillary), subscapularis and teres major (subscapular), supraspinatus and infraspinatus (suprascapular), and biceps, brachialis and coracobrachialis (musculocutaneous).
+The porter's tip deformity is the shoulder adducted and medially rotated, the elbow extended and the forearm pronated.
+Sensation is lost on the lateral side of the upper limb in Erb's palsy.
+Klumpke's paralysis is injury of the lower trunk, C8 and T1, from excessive abduction of the arm with traction on those roots.
+Its other causes are traction on an infant's arm at delivery, a cervical rib, and malignant lower deep cervical lymph nodes.
+C8 and T1 fibres run mainly in the ulnar nerve to the lumbricals and interossei, which is why Klumpke's paralysis claws the hand.
+Claw hand is hyperextension of the metacarpophalangeal joints from unopposed extensor digitorum with flexion of the interphalangeal joints from the unopposed long flexors, plus loss of finger abduction and adduction.
+Sensation is lost on the medial side of the arm and forearm, the medial third of the palm and the medial one and a half fingers in Klumpke's paralysis.
+## lose_the_mark
+Giving the porter's tip posture without the muscles behind each component. Adduction, medial rotation, extension and pronation each have a named paralysis, and the question asks for the muscles.
+Confusing the two mechanisms. Erb's is the head pushed away with the shoulder pushed down; Klumpke's is the arm pulled up.
+Giving the roots the wrong way round. Erb's is C5 and C6; Klumpke's is C8 and T1.
+Attributing the pronated forearm in Erb's palsy to the pronators. It is the loss of biceps, the supinator of the flexed elbow.
+Explaining claw hand by paralysed long flexors. The paralysis is of the lumbricals and interossei, and the long flexors and long extensors are what remain.
+Naming only a fall as the cause of Klumpke's paralysis. A cervical rib and malignant lower deep cervical nodes are two of the book's causes and neither is traumatic.
+Giving one sensory territory for both. Erb's is the lateral side of the limb; Klumpke's is the medial side and the medial hand.
+Listing only four muscles in Erb's palsy. The book names nine, grouped under four nerves.
+## image_recommendations
+### diagram · The brachial plexus drawn from roots to cords with the upper trunk and the lower trunk each highlighted in a different colour, and the muscles each trunk's fibres eventually reach listed beside it under the nerve they travel in
+Purpose: Both injuries are lesions of a trunk, and the muscles lost are downstream of that trunk through several different named nerves. A plexus diagram coloured by trunk is the only form in which "C5 and C6 through four nerves" becomes a single readable path.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Axilla chapter figures on the brachial plexus, Anatomy pages 178-193
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves both concepts on this article.
+### clinical photograph · An infant or adult with the porter's tip deformity of one upper limb — shoulder adducted and medially rotated, elbow extended, forearm pronated — shown beside the normal side, with each joint's position annotated
+Purpose: The deformity is a whole-limb posture and its four components are simultaneous. A photograph makes the posture recognisable in a way four sentences about four joints do not, and the annotation ties each joint back to its paralysis.
+Priority: required
+Status: needed
+Kind: clinical photograph
+Section: Key determinants
+Source direction: openly licensed clinical teaching set, with consent recorded; the department book's Fig. 105 may be used as drawing direction rather than reproduced
+Rights: must be CC-BY or public domain, with patient consent recorded
+### diagram · The claw hand explained in three panels — the normal action of the lumbricals and interossei flexing the metacarpophalangeal joints and extending the interphalangeal joints; the same hand with those muscles removed; and the resulting posture with extensor digitorum and the long flexors each acting unopposed at their own joint, arrowed
+Purpose: The deformity is a mechanical consequence of losing one muscle group at two joints, and students reproduce the posture without the reason. A three-panel derivation makes the posture recoverable rather than memorised.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figs. 106 and 109, Anatomy pages 262-264
+Rights: newly drawn for this product, or CC-BY
+### diagram · Sensory loss maps for the two injuries side by side on the same limb outline — the lateral strip shaded for Erb's palsy and the medial strip with the medial third of the palm and medial one and a half fingers shaded for Klumpke's
+Purpose: The two territories are the fastest bedside discriminator and they are two halves of one limb. Two maps on one outline show that at a glance and prevent the two being learnt as unrelated lists.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figs. 100 to 102, Anatomy pages 258-259
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which lumbricals are involved in the claw hand. The department book's account of Klumpke's paralysis says the small muscles of the hand are paralysed through the ulnar nerve to the lumbricals and interossei, giving a complete claw hand. Its account of ulnar nerve injury says only the medial two lumbricals are ulnar-supplied, so an isolated ulnar lesion gives a partial claw hand affecting the fourth and fifth fingers. Both statements are the book's own and they are consistent — a lower trunk lesion takes more than the ulnar nerve does — but a student reading the two accounts together needs the distinction spelled out, so it is recorded here.
+Whether Erb's palsy includes brachialis entirely. The department book says the elbow is extended "from paralysis of biceps and most of brachialis". The qualification is the book's, and it exists because a small lateral part of brachialis is supplied by the radial nerve. It is preserved in the wording above.
+## evidence_gaps
+No Kasr source gives the incidence, prognosis, recovery or management of either injury.
+No Kasr source states how a trunk lesion is distinguished clinically from an avulsion of the roots themselves, although the concept record for Klumpke's paralysis uses the word avulsion.
+No Kasr source lists the muscles paralysed in Klumpke's paralysis by name. What is given is "the small muscles of the hand", reached through the ulnar nerve to the lumbricals and interossei. No fuller list is invented here.
+No Kasr source describes Horner's syndrome or any sympathetic involvement with a T1 lesion.
+The account in Mechanism of why each direction of traction selects its own trunk is reasoning from the anatomy of the plexus, not a quotation, and is named in field_notes.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — both injuries with their levels, roots, mechanisms, muscles, deformities and sensory losses, and the extra causes of Klumpke's paralysis, with Figs. 105, 106 and 109. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the formation of the plexus from roots through trunks and divisions to cords, and the branches of each cord, which is what makes a trunk lesion intelligible.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapters 3 and 5, PDF pages 169-177 and 194-204 — the nerve supply and action of every muscle named in the Erb's palsy list.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 128, topic "Radial nerve injury and brachial plexus injuries" — the same two injuries. Extracted to scripts/kasr/extract/notes.json.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: the brachial plexus is named among the nerves examined, with "the effect of injury" required for each, and the upper-limb short-answer questions carry 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation that displacing the head from the shoulder stretches the upper roots while abducting the arm stretches the lower ones is anatomical reasoning added to make the two mechanisms memorable. The book states each mechanism and does not explain why it selects the trunk it does.
+sections.Mechanism: The derivation of each component of the porter's tip posture from a named paralysis with a named unopposed antagonist follows the book's own wording for the posture, but the muscles doing the opposing are supplied from the book's muscle chapters rather than from its account of the injury.
+sections.Clinical significance: The observation that a claw hand without trauma should send the examiner to the root of the neck is clinical reasoning from the book's own two non-traumatic causes. The book lists the causes and draws no such conclusion.
+## notes
+Two concepts, one article, because the department book teaches them as a pair in one chapter and because each is most easily learnt as the opposite of the other. The article is built on that symmetry: same five headings for each, and a misconceptions section that names the confusions the symmetry invites.
+
+---
+
+# Item
+## id
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## title
+The extensor retinaculum and rotation of the forearm
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03 | SYS-MSK-T06-S01-M01
+## related_concepts
+CON-MSK-44234D1863CE8E | CON-MSK-E10403A4189B45
+## related_articles
+ART-101-ANA-DEEP-FASCIA: A retinaculum is deep fascia thickened locally into a transverse band, and this is the worked example of that item on the list.
+ART-101-ANA-HAND-ARTERIES: The first three compartments of the retinaculum supply the boundaries and contents of the anatomical snuff box, which the radial artery crosses.
+ART-101-ANA-ELBOW-JOINT: The superior radio-ulnar joint shares its capsule and cavity with the elbow, and it is one of the two joints at which the forearm rotates.
+## aliases
+Extensor retinaculum | Six extensor compartments | Supination | Pronation | Radio-ulnar joints
+## reading_time
+12
+## summary
+Two questions from one leaf, and both are about the same two bones. The extensor retinaculum is a band with two attachments and six numbered compartments, and the order is fixed by Lister's tubercle rather than by memory. Supination and pronation are the radius swinging round an axis that runs from its own head to the head of the ulna — which is why the radius moves and the ulna does not, and why the palm ends up facing the other way.
+## sections
+### Definition
+The extensor retinaculum is a thickened band of the deep fascia of the forearm, lying obliquely across the back of the wrist. Every extensor tendon except brachioradialis passes deep to it.
+
+It is attached laterally to the lower end of the radius and medially to the triquetral and the pisiform. Fibrous septa pass from its deep surface to ridges on the back of the lower end of the radius, and they divide the space beneath it into six compartments.
+
+Supination and pronation are the movements of rotation of the forearm. Supination is lateral rotation, pronation medial rotation, and both take place at the superior and inferior radio-ulnar joints, which are synovial uniaxial pivot joints.
+
+The axis of the movement is a vertical line running from the centre of the head of the radius above to the rough impression on the head of the ulna below, at the attachment of the apex of the articular disc.
+
+### Mechanism
+The retinaculum first, and its job is a mechanical one. A tendon crossing the back of a wrist that extends would bowstring away from the bone if nothing held it down. An inelastic transverse band anchored to bone at both ends holds every tendon against the skeleton through the whole range of movement, and the septa stop the tendons crossing over one another by giving each group its own tunnel.
+
+The order of the compartments is not arbitrary and does not have to be memorised as a list of six. It runs from lateral to medial across the back of the lower end of the radius, and the landmark that fixes it is the dorsal tubercle of the radius, Lister's tubercle. The second compartment lies lateral to the tubercle and the third lies medial to it, so the tendon of extensor pollicis longus in the third turns round the tubercle as it crosses. Anything found lateral to the tubercle belongs to compartments one and two; anything medial belongs to three, four, five and six.
+
+Now the rotation, which is one bone moving on another around a line joining their two ends.
+
+At the superior radio-ulnar joint the head of the radius rotates within a ring made by the radial notch of the ulna and the annular ligament. The head simply spins in place.
+
+At the inferior radio-ulnar joint the lower end of the radius, carrying the articular disc, rotates around the head of the ulna, and it carries the hand with it. The centre of that circle is the attachment of the apex of the disc to the root of the ulnar styloid process.
+
+So the axis passes through both of those centres, and it runs from the head of the radius to the head of the ulna. The shaft of the radius swings around it while the shaft of the ulna stays relatively fixed. That is the answer to why it is the radius that moves: the axis passes through the radius at one end and through the ulna at the other, so only the radius has a shaft that lies away from the line.
+
+The two end positions follow from that swing. In supination the radius and ulna lie parallel, the palm faces forwards, the thumb is directed laterally and the interosseous membrane is tense. In pronation the shaft of the radius lies across the front of the shaft of the ulna so that its lower end comes to lie medial to the ulna, the hand moves with the radius so the palm looks backwards, the thumb is directed medially, the interosseous membrane becomes lax, and the carrying angle at the elbow disappears.
+
+The muscles divide by which of the two directions they turn the radius, and two of them are qualified by the position of the elbow. Biceps inserts into the radial tuberosity, which faces medially in pronation, so contracting it unwinds the radius — but it can only do that usefully when the elbow is flexed. Supinator wraps round the upper third of the radius from the ulna and the lateral epicondyle, and it is the muscle that supinates when the elbow is extended.
+
+### Key determinants
+The extensor retinaculum, as the question asks it: attachments, then contents by compartment.
+
+Attachments. Laterally to the lower end of the radius — the VIP Academy revision specifies the anterior border of the lower end of the radius. Medially to the triquetral and the pisiform.
+
+Septa. Fibrous septa pass from its deep surface to ridges on the back of the lower end of the radius, dividing the space beneath into six compartments. Six compartments require five septa, and the VIP Academy revision states the number five directly.
+
+The six compartments, from lateral to medial.
+
+First, on the lateral side of the lower end of the radius: the tendons of abductor pollicis longus and extensor pollicis brevis.
+
+Second, on the back of the lower end of the radius lateral to Lister's tubercle: the tendons of extensor carpi radialis longus and extensor carpi radialis brevis.
+
+Third, medial to Lister's tubercle: the tendon of extensor pollicis longus.
+
+Fourth, on the most medial part of the back of the lower end of the radius: the four tendons of extensor digitorum, the tendon of extensor indicis, the posterior interosseous nerve and the anterior interosseous artery.
+
+Fifth, over the back of the inferior radio-ulnar joint: the tendon of extensor digiti minimi.
+
+Sixth, on the back of the lower end of the ulna between the head and the styloid process: the tendon of extensor carpi ulnaris.
+
+Supination and pronation, as the question asks them: definition, joints, axis, positions, muscles.
+
+Joints: the superior and inferior radio-ulnar joints, both synovial uniaxial pivot joints. The interosseous membrane is the third, fibrous, union between the two bones.
+
+Axis: a vertical axis from the centre of the head of the radius above to the rough impression on the head of the ulna below, at the attachment of the apex of the articular disc.
+
+Supination: radius and ulna parallel, palm forwards, thumb lateral, interosseous membrane tense.
+
+Pronation: shaft of the radius across the front of the shaft of the ulna with its lower end medial, palm backwards, thumb medial, interosseous membrane lax, carrying angle lost.
+
+Supinators: biceps, which is the most powerful supinator when the elbow is flexed, and supinator, which is the main supinator when the elbow is extended. The book adds that supinators are in general more powerful than pronators.
+
+Pronators: pronator teres and pronator quadratus.
+
+Brachioradialis brings the forearm to the mid-prone position, from either extreme, and is therefore listed with both groups.
+
+The attachments and nerve supply of those muscles, as far as the sources give them. Biceps arises by a short head from the tip of the coracoid process and a long head from the supraglenoid tubercle, inserts into the radial tuberosity by the bicipital tendon and into the deep fascia by the bicipital aponeurosis, and is supplied by the musculocutaneous nerve. Supinator arises from the supinator crest and fossa of the ulna and from the lateral epicondyle, the lateral collateral ligament of the elbow and the annular ligament, surrounds the upper third of the shaft of the radius, inserts into its posterior, lateral and anterior aspects above the oblique line, and is supplied by the posterior interosseous nerve, which pierces it. Pronator teres arises by a humeral head from the common flexor origin and an ulnar head from the coronoid process, inserts into the pronator tuberosity in the middle of the lateral surface of the radial shaft, is supplied by the median nerve, and gives powerful pronation with weak elbow flexion. Pronator quadratus is the deepest muscle of the front of the forearm, running horizontally in front of the lower parts of radius and ulna, and is supplied by the anterior interosseous branch of the median nerve. Brachioradialis is supplied by the radial nerve itself.
+
+### Clinical significance
+The retinaculum's clinical weight is that it turns each compartment into a closed tunnel. The department book states the contents of each and does not describe a lesion, but two of the compartments carry more than tendon: the fourth carries the posterior interosseous nerve and the anterior interosseous artery under the retinaculum to the back of the wrist, where the nerve ends in an expanded termination, the pseudoganglion, giving articular filaments.
+
+The third compartment's tendon turns round Lister's tubercle, so the tubercle is both the landmark that orders the compartments and the point the tendon of extensor pollicis longus is angled over.
+
+For the rotation, the clinical statements the sources give are about what fails. Failure of supination of the extended forearm is one of the motor effects of radial nerve injury, because supinator is supplied through the posterior interosseous nerve and is the supinator of the extended elbow — biceps, supplied by the musculocutaneous nerve, still supinates the flexed elbow. Loss of pronation follows median nerve injury above the elbow, because both pronators are median-supplied. Each of those is a functional test that localises a lesion.
+
+The interosseous membrane's own function is transmission: its fibres run obliquely downwards and medially from radius to ulna, so force received by the radius from the hand is transmitted across to the ulna and upwards to the humerus.
+
+### Common misconceptions
+The axis of forearm rotation does not run down the middle of the forearm. It runs from the head of the radius to the head of the ulna, which is a line crossing the forearm obliquely, and that is why the radius swings and the ulna does not.
+
+The compartments are not numbered by a list to be recited. They are numbered from lateral to medial with Lister's tubercle between the second and the third, and a student who has lost the order can rebuild it from that landmark.
+
+Biceps is not simply "the supinator". It is the most powerful supinator when the elbow is flexed; supinator is the main supinator when the elbow is extended, and the qualification is what a radial nerve lesion is tested on.
+
+Brachioradialis is neither a supinator nor a pronator in the ordinary sense. It brings the forearm to the mid-prone position from either direction, which is why every source lists it in both groups.
+
+The extensor retinaculum is not the same structure as the flexor retinaculum turned round. The flexor retinaculum crosses in front of the carpus and converts the carpal arch into the carpal tunnel, a single space; the extensor retinaculum crosses the back of the wrist obliquely and is divided by septa into six.
+
+Not every extensor tendon passes under it. Brachioradialis is the exception the department book names.
+## hold_these
+The extensor retinaculum is a thickened band of deep fascia crossing the back of the wrist obliquely, attached laterally to the lower end of the radius and medially to the triquetral and pisiform.
+Septa from its deep surface to ridges on the back of the lower end of the radius divide the space beneath it into six compartments.
+Compartment 1 holds abductor pollicis longus and extensor pollicis brevis; 2 holds extensor carpi radialis longus and brevis; 3 holds extensor pollicis longus.
+Compartment 4 holds the tendons of extensor digitorum and extensor indicis with the posterior interosseous nerve and the anterior interosseous artery; 5 holds extensor digiti minimi; 6 holds extensor carpi ulnaris.
+The second compartment lies lateral to Lister's tubercle and the third medial to it, which fixes the order.
+All extensor tendons except brachioradialis pass deep to the extensor retinaculum.
+Supination and pronation occur at the superior and inferior radio-ulnar joints, both synovial uniaxial pivot joints.
+The axis runs vertically from the centre of the head of the radius to the rough impression on the head of the ulna, at the attachment of the apex of the articular disc.
+In supination radius and ulna are parallel, the palm faces forwards, the thumb is lateral and the interosseous membrane is tense.
+In pronation the radius crosses in front of the ulna, the palm faces backwards, the thumb is medial, the membrane is lax and the carrying angle disappears.
+Biceps is the most powerful supinator when the elbow is flexed; supinator is the main supinator when it is extended.
+Pronation is by pronator teres and pronator quadratus, and brachioradialis brings the forearm to the mid-prone position.
+## lose_the_mark
+Placing the axis of rotation through the middle of the forearm. It runs from the head of the radius to the head of the ulna, which is why the radius swings and the ulna stays.
+Giving the six compartments in the wrong order. Rebuild it from Lister's tubercle: the second is lateral to it and the third medial.
+Naming only tendons in the fourth compartment. It also carries the posterior interosseous nerve and the anterior interosseous artery.
+Attaching the retinaculum medially to the ulna. It is attached to the triquetral and the pisiform, which are carpal bones.
+Saying biceps supinates regardless of elbow position. It is the supinator of the flexed elbow; supinator acts with the elbow extended.
+Leaving brachioradialis out because it is neither a supinator nor a pronator. It brings the forearm to the mid-prone position and belongs in the answer.
+Forgetting that the interosseous membrane is tense in supination and lax in pronation. It is one of the four paired features of the two positions.
+Writing that all extensor tendons pass under the retinaculum. Brachioradialis does not.
+## image_recommendations
+### diagram · Transverse section through the back of the wrist at the level of the extensor retinaculum, the six compartments numbered from lateral to medial with their contents drawn and labelled, the five septa shown running to the ridges on the radius, and Lister's tubercle marked between the second and third
+Purpose: The order of the compartments is a spatial sequence around a landmark, and the answer is lost by reciting the list out of order. A numbered section with the tubercle marked makes the sequence recoverable from anatomy rather than from memory.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Fig. 74 and its extensor retinaculum compartment table, Anatomy pages 205-234, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-44234D1863CE8E.
+### diagram · The forearm drawn twice, supinated and pronated, from the front, with the axis of rotation drawn as a line from the head of the radius to the head of the ulna in both, the radius tinted so its crossing is obvious, and the interosseous membrane shown tense in one and lax in the other
+Purpose: The whole answer is that one bone swings about a line joining two heads. Drawing the axis on both positions shows why the radius crosses and the ulna does not, which is exactly the point the sentence about the axis is trying to make.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Fig. 132, Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-E10403A4189B45.
+### anatomy plate · The four rotator muscles on one figure with their attachments marked on the bones — biceps to the radial tuberosity, supinator wrapping the upper third of the radius, pronator teres to the pronator tuberosity, pronator quadratus across the lower radius and ulna — each labelled with its nerve
+Purpose: The question asks for attachments and nerve supply, and the reason biceps and supinator differ by elbow position is visible in where each pulls on the radius. One plate carrying the attachments makes the elbow-position qualification derivable.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Key determinants
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Fig. 62 and the Forearm chapter
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+### diagram · Posterior view of the wrist and hand with the retinaculum in place, the tendon of extensor pollicis longus drawn turning round Lister's tubercle out of the third compartment, and the anatomical snuff box outlined from the first and third compartment tendons
+Purpose: The tubercle is the landmark the whole compartment order hangs on, and it is also a pulley that changes a tendon's direction. Showing the turn makes the landmark concrete and links this leaf to the snuff box on the next.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the VIP Academy Upper Limb revision page 116 and the department book Fig. 74
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+The lateral attachment of the extensor retinaculum. The department book says it is attached laterally to the lower end of the radius. The VIP Academy Upper Limb revision and concept CON-MSK-44234D1863CE8E both say the anterior border of the lower end of the radius. The book's wording is the department's own and the fuller version is stated beside it, because either would be marked correct and the fuller one is what the concept was drafted from.
+The number of septa. The department book says only that fibrous septa divide the space into six compartments and gives no number. The VIP Academy revision states five septa, and six compartments require five. The number is given here with its source named, because it is arithmetic the book does not print.
+Lister's tubercle. The department book's compartment table gives the contents without naming the dorsal tubercle. The VIP Academy revision names it and uses it to locate the second and third compartments, and the concept's pitfall depends on it. It is used here with the source named.
+Where the compartment contents include the nerve and artery. Both sources agree that the posterior interosseous nerve and anterior interosseous artery run in the fourth compartment, and the department book states it twice — in the compartment table and in its account of the posterior interosseous nerve. Recorded because the fourth compartment is otherwise remembered as tendons only.
+## evidence_gaps
+No Kasr source gives the attachments of brachioradialis or of pronator quadratus, although both are named as muscles producing forearm rotation and the concept asks for attachments. Their attachments are therefore not stated in this article.
+No Kasr source describes any lesion of the extensor retinaculum or any tenosynovitis in its compartments, so the clinical section reasons only from stated anatomy.
+No Kasr source gives the range of supination or of pronation in degrees.
+No Kasr source states why supinators are more powerful than pronators; the book asserts that they are.
+The explanation in Mechanism of why a retinaculum is needed at all — that a tendon would bowstring without one — is general anatomical reasoning and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 6 "Forearm", PDF pages 205-234 — the extensor retinaculum with its attachments, septa and six compartments with the contents of each; the superficial and deep extensor groups with their nerve supply; supinator's attachments and its relation to the posterior interosseous nerve; pronator teres and pronator quadratus; and the statement that all extensor tendons except brachioradialis pass deep to the retinaculum, with Fig. 74 and the compartment table. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — both radio-ulnar joints, the articular disc, the axis of rotation, the mechanism of the swing, the four paired features of supination and pronation, the muscles with their elbow-position qualifications, and the interosseous membrane with its attachments and its force-transmitting function, with Figs. 132 and 133.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — biceps with its two heads, its two insertions and its musculocutaneous supply.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 116 and 154, topics "Extensor retinaculum and anatomical snuff box" and "Supination, pronation and the interosseous membrane" — the five septa, Lister's tubercle, the location of each compartment, and the same account of the rotation. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 13, "Model answer: elbow joint, sterno-clavicular joint and supination/pronation" — the model answer to a past paper on the rotation.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, whose upper-limb short-answer questions carry 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The account of why a retinaculum exists — that an unrestrained tendon would bowstring away from the wrist — is general anatomical reasoning. No Kasr source gives a reason; they state that the retinaculum keeps the tendons in position.
+sections.Mechanism: The argument that the axis passing through the radius at one end and the ulna at the other is why only the radius swings is this article's own. The sources state the axis and state that the radius swings, and do not connect them.
+sections.Mechanism: The remark that the radial tuberosity faces medially in pronation, so contracting biceps unwinds the radius, is general anatomical reasoning added to make the biceps qualification derivable. The sources state that biceps supinates the flexed elbow and give no mechanism.
+sections.Clinical significance: The reading of failed supination and failed pronation as localising tests is reasoning across the nerve injury chapter and this one. Both losses are the book's own statements; using them as tests is not.
+## notes
+Two concepts, one article, because both are about the two forearm bones and because the retinaculum's fourth compartment carries the nerve that supplies the supinator. Where the department book is thinner than the concept — the five septa, Lister's tubercle, the anterior border of the radius — the fuller source is named in conflicts rather than being quietly promoted to the department's own word.
+
+---
+
+# Item
+## id
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES
+## title
+Cutaneous nerve supply of the upper limb
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-F4FC0C323C654E
+## related_articles
+ART-101-ANA-RADIAL-NERVE: Three of the strips below belong to the radial nerve, and its own article gives their origins by level along its course.
+ART-101-ANA-AXILLARY-NERVE: The upper lateral cutaneous nerve of the arm is the end of the axillary nerve's posterior branch, and the patch it supplies is the sensory loss of an axillary lesion.
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE: The lateral cutaneous nerve of the forearm is the musculocutaneous nerve's own continuation, which is what makes a motor nerve of the arm a skin nerve of the forearm.
+## aliases
+Cutaneous nerves of the upper limb | Cutaneous innervation | Intercostobrachial nerve | Sensory supply of the arm
+## reading_time
+11
+## summary
+The skin of the limb is supplied in named strips, and the map is learnt by region rather than by nerve because that is how the examiner asks it. Two facts do most of the work. The skin over the deltoid has two different nerves, supraclavicular above and axillary below, which is why an axillary lesion numbs a patch and not a shoulder. And the medial side of the arm is supplied from the chest wall, by the intercostobrachial nerve, which belongs to no part of the brachial plexus at all.
+## sections
+### Definition
+The cutaneous nerve supply of the upper limb is the map of which named nerve supplies which area of skin. The department book teaches it by region — shoulder, axilla and arm; then forearm; then hand — and names the parent nerve of each cutaneous branch, because the parent nerve is what a lesion damages.
+
+Two of the suppliers do not come from the brachial plexus. The lateral supraclavicular nerve is a branch of the cervical plexus, from C3 and C4. The intercostobrachial nerve is the lateral cutaneous branch of the second intercostal nerve, which is a thoracic nerve. The rest are branches of the plexus or of its named terminal nerves.
+
+### Mechanism
+The map looks arbitrary until it is read as the consequence of two things: where the limb bud came from, and where each nerve runs.
+
+The territories at the top of the limb are supplied from above and from the side because the limb grew out between them. The skin over the upper half of the deltoid still belongs to the cervical plexus, C3 and C4, through the lateral supraclavicular nerve — the same nerves that supply the skin between the clavicle and the second rib. The skin of the floor of the axilla and the upper medial arm still belongs to the thoracic wall, through the intercostobrachial nerve. Both are territories the limb did not take over.
+
+Everything below them is supplied by the nerve that happens to run there. The radial nerve runs on the back of the limb, so it supplies the back of the arm and the back of the forearm. The medial cord's cutaneous branches run down the medial side, so they supply the medial arm and the medial forearm. The musculocutaneous nerve emerges at the lateral border of the biceps tendon, so its continuation supplies the lateral forearm. The axillary nerve winds round the surgical neck and curves round the posterior border of deltoid, so its cutaneous branch reaches only the skin over the lower half of that muscle.
+
+That gives the rule for the arm: back from the radial, medial from the chest wall above and the medial cord below, lateral from the cervical plexus above, the axillary nerve in the middle and the radial nerve below.
+
+The final mechanism worth holding is overlap. Branches of the median nerve overlap the whole area of skin supplied by the superficial radial nerve except a small triangular area on the dorsum of the web between thumb and index, which the superficial radial nerve supplies alone. Because adjacent territories overlap, a nerve lesion gives paraesthesia over a wide area and complete loss over a small one, and the small one is the nerve's autonomous zone.
+
+### Key determinants
+The map, region by region, as the department book gives it.
+
+The shoulder, axilla and upper arm.
+
+Posterior side: the posterior cutaneous nerve of the arm, from the radial nerve in the axilla, supplying the back of the arm from the deltoid tuberosity to the elbow.
+
+Medial side, upper half and the floor of the axilla: the intercostobrachial nerve, the lateral cutaneous branch of the second intercostal nerve.
+
+Medial side, lower half: the medial cutaneous nerve of the arm, from the medial cord.
+
+Lateral side, over the upper half of deltoid: the lateral supraclavicular nerve, C3 and C4, from the cervical plexus.
+
+Lateral side, over the lower half of deltoid: the upper lateral cutaneous nerve of the arm, from the posterior branch of the axillary nerve.
+
+Lateral side, lower lateral arm: the lower lateral cutaneous nerve of the arm, from the radial nerve in the spiral groove, supplying the skin on the lower half of the lateral side of the arm.
+
+The forearm, front and back on each of three sides.
+
+Lateral: the lateral cutaneous nerve of the forearm, the continuation of the musculocutaneous nerve, dividing into anterior and posterior branches and supplying the lateral side front and back to the wrist, and the skin of the upper part of the ball of the thumb.
+
+Medial: the medial cutaneous nerve of the forearm, from the medial cord, dividing into anterior and posterior branches and supplying the medial side front and back.
+
+Posterior, in the middle: the posterior cutaneous nerve of the forearm, from the radial nerve in the spiral groove, supplying the middle of the back of the forearm down to the wrist.
+
+The hand.
+
+Palm: the palmar cutaneous branch of the median nerve supplies the lateral two-thirds, except the proximal part of the ball of the thumb, which is supplied by the lateral cutaneous nerve of the forearm; the palmar cutaneous branch of the ulnar nerve supplies the medial third.
+
+Palmar aspect of the fingers: the terminal branches of the median nerve supply the lateral three and a half fingers and the distal halves of their dorsal aspects; the superficial terminal branch of the ulnar nerve supplies the medial one and a half.
+
+Dorsum of the hand: the dorsal digital branches of the superficial radial nerve supply the lateral two-thirds; the dorsal cutaneous branch of the ulnar nerve supplies the medial third.
+
+Dorsal aspect of the fingers: the superficial radial nerve supplies the proximal halves of the lateral three and a half fingers, their distal halves being supplied by the median nerve; the ulnar dorsal cutaneous branch supplies the medial one and a half.
+
+### Clinical significance
+The map is what turns a numb patch into a diagnosis, and the department book's nerve injury chapter uses it that way for every lesion it describes.
+
+The patch over the lower half of the deltoid is the axillary nerve's, so numbness there after a shoulder dislocation is the sensory half of an axillary nerve injury.
+
+The lateral side of the upper limb is the C5 and C6 territory, so sensory loss there is the sensory half of Erb's palsy. The medial side of the arm, forearm and hand is the C8 and T1 territory, so loss there belongs to Klumpke's paralysis.
+
+The small triangular area on the dorsum of the first web space is the superficial radial nerve's autonomous zone, and it is the only area of complete sensory loss after a radial nerve lesion — everything else the nerve supplies is overlapped by branches of the median.
+
+The intercostobrachial nerve supplies the floor of the axilla, which is why an axillary clearance can leave a patient numb over the medial upper arm without any lesion of the brachial plexus.
+
+### Common misconceptions
+The skin over the deltoid does not have one nerve. Its upper half is supraclavicular, from the cervical plexus, and only its lower half is axillary. That is why the sensory loss of an axillary lesion is a patch rather than a shoulder, and it is the most commonly examined single fact on this leaf.
+
+The intercostobrachial nerve is not a branch of the brachial plexus. It is the lateral cutaneous branch of the second intercostal nerve.
+
+Upper and lower lateral cutaneous nerves of the arm have different parents. The upper is from the posterior branch of the axillary nerve; the lower is from the radial nerve in the spiral groove. The names are nearly identical and the origins are not.
+
+The medial cutaneous nerves of the arm and of the forearm are two separate branches of the medial cord, not one nerve supplying both.
+
+The dorsum of the fingers is not all radial. The superficial radial nerve stops at the proximal halves of the lateral three and a half fingers; the distal halves are median, supplied by branches that have come round from the palmar side.
+
+The lateral cutaneous nerve of the forearm is the musculocutaneous nerve. A student who lists it without its parent has lost the fact that a motor nerve of the arm ends as a skin nerve of the forearm.
+## hold_these
+The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve, from the deltoid tuberosity to the elbow.
+The medial side of the arm is supplied above by the intercostobrachial nerve, the lateral cutaneous branch of the 2nd intercostal nerve, which also covers the floor of the axilla, and below by the medial cutaneous nerve of the arm from the medial cord.
+The skin over the upper half of deltoid is supplied by the lateral supraclavicular nerve, C3 and C4, from the cervical plexus.
+The skin over the lower half of deltoid is supplied by the upper lateral cutaneous nerve of the arm, from the posterior branch of the axillary nerve.
+The lower lateral side of the arm is supplied by the lower lateral cutaneous nerve of the arm, from the radial nerve in the spiral groove.
+The forearm is supplied laterally by the lateral cutaneous nerve of the forearm from the musculocutaneous, medially by the medial cutaneous nerve of the forearm from the medial cord, and in the middle of the back by the posterior cutaneous nerve of the forearm from the radial.
+The palm is median over the lateral two-thirds and ulnar over the medial third, the thumb ball being lateral cutaneous nerve of the forearm.
+The dorsum of the hand is superficial radial over the lateral two-thirds and ulnar over the medial third.
+On the dorsal aspect of the lateral three and a half fingers the superficial radial nerve supplies the proximal halves and the median nerve the distal halves.
+Median branches overlap the whole superficial radial territory except a small triangular area on the dorsum of the web between thumb and index.
+## lose_the_mark
+Giving one nerve for the skin over the deltoid. The upper half is supraclavicular, C3 and C4; only the lower half is axillary.
+Calling the intercostobrachial nerve a branch of the brachial plexus. It is the lateral cutaneous branch of the 2nd intercostal nerve.
+Swapping the parents of the upper and lower lateral cutaneous nerves of the arm. Upper is axillary; lower is radial in the spiral groove.
+Naming the territories without their parent nerves. The question asks origin and territory for each, and a bare list of names answers half.
+Giving the whole dorsum of the lateral three and a half fingers to the radial nerve. Only the proximal halves; the distal halves are median.
+Forgetting the thumb ball exception in the palm. The proximal part of the thenar skin is supplied by the lateral cutaneous nerve of the forearm.
+Omitting the overlap. A wide paraesthesia with a tiny area of complete loss is a consequence of overlap, and the overlap is examined by name.
+## image_recommendations
+### diagram · Cutaneous nerve map of the whole upper limb, anterior and posterior views side by side, each territory tinted and labelled with its nerve and that nerve's parent, with the boundary across the middle of the deltoid drawn as a hard line between the supraclavicular and axillary territories
+Purpose: The answer is a map, and the single most examined fact on it is a boundary halfway down one muscle. A tinted map is the form the knowledge takes; a list of strips is a transcription of it that loses every adjacency.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figs. 100 and 101 on Anatomy page 258, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-F4FC0C323C654E.
+### diagram · Cutaneous nerve supply of the hand, palm and dorsum, with the lateral two-thirds and medial third boundaries drawn on each, and the fingers shaded so the median territory on the distal dorsal halves of the lateral three and a half fingers is visibly different from the radial territory on their proximal halves
+Purpose: The hand's map has two boundaries that run in different directions — one along the hand and one across each finger — and prose has to describe them one at a time. One figure carries both, and the finger boundary is the one students consistently lose.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Fig. 102 on Anatomy page 259
+Rights: newly drawn for this product, or CC-BY
+### diagram · The superficial radial territory on the dorsum of the hand with the median overlap drawn as a hatched layer over it, leaving the triangular autonomous area in the first web space unhatched
+Purpose: Overlap is why a wide paraesthesia accompanies a tiny area of complete loss, and hatching is exactly what shows two nerves supplying one patch of skin. A sentence asserts it; the figure demonstrates it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's statement of the overlap and Fig. 115
+Rights: newly drawn for this product, or CC-BY
+Notes: The same plate is requested by ART-101-ANA-RADIAL-NERVE. One drawing serves both.
+## conflicts
+Whether the intercostobrachial nerve is the lateral cutaneous branch of the second intercostal nerve or of the second thoracic nerve. The department book's Axilla chapter calls it "the lateral cutaneous branch of the 2nd thoracic nerve"; its nerve supply chapter and both revision sources call it the lateral cutaneous branch of the second intercostal nerve. These name the same nerve — the second intercostal nerve is the ventral ramus of the second thoracic nerve — and the wording used here is the one the nerve supply chapter and the revisions share.
+## evidence_gaps
+The dermatomes of the upper limb are not stated anywhere in this article. The department book's "Segmental nerve supply of upper limb" section on page 260 consists of two figures with no text, so the values live only inside images the extraction could not read. This is a genuine gap in the corpus and the segmental map is a different question from the cutaneous map.
+No Kasr source states the cutaneous supply of the skin over the scapula, or of the back of the shoulder above the level of the deltoid tuberosity, beyond the posterior cutaneous nerve of the arm's stated territory.
+No Kasr source gives the root values of the individual cutaneous nerves, except the lateral supraclavicular nerve's C3 and C4.
+No Kasr source explains why territories overlap, only that they do and where the one exception is.
+The developmental explanation offered in Mechanism, that the cervical and thoracic territories at the top of the limb are skin the limb bud did not take over, is general embryological reasoning and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the whole map by region, the parent nerve of every branch, the palm, dorsum and finger territories, and the statement of the median overlap with its single exception, with Figs. 100 to 102 and 115. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapters 1, 4 and 5, PDF pages 153-162, 178-193 and 194-204 — the supraclavicular nerves from the cervical plexus, the intercostobrachial nerve as a content of the axilla, the medial cord's two cutaneous branches, and the musculocutaneous nerve becoming the lateral cutaneous nerve of the forearm.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 128, topic "Cutaneous innervation of the upper limb" — the same map region by region with the same parents, and the same statement of the overlap. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 7, "Model answer: cutaneous nerves of the hand and of the shoulder, axilla and arm" — the model answer to a past paper, which is the exact question this concept was drafted from.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, whose upper-limb short-answer questions carry 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation that the supraclavicular and intercostobrachial territories are skin the limb bud never took over is general embryological knowledge, added to make an otherwise arbitrary map memorable. No Kasr source offers any explanation of the map's pattern.
+sections.Mechanism: The rule stated for the arm — back from the radial, medial from the chest wall above and the medial cord below, lateral from cervical plexus, axillary and radial in that order downwards — is this article's own summary of the book's six separate statements.
+sections.Clinical significance: The remark about axillary clearance leaving the medial upper arm numb is general clinical knowledge. The book states the intercostobrachial nerve's territory and names it as a content of the axilla, and does not connect the two.
+## notes
+Written as a new article rather than declared on ART-101-ANA-RADIAL-NERVE, which teaches the radial nerve's own three cutaneous branches thoroughly and teaches none of the other seven. Three of the strips here belong to that article's nerve and are cross-referenced to it; the other territories — supraclavicular, intercostobrachial, medial cord, axillary, musculocutaneous, median and ulnar — have no other home in the batch.
+
+---
+
+# Item
+## id
+ART-101-ANA-AXILLARY-NERVE
+## title
+The axillary nerve
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-EE022A2043C10F
+## related_articles
+ART-101-ANA-SHOULDER-SPACES-ROTATION: The quadrangular space is what this nerve passes through, and the deltoid and teres minor it supplies are described there with their attachments and actions.
+ART-101-ANA-RADIAL-NERVE: The other terminal branch of the posterior cord, taught to the same seven-part specification, and the nerve the lower triangular space carries while this one takes the quadrangular.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: The axillary nerve is one of the four nerves through which Erb's palsy paralyses its nine muscles, and deltoid and teres minor are two of them.
+## aliases
+Axillary nerve | Circumflex nerve | N. axillaris | Axillary nerve injury | Flat shoulder
+## reading_time
+10
+## summary
+The orientation sheet asks every named nerve for seven things, and for the axillary nerve six of them fit in a paragraph: it comes off the posterior cord, carries C5 and C6, crosses the quadrangular space, winds round the surgical neck of the humerus, and supplies two muscles and one patch of skin. The seventh — the effect of injury — is what the exam actually wants, and it follows from the course: the nerve is against bone at the surgical neck, so a dislocated shoulder or a fracture there takes it.
+## sections
+### Overview and position
+The axillary nerve, also called the circumflex nerve, is the smaller of the two terminal branches of the posterior cord of the brachial plexus. Its root value is C5 and C6.
+
+It begins in the axilla and it does not descend into the arm. It passes downwards and laterally, turns backwards at the lower border of subscapularis through the quadrangular space, and ends by winding round the back of the surgical neck of the humerus.
+
+Because it is a posterior-cord nerve, everything it supplies is on the extensor side: the department book states the rule that all branches of the lateral and medial cords supply the flexor side while all branches of the posterior cord supply the extensor side of the upper limb.
+
+### Structure
+The course is short and has three parts.
+
+In the axilla, the nerve arises from the posterior cord and passes downwards and laterally, below the capsule of the shoulder joint.
+
+At the lower border of subscapularis it turns backwards and passes through the quadrangular space, accompanied by the posterior circumflex humeral artery. Where it crosses, it gives an articular branch to the shoulder joint.
+
+Having emerged behind, it winds round the back of the surgical neck of the humerus and ends by dividing into two branches.
+
+The anterior branch continues round the surgical neck, deep to deltoid, and ends near the anterior border of that muscle, supplying it.
+
+The posterior branch gives a branch to teres minor, then curves round the posterior border of deltoid, pierces the deep fascia and continues as the upper lateral cutaneous nerve of the arm, supplying the skin over the lower half of the deltoid.
+
+So the branches are three in kind: articular to the shoulder joint, muscular to deltoid and teres minor, and cutaneous as the upper lateral cutaneous nerve of the arm.
+
+### Relations
+Every relation of this nerve is a place it can be injured, which is why the course is short and the clinical section is long.
+
+In the axilla it lies below the capsule of the shoulder joint. The department book states that below the joint the capsule is lax and forms a fold bulging downwards into the upper part of the axilla, directly related to the axillary nerve and the posterior circumflex humeral artery, and stretched when the arm is fully abducted. The nerve is therefore lying against the weakest part of the joint's capsule.
+
+In the quadrangular space it is bounded above by teres minor behind and subscapularis in front with the capsule of the shoulder joint, below by teres major, medially by the long head of triceps, and laterally by the surgical neck of the humerus. It travels with the posterior circumflex humeral vessels.
+
+Behind the surgical neck of the humerus it lies on bone, deep to deltoid. That is the relation the fracture reaches.
+
+In the axilla generally, the nerve is one of the structures a crutch pressed into the armpit compresses.
+
+### Blood supply, innervation and lymphatics
+What the axillary nerve supplies is asked as branch plus area.
+
+Muscles: deltoid, through the anterior branch and through the muscular part of the posterior branch, and teres minor, through the posterior branch. Two muscles, and no others.
+
+Joint: the shoulder joint, through an articular branch given as the nerve crosses the quadrangular space.
+
+Skin: the lower half of the deltoid, through the upper lateral cutaneous nerve of the arm, which is the continuation of the posterior branch. The upper half of the deltoid is supplied by the lateral supraclavicular nerve, C3 and C4, from the cervical plexus, and that boundary is what makes the sensory loss of an axillary lesion a patch rather than a shoulder.
+
+The artery that accompanies the nerve is the posterior circumflex humeral artery, a branch of the third part of the axillary artery, which arises at the lower border of subscapularis, runs backwards with the nerve through the quadrangular space, winds round the surgical neck and anastomoses with the anterior circumflex humeral artery. No Kasr source describes the vasa nervorum of the nerve itself.
+
+### Development
+Neither Kasr source describes the development of a peripheral nerve, and nothing is invented here.
+
+What the department book does give is the general rule from its embryology part: each somite's dermomyotome divides into a dorsal part, forming the skeletal muscle and dermis on the back of the vertebral column, and a ventral part, forming the skeletal muscles and dermis of the rest of the body, and the spinal nerve divides into dorsal and ventral primary rami to supply the divided dermomyotome. The roots of the brachial plexus are the ventral primary rami of C5 to T1, so the axillary nerve and everything it supplies belong to the ventral division.
+
+The dermatome values that would complete this account are inside two unreadable figures on page 260 of the department book, which is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+No Kasr source gives a surface marking line for the axillary nerve. Two bony landmarks stand in for one.
+
+The surgical neck of the humerus is the level at which the nerve crosses bone, and it lies just below the head, at the upper end of the shaft — the level at which a fracture is described as a fracture of the surgical neck.
+
+The lower half of the deltoid is the nerve's sensory territory, and it is found on the living shoulder as the lower half of the rounded contour the muscle makes. That patch is where sensation is tested after a shoulder injury.
+
+No Kasr source gives a radiographic or ultrasound appearance of the nerve. What the sources give radiologically is the two injuries: dislocation of the shoulder joint and fracture of the surgical neck of the humerus.
+
+### Clinical correlations
+The orientation sheet asks for the effect of injury by name, and this nerve's injury is one of the seven the department book sets out.
+
+The causes are three, and all three are places the course has already explained. Dislocation of the shoulder joint, because the nerve lies against the lax inferior part of the capsule which bulges into the axilla. Fracture of the surgical neck of the humerus, because the nerve is wound round that neck against bone. And pressure of a badly adjusted crutch in the armpit, because the nerve begins in the axilla. The VIP Academy revision specifies downward dislocation of the shoulder joint.
+
+The motor effect is impaired abduction of the shoulder and a flat shoulder. Abduction is lost through the range deltoid provides — from fifteen to ninety degrees — because deltoid is paralysed, and the rounded contour of the shoulder flattens as deltoid wastes, because deltoid is what makes that contour. Teres minor is also paralysed, and the department book gives it as a lateral rotator and a steadier of the humeral head in the glenoid cavity.
+
+The sensory effect is a patch of sensory loss over the lower half of the deltoid, which is the territory of the upper lateral cutaneous nerve of the arm.
+
+What is not lost matters as much. Abduction from zero to fifteen degrees is initiated by supraspinatus, supplied by the suprascapular nerve, and abduction beyond ninety degrees is scapular rotation by trapezius and serratus anterior. So an axillary lesion removes the middle of the range, not the whole of it.
+
+### Variations and anomalies
+No Kasr source describes any variation of the axillary nerve.
+## hold_these
+The axillary (circumflex) nerve arises in the axilla from the posterior cord, as the smaller of its two terminal branches; root value C5 and C6.
+It passes backwards at the lower border of subscapularis through the quadrangular space, with the posterior circumflex humeral artery, to the back of the surgical neck of the humerus.
+It gives an articular branch to the shoulder joint as it crosses the quadrangular space.
+Its anterior branch continues round the surgical neck to supply deltoid; its posterior branch supplies teres minor then becomes the upper lateral cutaneous nerve of the arm.
+It supplies two muscles only: deltoid and teres minor.
+It supplies the skin over the lower half of the deltoid; the upper half is supraclavicular, C3 and C4.
+Its causes of injury are dislocation of the shoulder joint, fracture of the surgical neck of the humerus, and crutch pressure in the armpit.
+Injury gives impaired abduction of the shoulder through the 15 to 90 degree range, a flat shoulder from deltoid wasting, and sensory loss over the lower half of the deltoid.
+The lax inferior fold of the shoulder joint capsule bulges into the upper axilla directly related to this nerve and the posterior circumflex humeral artery, and is stretched when the arm is fully abducted.
+Abduction is not lost entirely: supraspinatus still initiates 0 to 15 degrees and scapular rotation still carries the arm beyond 90.
+## lose_the_mark
+Reporting total loss of abduction. Supraspinatus initiates the first fifteen degrees and the scapular rotators act above ninety; it is the middle range that goes.
+Giving the root value as C5 to T1. The axillary nerve is C5 and C6.
+Saying the sensory loss covers the shoulder. It is a patch over the lower half of deltoid only, because the upper half is supraclavicular.
+Naming deltoid alone as the muscle supplied. Teres minor is the second and is regularly dropped.
+Placing the nerve in the lower triangular space. That space carries the radial nerve and the profunda brachii vessels; the axillary nerve takes the quadrangular space.
+Omitting the articular branch to the shoulder joint. It is one of the three kinds of branch.
+Giving the injury without the three causes. Dislocation, fracture of the surgical neck and crutch pressure are all named by the department book.
+Calling the nerve the larger terminal branch of the posterior cord. The radial nerve is the larger; the axillary is the smaller.
+## image_recommendations
+### anatomy plate · Posterior view of the shoulder with deltoid reflected, showing the axillary nerve emerging from the quadrangular space with the posterior circumflex humeral artery, winding round the surgical neck of the humerus, and dividing into an anterior branch running on under deltoid and a posterior branch giving teres minor and emerging at the posterior border of deltoid as the upper lateral cutaneous nerve of the arm
+Purpose: The whole clinical account depends on the nerve lying against one named part of one bone, and on its terminal division happening there. A dissection view with deltoid reflected is the only way to see a course that is otherwise entirely hidden by the muscle it supplies.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Fig. 107 on Anatomy page 263 and Figs. 25 and 26 on page 177
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-EE022A2043C10F.
+### diagram · Coronal section of the shoulder joint with the arm at rest and again fully abducted, showing the lax inferior fold of the capsule bulging into the upper axilla in the first and stretched over the axillary nerve and posterior circumflex humeral artery in the second, with the head of the humerus drawn displacing downwards in a third panel
+Purpose: The reason a dislocated shoulder injures this nerve and no other is a relation between a weak point of a capsule and a nerve lying under it. Three panels turn the department book's one sentence into the mechanism the question is really asking about.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book's Joints of Upper Limb chapter statement on the inferior capsular fold, Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+### clinical photograph · A patient with a flat shoulder from deltoid wasting after an axillary nerve injury, shown beside the normal rounded contour on the other side, with the area of sensory loss over the lower half of the deltoid outlined
+Purpose: A flattened contour is recognised by comparison and not by description, and the sensory patch is a boundary halfway down a muscle. Showing both on one patient makes the two halves of the lesion one picture.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical teaching set, with consent recorded
+Rights: must be CC-BY or public domain, with patient consent recorded
+### diagram · Abduction of the arm drawn as a bar from 0 to 180 degrees with the three ranges coloured and labelled by muscle and nerve — supraspinatus and suprascapular nerve to 15, deltoid and axillary nerve to 90, trapezius and serratus anterior with accessory and long thoracic nerves to 180 — and the axillary segment struck through
+Purpose: The pitfall this article exists to correct is reporting total loss of abduction. A single bar with one segment removed shows exactly what an axillary lesion costs and exactly what survives.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, from the department book's stated ranges
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+The direction of the dislocation. The department book states that axillary nerve injury is frequent in dislocation of the shoulder joint, without specifying a direction. The VIP Academy Upper Limb revision specifies downward dislocation. Both are given above, the book's general statement first.
+Whether the nerve passes below the capsule of the shoulder joint or through the quadrangular space first. The department book's Axilla chapter says it passes downwards and laterally and, at the lower border of subscapularis, backwards through the quadrangular space; the VIP Academy revision says it passes backwards below the capsule of the shoulder joint through the quadrangular space. These describe the same course from two reference points and both wordings are used above.
+## evidence_gaps
+The dermatome values of the upper limb are not stated in this article. The department book's segmental nerve supply section on page 260 is two figures with no text, so the values live only inside images the extraction could not read.
+No Kasr source describes the development of a peripheral nerve, the vasa nervorum of the axillary nerve, or its internal fascicular anatomy.
+No Kasr source gives a surface marking line for the axillary nerve, unlike the brachial artery, for which a surface line is stated.
+No Kasr source gives a recovery time, a prognosis, or any management for axillary nerve injury; only causes, motor effects and sensory effects are stated.
+No Kasr source names quadrilateral space syndrome or any compressive neuropathy of this nerve, and neither is mentioned here.
+No Kasr source states that teres minor's paralysis has any detectable effect. The muscle is named as paralysed and its actions are given from the muscle chapter; no source says what its loss looks like.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the axillary nerve as a branch of the posterior cord with root value C5 and C6, its course through the quadrangular space, its articular branch, and its anterior and posterior terminal branches with what each supplies; the posterior circumflex humeral artery; and the flexor/extensor rule for the cords. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the three causes of axillary nerve injury and its motor and sensory effects, and the cutaneous map that makes the deltoid boundary examinable, with Fig. 107.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — deltoid and teres minor with their attachments, nerve supply and actions, the ranges of abduction, and the boundaries and contents of the quadrangular space.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the lax inferior capsular fold bulging into the upper axilla in direct relation to the axillary nerve and the posterior circumflex humeral artery, and the mechanism of abduction.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 42, topic "Axillary (circumflex) nerve; axillary artery course and parts" — the same origin, root value, course and branches, and the three causes of injury with downward dislocation specified. Extracted to scripts/kasr/extract/notes.json.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Nerves: Brachial plexus, Median, Radial, Ulnar, Axillary, Musculo-cutaneous nerves (origin, root value, end, course, name of branches with areas supplied by these branches and the effect of injury)", with four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Relations: Reading each relation as a site of injury is this article's own organising device. Every relation and every cause is the department book's; the correspondence between them is drawn here.
+sections.Clinical correlations: The final paragraph, on what abduction survives an axillary lesion, assembles the department book's three stated ranges from three different chapters. The book gives the ranges and gives the injury, and does not put them together.
+sections.Development: The section states the department book's general somite and ventral-ramus rule and says in its own text that the book does not derive a peripheral nerve, exactly as ART-101-ANA-RADIAL-NERVE does for the same reason.
+## notes
+Written as a separate article rather than by extending ART-101-ANA-RADIAL-NERVE into a general nerve-injuries article. The orientation sheet names the axillary nerve in its own right and demands the same seven-part answer it demands for the radial nerve — origin, root value, end, course, branches, areas supplied, effect of injury — so the honest shape is a peer article to that one, built to the same specification. Folding it into an article titled "The radial nerve" would have made that article's title false and would have buried a seven-mark answer inside another nerve's clinical section.
+
+---
+
+# Item
+## id
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
+## title
+The musculocutaneous nerve
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-F125616F7ED37A
+## related_articles
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES: The lateral cutaneous nerve of the forearm is this nerve's own continuation, and its territory is one strip of that map.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: Erb's palsy paralyses biceps, brachialis and coracobrachialis through this nerve, which is why the elbow is extended and the forearm pronated.
+ART-101-ANA-BRACHIAL-ARTERY: The nerve descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery before it leaves them for coracobrachialis.
+## aliases
+Musculocutaneous nerve | Musculo-cutaneous nerve | Lateral cutaneous nerve of the forearm | N. musculocutaneus
+## reading_time
+8
+## summary
+The name is the answer. This nerve is muscular in the arm and cutaneous in the forearm: it supplies the three muscles of the front of the arm, then pierces the deep fascia an inch above the elbow and becomes the lateral cutaneous nerve of the forearm. The two things students lose are the third root, C7, and the small lateral part of brachialis that the radial nerve takes instead.
+## sections
+### Overview and position
+The musculocutaneous nerve arises in the axilla, from the lateral cord of the brachial plexus. Its root value is C5, C6 and C7.
+
+It runs the length of the anterior compartment of the arm, supplying its three muscles, and then leaves the arm as a purely cutaneous nerve of the forearm. It does not enter the hand and it supplies no joint of the wrist.
+
+Because it is a lateral cord nerve, everything it supplies is on the flexor side: the department book states that all branches of the lateral and medial cords supply the flexor side, while all branches of the posterior cord supply the extensor side.
+
+### Structure
+The course has four stages and a name change.
+
+In the axilla it descends lateral to the third part of the axillary artery, and then lateral to the uppermost part of the brachial artery.
+
+It pierces coracobrachialis. That is the single fact by which this nerve is identified in a dissection, and it is the reason coracobrachialis is sometimes described as perforated.
+
+Having emerged from that muscle, it descends obliquely between biceps in front and brachialis behind, supplying the three muscles as it passes.
+
+About one inch above the elbow it pierces the deep fascia at the lateral border of the tendon of biceps and becomes superficial, continuing as the lateral cutaneous nerve of the forearm.
+
+The branches are of two kinds. Muscular branches supply coracobrachialis, biceps and brachialis — with the qualification that a small lateral part of brachialis is supplied by a twig from the radial nerve instead. And the cutaneous continuation, the lateral cutaneous nerve of the forearm, divides into an anterior and a posterior branch, which supply the skin of the lateral side of the forearm, front and back, down to the wrist, and the skin of the upper part of the ball of the thumb.
+
+### Relations
+In the axilla the nerve lies lateral to the third part of the axillary artery, which is the part around which the branches of all three cords are distributed.
+
+In the upper arm it lies lateral to the uppermost part of the brachial artery, and it leaves that relation by turning into coracobrachialis while the artery continues down the medial side.
+
+Within the arm it lies between two muscles it supplies, biceps superficially and brachialis deep, running obliquely from medial above to lateral below.
+
+At the elbow it emerges at the lateral border of the biceps tendon. The other structures at that level are the contents of the cubital fossa — from medial to lateral, the median nerve, the end of the brachial artery, the tendon of biceps, and the radial nerve — and this nerve has already left the fossa's territory by piercing the deep fascia lateral to that tendon.
+
+### Blood supply, innervation and lymphatics
+What the nerve supplies, as branch plus area.
+
+Muscles: coracobrachialis, biceps brachii and brachialis — the whole flexor group of the arm, except a small lateral part of brachialis supplied by the radial nerve.
+
+Skin: through the lateral cutaneous nerve of the forearm and its anterior and posterior branches, the skin of the lateral side of the forearm front and back to the wrist, and the skin of the upper part of the ball of the thumb. That thumb-ball territory is the exception inside the palm's map, where the rest of the lateral two-thirds is median.
+
+No Kasr source states that this nerve supplies any joint, and no Kasr source describes its vasa nervorum.
+
+### Development
+No Kasr source describes the development of a peripheral nerve. The department book's general rule applies: the roots of the brachial plexus are the ventral primary rami of C5 to T1, so this nerve and everything it supplies belong to the ventral division of the dermomyotome. The dermatome values that would complete the account are inside two unreadable figures on page 260 of the book, which is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+No Kasr source gives a surface marking line for the musculocutaneous nerve.
+
+One landmark is stated and is usable: the nerve becomes superficial about one inch above the elbow, at the lateral border of the tendon of biceps. That tendon can be made prominent by resisted elbow flexion, and the point just lateral to it an inch above the joint is where the nerve crosses from the deep to the superficial plane.
+
+No Kasr source gives a radiographic or ultrasound appearance of the nerve.
+
+### Clinical correlations
+The department book's nerve injury chapter describes seven injuries and this nerve is not one of them. That is a genuine silence and it is recorded in `evidence_gaps` rather than filled from elsewhere.
+
+What the corpus does state about this nerve clinically is indirect, and it is examinable. In Erb's paralysis, injury of the upper trunk at C5 and C6, biceps, brachialis and coracobrachialis are paralysed through the musculocutaneous nerve. Two components of the porter's tip deformity follow from that: the elbow is extended, because biceps and most of brachialis are gone, and the forearm is pronated, because biceps is gone and biceps is the powerful supinator of the flexed elbow.
+
+The same fact appears from the other side in radial nerve injury. Failure of supination there is failure of supination of the extended forearm only, because supinator is radial and biceps — musculocutaneous — still supinates the flexed elbow. The two nerves cover the movement between them, and which one is out is tested by the position of the elbow.
+
+### Variations and anomalies
+No Kasr source describes any variation of the musculocutaneous nerve, its communication with the median nerve, or a case in which it fails to pierce coracobrachialis. None is invented here.
+## hold_these
+The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus; root value C5, C6 and C7.
+It descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery.
+It pierces coracobrachialis, then descends obliquely between biceps and brachialis.
+About one inch above the elbow it pierces the deep fascia at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm.
+Its muscular branches supply coracobrachialis, biceps and brachialis — the flexor group of the arm.
+A small lateral part of brachialis is supplied by a twig from the radial nerve, not by this nerve.
+The lateral cutaneous nerve of the forearm divides into anterior and posterior branches supplying the skin of the lateral forearm front and back to the wrist.
+It also supplies the skin of the upper part of the ball of the thumb, which is the exception in the median territory of the palm.
+All branches of the lateral and medial cords supply the flexor side of the limb; all branches of the posterior cord supply the extensor side.
+Biceps is the powerful supinator of the flexed elbow, which is why its loss in Erb's palsy leaves the forearm pronated.
+## lose_the_mark
+Giving the root value as C5 and C6. The department book carries C7 as well.
+Saying the nerve supplies the whole of brachialis. A small lateral part is supplied by a twig from the radial nerve.
+Naming the muscles without the cutaneous continuation. The nerve is called musculocutaneous because it is both, and the lateral cutaneous nerve of the forearm is half the answer.
+Forgetting that it pierces coracobrachialis. That is the identifying feature of its course.
+Omitting the thumb-ball territory. The upper part of the ball of the thumb is supplied by this nerve, not by the median.
+Placing its exit from the deep fascia at the elbow. It is about one inch above the elbow, at the lateral border of the biceps tendon.
+Listing an effect of injury from the department book. The book describes seven nerve injuries and this nerve is not among them; what is stated is its share in Erb's palsy.
+## image_recommendations
+### anatomy plate · Anterior view of the arm with biceps reflected, showing the musculocutaneous nerve leaving the lateral cord, piercing coracobrachialis, running obliquely between biceps and brachialis with muscular branches to all three, and piercing the deep fascia an inch above the elbow at the lateral border of the biceps tendon to continue as the lateral cutaneous nerve of the forearm
+Purpose: The nerve is identified by one event — piercing a muscle — and defined by one transition, from muscular to cutaneous. Both are things that happen at a place, and a dissection view carries them where a list of branches does not.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Arm chapter, Anatomy pages 194-204
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-F125616F7ED37A, whose exam question asked for origin, root value and branches.
+### diagram · The lateral cutaneous nerve of the forearm's territory drawn on anterior and posterior views of the forearm, with its anterior and posterior branches shown dividing, and the upper part of the ball of the thumb shaded separately inside the median territory of the palm
+Purpose: The thumb-ball exception is a small island of one nerve's territory inside another's, which is exactly the kind of fact prose states and readers forget. Shading it inside the palm map is the only form in which it is memorable.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Figs. 100 to 102 on Anatomy pages 258-259
+Rights: newly drawn for this product, or CC-BY
+### diagram · Supination shown twice — the elbow flexed with biceps acting through the musculocutaneous nerve, and the elbow extended with supinator acting through the posterior interosseous nerve — with the two nerves colour-coded
+Purpose: The clinically useful fact is that two different nerves supinate at two different elbow positions, and that this is how the two lesions are told apart. One paired figure makes a testing manoeuvre out of two separate statements.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, from the department book's Joints of Upper Limb chapter statements on the supinators
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which part of brachialis the radial nerve takes. The department book's Arm chapter says the flexor group is supplied by the musculocutaneous nerve "with the small lateral part of brachialis also supplied by a twig from the radial nerve", and its account of the radial nerve lists a branch to "a small lateral part of brachialis". The VIP Academy revision says the musculocutaneous nerve supplies brachialis "except a small lateral part". All three wordings agree and the exception is preserved above.
+## evidence_gaps
+No Kasr source describes any injury of the musculocutaneous nerve, its causes, its motor effects or its sensory effects. The department book's nerve injury chapter covers seven nerves and this is not one of them, although the orientation sheet names it among the nerves examined and asks for "the effect of injury" for each. This is the most consequential gap on this article and the Clinical correlations section says so in its own text.
+No Kasr source gives a surface marking line for the nerve.
+No Kasr source states whether the nerve gives articular branches to the elbow joint.
+No Kasr source describes any variation of the nerve, including the common communication with the median nerve.
+No Kasr source describes the vasa nervorum or the internal fascicular anatomy of the nerve.
+The dermatome values of the upper limb are not stated in this article; the department book's segmental nerve supply section on page 260 is two figures with no text.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 5 "Arm", PDF pages 194-204 — the origin, root value C5, C6 and C7, the course lateral to the axillary and brachial arteries, the piercing of coracobrachialis, the descent between biceps and brachialis, the muscular branches with the brachialis exception, and the piercing of the deep fascia one inch above the elbow to become the lateral cutaneous nerve of the forearm with its two branches and their territory. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the musculocutaneous nerve as a branch of the lateral cord, and the flexor/extensor rule for the cords.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — the lateral cutaneous nerve of the forearm's place in the cutaneous map, and Erb's palsy, in which this nerve's three muscles are paralysed.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11, PDF pages 270-291 — biceps as the most powerful supinator of the flexed elbow and supinator as the main supinator of the extended elbow.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 52, topic "Musculocutaneous nerve and brachial artery" — the same origin, root value, course and branches, with the brachialis exception stated the same way. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 5, "Model answer: musculocutaneous nerve and radial nerve in axilla and arm" — the model answer to a past paper on this nerve.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the musculo-cutaneous nerve among the nerves examined for "origin, root value, end, course, name of branches with areas supplied by these branches and the effect of injury". Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the absence of any stated effect of injury — which the orientation sheet demands — is a second reason.
+sections.Surface and imaging anatomy: The manoeuvre of resisted elbow flexion to raise the biceps tendon is general clinical practice, offered only as a way of finding a landmark the sources do state.
+sections.Clinical correlations: The section is explicitly built from what the corpus says about this nerve elsewhere, because the corpus states no injury of it. Both paragraphs assemble statements the department book makes in other chapters, and the assembly is this article's own.
+sections.Development: Stated as an absence with the book's general rule, exactly as ART-101-ANA-RADIAL-NERVE and ART-101-ANA-AXILLARY-NERVE do, because the same silence covers all three.
+## notes
+The orientation sheet asks this nerve for seven things and the department book supplies six. The seventh, the effect of injury, is missing from the corpus for this nerve alone among the six named ones, and the article states that rather than importing a lesion from a general textbook.
+
+---
+
+# Item
+## id
+ART-101-ANA-MEDIAN-ULNAR-NERVES
+## title
+The median and ulnar nerves and injuries at the wrist
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-9B52018C4649BD | CON-MSK-B640E3E982A149 | CON-MSK-6DD9511FAB3EF1
+## related_articles
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES: The palm, dorsum and finger territories these two nerves divide between them are one region of that map, and the thumb-ball exception is on it.
+ART-101-ANA-HAND-ARTERIES: The radial and ulnar arteries the same wrist laceration divides end as the two palmar arches, and the deep branch of the ulnar nerve curves round in the concavity of the deep arch.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: Klumpke's paralysis claws the hand through the same C8 and T1 fibres that run in the ulnar nerve to the lumbricals and interossei.
+## aliases
+Median nerve | Ulnar nerve | Carpal tunnel syndrome | Claw hand | Ape hand | Wrist laceration
+## reading_time
+14
+## summary
+Between them these two nerves supply every intrinsic muscle of the hand, which is why a cut across the front of the wrist costs the hand its whole fine function. Three questions come off that fact. Carpal tunnel syndrome is the median nerve compressed under the flexor retinaculum and its disability is the loss of thumb opposition. Claw hand is the ulnar nerve, and it is worse at the wrist than at the elbow because a high lesion also takes the long flexors that do the clawing.
+## sections
+### Overview and position
+The median nerve arises in the axilla by two roots, a medial root from the medial cord and a lateral root from the lateral cord, the medial root crossing in front of the axillary artery to join the lateral. Its root value is C5, C6, C7, C8 and T1.
+
+The ulnar nerve arises in the axilla from the medial cord, root value C7, C8 and T1, the C7 fibres reaching it from the lateral cord in the axilla or from the median nerve in the forearm.
+
+Neither nerve gives a single branch in the axilla or in the arm. Both are passengers down the arm and both do all their work in the forearm and the hand, which is why the arm can be opened without either being at risk and why every lesion the department book describes is at the elbow or below.
+
+### Structure
+The median nerve first.
+
+In the axilla it descends lateral to the third part of the axillary artery, and in the upper half of the arm lateral to the upper half of the brachial artery. At the middle of the arm, opposite the insertion of coracobrachialis, it crosses the brachial artery from lateral to medial, and in the lower half of the arm it lies medial to the artery, on brachialis.
+
+In the cubital fossa it lies on brachialis, separated from the median cubital vein by the bicipital aponeurosis. It leaves the fossa by passing between the two heads of pronator teres, separated from the ulnar artery by the deep head of that muscle.
+
+In the forearm it descends in the middle of the front, between flexor digitorum superficialis and flexor digitorum profundus. Immediately above the wrist it becomes superficial, between the tendon of flexor carpi radialis laterally and the tendons of flexor digitorum superficialis medially.
+
+At the wrist it enters the palm through the carpal tunnel, deep to the flexor retinaculum and lying directly under cover of it, and ends by dividing into lateral and medial terminal divisions.
+
+Its branches: none in the axilla or arm; in the forearm, articular branches to the elbow and superior radio-ulnar joints, muscular branches to pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis, the anterior interosseous nerve, and the palmar cutaneous branch. The anterior interosseous nerve descends on the front of the interosseous membrane between flexor pollicis longus and flexor digitorum profundus, disappears deep to pronator quadratus, and supplies flexor pollicis longus, pronator quadratus and the lateral half of flexor digitorum profundus, plus the inferior radio-ulnar and wrist joints. The palmar cutaneous branch arises about an inch above the wrist and runs superficial to the flexor retinaculum to the skin of the lateral two-thirds of the palm. In the palm, the lateral terminal division gives a recurrent branch to the thenar muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — and digital branches to the thumb, the lateral side of the index and the first lumbrical; the medial terminal division supplies the second lumbrical and digital branches to the adjacent sides of index, middle and ring fingers.
+
+Now the ulnar nerve.
+
+In the axilla it descends medial to the third part of the axillary artery, and in the upper half of the arm medial to the upper half of the brachial artery. At the middle of the arm it pierces the medial intermuscular septum into the posterior compartment, taking the superior ulnar collateral artery with it, and descends there.
+
+At the elbow it passes behind the medial epicondyle and enters the forearm between the two heads of flexor carpi ulnaris.
+
+In the forearm it descends on the medial side, between flexor carpi ulnaris and the medial half of flexor digitorum profundus. Above the wrist it becomes superficial between the tendon of flexor carpi ulnaris medially and the tendons of flexor digitorum superficialis laterally.
+
+At the wrist it descends superficial to the flexor retinaculum — not through the carpal tunnel — lateral to the pisiform and medial to the ulnar artery, and ends in front of the retinaculum by dividing into a superficial, mainly cutaneous, branch and a deep, mainly muscular, branch.
+
+Its branches: none in the axilla or arm; in the forearm, muscular branches to flexor carpi ulnaris and the medial half of flexor digitorum profundus, articular branches to the elbow, a palmar cutaneous nerve to the medial third of the palm and a dorsal cutaneous nerve to the medial third of the dorsum and the medial one and a half fingers. In the palm, the superficial terminal branch supplies palmaris brevis and the skin of the medial one and a half fingers; the deep terminal branch dips between abductor and flexor digiti minimi, pierces opponens digiti minimi and curves laterally in the concavity of the deep palmar arch to end in adductor pollicis, supplying on the way the hypothenar muscles, the third and fourth lumbricals, all eight interossei and adductor pollicis.
+
+### Relations
+At the wrist the two nerves lie in the two positions the injuries turn on.
+
+The median nerve is inside the carpal tunnel. The tunnel's sides and floor are the anterior concavity of the carpal bones and its roof is the flexor retinaculum. Its contents are nine tendons — four of flexor digitorum superficialis, four of flexor digitorum profundus and one of flexor pollicis longus — two synovial sheaths, the ulnar and radial bursae, the median nerve lying directly under cover of the retinaculum as the most superficial structure, and the recurrent branch of the deep palmar arch as the deepest.
+
+The ulnar nerve is outside it. It passes superficial to the flexor retinaculum, with the ulnar artery on its lateral side and the pisiform lateral to it as well.
+
+Five structures pass superficial to the flexor retinaculum, and a transverse cut in front of the wrist divides all of them: from medial to lateral, the ulnar nerve, the ulnar artery, the palmar cutaneous branch of the ulnar nerve, the tendon of palmaris longus, and the palmar cutaneous branch of the median nerve.
+
+The radial artery is at the same level on the other side, having become superficial in the lower forearm where its pulsation is felt between the tendons of flexor carpi radialis medially and brachioradialis laterally, before it turns backwards round the lateral side of the wrist.
+
+At the elbow the ulnar nerve lies behind the medial epicondyle, against bone, and then in the cubital tunnel formed by the tendinous arch connecting the two heads of flexor carpi ulnaris.
+
+### Blood supply, innervation and lymphatics
+The division of the hand between the two nerves is the fact the whole article rests on.
+
+Median: the thenar muscles through the recurrent branch, and the lateral two lumbricals.
+
+Ulnar: the hypothenar muscles, the medial two lumbricals, all eight interossei — four palmar and four dorsal — and adductor pollicis, all through the deep terminal branch.
+
+Between them that is every intrinsic muscle of the hand. Nothing else supplies one.
+
+Skin, palmar: median over the lateral two-thirds of the palm, except the proximal part of the thumb ball, which is lateral cutaneous nerve of the forearm; ulnar over the medial third. On the fingers, median over the palmar aspects of the lateral three and a half and the distal halves of their dorsal aspects; ulnar over the medial one and a half.
+
+Skin, dorsal: superficial radial over the lateral two-thirds and the proximal halves of the lateral three and a half fingers; ulnar dorsal cutaneous branch over the medial third and the medial one and a half fingers.
+
+The arteries that accompany them: the ulnar artery lies medial to the median nerve at the wrist and lateral to the ulnar nerve, and the two forearm arteries end as the superficial and deep palmar arches, the deep arch carrying the deep branch of the ulnar nerve in its concavity.
+
+### Development
+No Kasr source describes the development of a peripheral nerve. The department book's general rule applies — the roots of the brachial plexus are the ventral primary rami of C5 to T1 — and the dermatome values that would complete it are inside two unreadable figures on page 260 of the book, recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+Both nerves become superficial at the wrist and both are found by tendons.
+
+The median nerve lies between the tendon of flexor carpi radialis laterally and the tendons of flexor digitorum superficialis medially, immediately above the wrist, and then passes under the flexor retinaculum.
+
+The ulnar nerve lies between the tendon of flexor carpi ulnaris medially and the tendons of flexor digitorum superficialis laterally, and at the wrist it is lateral to the pisiform, which is palpable.
+
+The ulnar nerve is also palpable behind the medial epicondyle, where it lies against bone.
+
+No Kasr source gives a radiographic or ultrasound appearance of either nerve.
+
+### Clinical correlations
+Three lesions, and each is a consequence of a relation already described.
+
+Carpal tunnel syndrome. The lesion is compression of the median nerve as it passes deep to the flexor retinaculum, and the department book gives the causes: lunate dislocation, carpal bone osteophytes, arthritic changes of the intercarpal joints, inflammation of the flexor synovial sheaths, or fluid accumulation. The sensory picture is paraesthesia over the lateral three and a half fingers — and note that the palmar cutaneous branch, which supplies the lateral two-thirds of the palm, arises about an inch above the wrist and runs superficial to the retinaculum, so it escapes a lesion inside the tunnel. That is the anatomical reason the palm is spared in carpal tunnel syndrome and not in a cut wrist. The motor picture is wasting of the thenar muscles with flattening of the thenar eminence, loss of opposition of the thumb, lateral rotation of the thumb so that the first metacarpal becomes parallel to the others as opponens loses its tone, and adduction of the thumb because adductor pollicis — ulnar — is intact while the abductor is paralysed. That posture is the ape or monkey hand. The disability is the loss of opposition: sensation over the fingers that do fine work is impaired, but it is the thumb that cannot be brought round to meet them.
+
+Ulnar nerve injury at the elbow. The causes are fracture of the medial epicondyle, dislocation or compression at the elbow, and compression in the cubital tunnel. The muscles paralysed are flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm, and in the hand the hypothenar muscles, the medial two lumbricals, all the interossei and adductor pollicis. The signs are radial deviation of the wrist, from paralysis of flexor carpi ulnaris; loss of adduction of the thumb, so the patient cannot grip a piece of paper between thumb and index; loss of abduction and adduction of the fingers, so paper cannot be gripped between the fingers; flattening of the hypothenar eminence and hollowing between the metacarpals on the dorsum. Sensory loss covers the medial third of the palm and of the dorsum of the hand and both aspects of the medial one and a half fingers. And the deformity is a partial claw hand which is less apparent than after an injury at the wrist.
+
+That last point is the discriminating question, and the reason is mechanical. The claw is produced by the long flexors pulling the interphalangeal joints into flexion while the lumbricals and interossei that would oppose them are gone. An injury at the elbow paralyses the medial half of flexor digitorum profundus as well, so the very muscle that would flex those joints into the claw is also out, and the clawing is less. An injury at the wrist leaves the profundus intact, so the claw is fully expressed. A higher lesion produces a lesser deformity, which is the opposite of what a student expects.
+
+A transverse laceration in front of the wrist. What it divides follows from the relations: the ulnar nerve and the ulnar artery, the palmar cutaneous branches of both nerves, the tendon of palmaris longus, and — deep to the retinaculum or at its edge — the median nerve, with the radial artery superficial on the lateral side at the same level. The neurological loss is therefore sensory over the palmar aspect of the hand and fingers, both territories at once, and motor over every intrinsic muscle of the hand, because the median and ulnar nerves supply all of them between them. The hand keeps its long flexors and extensors, whose bellies are in the forearm above the cut, and loses everything that makes it a hand rather than a hook.
+
+### Variations and anomalies
+No Kasr source describes any variation of either nerve, including the communication between the musculocutaneous and median nerves or a Martin-Gruber anastomosis. None is invented here.
+## hold_these
+The median nerve arises by two roots, medial from the medial cord and lateral from the lateral cord, root value C5 to T1; the ulnar nerve arises from the medial cord, root value C7, C8 and T1.
+Neither nerve gives any branch in the axilla or the arm.
+At the middle of the arm the median nerve crosses the brachial artery from lateral to medial and the ulnar nerve pierces the medial intermuscular septum into the posterior compartment.
+The median nerve enters the palm through the carpal tunnel, lying directly under cover of the flexor retinaculum; the ulnar nerve passes superficial to the retinaculum, lateral to the pisiform and medial to the ulnar artery.
+The median palmar cutaneous branch arises an inch above the wrist and passes superficial to the retinaculum, which is why the palm is spared in carpal tunnel syndrome.
+The median nerve supplies the thenar muscles and the lateral two lumbricals; the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei and adductor pollicis.
+Between them the two nerves supply every intrinsic muscle of the hand.
+Carpal tunnel syndrome gives paraesthesia over the lateral three and a half fingers, thenar wasting, and the ape hand — thumb adducted and laterally rotated with loss of opposition.
+Ulnar injury at the elbow gives radial deviation, loss of thumb adduction, loss of finger abduction and adduction, hypothenar wasting, and a partial claw hand.
+Clawing is less apparent after an ulnar lesion at the elbow than at the wrist, because the medial half of flexor digitorum profundus is also paralysed.
+Five structures pass superficial to the flexor retinaculum: from medial to lateral the ulnar nerve, the ulnar artery, the ulnar palmar cutaneous branch, the tendon of palmaris longus, and the median palmar cutaneous branch.
+## lose_the_mark
+Assuming a higher ulnar lesion is worse. Clawing needs the long flexors intact to pull the fingers, so an elbow lesion that also paralyses flexor digitorum profundus claws less than a wrist lesion.
+Answering carpal tunnel syndrome with the sensory loss only. The disability is the loss of opposition of the thumb, which costs the hand its grip.
+Including the lateral two-thirds of the palm in the sensory loss of carpal tunnel syndrome. The palmar cutaneous branch leaves above the retinaculum and passes superficial to it, so it is spared inside the tunnel — but not by a cut wrist.
+Saying the ulnar nerve passes through the carpal tunnel. It passes superficial to the flexor retinaculum.
+Giving the ulnar root value as C8 and T1. The department book carries C7 as well.
+Listing branches of either nerve in the arm. Neither gives any branch in the axilla or the arm.
+Naming only some intrinsic muscles as lost after a wrist laceration. Every one of them is median or ulnar, so all of them go.
+Attributing the adducted thumb of the ape hand to an overactive adductor. Adductor pollicis is ulnar and simply unopposed once the median-supplied abductor is paralysed.
+## image_recommendations
+### anatomy plate · Anterior view of the whole upper limb with the median nerve and the ulnar nerve drawn in two colours from their origins in the axilla to their terminal divisions in the hand, with the four crossing points marked — the median crossing the brachial artery at mid-arm, the ulnar piercing the medial septum at mid-arm, the median passing between the heads of pronator teres, and the ulnar passing behind the medial epicondyle
+Purpose: The two courses are learnt as a pair and are told apart by four events at two levels. One plate in two colours makes the pairing structural rather than a matter of holding two separate descriptions in mind.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Arm and Forearm chapters
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+### diagram · Transverse section at the level of the flexor retinaculum, showing the carpal tunnel with its nine tendons, two bursae and the median nerve directly under the retinaculum, and outside the tunnel, superficial to the retinaculum, the five structures in order from medial to lateral, with the radial artery marked on the lateral side
+Purpose: Three separate questions — carpal tunnel syndrome, ulnar injury at the wrist, and what a transverse laceration divides — are all answered by one cross-section. Nothing else shows at once that the median nerve is inside and the ulnar nerve outside.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Figs. 72 and 73 in the Forearm chapter, Anatomy pages 205-234
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves all three concepts on this article.
+### diagram · Claw hand explained in two panels — an ulnar lesion at the wrist with flexor digitorum profundus intact and the interphalangeal joints fully flexed, beside an ulnar lesion at the elbow with the medial half of profundus also paralysed and the same joints only partly flexed — the paralysed muscles greyed out in each
+Purpose: The examinable point is a counter-intuitive comparison between two levels of the same lesion, and it turns on which muscle is greyed out. Two panels side by side make the argument; a sentence asserting that a higher lesion claws less does not.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn, following the department book Fig. 109 on Anatomy page 264
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-B640E3E982A149.
+### clinical photograph · A hand with the ape or monkey deformity after a median nerve lesion — thenar eminence wasted and flat, thumb adducted and laterally rotated into the plane of the other metacarpals — shown beside a normal hand attempting opposition
+Purpose: The deformity is a change in the plane of one bone, which is a three-dimensional fact that a photograph settles and a description does not. Pairing it with an attempted opposition shows the disability rather than the appearance.
+Priority: required
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical teaching set, with consent recorded; the department book Fig. 112 may serve as drawing direction rather than being reproduced
+Rights: must be CC-BY or public domain, with patient consent recorded
+Notes: Serves concept CON-MSK-9B52018C4649BD.
+## conflicts
+Whether the sensory loss of carpal tunnel syndrome includes the palm. The department book states that in carpal tunnel syndrome there is paraesthesia just over the lateral three and a half fingers, while in a cut wrist the lateral two-thirds of the palm is also lost if the palmar cutaneous branch is involved. Concept CON-MSK-9B52018C4649BD gives the sensory territory as the palmar surface of the lateral three and a half fingers and the dorsal aspect of their distal phalanges, and does not mention the palm. These agree; the distinction between the two causes is stated above because the corpus makes it and it is the anatomical point of the palmar cutaneous branch.
+Which lumbricals the median nerve supplies. The department book's account of ulnar injury says the second and third fingers are less affected because their lumbricals are median-supplied; its account of the median nerve in the palm gives the first and second lumbricals to the median. Concept CON-MSK-9B52018C4649BD says the lateral two lumbricals. All three agree on two lumbricals and the numbering above follows the palm account.
+Whether the ulnar nerve supplies flexor pollicis brevis. The VIP Academy revision says the deep terminal branch "may also supply" it; the department book does not raise the question. The hedge is preserved by not listing the muscle among the ulnar-supplied ones above.
+## evidence_gaps
+No Kasr source states where to compress an artery to arrest bleeding from a wrist laceration. Concept CON-MSK-6DD9511FAB3EF1 names compression of the brachial artery against the humerus at the middle and at the lower part of the arm. What the corpus supports is that the brachial artery is superficial throughout its course, covered only by skin and fascia, and runs on the medial side of the shaft of the humerus, with a stated surface marking. The article does not assert the compression manoeuvre, and the gap is named in field_notes.
+No Kasr source states the management, repair or prognosis of any of the three lesions.
+No Kasr source describes Froment's sign, Tinel's sign, Phalen's test or any named bedside test, although the two paper-grip manoeuvres for adductor pollicis and the interossei are the book's own.
+No Kasr source describes any variation of either nerve.
+No Kasr source describes the vasa nervorum or the internal fascicular anatomy of either nerve.
+The dermatome values of the upper limb are not stated in this article; the department book's segmental nerve supply section on page 260 is two figures with no text.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 6 "Forearm", PDF pages 205-234 — the course and branches of both nerves in the forearm and hand, the anterior interosseous nerve, both palmar cutaneous branches, the flexor retinaculum with the five structures superficial to it and the contents of the carpal tunnel, and the ulnar nerve's position at the wrist, with Figs. 72 and 73. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the causes, motor signs, sensory losses and deformities of median and ulnar nerve injury at both levels, the ape hand, the two claw hands and the reason the higher ulnar lesion claws less, with Figs. 109 to 113.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the relations of both nerves to the brachial artery and the four events at the middle of the arm.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the two roots of the median nerve and the ulnar nerve as the largest branch of the medial cord.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 82 to 92, topics "Median and ulnar nerves — origin and course", "Branches of the median and ulnar nerves", "Proximal injuries of the median and ulnar nerves", "Distal injuries of the median and ulnar nerves at the wrist" and "Radial and ulnar arteries — beginning, course and end" — the root values including the ulnar C7 fibres, the full branch lists, both levels of injury for each nerve, and the superficial position of both forearm arteries at the wrist. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 17 — the model answer for the carpal tunnel, giving its boundaries, contents and syndrome.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the median and ulnar nerves among the nerves examined for origin, root value, end, course, branches, areas supplied and the effect of injury, with four upper-limb short-answer questions at 7 marks each and a clinical case. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unsourced compression manoeuvre recorded in evidence_gaps is a second reason.
+sections.Clinical correlations: The explanation that the palmar cutaneous branch escapes a lesion inside the carpal tunnel because it leaves an inch above the wrist and runs superficial to the retinaculum is reasoning from two of the book's own statements. The book states the branch's course and states the two different sensory pictures, and does not connect them.
+sections.Clinical correlations: The mechanical account of why a higher ulnar lesion claws less follows the department book's own stated reason — that the medial half of flexor digitorum profundus is also paralysed — and expands it into the muscle-by-muscle argument given here.
+sections.Clinical correlations: The account of what a wrist laceration divides is assembled from the book's list of the five structures superficial to the flexor retinaculum, its account of the carpal tunnel, and the VIP Academy revision's account of the two forearm arteries at the wrist. No Kasr source describes the laceration itself, and the compression manoeuvre named in the concept is not stated here.
+sections.Blood supply, innervation and lymphatics: The claim that between them the two nerves supply every intrinsic muscle of the hand is an inference from the two branch lists, which together account for the thenar muscles, hypothenar muscles, all four lumbricals, all eight interossei and adductor pollicis. No Kasr source states it as a generalisation.
+## notes
+Three concepts, one article, because all three are answered from one cross-section at the wrist and because the two nerves are learnt as a pair — ape hand against claw hand, inside the tunnel against outside it. The wrist laceration is the case that makes the pairing matter, and it is also the concept the corpus supports least well: the anatomy is fully sourced and the first-aid manoeuvre is not, which is stated rather than papered over.
+
+---
+
+# Item
+## id
+ART-101-ANA-SYNOVIAL-JOINTS
+## title
+The synovial joint
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Basis of anatomy
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## related_concepts
+CON-MSK-1E40050F141F4C
+## related_articles
+ART-101-ANA-FIBROUS-JOINTS: The first class, united by fibrous tissue and immobile, and the one this class is defined against.
+ART-101-ANA-CARTILAGINOUS-JOINTS: The second class, united by cartilage, whose secondary type has limited mobility without any of the seven components described here.
+ART-101-ANA-ELBOW-JOINT: The worked example — a compound hinge joint with every one of these seven components named on a real joint.
+ART-101-ANA-SHOULDER-JOINT: The other worked example, and the one that shows what happens when the components are present but weak.
+## aliases
+Synovial joint | Diarthrosis | Structure of a synovial joint | Types of synovial joint | Joint stability
+## reading_time
+10
+## summary
+A synovial joint is the third class of joint and the only one with a cavity, and the department asks it as a list of seven components. Two of the seven are traps. The joint cavity is potential, not actual — it holds a film of fluid and becomes a space only when disease fills it. And articular cartilage has no blood vessels and no nerves, which is why it is nourished by the fluid and why it does not heal.
+## sections
+### Definition
+A joint is the contact between two bones or more, and joints are classified by what lies between them: fibrous tissue, cartilage, or a cavity.
+
+A synovial joint is the third of those. It is freely mobile and it is present mostly in the limbs. It is defined by having a cavity between the articulating bones, and the cavity is what the other two classes lack.
+
+The department book lists seven components, and the list is closed: a fibrous capsule, articular cartilage, a joint cavity, a synovial membrane, synovial fluid, ligaments, and intra-articular structures.
+
+### Mechanism
+Every one of the seven components exists to solve one of two problems: how two bones can move freely on each other without wearing out, and how they can do that without coming apart.
+
+Free movement without wear is solved by three of them together. Articular cartilage is hyaline cartilage covering the articular surfaces; it is smooth, and it is lubricated by the synovial fluid. The joint cavity is the gap that lets the surfaces move independently, and it is only a potential cavity — the two cartilages are in contact, with a thin film of fluid between them, and the cavity becomes manifest only if fluid, blood or pus collects. The synovial membrane secretes and absorbs the fluid, keeping the film renewed.
+
+The cartilage's own properties follow from what it is for. It has no blood vessels and no nerves. That is why it takes its nourishment from the synovial fluid, and it is also why the surfaces themselves are insensitive: the pain of an injured joint is felt in the capsule and the ligaments, where the articular nerves end, not in the cartilage.
+
+Staying together is solved by the other components. The fibrous capsule surrounds the joint, is lined by the synovial membrane and is supported and strengthened by strong ligaments. Ligaments come in three positions — capsular, thickenings of the capsule itself; extracapsular, outside it; and intracapsular, inside it. Intra-articular structures — a fibrocartilaginous disc, menisci, a ligament or a tendon — sit inside the joint and improve fit or transmit force.
+
+The synovial membrane's own definition contains the rule that makes an intra-articular structure intelligible: it is a thin, moist, glistening membrane covering all the structures inside the joint except the articular surfaces. So a tendon running through a joint is inside the capsule but outside the synovial cavity, wrapped in synovium.
+
+Stability and mobility then trade off against each other, and the department book gives the factors for each. Stability depends on the shape and fitting of the articulating surfaces, the thickness and elasticity of the capsule, the position and strength of the ligaments, and the strength of the muscles surrounding the joint. The range of movement is limited by the tension of the ligaments surrounding the joint, the contraction of the antagonistic muscles, and the approximation and contact of the soft tissues around the joint. A joint built for stability has good fit, a thick capsule and strong ligaments; a joint built for range has none of them, which is what the shoulder demonstrates.
+
+### Key determinants
+The seven components, each with what the book says about it.
+
+The fibrous capsule surrounds the joint. It is lined by the synovial membrane and it is supported and strengthened by strong ligaments.
+
+Articular cartilage is hyaline cartilage covering the articular surfaces. It is smooth and lubricated by synovial fluid, it has no blood vessels and no nerves, and it is nourished from the synovial fluid.
+
+The joint cavity is a potential cavity holding only a thin film of synovial fluid. It becomes manifest if fluid, blood or pus collects in it.
+
+The synovial membrane is thin, moist and glistening. It covers all the structures inside the joint except the articular surfaces, it lines the fibrous capsule, and it secretes and absorbs the synovial fluid.
+
+Synovial fluid is pale yellow and viscous, like egg albumin, and it contains synovial cells, macrophages and lymphocytes.
+
+Ligaments are capsular, extracapsular or intracapsular.
+
+Intra-articular structures are the articular fibrocartilaginous disc, the menisci or semilunar cartilages, a ligament, or a tendon.
+
+Two classifications follow, and both are asked.
+
+By the number of articulating bones: simple, like the shoulder; compound, like the elbow; and complex, like the knee.
+
+By axis and shape: uni-axial, which is the hinge joint, as at the elbow, and the pivot joint, as at the superior radio-ulnar joint; bi-axial, which is the condylar joint, as at the knee and the temporo-mandibular joint, the ellipsoid joint, as at the wrist, and the saddle joint, as at the carpo-metacarpal joint of the thumb; multi-axial, which is the ball and socket joint, as at the shoulder and the hip; and non-axial, the plane joint, as at the superior tibio-fibular, intercarpal and intervertebral joints.
+
+The book defines four of those shapes. A hinge joint is uni-axial, with a trochlea-like convex articular surface and one transverse axis, allowing flexion and extension only. A pivot joint is uni-axial, its articulating surface a central bony pivot surrounded by a fibro-osseous ring, allowing rotation about a longitudinal axis. An ellipsoid joint is bi-axial, an oval convex surface against an elliptical concave one. A saddle joint is bi-axial, its articulating surfaces concavo-convex. A non-axial or plane joint has flat articular surfaces and its movement is gliding, with no axis.
+
+The movements of joints, as a closed list: flexion, extension, abduction, adduction, circumduction, rotation, gliding, supination, pronation, inversion, eversion and opposition.
+
+### Clinical significance
+The department book's clinical material for the articular system attaches to this class, because this is the class that has a cavity to fill and a membrane to inflame.
+
+The joint cavity is potential, so anything that collects in it makes it actual — fluid, blood or pus, in the book's own three words. That is the anatomical basis of a joint effusion, a haemarthrosis and a septic joint, and it is why a swollen joint is a joint whose potential cavity has become a real one.
+
+Articular cartilage has no blood vessels and no nerves. A tissue with no blood supply of its own has no ordinary route to repair, and a surface with no nerves cannot report its own damage.
+
+The sensory nerves supplying a joint are called articular nerves. They end in the fibrous capsule and the related ligaments, and they are sensitive to pain, to position and to movement of the joint. So a joint reports three different things, and it reports all three from its capsule.
+
+### Common misconceptions
+The joint cavity is not a space. It is a potential cavity holding a film of fluid, and calling it a space describes a diseased joint rather than a normal one.
+
+The synovial membrane does not line the articular surfaces. It covers everything inside the joint except them, which is exactly why a tendon crossing a joint is covered by synovium and the cartilage is not.
+
+Articular cartilage is not fibrocartilage. It is hyaline cartilage; the fibrocartilaginous structures in a joint are the intra-articular disc and the menisci, which are a separate component of the list.
+
+Not every ligament is outside the joint. Ligaments are capsular, extracapsular or intracapsular, and the third kind is inside the capsule.
+
+Stability and range are not the same question. The book gives four factors for stability and three for range, and they are different lists.
+
+The list of components is seven, not five. Synovial fluid and the intra-articular structures are the two most often dropped, and both are separately named by the book.
+## hold_these
+A synovial joint is freely mobile, present mostly in the limbs, and is the only class of joint with a cavity.
+Its seven components are the fibrous capsule, articular cartilage, joint cavity, synovial membrane, synovial fluid, ligaments and intra-articular structures.
+The joint cavity is potential, holding only a thin film of fluid, and becomes manifest if fluid, blood or pus collects.
+Articular cartilage is hyaline, smooth and lubricated by synovial fluid, has no blood vessels and no nerves, and is nourished from the fluid.
+The synovial membrane covers everything inside the joint except the articular surfaces, and it secretes and absorbs the synovial fluid.
+Synovial fluid is pale yellow and viscous like egg albumin, and contains synovial cells, macrophages and lymphocytes.
+Ligaments are capsular, extracapsular or intracapsular; intra-articular structures are a disc, menisci, a ligament or a tendon.
+Stability depends on the fit of the surfaces, the thickness and elasticity of the capsule, the position and strength of the ligaments, and the strength of the surrounding muscles.
+Range of movement is limited by ligament tension, contraction of the antagonists, and approximation of the surrounding soft tissues.
+Synovial joints are simple, compound or complex by the number of bones, and uni-axial, bi-axial, multi-axial or non-axial by shape.
+Articular nerves end in the fibrous capsule and related ligaments and are sensitive to pain, position and movement.
+## lose_the_mark
+Calling the joint cavity a space. It is a potential cavity with only a film of fluid in it.
+Giving five components. The list is seven, and synovial fluid and the intra-articular structures are the two usually dropped.
+Saying the synovial membrane lines the articular cartilage. It covers everything inside the joint except the articular surfaces.
+Describing articular cartilage as fibrocartilage. It is hyaline; the fibrocartilage in a joint is the disc or the menisci.
+Giving one list for stability and range. The book gives four factors for stability and three for range, and they are separate questions.
+Placing all ligaments outside the joint. They are capsular, extracapsular or intracapsular.
+Forgetting that articular cartilage has neither blood vessels nor nerves. Both absences are separately examinable and both have consequences.
+Confusing the classification by number of bones with the classification by axis. Simple, compound and complex is one axis; hinge, pivot, ellipsoid, saddle, ball-and-socket and plane is another.
+## image_recommendations
+### diagram · Cut-away of a generic synovial joint with all seven components labelled — fibrous capsule, hyaline articular cartilage on both surfaces, the potential cavity drawn as a film rather than a gap, synovial membrane shown lining everything except the cartilage, ligaments in all three positions, and an intra-articular disc
+Purpose: The answer is a seven-item list of things arranged around each other, and two of them are defined by where they are not — the membrane stops at the cartilage, and the cavity is a film. Only a labelled section shows an absence.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Articular System chapter figures, Anatomy pages 122-131, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-1E40050F141F4C.
+### diagram · The same joint drawn twice, normal with a potential cavity and effused with an actual one, so the film of fluid and the distended cavity are directly comparable
+Purpose: The single most examined distinction here is between a potential and an actual cavity, and it is a difference in one dimension of one drawing. Nothing else makes "potential" concrete.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · Chart of synovial joint types by axis and shape — uni-axial hinge and pivot, bi-axial condylar, ellipsoid and saddle, multi-axial ball and socket, and non-axial plane — with a small drawing of the articular surfaces and the named example beside each
+Purpose: Every name in this closed list is a shape argument about two surfaces, and the names are meaningless without the shapes. A labelled array keeps six types distinguishable where a list keeps them interchangeable.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 122-131
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+[clear]
+## evidence_gaps
+The department book does not define a condylar joint or a ball and socket joint, although it names both and gives examples. It defines the hinge, pivot, ellipsoid, saddle and plane joints only, and no definition is supplied here for the two it omits.
+The book gives no thickness for articular cartilage and no volume for the synovial fluid in any joint.
+The book does not name any disease of a synovial joint. The consequences drawn in Clinical significance from the potential cavity and from the avascular cartilage are reasoning, not quotations, and are named in field_notes.
+The book does not describe the blood supply of a synovial joint, only its nerve supply through the articular nerves.
+The book does not state how the synovial fluid reaches the deep layers of the articular cartilage.
+No independent citation has been attached to any statement in this article, and only the department book covers this class in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, chapter 4 "Articular System", PDF pages 122-131 — the definition of a synovial joint, its seven components each with the book's own description, the potential cavity, the avascular and aneural articular cartilage, the composition of the synovial fluid, the three positions of ligaments, the intra-articular structures, the factors affecting stability and range, the two classifications with their examples, the definitions of the hinge, pivot, ellipsoid, saddle and plane joints, the closed list of joint movements, and the articular nerves. Extracted to scripts/kasr/extract/deptbook.json.
+VIP Academy revision book "Module 101 - Basis of Human Anatomy" (src_8054875331d47d3f225a), topics "Synovial joints — structure and stability" and "Joint movements and types of synovial joint" — the same components, the same stability factors and the same classification. Extracted to scripts/kasr/extract/notes.json.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Joints" is one of the named basis topics, and the basis short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The organisation of the seven components into "free movement without wear" and "staying together" is this article's own, written to make a flat list derivable. The components and their descriptions are the book's.
+sections.Mechanism: The observation that the synovial membrane's exception for the articular surfaces is what makes an intra-capsular tendon intelligible joins two of the book's own statements, which the book makes separately.
+sections.Clinical significance: The naming of effusion, haemarthrosis and septic arthritis follows the book's own three words — fluid, blood or pus — but the clinical terms are general knowledge and the book names no disease. The inference that avascular cartilage does not repair, and that an insensitive surface cannot report damage, is likewise general and is not in any Kasr source.
+## notes
+Written as a separate article on the Articular system leaf rather than as an extension of ART-101-ANA-CARTILAGINOUS-JOINTS, which is a focused piece about the second class and mentions this one only as a contrast. Three classes, three articles, each teaching the class it is named for.
+
+---
+
+# Item
+## id
+ART-101-ANA-PARAXIAL-MESODERM
+## title
+Paraxial mesoderm and the somites
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-5E63C211DEEE00
+## related_articles
+ART-101-ANA-EMBRYONIC-FOLDING: Growth of the neural tube and the somites is one of the two causes of folding, and the somite period and the folding period overlap almost exactly.
+ART-101-ANA-FERTILIZATION: The disc these three columns of mesoderm form in is the disc the zygote's descendants have become by the third week.
+## aliases
+Somites | Paraxial mesoderm | Sclerotome | Dermomyotome | Myotome | Somite derivatives
+## reading_time
+9
+## summary
+The intra-embryonic mesoderm sorts itself into three columns and only the innermost one segments. Each segment splits obliquely into two, and the two halves become the two things a body segment needs: a sclerotome that makes the vertebra, and a dermomyotome that makes the dermis and the muscle. The word dermatome means something different here from what it means in a neurology exam, and the difference is worth knowing before it costs a mark.
+## sections
+### Definition
+The intra-embryonic mesoderm is the middle layer of the trilaminar disc, formed during the third week from epiblast cells passing through the primitive streak and node.
+
+It differentiates into three longitudinal columns on each side, named by position and each derived from a different part of the streak. Paraxial mesoderm lies on both sides of the notochord and the neural tube, from the cranial part of the primitive streak. Intermediate mesoderm lies between the paraxial and the lateral plate, from the middle part of the streak. Lateral plate mesoderm lies most laterally, from the caudal part of the streak.
+
+Somites are the transverse segments of the paraxial mesoderm. They are segmented masses of it, and segmentation begins at the occipital region and extends caudally to the coccygeal region. Cephalic to the first occipital somite the segments are smaller and are called somitomeres.
+
+### Mechanism
+The three columns divide the body's building work between them, and only one of them is segmented.
+
+Paraxial mesoderm segments because the body wall it builds is segmented: a repeating vertebra, a repeating muscle block, a repeating strip of dermis, each served by a repeating spinal nerve. Intermediate mesoderm forms the urogenital system, which is not segmented in the same way. Lateral plate mesoderm forms the body wall's lining and the serous sacs, and it is split by the intra-embryonic coelom into somatopleuric mesoderm in contact with the ectoderm and splanchnopleuric mesoderm in contact with the endoderm.
+
+Each somite then divides obliquely into two parts, and the obliquity is the point: the split is not horizontal, so one part comes to lie ventromedially, next to the notochord and neural tube it will surround, and the other dorsolaterally, next to the surface it will supply.
+
+The ventromedial part is the sclerotome. Its cells migrate medially to surround the notochord and the neural tube, and they form the vertebrae and the intervertebral discs — the bodies around the notochord and the neural arches around the tube.
+
+The dorsolateral part is the dermomyotome, and it subdivides again. The dermatome forms the dermis of the skin. The myotome forms the skeletal muscles of the body.
+
+The dermomyotome then divides once more, into a dorsal and a ventral part, and this division is the one that explains the nerve supply of the whole trunk. The dorsal part forms the skeletal muscle and the dermis on the back of the vertebral column. The ventral part forms the skeletal muscles and the dermis of the rest of the body — the anterolateral aspect and the limbs. And the spinal nerve of that segment divides in the same way, into a dorsal primary ramus and a ventral primary ramus, to supply the two parts of the divided dermomyotome.
+
+That is why the muscles of the back are supplied by dorsal rami and everything else by ventral rami, and why the brachial plexus, which supplies a limb, is built from ventral rami alone.
+
+### Key determinants
+The numbers the department book gives, which are asked as numbers.
+
+The first pair of occipital somites separates on the twentieth gestational day. Three pairs separate each day until the thirtieth day, which is the somite period of regular segmentation, and segmentation then continues at a slower and irregular rate. By day forty there are forty-two to forty-four pairs.
+
+The age of the embryo during the somite period can be read off the count. The book's formula is: age in days equals the number of somites minus one, divided by three, plus twenty.
+
+The regional classification of the somites, from cranial to caudal: four occipital, eight cervical, twelve thoracic, five lumbar, five sacral and eight to ten coccygeal pairs.
+
+The derivatives, as the answer to the question.
+
+Sclerotome — the ventromedial part. Its cells migrate medially around the notochord and the neural tube and form the vertebrae and the intervertebral discs.
+
+Dermomyotome — the dorsolateral part. It subdivides into dermatome, forming the dermis of the skin, and myotome, forming the skeletal muscles of the body.
+
+Dorsal part of the dermomyotome: muscle and dermis on the back of the vertebral column, supplied by the dorsal primary ramus.
+
+Ventral part of the dermomyotome: muscle and dermis of the rest of the body, including the limbs, supplied by the ventral primary ramus.
+
+The other two columns, because the same question can ask for the whole differentiation. Intermediate mesoderm forms the urogenital system. Lateral plate mesoderm is continuous with the opposite side mainly cranial to the bucco-pharyngeal membrane and with the extra-embryonic mesoderm at the margin of the disc; its cranial part is the septum transversum, which forms the central tendon of the diaphragm, and the part between the serous pericardium and the endoderm is the cardiogenic area. The intra-embryonic coelom is a horse-shoe cavity inside the lateral plate mesoderm whose caudal ends communicate with the extra-embryonic coelom, and it forms the serous sacs of the body — the serous pericardium, the pleura and the peritoneal canals. It splits the lateral plate mesoderm into somatopleuric mesoderm, forming the lining connective tissue of the trunk wall and the parietal layers of the serous sacs, and splanchnopleuric mesoderm, forming the connective tissue and smooth muscle of the gut and respiratory tract, the cardiac muscle, and the visceral layers of the serous sacs.
+
+### Clinical significance
+The department book states no anomaly of the somites, and that silence is recorded in `evidence_gaps`. Two of its statements nevertheless carry consequences.
+
+The somite count dates the embryo. The book gives a formula for the age in days from the number of somites, which makes the somite the embryological clock of the fourth and fifth weeks.
+
+The dorsal and ventral halves of the dermomyotome are the anatomical reason for the two primary rami of every spinal nerve. A segmental muscle and the strip of skin over it are supplied by the same nerve because they came from the same somite, which is what makes a dermatome map possible at all.
+
+### Common misconceptions
+"Dermatome" means two different things and this is the place both are met. In the somite it is the part of the dermomyotome that makes the dermis. In clinical neurology it is the strip of skin supplied by one spinal nerve. The two are related — the strip of skin exists because a dermatome made it and one nerve supplies it — but they are not the same word used twice for one thing, and a question about somite derivatives is asking about the first.
+
+Only the paraxial mesoderm segments. The intermediate and lateral plate mesoderm do not become somites.
+
+The somite splits obliquely, not into a top and a bottom half. The two parts are ventromedial and dorsolateral, and their positions are what put the sclerotome next to the notochord.
+
+The sclerotome does not form the whole vertebral column by itself around the notochord alone. It surrounds the notochord and the neural tube, giving the bodies and the discs and the arch.
+
+The myotome does not form only trunk muscle. Its ventral part forms the skeletal muscles of the anterolateral body wall and of the limbs.
+
+Somitomeres are not somites. They are the smaller segments cephalic to the first occipital somite.
+## hold_these
+The intra-embryonic mesoderm differentiates into paraxial, intermediate and lateral plate mesoderm, from the cranial, middle and caudal parts of the primitive streak.
+Somites are the transverse segments of the paraxial mesoderm, lying on both sides of the notochord and neural tube.
+Segmentation begins at the occipital region and extends caudally; somitomeres are the smaller segments cephalic to the first occipital somite.
+The first pair appears on the 20th day, three pairs a day until the 30th, then more slowly; there are 42 to 44 pairs by day 40.
+Age in days = (number of somites - 1)/3 + 20.
+The somites are 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs.
+Each somite divides obliquely into a ventromedial sclerotome and a dorsolateral dermomyotome.
+The sclerotome migrates medially around the notochord and neural tube to form the vertebrae and intervertebral discs.
+The dermomyotome subdivides into dermatome, forming the dermis, and myotome, forming skeletal muscle.
+The dorsal part of the dermomyotome forms muscle and dermis of the back and is supplied by the dorsal primary ramus; the ventral part forms those of the rest of the body and is supplied by the ventral primary ramus.
+Intermediate mesoderm forms the urogenital system; lateral plate mesoderm gives the septum transversum, the cardiogenic area and, split by the intra-embryonic coelom, the somatopleuric and splanchnopleuric layers.
+## lose_the_mark
+Reading "dermatome" as the skin area of a spinal nerve. In the somite it is the part of the dermomyotome that forms the dermis.
+Saying all three columns of mesoderm segment. Only the paraxial mesoderm does.
+Describing the somite's division as horizontal. It is oblique, giving a ventromedial sclerotome and a dorsolateral dermomyotome.
+Giving the sclerotome the vertebral bodies only. It surrounds the neural tube as well, forming the arch, and it forms the intervertebral discs.
+Omitting the dorsal and ventral division of the dermomyotome. That division is what the two primary rami of a spinal nerve correspond to, and it is regularly asked with it.
+Calling somitomeres small somites. They are the segments cephalic to the first occipital somite and are named separately.
+Losing the numbers. The first pair on day 20, three pairs a day to day 30, 42 to 44 pairs, and the regional counts are all stated by the book and all examinable.
+## image_recommendations
+### diagram · Transverse section of the trilaminar disc with the three columns of intra-embryonic mesoderm labelled either side of the notochord and neural tube — paraxial, intermediate and lateral plate — with the part of the primitive streak each comes from indicated on a companion dorsal view
+Purpose: The three columns are defined by position relative to the midline, and each has a different origin along the streak. One section plus one dorsal view carries both facts in the geometry, where prose has to state them twice.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book Figure 5.1, Anatomy pages 87-93, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+### diagram · One somite in transverse section drawn in three stages — intact, split obliquely into ventromedial sclerotome and dorsolateral dermomyotome, and with the dermomyotome subdivided into dermatome and myotome and further into dorsal and ventral parts — with the spinal nerve's dorsal and ventral primary rami drawn to their matching parts in the last panel
+Purpose: The whole answer is a sequence of divisions ending in a correspondence between two halves of a somite and two branches of a nerve. A three-stage figure makes the correspondence visible; a paragraph asks the reader to hold four divisions in mind before the point arrives.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figures 5.2 and 5.3 and the unlabelled dermomyotome figure, Anatomy pages 87-93
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-5E63C211DEEE00.
+### diagram · Dorsal view of the embryo at about thirty days with the somite pairs drawn and grouped by region — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 8 to 10 coccygeal — and a scale showing the count against gestational day
+Purpose: The regional counts and the dating formula are one fact seen twice, and a labelled column of segments makes the count reproducible. It also shows that segmentation runs cranio-caudally, which the numbers alone do not.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn for this product from the department book's stated counts
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Where this material sits in the book. Concept CON-DEV-5E63C211DEEE00 is placed on the Third Week of Development leaf, and the intra-embryonic mesoderm does form in the third week. The department book describes the differentiation of the mesoderm, the somites and their derivatives in its Embryonic Period chapter, PDF pages 87-93, because the somite period runs from day 20 to day 30. This article carries the concept's placement and its evidence basis names the chapter the material comes from.
+The upper limit of the somite period. The department book states that segmentation is regular until the thirtieth day and then continues at a slower irregular rate, and gives 42 to 44 pairs by day 40. The VIP Academy revision says the slower rate continues until the thirty-fifth or fortieth day. Both are given above, the book's wording first.
+## evidence_gaps
+No Kasr source names any anomaly or malformation of the somites, of segmentation, or of the sclerotome.
+No Kasr source states the mechanism by which the paraxial mesoderm segments, only that it does and in what order.
+No Kasr source states what becomes of the somitomeres.
+No Kasr source gives the fate of the occipital somites specifically, although it counts them.
+The account in Mechanism of why only the paraxial column segments — that the body wall it builds is itself segmented — is reasoning added to make the three-column division meaningful, and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the differentiation of the intra-embryonic mesoderm into three columns with the part of the streak each comes from, the somites with their segmentation order and somitomeres, the somite period and counts, the age formula, the regional classification, the oblique division into sclerotome and dermomyotome with the derivatives of each, the dorsal and ventral parts of the dermomyotome matched to the two primary rami, and the fates of the intermediate and lateral plate mesoderm with the intra-embryonic coelom, with Figures 5.1 to 5.5. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the formation of the intra-embryonic mesoderm from epiblast cells passing through the primitive streak and node, and the regions where it is absent.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), topics "Germ layer derivatives and mesoderm differentiation" and "Somites, intra-embryonic coelom and lateral plate mesoderm" — the same three columns, the same somite counts and dates, the same formula and the same derivatives. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: paraxial mesoderm and somites" — the model answer to a past paper, which adds that the sclerotome forms the vertebral bodies and intervertebral discs around the notochord and the neural arch around the neural tube.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-5E63C211DEEE00 carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation that the paraxial column segments because the structures it builds repeat, while the other two columns build unsegmented things, is this article's own reasoning. The book states what each column forms and does not say why one segments.
+sections.Clinical significance: The observation that the shared somite origin of a muscle and its overlying skin is what makes a dermatome map possible is general embryological reasoning from the book's own statement about the two primary rami.
+sections.Common misconceptions: The distinction between the two senses of "dermatome" is drawn here because both senses appear in this module — the somite sense in this chapter and the segmental sense in the upper limb's nerve supply chapter. Neither Kasr source flags the ambiguity.
+## notes
+Placed on the Third Week leaf because that is where the concept and the paper put it, while the material comes from the book's Embryonic Period chapter. Both facts are recorded in conflicts so the mismatch is not later read as an extraction error.
+
+---
+
+# Item
+## id
+ART-101-ANA-AMNIOTIC-FLUID
+## title
+The amnion and the amniotic fluid
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## primary_node_id
+DIS-EMB-T02
+## related_concepts
+CON-DEV-F356C3B8CFD31E
+## related_articles
+ART-101-ANA-UMBILICAL-CORD: The amnion ensheathes the cord, and the expanding amniotic cavity is what wraps it round the cord's contents in the first place.
+ART-101-ANA-EMBRYONIC-FOLDING: Expansion of the amniotic cavity is one of the two causes of folding, and the same expansion is what brings amnion into contact with chorion.
+ART-101-ANA-DECIDUA: The amnio-chorionic membrane meets the decidua capsularis, and the two then meet the decidua parietalis, which obliterates the uterine cavity.
+## aliases
+Amniotic fluid | Liquor amnii | Amnion | Polyhydramnios | Oligohydramnios
+## reading_time
+10
+## summary
+The examinable answer here is a list grouped by stage, and the grouping is the whole of it: the fluid does one set of jobs in early pregnancy, a different set in late pregnancy, and a third set during delivery. Answering with cushioning alone gives one item from one group. The two disorders are named by volume — more than two litres is polyhydramnios, less than four hundred millilitres oligohydramnios — and each has its own short list of causes.
+## sections
+### Definition
+The amnion is the wall of the amniotic cavity. The cavity appears within the inner cell mass on the eighth day, and the embryoblast then differentiates into amnioblast cells, lying next to the cytotrophoblast, and epiblast cells, lying next to the hypoblast. Where the amnion meets the periphery of the ectoderm is the amnio-ectodermal junction.
+
+Amniotic fluid is the clear watery fluid filling that cavity. It is water, electrolytes, protein, carbohydrate, lipid, phospholipid and urea.
+
+It has three sources in sequence. It is first produced by the amnioblast cells. It is then derived from maternal blood by osmosis, which is its main source. And after the fetal kidneys develop, fetal urine is added, from the fifth month.
+
+Its volume is one to one and a half litres from the thirty-seventh week until birth.
+
+### Mechanism
+The amniotic cavity does not merely contain the embryo; its expansion is what shapes the pregnancy, and the department book lists five consequences of that expansion.
+
+It causes folding of the embryonic disc, with formation of the primitive umbilical ring. It forms a sheath of amnion around the umbilical cord. It covers the fetal surface of the placenta. It brings the amnion into contact with the chorion, forming the amnio-chorionic membrane and obliterating the chorionic cavity — which happens at the beginning of the third month. And finally it brings that membrane, with the decidua capsularis, into contact with the decidua parietalis, obliterating the uterine cavity at the end of the third month.
+
+The fluid's functions then follow from what the fetus needs at each stage, which is why the answer is grouped by stage rather than given as one list.
+
+Early, the fetus is small and fragile and the danger is mechanical and thermal. Fluid is incompressible, so a blow to the abdomen is distributed rather than delivered; water has a high heat capacity, so the temperature around the fetus is steady; and a fetus floating free cannot stick to the wall it is floating in, nor can its own parts stick to each other.
+
+Late, the fetus is large and the problem is no longer protection but room. It needs space to move, because movement is what develops the fetal muscles; it needs somewhere to put the urine it is now producing; and it needs something to practise swallowing, which is how it learns to suckle.
+
+During delivery, the fluid becomes part of the mechanism of birth. It cushions the fetus against the uterine contractions. The fore bag of the amniotic sac — the part of the sac below the presenting part — is pushed into the cervical canal by each contraction and dilates it gradually rather than abruptly. The rupture of that sac is the sign that labour has started. And because the fluid is sterile, its escape washes the vagina immediately before the fetus passes through it.
+
+### Key determinants
+The functions, in the department book's own three groups. The grouping is the answer's structure and it is where the marks are laid out.
+
+In early pregnancy. A shock absorber, protecting the fetus from external trauma. A thermal insulator, ensuring a constant fetal temperature. And prevention of adhesion — of the fetus to the uterine wall, and of the fetal body parts to each other.
+
+In late pregnancy. Space for the fetal movements that are essential for the development of the fetal muscles. Space for the accumulation of fetal urine. And a medium the fetus starts to swallow, at the beginning of the fifth month, learning how to suckle.
+
+During delivery. Protection of the fetus against the uterine contractions. The fore bag of the amniotic sac helping the gradual dilatation of the cervical canal. Rupture of the amniotic sac as the sign of the start of labour. And the sterile fluid washing the vagina just before the passage of the fetus.
+
+The department book adds a fourth item outside the three groups: amniotic fluid contains considerable amounts of stem cells and is a source of stem cells.
+
+### Normal values
+The amniotic cavity appears on the eighth day. Fetal urine is added to the fluid from the fifth month, and the fetus starts swallowing it at the beginning of the fifth month. The volume is one to one and a half litres from the thirty-seventh week until birth.
+
+Polyhydramnios is more than two litres at full term. Oligohydramnios is less than four hundred millilitres at full term. In polyhydramnios the cause is unknown in about thirty-five per cent — a third — of cases.
+
+Amnion contacts chorion at the beginning of the third month, and the uterine cavity is obliterated at the end of the third month.
+
+### Clinical significance
+Both disorders are defined by volume and both are explained by the two things that control it: how much fluid arrives, and how much the fetus takes away.
+
+Polyhydramnios is increased amniotic fluid at full term, more than two litres. Its causes are unknown in about a third of cases; maternal diabetes; congenital malformation of the oesophagus, such as oesophageal atresia, which interferes with fetal swallowing; and congenital malformation of the central nervous system, such as anencephaly. Two of those four are failures of swallowing — the fetus has been drinking the fluid since the fifth month, and an oesophagus that does not open, or a brain that cannot drive the swallow, leaves it where it is.
+
+Oligohydramnios is decreased amniotic fluid at full term, less than four hundred millilitres. It may result from bilateral renal agenesis or from obstruction of the urinary tract. Both are failures of the other side of the balance — from the fifth month, fetal urine is one of the things keeping the volume up, and a fetus that makes none, or cannot pass it, runs the cavity dry.
+
+The department book adds one statement about the membrane itself: premature rupture of the amniotic sac is the commonest cause of preterm labour. That sits with the fluid's role in delivery, where the rupture of the sac is normally the sign that labour has begun.
+
+### Common misconceptions
+Cushioning is one item, not the answer. The department book groups the functions into early pregnancy, late pregnancy and delivery, and the delivery group — gradual cervical dilatation, the sign of labour, and washing the birth canal — is a third of the marks.
+
+The fluid is not mainly made by the amnion. The amnioblasts produce it first, but it is then derived from maternal blood by osmosis, with fetal urine added from the fifth month.
+
+Fetal urine is not a contaminant of the fluid. It is one of its three sources, and providing somewhere for it is one of the fluid's own stated late-pregnancy functions.
+
+The fore bag is not the whole sac. It is the part below the presenting part, and its job is to dilate the cervical canal gradually.
+
+Rupture of the sac is normally the sign that labour has started. It is only pathological when it is premature, and premature rupture is the commonest cause of preterm labour.
+
+Polyhydramnios and oligohydramnios have different logics. Polyhydramnios is mostly a failure to swallow; oligohydramnios is a failure to make or pass urine.
+## hold_these
+The amnion is the wall of the amniotic cavity, which appears within the inner cell mass on the 8th day.
+Amniotic fluid is water, electrolytes, protein, carbohydrate, lipid, phospholipid and urea; it is produced first by amnioblasts, then derived from maternal blood by osmosis, with fetal urine added from the 5th month.
+Its volume is 1.0 to 1.5 litres from the 37th week until birth.
+Early functions: shock absorber against external trauma, thermal insulator, and prevention of adhesion of the fetus to the uterine wall and of fetal parts to each other.
+Late functions: space for fetal movements that develop the fetal muscles, space for fetal urine, and a medium the fetus swallows to learn to suckle.
+Functions during delivery: protection against uterine contractions, gradual dilatation of the cervix by the fore bag, rupture as the sign of labour, and sterile washing of the vagina before the fetus passes.
+Amniotic fluid is also a source of stem cells.
+Polyhydramnios is more than 2 litres at full term; causes are unknown in about 35%, maternal diabetes, oesophageal atresia and CNS malformation such as anencephaly.
+Oligohydramnios is less than 400 ml at full term, from bilateral renal agenesis or urinary tract obstruction.
+Premature rupture of the amniotic sac is the commonest cause of preterm labour.
+Expansion of the amniotic cavity folds the disc, sheathes the cord, covers the fetal surface of the placenta, forms the amnio-chorionic membrane, and obliterates the uterine cavity by the end of the third month.
+## lose_the_mark
+Giving cushioning alone. The functions are grouped into early pregnancy, late pregnancy and delivery, and the delivery group is a third of the answer.
+Omitting the fore bag. Gradual dilatation of the cervical canal is a stated function and is the one most often dropped.
+Saying the amnion makes the fluid. Amnioblasts make it first; it is then derived from maternal blood by osmosis, with fetal urine added from the 5th month.
+Confusing the two volume thresholds. Polyhydramnios is above 2 litres, oligohydramnios below 400 ml, both at full term.
+Giving three causes of polyhydramnios and leaving out "unknown". The book puts the unknown cause first and gives it at about a third of cases.
+Attributing oligohydramnios to a swallowing problem. It is a urinary problem — renal agenesis or urinary obstruction.
+Calling rupture of the sac pathological. It is the normal sign that labour has started; it is premature rupture that is the problem.
+## image_recommendations
+### diagram · The three groups of amniotic fluid functions as three panels on one plate — the early fetus floating free with trauma, heat and adhesion arrowed; the late fetus moving, urinating and swallowing; and the fetus in labour with the fore bag drawn in the dilating cervical canal
+Purpose: The answer is grouped by stage and the grouping is what the mark scheme follows. Three panels enforce the three groups in a way a flat list never does, and the fore bag is a shape that has to be seen once.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn for this product, following the department book's Fetal Membranes chapter, Anatomy pages 94-105
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-F356C3B8CFD31E.
+### diagram · The five results of expansion of the amniotic cavity drawn as a sequence of sagittal sections of the gravid uterus, from the disc folding, through amnion sheathing the cord and covering the placenta, to amnion meeting chorion, to the amnio-chorionic membrane meeting decidua parietalis with the uterine cavity gone
+Purpose: One expanding cavity produces five different results at five different times, which is a single process seen at five moments. A sequence of the same section is the only form that makes them one story rather than five facts.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book Figures 6.8 and 6.9 on Anatomy page 100
+Rights: newly drawn for this product, or CC-BY
+Notes: The same plate serves ART-101-ANA-DECIDUA for the obliteration of the uterine cavity.
+### diagram · The volume balance drawn as a two-sided chart — sources on one side (amnioblasts, maternal blood by osmosis, fetal urine from the 5th month) and removal on the other (fetal swallowing from the 5th month) — with the causes of polyhydramnios attached to the swallowing side and those of oligohydramnios to the urine side
+Purpose: The two disorders are opposite failures of one balance, and the causes become derivable rather than memorable once the balance is drawn. This is the argument the Clinical significance section makes in words.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn for this product from the department book's stated sources and causes
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+The main source of the fluid. The department book states it is first produced by amnioblast cells and then derived from maternal blood by osmosis. The VIP Academy embryology revision states it is "partially produced by amnioblasts but primarily derived from maternal blood by osmosis". The two agree; the revision's word "primarily" is used above because it settles which source dominates, and the difference is recorded because the book does not say so outright.
+## evidence_gaps
+No Kasr source states how amniotic fluid is turned over, or how often, only what its sources are.
+No Kasr source states the management of polyhydramnios or oligohydramnios, or the consequences of either for the fetus beyond naming their causes.
+No Kasr source names amniocentesis or any diagnostic use of the fluid, although the book states the fluid is a source of stem cells.
+No Kasr source states why maternal diabetes causes polyhydramnios; the cause is listed without a mechanism, and none is invented here.
+The account in Clinical significance of the two disorders as opposite failures of one balance is reasoning built from the book's own lists of sources and causes, and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 6 "Fetal Membranes", PDF pages 94-105 — the amnion and the amnio-ectodermal junction, the five results of expansion of the amniotic cavity, the composition and three sources of the fluid, the three groups of functions, the stem cell statement, the volumes, and polyhydramnios and oligohydramnios with their causes, with Figures 6.8 and 6.9. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 3 "Second Week of Development", PDF pages 72-79 — the appearance of the amniotic cavity on the eighth day and the differentiation of amnioblast from epiblast.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 44, topic "Amniotic fluid abnormalities and the umbilical cord" — the same volumes, the same causes of both disorders, and the statement that premature rupture is the commonest cause of preterm labour. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 19, "Model answer: amniotic fluid, umbilical cord anomalies and placental abnormalities" — the model answer to a past paper, giving the three groups of functions in the same order.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: fetal membranes are within the General Embryology scope, whose short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-F356C3B8CFD31E carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The paragraphs explaining why each group of functions belongs to its stage — incompressibility, heat capacity, room to move — are general physical and physiological reasoning added to make a grouped list derivable. The book states the functions and the grouping and gives no reasons.
+sections.Clinical significance: The reading of polyhydramnios as a failure to swallow and oligohydramnios as a failure to make or pass urine is this article's own. Every cause named is the book's; the balance they are arranged around is not.
+sections.Common misconceptions: The observation that the fore bag is the part of the sac below the presenting part is general obstetric knowledge; the sources name the fore bag and its function without defining it.
+## notes
+Written as its own article on the Fetal Membranes leaf rather than folded into the cord or the placenta, because the department book treats the amnion and its fluid as one of the five fetal membranes with its own development, sources, three-part function list and two disorders. The three-part grouping is the article's organising spine, because it is also the mark scheme's.
+
+---
+
+# Item
+## id
+ART-101-ANA-CUBITAL-FOSSA
+## title
+The cubital fossa
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-74BFAB9385B955
+## related_articles
+ART-101-ANA-BRACHIAL-ARTERY: The artery ends inside this fossa, one centimetre below the elbow joint, and its two terminal branches leave through it.
+ART-101-ANA-MEDIAN-ULNAR-NERVES: The median nerve is the most medial content and leaves the fossa between the two heads of pronator teres.
+ART-101-ANA-RADIAL-NERVE: The radial nerve ends in the lateral part of this fossa, in front of the lateral epicondyle, by giving the posterior interosseous nerve.
+ART-101-ANA-ELBOW-JOINT: The joint the fossa lies in front of, and the joint the fossa's floor muscles cross.
+## aliases
+Cubital fossa | Antecubital fossa | Triangle of the elbow | Bicipital aponeurosis
+## reading_time
+9
+## summary
+The cubital fossa is an inverted triangle in front of the elbow with four contents in a fixed medial-to-lateral order, and the order is the answer. One structure in its roof does the clinical work: the bicipital aponeurosis lies between the median cubital vein above and the brachial artery and median nerve below, and it is the reason a needle put into that vein does not reach either of them.
+## sections
+### Definition
+The cubital fossa is an inverted triangular space in front of the elbow joint, occupying the upper third of the front of the forearm.
+
+Its boundaries are three. The base, above, is an imaginary transverse line drawn between the two epicondyles of the humerus. The lateral boundary is brachioradialis. The medial boundary is pronator teres. The apex, below, is where brachioradialis overlaps pronator teres.
+
+Its floor is formed by two muscles: brachialis medially and supinator laterally.
+
+Its roof has two layers. Superficially, skin and superficial fascia, containing parts of the cephalic and basilic veins with the median cubital vein connecting them, the anterior branches of the lateral and medial cutaneous nerves of the forearm, and the supratrochlear lymph nodes in its upper lateral part. Deep to that, the deep fascia, reinforced by the bicipital aponeurosis.
+
+### Mechanism
+The fossa is not a cavity but a gap left between two diverging muscles, and everything about it follows from that.
+
+Brachioradialis arises above the lateral epicondyle and runs down the lateral side of the forearm; pronator teres arises from the medial epicondyle and runs down and laterally. The two therefore start apart and converge, which makes a triangle with its base at the epicondyles and its apex where they cross. The floor is what lies behind the gap — brachialis, which crosses the front of the joint medially, and supinator, which wraps the upper radius laterally.
+
+Because the gap is the route from the arm to the forearm, everything travelling between them passes through it, and the contents are simply those structures in the order they happen to lie. From medial to lateral: the median nerve; the termination of the brachial artery with the beginnings of the ulnar and radial arteries; the tendon of biceps; and the radial nerve with the beginning of its posterior interosseous branch.
+
+Each content also leaves by its own door, which is what makes the fossa a junction rather than a room. The median nerve leaves by passing between the two heads of pronator teres. The radial artery leaves through the apex. The ulnar artery leaves deep to pronator teres. The radial nerve ends here by dividing, its posterior interosseous branch leaving by piercing supinator.
+
+The roof is where the clinically important arrangement is. The superficial veins lie in the superficial fascia, above the deep fascia; the artery and the median nerve lie beneath the deep fascia. Between them, reinforcing the deep fascia, is the bicipital aponeurosis — a flat expansion from the tendon of biceps running downwards and medially. So the median cubital vein, which is the standard vein for venepuncture, is separated from the brachial artery and the median nerve by a sheet of fibrous tissue.
+
+### Key determinants
+The answer, in the order the examiner asks it.
+
+Site. An inverted triangular space in front of the elbow joint, occupying the upper third of the front of the forearm.
+
+Boundaries. Base above: an imaginary transverse line between the two epicondyles of the humerus. Laterally: brachioradialis. Medially: pronator teres. Apex below: where brachioradialis overlaps pronator teres.
+
+Floor. Brachialis medially, supinator laterally.
+
+Roof. Skin; superficial fascia containing the cephalic vein, the basilic vein, the median cubital vein connecting them, the anterior branches of the lateral and medial cutaneous nerves of the forearm, and the supratrochlear lymph node; and deep fascia reinforced by the bicipital aponeurosis.
+
+Contents, from medial to lateral. The median nerve, which leaves the fossa between the two heads of pronator teres. The termination of the brachial artery with the beginnings of the ulnar and radial arteries — the radial leaving through the apex, the ulnar leaving deep to pronator teres. The tendon of biceps. The radial nerve with the beginning of its posterior interosseous branch, which leaves by piercing supinator.
+
+Four contents, and the mnemonic order is medial to lateral, which is the direction the department book and the past-question model answer both use.
+
+### Clinical significance
+The fossa is where the front of the elbow is entered, and three things are done there.
+
+Venepuncture, from the median cubital vein in the superficial fascia of the roof. The bicipital aponeurosis lies between that vein and the brachial artery and median nerve beneath, and it is what makes the procedure safe. A student who has not learnt the aponeurosis has not learnt why a needle in the antecubital fossa does not find an artery.
+
+Palpation and auscultation of the brachial artery, which lies in the fossa medial to the biceps tendon, midway between the two epicondyles. That is the point the department book gives as the lower end of the artery's surface marking, and it is where a blood pressure cuff is auscultated.
+
+The supratrochlear lymph node lies in the upper lateral part of the roof. It is the node that drains part of the forearm and hand, and it is palpable there.
+
+The department book states no injury of the fossa itself, and that silence is recorded in `evidence_gaps`.
+
+### Common misconceptions
+The floor is not the muscles that bound it. Brachialis and supinator are the floor; brachioradialis and pronator teres are the walls.
+
+The base of the triangle is above, not below. It is an inverted triangle: the base is the interepicondylar line and the apex points down the forearm.
+
+The bicipital aponeurosis is in the roof, not in the contents. It is a reinforcement of the deep fascia, and its position between the vein and the artery is what makes it examinable.
+
+The brachial artery does not end at the elbow joint. It ends one centimetre below the joint, at the level of the neck of the radius, which is inside the fossa.
+
+The contents are given medial to lateral. Reciting them in another order is a way of getting the list right and the question wrong, because the order is what is being asked.
+
+The veins and cutaneous nerves are in the roof, not in the contents. They lie superficial to the deep fascia; the four contents lie deep to it.
+## hold_these
+The cubital fossa is an inverted triangular space in front of the elbow joint, in the upper third of the front of the forearm.
+Its base is an imaginary transverse line between the two epicondyles; laterally brachioradialis, medially pronator teres, apex where brachioradialis overlaps pronator teres.
+Its floor is brachialis medially and supinator laterally.
+Its roof is skin, superficial fascia and deep fascia reinforced by the bicipital aponeurosis.
+The superficial fascia of the roof contains the cephalic and basilic veins with the median cubital vein between them, the anterior branches of the lateral and medial cutaneous nerves of the forearm, and the supratrochlear lymph node.
+The contents from medial to lateral are the median nerve, the end of the brachial artery with the beginnings of the ulnar and radial arteries, the tendon of biceps, and the radial nerve with the beginning of the posterior interosseous nerve.
+The median nerve leaves between the two heads of pronator teres; the radial artery leaves through the apex; the ulnar artery leaves deep to pronator teres; the posterior interosseous nerve leaves by piercing supinator.
+The bicipital aponeurosis separates the median cubital vein above from the brachial artery and median nerve below.
+The brachial artery ends 1 cm below the elbow joint at the level of the neck of the radius, inside the fossa.
+## lose_the_mark
+Naming brachioradialis and pronator teres as the floor. They are the lateral and medial boundaries; the floor is brachialis and supinator.
+Giving the contents in any order but medial to lateral. The order is what the question asks for.
+Putting the veins and cutaneous nerves among the contents. They are in the superficial fascia of the roof, above the deep fascia.
+Omitting the bicipital aponeurosis. It is in the roof and it is the reason venepuncture there is safe.
+Describing the triangle with its base below. It is inverted: base at the epicondyles, apex pointing down.
+Ending the brachial artery at the joint. It ends one centimetre below it, at the neck of the radius.
+Forgetting that the radial nerve is a content. It ends in the lateral part of the fossa by dividing, and it is the most lateral of the four.
+## image_recommendations
+### anatomy plate · Anterior view of the elbow with the cubital fossa outlined, the deep fascia and bicipital aponeurosis reflected on one side, showing the four contents in their medial-to-lateral order and the floor muscles behind them, with the exit route of each content arrowed
+Purpose: The examinable answer is an ordered list in a triangle, and each item has its own exit. A single dissection view with arrows carries the order and the exits together, where prose gives the order once and the exits separately.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Key determinants
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Forearm chapter, Anatomy pages 205-234
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-74BFAB9385B955.
+### diagram · Sagittal section through the roof of the cubital fossa showing, from the surface inwards, skin, superficial fascia with the median cubital vein in it, deep fascia reinforced by the bicipital aponeurosis, and the brachial artery and median nerve beneath — with a needle drawn entering the vein and stopping at the aponeurosis
+Purpose: The whole clinical point is a layer lying between two things, which is a fact about depth. A section with the needle drawn in makes the safety of venepuncture an anatomical observation rather than an assertion.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · The superficial veins of the front of the elbow — cephalic laterally, basilic medially, median cubital connecting them — drawn on a forearm outline with the supratrochlear lymph node in the upper lateral part of the roof and the two cutaneous nerves marked
+Purpose: The roof's contents are a list of things at one level, and the veins' pattern is what a student actually meets in a clinical skills room. Drawing it beside the node and nerves fixes which structures are superficial to the deep fascia.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book's Veins of the Upper Limb chapter, Anatomy pages 253-256
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the supratrochlear lymph node is one node or several. The department book's Forearm chapter roof list is given without a count and the Kasr past-question summary says "supratrochlear lymph node" in the singular while the concept record says "the supratrochlear lymph nodes". Nothing turns on it, and both wordings are used above.
+Where the ulnar artery leaves the fossa. The department book states that the median nerve is separated from the ulnar artery by the deep head of pronator teres; the Kasr past-question summary states that the ulnar artery leaves deep to pronator teres. These agree and the summary's explicit wording is used.
+## evidence_gaps
+No Kasr source describes any injury, infection or surgical approach involving the cubital fossa.
+No Kasr source gives the dimensions of the fossa or any surface marking for its apex.
+No Kasr source states which part of the upper limb the supratrochlear lymph node drains, although it places the node in the roof.
+No Kasr source states in so many words that the bicipital aponeurosis is what makes venepuncture at the median cubital vein safe. What the sources give is the aponeurosis's position between the vein and the artery and nerve. The inference is named in field_notes.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 6 "Forearm", PDF pages 205-234 — the site, base, boundaries, apex, floor and contents of the cubital fossa in medial-to-lateral order, the exit of the median nerve between the heads of pronator teres, and the relation of the median nerve to the bicipital aponeurosis and the median cubital vein. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the brachial artery ending one centimetre below the elbow joint at the neck of the radius, its surface marking to a point midway between the epicondyles medial to the biceps tendon, and the bicipital aponeurosis as an expansion of the biceps tendon.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 17, "Model answer: anatomical snuff box, carpal tunnel, cubital fossa, intermuscular spaces and axilla" — the model answer to a past paper, giving the boundaries, floor, roof with its named contents including the supratrochlear lymph node, and the four contents with the exit route of each.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the cubital fossa among the spaces of the upper limb and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The account of the fossa as a gap between two diverging muscles, and of the contents as whatever passes between arm and forearm, is this article's own reasoning. The boundaries and contents are the sources'; the derivation is not.
+sections.Clinical significance: The statements about venepuncture, blood pressure auscultation and palpation of the supratrochlear node are general clinical knowledge. Every anatomical fact they rest on is in the sources, and no Kasr source states any of the three procedures.
+## notes
+Placed on the Arm leaf because that is where the concept sits, although the department book describes the fossa at the start of its Forearm chapter. The article is built around the two things the question actually marks: the medial-to-lateral order of the contents, and the bicipital aponeurosis in the roof.
+
+---
+
+# Item
+## id
+ART-101-ANA-BRACHIAL-PLEXUS
+## title
+The brachial plexus
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-CF723B5FB24D70
+## related_articles
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: Erb's and Klumpke's paralysis are lesions of the upper and lower trunk of this plexus, and neither is intelligible without the four stages set out here.
+ART-101-ANA-AXILLA-BREAST: The cords and their branches are contents of the axilla, and they are distributed around the third part of the axillary artery.
+ART-101-ANA-AXILLARY-NERVE: One of the five branches of the posterior cord, taught to the orientation sheet's seven-part specification.
+ART-101-ANA-MEDIAN-ULNAR-NERVES: The median nerve is the one branch formed from two cords, and the ulnar is the largest branch of the medial cord.
+## aliases
+Brachial plexus | Roots trunks divisions cords | Plexus brachialis | Branches of the cords
+## reading_time
+11
+## summary
+The plexus is four stages — roots, trunks, divisions, cords — and the whole of it is arithmetic: five roots make three trunks, three trunks make six divisions, six divisions make three cords. Learn which division goes where and the branch lists stop being lists, because the rule the department book states settles them: every branch of the posterior cord supplies the extensor side, and every branch of the lateral and medial cords the flexor side.
+## sections
+### Definition
+The brachial plexus is the nerve plexus that supplies the upper limb. It lies partly in the neck and partly in the axilla, and it consists of four stages: roots, trunks, divisions and cords.
+
+The roots are the ventral primary rami of the fifth, sixth, seventh and eighth cervical nerves and the first thoracic nerve — C5 to T1.
+
+The trunks are three, and they lie above the clavicle, in the neck. The upper trunk is formed by the union of C5 and C6. The middle trunk is C7 alone. The lower trunk is formed by the union of C8 and T1.
+
+The divisions are six. Each trunk divides behind the clavicle into an anterior, or ventral, division and a posterior, or dorsal, division.
+
+The cords are three, and they lie in the axilla. The lateral cord is formed by the fusion of the anterior divisions of the upper and middle trunks. The medial cord is the anterior division of the lower trunk. The posterior cord is formed by the fusion of the posterior divisions of all three trunks.
+
+### Mechanism
+The plexus exists because a limb needs muscles built from more than one segment, and the four stages are the successive mixings that achieve it.
+
+The roots are segmental — one per spinal nerve. The trunks group neighbouring segments. The divisions then do the one piece of sorting that matters: each trunk splits into a front half and a back half, and every front half joins the front halves and every back half joins the back halves.
+
+That single sort is why the flexor-extensor rule works. The flexor muscles of the limb develop on its ventral surface and the extensors on its dorsal surface, so the nerves that will supply them separate at the division stage and never mix again. The posterior cord, made only of posterior divisions, carries everything that will end on the extensor side; the lateral and medial cords, made only of anterior divisions, carry everything that will end on the flexor side. The department book states the rule outright: all branches of the lateral and medial cords supply the flexor side, while all branches of the posterior cord supply the extensor side of the upper limb.
+
+Once that is held, the branch lists are checkable rather than memorable. Radial and axillary — triceps, deltoid, all the extensors of the forearm — must be posterior cord. Musculocutaneous — biceps, brachialis, coracobrachialis — must be lateral cord. Ulnar and median — every flexor of the forearm and every small muscle of the hand — must come from the medial and lateral cords.
+
+The stage a branch comes off also tells you how many segments it carries. A branch of a root carries one or two; a branch of a cord carries whatever the cord assembled. That is why the long thoracic nerve, given off from the roots, is C5, C6 and C7, and why the radial nerve, from the posterior cord, carries all five.
+
+### Key determinants
+The branches, stage by stage. This is the answer.
+
+Branches of the roots. The nerve to the rhomboids, the dorsal scapular nerve, which descends along the medial border of the scapula deep to levator scapulae and the rhomboids and supplies them. And the nerve to serratus anterior, the long thoracic nerve.
+
+Branches of the trunks. From the upper trunk only, and there are two: the nerve to subclavius, which descends in front of the plexus to the muscle, and the suprascapular nerve. The middle and lower trunks give no branches.
+
+Branches of the divisions. None. The divisions exist to sort, not to supply, and that is worth stating because a four-stage answer with a branch list at every stage is wrong at one of them.
+
+Branches of the lateral cord, three. The musculocutaneous nerve, its largest branch. The lateral root of the median nerve. And the lateral pectoral nerve, which pierces the clavipectoral fascia and supplies pectoralis major.
+
+Branches of the medial cord, five. The ulnar nerve, its largest branch. The medial root of the median nerve. The medial pectoral nerve, which pierces and supplies pectoralis minor and ends by supplying pectoralis major. The medial cutaneous nerve of the arm, supplying the skin on the medial side of the lower half of the arm. And the medial cutaneous nerve of the forearm, which descends medial to the third part of the axillary artery and the upper half of the brachial artery to supply the skin of the medial side of the forearm to the wrist.
+
+Branches of the posterior cord, five. The radial nerve, the larger of its two terminal branches. The axillary, or circumflex, nerve, the smaller. The upper subscapular nerve, to the upper part of subscapularis. The lower subscapular nerve, to the lower part of subscapularis and to teres major. And the nerve to latissimus dorsi, the thoraco-dorsal nerve.
+
+The median nerve is the exception in the pattern and is worth stating separately: it is formed by two roots, a lateral root from the lateral cord and a medial root from the medial cord, the medial root crossing in front of the axillary artery to join the lateral. It is the only branch built from two cords.
+
+The relation to the axillary artery, which the same question can ask. The lateral and posterior cords lie lateral to the first part of the artery and the medial cord lies posterior to it. Around the second part the cords lie according to their names — medial, lateral and posterior. Around the third part the branches of each cord are distributed according to their names.
+
+### Clinical significance
+Because the plexus is a sequence of stages, a lesion is named by the stage it strikes, and the picture is the sum of everything downstream.
+
+Upper trunk lesions — C5 and C6 — give Duchenne-Erb's paralysis, from excessive displacement of the head to one side with depression of the shoulder on the other, and in infants as a birth injury. Lower trunk lesions — C8 and T1 — give Klumpke's paralysis, from excessive abduction of the arm, and also from a cervical rib or malignant lower deep cervical lymph nodes. Both are taught in ART-101-ANA-BRACHIAL-PLEXUS-INJURIES.
+
+Two branches are injured on their own often enough to be named separately. The long thoracic nerve, given off from the roots and running on serratus anterior on the medial wall of the axilla, may be injured during radical mastectomy, giving winging of the scapula. The axillary nerve, from the posterior cord, is injured by shoulder dislocation and by fracture of the surgical neck of the humerus.
+
+The stage matters for prediction. A root or trunk lesion affects muscles supplied through several different named nerves, which is why Erb's palsy is described by five nerves and nine muscles. A cord or branch lesion affects only what that one nerve supplies.
+
+### Common misconceptions
+The divisions give no branches. A student who produces a branch for every stage has invented one, and the divisions are the stage where nothing comes off.
+
+Only the upper trunk gives branches. The middle and lower trunks give none, and the two upper-trunk branches — nerve to subclavius and suprascapular nerve — are a closed pair.
+
+The middle trunk is one root, not two. C7 alone forms it, which is why C7 is the root value that appears in nerves from all three cords.
+
+The lateral cord is not the anterior division of the upper trunk alone. It is the fusion of the anterior divisions of the upper and middle trunks; the medial cord is the one that comes from a single trunk.
+
+The median nerve does not come from one cord. It has a lateral root and a medial root, and it is the only branch of the plexus formed from two.
+
+The flexor-extensor rule is not a mnemonic. It is a statement the department book makes about the plexus, and it is the check that catches a branch put on the wrong cord.
+
+The dorsal scapular and long thoracic nerves are not cord branches. They come off the roots, before the trunks are formed, which is why they escape a cord lesion and why the long thoracic nerve carries three root values.
+## hold_these
+The brachial plexus lies partly in the neck and partly in the axilla and has four stages: roots, trunks, divisions and cords.
+The roots are the ventral primary rami of C5, C6, C7, C8 and T1.
+The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; the trunks lie above the clavicle.
+Each trunk divides behind the clavicle into an anterior and a posterior division, giving six divisions, which give no branches.
+The lateral cord is the anterior divisions of the upper and middle trunks; the medial cord the anterior division of the lower trunk; the posterior cord the posterior divisions of all three.
+Branches of the roots are the dorsal scapular nerve to the rhomboids and the long thoracic nerve to serratus anterior.
+The only trunk branches are the nerve to subclavius and the suprascapular nerve, both from the upper trunk.
+Lateral cord branches: musculocutaneous nerve, lateral root of the median, lateral pectoral nerve.
+Medial cord branches: ulnar nerve, medial root of the median, medial pectoral nerve, medial cutaneous nerve of the arm, medial cutaneous nerve of the forearm.
+Posterior cord branches: radial nerve, axillary nerve, upper and lower subscapular nerves, nerve to latissimus dorsi.
+The median nerve is formed by a lateral root from the lateral cord and a medial root from the medial cord, the medial root crossing in front of the axillary artery.
+All branches of the lateral and medial cords supply the flexor side; all branches of the posterior cord supply the extensor side.
+## lose_the_mark
+Giving branches of the divisions. The divisions give none, and inventing one is the commonest way to lose a mark on the four-stage answer.
+Giving branches of all three trunks. Only the upper trunk gives branches, and there are two.
+Making the middle trunk from two roots. It is C7 alone.
+Building the lateral cord from the upper trunk only. It is the anterior divisions of the upper and middle trunks.
+Giving the median nerve one origin. It has two roots, one from each of the lateral and medial cords.
+Listing the branches without the flexor-extensor rule. The rule is the department book's own and it is what makes the list checkable.
+Putting the dorsal scapular or long thoracic nerve on a cord. Both come off the roots.
+Forgetting the two subscapular nerves and the nerve to latissimus dorsi. The posterior cord has five branches, not two.
+## image_recommendations
+### diagram · The whole brachial plexus drawn as a four-stage chart from C5 to T1 — five roots, three trunks, six divisions, three cords — with the anterior divisions in one colour and the posterior divisions in another so the three posterior divisions are seen converging on one cord, and every branch drawn off at the stage it arises
+Purpose: The plexus is a sorting diagram and its central fact is that all posterior divisions go to one cord. Colouring by division makes that visible at a glance, and drawing each branch at its own stage prevents the commonest error of all — branches invented at the division stage.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Axilla chapter figures on the brachial plexus, Anatomy pages 178-193, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-CF723B5FB24D70.
+### diagram · Cross-sections at the three parts of the axillary artery showing where the cords lie at each — lateral and posterior cords lateral to the first part with the medial cord behind it, the three cords named by position around the second part, and the branches distributed around the third part
+Purpose: The relation of the cords to the artery changes at each part and is asked as a separate question. Three sections show a changing relation that three sentences describe one at a time.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Axilla chapter, Anatomy pages 178-193
+Rights: newly drawn for this product, or CC-BY
+### diagram · The flexor-extensor rule drawn on a limb in cross-section, the flexor compartment tinted with the lateral and medial cord branches listed beside it and the extensor compartment tinted with the posterior cord branches listed beside it
+Purpose: The rule is what turns three branch lists into one system, and it is a statement about which surface of the limb a nerve ends on. Showing the two compartments with their nerve lists makes the rule a picture rather than a slogan.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product from the department book's stated rule
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which is the largest branch of the lateral cord. The department book names the musculocutaneous nerve as the largest branch of the lateral cord and the ulnar nerve as the largest branch of the medial cord. Nothing in the corpus disagrees, and both are stated above because the same question can ask for either.
+Whether the intercostobrachial nerve belongs to the plexus. The department book lists it among the contents of the axilla and calls it the lateral cutaneous branch of the second thoracic nerve; it is not a branch of the plexus and is not listed among these branches. Recorded because it is met in the axilla alongside the cords and is easily added to a cord list by mistake.
+## evidence_gaps
+No Kasr source gives the relation of the plexus to the scalene muscles, to the subclavian artery in the neck, or to the first rib.
+No Kasr source describes a prefixed or postfixed plexus, or any variation in its root value.
+No Kasr source describes brachial plexus block or any procedure involving the plexus.
+No Kasr source states which segments supply which movement, so no myotome chart is given here. The dermatome figures that would complement it are unreadable images on page 260 of the department book.
+The developmental explanation offered in Mechanism — that the divisions separate flexor from extensor nerves because the two muscle groups develop on the two surfaces of the limb bud — is general embryological reasoning and is named in field_notes.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the site and four stages of the plexus, the root value, the formation of each trunk, the division behind the clavicle, the formation of each cord, the branches of the roots, of the upper trunk and of all three cords with what each supplies, the two roots of the median nerve, the flexor-extensor rule, and the relation of the cords to the three parts of the axillary artery. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — the trunk lesions that make the plexus clinically examinable, and long thoracic nerve injury.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 42 and the topic "Brachial plexus — formation and branches" — the same four stages, the same branch lists and the same relation to the three parts of the axillary artery. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 9, "Model answer: brachial plexus formation, stages and branches" — the model answer to a past paper on this exact question.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Nerves: Brachial plexus, Median, Radial, Ulnar, Axillary, Musculo-cutaneous nerves", with four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation that the division stage separates flexor from extensor nerves because the two muscle groups develop on the two surfaces of the limb bud is general embryological knowledge, added to make the department book's flexor-extensor rule derivable rather than arbitrary. The rule itself is the book's.
+sections.Mechanism: The observation that the stage a branch arises from determines how many root values it carries is this article's own reasoning from the plexus's construction. No Kasr source states it.
+sections.Clinical significance: The generalisation that a root or trunk lesion affects muscles reached through several named nerves while a cord or branch lesion does not is this article's own, drawn from the book's own accounts of Erb's palsy and of the individual nerve injuries.
+## notes
+Written as a separate article on the Axilla leaf rather than folded into ART-101-ANA-AXILLA-BREAST, which teaches the axilla as a space and its lymphatic drainage and names the cords only as contents. The plexus is a seven-mark question in its own right on the orientation sheet and needs the four-stage answer set out in full.
+
+---
+
+# Item
+## id
+ART-101-ANA-ULNAR-ARTERY
+## title
+The ulnar artery
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## related_concepts
+CON-MSK-25C6698A72A982
+## related_articles
+ART-101-ANA-BRACHIAL-ARTERY: The parent vessel, which divides into radial and ulnar arteries one centimetre below the elbow joint.
+ART-101-ANA-HAND-ARTERIES: The ulnar artery ends as the superficial palmar arch, and its carpal branches build the two carpal arches.
+ART-101-ANA-MEDIAN-ULNAR-NERVES: The ulnar artery lies lateral to the ulnar nerve at the wrist, and a transverse laceration there divides both.
+ART-101-ANA-CUBITAL-FOSSA: The artery begins inside the fossa and leaves it deep to pronator teres.
+## aliases
+Ulnar artery | Arteria ulnaris | Common interosseous artery | Superficial palmar arch
+## reading_time
+10
+## summary
+The ulnar artery is the larger of the brachial artery's two terminal branches, and it is asked as origin, course, relations and branches. Two things are marked and both are about position: it runs superficial to the flexor retinaculum rather than under it, which is why a cut wrist divides it, and its largest branch is a short trunk — the common interosseous — that immediately divides again into the two vessels of the interosseous membrane.
+## sections
+### Overview and position
+The ulnar artery begins in the cubital fossa, below the elbow joint at the level of the neck of the radius, as the larger of the two terminal branches of the brachial artery. The radial artery is the smaller.
+
+It runs obliquely downwards and medially through the upper third of the forearm, reaching the medial side of its front, and then descends vertically along that medial side through the lower two-thirds to the wrist.
+
+At the wrist it passes superficial to the flexor retinaculum, lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate, and reaches the hand. It ends as the superficial palmar arch.
+
+### Structure
+The branches divide by level, and the level is how the answer is laid out.
+
+Near the elbow it gives three.
+
+The anterior ulnar recurrent artery ascends in front of the medial epicondyle, where it anastomoses with the anterior branch of the inferior ulnar collateral artery.
+
+The posterior ulnar recurrent artery ascends between the two heads of flexor carpi ulnaris to the back of the medial epicondyle, where it meets the superior ulnar collateral artery and the posterior branch of the inferior ulnar collateral.
+
+The common interosseous artery is a short trunk arising about one inch below the beginning of the ulnar artery. It descends backwards to the upper margin of the interosseous membrane and divides into the anterior and posterior interosseous arteries.
+
+The anterior interosseous artery is the larger of the two. It descends on the anterior surface of the interosseous membrane with the anterior interosseous nerve, pierces the membrane at the upper border of pronator quadratus to reach the back of the forearm, anastomoses there with the termination of the posterior interosseous artery, and then descends with the posterior interosseous nerve deep to the extensor retinaculum, through the fourth compartment, to join the posterior carpal arch. Its own branches are the median artery, which accompanies and supplies the median nerve as its vasa nervosa; muscular branches; the nutrient arteries of both the radius and the ulna; and a descending branch, deep to pronator quadratus, joining the anterior carpal arch.
+
+The posterior interosseous artery, the smaller, passes backwards above the upper border of the interosseous membrane and descends between the superficial and deep muscles of the back of the forearm with the posterior interosseous nerve, becoming small and ending by anastomosing with the anterior interosseous artery. Near its origin it gives the posterior interosseous recurrent artery, to the back of the lateral epicondyle, plus muscular branches.
+
+In the forearm the ulnar artery gives muscular branches to the muscles of the ulnar side.
+
+At the wrist it gives two carpal branches: the anterior carpal artery, which forms the anterior carpal arch with its radial counterpart, and the posterior carpal artery, which forms the posterior carpal arch.
+
+Its termination is the superficial palmar arch.
+
+### Relations
+In the upper third the artery runs obliquely deep to the superficial flexor muscles, and the median nerve is separated from it by the deep head of pronator teres — which is the relation that lets the median nerve leave the cubital fossa between the two heads of that muscle while the artery leaves deep to it.
+
+In the lower two-thirds it lies on the medial side of the front of the forearm, between flexor carpi ulnaris medially and flexor digitorum superficialis laterally, with the ulnar nerve on its medial side.
+
+At the wrist it lies superficial to the flexor retinaculum, with the ulnar nerve medial to it, the pisiform medial and the hook of the hamate lateral. It is covered there by palmaris brevis.
+
+That last set of relations is the one the examiner uses. The artery and the nerve are together, both outside the carpal tunnel, and both lie under nothing but skin, fascia and one small muscle.
+
+### Blood supply, innervation and lymphatics
+What the artery supplies is the ulnar side of the forearm, through its muscular branches, and the hand, through the superficial palmar arch.
+
+Through its recurrent branches it supplies the anastomosis around the elbow joint, contributing to two of that network's four groups — the anterior ulnar recurrent in front of the medial epicondyle and the posterior ulnar recurrent behind it. The posterior interosseous recurrent, from its own great-grandchild vessel, contributes to a third, behind the lateral epicondyle.
+
+Through its carpal branches it contributes to both carpal arches, and through the anterior interosseous artery it supplies the nutrient arteries of both forearm bones and the vasa nervosa of the median nerve.
+
+No Kasr source describes the venous drainage accompanying the artery beyond the general statement that deep arteries of the limb are accompanied by venae comitantes, and none names the ulnar artery's own nerve supply.
+
+### Development
+No Kasr source describes the development of the arterial pattern of the upper limb, and nothing is invented here.
+
+### Surface and imaging anatomy
+The artery is superficial at the wrist, where it lies on the flexor retinaculum lateral to the pisiform. That is the point at which it can be found, and it is the same point at which a transverse laceration divides it.
+
+The department book gives no surface marking line for the ulnar artery, unlike the brachial artery, for which a line is stated, and unlike the radial artery, whose pulsation it locates between the tendons of flexor carpi radialis and brachioradialis.
+
+No Kasr source gives an angiographic or ultrasound appearance of the vessel.
+
+### Clinical correlations
+The department book states no lesion of the ulnar artery. Two of its statements carry direct clinical weight.
+
+The artery passes superficial to the flexor retinaculum with the ulnar nerve. A transverse cut in front of the wrist therefore divides the artery and the nerve together, along with the radial artery on the other side and the median nerve at the edge of or inside the tunnel — which is why a wrist laceration is a vascular and a neurological injury at once.
+
+The anastomosis around the elbow joins this artery's recurrent branches to the brachial artery's collateral branches above. A network between the vessel above the elbow and the vessels below it is a route by which blood can reach the forearm when the main channel across the joint is interrupted.
+
+### Variations and anomalies
+No Kasr source describes any variation of the ulnar artery, including a superficial ulnar artery or a persistent median artery as the dominant vessel of the palm. None is invented here.
+## hold_these
+The ulnar artery begins in the cubital fossa below the elbow at the level of the neck of the radius, as the larger terminal branch of the brachial artery.
+It runs obliquely downwards and medially in the upper third of the forearm, then vertically along the medial side of the front in the lower two-thirds.
+At the wrist it passes superficial to the flexor retinaculum, lateral to the ulnar nerve and pisiform and medial to the hook of the hamate, and ends as the superficial palmar arch.
+Its branches near the elbow are the anterior ulnar recurrent, the posterior ulnar recurrent and the common interosseous artery.
+The common interosseous artery is a short trunk arising about one inch below its beginning, dividing into anterior and posterior interosseous arteries.
+The anterior interosseous artery is the larger, runs on the front of the interosseous membrane, pierces it at the upper border of pronator quadratus and reaches the posterior carpal arch through the 4th extensor compartment.
+The anterior interosseous artery gives the median artery to the median nerve, the nutrient arteries of radius and ulna, and a descending branch to the anterior carpal arch.
+The posterior interosseous artery gives the posterior interosseous recurrent artery to the back of the lateral epicondyle.
+In the forearm the ulnar artery gives muscular branches; at the wrist it gives the anterior and posterior carpal arteries that form the two carpal arches.
+The ulnar artery and ulnar nerve lie together superficial to the flexor retinaculum, which is why a wrist laceration divides both.
+## lose_the_mark
+Placing the ulnar artery under the flexor retinaculum. It passes superficial to it, with the ulnar nerve.
+Calling the ulnar artery the smaller terminal branch. It is the larger; the radial is the smaller.
+Giving the interosseous arteries as direct branches of the ulnar artery. They are branches of the common interosseous, which is the ulnar artery's branch.
+Naming the two recurrent arteries without the epicondyle each reaches. Anterior ulnar recurrent goes in front of the medial epicondyle and posterior ulnar recurrent behind it.
+Forgetting the carpal branches. The anterior and posterior carpal arteries build the two carpal arches and are part of the branch list.
+Ending the artery at the wrist. It ends as the superficial palmar arch, in the hand.
+Beginning the artery at the elbow joint. It begins below the joint, at the level of the neck of the radius.
+## image_recommendations
+### anatomy plate · Anterior view of the forearm with the ulnar artery drawn from its origin in the cubital fossa to the superficial palmar arch, every branch labelled at the level it arises, and the common interosseous shown as a short trunk immediately dividing into the two interosseous arteries
+Purpose: The branch list is ordered by level and its one structural surprise is a short trunk that divides again at once. A single plate with the branches drawn at their levels makes both the order and the branching pattern readable.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Forearm chapter, Anatomy pages 205-234
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-25C6698A72A982.
+### diagram · Transverse section at the wrist showing the ulnar artery and ulnar nerve superficial to the flexor retinaculum with the pisiform and hook of the hamate marked, and the carpal tunnel with the median nerve beneath, so inside and outside the tunnel are one comparison
+Purpose: The examinable point is a position relative to one band of fascia, and the pitfall is putting the artery on the wrong side of it. One section settles it and links this article to the wrist laceration taught next door.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Figs. 72 and 73, Anatomy pages 205-234
+Rights: newly drawn for this product, or CC-BY
+Notes: The same section is requested by ART-101-ANA-MEDIAN-ULNAR-NERVES. One drawing serves both.
+### diagram · The interosseous membrane in anterior and posterior view with the anterior interosseous artery on its front, the point at which it pierces the membrane at the upper border of pronator quadratus marked, and the posterior interosseous artery behind, the two shown anastomosing
+Purpose: These two vessels are told apart by which side of one membrane each runs on and by where one crosses it. Two views of the same membrane make the crossing a place rather than a clause.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn, following the department book Fig. 133, Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Where the common interosseous artery arises. The department book says about one inch below the beginning of the ulnar artery; the concept record says the same. Nothing disagrees, and the figure is stated because it is a marked detail.
+Which structures the ulnar artery lies between at the wrist. The department book's Forearm chapter says it lies lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate; its account of the ulnar nerve says the nerve is lateral to the pisiform and medial to the ulnar artery. The two statements are consistent — nerve medial to artery, both lateral to the pisiform — and both are given above because the pisiform appears in each with a different partner.
+## evidence_gaps
+No Kasr source describes any injury, occlusion or aneurysm of the ulnar artery, nor Allen's test or any assessment of the hand's dual supply.
+No Kasr source gives a surface marking line for the ulnar artery.
+No Kasr source names the venae comitantes of the ulnar artery or describes its venous drainage.
+No Kasr source describes any variation of the vessel.
+No Kasr source states the calibre of the artery or of the common interosseous trunk.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 6 "Forearm", PDF pages 205-234 — the origin, course, relations and termination of the ulnar artery, its two recurrent branches with the epicondyle each reaches, the common interosseous trunk and both interosseous arteries with their branches and their relation to the interosseous membrane, the muscular and carpal branches, and the artery's position at the wrist relative to the flexor retinaculum, the ulnar nerve, the pisiform and the hook of the hamate. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the anastomosis around the elbow, in which this artery's recurrent branches meet the brachial artery's collateral branches.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the interosseous membrane, its attachments and its fibre direction.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 92 and 94, topics "Radial and ulnar arteries — beginning, course and end" and "Branches of the radial and ulnar arteries" — the same origin, course and termination and the same branch list. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: ulnar artery" — the model answer to a past paper on this vessel.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the arteries of the upper limb and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Clinical correlations: Both consequences drawn there — that a wrist laceration divides artery and nerve together, and that the elbow anastomosis is a collateral route — are reasoning from the sources' own anatomical statements. The corpus contains no clinical material on this artery, which is recorded in evidence_gaps.
+sections.Blood supply, innervation and lymphatics: The section describes what the artery supplies rather than what supplies it, because no Kasr source gives the vessel's own vasa vasorum or innervation. The absence is stated in the section's own text.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers limb angiogenesis.
+## notes
+The two facts the article is built to protect are a position and a branching pattern: the artery is superficial to the flexor retinaculum, and the interosseous arteries are grandchildren of the ulnar rather than children. Both are places where a nearly-right answer is marked wrong.
+
+---
+
+# Item
+## id
+ART-101-ANA-SHOULDER-JOINT
+## title
+The shoulder joint
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-EA4C451C8749B9 | CON-MSK-88711B7586CF2F
+## related_articles
+ART-101-ANA-SYNOVIAL-JOINTS: The seven components of a synovial joint, and the factors that make one stable — this joint is the worked example of what happens when three of the four are missing.
+ART-101-ANA-AXILLARY-NERVE: The nerve lying against the lax inferior fold of this joint's capsule, and the nerve a dislocation of this joint injures.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: The rotator cuff muscles that hold this joint together, and the ranges of abduction the coraco-acromial arch limits.
+ART-101-ANA-ELBOW-JOINT: The other worked joint on this leaf, and the contrast — a hinge with deep bony fit and strong collateral ligaments.
+## aliases
+Shoulder joint | Gleno-humeral joint | Labrum glenoidale | Rotator cuff | Coraco-acromial arch | Movements of the shoulder joint
+## reading_time
+12
+## summary
+The shoulder is the joint that trades stability for range, and the department book explains the trade in three clauses: the bony fit is poor, the capsule and ligaments are weak and lax, and no muscle supports the capsule from below. Everything else follows. The rotator cuff is what holds it together from three sides, the coraco-acromial arch guards it from above, and the one direction left unguarded is the one it dislocates in.
+## sections
+### Definition
+The shoulder joint is a synovial joint of the polyaxial, ball and socket variety.
+
+Its articular surfaces are the head of the humerus and the glenoid cavity of the scapula, deepened by the labrum glenoidale.
+
+The labrum glenoidale is a fibrocartilaginous rim whose base is fixed to the circumference of the glenoid cavity. It deepens and widens the articular socket, and it protects the edges of the glenoid cavity.
+
+The fibrous capsule is attached medially to the circumference of the glenoid cavity beyond the labrum, extending above onto the root of the coracoid process so that the supraglenoid tubercle lies inside the capsule; and laterally to the anatomical neck of the humerus, except below, where it descends onto the medial side of the surgical neck.
+
+### Mechanism
+Range and stability are opposites at every joint, and the department book states which one the shoulder chose and what it cost.
+
+The joint is weak, unstable and easily dislocated, and the book gives three reasons. The fitting of the bony parts is poor: a very large humeral head sits against a small, shallow glenoid cavity. The capsule and its ligaments are weak and lax. And the capsule is not directly supported by any muscle from below.
+
+Read those against the four factors that make a synovial joint stable — the shape and fit of the surfaces, the thickness and elasticity of the capsule, the position and strength of the ligaments, and the strength of the surrounding muscles — and the shoulder fails on the first three and is held together almost entirely by the fourth.
+
+That is why the muscular support is the substance of the answer rather than an afterthought. The joint is supported above by the tendons of supraspinatus and the long head of biceps, in front by subscapularis, and behind by infraspinatus and teres minor. The tendons of supraspinatus, subscapularis, infraspinatus and teres minor blend with the capsule and form the rotator muscle cuff, which reinforces the capsule and provides active support during movement. Deltoid covers the joint in front, behind and laterally.
+
+Below, there is nothing. The capsule is lax there and forms a fold bulging downwards into the upper part of the axilla, directly related to the axillary nerve and the posterior circumflex humeral artery, and stretched when the arm is fully abducted. The long head of triceps supports the capsule from below only when the arm is abducted. So the one direction with no muscular support is downwards, which is the direction of the dislocation and the reason the axillary nerve is what a dislocation injures.
+
+Above, the joint is guarded by bone and ligament instead of muscle. The coraco-acromial ligament is a strong, flat, triangular ligament with its apex attached to the tip of the acromion and its base to the lateral margin of the upper surface of the coracoid process. With the two processes it forms the coraco-acromial arch, immediately above the joint, acting as a secondary socket for the humeral head. That arch is also what stops abduction at the gleno-humeral joint: the greater tuberosity impinges on the coraco-acromial ligament, and everything beyond that is scapular rotation.
+
+### Key determinants
+The answer, to the department's own specification.
+
+Type. Synovial, polyaxial, ball and socket.
+
+Articular surfaces. The head of the humerus and the glenoid cavity, deepened by the labrum glenoidale, a fibrocartilaginous rim fixed by its base to the circumference of the glenoid cavity, which deepens and widens the socket and protects the edges of the cavity.
+
+Capsule. Attached medially to the circumference of the glenoid cavity beyond the labrum and above onto the root of the coracoid process, so the supraglenoid tubercle is intracapsular; laterally to the anatomical neck of the humerus, except below where it descends onto the medial side of the surgical neck.
+
+Ligaments, four.
+
+The three gleno-humeral ligaments, which are weak, strengthening the anterior capsule and running from the anterior margin of the glenoid cavity to the lesser tuberosity and the anatomical neck.
+
+The coraco-humeral ligament, which is the stronger of the capsular ligaments, strengthening the upper capsule and running from the coracoid process to the upper border of the greater tuberosity.
+
+The transverse humeral ligament, a broad band from the lesser to the greater tuberosity, converting the intertubercular groove into a canal and acting as a retinaculum for the tendon of the long head of biceps.
+
+The coraco-acromial ligament, strong, flat and triangular, apex to the tip of the acromion and base to the lateral margin of the upper surface of the coracoid process, forming with the two processes the coraco-acromial arch.
+
+Intracapsular structures, five. The tendon of the long head of biceps. The head of the humerus and the medial part of its surgical neck. The labrum glenoidale. The glenoid cavity with the supraglenoid tubercle. And the synovial membrane.
+
+Perforations of the capsule, three. Anteriorly, to the subscapular bursa. Laterally, or antero-laterally, for the tendon of the long head of biceps. And posteriorly, not constantly, to the bursa deep to infraspinatus.
+
+Bursae, five. The subscapular bursa, deep to subscapularis between it and the front of the capsule. A bursa deep to the infraspinatus tendon, behind the capsule. The subacromial bursa, between deltoid and the capsule, prolonged under the acromion where it separates it from the supraspinatus tendon, and not communicating with the joint cavity. A bursa between the coracoid process and the capsule. And a subcutaneous bursa on the upper surface of the acromion.
+
+Movements and the muscles producing them. Being polyaxial, the joint has three pairs of movements plus circumduction, and each is asked with its muscles.
+
+Flexion: the clavicular head of pectoralis major, the anterior fibres of deltoid, and coracobrachialis, assisted by the long head of biceps.
+
+Extension: the posterior fibres of deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm.
+
+Abduction: supraspinatus, which initiates it, and the middle, acromial, fibres of deltoid.
+
+Adduction: pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor.
+
+Medial rotation: pectoralis major, teres major, latissimus dorsi, the anterior fibres of deltoid, and subscapularis.
+
+Lateral rotation: infraspinatus, the posterior fibres of deltoid, and teres minor.
+
+Circumduction combines all of them.
+
+The mechanism of abduction is the range question and it is where this joint's movements stop being the joint's own: supraspinatus initiates abduction through the first small range, deltoid's middle fibres continue it to about a right angle, then the greater tuberosity impinges on the coraco-acromial ligament and the arm can be raised no further at the joint. Everything above that is upward rotation of the scapula, by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior. Three sets of muscles in what a student calls one movement.
+
+### Clinical significance
+The department book's clinical statements about this joint are all consequences of its instability.
+
+The joint is weak, unstable and easily dislocated. That is the book's own sentence, and it names three reasons: poor bony fit, weak lax capsule and ligaments, and no muscular support from below.
+
+The lax inferior fold of the capsule bulges into the upper axilla in direct relation to the axillary nerve and the posterior circumflex humeral artery, and it is stretched when the arm is fully abducted. That is the anatomical basis of the axillary nerve injury that accompanies dislocation of the shoulder, which the book states in its nerve injuries chapter.
+
+The subacromial bursa lies between deltoid and the capsule and extends under the acromion, separating it from the supraspinatus tendon, and it does not communicate with the joint cavity. A bursa lying between a moving tendon and a bony arch is the interface across which abduction happens.
+
+The coraco-acromial arch is a secondary socket. It supports the head from above, and it is also the structure the greater tuberosity strikes at ninety degrees.
+
+### Common misconceptions
+The gleno-humeral ligaments are not what holds the shoulder together. The department book calls all three weak. What holds the joint is the rotator cuff, actively, and the coraco-acromial arch above it.
+
+The rotator cuff is four muscles, not three, and teres minor is the one dropped. Supraspinatus, subscapularis, infraspinatus and teres minor blend with the capsule; teres major does not and is not a cuff muscle.
+
+The joint has no muscular support below. The long head of triceps supports the capsule from below only when the arm is abducted, which is a qualification, not an exception.
+
+The subacromial bursa does not communicate with the joint cavity. The book says so explicitly, and the subscapular bursa, which does communicate through an anterior perforation, is the one that does.
+
+The capsule is not attached to the anatomical neck all the way round. Below, it descends onto the medial side of the surgical neck, which is what makes the inferior fold lax and long.
+
+The labrum is fibrocartilage, not hyaline cartilage, and it deepens the socket rather than covering the articular surface.
+
+Abduction does not stop because deltoid gives out. It stops because the greater tuberosity meets the coraco-acromial ligament.
+
+Abduction is not deltoid's movement. Supraspinatus starts it, deltoid carries it to a right angle, and everything above that is scapular rotation — three different sets of muscles inside one word.
+
+The anterior and posterior fibres of deltoid appear in four different movement lists between them, because each group flexes or extends and rotates. Answering "deltoid" without saying which fibres puts the muscle in the wrong list half the time.
+## hold_these
+The shoulder joint is a synovial polyaxial ball and socket joint between the head of the humerus and the glenoid cavity, deepened by the labrum glenoidale.
+The labrum glenoidale is a fibrocartilaginous rim fixed by its base to the circumference of the glenoid cavity, deepening and widening the socket and protecting its edges.
+The capsule is attached medially beyond the labrum and onto the root of the coracoid process, and laterally to the anatomical neck except below, where it descends onto the medial side of the surgical neck.
+The four ligaments are the three weak gleno-humeral, the stronger coraco-humeral, the transverse humeral and the coraco-acromial.
+The transverse humeral ligament converts the intertubercular groove into a canal and retains the tendon of the long head of biceps.
+Intracapsular structures are the tendon of the long head of biceps, the head and medial surgical neck of the humerus, the labrum, the glenoid cavity with the supraglenoid tubercle, and the synovial membrane.
+The joint is weak, unstable and easily dislocated because of poor bony fit, a weak lax capsule and ligaments, and no muscular support from below.
+It is supported above by supraspinatus and the long head of biceps, in front by subscapularis and behind by infraspinatus and teres minor — the rotator cuff being supraspinatus, subscapularis, infraspinatus and teres minor.
+The lax inferior fold of the capsule bulges into the upper axilla in direct relation to the axillary nerve and posterior circumflex humeral artery, and is stretched in full abduction.
+The coraco-acromial arch — the coraco-acromial ligament with the coracoid and acromion — is a secondary socket above the joint and is what the greater tuberosity impinges on at ninety degrees.
+The subacromial bursa lies between deltoid and the capsule, extends under the acromion, and does not communicate with the joint cavity.
+Flexion is by the clavicular head of pectoralis major, anterior deltoid and coracobrachialis, assisted by the long head of biceps; extension by posterior deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm.
+Abduction is by supraspinatus and middle deltoid; adduction by pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor.
+Medial rotation is by pectoralis major, teres major, latissimus dorsi, anterior deltoid and subscapularis; lateral rotation by infraspinatus, posterior deltoid and teres minor.
+Abduction is in three ranges by three sets of muscles: supraspinatus, then middle deltoid to a right angle, then upward rotation of the scapula by trapezius and serratus anterior.
+## lose_the_mark
+Naming the gleno-humeral ligaments as the joint's support. The book calls all three weak; the support is the rotator cuff and the coraco-acromial arch.
+Giving three rotator cuff muscles. There are four, and teres minor is the one usually dropped; teres major is not one of them.
+Saying the capsule is attached to the anatomical neck all round. Below it descends onto the medial side of the surgical neck, which is why the inferior fold is lax.
+Listing the subacromial bursa as communicating with the joint. It does not; the subscapular bursa does.
+Explaining the arrest of abduction by muscle fatigue. The greater tuberosity impinges on the coraco-acromial ligament.
+Omitting the reasons for instability. The question asks why the joint dislocates, and the book gives three reasons, not one.
+Calling the labrum hyaline cartilage. It is fibrocartilaginous and it deepens the socket rather than covering a surface.
+Forgetting that the supraglenoid tubercle and the tendon of the long head of biceps are inside the capsule.
+Answering the whole of abduction with deltoid. Supraspinatus initiates it, deltoid carries it to a right angle, and the rest is scapular rotation.
+Naming deltoid without its fibre group in the flexion, extension or rotation lists. The anterior and posterior groups do opposite things and appear in different lists.
+## image_recommendations
+### diagram · Coronal section of the shoulder joint with the head of the humerus in the glenoid cavity, the labrum glenoidale drawn as a rim, the line of capsular attachment marked medially beyond the labrum and laterally to the anatomical neck except below where it reaches the surgical neck, and the lax inferior fold shown bulging with the axillary nerve and posterior circumflex humeral artery beneath it
+Purpose: The joint's instability is a fact about where a capsule is attached and where it is loose, which is a line on a bone and a fold in a membrane. One section carries the attachment, the fold and the nerve beneath it in a single reading.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Joints of Upper Limb chapter figures, Anatomy pages 270-291, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-EA4C451C8749B9.
+### anatomy plate · The shoulder from the front and from behind with the four rotator cuff muscles drawn onto the capsule and separately tinted, the coraco-acromial arch above, deltoid outlined and cut away, and the gap below the joint left empty and labelled as having no muscular support
+Purpose: The whole answer to why the shoulder dislocates downwards is an absence, and an absence is only visible against the three sides that are covered. Two views with the cuff tinted make the empty quadrant the thing the eye finds.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Mechanism
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Fig. 22 on Anatomy page 174
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+### diagram · The four ligaments of the shoulder joint on one anterior view — three gleno-humeral bands drawn thin to show they are weak, the coraco-humeral drawn thicker, the transverse humeral bridging the intertubercular groove with the biceps tendon inside it, and the coraco-acromial forming the arch — with the three capsular perforations marked
+Purpose: The examinable point about these ligaments is a relative one — three weak, one stronger — and relative strength is a thickness the eye reads instantly. Marking the perforations on the same figure ties the bursae to the capsule they open through.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+### comparison table · The movements of the shoulder joint in two columns, movement against the muscles producing it, with abduction split into its three ranges and the muscle set for each range on its own row
+Purpose: The answer is a six-row correspondence, and abduction is the row that is really three. Splitting it on the page is what stops "deltoid" being written against the whole of it.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 169-177 and 270-291
+Rights: newly drawn for this product
+Notes: Serves concept CON-MSK-88711B7586CF2F.
+### diagram · The five bursae around the shoulder drawn on one section, each labelled and each marked as communicating or not communicating with the joint cavity
+Purpose: Five bursae in five positions is a list students reproduce with the wrong one communicating. Drawing each in place with its communication marked turns the list into a map with one property per item.
+Priority: optional
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn from the department book Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the coraco-acromial ligament is a ligament of the shoulder joint. The department book lists it fourth among the shoulder joint's ligaments and also describes it separately as forming the coraco-acromial arch, which is not attached to the humerus at all. Both accounts are the book's own and both are given above; a student who omits it from the ligament list has followed the arch description and lost a mark.
+The upper limit of the gleno-humeral range of abduction. The department book's Joints chapter states that deltoid continues abduction to 90 or 100 degrees; its Shoulder Region chapter states 15 to 90 degrees for deltoid's middle fibres. Ninety degrees is used above, which both chapters support, and the wider figure is recorded.
+## evidence_gaps
+No Kasr source describes the direction, mechanism or management of shoulder dislocation. What is stated is that the joint is easily dislocated, that it has no muscular support below, and that the axillary nerve is injured in dislocation. The inference that the dislocation is downward is left to the sources' own words and is named in field_notes.
+No Kasr source names rotator cuff tear, subacromial impingement, frozen shoulder or bicipital tendinitis.
+No Kasr source gives the blood supply or the nerve supply of the shoulder joint, beyond the articular branch the axillary nerve gives it.
+No Kasr source states the range of movement of the joint in degrees for any movement other than abduction.
+No Kasr source describes the synovial membrane's arrangement around the intracapsular tendon of the long head of biceps.
+No independent citation has been attached to any statement in this article, and only the department book covers this joint in detail in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the type and articular surfaces, the labrum glenoidale, the line of capsular attachment, the four ligaments with their attachments, the intracapsular structures, the three capsular perforations, the five bursae, the muscular support from three sides and the absence below, the lax inferior fold and its relation to the axillary nerve and posterior circumflex humeral artery, the coraco-acromial arch, the three reasons for instability, and the mechanism of abduction. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the four rotator cuff muscles with their attachments and actions, deltoid's three fibre groups with their three different actions, and the ranges of abduction.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapters 1 and 2, PDF pages 153-168 — pectoralis major with its two heads acting differently, and latissimus dorsi's extension, medial rotation and adduction of the arm, which supply the remaining names in the movement lists.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — axillary nerve injury in dislocation of the shoulder joint.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), chapter 4 "Articular System", PDF pages 122-131 — the four factors affecting the stability of a synovial joint, against which this joint's three weaknesses are read.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), topic "Shoulder joint" — the same type, surfaces, ligaments and instability. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: wrist joint and shoulder joint" — the model answer to a past paper on this joint.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the joints of the upper limb and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The reading of the joint's three weaknesses against the Articular System chapter's four factors of stability is this article's own. Both lists are the department book's, in two different chapters, and the book does not put them side by side.
+sections.Mechanism: The conclusion that the unsupported direction is the direction of dislocation is drawn from the book's own statements that there is no muscular support below and that the axillary nerve, which lies below the joint, is injured in dislocation. The book does not name a direction of dislocation, which is recorded in evidence_gaps.
+sections.Clinical significance: The remark that a bursa between a moving tendon and a bony arch is the interface across which abduction happens is general anatomical reasoning from the book's own description of the subacromial bursa.
+sections.Key determinants: The department book states the flexors, extensors, abductors and adductors of the shoulder joint as four lists in its Joints chapter, but gives no corresponding list for medial and lateral rotation. The two rotation lists above are assembled from the individual actions the same book states for each muscle in its Pectoral Region, Muscles of the Back and Shoulder Region chapters — pectoralis major, teres major, latissimus dorsi, subscapularis and the anterior fibres of deltoid as medial rotators, infraspinatus, teres minor and the posterior fibres of deltoid as lateral rotators. Every muscle named is the book's own; the grouping into two rotation lists is this article's.
+## notes
+Written as a peer to ART-101-ANA-ELBOW-JOINT on the Joints of Upper Limb leaf, and deliberately organised around the department book's own three reasons for instability rather than around a list of parts, because that is the question the paper asks and every other fact about the joint is an answer to it.
+
+---
+
+# Item
+## id
+ART-101-ANA-SCAPULAR-ANASTOMOSIS
+## title
+The anastomosis around the scapula
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-DF8F395F3D471E
+## related_articles
+ART-101-ANA-BRACHIAL-ARTERY: The anastomosis around the elbow is the same idea one joint lower — descending branches from above meeting recurrent branches from below.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: The circumflex scapular artery reaches the back of the scapula through the upper triangular space, and the posterior circumflex humeral artery through the quadrangular space.
+ART-101-ANA-AXILLA-BREAST: The subscapular and circumflex humeral arteries are branches of the third part of the axillary artery, which runs through the axilla.
+## aliases
+Scapular anastomosis | Anastomosis around the scapula | Cruciate anastomosis | Collateral circulation of the upper limb
+## reading_time
+8
+## summary
+The question is not really a list of vessels, it is a question about which two trunks the list connects. The anastomosis around the scapula joins branches of the first part of the subclavian artery to branches of the third part of the axillary artery, with the posterior intercostals joining in from the aorta — so blood can reach the limb past a block in the axillary artery between those two points. Name the vessels without their parents and the point is lost.
+## sections
+### Definition
+An anastomosis is a communication between arteries, and the upper limb has three named ones around the shoulder region, all built on the same principle.
+
+The anastomosis around the scapula links three sets of vessels: from the first part of the subclavian artery, the suprascapular artery and the deep branch of the transverse cervical artery, both branches of the thyro-cervical trunk; from the third part of the axillary artery, the subscapular artery and the circumflex scapular artery; and from the descending thoracic aorta, the posterior intercostal arteries.
+
+The anastomosis around the surgical neck of the humerus, the cruciate anastomosis, links the descending branch of the suprascapular artery from the subclavian, the anterior and posterior circumflex humeral arteries from the third part of the axillary, and the ascending branch of the profunda brachii from the brachial artery.
+
+The anastomosis around the shoulder joint links the acromial and deltoid branches of the thoraco-acromial artery, the suprascapular artery from the subclavian, and the ascending branch of the anterior circumflex humeral artery.
+
+### Mechanism
+Every arterial anastomosis in a limb answers the same problem: a single main channel can be interrupted, and the tissue beyond it still needs blood. The solution is a network that starts above the vulnerable stretch and rejoins below it.
+
+The scapular anastomosis is the largest of the three because the stretch it bypasses is the longest. The subclavian artery becomes the axillary artery at the outer border of the first rib and the axillary becomes the brachial at the lower border of teres major, so the whole axillary artery lies between the two ends of this network. Branches of the first part of the subclavian — above the whole of it — reach the back of the scapula; branches of the third part of the axillary — below the whole of it — reach the same place. Where they meet, blood can pass from the subclavian to the axillary artery's distal end without going through the axillary artery itself.
+
+That is why the parent vessel of each artery matters more than its name. The suprascapular artery and the deep branch of the transverse cervical artery both come from the thyro-cervical trunk, off the first part of the subclavian. The subscapular artery and its own branch the circumflex scapular artery both come from the third part of the axillary. The posterior intercostal arteries come from the descending thoracic aorta and join the network from the chest wall.
+
+The route each takes to the back of the scapula is also worth holding, because it is where this article meets the muscles. The circumflex scapular artery, usually larger than the continuation of the subscapular artery, curves round the lateral border of the scapula by traversing the upper triangular space. The subscapular artery continues below its origin as the thoraco-dorsal artery, supplying latissimus dorsi and sharing in the anastomosis. The suprascapular artery comes over the upper border of the scapula from the neck.
+
+The other two anastomoses work the same way over shorter distances. The cruciate anastomosis is a cross of four vessels around the surgical neck of the humerus, bringing the subclavian above and the brachial below into the same network as the axillary's two circumflex humeral branches. The anastomosis around the shoulder joint is a smaller network on the joint itself.
+
+### Key determinants
+The answer, by parent vessel. This is the form the question is marked in.
+
+From the first part of the subclavian artery, through the thyro-cervical trunk: the suprascapular artery, and the deep branch of the transverse cervical artery.
+
+From the third part of the axillary artery: the subscapular artery, and the circumflex scapular artery.
+
+From the descending thoracic aorta: the posterior intercostal arteries.
+
+And the point of it: the anastomosis bridges the first part of the subclavian above and the third part of the axillary below, so it can carry blood past a block in the axillary artery lying between those two points.
+
+The two companion anastomoses, because the same question can ask for any of the three.
+
+Around the surgical neck of the humerus — the cruciate anastomosis: the descending branch of the suprascapular artery, from the subclavian; the anterior and posterior circumflex humeral arteries, from the third part of the axillary; and the ascending branch of the profunda brachii, from the brachial artery.
+
+Around the shoulder joint: the acromial and deltoid branches of the thoraco-acromial artery; the suprascapular artery, from the subclavian; and the ascending branch of the anterior circumflex humeral artery.
+
+The branches of the axillary artery, which the same chapter gives and which supply three of the names above: from the first part, the superior thoracic artery; from the second part, the acromio-thoracic artery and the lateral thoracic artery; and from the third part, the subscapular artery, which is its largest branch, the anterior circumflex humeral artery and the posterior circumflex humeral artery.
+
+### Clinical significance
+The clinical value of an anastomosis is the ligature it survives, and the department book's own framing — that the anastomosis links the first part of the subclavian to the third part of the axillary — is a statement about which segment can be sacrificed.
+
+A block or a ligature of the axillary artery between the outer border of the first rib and the lower border of teres major has this network above it and below it. Blood entering the suprascapular and transverse cervical arteries from the subclavian can cross the back of the scapula and rejoin the circulation through the subscapular and circumflex scapular arteries, and so reach the limb.
+
+The posterior circumflex humeral artery runs with the axillary nerve through the quadrangular space and winds round the surgical neck of the humerus, which is why the same fracture or dislocation that injures the nerve also involves that vessel.
+
+The circumflex scapular artery is the sole content of the upper triangular space, so it is the vessel that space exists to explain.
+
+### Common misconceptions
+Naming the vessels without their parents answers half the question. The examinable point is which trunks the network connects — the first part of the subclavian and the third part of the axillary — because that is what makes it a collateral route rather than a list.
+
+The suprascapular artery and the transverse cervical artery are not axillary branches. Both come from the thyro-cervical trunk, off the first part of the subclavian artery.
+
+The circumflex scapular artery is not a direct branch of the axillary artery. It is a branch of the subscapular artery, which is a branch of the third part of the axillary.
+
+The scapular anastomosis and the cruciate anastomosis are two different networks. One is around the scapula and bridges subclavian to axillary; the other is around the surgical neck of the humerus and brings the brachial artery in as well.
+
+The posterior intercostal arteries are part of this anastomosis. They are the third of its three sources and they come from the descending thoracic aorta, not from either limb trunk.
+
+The subscapular artery does not end at the circumflex scapular branch. It continues as the thoraco-dorsal artery to latissimus dorsi.
+## hold_these
+The anastomosis around the scapula links branches of the first part of the subclavian artery, branches of the third part of the axillary artery, and the posterior intercostal arteries from the descending thoracic aorta.
+From the subclavian it takes the suprascapular artery and the deep branch of the transverse cervical artery, both from the thyro-cervical trunk.
+From the axillary it takes the subscapular artery and the circumflex scapular artery.
+Because it bridges the subclavian above and the axillary below, it can carry blood past a block in the axillary artery between them.
+The circumflex scapular artery reaches the back of the scapula through the upper triangular space, and is usually larger than the continuation of the subscapular artery.
+The subscapular artery continues below the origin of the circumflex scapular as the thoraco-dorsal artery to latissimus dorsi.
+The cruciate anastomosis, around the surgical neck of the humerus, links the descending branch of the suprascapular artery, both circumflex humeral arteries, and the ascending branch of the profunda brachii.
+The anastomosis around the shoulder joint links the acromial and deltoid branches of the thoraco-acromial artery, the suprascapular artery and the ascending branch of the anterior circumflex humeral artery.
+The third part of the axillary artery gives the subscapular artery, its largest branch, and the anterior and posterior circumflex humeral arteries.
+The posterior circumflex humeral artery runs with the axillary nerve through the quadrangular space and round the surgical neck of the humerus.
+## lose_the_mark
+Naming the vessels without their parent trunks. The question is about which trunks the network connects, and the parents are what carry the marks.
+Calling the suprascapular or transverse cervical artery a branch of the axillary artery. Both are from the thyro-cervical trunk of the first part of the subclavian.
+Making the circumflex scapular artery a direct branch of the axillary. It arises from the subscapular artery.
+Leaving out the posterior intercostal arteries. They are the third source and they come from the descending thoracic aorta.
+Merging the scapular and cruciate anastomoses. They are two networks in two places with two different vessel lists.
+Forgetting the thoraco-dorsal continuation of the subscapular artery.
+Saying the anastomosis bypasses the subclavian artery. It bypasses the axillary artery, between the first part of the subclavian and the third part of the axillary.
+## image_recommendations
+### diagram · The scapula seen from behind with the anastomosis drawn as a network on it, each vessel labelled and colour-coded by parent trunk — subclavian branches in one colour, axillary branches in another, posterior intercostals in a third — and the axillary artery drawn alongside with the bypassed segment marked between the two ends of the network
+Purpose: The examinable point is which two trunks the network joins, which is a property of the whole picture rather than of any vessel. Colouring by parent and drawing the bypassed segment beside it states the point in the form the answer takes.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Axilla chapter, Anatomy pages 178-193, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-DF8F395F3D471E, and the same plate is requested by ART-101-ANA-AXILLA-BREAST.
+### diagram · The three anastomoses of the shoulder region on one figure — around the scapula, around the surgical neck of the humerus, and around the shoulder joint — each outlined separately with its own vessel list, on a single outline of scapula and upper humerus
+Purpose: Three networks in three places with overlapping vessel names are exactly what a student conflates. One outline carrying all three at once keeps them distinct and shows where the suprascapular artery contributes to two of them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Anatomy pages 178-193
+Rights: newly drawn for this product, or CC-BY
+### diagram · The axillary artery drawn in its three parts against pectoralis minor, with the branches of each part labelled and the two that feed the scapular anastomosis highlighted
+Purpose: Two of the five vessels in the answer are branches of one part of one artery, and the parts are defined by a muscle crossing it. A part-by-part figure makes the parentage checkable rather than remembered.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Axilla chapter, Anatomy pages 178-193
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the transverse cervical artery contributes by its deep branch or as a whole. The department book names the deep branch of the transverse cervical artery, from the thyro-cervical trunk. Some accounts name the dorsal scapular artery in that role. Only the book's wording is used here, and the alternative name is recorded because a student meeting it elsewhere should know it is the same vessel by a different naming convention.
+## evidence_gaps
+No Kasr source states a clinical case, a ligature or an occlusion in which this anastomosis has been shown to work. The clinical section reasons from the network's stated ends and is named in field_notes.
+No Kasr source gives the calibre of any vessel in the network, or states which route carries most of the collateral flow.
+No Kasr source describes the anastomosis around the acromion separately from the anastomosis around the shoulder joint.
+No Kasr source names an anastomosis around the elbow as belonging to this group, although the same principle is described there; the elbow network is taught in ART-101-ANA-BRACHIAL-ARTERY.
+No independent citation has been attached to any statement in this article, and only the department book gives all three networks in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the three anastomoses with the parent trunk of every vessel, the branches of the three parts of the axillary artery, the subscapular artery with its circumflex scapular and thoraco-dorsal branches, the course of the circumflex scapular artery through the upper triangular space, and the course of the posterior circumflex humeral artery with the axillary nerve through the quadrangular space. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the upper triangular space, whose sole content is the circumflex scapular artery, and the quadrangular space.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 50, topic "Axillary artery branches and the three anastomoses" — the same three networks with the same vessel lists. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 15, "Model answer: brachial artery, profunda brachii and the anastomosis around the scapula" — the model answer to a past paper on this exact question.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the arteries of the upper limb and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The general account of what an arterial anastomosis is for, and the derivation of the bypassed segment from the two ends of the axillary artery, is this article's own reasoning. The department book lists the vessels and names the trunks and does not state the purpose.
+sections.Clinical significance: The statement that a block or ligature of the axillary artery between the first rib and teres major can be bypassed by this network is an inference from the book's own list of parent trunks. No Kasr source states it, which is recorded in evidence_gaps.
+## notes
+Written as a separate short article on the Shoulder Region leaf rather than folded into the muscles article, because the concept is about arteries and their parentage and because the department book teaches all three shoulder-region anastomoses together in the Axilla chapter. The two companion networks are taught here as well, since an examiner asking one can ask any.
+
+---
+
+# Item
+## id
+ART-101-ANA-NOTOCHORD
+## title
+The notochord
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-1BCF37C48AF307
+## related_articles
+ART-101-ANA-PARAXIAL-MESODERM: The sclerotome migrates medially to surround the notochord, which is how the vertebral column comes to form around it.
+ART-101-ANA-EMBRYONIC-FOLDING: The firmness of the notochord is what limits the head fold, which is one of its three stated uses.
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA: The same third week in which the villi become tertiary is the week the notochord is completed.
+## aliases
+Notochord | Prenotochordal process | Notochordal canal | Neurenteric canal | Nucleus pulposus
+## reading_time
+8
+## summary
+The notochord is asked as three things: four steps of formation, three uses, and one fate. The four steps are a cord that becomes a tube and then a solid cord again, and the middle of them opens a temporary hole between the amniotic cavity and the yolk sac. The fate is where the marks go, because the answer is not what a student expects: the vertebral column forms around the notochord and the notochord itself degenerates, surviving only as the nucleus pulposus.
+## sections
+### Definition
+The notochord is the temporary primitive axial skeleton of the embryonic disc.
+
+It develops in the third week, from epiblast cells that pass through the primitive pit during gastrulation, and it lies in the median plane between the ectoderm and the endoderm.
+
+It develops in four steps: the prenotochordal process, the notochordal canal, the neurenteric canal with the notochordal plate, and the definitive notochord.
+
+### Mechanism
+The four steps are one structure changing shape twice — solid, then hollow, then solid again — and each change has a consequence.
+
+Step one, the prenotochordal process. A solid cord of epiblast cells, derived from the primitive pit, invaginates and extends cranially in the midline between the ectoderm and the endoderm, until it reaches the bucco-pharyngeal membrane. That membrane is where ectoderm and endoderm are fused and no mesoderm intervenes, so it is the cranial limit the cord can reach.
+
+Step two, the notochordal canal. The cavity of the primitive pit extends forwards into the prenotochordal process, hollowing it. The canal so formed has a roof in contact with the ectoderm, a floor fused with the endoderm in the midline, and a cavity continuous with the amniotic cavity above.
+
+Step three, the neurenteric canal and the notochordal plate. The floor of the notochordal canal degenerates, together with the fused median region of endoderm beneath it. That opens a temporary communication between the amniotic cavity above and the yolk sac below — the neurenteric canal. What is left of the notochordal structure is its roof and sides, now a flat plate lying in the endoderm: the notochordal plate, whose sides fuse with the remaining endoderm on each side.
+
+Step four, the definitive notochord. The notochordal plate folds upon itself, forming a solid cord again with no cavity, and pinches free. The endoderm then approximates and fuses beneath it on both sides, so the amniotic cavity and the yolk sac regain their separation and the neurenteric canal closes.
+
+The importance follows from what the structure is: a firm rod in the midline of a soft disc. The department book gives three uses. It is the temporary primitive axial skeleton. During folding of the embryonic disc, its firmness limits the head fold — which is why the head fold is limited cranially and the tail fold by the relatively firm primitive streak. And the vertebral column forms around it, the sclerotome cells of the somites migrating medially to surround it.
+
+The fate follows from the same fact. Once the vertebral column has formed around it, a firm rod in the middle of the vertebral bodies has no further use, and most of the notochord degenerates. The part lying within the intervertebral disc persists, and it persists as the nucleus pulposus — the soft central part of the disc.
+
+### Key determinants
+The four steps, in order, each with the feature that names it.
+
+Prenotochordal process: a solid cord of epiblast cells from the primitive pit, invaginating and extending cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+
+Notochordal canal: the cavity of the primitive pit extends into that cord, giving a roof against the ectoderm, a floor fused with the endoderm and a cavity continuous with the amniotic cavity.
+
+Neurenteric canal and notochordal plate: degeneration of the canal's floor with the fused median endoderm opens a temporary communication between amniotic cavity and yolk sac; the persistent roof and sides form the notochordal plate, whose sides fuse with the remaining endoderm.
+
+Definitive notochord: the plate folds on itself into a solid cord with no cavity, and the endoderm approximates and fuses on both sides, separating amniotic cavity and yolk sac again.
+
+Importance, three items. Temporary primitive axial skeleton. Its firmness limits the head fold during folding of the embryonic disc. The vertebral column forms around it.
+
+Fate, one sentence with two halves. Most of it degenerates; the part within the intervertebral disc persists as the nucleus pulposus.
+
+The regions of the disc where intra-embryonic mesoderm is absent belong with this, because the notochord accounts for one of them: at the bucco-pharyngeal membrane and the cloacal membrane, where ectoderm and endoderm fuse; and in the median region between the primitive node and the bucco-pharyngeal membrane, which is occupied by the notochord and the neural tube.
+
+### Clinical significance
+The department book gives no anomaly and no disease of the notochord, and that silence is recorded in `evidence_gaps`.
+
+What the book does state carries one clinical consequence directly. The nucleus pulposus of the intervertebral disc is notochordal tissue — a remnant of the embryonic axial skeleton persisting in the adult. It is the soft centre of the structure the department's own Articular System chapter describes as a secondary cartilaginous joint, in which the two vertebral surfaces are covered by thin hyaline cartilage and separated by a disc of white fibrocartilage whose elasticity is what permits the joint's limited mobility.
+
+### Common misconceptions
+The notochord does not become the vertebral column. The column forms around it, and the notochord itself degenerates. Writing that it "becomes" the vertebrae answers the fate question wrong and the importance question only half right.
+
+The neurenteric canal is not a step in itself so much as a consequence of one. It opens when the floor of the notochordal canal degenerates, and it closes when the endoderm fuses beneath the definitive notochord. It is temporary in both directions.
+
+The notochord is solid at the beginning and at the end, and hollow only in the middle. A student who describes it as a tube throughout has merged step two with step four.
+
+The prenotochordal process stops at the bucco-pharyngeal membrane. It does not cross it, because there is no mesoderm there — ectoderm and endoderm are fused.
+
+The nucleus pulposus is not the whole intervertebral disc. The disc is white fibrocartilage; the nucleus pulposus is its soft centre and the only notochordal part of it.
+
+The notochord is not what limits the tail fold. It limits the head fold; the relatively firm primitive streak limits the tail fold.
+## hold_these
+The notochord is the temporary primitive axial skeleton of the embryonic disc, formed in the third week from epiblast cells passing through the primitive pit.
+Step 1, the prenotochordal process: a solid cord invaginating and extending cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+Step 2, the notochordal canal: the primitive pit cavity extends into the process, its roof against ectoderm, its floor fused with endoderm and its cavity continuous with the amniotic cavity.
+Step 3: degeneration of the floor with the fused median endoderm opens the neurenteric canal between amniotic cavity and yolk sac, leaving roof and sides as the notochordal plate.
+Step 4, the definitive notochord: the plate folds on itself into a solid cord with no cavity, and the endoderm fuses beneath it so the two cavities are separate again.
+Its three uses are: temporary primitive axial skeleton; its firmness limits the head fold during folding; and the vertebral column forms around it.
+Most of the notochord degenerates; the part within the intervertebral disc persists as the nucleus pulposus.
+Intra-embryonic mesoderm is absent at the bucco-pharyngeal and cloacal membranes and in the median region between primitive node and bucco-pharyngeal membrane, which the notochord and neural tube occupy.
+The head fold is limited by the notochord and the tail fold by the primitive streak.
+## lose_the_mark
+Saying the notochord becomes the vertebral column. The column forms around it and the notochord degenerates, surviving only as the nucleus pulposus.
+Giving three steps. There are four, and the neurenteric canal stage is the one usually merged with another.
+Describing the notochord as a tube throughout. It is solid, then hollow, then solid again.
+Saying the notochord limits the tail fold. It limits the head fold; the primitive streak limits the tail fold.
+Calling the whole intervertebral disc a notochordal remnant. Only the nucleus pulposus is.
+Giving the fate without the importance, or the reverse. The question asks for formation, importance and fate, and each is separately marked.
+## image_recommendations
+### diagram · The four steps of notochord formation as four median sagittal sections of the embryonic disc — solid prenotochordal process, hollowed notochordal canal with its roof, floor and cavity labelled, the neurenteric canal open between amniotic cavity and yolk sac with the notochordal plate above it, and the definitive solid notochord with the endoderm fused beneath
+Purpose: The whole answer is one structure changing shape twice, and the third step is a hole that opens and closes. Four sections in sequence show the change; four sentences ask the reader to rebuild the shape each time from words.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's Third Week chapter figures, Anatomy pages 80-86, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-1BCF37C48AF307.
+### diagram · Transverse sections through the same level at step three and step four, showing the notochordal plate lying in the endoderm with the neurenteric canal open, and then the folded definitive notochord with endoderm fused beneath it
+Purpose: The plate-to-cord fold is a movement in the transverse plane and is invisible in a sagittal section. The pair completes the account the sagittal series begins.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · A vertebral body and intervertebral disc in median section with the notochord drawn faintly through it at the embryonic stage and the nucleus pulposus shaded at the adult stage, so the surviving fragment can be seen where the rod used to be
+Purpose: The fate is a correspondence between an embryonic structure and an adult one, and it is the answer students get wrong. Superimposing the two makes the survival of one fragment the visible point.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical significance
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+[clear]
+## evidence_gaps
+No Kasr source names any anomaly, tumour or remnant disease of the notochord.
+No Kasr source states when the notochord degenerates, or by what process.
+No Kasr source states how the notochord induces the overlying ectoderm to form the neural plate, although it names the notochord as the axial structure of the disc.
+No Kasr source describes the composition of the nucleus pulposus or its change with age.
+The Clinical significance section draws on the department book's Articular System chapter for the structure of the intervertebral disc. The connection between that disc's nucleus pulposus and the notochord is stated by the embryology chapter; nothing further is claimed.
+No independent citation has been attached to any statement in this article, and only the department book covers the notochord's four steps in the extracted corpus.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the definition of the notochord, its four steps of formation with the structure of the notochordal canal, the neurenteric canal and the notochordal plate, its three uses, its fate as the nucleus pulposus, and the regions of the disc lacking intra-embryonic mesoderm. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the sclerotome migrating medially to surround the notochord and form the vertebrae and intervertebral discs, and the two causes of folding in which the notochord limits the head fold.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy chapter 4 "Articular System", PDF pages 122-131 — the intervertebral disc as a secondary cartilaginous joint, in which the nucleus pulposus lies.
+Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: decidua and notochord" — the model answer to a past paper, which pairs the notochord with the decidua as two six-mark embryology topics.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Concept CON-DEV-1BCF37C48AF307 carries no secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The framing of the four steps as "solid, then hollow, then solid again" is this article's own device for making the sequence memorable. The four steps are the department book's, described in its own terms.
+sections.Mechanism: The explanation that the prenotochordal process stops at the bucco-pharyngeal membrane because ectoderm and endoderm are fused there joins two of the book's own statements — the cranial limit of the process, and the regions where intra-embryonic mesoderm is absent — which the book makes in separate paragraphs.
+sections.Mechanism: The reasoning that a firm rod has no further use once the column has formed around it is this article's own; the book states the fate without explaining it.
+sections.Clinical significance: The section is short because the corpus gives no clinical material on the notochord, and it says so in its own text rather than importing a lesion from a general textbook.
+## notes
+Written as a separate short article on the Third Week leaf rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the notochord and the somites are two different derivatives of gastrulation asked as two different questions, and because the notochord's four steps are a self-contained six-mark answer. The two articles cross-reference each other at the point where they meet: the sclerotome surrounding the notochord.
+
+---
+
+# Item
+## id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## title
+Muscles of the back
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M01 | SYS-MSK-T01-S03-M02 | SYS-MSK-T03-S02-M03
+## related_concepts
+CON-MSK-49E1E587FB6ED6
+CON-MSK-84E91B4CD6B6DF
+CON-MSK-59453A6F6ACC2E
+CON-MSK-2BCDBB34965818
+CON-MSK-C89FCDA03E8C99
+## related_articles
+ART-101-ANA-PECTORALIS-MAJOR: The other muscle inserting into the bicipital groove, and the other half of the axillary folds — pectoralis major makes the anterior fold, latissimus dorsi with teres major the posterior one.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: Trapezius is one half of the couple that rotates the scapula past ninety degrees; serratus anterior, teres major and teres minor, which this article names only where they touch the back muscles, are taught in full there.
+ART-101-ANA-AXILLA-BREAST: Latissimus dorsi and teres major form the posterior wall of the axilla, and the back drains its lymph to the subscapular group of axillary nodes described there.
+ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal of action are what let latissimus dorsi pull the trunk up to the arm instead of the arm down to the trunk.
+ART-101-ANA-SCAPULAR-ANASTOMOSIS: The subscapular artery continues past the circumflex scapular branch as the thoraco-dorsal artery, which is the one named blood supply any Kasr source gives a muscle of the back.
+## aliases
+Muscles of the back | Muscles connecting the upper limb with the vertebral column | Trapezius | Latissimus dorsi | Rhomboideus major | Rhomboideus minor | Levator scapulae | Triangle of auscultation | Lumbar triangle | Posterior axillary fold
+## reading_time
+13
+## summary
+Five muscles connect the upper limb to the vertebral column, in two layers — trapezius and latissimus dorsi superficially, levator scapulae and the two rhomboids deep. The examiner wants attachments, nerve supply and action for each, and three things beyond that: trapezius has a U-shaped insertion and the only motor supply in the whole limb that comes from outside the brachial plexus, latissimus dorsi has a triple relation to teres major, and the two named triangles on the back — the triangle of auscultation and the lumbar triangle — are defined by these muscles' free borders. Paralysis of trapezius drops the shoulder, and it is the deformity these question books ask most.
+## sections
+### Overview and position
+The muscles of the back, in this module, are not the erector spinae. They are upper limb muscles that happen to lie on the back: five muscles which connect the bones of the shoulder girdle and the humerus to the vertebral column, so that pulling on the vertebral column moves the limb, and fixing the limb lets them move the trunk.
+
+They lie in two layers, and the layers are how the answer is laid out.
+
+The superficial layer is trapezius and latissimus dorsi. Both are large, flat and triangular, both are subcutaneous over most of their extent, and between them they cover the whole back from the skull to the iliac crest.
+
+The deep layer is levator scapulae, rhomboideus minor and rhomboideus major. All three lie under cover of trapezius, all three run from the cervical or upper thoracic spines downwards and laterally to the medial border of the scapula, and all three take the same nerve.
+
+Two muscles, then three, and the two counts are worth holding separately because a question that asks for "the superficial layer" is asking for a list of two.
+
+The department book opens the chapter by stating that these muscles are supplied by the anterior primary rami of the spinal nerves. Read on and the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve, which is a cranial nerve and not a spinal ramus at all. The book contains both statements. They are recorded in `conflicts` rather than reconciled here, and the muscle-by-muscle supply the book gives is the one used throughout this article.
+
+### Structure
+Each muscle is examined to the same four-part specification the orientation sheet names for every muscle of the limb: origin, insertion, nerve supply, action.
+
+**Trapezius.** A flat triangular muscle of the superficial layer, arising from a continuous line down the midline of the skull, neck and thorax: from the external occipital protuberance and the medial third of the superior nuchal line; from the ligamentum nuchae and the spine of the seventh cervical vertebra; and from the spines of all the thoracic vertebrae with their supraspinous ligaments.
+
+Its insertion is U-shaped, and that shape is the point. The upper fibres descend to the posterior border of the lateral third of the clavicle. The middle fibres run horizontally to the medial border of the acromion and the upper lip of the crest of the spine of the scapula. The lower fibres ascend to a rough tubercle on the crest of the spine near its root. Written out as a line on the bone, the three attachments make a U opening medially — which is what the muscle's fibres, converging from a long vertical origin onto a short horizontal insertion, have to produce.
+
+Its nerve supply is split. Motor comes from the spinal root of the accessory nerve, the eleventh cranial nerve. Sensation comes from the third and fourth cervical nerves.
+
+Its actions follow the three sets of fibres. The upper fibres elevate the shoulder girdle. The middle fibres, with the rhomboids, retract the scapula and brace back the shoulder. The upper and lower fibres acting together rotate the scapula so the glenoid cavity faces upward, which is what allows the arm to be raised above the head.
+
+**Latissimus dorsi.** A large triangular flat muscle covering the lower half of the back down to the iliac crest, with a very wide origin and a very narrow tendon of insertion — a muscle shaped like a fan collapsing into a strap.
+
+Its origins are five: by fleshy fibres from the spines of the lower six thoracic vertebrae, under cover of trapezius; from the thoracolumbar fascia; from the posterior third of the outer lip of the iliac crest; from the outer surface of the lower four ribs; and by a few fibres from the dorsal aspect of the inferior angle of the scapula.
+
+It inserts into the floor of the bicipital groove of the humerus. That is a single small target for all five origins, and it is worth noticing that the three muscles reaching the bicipital groove divide it between them: pectoralis major takes the lateral lip, teres major the medial lip, and latissimus dorsi the floor between them.
+
+Its nerve is the thoraco-dorsal nerve, also called the nerve to latissimus dorsi, from the posterior cord of the brachial plexus, C6, C7 and C8.
+
+Its actions are extension, medial rotation and adduction of the arm. With the arm fixed, the same pull raises the trunk instead: acting with the sternocostal part of pectoralis major it pulls the trunk upwards, as in climbing. And through its attachment to the ribs it assists in violent expiration, as in coughing.
+
+**Levator scapulae.** Arises by four slips from the transverse processes of the upper four cervical vertebrae and inserts into the dorsal surface of the medial border of the scapula above the root of the spine. Supplied by the dorsal scapular nerve, C5, with fibres from C3 and C4 as well. It elevates the shoulder girdle with the upper fibres of trapezius, rotates the scapula so the glenoid cavity faces downward, and retracts the scapula.
+
+**Rhomboideus minor.** Arises from the lower part of the ligamentum nuchae and from the spines of C7 and T1, and inserts into the dorsal surface of the medial border of the scapula opposite the root of the spine. Supplied by the dorsal scapular nerve, C5. It rotates the scapula so the glenoid faces downward, with levator scapulae, and retracts it, with the middle fibres of trapezius.
+
+**Rhomboideus major.** Arises from the spines of T2 to T5 and their supraspinous ligaments, and inserts into the dorsal surface of the medial border of the scapula from the root of the spine down to the inferior angle. Supplied by the dorsal scapular nerve, C5, and with the same actions as rhomboideus minor.
+
+The three deep muscles read as one strip broken into three: levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it, in that order down the medial border of the scapula. Learn the border and the three muscles fall into place on it.
+
+### Relations
+The relations of these muscles are what the examiner actually asks about, because every named space on the back is bounded by a free border of one of them.
+
+**Latissimus dorsi and teres major have a triple relation**, and it is the one relation in this chapter with a figure of its own. Following the upper border of latissimus dorsi laterally: it lies first *behind* teres major, then curves *below* it, and at the insertion lies *in front* of it. Behind, below, in front — three positions of one border against one muscle, and the sequence is the answer. At the insertion the two usually fuse, and the fused mass is the **posterior axillary fold**.
+
+The upper border of latissimus dorsi also crosses over the inferior angle of the scapula on its way laterally, which is why a few of its fibres arise from that angle.
+
+**The medial border of the scapula is gripped by four muscles and the lateral border by two.** On the dorsal surface of the medial border, from above downwards: levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it. On the costal surface of the same border, along its whole length, serratus anterior. On the dorsal surface of the lateral border: teres minor from the upper two thirds and teres major from the lower third, with the long head of triceps arising just above the border from the infraglenoid tubercle. Medial border pulls the scapula about on the chest wall; lateral border sends muscles to the humerus.
+
+**The triangle of auscultation** lies on the back, medial to the lower part of the scapula. It is bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi, and laterally by the lower part of the medial border of the scapula. Its floor is rhomboideus major together with the sixth and seventh ribs and the intercostal space between them.
+
+**The lumbar triangle** lies just above the iliac crest. It is bounded below by the iliac crest, medially by the lateral border of latissimus dorsi, and laterally by the posterior border of external abdominal oblique. Its floor is internal abdominal oblique and transversus abdominis.
+
+The two triangles are the same idea at the two ends of latissimus dorsi. Where the muscle's upper border falls short of trapezius, a gap opens over the ribs and you can listen through it. Where its lower lateral border falls short of external oblique, a gap opens over the abdominal wall and something can push through it.
+
+The deep layer has one relation of its own: the dorsal scapular nerve descends along the medial border of the scapula deep to levator scapulae and the rhomboids, supplying them from behind.
+
+### Blood supply, innervation and lymphatics
+**Innervation is the high-yield half of this section**, and the whole of it can be put as one sentence with an exception: every muscle acting on the shoulder girdle takes a named branch of the brachial plexus, except trapezius.
+
+Trapezius is supplied motor by the spinal root of the accessory nerve, the eleventh cranial nerve, with C3 and C4 supplying sensation. It is the only muscle of the upper limb whose motor supply does not come from the brachial plexus, and the mark is in saying *spinal root*: the cranial root of the accessory nerve joins the vagus and is distributed to the larynx and pharynx, and both roots appear as options in these question books.
+
+Levator scapulae, rhomboideus minor and rhomboideus major all take the dorsal scapular nerve, also called the nerve to the rhomboids, from the roots of the brachial plexus, C5. Levator scapulae additionally receives fibres from C3 and C4.
+
+Latissimus dorsi takes the thoraco-dorsal nerve from the posterior cord, C6, C7 and C8.
+
+The neighbouring muscles the same question sweeps up: serratus anterior takes the nerve to serratus anterior — the long thoracic nerve, the nerve of Bell — from the roots, C5, C6 and C7. Teres major takes the lower subscapular nerve, C5 and C6, from the posterior cord. Teres minor takes the axillary, or circumflex, nerve, C5 and C6.
+
+**Blood supply.** The department book names one artery to one of these muscles: the subscapular artery, from the third part of the axillary artery, continues below the origin of the circumflex scapular artery as the **thoraco-dorsal artery**, which supplies latissimus dorsi and shares in the anastomosis around the scapula. No Kasr source names the arterial supply of trapezius, the rhomboids or levator scapulae, and none is invented here.
+
+**Lymphatics.** The back drains forwards into the axilla. The posterior, or subscapular, group of axillary lymph nodes lies on the posterior wall of the axilla along the subscapular artery and receives lymph from the back as far down as the iliac crest and from the back of the shoulder; the deep lymph vessels of the scapular region end in the same group. That is the whole of what the sources give for the lymph drainage of this region.
+
+### Development
+No Kasr source describes the development of the muscles of the back, of the myotomes they arise from, or of the migration that carries a muscle supplied by a cranial nerve onto the back of the thorax. Nothing is invented here, and the absence is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+Two of these muscles make visible landmarks on a living back, and one of the named triangles exists only as a surface anatomy instruction.
+
+**The triangle of auscultation** is named for what a clinician does over it. Only a thin floor of rhomboideus major, two ribs and one intercostal space separates the stethoscope from the lung there, because the two large superficial muscles have both fallen short of the same patch of chest wall. Breath sounds are heard clearly over it, and the clarity is what named it.
+
+**The posterior axillary fold** is the fused lower border of latissimus dorsi and teres major, felt as a ridge at the back of the armpit. The department book notes that it lies lower than the anterior fold, which is pectoralis major.
+
+**The deltopectoral groove**, at the other end of the girdle, is the furrow between pectoralis major and deltoid; it belongs to the pectoral region rather than the back but is worth holding beside the folds, because the same list of surface landmarks is asked from either side.
+
+No Kasr source gives a radiographic, ultrasound or cross-sectional appearance of any muscle of the back.
+
+### Clinical correlations
+**Paralysis of trapezius causes shoulder drop.** The department book states it in those words, and it is the single most frequently asked fact on this leaf. Trapezius suspends the whole shoulder girdle from the occiput and the vertebral spines; take the muscle away and the girdle sags under the weight of the limb. The nerve at risk is the spinal accessory, which is superficial in the posterior triangle of the neck and can be cut there.
+
+The deformity is asked immediately alongside its twin, and the two are easy to swap. **Shoulder drop is trapezius**; a **flat shoulder** — loss of the rounded contour — is deltoid, wasting after an axillary nerve injury, and the book states that one separately in the shoulder region chapter. The two answers differ in one word and the question books offer both in the same option list.
+
+**The lumbar triangle may be a site of hernia.** The book says so directly. The triangle is a gap in the muscular wall bounded by bone below, latissimus dorsi medially and external oblique laterally, with only internal oblique and transversus abdominis in its floor — a weak spot in the abdominal wall, and abdominal contents can push through it as a lumbar hernia.
+
+**The triangle of auscultation is where a chest is listened to** for the reason given above, and this is the only place in the chapter where the anatomy of a gap is also its clinical use.
+
+**Loss of retraction.** A patient who cannot draw the scapula back has lost the muscles that retract it: the middle fibres of trapezius and the rhomboids. Both appear in the past papers as a pair, because retraction takes both and neither compensates for the other.
+
+The three back muscles that reach the humerus or the girdle from the trunk also give latissimus dorsi its two everyday tests: the climbing pull, with the arm fixed overhead, and the cough, through the rib attachment.
+
+### Variations and anomalies
+No Kasr source describes any variation of the muscles of the back — no absent rhomboid, no accessory slip, no variant of the trapezius insertion. None is invented here.
+## hold_these
+Five muscles connect the upper limb to the vertebral column: trapezius and latissimus dorsi superficially, levator scapulae and rhomboideus major and minor deeply.
+Trapezius arises from the external occipital protuberance and medial third of the superior nuchal line, the ligamentum nuchae and the C7 spine, and all the thoracic spines with their supraspinous ligaments.
+The insertion of trapezius is U-shaped: upper fibres to the posterior border of the lateral third of the clavicle, middle fibres to the medial border of the acromion and the upper lip of the crest of the spine, lower fibres to a tubercle on the crest near its root.
+Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4 — the one muscle of the upper limb not supplied motor from the brachial plexus.
+Trapezius upper fibres elevate the girdle, middle fibres retract the scapula with the rhomboids, and upper and lower fibres together rotate the glenoid cavity upwards so the arm can be raised overhead.
+Paralysis of trapezius leads to shoulder drop; paralysis of deltoid flattens the shoulder.
+Latissimus dorsi arises from the lower 6 thoracic spines, the thoracolumbar fascia, the posterior third of the outer lip of the iliac crest, the outer surface of the lower 4 ribs, and the inferior angle of the scapula.
+Latissimus dorsi inserts into the floor of the bicipital groove and is supplied by the thoraco-dorsal nerve (C6, C7, C8) from the posterior cord.
+Latissimus dorsi extends, medially rotates and adducts the arm; with pectoralis major it raises the trunk as in climbing; and it assists violent expiration as in coughing.
+The upper border of latissimus dorsi has a triple relation to teres major — behind it, then below it, then in front of it at the insertion — and the two fuse there to form the posterior axillary fold.
+The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it, and serratus anterior along its costal surface.
+The lateral border of the scapula gives origin to teres minor from its upper two thirds and teres major from its lower third, with the long head of triceps from the infraglenoid tubercle just above.
+The triangle of auscultation is bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi and laterally by the medial border of the scapula; its floor is rhomboideus major with the 6th and 7th ribs and the space between them.
+The lumbar triangle is bounded below by the iliac crest, medially by latissimus dorsi and laterally by external abdominal oblique, with internal oblique and transversus abdominis in its floor; it may be a site of lumbar hernia.
+Levator scapulae, rhomboideus minor and rhomboideus major are all supplied by the dorsal scapular nerve (C5); levator scapulae also receives C3 and C4.
+Levator scapulae elevates the girdle, retracts the scapula and rotates the glenoid cavity downwards — the opposite rotation to trapezius with serratus anterior.
+The thoraco-dorsal artery, the continuation of the subscapular artery, supplies latissimus dorsi and shares in the anastomosis around the scapula.
+The back drains its lymph to the subscapular (posterior) group of axillary nodes, as far down as the iliac crest.
+## lose_the_mark
+Answering "the accessory nerve" without saying which root. It is the spinal root that supplies trapezius; the cranial root joins the vagus and supplies the larynx and pharynx, and both are offered as options.
+Saying paralysed trapezius flattens the shoulder. It drops the shoulder. Flattening is deltoid wasting after an axillary nerve injury, and these books ask the two side by side.
+Giving the trapezius insertion as one attachment. It is U-shaped and each limb of the U is separately marked: clavicle, acromion, crest of the spine.
+Giving the nuchal ligament as an origin of latissimus dorsi. That belongs to trapezius and to rhomboideus minor; latissimus dorsi never reaches above the sixth thoracic spine.
+Attributing flexion, abduction or lateral rotation to latissimus dorsi. Its actions are extension, adduction and medial rotation, and a past paper answers "none of the above" to exactly that list.
+Putting serratus anterior on the lateral border of the scapula. It grips the costal surface of the medial border along its whole length, which is what lets it hold that border against the chest wall.
+Bringing teres major into the triangle of auscultation. Teres major is a lateral-border muscle running to the humerus; it bounds the axillary spaces, not this triangle.
+Giving the triangle of auscultation only three boundaries. The floor — rhomboideus major with the 6th and 7th ribs — carries its own marks and is what explains the name.
+Merging the triangle of auscultation with the lumbar triangle. They are two gaps at the two ends of latissimus dorsi, with different boundaries, different floors and different clinical points.
+Naming only the lateral rotation of the scapula and not its direction. Trapezius with serratus anterior turns the glenoid up; levator scapulae with the rhomboids turns it down.
+Giving the deep layer one nerve without its root. It is the dorsal scapular nerve, C5, and levator scapulae takes C3 and C4 in addition.
+Inserting latissimus dorsi into the medial lip of the bicipital groove. That is teres major. Latissimus dorsi takes the floor and pectoralis major the lateral lip.
+## image_recommendations
+### anatomy plate · Posterior view of the trunk with trapezius and latissimus dorsi drawn on the left half and cut away on the right to show levator scapulae and both rhomboids, every origin and insertion labelled on the bone, and the U-shaped insertion of trapezius traced along the clavicle, acromion and crest of the scapular spine
+Purpose: The whole answer is attachments on bones, in two layers that hide each other. A half-intact, half-reflected figure is the only way to show both layers at once, and the U-shape of the trapezius insertion is a shape, not a sentence.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Muscles of the Back chapter Figs. 12, 13, 14 and 17
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concepts CON-MSK-49E1E587FB6ED6 and CON-MSK-84E91B4CD6B6DF.
+### diagram · The triple relation of latissimus dorsi to teres major, drawn as three steps along the muscle's upper border in an anterior view — behind teres major, then curving below it, then in front of it at the insertion — with the fused posterior axillary fold marked and the three bicipital-groove attachments labelled (pectoralis major lateral lip, latissimus dorsi floor, teres major medial lip)
+Purpose: A relation that changes three times along one border cannot be held from prose; students remember two of the three positions and guess the order. Adding the three groove attachments to the same figure settles the other fact students reverse.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Fig. 15, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+### diagram · The triangle of auscultation and the lumbar triangle on one posterior view, each outlined with its three boundaries labelled by the muscle border that makes it and its floor shaded and named, with the 6th and 7th ribs drawn through the floor of the upper triangle
+Purpose: The two triangles are confused precisely because both are made by latissimus dorsi. One figure carrying both, at their real positions on the back, makes them two places rather than two lists.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Fig. 16
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-2BCDBB34965818.
+### diagram · The scapula seen from behind and from the front on one plate, with every muscle attached to the medial border labelled in order from above down and every muscle attached to the lateral border labelled beside it, colour-coded by which border it grips and which bone it runs to
+Purpose: The examinable point is a sorting rule — medial border moves the scapula, lateral border moves the humerus — and a sorting rule is learnt from a picture of the two columns, not from a list that interleaves them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book's Muscles of the Back chapter, PDF pages 163-168, and Muscles of the Shoulder Region chapter, PDF pages 169-177
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-59453A6F6ACC2E.
+### diagram · Nerve supply of the muscles acting on the shoulder girdle, drawn as the brachial plexus with each named branch running to its muscle, and the spinal root of the accessory nerve drawn entering the field from the neck in a different colour to show that it comes from outside the plexus
+Purpose: The whole concept is one exception inside a set, and colouring the exception differently is what states it. A table of nerve names does not show that trapezius is fed from somewhere else entirely.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Axilla chapter, PDF pages 178-193, for the plexus branches and root values
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-C89FCDA03E8C99. The plexus half of the drawing overlaps what ART-101-ANA-BRACHIAL-PLEXUS requests; one base drawing can serve both.
+### clinical photograph · A patient with a right-sided shoulder drop from trapezius palsy photographed from behind beside a patient with a flattened shoulder from deltoid wasting, the two contours outlined
+Purpose: The two deformities are asked against each other and are distinguished by contour, which is a visual difference. Seeing them side by side is what stops the swap the question books are built to catch.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical image library, or a consented departmental photograph; no identifiable face
+Rights: must be CC-BY or public domain with documented consent
+Notes: The same pair is wanted by ART-101-ANA-AXILLARY-NERVE for the deltoid half.
+## conflicts
+Whether these muscles are supplied by the anterior primary rami. The department book opens the chapter by stating that the muscles of the back "are supplied by the anterior primary rami of the spinal nerves", and then in the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve — a cranial nerve, not a spinal ramus. The two statements cannot both be true of trapezius. The book's own muscle-by-muscle table is used throughout this article, because that is what the question books and the past papers mark against, and the general opening sentence is recorded here rather than repeated as fact. Nothing in the Kasr corpus resolves it.
+Which lip of the crest of the scapular spine the lower fibres of trapezius reach. The department book says a rough tubercle on the crest of the spine near its root, without naming a lip. The VIP Academy revision book says a tubercle on the lower lip of the crest. The book's wording is used, and the difference matters because the same chapter set gives the lower lip of that crest as an origin of deltoid.
+Whether the lower fibres of trapezius depress the shoulder girdle. The department book's Muscles of the Back chapter lists elevation, retraction and upward rotation and does not state depression; the VIP Academy revision book states that the lower fibres depress the scapula, and the concept as drafted from the question books says the same. The book's own account of shoulder-girdle depression, given with the shoulder girdle movements, credits pectoralis minor and subclavius. The book's chapter is followed here and the alternative recorded, because a student meeting "lower fibres depress" elsewhere should know where it comes from.
+How many ribs latissimus dorsi arises from. The department book and the VIP Academy revision book both say the lower four ribs; the concept as drafted from the question books says "the lower three or four ribs". Four is used, on the faculty's own source.
+## evidence_gaps
+No Kasr source names the arterial supply of trapezius, levator scapulae, rhomboideus major or rhomboideus minor. Only latissimus dorsi has a named artery in the corpus, the thoraco-dorsal.
+No Kasr source describes the venous drainage of any muscle of the back.
+No Kasr source describes the development of these muscles, or why a muscle on the back of the thorax is supplied by a cranial nerve.
+No Kasr source gives the root value of the spinal root of the accessory nerve, or its course through the posterior triangle of the neck. The statement in Clinical correlations that the nerve is superficial in the posterior triangle and can be cut there is named in field_notes.
+No Kasr source describes a nerve injury to the dorsal scapular or thoraco-dorsal nerve, or the deformity either would produce.
+No Kasr source gives the incidence, presentation or repair of a lumbar hernia. The book states only that the lumbar triangle "might be a site of hernia".
+No Kasr source states what is heard, or is normally not heard, over the triangle of auscultation beyond the statement that breath sounds are clear there.
+No Kasr source describes any variation or anomaly of these five muscles.
+No Kasr source gives a radiological or cross-sectional image of the region.
+No independent citation has been attached to any statement in this article. The department book and the VIP Academy revision book agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 2 "Muscles connecting the upper limb with vertebral column (Muscles of the Back)", PDF pages 163-168 — the two layers and their membership, the attachments, nerve supply and actions of all five muscles, the U-shaped insertion of trapezius, the split motor and sensory supply of trapezius, the five origins of latissimus dorsi, the triple relation to teres major and the posterior axillary fold, both triangles with their boundaries and floors, the statement that paralysis of trapezius leads to shoulder drop, and the statement that the lumbar triangle might be a site of hernia. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — teres minor from the upper two thirds and teres major from the lower third of the dorsal surface of the lateral border of the scapula with their nerve supplies, serratus anterior on the costal surface of the medial border with the long thoracic nerve, the flattening of the shoulder in deltoid paralysis, and the deltopectoral groove.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the root values of the dorsal scapular, thoraco-dorsal, lower subscapular, long thoracic and axillary nerves, the course of the dorsal scapular nerve deep to levator scapulae and the rhomboids, the thoraco-dorsal artery to latissimus dorsi, the posterior wall of the axilla and the posterior axillary fold, and the subscapular group of axillary lymph nodes receiving from the back as far as the iliac crest.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the long head of triceps arising from the infraglenoid tubercle.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 1 "The Pectoral Region", PDF pages 153-162 — pectoralis major inserting into the lateral lip of the bicipital groove, which is what makes the floor of that groove a separate target.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 24, topic "Muscles connecting the upper limb with the vertebral column" — the same five muscles with the same attachments, nerve supplies and actions, and the explicit statement that trapezius is the only muscle in the upper limb not supplied by the brachial plexus. Extracted to scripts/kasr/extract/notes.json.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 26, past questions — "Paralysis of the following muscle leads to shoulder drop" answered trapezius; "Patient was unable to retract his scapula because of paralysis of trapezius and ..." answered the rhomboids (2024); "Actions of the latissimus dorsi: flexes / abducts / laterally rotates the arm" answered "none of the above"; and, on page 32, "Paralysis of the following muscle leads to flat shoulder" answered deltoid.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 3, "Model answer: muscles producing abduction of the shoulder girdle beyond 90 degrees" — the trapezius attachments, nerve supply and actions as a model written answer, including shoulder drop on paralysis.
+Dr Galal's final-revision compendium (src_fc7ea5960363431009ed), page 4, topics 4 and 5, "Trapezius" and "Latissimus dorsi" — both carry the author's "Q." high-yield marker and both have a model answer present. Recorded in scripts/kasr/extract/practical.json as writtenItems.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which examines "all muscles (attachment, nerve supply and action) except muscles of the hand" and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The 24 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+secondaryNodeIds: The five concepts on this leaf carry SYS-MSK-T03-S02-M03 (Trauma and orthopedics > Soft-tissue injury > Muscle) or SYS-MSK-T01-S01-M03 (Regional anatomy > Upper limb > Elbow) as their secondary placement. The second of those is the upper-limb leaf the sibling articles use as a general tag, but this article is not about the elbow, so Shoulder (SYS-MSK-T01-S01-M01) and Back (SYS-MSK-T01-S03-M02) are used instead alongside the muscle node. The canonical taxonomy is a clinical one and has no node for a regional muscle group.
+sections.Structure: The observation that the three attachments of trapezius make a U opening medially because a long vertical origin converges on a short horizontal insertion is this article's own reading. The book gives the three attachments and calls the insertion U-shaped without explaining the shape.
+sections.Structure: The grouping of the three bicipital-groove attachments — pectoralis major to the lateral lip, latissimus dorsi to the floor, teres major to the medial lip — joins statements the book makes in three separate chapters. Each attachment is the book's; the assembly is this article's.
+sections.Relations: The framing of the two triangles as "the same idea at the two ends of latissimus dorsi" is this article's own device. The book gives the two triangles in separate paragraphs and draws no parallel between them.
+sections.Blood supply, innervation and lymphatics: The statement that trapezius is the only muscle of the upper limb whose motor supply does not come from the brachial plexus is the VIP Academy revision book's wording. The department book gives the supply muscle by muscle without generalising.
+sections.Clinical correlations: The mechanism offered for shoulder drop — that trapezius suspends the girdle from the skull and spines, so the girdle sags without it — is reasoning from the book's own attachments. The book states the deformity and not the mechanism. The statement that the spinal accessory nerve is superficial in the posterior triangle of the neck and can be cut there is general anatomy: no Kasr source in the extracted corpus describes the nerve's course, and it is recorded in evidence_gaps.
+sections.Clinical correlations: The account of a lumbar hernia as abdominal contents pushing through a gap whose floor is only internal oblique and transversus abdominis is inference from the book's stated boundaries. The book states only that the triangle might be a site of hernia.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of these muscles.
+## notes
+Written as one article for the whole leaf rather than one per muscle, because the department book teaches the five as a set in two layers and because four of the five concepts on this leaf cut across muscles rather than down them — the nerve supply concept, the scapular border concept and the triangle concept each need three or four of the muscles at once.
+
+Five further concepts are named as the main concept of questions on this leaf but are not declared here, because this article does not teach them and other articles do: CON-MSK-04D3ACA71DC025 and CON-MSK-1CA86BE843A07C (scapular rotation and the movements of the shoulder girdle, taught by ART-101-ANA-SHOULDER-SPACES-ROTATION), CON-MSK-24E318F2E3F18E (the long thoracic nerve at mastectomy, ART-101-ANA-AXILLA-BREAST) and CON-MSK-EE022A2043C10F (axillary nerve injury, ART-101-ANA-AXILLARY-NERVE). Their question rows reach this leaf because the question books file them under the back muscles; the teaching sits where the anatomy sits, and `related_concepts` names only what is taught here.
+
+---
+
+# Item
+## id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## title
+Veins and lymph drainage of the upper limb
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-66A2E56C00F3A7
+CON-MSK-1F14D98DCE111B
+## related_articles
+ART-101-ANA-BRACHIAL-ARTERY: The two venae comitantes of the brachial artery are what join the basilic vein to make the axillary vein, and the bicipital aponeurosis that crosses in front of that artery is what separates it from the median cubital vein.
+ART-101-ANA-CUBITAL-FOSSA: The median cubital vein lies in the roof of the cubital fossa, and the fossa's floor, boundaries and contents are what a needle in that vein is aimed away from.
+ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes, into which almost every lymph vessel of the limb finally drains, are described there with the axilla itself.
+ART-101-ANA-DEEP-FASCIA: The cephalic vein is one of the four structures that pierce the clavipectoral fascia, which is the worked example of a named sheet of deep fascia.
+ART-101-ANA-HAND-ARTERIES: The cephalic vein begins at the back of the wrist beside the anatomical snuff box, where the radial artery is crossing in the opposite direction.
+## aliases
+Veins of the upper limb | Cephalic vein | Basilic vein | Median cubital vein | Median vein of the forearm | Dorsal venous arch | Dorsal venous network | Venae comitantes | Lymph drainage of the upper limb | Supratrochlear nodes | Epitrochlear nodes | Infraclavicular nodes | Deltopectoral nodes
+## reading_time
+12
+## summary
+The veins of the upper limb come in two groups that freely communicate and carry valves, and the department book makes the unusual claim that the superficial group is the larger and the more important of the two. Five superficial veins are named, all of them starting from one network on the back of the hand, and one of them — the median cubital vein — the book calls the most prominent superficial vein in the body and the one used for intravenous injection. The same chapter, despite its title, carries the whole lymph drainage of the limb: two superficial groups of nodes, the deep nodes along the arteries, and the rule that almost everything ends in the axilla.
+## sections
+### Overview and position
+The veins of the upper limb are divided into a superficial and a deep group. The two communicate freely with each other and both are provided with valves.
+
+The superficial veins run in the superficial fascia, immediately under the skin. The department book states that they are larger and more important than the deep veins, into which they finally end — a statement worth noticing, because it is the reverse of what a student expects from a limb whose arteries are all deep. It is also the reason the whole clinical content of this chapter is about superficial veins.
+
+They begin on the dorsum of the hand. Every named superficial vein of the limb traces back to one network there, and the two great veins of the limb are simply its two ends: the lateral end becomes the cephalic vein, the medial end the basilic vein. Fix that and half the chapter follows.
+
+The deep veins accompany the arteries as venae comitantes, two to each main artery, as far as the brachial artery; above that the limb has a single trunk, the axillary vein.
+
+The chapter is titled "Veins of the Upper Limb" and the subject tree gives it no other name, but it also carries the entire lymph drainage of the limb — the superficial and deep nodes, the vessels that reach them, and the direction of flow. That material is taught here for that reason, in the section on lymphatics, and the mismatch between the title and the contents is recorded in `evidence_gaps`.
+
+### Structure
+**The superficial veins are five**, and the list is how the answer opens.
+
+**The superficial dorsal venous network**, or dorsal venous arch, is a network of veins lying in the superficial fascia on the dorsum of the hand. It receives the dorsal digital and dorsal metacarpal veins. It is the source of everything that follows.
+
+**The cephalic vein** begins from the *lateral* end of the dorsal venous arch, just behind the styloid process of the radius. It winds upwards onto the anterior surface of the forearm and ascends on its lateral side; crosses the lateral part of the roof of the cubital fossa; runs in a groove along the lateral side of the arm; and reaches the deltopectoral groove, between pectoralis major and deltoid. Just below the clavicle it pierces the deep fascia and the clavipectoral fascia and ends in the terminal part of the axillary vein.
+
+**The basilic vein** begins from the *medial* end of the same arch. It ascends along the medial surface of the forearm, turns onto the anterior surface just below the elbow, and crosses the medial part of the roof of the cubital fossa. In the arm it pierces the deep fascia at the middle of the arm, at the insertion of coracobrachialis, and from there ascends medial to the brachial artery. At the lower border of teres major it is joined by the two venae comitantes of the brachial artery, and the union of the three is the axillary vein.
+
+The asymmetry there is worth holding. The cephalic vein *ends in* the axillary vein; the basilic vein *helps form* it. They are not two versions of the same ending.
+
+**The median vein of the forearm** begins near the wrist by the union of a few veins from the palm — the front of the hand, not the back — and ascends in the middle of the front of the forearm. Below the elbow it ends in one of three ways: in the basilic vein, or in the cephalic vein, or by dividing into a median basilic vein which joins the basilic and a median cephalic vein which joins the cephalic.
+
+**The median cubital vein** connects the cephalic and basilic veins in the superficial fascia of the roof of the cubital fossa, running upwards and medially from the one to the other. The department book calls it the most prominent superficial vein in the body and states that it is used for intravenous injection.
+
+**The deep veins are two entries.** The venae comitantes: veins accompanying the main arteries, usually two to each artery, anastomosing freely with each other. Those of the radial and ulnar arteries join to form those of the brachial artery, and those of the brachial artery join the basilic vein at the lower border of teres major. And the axillary vein, the single trunk that carries all of it out of the limb.
+
+That is the point a past paper turns on: the axillary artery is *not* accompanied by two venae comitantes. It has one companion vein, the axillary vein, and the paired arrangement stops at the brachial artery.
+
+### Relations
+Three relations in this chapter carry marks, and all three are places where a vein meets something that is not a vein.
+
+**The median cubital vein and the bicipital aponeurosis.** The median cubital vein crosses the cubital fossa superficial to the bicipital aponeurosis, and that sheet of fibrous tissue separates the vein from the brachial artery and the median nerve lying deep to it. The whole clinical use of the vein rests on this one relation: there is a floor under it.
+
+**The cephalic vein and the clavipectoral fascia.** In the deltopectoral groove the cephalic vein is running up between pectoralis major and deltoid, and to reach the axillary vein it has to get behind the anterior wall of the axilla. It does so by piercing the deep fascia and the clavipectoral fascia just below the clavicle. It is one of the four structures that pierce that fascia, and the list of four is separately examined.
+
+**The basilic vein and the brachial artery.** Having pierced the deep fascia at the middle of the arm, the basilic vein ascends medial to the brachial artery — deep, alongside a great artery, for the upper half of the arm. It is the only superficial vein of the limb that spends part of its course deep to the deep fascia, and the level at which it dives is the same level at which the median nerve crosses the artery and the ulnar nerve leaves it.
+
+Two smaller relations complete the picture. The cephalic vein begins behind the styloid process of the radius, at the lateral corner of the back of the wrist, where the radial artery is crossing the same region in the opposite direction on its way into the palm. And the supratrochlear lymph nodes lie in the superficial fascia of the roof of the cubital fossa, above the medial epicondyle, along the basilic vein — a node group located by a vein.
+
+### Blood supply, innervation and lymphatics
+This is where the lymph drainage of the whole limb belongs, because it is where the department book puts it.
+
+**The nodes come in two groups, and the smaller group is the one that gets asked.**
+
+The **deep lymph nodes** are the five groups of axillary lymph nodes, plus a few scattered nodes along the arteries: in the cubital fossa at the bifurcation of the brachial artery, in the arm along the brachial artery, and in the forearm along the radial and ulnar arteries.
+
+The **superficial lymph nodes** are few and scattered, in two named groups.
+
+The **supratrochlear**, or epitrochlear, nodes lie in the superficial fascia of the roof of the cubital fossa, above the medial epicondyle, along the basilic vein. They receive afferents from the medial side of the hand and forearm, and their efferents go to the *lateral* group of axillary nodes.
+
+The **infraclavicular**, or deltopectoral, nodes lie along the cephalic vein in the deltopectoral groove, immediately below the clavicle — outside the axilla, not in it. They receive the few lymphatics that accompany that vein, and their efferents go to the *apical* group of axillary nodes.
+
+The two groups are a matched pair and are asked against each other: medial group, on the basilic vein, sending to the lateral axillary nodes; lateral group, on the cephalic vein, sending to the apical axillary nodes. Get the pairing the wrong way round and both halves of the answer are wrong.
+
+**The vessels follow the veins.** Superficial lymph vessels from the medial side of the wrist follow the basilic vein through the forearm, pierce the deep fascia with it, and end in the lateral group of axillary nodes; some of them end just above the elbow in the supratrochlear nodes on the way. Superficial lymph vessels from the lateral side of the wrist follow the cephalic vein; at the insertion of deltoid most of them incline medially, pierce the deep fascia and end in the lateral, or humeral, group of axillary nodes, while a few stay with the cephalic vein to the apical group.
+
+**The deep lymph vessels follow the arteries** — radial, ulnar and brachial — and end in the lateral group of axillary nodes. Deep vessels from the scapular region end in the subscapular group and those from the pectoral region in the pectoral group.
+
+Read together, the whole limb drains into the axilla, and it does so mainly through one door: the **lateral (humeral) group**, which takes the superficial vessels of both sides of the limb and the deep vessels of the whole limb.
+
+### Development
+No Kasr source describes the development of the venous or lymphatic pattern of the upper limb, the origin of the limb veins, or when the valves appear. Nothing is invented here.
+
+### Surface and imaging anatomy
+Superficial veins are the part of the vascular system that can be seen and touched without an instrument, and this chapter is largely surface anatomy already.
+
+The **dorsal venous network** is visible under the skin on the back of any hand with the fingers dependent, and it is where a cannula usually goes in practice.
+
+The **cephalic vein** can be traced in the deltopectoral groove, the visible furrow between pectoralis major and deltoid running down from below the middle of the clavicle. Following the groove is following the vein.
+
+The **median cubital vein** is the vein a tourniquet makes stand up in front of the elbow; the department book's own description of it as the most prominent superficial vein in the body is a surface observation.
+
+The **supratrochlear nodes** are the one lymph node group of the limb that can be felt at a defined landmark: in the roof of the cubital fossa above the medial epicondyle, along the basilic vein.
+
+No Kasr source gives a venogram, an ultrasound appearance, or a written surface-marking line for any vein of the limb, in the way the department book gives a line for the brachial artery. That is recorded in `evidence_gaps`.
+
+### Clinical correlations
+**Venepuncture and intravenous injection at the median cubital vein.** The book states plainly that the median cubital vein is used for intravenous injection, and everything the anatomy contributes says why: it is large, it is the most prominent superficial vein in the body, it lies in the superficial fascia where a needle reaches it at once, and the bicipital aponeurosis lies between it and the brachial artery and the median nerve. The aponeurosis is the safety feature. Take it away and the same needle track runs onto an artery and a nerve.
+
+The corollary, which the question books test, is that the median cubital vein is a *superficial* vein. Being the vein a needle goes into does not make it deep; the deep veins are the venae comitantes and the axillary vein, and none of them is ever punctured from the surface.
+
+**Finding a vein in the arm when the superficial veins fail.** A past paper describes a patient prepared for dialysis in whom no suitable vein could be found until one was located on the medial side of the arm passing through the superficial and deep fascia to join the veins beside the brachial artery. That description is the basilic vein and nothing else: it is the only superficial vein of the limb that pierces the deep fascia in the arm and runs on to join the venae comitantes of the brachial artery.
+
+**Lymph drainage and the spread of infection.** Because the superficial lymph vessels of the limb follow the two great superficial veins, an infection on the medial side of the hand travels up the line of the basilic vein and may stop at the supratrochlear nodes above the medial epicondyle; one on the lateral side follows the cephalic vein and, at the insertion of deltoid, turns medially into the axilla with the rest. Almost everything ends in the lateral group of the axillary nodes, and everything that leaves the axilla leaves through the apical group.
+
+**What the chapter promises and does not deliver.** The chapter's own intended learning outcomes name the sites of intravenous injection commonly used and the interpretation of a faulty intravenous injection. The extracted text carries no such section: the only clinical statement is the remark about the median cubital vein. Nothing has been supplied here to fill that gap, and it is recorded in `evidence_gaps` so a reviewer with the printed book can close it.
+
+### Variations and anomalies
+The department book describes one normal variation, and it is examinable in its own right. **The median vein of the forearm has three possible endings**: it may end in the basilic vein, or in the cephalic vein, or divide below the elbow into a median basilic vein joining the basilic and a median cephalic vein joining the cephalic. The third pattern is the one the question books ask for by name.
+
+No Kasr source describes any other variation of the veins of the limb — no absent cephalic vein, no variant termination of the basilic, no anomalous communication with the deep veins beyond the free communication the chapter states for the two groups generally.
+## hold_these
+The veins of the upper limb are in two groups, superficial and deep, which communicate freely and are provided with valves.
+The department book states that the superficial veins are larger and more important than the deep veins, into which they finally end.
+The five superficial veins are the superficial dorsal venous network, the cephalic vein, the basilic vein, the median vein of the forearm and the median cubital vein.
+The cephalic vein begins from the lateral end of the dorsal venous arch just behind the styloid process of the radius, ascends on the lateral side of the forearm and arm, reaches the deltopectoral groove and, just below the clavicle, pierces the deep and clavipectoral fasciae to end in the terminal part of the axillary vein.
+The basilic vein begins from the medial end of the dorsal venous arch, ascends on the medial side of the forearm, pierces the deep fascia at the middle of the arm at the insertion of coracobrachialis and ascends medial to the brachial artery.
+At the lower border of teres major the basilic vein is joined by the two venae comitantes of the brachial artery to form the axillary vein — the cephalic vein ends in the axillary vein, the basilic vein helps form it.
+The median vein of the forearm begins near the wrist from a few veins of the palm and ends below the elbow in the basilic or the cephalic vein, or divides into a median basilic and a median cephalic vein.
+The median cubital vein connects the cephalic and basilic veins in the roof of the cubital fossa, crossing superficial to the bicipital aponeurosis, which separates it from the brachial artery and the median nerve.
+The book calls the median cubital vein the most prominent superficial vein in the body and states that it is used for intravenous injection.
+The deep veins are the venae comitantes, two to each main artery as far as the brachial, plus the axillary vein — the axillary artery is not accompanied by two venae comitantes.
+The deep lymph nodes of the limb are the five groups of axillary nodes plus scattered nodes in the cubital fossa at the bifurcation of the brachial artery, along the brachial artery in the arm and along the radial and ulnar arteries in the forearm.
+The superficial lymph nodes are two groups: supratrochlear (epitrochlear) and infraclavicular (deltopectoral).
+Supratrochlear nodes lie in the roof of the cubital fossa above the medial epicondyle along the basilic vein, receive from the medial side of the hand and forearm, and send efferents to the lateral group of axillary nodes.
+Infraclavicular nodes lie along the cephalic vein in the deltopectoral groove just below the clavicle and send efferents to the apical group of axillary nodes.
+Superficial lymph vessels of the medial side of the wrist follow the basilic vein to the lateral axillary group, some ending in the supratrochlear nodes; those of the lateral side follow the cephalic vein and at the insertion of deltoid mostly turn medially to the lateral (humeral) group, a few continuing to the apical group.
+Deep lymph vessels follow the radial, ulnar and brachial arteries to the lateral group of axillary nodes; those from the scapular region end in the subscapular group and those from the pectoral region in the pectoral group.
+## lose_the_mark
+Swapping the two ends of the dorsal venous arch. The cephalic vein is lateral and the basilic medial, at their origin and along their whole course.
+Saying the basilic vein pierces the clavipectoral fascia. That is the cephalic vein. The basilic pierces the deep fascia at the middle of the arm and never reaches the clavipectoral fascia at all.
+Giving both great veins the same ending. The cephalic ends in the axillary vein; the basilic joins the venae comitantes of the brachial artery to form it.
+Calling the median cubital vein a deep vein because it is the one a needle goes into. It lies in the superficial fascia; what makes it safe is the bicipital aponeurosis beneath it.
+Saying the bicipital aponeurosis separates the *cephalic* vein from the brachial artery. It separates the median cubital vein from that artery and from the median nerve.
+Saying the axillary artery is accompanied by two venae comitantes. The paired arrangement stops at the brachial artery; the axillary artery has one companion vein.
+Starting the median vein of the forearm on the back of the hand. It begins near the wrist from a few veins of the palm, in front.
+Giving the median vein of the forearm only one ending. It has three, and the division into median basilic and median cephalic veins is the one asked by name.
+Pairing the node groups the wrong way round. Supratrochlear nodes lie on the basilic vein and drain to the lateral axillary group; infraclavicular nodes lie on the cephalic vein and drain to the apical group.
+Putting the infraclavicular nodes inside the axilla. They lie in the deltopectoral groove, outside it, which is why their efferents have to pierce the anterior wall to reach the apical group.
+Forgetting that the veins are valved and that the two groups communicate freely. Both are in the opening sentence of the chapter and both are separately asked.
+Leaving out the deep nodes along the arteries. The deep group is the five axillary groups *plus* the nodes in the cubital fossa, the arm and the forearm.
+## image_recommendations
+### anatomy plate · The superficial veins of the upper limb on one anterior view and one posterior view of the same limb, from the dorsal venous network to the axillary vein, with the cephalic vein traced in one colour and the basilic in another, the median vein of the forearm and the median cubital vein between them, and the two points where a vein pierces fascia marked — the basilic at the middle of the arm and the cephalic below the clavicle
+Purpose: The whole answer is one continuous course for each vein from the hand to the axilla, and courses are read off a drawing rather than reconstructed from four sentences. Colouring lateral against medial states the fact students most often reverse.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Veins of the Upper Limb chapter Figs. 96 and 97
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-66A2E56C00F3A7.
+### diagram · A cross-section and a surface view of the cubital fossa at the same level, showing the median cubital vein in the superficial fascia, the bicipital aponeurosis immediately deep to it, and the brachial artery and median nerve deep to that, with the needle track of a venepuncture drawn through the vein and stopping at the aponeurosis
+Purpose: The clinical point is a layered relation — vein, then aponeurosis, then artery and nerve — and a section is the only view in which layers are visible. Drawing the needle makes the aponeurosis's protective role the subject of the picture rather than a caption.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, following the department book's Veins chapter and its Cubital Fossa material
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-1F14D98DCE111B. The same section is wanted by ART-101-ANA-CUBITAL-FOSSA for the roof of the fossa.
+### diagram · The three possible endings of the median vein of the forearm drawn side by side on the same outline of the cubital region — into the basilic, into the cephalic, and dividing into median basilic and median cephalic veins
+Purpose: Three alternatives of one structure are exactly what a single figure of "the normal pattern" hides. Drawing them as three panels makes the variation the fact, which is how the question books ask it.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Variations and anomalies
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · Lymph drainage of the upper limb as a single flow diagram over a limb outline — supratrochlear nodes on the basilic vein and infraclavicular nodes on the cephalic vein, arrows from the medial and lateral sides of the wrist, the deep vessels along the three arteries, and every arrow converging on the named axillary groups with the apical group as the exit
+Purpose: This is a set of routes with named destinations, and the examinable error is pairing a node group with the wrong destination. Arrows on an outline make each pairing checkable at a glance; prose puts the two pairs six lines apart, which is where they get swapped.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book's Figs. 98 and 99, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: The axillary group half of this figure overlaps the node plate requested by ART-101-ANA-AXILLA-BREAST; one drawing can carry both if the limb routes are added to it.
+### clinical photograph · A forearm with a tourniquet applied, photographed from the front, with the median cubital vein and the cephalic and basilic veins visible and labelled on the living surface
+Purpose: The book's claim that this is the most prominent superficial vein in the body is a claim about what a person can see, and it is settled by one photograph of a real arm rather than by a schematic.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Surface and imaging anatomy
+Source direction: openly licensed clinical image library, or a consented departmental photograph; no identifiable face
+Rights: must be CC-BY or public domain with documented consent
+## conflicts
+Where the cephalic vein begins. The department book says it begins from the lateral end of the dorsal venous arch just behind the styloid process of the radius; the VIP Academy revision book says it begins from the lateral end of the arch in the roof of the anatomical snuff box. Both put the origin at the lateral end of the arch, and the two landmarks are adjacent, but they are not the same landmark. The department book's wording is used.
+Which surface of the forearm the basilic vein ascends on. The department book says the medial surface of the forearm; the VIP Academy revision book says the postero-medial surface, reaching the front just below the elbow. The book's wording is used and the difference recorded, because a diagram drawn from one and a description written from the other do not match at the wrist.
+Where the supratrochlear nodes lie relative to the basilic vein. The department book says they lie along the basilic vein. A question in the bank keys as correct the statement that they lie in the cubital fossa roof *medial to* the basilic vein. The book's "along" is used; the bank's "medial to" is recorded because a student who has memorised the option will meet the book's wording and should know it is the same node group.
+Whether the median vein of the forearm is itself a common site for intravenous injection. One question in the bank keys as correct an option that ends "It is a common site for intravenous injections", attached to the median vein of the forearm. Both the department book and the VIP Academy revision book name the median *cubital* vein as the vein used for intravenous injection and say nothing of the kind about the median vein of the forearm. The book is followed; the bank option is recorded because it is a single option carrying two statements, and only the first of them — the division into median basilic and median cephalic veins — is what makes it the right answer.
+## evidence_gaps
+The chapter's own intended learning outcomes promise the sites of intravenous injection commonly used and the interpretation of a faulty intravenous injection. No such section exists in the extracted text; the only clinical statement in the chapter is the remark that the median cubital vein is used for intravenous injection. Nothing has been supplied here in its place.
+No Kasr source states what a faulty intravenous injection into this vein damages, or what an intra-arterial injection at the cubital fossa causes.
+No Kasr source gives a surface-marking line for any vein of the upper limb, in the way the department book gives one for the brachial artery.
+No Kasr source describes the development of the veins or the lymphatics of the limb, or when their valves appear.
+No Kasr source describes the tributaries of the cephalic or basilic vein by name, although the exam orientation asks for "all veins of the upper limb (beginning, course, end and name of the tributaries and areas drained by these tributaries)". Only the median cubital vein and the median vein of the forearm are given as named connections.
+No Kasr source describes venous thrombosis, varicosity, cannulation complications or lymphoedema of the upper limb.
+No Kasr source states the number of valves in any named vein, or where they are concentrated.
+No Kasr source describes the lymphatic drainage of the hand separately from that of the wrist, nor names a node group in the palm.
+The subject tree names this leaf for veins alone, while the chapter also carries the whole lymph drainage of the limb; that material is taught here because there is nowhere else on the tree for it, and no Kasr source assigns it a node of its own.
+No independent citation has been attached to any statement in this article. The department book and the VIP Academy revision book agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 8 "Veins of the Upper Limb", PDF pages 253-256 — the division into superficial and deep groups with free communication and valves, the statement that the superficial veins are larger and more important, the dorsal venous network, the beginning, course and termination of the cephalic and basilic veins, the three endings of the median vein of the forearm, the median cubital vein with the bicipital aponeurosis and its use for intravenous injection, the venae comitantes and the axillary vein, and the whole lymph drainage of the limb — deep and superficial nodes, the supratrochlear and infraclavicular groups with their afferents and efferents, the superficial vessels following the two great veins, and the deep vessels following the arteries. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the five groups of axillary lymph nodes into which the limb's vessels drain, and the apical group as the exit from the axilla.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 1 "The Pectoral Region", PDF pages 153-162 — the clavipectoral fascia and the four structures that pierce it, of which the cephalic vein is one.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the deltopectoral groove lodging the uppermost part of the cephalic vein and the deltopectoral lymph nodes.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the basilic vein piercing the deep fascia at the middle of the arm at the insertion of coracobrachialis, at the same level as the median nerve crossing the brachial artery, and the bicipital aponeurosis crossing in front of that artery and separating it from the median cubital vein.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 132, topic "Superficial and deep veins of the upper limb" — the same five superficial veins with the same courses, the same account of the median cubital vein and the bicipital aponeurosis, and the venae comitantes of the radial and ulnar arteries forming those of the brachial. Extracted to scripts/kasr/extract/notes.json.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 134, past questions — "Regarding veins of upper limb, one is correct answer" keyed to the cephalic vein starting at the lateral end of the dorsal venous arch, with the axillary artery having two venae comitantes offered and rejected; "Median vein of the forearm" keyed to the division into median basilic and median cephalic veins; and a 2017 clinical case in which the vein found on the medial side of the arm piercing superficial and deep fascia to join the veins beside the brachial artery is keyed as the basilic.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 138, past questions — "Lymphatics that accompany the cephalic vein drain into the" keyed to the apical group (2024), and "Concerning lymph drainage of upper limb" keyed to the supratrochlear nodes lying in the cubital fossa roof beside the basilic vein.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which examines "all veins of the upper limb (beginning, course, end and name of the tributaries and areas drained by these tributaries)" and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The 8 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+secondaryNodeIds: The canonical taxonomy has no node for the peripheral veins and none for the lymph drainage of a limb — its cardiovascular branch stops at cardiac anatomy and its lymphoreticular branch is entirely disease. SYS-CVS-T01-S01 and SYS-MSK-T01-S01-M03 are the placements the sibling vessel articles use, and the second is defensible here because the median cubital vein and the supratrochlear nodes are both at the elbow. The absence of a better node is a fact about the taxonomy, not about this article.
+sections.Overview and position: The observation that the two great veins are simply the two ends of the dorsal venous network is this article's own device for holding the chapter together. The book gives the network and the two origins in separate sentences and draws no such conclusion.
+sections.Structure: The contrast drawn between the cephalic vein *ending in* the axillary vein and the basilic vein *helping form* it is this article's framing. Both statements are the book's.
+sections.Relations: The remark that the basilic vein is the only superficial vein of the limb that runs deep to the deep fascia in the arm follows from the book's own courses for the five superficial veins, but the book does not state it as a generalisation.
+sections.Blood supply, innervation and lymphatics: The summary that the lateral (humeral) group is the main door into the axilla for the whole limb is this article's reading of the book's four separate drainage statements. Each route is the book's; the conclusion that they converge is drawn here.
+sections.Clinical correlations: The account of infection tracking along the superficial lymph vessels is inference from the book's stated routes. No Kasr source describes lymphangitis, lymphadenitis or any infection of the limb.
+sections.Clinical correlations: The reasoning that the bicipital aponeurosis is what makes the median cubital vein safe, and that without it the same needle track would reach artery and nerve, joins the book's anatomical relation to its own clinical remark. The book states both facts and not the link between them.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of the limb veins.
+sections.Surface and imaging anatomy: The statement that the dorsal venous network is where a cannula usually goes in practice is general clinical knowledge, not a Kasr statement, and is recorded in evidence_gaps as a place the corpus is silent.
+## notes
+Written for the whole leaf, veins and lymphatics together, because the department book's chapter 8 carries both under a title that names only the veins and the subject tree offers no other home for the lymph drainage. Eight of the module's multiple-choice questions point at this leaf and two of them are lymph-drainage questions, so an article that stopped at the veins would have left them untaught while still appearing to cover them.
+
+One further concept is named as the main concept of a question on this leaf but is not declared here, because this article does not teach it and another article does: CON-MSK-44234D1863CE8E, the extensor retinaculum and its six compartments, taught by ART-101-ANA-FOREARM-RETINACULUM-ROTATION. Its question rows reach this leaf through the question books' own filing, not through the anatomy.

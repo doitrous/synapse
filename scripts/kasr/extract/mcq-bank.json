@@ -4197,9 +4197,10 @@
    "key": "brown-adipose-c-t-is-present-in-the-following-site-in-adults-070c511d",
    "stem": "Brown adipose C.T. is present in the following site in adults:",
    "options": {
-    "A": "Interscapular space. _",
-    "B": "Mammary gland",
-    "C": "Abdominal wall. 0. Mesentery"
+    "A": "Interscapular space.",
+    "B": "Mammary gland.",
+    "C": "Abdominal wall.",
+    "D": "Mesentery."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -4223,7 +4224,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Pectoral Region"
+   "leaf": "Pectoral Region",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "choose-carpal-bones-which-articulate-with-radius-at-the-wris-c53edf32",
@@ -4464,9 +4471,10 @@
    "key": "deep-branch-of-the-ulnar-nerve-ends-by-supplying-7c796d8a",
    "stem": "Deep branch of the ulnar nerve ends by supplying:",
    "options": {
-    "A": "Abductor digiti minimi",
-    "B": "Flexor digiti minimi",
-    "D": "Adductor pollicis"
+    "A": "Abductor digiti minimi.",
+    "B": "Flexor digiti minimi.",
+    "C": "Opponens digiti minimi.",
+    "D": "Adductor pollicis."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -4492,7 +4500,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Nerve Supply of Upper Limb & Nerve Injuries"
+   "leaf": "Nerve Supply of Upper Limb & Nerve Injuries",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "definitive-yolk-sac-is-connected-with-midgut-through-ce358c9f",
@@ -5074,9 +5088,10 @@
    "key": "irregular-type-of-white-fibrous-c-t-is-present-in-9a27ec8b",
    "stem": "Irregular type of white fibrous C.T. is present in: |",
    "options": {
-    "A": "Ligamentum nuchae",
+    "A": "Ligamentum nuchae.",
     "B": "Tendons of the muscles. ١",
-    "C": "Sclera of the eye. 0. Stroma of the organs. |"
+    "C": "Sclera of the eye.",
+    "D": "Stroma of the organs"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -5100,7 +5115,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Muscular system"
+   "leaf": "Muscular system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "is-a-second-most-common-cell-second-line-of-defense-818efa89",
@@ -6534,8 +6555,10 @@
    "key": "peroxisomes-are-characterized-by-f8f8c6d8",
    "stem": "Peroxisomes are characterized by:",
    "options": {
-    "A": "Vesicles bud off Golgi apparatus",
-    "B": "Its enzymes are synthesized by sER"
+    "A": "Vesicles bud off golgi apparatus.",
+    "B": "Its enzymes are synthesized by sER.",
+    "C": "Its enzymes are synthesized by attached polysomes.",
+    "D": "Its enzymes become internalized."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -6561,7 +6584,12 @@
    ],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "phase-ii-of-fertilization-is-b80be73c",
@@ -10788,9 +10816,10 @@
    "key": "7-200-8-lymphocytes-could-be-differentiated-based-on-1627ad90",
    "stem": "7 200 8 lymphocytes could be differentiated based ON ............-+!",
    "options": {
-    "A": "Morphological differences",
-    "B": "Surface receptors",
-    "C": "Electron microscopic appearance. 0. Light microscopic features"
+    "A": "Morphological differences.",
+    "B": "Surface receptors.",
+    "C": "Electron microscopic appearance.",
+    "D": "Light microscopic features."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -10808,7 +10837,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Lymphatic system"
+   "leaf": "Lymphatic system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a-15-year-old-girl-was-brought-to-the-emergency-department-w-a595306f",
@@ -10902,7 +10937,8 @@
    "options": {
     "A": "Eosinophils",
     "B": "Macrophages",
-    "C": "Mast cells 0. Plasma cells"
+    "C": "Mast cells",
+    "D": "Plasma cells"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -10920,7 +10956,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Cells"
+   "leaf": "Connective Tissue Cells",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a-2-years-old-infant-presenting-with-repeated-bone-fractures-7b9d7dfe",
@@ -11496,7 +11538,8 @@
    "options": {
     "A": "Dense irregular white fibrous C.T. ‏ظ‎",
     "B": "Dense regular white fibrous C.T",
-    "C": "Yellow elastic C.T"
+    "C": "Yellow elastic C.T",
+    "D": "Loose areolar C.T"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -11518,6 +11561,7 @@
    "optionsRepaired": true,
    "optionsBefore": [
     "A",
+    "B",
     "C"
    ]
   },
@@ -11879,7 +11923,8 @@
    "options": {
     "A": "Collagen I",
     "B": "Elastic fibers",
-    "C": "Reticular fibers 0. Smooth muscle"
+    "C": "Reticular fibers",
+    "D": "Smooth muscle"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -11897,7 +11942,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Fibres"
+   "leaf": "Connective Tissue Fibres",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a-7-year-old-school-boy-has-a-blood-report-with-an-eosinophi-bcef3302",
@@ -11929,9 +11980,10 @@
    "key": "a-brown-fibrillar-network-in-the-cytoplasm-represents-eb9cf7bb",
    "stem": "A brown fibrillar network in the cytoplasm represents:",
    "options": {
-    "A": "Primary lysosomes",
-    "B": "Secondary lysosomes",
-    "C": "Golgi apparatus. d, Ribosomes"
+    "A": "Primary lysosomes.",
+    "B": "Secondary lysosomes.",
+    "C": "Golgi apparatus.",
+    "D": "Ribosomes."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -11951,7 +12003,13 @@
    ],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a-brownfibritlar-network-in-the-cytoplasm-represents-3a4d5d6f",
@@ -12015,7 +12073,8 @@
    "options": {
     "A": "Golgi body abnormality",
     "B": "Mitochondrial damage",
-    "C": "Membrane receptors defect 0. Lysosomal enzyme deficiency"
+    "C": "Membrane receptors defect",
+    "D": "Lysosomal enzyme deficiency"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -12035,7 +12094,13 @@
    ],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a-female-was-exposed-to-car-accident-while-driving-resulting-34e5110d",
@@ -12207,6 +12272,7 @@
    "key": "a-male-80-years-old-suffered-from-defective-memory-and-behav-572e8c2d",
    "stem": "A male 80 years old suffered from defective memory and behavioral | changes, after death brain biopsy showed: ‏ا‎ ‎a, Defective nerve cells 9 em",
    "options": {
+    "A": "Defective nerve cells",
     "B": "Defective quality protein control ٠ ٌ",
     "C": "Defective lysosomal enzymes",
     "D": "Defective proteasomes"
@@ -12227,7 +12293,13 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "C",
+    "D"
+   ]
   },
   {
    "key": "a-male-old-patient-has-been-a-heavy-smoker-for-25-years-he-c-f42cf400",
@@ -12718,9 +12790,10 @@
    "key": "a-patient-was-subjected-to-severe-bleeding-during-a-surgical-3662d3cc",
    "stem": "A patient was subjected to severe bleeding during a surgical operation, which blood cell is expected to have a high count in his blood report: a, Erythrocytes. b. Megakaryocytes",
    "options": {
-    "C": "Platelets",
-    "D": "Reticulocytes. 1",
-    "A": "Lymphocyte ‏بط‎ Reticulocytes"
+    "A": "Erythrocytes.",
+    "B": "Megakaryocytes.",
+    "C": "Platelets.",
+    "D": "Reticulocytes. 1 ‏ا‎ 2. At the emergency unit of Kasr Al Aini hospital, a patient was admitted complaining of abdominal pain and fever. Examination and investigations revealed he had acute appendicitis. Which cell shows increased % in blood film?"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -12738,7 +12811,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Blood",
-   "leaf": "Red Blood Corpuscles"
+   "leaf": "Red Blood Corpuscles",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "C",
+    "D",
+    "A"
+   ]
   },
   {
    "key": "a-patient-with-loss-of-sensation-on-the-lateral-2-3-of-the-d-2075f1b1",
@@ -13203,7 +13282,8 @@
    "options": {
     "A": "Eosinophils",
     "B": "Macrophages",
-    "C": "Mast cells 0. Plasma cells"
+    "C": "Mast cells",
+    "D": "Plasma cells"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -13221,7 +13301,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Cells"
+   "leaf": "Connective Tissue Cells",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "a2-years-old-infant-presenting-with-repeated-bone-fractures-300f7c68",
@@ -13254,8 +13340,10 @@
    "key": "a7-year-old-school-boy-has-a-blood-report-with-an-eosinophil-3a9af4fe",
    "stem": "A7 year-old-school boy has a blood report with an eosinophil count | 6%. He is not suffering from allergic problems. What would the | doctor probably advise his parents to perform: |",
    "options": {
-    "A": "Urine analysis. |",
-    "C": "Estimation of his bleeding time"
+    "A": "Urine analysis",
+    "B": "Stool analysis. 0",
+    "C": "Estimation of his bleeding time.",
+    "D": "Sensitivity tests to different allergens"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -13273,7 +13361,12 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C"
+   ]
   },
   {
    "key": "abnormal-short-lived-proteins-are-degraded-by-5ffd9c0f",
@@ -13725,9 +13818,10 @@
    "key": "acharacteristic-ultrastructural-feature-of-rbcs-includes-33915fb0",
    "stem": "Acharacteristic ultrastructural feature of RBCs Includes:",
    "options": {
-    "A": "Well-developed rER",
-    "B": "Heterochromatic nucleus",
-    "C": "Cell membrane as the only organelle. 0. Euchromatic nucleus"
+    "A": "Well-developed rER.",
+    "B": "Heterochromatic nucleus.",
+    "C": "Cell membrane as the only organelle.",
+    "D": "Euchromatic nucleus."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -13745,14 +13839,21 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Blood",
-   "leaf": "Red Blood Corpuscles"
+   "leaf": "Red Blood Corpuscles",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "actin-filaments-96a8b411",
    "stem": "Actin filaments: '",
    "options": {
-    "A": "Share in formation of cilia. |",
-    "B": "Share in formation of flagella. |"
+    "A": "Share in formation of cilia",
+    "B": "Share in formation of flagella. | ‏ع‎ Share in formation of mitotic spindle",
+    "C": "Share in formation of microvilli"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -13772,7 +13873,12 @@
    ],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Polarity and Membranous Specializations"
+   "leaf": "Polarity and Membranous Specializations",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "actin-filaments-share-in-formation-of-a7ac37ec",
@@ -16085,9 +16191,10 @@
    "key": "an-18-year-old-lady-is-complaining-of-recurrent-attacks-of-u-f3b45250",
    "stem": "An 18-year-old lady is complaining of recurrent attacks of urticaria, hives & itching. This condition may result from:",
    "options": {
-    "A": "Eosinophilia",
-    "B": "Lymphocytosis",
-    "C": "Increased skin mast cells. 0. Increased respiratory mast cells"
+    "A": "Eosinophilia.",
+    "B": "Lymphocytosis.",
+    "C": "Increased skin mast cells.",
+    "D": "Increased respiratory mast cells."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -16107,14 +16214,22 @@
    ],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Lymphatic system"
+   "leaf": "Lymphatic system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "an-egyptian-farmer-suffers-from-blood-in-urine-as-a-complica-fd13871b",
    "stem": "An Egyptian farmer suffers from blood in urine as a complication of | bilharziasis. Bladder biopsy could show change of epithelium into: |",
    "options": {
     "A": "Stratified cuboidal epithelium",
-    "C": "Ciliated epithelium 0. Stratified squamous epithelium"
+    "B": "Pseudostratified squamous epithelium",
+    "C": "Ciliated epithelium",
+    "D": "Stratified squamous epithelium"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -16135,7 +16250,12 @@
    ],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Surface Epithelium"
+   "leaf": "Surface Epithelium",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C"
+   ]
   },
   {
    "key": "an-epiphyseal-plate-of-cartilage-is-what-type-of-joint-2023-bd1457fd",
@@ -16443,9 +16563,10 @@
    "key": "an-obese-40-year-old-female-suffered-from-delayed-healing-of-0d539fdd",
    "stem": "An obese 40-year-old female suffered from delayed healing of abdominal surgical incision. The cause of this condition could be attributed to:",
    "options": {
-    "A": "Increased unilocular fat cells",
-    "B": "Increased multilocular fat cells",
-    "C": "Increased fibroblasts. 0. Decreased fibroblasts"
+    "A": "Increased unilocular fat cells.",
+    "B": "Increased multilocular fat cells.",
+    "C": "Increased fibroblasts.",
+    "D": "Decreased fibroblasts."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -16463,7 +16584,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Cells"
+   "leaf": "Connective Tissue Cells",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "an-obese-40-year-old-female-suffered-from-delayed-healing-of-861a6f54",
@@ -16503,6 +16630,7 @@
    "stem": "An organelle in the cytoplasm that has DNA is called:",
    "options": {
     "A": "rER",
+    "B": "Mitochondria",
     "C": "Lysosomes",
     "D": "Golgi apparatus"
    },
@@ -16522,7 +16650,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C",
+    "D"
+   ]
   },
   {
    "key": "anaphylactic-shock-occurs-due-to-degranulation-of-1cbd578e",
@@ -18260,9 +18394,10 @@
    "key": "before-folding-the-most-cranial-structure-in-the-head-fold-i-287da171",
    "stem": "Before folding, the most cranial structure in the head fold is",
    "options": {
-    "A": "Buccopharyngeal membrane",
-    "B": "Cloacal membrane",
-    "D": "Pericardium"
+    "A": "Buccopharyngeal membrane.",
+    "B": "Cloacal membrane.",
+    "C": "Septum transversum.",
+    "D": "Pericardium."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -18282,7 +18417,13 @@
    ],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "before-folding-the-most-cranial-structure-in-the-head-fold-i-6220ab4f",
@@ -21355,9 +21496,10 @@
    "key": "concerning-collagen-fibers-7652b65d",
    "stem": "Concerning collagen fibers:",
    "options": {
-    "A": "Wavy branching bundles formed of non-branching fibers",
-    "B": "Basophilic",
-    "C": "Elastic 0. Stained yellow with Van Gieson stain"
+    "A": "Wavy branching bundles formed of non-branching fibers.",
+    "B": "Basophilic.",
+    "C": "Elastic",
+    "D": "Stained yellow with Van Gieson stain."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -21378,7 +21520,13 @@
    ],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "concerning-dwarfism-4906164a",
@@ -21544,9 +21692,10 @@
    "key": "concerning-mast-cells-433dd658",
    "stem": "Concerning mast cells:",
    "options": {
-    "A": "They are antibody forming cells",
-    "B": "They secrete histaminase",
-    "C": "Their granules are metachromatically stained"
+    "A": "They are antibody forming cells.",
+    "B": "They secrete histaminase enzyme.",
+    "C": "Their granules are metachromatically stained.",
+    "D": "They can be demonstrated with trypan blue stain."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -21564,7 +21713,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "concerning-microtubules-one-is-wrong-59b7decc",
@@ -21680,9 +21835,10 @@
    "key": "concerning-pronation-and-supination-3a550bb7",
    "stem": "Concerning pronation and supination:",
    "options": {
-    "A": "Pronation is more powerful than supination",
-    "B": "Supination is done by biceps when the elbow is extended",
-    "D": "The ulna is fixed; the radius is the movable bone"
+    "A": "Pronation is more powerful than supination.",
+    "B": "Supination is done by biceps when the elbow is extended.",
+    "C": "They occur at the elbow joint.",
+    "D": "The ulna is fixed; the radius is the movable bone."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -21702,7 +21858,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Skeletal system"
+   "leaf": "Skeletal system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "concerning-pronation-and-supination-dep-book-7bcbc5e5",
@@ -22407,8 +22569,9 @@
    "key": "concerning-the-implantation-process-5-23c3aee8",
    "stem": "Concerning the implantation process: 5",
    "options": {
-    "A": "‘The blastocyst begins implantation at the boginning of 3° week",
-    "D": "The morula is the embryonic stage that starts implantation,"
+    "A": "‘The blastocyst begins implantation at the boginning of 3° week.",
+    "D": "The morula is the embryonic stage that starts implantation,",
+    "E": "Scaphoid"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -22426,7 +22589,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "General Embryology",
-   "leaf": "First Week of Development"
+   "leaf": "First Week of Development",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "D"
+   ]
   },
   {
    "key": "concerning-the-lymph-vessels-of-body-choose-the-correct-answ-2f07a5ad",
@@ -22690,7 +22858,8 @@
    "options": {
     "A": "Adipocytes",
     "B": "Fibroblasts",
-    "C": "Glandular epithelium 0. Macrophage"
+    "C": "Glandular epithelium",
+    "D": "Macrophage"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -22708,7 +22877,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Cells"
+   "leaf": "Connective Tissue Cells",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "concerning-the-red-bone-marrow-which-statement-is-correct-d17f4a79",
@@ -25027,8 +25202,9 @@
    "key": "e-m-picture-of-blood-platelets-shows-72df4e13",
    "stem": "E/M picture of blood platelets shows:",
    "options": {
-    "A": "Open canalicular system in central zone",
-    "C": "Central granulomere of microtubules"
+    "A": "Open canalicular system in central zone.",
+    "C": "Central granulomere of microtubules.",
+    "D": "Hyalomere of microtubules in peripheral zone."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -25046,7 +25222,12 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Blood",
-   "leaf": "Blood Platelets"
+   "leaf": "Blood Platelets",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C"
+   ]
   },
   {
    "key": "each-channel-in-gap-junction-is-formed-of-symmetrical-subuni-245337d0",
@@ -27545,7 +27726,8 @@
    "stem": "Folding of the embryonic disc occurs at .......... week of pregnancy \\ a~ Second 8",
    "options": {
     "B": "Third",
-    "D": "Fifth 0"
+    "C": "Fourth : :",
+    "D": "Fifth"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -27563,7 +27745,12 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "D"
+   ]
   },
   {
    "key": "folding-of-the-embryonic-disc-occurs-at-week-of-pregnancy-d2521df5",
@@ -28558,9 +28745,10 @@
    "key": "general-characters-of-wbcs-include-41778d0c",
    "stem": "General characters of WBCs include:",
    "options": {
-    "A": "Absence of nuclei and organelles",
-    "B": "Origin is bone marrow and lymphatic tissues",
-    "D": "Function only inside blood stream"
+    "A": "Absence of nuclei and organelles.",
+    "B": "Origin is bone marrow and lymphatic tissues.",
+    "C": "Osmotically fragile.",
+    "D": "Function only inside blood stream."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -28578,7 +28766,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Lymphatic system"
+   "leaf": "Lymphatic system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "general-characters-of-wbcs-include-5-fc821996",
@@ -29698,8 +29892,10 @@
    "key": "hereditary-spherocytosis-of-rbcs-is-caused-by-f3518b13",
    "stem": "Hereditary spherocytosis of RBCs is caused by:",
    "options": {
-    "A": "Abnormal type of hemoglobin (HbS)",
-    "B": "Deficiency enzyme, ‏ظ‎"
+    "A": "Abnormal type of hemoglobin (HbS).",
+    "B": "Deficiency enzyme, ‏ظ‎",
+    "C": "Deficiency of carbonic anhydrase enzyme.",
+    "D": "Primary defect in spectrin gene expression."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -29719,7 +29915,12 @@
    ],
    "subject": "Histology",
    "chapter": "Blood",
-   "leaf": "Red Blood Corpuscles"
+   "leaf": "Red Blood Corpuscles",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "hereditary-spherocytosis-of-rbcs-is-caused-by-xxx-c787da54",
@@ -30278,7 +30479,8 @@
    "options": {
     "A": "Golgi apparatus and lysosomes.",
     "B": "Glycogen granules.",
-    "C": "Central granulomere of microtubules."
+    "C": "Mitochondria. d.sER",
+    "D": "Hyalomere of microtubules in peripheral zone."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -30299,8 +30501,9 @@
    "leaf": "Granular leukocytes",
    "optionsRepaired": true,
    "optionsBefore": [
+    "A",
     "B",
-    "A"
+    "C"
    ]
   },
   {
@@ -32566,8 +32769,9 @@
    "stem": "It descends medial to ulnar Nerve and bicipital aponeurosis, ٠ @) }Profunda brachii artery, choose the Correct answer:",
    "options": {
     "A": "Arises from third Part of axillary artery,",
-    "B": "Passes with the ulnar Nerve In the spiral groove,",
-    "D": "It Supplies biceps brachii muscle,"
+    "B": "Passes with the ulnar Nerve In the spiral groove, (©)Descends between medial and long heads of triceps,",
+    "D": "It Supplies biceps brachii muscle, anastomosis around the lateral epicondyle of the elbow, choose the Correct answer: 7 © Between brachial artery and both ulnar and radial arteries, ‏لطا‎ Anterior interosseous artery shares In the anastomosis, © Present on the front of the lateral epicondyle only. .",
+    "E": "Continues with the lateral end of the dorsal venous arch."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -32585,7 +32789,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Arm"
+   "leaf": "Arm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "it-forms-the-stroma-of-liver-lymph-node-and-spleen-e3787876",
@@ -33855,9 +34065,10 @@
    "key": "lis-sites-cause-localized-or-diffuse-acidophilia-aee8f368",
    "stem": "lis sites cause localized or diffuse acidophilia",
    "options": {
-    "B": "Shares in drug detoxification",
-    "C": "Formed of proteins & lipids",
-    "D": "Plays a role in cell adhesion & recognition. |"
+    "B": "Shares in drug detoxification.",
+    "C": "lis limiting membranes have lysosomes.",
+    "D": "Responsible for protein segregation.",
+    "E": "Plays an important role in muscle contraction."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -33875,7 +34086,13 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "C",
+    "D"
+   ]
   },
   {
    "key": "lishman-s-stain-is-5abe6459",
@@ -36024,9 +36241,10 @@
    "key": "middle-third-of-humerus-choose-the-correct-answer-f032c445",
    "stem": "Middle third of humerus, choose the correct answer:",
    "options": {
-    "A": "Deltoid tuberosity, laterally",
-    "B": "Coracobrachialis insertion laterally",
-    "D": "Bicipital groove posteriorly. 9"
+    "A": "Deltoid tuberosity, laterally.",
+    "B": "Coracobrachialis insertion laterally.",
+    "C": "Spiral groove anteriorly. A",
+    "D": "Bicipital groove posteriorly"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -36046,7 +36264,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Arm"
+   "leaf": "Arm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "mitochondria-1c8f7b01",
@@ -36717,8 +36941,9 @@
    "key": "mucoid-connective-tissue-48b9cb18",
    "stem": "Mucoid connective tissue:",
    "options": {
-    "A": "15 present in the vitreous humor of the eye",
-    "B": "Contains all types of connective tissue cells"
+    "A": "15 present in the vitreous humor of the eye.",
+    "B": "Contains all types of connective tissue cells.",
+    "C": "Is rich in connective tissue fibers. ‏.ل‎ Its matrix is firm."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -36738,7 +36963,12 @@
    ],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "mucoid-connective-tissue-is-present-in-35c49c08",
@@ -37535,6 +37765,7 @@
    "stem": "Neurectoderm a) Epidermis of the skin",
    "options": {
     "B": "Epithelial lining of the respiratory tract",
+    "C": "Kidneys ) Central nervous system",
     "E": "Dermis of the skin"
    },
    "answer": null,
@@ -37553,7 +37784,12 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "E"
+   ]
   },
   {
    "key": "neurenteric-canal-is-formed-due-to-degeneration-of-dep-book-7afe36a7",
@@ -37665,9 +37901,10 @@
    "key": "neurofilaments-are-present-in-bfcd9f27",
    "stem": "Neurofilaments are present in:",
    "options": {
-    "A": "Epidermis & hair",
-    "B": "C.T",
-    "C": "Neurons. 0. Glial tissue"
+    "A": "Epidermis & hair.",
+    "B": "C.T.",
+    "C": "Neurons.",
+    "D": "Glial tissue."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -37687,7 +37924,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Nervous system"
+   "leaf": "Nervous system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "neutrophil-function-include-the-following-except-df417369",
@@ -39964,9 +40207,10 @@
    "key": "one-of-the-following-is-an-event-of-the-8-day-of-pregnancy-a017ed9f",
    "stem": "One of the following is an event of the 8\" day of pregnancy",
    "options": {
-    "A": "Formation of hypoblast",
-    "B": "Formation of primary yolk sac",
-    "D": "Formation of primary chorionic villi"
+    "A": "Formation of hypoblast.",
+    "B": "Formation of primary yolk sac.",
+    "C": "Formation of extraembryonic mesoderm.",
+    "D": "Formation of primary chorionic villi."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -39984,7 +40228,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "General Embryology",
-   "leaf": "Fetal Membranes"
+   "leaf": "Fetal Membranes",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2",
@@ -40213,8 +40463,10 @@
    "key": "one-of-the-following-is-biaxial-joint-a-shoulder-hip-i-elbow-c3a84493",
    "stem": "One of the following is biaxial joint: a, Shoulder ‏بط‎ Hip | i ‏يع‎ Elbow : @ Knee : i i 21- Trophoblast is the outer wall of the:",
    "options": {
-    "A": "Morula",
-    "B": "Yolk sac and chorionic cavity"
+    "A": "Shoulder ‏بط‎ Hip | i ‏يع‎ Elbow : @ Knee : i i 21- Trophoblast is the outer wall of the:",
+    "B": "Yolk sac and chorionic cavity.",
+    "C": "Notochordal canal and amniotic cavity.",
+    "D": "It persists as nucleus pulposus in the intervertebral discs."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -40232,7 +40484,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "General Embryology",
-   "leaf": "Fetal Membranes"
+   "leaf": "Fetal Membranes",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "one-of-the-following-is-biaxial-joint-dep-book-2017-p-ad-97b62086",
@@ -41286,8 +41543,9 @@
    "key": "one-of-the-following-organs-is-lined-with-transitional-epith-ecc3fc71",
    "stem": "One of the following organs Is lined with transitional epithellum:",
    "options": {
-    "A": "Uterus. __",
-    "B": "Urinary bladder. c.Vas deferens 0. Gall bladder"
+    "A": "Uterus",
+    "B": "Urinary bladder. c.Vas deferens",
+    "C": "Gall bladder."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -41305,7 +41563,12 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "one-of-the-following-parts-of-sperm-is-responsible-for-produ-575e69c6",
@@ -42246,9 +42509,10 @@
    "key": "oneis-an-endogenous-pigment-6eaea080",
    "stem": "Oneis an endogenous pigment:",
    "options": {
-    "A": "Carbon",
-    "B": "Melanin",
-    "C": "Carotene. 0. Tattoo marks"
+    "A": "Carbon.",
+    "B": "Melanin.",
+    "C": "Carotene.",
+    "D": "Tattoo marks."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -42266,7 +42530,13 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "only-one-statement-about-the-stratified-squamous-epithelium-8266354c",
@@ -42359,8 +42629,9 @@
    "key": "organelle-responsible-for-renewal-maintenance-of-cell-membra-bc1ebb05",
    "stem": "Organelle responsible for renewal & maintenance of cell membrane is:",
    "options": {
-    "A": "Golgi apparats",
-    "B": "Lysosomes. 6. Mitochondria 0. sER"
+    "A": "Golgi apparats.",
+    "B": "Lysosomes.",
+    "C": "Mitochondria 0. sER."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -42378,7 +42649,12 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "origin-of-blood-platelets-50fffd36",
@@ -43196,9 +43472,10 @@
    "key": "patients-having-deficient-peroxisomal-enzymes-will-suffer-fr-5047e93b",
    "stem": "Patients having deficient peroxisomal enzymes will suffer from:",
    "options": {
-    "A": "Comeal opacity",
-    "B": "Heart lesion",
-    "C": "Lung lesion. 0. Liver lesion"
+    "A": "Comeal opacity.",
+    "B": "Heart lesion.",
+    "C": "Lung lesion.",
+    "D": "Liver lesion."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -43218,7 +43495,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Cardiovascular system"
+   "leaf": "Cardiovascular system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "percent-of-protein-in-cell-54bcafe2",
@@ -46385,9 +46668,10 @@
    "key": "regarding-klinefelter-syndrome-8b5fba02",
    "stem": "Regarding Klinefelter syndrome",
    "options": {
-    "A": "Occurs only in females",
+    "A": "Occurs only in females.",
     "B": "Somatic cells contains 47 chromosor",
-    "D": "Has normal genital system"
+    "C": "Has XO sex chromosomes.",
+    "D": "Has normal genital system."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -46405,7 +46689,13 @@
    "variants": [],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "regarding-klinefelter-syndrome-dep-book-10c33b3f",
@@ -47145,8 +47435,9 @@
    "key": "regarding-pectoralis-major-muscle-mark-one-correct-statement-051124b9",
    "stem": "Regarding pectoralis major muscle, mark one correct statement: ‏عه‎ Inserted into the lateral lip of the bicipital groove",
    "options": {
-    "B": "Receives nerve supply from posterior cord of brachial plexus",
-    "D": "Is a powerful lateral rotator of the shoulder"
+    "B": "Receives nerve supply from posterior cord of brachial plexus.",
+    "C": "Forms the medial wall of axilla.",
+    "D": "Is a powerful lateral rotator of the shoulder."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -47164,7 +47455,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Pectoral Region"
+   "leaf": "Pectoral Region",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "D"
+   ]
   },
   {
    "key": "regarding-pectoralis-major-muscle-mark-one-correct-statement-690df6d3",
@@ -49605,9 +49901,10 @@
    "key": "regarding-the-ovum-a-its-diameter-is-about-12-microns-3e48bb58",
    "stem": "Regarding the ovum . a, Its diameter is about 12 microns",
    "options": {
-    "B": "The nucleus carries 22 autosomes and either X- or Y-chromosome",
-    "C": "It starts development at puberty",
-    "D": "Corona radiate is the outer cover of the ovum"
+    "A": "Its diameter is about 12 microns.",
+    "B": "The nucleus carries 22 autosomes and either X- or Y-chromosome.",
+    "C": "It starts development at puberty.",
+    "D": "Corona radiate is the outer cover of the ovum."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -49625,7 +49922,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Nucleus"
+   "leaf": "Nucleus",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "C",
+    "D"
+   ]
   },
   {
    "key": "regarding-the-ovum-dep-book-7eea6085",
@@ -51525,9 +51828,10 @@
    "key": "regular-type-of-white-fibrous-c-t-is-present-in-72c15557",
    "stem": "Regular type of white fibrous C.T. is present in:",
    "options": {
-    "A": "Comea",
+    "A": "Comea.",
     "B": "Dermis of the skin. I",
-    "C": "Ligaments. 0. Sclera of the eye. i"
+    "C": "Ligaments.",
+    "D": "Sclera of the eye. i"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -51547,7 +51851,13 @@
    ],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "relations-of-the-median-nerve-at-the-wrist-946d85ae",
@@ -52566,8 +52876,10 @@
    "key": "scaphoid-19-regarding-the-decidua-parictalis-choose-the-corr-c8853425",
    "stem": "Scaphoid | 19- Regarding the decidua parictalis, choose the correct statement:",
    "options": {
-    "A": "It lies between the implanted embryo and myometrium",
-    "B": "it covers the embryo separating it from the uterine cavity"
+    "A": "The end of 2™ week.",
+    "B": "The end of 5\" week,",
+    "D": "The morula is the embryonic stage that starts implantation,",
+    "E": "Scaphoid"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -52585,7 +52897,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "General Embryology",
-   "leaf": "Fetal Membranes"
+   "leaf": "Fetal Membranes",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "scurvy-is-due-to-defective-synthesis-of-f7bf24bb",
@@ -53175,9 +53492,10 @@
    "key": "sensory-sympathetic-and-parasympathetic-ganglia-are-develope-7437149a",
    "stem": "Sensory, sympathetic and parasympathetic ganglia are developed from",
    "options": {
-    "A": "Neural crest",
-    "B": "Neural tube",
-    "D": "Intraembryonic mesoderm"
+    "A": "Neural crest.",
+    "B": "Neural tube.",
+    "D": "Intraembryonic mesoderm.",
+    "E": "Epidermis of skin is derived from"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -53197,7 +53515,13 @@
    ],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Nervous system"
+   "leaf": "Nervous system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "ser-has-the-following-function-b20e7edc",
@@ -53286,8 +53610,9 @@
    "key": "serous-sacs-of-the-body-80c99e15",
    "stem": "Serous sacs of the body",
    "options": {
-    "B": "Respiratory tract",
-    "D": "Heart"
+    "B": "Respiratory tract.",
+    "D": "Heart.",
+    "E": "Extraembryonic mesoderm communicates with"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -53305,7 +53630,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Cardiovascular system"
+   "leaf": "Cardiovascular system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "D"
+   ]
   },
   {
    "key": "shaft-of-cilia-contains-a-peripheral-9-triplets-2-central-si-ee40eaf0",
@@ -53389,9 +53719,10 @@
    "key": "simple-columnar-ciliated-epithelium-is-found-in-1-0f21f5d6",
    "stem": "Simple columnar ciliated epithelium is found in: 1",
    "options": {
-    "A": "Intestinal absorptive cell",
-    "B": "Fallopian tube",
-    "C": "Gastric secretory cells. 0. Trachea"
+    "A": "Intestinal absorptive cell.",
+    "B": "Fallopian tube.",
+    "C": "Gastric secretory cells.",
+    "D": "Trachea."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -53409,15 +53740,22 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Polarity and Membranous Specializations"
+   "leaf": "Polarity and Membranous Specializations",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "simple-columnar-ciliated-epithelium-is-found-in-c4826e89",
    "stem": "Simple columnar ciliated epithelium is found in:",
    "options": {
-    "A": "Intestinal absorptive cell",
-    "B": "Fallopian tube",
-    "C": "Gastric secretory cells. d, Trachea"
+    "A": "Intestinal absorptive cell.",
+    "B": "Fallopian tube.",
+    "C": "Gastric secretory cells.",
+    "D": "Trachea."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -53437,7 +53775,13 @@
    ],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Polarity and Membranous Specializations"
+   "leaf": "Polarity and Membranous Specializations",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "simple-columnar-epithelium-of-the-intestine-is-provided-with-bd66ef1e",
@@ -53471,8 +53815,9 @@
    "stem": "Simple cubical epithelium is found in:",
    "options": {
     "A": "Thyroid follicles",
-    "B": "Gail bladder |",
-    "C": "Lung alveoli 0. Urinary bladder |"
+    "B": "Gail bladder",
+    "C": "Lung alveoli",
+    "D": "Urinary bladder"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -53492,7 +53837,13 @@
    ],
    "subject": null,
    "chapter": null,
-   "leaf": null
+   "leaf": null,
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "simple-cuboidal-epithelium-is-present-in-e013a95c",
@@ -54445,6 +54796,7 @@
    "key": "stratified-columnar-ciliated-epithelium-can-be-found-in-a-ut-b19b28e1",
    "stem": "Stratified columnar ciliated epithelium can be found in: : a, Uterus. b. Fallopian tubes",
    "options": {
+    "A": "Uterus.",
     "B": "Fallopian tubes.",
     "C": "Fetal esophagus.",
     "D": "Trachea."
@@ -54468,6 +54820,7 @@
    "leaf": "Polarity and Membranous Specializations",
    "optionsRepaired": true,
    "optionsBefore": [
+    "B",
     "C",
     "D"
    ]
@@ -55193,9 +55546,10 @@
    "key": "t-and-b-lymphocytes-could-be-differentiated-based-on-1-763a4ede",
    "stem": "T and B lymphocytes could be differentiated based on...............1",
    "options": {
-    "A": "Morphological differences",
-    "B": "Immunohistochemical differentiation of surface markers",
-    "C": "Electron microscopic appearance"
+    "A": "Morphological differences.",
+    "B": "Immunohistochemical differentiation of surface markers.",
+    "C": "Electron microscopic appearance.",
+    "D": "Light microscopic features"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -55213,7 +55567,13 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
-   "leaf": "Lymphatic system"
+   "leaf": "Lymphatic system",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "t-and-b-lymphocytes-could-be-differentiated-based-on-d170143d",
@@ -57212,9 +57572,10 @@
    "key": "the-cells-of-a-patient-suffering-from-alzheimer-s-disease-wi-f80d3e40",
    "stem": "The cells of a patient suffering from Alzheimer's disease, will show: _",
    "options": {
-    "A": "Defective mitochondria",
-    "B": "Defective lysosomes",
-    "C": "Defective rER. 0. Defective proteasomes"
+    "A": "Defective mitochondria.",
+    "B": "Defective lysosomes.",
+    "C": "Defective rER.",
+    "D": "Defective proteasomes."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -57232,7 +57593,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cytology",
-   "leaf": "Cytoplasm"
+   "leaf": "Cytoplasm",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "the-cells-which-have-the-largest-percentage-of-wbcs-are-5da6665d",
@@ -57812,8 +58179,9 @@
    "key": "the-coracoid-process-of-the-scapula-gives-attachment-to-pect-69cec547",
    "stem": "The coracoid process of the scapula gives attachment to: @- Pectoralis minor. |",
    "options": {
-    "B": "Capsule of shoulder joint",
-    "D": "Long head of triceps"
+    "B": "Capsule of shoulder joint.",
+    "C": "Long head of biceps brachii muscle.",
+    "D": "Long head of triceps."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -57831,7 +58199,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Pectoral Region"
+   "leaf": "Pectoral Region",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "B",
+    "D"
+   ]
   },
   {
    "key": "the-coronoid-process-of-the-ulna-receive-the-insertion-for-w-79dfed43",
@@ -60003,9 +60376,10 @@
    "key": "the-following-is-lined-with-simple-columnar-ciliated-epithel-719781d3",
    "stem": "The following Is lined with simple columnar ciliated epithelium",
    "options": {
-    "A": "Renal pelvis",
-    "B": "Ureter ©. Uterus",
-    "D": "Urinary bladder"
+    "A": "Renal pelvis.",
+    "B": "Ureter",
+    "C": "Uterus.",
+    "D": "Urinary bladder."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -60023,7 +60397,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Polarity and Membranous Specializations"
+   "leaf": "Polarity and Membranous Specializations",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "D"
+   ]
   },
   {
    "key": "the-following-is-lined-with-simple-columnar-partially-ciliat-c55e4ac9",
@@ -62158,7 +62538,8 @@
    "stem": "The Least distance between 2 points that can be seen as 2 points is:",
    "options": {
     "A": "Magnification power of microscope. —_b. High power of microscop",
-    "C": "Resolution power of microscope. 0. Illumination power of microscope"
+    "C": "Resolution power of microscope.",
+    "D": "Illumination power of microscope."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -62176,7 +62557,12 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microscopes"
+   "leaf": "Microscopes",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C"
+   ]
   },
   {
    "key": "the-lesser-tuberosity-of-the-humerus-gives-attachment-to-the-4a151f51",
@@ -63137,6 +63523,7 @@
    "options": {
     "A": "Reticular C.T.",
     "B": "Adipose C.T.",
+    "C": "Loose areolar C.T.",
     "D": "White fibrous C.T."
    },
    "answer": null,
@@ -63159,7 +63546,8 @@
    "optionsRepaired": true,
    "optionsBefore": [
     "A",
-    "B"
+    "B",
+    "D"
    ]
   },
   {
@@ -67169,8 +67557,9 @@
    "key": "the-stain-characteristic-for-the-cell-detected-in-the-previo-7fc8427d",
    "stem": "The stain characteristic for the cell detected in the previous case is: 1",
    "options": {
-    "A": "Trypan blue. ‏.مط‎ Toluidine blue",
-    "C": "Silver. 0. Sudan Ill"
+    "A": "Trypan blue. ‏.مط‎ Toluidine blue.",
+    "C": "Silver.",
+    "D": "Sudan Ill."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -67188,7 +67577,12 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C"
+   ]
   },
   {
    "key": "the-stomach-is-lined-by-ba8eb5ec",
@@ -67528,7 +67922,8 @@
    "options": {
     "A": "Paraffin technique",
     "B": "Celloidin technique",
-    "C": "Freezing technique 0. Scanning EM"
+    "C": "Freezing technique",
+    "D": "Scanning EM"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -67546,7 +67941,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "the-super-cial-muscles-of-front-of-forearm-include-2024-05f2a886",
@@ -69937,9 +70338,10 @@
    "key": "transitional-epithelium-is-characterized-by-e5408f84",
    "stem": "Transitional epithelium Is characterized by:",
    "options": {
-    "A": "Well-defined basement membrane",
-    "B": "Luminal surface Is covered by rigid plaques",
-    "C": "Cells connected together by desmosomes. i"
+    "A": "Well-defined basement membrane.",
+    "B": "Luminal surface Is covered by rigid plaques.",
+    "C": "Cells connected together by desmosomes. i",
+    "D": "May reach up to 30 layers in empty urinary bladder."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -69959,7 +70361,13 @@
    ],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
-   "leaf": "Polarity and Membranous Specializations"
+   "leaf": "Polarity and Membranous Specializations",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "transitional-epithelium-is-found-in-1e146a1c",
@@ -70304,9 +70712,10 @@
    "key": "two-celis-are-required-for-the-initiation-of-the-cellular-an-062c6299",
    "stem": "Two celis are required for the initiation of the cellular and humoral! immune responses:",
    "options": {
-    "A": "T Helper & Macrophage:",
-    "B": "T suppressor & Monocyte. |",
-    "C": "B lymphocyte & Macrophage. 0. Plasmablast & Monocyte.. |"
+    "A": "T Helper & Macrophage: -",
+    "B": "T suppressor & Monocyte",
+    "C": "B lymphocyte & Macrophage.",
+    "D": "Plasmablast & Monocyte"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -70324,7 +70733,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Blood",
-   "leaf": "Non granular leukocytes"
+   "leaf": "Non granular leukocytes",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0",
@@ -71501,7 +71916,8 @@
    "options": {
     "A": "Variation in size.",
     "B": "Acidophilic appearance.",
-    "C": "The presence of nuclei."
+    "C": "The presence of nuclei.",
+    "D": "Dark central area"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -71522,6 +71938,7 @@
    "leaf": "The cell",
    "optionsRepaired": true,
    "optionsBefore": [
+    "A",
     "B",
     "C"
    ]
@@ -75458,7 +75875,8 @@
    "options": {
     "A": "Eosin",
     "B": "Hematoxylin",
-    "C": "Toluidine blue 0. Sudan Ill"
+    "C": "Toluidine blue",
+    "D": "Sudan Ill Key Answer | 8 8.1 Vee ee) 98 ‏لششتسا.ءن‎"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -75476,7 +75894,13 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Introduction",
-   "leaf": "Microtechniques"
+   "leaf": "Microtechniques",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "which-of-the-following-leucocytes-migrate-to-the-connective-155995db",
@@ -77350,9 +77774,10 @@
    "key": "which-type-of-collagen-is-a-component-of-the-basement-membra-3586de20",
    "stem": "Which type of collagen Is a component of the basement membrane?",
    "options": {
-    "A": "Type Il",
-    "B": "Type IV",
-    "C": "Type V. 0, Type |"
+    "A": "Type Il.",
+    "B": "Type IV.",
+    "C": "Type V.",
+    "D": "Type |."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -77373,7 +77798,13 @@
    ],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Fibres"
+   "leaf": "Connective Tissue Fibres",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B",
+    "C"
+   ]
   },
   {
    "key": "which-type-of-collagen-is-the-main-part-of-basal-lamina-74d02844",
@@ -77848,9 +78279,10 @@
    "key": "white-fibrous-connective-tissue-0298dd17",
    "stem": "White fibrous connective tissue:",
    "options": {
-    "A": "Has abundant matrix. b, Is rich in blood supply. '",
+    "A": "Has abundant matrix.",
+    "B": "Is rich in blood supply. '",
     "C": "Contains the three types of connective tissue fibers. :",
-    "D": "Its cells are fibroblasts"
+    "D": "Its cells are fibroblasts."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -77870,7 +78302,13 @@
    ],
    "subject": "Histology",
    "chapter": "Connective Tissue",
-   "leaf": "Connective Tissue Cells"
+   "leaf": "Connective Tissue Cells",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "C",
+    "D"
+   ]
   },
   {
    "key": "why-is-there-transitional-epithelial-tissue-in-the-bladder-fae258fc",
@@ -77930,8 +78368,10 @@
    "key": "winging-of-scapula-follows-daralysis-of-a18afe50",
    "stem": "Winging of scapula follows Daralysis of:",
    "options": {
-    "A": "Serratus anterlor muscle",
-    "B": "Deltoid muscle"
+    "A": "Serratus anterlor muscle.",
+    "B": "Deltoid muscle.",
+    "C": "Trapezius muscle.",
+    "D": "Teres major muscle."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -77949,7 +78389,12 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
-   "leaf": "Shoulder Region"
+   "leaf": "Shoulder Region",
+   "optionsRepaired": true,
+   "optionsBefore": [
+    "A",
+    "B"
+   ]
   },
   {
    "key": "winging-of-scapula-follows-paralysis-of-84a2c12a",
@@ -78399,9 +78844,9 @@
  ],
  "optionRepair": {
   "cause": "publisher watermark ('ViP', 'Ac', 'ad') interleaved with the options, leaving blank lines that ended a parse assuming options are contiguous",
-  "rowsRepaired": 415,
-  "optionsRecovered": 505,
-  "stillUnderFour": 353,
+  "rowsRepaired": 69,
+  "optionsRecovered": 76,
+  "stillUnderFour": 297,
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  }
 }

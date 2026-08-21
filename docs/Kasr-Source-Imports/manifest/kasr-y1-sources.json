@@ -306,7 +306,8 @@
    "pageCount": 108,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_51fef9b6234c5d381f59",
@@ -974,7 +975,8 @@
    "pageCount": 1,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_530685004e73e670a4ed",
@@ -1016,7 +1018,8 @@
    "pageCount": 8,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d2867e081b0590fcee47",
@@ -1053,7 +1056,8 @@
    "pageCount": 8,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_f3d7ac13bbc97156212f",
@@ -1090,7 +1094,8 @@
    "pageCount": 16,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_b1e6dc481eaf337268d0",
@@ -1164,7 +1169,8 @@
    "pageCount": 42,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_ce4292e31edea7517e7b",
@@ -1277,7 +1283,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_a54bbf7a625ba2b172fc",
@@ -1428,7 +1435,8 @@
    "pageCount": 10,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_f6963dc2526125ed37ca",
@@ -1465,7 +1473,8 @@
    "pageCount": 10,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_8cb257f4b6a6dcd730d0",
@@ -1502,7 +1511,8 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d5ad8bf946386b0e8502",
@@ -1539,7 +1549,8 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_c58336a4f2f0a172b4fe",
@@ -1739,7 +1750,8 @@
    "pageCount": 3,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_aebc782c66775704ed21",
@@ -1776,7 +1788,8 @@
    "pageCount": 1,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_3c0f852bd6e451c4de1b",
@@ -1813,7 +1826,8 @@
    "pageCount": 2,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_204de291b4763ebc9304",
@@ -2260,7 +2274,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_2c5f9feaf14543e6434a",
@@ -2408,7 +2423,8 @@
    "pageCount": 13,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_16a1d5798d00e596a388",
@@ -2445,7 +2461,8 @@
    "pageCount": 2,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_450c71dc6273b2e64ca3",
@@ -2482,7 +2499,8 @@
    "pageCount": 15,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d56198df979fc164f6c6",
@@ -2519,7 +2537,8 @@
    "pageCount": 12,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_0abbf6bc25c43a087d36",
@@ -2556,7 +2575,8 @@
    "pageCount": 18,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_79ef34f0f9d8de85acae",
@@ -2593,7 +2613,8 @@
    "pageCount": 10,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_34c967631e388497dc35",
@@ -3006,7 +3027,8 @@
    "extractionDisposition": null,
    "duplicateOf": [
     "y1/101 ISK/EOY/EOY Anatomy cases 1st year 2025-1 (2).pdf"
-   ]
+   ],
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_415d10984252678d4a7a",

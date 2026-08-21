@@ -1,7 +1,7 @@
 <!--
   EOY Anatomy cases 1st year 2025-1 (2).pdf as sittable written questions.
 
-  Kasr Al Ainy, module 101 ISK, formative 2025.
+  Kasr Al Ainy, module 101 ISK, other 2025.
   Manifest ID src_4ad2587114e7f1ba4811. 10 questions, 50 marks: 10 in Upper Limb.
 
   NOT the whole paper: Upper-limb cases only. The document continues past this module into "Lower Limb (103)" with six cases (common peroneal nerve at the neck of the fibula, fracture neck of femur in the elderly, femoral hernia, knee meniscus injury, common peroneal nerve again, sciatic nerve laceration) and "Cardiopulmonary (104)" with six more (anginal pain and the coronary arteries, pleural effusion, haemopericardium, the cardiac conducting system, inhaled foreign body, thoracic aortic aneurysm). All twelve carry model answers and none of them is 101 material; they belong to modules 103 and 104 and are not seeded here.
@@ -97,10 +97,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CLAVICLE
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q1, p1. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q1, p1. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A 16 years old girl fell on her outstretched hand and felt sudden pain in her right shoulder. On examination her shoulder was depressed. a. Which bone of the upper limb do you expect to be fractured? b. Which part of this bone is most commonly fractured? Why? c. Why is the shoulder region depressed? d. What structures are liable to be damaged in such a fracture? e. What is the procedure usually used for the fixation of such a fracture?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -127,30 +129,30 @@ A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the
 ### (a) 1 marks
 What lymph nodes should be removed during the mastectomy operation?
 Expects: The axillary lymph nodes
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (b) 1 marks
 What other areas do these lymph nodes drain?
 Expects: The upper limb
 Expects: The front and back of the chest
 Expects: The abdominal walls, down to the level of the umbilicus
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (c) 1 marks
 Should the physician examine the other breast? Why?
 Expects: Yes
 Expects: Because of the free intercommunication of the lymphatics of the breasts of both sides
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (d) 1 marks
 After the operation the patient was unable to abduct her arm above the shoulder. How can this be explained?
 Expects: The long thoracic nerve could have been injured during dissection of the axillary lymph nodes
 Expects: This leads to paralysis of the serratus anterior muscle
 Expects: Serratus anterior rotates the scapula, which raising the arm above the head requires
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ### (e) 1 marks
 What other deformity can be noticed?
 Expects: Winging of the scapula
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ## main_concept
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E
 ## topic
 Upper Limb
 ## subtopic
@@ -191,7 +193,7 @@ ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q2, p1. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q2, p1. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a. What lymph nodes should be removed during mastectomy operation? b. What other areas do these lymph nodes drain? c. Should the physician examine the other breast? Why? d. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed? d. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -274,10 +276,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q3, p2. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q3, p2. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A rock climbing student fell and grasped a tree just before reaching the ground with his outstretched hands. He had motor and sensory losses. a.What nervous structure do you expect to be injured? b.What is the name of this injury? c. What are the paralyzed muscles? d.What is the expected deformity? e.Where would you test for skin sensations in such an injury?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -364,10 +368,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q4, p2. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q4, p2. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “During an obstructed labor, the obstetrician had to pull on the baby's head. The baby was noticed to be unable to move his arm and forearm properly. a. What nervous structure do you expect to be injured? b. What is the name of this injury? c. Name 5 muscles that would be paralyzed? d. What position will the arm and forearm take due to this paralysis? e. Where do you expect this baby to suffer from skin sensory loss?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -453,10 +459,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q5, p2. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q5, p2. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A 12 years old boy suffered from fracture middle of the shaft of the humerus following a car accident. a. What nerve is liable to be injured? b. What movements would be affected following paralysis of these muscles? c. What is the name of the resulting deformity? d. Why this deformity is considered functionally disabling? e. Mention the site of the sensory loss that would occur?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -538,10 +546,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AXILLARY-NERVE
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q6, p3. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q6, p3. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A 45 years old woman was admitted to hospital with dislocation of her right shoulder. a. What nerve is endangered by this dislocation? b. What are the muscles supplied by this nerve? c. What movements would be affected if this nerve was injured? d. What would be the deformity resulting from this paralysis? e. Where would be the skin sensory loss resulting from such an injury?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -627,10 +637,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q7, p3. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q7, p3. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A young student tried to commit suicide by cutting in front of his wrist with a blade. a. What vessels would be cut? b. Describe 2 points where you can apply pressure to stop the bleeding. c. In what direction should the pressure be applied? d. What nerves would be injured? e. What is the expected neurological loss?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -723,10 +735,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q8, p4. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q8, p4. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A house wife complains from numbness and tingling sensation in the hand and lateral fingers which was progressive. On examination, there was some wasting in the thenar eminence. a. What anatomical structure is diseased in this patient? b. Describe the area of the expected sensory impairment? c. Does this sensory impairment markedly affect the hand function? Why? d. What muscles would be functionally impaired? e. Does this motor impairment markedly affect the hand function? Why? f. What is the name of this syndrome? What is its usual cause? g. What is the name of the resulting deformity?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -811,10 +825,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q9, p4. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q9, p4. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Following an accident, a middle age man suffered from fracture in the medial epicondyle. a. What structure is liable to be injured? b. What are the muscles that would be paralyzed? c. What is the expected sensory loss? d. What is the name of the resulting deformity? e. Would this deformity be less severe if the nerve was injured at the wrist? Why?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -903,7 +919,7 @@ ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
-EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy formative 2025, Upper Limb Q10, p5. Manifest src_4ad2587114e7f1ba4811.
+EOY Anatomy cases 1st year 2025-1 (2).pdf — Kasr Al Ainy other 2025, Upper Limb Q10, p5. Manifest src_4ad2587114e7f1ba4811.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a. What is the expected diagnosis? b. What are the boundaries of the anatomical snuff box? c. What are the contents of the anatomical snuff box? d. What makes the floor of the anatomical snuff box? e. What makes the roof of the anatomical snuff box?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.

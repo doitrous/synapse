@@ -87,6 +87,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
@@ -160,6 +162,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FIBROUS-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -233,6 +237,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FERTILIZATION
 ## owner
 Claude
 ## source_citation
@@ -306,6 +312,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-IMPLANTATION
 ## owner
 Claude
 ## source_citation
@@ -380,6 +388,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-UMBILICAL-CORD
 ## owner
 Claude
 ## source_citation
@@ -455,6 +465,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
@@ -529,6 +541,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
 ## owner
 Claude
 ## source_citation
@@ -605,6 +619,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-ARTERY
 ## owner
 Claude
 ## source_citation
@@ -634,13 +650,13 @@ Give the site and the boundaries of the anatomical snuff box.
 ## written_parts
 ### (a) 5 marks
 Give the site and the boundaries of the anatomical snuff box.
-Expects: A triangular hollow on the lateral side of the wrist, seen when the thumb is extended
-Expects: Lateral (anterior) boundary: the tendons of abductor pollicis longus and extensor pollicis brevis, together
-Expects: Medial (posterior) boundary: the tendon of extensor pollicis longus
-Expects: Floor: the styloid process of the radius, the scaphoid and the trapezium
-Expects: The radial artery crosses it, winding backwards round the lateral side of the wrist
-Expects: It passes deep to abductor pollicis longus and extensor pollicis brevis and over the tendons of extensor carpi radialis longus and brevis, where its pulsation can be felt
-Expects: It leaves the box deep to the tendon of extensor pollicis longus
+Expects: Site: a triangular hollow at the lateral part of the dorsum of the wrist
+Expects: It is clearly visible when the thumb is extended
+Expects: Bounded medially by the tendon of extensor pollicis longus
+Expects: Bounded laterally by the tendons of abductor pollicis longus and extensor pollicis brevis
+Expects: Floor: the styloid process of the radius, the scaphoid proximally and the trapezium distally
+Expects: Roof: skin, superficial fascia containing the beginning of the cephalic vein and digital branches of the superficial radial nerve, and deep fascia
+Expects: It contains the radial artery, whose pulsation can be felt there as it crosses to the dorsum of the hand
 Concept: CON-MSK-1424177E093253
 ## main_concept
 CON-MSK-1424177E093253
@@ -756,6 +772,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-STERNOCLAVICULAR-JOINT
 ## owner
 Claude
 ## source_citation
@@ -841,6 +859,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -928,6 +948,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
@@ -1000,6 +1022,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
@@ -1074,6 +1098,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-SECRETORY-PATHWAY-ORGANELLES
 ## owner
 Claude
 ## source_citation
@@ -1148,6 +1174,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
@@ -1221,6 +1249,8 @@ Medium
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation

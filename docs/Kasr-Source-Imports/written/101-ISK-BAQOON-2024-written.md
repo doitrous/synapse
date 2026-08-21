@@ -1,7 +1,7 @@
 <!--
   EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf as sittable written questions.
 
-  Kasr Al Ainy, module 101 ISK, resit 2024.
+  Kasr Al Ainy, module 101 ISK, baqoon 2024.
   Manifest ID src_530685004e73e670a4ed. 16 questions, 80 marks: 10 in Anatomy, 2 in Cases, 4 in Histology.
 
   Transcribed, not derived — `derived_from` is blank throughout. The rule that a
@@ -81,10 +81,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q1, p1. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q1, p1. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Boundaries and contents of intermuscular spaces”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -159,7 +161,7 @@ ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q2, p1. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q2, p1. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Superficial palmar arch and deep palmar arch compare (site, formation, branches)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -231,10 +233,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q3, p1. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q3, p1. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Extensor retinaculum (boundaries and compartments)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -303,10 +307,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q4, p2. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q4, p2. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Cutaneous nerves of arm region (origin, supply)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -376,10 +382,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q5, p2. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q5, p2. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Nerve supply and action of muscles producing abduction of shoulder girdle (more than 90)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -450,10 +458,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q6, p3. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q6, p3. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Supination and pronation (def, axis, muscles producing)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -524,10 +534,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-FERTILIZATION
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q7, p3. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q7, p3. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mechanism of fertilization”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -598,10 +610,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q8, p3. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q8, p3. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Analomies of placenta (regarding attachment of cord, abnormal sites of implantaion)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -672,10 +686,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q9, p4. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q9, p4. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Chorionic villi types and fate”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -744,10 +760,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-DEEP-FASCIA
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Anatomy Q10, p4. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Anatomy Q10, p4. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Functions of deep fascia”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -829,10 +847,12 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AXILLARY-NERVE
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Cases Q6, p5. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Cases Q6, p5. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “6) A 45 years old woman was admitted to hospital with dislocation of her right shoulder. a. What nerve is endangered by this dislocation? b. What are the muscles supplied by this nerve? c. What movements would be affected if this nerve was injured? d. What would be the deformity resulting from this paralysis? e. Where would be the skin sensory loss resulting from such an injury?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -921,7 +941,7 @@ ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Cases Q10, p5. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Cases Q10, p5. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “10) A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a. What is the expected diagnosis? b. What are the boundaries of the anatomical snuff box? c. What are the contents of the anatomical snuff box? d. What makes the floor of the anatomical snuff box? e. What makes the roof of the anatomical snuff box?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -990,10 +1010,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Histology Q1, p6. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Histology Q1, p6. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Outline LM and EM of sER”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1068,7 +1090,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Histology Q2, p6. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Histology Q2, p6. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Types of 2ndry lysosome and their fates”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1139,10 +1161,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Histology Q3, p7. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Histology Q3, p7. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Compare betwean plasma cell and macrophage (origin, site, LM)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1213,10 +1237,12 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation
-EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy resit 2024, Histology Q4, p8. Manifest src_530685004e73e670a4ed.
+EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — Kasr Al Ainy baqoon 2024, Histology Q4, p8. Manifest src_530685004e73e670a4ed.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Eosinphile (percentage, LM, function)”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.

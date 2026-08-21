@@ -9,14 +9,18 @@
  * *committed batches* are. So this reads the batch files themselves, which is
  * the one artefact both lanes always share.
  *
- * Three ways one idea ends up as two concepts, and this finds all of them:
+ * Four ways one idea ends up as two rows, and this finds all of them:
  *
  *   1. One canonical key carrying two IDs. Should be impossible while the mint
  *      is a pure function of the key, and is checked anyway because that is the
  *      property the whole scheme rests on.
- *   2. One ID carrying two canonical keys — a genuine hash collision, or a
+ *   2. The same ID twice in one file. Grouping by key finds one ID here and
+ *      reports nothing, which is how it went unnoticed — it came from an
+ *      emitter writing a concept once per leaf without deduplicating, and the
+ *      importer would apply it as a record overwriting itself.
+ *   3. One ID carrying two canonical keys — a genuine hash collision, or a
  *      hand-edited batch.
- *   3. Two IDs sharing a hash body behind different subject prefixes. The mint
+ *   4. Two IDs sharing a hash body behind different subject prefixes. The mint
  *      hashes the key alone and the subject only picks the prefix, so this is
  *      the same key filed under two subjects — the failure that survives a
  *      correct mint, and the only one a reader is likely to skim past, because
@@ -32,6 +36,18 @@ const DIR = 'docs/Kasr-Source-Imports/concept'
 interface Row { id: string; key: string; subject: string; file: string }
 
 const rows: Row[] = []
+/**
+ * Blocks that look like items but did not parse.
+ *
+ * This reads `## id` and `## canonical_key` with a regex and skips a block it
+ * cannot read. A parser that skips what it does not recognise loses content
+ * quietly — so it is paired with a count of what should have been there: every
+ * block containing a `# Item` heading is an item, and one that yields no row is
+ * reported rather than dropped. A field renamed upstream would otherwise make
+ * this check pass by having nothing left to check.
+ */
+const unparsed: string[] = []
+
 for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
   const text = readFileSync(join(DIR, name), 'utf8')
   for (const block of text.split(/^\s*---\s*$/m)) {
@@ -39,7 +55,10 @@ for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
       block.match(new RegExp(`^## ${label}\\s*\\n(.+)$`, 'm'))?.[1].trim() ?? ''
     const id = field('id')
     const key = field('canonical_key')
-    if (id && key) rows.push({ id, key, subject: field('subject'), file: name })
+    if (id && key) { rows.push({ id, key, subject: field('subject'), file: name }); continue }
+    if (/^#\s*Item\s*$/m.test(block)) {
+      unparsed.push(`${name}: an item with ${id ? 'no canonical_key' : key ? 'no id' : 'neither id nor canonical_key'}`)
+    }
   }
 }
 
@@ -49,13 +68,27 @@ const group = <T>(items: T[], by: (item: T) => string) => {
   return out
 }
 
-const problems: string[] = []
+const problems: string[] = [...unparsed]
 
 for (const [key, seen] of group(rows, (row) => row.key)) {
   const ids = [...new Set(seen.map((row) => row.id))]
   if (ids.length > 1) {
     problems.push(`canonical key "${key}" has ${ids.length} ids: ${ids.join(', ')} `
       + `(${[...new Set(seen.map((row) => row.file))].join(', ')})`)
+  }
+}
+
+// The same id twice in one file. Distinct from an id shared by two keys: here
+// the key is the same too, so grouping by key finds one id and reports nothing.
+// It arrived from an emitter that wrote a concept once per leaf without
+// deduplicating, and the importer would apply it as a record overwriting
+// itself — the later row silently winning on every field.
+for (const [file, seen] of group(rows, (row) => row.file)) {
+  for (const [id, rowsWithId] of group(seen, (row) => row.id)) {
+    if (rowsWithId.length > 1) {
+      problems.push(`${file} carries ${rowsWithId.length} rows with id ${id} `
+        + `(canonical key "${rowsWithId[0].key}") — the importer would apply the last one and drop the rest`)
+    }
   }
 }
 

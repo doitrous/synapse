@@ -11,6 +11,7 @@
  * `page` and say so.
  */
 import { createHash } from 'node:crypto'
+import type { ExamSourceTier } from '../../../src/data/examSignal.ts'
 
 /** The manifest row a paper is. */
 export interface SourceRef {
@@ -19,8 +20,21 @@ export interface SourceRef {
   file: string
   /** The calendar year the paper was sat, not the batch code on its cover. */
   sittingYear: number
-  /** How the blueprint weights it: an end-of-year paper outranks an end-of-module. */
-  tier: 'end_of_year' | 'end_of_module' | 'resit' | 'formative'
+  /**
+   * How the blueprint weights it — and it must be a tier the importer knows.
+   *
+   * This was its own four-word vocabulary (`end_of_year`, `end_of_module`,
+   * `resit`, `formative`) and only two of those words existed in
+   * `EXAM_SOURCE_TIERS`. `examSignal.ts:193` coerces anything it does not
+   * recognise to `other`, silently, so four of the seven papers seeded here
+   * carried a blueprint weight of 0.3 where they had earned 0.8 or 0.9. A resit
+   * counted for less than a random handout, and nothing said so.
+   *
+   * Typed against the importer's own list now, because two vocabularies for one
+   * concept is the bug, not the mapping between them. `baqoon` is this
+   * faculty's word for a resit and is what the importer already calls it.
+   */
+  tier: ExamSourceTier
   /** Which section headings this paper uses, in the order it prints them. */
   sections: readonly string[]
   /**
@@ -78,6 +92,16 @@ export interface Seed {
 
 export type WrittenFormat =
   | 'short_answer' | 'structured_written' | 'comparison_table' | 'essay' | 'multipart_written'
+  /**
+   * Not a written format, and here anyway.
+   *
+   * Sat papers carry matching tables — the Baqoon and July 2022 sittings both
+   * end with them — and a matching question is neither a written question nor a
+   * question-book MCQ. It belongs to the paper it was sat on, which means it
+   * belongs to a `Paper` seed; the alternative is that a whole section of a real
+   * paper has nowhere to live and quietly does not get transcribed.
+   */
+  | 'matching'
 
 /** One lettered subpart, where the paper printed lettered subparts. */
 export interface SchemePart {
@@ -113,6 +137,15 @@ export interface Scheme {
    * because the paper gives a total for the case and letters beneath it.
    */
   parts?: SchemePart[]
+  /**
+   * The option bank of a matching question, in the paper's own lettering.
+   *
+   * An option may answer several prompts and some may answer none, which is
+   * what makes a matching question harder than the same facts as four MCQs.
+   */
+  options?: { letter: string; text: string }[]
+  /** Each prompt and the option that answers it. */
+  matches?: { prompt: string; letter: string }[]
 }
 
 /** One paper, as a module a generator can pick up. */

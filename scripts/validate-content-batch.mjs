@@ -37,8 +37,35 @@ if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with
  * `--with` names those siblings explicitly. It widens what counts as existing;
  * it never suppresses an error, and a file not named here still has to be real.
  */
-const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
-  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+const rest = process.argv.slice(3)
+
+// A `--with` list built in a shell variable arrives as ONE argument, not many:
+// zsh does not word-split an unquoted expansion, and `npm run … -- $vars` has
+// the same effect. The old parser matched `arg === '--with'`, found nothing,
+// and validated against an empty sibling set — reporting hundreds of errors on
+// a batch that is clean, or none on one that is not, with nothing said either
+// way. It has now cost three sessions a wrong measurement, including mine.
+//
+// So this errors on anything it cannot read rather than skipping it. A parser
+// that silently ignores what it does not recognise loses the thing it was given.
+for (const arg of rest) {
+  if (arg === '--with' || rest[rest.indexOf(arg) - 1] === '--with') continue
+  if (arg.includes('--with')) {
+    throw new Error(
+      `Sibling list arrived as one argument:\n  ${arg.slice(0, 120)}${arg.length > 120 ? '…' : ''}\n\n`
+      + 'The shell did not split it. In zsh an unquoted `$vars` is a single word — build an array instead:\n'
+      + '  args=(); for f in docs/.../concept/*.md; do args+=(--with "$f"); done\n'
+      + '  node --experimental-strip-types scripts/validate-content-batch.mjs <batch> "${args[@]}"\n'
+      + 'and check the output says "N rows treated as pending import" before trusting an error count.')
+  }
+  throw new Error(`Unrecognised argument "${arg}". Only --with <file> is accepted after the batch path.`)
+}
+
+const alongside = rest.reduce((files, arg, index, argv) => {
+  if (arg === '--with') {
+    if (!argv[index + 1]) throw new Error('--with was given with no file after it')
+    files.push(argv[index + 1])
+  }
   return files
 }, [])
 
@@ -107,7 +134,27 @@ async function foldInSiblings(concepts, articles, resources) {
       const id = row.id?.trim()
       if (!id) continue
       if (kind === 'concept') {
-        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
+        // `article_ids` on the concept row is not decoration: `conceptImport.ts`
+        // reads it straight into `articleIds`, so a concept authored with it
+        // arrives at import already knowing what teaches it. Dropping it here
+        // made the coverage check one-directional, and reported 247 questions
+        // as untaught whose concepts named their article perfectly well.
+        // Merged, not overwritten. A concept may be authored in two batches —
+        // once from the papers and once from the question books — and the two
+        // name the articles they each know about. Replacing on the second file
+        // meant whichever batch happened to be listed last decided what taught
+        // the concept, and a concept whose paper batch omitted the column lost
+        // the article its question-book batch had named.
+        const already = concepts.get(id)
+        concepts.set(id, {
+          id,
+          publicationStatus: row.publication_status?.trim() ?? already?.publicationStatus,
+          articleIds: [...new Set([
+            ...(already?.articleIds ?? []),
+            ...(row.article_ids ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean),
+          ])],
+          pending: sibling,
+        })
       }
       if (kind === 'article' && articles) {
         articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
@@ -117,8 +164,9 @@ async function foldInSiblings(concepts, articles, resources) {
     notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
   }
 
-  // An article's `related_concepts` is what puts its ID on the concept record
-  // at import. A concept and an article both waiting to be imported would
+  // The other direction. An article's `related_concepts` also puts its ID on the
+  // concept record at import, so coverage is the union of the two — a link
+  // authored from either side is a link the importer will make. A concept and an article both waiting to be imported would
   // otherwise look, to the coverage check, like a concept nothing teaches — so
   // the same link is made here, from the article side, exactly as the importer
   // makes it.
@@ -231,7 +279,15 @@ if (kind === 'question') {
       // against, and `markWritten` scores a part with no points as zero.
       const parts = data.writtenParts ?? []
       if (!parts.length) {
-        errors.push(`${where}: no written_parts — a written question with no parts cannot be marked`)
+        // Distinguish an empty column from one whose headings did not parse.
+        // Both leave a question unmarkable, but only one is an authoring
+        // omission — the other is a heading shape the parser does not know,
+        // and saying "no written_parts" about a column full of them sends the
+        // author looking in the wrong place.
+        const headings = (values.written_parts ?? '').split('\n').filter((line) => line.trim().startsWith('###')).length
+        errors.push(headings
+          ? `${where}: written_parts has ${headings} "###" heading${headings === 1 ? '' : 's'} and none of them parsed — check the label and marks format`
+          : `${where}: no written_parts — a written question with no parts cannot be marked`)
       }
       for (const part of parts) {
         if (!part.expectedPoints.length) {
