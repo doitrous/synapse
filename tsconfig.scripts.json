@@ -1,0 +1,49 @@
+{
+  /*
+   * The generators, emitters and checkers under `scripts/`.
+   *
+   * They were in no tsconfig program at all: the root config references only
+   * `tsconfig.app.json` and `tsconfig.node.json`, and the latter includes
+   * exactly `vite.config.ts`. So every `npx tsc -b` any lane reported alongside
+   * a gate said nothing whatever about the files that lane had just changed.
+   *
+   * The bug that surfaced it is the one a type checker catches for free:
+   * `SITTING_SIGNALS` had three keys written twice, and in an object literal
+   * the later silently wins, so three concepts lost the sittings that raise
+   * their blueprint weight. TS1117 exists for exactly that and was never
+   * looking.
+   *
+   * Loose on purpose, and only where it has to be. These files run under
+   * `node --experimental-strip-types`, which erases types without checking
+   * them, so this is the only thing that checks them at all — but they are
+   * also full of `readFileSync(...)` JSON handled as `any`, and turning that
+   * into hundreds of errors would get the whole program switched off. Duplicate
+   * keys, arity, misspelled properties and unreachable code are what this is
+   * for.
+   */
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.scripts.tsbuildinfo",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"],
+    "types": ["node", "vite/client"],
+    "skipLibCheck": true,
+    /* Bundler resolution and the `@/` alias, matching tsconfig.app.json.
+       These files import `src/data/*`, which is written for the app's
+       resolution — checking them under Node's would report the app as broken
+       rather than the scripts. DOM is in `lib` for the same reason: a couple of
+       `src/data` modules touch `window`. */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": { "@/*": ["./src/*"] },
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["scripts/**/*.ts", "scripts/**/*.mjs"]
+}
