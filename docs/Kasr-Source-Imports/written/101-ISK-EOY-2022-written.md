@@ -331,7 +331,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-CUBITAL-FOSSA
+ART-101-ANA-ARM
 ## owner
 Claude
 ## source_citation
@@ -486,7 +486,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-ULNAR-ARTERY
+ART-101-ANA-FOREARM
 ## owner
 Claude
 ## source_citation
@@ -640,7 +640,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+ART-101-ANA-ARM
 ## owner
 Claude
 ## source_citation
@@ -1142,7 +1142,7 @@ High
 600
 ## library_ids
 ART-101-ANA-AXILLA-BREAST
-ART-101-ANA-RADIAL-NERVE
+ART-101-ANA-ARM
 ## owner
 Claude
 ## source_citation

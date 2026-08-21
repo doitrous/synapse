@@ -333,3 +333,22 @@ unmarked, and `src_16f747e1171423933757` carries working, not a key.
 paper, not its printed number. The printed number is kept alongside as
 `printedNumber` but is not the key: it is read by OCR from a scan and cannot be
 trusted to be unique or even correct.
+
+## Reproducing this
+
+```
+python3 scripts/kasr/extract/eom-answerkey.py                 # all six, ~15 min cold
+python3 scripts/kasr/extract/eom-answerkey.py --only <sid>    # one paper
+python3 scripts/kasr/extract/eom-answerkey.py --calibrate     # the threshold grids
+python3 scripts/kasr/extract/eom-answerkey.py --force         # ignore every cache
+```
+
+Results are written after each paper, so a run that dies part-way keeps what it
+had. `eom-renders/` holds the page rasters and the per-page tesseract TSV; both
+are caches, both regenerate from the PDFs, and both are gitignored — the TSVs
+were added to the index by a concurrent session before that ignore rule existed
+and should be dropped from it. Everything is pure standard-library Python plus
+`pdftoppm`, `gs`, `qpdf`, `pdfinfo` and `tesseract`; there is no numpy, PIL or
+PyMuPDF on this machine and none is needed.
+
+`repair-options.py` was not run on any file here, per instruction.

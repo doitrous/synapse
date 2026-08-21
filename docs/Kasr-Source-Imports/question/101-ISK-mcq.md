@@ -13,6 +13,7 @@
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
+    Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
@@ -29,7 +30,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  155 questions were excluded and 0 held back for having no
+  163 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -41095,6 +41096,2172 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1880795F9C7E
+## title
+The axillary septum doesn't includes:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axillary septum doesn't includes:
+## answer_a
+Pectoralis minor muscle and fascia
+## explanation_a
+Part of the septum, so not the answer. The clavipectoral fascia splits to enclose pectoralis minor, and muscle and fascia together make the middle of the deep layer.
+## answer_b
+Suspensory ligament of axilla
+## explanation_b
+Part of the septum, so not the answer. Below pectoralis minor the fascia continues to the axillary fascia as the suspensory ligament, and it is that pull which makes the hollow of the armpit.
+## answer_c
+Axillary sheath
+## explanation_c
+Not part of the septum, and the answer. The axillary sheath comes down from the neck as a prolongation of the prevertebral fascia, wrapped round the axillary vessels and the cords of the plexus. Students include it because everything else in the list is fascia in the axilla — but the sheath is a content of the space, not a wall of it.
+## answer_d
+Subclavius muscle and fascia
+## explanation_d
+Part of the septum, so not the answer. The fascia splits above to enclose subclavius and attach to the clavicle.
+## correct_answer
+C
+## main_concept
+CON-MSK-8DDA3D07A02813
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the four components of the axillary septum and separate them from the axillary sheath.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q27; Upper MCQ Dr.jalal (1).pdf p6 q27; Anatomy Question [Upper Limb] (1).pdf p33 q193; Anatomy MCQ Book [2025] [first priority].pdf p53 q193. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The axillary septum is subclavius, the clavipectoral fascia, pectoralis minor and the suspensory ligament of the axilla — three of which are offered here. The axillary sheath is a prolongation of the prevertebral fascia of the neck around the vessels and plexus and forms no part of it.
+
+
+---
+
+# Item
+## id
+QM-101-A36E473E1BEB
+## title
+Brown adipose C.T. is present in the following site in adults:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Brown adipose C.T. is present in the following site in adults:
+## answer_a
+Interscapular space.
+## explanation_a
+Correct. The interscapular region between the shoulder blades is where brown adipose tissue is most abundant in the newborn and where a remnant survives into adult life, along with the root of the neck and around the great vessels.
+## answer_b
+Mammary gland.
+## explanation_b
+The fat of the mammary gland is white, unilocular and stores energy. The option is tempting only because the question sits among breast material in these books.
+## answer_c
+Abdominal wall.
+## explanation_c
+The fat of the abdominal wall is white subcutaneous fat — the type that is affected by diet and that increases with age, which is the opposite of the brown fat this question asks about.
+## answer_d
+Mesentery.
+## explanation_d
+The mesentery holds white fat around the vessels of the gut. Nothing about a fat depot deep in the abdomen makes it thermogenic.
+## correct_answer
+A
+## main_concept
+CON-FND-86543DB2855310
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Connective Tissue
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the site where brown adipose tissue persists into adult life.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p3 q24; Dpt Book MCQ histo 101 .NEW (1).pdf p18 q24. Manifest src_7449943b97c0e18d37b0, src_bb081b0479f7a33666cd.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brown fat is largely replaced by white fat during childhood, and the interscapular region is the classical site where a remnant persists in the adult; the other three sites hold white fat.
+
+
+---
+
+# Item
+## id
+QM-101-7EA659A9CABE
+## title
+The following muscle can abduct the arm:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle can abduct the arm:
+## answer_a
+Pectoralis major muscle
+## explanation_a
+Pectoralis major is a powerful adductor and medial rotator, and it lies in front of the joint. It cannot lift the arm away from the trunk.
+## answer_b
+Teres major muscle
+## explanation_b
+Teres major adducts and medially rotates the arm with latissimus dorsi. Students choose it because it arises from the scapula and looks as if it should raise the humerus, but its line of pull is downwards.
+## answer_c
+Supraspinatus
+## explanation_c
+Correct, and the key. Supraspinatus runs from the supraspinous fossa over the top of the joint to the greater tuberosity, so it initiates abduction — the first fifteen degrees, before deltoid can act efficiently.
+## answer_d
+Latissimus dorsi
+## explanation_d
+Latissimus dorsi is the strongest adductor of all; it is the muscle that pulls the raised arm back down against the trunk.
+## correct_answer
+C
+## main_concept
+CON-MSK-04D3ACA71DC025
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Movements
+## learning_objective
+Identify the one muscle among four that abducts the arm rather than adducting it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q15; Anatomy Question [Upper Limb] (1).pdf p11 q59. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8F3A765AEE48
+## title
+Winging of the scapula is due to:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Winging of the scapula is due to:
+## answer_a
+Paralysis of serratus anterior
+## explanation_a
+Correct. Serratus anterior arises from the ribs and inserts along the costal surface of the medial border, pressing it against the chest wall; when the long thoracic nerve is lost the border stands off like a wing on pushing.
+## answer_b
+Paralysis of pectoralis major
+## explanation_b
+Pectoralis major is on the front of the chest and has no attachment to the scapula at all. Its loss changes the anterior axillary fold, not the position of the scapula.
+## answer_c
+Paralysis of deltoid
+## explanation_c
+Deltoid runs from the girdle to the humerus and moves the arm on the scapula, not the scapula on the chest. Its paralysis flattens the shoulder.
+## answer_d
+Paralysis of teres major
+## explanation_d
+Teres major runs from the scapula to the humerus, so it pulls the arm towards the scapula and never the scapula towards the ribs.
+## correct_answer
+A
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attribute a winged scapula to the muscle that normally holds the medial border against the chest wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q8; Upper MCQ Dr.jalal (1).pdf p53 q8. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Serratus anterior holds the medial border of the scapula flat against the ribs, so it is the only one of the four whose paralysis lets the border lift away.
+
+
+---
+
+# Item
+## id
+QM-101-AC58C604F089
+## title
+A 43-year-old woman presented with a breast mass, examination of the biopsy revealed a …
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 43-year-old woman presented with a breast mass, examination of the biopsy revealed a normal lobule of mammary gland surrounded by densely packed collagen fibers oriented in different directions | with few cells in between. This area is primarily composed of which | of the following types of C.T.:
+## answer_a
+Dense irregular white fibrous C.T. ‏ظ‎
+## explanation_a
+Correct. Bundles running in different directions with few cells between them is the definition of dense irregular white fibrous connective tissue, and it is what surrounds and separates the lobules of the mammary gland.
+## answer_b
+Dense regular white fibrous C.T
+## explanation_b
+The half the stem rules out explicitly. Dense regular tissue also has densely packed collagen and few cells, but its bundles are parallel because they resist pull along one line — a tendon, a ligament or an aponeurosis, none of which surrounds a gland.
+## answer_c
+Yellow elastic C.T
+## explanation_c
+Yellow elastic tissue is dominated by branching elastic fibres, not collagen, and it stains and behaves quite differently. The stem names collagen.
+## answer_d
+Loose areolar C.T
+## explanation_d
+Loose areolar tissue has abundant ground substance, many cells of every type and sparse fibres — the opposite of the description given. It does occur in the breast, in the retromammary space, but not as the tissue described here.
+## correct_answer
+A
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Connective Tissue
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Read "densely packed collagen oriented in different directions with few cells" as dense irregular white fibrous connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q4. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The stem gives the diagnostic wording of dense irregular white fibrous connective tissue — collagen bundles in different directions with few cells between — and describes the interlobular stroma of the breast, which surrounds each lobule from all sides.
+
+
+---
+
+# Item
+## id
+QM-101-F9DCDB4EF32D
+## title
+A 53-year-old lady recovered following a surgical removing of the breast. On Ac ad Ac a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 53-year-old lady recovered following a surgical removing of the breast. On Ac ad Ac ad ad ad examination she has winging of the scapula. Which nerve is possibly injured? (2021)
+## answer_a
+Nerve to latissimus dorsi.
+## explanation_a
+The nerve to latissimus dorsi — the thoracodorsal — runs on the posterior wall of the axilla and is also at risk in this operation. Its injury costs extension and adduction of the arm and leaves the scapula lying flat, so it does not explain the sign.
+## answer_b
+Nerve to serratus anterior.
+## explanation_b
+Correct, and the key. The long thoracic nerve runs on the surface of serratus anterior on the medial wall of the axilla, unprotected, and axillary clearance is the classic way it is divided.
+## answer_c
+Nerve to pectoralis major.
+## explanation_c
+The pectoral nerves lie on the anterior wall. Losing them weakens adduction of the arm and wastes the anterior axillary fold, with no effect on the scapula.
+## answer_d
+Nerve to pectoralis minor.
+## explanation_d
+Same wall, same absence of any scapular sign. Pectoralis minor pulls the scapula forwards and downwards, so its paralysis does not lift the medial border away from the chest.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the nerve at risk on the medial wall of the axilla during breast surgery, from the deformity it leaves behind.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B1FC06681728
+## title
+Choose the correct answer, which of the following muscles forms the anterior fold of ax…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct answer, which of the following muscles forms the anterior fold of axilla:
+## answer_a
+Deltoid muscle
+## explanation_a
+Deltoid caps the shoulder above and lateral to the fold and inserts into the humerus halfway down the arm. It is on the wrong side of the armpit altogether.
+## answer_b
+Pectoralis major
+## explanation_b
+Correct. The free lower border of pectoralis major, running to the lateral lip of the bicipital groove, is exactly what a hand grips at the front of the armpit.
+## answer_c
+Pectoralis minor
+## explanation_c
+Pectoralis minor is the commonest wrong answer here. It is part of the anterior wall, but it ends on the coracoid process well above the fold, so it is never palpable as one.
+## answer_d
+Subclavius
+## explanation_d
+Subclavius lies under the clavicle at the very top of the anterior wall, further still from the fold.
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the single muscle whose lower border forms the anterior fold of the axilla.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q9. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The anterior fold of the axilla is the lower border of pectoralis major and of nothing else; the other three muscles offered all end well above the level of the fold.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D42D2ED1F861
+## title
+Considering the nerve supply of pectoralis major; It is innervated by (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Considering the nerve supply of pectoralis major; It is innervated by (2024)
+## answer_a
+Lateral pectoral nerve
+## explanation_a
+Half the supply. The lateral pectoral nerve, from the lateral cord, reaches the clavicular head — but the sternocostal head has its own nerve.
+## answer_b
+Medial pectoral nerve
+## explanation_b
+The other half. The medial pectoral nerve, from the medial cord, pierces pectoralis minor and supplies the sternocostal head, and it also supplies pectoralis minor on its way.
+## answer_c
+Both medial and lateral pectoral nerves
+## explanation_c
+Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.
+## answer_d
+Nerve to pectoralis major
+## explanation_d
+There is no nerve of that name. It is invented by analogy with the nerve to serratus anterior and the nerve to subclavius, and the invented name is the giveaway.
+## correct_answer
+C
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+State that pectoralis major takes both pectoral nerves, one to each head.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis major is the standard example of a doubly innervated muscle: the lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve, after passing through pectoralis minor, supplies the sternocostal head.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FFE3A2C25163
+## title
+Principal muscle concerned in lateral rotation of the shoulder: (DEP BOOK) Ac ad Ac ad …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Principal muscle concerned in lateral rotation of the shoulder: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Pectoralis major.
+## explanation_a
+Pectoralis major is one of the strong medial rotators, along with latissimus dorsi and subscapularis.
+## answer_b
+Deltoid anterior ﬁbers.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. Deltoid does rotate — but its anterior fibres rotate medially, and only its posterior fibres rotate laterally, so the option names the wrong half of the muscle.
+## answer_c
+Teres major.
+## explanation_c
+Teres major sits directly beside teres minor and rotates the arm the other way. It is not a rotator cuff muscle, it takes the lower subscapular nerve, and it is a medial rotator with latissimus dorsi.
+## answer_d
+Teres minor.
+## explanation_d
+Correct as the options stand. Teres minor is a rotator cuff muscle running to the lowest facet of the greater tuberosity and rotates the arm laterally. Strictly the principal lateral rotator is infraspinatus, which this item does not offer — so teres minor is the answer here by being the only lateral rotator on the list.
+## correct_answer
+D
+## main_concept
+CON-MSK-2DE15157B5933B
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Movements
+## learning_objective
+Pick the lateral rotator of the arm from a list dominated by medial rotators.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p29 q29. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but the anterior fibres of deltoid rotate the arm medially — it is the posterior fibres that rotate it laterally. Of the four offered, teres minor is the only lateral rotator; the principal lateral rotator overall, infraspinatus, is not among the options.
+
+
+---
+
+# Item
+## id
+QM-101-B808AB576A79
+## title
+Regarding pectoralis major, mark one correct statement: (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding pectoralis major, mark one correct statement: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Inserted Into the lateral lip of the bicipital groove.
+## explanation_a
+Correct, and the key. The tendon of pectoralis major is inserted into the lateral lip of the bicipital groove, in front of the tendon of latissimus dorsi, which takes the floor.
+## answer_b
+Receives nerve supply from posterior cord of brachia plexus.
+## explanation_b
+The wrong cord. The pectoral nerves come from the lateral and medial cords; the posterior cord supplies the extensors on the back of the limb and never reaches the front of the chest.
+## answer_c
+Forms the medial wall of axilla.
+## explanation_c
+The wrong wall. Pectoralis major forms the anterior wall of the axilla; the medial wall is the ribs and intercostals covered by serratus anterior.
+## answer_d
+Is a powerful lateral rotator of the shoulder.
+## explanation_d
+The wrong direction of rotation. Pectoralis major is a medial rotator — it lies in front of the joint and pulls the humerus across the chest — and lateral rotation belongs to infraspinatus and teres minor.
+## correct_answer
+A
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A5498C791DB9
+## title
+Regarding pectoralis major, mark one correct statement: (DEP BOOK) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding pectoralis major, mark one correct statement: (DEP BOOK) em em em em em
+## answer_a
+Inserted Into the lateral lip of the bicipital groove
+## explanation_a
+Correct, and the key. Pectoralis major inserts into the lateral lip of the bicipital groove; latissimus dorsi takes the floor and teres major the medial lip.
+## answer_b
+Receives nerve supply from posterior cord of brachia plexus
+## explanation_b
+The pectoral nerves arise from the lateral and medial cords, not the posterior. The posterior cord's branches all go behind the limb.
+## answer_c
+Forms the medial wall of axilla
+## explanation_c
+Pectoralis major is the anterior wall of the axilla. The medial wall is serratus anterior over the upper ribs.
+## answer_d
+Is a powerful lateral rotator of the shoulder. Ac ad
+## explanation_d
+Pectoralis major medially rotates the arm. Lateral rotation is infraspinatus and teres minor, and no muscle in front of the joint can do it.
+## correct_answer
+A
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p20 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6DBC8092FB00
+## title
+Regarding the breast:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the breast:
+## answer_a
+It extends from the 3'-8" rib
+## explanation_a
+Off at both ends. The breast extends from the second to the sixth rib, not the third to the eighth — an error of one rib above and two below, and the sort of near-miss that is only caught by having learnt the actual numbers.
+## answer_b
+It extends from the sternum to the midclavicular line
+## explanation_b
+Stops short laterally. The breast reaches the mid-axillary line, not the mid-clavicular line, and its axillary tail goes further still, piercing the deep fascia to enter the axilla. Medially the boundary is the lateral border of the sternum, which is the half of this option that is right.
+## answer_c
+It lies over the pectoralis major and serratus anterior muscles
+## explanation_c
+Correct. Pectoralis major forms the bed over the medial two thirds and serratus anterior, with the external oblique aponeurosis, forms it laterally and below.
+## answer_d
+The nipple usually lies over the 6” intercostal space
+## explanation_d
+Two spaces too low, and the mistake follows from the extent: because the gland reaches the sixth rib students place the nipple near there. The nipple lies at the fourth intercostal space.
+## correct_answer
+C
+## main_concept
+CON-MSK-CE160ABC8341C8
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the extent, the bed and the nipple level of the breast, and reject the three near-misses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p30 q66. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The bed of the breast is pectoralis major with serratus anterior and the aponeurosis of external oblique, so C is true as printed. The other three each miss the standard figure by one or two ribs or by a whole boundary.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-15C9C17BAE4E
+## title
+Regarding the pectoralis major muscle: (2019) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pectoralis major muscle: (2019) Ac ad Ac ad ad ad
+## answer_a
+Is innervated by the medial pectoral nerve only.
+## explanation_a
+The word "only" is what makes it false. The medial pectoral nerve does supply the sternocostal head, but the lateral pectoral nerve supplies the clavicular head, and it is the double supply that these books ask about.
+## answer_b
+Inserts into the medial lip of the intertubercular groove.
+## explanation_b
+The wrong lip, and the classic error at this insertion. Pectoralis major takes the lateral lip, latissimus dorsi the floor and teres major the medial lip of the intertubercular groove.
+## answer_c
+Can act as an accessory muscle of deep expiration.
+## explanation_c
+The right idea inverted. With the arms fixed above the head pectoralis major pulls the ribs up towards the humerus and so acts as an accessory muscle of forced inspiration, not expiration — which is why a breathless patient leans on their hands.
+## answer_d
+Acts with latissimus dorsi to adduct the arm.
+## explanation_d
+Correct. Both muscles reach the intertubercular groove from opposite sides and both pull the arm hard against the trunk, which is why they are the pair named whenever adduction is asked.
+## correct_answer
+D
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise that pectoralis major works with latissimus dorsi in adduction, and reject the three statements that invert its nerve supply, insertion and respiratory role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p20 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis major and latissimus dorsi are the two powerful adductors of the arm and act together, so D is true. A gives only one of its two nerves, B gives the wrong lip of the groove, and C makes it an expiratory muscle when it is accessory to inspiration.
+
+
+---
+
+# Item
+## id
+QM-101-5A7E67105D5F
+## title
+The anterior fold of axilla is formed by: (2017 – DEP BOOK - 2019) Ac ad y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior fold of axilla is formed by: (2017 – DEP BOOK - 2019) Ac ad y y
+## answer_a
+Pectoralis minor muscle only
+## explanation_a
+Pectoralis minor is part of the anterior wall but ends on the coracoid process, far above the free border that forms the fold.
+## answer_b
+Pectoralis major muscle only
+## explanation_b
+Correct. The lower free border of pectoralis major, running laterally towards the bicipital groove, is the anterior fold — the ridge that can be pinched at the front of the armpit.
+## answer_c
+Subclavius and pectoralis minor muscles
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. Both named muscles belong to the anterior wall, which is why the option is plausible, but both lie at the top of that wall and neither reaches down to make a fold.
+## answer_e
+Pectoralis major and minor muscles
+## explanation_e
+The distinction the whole item rests on: the wall is made by both pectoral muscles, the fold by pectoralis major alone. Choosing this means reading "fold" as "wall".
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the muscle that forms the anterior fold of the axilla and distinguish the fold from the wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p32 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but subclavius lies beneath the clavicle and pectoralis minor ends on the coracoid process, so neither reaches the fold. The anterior fold of the axilla is the lower border of pectoralis major alone.
+
+
+---
+
+# Item
+## id
+QM-101-A92B1E3DEFAD
+## title
+The anterior wall of axilla is formed by all the following except: (DEP BOOK) Ac ad Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior wall of axilla is formed by all the following except: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Pectoralis major.
+## explanation_a
+True, so not the exception. Pectoralis major is the superficial layer of the anterior wall.
+## answer_b
+Subscapularis.
+## explanation_b
+The exception, and the key. Subscapularis lies on the front of the scapula and forms the posterior wall of the axilla — directly opposite the wall the stem is asking about.
+## answer_c
+Pectoralis minor.
+## explanation_c
+True, so not the exception. Pectoralis minor lies deep to pectoralis major in the anterior wall.
+## answer_d
+Clavipectoral fascia.
+## explanation_d
+True, so not the exception. The clavipectoral fascia joins subclavius and pectoralis minor into the deep layer of the same wall.
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the components of the anterior wall of the axilla from those of the posterior wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8BAC3B29D9D3
+## title
+The anterior wall of the axilla Is formed by all of the following EXCEPT: (IPKA - 2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior wall of the axilla Is formed by all of the following EXCEPT: (IPKA - 2021)
+## answer_a
+Pectoralis major.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Pectoralis major is the most superficial and the most obvious component of the anterior wall.
+## answer_b
+Teres major.
+## explanation_b
+The exception, and the answer. Teres major runs from the lateral border of the scapula to the medial lip of the bicipital groove and forms the lower part of the posterior wall.
+## answer_c
+Pectoralis minor.
+## explanation_c
+True, so not the exception. Pectoralis minor lies deep to pectoralis major within the wall.
+## answer_d
+Subclavius.
+## explanation_d
+True, so not the exception. Subclavius lies at the top of the wall, under the clavicle.
+## answer_e
+Clavipectoral fascia.
+## explanation_e
+True, so not the exception. The clavipectoral fascia binds subclavius and pectoralis minor into the deep layer of the wall.
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the components of the anterior wall of the axilla from those of the posterior wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p32 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which cannot stand: pectoralis major is the anterior wall of the axilla, not the exception to it. Teres major belongs to the posterior wall with subscapularis and latissimus dorsi, so B is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-3B68FD6F2EAA
+## title
+The anterior wall of the axilla is formed by all of the following EXCEPT:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior wall of the axilla is formed by all of the following EXCEPT:
+## answer_a
+Pectoralis major
+## explanation_a
+True, so not the exception. Pectoralis major is the superficial layer of the anterior wall.
+## answer_b
+Teres major
+## explanation_b
+The exception, and the answer. Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi wrapping round it.
+## answer_c
+Pectoralis minor
+## explanation_c
+True, so not the exception. Pectoralis minor is the deep muscle of the anterior wall.
+## answer_d
+Subclavius
+## explanation_d
+True, so not the exception. Subclavius sits under the clavicle at the top of the wall.
+## answer_e
+Clavipectoral fascia
+## explanation_e
+True, so not the exception. The clavipectoral fascia is what joins the deep components into one layer.
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the components of the anterior wall of the axilla from those of the posterior wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p1 q8. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis major, pectoralis minor, subclavius and the clavipectoral fascia are the four components of the anterior wall; teres major is a posterior wall muscle and is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-3D6D4637031C
+## title
+The axillary septum doesn’t include: (DEP BOOK) ad P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The axillary septum doesn’t include: (DEP BOOK) ad P
+## answer_a
+Pectoralis minor muscle and fascia
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Pectoralis minor and the fascia that splits to enclose it form the middle of the axillary septum.
+## answer_b
+Suspensory ligament of axilla. y
+## explanation_b
+Part of the septum. Below pectoralis minor the fascia runs on to the axillary fascia as the suspensory ligament.
+## answer_c
+Subscapularis
+## explanation_c
+Not part of the septum, and the answer. Subscapularis lies on the anterior surface of the scapula and forms the posterior wall of the axilla — the opposite wall entirely.
+## answer_d
+Subclavius muscle and fascia. em Ac
+## explanation_d
+Part of the septum. The fascia splits above to enclose subclavius and reach the clavicle.
+## correct_answer
+C
+## main_concept
+CON-MSK-8DDA3D07A02813
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the four components of the axillary septum and reject a posterior-wall muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p33 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but pectoralis minor with its fascia is one of the four components of the axillary septum. Subscapularis is a posterior wall muscle and belongs to no part of the anterior wall, so C is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-E548932CACDD
+## title
+The compound alveolar glands are met with in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The compound alveolar glands are met with in:
+## answer_a
+Salivary glands
+## explanation_a
+The salivary glands are compound, but their secretory units are tubulo-alveolar rather than purely alveolar — flask-shaped, part tube and part acinus. The duct half of the answer is right and the shape half is not.
+## answer_b
+Sweat glands
+## explanation_b
+A sweat gland is simple coiled tubular: one unbranched duct and a coiled tube for a secretory unit, and nothing alveolar about it.
+## answer_c
+Kidney
+## explanation_c
+The kidney is not an exocrine gland in this classification at all. Its tubules are nephrons, not secretory acini fed by a branching duct system.
+## answer_d
+mammary gland
+## explanation_d
+Correct, and the key. The mammary gland has a branching duct system opening at the nipple, each branch ending in rounded alveoli — a compound alveolar gland, and the one every student has a specimen of.
+## correct_answer
+D
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Epithelium
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Apply the duct-and-secretory-shape classification to four named organs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q36. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A819D0F7EF1D
+## title
+The following muscle has double innervation: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle has double innervation: (DEP BOOK)
+## answer_a
+Pectoralis major
+## explanation_a
+Correct, and the key. The lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve the sternocostal head, so the muscle takes a branch from each cord that gives one.
+## answer_b
+Pectoralis minor. P
+## explanation_b
+Pectoralis minor takes the medial pectoral nerve only — the same nerve that goes on through it to reach the sternocostal head of pectoralis major, which is what makes this the closest wrong answer.
+## answer_c
+Subclavius
+## explanation_c
+Subclavius has its own single named branch, the nerve to subclavius, from the upper trunk.
+## answer_d
+Deltoid
+## explanation_d
+Deltoid takes the axillary nerve alone, and it is the loss of that single supply that flattens the shoulder.
+## correct_answer
+A
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Nerve supply
+## learning_objective
+Name the pectoral muscle supplied by two nerves rather than one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-056A0F69E104
+## title
+The posterior wall of axilla is formed by: (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The posterior wall of axilla is formed by: (2024)
+## answer_a
+Pectoralis minor.
+## explanation_a
+Pectoralis minor is in the anterior wall, deep to pectoralis major and directly across the axilla from the wall being asked about.
+## answer_b
+Teres major.
+## explanation_b
+Correct. Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi curling round its lower border.
+## answer_c
+Supraspinatus.
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. Supraspinatus is on the dorsum of the scapula above the spine, roofed by the coraco-acromial arch; it never lines the axilla.
+## answer_d
+Serratus anterior.
+## explanation_d
+Serratus anterior forms the medial wall, over the upper ribs. It is the wall carrying the long thoracic nerve, which is why it is well remembered and often reached for.
+## correct_answer
+B
+## main_concept
+CON-MSK-F602D13792F66F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the three muscles of the posterior wall of the axilla.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p32 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but supraspinatus lies above the spine of the scapula, on the back of it and outside the axilla altogether. The posterior wall is subscapularis, teres major and latissimus dorsi, so B is the only one of the four that belongs to it.
+
+
+---
+
+# Item
+## id
+QM-101-513092F6CEE3
+## title
+The superior thoracic artery, choose the correct answer: (DEP BOOK) em Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The superior thoracic artery, choose the correct answer: (DEP BOOK) em Ac
+## answer_a
+Arises from the 2nd part of axillary artery
+## explanation_a
+The wrong part. The superior thoracic is the single branch of the first part of the axillary artery, above the upper border of pectoralis minor; the second part gives the thoraco-acromial and the lateral thoracic.
+## answer_b
+Arises behind the pectoralis minor
+## explanation_b
+The key, and it needs a caveat rather than a defence. The artery does run behind pectoralis minor on its way down to the first two intercostal spaces — but it arises above the muscle, from the first part, so "arises behind" is loose. It is the examiner's answer because the other three name a different artery outright, and the wording should be corrected before a student is asked to choose it.
+## answer_c
+Pierces the clavipectoral fascia. P
+## explanation_c
+The thoraco-acromial artery is the vessel that pierces the clavipectoral fascia and divides into its four named branches on the surface. It comes from the second part.
+## answer_d
+Supplies the breast. Vi Acad
+## explanation_d
+The lateral thoracic artery supplies the breast, running along the lower border of pectoralis minor. It too comes from the second part, and it is the branch students confuse with this one because both are called thoracic.
+## correct_answer
+B
+## main_concept
+CON-MSK-6D4B3D478A4931
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Assign each branch of the axillary artery to its part, and separate the superior thoracic from the thoraco-acromial and the lateral thoracic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E06C2B409609
+## title
+The superior thoracic artery, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The superior thoracic artery, choose the correct answer:
+## answer_a
+Arises from the 2nd part of axillary artery
+## explanation_a
+The superior thoracic arises from the first part of the axillary artery, not the second. The second part gives the thoraco-acromial and the lateral thoracic.
+## answer_b
+Arises behind the pectoralis minor
+## explanation_b
+The examiner's answer, and the only option describing this vessel. The artery descends behind pectoralis minor and in front of serratus anterior to the first two intercostal spaces; the option's "arises" should read "runs", since the origin is from the first part above the muscle.
+## answer_c
+Pierces the clavipectoral fascia
+## explanation_c
+Piercing the clavipectoral fascia belongs to the thoraco-acromial artery, which surfaces there and divides into pectoral, acromial, clavicular and deltoid branches.
+## answer_d
+Supplies the breast
+## explanation_d
+Supplying the breast belongs to the lateral thoracic artery, along the lower border of pectoralis minor. Both arteries carry "thoracic" in the name, which is the whole trap.
+## correct_answer
+B
+## main_concept
+CON-MSK-6D4B3D478A4931
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Upper Limb
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Assign each branch of the axillary artery to its part, and separate the superior thoracic from the thoraco-acromial and the lateral thoracic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p32 q187. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy of the same question, `the-superior-thoracic-artery-choose-the-correct-answer-dep-b-680dd9e1`, marks B, and B is the only option that names this artery at all — A gives it the wrong part, C describes the thoraco-acromial and D the lateral thoracic. The wording of B is loose and is flagged on the concept as a conflict: the artery arises from the first part, above pectoralis minor, and only then passes behind the muscle.
+
+
+---
+
+# Item
+## id
+QM-101-715830FB1FF4
+## title
+Unicellular gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Unicellular gland is :
+## answer_a
+Goblet cell
+## explanation_a
+Correct, and the key. The goblet cell is a single flask-shaped mucous-secreting cell within a surface epithelium, and it is the only unicellular gland taught.
+## answer_b
+Salivary gland
+## explanation_b
+A salivary gland is multicellular and compound, with a branching duct system and thousands of secretory units.
+## answer_c
+Sebaceous gland
+## explanation_c
+A sebaceous gland is multicellular and simple branched alveolar, discharging by the holocrine mode into a hair follicle.
+## answer_d
+Lactating mammary gland
+## explanation_d
+A lactating mammary gland is multicellular and compound alveolar. It is chosen here because the question sits among breast material, and because a gland made of one kind of cell is easily read as a gland made of one cell.
+## correct_answer
+A
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Epithelium
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the one gland in the body formed of a single cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q56. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-354F7295D2B0
+## title
+When does 'winging' of the scapula happen? (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+When does 'winging' of the scapula happen? (2021)
+## answer_a
+When the serratus anterior muscle is contracted.
+## explanation_a
+The reverse. A contracting serratus anterior presses the medial border of the scapula firmly against the ribs — the sign appears only when it cannot.
+## answer_b
+When the serratus anterior muscle is paralyzed.
+## explanation_b
+Correct, and the key. With serratus anterior paralysed, pushing forward against a wall lets the medial border lift away from the chest wall.
+## answer_c
+When the pectoralis major muscle is contracted.
+## explanation_c
+Pectoralis major does not attach to the scapula, so nothing it does — contracting or not — moves the medial border.
+## answer_d
+When the pectoralis major muscle is paralyzed.
+## explanation_d
+Same absence of an attachment. Paralysing pectoralis major wastes the anterior axillary fold and weakens adduction; it leaves the scapula sitting flat.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+State that winging follows paralysis of serratus anterior rather than its contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q29. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9F154F81A7D1
+## title
+Which of the following statements is true for pectoralis major muscle: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements is true for pectoralis major muscle: (DEP BOOK)
+## answer_a
+It arises from humerus.
+## explanation_a
+Origin and insertion reversed. Pectoralis major arises from the clavicle, sternum and costal cartilages and inserts into the humerus — the humerus is the bone it moves, not the bone it comes from.
+## answer_b
+It inserts into the bony ribs.
+## explanation_b
+Also reversed, and impossible besides: the muscle arises from costal cartilages, not from the bony ribs, and it ends on the humerus.
+## answer_c
+It adducts the arm.
+## explanation_c
+Correct, and the key. Pectoralis major adducts the arm — with latissimus dorsi it is one of the two powerful adductors — and medially rotates it.
+## answer_d
+It is innervated by the median nerve.
+## explanation_d
+The wrong nerve entirely. The median nerve is a nerve of the forearm and hand formed from both cords; pectoralis major takes the lateral and medial pectoral nerves.
+## correct_answer
+C
+## main_concept
+CON-MSK-097C0BDED777AB
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## topic
+Pectoral Region
+## subtopic
+Pectoral Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the direction of pull of pectoralis major and reject reversed attachments and the wrong nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
 
 
 

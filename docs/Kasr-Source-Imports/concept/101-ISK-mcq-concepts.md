@@ -13,6 +13,7 @@
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
+    Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
@@ -29,7 +30,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  155 questions were excluded and 0 held back for having no
+  163 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4296,7 +4297,7 @@ Epithelial Tissues
 ## aliases
 Simple gland | Compound gland | Branched gland | Tubular gland | Alveolar gland | Acinar gland
 ## article_ids
-ART-101-HIS-GLANDULAR-EPITHELIUM
+ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## conflicts
@@ -4481,7 +4482,7 @@ Epithelial Tissues
 ## aliases
 Goblet cell | Unicellular gland | Mucous cell
 ## article_ids
-ART-101-HIS-GLANDULAR-EPITHELIUM
+ART-101-HIS-GLANDULAR-EPITHELIUM | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## conflicts
@@ -6139,12 +6140,14 @@ src_0f1171705349e98b44e6 | question_book | | p2 | 101 ISK
 src_0f68f0c75a8effe74782 | question_book | | p3 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p25 | 101 ISK
 src_08bc782553366518791e | question_book | | p23 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p3 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p11 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6158,7 +6161,7 @@ Upper Limb
 ## aliases
 
 ## article_ids
-ART-101-ANA-MUSCLES-OF-THE-BACK
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## conflicts
@@ -6323,18 +6326,21 @@ kau
 1
 ## exam_signal
 src_08bc782553366518791e | question_book | | p21 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
+src_08bc782553366518791e | question_book | | p22 | 101 ISK
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -6342,7 +6348,7 @@ Upper Limb
 ## aliases
 
 ## article_ids
-ART-101-ANA-MUSCLES-OF-THE-BACK
+ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## conflicts
@@ -7759,6 +7765,750 @@ General Embryology
 Sperm | Ovum | Corona radiata | Zona pellucida
 ## article_ids
 ART-101-HIS-NUCLEUS
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
+## id
+CON-MSK-097C0BDED777AB
+## canonical_key
+pectoralis-major-attachment-action-nerve
+## definition
+Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.
+## explicit_objective
+Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.
+## pitfalls
+Giving one action for the whole muscle. The two heads oppose each other in flexion and extension, which is why the question asks for both.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b7301bfcd7d002317e40 | question_book | | p22 | 101 ISK
+src_08bc782553366518791e | question_book | | p19 | 101 ISK
+src_08bc782553366518791e | question_book | | p20 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The clavipectoral fascia with subclavius, pectoralis minor and the suspensory ligament forms the axillary septum, and four structures pierce it
+## id
+CON-MSK-8DDA3D07A02813
+## canonical_key
+clavipectoral-fascia-and-the-axillary-septum
+## definition
+The clavipectoral fascia is a strong sheet lying deep to pectoralis major. Above it splits to enclose subclavius and gains attachment to the clavicle; in the middle it splits to enclose pectoralis minor; below the muscle it continues as the suspensory ligament of the axilla to the axillary fascia, which it holds up to make the hollow of the armpit. Subclavius, the clavipectoral fascia, pectoralis minor and the suspensory ligament together form the deep layer of the anterior wall of the axilla, called the axillary septum. Four structures pierce the fascia: the cephalic vein and the lymphatics from the breast passing inwards, and the thoraco-acromial artery and the lateral pectoral nerve passing outwards.
+## explicit_objective
+Name the four components of the axillary septum and the four structures that pierce the clavipectoral fascia.
+## pitfalls
+Counting the axillary sheath as part of the septum. The sheath is a downward prolongation of the prevertebral fascia of the neck wrapped round the axillary vessels and the plexus; it lies within the axilla rather than forming a wall of it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p5 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p6 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p33 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p53 | 101 ISK
+src_08bc782553366518791e | question_book | | p33 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The axilla has four walls, and the two folds a hand can grip are the lower borders of the anterior and posterior ones
+## id
+CON-MSK-F602D13792F66F
+## canonical_key
+axilla-four-walls-and-the-axillary-folds
+## definition
+The axilla is a pyramidal space with four walls. The anterior wall is pectoralis major with, deep to it, subclavius, the clavipectoral fascia and pectoralis minor. The posterior wall is subscapularis on the front of the scapula with teres major and latissimus dorsi below it. The medial wall is the upper four or five ribs with their intercostal muscles, covered by the upper digitations of serratus anterior. The lateral wall is the narrow bicipital groove of the humerus with coracobrachialis and the short head of biceps. The anterior fold of the axilla is the lower border of pectoralis major alone; the posterior fold is the lower borders of teres major and latissimus dorsi together.
+## explicit_objective
+Name the muscles forming each of the four walls of the axilla and say which muscles make each axillary fold.
+## pitfalls
+Putting pectoralis minor into the anterior fold. The fold is what a hand can pinch at the front of the armpit, and pectoralis minor ends on the coracoid process well above it — only pectoralis major reaches down that far.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_0f1171705349e98b44e6 | question_book | | p31 | 101 ISK
+src_08bc782553366518791e | question_book | | p32 | 101 ISK
+src_08bc782553366518791e | question_book | | p34 | 101 ISK
+src_3bc051c300a8e15045d8 | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The breast lies from the second to the sixth rib on a bed of pectoralis major, serratus anterior and external oblique
+## id
+CON-MSK-CE160ABC8341C8
+## canonical_key
+breast-extent-bed-and-nipple-position
+## definition
+The breast lies in the superficial fascia of the front of the chest, extending vertically from the second to the sixth rib and horizontally from the lateral border of the sternum to the mid-axillary line, with an axillary tail piercing the deep fascia to enter the axilla. Its bed is formed by pectoralis major over the medial two thirds and by serratus anterior and the aponeurosis of external oblique laterally and below, separated from the muscles by the retromammary space of loose areolar tissue. The nipple lies at the level of the fourth intercostal space in the male and the nulliparous female, and is surrounded by the pigmented areola.
+## explicit_objective
+Give the vertical and horizontal extent of the breast, the muscles forming its bed, and the level of the nipple.
+## pitfalls
+Putting the nipple in the sixth space because the breast reaches the sixth rib. The gland extends further down than its nipple; the nipple sits at the fourth space, and that level is what the clinical examination uses.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-GYN-T06-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_764a2521809818b8abdc | question_book | | p30 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Only two muscles laterally rotate the arm, and everything large and anterior rotates it medially
+## id
+CON-MSK-2DE15157B5933B
+## canonical_key
+shoulder-rotators-medial-and-lateral
+## definition
+Lateral rotation of the arm at the shoulder is produced by infraspinatus, the principal lateral rotator, with teres minor, assisted by the posterior fibres of deltoid. Medial rotation is produced by subscapularis, pectoralis major, latissimus dorsi and teres major, assisted by the anterior fibres of deltoid. The medial rotators are far the more numerous and the more powerful, which is why the arm rests in slight medial rotation and why a dislocated or a stiff shoulder loses lateral rotation first.
+## explicit_objective
+Name the lateral rotators of the arm and the medial rotators, and say which set is the stronger.
+## pitfalls
+Reading teres major as a lateral rotator because teres minor is one. The two lie side by side and differ in almost everything that matters: teres minor is a rotator cuff muscle supplied by the axillary nerve and rotates laterally, teres major is not part of the cuff, takes the lower subscapular nerve, and rotates medially.
+## concept_type
+functional_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p29 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The superior thoracic artery is the sole branch of the first part of the axillary artery
+## id
+CON-MSK-6D4B3D478A4931
+## canonical_key
+superior-thoracic-artery-origin-and-course
+## definition
+The axillary artery is divided into three parts by pectoralis minor. Its first part, above the upper border of the muscle, gives one branch — the superior (highest) thoracic artery, a small vessel that runs downwards and medially, behind pectoralis minor and in front of serratus anterior, to supply the first and second intercostal spaces and the upper part of serratus anterior. The second part, behind the muscle, gives the thoraco-acromial artery, which pierces the clavipectoral fascia, and the lateral thoracic artery, which runs along the lower border of pectoralis minor and supplies the breast. The third part gives the subscapular and the two circumflex humeral arteries.
+## explicit_objective
+Name the branch of each part of the axillary artery and give the course and territory of the superior thoracic artery.
+## pitfalls
+Giving the superior thoracic artery the breast. The vessel that supplies the breast from the axilla is the lateral thoracic, from the second part; the superior thoracic goes no lower than the second intercostal space.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T02-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p41 | 101 ISK
+src_69103a53ec28a93958d5 | question_book | | p32 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## conflicts
+The books ask "the superior thoracic artery … arises behind the pectoralis minor" and key it as correct. Strictly it is not: the artery arises from the first part of the axillary artery, which lies above the upper border of pectoralis minor, and only then passes behind the muscle. The option is the examiner's answer by elimination — the other three name the thoraco-acromial and the lateral thoracic — but the wording needs a faculty eye before students sit it.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+## id
+CON-FND-86543DB2855310
+## canonical_key
+white-versus-brown-adipose-connective-tissue
+## definition
+White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
+## explicit_objective
+Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.
+## pitfalls
+Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
+## id
+CON-FND-1438DCA008F0DB
+## canonical_key
+dense-white-fibrous-ct-regular-versus-irregular
+## definition
+Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance. It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland. Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.
+## explicit_objective
+Tell dense regular from dense irregular white fibrous connective tissue on a section and name a site of each.
+## pitfalls
+Reading "densely packed collagen with few cells" as regular. That much is true of both; the word that decides it is whether the bundles run one way or many, and a capsule or a gland stroma is surrounded from all sides and so is irregular.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## conflicts
@@ -10081,101 +10831,6 @@ KAU_Y1=0.31
 0.9
 ## confidence
 0.7
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-
-## article_ids
-ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
-## support_mode
-direct_statement
-## conflicts
-
-## uncertainty
-
-## evidence_gaps
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
-## id
-CON-FND-86543DB2855310
-## canonical_key
-white-versus-brown-adipose-connective-tissue
-## definition
-White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
-## explicit_objective
-Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.
-## pitfalls
-Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.55
-## exam_weight_by_year
-KAU_Y1=0.55
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
 ## topic
 Histology
 ## subtopic
