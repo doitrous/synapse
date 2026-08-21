@@ -45,7 +45,7 @@ names a real file. Both run on every pull request that touches this folder.
 | `subjects/` | Module-subject trees mirroring each department book's chapters |
 | `taxonomy/` | Canonical taxonomy placements |
 | `resource/` | Resource records |
-| `evidence/` | Claims, citations, sources, article spans |
+| [`evidence/`](evidence/) | Claims, citations, sources, article spans — and [`corpus-source-index.json`](evidence/corpus-source-index.json), which the validator needs. See below |
 | `concept/` | Canonical concepts |
 | `relations/` | Typed concept relations |
 | `article/` | Library articles |
@@ -54,6 +54,35 @@ names a real file. Both run on every pull request that touches this folder.
 | `practical/` | Practical and OSCE items |
 | `glossary/` | Glossary terms |
 | [`media-requests/`](media-requests/) | Admin-only media requests, and the [audit](media-requests/media-audit.md) of how media is modelled. The repository holds **zero** medical images |
+
+## The corpus index is what makes a `src_` citation checkable
+
+`validate-content-batch.mjs` refuses a `src_…` it cannot verify, and it looks
+for the index **beside the batch** — `evidence/corpus-source-index.json`, in
+this folder, not the one under `docs/medical-library-program/`.
+
+That distinction is not cosmetic. The programme-level index holds 267 sources
+and **not one of them is from this corpus**. Before this file existed, a Kasr
+resource batch was not failing its source check — *it had no check to fail*, and
+every row came back "cannot be checked", which is the right refusal for the
+wrong reason.
+
+Regenerate it from the manifest, so the two cannot disagree:
+
+```bash
+node --experimental-strip-types scripts/kasr/build-source-index.ts
+```
+
+One entry per **file**, keyed by source ID. The manifest holds one row per
+*path* and IDs are content-addressed, so the same bytes filed under two names
+give two manifest rows and one index entry — which is what lets the validator
+compare a batch's `source_relative_path` against a single authoritative path.
+Fourteen source IDs in this corpus are indexed twice; take the path from here
+rather than from a manifest row, or you will pick one of the two at random.
+
+An excluded file stays in the index. Leaving it out would make a batch naming
+it fail as "not a source the corpus contains", which is a different and false
+statement from "excluded on purpose".
 
 ## Module IDs are exact
 
