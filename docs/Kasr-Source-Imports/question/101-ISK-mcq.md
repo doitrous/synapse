@@ -5,8 +5,12 @@
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
+    Cardiovascular system — 9 questions, 2 concepts
+    Connective Tissue Fibres — 51 questions, 11 concepts
     Cytoplasm — 286 questions, 23 concepts
     Embryonic Period — 9 questions, 2 concepts
+    Fascia — 14 questions, 2 concepts
+    Fetal Membranes — 69 questions, 14 concepts
     Fetal Period — 6 questions, 3 concepts
     First Week of Development — 24 questions, 6 concepts
     Gametes — 31 questions, 4 concepts
@@ -14,9 +18,12 @@
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
+    Introduction — 16 questions, 3 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Lymphatic system — 4 questions, 2 concepts
     Microscopes — 7 questions, 2 concepts
     Muscles of the Back — 29 questions, 9 concepts
+    Muscular system — 11 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
     Nervous system — 16 questions, 4 concepts
@@ -25,9 +32,12 @@
     Nucleus — 70 questions, 7 concepts
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
+    Second Week of Development — 44 questions, 11 concepts
     Shoulder Region — 40 questions, 19 concepts
+    Skeletal system — 43 questions, 7 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
+    Third Week of Development — 33 questions, 6 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
     Veins of the Upper Limb — 9 questions, 3 concepts
 
@@ -41,7 +51,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  257 questions were excluded and 0 held back for having no
+  411 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -11406,6 +11416,3496 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-88A2143118F9
+## title
+The right atrium receives blood from:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The right atrium receives blood from:
+## answer_a
+Superior and inferior vena cava
+## explanation_a
+Correct. The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.
+## answer_b
+Pulmonary artery
+## explanation_b
+The pulmonary artery leaves the right ventricle for the lungs. Naming it here would reverse the direction of flow through the right heart.
+## answer_c
+Aorta
+## explanation_c
+The aorta leaves the left ventricle. It is the outflow of the other side of the heart entirely.
+## answer_d
+Pulmonary veins
+## explanation_d
+The four pulmonary veins are the trap, and a good one: they carry blood back to the heart, so a student thinking only "veins return blood" takes them. They return it to the *left* atrium, and the blood in them is oxygenated.
+## correct_answer
+A
+## main_concept
+CON-MSK-655D74FEE1515A
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the vessels that empty into the right atrium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q43; Anatomy MCQ Book [2025] [first priority].pdf p8 q43. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-71259EFFD400
+## title
+Regarding the systemic circulation, which of the following statements is true?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the systemic circulation, which of the following statements is true?
+## answer_a
+The blood passes from the right ventricle to the right atrium
+## explanation_a
+Backwards through the right heart. Blood passes from the right atrium to the right ventricle, and in any case that is the start of the pulmonary circuit, not the systemic one.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium
+## explanation_b
+Half right, which is why it is printed. The veins do collect blood into the right atrium, but what they collect is deoxygenated blood — the oxygen was given up in the tissues, which is the point of the circuit.
+## answer_c
+Deoxygenated blood passes through the aorta to all tissues of the body
+## explanation_c
+The right vessel with the wrong blood. The aorta does carry blood to all the tissues, but it leaves the left ventricle and the blood in it is oxygenated.
+## answer_d
+Oxygenated blood passes through the aorta to all tissues of the body
+## explanation_d
+Correct. Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.
+## correct_answer
+D
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about the systemic circulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q44; Anatomy MCQ Book [2025] [first priority].pdf p8 q44. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D6FC9CDB32CB
+## title
+Regarding the pulmonary ‘circulation, which of the following statements is true? (DEP B…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pulmonary ‘circulation, which of the following statements is true? (DEP BOOK). P a- The blood passes from the right ventricle to the right atrium. P Vi ad
+## answer_a
+The blood passes from the right ventricle to the right atrium.
+## explanation_a
+Backwards. Blood passes from the right atrium to the right ventricle and out through the pulmonary valve; a ventricle never fills the atrium above it.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium.
+## explanation_b
+A description of the systemic circulation with the wrong blood in it. Veins do collect into the right atrium, but the blood they bring is deoxygenated.
+## answer_c
+Oxygenated blood returns from the lung to the left atrium.
+## explanation_c
+Correct, and the override. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.
+## answer_d
+Deoxygenated blood passes through the aorta to all tissues of the body.
+## explanation_d
+The aorta carries oxygenated blood, and it belongs to the systemic circulation. This option and B are the same swap made in opposite directions.
+## correct_answer
+C
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about the pulmonary circulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The "(DEP BOOK)" copy printed no key, and the only other printing of this question is too damaged to import. C is the department chapter's own account of the pulmonary circulation: oxygenated blood returns from both lungs to the left atrium by the four pulmonary veins. The other three options describe flows the chapter denies.
+
+
+---
+
+# Item
+## id
+QM-101-9C6733423B17
+## title
+Regarding the portal circulation, which of the following statements is true? (DEP BOOK). P
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the portal circulation, which of the following statements is true? (DEP BOOK). P
+## answer_a
+The venous blood from the digestive system enters the liver through the portal vein
+## explanation_a
+Correct. The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.
+## answer_b
+The venous blood leaves the liver through the portal vein. ad
+## explanation_b
+The right vein, the wrong direction, and the commonest error in the leaf. The portal vein brings blood in; the hepatic veins take it out to the inferior vena cava.
+## answer_c
+The venous blood from the digestive system enters the liver through the hepatic vein
+## explanation_c
+The two names swapped. The hepatic vein is the exit, not the entrance, and this option differs from the answer by one word.
+## answer_d
+The venous blood enters the liver through the inferior vena cava
+## explanation_d
+The inferior vena cava is where portal blood ends up *after* the liver, by way of the hepatic veins. Nothing enters the liver from it.
+## correct_answer
+A
+## main_concept
+CON-MSK-A12FB50E90A64B
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which vessel brings blood to the liver and which takes it away.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `regarding-the-portal-circulation-which-of-the-following-stat-02876c54` is keyed A, and A is what the department chapter states: venous blood from the stomach, spleen, pancreas and intestine is collected into the portal vein, which enters the liver through the porta hepatis. This is the only copy in which options A and C are printed in full, so it is the only one in which that key can be acted on.
+
+
+---
+
+# Item
+## id
+QM-101-E9F5C2AF48EF
+## title
+Which of the following is NOT a fiber found in connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT a fiber found in connective tissue?
+## answer_a
+Collagen fiber
+## explanation_a
+One of the three. Collagen is the strongest and the most abundant.
+## answer_b
+Elastic fiber
+## explanation_b
+One of the three. Elastic fibres are the ones that stretch and recoil.
+## answer_c
+Reticular fiber
+## explanation_c
+One of the three. Reticular fibres are the branching network of an organ's stroma.
+## answer_d
+Purkinje fiber
+## explanation_d
+Correct — and not a connective tissue fibre at all. Purkinje fibres are modified cardiac muscle cells conducting the impulse through the ventricle; the word "fibre" in histology names a thread of protein in some places and a whole cell in others, and this option is built on that ambiguity.
+## correct_answer
+D
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the three connective tissue fibres and reject a fibre that belongs to another tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q3. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-D4D703B6398D
+## title
+Which is the most abundant fiber in connective tissue?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which is the most abundant fiber in connective tissue?
+## answer_a
+Collagen fiber
+## explanation_a
+Correct. Collagen is the most abundant fibre in connective tissue and the most abundant protein in the body — tendon, dermis, bone matrix and organ capsules are all collagen.
+## answer_b
+Elastic fiber
+## explanation_b
+Elastic fibres are abundant only where recoil is needed: the large arteries, the lung, the ligamenta flava. Everywhere else they are the minority fibre in a collagenous field.
+## answer_c
+Reticular fiber
+## explanation_c
+Reticular fibres are fine and sparse by design — they are a delicate supporting mesh in the stroma of organs, not a bulk structural fibre.
+## answer_d
+Purkinje fiber
+## explanation_d
+Purkinje fibres are cardiac conducting cells, not connective tissue fibres at all.
+## correct_answer
+A
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest connective tissue fibre in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q25. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A0A32A44CA40
+## title
+What are stretchable/flexible CT fibers?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What are stretchable/flexible CT fibers?
+## answer_a
+Collagen fibers type I
+## explanation_a
+Type I collagen is flexible but inelastic — it bends freely and resists being lengthened, which is what makes a tendon transmit a muscle's pull without stretching.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. Elastin lets the fibre stretch and spring back, which is why it is concentrated in the aorta, the lung and the skin.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are described as a loose flexible supporting network. Flexible is not elastic: they bend with the organ but do not recoil.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre under another name, so this option and C are the same answer — a sign that neither can be right.
+## correct_answer
+B
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute stretch and recoil to the elastic fibre and not to collagen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q53. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-20B2E4F188E1
+## title
+The following CT fibers can branch EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following CT fibers can branch EXCEPT:
+## answer_a
+Collagen fibers type I
+## explanation_a
+Correct, and the exception. The department book's wording is exact: collagen forms "wavy branching bundles formed of non-branching fibres". The bundle divides; the individual type I fibre inside it does not.
+## answer_b
+Elastic fibers
+## explanation_b
+Elastic fibres branch, and freely — they run singly and anastomose into a network, which is one of the two characters that separates them from collagen in the same field.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres branch and anastomose; that is what makes them a network and what the word reticular means.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre, so this option repeats C. It branches for the same reason.
+## correct_answer
+A
+## main_concept
+CON-FND-103DF490A6E01E
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+State which connective tissue fibres branch, and separate a branching bundle from a branching fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q52. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E292CC7D3CF2
+## title
+The type of tissue that makes up the bulk of the dermis is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of tissue that makes up the bulk of the dermis is:
+## answer_a
+Collagen
+## explanation_a
+Correct. The dermis is dense irregular connective tissue, and its bulk is collagen bundles interweaving in every plane so that skin resists pull from any direction.
+## answer_b
+Melanin
+## explanation_b
+Melanin is a pigment made by melanocytes in the epidermis, not a connective tissue at all — and it is a granule, not a fibre.
+## answer_c
+Keratin
+## explanation_c
+Keratin is the intermediate filament protein of the epidermal keratinocyte, so it belongs to the layer above the dermis rather than to the dermis itself.
+## answer_d
+Fibroplastin
+## explanation_d
+"Fibroplastin" is not a substance in this module or in any other; it is built out of "fibroblast" to look plausible.
+## correct_answer
+A
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Basis
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name the fibre that forms the bulk of the dermis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q8. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6B5208847713
+## title
+Regarding the staining, the following are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the staining, the following are true EXCEPT:
+## answer_a
+Elastic fiber stain brown with orcien
+## explanation_a
+True. Orcein browns elastic fibres, and that is the department book's stain for them.
+## answer_b
+Reticular fibers stain pink with H&E
+## explanation_b
+Correct, and the exception. Reticular fibres are not visible in H&E; that invisibility is the whole reason silver impregnation exists for them, and PAS reddens them because of their sugar.
+## answer_c
+Collagen fibers stain pink with H&E
+## explanation_c
+True. Collagen is acidophilic and takes eosin pink — this is what it looks like in every routine section.
+## answer_d
+Mast cells stain purple with toludin blue
+## explanation_d
+True. Toluidine blue stains mast cell granules metachromatically purple, a different colour from the dye itself, because of their heparin.
+## correct_answer
+B
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Give the colour each fibre takes with its stain, and identify the fibre that H&E cannot show at all.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q66. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D49147529D6
+## title
+H&E could be used to stain:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+H&E could be used to stain:
+## answer_a
+collagen fibers + elastic fibers
+## explanation_a
+Correct, and keyed. Collagen and elastic fibres are both acidophilic and both take eosin pink — which is why H&E cannot tell them apart by colour and the student must use bundling and outline instead.
+## answer_b
+elastic fibers + reticular fibers
+## explanation_b
+Includes reticular fibres, and those are invisible in H&E. A pairing that contains the one fibre H&E misses cannot be the answer.
+## answer_c
+collagen fibers + reticular fibers
+## explanation_c
+Same fault as B for the same reason: reticular fibres take no H&E colour.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" fails on reticular fibres alone. Two out of three is not all.
+## correct_answer
+A
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain choice
+## learning_objective
+Say which of the three connective tissue fibres H&E shows and which it does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q62. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-F614EC44CA15
+## title
+Regarding reticular fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding reticular fibers:
+## answer_a
+type III collagen
+## explanation_a
+True on its own — reticular fibres are type III collagen — but the stem offers a combined option, so a single true statement is not yet the answer.
+## answer_b
+stained with Ag
+## explanation_b
+True on its own. Silver browns them, which is why they are called argyrophilic.
+## answer_c
+stained with PAS
+## explanation_c
+True on its own. PAS reddens them, because of the high sugar content that distinguishes type III from type I.
+## answer_d
+all of the above
+## explanation_d
+Correct, and keyed. All three statements hold together, and the reason they do is one fact: a sugar-rich type III collagen takes both a silver and a carbohydrate stain.
+## correct_answer
+D
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the collagen type of the reticular fibre and the two stains that demonstrate it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q65. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B4FBA8B8BAC
+## title
+Reticular fibers are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are:
+## answer_a
+Forming bundles
+## explanation_a
+Bundles are collagen type I. Reticular fibres run as a fine anastomosing network — that is the difference between a rope and a net.
+## answer_b
+Thick , non branching fibers
+## explanation_b
+The opposite of the fibre on both counts. Reticular fibres are thin and they branch; thick and non-branching describes the individual type I collagen fibre.
+## answer_c
+Formed of collagen type III
+## explanation_c
+Correct. Reticular fibres are type III collagen, and their sugar content is what makes them argyrophilic and PAS-positive.
+## answer_d
+Lacking axial periodicity
+## explanation_d
+Reticular fibres are collagen, and collagen has axial periodicity — the banding is the mark of the molecule, not of the fibre's calibre.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular fibres from a set built out of collagen's characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p1 q4. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A91DCF3A0363
+## title
+Concerning the reticular fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the reticular fibers:
+## answer_a
+They form bundles
+## explanation_a
+Bundles belong to type I collagen. The reticular fibre is a network, and the word reticular says so.
+## answer_b
+They are formed by chondroblasts & smooth muscle cells
+## explanation_b
+Chondroblasts make type II collagen, in cartilage. Reticular fibres come from fibroblasts, reticular cells and smooth muscle cells — the chondroblast is borrowed from the row above in the book's own table.
+## answer_c
+They are formed mainly of type III collagen fibers
+## explanation_c
+Correct. Reticular fibres are type III collagen; that identity is what explains both their staining and their fineness.
+## answer_d
+They are visible by H&E
+## explanation_d
+The single most reliable negative fact about this fibre: it is not visible in H&E, which is why silver was needed at all.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about reticular fibres, including who makes them and whether H&E shows them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q19. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the department book's own statement — reticular fibres are type III collagen — and each of the other three contradicts the book directly: they form a network rather than bundles, they are made by fibroblasts, reticular cells and smooth muscle cells rather than chondroblasts, and they are not visible in H&E.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7BCCACFCEC2D
+## title
+The stroma of the organs is formed by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The stroma of the organs is formed by:
+## answer_a
+collagen fibers
+## explanation_a
+Collagen makes the capsule that surrounds an organ, not the delicate mesh inside it. Capsule and stroma are different jobs and different fibres.
+## answer_b
+elastic fibers
+## explanation_b
+Elastic fibres are found in organ stroma only where recoil is needed, as in lung; they are not what supports the parenchymal cells of spleen, lymph node and liver.
+## answer_c
+reticular fibers
+## explanation_c
+Correct. Reticular fibres branch and anastomose into a loose flexible network — the stroma — and the reticular cell that secretes them lives in it.
+## answer_d
+muscle fibers
+## explanation_d
+Muscle fibres are cells of a different basic tissue. Naming them here is the same ambiguity of "fibre" that the Purkinje distractor uses.
+## correct_answer
+C
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name the fibre that forms the supporting stroma of an organ.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q95. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DDD42E73DDE3
+## title
+Reticular fibers are composed of type………collagen fibrils
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are composed of type………collagen fibrils
+## answer_a
+II
+## explanation_a
+Type II is cartilage collagen, laid down by chondroblasts as fine fibres in the matrix.
+## answer_b
+III
+## explanation_b
+Correct. Reticular fibres are type III collagen, and their high sugar content is what separates them from type I in staining.
+## answer_c
+IV
+## explanation_c
+Type IV is the granular collagen of the basal lamina, made by the epithelium — the only one of the five that is not fibrous.
+## answer_d
+V
+## explanation_d
+Type V is not one of the five types this module tabulates; it is offered to see whether the number was memorised or the tissue was understood.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the reticular fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q96. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D08F1975AC7E
+## title
+Reticular fibers are formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Reticular fibers are formed of:
+## answer_a
+Type I
+## explanation_a
+Type I is the bundled collagen of tendon, bone and dermis — the one a student names first because it is the commonest.
+## answer_b
+Type III
+## explanation_b
+Correct. Type III is the reticular fibre.
+## answer_c
+Type V
+## explanation_c
+Type V is outside the five types the department book tabulates.
+## answer_d
+Type IV
+## explanation_d
+Type IV is the basal lamina collagen, and granular rather than fibrous, so it cannot make a fibre of any sort.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the reticular fibre against a different distractor set.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q47. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-112D06F016FF
+## title
+The most common type of collagen in the body is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of collagen in the body is:
+## answer_a
+Type I
+## explanation_a
+Correct. Type I is the collagen of connective tissue proper, tendon, bone and organ capsules, and those tissues are most of the body's bulk.
+## answer_b
+Type II
+## explanation_b
+Type II is confined to cartilage, which is a small fraction of adult tissue.
+## answer_c
+Type III
+## explanation_c
+Type III is the reticular fibre — fine and sparse, a supporting mesh rather than a bulk fibre.
+## answer_d
+Type IV
+## explanation_d
+Type IV is a granular component of basement membranes, which are microscopically thin sheets.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest collagen type in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q74. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C37BAD3DC0E5
+## title
+The most common type of collagen is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of collagen is:
+## answer_a
+Type I
+## explanation_a
+Correct. Type I, arranged in bundles, is the commonest collagen in the body.
+## answer_b
+Type III
+## explanation_b
+Type III is reticular fibre — everywhere in organ stroma but never in bulk.
+## answer_c
+Type V
+## explanation_c
+Type V is not among the types this module tabulates.
+## answer_d
+Type VI
+## explanation_d
+Type VI is not among them either; both C and D exist to reward the student who counted rather than the one who learned the table.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the commonest collagen type against a distractor set drawn from the higher numbers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q46. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4B4E9D904C4D
+## title
+The strongest type of collagen is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The strongest type of collagen is:
+## answer_a
+type I
+## explanation_a
+Correct, and keyed. Type I is the strongest, and it is strongest because it is bundled — many parallel fibres sharing one line of pull, which is what a tendon is.
+## answer_b
+type II
+## explanation_b
+Type II is fine fibres dispersed in cartilage matrix; cartilage resists compression, and it does so through its ground substance rather than through fibre strength.
+## answer_c
+type Ill
+## explanation_c
+Type III forms a delicate anastomosing network built for support, not for load.
+## answer_d
+type IV
+## explanation_d
+Type IV is granular and sits in a basement membrane a fraction of a micrometre thick.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the strongest collagen type and connect its strength to the way it is arranged.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q64. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-83542915FB1E
+## title
+Type I collagen is present mainly in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type I collagen is present mainly in:
+## answer_a
+reticular connective tissue
+## explanation_a
+Reticular connective tissue is named for its type III fibres; that is what makes it reticular rather than collagenous.
+## answer_b
+dense collagenous connective tissue
+## explanation_b
+Correct. Dense collagenous connective tissue — tendon, ligament, dermis, capsule — is bundled type I collagen and little else.
+## answer_c
+mucoid connective tissue
+## explanation_c
+Mucoid connective tissue is jelly rich in hyaluronic acid with few fibres; Wharton's jelly of the umbilical cord is the example.
+## answer_d
+yellow elastic connective tissue
+## explanation_d
+Yellow elastic connective tissue is named for its elastic fibres, which are elastin and not collagen at all.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Site
+## learning_objective
+Name the type of connective tissue in which type I collagen predominates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q110. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BFEF5A5F27E6
+## title
+Type IV collagen is in the form of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Type IV collagen is in the form of:
+## answer_a
+granules
+## explanation_a
+Correct, and keyed. The department book's table gives type IV as granular — a sheet of granules in the basal lamina, not a thread.
+## answer_b
+fibrils
+## explanation_b
+Fibrils are what type I and type III form. Reading "collagen" as "must be a fibre" is the whole trap of this question.
+## answer_c
+fibers
+## explanation_c
+Fibres are the aggregate of fibrils; type IV never gets that far.
+## answer_d
+bundles
+## explanation_d
+Bundles are type I, and bundling is exactly what makes type I strong. Type IV is in a basement membrane, which needs to filter rather than to pull.
+## correct_answer
+A
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Give the form type IV collagen takes, and note that it is not a fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q63. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-482F5F10857F
+## title
+All of the following concerning reticular cells is true except :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following concerning reticular cells is true except :
+## answer_a
+Produce collagen type III
+## explanation_a
+True. The reticular cell secretes reticular fibres, and those are type III collagen.
+## answer_b
+Produce collagen type II
+## explanation_b
+Correct, and the exception. Type II collagen is cartilage collagen and comes from the chondroblast; the reticular cell never makes it.
+## answer_c
+Present in stroma of organs
+## explanation_c
+True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.
+## answer_d
+Have supporting function
+## explanation_d
+True. With their fibres the reticular cells form the supporting network of the organ, which is the definition of stroma.
+## correct_answer
+B
+## main_concept
+CON-FND-A635150A3F245D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Negative stem
+## learning_objective
+Name the collagen the reticular cell secretes, and reject the type belonging to cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q124. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-66AF2C8259FB
+## title
+In the basal lamina of the epithelia:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In the basal lamina of the epithelia:
+## answer_a
+Type I collagen protein is abundant
+## explanation_a
+Type I is the bundled collagen of tendon and dermis. It lies in the connective tissue below the basement membrane, not within the basal lamina.
+## answer_b
+Type IV collagen protein is abundant
+## explanation_b
+Correct. The basal lamina is an electron-dense sheet of type IV collagen and glycoproteins, and the epithelium itself makes it.
+## answer_c
+Type II collagen protein is abundant
+## explanation_c
+Type II is cartilage collagen; there is no epithelium resting on cartilage matrix in this sense.
+## answer_d
+Type VII collagen protein is abundant
+## explanation_d
+Type VII is present at the basement membrane but as anchoring fibrils tying it down to the connective tissue, not as the substance of the lamina.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the collagen type abundant in the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q49. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-42E38FF7FADC
+## title
+Which type of collagen is the main part of basal lamina?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of collagen is the main part of basal lamina?
+## answer_a
+Type ١ collagen
+## explanation_a
+Type I is the collagen of the connective tissue underneath, arranged in bundles.
+## answer_b
+Type II collagen
+## explanation_b
+Type II is cartilage.
+## answer_c
+Type III collagen
+## explanation_c
+Type III makes the reticular lamina, which is the other half of the basement membrane and the connective tissue's contribution.
+## answer_d
+Type IV collagen
+## explanation_d
+Correct, and keyed. Type IV collagen is the main constituent of the basal lamina.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the main collagen of the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q63. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-5955B6BA18D8
+## title
+Which type of collagen Is a component of the basement membrane?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which type of collagen Is a component of the basement membrane?
+## answer_a
+Type Il.
+## explanation_a
+Type II is the fine fibre of cartilage matrix, made by chondroblasts.
+## answer_b
+Type IV.
+## explanation_b
+Correct. Type IV is the granular collagen of the basal lamina, made by the epithelial cells that sit on it.
+## answer_c
+Type V.
+## explanation_c
+Type V is not among the five collagens this module tabulates.
+## answer_d
+Type |.
+## explanation_d
+Type I is the bundled collagen of the connective tissue below; it is near the basement membrane but not in it.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name a collagen of the basement membrane from a set of four types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q45. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Type IV is the collagen of the basal lamina in the department book's own table, and none of the other three types offered — II, V or I — is a basement membrane component.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F3578FE9EF6F
+## title
+Collagen in the basal lamina:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Collagen in the basal lamina:
+## answer_a
+Type ١ fibers
+## explanation_a
+Wrong type and wrong form. Type I is bundled collagen in the connective tissue proper.
+## answer_b
+Type Ill fibers
+## explanation_b
+Type III fibres are the reticular lamina, the connective-tissue half of the basement membrane, not the basal lamina.
+## answer_c
+Type IV fibers
+## explanation_c
+The right type in the wrong form, and the option that catches most students. Type IV is correct, but in the basal lamina it is granular; it does not aggregate into fibres.
+## answer_d
+Type IV granules
+## explanation_d
+Correct, and keyed. Type IV, in granular form — the department book's table gives exactly this pairing.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Give both the type and the form of the collagen in the basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q33. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-7947C8C76DC9
+## title
+contain collagen fiber type III and ground substance:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+contain collagen fiber type III and ground substance:
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is type IV collagen and glycoproteins, and it is the epithelium's own product.
+## answer_b
+epithelial component
+## explanation_b
+"Epithelial component" is another name for the basal lamina, so this option is A restated — and it is wrong for the same reason.
+## answer_c
+reticular lamina
+## explanation_c
+Correct. The reticular lamina is the connective-tissue component: type III collagen, which is reticular fibre, together with ground substance.
+## answer_d
+a, b
+## explanation_d
+Pairs two names for the same wrong layer.
+## correct_answer
+C
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the layer of the basement membrane made of type III collagen and ground substance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q32. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9523DF540D16
+## title
+electron dense sheat formed of collagen IV, lamins:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+electron dense sheat formed of collagen IV, lamins:
+## answer_a
+basal lamina
+## explanation_a
+True as far as it goes — the basal lamina is the electron-dense sheet of type IV collagen and laminin — but the stem allows a combined option, and B is equally true.
+## answer_b
+epithelial component
+## explanation_b
+True as far as it goes. The epithelial component of the basement membrane is precisely the basal lamina.
+## answer_c
+reticular lamina
+## explanation_c
+The reticular lamina is the connective-tissue component and is type III collagen, so it is neither electron-dense in this sense nor made of type IV.
+## answer_d
+a, b
+## explanation_d
+Correct. A and B name one layer under two names, so both are right and the combined option is the answer.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Recognise that the basal lamina and the epithelial component of the basement membrane are one and the same layer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q31. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-555C548A5643
+## title
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## answer_a
+Type | collage
+## explanation_a
+Type I is bundled collagen of the connective tissue; it is what the anchoring fibrils tie the membrane down to, not the fibrils themselves.
+## answer_b
+Type Il collagen
+## explanation_b
+Type II is cartilage collagen and plays no part in a basement membrane.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres — type III — make the reticular lamina, which is a layer of the membrane rather than the tether that anchors it.
+## answer_d
+Type VII collagen
+## explanation_d
+Correct. Type VII collagen forms the anchoring fibrils.
+## correct_answer
+D
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Give the collagen type of the anchoring fibrils of the basement membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p6 q57. Manifest src_510c935c09a7e7cbff32.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book's collagen table names type VII as anchoring fibres in basement membranes, made by fibroblasts, and gives no other type that role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1694296DCC86
+## title
+both lamina of basement membrane attached to C. T by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+both lamina of basement membrane attached to C. T by:
+## answer_a
+collagen IV
+## explanation_a
+Type IV collagen is what the basal lamina is made of, not what fastens it down.
+## answer_b
+collagen III
+## explanation_b
+Type III collagen is the reticular lamina itself — one of the two laminae the stem is asking about, so it cannot be the attachment.
+## answer_c
+collagen VII
+## explanation_c
+True on its own: type VII collagen is the anchoring collagen. But the stem offers a combined option.
+## answer_d
+anchoring fibril
+## explanation_d
+True on its own: the anchoring fibril is the structure. C and D are the same thing named as a molecule and as a structure.
+## answer_e
+c, d
+## explanation_e
+Correct. C and D together — type VII collagen in the form of anchoring fibrils is what attaches the basement membrane to the connective tissue.
+## correct_answer
+E
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Name what attaches the basement membrane to the underlying connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q33. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-77166F36FB17
+## title
+Regarding the basement membrane, choose the correct statement:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the basement membrane, choose the correct statement:
+## answer_a
+Basal lamina has no collagen
+## explanation_a
+False on the central fact of the layer. The basal lamina is largely type IV collagen; saying it has none contradicts every account of it.
+## answer_b
+Reticular lamina is formed of reticular fibers and ground substance
+## explanation_b
+Correct, and keyed. The reticular lamina is the connective-tissue component — reticular fibres, which are type III collagen, plus ground substance.
+## answer_c
+It is best seen by Janus green
+## explanation_c
+Janus green is the vital stain for mitochondria. The basement membrane is shown with PAS or with silver, both of which act on its carbohydrate.
+## answer_d
+The anchoring fibers are represented by collagen type I
+## explanation_d
+The anchoring fibres are type VII, not type I. Type I is the bundled collagen of the connective tissue underneath.
+## correct_answer
+B
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the two laminae, their collagens and the stain that shows the membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q32. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A8A608330044
+## title
+Dense regular collagenous connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense regular collagenous connective tissue is present in:
+## answer_a
+Tendon
+## explanation_a
+Correct. A tendon transmits pull along one line, so its collagen bundles all run that way — the definition of regular.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, Wharton's jelly, which is ground substance rich in hyaluronic acid with few fibres.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue; it needs recoil, not tensile strength in one direction.
+## answer_d
+Capsule of organs
+## explanation_d
+A capsule is pulled on from every side, so its bundles interweave — that makes it dense irregular, not regular.
+## correct_answer
+A
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name a site of dense regular collagenous connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q45. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C2BD21AF6F4C
+## title
+Dense irregular collagenous connective tissue is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense irregular collagenous connective tissue is present in:
+## answer_a
+Tendon
+## explanation_a
+A tendon is the type example of the regular form: parallel bundles, one direction of pull.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, not dense at all.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue.
+## answer_d
+Capsule of organs
+## explanation_d
+Correct. An organ capsule is stressed from all directions, so its collagen bundles interweave in different planes — dense irregular.
+## correct_answer
+D
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Site
+## learning_objective
+Name a site of dense irregular collagenous connective tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q44. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6974F96199B4
+## title
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## answer_a
+It is highly vascular
+## explanation_a
+Dense connective tissue is comparatively poorly vascular; it is packed with fibre, and vessels have little room in it.
+## answer_b
+It is highly cellular
+## explanation_b
+Dense means few cells. Cellularity is a feature of loose areolar tissue, which holds every connective tissue cell type there is.
+## answer_c
+Its main fiber type is collagen
+## explanation_c
+Correct, and keyed. Collagen is the main fibre of dense white fibrous connective tissue in both its regular and irregular forms.
+## answer_d
+It has a large amount of ground substance
+## explanation_d
+Little ground substance, not a large amount. A large amount of ground substance describes mucoid connective tissue instead.
+## correct_answer
+C
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what dense irregular connective tissue is rich in and what it is poor in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q52. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-214A54D67321
+## title
+Dense regular C.T is of two types:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Dense regular C.T is of two types:
+## answer_a
+Collagen and elastic
+## explanation_a
+Correct. Dense regular tissue comes in a white fibrous form, whose parallel bundles are collagen and which makes tendons and ligaments, and a yellow elastic form, whose parallel fibres are elastin and which makes the ligamenta flava and the vocal ligament.
+## answer_b
+Collagen and reticular
+## explanation_b
+Reticular fibres never form a dense regular tissue; they make a loose anastomosing stroma, which is the opposite arrangement.
+## answer_c
+Elastic and reticular
+## explanation_c
+Pairs elastic with reticular and so drops collagen, which is the commoner of the two dense regular forms.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" is only defensible if A is wrong, and A is the department book's own division.
+## correct_answer
+A
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the two fibres that give dense regular connective tissue its two forms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q68. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E62142B7D9AE
+## title
+One of the following is true about fibroblasts:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true about fibroblasts:
+## answer_a
+Can differentiate to endothelial cells and smooth muscle cells
+## explanation_a
+That is the pericyte. The perivascular stem cell around a capillary divides into endothelium, fibroblasts and smooth muscle; the fibroblast is one of its products, not another stem cell.
+## answer_b
+Secrete collagen and elastic fibers
+## explanation_b
+Correct, and keyed. The fibroblast synthesises the connective tissue fibres — collagen, elastic and reticular — and the ground substance they lie in.
+## answer_c
+large cubical cells
+## explanation_c
+The active fibroblast is branched with long thin processes, and the inactive fibrocyte is spindle-shaped. Neither is large and cubical; cubical is an epithelial shape.
+## answer_d
+responsible for storage of fat
+## explanation_d
+Fat storage is the adipocyte's work. Both cells descend from the undifferentiated mesenchymal cell, which is why the two are confused.
+## correct_answer
+B
+## main_concept
+CON-FND-E15318FC4CE3A1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State what the fibroblast makes, and separate it from the pericyte and the fat cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q49. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-B5C7276AD19E
+## title
+One of the functions of undifferentiated mesenchymal cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of undifferentiated mesenchymal cells is:
+## answer_a
+Formation of collagen fibers
+## explanation_a
+Collagen is laid down by the fibroblast. The mesenchymal cell's contribution is to become that fibroblast.
+## answer_b
+Formation of blood cells
+## explanation_b
+Correct. In bone marrow the undifferentiated mesenchymal cell is the life-long source of the blood cells — the book's own example of why the cell stays undifferentiated into adult life.
+## answer_c
+Secretion of the intercellular matrix
+## explanation_c
+Ground substance, like fibre, is a fibroblast product.
+## answer_d
+Formation of elastic fibers
+## explanation_d
+Elastic fibres are made by fibroblasts, chondroblasts and smooth muscle cells; the stem cell makes none of them directly.
+## correct_answer
+B
+## main_concept
+CON-FND-6EC4DC6997F361
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the undifferentiated mesenchymal cell does, as against what the cells it becomes do.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q3. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the undifferentiated mesenchymal cell as a life-long source of cells in certain adult sites and names bone marrow, for blood cells, as one of them. The other three options are the work of the fibroblast the mesenchymal cell differentiates into, not of the stem cell itself.
+
+
+---
+
+# Item
+## id
+QM-101-C4CC53AB2F1F
+## title
+………….. prevent clotting, promote allergy
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+………….. prevent clotting, promote allergy
+## answer_a
+histamine
+## explanation_a
+Histamine is the mast cell's vasodilator and permeability agent — it gives the flare and the swelling of an allergic reaction, but it does not touch clotting.
+## answer_b
+Collagen
+## explanation_b
+Collagen is a fibre, not a secretion of this kind; it is here because the extraction filed this row under fibres for exactly that word.
+## answer_c
+heparin
+## explanation_c
+Correct. Heparin is the anticoagulant of the mast cell granule, and it is also what makes the granule metachromatic with toluidine blue.
+## answer_d
+sulfate
+## explanation_d
+"Sulfate" names a chemical group rather than a secretion; heparin is itself a sulphated glycosaminoglycan, which is why the group sounds familiar.
+## correct_answer
+C
+## main_concept
+CON-FND-E0C05B1FE6D280
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Blood
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the mast cell secretion that is an anticoagulant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q24. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B06B6065F3E1
+## title
+A young child was suffering from bleeding gums and non-healing wounds. This disease may…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A young child was suffering from bleeding gums and non-healing wounds. This disease may be due to the defective synthesis of:
+## answer_a
+Extracellular matrix
+## explanation_a
+The extracellular matrix is the whole ground substance and fibre together. The defect in scurvy is specific to one component of it, and naming the whole matrix does not identify it.
+## answer_b
+Collagen fibers
+## explanation_b
+Correct, and keyed. Vitamin C deficiency blocks collagen synthesis, and the wound that will not close and the gum that bleeds are collagen failing.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are type III collagen and are not the fibre of wound repair; scar tissue is type I.
+## answer_d
+Elastic fibers
+## explanation_d
+Elastic fibres are unaffected in scurvy. A student picks them because bleeding suggests vessels, and vessels suggest elasticity.
+## correct_answer
+B
+## main_concept
+CON-FND-46C9A4425362B0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the fibre whose defective synthesis gives bleeding gums and unhealed wounds.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q40. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-0C981E1A888F
+## title
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unheal…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unhealed wounds. It is diagnosed as scurvy which may be due to defective synthesis of:
+## answer_a
+Collagen molecules
+## explanation_a
+Correct. Scurvy is defective collagen synthesis, and this stem hands the student the diagnosis and asks only for the molecule.
+## answer_b
+Elastin molecules
+## explanation_b
+Elastin is unaffected. Its failure gives loss of recoil in arteries and skin, not bleeding gums.
+## answer_c
+Reticulin molecules
+## explanation_c
+Reticulin is type III collagen and is not the fibre of repair.
+## answer_d
+Glycoprotein molecules
+## explanation_d
+Glycoprotein is a component of ground substance and of the basal lamina; scurvy is a fibre disease, not a ground substance one.
+## correct_answer
+A
+## main_concept
+CON-FND-46C9A4425362B0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the molecule whose defective synthesis causes scurvy, when the diagnosis is given in the stem.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q10. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states directly that vitamin C deficiency — scurvy — is due to defective collagen synthesis, and none of the other three molecules is implicated in it.
+
+
+---
+
+# Item
+## id
+QM-101-B2CAC548AD3C
+## title
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan revealed a dilated & calcified segment_of abdominal aorta. After surgery the examination of this dilated part demonstrated loss of which of the following cellular components that contributed in development of this aneurysm:
+## answer_a
+Collagen I
+## explanation_a
+Collagen resists stretching but does not recoil, and in a degenerating aortic wall it is often increased rather than lost — it is the scarring, not the failure.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. The aorta's wall is packed with elastic laminae; when they are destroyed the vessel dilates and cannot spring back, which is what a CT scan shows as an aneurysm.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres support the cells of an organ's stroma; they carry no part of the pressure in a great vessel.
+## answer_d
+Smooth muscle
+## explanation_d
+Smooth muscle loss does contribute to a weak arterial wall, and this is the most defensible distractor — but the stem asks what was lost on examining the dilated part, and it is the elastic lamina whose destruction defines the lesion.
+## correct_answer
+B
+## main_concept
+CON-FND-6CCD045AEF0536
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the fibre whose loss allows an artery to dilate into an aneurysm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q3. Manifest src_7449943b97c0e18d37b0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. An aneurysm is a dilated arterial segment, and the aorta is yellow elastic connective tissue whose recoil comes from its elastic fibres; losing them lets the wall stretch and stay stretched. None of the other three components supplies recoil.
 
 
 ---
@@ -32672,6 +36172,2413 @@ Answer changed from the source's: None of the three printings of this question i
 
 # Item
 ## id
+QM-101-81BA0CFD3266
+## title
+One of the functions of superficial fascia is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of superficial fascia is:
+## answer_a
+Presence of skin muscles
+## explanation_a
+Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the book's example, and they are there precisely because the face has no deep fascia to hold them.
+## answer_b
+Formation of aponeurosis
+## explanation_b
+An aponeurosis — palmar, plantar — is deep fascia. Tempting because both layers are connective tissue sheets, but only the deep layer is dense enough to make one.
+## answer_c
+Formation of broad sheets
+## explanation_c
+Broad sheets around muscle groups are the first of the five forms deep fascia takes. Superficial fascia surrounds nothing; it lies flat under the skin.
+## answer_d
+Formation of interosseous membranes
+## explanation_d
+Interosseous membranes are deep fascia, spanning between two bones to separate muscle groups. Superficial fascia never reaches bone.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of superficial fascia from three that belong to deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q9. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8BAF5832C09D
+## title
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## answer_a
+It contains fat.
+## explanation_a
+Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+## answer_b
+It forms retinacula.
+## explanation_b
+Retinacula are localised transverse thickenings of *deep* fascia at the wrist and ankle. Picked by students who remember that a retinaculum is superficially placed, which is a statement about depth rather than about which layer it is made of.
+## answer_c
+It forms intermuscular septa.
+## explanation_c
+Intermuscular septa are deep fascia dipping between muscle groups. Superficial fascia has no septa; it does not descend between muscles at all.
+## answer_d
+It forms sheath around vessels.
+## explanation_d
+Sheaths around great vessels, such as the carotid sheath, are deep fascia. The superficial layer conducts vessels *to the skin* rather than wrapping the big ones, and that near-miss is what makes this the strongest distractor.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the one property that belongs to superficial rather than deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.
+
+
+---
+
+# Item
+## id
+QM-101-08E75F516311
+## title
+One of the functions of deep fascia is that it:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of deep fascia is that it:
+## answer_a
+Facilitates the movement of the skin
+## explanation_a
+Facilitating the movement of the skin over the structures beneath is a function of superficial fascia. Deep fascia is inelastic and anchors things rather than freeing them.
+## answer_b
+Prevents heat loss from the body
+## explanation_b
+Preventing heat loss is superficial fascia acting as a thermal insulator, and it does it with its fat. Deep fascia has no fat.
+## answer_c
+Contains many types of glands
+## explanation_c
+The glands — the mammary gland is the book's example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
+## answer_d
+Forms the interosseous membranes
+## explanation_d
+Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
+## correct_answer
+D
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of deep fascia from three that belong to superficial fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q10. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FD83330508B2
+## title
+The intermuscular septa and interosseous membranes:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The intermuscular septa and interosseous membranes:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+Surrounding the muscles of the limbs is what the broad sheets of deep fascia do — the first of its five forms, and the one the septa arise from. The septa are what dips inward from those sheets, not the sheets themselves.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+That is the retinaculum, printed here as a distractor because this leaf's four stems share one option block and each stem's answer is another stem's distractor.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Tough sheaths around big vessels are the carotid sheath and its like — the fifth form of deep fascia, not the septa.
+## correct_answer
+B
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q11. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4A55FDC3D1C8
+## title
+The retinacula:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The retinacula:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+The broad sheets of deep fascia surround the limb muscles. A retinaculum is a band across a joint, not a sleeve around a muscle group.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Separating muscle groups of different action is the work of the intermuscular septa, which is the answer to the neighbouring stem sharing this option block.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Fibrous sheaths around great vessels — the carotid sheath — are a different form of deep fascia. Both are "wrappings", which is what makes this option worth printing.
+## correct_answer
+C
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the retinacula to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q12. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1B51B209B1B5
+## title
+Regarding the placental (decidual) septa
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the placental (decidual) septa
+## answer_a
+They are composed of chorion frondosum
+## explanation_a
+Chorion frondosum is the fetal plate the septa run *towards*. A septum made of it would be growing down from the fetal side, which reverses the direction the book gives.
+## answer_b
+They are extensions from decidual plate
+## explanation_b
+Correct. The decidual septa are incomplete extensions from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast.
+## answer_c
+They are fixed to the chorionic plate
+## explanation_c
+The word the answer turns on is "incomplete". The septa stop short of the chorionic plate, which is why the intervillous spaces intercommunicate and why a cotyledon is a compartment rather than a sealed chamber.
+## answer_d
+They contain maternal blood vessels
+## explanation_d
+The department book describes the septum as a core of decidua basalis with a trophoblast covering and gives the maternal arterioles, venules and uterine glands to the decidual plate, not to the septa that rise from it. This is the hardest distractor here because the core really is maternal tissue.
+## correct_answer
+B
+## main_concept
+CON-DEV-D870770450E17D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Say what the placental septa are made of, where they run from, and how far they reach.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q59. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-16CBED799AD1
+## title
+One of the following is not true, regarding the placenta: (2023 - 2022) ad Ac a- Its fe…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not true, regarding the placenta: (2023 - 2022) ad Ac a- Its fetal part develops from chorion frondosum. y Ac em
+## answer_a
+Its fetal part develops from chorion frondosum.
+## explanation_a
+True, so not the answer. The fetal part of the placenta is the chorionic plate, which is the chorion frondosum — the part of the chorion whose tertiary villi were never allowed to degenerate.
+## answer_b
+Its maternal part develops from decidua capsularis.
+## explanation_b
+Correct, in that this is the untrue statement. The maternal part is the decidua *basalis*, the decidual plate lying between the conceptus and the myometrium; the decidua capsularis is the covering that is stretched over the sac and lost.
+## answer_c
+There is a barrier between fetal and maternal blood.
+## explanation_c
+True, so not the answer. The placental barrier separates fetal blood in the tertiary villi from maternal blood in the intervillous spaces, and the two never mix.
+## answer_d
+Has many hormonal functions.
+## explanation_d
+True, so not the answer. The placenta makes progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin, and its endocrine function is one of the six the book lists.
+## correct_answer
+B
+## main_concept
+CON-DEV-D870770450E17D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the false statement about the placenta among three true ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AB6D8D01EA41
+## title
+Placental barrier is the separation between (DEP BOOK) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Placental barrier is the separation between (DEP BOOK) em em em em em
+## answer_a
+Fetal and maternal surfaces of placenta
+## explanation_a
+Surfaces, not bloods. The fetal and maternal surfaces of the placenta are the two faces of the organ, several millimetres and a whole villous tree apart; the barrier is a membrane a few cells thick.
+## answer_b
+Chorionic and decidual plates of placenta
+## explanation_b
+The chorionic and decidual plates are the two structural halves of the placenta and the intervillous spaces lie between them. Again this names the anatomy of the organ rather than the membrane inside it.
+## answer_c
+Cytotrophoblastic shell and intervillous spaces
+## explanation_c
+The mark this copy carries. The cytotrophoblastic shell lines the decidual plate on the maternal side and is not part of the barrier at all; the barrier is what wraps each villus.
+## answer_d
+Fetal and maternal blood inside placenta. Ac ad
+## explanation_d
+Correct. The placental barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi — and that the two never mix is the single most important fact about the placenta.
+## correct_answer
+D
+## main_concept
+CON-DEV-A850218C437061
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Define the placental barrier by the two things it keeps apart.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The department-book copy marks C — the separation between the cytotrophoblastic shell and the intervillous spaces. The department book defines the placental barrier as the membrane "separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi", which is option D. The cytotrophoblastic shell is on the maternal side of the barrier and is no part of the definition.
+
+
+---
+
+# Item
+## id
+QM-101-EF9A1E7914CB
+## title
+One of the following is correct regarding the functions of placenta (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is correct regarding the functions of placenta (DEP BOOK)
+## answer_a
+It allows the passage of maternal antibodies
+## explanation_a
+Correct. Transmission of maternal antibodies to the fetal blood, from the fourteenth week, is one of the six functions the book lists, and it is why a newborn is protected for months against infections it has never met.
+## answer_b
+It prevents passage of gases. P
+## explanation_b
+The reverse of a placental function. Exchange of gases is second on the book's list; a placenta that prevented it would asphyxiate the fetus.
+## answer_c
+It doesn't produce progesterone hormone
+## explanation_c
+Progesterone is the first of the four placental hormones, and it is what maintains the endometrium of pregnancy after the corpus luteum stops.
+## answer_d
+It prevents the passage of all viruses y ad
+## explanation_d
+The mark this copy carries, and the dangerous one to learn. The barrier stops most viruses; the book names five that cross — HIV, poliomyelitis, rubella, cytomegalovirus and measles — and congenital infection is the whole subject built on that exception.
+## correct_answer
+A
+## main_concept
+CON-DEV-AB990D329EBEC2
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about the functions of the placenta.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The department-book copy marks D — that the placenta prevents the passage of all viruses. The department book says the opposite in the same chapter: the barrier prevents bacteria and most viruses "except HIV, poliomyelitis, rubella, cytomegalovirus and measles". Option A, the transmission of maternal antibodies, is on the book's own list of six placental functions, with the note that it begins at the fourteenth week and gives the fetus passive immunity.
+
+
+---
+
+# Item
+## id
+QM-101-4ADC5A61C607
+## title
+One of the following is not among the anomalies of placenta: (2023) y em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not among the anomalies of placenta: (2023) y em
+## answer_a
+Velamentous placenta
+## explanation_a
+A placental anomaly, under attachment of the umbilical cord: velamentous placenta is a cord attached to the placenta through the amniotic membrane.
+## answer_b
+Placenta accrete
+## explanation_b
+The mark this reprint carries, and a placental anomaly all the same — accreta is the first of the three infiltration anomalies, with increta and percreta.
+## answer_c
+Bipartate placenta. P
+## explanation_c
+A placental anomaly, under shape. Bipartite and tripartite — bilobed and trilobed — placentas are on the book's list.
+## answer_d
+Polyhydramnios. Vi
+## explanation_d
+Correct. Polyhydramnios is more than two litres of amniotic fluid at full term. It is an abnormality of the fluid, not of the placenta, and it is what a student picks last if they have learnt the six anomaly groups by their headings.
+## correct_answer
+D
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Reject the one option that is not a congenital anomaly of the placenta.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The reprint marks B, placenta accreta, which is on the department book's own list of placental anomalies under infiltration, alongside increta and percreta. The option that is not a placental anomaly is D: polyhydramnios is an excess of amniotic fluid at full term, listed in the chapter under the amniotic fluid with its own causes — maternal diabetes, oesophageal atresia, anencephaly — and not among the six groups of placental anomaly.
+
+
+---
+
+# Item
+## id
+QM-101-66B16B959AC9
+## title
+Thin and wide placenta is known as (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Thin and wide placenta is known as (DEP BOOK)
+## answer_a
+Placenta membrancacea.
+## explanation_a
+Correct. Placenta membranacea is the anomaly of diameter — a placenta thinner and wider than normal, spread over more of the uterine wall.
+## answer_b
+Placenta increta.
+## explanation_b
+Placenta increta is an anomaly of infiltration, not of diameter: the placenta grows into the myometrium. Its shape is unremarkable; what is wrong is how deeply it is rooted.
+## answer_c
+Velamentous placenta.
+## explanation_c
+Velamentous placenta is an anomaly of cord attachment, where the cord joins through the amniotic membrane rather than into the placental substance.
+## answer_d
+Accessory placenta.
+## explanation_d
+An accessory placenta is an anomaly of number — a separate extra lobe. It makes the placenta come in two pieces rather than one thin wide one.
+## correct_answer
+A
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the anomaly of placental diameter.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3863AE82F40A
+## title
+Marginal attachment of umbilical cord to the placenta is known as
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Marginal attachment of umbilical cord to the placenta is known as
+## answer_a
+Battle-door placenta
+## explanation_a
+Correct. Battledore placenta is attachment of the umbilical cord to the margin of the placenta rather than near its centre — named for the bat-and-shuttlecock game the shape resembles.
+## answer_b
+Velamentous placenta
+## explanation_b
+Velamentous placenta is the other cord-attachment anomaly, and the more dangerous: the cord ends outside the placenta and its vessels run through the amniotic membrane to reach it, unprotected by Wharton's jelly.
+## answer_c
+Placenta previa
+## explanation_c
+Placenta previa is an anomaly of position — implantation in the lower uterine segment — and has nothing to do with where the cord joins.
+## answer_d
+Placenta accrete
+## explanation_d
+Placenta accreta is an anomaly of infiltration, in which the placenta grows too deeply into the uterine wall and cannot separate at delivery.
+## correct_answer
+A
+## main_concept
+CON-DEV-3E918A4C74B56D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Name the anomaly in which the cord attaches at the placental margin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q63; Anatomy MCQ Book [2025] [first priority].pdf p96 q63. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-630192224FDA
+## title
+Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+## answer_a
+Formation of false knots.
+## explanation_a
+A false knot is a wider curve of an umbilical artery within the cord, and the department book says plainly that it causes no fetal stress. It is not a consequence of length and not a danger.
+## answer_b
+Early separation of placenta during delivery.
+## explanation_b
+Premature separation of the placenta during delivery is what a *short* cord causes: it is pulled taut as the fetus descends and drags the placenta with it.
+## answer_c
+Strangulation of the baby during delivery.
+## explanation_c
+Correct. A long cord may encircle the fetal neck or tie itself in a true knot, and the book calls both serious and life-threatening.
+## answer_d
+Adhesion between the fetus with the wall of uterus.
+## explanation_d
+Adhesion of the fetus to the uterine wall is prevented by the amniotic fluid, not by the cord, and is a consequence of too little fluid rather than of too much cord.
+## correct_answer
+C
+## main_concept
+CON-DEV-3E918A4C74B56D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the consequence of an abnormally long umbilical cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p130 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither copy of this question in the bank carries a key. The department book states that a long cord "may encircle the fetal neck or form a true knot" and calls both serious life-threatening conditions — which is option C. Options B and D are the book's consequences of a *short* cord, and option A is the false knot it explicitly says causes no fetal stress.
+
+
+---
+
+# Item
+## id
+QM-101-5949EC91B867
+## title
+Physiological hernia occurs when a loop of intestine is present in
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Physiological hernia occurs when a loop of intestine is present in
+## answer_a
+Abdominal cavity
+## explanation_a
+The abdominal cavity is where the intestine is supposed to be, and where it returns to by the third month. A loop there is not herniated at all.
+## answer_b
+Primitive umbilical ring
+## explanation_b
+The ring is the defect in the abdominal wall the loop passes *through*, not the space it comes to lie in. This is the closest wrong answer and the one the books pair with the ring question.
+## answer_c
+Primitive umbilical cord
+## explanation_c
+Correct. Physiological umbilical hernia is the intestinal loop lying in the primitive umbilical cord, from the sixth week, because the abdominal cavity is too small for the growing gut.
+## answer_d
+Definitive umbilical cord
+## explanation_d
+The definitive umbilical cord is what forms *after* the intestine has returned. A loop still in the cord at that stage is an omphalocele — a congenital umbilical hernia, and an anomaly rather than a normal stage.
+## correct_answer
+C
+## main_concept
+CON-DEV-38D0DC288011E0
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Say where the intestinal loop lies in physiological umbilical hernia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q71. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EDB06AAA5B05
+## title
+Regarding the primitive umbilical ring
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the primitive umbilical ring
+## answer_a
+It is surrounded with amniochorionic membrane
+## explanation_a
+The amniochorionic membrane is formed later, at the beginning of the third month, when the expanding amnion meets the chorion. What surrounds the ring in the fourth week is amnion, at the amnio-ectodermal junction.
+## answer_b
+It contains definitive yolk sac
+## explanation_b
+The definitive — secondary — yolk sac lies in the primitive umbilical *cord*, once the amnion has ensheathed the structures passing through the ring. The ring itself transmits the duct, not the sac.
+## answer_c
+It contains vitelline duct
+## explanation_c
+Correct. The contents of the primitive umbilical ring are the allantois and umbilical vessels inside the connecting stalk, together with the vitelline duct and its vessels.
+## answer_d
+It contains loops of intestine
+## explanation_d
+The intestinal loops herniate at the sixth week, and into the primitive umbilical cord rather than the ring. Reading the ring and the cord as one structure is what this set of questions exists to catch.
+## correct_answer
+C
+## main_concept
+CON-DEV-38D0DC288011E0
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the contents of the primitive umbilical ring.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q70. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EDA5B8D640AB
+## title
+Definitive yolk sac is connected with midgut through
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Definitive yolk sac is connected with midgut through
+## answer_a
+Connecting stalk
+## explanation_a
+The connecting stalk joins the chorion to the caudal end of the embryonic disc and carries the allantois and the umbilical vessels. It reaches the disc, not the gut.
+## answer_b
+Vitelline duct
+## explanation_b
+Correct. Folding compresses the secondary yolk sac into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac left outside the folded embryo.
+## answer_c
+Allantois
+## explanation_c
+The allantois is a diverticulum from the caudal wall of the same yolk sac, running into the connecting stalk — a second outgrowth of the sac rather than its connection to the gut.
+## answer_d
+Hindgut
+## explanation_d
+The hindgut lies in the tail fold and has no connection to the yolk sac. It is the midgut, between the lateral folds, that keeps one.
+## correct_answer
+B
+## main_concept
+CON-DEV-A8E5BC3A3DC3DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure connecting the definitive yolk sac to the midgut.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q57; Anatomy MCQ Book [2025] [first priority].pdf p95 q57. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-67C7596BC999
+## title
+Allantois is a dorsal extension from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Allantois is a dorsal extension from
+## answer_a
+Secondary yolk sac
+## explanation_a
+Correct. The allantois is a diverticulum from the secondary yolk sac — the department book says from its caudal wall, where this question says dorsal — extending into the connecting stalk.
+## answer_b
+Amniotic cavity
+## explanation_b
+The amniotic cavity lies on the other side of the embryonic disc entirely, and nothing buds from it: it is a space that expands rather than a wall that grows out.
+## answer_c
+Chorionic cavity
+## explanation_c
+The chorionic cavity is what the connecting stalk crosses. The allantois runs inside that stalk, but it comes from the yolk sac at one end rather than from the cavity around it.
+## answer_d
+Primary yolk sac
+## explanation_d
+The primary yolk sac is gone by the thirteenth day, replaced by the secondary one, and the allantois forms after that replacement. One stage too early.
+## correct_answer
+A
+## main_concept
+CON-DEV-A8E5BC3A3DC3DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure the allantois arises from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q75. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8ADB7E7D6EAA
+## title
+Which of the following Is responsible for bladder development? (2024)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following Is responsible for bladder development? (2024)
+## answer_a
+Allantois
+## explanation_a
+Correct. The department book gives the apex of the urinary bladder to the proximal part of the allantois, and the allantois is a diverticulum of the secondary yolk sac — which is why bladder development appears in a chapter about fetal membranes at all.
+## answer_b
+Yolk sac
+## explanation_b
+The yolk sac is the allantois's parent and does five other jobs, but the book names the allantois specifically for the bladder. Choosing the sac over its diverticulum is one step too general.
+## answer_c
+Amniotic ﬂuid
+## explanation_c
+Amniotic fluid accumulates fetal urine from the fifth month once the bladder works. It is downstream of bladder development, not a cause of it.
+## answer_d
+Primordial gut
+## explanation_d
+The strongest distractor, and not empty: the department book elsewhere gives most of the urinary bladder and urethra to endoderm, through the primordial gut. The sentence this question is written from names the allantois, and the tension between the book's two chapters is recorded on the concept.
+## correct_answer
+A
+## main_concept
+CON-DEV-A8E5BC3A3DC3DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Name the structure the department book makes responsible for the bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 row carries no key. The department book's Fetal Membranes chapter lists among the functions of the yolk sac "formation of the apex of the urinary bladder from the proximal part of the allantois", which is option A and is the sentence this question is drawn from. Its Embryonic Period chapter separately gives most of the bladder's lining epithelium to endoderm, and that tension is recorded on `yolk-sac-development-and-functions` rather than resolved here.
+
+
+---
+
+# Item
+## id
+QM-101-F4801456F8B4
+## title
+Heuser's membrane lines the - a- Definitive yolk sac
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Heuser's membrane lines the - a- Definitive yolk sac
+## answer_a
+Definitive yolk sac.
+## explanation_a
+The definitive yolk sac is the secondary one, lined by the new hypoblast-derived cells that grow over Heuser's membrane on the thirteenth day. Heuser's membrane is under that lining, not it.
+## answer_b
+Primary yolk sac.
+## explanation_b
+Correct. Heuser's membrane is flat cells derived from the hypoblast which line the blastocele on the ninth day, converting it into the primary yolk sac.
+## answer_c
+Secondary yolk sac.
+## explanation_c
+One stage late. The secondary yolk sac is formed when fresh endodermal cells re-line Heuser's membrane and a large part of the sac is pinched off.
+## answer_d
+Vitelline duct.
+## explanation_d
+The vitelline duct is what is left of the secondary yolk sac after folding compresses it — several stages downstream, and a duct rather than a membrane.
+## correct_answer
+B
+## main_concept
+CON-DEV-A8E5BC3A3DC3DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which yolk sac Heuser's membrane lines.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q74. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B1B215F36F3D
+## title
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## answer_a
+Formation of secondary yolk sac
+## explanation_a
+The secondary yolk sac is made by new hypoblast-derived cells lining Heuser's membrane on the thirteenth day, before the amniotic cavity has expanded appreciably at all.
+## answer_b
+Formation of connecting stalk
+## explanation_b
+The connecting stalk is the part of the extra-embryonic mesoderm that the chorionic cavity does not split. Expansion of the amnion moves it — sweeping it cranially and ventrally during folding — but does not make it.
+## answer_c
+Formation of amniochorionic membrane
+## explanation_c
+Correct. The expanding amnion meets the chorion at the beginning of the third month, forming the amniochorionic membrane and obliterating the chorionic cavity between them.
+## answer_d
+Formation of neural tube
+## explanation_d
+The neural tube is formed by fusion of the neural folds in the third and fourth weeks, driven by the notochord's induction of the ectoderm, and owes nothing to the amniotic cavity.
+## correct_answer
+C
+## main_concept
+CON-DEV-099A256CFDD298
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name a result of expansion of the amniotic cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q66. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4A7D091D7A26
+## title
+Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP …
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP BOOK)
+## answer_a
+It fuses with the decidua capsularis obliterating the uterine cavity.
+## explanation_a
+It is the decidua *capsularis* that fuses with the parietalis and obliterates the uterine cavity. The basalis is deep to the conceptus and never meets either of them.
+## answer_b
+It forms the maternal part of the placenta
+## explanation_b
+Correct. The decidua basalis is the decidual plate, and it persists as the maternal part of the placenta — the only one of the three parts with a future.
+## answer_c
+It covers the embryo
+## explanation_c
+Covering the embryo, and separating it from the uterine cavity, is the decidua capsularis. Basalis is beneath the conceptus, between it and the myometrium.
+## answer_d
+It degenerates at last.
+## explanation_d
+Degenerating last is the decidua parietalis, which lines the rest of the cavity and is expelled after delivery. The books ask that fact as its own question on the facing page.
+## correct_answer
+B
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the fate of the decidua basalis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2018 reprint carries no key. The department book states that "the decidua basalis (decidual plate) persists to form the maternal part of the placenta", which is option B, and gives the other three statements to the capsularis and the parietalis.
+
+
+---
+
+# Item
+## id
+QM-101-DA1099913357
+## title
+Regarding the decidua parietalis, choose the correct statement: (2018 – DEP BOOK) em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the decidua parietalis, choose the correct statement: (2018 – DEP BOOK) em
+## answer_a
+It lies between the implanted embryo and myometrium
+## explanation_a
+Between the implanted embryo and the myometrium is the decidua basalis, which becomes the maternal part of the placenta.
+## answer_b
+It covers the embryo separating it from the uterine cavity
+## explanation_b
+Covering the embryo and separating it from the uterine cavity is the decidua capsularis, which the growing sac stretches until it fuses with the parietalis.
+## answer_c
+It persists as the maternal part of the placenta
+## explanation_c
+Persisting as the maternal part of the placenta is again the basalis. Two of the four options are the basalis, which is what makes this question harder than it looks.
+## answer_d
+It degenerates at last y
+## explanation_d
+Correct. The decidua parietalis lines the rest of the uterine cavity, fuses with the capsularis to obliterate that cavity, and is expelled with the membranes after delivery — so of the three parts it is the one that degenerates last.
+## correct_answer
+D
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the position and fate of the decidua parietalis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-02127BAD2F2E
+## title
+Regarding monozygotic twin (DEP BOOK - 2024)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding monozygotic twin (DEP BOOK - 2024)
+## answer_a
+Is the commonest type.
+## explanation_a
+Dizygotic twinning is the commoner kind. Monozygotic twins are the ones people notice, which is why this option catches so many.
+## answer_b
+Twins are always of same sex.
+## explanation_b
+Correct. Monozygotic twins come from one fertilised ovum, so they carry one genome and are necessarily of the same sex.
+## answer_c
+Are non-identical in shape.
+## explanation_c
+Non-identical is the dizygotic answer. Monozygotic twins are identical in appearance — that is what having one genome between two people means.
+## answer_d
+Are developed by fertilization of two ova Birth defects
+## explanation_d
+Development from two ova fertilised by two sperms is the definition of *dizygotic* twinning. Monozygotic means one zygote, and the prefix is the whole answer.
+## correct_answer
+B
+## main_concept
+CON-DEV-C98FF33C1B52A1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give what follows from monozygotic twins sharing one zygote.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p132 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This department-book copy carries no key. The 2025 question book's copy of the same question, `regarding-monozygotic-twin-352aa255`, is keyed to B — twins are always of the same sex — and that copy is excluded here only because it lost its fourth option and falls below the four-option contract. The answer is therefore the source's and not an author's: monozygotic twins arise from one fertilised ovum and share one genome, so they cannot differ in sex.
+
+
+---
+
+# Item
+## id
+QM-101-33DBAE30508C
+## title
+Regarding the dizygotic twin
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the dizygotic twin
+## answer_a
+Are non-identical in shape
+## explanation_a
+Correct. Dizygotic twins come from two ova and two sperms, so they are non-identical — ordinary siblings who happen to share a pregnancy.
+## answer_b
+Always of same sex
+## explanation_b
+Always of the same sex is the monozygotic answer, and it is the option the department book keys on the monozygotic version of this question. Dizygotic twins may be of either sex in any combination.
+## answer_c
+Has a common amnion
+## explanation_c
+Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in monozygotic twinning, and only when the split comes late.
+## answer_d
+Has a common chorion
+## explanation_d
+A shared chorion likewise belongs to monozygotic twinning. Two separate implantations give two chorions, though two placentas lying side by side may fuse and look like one.
+## correct_answer
+A
+## main_concept
+CON-DEV-C98FF33C1B52A1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give what follows from dizygotic twins arising from two ova.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p99 q82. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The row carries no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically no more alike than any two siblings — option A. The remaining three options are all consequences of a shared genome or a shared conceptus and belong to the monozygotic side of the same pair of questions; the department book prints and keys the monozygotic copy to "twins are always of same sex", which is the mirror of A.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8D1966340DFF
+## title
+Neurenteric canal is the communication between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neurenteric canal is the communication between
+## answer_a
+Amniotic and chorionic cavities
+## explanation_a
+The chorionic cavity is outside the embryonic disc altogether, on the far side of the extra-embryonic mesoderm. Nothing inside the disc opens into it.
+## answer_b
+Amniotic and yolk sac cavities
+## explanation_b
+Correct. Degeneration of the floor of the notochordal canal, with the endoderm fused to it, briefly joins the amniotic cavity above the disc to the yolk sac below it.
+## answer_c
+Amniotic and uterine cavities
+## explanation_c
+The uterine cavity is maternal, and by this stage it is separated from the conceptus by the whole thickness of the decidua capsularis. Nothing embryonic communicates with it.
+## answer_d
+Yolk sac and chorionic cavities
+## explanation_d
+Both of these lie below or outside the disc, so a canal between them would not have to pass through it at all — and the point of the neurenteric canal is that it passes right through, which is why it is temporary.
+## correct_answer
+B
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the two cavities the neurenteric canal joins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F8E98415D92C
+## title
+One of the following is an event of the 8th day of pregnancy (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an event of the 8th day of pregnancy (DEP BOOK)
+## answer_a
+Formation of hypoblast
+## explanation_a
+Correct. On the eighth day the embryoblast cells facing the blastocele become cuboidal and form the hypoblast, and the amniotic cavity appears in the rest of the inner cell mass.
+## answer_b
+Formation of primary yolk sac. P
+## explanation_b
+The primary yolk sac forms on the ninth day, when Heuser's membrane lines the blastocele. It is the answer to the neighbouring question, printed with the same four options.
+## answer_c
+Formation of extraembryonic mesoderm
+## explanation_c
+Extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it cannot come before the yolk sac that produces it.
+## answer_d
+Formation of primary chorionic villi. y ad
+## explanation_d
+The primary chorionic villi begin at the end of the second week, after the chorionic vesicle exists on the thirteenth day. They are the last event in the diary.
+## correct_answer
+A
+## main_concept
+CON-DEV-7B01D26174F52B
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Assign an event of the second week to the eighth day.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E194C4122A53
+## title
+Chorionic plate . a- Is the chorion leave
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Chorionic plate . a- Is the chorion leave
+## answer_a
+Is the chorion leave.
+## explanation_a
+Chorion leave is the smooth part, whose tertiary villi degenerate and which fuses with the deciduae capsularis and parietalis. It is what the chorionic plate is *not*.
+## answer_b
+Is the chorion frondosum.
+## explanation_b
+Correct. The chorionic plate is the chorion frondosum — the part carrying well-developed tertiary villi, in contact with the decidua basalis, which persists as the fetal part of the placenta.
+## answer_c
+Is the decidua basalis.
+## explanation_c
+Decidua basalis is the maternal plate, on the other side of the intervillous spaces. The two plates face each other and the question turns on knowing which is which.
+## answer_d
+Is the decidua capsularis.
+## explanation_d
+Decidua capsularis covers the conceptus on the side facing the uterine cavity — the side the chorion leave lies against, and the opposite pole of the placenta from the chorionic plate.
+## correct_answer
+B
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say which part of the chorion the chorionic plate is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q29. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-251CDA234AC1
+## title
+Chorionic vesicle is formed at the (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Chorionic vesicle is formed at the (DEP BOOK)
+## answer_a
+10th day of pregnancy.
+## explanation_a
+On the tenth day the blastocyst has only just been completely embedded and the syncytiotrophoblast is in its lacunar stage. There is no extra-embryonic mesoderm yet, let alone a cavity in it.
+## answer_b
+11th day of pregnancy.
+## explanation_b
+The eleventh day completes implantation and fills the lacunae with maternal blood, and the extra-embryonic mesoderm first appears. Its spaces are still multiple and separate.
+## answer_c
+8th day of pregnancy.
+## explanation_c
+The eighth day belongs to the hypoblast and the amniotic cavity, inside the inner cell mass. The chorion does not exist in any form.
+## answer_d
+13thday of the pregnancy.
+## explanation_d
+Correct. On the thirteenth day the separate spaces of the extra-embryonic coelom run together into one chorionic cavity, and the chorionic vesicle — with its three-layered wall — is what results.
+## correct_answer
+D
+## main_concept
+CON-DEV-0CE08006F7A7A7
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Give the day the chorionic vesicle is formed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither copy of this question in the bank carries a key. The department book's account of the thirteenth gestational day states that "spaces of the extra-embryonic coelom communicate to form a single chorionic cavity", which is when the chorionic vesicle exists — option D.
+
+
+---
+
+# Item
+## id
+QM-101-54D9CC083DF5
+## title
+Chorionic villi are considered as secondary chorionic villi when they: (2023 - 2022) ad…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Chorionic villi are considered as secondary chorionic villi when they: (2023 - 2022) ad Ac a- Contact the decidua basalis y Ac
+## answer_a
+Contact the decidua basalis
+## explanation_a
+Contact with the decidua basalis is what distinguishes the stem or anchoring branch of a *tertiary* villus from its free branches. It says nothing about which of the three stages a villus has reached.
+## answer_b
+Are covered by syncytiotrophoblast
+## explanation_b
+The mark this reprint carries, and true of every chorionic villus from the primary stage onwards — the syncytiotrophoblast is the outer covering throughout. An option true of all three stages cannot define one of them.
+## answer_c
+Develop a mesenchymal core
+## explanation_c
+Correct. A primary villus becomes secondary when somatic extra-embryonic mesoderm grows into its cytotrophoblast core, at the middle of the third week.
+## answer_d
+Give rise to branch villi
+## explanation_d
+Branch — free or floating — villi arise from the stem villi of the *tertiary* stage, once vessels have formed. That is one stage further on.
+## correct_answer
+C
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the change that promotes a primary villus to a secondary one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: This reprint of the 2023 and 2022 sittings marks B, that the villi are covered by syncytiotrophoblast — which is true of a primary villus as well and so cannot be what makes one secondary. The department book states that secondary villi form "when somatic mesoderm is incorporated into the core", which is option C.
+
+
+---
+
+# Item
+## id
 QM-101-2BAB71EC9F7F
 ## title
 Fetal period starts at the beginning of
@@ -44628,6 +50535,670 @@ Answer changed from the source's: The source printed no key. The ulnar nerve gro
 
 # Item
 ## id
+QM-101-D81B9F3F35BD
+## title
+Anatomical position is: (DEP BOOK). Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anatomical position is: (DEP BOOK). Vi
+## answer_a
+A term used to refer to the body facing forwards and sitting down.
+## explanation_a
+Sitting is not the reference. A position that changes with the chair could not be a reference for describing anything; the anatomical position is standing, and it is fixed.
+## answer_b
+The position in which the body Is lying down with feet parallel and arms by the sides.
+## explanation_b
+Lying down with the arms at the sides is the supine position, which the book names separately. It is a clinical posture, not the reference posture.
+## answer_c
+The position in which the body is erect, facing front with feet parallel and arms hanging at the sides with the palms facing forwards.
+## explanation_c
+Correct, and complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
+## answer_d
+The position in which the body is erect, facing forward with feet parallel and arms hanging at the sides with palms facing backwards.
+## explanation_d
+Identical to C except that the palms face backwards — which is where they naturally hang, and therefore the option a student who has never noticed the detail will pick. In the anatomical position the forearms are supinated so the palms face forwards and the thumbs point laterally.
+## correct_answer
+C
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Pick the full statement of the anatomical erect position from four near-identical postures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The identical row `anatomical-position-is-ebd3fee8`, asked twice, is keyed C — and this is the only copy in which C and D are printed in full, so it is the only copy in which the key can be acted on at all.
+
+
+---
+
+# Item
+## id
+QM-101-4CB595203971
+## title
+The following statement describes the anatomical position:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statement describes the anatomical position:
+## answer_a
+The eyes are looking backwards
+## explanation_a
+Reversed. The eyes look forwards; a body facing one way with the eyes looking the other is not a posture anyone could hold, which is what makes this the easiest option to eliminate.
+## answer_b
+The upper limbs are hanging by the sides
+## explanation_b
+Correct. The upper limbs hang by the sides — the only one of the four statements the book gives as printed.
+## answer_c
+The palms are facing backwards
+## explanation_c
+Reversed, and the commonest error in this leaf. The palms face forwards, not backwards; this is the one element of the position that is not the way a body naturally stands.
+## answer_d
+The thumbs are directed medially
+## explanation_d
+Reversed. The thumbs are directed laterally, which follows from the palms facing forwards. A student who put the palms backwards will put the thumbs medially too, so the two errors travel together.
+## correct_answer
+B
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify the one statement about the anatomical position that is true, given three that invert a detail of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p2 q1. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CC514FE115D
+## title
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## answer_a
+Median plane
+## explanation_a
+Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
+## answer_b
+Coronal plane
+## explanation_b
+The coronal plane is vertical too, which is why it is picked. It divides the body into anterior and posterior parts, not right and left.
+## answer_c
+Paramedian plane
+## explanation_c
+The trap the word "equal" is in the stem for. The paramedian plane is parallel to the median plane and near it, so it also gives a right and a left part — unequal ones.
+## answer_d
+Horizontal plane. Vi P ad
+## explanation_d
+The horizontal plane cuts across the body into an upper and a lower part. It divides nothing into right and left.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that divides the body into equal right and left halves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `the-plane-which-divides-the-body-into-2-equal-halves-right-a-8f461c93` is keyed A, and A is what the department book states: the median (sagittal) plane passes in the midline and gives equal right and left halves.
+
+
+---
+
+# Item
+## id
+QM-101-120730AF9092
+## title
+A plane which separates the body into an anterior and posterior part is called a: (2024…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A plane which separates the body into an anterior and posterior part is called a: (2024). y y
+## answer_a
+Median plane.
+## explanation_a
+The median plane is vertical like the coronal, but it separates right from left.
+## answer_b
+Sagittal plane.
+## explanation_b
+The book gives "sagittal" as the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
+## answer_c
+Horizontal plane.
+## explanation_c
+The horizontal plane gives an upper and a lower part. A student picks it when reading "separates the body into two parts" and stopping there.
+## answer_d
+Coronal plane.
+## explanation_d
+Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that separates the body into an anterior and a posterior part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book defines the coronal (frontal) plane as the one cutting the body vertically into an anterior part towards the front and a posterior part towards the back, so D is the only option that answers the stem.
+
+
+---
+
+# Item
+## id
+QM-101-543988846157
+## title
+Which of the following is true about the coronal plane?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true about the coronal plane?
+## answer_a
+It is a horizontal plane
+## explanation_a
+The coronal plane is vertical, not horizontal. This option and C are the same error stated twice, which is a sign that neither is the answer.
+## answer_b
+It divides the body into anterior and posterior halves
+## explanation_b
+Correct, subject to the book's wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The department book says "parts"; only a plane through the exact mid-thickness of the body would give halves.
+## answer_c
+It cuts the body into upper and lower halves
+## explanation_c
+Upper and lower is the horizontal (transverse) plane. Picked by students who remember that the coronal plane is a cross-section of some kind without remembering which way it faces.
+## answer_d
+It is a vertical plane that divides the body into 2 equal right and left halves
+## explanation_d
+A correct definition of the median plane, offered under the coronal plane's name. Both are vertical, which is what makes the swap tempting.
+## correct_answer
+B
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Say both what the coronal plane cuts and which way it runs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p2 q4. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only true statement: the coronal plane divides the body into an anterior and a posterior part. The book says "parts" rather than "halves", and the item's wording is looser than the book's, but no other option is defensible — A and C describe the horizontal plane and D the median.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6AF0770CC61F
+## title
+The anatomical term that means "away from the median plane" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "away from the median plane" is:
+## answer_a
+Lateral
+## explanation_a
+Correct. Lateral is away from the median plane; medial is towards it.
+## answer_b
+Medial
+## explanation_b
+The exact opposite, and the option a student picks by matching the words "median" and "medial" rather than reading the direction.
+## answer_c
+Distal
+## explanation_c
+Distal is away from the root of the limb, not away from the midline. Both mean "further out", which is why the two pairs are confused; they measure from different reference points.
+## answer_d
+Proximal
+## explanation_d
+Proximal is nearer the root of the limb — the wrong axis and the wrong direction at once.
+## correct_answer
+A
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position away from the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p2 q5. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F377B3580666
+## title
+The anatomical term that means "nearer to the root of the limb" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "nearer to the root of the limb" is:
+## answer_a
+Lateral
+## explanation_a
+Lateral is measured from the median plane of the body, not along the limb.
+## answer_b
+Medial
+## explanation_b
+Medial is the other half of that same pair, and belongs to the trunk axis rather than the limb axis.
+## answer_c
+Distal
+## explanation_c
+The exact opposite: distal is away from the root of the limb. A student who reads only "root" and answers by feel takes this half the time.
+## answer_d
+Proximal
+## explanation_d
+Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
+## correct_answer
+D
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the root of the limb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q6. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2092A939DF82
+## title
+Near to the median plane is: (DEP BOOK). em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Near to the median plane is: (DEP BOOK). em em
+## answer_a
+Lateral
+## explanation_a
+Lateral is the opposite — away from the median plane.
+## answer_b
+Proximal
+## explanation_b
+Proximal is measured along a limb, from its root, not from the midline of the body.
+## answer_c
+Medial
+## explanation_c
+Correct, and the override. Medial is nearer to the median plane; median itself is exactly in the midline.
+## answer_d
+Inferior
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.
+## correct_answer
+C
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Inferior", which cannot stand: inferior means lower, and has nothing to do with the median plane. The department book's own table of terms of position gives medial as "nearer the median plane", so the answer is C. The extractor appears to have read a page mark rather than a key.
+
+
+---
+
+# Item
+## id
 QM-101-CBBE021ADCBF
 ## title
 The radial collateral ligament, choose the correct answer:
@@ -46282,6 +52853,172 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-AF05A432D22C
+## title
+The right lymphatic duct drains:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The right lymphatic duct drains:
+## answer_a
+The whole body below the diaphragm
+## explanation_a
+The whole body below the diaphragm drains to the thoracic duct, both sides of it. This is the option that catches a student who has divided the body into a right half and a left half.
+## answer_b
+The right lower limb
+## explanation_b
+The right lower limb is below the diaphragm and therefore thoracic duct territory. Its being on the right side is exactly the resemblance that makes this wrong.
+## answer_c
+The right upper limb
+## explanation_c
+Correct. The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.
+## answer_d
+The right half of the abdomen
+## explanation_d
+The right half of the abdomen is below the diaphragm, so it too goes to the thoracic duct. Three of the four options are on the right side of the body, which is what makes the question a test of the diaphragm rather than of the midline.
+## correct_answer
+C
+## main_concept
+CON-MSK-BF3670E27D6F12
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## topic
+Basis
+## subtopic
+Lymphatic system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State what the right lymphatic duct drains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p8 q48. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-DF6FEA79E991
+## title
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## answer_a
+Afferent vessels carry lymph away from lymph nodes.
+## explanation_a
+Reversed. Afferent vessels carry lymph *to* the node, opening into its periphery at the convex border; it is the efferent vessels, leaving the hilum, that carry it away. The prefixes are the whole distinction and they are easy to swap under time pressure.
+## answer_b
+Right bronchomediastinal lymph trunk carry lymph from right side thorax and upper surface of the liver left lobe.
+## explanation_b
+The right bronchomediastinal trunk is not described in this chapter, which stops at the two great ducts in the root of the neck. An option naming a structure the course does not teach cannot be the answer a first-year examiner intends, and the detail it adds about the left lobe of the liver is there to look authoritative.
+## answer_c
+End blindly in tissue spaces and contain wide pores but do not have valves.
+## explanation_c
+Half of this is the chapter's own wording — lymph vessels do end blindly in the tissue spaces and do have wide pores — and the last four words reverse it. They have many valves, which is what makes lymph flow in one direction. A statement that is three-quarters true is the hardest kind of distractor.
+## answer_d
+Absent in brain, spinal cord, bone marrow and avascular structures.
+## explanation_d
+Correct, and the override. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.
+## correct_answer
+D
+## main_concept
+CON-MSK-8EFC3649B7898F
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## topic
+Lymphatic system
+## subtopic
+Lymphatic system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the true statement about lymph vessels among three that invert a stated character.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p15 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the department chapter's own list, word for word — lymph vessels are absent in brain and spinal cord, bone marrow and avascular structures such as cartilage, cornea and hair. A and C each invert a character the chapter states, and B concerns a trunk the chapter never describes.
 
 
 ---
@@ -48539,6 +55276,338 @@ Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative A
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Latissimus dorsi, trapezius and the medial border of the scapula are its three boundaries and rhomboid major is its floor; teres major belongs to the axillary triangular spaces and is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-6D0265F28ED7
+## title
+The skeletal muscles are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The skeletal muscles are:
+## answer_a
+Involuntary
+## explanation_a
+Involuntary control belongs to smooth and cardiac muscle. Skeletal muscle is the voluntary one, supplied by somatic nerves.
+## answer_b
+Present in the heart
+## explanation_b
+The muscle of the heart is cardiac muscle — striated like skeletal muscle, which is why students who go by appearance put them together, but involuntary and autonomically supplied.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+The wall of a blood vessel holds smooth muscle.
+## answer_d
+Attached to the bones
+## explanation_d
+Correct. Skeletal muscle is defined by its attachment to the skeleton, and it is the only one of the three with that attachment.
+## correct_answer
+D
+## main_concept
+CON-MSK-229AAD0C8626CF
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Basis
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the property that belongs to skeletal and not to smooth or cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q37; Anatomy MCQ Book [2025] [first priority].pdf p7 q37. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EE5200A054DD
+## title
+The smooth muscles are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The smooth muscles are:
+## answer_a
+Voluntary
+## explanation_a
+Smooth muscle is involuntary. Voluntary control is skeletal muscle, and this option is the exact inversion the paired question about skeletal muscle uses.
+## answer_b
+Present in the heart
+## explanation_b
+The heart is cardiac muscle. It is involuntary like smooth muscle, so a student who has learnt only "involuntary means smooth" takes this one — the striations are what separate them.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+Correct. Smooth muscle is in the wall of blood vessels and of the viscera, has no striations, and is supplied by autonomic nerves.
+## answer_d
+Attached to the bones
+## explanation_d
+Attachment to bone is skeletal muscle.
+## correct_answer
+C
+## main_concept
+CON-MSK-229AAD0C8626CF
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Basis
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the site that belongs to smooth and not to skeletal or cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q38; Anatomy MCQ Book [2025] [first priority].pdf p7 q38. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AE2320D78167
+## title
+Deltoid muscle fibers are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Deltoid muscle fibers are:
+## answer_a
+Parallel muscle fibers
+## explanation_a
+Parallel or strap-like fibres run the whole length of the muscle, as in sartorius. Deltoid's fibres are short and set obliquely, which is why it is powerful over a short range rather than long-travelled.
+## answer_b
+Unipennate muscle fibers
+## explanation_b
+A unipennate muscle has its fibres on one side of a tendon, like the barbs on one edge of a feather — flexor pollicis longus is the example.
+## answer_c
+Multipennate muscle fibers
+## explanation_c
+Correct. Deltoid is the department book's example of a multipennate muscle: a series of bipennate units side by side, separated by tendinous septa, which is what lets a muscle of that size abduct the whole limb.
+## answer_d
+Circumpennate muscle fibers
+## explanation_d
+A circumpennate muscle is cylindrical, with a central tendon and bipennate units converging on it from all round — tibialis anterior. It is the closest class to multipennate, and the reason it is printed here.
+## correct_answer
+C
+## main_concept
+CON-MSK-888467E7C45479
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Upper Limb
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the deltoid by the arrangement of its fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q17; Anatomy Question [Upper Limb] (1).pdf p20 q112; Anatomy MCQ Book [2025] [first priority].pdf p38 q112. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-449CEF02448A
+## title
+Which of the following terms describes a muscle that assists the prime mover in em em e…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following terms describes a muscle that assists the prime mover in em em em em em performing its action? (2024)
+## answer_a
+Agonist
+## explanation_a
+The agonist is the prime mover itself. The stem asks for a muscle that assists it, so a term meaning the same muscle cannot answer.
+## answer_b
+Antagonist
+## explanation_b
+The answer printed in this book, and the reason for the override. The antagonist opposes the prime mover; it is the exact opposite of a muscle assisting it, and choosing it inverts the chapter's definition.
+## answer_c
+Synergist
+## explanation_c
+Correct, and the override. The synergist contracts to eliminate unwanted movements at joints the prime mover crosses, so that the prime mover's action on the joint that matters becomes maximal — assistance by subtraction.
+## answer_d
+Fixator
+## explanation_d
+The fixator, or stabiliser, also assists — but by fixing the *origin* of the prime mover or the joint it acts on, not by working on the movement itself. It is the strongest distractor here and the reason this item is worth sitting.
+## correct_answer
+C
+## main_concept
+CON-MSK-F598AF39FBE297
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+Muscular system
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the muscle role that assists the prime mover rather than opposing it or holding it steady.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, "Antagonist", which the department chapter contradicts in one line: the antagonist is defined as the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist is described by the chapter as acting so that the prime mover's action becomes maximal.
 
 
 ---
@@ -74066,6 +81135,1500 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-3D71B15CEDC3
+## title
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## answer_a
+Anterior wall of the fundus
+## explanation_a
+The anterior wall of the fundus is the book's *second* choice — it says implantation occurs less frequently there — so it is true but not the common site, which is what the stem asks for.
+## answer_b
+Posterior wall of the fundus
+## explanation_b
+Correct. The blastocyst normally implants in the endometrium of the upper part of the posterior wall, just below the fundus.
+## answer_c
+Anterior wall of the cervix.ViP
+## explanation_c
+The cervix has no endometrium of the kind implantation needs, and a conceptus that reached it would be a cervical ectopic pregnancy — one of the most dangerous of all.
+## answer_d
+Posterior wall of the lower part of body· Ac ad
+## explanation_d
+Implantation low on the posterior wall of the body is what produces placenta previa: still inside the uterus, but low enough for the placenta to cover the internal os.
+## correct_answer
+B
+## main_concept
+CON-DEV-28CF4D241BE607
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the normal site of implantation in the uterus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D8D63B4FDAB3
+## title
+Regarding implantation (DEP BOOK) em Ac P a- It starts at the 9th day of pregnancy. P V…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding implantation (DEP BOOK) em Ac P a- It starts at the 9th day of pregnancy. P Vi ad
+## answer_a
+It starts at the 9th day of pregnancy.
+## explanation_a
+Wrong day, and a day the chapter really does use. Implantation *begins* on the seventh day; the ninth is when the blastocyst is completely embedded and the lacunae appear, and the eleventh is when it is complete.
+## answer_b
+Chorionic vesicle is the stage that starts implantation.
+## explanation_b
+The chorionic vesicle does not exist until the thirteenth day, six days after implantation begins. The stage that starts implantation is the blastocyst, by its embryonic pole.
+## answer_c
+It occurs at the upper part of the posterior wall of uterine cavity.
+## explanation_c
+Correct. Implantation occurs in the endometrium of the upper part of the posterior wall of the uterine cavity, just below the fundus.
+## answer_d
+Implantation cavity is formed through the action of proteolytic enzymes produced from embryonic disc.
+## explanation_d
+The right mechanism attached to the wrong source. The proteolytic enzyme that erodes the endometrium into an implantation cavity comes from the syncytiotrophoblast, not from the embryonic disc — which at this stage is not yet even bilaminar.
+## correct_answer
+C
+## main_concept
+CON-DEV-28CF4D241BE607
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Give the day implantation starts, the stage that starts it, its site, and the source of the enzyme that makes the implantation cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A1E626091921
+## title
+Amniotic cavity starts formation at the ……. (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Amniotic cavity starts formation at the ……. (DEP BOOK)
+## answer_a
+7th day of pregnancy.
+## explanation_a
+The seventh day is when implantation begins and the trophoblast splits into cytotrophoblast and syncytiotrophoblast. The inner cell mass has not yet done anything.
+## answer_b
+8th day of pregnancy.
+## explanation_b
+Correct. The amniotic cavity appears on the eighth day, in the inner cell mass, at the same time as the hypoblast forms — which is why the eighth day is the day of the bilaminar disc.
+## answer_c
+9th day of pregnancy.
+## explanation_c
+The ninth day belongs to the primary yolk sac and to the lacunar stage of the syncytiotrophoblast. It is the next entry in the diary, one day late.
+## answer_d
+10th day of pregnancy.
+## explanation_d
+By the tenth day the blastocyst is fully embedded and the fibrin clot is in place. The amniotic cavity has been there for two days.
+## correct_answer
+B
+## main_concept
+CON-DEV-7B01D26174F52B
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give the day the amniotic cavity appears.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q14. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D2DC55DE0FD6
+## title
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cel…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cells: (2024) em em em
+## answer_a
+Syncytiotrophoblast
+## explanation_a
+Correct. The lacunar spaces open within the syncytiotrophoblast on the ninth and tenth days, and when maternal blood fills them on the eleventh they become the utero-placental circulation.
+## answer_b
+Extraembryonic coelom
+## explanation_b
+The extra-embryonic coelom is a set of spaces in the extra-embryonic mesoderm, on the other side of the cytotrophoblast, and it does not appear until the eleventh and twelfth days.
+## answer_c
+Extraembryonic splanchnopleuric
+## explanation_c
+The splanchnopleuric leaf of the extra-embryonic mesoderm covers the yolk sac, deep inside the conceptus. Nothing maternal reaches it.
+## answer_d
+Exocoelomic P Ac ad
+## explanation_d
+The exocoelomic membrane — Heuser's membrane — is the flat hypoblast-derived lining of the primary yolk sac. It forms on the same day, which is what makes it a plausible wrong answer, but it is inside the blastocyst rather than at its maternal surface.
+## correct_answer
+A
+## main_concept
+CON-DEV-7B01D26174F52B
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the layer in which the trophoblastic lacunae appear.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C51A0C8763E6
+## title
+One of the following is an event of the 9th day of pregnancy (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an event of the 9th day of pregnancy (DEP BOOK)
+## answer_a
+Formation of hypoblast.
+## explanation_a
+The hypoblast forms on the eighth day, together with the amniotic cavity. It is the answer to the neighbouring question in the same books, and the two are printed on facing pages with the same four options.
+## answer_b
+Formation of primary yolk sac.
+## explanation_b
+Correct. On the ninth day Heuser's membrane — flat cells derived from the hypoblast — lines the blastocele and converts it into the primary yolk sac.
+## answer_c
+Formation of extraembryonic mesoderm.
+## explanation_c
+The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac. It cannot precede the yolk sac it comes from.
+## answer_d
+Formation of primary chorionic villi.
+## explanation_d
+The primary chorionic villi form at the end of the second week, after the chorion itself exists on the thirteenth day. They are the last entry in this diary, not the third.
+## correct_answer
+B
+## main_concept
+CON-DEV-7B01D26174F52B
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Assign an event of the second week to the ninth day rather than the eighth, eleventh or thirteenth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This department-book row carries no key, and the only bank copy of the ninth-day question that does carry one marks the formation of the hypoblast — which the same book gives as an *eighth*-day event, so that key is one question out. The department book states for the ninth and tenth days that "the blastocele is transformed into the primary yolk sac after formation of Heuser's membrane", which is option B.
+
+
+---
+
+# Item
+## id
+QM-101-AD8ED64C3D72
+## title
+Early amniotic cavity separates between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Early amniotic cavity separates between
+## answer_a
+Amnioblast and Cytotrophoblast
+## explanation_a
+The amnioblast lies against the cytotrophoblast — that is its position, not what it is separated from. Putting the cavity here would place it outside the inner cell mass altogether.
+## answer_b
+Amnioblast and epiblast
+## explanation_b
+Correct. The amniotic cavity opens inside the inner cell mass and divides it into amnioblast forming the roof and epiblast forming the floor.
+## answer_c
+Amnioblast and hypoblast
+## explanation_c
+The hypoblast is the far side of the bilaminar disc, with the epiblast between it and the amniotic cavity. Below the hypoblast is the yolk sac, not the amnion.
+## answer_d
+Amnioblast and yolk sac
+## explanation_d
+The yolk sac lies on the other side of the disc entirely. The two cavities face each other across epiblast and hypoblast, which is exactly why the disc is called bilaminar.
+## correct_answer
+B
+## main_concept
+CON-DEV-89191981F7C426
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the two cell layers the early amniotic cavity lies between.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q65; Anatomy MCQ Book [2025] [first priority].pdf p96 q65. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3A0108734548
+## title
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) A…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) Ac ad Ac ad ad ad
+## answer_a
+Chorionic cavity
+## explanation_a
+The chorionic cavity forms on the thirteenth day, by fusion of spaces in the extra-embryonic mesoderm — outside the embryoblast and five days later.
+## answer_b
+Antrum
+## explanation_b
+The antrum is the fluid-filled cavity of an ovarian follicle, before ovulation. It belongs to the gametes chapter and has nothing to do with the embryoblast.
+## answer_c
+Blastocele
+## explanation_c
+The blastocele is the cavity the embryoblast sits *against*, and it existed before the hypoblast and epiblast formed. On the ninth day it becomes the primary yolk sac.
+## answer_d
+Amniotic cavity
+## explanation_d
+Correct. The amniotic cavity appears within the inner cell mass on the eighth day and is what separates amnioblast from epiblast.
+## correct_answer
+D
+## main_concept
+CON-DEV-89191981F7C426
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the cavity that appears in the embryoblast as it becomes bilaminar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The row carries no key. The department book's account of the eighth day states that the hypoblast forms from the embryoblast cells facing the blastocele and that "the amniotic cavity forms within the rest of the inner cell mass" — so the cavity the embryoblast forms is the amniotic cavity, option D. The other three cavities in the option set belong to the trophoblast, the ovarian follicle and the blastocyst respectively, none of them to the inner cell mass.
+
+
+---
+
+# Item
+## id
+QM-101-CE7658009E9D
+## title
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2022)
+## answer_a
+Blastocyst completes its implantation
+## explanation_a
+True of the second week, so not the answer. Implantation begins on the seventh day and is completed on the eleventh, when the endometrial epithelium grows over the fibrin clot.
+## answer_b
+Trophoblast differentiates into 2 layers
+## explanation_b
+True, so not the answer. The trophoblast differentiates into an inner cytotrophoblast and an outer syncytiotrophoblast, beginning at the embryonic pole on the seventh day.
+## answer_c
+Inner cell mass becomes a trilaminar disc.
+## explanation_c
+Correct, in that this is the wrong statement. The inner cell mass becomes a *bilaminar* disc in the second week — epiblast and hypoblast. It becomes trilaminar only in the third week, by gastrulation.
+## answer_d
+Amniotic cavity is formed.
+## explanation_d
+True, so not the answer. The amniotic cavity is formed on the eighth day, within the inner cell mass.
+## correct_answer
+C
+## main_concept
+CON-DEV-89191981F7C426
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Identify the one event that does not belong to the second week.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The row carries no key. Three of the four statements are on the department book's own list of what happens in the second week — implantation is completed on the eleventh day, the trophoblast differentiates into two layers on the seventh, and the amniotic cavity forms on the eighth. The fourth is false as written: the book states that the inner cell mass forms the *bilaminar* embryonic disc in this week, and the trilaminar disc is the product of gastrulation in the third.
+
+
+---
+
+# Item
+## id
+QM-101-8779DECBA843
+## title
+Somatic extraembryonic mesoderm (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Somatic extraembryonic mesoderm (DEP BOOK)
+## answer_a
+Is the connecting stalk
+## explanation_a
+The connecting stalk is the part of the extra-embryonic mesoderm that the chorionic cavity does *not* split into either leaf, because it bridges chorion and embryonic disc. It is a third thing, not the somatic leaf.
+## answer_b
+Covers yolk sac cavity. P
+## explanation_b
+That is the splanchnic leaf. The two options are printed as a pair in these books, in this question and in its mirror image on the facing page, and swapping them is the whole trap.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Correct. The somatic — somatopleuric — leaf lines the cytotrophoblast, and with the cytotrophoblast and syncytiotrophoblast outside it forms the three layers of the chorion.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+One layer too far out. The somatic mesoderm lies against the cytotrophoblast; the syncytiotrophoblast is outside the cytotrophoblast, facing the maternal blood, and nothing embryonic lines it.
+## correct_answer
+C
+## main_concept
+CON-DEV-B8666FDDEA2B96
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the somatic leaf of the extra-embryonic mesoderm lines.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-98CB899ED857
+## title
+Splanchnic extraembryonic mesoderm
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Splanchnic extraembryonic mesoderm
+## answer_a
+Covers amniotic c:avity
+## explanation_a
+The amniotic cavity is covered by the somatic leaf, which also lines the cytotrophoblast. This is the mirror-image question, and this is the mirror-image answer.
+## answer_b
+yolk sac cavity
+## explanation_b
+Correct. The splanchnic — splanchnopleuric — leaf covers the secondary yolk sac; splanchnic means visceral, and the yolk sac is the gut-to-be.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Lining the cytotrophoblast is the somatic leaf's job, and it is what makes the somatic leaf the innermost layer of the chorion.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+Nothing embryonic lines the syncytiotrophoblast: it is the outermost layer of the conceptus, in contact with maternal blood in the lacunae.
+## correct_answer
+B
+## main_concept
+CON-DEV-B8666FDDEA2B96
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the splanchnic leaf of the extra-embryonic mesoderm covers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q23. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-99D0BFC97C43
+## title
+•••••••••••••••••••• is the middle layer of chorion
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+•••••••••••••••••••• is the middle layer of chorion
+## answer_a
+Cytotrophoblast
+## explanation_a
+Correct. The chorion is somatic mesoderm, cytotrophoblast and syncytiotrophoblast from inside outwards, so the cytotrophoblast is the middle layer whichever end you count from.
+## answer_b
+Syncytiotrophoblast
+## explanation_b
+The syncytiotrophoblast is the outermost layer, facing the maternal blood in the intervillous spaces. It is the layer the placental barrier keeps longest.
+## answer_c
+Somatic extraembryonic mesoderm
+## explanation_c
+The somatic extra-embryonic mesoderm is the innermost layer, lining the chorionic cavity. Picked by a student counting the layers from the outside in.
+## answer_d
+Splanchnic extraembryonic mesoderm
+## explanation_d
+The splanchnic leaf is no part of the chorion at all — it covers the yolk sac, on the other side of the chorionic cavity.
+## correct_answer
+A
+## main_concept
+CON-DEV-0CE08006F7A7A7
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the middle of the three layers of the chorion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q25. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BCDAC02BA52A
+## title
+Primary chorionic villi (DEP BOOK) y ad Ac em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Primary chorionic villi (DEP BOOK) y ad Ac em
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast.
+## explanation_a
+Correct. A primary villus is a core of proliferating cytotrophoblast covered by syncytiotrophoblast, and that is all it is: no mesoderm, no vessels.
+## answer_b
+It contains fetal blood vessels.
+## explanation_b
+The mark this copy carries, and the definition of a tertiary villus. Mesoderm enters the core at the secondary stage and vessels form in that mesoderm at the tertiary — two steps after this one.
+## answer_c
+It starts formation at the middle of the 3rd week of pregnancy.
+## explanation_c
+The middle of the third week is when *secondary* villi appear. Primary villi start at the end of the second week, which is why they are on this leaf at all.
+## answer_d
+It forms the fetal part of placenta.
+## explanation_d
+The fetal part of the placenta is the chorion frondosum, made of well-developed tertiary villi. A primary villus is three weeks and two stages away from being placenta.
+## correct_answer
+A
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give what a primary chorionic villus is made of and what it has not got yet.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The department-book copy marks B — that a primary villus contains fetal blood vessels — which is the definition of a *tertiary* villus. The department book states that primary villi are "a core of cytotrophoblast covered by syncytiotrophoblast", which is option A, and that vessels appear only at the tertiary stage by the end of the third week.
+
+
+---
+
+# Item
+## id
+QM-101-1F7D95A17816
+## title
+Secondary chorionic villi (DEP BOOK) Ac em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Secondary chorionic villi (DEP BOOK) Ac em
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast
+## explanation_a
+True of a primary villus, and true of a secondary one as far as it goes — but incomplete, because what makes a villus secondary is the somatic mesoderm that has entered its core, which this option does not mention.
+## answer_b
+It contains fetal blood vessels
+## explanation_b
+The mark this copy carries, and the definition of the tertiary villus. A secondary villus has a mesodermal core and no vessels in it yet; the vessels are what promote it to tertiary.
+## answer_c
+It is formed at the middle of the 3rd week of pregnancy
+## explanation_c
+Correct. Secondary villi form at the middle of the third week, when somatic mesoderm is incorporated into the core of the primary villi.
+## answer_d
+It forms the fetal part of placenta. Acad
+## explanation_d
+The fetal part of the placenta is chorion frondosum, carrying well-developed *tertiary* villi. A secondary villus has neither the vessels nor the exchange surface for that.
+## correct_answer
+C
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Give what makes a villus secondary and when it happens.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The department-book copy marks B — that a secondary villus contains fetal blood vessels — the same mark it puts on the primary villus question, and equally wrong: the department book states that vessels develop in the mesodermal core at the *tertiary* stage. What the book does state of the secondary villus is that it forms "at the middle of the third week", which is option C.
+
+
+---
+
+# Item
+## id
+QM-101-2C98F5A8F2B9
+## title
+Late placental barrier is composed of (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Late placental barrier is composed of (DEP BOOK)
+## answer_a
+Syncytiotrophoblast and Cytotrophoblast.
+## explanation_a
+These are the two trophoblast layers, the outer two of the four in the early barrier. It is the cytotrophoblast that is lost, so keeping it and losing the endothelium inverts what happens.
+## answer_b
+Syncytiotrophoblast and endothelium of fetal blood vessels
+## explanation_b
+Correct. From the fourth month the barrier is syncytiotrophoblast and the endothelium of the fetal blood vessels only — the outermost and innermost of the original four, with both middle layers gone.
+## answer_c
+Cytotrophoblast and extraembryonic mesoderm.
+## explanation_c
+Both of these are lost. The cytotrophoblast and the somatic mesoderm are precisely the two middle layers that disappear as the membrane thins.
+## answer_d
+Cytotrophoblast and endothelium of blood vessels.
+## explanation_d
+Half right and half wrong in the most tempting way: the endothelium does persist, but the cytotrophoblast does not, and no barrier can lack the syncytiotrophoblast that faces the maternal blood.
+## correct_answer
+B
+## main_concept
+CON-DEV-A850218C437061
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the two layers of the placental barrier in the second half of pregnancy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The row carries no key. The department book states that in early pregnancy the barrier is syncytiotrophoblast, cytotrophoblast, somatic mesoderm and fetal vessel endothelium, and that "in the second half of pregnancy it is only syncytiotrophoblast and endothelium of fetal blood vessels" — which is option B.
+
+
+---
+
+# Item
+## id
+QM-101-9A08888AA7FC
+## title
+The source of the three germ layers is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The source of the three germ layers is
+## answer_a
+Hypoblast
+## explanation_a
+The intuitive answer and a false one. The hypoblast is displaced by invaginating epiblast cells and ends up lining the yolk sac; it contributes no layer to the embryo.
+## answer_b
+Epiblast
+## explanation_b
+Correct. All three germ layers come from the epiblast: invaginating cells become endoderm and intra-embryonic mesoderm, and what stays behind is the ectoderm.
+## answer_c
+Extraembryonic mesoderm
+## explanation_c
+The extra-embryonic mesoderm lies outside the disc entirely, between the cytotrophoblast and the two cavities, and becomes chorion, connecting stalk and villus cores.
+## answer_d
+Cytotrophoblast
+## explanation_d
+The cytotrophoblast is trophoblast — placental tissue. Nothing in the embryo proper descends from it.
+## correct_answer
+B
+## main_concept
+CON-DEV-D537CC41FC0500
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the layer of the bilaminar disc that gives rise to all three germ layers.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q31; Anatomy MCQ Book [2025] [first priority].pdf p91 q31. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E08B9FFBB1F
+## title
+Regarding the notochord
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the notochord
+## answer_a
+It persists as the annulus fibrosus part of intervertebral disc
+## explanation_a
+The wrong part of the intervertebral disc. The notochord persists as the *nucleus pulposus*, the soft centre; the annulus fibrosus around it comes from the sclerotome.
+## answer_b
+It lies between cloacal and buccopharyngeal membrane
+## explanation_b
+The notochord runs from the primitive pit cranially to the bucco-pharyngeal membrane. The cloacal membrane is caudal to the primitive streak, so this option describes a notochord running the length of the disc, which it never does.
+## answer_c
+It limits the head fold during folding of the embryonic disc
+## explanation_c
+Correct. The relative firmness of the notochord is what limits the head fold, in the same way that the firmness of the primitive streak limits the tail fold.
+## answer_d
+It is formed during the second week of pregnancy
+## explanation_d
+The notochord is a third-week structure, formed by invagination through the primitive pit. In the second week there is no primitive pit and no trilaminar disc for it to lie in.
+## correct_answer
+C
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the extent, function, timing and fate of the notochord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q33. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E5DEA89FCCB3
+## title
+Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+## answer_a
+They are segments of paraxial mesoderm
+## explanation_a
+Correct. Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and the neural tube.
+## answer_b
+They start formation during the second week of pregnancy.
+## explanation_b
+The mark this reprint carries, and impossible: in the second week there is no intra-embryonic mesoderm at all. The first pair of somites separates on the twentieth day.
+## answer_c
+They give rise to muscles of gut.
+## explanation_c
+The smooth muscle of the gut comes from the splanchnopleuric leaf of the lateral plate mesoderm. Somites give skeletal muscle, dermis and vertebrae — the body wall, not the viscera.
+## answer_d
+They are developed from intermediate mesoderm.
+## explanation_d
+Intermediate mesoderm gives the urogenital system. Somites are segments of the paraxial mesoderm, which is the division medial to it.
+## correct_answer
+A
+## main_concept
+CON-DEV-5E63C211DEEE00
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what a somite is a segment of and what it does not give rise to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: This reprint of the 2017 second sitting marks B, that somites start forming during the second week. The department book states that the intra-embryonic mesoderm divides into its three parts on the seventeenth day and that the first pair of occipital somites separates on the twentieth — both of them third-week dates, and both after the paraxial mesoderm the somites are segments of even exists. Option A is the book's own definition of a somite.
+
+
+---
+
+# Item
+## id
+QM-101-5DD85BAF9C41
+## title
+The earliest source of amniotic fluid is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The earliest source of amniotic fluid is
+## answer_a
+Epiblast
+## explanation_a
+The epiblast forms the floor of the amniotic cavity but secretes nothing into it. It is on its way to becoming the whole embryo.
+## answer_b
+Diffusion from fetal blood
+## explanation_b
+Diffusion from maternal blood by osmosis is the *second* source, and the major one through most of pregnancy — but it is not the earliest.
+## answer_c
+Fetal urinary system
+## explanation_c
+Fetal urine is the third and last source, added only from the fifth month, once the kidneys work. It is also why a fetus with renal agenesis has too little amniotic fluid.
+## answer_d
+Amnioblast
+## explanation_d
+Correct. The amnioblast cells that roof the amniotic cavity from the eighth day are its first source, before there is any fetal circulation or kidney to add to it.
+## correct_answer
+D
+## main_concept
+CON-DEV-F356C3B8CFD31E
+## library_ids
+ART-101-ANA-IMPLANTATION
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the first source of amniotic fluid and place it against the later ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q67. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-607AF78B4FD8
 ## title
 Lateral rotation at the shoulder; is done by:
@@ -77131,6 +85694,1832 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Deltoid is the book's multipennate example; the sibling printing `an-example-of-multipennate-muscle-is-132e2b26`, asked twice, keys A.
+
+
+---
+
+# Item
+## id
+QM-101-01E33C2FDED9
+## title
+Appendicular skeleton is formed of:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Appendicular skeleton is formed of:
+## answer_a
+Skull and mandible
+## explanation_a
+The skull and mandible are the top of the axial skeleton — the central axis, not the appendages hung from it.
+## answer_b
+Bones of the upper and lower limbs
+## explanation_b
+Correct. Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
+## answer_c
+Ribs and stemum
+## explanation_c
+Ribs and sternum are axial. They form the thoracic cage around the axis; the fact that the upper limb attaches to the sternum through the clavicle does not make the sternum a limb bone.
+## answer_d
+Vertebral column
+## explanation_d
+The vertebral column is the axis itself, and the option a student picks by reading "appendicular" as "attached to".
+## correct_answer
+B
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+State what the appendicular skeleton is made of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q16. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the department book defines the appendicular (peripheral) skeleton as the bones of the upper and lower limbs.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-55623272E453
+## title
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle. P Vi b- Ulna
+## answer_a
+Clavicle.
+## explanation_a
+The clavicle is the anterior bar of the pectoral girdle and belongs to the upper limb, however much of it lies across the front of the chest.
+## answer_b
+Ulna.
+## explanation_b
+The ulna is a forearm bone, appendicular beyond argument.
+## answer_c
+Sternum.
+## explanation_c
+Correct. The sternum is one of the six components of the axial skeleton the book lists, with the skull, mandible, hyoid, ribs and vertebral column.
+## answer_d
+Scapula.
+## explanation_d
+The scapula is the posterior half of the pectoral girdle. It lies on the thoracic cage without joining it, which is exactly why it moves with the limb and not with the axis.
+## correct_answer
+C
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the axial bone from a list of three pectoral girdle and limb bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D03376567A9
+## title
+The patella is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The patella is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals — spongy bone in a thin compact shell, filling a region rather than sitting in a tendon. The patella is picked as short by students going on its size.
+## answer_b
+Long bone
+## explanation_b
+A long bone has two epiphyses and a shaft. The patella has neither.
+## answer_c
+Flat bone
+## explanation_c
+A flat bone is two compact plates with spongy bone between; the scapula and ribs are the examples. The patella is flattened in profile, which is the whole of the resemblance.
+## answer_d
+Seasamoid bone
+## explanation_d
+Correct. The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the patella by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q25; Anatomy MCQ Book [2025] [first priority].pdf p5 q25. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-776499738644
+## title
+The scapula is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The scapula is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are cuboidal and packed together in the wrist and ankle. The scapula is a broad plate.
+## answer_b
+Long bone
+## explanation_b
+A long bone has a shaft and two ends. The scapula has processes — spine, acromion, coracoid — but no shaft.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The scapula is one of the book's three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone lies inside a tendon. The scapula gives tendons their origin instead of being carried in one.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the scapula by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q22; Anatomy MCQ Book [2025] [first priority].pdf p5 q22. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9ED6E22DB0AC
+## title
+The ribs are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ribs are:
+## answer_a
+Short bone
+## explanation_a
+A short bone is roughly cubical. A rib is a long curved strip, and nothing about it is short except its thickness.
+## answer_b
+Long bone
+## explanation_b
+The commonest error here, because a rib is manifestly long. Length is not what defines a long bone: a long bone has two expanded epiphyses and a marrow-filled shaft, and a rib has neither.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone is embedded in a tendon. The ribs are joined to the vertebrae behind and the costal cartilages in front.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the ribs by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q23; Anatomy MCQ Book [2025] [first priority].pdf p5 q23. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DE819E32FB53
+## title
+Which of the following bones is a flat bone:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a flat bone:
+## answer_a
+Humerus
+## explanation_a
+The humerus is the type example of a long bone — two epiphyses and a shaft with a medullary cavity.
+## answer_b
+Scapula
+## explanation_b
+Correct. The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
+## answer_c
+Ulna
+## explanation_c
+The ulna is a long bone of the forearm.
+## answer_d
+Clavicle
+## explanation_d
+The clavicle is the trap. It is the one bone that ossifies in membrane like a flat bone of the skull, yet it is classed by shape as a long bone; membrane ossification and flat shape are two different classifications and this option asks for the second.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Upper Limb
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from four bones of the upper limb and its girdle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q1; Upper MCQ Dr.jalal (1).pdf p53 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Asked twice and keyed on neither page. The department book names the scapula as one of its three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
+
+
+---
+
+# Item
+## id
+QM-101-8CA22DC4F501
+## title
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## answer_a
+Vertebra.
+## explanation_a
+The vertebra is the book's example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
+## answer_b
+Cap of skull.
+## explanation_b
+Correct. The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
+## answer_c
+Humerus.
+## explanation_c
+The humerus is a long bone.
+## answer_d
+Scaphoid.
+## explanation_d
+The scaphoid is a carpal bone, and the carpals are the book's example of short bones.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from an irregular, a long and a short bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2017 source printed no key. The department book names the skull cap as one of its three flat bones, and files the other three options elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
+
+
+---
+
+# Item
+## id
+QM-101-885B5B1D9FA3
+## title
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## answer_a
+Clavicle
+## explanation_a
+The clavicle is classed as a long bone, and is the bone this leaf keeps using to separate ossification from shape.
+## answer_b
+Scapula. P
+## explanation_b
+The scapula is flat. It has an awkward outline, which is what makes students read "irregular" into it — but irregularity of outline is not the class; projecting processes on a solid, short-bone-like body are.
+## answer_c
+Metacarpus
+## explanation_c
+The metacarpals are miniature long bones, each with a base, a shaft and a head.
+## answer_d
+Vertebra
+## explanation_d
+Correct. The vertebra is the book's worked example of an irregular bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the irregular bone from a long, a flat and a group of long bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B3F8B23A6E70
+## title
+Which of the following bones is a sesamoid bone? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a sesamoid bone? (2024)
+## answer_a
+Pisiform
+## explanation_a
+Correct. The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
+## answer_b
+Scaphoid. P
+## explanation_b
+The scaphoid is a true carpal bone in the proximal row, articulating with the radius. Its being small and rounded is the whole of its resemblance to a sesamoid.
+## answer_c
+Triquetral
+## explanation_c
+The triquetral is a proximal-row carpal bone, articulating with the articular disc.
+## answer_d
+Hamate
+## explanation_d
+The hamate is a distal-row carpal bone. Its hook gives attachment to the flexor retinaculum, which is a tendon-related fact that makes it a tempting misread — but the bone lies in the carpus, not in a tendon.
+## correct_answer
+A
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise a sesamoid bone among the carpal bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C31D55E16279
+## title
+The sinuses are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The sinuses are:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals, and hold no air.
+## answer_b
+Long bone
+## explanation_b
+Long bones have a marrow cavity, not an air cavity, and none of them is pneumatic.
+## answer_c
+Flat bone
+## explanation_c
+The flat bones of the skull cap are the nearest true answer, and the reason this distractor works: the skull has both, but its air-filled bones surround the nose rather than roofing the brain.
+## answer_d
+Pneumatic bones
+## explanation_d
+Correct. A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the class of bone that contains the paranasal sinuses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q24. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E150494556CA
+## title
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## answer_a
+Warming of inspired air
+## explanation_a
+A genuine function. The sinus is lined by a highly vascular mucosa, and inspired air passing the nose is warmed by it.
+## answer_b
+Withstand forces and stresses
+## explanation_b
+Correct as the exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
+## answer_c
+Resonance of voice
+## explanation_c
+A genuine function. The air cavities resonate, and this is why the voice changes when a sinus fills during a cold.
+## answer_d
+Lighting the weight of skull
+## explanation_d
+A genuine function, and the one most often given first: the cavities decrease the weight of the skull that the neck has to balance.
+## correct_answer
+B
+## main_concept
+CON-MSK-6DCABD3AE947F5
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give what the air cavity of a pneumatic bone does, and identify the property it costs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AA65C6DD5381
+## title
+The expanded upper and lower ends of the long bone are called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The expanded upper and lower ends of the long bone are called:
+## answer_a
+Epiphysis
+## explanation_a
+Correct. The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is the disc of hyaline cartilage *between* epiphysis and diaphysis in a growing bone, not the end itself. One letter of Greek separates them and the plate is inside the bone.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is the shaft between the two ends.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is the zone of the shaft immediately under the epiphyseal cartilage — close to the end, which is what makes it the strongest distractor, but not the end.
+## correct_answer
+A
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the expanded ends of a long bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q19; Anatomy MCQ Book [2025] [first priority].pdf p4 q19. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-73709561FFD6
+## title
+The compact bone with a central medullary cavity is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The compact bone with a central medullary cavity is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the expanded end. It is spongy bone under a shell, with no medullary cavity.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is cartilage, not bone at all.
+## answer_c
+Diaphysis
+## explanation_c
+Correct, and the override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
+## answer_d
+Metaphysis
+## explanation_d
+The answer printed in both copies of this question in the books, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
+## correct_answer
+C
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the region of a long bone that is a tube of compact bone around a medullary cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q20. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the department book, whose definition of the diaphysis is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-939E9C644E81
+## title
+The part which is responsible for the growth of long bones in length is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The part which is responsible for the growth of long bones in length is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the end that the plate pushes away; it is carried along by the growth rather than producing it.
+## answer_b
+Epiphyseal plate
+## explanation_b
+Correct. The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is what the growth adds to. It lengthens, but it does not do the lengthening.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is called the most active part of the long bone, which is exactly why it is chosen. Its activity is turning newly made cartilage into bone; the cell division that adds length happens in the plate above it.
+## correct_answer
+B
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the part of a long bone that lengthens it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q21. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-70A55CFAAC9B
+## title
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## answer_a
+Metaphysis.
+## explanation_a
+The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
+## answer_b
+Diaphysis.
+## explanation_b
+The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.
+## answer_c
+Epiphyseal plate.
+## explanation_c
+Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
+## answer_d
+Epiphyseal line.
+## explanation_d
+The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.
+## correct_answer
+C
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure through which a growing bone lengthens, and separate it from the scar it leaves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
+
+
+---
+
+# Item
+## id
+QM-101-559EF0964155
+## title
+Intra-cartilagenous ossification occurs in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-cartilagenous ossification occurs in:
+## answer_a
+Roof of the skull
+## explanation_a
+The roof of the skull ossifies in membrane, directly from mesenchyme, with no cartilage model. It is printed twice in this question, as A and again as C.
+## answer_b
+Clavicle
+## explanation_b
+The clavicle is the book's other example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
+## answer_c
+Skull cap
+## explanation_c
+The skull cap is the same structure as option A under another name. Two identical options cannot both be the answer, which is a way to eliminate the pair.
+## answer_d
+Vertebrae
+## explanation_d
+Correct. The vertebrae are on the book's intra-cartilaginous list with the long bones, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a bone that ossifies by replacing a cartilage model.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q18; Anatomy MCQ Book [2025] [first priority].pdf p4 q18. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-79FF4E8557D4
+## title
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## answer_a
+Clavicle.
+## explanation_a
+Correct. The clavicle is one of the book's two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
+## answer_b
+Radius.
+## explanation_b
+The radius is a long bone and ossifies in cartilage, like every other bone of the limbs except the clavicle.
+## answer_c
+Humerus.
+## explanation_c
+The humerus ossifies in cartilage.
+## answer_d
+Ulna.
+## explanation_d
+The ulna ossifies in cartilage. A, B, C and D are all bones of the upper limb, which is what makes this question a test of the exception rather than of the rule.
+## correct_answer
+A
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the bone of the upper limb that ossifies in membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-875DE732590E
+## title
+Hyaline cartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Hyaline cartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage — the standing exception to "the larynx is hyaline", and the reason this option is printed first.
+## answer_b
+Aurice of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage, which is what lets it be folded and spring back.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Correct. The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
+## answer_d
+Intervertebral disc
+## explanation_d
+The intervertebral disc is white fibrocartilage — an opaque matrix packed with collagen bundles, built to take compression rather than to glide.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of hyaline cartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q15. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book lists the articular cartilage of joints among the sites of hyaline cartilage, and files the other three options elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-413433FF6722
+## title
+White fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White fibrocartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline. It is the most tempting wrong answer here because a joint surface takes load, and load is what fibrocartilage is for — but the surface has to be smooth, and collagen bundles are not.
+## answer_d
+Intervertebral disc
+## explanation_d
+Correct. The intervertebral disc is the department book's one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
+## correct_answer
+D
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q14. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3C68E0BE48EB
+## title
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P V…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P Vi b- Auricle of ear. y
+## answer_a
+Epiglottis.
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of ear.
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Intervertebral disc of cartilage.
+## explanation_c
+Correct. The intervertebral disc is the book's named site of white fibrocartilage.
+## answer_d
+Costal cartilage.
+## explanation_d
+Costal cartilage is hyaline, and it is the distractor that separates this printing from the others: a student who has learnt only "fibrocartilage takes load" will reach for the cartilage that carries the ribcage.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage when a hyaline site of the thoracic wall is offered alongside.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-02CE8E9E2ABF
+## title
+Yellow elastic fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Yellow elastic fibrocartilage is present in:
+## answer_a
+Developing bone of the fetus
+## explanation_a
+Developing bone in the fetus is a hyaline cartilage model, waiting to be replaced.
+## answer_b
+Auricle of the ear
+## explanation_b
+Correct. The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline.
+## answer_d
+Symphysis pubis
+## explanation_d
+The symphysis pubis is fibrous rather than elastic, and is offered here because "yellow elastic fibrocartilage" contains the word fibrocartilage — the classic misreading of the name.
+## correct_answer
+B
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of yellow elastic fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q13. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49DF99EE21D8
+## title
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## answer_a
+Hyaline cartilage
+## explanation_a
+Hyaline cartilage is in the developing bones, the epiphyseal plates, the joint surfaces, the costal cartilages and the larynx below the epiglottis — never in the nasal tip.
+## answer_b
+White ﬁbrocartilage
+## explanation_b
+White fibrocartilage is the intervertebral disc. It is built to resist compression, and a nose tip that resisted compression would not spring back.
+## answer_c
+Yellow elastic ﬁbrocartilage
+## explanation_c
+Correct. The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
+## answer_d
+No cartilage at all
+## explanation_d
+The tip of the nose is cartilage, which is exactly why it has no bony landmark and why it moves when pressed. Chosen by students who confuse the soft, mobile tip with the absence of a skeleton.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the type of cartilage at the tip of the nose.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
@@ -89499,6 +99888,1251 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.
 
+
+---
+
+# Item
+## id
+QM-101-18B2A8738FE5
+## title
+Notochord is developed from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Notochord is developed from
+## answer_a
+The epiblast cells at the primitive streak
+## explanation_a
+The near-miss the question is built on. Epiblast cells at the primitive *streak* become endoderm and intra-embryonic mesoderm; it is the cells at the primitive *pit*, in the node at the streak's cranial end, that make the notochord.
+## answer_b
+The hypoblast cells
+## explanation_b
+The hypoblast contributes no layer to the embryo. It is displaced by invaginating epiblast and ends up in the wall of the yolk sac.
+## answer_c
+Intraembryonic mesoderm
+## explanation_c
+The notochord is not a derivative of the mesoderm but a separate product of the same invagination — the two form side by side, the mesoderm lateral and the notochord median.
+## answer_d
+Epiblast cells at the wall of primitive pit
+## explanation_d
+Correct. The prenotochordal process is a solid cord of epiblast cells derived from the primitive pit, which invaginates and grows cranially in the midline as far as the bucco-pharyngeal membrane.
+## correct_answer
+D
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Name the cells the notochord develops from and where they lie.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B11121A7A97E
+## title
+Neurenteric canal is formed due to degeneration of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neurenteric canal is formed due to degeneration of
+## answer_a
+Floor of notochordal canal and underlying endoderm
+## explanation_a
+Correct. The floor of the notochordal canal is fused with the endoderm beneath it, and when both degenerate together the amniotic cavity above and the yolk sac below are briefly continuous.
+## answer_b
+Roof of notochordal canal and median endoderm
+## explanation_b
+The roof is what survives. Roof and sides persist as the notochordal plate, which then folds on itself to give the definitive notochord — so a question keyed to the roof has the structure degenerating that goes on to become the notochord itself.
+## answer_c
+Roof of notochordal canal with median ectoderm
+## explanation_c
+Two errors in one option: the roof again, and the ectoderm. The roof lies against ectoderm but is not fused with it; the fusion is at the floor, with endoderm.
+## answer_d
+Buccopharyngeal membrane
+## explanation_d
+The bucco-pharyngeal membrane also degenerates, but months of development and a whole chapter away — it opens the stomodeum into the foregut, not the amniotic cavity into the yolk sac.
+## correct_answer
+A
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Say exactly what degenerates to open the neurenteric canal.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q36; Anatomy MCQ Book [2025] [first priority].pdf p92 q36. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D2733591B53E
+## title
+One of the following is true regarding the notochord: (2017 – DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is true regarding the notochord: (2017 – DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+It extends between primitive pit and cloaca I membrane.
+## explanation_a
+Wrong end. The notochord runs from the primitive pit *cranially* to the bucco-pharyngeal membrane; the cloacal membrane is caudal to the primitive streak, in the opposite direction.
+## answer_b
+It persists as nucleus pulposus in the intervertebral discs.
+## explanation_b
+Correct. Most of the notochord degenerates, and the part inside the intervertebral disc persists as the nucleus pulposus — the only piece of it a living adult still carries.
+## answer_c
+It is formed from cells migrating from primitive streak.
+## explanation_c
+Cells migrating from the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from the primitive pit, in the node.
+## answer_d
+It is dorsal to neural tube.
+## explanation_d
+Upside down. The notochord lies ventral to the neural tube — it is the floor the tube is built above, and the vertebral bodies form around it in front of the vertebral canal.
+## correct_answer
+B
+## main_concept
+CON-DEV-1BCF37C48AF307
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the extent, origin, position and fate of the notochord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p121 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6E9DBEDBFB32
+## title
+Gastrulation is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Gastrulation is
+## answer_a
+The formation of trilaminar embryonic disc
+## explanation_a
+Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and it is the characteristic event of the third week along with the chorionic villi.
+## answer_b
+The formation of bilaminar embryonic disc
+## explanation_b
+The bilaminar disc is what gastrulation starts *from*, and it formed on the eighth day when the amniotic cavity separated epiblast from hypoblast. This option names the state before the process.
+## answer_c
+The formation of chorion and chorionic villi
+## explanation_c
+The chorion and its villi form in parallel, on the other side of the chorionic cavity, but they are trophoblast derivatives and are no part of the embryonic disc.
+## answer_d
+The start of the process of folding
+## explanation_d
+Folding begins at the end of the third week, when gastrulation is finished — the disc has to have three layers before it can fold into a body with three layers in it.
+## correct_answer
+A
+## main_concept
+CON-DEV-D537CC41FC0500
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Define gastrulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q30. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EE6F75FF78FF
+## title
+The primitive streak ﬁrst appears at the beginning of the __ week. (2019 – 2nd – DEP BO…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The primitive streak ﬁrst appears at the beginning of the __ week. (2019 – 2nd – DEP BOOK) Vi
+## answer_a
+First
+## explanation_a
+The mark this reprint carries, and impossible: in the first week the embryo is cleaving in the uterine tube and has no epiblast layer for a streak to appear in.
+## answer_b
+Second
+## explanation_b
+The second week makes the bilaminar disc, which is what the streak later appears in. This is the closest wrong answer and the one a student picks who dates the streak from the disc rather than from the invagination.
+## answer_c
+Third
+## explanation_c
+Correct. The primitive streak appears at the beginning of the third week and is the opening event of gastrulation.
+## answer_d
+Fourth
+## explanation_d
+By the fourth week the streak has done its work and is regressing; folding has begun, and the streak survives mainly as the structure that limits the tail fold.
+## correct_answer
+C
+## main_concept
+CON-DEV-D537CC41FC0500
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give the week in which the primitive streak appears.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The department question book marks A, the first week. The department book opens its Third Week chapter by naming gastrulation as one of the two characteristic events of the third gestational week, and gastrulation begins with the formation of the primitive streak and node in the epiblast — so the streak appears at the beginning of the third week. In the first week the embryo is still a cleaving ball of blastomeres with no epiblast to form a streak in.
+
+
+---
+
+# Item
+## id
+QM-101-3DF6EBF9F054
+## title
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## answer_a
+BLiccopharyngeal membrane
+## explanation_a
+One of the three places mesoderm is absent. At the bucco-pharyngeal membrane the ectoderm and endoderm are fused to one another, leaving no space for a middle layer.
+## answer_b
+Cloacal membrane
+## explanation_b
+The other fused membrane, at the caudal end of the disc, and absent for the same reason. The two membranes are why the disc has holes in its middle layer at both ends.
+## answer_c
+On both sides of notochord and neural tube
+## explanation_c
+Correct. The intra-embryonic mesoderm spreads on both sides of the notochord and the neural tube, which is exactly where it later divides into paraxial, intermediate and lateral plate.
+## answer_d
+Median region between primitive pit and buccopharyngeal membrane
+## explanation_d
+The third mesoderm-free region. Between the primitive node and the bucco-pharyngeal membrane the midline is occupied by the notochord and the neural tube themselves.
+## correct_answer
+C
+## main_concept
+CON-DEV-2E3E3098D90C0C
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say where intra-embryonic mesoderm lies and where it does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q35. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3F96C6FE2B27
+## title
+One of the followings is not a part of intraembryonic mesoderm: (2022) Ac P a- Intermed…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is not a part of intraembryonic mesoderm: (2022) Ac P a- Intermediate mesoderm. P Vi b- Paraxial mesoderm. y
+## answer_a
+Intermediate mesoderm.
+## explanation_a
+Intermediate mesoderm is the middle of the three, derived from the middle part of the primitive streak, and it goes on to form the urogenital system.
+## answer_b
+Paraxial mesoderm.
+## explanation_b
+Paraxial mesoderm is the most medial of the three, on both sides of the notochord and neural tube, and it is the one that segments into somites.
+## answer_c
+Lateral plate mesoderm.
+## explanation_c
+Lateral plate mesoderm is the most lateral of the three, and the coelom splits it into somatopleuric and splanchnopleuric layers. It is the option this reprint marks, and it is a part of the intra-embryonic mesoderm rather than the exception.
+## answer_d
+Amnioblasts.
+## explanation_d
+Correct. Amnioblasts are the cells that separate from the embryoblast on the eighth day to line the roof of the amniotic cavity. They belong to the second week and to no part of the mesoderm.
+## correct_answer
+D
+## main_concept
+CON-DEV-2E3E3098D90C0C
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the three subdivisions of the intra-embryonic mesoderm and reject what is not one of them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: This reprint of the 2022 sitting marks C, the lateral plate mesoderm, which the department book names as one of the three parts the intra-embryonic mesoderm divides into on the seventeenth day. The one option that is not a part of it is D: amnioblasts are second-week cells lining the roof of the amniotic cavity, and they are not mesoderm of any kind.
+
+
+---
+
+# Item
+## id
+QM-101-33A444C7F137
+## title
+Neural plate is a thickened median region of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neural plate is a thickened median region of
+## answer_a
+Endoderm
+## explanation_a
+The endoderm is the innermost layer and gives the linings of the gut and airway. Nothing nervous comes from it.
+## answer_b
+Mesoderm
+## explanation_b
+Mesoderm surrounds the neural tube and forms the vertebrae that protect it, but it forms no part of it. A student picks this because the somites lie either side of the plate in every diagram.
+## answer_c
+Ectoderm
+## explanation_c
+Correct. The neural plate is a thickened median region of the ectoderm, induced by the notochord under it, and it is where the whole central nervous system starts.
+## answer_d
+Notochord
+## explanation_d
+The notochord induces the neural plate and lies beneath it, but the plate is not made of it. The notochord ends as the nucleus pulposus, not as the brain.
+## correct_answer
+C
+## main_concept
+CON-DEV-785CE84F7C03DB
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the germ layer the neural plate is a thickening of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p92 q37. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No copy of this question in the bank carries a key; the one copy that was keyed had lost option A into its stem and is excluded. The department book lists the central nervous system first among the derivatives of the ectoderm, and the neural plate is its first appearance, so the answer is C.
+
+
+---
+
+# Item
+## id
+QM-101-9CDC0E65800C
+## title
+Regarding formation of central nervous system, mark the correct statement: (DEP BOOK) e…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding formation of central nervous system, mark the correct statement: (DEP BOOK) em em em
+## answer_a
+It is derived from ectoderm
+## explanation_a
+Correct. The central nervous system heads the department book's list of ectodermal derivatives, and it begins as the neural plate, a thickening of the ectoderm.
+## answer_b
+It is not induced by the underlying notochord
+## explanation_b
+A double negative hiding a real fact. The notochord does induce the overlying ectoderm to form the neural plate, so "not induced" is false — and the induction is one of the notochord's three listed importances.
+## answer_c
+The neural groove results from depression of the neural crest
+## explanation_c
+Swaps plate for crest. The neural groove is a depression in the midline of the neural *plate*; the neural crest separates from the crests of the folds on either side of that groove and becomes ganglia, melanocytes and much else.
+## answer_d
+The ﬁrst area of the neural tube to close is its caudal end. Ac ad
+## explanation_d
+The wrong end and the wrong order. Fusion of the neural folds begins in the middle and spreads both ways, so the neuropores close last, and the cranial one closes before the caudal.
+## correct_answer
+A
+## main_concept
+CON-DEV-785CE84F7C03DB
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Identify the one true statement about how the central nervous system forms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The row carries no key. The department book lists the central nervous system as the first derivative of the ectoderm, which is option A; the other three are each false as written — the notochord does induce the plate, the neural groove is a depression of the plate rather than of the crest, and the caudal neuropore is the last part of the tube to close rather than the first.
+
+
+---
+
+# Item
+## id
+QM-101-1F081C17FA22
+## title
+Before folding, the most caudal structure in the tail fold is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Before folding, the most caudal structure in the tail fold is
+## answer_a
+Cloacal membrane
+## explanation_a
+The cloacal membrane is the most caudal structure *after* folding, not before. The reversal of position is the whole point of the pair of questions the books ask here.
+## answer_b
+Primitive streak
+## explanation_b
+The primitive streak lies caudal in the disc and is what limits the tail fold, but the connecting stalk is caudal to it — which is why the streak is the limit of the fold rather than its end.
+## answer_c
+Primitive node
+## explanation_c
+The primitive node sits at the *cranial* end of the primitive streak. Of the four options this is the most cranial structure, not the most caudal.
+## answer_d
+Connecting stalk
+## explanation_d
+Correct. Before folding the connecting stalk is the most caudal structure of the disc; folding swings it cranially and ventrally, and the cloacal membrane takes its place at the caudal end.
+## correct_answer
+D
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Name the most caudal structure of the disc before folding.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q55; Anatomy MCQ Book [2025] [first priority].pdf p95 q55. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4E4ED5007234
+## title
+After folding, the most caudal structure at tail fold is (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+After folding, the most caudal structure at tail fold is (DEP BOOK)
+## answer_a
+Primitive streak.
+## explanation_a
+The primitive streak is regressing by the time folding is complete, and it was never the most caudal structure — the connecting stalk lay caudal to it even before the fold.
+## answer_b
+Cloacal membrane.
+## explanation_b
+Correct. Folding swings the connecting stalk cranially and ventrally, and that leaves the cloacal membrane as the most caudal structure of the embryo.
+## answer_c
+Connecting stalk.
+## explanation_c
+The answer before folding, and the mark this copy carries. Reading it here is missing the reversal of position that the question exists to test.
+## answer_d
+Buccopharyngeal membrane.
+## explanation_d
+The bucco-pharyngeal membrane is at the opposite end: after folding it becomes the most *cranial* structure, replacing the septum transversum that started there.
+## correct_answer
+B
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Name the most caudal structure after folding.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The department-book copy marks C, the connecting stalk, which is the answer to the *other* half of the pair — the connecting stalk is most caudal before folding. The department book states the reversal explicitly: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal structure.
+
+
+---
+
+# Item
+## id
+QM-101-2077B9B9F3CD
+## title
+Tail fold of the embryo is limited by (DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Tail fold of the embryo is limited by (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Notochord.
+## explanation_a
+The notochord limits the *head* fold. The department book pairs the two — notochord cranially, primitive streak caudally — and the books ask both with the other as the distractor.
+## answer_b
+Primitive streak.
+## explanation_b
+Correct. The tail fold is limited by the relatively firm primitive streak, in the same way that the head fold is limited by the relatively firm notochord.
+## answer_c
+Yolk sac.
+## explanation_c
+The yolk sac is what folding compresses into the vitelline duct. Far from limiting the fold, it is one of the things the fold acts on.
+## answer_d
+Amniotic cavity.
+## explanation_d
+Expansion of the amniotic cavity is a *cause* of folding, not a limit to it. The option is here to catch a student who has learnt the causes and not the limits.
+## correct_answer
+B
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the structure whose firmness limits the tail fold.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1CA23C5A28F2
+## title
+Concerning the folding of the embryonic disc, select the correct answer: (2023 - 2022) …
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the folding of the embryonic disc, select the correct answer: (2023 - 2022) ad Ac a- It is caused by expansion of the yolk sac cavity
+## answer_a
+It is caused by expansion of the yolk sac cavity.
+## explanation_a
+The wrong cavity. Folding is caused by expansion of the *amniotic* cavity, together with growth of the neural tube and somites; the yolk sac is compressed by folding rather than driving it.
+## answer_b
+It is of two types only head and tail folds
+## explanation_b
+The mark this reprint carries, and false. The head and tail folds are the cephalo-caudal pair; the right and left lateral folds are a second type, and without them the disc could never close into a cylinder.
+## answer_c
+It begins early in the second week.
+## explanation_c
+Folding begins at the end of the third week and is complete at the end of the fourth. Early in the second week the disc is not yet trilaminar and has nothing to fold.
+## answer_d
+It is limited by notochord
+## explanation_d
+Correct. The department book gives the firmness of the notochord as what limits the head fold, in the same sentence that gives the primitive streak as what limits the tail fold.
+## correct_answer
+D
+## main_concept
+CON-DEV-44A219B862FFD5
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Give the cause, the types, the timing and the limits of folding.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The reprint of the 2023 and 2022 sittings marks B — that folding is of two types only, head and tail. The department book gives two types of folding of which the cephalo-caudal type is only one: the transverse or lateral folding, with right and left lateral folds, is the other, and the primitive umbilical ring exists precisely because the lateral folds fail to fuse. B is therefore false. The book states that the firmness of the notochord limits the head fold, which makes D the only option that stands.
+
+
+---
+
+# Item
+## id
+QM-101-C267DFC42D90
+## title
+Epidermis of skin is derived from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Epidermis of skin is derived from
+## answer_a
+Neural crest
+## explanation_a
+The neural crest gives the melanocytes that live in the epidermis, along with peripheral ganglia and much of the head's connective tissue — but it does not make the epidermis itself.
+## answer_b
+Neural tube
+## explanation_b
+The neural tube is the ectoderm that sank inwards to become the central nervous system. The epidermis is the ectoderm that stayed on the surface, which is exactly the distinction the option pair tests.
+## answer_c
+Suiface ectoderm
+## explanation_c
+Correct. The epidermis of the skin is a surface ectodermal derivative, and it is on the department book's list of ectodermal derivatives in those words.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+Mesoderm makes the *dermis*, from the dermatome of the somite. A student who answers "skin" rather than "epidermis" picks this, which is why the books ask for the epidermis by name.
+## correct_answer
+C
+## main_concept
+CON-DEV-C84AD85AB265CC
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Assign the epidermis to its germ layer and separate it from the dermis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q40. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7A47154A526E
+## title
+Parenchyma of the liver is developed from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Parenchyma of the liver is developed from
+## answer_a
+Endoderm
+## explanation_a
+Correct. The liver buds from the endoderm of the foregut, and its parenchyma — the hepatocytes and the bile ducts — is endodermal glandular epithelium, like the pancreas, thyroid, thymus and parathyroids beside it in the book's list.
+## answer_b
+Ectoderm
+## explanation_b
+Ectoderm gives the beginning and the end of the digestive tract but nothing between them. A liver from ectoderm would have had to arise from the stomodeum.
+## answer_c
+Neural crest
+## explanation_c
+The neural crest contributes to the ganglia of the gut wall, not to the glandular epithelium that buds off it.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+The intra-embryonic mesoderm gives the connective tissue capsule, the stroma and the blood vessels of the liver — everything except the parenchyma, which is the word the question turns on.
+## correct_answer
+A
+## main_concept
+CON-DEV-C84AD85AB265CC
+## library_ids
+ART-101-ANA-NOTOCHORD
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Assign the parenchyma of a gut-derived gland to its germ layer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p94 q49. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No copy of this question in the bank carries a key. The department book lists the glandular epithelium derived from endoderm as "parenchyma of liver, pancreas, thyroid, thymus, tonsils and parathyroid glands" — the liver by name, first in the list.
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
