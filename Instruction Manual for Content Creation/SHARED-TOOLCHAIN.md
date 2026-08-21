@@ -2074,3 +2074,62 @@ test you can think of does not establish that the question was yours to answer.
 Note the manual's worked example settles the substance too: it writes `Medical team, Admin team`
 on a record whose `publication_status` is `needs_evidence` and `editorial_review_status` is
 `drafted_not_reviewed`. **It pairs the named teams with the not-reviewed statuses itself.**
+
+### Measure the parser, don't read it — and take this check
+
+The best form of the rule, and it needs **no knowledge of which columns are which**:
+
+> Send a probe value containing a `|` through `conceptFromRow` for **every** column, and
+> **observe the stored type.** A list parser splits it; a text parser keeps it whole.
+
+Reading `conceptImport.ts` works until someone changes a parser without changing a column name.
+**The probe cannot go stale**, because it measures the thing itself rather than a description
+of it. Wired into `medical:presence` and CI so it runs beside the two audit questions.
+
+It confirmed the counter-intuitive split by measurement rather than inspection — **22 list
+columns, 15 text**, with `pitfalls` text while `conflicts`, `uncertainty` and `original_wording`
+are lists — and found **five real errors on its first run**:
+
+```
+secondary_node_ids   empty on 84 question-book concepts
+aliases              empty on all 43 hand-authored practical concepts
+conflicts            "
+uncertainty          "
+article_ids          "
+```
+
+All `[clear]` now — **which is the difference between a concept with no aliases and a concept
+nobody considered aliases for.**
+
+### Argue from the stored value, and only from the stored value
+
+One lane ran **three conventions through its emitter in a day** — `[clear]` everywhere, then
+omission, then empty blocks — and each was argued from what the field *ought* to mean. **None
+survived contact with what the importer actually stores.**
+
+That is the lesson under every item in this section. `[clear]` on a text column, an empty block
+on a list column, a `field_notes` reason without its key, a reviewer named `[clear]` passing the
+audit — each was a plausible reading of intent, and each was wrong in a way only the stored
+state showed. **The markdown never shows it. The audit passes on several of them.**
+
+> Check the **simulated state**, not the batch file. Every one of these was invisible in the
+> source and visible after import.
+
+And on the reviewer reversal specifically: the objection was answered **inside the worked
+example both parties were departing from** — it pairs `Medical team, Admin team` with
+`publication_status: needs_evidence` and `editorial_review_status: drafted_not_reviewed`. An
+argument for reading the **whole example**, not the row.
+
+### Writing an OWED figure: name the tool that produced it
+
+Three lanes wrote an `OWED` document and **all three contained a counting error** — each in the
+document whose own argument is that counts should be checkable.
+
+- one counted `Brief:` lines, which articles do not use: **36 requests of which 66 were
+  required**, impossible on its face
+- one counted only question-attached media requests and silently omitted **71 on the articles**
+  — "five outstanding" against a real 76
+
+> **Cross-check every OWED figure against a tool's own output, not against your own count of
+> the same thing — and say which tool produced each number**, so the next reader can re-run it
+> rather than trust it.
