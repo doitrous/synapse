@@ -240,6 +240,10 @@ DIS-HIS-T01
 SYS-HEM-T01-S01-M03
 ## related_concepts
 CON-HEM-CC292B4D6CC61E
+CON-HEM-A2BE134E34EB83
+CON-HEM-B000CE18F93F83
+CON-HEM-2AD9D05B2B6947
+CON-HEM-5E948BE9C94615
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The platelet's lambda granules are lysosomes, and its microtubules and actin microfilaments are the cytoskeletal elements described in the cytology chapter.
 ## aliases
@@ -255,6 +259,8 @@ Platelets, or thrombocytes, are small oval non-nucleated fragments of cytoplasm 
 On light microscopy each platelet shows two zones. The outer, pale, basophilic peripheral zone is the hyalomere. The central dark granular zone is the granulomere. The distinction is not cosmetic: the book assigns different contents and different jobs to each, and the whole of the platelet's behaviour follows from which zone a structure sits in.
 
 The cell membrane carries a thick cell coat, and that coat is what allows platelets to aggregate with one another into the platelet plug that stops bleeding.
+
+Platelets are not made; they are shed. Within the megakaryocyte, invaginations of the plasma membrane called demarcation channels extend through the cytoplasm and out into the pseudopodia the cell pushes into the marrow sinusoid, dividing that cytoplasm into platelet ribbons which then fragment into individual platelets. The channels are invaginations of one cell's own membrane, not junctions between two cells, and the question books test exactly that distinction.
 
 ### Mechanism
 The hyalomere holds two systems, a cytoskeleton and a set of membranous channels, and each performs one step of platelet function.
