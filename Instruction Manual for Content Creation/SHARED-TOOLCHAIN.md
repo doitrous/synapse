@@ -1933,3 +1933,46 @@ because the resource records and the evidence chain do not exist yet.
 
 > **A check that errs toward green is worse than no check at all.** No check leaves you
 > uncertain; a lenient one leaves you confident and wrong.
+
+### The rule is per-parser, not per-column — and the fix is an empty block
+
+**Phrase it by which parser reads the column, never by a list of column names.**
+
+> Check whether the column is read by **`text()`** or by **`optionalList()`**. `[clear]` is a
+> sentinel to the second and four literal characters to the first.
+
+A per-column rule gets this wrong, and there is a proof: **`nanotopic` is split.**
+`bulkImport.ts:1219` reads it as `text('nanotopic')` for an **article**, while
+`conceptImport.ts:127` resolves it through `findBy`, where `[clear]` simply fails to match and
+yields nothing. **The same column name is a bug on an article and harmless on a concept.**
+
+Two lanes found two different sets. One found six on concepts — `reviewer`, `final_publisher`,
+`arabic_label`, `exclusion_reason`, `last_reviewed`, `review_due`. The other found four on
+articles — `nanotopic`, `published_summary`, `last_reviewed`, `review_due` — of which only
+`nanotopic` overlaps. `published_summary` is article-only and would never have appeared on a
+list derived from a concept batch.
+
+### The fix: emit the key with nothing under it
+
+Three options, and the third is the manual's own worked example:
+
+| | stored value | `fieldsUsed` | "considered and empty" distinguishable from "forgot the field"? |
+|---|---|---|---|
+| `[clear]` on a text column | **the string `[clear]`** | counts | no — and it **passes the audit by being non-empty** |
+| omit the column | null | **does not count** — one lane went 54 → 48, under the floor | **no** |
+| **`## key` with an empty body** | null | **counts** | **yes** |
+
+`parseMarkdown`'s matcher (`validate-content-batch.mjs:83`) sets
+`result[key] = match[2].trim()` whenever the header matches — so `## arabic_label` followed by
+the next `##` yields the key with an empty value. Then `text('')` is `undefined`, and
+`materialiseNewConcept` writes the null a genuinely new record needs.
+
+One lane's numbers across the change: `fieldsUsed` **54 → 54**, literal `[clear]` stored **152
+records → 0**, keys present on every record throughout, audit **0 errors naming its own records**
+with a positive control of 165 naming another lane's.
+
+**`[clear]` then appears only on genuine list columns, where it is read as the sentinel and
+stores `[]`.**
+
+Note the two facts about an empty block are both true at different layers: on an **update** row
+it means *untouched*, and on a **new** record `materialiseNewConcept` supplies the null anyway.
