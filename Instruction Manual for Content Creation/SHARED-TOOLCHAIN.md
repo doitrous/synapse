@@ -2218,3 +2218,59 @@ Same for the lenient-check rule, which is worst in a specific case:
 
 > A check that errs toward green is worst when it is **local and fast** — because that is
 > exactly the one people run most often, and trust most.
+
+### A check that cannot fail must say so rather than pass
+
+The strongest form of the null-result rule, and it caught a checker built *from* this section.
+
+A lane's sentinel checker passed its self-test and reported **0 sentinel-in-text, 0
+blank-in-list across 8 batches**. What saved it was a classification summary printed beside the
+result:
+
+```
+classified from the parsers: 20 list / 17 text for concepts, 19 / 0 elsewhere
+```
+
+**Zero text columns outside concepts.** The check was **vacuously passing** for all 17 articles
+and every question — it had nothing to look at. Cause: `conceptImport.ts` writes
+`text(values.subtopic)` while `bulkImport.ts` writes `text('subtopic')`, closing over `values`
+rather than taking it. The classifier's pattern matched only the first shape.
+
+> **`main()` now returns 2 rather than 0 if either classification comes back empty.** An empty
+> classification is a failure condition, not a clean result.
+
+Post-fix: 19 list / **24** text outside concepts, still 0 and 0 — **so the zero is now worth
+something.** Same false-clean as the article probe returning *"neither"*, reached from the
+opposite direction.
+
+### Verify a fix did not silence the signal it was near
+
+Before trusting the blank-to-`[clear]` conversion, that lane confirmed **the audit still
+reports all five of its real evidence-chain gaps**. Its reasoning: had `[]` satisfied
+`hasValue`, the "fix" would have **silenced genuine gaps and looked like an improvement** —
+the sentinel failure one layer up.
+
+**It does not, and this is worth knowing before anyone reads their error count wrongly.**
+`audit-medical-content-fields.mjs:18`:
+
+```js
+const hasValue = (value) => Array.isArray(value) ? value.length > 0 : …
+```
+
+**An empty array does not satisfy `hasValue`.** So converting a blank list column to `[clear]`:
+
+- **is** correct for meaning — `[]` says *considered and empty*, `null` says *not mentioned*;
+- **does not change audit results at all.**
+
+Expect your error count **not** to move. Neither "my errors dropped, so it worked" nor "did I
+hide something?" is the right reading — the fix is semantic, and the audit was never fooled.
+
+### One column, two parsers — report the ambiguity, do not resolve it
+
+The measured classification found `module` read by **both** parsers in different branches. The
+checker **prints it as ambiguous rather than picking**. Harmless in that module — 181
+occurrences, all carrying a value, never blank — but it is the same drift a hand-map produces,
+and the honest output is the ambiguity itself.
+
+Two agents on the same brief also diverged: identical intent stored as `None` in one subject
+and `[]` in another. **A convention held in a brief is not held; only a check holds it.**
